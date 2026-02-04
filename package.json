@@ -1,0 +1,29 @@
+{
+  "name": "open-skill-market",
+  "version": "1.0.0",
+  "description": "Open Skill Market - A curated collection of AI agent skills from GitHub",
+  "type": "module",
+  "main": "crawler/index.js",
+  "scripts": {
+    "crawl": "node crawler/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolzwc/open-skill-market.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coolzwc/open-skill-market/issues"
+  },
+  "homepage": "https://github.com/coolzwc/open-skill-market#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.1",
+    "octokit": "^5.0.5",
+    "prettier": "^3.8.1"
+  }
+}

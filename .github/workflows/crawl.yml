@@ -1,0 +1,115 @@
+name: Crawl Skills
+
+on:
+  # Run daily at 00:00 UTC
+  schedule:
+    - cron: "0 0 * * *"
+
+  # Allow manual triggering
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (don't commit changes)"
+        required: false
+        default: "false"
+        type: boolean
+
+  # Also run on push to main when skills or crawler changes
+  push:
+    branches:
+      - main
+    paths:
+      - "skills/**"
+      - "crawler/**"
+      - ".github/workflows/crawl.yml"
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    # Timeout settings:
+    # - Public repos: max 6 hours (360 min)
+    # - Private repos (Free/Pro): max 35 min
+    # - Private repos (Team/Enterprise): max 6 hours
+    # Set conservative timeout to ensure results are saved before forced termination
+    timeout-minutes: 30
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run crawler
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run crawl
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet market/skills.json; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.has_changes == 'true' && github.event.inputs.dry_run != 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add market/skills.json
+          git commit -m "chore: update skills.json [skip ci]
+
+          Automated update from crawler run at $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+          git push
+
+      - name: Summary
+        run: |
+          echo "## Crawl Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          TOTAL=$(jq '.meta.totalSkills' market/skills.json)
+          LOCAL=$(jq '.meta.localSkills' market/skills.json)
+          PRIORITY=$(jq '.meta.prioritySkills // 0' market/skills.json)
+          REMOTE=$(jq '.meta.remoteSkills' market/skills.json)
+          RATE_LIMITED=$(jq '.meta.rateLimited // false' market/skills.json)
+          TIMED_OUT=$(jq '.meta.timedOut // false' market/skills.json)
+          EXEC_TIME_MS=$(jq '.meta.executionTimeMs // 0' market/skills.json)
+          EXEC_TIME_MIN=$((EXEC_TIME_MS / 60000))
+          EXEC_TIME_SEC=$(((EXEC_TIME_MS % 60000) / 1000))
+          echo "| Source | Count |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Local (PR submitted) | $LOCAL |" >> $GITHUB_STEP_SUMMARY
+          echo "| Priority Repos | $PRIORITY |" >> $GITHUB_STEP_SUMMARY
+          echo "| GitHub Search | $REMOTE |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Total** | **$TOTAL** |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Execution time**: ${EXEC_TIME_MIN}m ${EXEC_TIME_SEC}s" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ "$RATE_LIMITED" == "true" ]; then
+            echo "> **Warning**: Crawl was incomplete due to GitHub API rate limiting." >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+          fi
+          if [ "$TIMED_OUT" == "true" ]; then
+            echo "> **Warning**: Crawl was incomplete due to execution timeout." >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+          fi
+          if [ "${{ steps.check_changes.outputs.has_changes }}" == "true" ]; then
+            if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
+              echo "**Status**: Dry run - changes not committed" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "**Status**: Changes committed successfully" >> $GITHUB_STEP_SUMMARY
+            fi
+          else
+            echo "**Status**: No changes detected" >> $GITHUB_STEP_SUMMARY
+          fi

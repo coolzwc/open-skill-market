@@ -1,0 +1,425 @@
+{
+  "meta": {
+    "generatedAt": "2026-02-04T10:10:13.026Z",
+    "totalSkills": 15,
+    "localSkills": 1,
+    "prioritySkills": 14,
+    "remoteSkills": 0,
+    "apiVersion": "1.1",
+    "rateLimited": false,
+    "timedOut": false,
+    "executionTimeMs": 101619
+  },
+  "skills": [
+    {
+      "id": "coolzwc/open-skill-market/skills/example-skill",
+      "name": "example-skill",
+      "displayName": "Example Skill",
+      "description": "This is an example skill demonstrating the Open Skill Market format. Use when testing skill installation or as a reference template.",
+      "details": "https://github.com/coolzwc/open-skill-market/main/skills/example-skill/SKILL.md",
+      "author": {
+        "name": "coolzwc",
+        "url": "https://github.com/coolzwc",
+        "avatar": "https://github.com/coolzwc.png"
+      },
+      "version": "1.0.0",
+      "tags": ["example", "template", "demo"],
+      "repository": {
+        "url": "https://github.com/coolzwc/open-skill-market",
+        "branch": "main",
+        "path": "skills/example-skill",
+        "latestCommitHash": "",
+        "downloadUrl": "https://api.github.com/repos/coolzwc/open-skill-market/zipball/main"
+      },
+      "files": ["example-skill/SKILL.md"],
+      "stats": { "stars": 0, "forks": 0, "lastUpdated": "2026-02-04T10:08:31.908Z" },
+      "source": "local",
+      "compatibility": { "minAgentVersion": "0.1.0" }
+    },
+    {
+      "id": "anthropics/skills/skills/algorithmic-art",
+      "name": "algorithmic-art",
+      "displayName": "Algorithmic Art",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+      "details": "https://github.com/anthropics/skills/main/skills/algorithmic-art/SKILL.md",
+      "author": {
+        "name": "anthropics",
+        "url": "https://github.com/anthropics",
+        "avatar": "https://github.com/anthropics.png"
+      },
+      "version": "0.0.0",
+      "tags": [],
+      "repository": {
+        "url": "https://github.com/anthropics/skills",
+        "branch": "main",
+        "path": "skills/algorithmic-art",
+        "latestCommitHash": "ef740771ac90",
+        "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
+      },
+      "files": [
+        "skills/algorithmic-art/LICENSE.txt",
+        "skills/algorithmic-art/SKILL.md",
+        "skills/algorithmic-art/templates"
+      ],
+      "stats": { "stars": 62683, "forks": 6145, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "source": "priority"
+    },
+    {
+      "id": "anthropics/skills/skills/canvas-design",
+      "name": "canvas-design",
+      "displayName": "Canvas Design",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "details": "https://github.com/anthropics/skills/main/skills/canvas-design/SKILL.md",
+      "author": {
+        "name": "anthropics",
+        "url": "https://github.com/anthropics",
+        "avatar": "https://github.com/anthropics.png"
+      },
+      "version": "0.0.0",
+      "tags": [],
+      "repository": {
+        "url": "https://github.com/anthropics/skills",
+        "branch": "main",
+        "path": "skills/canvas-design",
+        "latestCommitHash": "ef740771ac90",
+        "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
+      },
+      "files": [
+        "skills/canvas-design/LICENSE.txt",
+        "skills/canvas-design/SKILL.md",
+        "skills/canvas-design/canvas-fonts"
+      ],
+      "stats": { "stars": 62683, "forks": 6145, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "source": "priority"
+    },
+    {
+      "id": "anthropics/skills/skills/doc-coauthoring",
+      "name": "doc-coauthoring",
+      "displayName": "Doc Coauthoring",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "details": "https://github.com/anthropics/skills/main/skills/doc-coauthoring/SKILL.md",
+      "author": {
+        "name": "anthropics",
+        "url": "https://github.com/anthropics",
+        "avatar": "https://github.com/anthropics.png"
+      },
+      "version": "0.0.0",
+      "tags": [],
+      "repository": {
+        "url": "https://github.com/anthropics/skills",
+        "branch": "main",
+        "path": "skills/doc-coauthoring",
+        "latestCommitHash": "00756142ab04",
+        "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
+      },
+      "files": ["skills/doc-coauthoring/SKILL.md"],
+      "stats": { "stars": 62683, "forks": 6145, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "source": "priority"
+    },
+    {
+      "id": "anthropics/skills/skills/docx",
+      "name": "docx",
+      "displayName": "Docx",
+      "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of \"Word doc\", \"word document\", \".docx\", or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a \"report\", \"memo\", \"letter\", \"template\", or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
+      "details": "https://github.com/anthropics/skills/main/skills/docx/SKILL.md",
+      "author": {
+        "name": "anthropics",
+        "url": "https://github.com/anthropics",
+        "avatar": "https://github.com/anthropics.png"
+      },
+      "version": "0.0.0",
+      "tags": [],
+      "repository": {
+        "url": "https://github.com/anthropics/skills",
+        "branch": "main",
+        "path": "skills/docx",
+        "latestCommitHash": "4e6907a33c3c",
+        "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
+      },
+      "files": ["skills/docx/LICENSE.txt", "skills/docx/SKILL.md", "skills/docx/scripts"],
+      "stats": { "stars": 62683, "forks": 6145, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "source": "priority"
+    },
+    {
+      "id": "anthropics/skills/skills/frontend-design",
+      "name": "frontend-design",
+      "displayName": "Frontend Design",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+      "details": "https://github.com/anthropics/skills/main/skills/frontend-design/SKILL.md",
+      "author": {
+        "name": "anthropics",
+        "url": "https://github.com/anthropics",
+        "avatar": "https://github.com/anthropics.png"
+      },
+      "version": "0.0.0",
+      "tags": [],
+      "repository": {
+        "url": "https://github.com/anthropics/skills",
+        "branch": "main",
+        "path": "skills/frontend-design",
+        "latestCommitHash": "00756142ab04",
+        "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
+      },
+      "files": ["skills/frontend-design/LICENSE.txt", "skills/frontend-design/SKILL.md"],
+      "stats": { "stars": 62683, "forks": 6145, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "source": "priority"
+    },
+    {
+      "id": "anthropics/skills/skills/mcp-builder",
+      "name": "mcp-builder",
+      "displayName": "Mcp Builder",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "details": "https://github.com/anthropics/skills/main/skills/mcp-builder/SKILL.md",
+      "author": {
+        "name": "anthropics",
+        "url": "https://github.com/anthropics",
+        "avatar": "https://github.com/anthropics.png"
+      },
+      "version": "0.0.0",
+      "tags": [],
+      "repository": {
+        "url": "https://github.com/anthropics/skills",
+        "branch": "main",
+        "path": "skills/mcp-builder",
+        "latestCommitHash": "ef740771ac90",
+        "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
+      },
+      "files": [
+        "skills/mcp-builder/LICENSE.txt",
+        "skills/mcp-builder/SKILL.md",
+        "skills/mcp-builder/reference",
+        "skills/mcp-builder/scripts"
+      ],
+      "stats": { "stars": 62683, "forks": 6145, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "source": "priority"
+    },
+    {
+      "id": "anthropics/skills/skills/pdf",
+      "name": "pdf",
+      "displayName": "Pdf",
+      "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
+      "details": "https://github.com/anthropics/skills/main/skills/pdf/SKILL.md",
+      "author": {
+        "name": "anthropics",
+        "url": "https://github.com/anthropics",
+        "avatar": "https://github.com/anthropics.png"
+      },
+      "version": "0.0.0",
+      "tags": [],
+      "repository": {
+        "url": "https://github.com/anthropics/skills",
+        "branch": "main",
+        "path": "skills/pdf",
+        "latestCommitHash": "4e6907a33c3c",
+        "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
+      },
+      "files": [
+        "skills/pdf/LICENSE.txt",
+        "skills/pdf/SKILL.md",
+        "skills/pdf/forms.md",
+        "skills/pdf/reference.md",
+        "skills/pdf/scripts"
+      ],
+      "stats": { "stars": 62683, "forks": 6145, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "source": "priority"
+    },
+    {
+      "id": "anthropics/skills/skills/pptx",
+      "name": "pptx",
+      "displayName": "Pptx",
+      "description": "Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions \"deck,\" \"slides,\" \"presentation,\" or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill.",
+      "details": "https://github.com/anthropics/skills/main/skills/pptx/SKILL.md",
+      "author": {
+        "name": "anthropics",
+        "url": "https://github.com/anthropics",
+        "avatar": "https://github.com/anthropics.png"
+      },
+      "version": "0.0.0",
+      "tags": [],
+      "repository": {
+        "url": "https://github.com/anthropics/skills",
+        "branch": "main",
+        "path": "skills/pptx",
+        "latestCommitHash": "4e6907a33c3c",
+        "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
+      },
+      "files": [
+        "skills/pptx/LICENSE.txt",
+        "skills/pptx/SKILL.md",
+        "skills/pptx/editing.md",
+        "skills/pptx/pptxgenjs.md",
+        "skills/pptx/scripts"
+      ],
+      "stats": { "stars": 62683, "forks": 6145, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "source": "priority"
+    },
+    {
+      "id": "anthropics/skills/skills/skill-creator",
+      "name": "skill-creator",
+      "displayName": "Skill Creator",
+      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
+      "details": "https://github.com/anthropics/skills/main/skills/skill-creator/SKILL.md",
+      "author": {
+        "name": "anthropics",
+        "url": "https://github.com/anthropics",
+        "avatar": "https://github.com/anthropics.png"
+      },
+      "version": "0.0.0",
+      "tags": [],
+      "repository": {
+        "url": "https://github.com/anthropics/skills",
+        "branch": "main",
+        "path": "skills/skill-creator",
+        "latestCommitHash": "ef740771ac90",
+        "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
+      },
+      "files": [
+        "skills/skill-creator/LICENSE.txt",
+        "skills/skill-creator/SKILL.md",
+        "skills/skill-creator/references",
+        "skills/skill-creator/scripts"
+      ],
+      "stats": { "stars": 62683, "forks": 6145, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "source": "priority"
+    },
+    {
+      "id": "anthropics/skills/skills/slack-gif-creator",
+      "name": "slack-gif-creator",
+      "displayName": "Slack Gif Creator",
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+      "details": "https://github.com/anthropics/skills/main/skills/slack-gif-creator/SKILL.md",
+      "author": {
+        "name": "anthropics",
+        "url": "https://github.com/anthropics",
+        "avatar": "https://github.com/anthropics.png"
+      },
+      "version": "0.0.0",
+      "tags": [],
+      "repository": {
+        "url": "https://github.com/anthropics/skills",
+        "branch": "main",
+        "path": "skills/slack-gif-creator",
+        "latestCommitHash": "ef740771ac90",
+        "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
+      },
+      "files": [
+        "skills/slack-gif-creator/LICENSE.txt",
+        "skills/slack-gif-creator/SKILL.md",
+        "skills/slack-gif-creator/core",
+        "skills/slack-gif-creator/requirements.txt"
+      ],
+      "stats": { "stars": 62683, "forks": 6145, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "source": "priority"
+    },
+    {
+      "id": "anthropics/skills/skills/theme-factory",
+      "name": "theme-factory",
+      "displayName": "Theme Factory",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "details": "https://github.com/anthropics/skills/main/skills/theme-factory/SKILL.md",
+      "author": {
+        "name": "anthropics",
+        "url": "https://github.com/anthropics",
+        "avatar": "https://github.com/anthropics.png"
+      },
+      "version": "0.0.0",
+      "tags": [],
+      "repository": {
+        "url": "https://github.com/anthropics/skills",
+        "branch": "main",
+        "path": "skills/theme-factory",
+        "latestCommitHash": "ef740771ac90",
+        "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
+      },
+      "files": [
+        "skills/theme-factory/LICENSE.txt",
+        "skills/theme-factory/SKILL.md",
+        "skills/theme-factory/theme-showcase.pdf",
+        "skills/theme-factory/themes"
+      ],
+      "stats": { "stars": 62683, "forks": 6145, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "source": "priority"
+    },
+    {
+      "id": "anthropics/skills/skills/web-artifacts-builder",
+      "name": "web-artifacts-builder",
+      "displayName": "Web Artifacts Builder",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+      "details": "https://github.com/anthropics/skills/main/skills/web-artifacts-builder/SKILL.md",
+      "author": {
+        "name": "anthropics",
+        "url": "https://github.com/anthropics",
+        "avatar": "https://github.com/anthropics.png"
+      },
+      "version": "0.0.0",
+      "tags": [],
+      "repository": {
+        "url": "https://github.com/anthropics/skills",
+        "branch": "main",
+        "path": "skills/web-artifacts-builder",
+        "latestCommitHash": "ef740771ac90",
+        "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
+      },
+      "files": [
+        "skills/web-artifacts-builder/LICENSE.txt",
+        "skills/web-artifacts-builder/SKILL.md",
+        "skills/web-artifacts-builder/scripts"
+      ],
+      "stats": { "stars": 62683, "forks": 6145, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "source": "priority"
+    },
+    {
+      "id": "anthropics/skills/skills/webapp-testing",
+      "name": "webapp-testing",
+      "displayName": "Webapp Testing",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "details": "https://github.com/anthropics/skills/main/skills/webapp-testing/SKILL.md",
+      "author": {
+        "name": "anthropics",
+        "url": "https://github.com/anthropics",
+        "avatar": "https://github.com/anthropics.png"
+      },
+      "version": "0.0.0",
+      "tags": [],
+      "repository": {
+        "url": "https://github.com/anthropics/skills",
+        "branch": "main",
+        "path": "skills/webapp-testing",
+        "latestCommitHash": "ef740771ac90",
+        "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
+      },
+      "files": [
+        "skills/webapp-testing/LICENSE.txt",
+        "skills/webapp-testing/SKILL.md",
+        "skills/webapp-testing/examples",
+        "skills/webapp-testing/scripts"
+      ],
+      "stats": { "stars": 62683, "forks": 6145, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "source": "priority"
+    },
+    {
+      "id": "anthropics/skills/skills/xlsx",
+      "name": "xlsx",
+      "displayName": "Xlsx",
+      "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \"the xlsx in my downloads\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
+      "details": "https://github.com/anthropics/skills/main/skills/xlsx/SKILL.md",
+      "author": {
+        "name": "anthropics",
+        "url": "https://github.com/anthropics",
+        "avatar": "https://github.com/anthropics.png"
+      },
+      "version": "0.0.0",
+      "tags": [],
+      "repository": {
+        "url": "https://github.com/anthropics/skills",
+        "branch": "main",
+        "path": "skills/xlsx",
+        "latestCommitHash": "4e6907a33c3c",
+        "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
+      },
+      "files": ["skills/xlsx/LICENSE.txt", "skills/xlsx/SKILL.md", "skills/xlsx/scripts"],
+      "stats": { "stars": 62683, "forks": 6145, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "source": "priority"
+    }
+  ]
+}

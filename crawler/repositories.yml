@@ -1,0 +1,11 @@
+# Priority Repositories
+# These repositories are crawled first before topic-based search.
+# Format: owner/repo (e.g., anthropics/skills)
+#
+# Example:
+#   priority:
+#     - anthropics/skills
+#     - github/awesome-copilot
+
+priority: []
+  - anthropics/skills
