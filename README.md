@@ -28,7 +28,14 @@ open-skill-market/
 │   └── your-skill/           # Your skill here!
 │       └── SKILL.md
 ├── crawler/
-│   ├── index.js              # GitHub crawler script
+│   ├── index.js              # Main entry point and orchestrator
+│   ├── config.js             # Configuration and constants
+│   ├── worker-pool.js        # Multi-token GitHub client pool
+│   ├── rate-limit.js         # Rate limit and timeout handling
+│   ├── github-api.js         # GitHub API interactions
+│   ├── skill-parser.js       # SKILL.md parsing and categorization
+│   ├── local-scanner.js      # Local skills directory scanner
+│   ├── utils.js              # Utility functions
 │   └── repositories.yml      # Priority repositories config
 ├── market/
 │   └── skills.json           # Generated skills registry
@@ -38,6 +45,19 @@ open-skill-market/
 ├── package.json
 └── README.md
 ```
+
+### Crawler Modules
+
+| Module | Description |
+|--------|-------------|
+| `index.js` | Main orchestrator: initializes worker pool, runs 3-phase crawl, deduplicates, and saves output |
+| `config.js` | Centralized configuration (search topics, paths, rate limits, timeouts) |
+| `worker-pool.js` | Manages multiple GitHub tokens and Octokit clients for parallel processing |
+| `rate-limit.js` | Handles GitHub API rate limits and execution timeouts |
+| `github-api.js` | All GitHub API calls (search, fetch content, get repo details) |
+| `skill-parser.js` | Parses SKILL.md frontmatter, validates quality, assigns categories |
+| `local-scanner.js` | Scans local `skills/` directory for PR-submitted skills |
+| `utils.js` | Helper functions (sleep, path checks, ID generation, etc.) |
 
 ## Skills Registry Format
 
@@ -49,8 +69,12 @@ The `market/skills.json` file contains all discovered skills in the following fo
     "generatedAt": "2026-02-04T10:00:00Z",
     "totalSkills": 125,
     "localSkills": 10,
-    "remoteSkills": 115,
-    "apiVersion": "1.1"
+    "prioritySkills": 15,
+    "remoteSkills": 100,
+    "apiVersion": "1.1",
+    "rateLimited": false,
+    "timedOut": false,
+    "executionTimeMs": 180000
   },
   "skills": [
     {
@@ -58,6 +82,8 @@ The `market/skills.json` file contains all discovered skills in the following fo
       "name": "skill-name",
       "displayName": "Skill Name",
       "description": "What this skill does...",
+      "categories": ["development", "automation"],
+      "details": "https://raw.githubusercontent.com/owner/repo/main/path/SKILL.md",
       "author": {
         "name": "owner",
         "url": "https://github.com/owner",
@@ -78,7 +104,10 @@ The `market/skills.json` file contains all discovered skills in the following fo
         "forks": 10,
         "lastUpdated": "2026-02-01T00:00:00Z"
       },
-      "source": "local | github"
+      "compatibility": {
+        "agents": ["cursor", "claude", "copilot"]
+      },
+      "source": "local | priority | github"
     }
   ]
 }
@@ -88,6 +117,27 @@ The `source` field indicates where the skill came from:
 - `local`: Submitted via PR to this repository's `skills/` directory
 - `priority`: From a priority repository configured in the crawler
 - `github`: Discovered by the crawler via GitHub search
+
+### Automatic Categorization
+
+Skills are automatically categorized based on keywords in their name and description. Available categories:
+
+| Category | Keywords |
+|----------|----------|
+| Development | code, coding, programming, developer, ide, editor, debug, refactor... |
+| AI & LLM | ai, llm, gpt, claude, openai, langchain, prompt, agent... |
+| DevOps | docker, kubernetes, ci/cd, deploy, infrastructure, terraform... |
+| Database | database, sql, postgres, mongodb, redis, query... |
+| Web | web, frontend, backend, react, vue, html, css, api... |
+| Mobile | mobile, ios, android, react-native, flutter, swift... |
+| Documentation | docs, documentation, readme, markdown, writing... |
+| Testing | test, testing, unit test, integration, jest, pytest... |
+| Security | security, auth, encryption, vulnerability, oauth... |
+| Data | data, analytics, visualization, pandas, etl, pipeline... |
+| Automation | automation, workflow, script, task, cron, scheduler... |
+| Design | design, ui, ux, figma, css, styling, theme... |
+
+A skill receives a category tag if at least 2 keywords from that category appear in its name or description.
 
 ## Usage
 
@@ -157,6 +207,31 @@ When rate limits are reached, the crawler will:
 2. Resume crawling after the wait
 3. If the wait would be too long, save partial results and exit
 
+### Multi-Token Parallel Processing
+
+To increase API capacity and speed, the crawler supports multiple GitHub tokens from different accounts. Each token provides an independent rate limit quota:
+
+```bash
+# .env file
+GITHUB_TOKEN=ghp_main_token          # Required: Primary token
+EXTRA_TOKEN_1=ghp_token_from_acc1    # Optional: Additional token
+EXTRA_TOKEN_2=ghp_token_from_acc2    # Optional: Additional token
+EXTRA_TOKEN_3=ghp_token_from_acc3    # Optional: Additional token
+EXTRA_TOKEN_4=ghp_token_from_acc4    # Optional: Additional token
+EXTRA_TOKEN_5=ghp_token_from_acc5    # Optional: Additional token
+```
+
+**Note**: Using `EXTRA_TOKEN_` prefix because GitHub Actions reserves the `GITHUB_` prefix for system variables.
+
+**Important**: Tokens must be from *different* GitHub accounts to get independent rate limits. Multiple tokens from the same account share the same quota.
+
+Benefits:
+- **6x API capacity**: With 6 tokens, you get 30,000 REST API requests/hour
+- **Parallel processing**: Repositories are processed concurrently using a task queue
+- **Automatic failover**: If one token hits its limit, others continue working
+
+The crawler automatically detects available tokens (checking `EXTRA_TOKEN_1` through `EXTRA_TOKEN_5` sequentially) and creates a worker pool.
+
 ### Execution Timeout
 
 The crawler has built-in execution timeout handling to work within GitHub Actions limits:
@@ -167,18 +242,28 @@ The crawler has built-in execution timeout handling to work within GitHub Action
 | Private repos (Free/Pro) | 35 minutes |
 | Private repos (Team/Enterprise) | 6 hours |
 
-The workflow is configured with a 30-minute timeout, and the crawler will automatically stop after 25 minutes to ensure results are saved before the job is terminated.
+The crawler is configured to run for up to 5 hours, which works well for public repositories (6-hour limit) or Team/Enterprise private repos. For Free/Pro private repos with a 35-minute limit, you may need to adjust the timeout.
 
-You can adjust these settings in `crawler/index.js`:
+You can adjust these settings in `crawler/config.js`:
 
 ```javascript
 execution: {
-  maxExecutionTime: 25 * 60 * 1000, // 25 minutes
-  saveBuffer: 2 * 60 * 1000,        // 2 minutes buffer for saving
+  maxExecutionTime: 5 * 60 * 60 * 1000, // 5 hours
+  saveBuffer: 2 * 60 * 1000,            // 2 minutes buffer for saving
 },
 ```
 
 The `meta.timedOut` and `meta.rateLimited` fields in `skills.json` indicate if the crawl was incomplete.
+
+### Crawl Phases
+
+The crawler operates in three phases:
+
+1. **Phase 1: Local Skills** - Scans the `skills/` directory for PR-submitted skills
+2. **Phase 2: Priority Repositories** - Crawls repositories listed in `repositories.yml`
+3. **Phase 3: GitHub Topic Search** - Searches GitHub for repositories with relevant topics (claude-skill, ai-skill, langchain-tools, etc.)
+
+Skills are deduplicated by name + description, with priority: local > priority > github (higher stars preferred).
 
 ### GitHub Actions (Automated)
 
@@ -189,6 +274,23 @@ The crawler runs automatically via GitHub Actions:
 - **On Push**: Runs when crawler code changes
 
 The workflow automatically commits and pushes changes to `market/skills.json`.
+
+#### Configuring Multi-Token in GitHub Actions
+
+To use multiple tokens in the workflow, add them as repository secrets:
+
+1. Go to **Settings > Secrets and variables > Actions**
+2. Add secrets: `PAT_TOKEN` (or use default `GITHUB_TOKEN`), `EXTRA_TOKEN_1`, `EXTRA_TOKEN_2`, etc.
+3. The workflow automatically passes these to the crawler
+
+```yaml
+# .github/workflows/crawl.yml (excerpt)
+env:
+  GITHUB_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
+  EXTRA_TOKEN_1: ${{ secrets.EXTRA_TOKEN_1 }}
+  EXTRA_TOKEN_2: ${{ secrets.EXTRA_TOKEN_2 }}
+  # ... up to EXTRA_TOKEN_5
+```
 
 ## For Skill Authors
 

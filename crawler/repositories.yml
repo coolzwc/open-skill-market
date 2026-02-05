@@ -7,5 +7,10 @@
 #     - anthropics/skills
 #     - github/awesome-copilot
 
-priority: []
+priority:
   - anthropics/skills
+  - vercel-labs/agent-skills
+  - openai/skills
+  - agentskills/agentskills
+  - vuejs-ai/skills
+  - huggingface/skills

@@ -1,5 +1,21 @@
 name: Crawl Skills
 
+# Multi-token support:
+# The crawler supports multiple GitHub tokens for higher rate limits.
+# Each token from a DIFFERENT account adds 5000 req/hour capacity.
+#
+# Required secrets:
+#   - PAT_TOKEN or GITHUB_TOKEN: Primary token (required)
+#
+# Optional secrets (from different GitHub accounts):
+#   - EXTRA_TOKEN_1: Additional token 1
+#   - EXTRA_TOKEN_2: Additional token 2
+#   - EXTRA_TOKEN_3: Additional token 3
+#   - EXTRA_TOKEN_4: Additional token 4
+#   - EXTRA_TOKEN_5: Additional token 5
+#
+# Note: Using EXTRA_TOKEN_ prefix because GitHub Actions reserves GITHUB_ prefix
+
 on:
   # Run daily at 00:00 UTC
   schedule:
@@ -30,8 +46,8 @@ jobs:
     # - Public repos: max 6 hours (360 min)
     # - Private repos (Free/Pro): max 35 min
     # - Private repos (Team/Enterprise): max 6 hours
-    # Set conservative timeout to ensure results are saved before forced termination
-    timeout-minutes: 30
+    # Crawler is configured for 5 hours max execution time
+    timeout-minutes: 320
 
     permissions:
       contents: write
@@ -51,7 +67,15 @@ jobs:
 
       - name: Run crawler
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Primary token (uses built-in GITHUB_TOKEN or custom PAT_TOKEN)
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
+          # Additional tokens from different accounts for higher rate limits
+          # Add these as repository secrets: EXTRA_TOKEN_1, EXTRA_TOKEN_2, etc.
+          EXTRA_TOKEN_1: ${{ secrets.EXTRA_TOKEN_1 }}
+          EXTRA_TOKEN_2: ${{ secrets.EXTRA_TOKEN_2 }}
+          EXTRA_TOKEN_3: ${{ secrets.EXTRA_TOKEN_3 }}
+          EXTRA_TOKEN_4: ${{ secrets.EXTRA_TOKEN_4 }}
+          EXTRA_TOKEN_5: ${{ secrets.EXTRA_TOKEN_5 }}
         run: npm run crawl
 
       - name: Check for changes
