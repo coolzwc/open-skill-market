@@ -1,6 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 import matter from "gray-matter";
+import { execSync } from "child_process";
 import { CONFIG } from "./config.js";
 import {
   pathExists,
@@ -8,6 +9,24 @@ import {
   generateDisplayName,
 } from "./utils.js";
 import { parseSkillContent, categorizeSkill } from "./skill-parser.js";
+
+/**
+ * Get git commit hash for a local directory
+ * @param {string} dirPath - Directory path
+ * @returns {string} - Short commit hash or empty string
+ */
+function getLocalDirCommitHash(dirPath) {
+  try {
+    // Get the latest commit hash for files in this directory
+    const result = execSync(
+      `git log -1 --format="%H" -- "${dirPath}"`,
+      { cwd: CONFIG.localSkillsPath, encoding: "utf-8", stdio: ["pipe", "pipe", "pipe"] }
+    ).trim();
+    return result ? result.substring(0, 12) : "";
+  } catch {
+    return "";
+  }
+}
 
 /**
  * Scan local skills directory for PR-submitted skills
@@ -64,6 +83,9 @@ export async function scanLocalSkills() {
       const skillDescription =
         parsed.description || `Local skill: ${skillDir.name}`;
 
+      // Get commit hash for this skill directory
+      const localCommitHash = getLocalDirCommitHash(skillDir.name);
+
       const manifest = {
         id: `${CONFIG.thisRepo.owner}/${CONFIG.thisRepo.name}/skills/${skillDir.name}`,
         name: skillName,
@@ -77,12 +99,13 @@ export async function scanLocalSkills() {
           avatar: `https://github.com/${authorName}.png`,
         },
         version: parsed.version || "0.0.0",
+        commitHash: localCommitHash || "local",
         tags: parsed.tags,
         repository: {
           url: CONFIG.thisRepo.url,
           branch: "main",
           path: `skills/${skillDir.name}`,
-          latestCommitHash: "",
+          latestCommitHash: localCommitHash || "local",
           downloadUrl: `https://api.github.com/repos/${CONFIG.thisRepo.owner}/${CONFIG.thisRepo.name}/zipball/main`,
         },
         files: relativeFiles.slice(0, 20),

@@ -20,6 +20,7 @@ import {
 import { scanLocalSkills } from "./local-scanner.js";
 
 import { crawlerCache } from "./cache.js";
+import { generateSkillZip, generateZipUrl } from "./zip-generator.js";
 
 /**
  * Main crawler function
@@ -282,6 +283,86 @@ async function main() {
   // Replace with deduplicated list
   allSkills.length = 0;
   allSkills.push(...dedupedSkills);
+
+  // Generate zip packages for skills (if enabled)
+  if (CONFIG.zips.enabled) {
+    console.log(`\n${"=".repeat(50)}`);
+    console.log("Generating Skill Zip Packages");
+    console.log("=".repeat(50));
+    
+    let generatedCount = 0;
+    let skippedCount = 0;
+    let errorCount = 0;
+
+    for (const skill of allSkills) {
+      try {
+        // Extract owner and repo from repository URL
+        const match = skill.repository.url.match(/github\.com\/([^/]+)\/([^/]+)/);
+        if (!match) {
+          console.log(`  ⚠ Skipping ${skill.name}: Invalid repository URL`);
+          skippedCount++;
+          continue;
+        }
+        const [, owner, repo] = match;
+        
+        // Generate cache key
+        const cacheKey = `${owner}/${repo}/${skill.repository.path}`;
+        
+        // Check if zip needs regeneration
+        const needsRegeneration = crawlerCache.needsZipRegeneration(
+          cacheKey,
+          skill.repository.latestCommitHash
+        );
+
+        if (!needsRegeneration) {
+          // Use cached zip info
+          const zipInfo = crawlerCache.getZipInfo(cacheKey);
+          if (zipInfo) {
+            skill.skillZipUrl = generateZipUrl(
+              CONFIG.zips.baseUrl,
+              owner,
+              repo,
+              skill.name
+            );
+            skippedCount++;
+            continue;
+          }
+        }
+
+        // Generate new zip
+        console.log(`  Generating zip for ${skill.name}...`);
+        const { zipPath, zipHash } = await generateSkillZip(
+          skill,
+          CONFIG.zips.outputDir,
+          activeClient?.octokit
+        );
+
+        // Update skill manifest with zip URL
+        skill.skillZipUrl = generateZipUrl(
+          CONFIG.zips.baseUrl,
+          owner,
+          repo,
+          skill.name
+        );
+
+        // Update cache
+        crawlerCache.setZipInfo(cacheKey, { zipHash, zipPath });
+        
+        generatedCount++;
+      } catch (error) {
+        console.error(`  ✗ Error generating zip for ${skill.name}: ${error.message}`);
+        errorCount++;
+        // Continue with other skills even if one fails
+      }
+    }
+
+    console.log(`\nZip Generation Summary:`);
+    console.log(`  Generated: ${generatedCount}`);
+    console.log(`  Cached: ${skippedCount}`);
+    if (errorCount > 0) {
+      console.log(`  Errors: ${errorCount}`);
+    }
+  }
 
   // Generate output
   const priorityCount = allSkills.filter((s) => s.source === "priority").length;

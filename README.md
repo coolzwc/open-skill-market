@@ -36,10 +36,12 @@ open-skill-market/
 │   ├── skill-parser.js       # SKILL.md parsing and categorization
 │   ├── local-scanner.js      # Local skills directory scanner
 │   ├── cache.js              # Two-level caching (repo + skill directory)
+│   ├── zip-generator.js      # Skill zip package generator
 │   ├── utils.js              # Utility functions
 │   └── repositories.yml      # Priority repositories config
 ├── market/
-│   └── skills.json           # Generated skills registry
+│   ├── skills.json           # Generated skills registry
+│   └── zips/                 # Generated skill zip packages
 ├── .github/
 │   └── workflows/
 │       └── crawl.yml         # Scheduled GitHub Action
@@ -59,6 +61,7 @@ open-skill-market/
 | `skill-parser.js` | Parses SKILL.md frontmatter, validates quality, assigns categories |
 | `local-scanner.js` | Scans local `skills/` directory for PR-submitted skills |
 | `cache.js` | Two-level caching: repo-level (skip unchanged repos) and skill-directory-level (skip unchanged skills) |
+| `zip-generator.js` | Generates individual skill zip packages for direct download |
 | `utils.js` | Helper functions (sleep, path checks, ID generation, etc.) |
 
 ## Skills Registry Format
@@ -101,6 +104,7 @@ The `market/skills.json` file contains all discovered skills in the following fo
         "latestCommitHash": "abc123...",
         "downloadUrl": "https://api.github.com/repos/owner/repo/zipball/main"
       },
+      "skillZipUrl": "https://raw.githubusercontent.com/coolzwc/open-skill-market/main/market/zips/owner-repo-skill-name.zip",
       "files": ["SKILL.md", "reference.md"],
       "stats": {
         "stars": 100,
@@ -124,6 +128,19 @@ The `source` field indicates where the skill came from:
 The commit hash fields track version changes:
 - `commitHash`: The skill directory's latest commit hash (detects changes to any file in the skill folder)
 - `repository.latestCommitHash`: The entire repository's latest commit hash (for repo-level caching)
+
+### Skill Zip Packages
+
+Each skill has two download options:
+
+1. **`repository.downloadUrl`**: Downloads the entire repository as a zip file (GitHub zipball API)
+2. **`skillZipUrl`**: Downloads only the specific skill directory as a zip file
+
+The `skillZipUrl` provides a convenient way to download individual skills without fetching the entire repository. The zip packages are:
+- Automatically generated during the crawler run
+- Stored in the `market/zips/` directory
+- Only regenerated when the skill content changes (based on commit hash)
+- Structured to preserve the original skill directory name (e.g., unpacking `canvas-design.zip` creates a `canvas-design/` folder)
 
 ### Automatic Categorization
 
@@ -178,7 +195,21 @@ A skill receives a category tag if at least 2 keywords from that category appear
    npm run crawl
    ```
 
-5. (Optional) Run in test mode to scan only specific repos:
+   The crawler will automatically generate zip packages for each skill in the `market/zips/` directory.
+
+5. (Optional) Disable zip generation:
+
+   ```bash
+   GENERATE_ZIPS=false npm run crawl
+   ```
+
+6. (Optional) Use a custom base URL for zip packages (e.g., your own CDN):
+
+   ```bash
+   ZIP_BASE_URL=https://your-cdn.com/zips npm run crawl
+   ```
+
+7. (Optional) Run in test mode to scan only specific repos:
 
    ```bash
    # Use default test repos (anthropics/skills, huggingface/skills)
@@ -240,6 +271,25 @@ How it works:
 4. Only fetch/parse skills whose directories have new commits
 
 The cache is stored in `crawler/.crawler-cache.json` and persisted across GitHub Actions runs.
+
+#### Cache Version Control
+
+The cache includes a version number to handle format changes across code updates:
+
+- **Current version**: v1
+- When a version mismatch is detected, the crawler will:
+  - **migrate** (default): Attempt to migrate old cache data to the new format
+  - **discard**: Clear the cache and start fresh
+
+You can control the migration strategy via environment variable:
+
+```bash
+# Use migration (default)
+CACHE_MIGRATION_STRATEGY=migrate npm run crawl
+
+# Discard old cache
+CACHE_MIGRATION_STRATEGY=discard npm run crawl
+```
 
 ### Multi-Token Parallel Processing
 
@@ -425,6 +475,48 @@ const gitSkills = skills.filter((s) => s.tags.includes("git"));
 // Sort by popularity
 const popular = skills.sort((a, b) => b.stats.stars - a.stats.stars);
 ```
+
+## 🙏 Help Us Scale - Contribute Your GitHub Token
+
+Our crawler relies on GitHub API to discover skills across thousands of repositories. Unfortunately, GitHub's API rate limits are strict:
+
+| API | Per Token Limit |
+|-----|----------------|
+| REST API | 5,000 requests/hour |
+| Search API | 30 requests/minute |
+
+**Why we need your help**: With more tokens from different accounts, we can:
+- Crawl more repositories in each run
+- Discover skills faster and more comprehensively
+- Keep the skill registry up-to-date more frequently
+- Avoid incomplete crawls due to rate limiting
+
+**If you don't use GitHub API**: Every GitHub account comes with a free API quota (5,000 requests/hour), but most users never use it! If you're not using the GitHub API for your own projects, your quota is sitting idle. By contributing a token, you're donating unused resources to help the open-source community discover more AI skills.
+
+### How to Contribute a Token
+
+1. **Create a GitHub Personal Access Token**:
+   - Go to [GitHub Settings > Developer settings > Personal access tokens > Tokens (classic)](https://github.com/settings/tokens)
+   - Click **"Generate new token (classic)"**
+   - Give it a descriptive name (e.g., "Open Skill Market Crawler")
+   - Set expiration (recommend: 90 days or longer)
+   - Select scope: **`public_repo`** (only this scope is needed - read-only access to public repos)
+   - Click **"Generate token"**
+   - Copy the token (starts with `ghp_`)
+
+2. **Send the token to us**:
+   - Email your token to: **coolzwc@gmail.com**
+   - Subject: `[Open Skill Market] GitHub Token Contribution`
+   - Include your GitHub username (optional, for attribution)
+
+### Security Notes
+
+- The token only needs `public_repo` scope (read-only access to public repositories)
+- We will only use the token for crawling public SKILL.md files
+- You can revoke your token anytime from [GitHub Settings](https://github.com/settings/tokens)
+- We recommend setting an expiration date and renewing periodically
+
+**Thank you for helping make the Open Skill Market more comprehensive!** 🚀
 
 ## Contributing
 

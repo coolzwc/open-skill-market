@@ -97,9 +97,13 @@ export async function processRepoWithCache(workerPool, owner, repo, repoDetails,
     }
     
     console.log(`  Using cached ${cachedSkills.length} skill(s) for ${repoFullName} (no changes)`);
-    // Update stats from current repoDetails
+    // Update stats and ensure commitHash field is present for each skill
     for (const skill of cachedSkills) {
       skill.source = source;
+      // Ensure commitHash field exists (for backward compatibility with old cache)
+      if (!skill.commitHash && skill.repository?.latestCommitHash) {
+        skill.commitHash = skill.repository.latestCommitHash.substring(0, 12);
+      }
       skill.stats = {
         stars: repoDetails?.stargazers_count || 0,
         forks: repoDetails?.forks_count || 0,
@@ -561,12 +565,13 @@ export async function fetchRepoDetails(octokit, owner, repo) {
 }
 
 /**
- * Get latest commit hash for a file
+ * Get latest commit hash for a file or directory
+ * This returns the most recent commit that modified any file within the specified path
  * @param {Octokit} octokit
  * @param {string} owner
  * @param {string} repo
- * @param {string} filePath
- * @returns {Promise<string>}
+ * @param {string} filePath - File path or directory path (e.g., "skills/canvas-design")
+ * @returns {Promise<string>} - Short commit hash (12 chars) or empty string
  */
 export async function getLatestCommitHash(octokit, owner, repo, filePath) {
   try {
@@ -641,16 +646,25 @@ export async function processSkillFile(
     return null;
   }
 
-  // 1. Get commit hash first
-  const commitHash = await getLatestCommitHash(octokit, owner, repo, filePath);
+  // 1. Determine skill path first (needed for getting correct commit hash)
+  const skillPath = determineSkillPath(filePath);
+  
+  // 2. Get commit hash for the skill directory (not just the SKILL.md file)
+  const commitHash = await getLatestCommitHash(octokit, owner, repo, skillPath);
 
-  // 2. Check cache
-  const cacheKey = CrawlerCache.generateSkillKey(owner, repo, filePath);
+  // 3. Check cache (use skill directory path as key for consistency with zip generation)
+  const cacheKey = CrawlerCache.generateSkillKey(owner, repo, skillPath);
   const cached = crawlerCache.getSkill(cacheKey);
 
   if (cached && commitHash && cached.commitHash === commitHash) {
     console.log(`  Using cached skill for ${owner}/${repo}/${filePath}`);
     const manifest = cached.manifest;
+    // Ensure commitHash field is present (for backward compatibility with old cache)
+    manifest.commitHash = commitHash?.substring(0, 12) || manifest.commitHash || "unknown";
+    // Update repository.latestCommitHash to match the skill directory commit
+    if (manifest.repository) {
+      manifest.repository.latestCommitHash = commitHash;
+    }
     // Update stats from current repoDetails
     manifest.stats = {
       stars: repoDetails?.stargazers_count || 0,
@@ -660,7 +674,7 @@ export async function processSkillFile(
     return manifest;
   }
 
-  // 3. Fetch and process (Cache Miss)
+  // 4. Fetch and process (Cache Miss)
   const content = await fetchFileContent(octokit, owner, repo, filePath);
   if (!content) return null;
 
@@ -669,13 +683,12 @@ export async function processSkillFile(
     return null;
   }
 
-  const skillPath = determineSkillPath(filePath);
   const id = generateSkillId(owner, repo, skillPath);
   const branch = repoDetails?.default_branch || "main";
   const detailsUrl = `https://github.com/${owner}/${repo}/${branch}/${filePath}`;
 
   const files = await listSkillFiles(octokit, owner, repo, skillPath);
-  // commitHash is already fetched
+  // commitHash is already fetched for the skill directory
 
   const skillName = parsed.name || path.basename(skillPath) || repo;
   const skillDescription = parsed.description || `Skill from ${owner}/${repo}`;
@@ -693,6 +706,7 @@ export async function processSkillFile(
       avatar: `https://github.com/${owner}.png`,
     },
     version: parsed.version || "0.0.0",
+    commitHash: commitHash?.substring(0, 12) || "unknown",
     tags: parsed.tags,
     repository: {
       url: `https://github.com/${owner}/${repo}`,
@@ -707,6 +721,7 @@ export async function processSkillFile(
       forks: repoDetails?.forks_count || 0,
       lastUpdated: repoDetails?.pushed_at || new Date().toISOString(),
     },
+    // skillZipUrl will be added by the zip generator
   };
 
   if (parsed.version) {
@@ -788,23 +803,28 @@ export async function processSkillFileWithPool(
       // Ignore
     }
 
-    // 2. Check cache using skill directory path
-    const cacheKey = CrawlerCache.generateSkillKey(owner, repo, skillDirPath);
+    // 2. Determine skill path for consistency with manifest.repository.path and index.js
+    const skillPath = determineSkillPath(filePath);
+    
+    // 3. Check cache using skill directory path (consistent with manifest.repository.path)
+    const cacheKey = CrawlerCache.generateSkillKey(owner, repo, skillPath);
     const cached = crawlerCache.getSkill(cacheKey);
 
     if (cached && skillDirCommitHash && cached.commitHash === skillDirCommitHash) {
       // console.log(`  Using cached skill for ${owner}/${repo}/${skillDirPath}`); // Optional: reduce noise
       const manifest = cached.manifest;
+      // Ensure commitHash field exists (for backward compatibility with old cache)
+      manifest.commitHash = skillDirCommitHash;
+      // Update repository.latestCommitHash to use skill directory commit hash
+      if (manifest.repository) {
+        manifest.repository.latestCommitHash = skillDirCommitHash;
+      }
       // Update stats from current repoDetails
       manifest.stats = {
         stars: repoDetails?.stargazers_count || 0,
         forks: repoDetails?.forks_count || 0,
         lastUpdated: repoDetails?.pushed_at || new Date().toISOString(),
       };
-      // Update repository.latestCommitHash if repoCommitHash is provided
-      if (repoCommitHash && manifest.repository) {
-        manifest.repository.latestCommitHash = repoCommitHash;
-      }
       return manifest;
     }
 
@@ -830,7 +850,7 @@ export async function processSkillFileWithPool(
       return null;
     }
 
-    const skillPath = determineSkillPath(filePath);
+    // skillPath already determined before cache check
     const id = generateSkillId(owner, repo, skillPath);
     const branch = repoDetails?.default_branch || "main";
     const detailsUrl = `https://github.com/${owner}/${repo}/${branch}/${filePath}`;
@@ -838,7 +858,7 @@ export async function processSkillFileWithPool(
     // Get files in skill directory (reuse skillDirPath)
     let files = [filePath];
 
-    if (skillDirPath !== ".") {
+    if (skillPath !== "") {
       try {
         const dirResponse = await client.octokit.rest.repos.getContent({
           owner,
@@ -882,7 +902,7 @@ export async function processSkillFileWithPool(
         url: `https://github.com/${owner}/${repo}`,
         branch,
         path: skillPath,
-        latestCommitHash: repoCommitHash || skillDirCommitHash,  // Repo commit hash (fallback to skill dir hash)
+        latestCommitHash: skillDirCommitHash,  // Skill directory commit hash (for tracking changes)
         downloadUrl: `https://api.github.com/repos/${owner}/${repo}/zipball/${branch}`,
       },
       files: files.slice(0, 20),

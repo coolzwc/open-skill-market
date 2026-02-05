@@ -84,6 +84,15 @@ export const CONFIG = {
       ? process.env.TEST_REPOS.split(",").map((r) => r.trim())
       : ["anthropics/skills", "huggingface/skills"],
   },
+
+  // Zip package generation settings
+  zips: {
+    enabled: process.env.GENERATE_ZIPS !== "false", // Allow disabling zip generation
+    outputDir: path.join(__dirname, "..", "market", "zips"),
+    baseUrl:
+      process.env.ZIP_BASE_URL ||
+      "https://raw.githubusercontent.com/coolzwc/open-skill-market/main/market/zips",
+  },
 };
 
 export const __crawlerDirname = __dirname;
