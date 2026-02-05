@@ -86,21 +86,26 @@ export async function processRepoWithCache(workerPool, owner, repo, repoDetails,
   // Check repo cache
   const cachedRepo = crawlerCache.getRepo(owner, repo);
   if (cachedRepo && cachedRepo.commitHash === latestCommit.commitHash) {
-    // Repo hasn't changed, use cached skills
+    // Repo hasn't changed, use cached data
     const cachedSkills = cachedRepo.skills || [];
-    if (cachedSkills.length > 0) {
-      console.log(`  Using cached ${cachedSkills.length} skill(s) for ${repoFullName} (no changes)`);
-      // Update stats from current repoDetails
-      for (const skill of cachedSkills) {
-        skill.source = source;
-        skill.stats = {
-          stars: repoDetails?.stargazers_count || 0,
-          forks: repoDetails?.forks_count || 0,
-          lastUpdated: repoDetails?.pushed_at || latestCommit.pushedAt,
-        };
-      }
-      return cachedSkills;
+    
+    if (cachedSkills.length === 0) {
+      // Cached as empty repo (no SKILL.md files) - skip scanning
+      // console.log(`  Skipping ${repoFullName} (cached: no skills)`);
+      return [];
     }
+    
+    console.log(`  Using cached ${cachedSkills.length} skill(s) for ${repoFullName} (no changes)`);
+    // Update stats from current repoDetails
+    for (const skill of cachedSkills) {
+      skill.source = source;
+      skill.stats = {
+        stars: repoDetails?.stargazers_count || 0,
+        forks: repoDetails?.forks_count || 0,
+        lastUpdated: repoDetails?.pushed_at || latestCommit.pushedAt,
+      };
+    }
+    return cachedSkills;
   }
 
   // Repo has changed or not in cache, crawl it

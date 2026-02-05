@@ -9,17 +9,21 @@ const __dirname = path.dirname(__filename);
  */
 export const CONFIG = {
   // Topics to search for skill-related repositories
+  // Focused on actual skill/agent skill repos, avoiding overly broad terms
   searchTopics: [
+    // Cursor/Claude specific (most precise)
     "cursor-skill",
     "cursor-skills",
+    "cursor-rules",
     "claude-skill",
     "claude-skills",
+    // Codex/Agent specific
     "codex-skills",
-    "ai-skill",
-    "ai-skills",
-    "ai-agent-tools",
     "agent-skills",
-    "langchain-tools",
+    "agentic-skills",
+    // MCP (Model Context Protocol) related
+    "mcp-server",
+    "mcp-tools",
   ],
 
   // Standard skill filename (only SKILL.md is valid per spec)
