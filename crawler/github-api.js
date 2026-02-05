@@ -11,6 +11,7 @@ import {
   shouldStopForTimeout,
   updateRateLimitFromResponse,
   handleRateLimitError,
+  logRateLimitWait,
 } from "./rate-limit.js";
 import { parseSkillContent, categorizeSkill } from "./skill-parser.js";
 import { crawlerCache, CrawlerCache } from "./cache.js";
@@ -191,9 +192,7 @@ export async function searchRepositoriesByTopic(workerPool, topic) {
       const nextReset = workerPool.getNextResetTime();
       const waitTime = nextReset - Date.now();
       if (waitTime > 0) {
-        console.log(
-          `    All clients limited. Waiting ${Math.ceil(waitTime / 1000)}s for reset...`,
-        );
+        logRateLimitWait(Math.ceil(waitTime / 1000));
         await sleep(Math.min(waitTime + 1000, 60000));
       } else {
         await sleep(5000);
@@ -268,9 +267,7 @@ export async function searchSkillRepositories(workerPool) {
       const nextReset = workerPool.getNextResetTime();
       const waitTime = nextReset - Date.now();
       if (waitTime > 0) {
-        console.log(
-          `  All clients limited. Waiting ${Math.ceil(waitTime / 1000)}s for reset...`,
-        );
+        logRateLimitWait(Math.ceil(waitTime / 1000));
         await sleep(Math.min(waitTime + 1000, 60000));
       } else {
         await sleep(5000);
@@ -422,11 +419,9 @@ export async function findSkillFilesInRepoWithPool(
     const nextReset = workerPool.getNextResetTime();
     const waitTime = nextReset - Date.now();
     if (waitTime > 0) {
-      // Only log if wait time is significant
+      // Only log if wait time is significant (deduped)
       if (waitTime > 10000) {
-        console.log(
-          `  All clients limited. Waiting ${Math.ceil(waitTime / 1000)}s...`,
-        );
+        logRateLimitWait(Math.ceil(waitTime / 1000));
       }
       await sleep(Math.min(waitTime, 30000));
     } else {
@@ -754,9 +749,7 @@ export async function processSkillFileWithPool(
     const waitTime = nextReset - Date.now();
     if (waitTime > 0) {
       if (waitTime > 10000) {
-        console.log(
-          `  All clients limited. Waiting ${Math.ceil(waitTime / 1000)}s...`,
-        );
+        logRateLimitWait(Math.ceil(waitTime / 1000));
       }
       await sleep(Math.min(waitTime, 30000));
     } else {
@@ -945,7 +938,7 @@ export async function crawlPriorityRepos(workerPool, priorityRepos) {
       const waitTime = nextReset - Date.now();
       if (waitTime > 0) {
         if (waitTime > 10000) {
-          console.log(`  All clients limited. Waiting ${Math.ceil(waitTime / 1000)}s...`);
+          logRateLimitWait(Math.ceil(waitTime / 1000));
         }
         await sleep(Math.min(waitTime, 30000));
       } else {

@@ -10,6 +10,7 @@ import {
   executionState,
   startExecutionTimer,
   shouldStopForTimeout,
+  logRateLimitWait,
 } from "./rate-limit.js";
 import {
   searchSkillRepositories,
@@ -193,7 +194,7 @@ async function main() {
           const nextReset = workerPool.getNextResetTime();
           const waitTime = nextReset - Date.now();
           if (waitTime > 0) {
-            console.log(`  All clients limited. Waiting ${Math.ceil(waitTime / 1000)}s...`);
+            logRateLimitWait(Math.ceil(waitTime / 1000));
             await sleep(Math.min(waitTime, 30000));
           } else {
             await sleep(1000);

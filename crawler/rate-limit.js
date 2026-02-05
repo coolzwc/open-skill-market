@@ -21,6 +21,28 @@ export const executionState = {
 };
 
 /**
+ * Rate limit log deduplication
+ * Prevents multiple parallel tasks from printing the same wait message
+ */
+let lastRateLimitLogTime = 0;
+const RATE_LIMIT_LOG_INTERVAL = 30000; // Only log once every 30 seconds
+
+/**
+ * Log rate limit wait message with deduplication
+ * @param {number} waitTimeSeconds - Wait time in seconds
+ * @returns {boolean} - Whether the log was printed
+ */
+export function logRateLimitWait(waitTimeSeconds) {
+  const now = Date.now();
+  if (now - lastRateLimitLogTime >= RATE_LIMIT_LOG_INTERVAL) {
+    console.log(`  All clients rate limited. Waiting ${waitTimeSeconds}s for reset...`);
+    lastRateLimitLogTime = now;
+    return true;
+  }
+  return false;
+}
+
+/**
  * Initialize execution timer
  */
 export function startExecutionTimer() {
