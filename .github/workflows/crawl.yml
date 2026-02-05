@@ -65,6 +65,14 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Restore crawler cache
+        uses: actions/cache@v4
+        with:
+          path: crawler/.crawler-cache.json
+          key: crawler-cache-${{ github.run_id }}
+          restore-keys: |
+            crawler-cache-
+
       - name: Run crawler
         env:
           # Primary token (uses built-in GITHUB_TOKEN or custom PAT_TOKEN)

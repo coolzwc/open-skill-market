@@ -140,9 +140,19 @@ export class WorkerPool {
 
   /**
    * Check if all clients are rate limited
+   * Also refreshes rate limit status for clients whose reset time has passed
    * @returns {boolean}
    */
   allClientsLimited() {
+    // First, check if any client's rate limit has reset
+    const now = Date.now();
+    for (const client of this.clients) {
+      if (client.isLimited && client.rateLimitReset && now >= client.rateLimitReset) {
+        client.isLimited = false;
+        client.rateLimitRemaining = 5000;
+        console.log(`  ${client.label} rate limit reset, resuming...`);
+      }
+    }
     return this.clients.every((c) => c.isLimited);
   }
 

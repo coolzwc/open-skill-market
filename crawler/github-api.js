@@ -13,6 +13,156 @@ import {
   handleRateLimitError,
 } from "./rate-limit.js";
 import { parseSkillContent, categorizeSkill } from "./skill-parser.js";
+import { crawlerCache, CrawlerCache } from "./cache.js";
+
+/**
+ * Get the latest commit hash for a repository's default branch
+ * @param {WorkerPool} workerPool
+ * @param {string} owner
+ * @param {string} repo
+ * @returns {Promise<{commitHash: string, pushedAt: string}|null>}
+ */
+export async function getRepoLatestCommit(workerPool, owner, repo) {
+  while (workerPool.allClientsLimited()) {
+    if (shouldStopForTimeout()) return null;
+    const nextReset = workerPool.getNextResetTime();
+    const waitTime = nextReset - Date.now();
+    if (waitTime > 0) {
+      await sleep(Math.min(waitTime + 1000, 30000));
+    } else {
+      await sleep(1000);
+    }
+  }
+
+  const client = workerPool.getClient();
+
+  try {
+    const response = await client.octokit.rest.repos.listCommits({
+      owner,
+      repo,
+      per_page: 1,
+    });
+    workerPool.updateClientRateLimit(client, response);
+
+    if (response.data.length > 0) {
+      return {
+        commitHash: response.data[0].sha.substring(0, 12),
+        pushedAt: response.data[0].commit.committer?.date || new Date().toISOString(),
+      };
+    }
+  } catch (error) {
+    if (error.status === 403 || error.status === 429) {
+      client.isLimited = true;
+      if (error.response?.headers?.["x-ratelimit-reset"]) {
+        client.rateLimitReset =
+          parseInt(error.response.headers["x-ratelimit-reset"], 10) * 1000;
+      }
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Process a repository with cache optimization
+ * Returns cached skills if repo hasn't changed, otherwise crawls the repo
+ * @param {WorkerPool} workerPool
+ * @param {string} owner
+ * @param {string} repo
+ * @param {Object} repoDetails
+ * @param {string} source - 'priority' or 'github'
+ * @returns {Promise<Object[]>}
+ */
+export async function processRepoWithCache(workerPool, owner, repo, repoDetails, source) {
+  const repoFullName = `${owner}/${repo}`;
+
+  // Get repo's latest commit
+  const latestCommit = await getRepoLatestCommit(workerPool, owner, repo);
+  if (!latestCommit) {
+    console.log(`  Could not get latest commit for ${repoFullName}`);
+    return [];
+  }
+
+  // Check repo cache
+  const cachedRepo = crawlerCache.getRepo(owner, repo);
+  if (cachedRepo && cachedRepo.commitHash === latestCommit.commitHash) {
+    // Repo hasn't changed, use cached skills
+    const cachedSkills = cachedRepo.skills || [];
+    if (cachedSkills.length > 0) {
+      console.log(`  Using cached ${cachedSkills.length} skill(s) for ${repoFullName} (no changes)`);
+      // Update stats from current repoDetails
+      for (const skill of cachedSkills) {
+        skill.source = source;
+        skill.stats = {
+          stars: repoDetails?.stargazers_count || 0,
+          forks: repoDetails?.forks_count || 0,
+          lastUpdated: repoDetails?.pushed_at || latestCommit.pushedAt,
+        };
+      }
+      return cachedSkills;
+    }
+  }
+
+  // Repo has changed or not in cache, crawl it
+  console.log(`  Scanning ${repoFullName} for SKILL.md files...`);
+
+  const skillFiles = await findSkillFilesInRepoWithPool(workerPool, owner, repo);
+
+  if (skillFiles.length === 0) {
+    // Cache empty result to avoid re-scanning
+    crawlerCache.setRepo(owner, repo, {
+      commitHash: latestCommit.commitHash,
+      skills: [],
+      fetchedAt: new Date().toISOString(),
+    });
+    return [];
+  }
+
+  console.log(`  Found ${skillFiles.length} SKILL.md file(s) in ${repoFullName}`);
+
+  const repoSkills = [];
+  for (const filePath of skillFiles) {
+    if (shouldStopForTimeout()) break;
+
+    // Wait for rate limit reset if all clients are limited
+    while (workerPool.allClientsLimited()) {
+      if (shouldStopForTimeout()) break;
+      const nextReset = workerPool.getNextResetTime();
+      const waitTime = nextReset - Date.now();
+      if (waitTime > 0) {
+        await sleep(Math.min(waitTime + 1000, 30000));
+      } else {
+        await sleep(1000);
+      }
+    }
+
+    if (shouldStopForTimeout()) break;
+
+    const fileInfo = { path: filePath };
+    const repoInfo = { owner: { login: owner }, name: repo };
+
+    const manifest = await processSkillFileWithPool(
+      workerPool,
+      repoInfo,
+      fileInfo,
+      repoDetails,
+      latestCommit.commitHash  // Pass repo commit hash
+    );
+    if (manifest) {
+      manifest.source = source;
+      repoSkills.push(manifest);
+    }
+  }
+
+  // Update repo cache
+  crawlerCache.setRepo(owner, repo, {
+    commitHash: latestCommit.commitHash,
+    skills: repoSkills,
+    fetchedAt: new Date().toISOString(),
+  });
+
+  return repoSkills;
+}
 
 /**
  * Search for repositories by topic using worker pool
@@ -469,8 +619,6 @@ export async function listSkillFiles(octokit, owner, repo, skillPath) {
   return [];
 }
 
-import { skillCache, CrawlerCache } from "./cache.js";
-
 /**
  * Process a SKILL.md file and create manifest
  * @param {Octokit} octokit
@@ -497,8 +645,8 @@ export async function processSkillFile(
   const commitHash = await getLatestCommitHash(octokit, owner, repo, filePath);
 
   // 2. Check cache
-  const cacheKey = CrawlerCache.generateKey(owner, repo, filePath);
-  const cached = skillCache.get(cacheKey);
+  const cacheKey = CrawlerCache.generateSkillKey(owner, repo, filePath);
+  const cached = crawlerCache.getSkill(cacheKey);
 
   if (cached && commitHash && cached.commitHash === commitHash) {
     console.log(`  Using cached skill for ${owner}/${repo}/${filePath}`);
@@ -567,7 +715,7 @@ export async function processSkillFile(
 
   // 4. Save to cache (only if we have a valid commit hash)
   if (commitHash) {
-    skillCache.set(cacheKey, {
+    crawlerCache.setSkill(cacheKey, {
       commitHash,
       manifest,
       fetchedAt: new Date().toISOString(),
@@ -583,6 +731,7 @@ export async function processSkillFile(
  * @param {Object} repoInfo
  * @param {Object} fileInfo
  * @param {Object} repoDetails
+ * @param {string} repoCommitHash - The repository's latest commit hash
  * @returns {Promise<Object|null>}
  */
 export async function processSkillFileWithPool(
@@ -590,6 +739,7 @@ export async function processSkillFileWithPool(
   repoInfo,
   fileInfo,
   repoDetails,
+  repoCommitHash = "",
 ) {
   while (workerPool.allClientsLimited()) {
     if (shouldStopForTimeout()) {
@@ -619,30 +769,33 @@ export async function processSkillFileWithPool(
       return null;
     }
 
-    // 1. Get latest commit hash first
-    let commitHash = "";
+    // Calculate skill directory path (e.g., "skills/doc-coauthoring" from "skills/doc-coauthoring/SKILL.md")
+    const skillDirPath = path.dirname(filePath);
+
+    // 1. Get skill directory's latest commit hash (not just SKILL.md)
+    let skillDirCommitHash = "";
     try {
       const commitsResponse = await client.octokit.rest.repos.listCommits({
         owner,
         repo,
-        path: filePath,
+        path: skillDirPath,  // Use directory path to detect any file changes in skill folder
         per_page: 1,
       });
       workerPool.updateClientRateLimit(client, commitsResponse);
 
       if (commitsResponse.data.length > 0) {
-        commitHash = commitsResponse.data[0].sha.substring(0, 12);
+        skillDirCommitHash = commitsResponse.data[0].sha.substring(0, 12);
       }
     } catch {
       // Ignore
     }
 
-    // 2. Check cache
-    const cacheKey = CrawlerCache.generateKey(owner, repo, filePath);
-    const cached = skillCache.get(cacheKey);
+    // 2. Check cache using skill directory path
+    const cacheKey = CrawlerCache.generateSkillKey(owner, repo, skillDirPath);
+    const cached = crawlerCache.getSkill(cacheKey);
 
-    if (cached && commitHash && cached.commitHash === commitHash) {
-      // console.log(`  Using cached skill for ${owner}/${repo}/${filePath}`); // Optional: reduce noise
+    if (cached && skillDirCommitHash && cached.commitHash === skillDirCommitHash) {
+      // console.log(`  Using cached skill for ${owner}/${repo}/${skillDirPath}`); // Optional: reduce noise
       const manifest = cached.manifest;
       // Update stats from current repoDetails
       manifest.stats = {
@@ -650,6 +803,10 @@ export async function processSkillFileWithPool(
         forks: repoDetails?.forks_count || 0,
         lastUpdated: repoDetails?.pushed_at || new Date().toISOString(),
       };
+      // Update repository.latestCommitHash if repoCommitHash is provided
+      if (repoCommitHash && manifest.repository) {
+        manifest.repository.latestCommitHash = repoCommitHash;
+      }
       return manifest;
     }
 
@@ -680,16 +837,15 @@ export async function processSkillFileWithPool(
     const branch = repoDetails?.default_branch || "main";
     const detailsUrl = `https://github.com/${owner}/${repo}/${branch}/${filePath}`;
 
-    // Get files in skill directory
-    const skillDir = path.dirname(filePath);
+    // Get files in skill directory (reuse skillDirPath)
     let files = [filePath];
 
-    if (skillDir !== ".") {
+    if (skillDirPath !== ".") {
       try {
         const dirResponse = await client.octokit.rest.repos.getContent({
           owner,
           repo,
-          path: skillDir,
+          path: skillDirPath,
         });
         workerPool.updateClientRateLimit(client, dirResponse);
 
@@ -722,12 +878,13 @@ export async function processSkillFileWithPool(
         avatar: `https://github.com/${owner}.png`,
       },
       version: parsed.version || "0.0.0",
+      commitHash: skillDirCommitHash,  // Skill directory commit hash
       tags: parsed.tags,
       repository: {
         url: `https://github.com/${owner}/${repo}`,
         branch,
         path: skillPath,
-        latestCommitHash: commitHash,
+        latestCommitHash: repoCommitHash || skillDirCommitHash,  // Repo commit hash (fallback to skill dir hash)
         downloadUrl: `https://api.github.com/repos/${owner}/${repo}/zipball/${branch}`,
       },
       files: files.slice(0, 20),
@@ -743,9 +900,9 @@ export async function processSkillFileWithPool(
     }
 
     // 4. Save to cache (only if we have a valid commit hash)
-    if (commitHash) {
-      skillCache.set(cacheKey, {
-        commitHash,
+    if (skillDirCommitHash) {
+      crawlerCache.setSkill(cacheKey, {
+        commitHash: skillDirCommitHash,
         manifest,
         fetchedAt: new Date().toISOString(),
       });
@@ -761,7 +918,7 @@ export async function processSkillFileWithPool(
 }
 
 /**
- * Crawl priority repositories
+ * Crawl priority repositories with repo-level caching
  * @param {WorkerPool} workerPool
  * @param {string[]} priorityRepos
  * @returns {Promise<Object[]>}
@@ -774,20 +931,16 @@ export async function crawlPriorityRepos(workerPool, priorityRepos) {
     return prioritySkills;
   }
 
-  console.log(`Crawling ${priorityRepos.length} priority repositories (parallel)...`);
+  console.log(`Crawling ${priorityRepos.length} priority repositories (parallel with caching)...`);
 
   const tasks = priorityRepos.map((repoFullName) => async () => {
     while (workerPool.allClientsLimited()) {
-      if (shouldStopForTimeout()) {
-        return null;
-      }
+      if (shouldStopForTimeout()) return null;
       const nextReset = workerPool.getNextResetTime();
       const waitTime = nextReset - Date.now();
       if (waitTime > 0) {
         if (waitTime > 10000) {
-          console.log(
-            `  All clients limited. Waiting ${Math.ceil(waitTime / 1000)}s...`,
-          );
+          console.log(`  All clients limited. Waiting ${Math.ceil(waitTime / 1000)}s...`);
         }
         await sleep(Math.min(waitTime, 30000));
       } else {
@@ -795,9 +948,7 @@ export async function crawlPriorityRepos(workerPool, priorityRepos) {
       }
     }
 
-    if (shouldStopForTimeout()) {
-      return null;
-    }
+    if (shouldStopForTimeout()) return null;
 
     const [owner, repo] = repoFullName.split("/");
     if (!owner || repo === undefined) {
@@ -816,11 +967,8 @@ export async function crawlPriorityRepos(workerPool, priorityRepos) {
       // Fetch repository details with retry on rate limit
       let repoDetails = null;
       while (!repoDetails) {
-        if (shouldStopForTimeout()) {
-          return null;
-        }
+        if (shouldStopForTimeout()) return null;
 
-        // Wait for rate limit reset if all clients are limited
         while (workerPool.allClientsLimited()) {
           if (shouldStopForTimeout()) return null;
           const nextReset = workerPool.getNextResetTime();
@@ -844,7 +992,6 @@ export async function crawlPriorityRepos(workerPool, priorityRepos) {
               client.rateLimitReset =
                 parseInt(error.response.headers["x-ratelimit-reset"], 10) * 1000;
             }
-            // Continue loop to retry with another client or after wait
           } else if (error.status === 404) {
             console.log(`  Repository ${repoFullName} not found`);
             return null;
@@ -855,52 +1002,15 @@ export async function crawlPriorityRepos(workerPool, priorityRepos) {
         }
       }
 
-      // Use the pool-aware function to find skill files
-      const skillFiles = await findSkillFilesInRepoWithPool(
+      // Use processRepoWithCache for repo-level caching
+      const repoSkills = await processRepoWithCache(
         workerPool,
         owner,
         repo,
+        repoDetails,
+        "priority"
       );
 
-      if (skillFiles.length === 0) {
-        console.log(`  No SKILL.md files found in ${repoFullName}`);
-        return null;
-      }
-
-      console.log(`  Found ${skillFiles.length} SKILL.md file(s) in ${repoFullName}`);
-
-      const repoSkills = [];
-      for (const filePath of skillFiles) {
-        if (shouldStopForTimeout()) break;
-
-        // Wait for rate limit reset if all clients are limited
-        while (workerPool.allClientsLimited()) {
-          if (shouldStopForTimeout()) break;
-          const nextReset = workerPool.getNextResetTime();
-          const waitTime = nextReset - Date.now();
-          if (waitTime > 0) {
-            await sleep(Math.min(waitTime + 1000, 30000));
-          } else {
-            await sleep(1000);
-          }
-        }
-
-        if (shouldStopForTimeout()) break;
-
-        const fileInfo = { path: filePath };
-        const repoInfo = { owner: { login: owner }, name: repo };
-
-        const manifest = await processSkillFileWithPool(
-          workerPool,
-          repoInfo,
-          fileInfo,
-          repoDetails,
-        );
-        if (manifest) {
-          manifest.source = "priority";
-          repoSkills.push(manifest);
-        }
-      }
       return repoSkills;
     } catch (error) {
       console.error(`  Error processing ${repoFullName}: ${error.message}`);

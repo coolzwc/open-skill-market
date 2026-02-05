@@ -15,5 +15,7 @@ Thumbs.db
 *.swp
 *.swo
 
+# Cache
+crawler/.crawler-cache.json
 # Debug logs
 npm-debug.log*

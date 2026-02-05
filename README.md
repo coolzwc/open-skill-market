@@ -35,6 +35,7 @@ open-skill-market/
 │   ├── github-api.js         # GitHub API interactions
 │   ├── skill-parser.js       # SKILL.md parsing and categorization
 │   ├── local-scanner.js      # Local skills directory scanner
+│   ├── cache.js              # Two-level caching (repo + skill directory)
 │   ├── utils.js              # Utility functions
 │   └── repositories.yml      # Priority repositories config
 ├── market/
@@ -57,6 +58,7 @@ open-skill-market/
 | `github-api.js` | All GitHub API calls (search, fetch content, get repo details) |
 | `skill-parser.js` | Parses SKILL.md frontmatter, validates quality, assigns categories |
 | `local-scanner.js` | Scans local `skills/` directory for PR-submitted skills |
+| `cache.js` | Two-level caching: repo-level (skip unchanged repos) and skill-directory-level (skip unchanged skills) |
 | `utils.js` | Helper functions (sleep, path checks, ID generation, etc.) |
 
 ## Skills Registry Format
@@ -90,6 +92,7 @@ The `market/skills.json` file contains all discovered skills in the following fo
         "avatar": "https://github.com/owner.png"
       },
       "version": "1.0.0",
+      "commitHash": "def456...",
       "tags": ["tag1", "tag2"],
       "repository": {
         "url": "https://github.com/owner/repo",
@@ -117,6 +120,10 @@ The `source` field indicates where the skill came from:
 - `local`: Submitted via PR to this repository's `skills/` directory
 - `priority`: From a priority repository configured in the crawler
 - `github`: Discovered by the crawler via GitHub search
+
+The commit hash fields track version changes:
+- `commitHash`: The skill directory's latest commit hash (detects changes to any file in the skill folder)
+- `repository.latestCommitHash`: The entire repository's latest commit hash (for repo-level caching)
 
 ### Automatic Categorization
 
@@ -171,6 +178,16 @@ A skill receives a category tag if at least 2 keywords from that category appear
    npm run crawl
    ```
 
+5. (Optional) Run in test mode to scan only specific repos:
+
+   ```bash
+   # Use default test repos (anthropics/skills, huggingface/skills)
+   npm run crawl:test
+
+   # Or specify custom repos
+   TEST_MODE=true TEST_REPOS="owner1/repo1,owner2/repo2" npm run crawl
+   ```
+
 ### Configuring Priority Repositories
 
 You can configure specific repositories to be crawled with priority (before topic-based search). Edit `crawler/repositories.yml`:
@@ -206,6 +223,23 @@ When rate limits are reached, the crawler will:
 1. Wait for the reset time (up to 5 minutes)
 2. Resume crawling after the wait
 3. If the wait would be too long, save partial results and exit
+
+### Caching
+
+The crawler uses a two-level caching system to minimize GitHub API calls:
+
+| Cache Level | What it tracks | Benefit |
+|-------------|---------------|---------|
+| **Repository** | Repo's latest commit hash | Skip entire repo if unchanged (1 API call) |
+| **Skill Directory** | Skill folder's commit hash | Skip individual skill if unchanged |
+
+How it works:
+1. First check if the **repository** has any new commits since last crawl
+2. If no changes → use cached skills for the entire repo (saves many API calls)
+3. If changed → check each **skill directory** for changes
+4. Only fetch/parse skills whose directories have new commits
+
+The cache is stored in `crawler/.crawler-cache.json` and persisted across GitHub Actions runs.
 
 ### Multi-Token Parallel Processing
 

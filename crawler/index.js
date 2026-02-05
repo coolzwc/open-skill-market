@@ -14,12 +14,11 @@ import {
 import {
   searchSkillRepositories,
   crawlPriorityRepos,
-  findSkillFilesInRepoWithPool,
-  processSkillFileWithPool,
+  processRepoWithCache,
 } from "./github-api.js";
 import { scanLocalSkills } from "./local-scanner.js";
 
-import { skillCache } from "./cache.js";
+import { crawlerCache } from "./cache.js";
 
 /**
  * Main crawler function
@@ -27,8 +26,15 @@ import { skillCache } from "./cache.js";
 async function main() {
   console.log("=== Open Skill Market Crawler ===\n");
 
+  // Test mode
+  if (CONFIG.testMode.enabled) {
+    console.log("*** TEST MODE ENABLED ***");
+    console.log(`Test repos: ${CONFIG.testMode.repos.join(", ")}`);
+    console.log("");
+  }
+
   // Load cache
-  await skillCache.load();
+  await crawlerCache.load();
 
   startExecutionTimer();
 
@@ -108,25 +114,35 @@ async function main() {
   const localSkills = await scanLocalSkills();
   allSkills.push(...localSkills);
 
-  // Phase 2: Priority Repositories
+  // Phase 2: Priority/Test Repositories
+  // In test mode, use test repos; otherwise use priority repos
+  const reposToScan = CONFIG.testMode.enabled ? CONFIG.testMode.repos : priorityRepos;
+  const phaseLabel = CONFIG.testMode.enabled ? "Test Repositories" : "Priority Repositories";
+
   if (!shouldStopForTimeout()) {
-    console.log("\n--- Phase 2: Priority Repositories ---\n");
-    prioritySkills = await crawlPriorityRepos(workerPool, priorityRepos);
+    console.log(`\n--- Phase 2: ${phaseLabel} ---\n`);
+    prioritySkills = await crawlPriorityRepos(workerPool, reposToScan);
   } else {
-    console.log("\n--- Phase 2: Priority Repositories (SKIPPED - timeout) ---\n");
+    console.log(`\n--- Phase 2: ${phaseLabel} (SKIPPED - timeout) ---\n`);
   }
   allSkills.push(...prioritySkills);
 
-  // Track priority repos to skip in search phase
-  for (const repoFullName of priorityRepos) {
+  // Track repos to skip in search phase
+  for (const repoFullName of reposToScan) {
     processedRepos.add(repoFullName);
   }
   processedRepos.add(`${CONFIG.thisRepo.owner}/${CONFIG.thisRepo.name}`);
 
-  // Phase 3: GitHub Topic Search (Parallel)
-  console.log("\n--- Phase 3: GitHub Topic Search (Parallel) ---\n");
+  // Phase 3: GitHub Topic Search (Parallel) - Skip in test mode
+  if (CONFIG.testMode.enabled) {
+    console.log("\n--- Phase 3: GitHub Topic Search (SKIPPED - test mode) ---\n");
+  } else {
+    console.log("\n--- Phase 3: GitHub Topic Search (Parallel) ---\n");
+  }
 
-  if (shouldStopForTimeout()) {
+  if (CONFIG.testMode.enabled) {
+    // Skip Phase 3 in test mode
+  } else if (shouldStopForTimeout()) {
     console.log("Skipping GitHub search due to execution timeout.");
   } else {
     // Wait for rate limit to reset if all clients are limited
@@ -170,67 +186,31 @@ async function main() {
       const results = [];
       let processedCount = 0;
 
-      // Create parallel tasks
+      // Create parallel tasks using processRepoWithCache
       const tasks = reposToProcess.map(({ repoFullName, repo }) => async () => {
         while (workerPool.allClientsLimited()) {
-          if (shouldStopForTimeout()) {
-            return null;
-          }
+          if (shouldStopForTimeout()) return null;
           const nextReset = workerPool.getNextResetTime();
           const waitTime = nextReset - Date.now();
           if (waitTime > 0) {
-            console.log(
-              `  All clients limited. Waiting ${Math.ceil(waitTime / 1000)}s...`,
-            );
+            console.log(`  All clients limited. Waiting ${Math.ceil(waitTime / 1000)}s...`);
             await sleep(Math.min(waitTime, 30000));
           } else {
             await sleep(1000);
           }
         }
 
-        if (shouldStopForTimeout()) {
-          return null;
-        }
+        if (shouldStopForTimeout()) return null;
 
         try {
-          const skillFiles = await findSkillFilesInRepoWithPool(
+          // Use processRepoWithCache for repo-level caching
+          const repoSkills = await processRepoWithCache(
             workerPool,
             repo.owner.login,
             repo.name,
+            repo,
+            "github"
           );
-
-          if (skillFiles.length === 0) {
-            processedCount++;
-            return null;
-          }
-
-          const repoSkills = [];
-          for (const filePath of skillFiles) {
-            if (shouldStopForTimeout()) break;
-
-            // Wait for rate limit reset if all clients are limited
-            while (workerPool.allClientsLimited()) {
-              if (shouldStopForTimeout()) break;
-              const nextReset = workerPool.getNextResetTime();
-              const waitTime = nextReset - Date.now();
-              if (waitTime > 0) {
-                await sleep(Math.min(waitTime + 1000, 30000));
-              } else {
-                await sleep(1000);
-              }
-            }
-
-            if (shouldStopForTimeout()) break;
-
-            const fileInfo = { path: filePath };
-            const repoInfo = { owner: { login: repo.owner.login }, name: repo.name };
-
-            const manifest = await processSkillFileWithPool(workerPool, repoInfo, fileInfo, repo);
-            if (manifest) {
-              manifest.source = "github";
-              repoSkills.push(manifest);
-            }
-          }
 
           processedCount++;
           if (processedCount % 10 === 0) {
@@ -359,7 +339,7 @@ async function main() {
   await fs.writeFile(CONFIG.outputPath, formattedJson, "utf-8");
   
   // Save cache
-  await skillCache.save();
+  await crawlerCache.save();
   
   console.log("Done!");
 }

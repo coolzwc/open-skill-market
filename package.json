@@ -6,6 +6,7 @@
   "main": "crawler/index.js",
   "scripts": {
     "crawl": "node crawler/index.js",
+    "crawl:test": "TEST_MODE=true node crawler/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

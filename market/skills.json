@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generatedAt": "2026-02-05T03:58:55.123Z",
-    "totalSkills": 76,
+    "generatedAt": "2026-02-05T07:26:04.930Z",
+    "totalSkills": 25,
     "localSkills": 0,
-    "prioritySkills": 76,
+    "prioritySkills": 25,
     "remoteSkills": 0,
     "apiVersion": "1.1",
-    "rateLimited": true,
+    "rateLimited": false,
     "timedOut": false,
-    "executionTimeMs": 221428
+    "executionTimeMs": 1377598
   },
   "skills": [
     {
@@ -24,12 +24,13 @@
         "avatar": "https://github.com/anthropics.png"
       },
       "version": "0.0.0",
+      "commitHash": "ef740771ac90",
       "tags": [],
       "repository": {
         "url": "https://github.com/anthropics/skills",
         "branch": "main",
         "path": "skills/algorithmic-art",
-        "latestCommitHash": "ef740771ac90",
+        "latestCommitHash": "a5bcdd7e58cd",
         "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
       },
       "files": [
@@ -37,7 +38,7 @@
         "skills/algorithmic-art/SKILL.md",
         "skills/algorithmic-art/templates"
       ],
-      "stats": { "stars": 63256, "forks": 6227, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "stats": { "stars": 63418, "forks": 6246, "lastUpdated": "2026-02-04T02:20:55Z" },
       "source": "priority"
     },
     {
@@ -53,16 +54,17 @@
         "avatar": "https://github.com/anthropics.png"
       },
       "version": "0.0.0",
+      "commitHash": "ef740771ac90",
       "tags": [],
       "repository": {
         "url": "https://github.com/anthropics/skills",
         "branch": "main",
         "path": "skills/brand-guidelines",
-        "latestCommitHash": "ef740771ac90",
+        "latestCommitHash": "a5bcdd7e58cd",
         "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
       },
       "files": ["skills/brand-guidelines/LICENSE.txt", "skills/brand-guidelines/SKILL.md"],
-      "stats": { "stars": 63256, "forks": 6227, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "stats": { "stars": 63418, "forks": 6246, "lastUpdated": "2026-02-04T02:20:55Z" },
       "source": "priority"
     },
     {
@@ -78,12 +80,13 @@
         "avatar": "https://github.com/anthropics.png"
       },
       "version": "0.0.0",
+      "commitHash": "ef740771ac90",
       "tags": [],
       "repository": {
         "url": "https://github.com/anthropics/skills",
         "branch": "main",
         "path": "skills/canvas-design",
-        "latestCommitHash": "ef740771ac90",
+        "latestCommitHash": "a5bcdd7e58cd",
         "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
       },
       "files": [
@@ -91,7 +94,7 @@
         "skills/canvas-design/SKILL.md",
         "skills/canvas-design/canvas-fonts"
       ],
-      "stats": { "stars": 63256, "forks": 6227, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "stats": { "stars": 63418, "forks": 6246, "lastUpdated": "2026-02-04T02:20:55Z" },
       "source": "priority"
     },
     {
@@ -107,16 +110,17 @@
         "avatar": "https://github.com/anthropics.png"
       },
       "version": "0.0.0",
+      "commitHash": "00756142ab04",
       "tags": [],
       "repository": {
         "url": "https://github.com/anthropics/skills",
         "branch": "main",
         "path": "skills/doc-coauthoring",
-        "latestCommitHash": "00756142ab04",
+        "latestCommitHash": "a5bcdd7e58cd",
         "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
       },
       "files": ["skills/doc-coauthoring/SKILL.md"],
-      "stats": { "stars": 63256, "forks": 6227, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "stats": { "stars": 63418, "forks": 6246, "lastUpdated": "2026-02-04T02:20:55Z" },
       "source": "priority"
     },
     {
@@ -132,16 +136,17 @@
         "avatar": "https://github.com/anthropics.png"
       },
       "version": "0.0.0",
+      "commitHash": "4e6907a33c3c",
       "tags": [],
       "repository": {
         "url": "https://github.com/anthropics/skills",
         "branch": "main",
         "path": "skills/docx",
-        "latestCommitHash": "4e6907a33c3c",
+        "latestCommitHash": "a5bcdd7e58cd",
         "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
       },
       "files": ["skills/docx/LICENSE.txt", "skills/docx/SKILL.md", "skills/docx/scripts"],
-      "stats": { "stars": 63256, "forks": 6227, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "stats": { "stars": 63418, "forks": 6246, "lastUpdated": "2026-02-04T02:20:55Z" },
       "source": "priority"
     },
     {
@@ -157,16 +162,17 @@
         "avatar": "https://github.com/anthropics.png"
       },
       "version": "0.0.0",
+      "commitHash": "00756142ab04",
       "tags": [],
       "repository": {
         "url": "https://github.com/anthropics/skills",
         "branch": "main",
         "path": "skills/frontend-design",
-        "latestCommitHash": "00756142ab04",
+        "latestCommitHash": "a5bcdd7e58cd",
         "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
       },
       "files": ["skills/frontend-design/LICENSE.txt", "skills/frontend-design/SKILL.md"],
-      "stats": { "stars": 63256, "forks": 6227, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "stats": { "stars": 63418, "forks": 6246, "lastUpdated": "2026-02-04T02:20:55Z" },
       "source": "priority"
     },
     {
@@ -182,12 +188,13 @@
         "avatar": "https://github.com/anthropics.png"
       },
       "version": "0.0.0",
+      "commitHash": "ef740771ac90",
       "tags": [],
       "repository": {
         "url": "https://github.com/anthropics/skills",
         "branch": "main",
         "path": "skills/internal-comms",
-        "latestCommitHash": "ef740771ac90",
+        "latestCommitHash": "a5bcdd7e58cd",
         "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
       },
       "files": [
@@ -195,7 +202,7 @@
         "skills/internal-comms/SKILL.md",
         "skills/internal-comms/examples"
       ],
-      "stats": { "stars": 63256, "forks": 6227, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "stats": { "stars": 63418, "forks": 6246, "lastUpdated": "2026-02-04T02:20:55Z" },
       "source": "priority"
     },
     {
@@ -211,12 +218,13 @@
         "avatar": "https://github.com/anthropics.png"
       },
       "version": "0.0.0",
+      "commitHash": "ef740771ac90",
       "tags": [],
       "repository": {
         "url": "https://github.com/anthropics/skills",
         "branch": "main",
         "path": "skills/mcp-builder",
-        "latestCommitHash": "ef740771ac90",
+        "latestCommitHash": "a5bcdd7e58cd",
         "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
       },
       "files": [
@@ -225,7 +233,7 @@
         "skills/mcp-builder/reference",
         "skills/mcp-builder/scripts"
       ],
-      "stats": { "stars": 63256, "forks": 6227, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "stats": { "stars": 63418, "forks": 6246, "lastUpdated": "2026-02-04T02:20:55Z" },
       "source": "priority"
     },
     {
@@ -241,12 +249,13 @@
         "avatar": "https://github.com/anthropics.png"
       },
       "version": "0.0.0",
+      "commitHash": "4e6907a33c3c",
       "tags": [],
       "repository": {
         "url": "https://github.com/anthropics/skills",
         "branch": "main",
         "path": "skills/pdf",
-        "latestCommitHash": "4e6907a33c3c",
+        "latestCommitHash": "a5bcdd7e58cd",
         "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
       },
       "files": [
@@ -256,7 +265,7 @@
         "skills/pdf/reference.md",
         "skills/pdf/scripts"
       ],
-      "stats": { "stars": 63256, "forks": 6227, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "stats": { "stars": 63418, "forks": 6246, "lastUpdated": "2026-02-04T02:20:55Z" },
       "source": "priority"
     },
     {
@@ -272,12 +281,13 @@
         "avatar": "https://github.com/anthropics.png"
       },
       "version": "0.0.0",
+      "commitHash": "a5bcdd7e58cd",
       "tags": [],
       "repository": {
         "url": "https://github.com/anthropics/skills",
         "branch": "main",
         "path": "skills/pptx",
-        "latestCommitHash": "4e6907a33c3c",
+        "latestCommitHash": "a5bcdd7e58cd",
         "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
       },
       "files": [
@@ -287,7 +297,7 @@
         "skills/pptx/pptxgenjs.md",
         "skills/pptx/scripts"
       ],
-      "stats": { "stars": 63256, "forks": 6227, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "stats": { "stars": 63418, "forks": 6246, "lastUpdated": "2026-02-04T02:20:55Z" },
       "source": "priority"
     },
     {
@@ -303,12 +313,13 @@
         "avatar": "https://github.com/anthropics.png"
       },
       "version": "0.0.0",
+      "commitHash": "ef740771ac90",
       "tags": [],
       "repository": {
         "url": "https://github.com/anthropics/skills",
         "branch": "main",
         "path": "skills/skill-creator",
-        "latestCommitHash": "ef740771ac90",
+        "latestCommitHash": "a5bcdd7e58cd",
         "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
       },
       "files": [
@@ -317,7 +328,7 @@
         "skills/skill-creator/references",
         "skills/skill-creator/scripts"
       ],
-      "stats": { "stars": 63256, "forks": 6227, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "stats": { "stars": 63418, "forks": 6246, "lastUpdated": "2026-02-04T02:20:55Z" },
       "source": "priority"
     },
     {
@@ -333,12 +344,13 @@
         "avatar": "https://github.com/anthropics.png"
       },
       "version": "0.0.0",
+      "commitHash": "00756142ab04",
       "tags": [],
       "repository": {
         "url": "https://github.com/anthropics/skills",
         "branch": "main",
         "path": "skills/slack-gif-creator",
-        "latestCommitHash": "ef740771ac90",
+        "latestCommitHash": "a5bcdd7e58cd",
         "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
       },
       "files": [
@@ -347,7 +359,7 @@
         "skills/slack-gif-creator/core",
         "skills/slack-gif-creator/requirements.txt"
       ],
-      "stats": { "stars": 63256, "forks": 6227, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "stats": { "stars": 63418, "forks": 6246, "lastUpdated": "2026-02-04T02:20:55Z" },
       "source": "priority"
     },
     {
@@ -363,12 +375,13 @@
         "avatar": "https://github.com/anthropics.png"
       },
       "version": "0.0.0",
+      "commitHash": "ef740771ac90",
       "tags": [],
       "repository": {
         "url": "https://github.com/anthropics/skills",
         "branch": "main",
         "path": "skills/theme-factory",
-        "latestCommitHash": "ef740771ac90",
+        "latestCommitHash": "a5bcdd7e58cd",
         "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
       },
       "files": [
@@ -377,7 +390,7 @@
         "skills/theme-factory/theme-showcase.pdf",
         "skills/theme-factory/themes"
       ],
-      "stats": { "stars": 63256, "forks": 6227, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "stats": { "stars": 63418, "forks": 6246, "lastUpdated": "2026-02-04T02:20:55Z" },
       "source": "priority"
     },
     {
@@ -393,12 +406,13 @@
         "avatar": "https://github.com/anthropics.png"
       },
       "version": "0.0.0",
+      "commitHash": "ef740771ac90",
       "tags": [],
       "repository": {
         "url": "https://github.com/anthropics/skills",
         "branch": "main",
         "path": "skills/web-artifacts-builder",
-        "latestCommitHash": "ef740771ac90",
+        "latestCommitHash": "a5bcdd7e58cd",
         "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
       },
       "files": [
@@ -406,7 +420,7 @@
         "skills/web-artifacts-builder/SKILL.md",
         "skills/web-artifacts-builder/scripts"
       ],
-      "stats": { "stars": 63256, "forks": 6227, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "stats": { "stars": 63418, "forks": 6246, "lastUpdated": "2026-02-04T02:20:55Z" },
       "source": "priority"
     },
     {
@@ -422,12 +436,13 @@
         "avatar": "https://github.com/anthropics.png"
       },
       "version": "0.0.0",
+      "commitHash": "ef740771ac90",
       "tags": [],
       "repository": {
         "url": "https://github.com/anthropics/skills",
         "branch": "main",
         "path": "skills/webapp-testing",
-        "latestCommitHash": "ef740771ac90",
+        "latestCommitHash": "a5bcdd7e58cd",
         "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
       },
       "files": [
@@ -436,7 +451,7 @@
         "skills/webapp-testing/examples",
         "skills/webapp-testing/scripts"
       ],
-      "stats": { "stars": 63256, "forks": 6227, "lastUpdated": "2026-02-04T02:20:55Z" },
+      "stats": { "stars": 63418, "forks": 6246, "lastUpdated": "2026-02-04T02:20:55Z" },
       "source": "priority"
     },
     {
@@ -459,1562 +474,17 @@
         "avatar": "https://github.com/anthropics.png"
       },
       "version": "0.0.0",
+      "commitHash": "4e6907a33c3c",
       "tags": [],
       "repository": {
         "url": "https://github.com/anthropics/skills",
         "branch": "main",
         "path": "skills/xlsx",
-        "latestCommitHash": "4e6907a33c3c",
+        "latestCommitHash": "a5bcdd7e58cd",
         "downloadUrl": "https://api.github.com/repos/anthropics/skills/zipball/main"
       },
       "files": ["skills/xlsx/LICENSE.txt", "skills/xlsx/SKILL.md", "skills/xlsx/scripts"],
-      "stats": { "stars": 63256, "forks": 6227, "lastUpdated": "2026-02-04T02:20:55Z" },
-      "source": "priority"
-    },
-    {
-      "id": "vercel-labs/agent-skills/skills/claude.ai/vercel-deploy-claimable",
-      "name": "vercel-deploy",
-      "displayName": "Vercel Deploy",
-      "description": "Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as \"Deploy my app\", \"Deploy this to production\", \"Create a preview deployment\", \"Deploy and give me the link\", or \"Push this live\". No authentication required - returns preview URL and claimable deployment link.",
-      "categories": ["Other"],
-      "details": "https://github.com/vercel-labs/agent-skills/main/skills/claude.ai/vercel-deploy-claimable/SKILL.md",
-      "author": {
-        "name": "vercel-labs",
-        "url": "https://github.com/vercel-labs",
-        "avatar": "https://github.com/vercel-labs.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/vercel-labs/agent-skills",
-        "branch": "main",
-        "path": "skills/claude.ai/vercel-deploy-claimable",
-        "latestCommitHash": "c0ca8ae48bc4",
-        "downloadUrl": "https://api.github.com/repos/vercel-labs/agent-skills/zipball/main"
-      },
-      "files": [
-        "skills/claude.ai/vercel-deploy-claimable/SKILL.md",
-        "skills/claude.ai/vercel-deploy-claimable/scripts"
-      ],
-      "stats": { "stars": 19003, "forks": 1743, "lastUpdated": "2026-02-02T10:34:59Z" },
-      "source": "priority"
-    },
-    {
-      "id": "vercel-labs/agent-skills/skills/composition-patterns",
-      "name": "vercel-composition-patterns",
-      "displayName": "Vercel Composition Patterns",
-      "description": "React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture. Includes React 19 API changes.",
-      "categories": ["Development", "Design"],
-      "details": "https://github.com/vercel-labs/agent-skills/main/skills/composition-patterns/SKILL.md",
-      "author": {
-        "name": "vercel-labs",
-        "url": "https://github.com/vercel-labs",
-        "avatar": "https://github.com/vercel-labs.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/vercel-labs/agent-skills",
-        "branch": "main",
-        "path": "skills/composition-patterns",
-        "latestCommitHash": "a5343bd997c4",
-        "downloadUrl": "https://api.github.com/repos/vercel-labs/agent-skills/zipball/main"
-      },
-      "files": [
-        "skills/composition-patterns/AGENTS.md",
-        "skills/composition-patterns/README.md",
-        "skills/composition-patterns/SKILL.md",
-        "skills/composition-patterns/metadata.json",
-        "skills/composition-patterns/rules"
-      ],
-      "stats": { "stars": 19003, "forks": 1743, "lastUpdated": "2026-02-02T10:34:59Z" },
-      "source": "priority"
-    },
-    {
-      "id": "vercel-labs/agent-skills/skills/react-best-practices",
-      "name": "vercel-react-best-practices",
-      "displayName": "Vercel React Best Practices",
-      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
-      "categories": ["Development"],
-      "details": "https://github.com/vercel-labs/agent-skills/main/skills/react-best-practices/SKILL.md",
-      "author": {
-        "name": "vercel-labs",
-        "url": "https://github.com/vercel-labs",
-        "avatar": "https://github.com/vercel-labs.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/vercel-labs/agent-skills",
-        "branch": "main",
-        "path": "skills/react-best-practices",
-        "latestCommitHash": "d65b69e0be7e",
-        "downloadUrl": "https://api.github.com/repos/vercel-labs/agent-skills/zipball/main"
-      },
-      "files": [
-        "skills/react-best-practices/AGENTS.md",
-        "skills/react-best-practices/README.md",
-        "skills/react-best-practices/SKILL.md",
-        "skills/react-best-practices/metadata.json",
-        "skills/react-best-practices/rules"
-      ],
-      "stats": { "stars": 19003, "forks": 1743, "lastUpdated": "2026-02-02T10:34:59Z" },
-      "source": "priority"
-    },
-    {
-      "id": "vercel-labs/agent-skills/skills/react-native-skills",
-      "name": "vercel-react-native-skills",
-      "displayName": "Vercel React Native Skills",
-      "description": "React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs.",
-      "categories": ["Development"],
-      "details": "https://github.com/vercel-labs/agent-skills/main/skills/react-native-skills/SKILL.md",
-      "author": {
-        "name": "vercel-labs",
-        "url": "https://github.com/vercel-labs",
-        "avatar": "https://github.com/vercel-labs.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/vercel-labs/agent-skills",
-        "branch": "main",
-        "path": "skills/react-native-skills",
-        "latestCommitHash": "757ccb42a204",
-        "downloadUrl": "https://api.github.com/repos/vercel-labs/agent-skills/zipball/main"
-      },
-      "files": [
-        "skills/react-native-skills/AGENTS.md",
-        "skills/react-native-skills/README.md",
-        "skills/react-native-skills/SKILL.md",
-        "skills/react-native-skills/metadata.json",
-        "skills/react-native-skills/rules"
-      ],
-      "stats": { "stars": 19003, "forks": 1743, "lastUpdated": "2026-02-02T10:34:59Z" },
-      "source": "priority"
-    },
-    {
-      "id": "vercel-labs/agent-skills/skills/web-design-guidelines",
-      "name": "web-design-guidelines",
-      "displayName": "Web Design Guidelines",
-      "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
-      "categories": ["Design"],
-      "details": "https://github.com/vercel-labs/agent-skills/main/skills/web-design-guidelines/SKILL.md",
-      "author": {
-        "name": "vercel-labs",
-        "url": "https://github.com/vercel-labs",
-        "avatar": "https://github.com/vercel-labs.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/vercel-labs/agent-skills",
-        "branch": "main",
-        "path": "skills/web-design-guidelines",
-        "latestCommitHash": "ba46938889d4",
-        "downloadUrl": "https://api.github.com/repos/vercel-labs/agent-skills/zipball/main"
-      },
-      "files": ["skills/web-design-guidelines/SKILL.md"],
-      "stats": { "stars": 19003, "forks": 1743, "lastUpdated": "2026-02-02T10:34:59Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/atlas",
-      "name": "atlas",
-      "displayName": "Atlas",
-      "description": "macOS-only AppleScript control for the ChatGPT Atlas desktop app. Use only when the user explicitly asks to control Atlas tabs/bookmarks/history on macOS and the \"ChatGPT Atlas\" app is installed; do not trigger for general browser tasks or non-macOS environments.",
-      "categories": ["Other"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/atlas/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/atlas",
-        "latestCommitHash": "0ed635aad23f",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/atlas/LICENSE.txt",
-        "skills/.curated/atlas/SKILL.md",
-        "skills/.curated/atlas/agents",
-        "skills/.curated/atlas/assets",
-        "skills/.curated/atlas/references",
-        "skills/.curated/atlas/scripts"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/cloudflare-deploy",
-      "name": "cloudflare-deploy",
-      "displayName": "Cloudflare Deploy",
-      "description": "Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services. Use when the user asks to deploy, host, publish, or set up a project on Cloudflare.",
-      "categories": ["Other"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/cloudflare-deploy/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/cloudflare-deploy",
-        "latestCommitHash": "bf9e226541ec",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/cloudflare-deploy/LICENSE.txt",
-        "skills/.curated/cloudflare-deploy/SKILL.md",
-        "skills/.curated/cloudflare-deploy/agents",
-        "skills/.curated/cloudflare-deploy/assets",
-        "skills/.curated/cloudflare-deploy/references"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/develop-web-game",
-      "name": "develop-web-game",
-      "displayName": "Develop Web Game",
-      "description": "Use when Codex is building or iterating on a web game (HTML/JS) and needs a reliable development + testing loop: implement small changes, run a Playwright-based test script with short input bursts and intentional pauses, inspect screenshots/text, and review console errors with render_game_to_text.",
-      "categories": ["Development"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/develop-web-game/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/develop-web-game",
-        "latestCommitHash": "0ed635aad23f",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/develop-web-game/LICENSE.txt",
-        "skills/.curated/develop-web-game/SKILL.md",
-        "skills/.curated/develop-web-game/agents",
-        "skills/.curated/develop-web-game/assets",
-        "skills/.curated/develop-web-game/references",
-        "skills/.curated/develop-web-game/scripts"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/doc",
-      "name": "doc",
-      "displayName": "Doc",
-      "description": "Use when the task involves reading, creating, or editing `.docx` documents, especially when formatting or layout fidelity matters; prefer `python-docx` plus the bundled `scripts/render_docx.py` for visual checks.",
-      "categories": ["Development", "Design", "Writing", "Documents"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/doc/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/doc",
-        "latestCommitHash": "33a75a7b5728",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/doc/LICENSE.txt",
-        "skills/.curated/doc/SKILL.md",
-        "skills/.curated/doc/agents",
-        "skills/.curated/doc/assets",
-        "skills/.curated/doc/scripts"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/figma-implement-design",
-      "name": "figma-implement-design",
-      "displayName": "Figma Implement Design",
-      "description": "Translate Figma nodes into production-ready code with 1:1 visual fidelity using the Figma MCP workflow (design context, screenshots, assets, and project-convention translation). Trigger when the user provides Figma URLs or node IDs, or asks to implement designs or components that must match Figma specs. Requires a working Figma MCP server connection.",
-      "categories": ["Development", "Design", "Writing", "Productivity"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/figma-implement-design/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/figma-implement-design",
-        "latestCommitHash": "0ed635aad23f",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/figma-implement-design/LICENSE.txt",
-        "skills/.curated/figma-implement-design/SKILL.md",
-        "skills/.curated/figma-implement-design/agents",
-        "skills/.curated/figma-implement-design/assets"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/figma",
-      "name": "figma",
-      "displayName": "Figma",
-      "description": "Use the Figma MCP server to fetch design context, screenshots, variables, and assets from Figma, and to translate Figma nodes into production code. Trigger when a task involves Figma URLs, node IDs, design-to-code implementation, or Figma MCP setup and troubleshooting.",
-      "categories": ["Development", "Design", "Writing"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/figma/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/figma",
-        "latestCommitHash": "dad3072ab323",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/figma/LICENSE.txt",
-        "skills/.curated/figma/SKILL.md",
-        "skills/.curated/figma/agents",
-        "skills/.curated/figma/assets",
-        "skills/.curated/figma/references"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/gh-address-comments",
-      "name": "gh-address-comments",
-      "displayName": "Gh Address Comments",
-      "description": "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in.",
-      "categories": ["Other"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/gh-address-comments/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/gh-address-comments",
-        "latestCommitHash": "5a9bb4cbe6d7",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/gh-address-comments/LICENSE.txt",
-        "skills/.curated/gh-address-comments/SKILL.md",
-        "skills/.curated/gh-address-comments/agents",
-        "skills/.curated/gh-address-comments/assets",
-        "skills/.curated/gh-address-comments/scripts"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/gh-fix-ci",
-      "name": "gh-fix-ci",
-      "displayName": "Gh Fix Ci",
-      "description": "Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. Treat external providers (for example Buildkite) as out of scope and report only the details URL.",
-      "categories": ["Development", "Writing", "Integration"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/gh-fix-ci/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/gh-fix-ci",
-        "latestCommitHash": "33a75a7b5728",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/gh-fix-ci/LICENSE.txt",
-        "skills/.curated/gh-fix-ci/SKILL.md",
-        "skills/.curated/gh-fix-ci/agents",
-        "skills/.curated/gh-fix-ci/assets",
-        "skills/.curated/gh-fix-ci/scripts"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/imagegen",
-      "name": "imagegen",
-      "displayName": "Imagegen",
-      "description": "Use when the user asks to generate or edit images via the OpenAI Image API (for example: generate image, edit/inpaint/mask, background removal or replacement, transparent background, product shots, concept art, covers, or batch variants); run the bundled CLI (`scripts/image_gen.py`) and require `OPENAI_API_KEY` for live calls.",
-      "categories": ["Design"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/imagegen/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/imagegen",
-        "latestCommitHash": "33a75a7b5728",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/imagegen/LICENSE.txt",
-        "skills/.curated/imagegen/SKILL.md",
-        "skills/.curated/imagegen/agents",
-        "skills/.curated/imagegen/assets",
-        "skills/.curated/imagegen/references",
-        "skills/.curated/imagegen/scripts"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/jupyter-notebook",
-      "name": "jupyter-notebook",
-      "displayName": "Jupyter Notebook",
-      "description": "Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook.",
-      "categories": ["Productivity"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/jupyter-notebook/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/jupyter-notebook",
-        "latestCommitHash": "0ed635aad23f",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/jupyter-notebook/LICENSE.txt",
-        "skills/.curated/jupyter-notebook/SKILL.md",
-        "skills/.curated/jupyter-notebook/agents",
-        "skills/.curated/jupyter-notebook/assets",
-        "skills/.curated/jupyter-notebook/references",
-        "skills/.curated/jupyter-notebook/scripts"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/linear",
-      "name": "linear",
-      "displayName": "Linear",
-      "description": "Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear.",
-      "categories": ["Productivity"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/linear/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/linear",
-        "latestCommitHash": "ea369035365d",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/linear/LICENSE.txt",
-        "skills/.curated/linear/SKILL.md",
-        "skills/.curated/linear/agents",
-        "skills/.curated/linear/assets"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/netlify-deploy",
-      "name": "netlify-deploy",
-      "displayName": "Netlify Deploy",
-      "description": "Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when the user asks to deploy, host, publish, or link a site/repo on Netlify, including preview and production deploys.",
-      "categories": ["Other"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/netlify-deploy/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/netlify-deploy",
-        "latestCommitHash": "bf9e226541ec",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/netlify-deploy/LICENSE.txt",
-        "skills/.curated/netlify-deploy/SKILL.md",
-        "skills/.curated/netlify-deploy/agents",
-        "skills/.curated/netlify-deploy/assets",
-        "skills/.curated/netlify-deploy/references"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/notion-knowledge-capture",
-      "name": "notion-knowledge-capture",
-      "displayName": "Notion Knowledge Capture",
-      "description": "Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.",
-      "categories": ["Other"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/notion-knowledge-capture/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/notion-knowledge-capture",
-        "latestCommitHash": "136d58aad780",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/notion-knowledge-capture/LICENSE.txt",
-        "skills/.curated/notion-knowledge-capture/SKILL.md",
-        "skills/.curated/notion-knowledge-capture/agents",
-        "skills/.curated/notion-knowledge-capture/assets",
-        "skills/.curated/notion-knowledge-capture/evaluations",
-        "skills/.curated/notion-knowledge-capture/examples",
-        "skills/.curated/notion-knowledge-capture/reference"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/notion-meeting-intelligence",
-      "name": "notion-meeting-intelligence",
-      "displayName": "Notion Meeting Intelligence",
-      "description": "Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees.",
-      "categories": ["Research"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/notion-meeting-intelligence/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/notion-meeting-intelligence",
-        "latestCommitHash": "136d58aad780",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/notion-meeting-intelligence/LICENSE.txt",
-        "skills/.curated/notion-meeting-intelligence/SKILL.md",
-        "skills/.curated/notion-meeting-intelligence/agents",
-        "skills/.curated/notion-meeting-intelligence/assets",
-        "skills/.curated/notion-meeting-intelligence/evaluations",
-        "skills/.curated/notion-meeting-intelligence/examples",
-        "skills/.curated/notion-meeting-intelligence/reference"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/notion-research-documentation",
-      "name": "notion-research-documentation",
-      "displayName": "Notion Research Documentation",
-      "description": "Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.",
-      "categories": ["Research"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/notion-research-documentation/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/notion-research-documentation",
-        "latestCommitHash": "136d58aad780",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/notion-research-documentation/LICENSE.txt",
-        "skills/.curated/notion-research-documentation/SKILL.md",
-        "skills/.curated/notion-research-documentation/agents",
-        "skills/.curated/notion-research-documentation/assets",
-        "skills/.curated/notion-research-documentation/evaluations",
-        "skills/.curated/notion-research-documentation/examples",
-        "skills/.curated/notion-research-documentation/reference"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/notion-spec-to-implementation",
-      "name": "notion-spec-to-implementation",
-      "displayName": "Notion Spec To Implementation",
-      "description": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.",
-      "categories": ["Other"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/notion-spec-to-implementation/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/notion-spec-to-implementation",
-        "latestCommitHash": "136d58aad780",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/notion-spec-to-implementation/LICENSE.txt",
-        "skills/.curated/notion-spec-to-implementation/SKILL.md",
-        "skills/.curated/notion-spec-to-implementation/agents",
-        "skills/.curated/notion-spec-to-implementation/assets",
-        "skills/.curated/notion-spec-to-implementation/evaluations",
-        "skills/.curated/notion-spec-to-implementation/examples",
-        "skills/.curated/notion-spec-to-implementation/reference"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/openai-docs",
-      "name": "openai-docs",
-      "displayName": "Openai Docs",
-      "description": "Use when the user asks how to build with OpenAI products or APIs and needs up-to-date official documentation with citations (for example: Codex, Responses API, Chat Completions, Apps SDK, Agents SDK, Realtime, model capabilities or limits); prioritize OpenAI docs MCP tools and restrict any fallback browsing to official OpenAI domains.",
-      "categories": ["Development", "Writing", "AI & ML"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/openai-docs/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/openai-docs",
-        "latestCommitHash": "0ed635aad23f",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/openai-docs/LICENSE.txt",
-        "skills/.curated/openai-docs/SKILL.md",
-        "skills/.curated/openai-docs/agents",
-        "skills/.curated/openai-docs/assets"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/pdf",
-      "name": "pdf",
-      "displayName": "Pdf",
-      "description": "Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab`, `pdfplumber`, and `pypdf` for generation and extraction.",
-      "categories": ["Design", "Documents"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/pdf/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/pdf",
-        "latestCommitHash": "33a75a7b5728",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/pdf/LICENSE.txt",
-        "skills/.curated/pdf/SKILL.md",
-        "skills/.curated/pdf/agents",
-        "skills/.curated/pdf/assets"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/playwright",
-      "name": "playwright",
-      "displayName": "Playwright",
-      "description": "Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` or the bundled wrapper script.",
-      "categories": ["Development"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/playwright/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/playwright",
-        "latestCommitHash": "0ed635aad23f",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/playwright/LICENSE.txt",
-        "skills/.curated/playwright/NOTICE.txt",
-        "skills/.curated/playwright/SKILL.md",
-        "skills/.curated/playwright/agents",
-        "skills/.curated/playwright/assets",
-        "skills/.curated/playwright/references",
-        "skills/.curated/playwright/scripts"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/render-deploy",
-      "name": "render-deploy",
-      "displayName": "Render Deploy",
-      "description": "Deploy applications to Render by analyzing codebases, generating render.yaml Blueprints, and providing Dashboard deeplinks. Use when the user wants to deploy, host, publish, or set up their application on Render's cloud platform.",
-      "categories": ["Development"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/render-deploy/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/render-deploy",
-        "latestCommitHash": "bf9e226541ec",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/render-deploy/LICENSE.txt",
-        "skills/.curated/render-deploy/SKILL.md",
-        "skills/.curated/render-deploy/agents",
-        "skills/.curated/render-deploy/assets",
-        "skills/.curated/render-deploy/references"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/screenshot",
-      "name": "screenshot",
-      "displayName": "Screenshot",
-      "description": "Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavailable and an OS-level capture is needed.",
-      "categories": ["Other"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/screenshot/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/screenshot",
-        "latestCommitHash": "33a75a7b5728",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/screenshot/LICENSE.txt",
-        "skills/.curated/screenshot/SKILL.md",
-        "skills/.curated/screenshot/agents",
-        "skills/.curated/screenshot/assets",
-        "skills/.curated/screenshot/scripts"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/security-best-practices",
-      "name": "security-best-practices",
-      "displayName": "Security Best Practices",
-      "description": "Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-default coding help. Trigger only for supported languages (python, javascript/typescript, go). Do not trigger for general code review, debugging, or non-security tasks.",
-      "categories": ["Development"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/security-best-practices/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/security-best-practices",
-        "latestCommitHash": "5c8f1e26803b",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/security-best-practices/LICENSE.txt",
-        "skills/.curated/security-best-practices/SKILL.md",
-        "skills/.curated/security-best-practices/agents",
-        "skills/.curated/security-best-practices/references"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/security-ownership-map",
-      "name": "security-ownership-map",
-      "displayName": "Security Ownership Map",
-      "description": "Analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensitive-code ownership, and export CSV/JSON for graph databases and visualization. Trigger only when the user explicitly wants a security-oriented ownership or bus-factor analysis grounded in git history (for example: orphaned sensitive code, security maintainers, CODEOWNERS reality checks for risk, sensitive hotspots, or ownership clusters). Do not trigger for general maintainer lists or non-security ownership questions.",
-      "categories": ["Development", "Design", "Data & Analytics", "Documents"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/security-ownership-map/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/security-ownership-map",
-        "latestCommitHash": "5c8f1e26803b",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/security-ownership-map/LICENSE.txt",
-        "skills/.curated/security-ownership-map/SKILL.md",
-        "skills/.curated/security-ownership-map/agents",
-        "skills/.curated/security-ownership-map/references",
-        "skills/.curated/security-ownership-map/scripts"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/security-threat-model",
-      "name": "security-threat-model",
-      "displayName": "Security Threat Model",
-      "description": "Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigger only when the user explicitly asks to threat model a codebase or path, enumerate threats/abuse paths, or perform AppSec threat modeling. Do not trigger for general architecture summaries, code review, or non-security design work.",
-      "categories": ["Development"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/security-threat-model/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/security-threat-model",
-        "latestCommitHash": "5c8f1e26803b",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/security-threat-model/LICENSE.txt",
-        "skills/.curated/security-threat-model/SKILL.md",
-        "skills/.curated/security-threat-model/agents",
-        "skills/.curated/security-threat-model/references"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/sentry",
-      "name": "sentry",
-      "displayName": "Sentry",
-      "description": "Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry API; perform read-only queries with the bundled script and require `SENTRY_AUTH_TOKEN`.",
-      "categories": ["Other"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/sentry/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/sentry",
-        "latestCommitHash": "0ed635aad23f",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/sentry/LICENSE.txt",
-        "skills/.curated/sentry/SKILL.md",
-        "skills/.curated/sentry/agents",
-        "skills/.curated/sentry/assets",
-        "skills/.curated/sentry/scripts"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/sora",
-      "name": "sora",
-      "displayName": "Sora",
-      "description": "Use when the user asks to generate, remix, poll, list, download, or delete Sora videos via OpenAI’s video API using the bundled CLI (`scripts/sora.py`), including requests like “generate AI video,” “Sora,” “video remix,” “download video/thumbnail/spritesheet,” and batch video generation; requires `OPENAI_API_KEY` and Sora API access.",
-      "categories": ["Other"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/sora/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/sora",
-        "latestCommitHash": "33a75a7b5728",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/sora/LICENSE.txt",
-        "skills/.curated/sora/SKILL.md",
-        "skills/.curated/sora/agents",
-        "skills/.curated/sora/assets",
-        "skills/.curated/sora/references",
-        "skills/.curated/sora/scripts"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/speech",
-      "name": "speech",
-      "displayName": "Speech",
-      "description": "Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation via the OpenAI Audio API; run the bundled CLI (`scripts/text_to_speech.py`) with built-in voices and require `OPENAI_API_KEY` for live calls. Custom voice creation is out of scope.",
-      "categories": ["AI & ML"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/speech/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/speech",
-        "latestCommitHash": "33a75a7b5728",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/speech/LICENSE.txt",
-        "skills/.curated/speech/SKILL.md",
-        "skills/.curated/speech/agents",
-        "skills/.curated/speech/assets",
-        "skills/.curated/speech/references",
-        "skills/.curated/speech/scripts"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/spreadsheet",
-      "name": "spreadsheet",
-      "displayName": "Spreadsheet",
-      "description": "Use when tasks involve creating, editing, analyzing, or formatting spreadsheets (`.xlsx`, `.csv`, `.tsv`) using Python (`openpyxl`, `pandas`), especially when formulas, references, and formatting need to be preserved and verified.",
-      "categories": ["Development", "Writing", "Data & Analytics", "Documents"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/spreadsheet/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/spreadsheet",
-        "latestCommitHash": "33a75a7b5728",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/spreadsheet/LICENSE.txt",
-        "skills/.curated/spreadsheet/SKILL.md",
-        "skills/.curated/spreadsheet/agents",
-        "skills/.curated/spreadsheet/assets",
-        "skills/.curated/spreadsheet/references"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/transcribe",
-      "name": "transcribe",
-      "displayName": "Transcribe",
-      "description": "Transcribe audio files to text with optional diarization and known-speaker hints. Use when a user asks to transcribe speech from audio/video, extract text from recordings, or label speakers in interviews or meetings.",
-      "categories": ["Other"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/transcribe/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/transcribe",
-        "latestCommitHash": "0ed635aad23f",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/transcribe/LICENSE.txt",
-        "skills/.curated/transcribe/SKILL.md",
-        "skills/.curated/transcribe/agents",
-        "skills/.curated/transcribe/assets",
-        "skills/.curated/transcribe/references",
-        "skills/.curated/transcribe/scripts"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/vercel-deploy",
-      "name": "vercel-deploy",
-      "displayName": "Vercel Deploy",
-      "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
-      "categories": ["Other"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/vercel-deploy/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/vercel-deploy",
-        "latestCommitHash": "7d56b27c73a6",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/vercel-deploy/LICENSE.txt",
-        "skills/.curated/vercel-deploy/SKILL.md",
-        "skills/.curated/vercel-deploy/agents",
-        "skills/.curated/vercel-deploy/assets",
-        "skills/.curated/vercel-deploy/scripts"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.curated/yeet",
-      "name": "yeet",
-      "displayName": "Yeet",
-      "description": "Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (`gh`).",
-      "categories": ["Development"],
-      "details": "https://github.com/openai/skills/main/skills/.curated/yeet/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.curated/yeet",
-        "latestCommitHash": "8766dfebfe2e",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.curated/yeet/LICENSE.txt",
-        "skills/.curated/yeet/SKILL.md",
-        "skills/.curated/yeet/agents",
-        "skills/.curated/yeet/assets"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.experimental/codex-readiness-integration-test",
-      "name": "codex-readiness-integration-test",
-      "displayName": "Codex Readiness Integration Test",
-      "description": "Run the Codex Readiness integration test. Use when you need an end-to-end agentic loop with build/test scoring.",
-      "categories": ["Development"],
-      "details": "https://github.com/openai/skills/main/skills/.experimental/codex-readiness-integration-test/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.experimental/codex-readiness-integration-test",
-        "latestCommitHash": "35d7c67622fb",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.experimental/codex-readiness-integration-test/LICENSE.txt",
-        "skills/.experimental/codex-readiness-integration-test/SKILL.md",
-        "skills/.experimental/codex-readiness-integration-test/references",
-        "skills/.experimental/codex-readiness-integration-test/scripts",
-        "skills/.experimental/codex-readiness-integration-test/tests"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.experimental/codex-readiness-unit-test",
-      "name": "codex-readiness-unit-test",
-      "displayName": "Codex Readiness Unit Test",
-      "description": "Run the Codex Readiness unit test report. Use when you need deterministic checks plus in-session LLM evals for AGENTS.md/PLANS.md.",
-      "categories": ["Development", "AI & ML"],
-      "details": "https://github.com/openai/skills/main/skills/.experimental/codex-readiness-unit-test/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.experimental/codex-readiness-unit-test",
-        "latestCommitHash": "7b086f550ea2",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.experimental/codex-readiness-unit-test/LICENSE.txt",
-        "skills/.experimental/codex-readiness-unit-test/SKILL.md",
-        "skills/.experimental/codex-readiness-unit-test/references",
-        "skills/.experimental/codex-readiness-unit-test/scripts"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.experimental/create-plan",
-      "name": "create-plan",
-      "displayName": "Create Plan",
-      "description": "Create a concise plan. Use when a user explicitly asks for a plan related to a coding task.",
-      "categories": ["Other"],
-      "details": "https://github.com/openai/skills/main/skills/.experimental/create-plan/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.experimental/create-plan",
-        "latestCommitHash": "2a1cce6e7608",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.experimental/create-plan/LICENSE.txt",
-        "skills/.experimental/create-plan/SKILL.md"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.experimental/gitlab-address-comments",
-      "name": "gitlab-address-comments",
-      "displayName": "Gitlab Address Comments",
-      "description": "Help address review/issue comments on the open GitLab MR for the current branch using glab CLI. Use when the user wants help addressing review/issue comments on an open GitLab MR",
-      "categories": ["Other"],
-      "details": "https://github.com/openai/skills/main/skills/.experimental/gitlab-address-comments/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.experimental/gitlab-address-comments",
-        "latestCommitHash": "3eb3f6c8cc39",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.experimental/gitlab-address-comments/LICENSE.txt",
-        "skills/.experimental/gitlab-address-comments/SKILL.md",
-        "skills/.experimental/gitlab-address-comments/scripts"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.experimental/wrapped",
-      "name": "codex-wrapped",
-      "displayName": "Codex Wrapped",
-      "description": "Generate a Codex Wrapped usage recap from local Codex logs, including last 30 days, last 7 days, and an all-time focus-hours callout. Use when the user asks for a usage summary, activity recap, or Codex Wrapped report.",
-      "categories": ["Productivity"],
-      "details": "https://github.com/openai/skills/main/skills/.experimental/wrapped/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.experimental/wrapped",
-        "latestCommitHash": "f617e62e40a9",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.experimental/wrapped/LICENSE.txt",
-        "skills/.experimental/wrapped/SKILL.md",
-        "skills/.experimental/wrapped/agents",
-        "skills/.experimental/wrapped/scripts"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.system/skill-creator",
-      "name": "skill-creator",
-      "displayName": "Skill Creator",
-      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflows, or tool integrations.",
-      "categories": ["Other"],
-      "details": "https://github.com/openai/skills/main/skills/.system/skill-creator/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.system/skill-creator",
-        "latestCommitHash": "94fa19526eea",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.system/skill-creator/LICENSE.txt",
-        "skills/.system/skill-creator/SKILL.md",
-        "skills/.system/skill-creator/agents",
-        "skills/.system/skill-creator/references",
-        "skills/.system/skill-creator/scripts"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "openai/skills/skills/.system/skill-installer",
-      "name": "skill-installer",
-      "displayName": "Skill Installer",
-      "description": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",
-      "categories": ["Development"],
-      "details": "https://github.com/openai/skills/main/skills/.system/skill-installer/SKILL.md",
-      "author": {
-        "name": "openai",
-        "url": "https://github.com/openai",
-        "avatar": "https://github.com/openai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/openai/skills",
-        "branch": "main",
-        "path": "skills/.system/skill-installer",
-        "latestCommitHash": "e911ae9feb93",
-        "downloadUrl": "https://api.github.com/repos/openai/skills/zipball/main"
-      },
-      "files": [
-        "skills/.system/skill-installer/LICENSE.txt",
-        "skills/.system/skill-installer/SKILL.md",
-        "skills/.system/skill-installer/agents",
-        "skills/.system/skill-installer/assets",
-        "skills/.system/skill-installer/scripts"
-      ],
-      "stats": { "stars": 3783, "forks": 217, "lastUpdated": "2026-02-04T22:26:32Z" },
-      "source": "priority"
-    },
-    {
-      "id": "vuejs-ai/skills/skills/create-adaptable-composable",
-      "name": "create-adaptable-composable",
-      "displayName": "Create Adaptable Composable",
-      "description": "Create a library-grade Vue composable that accepts maybe-reactive inputs (MaybeRef / MaybeRefOrGetter) so callers can pass a plain value, ref, or getter. Normalize inputs with toValue()/toRef() inside reactive effects (watch/watchEffect) to keep behavior predictable and reactive. Use this skill when user asks for creating adaptable or reusable composables.",
-      "categories": ["Development"],
-      "details": "https://github.com/vuejs-ai/skills/main/skills/create-adaptable-composable/SKILL.md",
-      "author": {
-        "name": "vuejs-ai",
-        "url": "https://github.com/vuejs-ai",
-        "avatar": "https://github.com/vuejs-ai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/vuejs-ai/skills",
-        "branch": "main",
-        "path": "skills/create-adaptable-composable",
-        "latestCommitHash": "3b0d2ce9fb47",
-        "downloadUrl": "https://api.github.com/repos/vuejs-ai/skills/zipball/main"
-      },
-      "files": ["skills/create-adaptable-composable/SKILL.md"],
-      "stats": { "stars": 1381, "forks": 65, "lastUpdated": "2026-01-31T19:28:21Z" },
-      "source": "priority"
-    },
-    {
-      "id": "vuejs-ai/skills/skills/vue-best-practices",
-      "name": "vue-best-practices",
-      "displayName": "Vue Best Practices",
-      "description": "MUST be used for Vue.js tasks. Strongly recommends Composition API with `<script setup>` and TypeScript as the standard approach. Covers Vue 3, SSR, Volar, vue-tsc. Load for any Vue, .vue files, Vue Router, Pinia, or Vite with Vue work. ALWAYS use Composition API unless the project explicitly requires Options API.",
-      "categories": ["Development", "Productivity"],
-      "details": "https://github.com/vuejs-ai/skills/main/skills/vue-best-practices/SKILL.md",
-      "author": {
-        "name": "vuejs-ai",
-        "url": "https://github.com/vuejs-ai",
-        "avatar": "https://github.com/vuejs-ai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/vuejs-ai/skills",
-        "branch": "main",
-        "path": "skills/vue-best-practices",
-        "latestCommitHash": "1778a3bc231a",
-        "downloadUrl": "https://api.github.com/repos/vuejs-ai/skills/zipball/main"
-      },
-      "files": ["skills/vue-best-practices/SKILL.md", "skills/vue-best-practices/reference"],
-      "stats": { "stars": 1381, "forks": 65, "lastUpdated": "2026-01-31T19:28:21Z" },
-      "source": "priority"
-    },
-    {
-      "id": "vuejs-ai/skills/skills/vue-debug-guides",
-      "name": "vue-debug-guides",
-      "displayName": "Vue Debug Guides",
-      "description": "Vue 3 debugging and error handling for runtime errors, warnings, async failures, and SSR/hydration issues. Use when diagnosing or fixing Vue issues.",
-      "categories": ["Development"],
-      "details": "https://github.com/vuejs-ai/skills/main/skills/vue-debug-guides/SKILL.md",
-      "author": {
-        "name": "vuejs-ai",
-        "url": "https://github.com/vuejs-ai",
-        "avatar": "https://github.com/vuejs-ai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/vuejs-ai/skills",
-        "branch": "main",
-        "path": "skills/vue-debug-guides",
-        "latestCommitHash": "1778a3bc231a",
-        "downloadUrl": "https://api.github.com/repos/vuejs-ai/skills/zipball/main"
-      },
-      "files": ["skills/vue-debug-guides/SKILL.md", "skills/vue-debug-guides/reference"],
-      "stats": { "stars": 1381, "forks": 65, "lastUpdated": "2026-01-31T19:28:21Z" },
-      "source": "priority"
-    },
-    {
-      "id": "vuejs-ai/skills/skills/vue-development-guides",
-      "name": "vue-development-guides",
-      "displayName": "Vue Development Guides",
-      "description": "A collection of best practices and tips for developing applications using Vue.js. This skill MUST be apply when developing, refactoring or reviewing Vue.js or Nuxt projects.",
-      "categories": ["Development", "Design"],
-      "details": "https://github.com/vuejs-ai/skills/main/skills/vue-development-guides/SKILL.md",
-      "author": {
-        "name": "vuejs-ai",
-        "url": "https://github.com/vuejs-ai",
-        "avatar": "https://github.com/vuejs-ai.png"
-      },
-      "version": "0.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/vuejs-ai/skills",
-        "branch": "main",
-        "path": "skills/vue-development-guides",
-        "latestCommitHash": "3b0d2ce9fb47",
-        "downloadUrl": "https://api.github.com/repos/vuejs-ai/skills/zipball/main"
-      },
-      "files": [
-        "skills/vue-development-guides/SKILL.md",
-        "skills/vue-development-guides/references"
-      ],
-      "stats": { "stars": 1381, "forks": 65, "lastUpdated": "2026-01-31T19:28:21Z" },
-      "source": "priority"
-    },
-    {
-      "id": "vuejs-ai/skills/skills/vue-options-api-best-practices",
-      "name": "vue-options-api-best-practices",
-      "displayName": "Vue Options Api Best Practices",
-      "description": "Vue 3 Options API style (data(), methods, this context). Each reference shows Options API solution only.",
-      "categories": ["Development"],
-      "details": "https://github.com/vuejs-ai/skills/main/skills/vue-options-api-best-practices/SKILL.md",
-      "author": {
-        "name": "vuejs-ai",
-        "url": "https://github.com/vuejs-ai",
-        "avatar": "https://github.com/vuejs-ai.png"
-      },
-      "version": "2.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/vuejs-ai/skills",
-        "branch": "main",
-        "path": "skills/vue-options-api-best-practices",
-        "latestCommitHash": "bc922e485acd",
-        "downloadUrl": "https://api.github.com/repos/vuejs-ai/skills/zipball/main"
-      },
-      "files": [
-        "skills/vue-options-api-best-practices/SKILL.md",
-        "skills/vue-options-api-best-practices/reference"
-      ],
-      "stats": { "stars": 1381, "forks": 65, "lastUpdated": "2026-01-31T19:28:21Z" },
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "source": "priority"
-    },
-    {
-      "id": "vuejs-ai/skills/skills/vue-pinia-best-practices",
-      "name": "vue-pinia-best-practices",
-      "displayName": "Vue Pinia Best Practices",
-      "description": "Pinia stores, state management patterns, store setup, and reactivity with stores.",
-      "categories": ["Development"],
-      "details": "https://github.com/vuejs-ai/skills/main/skills/vue-pinia-best-practices/SKILL.md",
-      "author": {
-        "name": "vuejs-ai",
-        "url": "https://github.com/vuejs-ai",
-        "avatar": "https://github.com/vuejs-ai.png"
-      },
-      "version": "1.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/vuejs-ai/skills",
-        "branch": "main",
-        "path": "skills/vue-pinia-best-practices",
-        "latestCommitHash": "bc922e485acd",
-        "downloadUrl": "https://api.github.com/repos/vuejs-ai/skills/zipball/main"
-      },
-      "files": [
-        "skills/vue-pinia-best-practices/SKILL.md",
-        "skills/vue-pinia-best-practices/reference"
-      ],
-      "stats": { "stars": 1381, "forks": 65, "lastUpdated": "2026-01-31T19:28:21Z" },
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "source": "priority"
-    },
-    {
-      "id": "vuejs-ai/skills/skills/vue-router-best-practices",
-      "name": "vue-router-best-practices",
-      "displayName": "Vue Router Best Practices",
-      "description": "Vue Router 4 patterns, navigation guards, route params, and route-component lifecycle interactions.",
-      "categories": ["Other"],
-      "details": "https://github.com/vuejs-ai/skills/main/skills/vue-router-best-practices/SKILL.md",
-      "author": {
-        "name": "vuejs-ai",
-        "url": "https://github.com/vuejs-ai",
-        "avatar": "https://github.com/vuejs-ai.png"
-      },
-      "version": "1.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/vuejs-ai/skills",
-        "branch": "main",
-        "path": "skills/vue-router-best-practices",
-        "latestCommitHash": "bc922e485acd",
-        "downloadUrl": "https://api.github.com/repos/vuejs-ai/skills/zipball/main"
-      },
-      "files": [
-        "skills/vue-router-best-practices/SKILL.md",
-        "skills/vue-router-best-practices/reference"
-      ],
-      "stats": { "stars": 1381, "forks": 65, "lastUpdated": "2026-01-31T19:28:21Z" },
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "source": "priority"
-    },
-    {
-      "id": "vuejs-ai/skills/skills/vue-testing-best-practices",
-      "name": "vue-testing-best-practices",
-      "displayName": "Vue Testing Best Practices",
-      "description": "Use for Vue.js testing. Covers Vitest, Vue Test Utils, component testing, mocking, testing patterns, and Playwright for E2E testing.",
-      "categories": ["Development"],
-      "details": "https://github.com/vuejs-ai/skills/main/skills/vue-testing-best-practices/SKILL.md",
-      "author": {
-        "name": "vuejs-ai",
-        "url": "https://github.com/vuejs-ai",
-        "avatar": "https://github.com/vuejs-ai.png"
-      },
-      "version": "1.0.0",
-      "tags": [],
-      "repository": {
-        "url": "https://github.com/vuejs-ai/skills",
-        "branch": "main",
-        "path": "skills/vue-testing-best-practices",
-        "latestCommitHash": "bc922e485acd",
-        "downloadUrl": "https://api.github.com/repos/vuejs-ai/skills/zipball/main"
-      },
-      "files": [
-        "skills/vue-testing-best-practices/SKILL.md",
-        "skills/vue-testing-best-practices/reference"
-      ],
-      "stats": { "stars": 1381, "forks": 65, "lastUpdated": "2026-01-31T19:28:21Z" },
-      "compatibility": { "minAgentVersion": "0.1.0" },
+      "stats": { "stars": 63418, "forks": 6246, "lastUpdated": "2026-02-04T02:20:55Z" },
       "source": "priority"
     },
     {
@@ -2030,12 +500,13 @@
         "avatar": "https://github.com/huggingface.png"
       },
       "version": "0.0.0",
+      "commitHash": "fa7188e232af",
       "tags": [],
       "repository": {
         "url": "https://github.com/huggingface/skills",
         "branch": "main",
         "path": "hf-mcp/skills/hf-mcp",
-        "latestCommitHash": "fa7188e232af",
+        "latestCommitHash": "2afeee6dc727",
         "downloadUrl": "https://api.github.com/repos/huggingface/skills/zipball/main"
       },
       "files": ["hf-mcp/skills/hf-mcp/SKILL.md"],
@@ -2055,12 +526,13 @@
         "avatar": "https://github.com/huggingface.png"
       },
       "version": "0.0.0",
+      "commitHash": "351508f54d19",
       "tags": [],
       "repository": {
         "url": "https://github.com/huggingface/skills",
         "branch": "main",
         "path": "skills/hugging-face-cli",
-        "latestCommitHash": "351508f54d19",
+        "latestCommitHash": "2afeee6dc727",
         "downloadUrl": "https://api.github.com/repos/huggingface/skills/zipball/main"
       },
       "files": ["skills/hugging-face-cli/SKILL.md", "skills/hugging-face-cli/references"],
@@ -2080,12 +552,13 @@
         "avatar": "https://github.com/huggingface.png"
       },
       "version": "0.0.0",
+      "commitHash": "b417fadb46e3",
       "tags": [],
       "repository": {
         "url": "https://github.com/huggingface/skills",
         "branch": "main",
         "path": "skills/hugging-face-datasets",
-        "latestCommitHash": "b417fadb46e3",
+        "latestCommitHash": "2afeee6dc727",
         "downloadUrl": "https://api.github.com/repos/huggingface/skills/zipball/main"
       },
       "files": [
@@ -2110,12 +583,13 @@
         "avatar": "https://github.com/huggingface.png"
       },
       "version": "0.0.0",
+      "commitHash": "b417fadb46e3",
       "tags": [],
       "repository": {
         "url": "https://github.com/huggingface/skills",
         "branch": "main",
         "path": "skills/hugging-face-evaluation",
-        "latestCommitHash": "b417fadb46e3",
+        "latestCommitHash": "2afeee6dc727",
         "downloadUrl": "https://api.github.com/repos/huggingface/skills/zipball/main"
       },
       "files": [
@@ -2140,12 +614,13 @@
         "avatar": "https://github.com/huggingface.png"
       },
       "version": "0.0.0",
+      "commitHash": "a25b8e5be09f",
       "tags": [],
       "repository": {
         "url": "https://github.com/huggingface/skills",
         "branch": "main",
         "path": "skills/hugging-face-jobs",
-        "latestCommitHash": "a25b8e5be09f",
+        "latestCommitHash": "2afeee6dc727",
         "downloadUrl": "https://api.github.com/repos/huggingface/skills/zipball/main"
       },
       "files": [
@@ -2170,12 +645,13 @@
         "avatar": "https://github.com/huggingface.png"
       },
       "version": "0.0.0",
+      "commitHash": "b417fadb46e3",
       "tags": [],
       "repository": {
         "url": "https://github.com/huggingface/skills",
         "branch": "main",
         "path": "skills/hugging-face-model-trainer",
-        "latestCommitHash": "b417fadb46e3",
+        "latestCommitHash": "2afeee6dc727",
         "downloadUrl": "https://api.github.com/repos/huggingface/skills/zipball/main"
       },
       "files": [
@@ -2199,12 +675,13 @@
         "avatar": "https://github.com/huggingface.png"
       },
       "version": "0.0.0",
+      "commitHash": "b417fadb46e3",
       "tags": [],
       "repository": {
         "url": "https://github.com/huggingface/skills",
         "branch": "main",
         "path": "skills/hugging-face-paper-publisher",
-        "latestCommitHash": "b417fadb46e3",
+        "latestCommitHash": "2afeee6dc727",
         "downloadUrl": "https://api.github.com/repos/huggingface/skills/zipball/main"
       },
       "files": [
@@ -2230,12 +707,13 @@
         "avatar": "https://github.com/huggingface.png"
       },
       "version": "0.0.0",
+      "commitHash": "a25b8e5be09f",
       "tags": [],
       "repository": {
         "url": "https://github.com/huggingface/skills",
         "branch": "main",
         "path": "skills/hugging-face-tool-builder",
-        "latestCommitHash": "a25b8e5be09f",
+        "latestCommitHash": "2afeee6dc727",
         "downloadUrl": "https://api.github.com/repos/huggingface/skills/zipball/main"
       },
       "files": [
@@ -2258,12 +736,13 @@
         "avatar": "https://github.com/huggingface.png"
       },
       "version": "0.0.0",
+      "commitHash": "87adfeeb2107",
       "tags": [],
       "repository": {
         "url": "https://github.com/huggingface/skills",
         "branch": "main",
         "path": "skills/hugging-face-trackio",
-        "latestCommitHash": "87adfeeb2107",
+        "latestCommitHash": "2afeee6dc727",
         "downloadUrl": "https://api.github.com/repos/huggingface/skills/zipball/main"
       },
       "files": [

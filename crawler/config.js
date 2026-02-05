@@ -70,6 +70,16 @@ export const CONFIG = {
     intervalCap: 10,
     interval: 1000,
   },
+
+  // Test mode: only scan specified repos, skip GitHub topic search
+  testMode: {
+    enabled: process.env.TEST_MODE === "true",
+    // Test repos can be specified via TEST_REPOS env var (comma-separated)
+    // e.g. TEST_REPOS="anthropics/skills,vercel-labs/agent-skills"
+    repos: process.env.TEST_REPOS
+      ? process.env.TEST_REPOS.split(",").map((r) => r.trim())
+      : ["anthropics/skills", "huggingface/skills"],
+  },
 };
 
 export const __crawlerDirname = __dirname;
