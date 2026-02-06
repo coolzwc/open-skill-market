@@ -1,6 +1,11 @@
 import matter from "gray-matter";
 
 /**
+ * Maximum description length for extracted descriptions
+ */
+const MAX_DESCRIPTION_LENGTH = 500;
+
+/**
  * Category definitions with keywords for matching
  */
 const CATEGORY_DEFINITIONS = {
@@ -266,7 +271,7 @@ function extractFromMarkdown(content) {
       continue;
     }
     if (foundHeading && trimmed.length > 20 && !trimmed.startsWith("-") && !trimmed.startsWith("*")) {
-      result.description = trimmed.substring(0, 500);
+      result.description = trimmed.substring(0, MAX_DESCRIPTION_LENGTH);
       break;
     }
   }
@@ -322,7 +327,7 @@ export function parseSkillContent(content) {
     const lines = body.split("\n").filter((line) => line.trim());
     for (const line of lines) {
       if (!line.startsWith("#") && line.trim().length > 20) {
-        extractedDescription = line.trim().substring(0, 500);
+        extractedDescription = line.trim().substring(0, MAX_DESCRIPTION_LENGTH);
         break;
       }
     }

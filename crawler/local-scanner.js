@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 import matter from "gray-matter";
-import { execSync } from "child_process";
+import { spawnSync } from "child_process";
 import { CONFIG } from "./config.js";
 import {
   pathExists,
@@ -12,17 +12,29 @@ import { parseSkillContent, categorizeSkill } from "./skill-parser.js";
 
 /**
  * Get git commit hash for a local directory
- * @param {string} dirPath - Directory path
+ * Uses spawnSync with argument array to avoid shell injection
+ * @param {string} dirPath - Directory path (relative to localSkillsPath)
  * @returns {string} - Short commit hash or empty string
  */
 function getLocalDirCommitHash(dirPath) {
   try {
-    // Get the latest commit hash for files in this directory
-    const result = execSync(
-      `git log -1 --format="%H" -- "${dirPath}"`,
-      { cwd: CONFIG.localSkillsPath, encoding: "utf-8", stdio: ["pipe", "pipe", "pipe"] }
-    ).trim();
-    return result ? result.substring(0, 12) : "";
+    // Use spawnSync with argument array to safely pass the path
+    const result = spawnSync(
+      "git",
+      ["log", "-1", "--format=%H", "--", dirPath],
+      {
+        cwd: CONFIG.localSkillsPath,
+        encoding: "utf-8",
+        stdio: ["pipe", "pipe", "pipe"],
+      }
+    );
+    
+    if (result.status !== 0 || !result.stdout) {
+      return "";
+    }
+    
+    const hash = result.stdout.trim();
+    return hash ? hash.substring(0, 12) : "";
   } catch {
     return "";
   }
@@ -105,10 +117,9 @@ export async function scanLocalSkills() {
           url: CONFIG.thisRepo.url,
           branch: "main",
           path: `skills/${skillDir.name}`,
-          latestCommitHash: localCommitHash || "local",
           downloadUrl: `https://api.github.com/repos/${CONFIG.thisRepo.owner}/${CONFIG.thisRepo.name}/zipball/main`,
         },
-        files: relativeFiles.slice(0, 20),
+        files: relativeFiles.slice(0, CONFIG.fileLimits?.maxFilesPerSkill || 20),
         stats: {
           stars: 0,
           forks: 0,

@@ -1,17 +1,18 @@
 import fs from "fs/promises";
 import path from "path";
 import archiver from "archiver";
-import crypto from "crypto";
 import { createWriteStream } from "fs";
+import { shouldStopForTimeout } from "./rate-limit.js";
+import { sleep } from "./utils.js";
 
 /**
  * Generate a zip package for a skill
  * @param {Object} skillManifest - Skill manifest object
  * @param {string} outputDir - Output directory for zip files
- * @param {Object} octokit - Octokit instance for fetching files
- * @returns {Promise<{zipPath: string, zipHash: string}>}
+ * @param {import('./worker-pool.js').WorkerPool} workerPool - Worker pool for rate-limited API calls
+ * @returns {Promise<{zipPath: string}>}
  */
-export async function generateSkillZip(skillManifest, outputDir, octokit) {
+export async function generateSkillZip(skillManifest, outputDir, workerPool) {
   const { name, repository, files } = skillManifest;
   const { url, branch, path: skillPath } = repository;
   
@@ -31,33 +32,30 @@ export async function generateSkillZip(skillManifest, outputDir, octokit) {
 
   // Fetch skill files
   console.log(`Generating zip for ${name}...`);
-  const fileContents = await fetchSkillFiles(owner, repo, branch, files, skillPath, octokit);
+  const fileContents = await fetchSkillFiles(owner, repo, branch, files, skillPath, workerPool);
 
   // Create zip file
   await createZipFile(zipPath, fileContents, name, skillPath);
 
-  // Calculate hash of zip file
-  const zipHash = await calculateFileHash(zipPath);
-
-  console.log(`✓ Generated ${zipFilename} (hash: ${zipHash.substring(0, 8)})`);
+  console.log(`✓ Generated ${zipFilename}`);
 
   return {
     zipPath: path.relative(path.join(outputDir, ".."), zipPath),
-    zipHash,
   };
 }
 
 /**
- * Fetch skill files from GitHub or local filesystem
+ * Fetch skill files from GitHub or local filesystem.
+ * Uses workerPool for rate-limited GitHub API calls.
  * @param {string} owner - Repository owner
  * @param {string} repo - Repository name
  * @param {string} branch - Branch name
  * @param {Array<string>} files - List of file paths
  * @param {string} skillPath - Skill directory path
- * @param {Object} octokit - Octokit instance
+ * @param {import('./worker-pool.js').WorkerPool} workerPool - Worker pool for API calls
  * @returns {Promise<Array<{path: string, content: Buffer}>>}
  */
-async function fetchSkillFiles(owner, repo, branch, files, skillPath, octokit) {
+async function fetchSkillFiles(owner, repo, branch, files, skillPath, workerPool) {
   const fileContents = [];
 
   for (const filePath of files) {
@@ -67,12 +65,10 @@ async function fetchSkillFiles(owner, repo, branch, files, skillPath, octokit) {
       try {
         const stats = await fs.stat(localPath);
         if (stats.isFile()) {
-          // Read local file
           const content = await fs.readFile(localPath);
           fileContents.push({ path: filePath, content });
           continue;
         } else if (stats.isDirectory()) {
-          // Read directory contents recursively
           const dirFiles = await readDirectoryRecursive(localPath, filePath);
           fileContents.push(...dirFiles);
           continue;
@@ -81,46 +77,9 @@ async function fetchSkillFiles(owner, repo, branch, files, skillPath, octokit) {
         // Not a local file, fetch from GitHub
       }
 
-      // Fetch from GitHub
-      if (octokit) {
-        // Recursive function to fetch directory contents from GitHub
-        async function fetchGitHubDirectoryRecursive(dirPath) {
-          try {
-            const { data } = await octokit.rest.repos.getContent({
-              owner,
-              repo,
-              path: dirPath,
-              ref: branch,
-            });
-
-            if (Array.isArray(data)) {
-              // It's a directory, fetch all files recursively
-              for (const item of data) {
-                if (item.type === "file") {
-                  const fileData = await octokit.rest.repos.getContent({
-                    owner,
-                    repo,
-                    path: item.path,
-                    ref: branch,
-                  });
-                  const content = Buffer.from(fileData.data.content, "base64");
-                  fileContents.push({ path: item.path, content });
-                } else if (item.type === "dir") {
-                  // Recursively fetch subdirectory contents
-                  await fetchGitHubDirectoryRecursive(item.path);
-                }
-              }
-            } else if (data.type === "file") {
-              // Single file
-              const content = Buffer.from(data.content, "base64");
-              fileContents.push({ path: dirPath, content });
-            }
-          } catch (error) {
-            console.warn(`Warning: Failed to fetch ${dirPath}: ${error.message}`);
-          }
-        }
-
-        await fetchGitHubDirectoryRecursive(filePath);
+      // Fetch from GitHub using workerPool for rate limit protection
+      if (workerPool) {
+        await fetchGitHubPathWithPool(workerPool, owner, repo, branch, filePath, fileContents);
       }
     } catch (error) {
       console.warn(`Warning: Error processing ${filePath}: ${error.message}`);
@@ -128,6 +87,98 @@ async function fetchSkillFiles(owner, repo, branch, files, skillPath, octokit) {
   }
 
   return fileContents;
+}
+
+/**
+ * Fetch a file or directory from GitHub recursively, using workerPool for rate limiting.
+ * @param {import('./worker-pool.js').WorkerPool} workerPool
+ * @param {string} owner
+ * @param {string} repo
+ * @param {string} branch
+ * @param {string} dirPath
+ * @param {Array<{path: string, content: Buffer}>} fileContents - accumulator
+ */
+async function fetchGitHubPathWithPool(workerPool, owner, repo, branch, dirPath, fileContents) {
+  // Wait for rate limit reset if all clients are limited
+  while (workerPool.allClientsLimited()) {
+    if (shouldStopForTimeout()) return;
+    const nextReset = workerPool.getNextResetTime();
+    const waitTime = nextReset - Date.now();
+    if (waitTime > 0) {
+      await sleep(Math.min(waitTime + 1000, 30000));
+    } else {
+      await sleep(1000);
+    }
+  }
+
+  const client = workerPool.getClient();
+
+  try {
+    const response = await client.octokit.rest.repos.getContent({
+      owner,
+      repo,
+      path: dirPath,
+      ref: branch,
+    });
+    workerPool.updateClientRateLimit(client, response);
+
+    const { data } = response;
+
+    if (Array.isArray(data)) {
+      // It's a directory — fetch all files recursively
+      for (const item of data) {
+        if (item.type === "file") {
+          // Wait for rate limit
+          while (workerPool.allClientsLimited()) {
+            if (shouldStopForTimeout()) return;
+            const nextReset = workerPool.getNextResetTime();
+            const waitTime = nextReset - Date.now();
+            if (waitTime > 0) {
+              await sleep(Math.min(waitTime + 1000, 30000));
+            } else {
+              await sleep(1000);
+            }
+          }
+
+          const fileClient = workerPool.getClient();
+          try {
+            const fileResponse = await fileClient.octokit.rest.repos.getContent({
+              owner,
+              repo,
+              path: item.path,
+              ref: branch,
+            });
+            workerPool.updateClientRateLimit(fileClient, fileResponse);
+            const content = Buffer.from(fileResponse.data.content, "base64");
+            fileContents.push({ path: item.path, content });
+          } catch (error) {
+            if (error.status === 403 || error.status === 429) {
+              fileClient.core.isLimited = true;
+              if (error.response?.headers?.["x-ratelimit-reset"]) {
+                fileClient.core.resetTime =
+                  parseInt(error.response.headers["x-ratelimit-reset"], 10) * 1000;
+              }
+            }
+            console.warn(`Warning: Failed to fetch file ${item.path}: ${error.message}`);
+          }
+        } else if (item.type === "dir") {
+          await fetchGitHubPathWithPool(workerPool, owner, repo, branch, item.path, fileContents);
+        }
+      }
+    } else if (data.type === "file") {
+      const content = Buffer.from(data.content, "base64");
+      fileContents.push({ path: dirPath, content });
+    }
+  } catch (error) {
+    if (error.status === 403 || error.status === 429) {
+      client.core.isLimited = true;
+      if (error.response?.headers?.["x-ratelimit-reset"]) {
+        client.core.resetTime =
+          parseInt(error.response.headers["x-ratelimit-reset"], 10) * 1000;
+      }
+    }
+    console.warn(`Warning: Failed to fetch ${dirPath}: ${error.message}`);
+  }
 }
 
 /**
@@ -183,8 +234,6 @@ async function createZipFile(zipPath, files, skillName, skillPath) {
 
     // Add files to archive with preserved directory structure
     for (const file of files) {
-      // Preserve directory structure: remove parent paths but keep skill directory name
-      // Example: skills/canvas-design/SKILL.md -> canvas-design/SKILL.md
       const zipEntryPath = preserveDirectoryStructure(file.path, skillPath, skillName);
       archive.append(file.content, { name: zipEntryPath });
     }
@@ -202,42 +251,35 @@ async function createZipFile(zipPath, files, skillName, skillPath) {
  * @returns {string} - Path in zip file (e.g., "canvas-design/SKILL.md")
  */
 function preserveDirectoryStructure(filePath, skillPath, skillName) {
-  // Remove everything before the skill name, but keep the skill name as top-level directory
-  // Example: skills/canvas-design/SKILL.md -> canvas-design/SKILL.md
-  // Example: skills/canvas-design/fonts/font.ttf -> canvas-design/fonts/font.ttf
-  
-  // Normalize paths
   const normalizedFilePath = filePath.replace(/\\/g, "/");
   const normalizedSkillPath = skillPath.replace(/\\/g, "/");
   
-  // If the file path starts with the skill path, remove the parent part
-  if (normalizedFilePath.startsWith(normalizedSkillPath + "/")) {
-    return normalizedFilePath.substring(normalizedSkillPath.length + 1 - skillName.length - 1);
+  // Case 1: File path starts with the skill path
+  // e.g., "skills/canvas-design/SKILL.md" -> "canvas-design/SKILL.md"
+  if (normalizedSkillPath && normalizedFilePath.startsWith(normalizedSkillPath + "/")) {
+    const relativePath = normalizedFilePath.substring(normalizedSkillPath.length + 1);
+    return `${skillName}/${relativePath}`;
   }
   
-  // Otherwise, try to find the skill name in the path and keep everything from there
+  // Case 2: File path exactly matches skill path (root file)
+  if (normalizedFilePath === normalizedSkillPath) {
+    return skillName;
+  }
+  
+  // Case 3: Skill name appears in the path
+  // e.g., "some/path/canvas-design/file.md" -> "canvas-design/file.md"
   const skillNameIndex = normalizedFilePath.indexOf(`/${skillName}/`);
   if (skillNameIndex !== -1) {
     return normalizedFilePath.substring(skillNameIndex + 1);
   }
   
-  // If skill name is at the start
+  // Case 4: Path already starts with skill name
   if (normalizedFilePath.startsWith(`${skillName}/`)) {
     return normalizedFilePath;
   }
   
-  // Fallback: prepend skill name
+  // Case 5: Fallback - put file under skill name directory
   return `${skillName}/${path.basename(normalizedFilePath)}`;
-}
-
-/**
- * Calculate SHA-256 hash of a file
- * @param {string} filePath - File path
- * @returns {Promise<string>} - Hex hash string
- */
-async function calculateFileHash(filePath) {
-  const content = await fs.readFile(filePath);
-  return crypto.createHash("sha256").update(content).digest("hex");
 }
 
 /**

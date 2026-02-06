@@ -60,6 +60,17 @@ export const CONFIG = {
     baseDelay: 500,
     rateLimitCheckDelay: 60000,
     maxRateLimitWait: 300000,
+    waitAfterSearch: 2000, // Delay after search API call
+    waitAfterTopicSearch: 1000, // Delay between topic searches
+    waitOnLimitedFallback: 5000, // Wait when all clients are limited
+    maxWaitPerCycle: 30000, // Max wait time per rate limit cycle
+    maxWaitForReset: 60000, // Max wait for rate limit reset
+  },
+
+  // File limits
+  fileLimits: {
+    maxFilesPerSkill: 20, // Maximum files to include per skill
+    maxDescriptionLength: 500, // Maximum description length
   },
 
   // Execution timeout settings
@@ -82,7 +93,14 @@ export const CONFIG = {
     // e.g. TEST_REPOS="anthropics/skills,vercel-labs/agent-skills"
     repos: process.env.TEST_REPOS
       ? process.env.TEST_REPOS.split(",").map((r) => r.trim())
-      : ["anthropics/skills", "huggingface/skills"],
+      : ["vuejs-ai/skills"],
+  },
+
+  // Phase 4: Global SKILL.md discovery (optional supplementary search)
+  // Discovers repos that have SKILL.md but aren't tagged with searchTopics
+  // Note: GitHub Code Search limits results to 1000 total
+  globalDiscovery: {
+    enabled: process.env.GLOBAL_DISCOVERY !== "false", // Enabled by default
   },
 
   // Zip package generation settings
@@ -92,6 +110,13 @@ export const CONFIG = {
     baseUrl:
       process.env.ZIP_BASE_URL ||
       "https://raw.githubusercontent.com/coolzwc/open-skill-market/main/market/zips",
+  },
+
+  // Output optimization settings
+  output: {
+    // Compact mode removes redundant/derivable fields to reduce file size
+    // Set COMPACT_OUTPUT=false to generate full output with all fields
+    compact: process.env.COMPACT_OUTPUT !== "false",
   },
 };
 

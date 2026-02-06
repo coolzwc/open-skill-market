@@ -6,21 +6,21 @@ import { CONFIG } from "./config.js";
 import { loadPriorityRepos, sleep } from "./utils.js";
 import { WorkerPool } from "./worker-pool.js";
 import {
-  rateLimitState,
   executionState,
   startExecutionTimer,
   shouldStopForTimeout,
-  logRateLimitWait,
 } from "./rate-limit.js";
 import {
   searchSkillRepositories,
   crawlPriorityRepos,
-  processRepoWithCache,
+  processReposInParallel,
+  discoverSkillReposGlobally,
 } from "./github-api.js";
 import { scanLocalSkills } from "./local-scanner.js";
 
 import { crawlerCache } from "./cache.js";
 import { generateSkillZip, generateZipUrl } from "./zip-generator.js";
+import { compactOutput, calculateSizeSavings } from "./output-optimizer.js";
 
 /**
  * Main crawler function
@@ -40,16 +40,16 @@ async function main() {
 
   startExecutionTimer();
 
-  console.log("GitHub API Rate Limits:");
-  console.log("  - REST API: 5000 req/hour (authenticated), 60 req/hour (unauthenticated)");
-  console.log("  - Search API: 30 req/minute (authenticated), 10 req/minute (unauthenticated)");
-  console.log("");
-
   // Initialize worker pool
   const workerPool = new WorkerPool();
 
+  // Fetch actual rate limits from GitHub API
+  await workerPool.fetchRateLimits();
+
+  // Show total capacity
+  const totalRemaining = workerPool.getTotalRemaining();
+  console.log(`\nTotal remaining capacity: ${totalRemaining.core} (Core), ${totalRemaining.search} (Search), ${totalRemaining.codeSearch} (CodeSearch)`);
   console.log(`Parallel concurrency: ${CONFIG.parallel.concurrency}`);
-  console.log(`Total capacity: ${workerPool.clients.length * 5000} req/hour`);
   console.log("");
 
   const allSkills = [];
@@ -59,57 +59,27 @@ async function main() {
   // Load priority repositories
   const priorityRepos = await loadPriorityRepos();
   if (priorityRepos.length > 0) {
-    console.log(`Loaded ${priorityRepos.length} priority repository(s) from repositories.yml`);
+    console.log(
+      `Loaded ${priorityRepos.length} priority repository(s) from repositories.yml`,
+    );
   }
 
-  // Check rate limit and select best client
-  console.log("Checking rate limit status for all clients...");
-  let activeClient = null;
-  
-  while (!activeClient) {
-    let bestClient = null;
-    let minReset = Infinity;
-    let allLimited = true;
-    
-    for (const client of workerPool.clients) {
-      try {
-        const response = await client.octokit.rest.rateLimit.get();
-        const { core, search } = response.data.resources;
-        
-        client.rateLimitRemaining = core.remaining;
-        client.rateLimitReset = core.reset * 1000;
-        
-        console.log(`  Client ${client.label}: ${core.remaining}/${core.limit} (Core), ${search.remaining}/${search.limit} (Search)`);
-        
-        if (core.remaining > 100) {
-            allLimited = false;
-            // Prefer client with most remaining requests
-            if (!bestClient || core.remaining > bestClient.rateLimitRemaining) {
-                bestClient = client;
-            }
-        } else {
-            minReset = Math.min(minReset, client.rateLimitReset);
-        }
-      } catch (e) {
-        console.error(`  Client ${client.label} check failed: ${e.message}`);
-      }
-    }
-    
-    if (bestClient) {
-        activeClient = bestClient;
-        console.log(`Using client ${activeClient.label} for main operations.`);
-        break;
-    } else {
-        const waitTime = minReset - Date.now();
-        if (waitTime > 0) {
-             console.log(`All clients rate limited. Waiting ${Math.ceil(waitTime/1000)}s...`);
-             await sleep(Math.min(waitTime + 1000, 60000)); // Check again in 1 min or wait time
-        } else {
-             console.log("Waiting for rate limit reset...");
-             await sleep(10000);
-        }
+  // Wait for available client if all are rate limited
+  if (workerPool.allClientsLimited()) {
+    console.log("All clients rate limited at startup, waiting for reset...");
+    const available = await workerPool.waitForAvailableClient(shouldStopForTimeout, {
+      maxWaitPerCycle: CONFIG.rateLimit.maxWaitForReset,
+      logWait: true,
+    });
+    if (!available) {
+      console.log("Could not get available client, exiting...");
+      return;
     }
   }
+
+  // Select best client for main operations
+  const activeClient = workerPool.getClient();
+  console.log(`Using client ${activeClient.label} for main operations.`);
 
   // Phase 1: Local Skills
   console.log("\n--- Phase 1: Local Skills (PR-submitted) ---\n");
@@ -117,9 +87,12 @@ async function main() {
   allSkills.push(...localSkills);
 
   // Phase 2: Priority/Test Repositories
-  // In test mode, use test repos; otherwise use priority repos
-  const reposToScan = CONFIG.testMode.enabled ? CONFIG.testMode.repos : priorityRepos;
-  const phaseLabel = CONFIG.testMode.enabled ? "Test Repositories" : "Priority Repositories";
+  const reposToScan = CONFIG.testMode.enabled
+    ? CONFIG.testMode.repos
+    : priorityRepos;
+  const phaseLabel = CONFIG.testMode.enabled
+    ? "Test Repositories"
+    : "Priority Repositories";
 
   if (!shouldStopForTimeout()) {
     console.log(`\n--- Phase 2: ${phaseLabel} ---\n`);
@@ -137,7 +110,9 @@ async function main() {
 
   // Phase 3: GitHub Topic Search (Parallel) - Skip in test mode
   if (CONFIG.testMode.enabled) {
-    console.log("\n--- Phase 3: GitHub Topic Search (SKIPPED - test mode) ---\n");
+    console.log(
+      "\n--- Phase 3: GitHub Topic Search (SKIPPED - test mode) ---\n",
+    );
   } else {
     console.log("\n--- Phase 3: GitHub Topic Search (Parallel) ---\n");
   }
@@ -148,102 +123,91 @@ async function main() {
     console.log("Skipping GitHub search due to execution timeout.");
   } else {
     // Wait for rate limit to reset if all clients are limited
-    while (workerPool.allClientsLimited()) {
-      if (shouldStopForTimeout()) {
-        console.log("Skipping GitHub search due to execution timeout.");
-        break;
-      }
-      const nextReset = workerPool.getNextResetTime();
-      const waitTime = nextReset - Date.now();
-      if (waitTime > 0) {
-        console.log(
-          `All clients rate limited. Waiting ${Math.ceil(waitTime / 1000)}s for reset...`,
+    const available = await workerPool.waitForAvailableClient(shouldStopForTimeout, {
+      maxWaitPerCycle: CONFIG.rateLimit.maxWaitForReset,
+      logWait: true,
+    });
+
+    if (!available) {
+      console.log("Skipping GitHub search due to execution timeout.");
+    } else {
+      // Search repositories using worker pool
+      const reposMap = await searchSkillRepositories(workerPool);
+
+      if (reposMap.size > 0 && !shouldStopForTimeout()) {
+        console.log("\nScanning repositories for SKILL.md files (parallel)...");
+        console.log(`Queue concurrency: ${CONFIG.parallel.concurrency}`);
+
+        // Filter repos to process
+        const reposToProcess = [];
+        for (const [repoFullName, repo] of reposMap) {
+          if (processedRepos.has(repoFullName)) continue;
+          if (repo.fork && repo.stargazers_count < 10) continue;
+          reposToProcess.push({ repoFullName, repo });
+          processedRepos.add(repoFullName);
+        }
+
+        console.log(`Repositories to scan: ${reposToProcess.length}`);
+
+        // Use shared function for parallel processing
+        const results = await processReposInParallel(
+          workerPool,
+          reposToProcess,
+          "github",
+          { fetchRepoDetails: false },
         );
-        await sleep(Math.min(waitTime + 1000, 60000));
-      } else {
-        await sleep(5000);
+
+        allSkills.push(...results);
+        console.log(`\nPhase 3 complete: ${results.length} skills from ${reposToProcess.length} repos`);
+      } else if (reposMap.size === 0) {
+        console.log("No repositories found via topic search.");
       }
-      // Reset the global rate limit state since we're using workerPool now
-      rateLimitState.isLimited = false;
     }
+  }
 
-    // Search repositories using worker pool
-    const reposMap = await searchSkillRepositories(workerPool);
+  // Phase 4: Global SKILL.md Discovery (optional supplementary search)
+  if (CONFIG.testMode.enabled) {
+    console.log(
+      "\n--- Phase 4: Global SKILL.md Discovery (SKIPPED - test mode) ---\n",
+    );
+  } else if (!CONFIG.globalDiscovery.enabled) {
+    console.log(
+      "\n--- Phase 4: Global SKILL.md Discovery (SKIPPED - disabled) ---\n",
+    );
+  } else if (shouldStopForTimeout()) {
+    console.log(
+      "\n--- Phase 4: Global SKILL.md Discovery (SKIPPED - timeout) ---\n",
+    );
+  } else {
+    console.log("\n--- Phase 4: Global SKILL.md Discovery ---\n");
 
-    if (reposMap.size > 0 && !shouldStopForTimeout()) {
-      console.log("\nScanning repositories for SKILL.md files (parallel)...");
-      console.log(`Queue concurrency: ${CONFIG.parallel.concurrency}`);
+    // Discover repos with SKILL.md that weren't found via topic search
+    const globalRepos = await discoverSkillReposGlobally(
+      workerPool,
+      processedRepos,
+    );
 
-      // Filter repos to process
+    if (globalRepos.size > 0 && !shouldStopForTimeout()) {
+      console.log(`\nProcessing ${globalRepos.size} newly discovered repos...`);
+
       const reposToProcess = [];
-      for (const [repoFullName, repo] of reposMap) {
-        if (processedRepos.has(repoFullName)) continue;
-        if (repo.fork && repo.stargazers_count < 10) continue;
+      for (const [repoFullName, repo] of globalRepos) {
         reposToProcess.push({ repoFullName, repo });
         processedRepos.add(repoFullName);
       }
 
-      console.log(`Repositories to scan: ${reposToProcess.length}`);
-
-      const results = [];
-      let processedCount = 0;
-
-      // Create parallel tasks using processRepoWithCache
-      const tasks = reposToProcess.map(({ repoFullName, repo }) => async () => {
-        while (workerPool.allClientsLimited()) {
-          if (shouldStopForTimeout()) return null;
-          const nextReset = workerPool.getNextResetTime();
-          const waitTime = nextReset - Date.now();
-          if (waitTime > 0) {
-            logRateLimitWait(Math.ceil(waitTime / 1000));
-            await sleep(Math.min(waitTime, 30000));
-          } else {
-            await sleep(1000);
-          }
-        }
-
-        if (shouldStopForTimeout()) return null;
-
-        try {
-          // Use processRepoWithCache for repo-level caching
-          const repoSkills = await processRepoWithCache(
-            workerPool,
-            repo.owner.login,
-            repo.name,
-            repo,
-            "github"
-          );
-
-          processedCount++;
-          if (processedCount % 10 === 0) {
-            const stats = workerPool.getStats();
-            console.log(
-              `  Progress: ${processedCount}/${reposToProcess.length} repos, ` +
-              `${results.length + repoSkills.length} skills found, ` +
-              `${stats.activeClients}/${stats.totalClients} clients active`
-            );
-          }
-
-          return repoSkills;
-        } catch (error) {
-          console.error(`  Error processing ${repoFullName}: ${error.message}`);
-          return null;
-        }
-      });
-
-      // Execute parallel tasks
-      const taskResults = await workerPool.addTasks(tasks);
-
-      for (const repoSkills of taskResults) {
-        if (repoSkills && repoSkills.length > 0) {
-          results.push(...repoSkills);
-        }
-      }
+      // Use shared function for parallel processing (with repo details fetch)
+      const results = await processReposInParallel(
+        workerPool,
+        reposToProcess,
+        "github",
+        { fetchRepoDetails: true },
+      );
 
       allSkills.push(...results);
-      console.log(`\nPhase 3 complete: ${results.length} skills from ${processedCount} repos`);
-    } else if (reposMap.size === 0) {
-      console.log("No repositories found via topic search.");
+      console.log(`\nPhase 4 complete: ${results.length} skills from ${reposToProcess.length} repos`);
+    } else if (globalRepos.size === 0) {
+      console.log("No additional repositories discovered via global search.");
     }
   }
 
@@ -277,7 +241,9 @@ async function main() {
   }
 
   if (duplicateCount > 0) {
-    console.log(`\nRemoved ${duplicateCount} duplicate skill(s) by name+description`);
+    console.log(
+      `\nRemoved ${duplicateCount} duplicate skill(s) by name+description`,
+    );
   }
 
   // Replace with deduplicated list
@@ -285,33 +251,81 @@ async function main() {
   allSkills.push(...dedupedSkills);
 
   // Generate zip packages for skills (if enabled)
+  let zipTimedOut = false;
   if (CONFIG.zips.enabled) {
     console.log(`\n${"=".repeat(50)}`);
     console.log("Generating Skill Zip Packages");
     console.log("=".repeat(50));
-    
+
+    const pendingZipKeys = crawlerCache.getPendingZips();
+    let zipProcessOrder = allSkills;
+    if (pendingZipKeys.size > 0) {
+      console.log(
+        `Found ${pendingZipKeys.size} pending zip(s) from previous run`,
+      );
+      const pendingSkills = [];
+      const otherSkills = [];
+      for (const skill of allSkills) {
+        const match = skill.repository.url.match(
+          /github\.com\/([^/]+)\/([^/]+)/,
+        );
+        if (match) {
+          const cacheKey = `${match[1]}/${match[2]}/${skill.repository.path}`;
+          if (pendingZipKeys.has(cacheKey)) {
+            pendingSkills.push(skill);
+          } else {
+            otherSkills.push(skill);
+          }
+        } else {
+          otherSkills.push(skill);
+        }
+      }
+      zipProcessOrder = [...pendingSkills, ...otherSkills];
+    }
+    crawlerCache.clearPendingZips();
+
     let generatedCount = 0;
     let skippedCount = 0;
     let errorCount = 0;
 
-    for (const skill of allSkills) {
+    for (let i = 0; i < zipProcessOrder.length; i++) {
+      const skill = zipProcessOrder[i];
+
+      if (shouldStopForTimeout()) {
+        for (let j = i; j < zipProcessOrder.length; j++) {
+          const s = zipProcessOrder[j];
+          const m = s.repository.url.match(/github\.com\/([^/]+)\/([^/]+)/);
+          if (m) {
+            const cacheKey = `${m[1]}/${m[2]}/${s.repository.path}`;
+            crawlerCache.addPendingZip(cacheKey);
+          }
+        }
+        zipTimedOut = true;
+        console.log(
+          `\nZip generation stopped due to timeout. ${zipProcessOrder.length - i} skill(s) saved as pending for next run.`,
+        );
+        break;
+      }
+
       try {
         // Extract owner and repo from repository URL
-        const match = skill.repository.url.match(/github\.com\/([^/]+)\/([^/]+)/);
+        const match = skill.repository.url.match(
+          /github\.com\/([^/]+)\/([^/]+)/,
+        );
         if (!match) {
           console.log(`  ⚠ Skipping ${skill.name}: Invalid repository URL`);
           skippedCount++;
           continue;
         }
         const [, owner, repo] = match;
-        
+
         // Generate cache key
         const cacheKey = `${owner}/${repo}/${skill.repository.path}`;
-        
+
         // Check if zip needs regeneration
         const needsRegeneration = crawlerCache.needsZipRegeneration(
           cacheKey,
-          skill.repository.latestCommitHash
+          skill.commitHash,
         );
 
         if (!needsRegeneration) {
@@ -322,19 +336,19 @@ async function main() {
               CONFIG.zips.baseUrl,
               owner,
               repo,
-              skill.name
+              skill.name,
             );
             skippedCount++;
             continue;
           }
         }
 
-        // Generate new zip
+        // Generate new zip — using workerPool for rate-limited API calls
         console.log(`  Generating zip for ${skill.name}...`);
-        const { zipPath, zipHash } = await generateSkillZip(
+        const { zipPath } = await generateSkillZip(
           skill,
           CONFIG.zips.outputDir,
-          activeClient?.octokit
+          workerPool,
         );
 
         // Update skill manifest with zip URL
@@ -342,15 +356,17 @@ async function main() {
           CONFIG.zips.baseUrl,
           owner,
           repo,
-          skill.name
+          skill.name,
         );
 
-        // Update cache
-        crawlerCache.setZipInfo(cacheKey, { zipHash, zipPath });
-        
+        // Update cache with zip path
+        crawlerCache.setZipInfo(cacheKey, zipPath);
+
         generatedCount++;
       } catch (error) {
-        console.error(`  ✗ Error generating zip for ${skill.name}: ${error.message}`);
+        console.error(
+          `  ✗ Error generating zip for ${skill.name}: ${error.message}`,
+        );
         errorCount++;
         // Continue with other skills even if one fails
       }
@@ -362,7 +378,15 @@ async function main() {
     if (errorCount > 0) {
       console.log(`  Errors: ${errorCount}`);
     }
+    if (zipTimedOut) {
+      console.log(
+        `  Zip generation timed out; remaining skills saved as pending.`,
+      );
+    }
   }
+
+  // Check if any clients ended up rate limited (for incomplete status)
+  const anyClientLimited = workerPool.allClientsLimited();
 
   // Generate output
   const priorityCount = allSkills.filter((s) => s.source === "priority").length;
@@ -370,7 +394,7 @@ async function main() {
   const elapsedMs = Date.now() - executionState.startTime;
   const elapsedMin = Math.floor(elapsedMs / 60000);
   const elapsedSec = Math.floor((elapsedMs % 60000) / 1000);
-  const isIncomplete = rateLimitState.isLimited || executionState.isTimedOut;
+  const isIncomplete = anyClientLimited || executionState.isTimedOut;
 
   const output = {
     meta: {
@@ -380,8 +404,9 @@ async function main() {
       prioritySkills: priorityCount,
       remoteSkills: githubCount,
       apiVersion: CONFIG.apiVersion,
-      rateLimited: rateLimitState.isLimited,
+      rateLimited: anyClientLimited,
       timedOut: executionState.isTimedOut,
+      zipTimedOut,
       executionTimeMs: elapsedMs,
     },
     skills: allSkills,
@@ -398,36 +423,61 @@ async function main() {
   console.log(`  ${"─".repeat(30)}`);
   console.log(`  Total skills:          ${allSkills.length}`);
 
-  if (isIncomplete) {
+  if (isIncomplete || zipTimedOut) {
     console.log("");
-    if (rateLimitState.isLimited) {
+    if (anyClientLimited) {
       console.log(`  ⚠ Crawl incomplete: GitHub API rate limit reached.`);
     }
     if (executionState.isTimedOut) {
       console.log(`  ⚠ Crawl incomplete: Execution timeout reached.`);
     }
+    if (zipTimedOut) {
+      console.log(
+        `  ⚠ Zip generation incomplete: Some skills saved as pending for next run.`,
+      );
+    }
     console.log(`    Run again later to collect more skills.`);
   }
 
-  // Save output
+  // Save output (with optional compaction)
   console.log(`\nSaving to ${CONFIG.outputPath}...`);
 
-  const formattedJson = await prettier.format(JSON.stringify(output), {
+  let finalOutput = output;
+
+  if (CONFIG.output.compact) {
+    const compacted = compactOutput(output);
+    const savings = calculateSizeSavings(output, compacted);
+    console.log(
+      `  Compact mode: ${savings.percentage} size reduction ` +
+        `(${Math.round(savings.originalSize / 1024)}KB → ${Math.round(savings.compactedSize / 1024)}KB)`,
+    );
+    finalOutput = compacted;
+  }
+
+  const formattedJson = await prettier.format(JSON.stringify(finalOutput), {
     parser: "json",
     printWidth: 100,
     tabWidth: 2,
   });
 
   await fs.writeFile(CONFIG.outputPath, formattedJson, "utf-8");
-  
+
   // Save cache
   await crawlerCache.save();
-  
+
   console.log("Done!");
 }
 
-// Run
-main().catch((error) => {
+// Run — save cache even on crash to preserve partial progress
+main().catch(async (error) => {
   console.error("Crawler failed:", error);
+  try {
+    console.log("Attempting to save cache before exit...");
+    crawlerCache.isDirty = true; // Force save
+    await crawlerCache.save();
+    console.log("Cache saved.");
+  } catch (saveError) {
+    console.error("Failed to save cache on crash:", saveError.message);
+  }
   process.exit(1);
 });
