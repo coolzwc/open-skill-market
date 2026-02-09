@@ -1,4 +1,5 @@
 import fs from "fs/promises";
+import path from "path";
 import * as prettier from "prettier";
 import "dotenv/config";
 
@@ -20,7 +21,7 @@ import { scanLocalSkills } from "./local-scanner.js";
 
 import { crawlerCache } from "./cache.js";
 import { generateSkillZip, generateZipUrl } from "./zip-generator.js";
-import { compactOutput, calculateSizeSavings } from "./output-optimizer.js";
+import { compactOutput, calculateSizeSavings, splitByRepo } from "./output-optimizer.js";
 
 /**
  * Main crawler function
@@ -439,7 +440,7 @@ async function main() {
     console.log(`    Run again later to collect more skills.`);
   }
 
-  // Save output (with optional compaction)
+  // Save output (with optional compaction and chunking)
   console.log(`\nSaving to ${CONFIG.outputPath}...`);
 
   let finalOutput = output;
@@ -454,13 +455,49 @@ async function main() {
     finalOutput = compacted;
   }
 
-  const formattedJson = await prettier.format(JSON.stringify(finalOutput), {
+  // Split into chunks by repo boundaries if needed
+  const { main, chunks } = splitByRepo(finalOutput, CONFIG.output.chunkSize);
+
+  // Write main file (skills.json)
+  const mainJson = await prettier.format(JSON.stringify(main), {
     parser: "json",
     printWidth: 100,
     tabWidth: 2,
   });
+  await fs.writeFile(CONFIG.outputPath, mainJson, "utf-8");
 
-  await fs.writeFile(CONFIG.outputPath, formattedJson, "utf-8");
+  // Write chunk files and clean up old ones
+  const outputDir = path.dirname(CONFIG.outputPath);
+
+  if (chunks.length > 0) {
+    console.log(`  Split into ${chunks.length + 1} chunks (${main.skills.length} + ${chunks.map(c => c.skills.length).join(" + ")} skills)`);
+    for (let i = 0; i < chunks.length; i++) {
+      const chunkPath = path.join(outputDir, `skills-${i + 1}.json`);
+      const chunkJson = await prettier.format(JSON.stringify(chunks[i]), {
+        parser: "json",
+        printWidth: 100,
+        tabWidth: 2,
+      });
+      await fs.writeFile(chunkPath, chunkJson, "utf-8");
+    }
+  }
+
+  // Clean up stale chunk files from previous runs
+  try {
+    const files = await fs.readdir(outputDir);
+    for (const file of files) {
+      const match = file.match(/^skills-(\d+)\.json$/);
+      if (match) {
+        const chunkIndex = parseInt(match[1], 10);
+        if (chunkIndex > chunks.length) {
+          await fs.unlink(path.join(outputDir, file));
+          console.log(`  Removed stale chunk: ${file}`);
+        }
+      }
+    }
+  } catch {
+    // Ignore cleanup errors
+  }
 
   // Save cache
   await crawlerCache.save();

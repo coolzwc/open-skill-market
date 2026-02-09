@@ -89,7 +89,7 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          git add market/skills.json market/zips/
+          git add -f market/skills.json market/skills-*.json market/zips/
           if git diff --cached --quiet; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
@@ -101,7 +101,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add market/skills.json market/zips/
+          git add -f market/skills.json market/skills-*.json market/zips/
           git commit -m "chore: update skills and zip packages [skip ci]
 
           Automated update from crawler run at $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
@@ -120,6 +120,8 @@ jobs:
           EXEC_TIME_MS=$(jq '.meta.executionTimeMs // 0' market/skills.json)
           EXEC_TIME_MIN=$((EXEC_TIME_MS / 60000))
           EXEC_TIME_SEC=$(((EXEC_TIME_MS % 60000) / 1000))
+          CHUNKS=$(jq '.meta.chunks // [] | length' market/skills.json)
+          MAIN_SKILLS=$(jq '.skills | length' market/skills.json)
           echo "| Source | Count |" >> $GITHUB_STEP_SUMMARY
           echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
           echo "| Local (PR submitted) | $LOCAL |" >> $GITHUB_STEP_SUMMARY
@@ -128,6 +130,9 @@ jobs:
           echo "| **Total** | **$TOTAL** |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Execution time**: ${EXEC_TIME_MIN}m ${EXEC_TIME_SEC}s" >> $GITHUB_STEP_SUMMARY
+          if [ "$CHUNKS" -gt 0 ]; then
+            echo "**Chunks**: $((CHUNKS + 1)) files (${MAIN_SKILLS} skills in main + ${CHUNKS} chunk files)" >> $GITHUB_STEP_SUMMARY
+          fi
           echo "" >> $GITHUB_STEP_SUMMARY
           if [ "$RATE_LIMITED" == "true" ]; then
             echo "> **Warning**: Crawl was incomplete due to GitHub API rate limiting." >> $GITHUB_STEP_SUMMARY

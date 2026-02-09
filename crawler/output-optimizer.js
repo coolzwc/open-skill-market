@@ -204,6 +204,87 @@ export function compactOutput(output) {
 }
 
 /**
+ * Split compacted output into chunks by complete repository boundaries.
+ * Same repo's skills are never split across chunks.
+ *
+ * When totalSkills <= chunkSize, returns a single chunk (no splitting).
+ *
+ * @param {Object} compactedOutput - Output from compactOutput()
+ * @param {number} chunkSize - Max skills per chunk (default 500)
+ * @returns {{ main: Object, chunks: Object[] }}
+ *   main: first chunk with meta (including meta.chunks list if split)
+ *   chunks: remaining chunks (may be empty)
+ */
+export function splitByRepo(compactedOutput, chunkSize = 500) {
+  const { meta, repositories, skills } = compactedOutput;
+
+  // No splitting needed
+  if (!chunkSize || skills.length <= chunkSize) {
+    return { main: compactedOutput, chunks: [] };
+  }
+
+  // Group skills by repo while preserving original order
+  const repoGroups = [];
+  const repoGroupMap = new Map();
+
+  for (const skill of skills) {
+    const repoId = skill.repo;
+    if (!repoGroupMap.has(repoId)) {
+      const group = { repoId, skills: [] };
+      repoGroupMap.set(repoId, group);
+      repoGroups.push(group);
+    }
+    repoGroupMap.get(repoId).skills.push(skill);
+  }
+
+  // Fill chunks by adding complete repo groups
+  const allChunkSkills = [];
+  let currentChunk = [];
+
+  for (const group of repoGroups) {
+    if (currentChunk.length > 0 && currentChunk.length + group.skills.length > chunkSize) {
+      allChunkSkills.push(currentChunk);
+      currentChunk = [];
+    }
+    currentChunk.push(...group.skills);
+  }
+  if (currentChunk.length > 0) {
+    allChunkSkills.push(currentChunk);
+  }
+
+  // Build chunk objects, each with only its referenced repositories
+  const chunkNames = allChunkSkills.slice(1).map((_, i) => `skills-${i + 1}.json`);
+
+  function buildRepositories(chunkSkills) {
+    const repos = {};
+    for (const skill of chunkSkills) {
+      if (repositories[skill.repo] && !repos[skill.repo]) {
+        repos[skill.repo] = repositories[skill.repo];
+      }
+    }
+    return repos;
+  }
+
+  // Main chunk (first)
+  const main = {
+    meta: {
+      ...meta,
+      ...(chunkNames.length > 0 ? { chunks: chunkNames } : {}),
+    },
+    repositories: buildRepositories(allChunkSkills[0]),
+    skills: allChunkSkills[0],
+  };
+
+  // Remaining chunks
+  const chunks = allChunkSkills.slice(1).map((chunkSkills) => ({
+    repositories: buildRepositories(chunkSkills),
+    skills: chunkSkills,
+  }));
+
+  return { main, chunks };
+}
+
+/**
  * Calculate size savings from compaction
  * @param {Object} original - Original output
  * @param {Object} compacted - Compacted output
