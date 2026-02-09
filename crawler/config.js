@@ -120,7 +120,7 @@ export const CONFIG = {
     // Max skills per chunk. When totalSkills > chunkSize, output is split into
     // multiple files by complete repository boundaries.
     // Set CHUNK_SIZE=0 to disable chunking entirely.
-    chunkSize: parseInt(process.env.CHUNK_SIZE || "500", 10),
+    chunkSize: parseInt(process.env.CHUNK_SIZE || "2500", 10),
   },
 };
 
