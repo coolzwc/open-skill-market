@@ -20,7 +20,7 @@ export type CompactSkill = {
   files?: string[];
 };
 
-type RepoInfo = {
+export type RepoInfo = {
   url: string;
   branch?: string;
   stars?: number;
@@ -28,7 +28,7 @@ type RepoInfo = {
   lastUpdated?: string | null;
 };
 
-type MarketFile = {
+export type MarketFile = {
   meta: {
     generatedAt: string;
     totalSkills: number;
@@ -72,7 +72,9 @@ function buildDetailsUrl(
   return `https://github.com/${owner}/${repository}/blob/${displayBranch(repo)}/${skillPath}/SKILL.md`;
 }
 
-const ZIP_BASE_URL = "https://cdn.skillmarket.cc/zips";
+export const CDN_BASE_URL = "https://cdn.skillmarket.cc";
+
+const ZIP_BASE_URL = `${CDN_BASE_URL}/zips`;
 
 function buildSkillZipUrl(repoId: string, skillName: string): string {
   const [owner, repository] = repoId.split("/");
@@ -107,6 +109,30 @@ async function readJsonFile<T>(filename: string): Promise<T> {
 export async function loadMainMarketData(): Promise<MarketFile> {
   const main = await readJsonFile<MarketFile>("skills.json");
   return main;
+}
+
+/**
+ * Return the top N skills sorted by stars (descending) along with
+ * only the repository entries those skills reference.
+ * Used at build time to embed a small static payload in the HTML.
+ */
+export function getTopStaticSkills(
+  market: MarketFile,
+  count = 100,
+): { skills: CompactSkill[]; repositories: Record<string, RepoInfo> } {
+  const sorted = [...market.skills].sort((a, b) => {
+    const starsA = market.repositories[a.repo]?.stars || 0;
+    const starsB = market.repositories[b.repo]?.stars || 0;
+    return starsB - starsA || a.name.localeCompare(b.name);
+  });
+  const top = sorted.slice(0, count);
+  const repos: Record<string, RepoInfo> = {};
+  for (const s of top) {
+    if (market.repositories[s.repo]) {
+      repos[s.repo] = market.repositories[s.repo];
+    }
+  }
+  return { skills: top, repositories: repos };
 }
 
 export async function loadAllSkills(): Promise<{

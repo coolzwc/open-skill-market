@@ -7,11 +7,12 @@ interface Props {
   lang: Lang;
   initialSkills: CompactSkill[];
   initialRepositories: Record<string, { stars?: number; forks?: number }>;
-  chunkFiles: string[];
+  cdnBaseUrl: string;
+  totalSkills: number;
   categories: string[];
 }
 
-const { lang, initialSkills, initialRepositories, chunkFiles, categories } = Astro.props;
+const { lang, initialSkills, initialRepositories, cdnBaseUrl, totalSkills, categories } = Astro.props;
 const t = MESSAGES[lang];
 ---
 
@@ -26,12 +27,13 @@ const t = MESSAGES[lang];
 
 <script type="application/json" id="initial-skills" set:html={JSON.stringify(initialSkills)}></script>
 <script type="application/json" id="initial-repositories" set:html={JSON.stringify(initialRepositories)}></script>
-<script type="application/json" id="chunk-files" set:html={JSON.stringify(chunkFiles)}></script>
 
 <script
   type="module"
   define:vars={{
     lang,
+    cdnBaseUrl,
+    totalSkills,
     noResultsText: t.noResults,
     loadingText: t.loading,
     starsText: t.stars
@@ -48,9 +50,11 @@ const t = MESSAGES[lang];
   const repositories = JSON.parse(
     document.querySelector("#initial-repositories").textContent || "{}"
   );
-  const chunkFiles = JSON.parse(document.querySelector("#chunk-files").textContent || "[]");
 
   const PAGE_SIZE = 60;
+
+  // ---- Track known skill IDs for deduplication ----
+  const knownIds = new Set();
 
   // ---- Pre-built search index for fast filtering ----
   const searchIndex = new Map();
@@ -71,15 +75,18 @@ const t = MESSAGES[lang];
 
   // ---- State ----
   const state = {
-    skills: initialSkills,
+    skills: [...initialSkills],
     filtered: [],
     rendered: 0,
-    loading: false,
-    loadedChunks: 0
+    busy: false,
+    fullyLoaded: false
   };
 
-  // Index initial skills
-  for (const s of initialSkills) indexSkill(s);
+  // Index + track initial skills
+  for (const s of initialSkills) {
+    knownIds.add(s.id);
+    indexSkill(s);
+  }
 
   // ---- Escape HTML (cached via template) ----
   const _escEl = document.createElement("span");
@@ -157,47 +164,66 @@ const t = MESSAGES[lang];
     });
   }, { passive: true });
 
-  // ---- Chunk loading ----
-  async function loadNextChunk() {
-    if (state.loading || state.loadedChunks >= chunkFiles.length) return;
-    state.loading = true;
+  // ---- Merge a fetched payload (skills + repos) into state ----
+  function mergePayload(payload) {
+    Object.assign(repositories, payload.repositories || {});
+    const newSkills = (payload.skills || []).filter((s) => !knownIds.has(s.id));
+    for (const s of newSkills) {
+      knownIds.add(s.id);
+      indexSkill(s);
+    }
+    state.skills.push(...newSkills);
+    return newSkills.length;
+  }
+
+  // ---- Hybrid loading: fetch full data from R2 CDN ----
+  async function loadFromCDN() {
+    if (state.busy) return;
+    state.busy = true;
     loading.style.display = "flex";
-    loading.textContent = `${loadingText} (${state.loadedChunks + 1}/${chunkFiles.length})`;
+    loading.textContent = `${loadingText}...`;
+
     try {
-      const file = chunkFiles[state.loadedChunks];
-      const response = await fetch(`/data/${file}`);
-      if (!response.ok) throw new Error(`Failed chunk ${file}`);
-      const payload = await response.json();
-      Object.assign(repositories, payload.repositories || {});
-      const newSkills = payload.skills || [];
-      for (const s of newSkills) indexSkill(s);
-      state.skills.push(...newSkills);
-      state.loadedChunks += 1;
-      applyFilter();
-      if (state.loadedChunks >= chunkFiles.length) {
-        loading.style.display = "none";
+      // Step 1: Fetch the main skills.json from R2 CDN
+      const mainResp = await fetch(`${cdnBaseUrl}/skills.json`);
+      if (!mainResp.ok) throw new Error(`Failed to fetch skills.json from CDN (${mainResp.status})`);
+      const mainData = await mainResp.json();
+      const addedMain = mergePayload(mainData);
+      if (addedMain > 0) applyFilter();
+
+      // Step 2: Fetch chunk files listed in the CDN response
+      const chunkFiles = mainData.meta?.chunks || [];
+      for (let i = 0; i < chunkFiles.length; i++) {
+        loading.textContent = `${loadingText} (${i + 1}/${chunkFiles.length + 1})`;
+        try {
+          const chunkResp = await fetch(`${cdnBaseUrl}/${chunkFiles[i]}`);
+          if (!chunkResp.ok) throw new Error(`Failed chunk ${chunkFiles[i]}`);
+          const chunkData = await chunkResp.json();
+          const addedChunk = mergePayload(chunkData);
+          if (addedChunk > 0) applyFilter();
+        } catch (chunkErr) {
+          console.error(chunkErr);
+        }
       }
-    } catch (error) {
+
+      state.fullyLoaded = true;
       loading.style.display = "none";
-      console.error(error);
+    } catch (error) {
+      console.error("CDN load failed:", error);
+      loading.style.display = "none";
     } finally {
-      state.loading = false;
+      state.busy = false;
     }
   }
 
-  function scheduleChunkPrefetch() {
-    const worker = async () => {
-      await loadNextChunk();
-      if (state.loadedChunks < chunkFiles.length) {
-        const run = () => setTimeout(worker, 500);
-        if ("requestIdleCallback" in window) {
-          window.requestIdleCallback(run, { timeout: 1200 });
-        } else {
-          run();
-        }
-      }
-    };
-    worker();
+  // ---- Schedule CDN fetch after initial render ----
+  function scheduleCDNLoad() {
+    const run = () => loadFromCDN();
+    if ("requestIdleCallback" in window) {
+      window.requestIdleCallback(run, { timeout: 1500 });
+    } else {
+      setTimeout(run, 200);
+    }
   }
 
   // ---- Session storage persistence ----
@@ -245,5 +271,5 @@ const t = MESSAGES[lang];
   // ---- Init ----
   restoreFilterState();
   applyFilter();
-  scheduleChunkPrefetch();
+  scheduleCDNLoad();
 </script>

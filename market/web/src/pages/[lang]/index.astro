@@ -2,7 +2,7 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import SkillList from "@/components/SkillList.astro";
 import { getLang, MESSAGES, type Lang } from "@/lib/i18n";
-import { loadMainMarketData } from "@/lib/market-data";
+import { loadMainMarketData, getTopStaticSkills, CDN_BASE_URL } from "@/lib/market-data";
 
 export const prerender = true;
 
@@ -14,6 +14,7 @@ const lang = getLang(Astro.params.lang) as Lang;
 const t = MESSAGES[lang];
 const altLang = lang === "en" ? "zh" : "en";
 const market = await loadMainMarketData();
+const { skills: staticSkills, repositories: staticRepos } = getTopStaticSkills(market, 100);
 
 const categoryCounts: Record<string, number> = {};
 for (const skill of market.skills) {
@@ -33,7 +34,7 @@ const jsonLd = {
   name: t.siteName,
   description: t.siteDescription,
   numberOfItems: market.meta.totalSkills,
-  itemListElement: market.skills.slice(0, 20).map((skill, idx) => ({
+  itemListElement: staticSkills.slice(0, 20).map((skill, idx) => ({
     "@type": "ListItem",
     position: idx + 1,
     name: skill.name,
@@ -109,9 +110,10 @@ const jsonLd = {
 
       <SkillList
         lang={lang}
-        initialSkills={market.skills}
-        initialRepositories={market.repositories}
-        chunkFiles={market.meta.chunks || []}
+        initialSkills={staticSkills}
+        initialRepositories={staticRepos}
+        cdnBaseUrl={CDN_BASE_URL}
+        totalSkills={market.meta.totalSkills}
         categories={categories}
       />
 
