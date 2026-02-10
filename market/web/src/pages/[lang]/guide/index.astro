@@ -1,0 +1,457 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getLang, MESSAGES, type Lang } from "@/lib/i18n";
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  return [{ params: { lang: "en" } }, { params: { lang: "zh" } }];
+}
+
+const lang = getLang(Astro.params.lang) as Lang;
+const t = MESSAGES[lang];
+const altLang = lang === "en" ? "zh" : "en";
+
+const toolPaths = [
+  { tool: "Cursor",        flag: "cursor",  path: "~/.cursor/skills/" },
+  { tool: "Claude Code",   flag: "claude",  path: "~/.claude/skills/" },
+  { tool: "Codex CLI",     flag: "codex",   path: "~/.codex/skills/" },
+  { tool: "GitHub Copilot", flag: "copilot", path: "~/.config/github-copilot/skills/" }
+];
+
+const flags = [
+  { flag: t.guideFlagTool,  desc: t.guideFlagToolDesc },
+  { flag: t.guideFlagDir,   desc: t.guideFlagDirDesc },
+  { flag: t.guideFlagCheck, desc: t.guideFlagCheckDesc },
+  { flag: t.guideFlagJson,  desc: t.guideFlagJsonDesc },
+  { flag: t.guideFlagLimit, desc: t.guideFlagLimitDesc },
+  { flag: t.guideFlagYes,   desc: t.guideFlagYesDesc },
+  { flag: t.guideFlagAll,   desc: t.guideFlagAllDesc }
+];
+---
+
+<BaseLayout
+  lang={lang}
+  title={`${t.guideTitle} | ${t.siteName}`}
+  description={t.guideDesc}
+  canonicalPath={`/${lang}/guide/`}
+  altPath={`/${altLang}/guide/`}
+>
+  <!-- Topbar -->
+  <header class="topbar">
+    <a class="brand" href={`/${lang}/`}>{t.siteName}</a>
+    <div class="topbar-right">
+      <a class="gh-link" href="https://github.com/coolzwc/open-skill-market" target="_blank" rel="noreferrer" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.694.825.576C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+      </a>
+      <nav class="lang-switch" aria-label={t.language}>
+        <a href={`/en/guide/`} class={lang === "en" ? "active" : ""}>EN</a>
+        <a href={`/zh/guide/`} class={lang === "zh" ? "active" : ""}>中文</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="guide-page">
+    <div class="guide-container">
+
+      <!-- Back link (goes back in history, falls back to market index) -->
+      <a class="back-link animate-in" id="back-link" href={`/${lang}/`}>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+        Back
+      </a>
+      <script>
+        document.getElementById("back-link")?.addEventListener("click", (e) => {
+          if (window.history.length > 1 && document.referrer) {
+            e.preventDefault();
+            window.history.back();
+          }
+        });
+      </script>
+
+      <!-- Page title -->
+      <div class="guide-hero animate-in">
+        <div class="guide-hero-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+        </div>
+        <h1>{t.guideTitle}</h1>
+        <p class="guide-intro">{t.guideIntro}</p>
+      </div>
+
+      <!-- Requirements -->
+      <section class="guide-section animate-in delay-1">
+        <h2 class="guide-section-title">{t.guideRequirements}</h2>
+        <p class="guide-text">{t.guideRequirementsDesc}</p>
+      </section>
+
+      <!-- Commands -->
+      <section class="guide-section animate-in delay-2">
+        <h2 class="guide-section-title">{t.guideCommands}</h2>
+
+        <div class="guide-cmd-card">
+          <div class="guide-cmd-header">
+            <h3>{t.guideCmdList}</h3>
+            <p>{t.guideCmdListDesc}</p>
+          </div>
+          <div class="guide-code-block">
+            <code>npx skill-market list</code>
+            <code>npx skill-market list --tool claude --limit 20</code>
+          </div>
+        </div>
+
+        <div class="guide-cmd-card">
+          <div class="guide-cmd-header">
+            <h3>{t.guideCmdSearch}</h3>
+            <p>{t.guideCmdSearchDesc}</p>
+          </div>
+          <div class="guide-code-block">
+            <code>npx skill-market search react</code>
+            <code>npx skill-market search "code review"</code>
+          </div>
+        </div>
+
+        <div class="guide-cmd-card">
+          <div class="guide-cmd-header">
+            <h3>{t.guideCmdInstall}</h3>
+            <p>{t.guideCmdInstallDesc}</p>
+          </div>
+          <div class="guide-code-block">
+            <code>npx skill-market install mem-search --tool cursor</code>
+            <code>npx skill-market install mem-search --tool claude</code>
+          </div>
+        </div>
+
+        <div class="guide-cmd-card">
+          <div class="guide-cmd-header">
+            <h3>{t.guideCmdUpdate}</h3>
+            <p>{t.guideCmdUpdateDesc}</p>
+          </div>
+          <div class="guide-code-block">
+            <code>npx skill-market update mem-search --tool cursor</code>
+            <code>npx skill-market update --all --tool cursor</code>
+          </div>
+        </div>
+      </section>
+
+      <!-- Flags -->
+      <section class="guide-section animate-in delay-3">
+        <h2 class="guide-section-title">{t.guideFlags}</h2>
+        <div class="guide-flags-table">
+          {flags.map((f) => (
+            <div class="guide-flag-row">
+              <code class="guide-flag-name">{f.flag}</code>
+              <span class="guide-flag-desc">{f.desc}</span>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- Examples -->
+      <section class="guide-section animate-in delay-3">
+        <h2 class="guide-section-title">{t.guideExamples}</h2>
+        <div class="guide-code-block examples">
+          <code><span class="code-comment">{t.guideExampleComment1}</span></code>
+          <code>npx skill-market list --tool cursor --limit 20</code>
+          <code>&nbsp;</code>
+          <code><span class="code-comment">{t.guideExampleComment2}</span></code>
+          <code>npx skill-market search react</code>
+          <code>&nbsp;</code>
+          <code><span class="code-comment">{t.guideExampleComment3}</span></code>
+          <code>npx skill-market install mem-search --tool claude</code>
+          <code>&nbsp;</code>
+          <code><span class="code-comment">{t.guideExampleComment4}</span></code>
+          <code>npx skill-market update mem-search --check</code>
+          <code>&nbsp;</code>
+          <code><span class="code-comment">{t.guideExampleComment5}</span></code>
+          <code>npx skill-market update --all --tool codex</code>
+          <code>&nbsp;</code>
+          <code><span class="code-comment">{t.guideExampleComment6}</span></code>
+          <code>npx skill-market list --json --limit 50</code>
+        </div>
+      </section>
+
+      <!-- Tool paths -->
+      <section class="guide-section animate-in delay-4">
+        <h2 class="guide-section-title">{t.guideToolPaths}</h2>
+        <p class="guide-text">{t.guideToolPathsDesc}</p>
+        <div class="guide-paths-table">
+          {toolPaths.map((tp) => (
+            <div class="guide-path-row">
+              <span class="guide-path-tool">{tp.tool}</span>
+              <code class="guide-path-flag">--tool {tp.flag}</code>
+              <code class="guide-path-dir">{tp.path}</code>
+            </div>
+          ))}
+        </div>
+      </section>
+
+    </div>
+
+    <footer class="site-footer">
+      &copy; {new Date().getFullYear()} <a href="https://github.com/coolzwc/open-skill-market" target="_blank" rel="noreferrer">Open Skill Market</a>. MIT License.
+    </footer>
+  </main>
+</BaseLayout>
+
+<style>
+  .guide-page {
+    height: calc(100vh - var(--topbar-h));
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: var(--line-bright) transparent;
+  }
+
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--text-soft);
+    margin-bottom: 1.25rem;
+    transition: color 160ms ease, gap 160ms ease;
+  }
+  .back-link:hover {
+    color: var(--accent);
+    gap: 0.55rem;
+  }
+
+  .guide-container {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 2rem clamp(1rem, 4vw, 2.5rem) 4rem;
+  }
+
+  /* ---- Hero ---- */
+  .guide-hero {
+    margin-bottom: 2.5rem;
+  }
+
+  .guide-hero-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(110,231,183,0.12), rgba(103,232,249,0.08));
+    border: 1px solid rgba(110,231,183,0.15);
+    color: var(--accent);
+    margin-bottom: 1rem;
+  }
+
+  .guide-hero h1 {
+    font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.2;
+    background: linear-gradient(135deg, var(--accent), var(--cyan));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.75rem;
+  }
+
+  .guide-intro {
+    color: var(--text-soft);
+    font-size: 1rem;
+    line-height: 1.7;
+    max-width: 60ch;
+  }
+
+  /* ---- Section ---- */
+  .guide-section {
+    margin-bottom: 2.25rem;
+  }
+
+  .guide-section-title {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+    margin-bottom: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .guide-section-title::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 2px;
+    background: var(--accent);
+    border-radius: 1px;
+  }
+
+  .guide-text {
+    color: var(--text-soft);
+    font-size: 0.92rem;
+    line-height: 1.65;
+  }
+
+  /* ---- Command cards ---- */
+  .guide-cmd-card {
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--bg-card);
+    overflow: hidden;
+    margin-bottom: 0.75rem;
+    transition: border-color 180ms ease;
+  }
+
+  .guide-cmd-card:hover {
+    border-color: var(--line-bright);
+  }
+
+  .guide-cmd-header {
+    padding: 0.85rem 1rem;
+  }
+
+  .guide-cmd-header h3 {
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 0.25rem;
+  }
+
+  .guide-cmd-header p {
+    font-size: 0.82rem;
+    color: var(--text-dim);
+    line-height: 1.5;
+  }
+
+  .guide-code-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    background: rgba(0,0,0,0.35);
+    border-top: 1px solid var(--line);
+    padding: 0.75rem 1rem;
+  }
+
+  .guide-code-block code {
+    display: block;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.78rem;
+    color: var(--accent);
+    line-height: 1.8;
+    user-select: all;
+  }
+
+  .guide-code-block.examples {
+    border-radius: var(--radius);
+    border: 1px solid var(--line);
+    border-top: 1px solid var(--line);
+    padding: 1rem 1.2rem;
+  }
+
+  .guide-code-block.examples code {
+    line-height: 1.7;
+  }
+
+  .code-comment {
+    color: var(--text-dim);
+  }
+
+  /* ---- Flags table ---- */
+  .guide-flags-table {
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--bg-card);
+    overflow: hidden;
+  }
+
+  .guide-flag-row {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 0.65rem 1rem;
+    border-bottom: 1px solid var(--line);
+    transition: background 160ms ease;
+  }
+
+  .guide-flag-row:last-child {
+    border-bottom: none;
+  }
+
+  .guide-flag-row:hover {
+    background: rgba(110,231,183,0.02);
+  }
+
+  .guide-flag-name {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.78rem;
+    color: var(--cyan);
+    white-space: nowrap;
+    min-width: 140px;
+    flex-shrink: 0;
+  }
+
+  .guide-flag-desc {
+    font-size: 0.84rem;
+    color: var(--text-soft);
+    line-height: 1.5;
+  }
+
+  /* ---- Tool paths table ---- */
+  .guide-paths-table {
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--bg-card);
+    overflow: hidden;
+    margin-top: 0.75rem;
+  }
+
+  .guide-path-row {
+    display: grid;
+    grid-template-columns: 130px 140px 1fr;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 0.6rem 1rem;
+    border-bottom: 1px solid var(--line);
+    transition: background 160ms ease;
+  }
+
+  .guide-path-row:last-child {
+    border-bottom: none;
+  }
+
+  .guide-path-row:hover {
+    background: rgba(110,231,183,0.02);
+  }
+
+  .guide-path-tool {
+    font-size: 0.84rem;
+    font-weight: 500;
+    color: var(--text);
+  }
+
+  .guide-path-flag {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.74rem;
+    color: var(--text-dim);
+  }
+
+  .guide-path-dir {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.74rem;
+    color: var(--text-soft);
+  }
+
+  /* ---- Responsive ---- */
+  @media (max-width: 600px) {
+    .guide-flag-row {
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+    .guide-flag-name {
+      min-width: 0;
+    }
+    .guide-path-row {
+      grid-template-columns: 1fr;
+      gap: 0.15rem;
+    }
+  }
+</style>

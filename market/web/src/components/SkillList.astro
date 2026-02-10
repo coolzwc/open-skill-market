@@ -1,0 +1,249 @@
+---
+import type { CompactSkill } from "@/lib/market-data";
+import type { Lang } from "@/lib/i18n";
+import { MESSAGES } from "@/lib/i18n";
+
+interface Props {
+  lang: Lang;
+  initialSkills: CompactSkill[];
+  initialRepositories: Record<string, { stars?: number; forks?: number }>;
+  chunkFiles: string[];
+  categories: string[];
+}
+
+const { lang, initialSkills, initialRepositories, chunkFiles, categories } = Astro.props;
+const t = MESSAGES[lang];
+---
+
+<section class="animate-in delay-2" style="flex:1;display:flex;flex-direction:column;overflow:hidden;">
+  <input id="skill-category-hidden" type="hidden" value="" />
+  <div class="scroll-region" id="scroll-region">
+    <div id="skill-grid" class="card-grid"></div>
+    <div id="skill-empty" class="empty-state" style="display:none;">{t.noResults}</div>
+    <div id="skill-loading" class="loading-spinner">{t.loading}</div>
+  </div>
+</section>
+
+<script type="application/json" id="initial-skills" set:html={JSON.stringify(initialSkills)}></script>
+<script type="application/json" id="initial-repositories" set:html={JSON.stringify(initialRepositories)}></script>
+<script type="application/json" id="chunk-files" set:html={JSON.stringify(chunkFiles)}></script>
+
+<script
+  type="module"
+  define:vars={{
+    lang,
+    noResultsText: t.noResults,
+    loadingText: t.loading,
+    starsText: t.stars
+  }}
+>
+  const searchInput = document.querySelector("#skill-search");
+  const categoryHidden = document.querySelector("#skill-category-hidden");
+  const grid = document.querySelector("#skill-grid");
+  const empty = document.querySelector("#skill-empty");
+  const loading = document.querySelector("#skill-loading");
+  const scrollRegion = document.querySelector("#scroll-region");
+
+  const initialSkills = JSON.parse(document.querySelector("#initial-skills").textContent || "[]");
+  const repositories = JSON.parse(
+    document.querySelector("#initial-repositories").textContent || "{}"
+  );
+  const chunkFiles = JSON.parse(document.querySelector("#chunk-files").textContent || "[]");
+
+  const PAGE_SIZE = 60;
+
+  // ---- Pre-built search index for fast filtering ----
+  const searchIndex = new Map();
+
+  function indexSkill(skill) {
+    if (searchIndex.has(skill.id)) return;
+    const haystack = [
+      skill.name, skill.description, skill.author, skill.repo,
+      ...(skill.tags || [])
+    ].join(" ").toLowerCase();
+    searchIndex.set(skill.id, haystack);
+  }
+
+  function getScore(skill) {
+    const repo = repositories[skill.repo] || {};
+    return Number(repo.stars || 0);
+  }
+
+  // ---- State ----
+  const state = {
+    skills: initialSkills,
+    filtered: [],
+    rendered: 0,
+    loading: false,
+    loadedChunks: 0
+  };
+
+  // Index initial skills
+  for (const s of initialSkills) indexSkill(s);
+
+  // ---- Escape HTML (cached via template) ----
+  const _escEl = document.createElement("span");
+  function esc(str) {
+    if (!str) return "";
+    _escEl.textContent = str;
+    return _escEl.innerHTML;
+  }
+
+  // ---- Build card HTML ----
+  function cardHtml(skill) {
+    const stars = getScore(skill);
+    const href = `/${lang}/skill/${encodeURIComponent(skill.id)}`;
+    const cat = esc(skill.categories?.[0] || "Other");
+    return `<a class="card" href="${href}">
+      <span class="card-category" data-cat="${cat}">${cat}</span>
+      <h3>${esc(skill.name)}</h3>
+      <p class="card-desc">${esc(skill.description || "")}</p>
+      <div class="card-footer">
+        <span class="card-author">@${esc(skill.author || "unknown")}</span>
+        <span class="card-stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+          ${stars.toLocaleString()}
+        </span>
+      </div>
+    </a>`;
+  }
+
+  // ---- Render a batch of cards using DocumentFragment ----
+  function renderBatch(startIdx, count) {
+    const end = Math.min(startIdx + count, state.filtered.length);
+    if (startIdx >= end) return;
+    const frag = document.createDocumentFragment();
+    const tmp = document.createElement("div");
+    for (let i = startIdx; i < end; i++) {
+      tmp.innerHTML = cardHtml(state.filtered[i]);
+      frag.appendChild(tmp.firstElementChild);
+    }
+    grid.appendChild(frag);
+    state.rendered = end;
+  }
+
+  // ---- Filter + render (only first page) ----
+  function applyFilter() {
+    const q = String(searchInput?.value || "").trim().toLowerCase();
+    const category = String(categoryHidden?.value || "");
+
+    state.filtered = state.skills.filter((skill) => {
+      if (category && !(skill.categories || []).includes(category)) return false;
+      if (!q) return true;
+      return (searchIndex.get(skill.id) || "").includes(q);
+    });
+
+    state.filtered.sort((a, b) => getScore(b) - getScore(a) || String(a.name).localeCompare(String(b.name)));
+
+    // Clear and render first page
+    grid.innerHTML = "";
+    state.rendered = 0;
+    renderBatch(0, PAGE_SIZE);
+    empty.style.display = state.filtered.length === 0 ? "block" : "none";
+  }
+
+  // ---- Infinite scroll: load more on scroll ----
+  let scrollTicking = false;
+  scrollRegion?.addEventListener("scroll", () => {
+    if (scrollTicking) return;
+    scrollTicking = true;
+    requestAnimationFrame(() => {
+      scrollTicking = false;
+      if (state.rendered >= state.filtered.length) return;
+      const el = scrollRegion;
+      if (el.scrollTop + el.clientHeight >= el.scrollHeight - 400) {
+        renderBatch(state.rendered, PAGE_SIZE);
+      }
+    });
+  }, { passive: true });
+
+  // ---- Chunk loading ----
+  async function loadNextChunk() {
+    if (state.loading || state.loadedChunks >= chunkFiles.length) return;
+    state.loading = true;
+    loading.style.display = "flex";
+    loading.textContent = `${loadingText} (${state.loadedChunks + 1}/${chunkFiles.length})`;
+    try {
+      const file = chunkFiles[state.loadedChunks];
+      const response = await fetch(`/data/${file}`);
+      if (!response.ok) throw new Error(`Failed chunk ${file}`);
+      const payload = await response.json();
+      Object.assign(repositories, payload.repositories || {});
+      const newSkills = payload.skills || [];
+      for (const s of newSkills) indexSkill(s);
+      state.skills.push(...newSkills);
+      state.loadedChunks += 1;
+      applyFilter();
+      if (state.loadedChunks >= chunkFiles.length) {
+        loading.style.display = "none";
+      }
+    } catch (error) {
+      loading.style.display = "none";
+      console.error(error);
+    } finally {
+      state.loading = false;
+    }
+  }
+
+  function scheduleChunkPrefetch() {
+    const worker = async () => {
+      await loadNextChunk();
+      if (state.loadedChunks < chunkFiles.length) {
+        const run = () => setTimeout(worker, 500);
+        if ("requestIdleCallback" in window) {
+          window.requestIdleCallback(run, { timeout: 1200 });
+        } else {
+          run();
+        }
+      }
+    };
+    worker();
+  }
+
+  // ---- Session storage persistence ----
+  const STORAGE_KEY = "skill-market-filter";
+
+  function saveFilterState() {
+    const q = String(searchInput?.value || "").trim();
+    const cat = String(categoryHidden?.value || "");
+    try { sessionStorage.setItem(STORAGE_KEY, JSON.stringify({ cat, q })); } catch {}
+  }
+
+  function restoreFilterState() {
+    try {
+      const raw = sessionStorage.getItem(STORAGE_KEY);
+      if (!raw) return;
+      const { cat, q } = JSON.parse(raw);
+      if (searchInput && q) searchInput.value = q;
+      if (categoryHidden && cat) {
+        categoryHidden.value = cat;
+        document.querySelectorAll(".sidebar-item[data-category]").forEach((item) => {
+          item.classList.toggle("active", item.dataset.category === cat);
+        });
+        document.querySelectorAll(".mobile-cat-chip[data-category]").forEach((chip) => {
+          chip.classList.toggle("active", chip.dataset.category === cat);
+        });
+      }
+    } catch {}
+  }
+
+  // ---- Input listeners (debounced search) ----
+  let debounceTimer = 0;
+  searchInput?.addEventListener("input", () => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => {
+      saveFilterState();
+      applyFilter();
+    }, 200);
+  });
+
+  categoryHidden?.addEventListener("change", () => {
+    saveFilterState();
+    applyFilter();
+  });
+
+  // ---- Init ----
+  restoreFilterState();
+  applyFilter();
+  scheduleChunkPrefetch();
+</script>

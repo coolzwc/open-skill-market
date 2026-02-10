@@ -1,0 +1,838 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getLang, MESSAGES, type Lang } from "@/lib/i18n";
+import { getExpandedSkills, type ExpandedSkill } from "@/lib/market-data";
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const skills = await getExpandedSkills();
+  const paths: { params: { lang: "en" | "zh"; skillId: string }; props: { skill: ExpandedSkill } }[] = [];
+  for (const skill of skills) {
+    const encodedId = encodeURIComponent(skill.id);
+    paths.push({ params: { lang: "en", skillId: encodedId }, props: { skill } });
+    paths.push({ params: { lang: "zh", skillId: encodedId }, props: { skill } });
+  }
+  return paths;
+}
+
+const lang = getLang(Astro.params.lang) as Lang;
+const t = MESSAGES[lang];
+const altLang = lang === "en" ? "zh" : "en";
+const skill = Astro.props.skill as ExpandedSkill;
+const encodedId = encodeURIComponent(skill.id);
+
+const title = `${skill.name} | ${t.siteName}`;
+const description = skill.description || t.siteDescription;
+const canonicalPath = `/${lang}/skill/${encodedId}`;
+const altPath = `/${altLang}/skill/${encodedId}`;
+
+const tools = [
+  { key: "cursor",  label: t.tabCursor,  hint: t.installHintCursor,  flag: "--tool cursor" },
+  { key: "claude",  label: t.tabClaude,  hint: t.installHintClaude,  flag: "--tool claude" },
+  { key: "codex",   label: t.tabCodex,   hint: t.installHintCodex,   flag: "--tool codex" },
+  { key: "copilot", label: t.tabCopilot, hint: t.installHintCopilot, flag: "--tool copilot" }
+];
+
+const agents = skill.compatibility?.agents || [];
+const agentIcons: Record<string, string> = {
+  cursor: "Cursor",
+  "claude-code": "Claude Code",
+  "codex-cli": "Codex CLI",
+  "github-copilot": "Copilot"
+};
+
+const ldJson = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  name: skill.name,
+  description: skill.description,
+  codeRepository: skill.repoUrl,
+  author: {
+    "@type": "Person",
+    name: skill.author
+  },
+  programmingLanguage: "Markdown"
+};
+---
+
+<BaseLayout
+  lang={lang}
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  altPath={altPath}
+  type="article"
+>
+  <!-- Topbar -->
+  <header class="topbar">
+    <a class="brand" href={`/${lang}/`}>{t.siteName}</a>
+    <div class="topbar-right">
+      <a class="gh-link" href="https://github.com/coolzwc/open-skill-market" target="_blank" rel="noreferrer" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.694.825.576C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+      </a>
+      <nav class="lang-switch" aria-label={t.language}>
+        <a href={`/en/skill/${encodedId}`} class={lang === "en" ? "active" : ""}>EN</a>
+        <a href={`/zh/skill/${encodedId}`} class={lang === "zh" ? "active" : ""}>中文</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="detail-page">
+    <div class="detail-container">
+
+      <!-- Back link -->
+      <a class="back-link animate-in" href={`/${lang}/`}>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+        {t.backToMarket}
+      </a>
+
+      <!-- ========== Two-column layout ========== -->
+      <div class="detail-grid">
+
+        <!-- LEFT: main info -->
+        <div class="detail-main">
+
+          <!-- Hero header -->
+          <div class="detail-hero animate-in delay-1">
+            <div class="hero-glow"></div>
+            <div class="hero-content">
+              <div class="hero-top-row">
+                <span class="card-category" data-cat={(skill.categories || [])[0] || "Other"}>{(skill.categories || [])[0] || "Other"}</span>
+                {skill.version ? <span class="version-badge">v{skill.version}</span> : null}
+              </div>
+
+              <h1 class="detail-title">{skill.name}</h1>
+              <p class="detail-desc">{skill.description}</p>
+
+              <!-- Stats row -->
+              <div class="detail-stats">
+                <a href={skill.repoUrl} target="_blank" rel="noreferrer" class="stat-chip author-chip">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                  @{skill.author}
+                </a>
+                <span class="stat-chip">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+                  {skill.stars.toLocaleString()} {t.stars}
+                </span>
+                <span class="stat-chip">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 18V7l10 11V7"/></svg>
+                  {skill.forks.toLocaleString()} {t.forks}
+                </span>
+                {skill.lastUpdated ? (
+                  <span class="stat-chip">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    {new Date(skill.lastUpdated).toLocaleDateString(lang === "zh" ? "zh-CN" : "en-US")}
+                  </span>
+                ) : null}
+              </div>
+            </div>
+          </div>
+
+          <!-- Compatible agents -->
+          {agents.length > 0 ? (
+            <div class="detail-section animate-in delay-2">
+              <h2 class="section-label">{t.compatibility}</h2>
+              <div class="agent-badges">
+                {agents.map((agent) => (
+                  <span class={`agent-badge agent-${agent}`}>
+                    <span class="agent-dot"></span>
+                    {agentIcons[agent] || agent}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ) : null}
+
+          <!-- Install panel -->
+          <div class="detail-section animate-in delay-2">
+            <h2 class="section-label">{t.quickInstall}</h2>
+            <div class="install-panel">
+              <div class="install-tabs" role="tablist">
+                {tools.map((tool, idx) => (
+                  <button
+                    class={`install-tab${idx === 0 ? " active" : ""}`}
+                    role="tab"
+                    data-tool={tool.key}
+                    aria-selected={idx === 0 ? "true" : "false"}
+                  >
+                    {tool.label}
+                  </button>
+                ))}
+              </div>
+              {tools.map((tool, idx) => (
+                <div
+                  class="install-body"
+                  data-panel={tool.key}
+                  style={idx === 0 ? "" : "display:none;"}
+                  role="tabpanel"
+                >
+                  <div class="cmd-row">
+                    <code>npx skill-market install {skill.name} {tool.flag}</code>
+                    <button class="copy-btn" data-cmd={`npx skill-market install ${skill.name} ${tool.flag}`} title={t.copyCommand}>
+                      <svg class="copy-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                      <svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;"><polyline points="20 6 9 17 4 12"/></svg>
+                    </button>
+                  </div>
+                  <div class="cmd-hint">{tool.hint}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <!-- CLI Guide -->
+          <div class="detail-section cli-quickstart animate-in delay-2">
+            <div class="cli-qs-header">
+              <div class="cli-qs-left">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+                <div>
+                  <h3 class="cli-qs-title">{t.cliGetStarted}</h3>
+                  <p class="cli-qs-desc">{t.cliGetStartedDesc}</p>
+                </div>
+              </div>
+              <a class="cli-qs-link" href={`/${lang}/guide/`}>
+                {t.viewFullGuide}
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+            <div class="cli-qs-cmds">
+              <div class="cli-qs-cmd">
+                <span class="cli-qs-label">{t.guideCmdSearch}</span>
+                <code>npx skill-market search &lt;keyword&gt;</code>
+              </div>
+              <div class="cli-qs-cmd">
+                <span class="cli-qs-label">{t.guideCmdList}</span>
+                <code>npx skill-market list --tool cursor</code>
+              </div>
+              <div class="cli-qs-cmd">
+                <span class="cli-qs-label">{t.guideCmdUpdate}</span>
+                <code>npx skill-market update --all --tool cursor</code>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tags -->
+          {(skill.tags && skill.tags.length > 0) ? (
+            <div class="detail-section animate-in delay-3">
+              <h2 class="section-label">{t.tags}</h2>
+              <div class="tag-cloud">
+                {skill.tags.map((tag) => (
+                  <span class="tag-pill">{tag}</span>
+                ))}
+              </div>
+            </div>
+          ) : null}
+        </div>
+
+        <!-- RIGHT: sidebar info -->
+        <aside class="detail-aside animate-in delay-3">
+
+          <!-- Links card -->
+          <div class="aside-card">
+            <h3 class="aside-card-title">{t.sourceRepo}</h3>
+            <a href={skill.repoUrl} target="_blank" rel="noreferrer" class="aside-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.694.825.576C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+              <span>{skill.repo}</span>
+              <svg class="ext-icon" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+            <a href={skill.detailsUrl} target="_blank" rel="noreferrer" class="aside-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+              <span>SKILL.md</span>
+              <svg class="ext-icon" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+
+          <!-- Files -->
+          {(skill.files && skill.files.length > 0) ? (
+            <div class="aside-card">
+              <h3 class="aside-card-title">{t.files}</h3>
+              <ul class="file-list">
+                {skill.files.map((file) => (
+                  <li class="file-item">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                    {file}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
+
+          <!-- Categories -->
+          {(skill.categories && skill.categories.length > 1) ? (
+            <div class="aside-card">
+              <h3 class="aside-card-title">{t.categoryLabel}</h3>
+              <div class="aside-categories">
+                {skill.categories.map((cat) => (
+                  <a href={`/${lang}/`} class="aside-cat-link">{cat}</a>
+                ))}
+              </div>
+            </div>
+          ) : null}
+
+        </aside>
+      </div>
+
+    </div>
+
+    <footer class="site-footer">
+      &copy; {new Date().getFullYear()} <a href="https://github.com/coolzwc/open-skill-market" target="_blank" rel="noreferrer">Open Skill Market</a>. MIT License.
+    </footer>
+  </main>
+
+  <script type="application/ld+json" set:html={JSON.stringify(ldJson)} />
+</BaseLayout>
+
+<style>
+  /* ---- Page container ---- */
+  .detail-page {
+    height: calc(100vh - var(--topbar-h));
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: var(--line-bright) transparent;
+  }
+
+  .detail-container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 1.5rem clamp(1rem, 4vw, 2.5rem) 3rem;
+    min-height: calc(100vh - var(--topbar-h) - 60px);
+  }
+
+  /* ---- Back link ---- */
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--text-soft);
+    margin-bottom: 1.25rem;
+    transition: color 160ms ease, gap 160ms ease;
+  }
+  .back-link:hover {
+    color: var(--accent);
+    gap: 0.5rem;
+  }
+
+  /* ---- Two-column grid ---- */
+  .detail-grid {
+    display: grid;
+    grid-template-columns: 1fr 260px;
+    gap: 1.5rem;
+    align-items: start;
+  }
+
+  /* ---- Hero header card ---- */
+  .detail-hero {
+    position: relative;
+    padding: 1.75rem 1.5rem;
+    border: 1px solid var(--line-bright);
+    border-radius: var(--radius-lg);
+    background: var(--bg-card);
+    overflow: hidden;
+  }
+
+  .hero-glow {
+    position: absolute;
+    top: -60px;
+    right: -40px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(110,231,183,0.08), transparent 70%);
+    pointer-events: none;
+  }
+
+  .detail-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent), var(--cyan), var(--violet), transparent);
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero-top-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .version-badge {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.68rem;
+    font-weight: 500;
+    color: var(--cyan);
+    background: var(--cyan-dim);
+    border: 1px solid rgba(103,232,249,0.12);
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+  }
+
+  .detail-title {
+    margin: 0.75rem 0 0.6rem;
+    font-size: clamp(1.5rem, 3.5vw, 2rem);
+    font-weight: 700;
+    line-height: 1.2;
+    background: linear-gradient(135deg, var(--text) 60%, var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .detail-desc {
+    color: var(--text-soft);
+    line-height: 1.65;
+    font-size: 0.94rem;
+    margin-bottom: 1.25rem;
+  }
+
+  /* ---- Stats row ---- */
+  .detail-stats {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .stat-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.35rem 0.65rem;
+    border-radius: 8px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.74rem;
+    color: var(--text-soft);
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--line);
+    transition: all 180ms ease;
+  }
+
+  .stat-chip svg {
+    opacity: 0.6;
+  }
+
+  .author-chip {
+    color: var(--accent);
+    border-color: rgba(110,231,183,0.15);
+    background: rgba(110,231,183,0.05);
+  }
+
+  .author-chip:hover {
+    border-color: rgba(110,231,183,0.3);
+    background: rgba(110,231,183,0.1);
+  }
+
+  /* ---- Section label ---- */
+  .detail-section {
+    margin-top: 1.25rem;
+  }
+
+  .section-label {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--text-dim);
+    margin-bottom: 0.65rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .section-label::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 2px;
+    background: var(--accent);
+    border-radius: 1px;
+  }
+
+  /* ---- Agent badges ---- */
+  .agent-badges {
+    display: flex;
+    gap: 0.45rem;
+    flex-wrap: wrap;
+  }
+
+  .agent-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.75rem;
+    border-radius: 8px;
+    font-size: 0.78rem;
+    font-weight: 500;
+    border: 1px solid var(--line-bright);
+    background: var(--bg-elevated);
+    color: var(--text-soft);
+    transition: all 180ms ease;
+  }
+
+  .agent-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--text-dim);
+  }
+
+  .agent-cursor .agent-dot { background: var(--accent); box-shadow: 0 0 6px var(--accent-glow); }
+  .agent-claude-code .agent-dot { background: var(--violet); box-shadow: 0 0 6px rgba(167,139,250,0.35); }
+  .agent-codex-cli .agent-dot { background: var(--cyan); box-shadow: 0 0 6px rgba(103,232,249,0.35); }
+  .agent-github-copilot .agent-dot { background: var(--rose); box-shadow: 0 0 6px rgba(251,113,133,0.35); }
+
+  .agent-cursor { border-color: rgba(110,231,183,0.18); }
+  .agent-claude-code { border-color: rgba(167,139,250,0.18); }
+  .agent-codex-cli { border-color: rgba(103,232,249,0.18); }
+  .agent-github-copilot { border-color: rgba(251,113,133,0.18); }
+
+  /* ---- Install panel (override globals) ---- */
+  .detail-section .install-panel {
+    margin-top: 0;
+  }
+
+  .cmd-row {
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .cmd-row code {
+    flex: 1;
+    display: block;
+    padding: 0.75rem 0.85rem;
+    border-radius: 8px 0 0 8px;
+    background: rgba(0,0,0,0.45);
+    border: 1px solid var(--line);
+    border-right: none;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.8rem;
+    color: var(--accent);
+    word-break: break-all;
+    user-select: all;
+    line-height: 1.5;
+  }
+
+  .copy-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    border: 1px solid var(--line);
+    border-radius: 0 8px 8px 0;
+    background: rgba(255,255,255,0.02);
+    color: var(--text-dim);
+    cursor: pointer;
+    transition: all 160ms ease;
+  }
+
+  .copy-btn:hover {
+    background: rgba(110,231,183,0.08);
+    color: var(--accent);
+    border-color: rgba(110,231,183,0.2);
+  }
+
+  .cmd-hint {
+    margin-top: 0.45rem;
+    font-size: 0.72rem;
+    color: var(--text-dim);
+  }
+
+  /* ---- Tags ---- */
+  .tag-cloud {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+  }
+
+  .tag-pill {
+    padding: 0.28rem 0.6rem;
+    border-radius: 6px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.72rem;
+    color: var(--text-soft);
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--line);
+    transition: all 180ms ease;
+  }
+
+  .tag-pill:hover {
+    border-color: var(--line-bright);
+    color: var(--text);
+  }
+
+  /* ---- Right sidebar cards ---- */
+  .detail-aside {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .aside-card {
+    padding: 1rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--bg-card);
+    transition: border-color 180ms ease;
+  }
+
+  .aside-card:hover {
+    border-color: var(--line-bright);
+  }
+
+  .aside-card-title {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--text-dim);
+    margin-bottom: 0.6rem;
+  }
+
+  .aside-link {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.5rem 0.6rem;
+    margin: 0 -0.5rem;
+    border-radius: 6px;
+    font-size: 0.82rem;
+    color: var(--text-soft);
+    transition: all 160ms ease;
+  }
+
+  .aside-link:hover {
+    background: rgba(110,231,183,0.05);
+    color: var(--accent);
+  }
+
+  .aside-link .ext-icon {
+    margin-left: auto;
+    opacity: 0;
+    transition: opacity 160ms ease;
+  }
+
+  .aside-link:hover .ext-icon {
+    opacity: 0.6;
+  }
+
+  .aside-link span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 0;
+  }
+
+
+  .file-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .file-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.74rem;
+    color: var(--text-soft);
+    padding: 0.3rem 0;
+  }
+
+  .file-item svg {
+    flex-shrink: 0;
+    opacity: 0.5;
+  }
+
+  .aside-categories {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .aside-cat-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.35rem 0.55rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    color: var(--text-soft);
+    transition: all 160ms ease;
+  }
+
+  .aside-cat-link:hover {
+    background: rgba(110,231,183,0.06);
+    color: var(--accent);
+  }
+
+  /* ---- CLI Quick Start (inline) ---- */
+  .cli-quickstart {
+    border: 1px solid rgba(110,231,183,0.12);
+    border-radius: var(--radius-lg);
+    background: linear-gradient(160deg, var(--bg-card) 65%, rgba(110,231,183,0.03));
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .cli-qs-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 1.25rem 0.65rem;
+  }
+
+  .cli-qs-left {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+    color: var(--accent);
+  }
+
+  .cli-qs-left svg {
+    flex-shrink: 0;
+    margin-top: 0.15rem;
+  }
+
+  .cli-qs-title {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 0.15rem;
+  }
+
+  .cli-qs-desc {
+    font-size: 0.78rem;
+    color: var(--text-dim);
+    line-height: 1.5;
+  }
+
+  .cli-qs-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.76rem;
+    font-weight: 500;
+    color: var(--accent);
+    white-space: nowrap;
+    padding: 0.3rem 0.6rem;
+    border-radius: 6px;
+    border: 1px solid rgba(110,231,183,0.15);
+    background: rgba(110,231,183,0.04);
+    transition: all 180ms ease;
+    flex-shrink: 0;
+  }
+
+  .cli-qs-link:hover {
+    background: rgba(110,231,183,0.1);
+    border-color: rgba(110,231,183,0.3);
+  }
+
+  .cli-qs-cmds {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0,0,0,0.25);
+    border-top: 1px solid var(--line);
+  }
+
+  .cli-qs-cmd {
+    padding: 0.55rem 1rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .cli-qs-cmd:last-child {
+    border-bottom: none;
+  }
+
+  .cli-qs-label {
+    display: block;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-dim);
+    margin-bottom: 0.25rem;
+  }
+
+  .cli-qs-cmd code {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.72rem;
+    color: var(--accent);
+    line-height: 1.5;
+    user-select: all;
+  }
+
+  /* ---- Responsive ---- */
+  @media (max-width: 720px) {
+    .detail-grid {
+      grid-template-columns: 1fr;
+    }
+    .detail-aside {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .aside-card {
+      flex: 1;
+      min-width: 160px;
+    }
+    .cli-qs-header {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+</style>
+
+<script>
+  // Tab switching
+  const tabs = document.querySelectorAll<HTMLButtonElement>(".install-tab");
+  const panels = document.querySelectorAll<HTMLDivElement>(".install-body[data-panel]");
+
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      const tool = tab.dataset.tool;
+      tabs.forEach((t) => {
+        t.classList.toggle("active", t.dataset.tool === tool);
+        t.setAttribute("aria-selected", t.dataset.tool === tool ? "true" : "false");
+      });
+      panels.forEach((p) => {
+        p.style.display = p.dataset.panel === tool ? "" : "none";
+      });
+    });
+  });
+
+  // Copy button
+  document.querySelectorAll<HTMLButtonElement>(".copy-btn").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const cmd = btn.dataset.cmd;
+      if (!cmd) return;
+      try {
+        await navigator.clipboard.writeText(cmd);
+        const copyIcon = btn.querySelector(".copy-icon") as HTMLElement;
+        const checkIcon = btn.querySelector(".check-icon") as HTMLElement;
+        if (copyIcon && checkIcon) {
+          copyIcon.style.display = "none";
+          checkIcon.style.display = "block";
+          setTimeout(() => {
+            copyIcon.style.display = "block";
+            checkIcon.style.display = "none";
+          }, 1500);
+        }
+      } catch {}
+    });
+  });
+</script>

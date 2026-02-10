@@ -73,6 +73,14 @@ jobs:
           restore-keys: |
             crawler-cache-
 
+      - name: Restore zip cache
+        uses: actions/cache@v4
+        with:
+          path: market/zips
+          key: skill-zips-${{ github.run_id }}
+          restore-keys: |
+            skill-zips-
+
       - name: Run crawler
         env:
           # Primary token (uses built-in GITHUB_TOKEN or custom PAT_TOKEN)
@@ -84,12 +92,16 @@ jobs:
           EXTRA_TOKEN_3: ${{ secrets.EXTRA_TOKEN_3 }}
           EXTRA_TOKEN_4: ${{ secrets.EXTRA_TOKEN_4 }}
           EXTRA_TOKEN_5: ${{ secrets.EXTRA_TOKEN_5 }}
+          # Cloudflare R2 for zip + registry storage
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
         run: npm run crawl
 
       - name: Check for changes
         id: check_changes
         run: |
-          git add -f market/skills.json market/skills-*.json market/zips/
+          git add -f market/skills.json market/skills-*.json
           if git diff --cached --quiet; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
@@ -101,8 +113,8 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add -f market/skills.json market/skills-*.json market/zips/
-          git commit -m "chore: update skills and zip packages [skip ci]
+          git add -f market/skills.json market/skills-*.json
+          git commit -m "chore: update skills data [skip ci]
 
           Automated update from crawler run at $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
           git push

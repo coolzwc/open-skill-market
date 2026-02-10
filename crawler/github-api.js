@@ -548,7 +548,7 @@ export async function findSkillFilesInRepoSmart(workerPool, owner, repo) {
   }
 
   // Client got limited — another client might be available
-  if (!workerPool.allSearchClientsLimited()) {
+  if (!workerPool.allCodeSearchClientsLimited()) {
     const retryResult = await findSkillFilesWithCodeSearch(
       workerPool,
       owner,
@@ -647,13 +647,18 @@ export async function processSkillFileWithPool(
       skillDirCommitHash &&
       cached.commitHash === skillDirCommitHash
     ) {
-      const manifest = cached.manifest;
-      manifest.commitHash = skillDirCommitHash;
-      manifest.stats = {
+      // Expand compact manifest back to full format (avoid mutating cached object)
+      const repoStats = {
         stars: repoDetails?.stargazers_count || 0,
         forks: repoDetails?.forks_count || 0,
         lastUpdated: repoDetails?.pushed_at || new Date().toISOString(),
       };
+      const repoUrlInfo = {
+        url: `https://github.com/${owner}/${repo}`,
+        branch: repoDetails?.default_branch || "main",
+      };
+      const manifest = CrawlerCache.expandManifest(cached.manifest, repoStats, repoUrlInfo);
+      manifest.commitHash = skillDirCommitHash;
       return manifest;
     }
 
@@ -827,12 +832,12 @@ export async function discoverSkillReposGlobally(workerPool, excludeRepos) {
         if (waitTime > 0) {
           logRateLimitWait(Math.ceil(waitTime / 1000));
           await sleep(Math.min(waitTime + 1000, 60000));
-      } else {
-        await sleep(CONFIG.rateLimit.waitOnLimitedFallback);
+        } else {
+          await sleep(CONFIG.rateLimit.waitOnLimitedFallback);
+        }
       }
-    }
 
-    const searchClient = workerPool.getCodeSearchClient();
+      const searchClient = workerPool.getCodeSearchClient();
 
       try {
         const response = await searchClient.octokit.rest.search.code({
@@ -941,6 +946,7 @@ export async function processReposInParallel(
   const { fetchRepoDetails = false } = options;
   const results = [];
   let processedCount = 0;
+  let totalSkillCount = 0;
 
   const tasks = reposToProcess.map(({ repoFullName, repo }) => async () => {
     // Wait for available client
@@ -979,12 +985,12 @@ export async function processReposInParallel(
       );
 
       processedCount++;
+      totalSkillCount += repoSkills.length;
       if (processedCount % 10 === 0) {
         const stats = workerPool.getStats();
-        const skillCount = results.reduce((sum, s) => sum + (s?.length || 0), 0) + repoSkills.length;
         console.log(
           `  Progress: ${processedCount}/${reposToProcess.length} repos, ` +
-            `${skillCount} skills found, ` +
+            `${totalSkillCount} skills found, ` +
             `${stats.activeClients}/${stats.totalClients} clients active`,
         );
       }

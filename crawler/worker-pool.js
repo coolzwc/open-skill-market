@@ -164,8 +164,9 @@ export class WorkerPool {
   constructor() {
     this.tokens = collectGitHubTokens();
     this.clients = [];
-    this.coreIndex = 0;    // round-robin pointer for Core API
-    this.searchIndex = 0;  // round-robin pointer for Search API
+    this.coreIndex = 0;        // round-robin pointer for Core API
+    this.searchIndex = 0;      // round-robin pointer for Search API
+    this.codeSearchIndex = 0;  // round-robin pointer for Code Search API
     this.queue = null;
 
     this._initClients();
@@ -390,13 +391,13 @@ export class WorkerPool {
    */
   getCodeSearchClient() {
     for (let i = 0; i < this.clients.length; i++) {
-      const idx = (this.searchIndex + i) % this.clients.length;
+      const idx = (this.codeSearchIndex + i) % this.clients.length;
       const client = this.clients[idx];
 
       refreshBucket(client.codeSearch, client.label, "CodeSearch");
 
       if (!client.codeSearch.isLimited) {
-        this.searchIndex = (idx + 1) % this.clients.length;
+        this.codeSearchIndex = (idx + 1) % this.clients.length;
         return client;
       }
     }

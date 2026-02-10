@@ -1,6 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 import { __crawlerDirname } from "./config.js";
+import { generateDisplayName } from "./utils.js";
 
 const CACHE_FILE = path.join(__crawlerDirname, ".crawler-cache.json");
 const CACHE_VERSION = 1;
@@ -11,6 +12,7 @@ export class CrawlerCache {
     this.skills = new Map(); // skill-level cache: owner/repo/path -> { commitHash, manifest, zipPath }
     this.repos = new Map(); // repo-level cache: owner/repo -> { commitHash, skillKeys, url, branch, stats, fetchedAt }
     this.pendingZips = new Set(); // cache keys of skills that still need zip generation (from timeout)
+    this.pendingR2Uploads = new Set(); // cache keys of skills that still need R2 upload
     this.isDirty = false;
   }
 
@@ -40,6 +42,9 @@ export class CrawlerCache {
       this.pendingZips = Array.isArray(json.pendingZips)
         ? new Set(json.pendingZips)
         : new Set();
+      this.pendingR2Uploads = Array.isArray(json.pendingR2Uploads)
+        ? new Set(json.pendingR2Uploads)
+        : new Set();
 
       console.log(
         `Loaded cache: ${this.skills.size} skills, ${this.repos.size} repos.`,
@@ -59,6 +64,7 @@ export class CrawlerCache {
     this.skills = new Map();
     this.repos = new Map();
     this.pendingZips = new Set();
+    this.pendingR2Uploads = new Set();
   }
 
   /**
@@ -92,6 +98,7 @@ export class CrawlerCache {
         repos: reposSerialized,
         skills: Object.fromEntries(this.skills),
         pendingZips: Array.from(this.pendingZips),
+        pendingR2Uploads: Array.from(this.pendingR2Uploads),
       };
       await fs.writeFile(CACHE_FILE, JSON.stringify(json, null, 2), "utf-8");
       console.log(
@@ -110,6 +117,7 @@ export class CrawlerCache {
     this.skills = new Map();
     this.repos = new Map();
     this.pendingZips = new Set();
+    this.pendingR2Uploads = new Set();
     this.isDirty = true;
   }
 
@@ -144,6 +152,57 @@ export class CrawlerCache {
    */
   removePendingZip(key) {
     this.pendingZips.delete(key);
+    this.isDirty = true;
+  }
+
+  // ── R2 Upload Tracking ─────────────────────────────
+
+  /**
+   * Check if a skill's zip has already been uploaded to R2 with the given commit hash
+   * @param {string} key - Skill cache key
+   * @param {string} commitHash - Current commit hash
+   * @returns {boolean}
+   */
+  isR2Uploaded(key, commitHash) {
+    const cached = this.skills.get(key);
+    return !!(cached && cached.r2UploadedHash && cached.r2UploadedHash === commitHash);
+  }
+
+  /**
+   * Mark a skill's zip as uploaded to R2
+   * @param {string} key - Skill cache key
+   * @param {string} commitHash - The commit hash that was uploaded
+   */
+  setR2Uploaded(key, commitHash) {
+    const cached = this.skills.get(key);
+    if (cached) {
+      cached.r2UploadedHash = commitHash;
+      this.isDirty = true;
+    }
+  }
+
+  /**
+   * Add a skill cache key to the pending R2 upload queue
+   * @param {string} key - Skill cache key
+   */
+  addPendingR2Upload(key) {
+    this.pendingR2Uploads.add(key);
+    this.isDirty = true;
+  }
+
+  /**
+   * Get all pending R2 upload cache keys
+   * @returns {Set<string>}
+   */
+  getPendingR2Uploads() {
+    return this.pendingR2Uploads;
+  }
+
+  /**
+   * Clear the pending R2 upload queue
+   */
+  clearPendingR2Uploads() {
+    this.pendingR2Uploads.clear();
     this.isDirty = true;
   }
 
@@ -382,11 +441,6 @@ export class CrawlerCache {
       });
     }
 
-    // Keep skillZipUrl if present
-    if (manifest.skillZipUrl) {
-      compacted.skillZipUrl = manifest.skillZipUrl;
-    }
-
     return compacted;
   }
 
@@ -412,7 +466,7 @@ export class CrawlerCache {
     const expanded = {
       id: compact.id,
       name: compact.name,
-      displayName: CrawlerCache.generateDisplayName(compact.name),
+      displayName: generateDisplayName(compact.name),
       description: compact.description,
       categories: compact.categories,
       details: `https://github.com/${owner}/${repo}/blob/${branch}/${skillPath}/SKILL.md`,
@@ -431,7 +485,7 @@ export class CrawlerCache {
         downloadUrl: `https://api.github.com/repos/${owner}/${repo}/zipball/${branch}`,
       },
       files: (compact.files || []).map((f) =>
-        f.includes("/") || f.startsWith(skillPath) ? f : `${skillPath}/${f}`,
+        !skillPath || f.startsWith(skillPath) ? f : `${skillPath}/${f}`,
       ),
       stats: repoStats || { stars: 0, forks: 0, lastUpdated: null },
     };
@@ -440,25 +494,9 @@ export class CrawlerCache {
       expanded.compatibility = compact.compatibility;
     }
 
-    if (compact.skillZipUrl) {
-      expanded.skillZipUrl = compact.skillZipUrl;
-    }
-
     return expanded;
   }
 
-  /**
-   * Generate display name from skill name
-   * @param {string} name
-   * @returns {string}
-   */
-  static generateDisplayName(name) {
-    if (!name) return "Unknown Skill";
-    return name
-      .split(/[-_]/)
-      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(" ");
-  }
 }
 
 export const crawlerCache = new CrawlerCache();

@@ -4,7 +4,7 @@ import * as prettier from "prettier";
 import "dotenv/config";
 
 import { CONFIG } from "./config.js";
-import { loadPriorityRepos, sleep } from "./utils.js";
+import { loadPriorityRepos } from "./utils.js";
 import { WorkerPool } from "./worker-pool.js";
 import {
   executionState,
@@ -20,8 +20,9 @@ import {
 import { scanLocalSkills } from "./local-scanner.js";
 
 import { crawlerCache } from "./cache.js";
-import { generateSkillZip, generateZipUrl } from "./zip-generator.js";
+import { generateSkillZip } from "./zip-generator.js";
 import { compactOutput, calculateSizeSavings, splitByRepo } from "./output-optimizer.js";
+import { uploadToR2, buildR2Key, isR2Configured } from "./r2-uploader.js";
 
 /**
  * Main crawler function
@@ -114,12 +115,6 @@ async function main() {
     console.log(
       "\n--- Phase 3: GitHub Topic Search (SKIPPED - test mode) ---\n",
     );
-  } else {
-    console.log("\n--- Phase 3: GitHub Topic Search (Parallel) ---\n");
-  }
-
-  if (CONFIG.testMode.enabled) {
-    // Skip Phase 3 in test mode
   } else if (shouldStopForTimeout()) {
     console.log("Skipping GitHub search due to execution timeout.");
   } else {
@@ -251,6 +246,7 @@ async function main() {
   allSkills.length = 0;
   allSkills.push(...dedupedSkills);
 
+
   // Generate zip packages for skills (if enabled)
   let zipTimedOut = false;
   if (CONFIG.zips.enabled) {
@@ -285,9 +281,54 @@ async function main() {
     }
     crawlerCache.clearPendingZips();
 
+    const r2Enabled = isR2Configured();
+    const r2Bucket = CONFIG.zips.r2.bucket || "skill-market";
+    const r2Prefix = CONFIG.zips.r2.prefix || "zips/";
+
+    // Also process pending R2 uploads from last run
+    const pendingR2Keys = r2Enabled ? crawlerCache.getPendingR2Uploads() : new Set();
+    if (r2Enabled) crawlerCache.clearPendingR2Uploads();
+
     let generatedCount = 0;
     let skippedCount = 0;
     let errorCount = 0;
+    let r2UploadedCount = 0;
+    let r2SkippedCount = 0;
+    let r2ErrorCount = 0;
+
+    // In-flight R2 uploads (fire-and-forget, settled at end)
+    const r2Uploads = [];
+
+    /**
+     * Schedule an R2 upload for a skill if needed (non-blocking).
+     * Returns immediately; the upload runs in the background.
+     */
+    function scheduleR2Upload(cacheKey, skill, owner, repo) {
+      if (!r2Enabled) return;
+
+      // Already uploaded with same commit hash — skip
+      if (crawlerCache.isR2Uploaded(cacheKey, skill.commitHash)) {
+        r2SkippedCount++;
+        return;
+      }
+
+      const zipFilename = `${owner}-${repo}-${skill.name}.zip`;
+      const localPath = path.join(CONFIG.zips.outputDir, zipFilename);
+      const r2Key = buildR2Key(r2Prefix, owner, repo, skill.name);
+
+      const uploadPromise = uploadToR2(localPath, r2Key, r2Bucket)
+        .then(() => {
+          crawlerCache.setR2Uploaded(cacheKey, skill.commitHash);
+          r2UploadedCount++;
+        })
+        .catch((err) => {
+          console.error(`  ✗ R2 upload failed for ${zipFilename}: ${err.message}`);
+          crawlerCache.addPendingR2Upload(cacheKey);
+          r2ErrorCount++;
+        });
+
+      r2Uploads.push(uploadPromise);
+    }
 
     for (let i = 0; i < zipProcessOrder.length; i++) {
       const skill = zipProcessOrder[i];
@@ -299,6 +340,10 @@ async function main() {
           if (m) {
             const cacheKey = `${m[1]}/${m[2]}/${s.repository.path}`;
             crawlerCache.addPendingZip(cacheKey);
+            // Also mark R2 upload as pending if not yet uploaded
+            if (r2Enabled && !crawlerCache.isR2Uploaded(cacheKey, s.commitHash)) {
+              crawlerCache.addPendingR2Upload(cacheKey);
+            }
           }
         }
         zipTimedOut = true;
@@ -330,16 +375,11 @@ async function main() {
         );
 
         if (!needsRegeneration) {
-          // Use cached zip info
           const zipInfo = crawlerCache.getZipInfo(cacheKey);
           if (zipInfo) {
-            skill.skillZipUrl = generateZipUrl(
-              CONFIG.zips.baseUrl,
-              owner,
-              repo,
-              skill.name,
-            );
             skippedCount++;
+            // Zip is cached — let scheduleR2Upload decide if upload is needed
+            scheduleR2Upload(cacheKey, skill, owner, repo);
             continue;
           }
         }
@@ -352,25 +392,24 @@ async function main() {
           workerPool,
         );
 
-        // Update skill manifest with zip URL
-        skill.skillZipUrl = generateZipUrl(
-          CONFIG.zips.baseUrl,
-          owner,
-          repo,
-          skill.name,
-        );
-
         // Update cache with zip path
         crawlerCache.setZipInfo(cacheKey, zipPath);
-
         generatedCount++;
+
+        // Immediately schedule R2 upload in parallel
+        scheduleR2Upload(cacheKey, skill, owner, repo);
       } catch (error) {
         console.error(
           `  ✗ Error generating zip for ${skill.name}: ${error.message}`,
         );
         errorCount++;
-        // Continue with other skills even if one fails
       }
+    }
+
+    // Wait for all in-flight R2 uploads to finish
+    if (r2Uploads.length > 0) {
+      console.log(`\n  Waiting for ${r2Uploads.length} R2 upload(s) to finish...`);
+      await Promise.allSettled(r2Uploads);
     }
 
     console.log(`\nZip Generation Summary:`);
@@ -383,6 +422,14 @@ async function main() {
       console.log(
         `  Zip generation timed out; remaining skills saved as pending.`,
       );
+    }
+    if (r2Enabled) {
+      console.log(`\nR2 Upload Summary:`);
+      console.log(`  Uploaded: ${r2UploadedCount}`);
+      console.log(`  Skipped (already in R2): ${r2SkippedCount}`);
+      if (r2ErrorCount > 0) {
+        console.log(`  Errors: ${r2ErrorCount}`);
+      }
     }
   }
 
@@ -497,6 +544,33 @@ async function main() {
     }
   } catch {
     // Ignore cleanup errors
+  }
+
+  // Upload skills.json (+ chunks) to R2
+  if (isR2Configured()) {
+    const r2Bucket = CONFIG.zips.r2.bucket || "skill-market";
+
+    console.log(`\nUploading registry files to R2...`);
+
+    // Upload main skills.json
+    try {
+      await uploadToR2(CONFIG.outputPath, "skills.json", r2Bucket);
+      console.log(`  ✓ Uploaded skills.json`);
+    } catch (err) {
+      console.error(`  ✗ Failed to upload skills.json: ${err.message}`);
+    }
+
+    // Upload chunk files
+    for (let i = 0; i < chunks.length; i++) {
+      const chunkFilename = `skills-${i + 1}.json`;
+      const chunkPath = path.join(outputDir, chunkFilename);
+      try {
+        await uploadToR2(chunkPath, chunkFilename, r2Bucket);
+        console.log(`  ✓ Uploaded ${chunkFilename}`);
+      } catch (err) {
+        console.error(`  ✗ Failed to upload ${chunkFilename}: ${err.message}`);
+      }
+    }
   }
 
   // Save cache

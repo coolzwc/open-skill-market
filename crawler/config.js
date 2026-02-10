@@ -108,8 +108,11 @@ export const CONFIG = {
     enabled: process.env.GENERATE_ZIPS !== "false", // Allow disabling zip generation
     outputDir: path.join(__dirname, "..", "market", "zips"),
     baseUrl:
-      process.env.ZIP_BASE_URL ||
-      "https://raw.githubusercontent.com/coolzwc/open-skill-market/main/market/zips",
+      process.env.ZIP_BASE_URL || "https://cdn.skillmarket.cc/zips",
+    r2: {
+      bucket: process.env.R2_BUCKET || "skill-market",
+      prefix: "zips/",
+    },
   },
 
   // Output optimization settings

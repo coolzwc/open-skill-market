@@ -1,0 +1,22 @@
+{
+  "name": "skill-market",
+  "version": "0.1.0",
+  "description": "Install and update AI skills from Open Skill Market",
+  "type": "module",
+  "bin": {
+    "skill-market": "bin/skill-market.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node ./bin/skill-market.js",
+    "check": "node ./bin/skill-market.js --help"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.5.16"
+  }
+}

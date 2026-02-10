@@ -89,7 +89,7 @@ export async function scanLocalSkills() {
       const authorUrl =
         frontmatter.author?.url || `https://github.com/${authorName}`;
 
-      const detailsUrl = `${CONFIG.thisRepo.url}/main/skills/${skillDir.name}/${CONFIG.skillFilename}`;
+      const detailsUrl = `${CONFIG.thisRepo.url}/blob/main/skills/${skillDir.name}/${CONFIG.skillFilename}`;
 
       const skillName = parsed.name || skillDir.name;
       const skillDescription =

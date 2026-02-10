@@ -1,0 +1,11 @@
+/data/skills.json
+  Cache-Control: public, max-age=300
+
+/data/skills-*.json
+  Cache-Control: public, max-age=3600
+
+/sitemap.xml
+  Cache-Control: public, max-age=3600
+
+/robots.txt
+  Cache-Control: public, max-age=3600

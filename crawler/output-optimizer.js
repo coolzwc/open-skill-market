@@ -17,7 +17,7 @@
  * - details: `https://github.com/${owner}/${repo}/blob/${branch}/${path}/SKILL.md`
  */
 
-import { CONFIG } from "./config.js";
+import { generateDisplayName } from "./utils.js";
 
 /**
  * Extract repository ID from repository URL
@@ -92,11 +92,6 @@ export function compactSkill(skill, reposMap = null) {
     });
   }
 
-  // Include skillZipUrl if present (keep full URL for direct access)
-  if (skill.skillZipUrl) {
-    compacted.skillZipUrl = skill.skillZipUrl;
-  }
-
   return compacted;
 }
 
@@ -105,10 +100,9 @@ export function compactSkill(skill, reposMap = null) {
  * Useful for client-side reconstruction
  * @param {Object} compact - Compacted skill manifest
  * @param {Object} repositories - Repository info map from compacted output
- * @param {string} zipBaseUrl - Base URL for zip files
  * @returns {Object} - Full skill manifest
  */
-export function expandSkill(compact, repositories = {}, zipBaseUrl = CONFIG.zips.baseUrl) {
+export function expandSkill(compact, repositories = {}) {
   // Get repository info from the repositories map or use inline data
   const repoInfo = repositories[compact.repo] || compact.repository || {};
   const repoUrl = repoInfo.url || `https://github.com/${compact.repo}`;
@@ -156,24 +150,7 @@ export function expandSkill(compact, repositories = {}, zipBaseUrl = CONFIG.zips
     expanded.compatibility = compact.compatibility;
   }
 
-  if (compact.skillZipUrl) {
-    expanded.skillZipUrl = compact.skillZipUrl;
-  }
-
   return expanded;
-}
-
-/**
- * Generate display name from skill name
- * @param {string} name
- * @returns {string}
- */
-function generateDisplayName(name) {
-  if (!name) return "Unknown Skill";
-  return name
-    .split(/[-_]/)
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
 }
 
 /**

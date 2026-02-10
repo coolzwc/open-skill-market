@@ -19,9 +19,11 @@ Thumbs.db
 crawler/.crawler-cache.json
 
 # Generated market files (managed by GitHub Actions, not needed locally)
-market/skills.json
-market/skills-*.json
-market/zips/*.zip
+market/*
+!market/web/
+!market/web/**
+!market/cli/
+!market/cli/**
 
 # Debug logs
 npm-debug.log*

@@ -19,8 +19,9 @@
   "bugs": {
     "url": "https://github.com/coolzwc/open-skill-market/issues"
   },
-  "homepage": "https://github.com/coolzwc/open-skill-market#readme",
+  "homepage": "https://skillmarket.cc",
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.986.0",
     "archiver": "^7.0.1",
     "dotenv": "^17.2.3",
     "gray-matter": "^4.0.3",
