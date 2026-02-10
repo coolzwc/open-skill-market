@@ -14,10 +14,50 @@ const CATEGORY_DEFINITIONS = {
       "code", "coding", "developer", "programming", "debug", "debugging",
       "git", "commit", "repository", "refactor", "test", "testing",
       "api", "sdk", "library", "framework", "typescript", "javascript",
-      "python", "rust", "react", "vue", "node", "npm", "build", "compile",
-      "lint", "format", "changelog", "version", "deploy", "ci/cd",
+      "python", "rust", "java", "golang", "react", "vue", "angular",
+      "svelte", "node", "npm", "build", "compile", "lint", "format",
+      "changelog", "version", "monorepo", "component", "frontend",
+      "backend", "fullstack", "full-stack", "architecture", "pattern",
+      "best practice", "code review", "pull request",
+      // zh
+      "开发", "编码", "编程", "调试", "重构", "测试", "单元测试",
+      "组件", "前端", "后端", "代码审查", "代码质量", "开发规范",
+      "命名约定", "异常处理", "最佳实践",
+      // ja
+      "実装", "開発", "テスト", "コード",
     ],
     label: "Development",
+  },
+  devops: {
+    keywords: [
+      "deploy", "deployment", "ci/cd", "pipeline", "docker", "container",
+      "kubernetes", "k8s", "helm", "terraform", "ansible", "infrastructure",
+      "cloud", "aws", "gcp", "azure", "vercel", "netlify", "heroku",
+      "monitoring", "observability", "prometheus", "grafana", "sre",
+      "uptime", "incident", "postmortem", "rollback", "staging",
+      "production", "server", "nginx", "dns", "ssl", "certificate",
+      "load balancer", "scaling", "microservice",
+      // zh
+      "部署", "发布", "上线", "运维", "服务器", "容器", "集群",
+      "监控", "告警", "测试环境", "生产环境",
+      // ja
+      "デプロイ", "サーバー", "認証",
+    ],
+    label: "DevOps",
+  },
+  security: {
+    keywords: [
+      "security", "secure", "vulnerability", "exploit", "threat",
+      "malware", "ransomware", "phishing", "firewall", "encryption",
+      "auth", "authentication", "authorization", "oauth", "jwt", "token",
+      "audit", "compliance", "penetration", "pentest", "siem", "soc",
+      "incident response", "forensic", "triage", "ioc", "hunt",
+      "credential", "xss", "csrf", "injection", "secops",
+      // zh
+      "安全", "漏洞", "审计", "加密", "渗透", "威胁", "攻击",
+      "防护", "风险", "权限",
+    ],
+    label: "Security",
   },
   design: {
     keywords: [
@@ -25,6 +65,12 @@ const CATEGORY_DEFINITIONS = {
       "color", "font", "typography", "brand", "logo", "icon", "image",
       "graphic", "canvas", "art", "creative", "aesthetic", "css",
       "tailwind", "figma", "sketch", "prototype", "wireframe",
+      "responsive", "theme", "animation", "illustration", "shadcn",
+      // zh
+      "设计", "界面", "交互", "用户体验", "视觉", "样式", "主题",
+      "原型", "布局",
+      // ja
+      "デザイン",
     ],
     label: "Design",
   },
@@ -33,6 +79,12 @@ const CATEGORY_DEFINITIONS = {
       "write", "writing", "content", "blog", "article", "copy", "copywriting",
       "documentation", "docs", "readme", "text", "edit", "editing", "grammar",
       "proofread", "translate", "translation", "summary", "summarize",
+      "publish", "author", "draft", "narrative", "storytelling",
+      // zh
+      "写作", "文章", "文档", "博客", "翻译", "总结", "归纳",
+      "周报", "日报", "摘要", "内容创作", "文案", "邮件写作",
+      // ja
+      "記事", "ブログ", "文書",
     ],
     label: "Writing",
   },
@@ -41,6 +93,13 @@ const CATEGORY_DEFINITIONS = {
       "productivity", "automation", "automate", "workflow", "task", "todo",
       "schedule", "calendar", "reminder", "organize", "manage", "project",
       "time", "efficiency", "template", "generate", "generator",
+      "shortcut", "snippet", "boilerplate", "scaffold", "cli tool",
+      "dotfile", "configuration", "setup",
+      // zh
+      "效率", "自动化", "工作流", "任务", "日程", "提醒",
+      "模板", "生成", "配置", "脚手架",
+      // ja
+      "ワークフロー", "タスク", "自動",
     ],
     label: "Productivity",
   },
@@ -49,6 +108,13 @@ const CATEGORY_DEFINITIONS = {
       "data", "database", "sql", "csv", "json", "excel", "spreadsheet",
       "analysis", "analytics", "chart", "graph", "visualization", "report",
       "metrics", "statistics", "etl", "pipeline", "transform",
+      "postgres", "mysql", "mongodb", "redis", "sqlite", "prisma",
+      "drizzle", "query", "schema", "migration",
+      // zh
+      "数据", "数据库", "报表", "统计", "分析", "可视化", "图表",
+      "查询", "迁移",
+      // ja
+      "データ", "分析",
     ],
     label: "Data & Analytics",
   },
@@ -56,41 +122,101 @@ const CATEGORY_DEFINITIONS = {
     keywords: [
       "document", "pdf", "docx", "word", "powerpoint", "ppt", "slide",
       "presentation", "spreadsheet", "excel", "file", "export", "import",
-      "convert", "merge", "split", "form", "table",
+      "convert", "merge", "split", "form", "table", "xlsx", "pptx",
+      "markdown", "latex", "epub", "archive", "zip", "compress",
+      // zh
+      "文档", "文件", "表格", "演示", "幻灯片", "导出", "导入",
+      "转换", "压缩", "解压",
     ],
     label: "Documents",
   },
   integration: {
     keywords: [
-      "connect", "integration", "api", "webhook", "slack", "discord",
+      "connect", "integration", "webhook", "slack", "discord",
       "gmail", "email", "github", "notion", "jira", "trello", "zapier",
-      "service", "external", "third-party", "oauth", "sync",
+      "service", "external", "third-party", "sync", "mcp",
+      "telegram", "whatsapp", "twilio", "stripe", "supabase",
+      "shopify", "salesforce", "zendesk", "freshdesk",
+      // zh
+      "集成", "对接", "接入", "同步", "第三方", "微信", "公众号",
+      "小红书", "钉钉", "飞书",
     ],
     label: "Integration",
   },
   marketing: {
     keywords: [
-      "marketing", "seo", "ads", "advertising", "campaign", "social",
-      "facebook", "twitter", "linkedin", "instagram", "analytics",
+      "marketing", "seo", "ads", "advertising", "campaign", "social media",
+      "facebook", "twitter", "linkedin", "instagram", "bluesky",
       "conversion", "funnel", "lead", "growth", "engagement", "audience",
+      "outreach", "newsletter", "branding", "influencer",
+      // zh
+      "营销", "推广", "获客", "用户增长", "社交媒体", "广告",
     ],
     label: "Marketing",
+  },
+  business: {
+    keywords: [
+      "strategy", "roadmap", "okr", "kpi", "stakeholder", "leadership",
+      "hiring", "onboarding", "interview", "candidate", "management",
+      "product manager", "prd", "sprint", "agile", "scrum", "backlog",
+      "prioritiz", "decision", "negotiat", "delegation", "meeting",
+      "retrospective", "pitch", "startup", "founder", "enterprise",
+      "pricing", "revenue", "budget", "fundrais",
+      // zh
+      "产品", "需求", "规划", "用户故事", "路线图", "管理",
+      "决策", "团队", "招聘", "面试", "创业", "融资",
+      "产品设计", "需求分析", "产品经理",
+    ],
+    label: "Business",
   },
   research: {
     keywords: [
       "research", "search", "find", "discover", "explore", "investigate",
       "analyze", "study", "learn", "knowledge", "information", "source",
       "citation", "reference", "web", "scrape", "crawl",
+      "survey", "benchmark", "comparison", "evaluate",
+      // zh
+      "研究", "搜索", "调研", "分析", "探索", "评估",
     ],
     label: "Research",
   },
+  finance: {
+    keywords: [
+      "finance", "financial", "trading", "investment", "stock", "crypto",
+      "bitcoin", "ethereum", "portfolio", "market", "price", "exchange",
+      "wallet", "defi", "blockchain", "token", "payment", "checkout",
+      "invoice", "accounting", "tax", "revenue", "profit",
+      // zh
+      "金融", "交易", "投资", "股票", "基金", "理财", "支付",
+      "账单", "财务", "记账", "A股", "港股",
+    ],
+    label: "Finance",
+  },
   ai: {
     keywords: [
-      "ai", "machine learning", "ml", "llm", "gpt", "claude", "prompt",
-      "embedding", "vector", "rag", "agent", "assistant", "chatbot",
-      "natural language", "nlp", "model", "inference",
+      "ai", "machine learning", "ml", "llm", "gpt", "claude", "gemini",
+      "openai", "prompt", "embedding", "vector", "rag", "agent",
+      "assistant", "chatbot", "natural language", "nlp", "model",
+      "inference", "fine-tun", "training", "neural", "diffusion",
+      "copilot", "deepseek", "multi-agent", "agentic",
+      // zh
+      "人工智能", "大模型", "智能体", "提示词", "对话",
     ],
     label: "AI & ML",
+  },
+  media: {
+    keywords: [
+      "video", "audio", "music", "sound", "speech", "voice", "transcri",
+      "podcast", "stream", "recording", "camera", "photo", "ffmpeg",
+      "youtube", "tiktok", "subtitle", "caption", "render", "3d",
+      "game", "webgl", "three.js", "animation",
+      // zh
+      "视频", "音频", "音乐", "语音", "录音", "字幕", "剪辑",
+      "特效", "渲染",
+      // ja
+      "動画", "音声",
+    ],
+    label: "Media",
   },
 };
 
