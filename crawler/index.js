@@ -25,6 +25,170 @@ import { compactOutput, calculateSizeSavings, splitByRepo } from "./output-optim
 import { uploadToR2, buildR2Key, isR2Configured } from "./r2-uploader.js";
 
 /**
+ * Resume mode: process only pending zips / R2 uploads from a previous interrupted run.
+ * After completion, exits without doing a full crawl. Next run will start fresh.
+ */
+async function processPendingItems() {
+  // Snapshot pending items as arrays (originals will be cleared/modified)
+  const pendingZipList = [...crawlerCache.getPendingZips()];
+  const pendingR2List = [...crawlerCache.getPendingR2Uploads()];
+
+  console.log(`\n${"━".repeat(50)}`);
+  console.log("Resume Mode: Processing pending items from previous run");
+  console.log("━".repeat(50));
+  if (pendingZipList.length > 0) console.log(`  Pending zips:       ${pendingZipList.length}`);
+  if (pendingR2List.length > 0) console.log(`  Pending R2 uploads: ${pendingR2List.length}`);
+  console.log("");
+
+  startExecutionTimer();
+
+  // Initialize worker pool (needed for GitHub API calls when fetching skill files)
+  const workerPool = new WorkerPool();
+  await workerPool.fetchRateLimits();
+
+  const r2Enabled = isR2Configured();
+  const r2Bucket = CONFIG.zips.r2.bucket || "skill-market";
+  const r2Prefix = CONFIG.zips.r2.prefix || "zips/";
+
+  let zipGenerated = 0, zipOnDisk = 0, zipErrors = 0;
+  let r2Uploaded = 0, r2Skipped = 0, r2Errors = 0;
+
+  // ── Step 1: Generate pending zips ──────────────────────────────────
+  if (pendingZipList.length > 0 && CONFIG.zips.enabled) {
+    console.log("--- Generating pending zips ---\n");
+    await fs.mkdir(CONFIG.zips.outputDir, { recursive: true });
+    crawlerCache.clearPendingZips(); // will re-add on failure/timeout
+
+    for (let i = 0; i < pendingZipList.length; i++) {
+      const key = pendingZipList[i];
+
+      if (shouldStopForTimeout()) {
+        // Re-add remaining (including current) as pending for next run
+        for (let j = i; j < pendingZipList.length; j++) {
+          crawlerCache.addPendingZip(pendingZipList[j]);
+          if (r2Enabled) crawlerCache.addPendingR2Upload(pendingZipList[j]);
+        }
+        console.log(`\n  Timeout: ${pendingZipList.length - i} zip(s) deferred to next run.`);
+        break;
+      }
+
+      // Reconstruct skill manifest from cache
+      const cached = crawlerCache.getSkillExpanded(key);
+      if (!cached?.manifest) {
+        console.log(`  ⚠ No cached manifest for ${key}, skipping`);
+        continue;
+      }
+      const skill = cached.manifest;
+
+      const repoMatch = skill.repository?.url?.match(/github\.com\/([^/]+)\/([^/]+)/);
+      if (!repoMatch) {
+        console.log(`  ⚠ Invalid repo URL for ${key}, skipping`);
+        continue;
+      }
+      const [, owner, repo] = repoMatch;
+
+      // Check if zip already exists on disk
+      const zipFilename = `${owner}-${repo}-${skill.name}.zip`;
+      const localZipPath = path.join(CONFIG.zips.outputDir, zipFilename);
+      try {
+        await fs.access(localZipPath);
+        // File already on disk, just update cache
+        const zipPath = path.relative(path.join(CONFIG.zips.outputDir, ".."), localZipPath);
+        crawlerCache.setZipInfo(key, zipPath);
+        console.log(`  ✓ ${skill.name} (already on disk)`);
+        zipOnDisk++;
+        continue;
+      } catch {
+        // Not on disk, need to generate
+      }
+
+      try {
+        // Wait for available client if rate limited
+        if (workerPool.allClientsLimited()) {
+          const available = await workerPool.waitForAvailableClient(shouldStopForTimeout);
+          if (!available) {
+            for (let j = i; j < pendingZipList.length; j++) {
+              crawlerCache.addPendingZip(pendingZipList[j]);
+              if (r2Enabled) crawlerCache.addPendingR2Upload(pendingZipList[j]);
+            }
+            console.log("  Rate limited, deferring remaining to next run.");
+            break;
+          }
+        }
+
+        console.log(`  Generating zip for ${skill.name}...`);
+        const { zipPath } = await generateSkillZip(skill, CONFIG.zips.outputDir, workerPool);
+        crawlerCache.setZipInfo(key, zipPath);
+        zipGenerated++;
+      } catch (error) {
+        console.error(`  ✗ ${skill.name}: ${error.message}`);
+        crawlerCache.addPendingZip(key);
+        zipErrors++;
+      }
+    }
+
+    console.log(`\nZip Summary: ${zipGenerated} generated, ${zipOnDisk} already on disk, ${zipErrors} errors`);
+  }
+
+  // ── Step 2: R2 uploads ─────────────────────────────────────────────
+  if (r2Enabled) {
+    // Combine: all pending zips (need R2 too) + previously pending R2 uploads
+    const allR2Candidates = new Set([...pendingZipList, ...pendingR2List]);
+    crawlerCache.clearPendingR2Uploads();
+
+    const tasks = [];
+    for (const key of allR2Candidates) {
+      const cached = crawlerCache.getSkill(key);
+      if (!cached?.manifest?.name) continue;
+
+      // Skip if already uploaded with same commit hash
+      if (crawlerCache.isR2Uploaded(key, cached.commitHash)) {
+        r2Skipped++;
+        continue;
+      }
+
+      const [owner, repo] = (cached.manifest.repo || "").split("/");
+      if (!owner || !repo) continue;
+      const skillName = cached.manifest.name;
+      const zipFilename = `${owner}-${repo}-${skillName}.zip`;
+      tasks.push({ key, commitHash: cached.commitHash, owner, repo, skillName, zipFilename });
+    }
+
+    if (tasks.length > 0) {
+      console.log(`\n--- Uploading ${tasks.length} zip(s) to R2 ---\n`);
+      for (const t of tasks) {
+        const localPath = path.join(CONFIG.zips.outputDir, t.zipFilename);
+        const r2Key = buildR2Key(r2Prefix, t.owner, t.repo, t.skillName);
+        try {
+          await fs.access(localPath);
+          await uploadToR2(localPath, r2Key, r2Bucket);
+          crawlerCache.setR2Uploaded(t.key, t.commitHash);
+          r2Uploaded++;
+          console.log(`  ✓ ${t.zipFilename}`);
+        } catch (error) {
+          console.error(`  ✗ ${t.zipFilename}: ${error.message}`);
+          crawlerCache.addPendingR2Upload(t.key);
+          r2Errors++;
+        }
+      }
+    }
+
+    if (r2Uploaded > 0 || r2Skipped > 0 || r2Errors > 0) {
+      console.log(`\nR2 Summary: ${r2Uploaded} uploaded, ${r2Skipped} already done, ${r2Errors} errors`);
+    }
+  }
+
+  // Save cache
+  await crawlerCache.save();
+
+  const elapsedMs = Date.now() - executionState.startTime;
+  const elapsedSec = Math.floor(elapsedMs / 1000);
+  console.log(`\n${"━".repeat(50)}`);
+  console.log(`Resume complete (${elapsedSec}s). Next run will perform a full crawl.`);
+  console.log("━".repeat(50));
+}
+
+/**
  * Main crawler function
  */
 async function main() {
@@ -40,6 +204,18 @@ async function main() {
   // Load cache
   await crawlerCache.load();
 
+  // ─── Resume Mode: if previous run left pending work, finish it and exit ───
+  // Next run (with no pending items) will do a full crawl from scratch.
+  const hasPendingWork =
+    crawlerCache.getPendingZips().size > 0 ||
+    crawlerCache.getPendingR2Uploads().size > 0;
+
+  if (hasPendingWork) {
+    await processPendingItems();
+    return;
+  }
+
+  // ─── Full Crawl Mode ───
   startExecutionTimer();
 
   // Initialize worker pool
