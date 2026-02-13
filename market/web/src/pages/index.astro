@@ -1,3 +1,18 @@
 ---
-return Astro.redirect("/en/");
+// Static redirect – Astro.redirect() generates a 2-second meta-refresh in
+// static mode which causes a visible flash. Use a manual instant redirect instead.
+export const prerender = true;
 ---
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0;url=/en/" />
+    <link rel="canonical" href="https://skillmarket.cc/en/" />
+    <title>Redirecting…</title>
+  </head>
+  <body>
+    <a href="/en/">Redirecting to /en/</a>
+  </body>
+</html>

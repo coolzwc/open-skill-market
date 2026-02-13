@@ -3,15 +3,15 @@ import { getExpandedSkills } from "@/lib/market-data";
 
 export const GET: APIRoute = async () => {
   const skills = await getExpandedSkills();
+  const siteUrl = "https://skillmarket.cc";
   const urls: string[] = [
-    "https://open-skill-market.pages.dev/en/",
-    "https://open-skill-market.pages.dev/zh/"
+    `${siteUrl}/en/`,
+    `${siteUrl}/zh/`
   ];
 
   for (const skill of skills) {
-    const encodedId = encodeURIComponent(skill.id);
-    urls.push(`https://open-skill-market.pages.dev/en/skill/${encodedId}`);
-    urls.push(`https://open-skill-market.pages.dev/zh/skill/${encodedId}`);
+    urls.push(`${siteUrl}/en/skill/${skill.id}`);
+    urls.push(`${siteUrl}/zh/skill/${skill.id}`);
   }
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>

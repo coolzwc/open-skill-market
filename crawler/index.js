@@ -254,6 +254,10 @@ async function main() {
     console.log("Generating Skill Zip Packages");
     console.log("=".repeat(50));
 
+    // Ensure output directory exists early — avoids "directory not found" when
+    // GitHub Actions zip cache is expired but .crawler-cache.json still has entries
+    await fs.mkdir(CONFIG.zips.outputDir, { recursive: true });
+
     const pendingZipKeys = crawlerCache.getPendingZips();
     let zipProcessOrder = allSkills;
     if (pendingZipKeys.size > 0) {
@@ -377,10 +381,20 @@ async function main() {
         if (!needsRegeneration) {
           const zipInfo = crawlerCache.getZipInfo(cacheKey);
           if (zipInfo) {
-            skippedCount++;
-            // Zip is cached — let scheduleR2Upload decide if upload is needed
-            scheduleR2Upload(cacheKey, skill, owner, repo);
-            continue;
+            // Verify zip file actually exists on disk (cache metadata may outlive
+            // the file if GitHub Actions zip cache was evicted while .crawler-cache.json persisted)
+            const zipFilename = `${owner}-${repo}-${skill.name}.zip`;
+            const localZipPath = path.join(CONFIG.zips.outputDir, zipFilename);
+            try {
+              await fs.access(localZipPath);
+              skippedCount++;
+              // Zip is cached — let scheduleR2Upload decide if upload is needed
+              scheduleR2Upload(cacheKey, skill, owner, repo);
+              continue;
+            } catch {
+              // Zip file missing on disk, fall through to regenerate
+              console.log(`  ⚠ Cached zip missing on disk: ${zipFilename}, regenerating...`);
+            }
           }
         }
 

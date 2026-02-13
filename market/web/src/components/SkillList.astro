@@ -99,7 +99,7 @@ const t = MESSAGES[lang];
   // ---- Build card HTML ----
   function cardHtml(skill) {
     const stars = getScore(skill);
-    const href = `/${lang}/skill/${encodeURIComponent(skill.id)}`;
+    const href = `/${lang}/skill/${skill.id}`;
     const cat = esc(skill.categories?.[0] || "Other");
     return `<a class="card" href="${href}">
       <span class="card-category" data-cat="${cat}">${cat}</span>

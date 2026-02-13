@@ -48,6 +48,22 @@ const flags = [
         <a href={`/en/guide/`} class={lang === "en" ? "active" : ""}>EN</a>
         <a href={`/zh/guide/`} class={lang === "zh" ? "active" : ""}>中文</a>
       </nav>
+      <div class="lang-dropdown" aria-label={t.language}>
+        <button class="lang-dropdown-toggle" type="button">
+          {lang === "en" ? "EN" : "中文"}
+          <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="lang-dropdown-menu">
+          <a href="/en/guide/" class={lang === "en" ? "active" : ""}>
+            <svg class="check-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            EN
+          </a>
+          <a href="/zh/guide/" class={lang === "zh" ? "active" : ""}>
+            <svg class="check-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            中文
+          </a>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -455,3 +471,17 @@ const flags = [
     }
   }
 </style>
+
+<script>
+  const dropdown = document.querySelector<HTMLDivElement>(".lang-dropdown");
+  const toggle = dropdown?.querySelector<HTMLButtonElement>(".lang-dropdown-toggle");
+  if (dropdown && toggle) {
+    toggle.addEventListener("click", (e) => {
+      e.stopPropagation();
+      dropdown.classList.toggle("open");
+    });
+    document.addEventListener("click", () => {
+      dropdown.classList.remove("open");
+    });
+  }
+</script>

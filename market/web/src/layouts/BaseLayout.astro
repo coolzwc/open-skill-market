@@ -19,7 +19,7 @@ const {
   type = "website"
 } = Astro.props;
 
-const siteUrl = "https://open-skill-market.pages.dev";
+const siteUrl = "https://skillmarket.cc";
 const canonicalUrl = `${siteUrl}${canonicalPath}`;
 const altUrl = `${siteUrl}${altPath}`;
 ---
@@ -479,7 +479,6 @@ const altUrl = `${siteUrl}${altPath}`;
     color: var(--text-soft);
     line-height: 1.6;
     font-size: 1.1rem;
-    white-space: nowrap;
   }
 
   .meta-line {
@@ -923,6 +922,142 @@ const altUrl = `${siteUrl}${altPath}`;
     font-size: 0.92rem;
   }
 
+  /* ---- Mobile search (in main content, hidden on desktop) ---- */
+  .mobile-search {
+    display: none;
+    position: relative;
+    margin-bottom: 1rem;
+    flex-shrink: 0;
+  }
+
+  .mobile-search input {
+    width: 100%;
+    padding: 0.65rem 0.85rem 0.65rem 2.4rem;
+    border: 1px solid var(--line-bright);
+    border-radius: 10px;
+    background: var(--bg-elevated);
+    color: var(--text);
+    font-family: "Outfit", "Noto Sans SC", sans-serif;
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 180ms ease, box-shadow 180ms ease;
+  }
+
+  .mobile-search input:focus {
+    border-color: rgba(110, 231, 183, 0.4);
+    box-shadow: 0 0 0 3px rgba(110, 231, 183, 0.08);
+  }
+
+  .mobile-search input::placeholder {
+    color: var(--text-dim);
+  }
+
+  .mobile-search .search-icon {
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    color: var(--text-dim);
+    pointer-events: none;
+  }
+
+  /* ---- Language dropdown (hidden on desktop) ---- */
+  .lang-dropdown {
+    display: none;
+    position: relative;
+  }
+
+  .lang-dropdown-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.3rem 0.55rem;
+    border-radius: 8px;
+    border: 1px solid var(--line-bright);
+    background: var(--bg-elevated);
+    color: var(--text-soft);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.78rem;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    transition: all 180ms ease;
+    white-space: nowrap;
+  }
+
+  .lang-dropdown-toggle:hover,
+  .lang-dropdown.open .lang-dropdown-toggle {
+    border-color: rgba(110, 231, 183, 0.4);
+    color: var(--text);
+  }
+
+  .lang-dropdown-toggle .chevron-icon {
+    width: 12px;
+    height: 12px;
+    transition: transform 200ms ease;
+    flex-shrink: 0;
+  }
+
+  .lang-dropdown.open .lang-dropdown-toggle .chevron-icon {
+    transform: rotate(180deg);
+  }
+
+  .lang-dropdown-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 4px);
+    right: 0;
+    min-width: 100%;
+    padding: 4px;
+    border-radius: 10px;
+    border: 1px solid var(--line-bright);
+    background: var(--bg-elevated);
+    backdrop-filter: blur(16px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(110, 231, 183, 0.04);
+    z-index: 100;
+  }
+
+  .lang-dropdown.open .lang-dropdown-menu {
+    display: block;
+  }
+
+  .lang-dropdown-menu a {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 7px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.78rem;
+    font-weight: 500;
+    color: var(--text-soft);
+    transition: all 150ms ease;
+    white-space: nowrap;
+  }
+
+  .lang-dropdown-menu a:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text);
+  }
+
+  .lang-dropdown-menu a.active {
+    color: var(--accent);
+    background: rgba(110, 231, 183, 0.08);
+  }
+
+  .lang-dropdown-menu a .check-mark {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    opacity: 0;
+  }
+
+  .lang-dropdown-menu a.active .check-mark {
+    opacity: 1;
+  }
+
   /* ---- Responsive ---- */
   @media (max-width: 860px) {
     :root {
@@ -937,9 +1072,25 @@ const altUrl = `${siteUrl}${altPath}`;
     .mobile-category-bar {
       display: flex !important;
     }
+    /* Hide topbar search on mobile */
     .topbar-search {
-      max-width: none;
-      margin: 0 0.5rem;
+      display: none;
+    }
+    /* Hide hero section on mobile */
+    .hero {
+      display: none;
+    }
+    /* Hide pill-style lang switch on mobile */
+    .lang-switch {
+      display: none;
+    }
+    /* Show dropdown lang switch on mobile */
+    .lang-dropdown {
+      display: block;
+    }
+    /* Show mobile search in main content */
+    .mobile-search {
+      display: block;
     }
   }
 
