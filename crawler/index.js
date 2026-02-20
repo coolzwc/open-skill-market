@@ -156,7 +156,22 @@ async function processPendingItems() {
 
     if (tasks.length > 0) {
       console.log(`\n--- Uploading ${tasks.length} zip(s) to R2 ---\n`);
-      for (const t of tasks) {
+      let r2TimedOut = false;
+      for (let i = 0; i < tasks.length; i++) {
+        const t = tasks[i];
+
+        // Check timeout before each upload — save remaining to cache for next run
+        if (shouldStopForTimeout()) {
+          for (let j = i; j < tasks.length; j++) {
+            crawlerCache.addPendingR2Upload(tasks[j].key);
+          }
+          r2TimedOut = true;
+          console.log(
+            `\n  Timeout: ${tasks.length - i} zip(s) deferred to next run.`,
+          );
+          break;
+        }
+
         const localPath = path.join(CONFIG.zips.outputDir, t.zipFilename);
         const r2Key = buildR2Key(r2Prefix, t.owner, t.repo, t.skillName);
         try {
@@ -170,6 +185,11 @@ async function processPendingItems() {
           crawlerCache.addPendingR2Upload(t.key);
           r2Errors++;
         }
+      }
+      if (r2TimedOut) {
+        console.log(
+          `  R2 upload stopped due to timeout. Remaining saved as pending.`,
+        );
       }
     }
 
