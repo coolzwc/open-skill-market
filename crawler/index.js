@@ -4,7 +4,7 @@ import * as prettier from "prettier";
 import "dotenv/config";
 
 import { CONFIG } from "./config.js";
-import { loadPriorityRepos } from "./utils.js";
+import { loadPriorityRepos, parseRepoUrl } from "./utils.js";
 import { WorkerPool } from "./worker-pool.js";
 import {
   executionState,
@@ -80,12 +80,12 @@ async function processPendingItems() {
       }
       const skill = cached.manifest;
 
-      const repoMatch = skill.repository?.url?.match(/github\.com\/([^/]+)\/([^/]+)/);
-      if (!repoMatch) {
+      const parsed = parseRepoUrl(skill.repository?.url || skill.repo);
+      if (!parsed) {
         console.log(`  ⚠ Invalid repo URL for ${key}, skipping`);
         continue;
       }
-      const [, owner, repo] = repoMatch;
+      const { owner, repo } = parsed;
 
       // Check if zip already exists on disk
       const zipFilename = `${owner}-${repo}-${skill.name}.zip`;
@@ -147,8 +147,9 @@ async function processPendingItems() {
         continue;
       }
 
-      const [owner, repo] = (cached.manifest.repo || "").split("/");
-      if (!owner || !repo) continue;
+      const parsed = parseRepoUrl(cached.manifest.repository?.url || cached.manifest.repo);
+      if (!parsed) continue;
+      const { owner, repo } = parsed;
       const skillName = cached.manifest.name;
       const zipFilename = `${owner}-${repo}-${skillName}.zip`;
       tasks.push({ key, commitHash: cached.commitHash, owner, repo, skillName, zipFilename });
@@ -182,7 +183,13 @@ async function processPendingItems() {
           console.log(`  ✓ ${t.zipFilename}`);
         } catch (error) {
           console.error(`  ✗ ${t.zipFilename}: ${error.message}`);
-          crawlerCache.addPendingR2Upload(t.key);
+          // Zip missing on disk: queue zip regeneration next run instead of retrying upload forever
+          if (error.code === "ENOENT") {
+            crawlerCache.addPendingZip(t.key);
+            console.log(`  → ${t.zipFilename} missing, will regenerate zip next run.`);
+          } else {
+            crawlerCache.addPendingR2Upload(t.key);
+          }
           r2Errors++;
         }
       }
@@ -463,11 +470,9 @@ async function main() {
       const pendingSkills = [];
       const otherSkills = [];
       for (const skill of allSkills) {
-        const match = skill.repository.url.match(
-          /github\.com\/([^/]+)\/([^/]+)/,
-        );
-        if (match) {
-          const cacheKey = `${match[1]}/${match[2]}/${skill.repository.path}`;
+        const parsed = parseRepoUrl(skill.repository?.url);
+        if (parsed) {
+          const cacheKey = `${parsed.owner}/${parsed.repo}/${skill.repository.path}`;
           if (pendingZipKeys.has(cacheKey)) {
             pendingSkills.push(skill);
           } else {
@@ -536,9 +541,9 @@ async function main() {
       if (shouldStopForTimeout()) {
         for (let j = i; j < zipProcessOrder.length; j++) {
           const s = zipProcessOrder[j];
-          const m = s.repository.url.match(/github\.com\/([^/]+)\/([^/]+)/);
-          if (m) {
-            const cacheKey = `${m[1]}/${m[2]}/${s.repository.path}`;
+          const p = parseRepoUrl(s.repository?.url);
+          if (p) {
+            const cacheKey = `${p.owner}/${p.repo}/${s.repository.path}`;
             crawlerCache.addPendingZip(cacheKey);
             // Also mark R2 upload as pending if not yet uploaded
             if (r2Enabled && !crawlerCache.isR2Uploaded(cacheKey, s.commitHash)) {
@@ -554,16 +559,13 @@ async function main() {
       }
 
       try {
-        // Extract owner and repo from repository URL
-        const match = skill.repository.url.match(
-          /github\.com\/([^/]+)\/([^/]+)/,
-        );
-        if (!match) {
+        const parsed = parseRepoUrl(skill.repository?.url);
+        if (!parsed) {
           console.log(`  ⚠ Skipping ${skill.name}: Invalid repository URL`);
           skippedCount++;
           continue;
         }
-        const [, owner, repo] = match;
+        const { owner, repo } = parsed;
 
         // Generate cache key
         const cacheKey = `${owner}/${repo}/${skill.repository.path}`;

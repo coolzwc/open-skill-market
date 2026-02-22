@@ -73,7 +73,7 @@ export async function getRepoLatestCommit(workerPool, owner, repo) {
       const nextReset = workerPool.getNextResetTime();
       const waitTime = nextReset - Date.now();
       if (waitTime > 0) {
-        await sleep(Math.min(waitTime + 1000, 30000));
+        await sleep(Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitPerCycle));
       } else {
         await sleep(1000);
       }
@@ -209,7 +209,7 @@ export async function processRepoWithCache(
       const nextReset = workerPool.getNextResetTime();
       const waitTime = nextReset - Date.now();
       if (waitTime > 0) {
-        await sleep(Math.min(waitTime + 1000, 30000));
+        await sleep(Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitPerCycle));
       } else {
         await sleep(1000);
       }
@@ -286,9 +286,9 @@ export async function searchRepositoriesByTopic(workerPool, topic) {
       const waitTime = nextReset - Date.now();
       if (waitTime > 0) {
         logRateLimitWait(Math.ceil(waitTime / 1000));
-        await sleep(Math.min(waitTime + 1000, 60000));
+        await sleep(Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitForReset));
       } else {
-        await sleep(5000);
+        await sleep(CONFIG.rateLimit.waitOnLimitedFallback);
       }
     }
 
@@ -364,9 +364,9 @@ export async function searchSkillRepositories(workerPool) {
       const waitTime = nextReset - Date.now();
       if (waitTime > 0) {
         logRateLimitWait(Math.ceil(waitTime / 1000));
-        await sleep(Math.min(waitTime + 1000, 60000));
+        await sleep(Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitForReset));
       } else {
-        await sleep(5000);
+        await sleep(CONFIG.rateLimit.waitOnLimitedFallback);
       }
     }
 
@@ -422,7 +422,7 @@ export async function findSkillFilesInRepoWithPool(
       if (waitTime > 10000) {
         logRateLimitWait(Math.ceil(waitTime / 1000));
       }
-      await sleep(Math.min(waitTime, 30000));
+      await sleep(Math.min(waitTime, CONFIG.rateLimit.maxWaitPerCycle));
     } else {
       await sleep(1000);
     }
@@ -594,7 +594,7 @@ export async function processSkillFileWithPool(
       if (waitTime > 10000) {
         logRateLimitWait(Math.ceil(waitTime / 1000));
       }
-      await sleep(Math.min(waitTime, 30000));
+      await sleep(Math.min(waitTime, CONFIG.rateLimit.maxWaitPerCycle));
     } else {
       await sleep(1000);
     }
@@ -796,9 +796,9 @@ export async function discoverSkillReposGlobally(workerPool, excludeRepos) {
     const waitTime = nextReset - Date.now();
     if (waitTime > 0) {
       logRateLimitWait(Math.ceil(waitTime / 1000));
-      await sleep(Math.min(waitTime + 1000, 60000));
+      await sleep(Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitForReset));
     } else {
-      await sleep(5000);
+      await sleep(CONFIG.rateLimit.waitOnLimitedFallback);
     }
   }
 
@@ -831,7 +831,7 @@ export async function discoverSkillReposGlobally(workerPool, excludeRepos) {
         const waitTime = nextReset - Date.now();
         if (waitTime > 0) {
           logRateLimitWait(Math.ceil(waitTime / 1000));
-          await sleep(Math.min(waitTime + 1000, 60000));
+          await sleep(Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitForReset));
         } else {
           await sleep(CONFIG.rateLimit.waitOnLimitedFallback);
         }
@@ -1042,7 +1042,7 @@ export async function crawlPriorityRepos(workerPool, priorityRepos) {
         if (waitTime > 10000) {
           logRateLimitWait(Math.ceil(waitTime / 1000));
         }
-        await sleep(Math.min(waitTime, 30000));
+        await sleep(Math.min(waitTime, CONFIG.rateLimit.maxWaitPerCycle));
       } else {
         await sleep(1000);
       }
@@ -1076,7 +1076,7 @@ export async function crawlPriorityRepos(workerPool, priorityRepos) {
           const nextReset = workerPool.getNextResetTime();
           const waitTime = nextReset - Date.now();
           if (waitTime > 0) {
-            await sleep(Math.min(waitTime + 1000, 30000));
+            await sleep(Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitPerCycle));
           } else {
             await sleep(1000);
           }

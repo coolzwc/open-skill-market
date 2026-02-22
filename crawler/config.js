@@ -71,12 +71,14 @@ export const CONFIG = {
   fileLimits: {
     maxFilesPerSkill: 20, // Maximum files to include per skill
     maxDescriptionLength: 500, // Maximum description length
+    minBodyLength: 500, // Minimum SKILL.md body length for validation
   },
 
   // Execution timeout settings
   execution: {
     maxExecutionTime: 5 * 60 * 60 * 1000, // 5 hours
     saveBuffer: 2 * 60 * 1000, // 2 minutes
+    requestTimeout: 30000, // 30s per API request (Octokit)
   },
 
   // Parallel processing settings

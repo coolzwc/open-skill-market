@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 import yaml from "js-yaml";
-import { __crawlerDirname } from "./config.js";
+import { CONFIG } from "./config.js";
 
 /**
  * Sleep for a specified duration
@@ -52,7 +52,7 @@ export async function listFilesRecursive(dir) {
  * @returns {Promise<string[]>} Array of repository full names (owner/repo)
  */
 export async function loadPriorityRepos() {
-  const reposPath = path.join(__crawlerDirname, "repositories.yml");
+  const reposPath = CONFIG.repositoriesPath;
   try {
     const content = await fs.readFile(reposPath, "utf-8");
     const data = yaml.load(content);
@@ -66,6 +66,23 @@ export async function loadPriorityRepos() {
     console.error(`Error loading repositories.yml: ${error.message}`);
     return [];
   }
+}
+
+/**
+ * Parse GitHub repo URL or "owner/repo" string into { owner, repo }.
+ * @param {string} url - e.g. "https://github.com/owner/repo" or "owner/repo"
+ * @returns {{ owner: string, repo: string } | null}
+ */
+export function parseRepoUrl(url) {
+  if (!url || typeof url !== "string") return null;
+  const match = url.match(/github\.com\/([^/]+)\/([^/]+)/);
+  if (match) return { owner: match[1], repo: match[2] };
+  // "owner/repo" form (no github.com)
+  if (!url.includes("github.com")) {
+    const parts = url.trim().split("/").filter(Boolean);
+    if (parts.length >= 2) return { owner: parts[0], repo: parts[1] };
+  }
+  return null;
 }
 
 /**

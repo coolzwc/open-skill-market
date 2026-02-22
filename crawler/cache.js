@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 import { __crawlerDirname } from "./config.js";
-import { generateDisplayName } from "./utils.js";
+import { generateDisplayName, parseRepoUrl } from "./utils.js";
 
 const CACHE_FILE = path.join(__crawlerDirname, ".crawler-cache.json");
 const CACHE_VERSION = 1;
@@ -100,7 +100,9 @@ export class CrawlerCache {
         pendingZips: Array.from(this.pendingZips),
         pendingR2Uploads: Array.from(this.pendingR2Uploads),
       };
-      await fs.writeFile(CACHE_FILE, JSON.stringify(json, null, 2), "utf-8");
+      const tmpFile = `${CACHE_FILE}.tmp`;
+      await fs.writeFile(tmpFile, JSON.stringify(json, null, 2), "utf-8");
+      await fs.rename(tmpFile, CACHE_FILE);
       console.log(
         `Saved cache v${CACHE_VERSION}: ${this.skills.size} skills, ${this.repos.size} repos.`,
       );
@@ -388,11 +390,8 @@ export class CrawlerCache {
    * @returns {Object} - Compacted manifest
    */
   static compactManifest(manifest) {
-    // Extract repoId from repository URL
-    const match = manifest.repository?.url?.match(
-      /github\.com\/([^/]+\/[^/]+)/,
-    );
-    const repoId = match ? match[1] : "";
+    const p = parseRepoUrl(manifest.repository?.url);
+    const repoId = p ? `${p.owner}/${p.repo}` : "";
 
     const compacted = {
       id: manifest.id,

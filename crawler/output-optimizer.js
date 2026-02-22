@@ -17,7 +17,7 @@
  * - details: `https://github.com/${owner}/${repo}/blob/${branch}/${path}/SKILL.md`
  */
 
-import { generateDisplayName } from "./utils.js";
+import { generateDisplayName, parseRepoUrl } from "./utils.js";
 
 /**
  * Extract repository ID from repository URL
@@ -25,8 +25,8 @@ import { generateDisplayName } from "./utils.js";
  * @returns {string} - Repository ID like "owner/repo"
  */
 function getRepoId(url) {
-  const match = url.match(/github\.com\/([^/]+\/[^/]+)/);
-  return match ? match[1] : url;
+  const p = parseRepoUrl(url);
+  return p ? `${p.owner}/${p.repo}` : url;
 }
 
 /**

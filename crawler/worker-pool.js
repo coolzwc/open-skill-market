@@ -181,14 +181,28 @@ export class WorkerPool {
       console.warn(
         "Set GITHUB_TOKEN for 5000 req/hour. See: https://github.com/settings/tokens",
       );
-      this.clients.push(createClient(new Octokit(), "unauthenticated", false));
+      const requestTimeout = CONFIG.execution?.requestTimeout ?? 30000;
+      this.clients.push(
+        createClient(
+          new Octokit({ request: { timeout: requestTimeout } }),
+          "unauthenticated",
+          false,
+        ),
+      );
     } else {
+      const requestTimeout = CONFIG.execution?.requestTimeout ?? 30000;
       console.log(`Initializing ${this.tokens.length} GitHub client(s)...`);
       for (let i = 0; i < this.tokens.length; i++) {
         const token = this.tokens[i];
         const label = i === 0 ? "GITHUB_TOKEN" : `EXTRA_TOKEN_${i}`;
         console.log(`  - Client ${i + 1}: ${label}`);
-        this.clients.push(createClient(new Octokit({ auth: token }), label, true));
+        this.clients.push(
+          createClient(
+            new Octokit({ auth: token, request: { timeout: requestTimeout } }),
+            label,
+            true,
+          ),
+        );
       }
     }
   }

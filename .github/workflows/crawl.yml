@@ -8,16 +8,15 @@ name: Crawl Skills
 #   - PAT_TOKEN or GITHUB_TOKEN: Primary token (required)
 #
 # Optional secrets (from different GitHub accounts):
-#   - EXTRA_TOKEN_1: Additional token 1
-#   - EXTRA_TOKEN_2: Additional token 2
-#   - EXTRA_TOKEN_3: Additional token 3
-#   - EXTRA_TOKEN_4: Additional token 4
-#   - EXTRA_TOKEN_5: Additional token 5
+#   - EXTRA_TOKEN_1 .. EXTRA_TOKEN_5: Additional tokens
 #
-# Note: Using EXTRA_TOKEN_ prefix because GitHub Actions reserves GITHUB_ prefix
+# For "re-trigger when incomplete": a PAT with "workflow" scope (GITHUB_TOKEN
+# cannot trigger new runs). Set WORKFLOW_DISPATCH_TOKEN to enable auto re-run.
+#
+# Note: EXTRA_TOKEN_ prefix because GitHub Actions reserves GITHUB_ prefix
 
 on:
-  # Run daily at 00:00 UTC
+  # Run daily at 00:00 UTC; if crawl is incomplete, workflow re-triggers itself
   schedule:
     - cron: "0 0 * * *"
 
@@ -39,14 +38,15 @@ on:
       - "crawler/**"
       - ".github/workflows/crawl.yml"
 
+# Only one crawl at a time; re-triggered and scheduled runs queue
+concurrency:
+  group: crawl-skills
+  cancel-in-progress: false
+
 jobs:
   crawl:
     runs-on: ubuntu-latest
-    # Timeout settings:
-    # - Public repos: max 6 hours (360 min)
-    # - Private repos (Free/Pro): max 35 min
-    # - Private repos (Team/Enterprise): max 6 hours
-    # Crawler is configured for 5 hours max execution time
+    # Public repos: max 6h. Crawler uses ~5h; leave headroom for setup/commit.
     timeout-minutes: 320
 
     permissions:
@@ -83,16 +83,12 @@ jobs:
 
       - name: Run crawler
         env:
-          # Primary token (uses built-in GITHUB_TOKEN or custom PAT_TOKEN)
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
-          # Additional tokens from different accounts for higher rate limits
-          # Add these as repository secrets: EXTRA_TOKEN_1, EXTRA_TOKEN_2, etc.
           EXTRA_TOKEN_1: ${{ secrets.EXTRA_TOKEN_1 }}
           EXTRA_TOKEN_2: ${{ secrets.EXTRA_TOKEN_2 }}
           EXTRA_TOKEN_3: ${{ secrets.EXTRA_TOKEN_3 }}
           EXTRA_TOKEN_4: ${{ secrets.EXTRA_TOKEN_4 }}
           EXTRA_TOKEN_5: ${{ secrets.EXTRA_TOKEN_5 }}
-          # Cloudflare R2 for zip + registry storage
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
@@ -118,6 +114,31 @@ jobs:
 
           Automated update from crawler run at $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
           git push
+
+      # When crawl fully complete (same condition as re-trigger: all false → complete), trigger deploy-web.
+      - name: Check if crawl complete
+        id: crawl_complete
+        if: success()
+        run: |
+          INCOMPLETE=$(jq -r 'if .meta.rateLimited == true or .meta.timedOut == true or .meta.zipTimedOut == true then "yes" else "no" end' market/skills.json 2>/dev/null || echo "yes")
+          if [ "$INCOMPLETE" != "yes" ]; then
+            echo "complete=true" >> $GITHUB_OUTPUT
+          else
+            echo "complete=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Trigger deploy-web
+        if: steps.crawl_complete.outputs.complete == 'true' && secrets.WORKFLOW_DISPATCH_TOKEN != ''
+        env:
+          TOKEN: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
+        run: |
+          echo "Crawl complete (no rate limit/timeout), triggering Deploy Web workflow..."
+          curl -sS -X POST \
+            -H "Authorization: token $TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/deploy-web.yml/dispatches" \
+            -d '{"ref":"main"}'
+          echo "Deploy Web triggered."
 
       - name: Summary
         run: |
@@ -163,3 +184,28 @@ jobs:
           else
             echo "**Status**: No changes detected" >> $GITHUB_STEP_SUMMARY
           fi
+
+      # If crawl was incomplete (timeout/rate limit), trigger this workflow again.
+      # Requires WORKFLOW_DISPATCH_TOKEN (PAT with "workflow" scope); GITHUB_TOKEN cannot trigger new runs.
+      - name: Re-trigger workflow if incomplete
+        if: success()
+        env:
+          TOKEN: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
+        run: |
+          INCOMPLETE=$(jq -r 'if .meta.rateLimited == true or .meta.timedOut == true or .meta.zipTimedOut == true then "yes" else "no" end' market/skills.json 2>/dev/null || echo "no")
+          if [ "$INCOMPLETE" != "yes" ]; then
+            echo "Crawl complete, no re-trigger."
+            exit 0
+          fi
+          if [ -z "$TOKEN" ]; then
+            echo "Crawl incomplete but WORKFLOW_DISPATCH_TOKEN not set; skipping re-trigger."
+            echo "Set a PAT with workflow scope to enable auto re-run until complete."
+            exit 0
+          fi
+          echo "Crawl incomplete (rate limit/timeout), triggering workflow again..."
+          curl -sS -X POST \
+            -H "Authorization: token $TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/crawl.yml/dispatches" \
+            -d '{"ref":"main"}'
+          echo "Workflow re-triggered (queued by concurrency)."

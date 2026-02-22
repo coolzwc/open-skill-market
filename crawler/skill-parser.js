@@ -1,9 +1,5 @@
 import matter from "gray-matter";
-
-/**
- * Maximum description length for extracted descriptions
- */
-const MAX_DESCRIPTION_LENGTH = 500;
+import { CONFIG } from "./config.js";
 
 /**
  * Category definitions with keywords for matching
@@ -270,10 +266,11 @@ export function validateSkillQuality(parsed, body) {
   }
 
   const bodyLength = body ? body.replace(/\s+/g, " ").trim().length : 0;
-  if (bodyLength < 500) {
+  const minBodyLength = CONFIG.fileLimits.minBodyLength ?? 500;
+  if (bodyLength < minBodyLength) {
     return {
       isValid: false,
-      reason: `Body content is too short (min 500 chars), current length: ${bodyLength}`,
+      reason: `Body content is too short (min ${minBodyLength} chars), current length: ${bodyLength}`,
     };
   }
 
@@ -397,7 +394,7 @@ function extractFromMarkdown(content) {
       continue;
     }
     if (foundHeading && trimmed.length > 20 && !trimmed.startsWith("-") && !trimmed.startsWith("*")) {
-      result.description = trimmed.substring(0, MAX_DESCRIPTION_LENGTH);
+      result.description = trimmed.substring(0, CONFIG.fileLimits.maxDescriptionLength);
       break;
     }
   }
@@ -453,7 +450,7 @@ export function parseSkillContent(content) {
     const lines = body.split("\n").filter((line) => line.trim());
     for (const line of lines) {
       if (!line.startsWith("#") && line.trim().length > 20) {
-        extractedDescription = line.trim().substring(0, MAX_DESCRIPTION_LENGTH);
+        extractedDescription = line.trim().substring(0, CONFIG.fileLimits.maxDescriptionLength);
         break;
       }
     }

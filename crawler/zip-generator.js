@@ -2,8 +2,9 @@ import fs from "fs/promises";
 import path from "path";
 import archiver from "archiver";
 import { createWriteStream } from "fs";
+import { CONFIG } from "./config.js";
 import { shouldStopForTimeout } from "./rate-limit.js";
-import { sleep } from "./utils.js";
+import { parseRepoUrl, sleep } from "./utils.js";
 
 /**
  * Generate a zip package for a skill
@@ -15,13 +16,12 @@ import { sleep } from "./utils.js";
 export async function generateSkillZip(skillManifest, outputDir, workerPool) {
   const { name, repository, files } = skillManifest;
   const { url, branch, path: skillPath } = repository;
-  
-  // Extract owner and repo from URL
-  const match = url.match(/github\.com\/([^/]+)\/([^/]+)/);
-  if (!match) {
+
+  const parsed = parseRepoUrl(url);
+  if (!parsed) {
     throw new Error(`Invalid repository URL: ${url}`);
   }
-  const [, owner, repo] = match;
+  const { owner, repo } = parsed;
 
   // Generate zip filename: owner-repo-skillName.zip
   const zipFilename = `${owner}-${repo}-${name}.zip`;
@@ -105,7 +105,7 @@ async function fetchGitHubPathWithPool(workerPool, owner, repo, branch, dirPath,
     const nextReset = workerPool.getNextResetTime();
     const waitTime = nextReset - Date.now();
     if (waitTime > 0) {
-      await sleep(Math.min(waitTime + 1000, 30000));
+      await sleep(Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitPerCycle));
     } else {
       await sleep(1000);
     }
@@ -134,7 +134,7 @@ async function fetchGitHubPathWithPool(workerPool, owner, repo, branch, dirPath,
             const nextReset = workerPool.getNextResetTime();
             const waitTime = nextReset - Date.now();
             if (waitTime > 0) {
-              await sleep(Math.min(waitTime + 1000, 30000));
+              await sleep(Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitPerCycle));
             } else {
               await sleep(1000);
             }
