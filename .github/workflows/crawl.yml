@@ -128,10 +128,14 @@ jobs:
           fi
 
       - name: Trigger deploy-web
-        if: steps.crawl_complete.outputs.complete == 'true' && secrets.WORKFLOW_DISPATCH_TOKEN != ''
+        if: steps.crawl_complete.outputs.complete == 'true'
         env:
           TOKEN: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
         run: |
+          if [ -z "$TOKEN" ]; then
+            echo "WORKFLOW_DISPATCH_TOKEN not set; skipping deploy-web trigger."
+            exit 0
+          fi
           echo "Crawl complete (no rate limit/timeout), triggering Deploy Web workflow..."
           curl -sS -X POST \
             -H "Authorization: token $TOKEN" \
