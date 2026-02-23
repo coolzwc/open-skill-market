@@ -758,8 +758,9 @@ async function main() {
     // Ignore cleanup errors
   }
 
-  // Upload skills.json (+ chunks) to R2
-  if (isR2Configured()) {
+  // Upload skills.json (+ chunks) to R2 only when crawl fully completed (no rate limit/timeout)
+  const crawlComplete = !isIncomplete && !zipTimedOut;
+  if (isR2Configured() && crawlComplete) {
     const r2Bucket = CONFIG.zips.r2.bucket || "skill-market";
 
     console.log(`\nUploading registry files to R2...`);
@@ -783,6 +784,8 @@ async function main() {
         console.error(`  ✗ Failed to upload ${chunkFilename}: ${err.message}`);
       }
     }
+  } else if (isR2Configured() && !crawlComplete) {
+    console.log(`\nSkipping R2 registry upload (crawl incomplete: rate limit or timeout).`);
   }
 
   // Save cache
