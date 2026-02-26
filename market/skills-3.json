@@ -14,13 +14,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "trailofbits/skills": {
-      "url": "https://github.com/trailofbits/skills",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "MicrosoftDocs/mcp": {
       "url": "https://github.com/MicrosoftDocs/mcp",
       "branch": "main",
@@ -42,6 +35,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "AIPexStudio/AIPex": {
+      "url": "https://github.com/AIPexStudio/AIPex",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "softaworks/agent-toolkit": {
       "url": "https://github.com/softaworks/agent-toolkit",
       "branch": "main",
@@ -56,8 +56,8 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "kasperjunge/agent-resources": {
-      "url": "https://github.com/kasperjunge/agent-resources",
+    "rohitg00/skillkit": {
+      "url": "https://github.com/rohitg00/skillkit",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -70,22 +70,15 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "kasperjunge/agent-resources": {
+      "url": "https://github.com/kasperjunge/agent-resources",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "Code-and-Sorts/awesome-copilot-agents": {
       "url": "https://github.com/Code-and-Sorts/awesome-copilot-agents",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "rohitg00/skillkit": {
-      "url": "https://github.com/rohitg00/skillkit",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "ghostsecurity/skills": {
-      "url": "https://github.com/ghostsecurity/skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -154,23 +147,9 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "kevmoo/dash_skills": {
-      "url": "https://github.com/kevmoo/dash_skills",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "adaptyvbio/protein-design-skills": {
       "url": "https://github.com/adaptyvbio/protein-design-skills",
       "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "FrankChen021/datastoria": {
-      "url": "https://github.com/FrankChen021/datastoria",
-      "branch": "master",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
@@ -217,6 +196,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "shinpr/mcp-image": {
+      "url": "https://github.com/shinpr/mcp-image",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "aws-samples/sample-strands-agents-agentskills": {
       "url": "https://github.com/aws-samples/sample-strands-agents-agentskills",
       "branch": "main",
@@ -224,8 +210,8 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "shinpr/mcp-image": {
-      "url": "https://github.com/shinpr/mcp-image",
+    "MADTeacher/mad-agents-skills": {
+      "url": "https://github.com/MADTeacher/mad-agents-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -238,22 +224,8 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "MADTeacher/mad-agents-skills": {
-      "url": "https://github.com/MADTeacher/mad-agents-skills",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "avivsinai/langfuse-mcp": {
       "url": "https://github.com/avivsinai/langfuse-mcp",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "osovv/grace-marketplace": {
-      "url": "https://github.com/osovv/grace-marketplace",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -262,6 +234,13 @@
     "leonardomso/rust-skills": {
       "url": "https://github.com/leonardomso/rust-skills",
       "branch": "master",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "osovv/grace-marketplace": {
+      "url": "https://github.com/osovv/grace-marketplace",
+      "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
@@ -280,15 +259,8 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "jordanrubin/FUTURE_TOKENS": {
-      "url": "https://github.com/jordanrubin/FUTURE_TOKENS",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "gokapso/agent-skills": {
-      "url": "https://github.com/gokapso/agent-skills",
+    "OmidZamani/dspy-skills": {
+      "url": "https://github.com/OmidZamani/dspy-skills",
       "branch": "master",
       "stars": 0,
       "forks": 0,
@@ -301,9 +273,23 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "shinpr/agentic-code": {
-      "url": "https://github.com/shinpr/agentic-code",
+    "kylehughes/the-unofficial-swift-programming-language-skill": {
+      "url": "https://github.com/kylehughes/the-unofficial-swift-programming-language-skill",
       "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "jordanrubin/FUTURE_TOKENS": {
+      "url": "https://github.com/jordanrubin/FUTURE_TOKENS",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "gokapso/agent-skills": {
+      "url": "https://github.com/gokapso/agent-skills",
+      "branch": "master",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
@@ -329,13 +315,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "rootcastleco/rei-skills": {
-      "url": "https://github.com/rootcastleco/rei-skills",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": "2026-02-24T07:08:54Z"
-    },
     "SpillwaveSolutions/mastering-aws-cdk-plugin": {
       "url": "https://github.com/SpillwaveSolutions/mastering-aws-cdk-plugin",
       "branch": "main",
@@ -357,15 +336,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "mcp-use/mcp-use": {
-      "url": "https://github.com/mcp-use/mcp-use",
+    "mrexodia/ida-pro-mcp": {
+      "url": "https://github.com/mrexodia/ida-pro-mcp",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "mrexodia/ida-pro-mcp": {
-      "url": "https://github.com/mrexodia/ida-pro-mcp",
+    "getsentry/XcodeBuildMCP": {
+      "url": "https://github.com/getsentry/XcodeBuildMCP",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -402,6 +381,13 @@
     "sockethub/sockethub": {
       "url": "https://github.com/sockethub/sockethub",
       "branch": "master",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "zstmfhy/annas-to-notebooklm": {
+      "url": "https://github.com/zstmfhy/annas-to-notebooklm",
+      "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
@@ -518,13 +504,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "thruthesky/open-meteo-skill": {
-      "url": "https://github.com/thruthesky/open-meteo-skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "datasette/skill": {
       "url": "https://github.com/datasette/skill",
       "branch": "main",
@@ -567,19 +546,26 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "mark64oswald/healthsim-workspace": {
-      "url": "https://github.com/mark64oswald/healthsim-workspace",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "singhsume123/xml-to-compose-skill": {
       "url": "https://github.com/singhsume123/xml-to-compose-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
+    },
+    "shawngraham/claude_antiquities_extractor_skill": {
+      "url": "https://github.com/shawngraham/claude_antiquities_extractor_skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "synapz-org/core-life-ops": {
+      "url": "https://github.com/synapz-org/core-life-ops",
+      "branch": "master",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2025-11-02T00:39:29Z"
     }
   },
   "skills": [
@@ -8757,15 +8743,26 @@
       "files": ["GENERATION.md", "SKILL.md", "references"]
     },
     {
-      "id": "antfu/skills/skills/vitepress",
-      "name": "vitepress",
-      "description": "VitePress static site generator powered by Vite and Vue. Use when building documentation sites, configuring themes, or writing Markdown with Vue components.",
-      "categories": ["Development", "Design", "Writing", "Documents"],
+      "id": "antfu/skills/skills/pnpm",
+      "name": "pnpm",
+      "description": "Node.js package manager with strict dependency resolution. Use when running pnpm specific commands, configuring workspaces, or managing dependencies with catalogs, patches, or overrides.",
+      "categories": ["Development"],
       "author": "antfu",
       "repo": "antfu/skills",
-      "path": "skills/vitepress",
+      "path": "skills/pnpm",
       "commitHash": "5cae97ca87e0",
       "files": ["GENERATION.md", "SKILL.md", "references"]
+    },
+    {
+      "id": "antfu/skills/skills/slidev",
+      "name": "slidev",
+      "description": "Create and present web-based slides for developers using Markdown, Vue components, code highlighting, animations, and interactive features. Use when building technical presentations, conference talks, or teaching materials.",
+      "categories": ["Development", "Design", "Documents"],
+      "author": "antfu",
+      "repo": "antfu/skills",
+      "path": "skills/slidev",
+      "commitHash": "36a88652ad50",
+      "files": ["LICENSE.md", "README.md", "SKILL.md", "SYNC.md", "references"]
     },
     {
       "id": "antfu/skills/skills/antfu",
@@ -8788,618 +8785,6 @@
       "path": "skills/pinia",
       "commitHash": "5cae97ca87e0",
       "files": ["GENERATION.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "antfu/skills/skills/nuxt",
-      "name": "nuxt",
-      "description": "Nuxt full-stack Vue framework with SSR, auto-imports, and file-based routing. Use when working with Nuxt apps, server routes, useFetch, middleware, or hybrid rendering.",
-      "categories": ["Development", "Documents"],
-      "author": "antfu",
-      "repo": "antfu/skills",
-      "path": "skills/nuxt",
-      "commitHash": "5cae97ca87e0",
-      "files": ["GENERATION.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/gh-cli/skills/using-gh-cli",
-      "name": "using-gh-cli",
-      "description": "Guides usage of the GitHub CLI (gh) for interacting with GitHub repositories, PRs, issues, and API. Use when working with GitHub resources instead of WebFetch or curl.",
-      "categories": ["Development", "Research"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/gh-cli/skills/using-gh-cli",
-      "commitHash": "d356b6b5bbb1",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/modern-python/skills/modern-python",
-      "name": "modern-python",
-      "description": "Configures Python projects with modern tooling (uv, ruff, ty). Use when creating projects, writing standalone scripts, or migrating from pip/Poetry/mypy/black.",
-      "categories": ["Other"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/modern-python/skills/modern-python",
-      "commitHash": "bb5c353abc39",
-      "files": ["SKILL.md", "references", "templates"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/debug-buttercup/skills/debug-buttercup",
-      "name": "debug-buttercup",
-      "description": "Debugs the Buttercup CRS (Cyber Reasoning System) running on Kubernetes. Use when diagnosing pod crashes, restart loops, Redis failures, resource pressure, disk saturation, DinD issues, or any service misbehavior in the crs namespace. Covers triage, log analysis, queue inspection, and common failure patterns for: redis, fuzzer-bot, coverage-bot, seed-gen, patcher, build-bot, scheduler, task-server, task-downloader, program-model, litellm, dind, tracer-bot, merger-bot, competition-api, pov-reproducer, scratch-cleaner, registry-cache, image-preloader, ui.\n",
-      "categories": [
-        "Development",
-        "DevOps",
-        "Design",
-        "Productivity",
-        "Data & Analytics",
-        "AI & ML"
-      ],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/debug-buttercup/skills/debug-buttercup",
-      "commitHash": "1d843475e728",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/devcontainer-setup/skills/devcontainer-setup",
-      "name": "devcontainer-setup",
-      "description": "Creates devcontainers with Claude Code, language-specific tooling (Python/Node/Rust/Go), and persistent volumes. Use when adding devcontainer support to a project, setting up isolated development environments, or configuring sandboxed Claude Code workspaces.",
-      "categories": ["Development", "Productivity", "AI & ML"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/devcontainer-setup/skills/devcontainer-setup",
-      "commitHash": "7e885f5982b8",
-      "files": ["SKILL.md", "references", "resources"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/testing-handbook-skills/skills/fuzzing-dictionary",
-      "name": "fuzzing-dictionary",
-      "description": "Fuzzing dictionaries guide fuzzers with domain-specific tokens. Use when fuzzing parsers, protocols, or format-specific code.\n",
-      "categories": ["Development"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/testing-handbook-skills/skills/fuzzing-dictionary",
-      "commitHash": "695119c312e0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/building-secure-contracts/skills/token-integration-analyzer",
-      "name": "token-integration-analyzer",
-      "description": "Token integration and implementation analyzer based on Trail of Bits' token integration checklist. Analyzes token implementations for ERC20/ERC721 conformity, checks for 20+ weird token patterns, assesses contract composition and owner privileges, performs on-chain scarcity analysis, and evaluates how protocols handle non-standard tokens. Context-aware for both token implementations and token integrations.",
-      "categories": ["Research"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/building-secure-contracts/skills/token-integration-analyzer",
-      "commitHash": "650f6e370031",
-      "files": ["SKILL.md", "resources"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/building-secure-contracts/skills/code-maturity-assessor",
-      "name": "code-maturity-assessor",
-      "description": "Systematic code maturity assessment using Trail of Bits' 9-category framework. Analyzes codebase for arithmetic safety, auditing practices, access controls, complexity, decentralization, documentation, MEV risks, low-level code, and testing. Produces professional scorecard with evidence-based ratings and actionable recommendations.",
-      "categories": ["Development"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/building-secure-contracts/skills/code-maturity-assessor",
-      "commitHash": "650f6e370031",
-      "files": ["SKILL.md", "resources"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/testing-handbook-skills/skills/cargo-fuzz",
-      "name": "cargo-fuzz",
-      "description": "cargo-fuzz is the de facto fuzzing tool for Rust projects using Cargo. Use for fuzzing Rust code with libFuzzer backend.\n",
-      "categories": ["Development"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/testing-handbook-skills/skills/cargo-fuzz",
-      "commitHash": "695119c312e0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/building-secure-contracts/skills/secure-workflow-guide",
-      "name": "secure-workflow-guide",
-      "description": "Guides through Trail of Bits' 5-step secure development workflow. Runs Slither scans, checks special features (upgradeability/ERC conformance/token integration), generates visual security diagrams, helps document security properties for fuzzing/verification, and reviews manual security areas.",
-      "categories": ["Security", "Design", "Productivity", "Documents"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/building-secure-contracts/skills/secure-workflow-guide",
-      "commitHash": "650f6e370031",
-      "files": ["SKILL.md", "resources"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/entry-point-analyzer/skills/entry-point-analyzer",
-      "name": "entry-point-analyzer",
-      "description": "Analyzes smart contract codebases to identify state-changing entry points for security auditing. Detects externally callable functions that modify state, categorizes them by access level (public, admin, role-restricted, contract-only), and generates structured audit reports. Excludes view/pure/read-only functions. Use when auditing smart contracts (Solidity, Vyper, Solana/Rust, Move, TON, CosmWasm) or when asked to find entry points, audit flows, external functions, access control patterns, or privileged operations.",
-      "categories": ["Development", "Security", "Research"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/entry-point-analyzer/skills/entry-point-analyzer",
-      "commitHash": "9f7f8adad9cc",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/second-opinion/skills/second-opinion",
-      "name": "second-opinion",
-      "description": "Runs external LLM code reviews (OpenAI Codex or Google Gemini CLI) on uncommitted changes, branch diffs, or specific commits. Use when the user asks for a second opinion, external review, codex review, gemini review, or mentions /second-opinion.",
-      "categories": ["Development", "AI & ML"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/second-opinion/skills/second-opinion",
-      "commitHash": "60ab7b0fe0ac",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/variant-analysis/skills/variant-analysis",
-      "name": "variant-analysis",
-      "description": "Find similar vulnerabilities and bugs across codebases using pattern-based analysis. Use when hunting bug variants, building CodeQL/Semgrep queries, analyzing security vulnerabilities, or performing systematic code audits after finding an initial issue.",
-      "categories": ["Development", "Security"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/variant-analysis/skills/variant-analysis",
-      "commitHash": "9f7f8adad9cc",
-      "files": ["METHODOLOGY.md", "SKILL.md", "resources"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/testing-handbook-skills/skills/coverage-analysis",
-      "name": "coverage-analysis",
-      "description": "Coverage analysis measures code exercised during fuzzing. Use when assessing harness effectiveness or identifying fuzzing blockers.\n",
-      "categories": ["Other"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/testing-handbook-skills/skills/coverage-analysis",
-      "commitHash": "695119c312e0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/dwarf-expert/skills/dwarf-expert",
-      "name": "dwarf-expert",
-      "description": "Provides expertise for analyzing DWARF debug files and understanding the DWARF debug format/standard (v3-v5). Triggers when understanding DWARF information, interacting with DWARF files, answering DWARF-related questions, or working with code that parses DWARF data.",
-      "categories": ["Development", "Documents"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/dwarf-expert/skills/dwarf-expert",
-      "commitHash": "9f7f8adad9cc",
-      "files": ["SKILL.md", "reference"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/insecure-defaults/skills/insecure-defaults",
-      "name": "insecure-defaults",
-      "description": "Detects fail-open insecure defaults (hardcoded secrets, weak auth, permissive security) that allow apps to run insecurely in production. Use when auditing security, reviewing config management, or analyzing environment variable handling.",
-      "categories": ["Security"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/insecure-defaults/skills/insecure-defaults",
-      "commitHash": "3fd5bababa4f",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/yara-authoring/skills/yara-rule-authoring",
-      "name": "yara-rule-authoring",
-      "description": "Guides authoring of high-quality YARA-X detection rules for malware identification. Use when writing, reviewing, or optimizing YARA rules. Covers naming conventions, string selection, performance optimization, migration from legacy YARA, and false positive reduction. Triggers on: YARA, YARA-X, malware detection, threat hunting, IOC, signature, crx module, dex module.\n",
-      "categories": ["Security", "Writing"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/yara-authoring/skills/yara-rule-authoring",
-      "commitHash": "c180c526d590",
-      "files": ["SKILL.md", "examples", "references", "scripts", "workflows"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/testing-handbook-skills/skills/wycheproof",
-      "name": "wycheproof",
-      "description": "Wycheproof provides test vectors for validating cryptographic implementations. Use when testing crypto code for known attacks and edge cases.\n",
-      "categories": ["Development"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/testing-handbook-skills/skills/wycheproof",
-      "commitHash": "695119c312e0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/testing-handbook-skills/skills/ruzzy",
-      "name": "ruzzy",
-      "description": "Ruzzy is a coverage-guided Ruby fuzzer by Trail of Bits. Use for fuzzing pure Ruby code and Ruby C extensions.\n",
-      "categories": ["AI & ML"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/testing-handbook-skills/skills/ruzzy",
-      "commitHash": "695119c312e0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/semgrep-rule-variant-creator/skills/semgrep-rule-variant-creator",
-      "name": "semgrep-rule-variant-creator",
-      "description": "Creates language variants of existing Semgrep rules. Use when porting a Semgrep rule to specified target languages. Takes an existing rule and target languages as input, produces independent rule+test directories for each language.",
-      "categories": ["Other"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/semgrep-rule-variant-creator/skills/semgrep-rule-variant-creator",
-      "commitHash": "e1427d920d6e",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/testing-handbook-skills/skills/address-sanitizer",
-      "name": "address-sanitizer",
-      "description": "AddressSanitizer detects memory errors during fuzzing. Use when fuzzing C/C++ code to find buffer overflows and use-after-free bugs.\n",
-      "categories": ["Other"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/testing-handbook-skills/skills/address-sanitizer",
-      "commitHash": "695119c312e0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/ask-questions-if-underspecified/skills/ask-questions-if-underspecified",
-      "name": "ask-questions-if-underspecified",
-      "description": "Clarify requirements before implementing. Use when serious doubts arise.",
-      "categories": ["Other"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/ask-questions-if-underspecified/skills/ask-questions-if-underspecified",
-      "commitHash": "650f6e370031",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/testing-handbook-skills/skills/libfuzzer",
-      "name": "libfuzzer",
-      "description": "Coverage-guided fuzzer built into LLVM for C/C++ projects. Use for fuzzing C/C++ code that can be compiled with Clang.\n",
-      "categories": ["Development"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/testing-handbook-skills/skills/libfuzzer",
-      "commitHash": "695119c312e0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/static-analysis/skills/codeql",
-      "name": "codeql",
-      "description": "Runs CodeQL static analysis for security vulnerability detection using interprocedural data flow and taint tracking. Applicable when finding vulnerabilities, running a security scan, performing a security audit, running CodeQL, building a CodeQL database, selecting query rulesets, creating data extension models, or processing CodeQL SARIF output. NOT for writing custom QL queries or CI/CD pipeline setup.",
-      "categories": ["Development", "DevOps", "Security", "Data & Analytics", "AI & ML"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/static-analysis/skills/codeql",
-      "commitHash": "f821e35473d2",
-      "files": ["SKILL.md", "references", "workflows"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/culture-index/skills/interpreting-culture-index",
-      "name": "interpreting-culture-index",
-      "description": "Interprets Culture Index (CI) surveys, behavioral profiles, and personality assessment data. Supports individual profile interpretation, team composition analysis (gas/brake/glue), burnout detection, profile comparison, hiring profiles, manager coaching, interview transcript analysis for trait prediction, candidate debrief, onboarding planning, and conflict mediation. Accepts extracted JSON or PDF input via OpenCV extraction script.",
-      "categories": ["Data & Analytics", "Documents", "Business", "Research"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/culture-index/skills/interpreting-culture-index",
-      "commitHash": "4c854b712eac",
-      "files": ["SKILL.md", "references", "scripts", "templates", "workflows"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/git-cleanup/skills/git-cleanup",
-      "name": "git-cleanup",
-      "description": "Safely analyzes and cleans up local git branches and worktrees by categorizing them as merged, squash-merged, superseded, or active work.",
-      "categories": ["Other"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/git-cleanup/skills/git-cleanup",
-      "commitHash": "f8819350fe7d",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/testing-handbook-skills/skills/fuzzing-obstacles",
-      "name": "fuzzing-obstacles",
-      "description": "Techniques for patching code to overcome fuzzing obstacles. Use when checksums, global state, or other barriers block fuzzer progress.\n",
-      "categories": ["Other"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/testing-handbook-skills/skills/fuzzing-obstacles",
-      "commitHash": "695119c312e0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/testing-handbook-skills/skills/constant-time-testing",
-      "name": "constant-time-testing",
-      "description": "Constant-time testing detects timing side channels in cryptographic code. Use when auditing crypto implementations for timing vulnerabilities.\n",
-      "categories": ["Development"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/testing-handbook-skills/skills/constant-time-testing",
-      "commitHash": "695119c312e0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/constant-time-analysis/skills/constant-time-analysis",
-      "name": "constant-time-analysis",
-      "description": "Detects timing side-channel vulnerabilities in cryptographic code. Use when implementing or reviewing crypto code, encountering division on secrets, secret-dependent branches, or constant-time programming questions in C, C++, Go, Rust, Swift, Java, Kotlin, C#, PHP, JavaScript, TypeScript, Python, or Ruby.",
-      "categories": ["Development", "Data & Analytics"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/constant-time-analysis/skills/constant-time-analysis",
-      "commitHash": "695119c312e0",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/building-secure-contracts/skills/solana-vulnerability-scanner",
-      "name": "solana-vulnerability-scanner",
-      "description": "Scans Solana programs for 6 critical vulnerabilities including arbitrary CPI, improper PDA validation, missing signer/ownership checks, and sysvar spoofing. Use when auditing Solana/Anchor programs.",
-      "categories": ["Security"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/building-secure-contracts/skills/solana-vulnerability-scanner",
-      "commitHash": "650f6e370031",
-      "files": ["SKILL.md", "resources"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/static-analysis/skills/sarif-parsing",
-      "name": "sarif-parsing",
-      "description": "Parse, analyze, and process SARIF (Static Analysis Results Interchange Format) files. Use when reading security scan results, aggregating findings from multiple tools, deduplicating alerts, extracting specific vulnerabilities, or integrating SARIF data into CI/CD pipelines.",
-      "categories": ["DevOps", "Data & Analytics", "Documents", "Research"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/static-analysis/skills/sarif-parsing",
-      "commitHash": "fd367ad81b20",
-      "files": ["SKILL.md", "resources"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/workflow-skill-design/skills/designing-workflow-skills",
-      "name": "designing-workflow-skills",
-      "description": "Guides the design and structuring of workflow-based Claude Code skills with multi-step phases, decision trees, subagent delegation, and progressive disclosure. Use when creating skills that involve sequential pipelines, routing patterns, safety gates, task tracking, phased execution, or any multi-step workflow. Also applies when reviewing or refactoring existing workflow skills for quality.",
-      "categories": ["Development", "Design", "Productivity", "Business", "AI & ML"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/workflow-skill-design/skills/designing-workflow-skills",
-      "commitHash": "2f0ae6f15cae",
-      "files": ["SKILL.md", "references", "workflows"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/testing-handbook-skills/skills/atheris",
-      "name": "atheris",
-      "description": "Atheris is a coverage-guided Python fuzzer based on libFuzzer. Use for fuzzing pure Python code and Python C extensions.\n",
-      "categories": ["Development"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/testing-handbook-skills/skills/atheris",
-      "commitHash": "695119c312e0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/building-secure-contracts/skills/ton-vulnerability-scanner",
-      "name": "ton-vulnerability-scanner",
-      "description": "Scans TON (The Open Network) smart contracts for 3 critical vulnerabilities including integer-as-boolean misuse, fake Jetton contracts, and forward TON without gas checks. Use when auditing FunC contracts.",
-      "categories": ["Security"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/building-secure-contracts/skills/ton-vulnerability-scanner",
-      "commitHash": "650f6e370031",
-      "files": ["SKILL.md", "resources"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/building-secure-contracts/skills/algorand-vulnerability-scanner",
-      "name": "algorand-vulnerability-scanner",
-      "description": "Scans Algorand smart contracts for 11 common vulnerabilities including rekeying attacks, unchecked transaction fees, missing field validations, and access control issues. Use when auditing Algorand projects (TEAL/PyTeal).",
-      "categories": ["Security"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/building-secure-contracts/skills/algorand-vulnerability-scanner",
-      "commitHash": "650f6e370031",
-      "files": ["SKILL.md", "resources"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/building-secure-contracts/skills/cairo-vulnerability-scanner",
-      "name": "cairo-vulnerability-scanner",
-      "description": "Scans Cairo/StarkNet smart contracts for 6 critical vulnerabilities including felt252 arithmetic overflow, L1-L2 messaging issues, address conversion problems, and signature replay. Use when auditing StarkNet projects.",
-      "categories": ["Security"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/building-secure-contracts/skills/cairo-vulnerability-scanner",
-      "commitHash": "650f6e370031",
-      "files": ["SKILL.md", "resources"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/claude-in-chrome-troubleshooting/skills/claude-in-chrome-troubleshooting",
-      "name": "claude-in-chrome-troubleshooting",
-      "description": "Diagnose and fix Claude in Chrome MCP extension connectivity issues. Use when mcp__claude-in-chrome__* tools fail, return \"Browser extension is not connected\", or behave erratically.",
-      "categories": ["Integration", "AI & ML"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/claude-in-chrome-troubleshooting/skills/claude-in-chrome-troubleshooting",
-      "commitHash": "2a7b3d9cd56d",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/differential-review/skills/differential-review",
-      "name": "differential-review",
-      "description": "Performs security-focused differential review of code changes (PRs, commits, diffs). Adapts analysis depth to codebase size, uses git history for context, calculates blast radius, checks test coverage, and generates comprehensive markdown reports. Automatically detects and prevents security regressions.\n",
-      "categories": ["Development", "Data & Analytics", "Documents"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/differential-review/skills/differential-review",
-      "commitHash": "695119c312e0",
-      "files": ["SKILL.md", "adversarial.md", "methodology.md", "patterns.md", "reporting.md"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/testing-handbook-skills/skills/harness-writing",
-      "name": "harness-writing",
-      "description": "Techniques for writing effective fuzzing harnesses across languages. Use when creating new fuzz targets or improving existing harness code.\n",
-      "categories": ["Other"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/testing-handbook-skills/skills/harness-writing",
-      "commitHash": "695119c312e0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/firebase-apk-scanner/skills/firebase-apk-scanner",
-      "name": "firebase-apk-scanner",
-      "description": "Scans Android APKs for Firebase security misconfigurations including open databases, storage buckets, authentication issues, and exposed cloud functions. Use when analyzing APK files for Firebase vulnerabilities, performing mobile app security audits, or testing Firebase endpoint security. For authorized security research only.",
-      "categories": ["Development", "Security", "Data & Analytics", "Documents", "Research"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/firebase-apk-scanner/skills/firebase-apk-scanner",
-      "commitHash": "e827fa624b42",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/semgrep-rule-creator/skills/semgrep-rule-creator",
-      "name": "semgrep-rule-creator",
-      "description": "Creates custom Semgrep rules for detecting security vulnerabilities, bug patterns, and code patterns. Use when writing Semgrep rules or building custom static analysis detections.",
-      "categories": ["Development"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/semgrep-rule-creator/skills/semgrep-rule-creator",
-      "commitHash": "224f51731e80",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/building-secure-contracts/skills/guidelines-advisor",
-      "name": "guidelines-advisor",
-      "description": "Smart contract development advisor based on Trail of Bits' best practices. Analyzes codebase to generate documentation/specifications, review architecture, check upgradeability patterns, assess implementation quality, identify pitfalls, review dependencies, and evaluate testing. Provides actionable recommendations.",
-      "categories": ["Development", "Design", "Research"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/building-secure-contracts/skills/guidelines-advisor",
-      "commitHash": "650f6e370031",
-      "files": ["SKILL.md", "resources"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/audit-context-building/skills/audit-context-building",
-      "name": "audit-context-building",
-      "description": "Enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding.",
-      "categories": ["Development", "Security"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/audit-context-building/skills/audit-context-building",
-      "commitHash": "271c095d31bf",
-      "files": ["SKILL.md", "resources"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/property-based-testing/skills/property-based-testing",
-      "name": "property-based-testing",
-      "description": "Provides guidance for property-based testing across multiple languages and smart contracts. Use when writing tests, reviewing code with serialization/validation/parsing patterns, designing features, or when property-based testing would provide stronger coverage than example-based tests.",
-      "categories": ["Development", "Design"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/property-based-testing/skills/property-based-testing",
-      "commitHash": "57a837d18bc2",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/building-secure-contracts/skills/audit-prep-assistant",
-      "name": "audit-prep-assistant",
-      "description": "Prepares codebases for security review using Trail of Bits' checklist. Helps set review goals, runs static analysis tools, increases test coverage, removes dead code, ensures accessibility, and generates documentation (flowcharts, user stories, inline comments).",
-      "categories": ["Development", "Security", "Data & Analytics", "AI & ML"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/building-secure-contracts/skills/audit-prep-assistant",
-      "commitHash": "650f6e370031",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/spec-to-code-compliance/skills/spec-to-code-compliance",
-      "name": "spec-to-code-compliance",
-      "description": "Verifies code implements exactly what documentation specifies for blockchain audits. Use when comparing code against whitepapers, finding gaps between specs and implementation, or performing compliance checks for protocol implementations.",
-      "categories": ["Security", "Documents"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/spec-to-code-compliance/skills/spec-to-code-compliance",
-      "commitHash": "962f7433a1d9",
-      "files": ["SKILL.md", "resources"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/building-secure-contracts/skills/cosmos-vulnerability-scanner",
-      "name": "cosmos-vulnerability-scanner",
-      "description": "Scans Cosmos SDK blockchains for 9 consensus-critical vulnerabilities including non-determinism, incorrect signers, ABCI panics, and rounding errors. Use when auditing Cosmos chains or CosmWasm contracts.",
-      "categories": ["Security"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/building-secure-contracts/skills/cosmos-vulnerability-scanner",
-      "commitHash": "650f6e370031",
-      "files": ["SKILL.md", "resources"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/static-analysis/skills/semgrep",
-      "name": "semgrep",
-      "description": "Run Semgrep static analysis scan on a codebase using parallel subagents. Automatically detects and uses Semgrep Pro for cross-file analysis when available. Use when asked to scan code for vulnerabilities, run a security audit with Semgrep, find bugs, or perform static analysis. Spawns parallel workers for multi-language codebases and triage.",
-      "categories": ["Security", "Documents", "AI & ML"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/static-analysis/skills/semgrep",
-      "commitHash": "9600b3d9e6ba",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/sharp-edges/skills/sharp-edges",
-      "name": "sharp-edges",
-      "description": "Identifies error-prone APIs, dangerous configurations, and footgun designs that enable security mistakes. Use when reviewing API designs, configuration schemas, cryptographic library ergonomics, or evaluating whether code follows 'secure by default' and 'pit of success' principles. Triggers: footgun, misuse-resistant, secure defaults, API usability, dangerous configuration.",
-      "categories": ["Development", "Security", "Design", "Data & Analytics"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/sharp-edges/skills/sharp-edges",
-      "commitHash": "695119c312e0",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/burpsuite-project-parser/skills",
-      "name": "burpsuite-project-parser",
-      "description": "Searches and explores Burp Suite project files (.burp) from the command line. Use when searching response headers or bodies with regex patterns, extracting security audit findings, dumping proxy history or site map data, or analyzing HTTP traffic captured in a Burp project.",
-      "categories": ["Security", "Research"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/burpsuite-project-parser/skills",
-      "commitHash": "fd367ad81b20",
-      "files": ["SKILL.md", "scripts"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/testing-handbook-skills/skills/ossfuzz",
-      "name": "ossfuzz",
-      "description": "OSS-Fuzz provides free continuous fuzzing for open source projects. Use when setting up continuous fuzzing infrastructure or enrolling projects.\n",
-      "categories": ["Other"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/testing-handbook-skills/skills/ossfuzz",
-      "commitHash": "695119c312e0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/testing-handbook-skills/skills/testing-handbook-generator",
-      "name": "testing-handbook-generator",
-      "description": "Meta-skill that analyzes the Trail of Bits Testing Handbook (appsec.guide) and generates Claude Code skills for security testing tools and techniques. Use when creating new skills based on handbook content.\n",
-      "categories": ["Development", "Productivity", "AI & ML"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/testing-handbook-skills/skills/testing-handbook-generator",
-      "commitHash": "9f7f8adad9cc",
-      "files": ["SKILL.md", "agent-prompt.md", "discovery.md", "templates", "testing.md"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/testing-handbook-skills/skills/aflpp",
-      "name": "aflpp",
-      "description": "AFL++ is a fork of AFL with better fuzzing performance and advanced features. Use for multi-core fuzzing of C/C++ projects.\n",
-      "categories": ["Other"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/testing-handbook-skills/skills/aflpp",
-      "commitHash": "78bcf4c08691",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/building-secure-contracts/skills/substrate-vulnerability-scanner",
-      "name": "substrate-vulnerability-scanner",
-      "description": "Scans Substrate/Polkadot pallets for 7 critical vulnerabilities including arithmetic overflow, panic DoS, incorrect weights, and bad origin checks. Use when auditing Substrate runtimes or FRAME pallets.",
-      "categories": ["Security"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/building-secure-contracts/skills/substrate-vulnerability-scanner",
-      "commitHash": "650f6e370031",
-      "files": ["SKILL.md", "resources"]
-    },
-    {
-      "id": "trailofbits/skills/plugins/testing-handbook-skills/skills/libafl",
-      "name": "libafl",
-      "description": "LibAFL is a modular fuzzing library for building custom fuzzers. Use for advanced fuzzing needs, custom mutators, or non-standard fuzzing targets.\n",
-      "categories": ["Development"],
-      "author": "trailofbits",
-      "repo": "trailofbits/skills",
-      "path": "plugins/testing-handbook-skills/skills/libafl",
-      "commitHash": "695119c312e0",
-      "files": ["SKILL.md"]
     },
     {
       "id": "MicrosoftDocs/mcp/skills/microsoft-docs",
@@ -9534,6 +8919,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "CloudAI-X/claude-workflow-v2/skills/designing-architecture",
+      "name": "designing-architecture",
+      "description": "Designs software architecture and selects appropriate patterns for projects. Use when designing systems, choosing architecture patterns, structuring projects, making technical decisions, or when asked about microservices, monoliths, or architectural approaches.",
+      "categories": ["Development"],
+      "author": "CloudAI-X",
+      "repo": "CloudAI-X/claude-workflow-v2",
+      "path": "skills/designing-architecture",
+      "commitHash": "28af9ed56fe0",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "CloudAI-X/claude-workflow-v2/skills/optimizing-performance",
       "name": "optimizing-performance",
       "description": "Analyzes and optimizes application performance across frontend, backend, and database layers. Use when diagnosing slowness, improving load times, optimizing queries, reducing bundle size, or when asked about performance issues.",
@@ -9567,6 +8963,43 @@
       "files": ["SKILL.md", "references"]
     },
     {
+      "id": "AIPexStudio/AIPex/packages/browser-runtime/src/skill/built-in/skill-creator-browser",
+      "name": "skill-creator",
+      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends AIPex's capabilities with specialized knowledge, workflows, or tool integrations.",
+      "categories": ["Other"],
+      "author": "AIPexStudio",
+      "repo": "AIPexStudio/AIPex",
+      "path": "packages/browser-runtime/src/skill/built-in/skill-creator-browser",
+      "commitHash": "0738605c0262",
+      "files": ["LICENSE.txt", "SKILL.md", "scripts"]
+    },
+    {
+      "id": "AIPexStudio/AIPex/packages/browser-runtime/src/skill/built-in/ux-audit-walkthrough",
+      "name": "ux-audit-walkthrough",
+      "description": "Minimalist UX/Interaction Audit Expert that deconstructs complex interactions through cognitive load and operational efficiency lenses. Use this skill when you need to perform a UX walkthrough audit on a Figma prototype or web interface, evaluating usability based on principles like fewer clicks, less UI elements, no hidden logic, and self-explanatory design.",
+      "categories": ["Design"],
+      "author": "AIPexStudio",
+      "repo": "AIPexStudio/AIPex",
+      "path": "packages/browser-runtime/src/skill/built-in/ux-audit-walkthrough",
+      "commitHash": "0738605c0262",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "AIPexStudio/AIPex/packages/browser-runtime/src/skill/built-in/wcag22-a11y-audit",
+      "name": "wcag22-a11y-audit",
+      "description": "WCAG 2.2 Accessibility Audit skill that systematically evaluates web pages against 8 core Success Criteria (1.1.1, 1.4.3, 1.4.11, 2.1.1, 2.1.2, 2.4.3, 2.4.7, 4.1.2) using accessibility tree inspection and visual analysis. Use this skill when you need to perform accessibility testing/auditing on a live webpage.",
+      "categories": ["Development", "Research"],
+      "author": "AIPexStudio",
+      "repo": "AIPexStudio/AIPex",
+      "path": "packages/browser-runtime/src/skill/built-in/wcag22-a11y-audit",
+      "commitHash": "0738605c0262",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "softaworks/agent-toolkit/skills/mui",
       "name": "mui",
       "description": "Material-UI v7 component library patterns including sx prop styling, theme integration, responsive design, and MUI-specific hooks. Use when working with MUI components, styling with sx prop, theme customization, or MUI utilities.",
@@ -9589,15 +9022,15 @@
       "files": ["README.md", "SKILL.md", "references"]
     },
     {
-      "id": "softaworks/agent-toolkit/skills/codex",
-      "name": "codex",
-      "description": "Use when the user asks to run Codex CLI (codex exec, codex resume) or references OpenAI Codex for code analysis, refactoring, or automated editing. Uses GPT-5.2 by default for state-of-the-art software engineering.",
-      "categories": ["Development", "Writing", "AI & ML"],
+      "id": "softaworks/agent-toolkit/skills/gepetto",
+      "name": "gepetto",
+      "description": "Creates detailed, sectionized implementation plans through research, stakeholder interviews, and multi-LLM review. Use when planning features that need thorough pre-implementation analysis.",
+      "categories": ["Business", "Research", "AI & ML"],
       "author": "softaworks",
       "repo": "softaworks/agent-toolkit",
-      "path": "skills/codex",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md"]
+      "path": "skills/gepetto",
+      "commitHash": "e6077cf7cd68",
+      "files": ["README.md", "SKILL.md", "references"]
     },
     {
       "id": "softaworks/agent-toolkit/skills/draw-io",
@@ -9951,180 +9384,18 @@
       "files": ["LICENSE.txt", "SKILL.md", "examples", "rules", "templates"]
     },
     {
-      "id": "kasperjunge/agent-resources/.opencode/skill/ost",
-      "name": "ost",
-      "description": "Use when running or maintaining an Opportunity Solution Tree (OST) workflow with a lightweight graph store and CLI. Provides a single entry skill that routes to outcome, opportunity, solution, and assumption/experiment phases via progressive disclosure.",
-      "categories": ["Other"],
-      "author": "kasperjunge",
-      "repo": "kasperjunge/agent-resources",
-      "path": ".opencode/skill/ost",
-      "commitHash": "fcd8d4d41fe7",
-      "files": [".agr.json", "SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "kasperjunge/agent-resources/.opencode/skill/code-review",
-      "name": "code-review",
-      "description": "Use when reviewing code changes before committing, after implementing features, or when asked to review. Triggers on staged changes, PR reviews, or explicit review requests.",
-      "categories": ["Development"],
-      "author": "kasperjunge",
-      "repo": "kasperjunge/agent-resources",
-      "path": ".opencode/skill/code-review",
-      "commitHash": "fcd8d4d41fe7",
-      "files": [".agr.json", "SKILL.md", "scripts"]
-    },
-    {
-      "id": "kasperjunge/agent-resources/.opencode/skill/commit-work",
-      "name": "commit-work",
-      "description": "Use when work is complete and ready to commit. Triggers after code review passes, when asked to \"commit\", \"save this\", or \"wrap up\". Runs quality checks, updates changelog, creates commit.",
-      "categories": ["Development"],
-      "author": "kasperjunge",
-      "repo": "kasperjunge/agent-resources",
-      "path": ".opencode/skill/commit-work",
-      "commitHash": "fcd8d4d41fe7",
-      "files": [".agr.json", "SKILL.md", "scripts"]
-    },
-    {
-      "id": "kasperjunge/agent-resources/.opencode/skill/create-plan",
-      "name": "create-plan",
-      "description": "Use when solution space exploration is complete and you're ready to create an implementation plan. Enforces \"simple over easy\" - the fundamentally right solution, not the path of least resistance. Triggers after /design-solution, when a solution has been chosen, or when asked to \"make a plan\" or \"create a plan\".",
-      "categories": ["Other"],
-      "author": "kasperjunge",
-      "repo": "kasperjunge/agent-resources",
-      "path": ".opencode/skill/create-plan",
-      "commitHash": "fcd8d4d41fe7",
-      "files": [".agr.json", "SKILL.md"]
-    },
-    {
-      "id": "kasperjunge/agent-resources/.opencode/skill/make-release",
-      "name": "make-release",
-      "description": "Use when ready to publish a new version. Triggers on \"release\", \"publish\", \"ship it\", or version bump requests. Runs quality checks, bumps version, tags, and creates GitHub release.",
-      "categories": ["Development"],
-      "author": "kasperjunge",
-      "repo": "kasperjunge/agent-resources",
-      "path": ".opencode/skill/make-release",
-      "commitHash": "fcd8d4d41fe7",
-      "files": [".agr.json", "SKILL.md", "scripts"]
-    },
-    {
-      "id": "kasperjunge/agent-resources/.opencode/skill/enhance-docs",
-      "name": "enhance-docs",
-      "description": "Use when documentation needs to be updated, clarified, or reorganized to better serve users' jobs-to-be-done with low cognitive load and high signal.",
-      "categories": ["Writing"],
-      "author": "kasperjunge",
-      "repo": "kasperjunge/agent-resources",
-      "path": ".opencode/skill/enhance-docs",
-      "commitHash": "fcd8d4d41fe7",
-      "files": [".agr.json", "SKILL.md"]
-    },
-    {
-      "id": "kasperjunge/agent-resources/skills/writing/skriv-som-kasper",
-      "name": "skriv-som-kasper",
-      "description": "Skriv, omskriv eller redigér tekst i Kaspers personlige skrivestil. Brug når brugeren beder om at skrive \"som Kasper\" eller ønsker stil-efterligning/tilpasning baseret på konkrete skriveeksempler.",
-      "categories": ["Other"],
-      "author": "kasperjunge",
-      "repo": "kasperjunge/agent-resources",
-      "path": "skills/writing/skriv-som-kasper",
-      "commitHash": "dd673eb2b4ee",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "kasperjunge/agent-resources/.opencode/skill/design-solution",
-      "name": "design-solution",
-      "description": "Converge on a single recommended solution after brainstorming options. Use when you have multiple candidate approaches and need to analyze trade-offs, select one, and define decision criteria before planning.",
-      "categories": ["Business"],
-      "author": "kasperjunge",
-      "repo": "kasperjunge/agent-resources",
-      "path": ".opencode/skill/design-solution",
-      "commitHash": "fcd8d4d41fe7",
-      "files": [".agr.json", "SKILL.md"]
-    },
-    {
-      "id": "kasperjunge/agent-resources/.opencode/skill/ideate-solutions",
-      "name": "ideate-solutions",
-      "description": "Use after opportunities are defined to generate and evaluate multiple product solution concepts before validating assumptions. Triggers when you need a set of distinct solution options tied to outcomes and opportunities.",
-      "categories": ["Other"],
-      "author": "kasperjunge",
-      "repo": "kasperjunge/agent-resources",
-      "path": ".opencode/skill/ideate-solutions",
-      "commitHash": "fcd8d4d41fe7",
-      "files": [".agr.json", "SKILL.md"]
-    },
-    {
-      "id": "kasperjunge/agent-resources/.opencode/skill/discover-outcomes",
-      "name": "discover-outcomes",
-      "description": "Use at the start of product strategy to define or refine desired outcomes and success metrics (e.g., for Opportunity Solution Trees or continuous discovery) before selecting opportunities or solutions.",
-      "categories": ["Other"],
-      "author": "kasperjunge",
-      "repo": "kasperjunge/agent-resources",
-      "path": ".opencode/skill/discover-outcomes",
-      "commitHash": "fcd8d4d41fe7",
-      "files": [".agr.json", "SKILL.md"]
-    },
-    {
-      "id": "kasperjunge/agent-resources/.opencode/skill/research-codebase",
-      "name": "research-codebase",
-      "description": "Research a task, problem, bug, or feature by exploring the codebase. Use when starting new work, encountering bugs, or needing to understand how existing implementation relates to a task. Triggers on \"research\", \"investigate\", \"look into\", or requests to understand implementation before making changes.",
-      "categories": ["Research"],
-      "author": "kasperjunge",
-      "repo": "kasperjunge/agent-resources",
-      "path": ".opencode/skill/research-codebase",
-      "commitHash": "fcd8d4d41fe7",
-      "files": [".agr.json", "SKILL.md"]
-    },
-    {
-      "id": "kasperjunge/agent-resources/.opencode/skill/brainstorm-solutions",
-      "name": "brainstorm-solutions",
-      "description": "Generate multiple viable solution options after research is complete, before converging on a single approach. Use when you need to explore the solution space, ask clarifying questions, and produce 3-5 distinct options to consider.",
-      "categories": ["Research"],
-      "author": "kasperjunge",
-      "repo": "kasperjunge/agent-resources",
-      "path": ".opencode/skill/brainstorm-solutions",
-      "commitHash": "fcd8d4d41fe7",
-      "files": [".agr.json", "SKILL.md"]
-    },
-    {
-      "id": "kasperjunge/agent-resources/.opencode/skill/discover-assumptions",
-      "name": "discover-assumptions",
-      "description": "Use after solution concepts exist to surface and prioritize assumptions behind outcomes, opportunities, or solution ideas and design experiments to test them.",
-      "categories": ["Other"],
-      "author": "kasperjunge",
-      "repo": "kasperjunge/agent-resources",
-      "path": ".opencode/skill/discover-assumptions",
-      "commitHash": "fcd8d4d41fe7",
-      "files": [".agr.json", "SKILL.md"]
-    },
-    {
-      "id": "kasperjunge/agent-resources/.opencode/skill/discover-opportunities",
-      "name": "discover-opportunities",
-      "description": "Use after outcomes are defined to discover opportunities, unmet needs, market gaps, or JTBD insights before choosing solutions.",
-      "categories": ["Finance"],
-      "author": "kasperjunge",
-      "repo": "kasperjunge/agent-resources",
-      "path": ".opencode/skill/discover-opportunities",
-      "commitHash": "fcd8d4d41fe7",
-      "files": [".agr.json", "SKILL.md"]
-    },
-    {
-      "id": "kasperjunge/agent-resources/.opencode/skill/refactor-for-determinism",
-      "name": "refactor-for-determinism",
-      "description": "Design or refactor skills by separating deterministic and non-deterministic steps. Use when creating or improving skills, especially to move repeatable workflows into scripts/ and update SKILL.md to call them.",
-      "categories": ["Other"],
-      "author": "kasperjunge",
-      "repo": "kasperjunge/agent-resources",
-      "path": ".opencode/skill/refactor-for-determinism",
-      "commitHash": "fcd8d4d41fe7",
-      "files": [".agr.json", "SKILL.md"]
-    },
-    {
-      "id": "kasperjunge/agent-resources/.opencode/skill/discover-codebase-enhancements",
-      "name": "discover-codebase-enhancements",
-      "description": "Use when the user asks for a deep codebase analysis to identify and rank improvements, optimizations, architectural enhancements, or potential bugs aligned to developer, end-user, and agent jobs-to-be-done.",
-      "categories": ["Development"],
-      "author": "kasperjunge",
-      "repo": "kasperjunge/agent-resources",
-      "path": ".opencode/skill/discover-codebase-enhancements",
-      "commitHash": "fcd8d4d41fe7",
-      "files": [".agr.json", "SKILL.md"]
+      "id": "rohitg00/skillkit/skills/find-skills",
+      "name": "find-skills",
+      "description": "Discover and install skills from multiple marketplaces for AI coding agents",
+      "categories": ["Research", "AI & ML"],
+      "author": "rohitg00",
+      "repo": "rohitg00/skillkit",
+      "path": "skills/find-skills",
+      "commitHash": "363d28e26677",
+      "version": "1.0.0",
+      "tags": ["meta", "discovery", "marketplace", "skills"],
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
     },
     {
       "id": "rudrankriyam/app-store-connect-cli-skills/skills/asc-app-create-ui",
@@ -10402,6 +9673,182 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "kasperjunge/agent-resources/.opencode/skill/ost",
+      "name": "ost",
+      "description": "Use when running or maintaining an Opportunity Solution Tree (OST) workflow with a lightweight graph store and CLI. Provides a single entry skill that routes to outcome, opportunity, solution, and assumption/experiment phases via progressive disclosure.",
+      "categories": ["Other"],
+      "author": "kasperjunge",
+      "repo": "kasperjunge/agent-resources",
+      "path": ".opencode/skill/ost",
+      "commitHash": "fcd8d4d41fe7",
+      "files": [".agr.json", "SKILL.md", "references", "scripts"]
+    },
+    {
+      "id": "kasperjunge/agent-resources/.opencode/skill/code-review",
+      "name": "code-review",
+      "description": "Use when reviewing code changes before committing, after implementing features, or when asked to review. Triggers on staged changes, PR reviews, or explicit review requests.",
+      "categories": ["Development"],
+      "author": "kasperjunge",
+      "repo": "kasperjunge/agent-resources",
+      "path": ".opencode/skill/code-review",
+      "commitHash": "fcd8d4d41fe7",
+      "files": [".agr.json", "SKILL.md", "scripts"]
+    },
+    {
+      "id": "kasperjunge/agent-resources/.opencode/skill/commit-work",
+      "name": "commit-work",
+      "description": "Use when work is complete and ready to commit. Triggers after code review passes, when asked to \"commit\", \"save this\", or \"wrap up\". Runs quality checks, updates changelog, creates commit.",
+      "categories": ["Development"],
+      "author": "kasperjunge",
+      "repo": "kasperjunge/agent-resources",
+      "path": ".opencode/skill/commit-work",
+      "commitHash": "fcd8d4d41fe7",
+      "files": [".agr.json", "SKILL.md", "scripts"]
+    },
+    {
+      "id": "kasperjunge/agent-resources/.opencode/skill/create-plan",
+      "name": "create-plan",
+      "description": "Use when solution space exploration is complete and you're ready to create an implementation plan. Enforces \"simple over easy\" - the fundamentally right solution, not the path of least resistance. Triggers after /design-solution, when a solution has been chosen, or when asked to \"make a plan\" or \"create a plan\".",
+      "categories": ["Other"],
+      "author": "kasperjunge",
+      "repo": "kasperjunge/agent-resources",
+      "path": ".opencode/skill/create-plan",
+      "commitHash": "fcd8d4d41fe7",
+      "files": [".agr.json", "SKILL.md"]
+    },
+    {
+      "id": "kasperjunge/agent-resources/.opencode/skill/make-release",
+      "name": "make-release",
+      "description": "Use when ready to publish a new version. Triggers on \"release\", \"publish\", \"ship it\", or version bump requests. Runs quality checks, bumps version, tags, and creates GitHub release.",
+      "categories": ["Development"],
+      "author": "kasperjunge",
+      "repo": "kasperjunge/agent-resources",
+      "path": ".opencode/skill/make-release",
+      "commitHash": "fcd8d4d41fe7",
+      "files": [".agr.json", "SKILL.md", "scripts"]
+    },
+    {
+      "id": "kasperjunge/agent-resources/.opencode/skill/enhance-docs",
+      "name": "enhance-docs",
+      "description": "Use when documentation needs to be updated, clarified, or reorganized to better serve users' jobs-to-be-done with low cognitive load and high signal.",
+      "categories": ["Writing"],
+      "author": "kasperjunge",
+      "repo": "kasperjunge/agent-resources",
+      "path": ".opencode/skill/enhance-docs",
+      "commitHash": "fcd8d4d41fe7",
+      "files": [".agr.json", "SKILL.md"]
+    },
+    {
+      "id": "kasperjunge/agent-resources/skills/writing/skriv-som-kasper",
+      "name": "skriv-som-kasper",
+      "description": "Skriv, omskriv eller redigér tekst i Kaspers personlige skrivestil. Brug når brugeren beder om at skrive \"som Kasper\" eller ønsker stil-efterligning/tilpasning baseret på konkrete skriveeksempler.",
+      "categories": ["Other"],
+      "author": "kasperjunge",
+      "repo": "kasperjunge/agent-resources",
+      "path": "skills/writing/skriv-som-kasper",
+      "commitHash": "dd673eb2b4ee",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "kasperjunge/agent-resources/.opencode/skill/design-solution",
+      "name": "design-solution",
+      "description": "Converge on a single recommended solution after brainstorming options. Use when you have multiple candidate approaches and need to analyze trade-offs, select one, and define decision criteria before planning.",
+      "categories": ["Business"],
+      "author": "kasperjunge",
+      "repo": "kasperjunge/agent-resources",
+      "path": ".opencode/skill/design-solution",
+      "commitHash": "fcd8d4d41fe7",
+      "files": [".agr.json", "SKILL.md"]
+    },
+    {
+      "id": "kasperjunge/agent-resources/.opencode/skill/ideate-solutions",
+      "name": "ideate-solutions",
+      "description": "Use after opportunities are defined to generate and evaluate multiple product solution concepts before validating assumptions. Triggers when you need a set of distinct solution options tied to outcomes and opportunities.",
+      "categories": ["Other"],
+      "author": "kasperjunge",
+      "repo": "kasperjunge/agent-resources",
+      "path": ".opencode/skill/ideate-solutions",
+      "commitHash": "fcd8d4d41fe7",
+      "files": [".agr.json", "SKILL.md"]
+    },
+    {
+      "id": "kasperjunge/agent-resources/.opencode/skill/discover-outcomes",
+      "name": "discover-outcomes",
+      "description": "Use at the start of product strategy to define or refine desired outcomes and success metrics (e.g., for Opportunity Solution Trees or continuous discovery) before selecting opportunities or solutions.",
+      "categories": ["Other"],
+      "author": "kasperjunge",
+      "repo": "kasperjunge/agent-resources",
+      "path": ".opencode/skill/discover-outcomes",
+      "commitHash": "fcd8d4d41fe7",
+      "files": [".agr.json", "SKILL.md"]
+    },
+    {
+      "id": "kasperjunge/agent-resources/.opencode/skill/research-codebase",
+      "name": "research-codebase",
+      "description": "Research a task, problem, bug, or feature by exploring the codebase. Use when starting new work, encountering bugs, or needing to understand how existing implementation relates to a task. Triggers on \"research\", \"investigate\", \"look into\", or requests to understand implementation before making changes.",
+      "categories": ["Research"],
+      "author": "kasperjunge",
+      "repo": "kasperjunge/agent-resources",
+      "path": ".opencode/skill/research-codebase",
+      "commitHash": "fcd8d4d41fe7",
+      "files": [".agr.json", "SKILL.md"]
+    },
+    {
+      "id": "kasperjunge/agent-resources/.opencode/skill/brainstorm-solutions",
+      "name": "brainstorm-solutions",
+      "description": "Generate multiple viable solution options after research is complete, before converging on a single approach. Use when you need to explore the solution space, ask clarifying questions, and produce 3-5 distinct options to consider.",
+      "categories": ["Research"],
+      "author": "kasperjunge",
+      "repo": "kasperjunge/agent-resources",
+      "path": ".opencode/skill/brainstorm-solutions",
+      "commitHash": "fcd8d4d41fe7",
+      "files": [".agr.json", "SKILL.md"]
+    },
+    {
+      "id": "kasperjunge/agent-resources/.opencode/skill/discover-assumptions",
+      "name": "discover-assumptions",
+      "description": "Use after solution concepts exist to surface and prioritize assumptions behind outcomes, opportunities, or solution ideas and design experiments to test them.",
+      "categories": ["Other"],
+      "author": "kasperjunge",
+      "repo": "kasperjunge/agent-resources",
+      "path": ".opencode/skill/discover-assumptions",
+      "commitHash": "fcd8d4d41fe7",
+      "files": [".agr.json", "SKILL.md"]
+    },
+    {
+      "id": "kasperjunge/agent-resources/.opencode/skill/discover-opportunities",
+      "name": "discover-opportunities",
+      "description": "Use after outcomes are defined to discover opportunities, unmet needs, market gaps, or JTBD insights before choosing solutions.",
+      "categories": ["Finance"],
+      "author": "kasperjunge",
+      "repo": "kasperjunge/agent-resources",
+      "path": ".opencode/skill/discover-opportunities",
+      "commitHash": "fcd8d4d41fe7",
+      "files": [".agr.json", "SKILL.md"]
+    },
+    {
+      "id": "kasperjunge/agent-resources/.opencode/skill/refactor-for-determinism",
+      "name": "refactor-for-determinism",
+      "description": "Design or refactor skills by separating deterministic and non-deterministic steps. Use when creating or improving skills, especially to move repeatable workflows into scripts/ and update SKILL.md to call them.",
+      "categories": ["Other"],
+      "author": "kasperjunge",
+      "repo": "kasperjunge/agent-resources",
+      "path": ".opencode/skill/refactor-for-determinism",
+      "commitHash": "fcd8d4d41fe7",
+      "files": [".agr.json", "SKILL.md"]
+    },
+    {
+      "id": "kasperjunge/agent-resources/.opencode/skill/discover-codebase-enhancements",
+      "name": "discover-codebase-enhancements",
+      "description": "Use when the user asks for a deep codebase analysis to identify and rank improvements, optimizations, architectural enhancements, or potential bugs aligned to developer, end-user, and agent jobs-to-be-done.",
+      "categories": ["Development"],
+      "author": "kasperjunge",
+      "repo": "kasperjunge/agent-resources",
+      "path": ".opencode/skill/discover-codebase-enhancements",
+      "commitHash": "fcd8d4d41fe7",
+      "files": [".agr.json", "SKILL.md"]
+    },
+    {
       "id": "Code-and-Sorts/awesome-copilot-agents/skills/calculator",
       "name": "calculator",
       "description": "Performs arbitrary-precision arithmetic calculations including addition, subtraction, multiplication, division, and exponents. Use when the user asks to calculate, compute, or evaluate math expressions, or when precise decimal arithmetic is needed to avoid floating-point errors.",
@@ -10411,97 +9858,6 @@
       "path": "skills/calculator",
       "commitHash": "a56ef5157104",
       "files": ["SKILL.md", "scripts"]
-    },
-    {
-      "id": "rohitg00/skillkit/skills/find-skills",
-      "name": "find-skills",
-      "description": "Discover and install skills from multiple marketplaces for AI coding agents",
-      "categories": ["Research", "AI & ML"],
-      "author": "rohitg00",
-      "repo": "rohitg00/skillkit",
-      "path": "skills/find-skills",
-      "commitHash": "363d28e26677",
-      "version": "1.0.0",
-      "tags": ["meta", "discovery", "marketplace", "skills"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ghostsecurity/skills/plugins/ghost/skills/proxy",
-      "name": "ghost-proxy",
-      "description": "Starts and controls the reaper MITM proxy to capture, inspect, search, and replay HTTP/HTTPS traffic between clients and servers. Capabilities include starting/stopping the proxy scoped to specific domains, viewing captured request/response logs, searching traffic by method/path/status/host, and inspecting full raw HTTP entries for security analysis. Use when the user asks to \"start the proxy\", \"capture traffic\", \"intercept requests\", \"inspect HTTP traffic\", \"search captured requests\", or \"view request/response\".",
-      "categories": ["Other"],
-      "author": "ghostsecurity",
-      "repo": "ghostsecurity/skills",
-      "path": "plugins/ghost/skills/proxy",
-      "commitHash": "1fe7998e9849",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ghostsecurity/skills/plugins/ghost/skills/scan-code",
-      "name": "ghost-scan-code",
-      "description": "Ghost Security - SAST code scanner. Finds security vulnerabilities in source code by planning and executing targeted scans for issues like SQL injection, XSS, BOLA, BFLA, SSRF, and other OWASP categories. Use when the user asks for a code security audit, SAST scan, vulnerability scan of source code, or wants to find security flaws in a codebase.",
-      "categories": ["Security", "Research"],
-      "author": "ghostsecurity",
-      "repo": "ghostsecurity/skills",
-      "path": "plugins/ghost/skills/scan-code",
-      "commitHash": "7d9a43abde92",
-      "files": ["SKILL.md", "criteria", "prompts", "scripts"]
-    },
-    {
-      "id": "ghostsecurity/skills/plugins/ghost/skills/scan-secrets",
-      "name": "ghost-scan-secrets",
-      "description": "Ghost Security - Secrets and credentials scanner. Scans codebase for leaked API keys, tokens, passwords, and sensitive data. Detects hardcoded secrets and generates findings with severity and remediation guidance. Use when the user asks to check for leaked secrets, scan for credentials, find hardcoded API keys or passwords, detect exposed .env values, or audit code for sensitive data exposure.\n",
-      "categories": ["Development", "Security"],
-      "author": "ghostsecurity",
-      "repo": "ghostsecurity/skills",
-      "path": "plugins/ghost/skills/scan-secrets",
-      "commitHash": "1fe7998e9849",
-      "files": ["README.md", "SKILL.md", "agents"]
-    },
-    {
-      "id": "ghostsecurity/skills/plugins/ghost/skills/report",
-      "name": "ghost-report",
-      "description": "Ghost Security — combined security report. Aggregates findings from all scan skills (scan-deps, scan-secrets, scan-code) into a single prioritized report focused on the highest risk, highest confidence issues. Use when the user requests a security overview, vulnerability summary, full security audit, or combined scan results.",
-      "categories": ["Security"],
-      "author": "ghostsecurity",
-      "repo": "ghostsecurity/skills",
-      "path": "plugins/ghost/skills/report",
-      "commitHash": "1fe7998e9849",
-      "files": ["SKILL.md", "report-template.md"]
-    },
-    {
-      "id": "ghostsecurity/skills/plugins/ghost/skills/repo-context",
-      "name": "ghost-repo-context",
-      "description": "Scans directory structure, detects projects, maps dependencies, and documents code organization into a repo.md file. Use when the user needs a codebase overview, project structure map, or repository context before security analysis.",
-      "categories": ["Development", "Documents"],
-      "author": "ghostsecurity",
-      "repo": "ghostsecurity/skills",
-      "path": "plugins/ghost/skills/repo-context",
-      "commitHash": "1fe7998e9849",
-      "files": ["SKILL.md", "detector.md", "summarizer.md", "template-repo.md"]
-    },
-    {
-      "id": "ghostsecurity/skills/plugins/ghost/skills/validate",
-      "name": "ghost-validate",
-      "description": "This skill should be used when the user asks to \"validate a finding\", \"check if a vulnerability is real\", \"triage a security finding\", \"confirm a vulnerability\", \"determine if a finding is a true positive or false positive\", or provides a security finding for review. It validates security vulnerability findings by tracing data flows, verifying exploit conditions, analyzing security controls, and optionally testing attack vectors against a live application.",
-      "categories": ["Development", "Security", "AI & ML"],
-      "author": "ghostsecurity",
-      "repo": "ghostsecurity/skills",
-      "path": "plugins/ghost/skills/validate",
-      "commitHash": "1fe7998e9849",
-      "files": ["SKILL.md", "VULNERABILITY_PATTERNS.md"]
-    },
-    {
-      "id": "ghostsecurity/skills/plugins/ghost/skills/scan-deps",
-      "name": "ghost-scan-deps",
-      "description": "Ghost Security - Software Composition Analysis (SCA) scanner. Scans dependency lockfiles for known vulnerabilities, identifies CVEs, and generates findings with severity levels and remediation guidance. Use when the user asks about dependency vulnerabilities, vulnerable packages, CVE checks, security audits of dependencies, or wants to scan lockfiles like package-lock.json, yarn.lock, go.sum, or Gemfile.lock.\n",
-      "categories": ["Security", "Data & Analytics"],
-      "author": "ghostsecurity",
-      "repo": "ghostsecurity/skills",
-      "path": "plugins/ghost/skills/scan-deps",
-      "commitHash": "1fe7998e9849",
-      "files": ["README.md", "SKILL.md", "agents"]
     },
     {
       "id": "gotalab/skillport/.skills/experimental/skill-evaluator",
@@ -11019,6 +10375,17 @@
       "path": "skills/legal-risk-assessment-anthropic",
       "commitHash": "a5334c66dda1",
       "files": ["LICENSE.txt", "SKILL.md"]
+    },
+    {
+      "id": "lawvable/awesome-legal-skills/skills/statute-analysis-rafal-fryc",
+      "name": "statute-analysis-rafal-fryc",
+      "description": "Guide for reading, interpreting, and applying statutes, regulations, and rules in legal and compliance contexts. Use when the user asks about (1) how to read and interpret statutes, regulations, or rules, (2) statutory interpretation methods and canons of construction, (3) understanding legislative intent, (4) applying statutes to specific legal situations, (5) extracting requirements from legal text, (6) distinguishing between different types of legal requirements, or (7) cross-jurisdictional compliance analysis.",
+      "categories": ["Other"],
+      "author": "lawvable",
+      "repo": "lawvable/awesome-legal-skills",
+      "path": "skills/statute-analysis-rafal-fryc",
+      "commitHash": "a5334c66dda1",
+      "files": ["LICENSE.txt", "SKILL.md", "references"]
     },
     {
       "id": "lawvable/awesome-legal-skills/skills/security-review-openai",
@@ -12521,6 +11888,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "nicepkg/ai-workflow/workflows/marketing-pro-workflow/.claude/skills/technical-launch-planner",
+      "name": "technical-launch-planner",
+      "description": "Plan and execute technical product launches for developer tools, APIs, and technical products. Use this skill when technical PMMs need to \"plan a launch\", \"create a launch strategy\", \"coordinate a product release\", or \"prepare for GA/beta launch\".",
+      "categories": ["Development"],
+      "author": "nicepkg",
+      "repo": "nicepkg/ai-workflow",
+      "path": "workflows/marketing-pro-workflow/.claude/skills/technical-launch-planner",
+      "commitHash": "be84779ab928",
+      "files": ["SKILL.md", "references", "scripts"]
+    },
+    {
       "id": "nicepkg/ai-workflow/workflows/stock-trader-workflow/.claude/skills/institutional-flow-tracker",
       "name": "institutional-flow-tracker",
       "description": "Use this skill to track institutional investor ownership changes and portfolio flows using 13F filings data. Analyzes hedge funds, mutual funds, and other institutional holders to identify stocks with significant smart money accumulation or distribution. Helps discover stocks before major moves by following where sophisticated investors are deploying capital.",
@@ -12914,83 +12292,6 @@
       "files": ["SKILL.md", "resources"]
     },
     {
-      "id": "kevmoo/dash_skills/.agent/skills/dart-best-practices",
-      "name": "dart-best-practices",
-      "description": "General best practices for Dart development.\nCovers code style, effective Dart, and language features.",
-      "categories": ["Development", "Design"],
-      "author": "kevmoo",
-      "repo": "kevmoo/dash_skills",
-      "path": ".agent/skills/dart-best-practices",
-      "commitHash": "cbf5acbbb2f4",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "kevmoo/dash_skills/.agent/skills/dart-package-maintenance",
-      "name": "dart-package-maintenance",
-      "description": "Guidelines for maintaining external Dart packages, covering versioning,\npublishing workflows, and pull request management. Use when updating Dart\npackages, preparing for a release, or managing collaborative changes in a\nrepository.",
-      "categories": ["Development", "Design", "Productivity"],
-      "author": "kevmoo",
-      "repo": "kevmoo/dash_skills",
-      "path": ".agent/skills/dart-package-maintenance",
-      "commitHash": "65acf6090652",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "kevmoo/dash_skills/.agent/skills/dart-checks-migration",
-      "name": "dart-checks-migration",
-      "description": "Replace the usage of `expect` and similar functions from `package:matcher`\nto `package:checks` equivalents.",
-      "categories": ["Design"],
-      "author": "kevmoo",
-      "repo": "kevmoo/dash_skills",
-      "path": ".agent/skills/dart-checks-migration",
-      "commitHash": "cbf5acbbb2f4",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "kevmoo/dash_skills/.agent/skills/dart-doc-validation",
-      "name": "dart-doc-validation",
-      "description": "Best practices for validating Dart documentation comments.\nCovers using `dart doc` to catch unresolved references and macros.",
-      "categories": ["Other"],
-      "author": "kevmoo",
-      "repo": "kevmoo/dash_skills",
-      "path": ".agent/skills/dart-doc-validation",
-      "commitHash": "e8e00767ea2c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "kevmoo/dash_skills/.agent/skills/dart-cli-app-best-practices",
-      "name": "dart-cli-app-best-practices",
-      "description": "Best practices for creating high-quality, executable Dart CLI applications.\nCovers entrypoint structure, exit code handling, and recommended packages.",
-      "categories": ["Development"],
-      "author": "kevmoo",
-      "repo": "kevmoo/dash_skills",
-      "path": ".agent/skills/dart-cli-app-best-practices",
-      "commitHash": "cbf5acbbb2f4",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "kevmoo/dash_skills/.agent/skills/dart-matcher-best-practices",
-      "name": "dart-matcher-best-practices",
-      "description": "Best practices for using `expect` and `package:matcher`.\nFocuses on readable assertions, proper matcher selection, and avoiding common pitfalls.",
-      "categories": ["Other"],
-      "author": "kevmoo",
-      "repo": "kevmoo/dash_skills",
-      "path": ".agent/skills/dart-matcher-best-practices",
-      "commitHash": "d85671c55cb5",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "kevmoo/dash_skills/.agent/skills/dart-test-fundamentals",
-      "name": "dart-test-fundamentals",
-      "description": "Core concepts and best practices for `package:test`.\nCovers `test`, `group`, lifecycle methods (`setUp`, `tearDown`), and configuration (`dart_test.yaml`).",
-      "categories": ["Development", "Productivity"],
-      "author": "kevmoo",
-      "repo": "kevmoo/dash_skills",
-      "path": ".agent/skills/dart-test-fundamentals",
-      "commitHash": "d85671c55cb5",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "adaptyvbio/protein-design-skills/skills/pdb",
       "name": "pdb",
       "description": "Fetch and analyze protein structures from RCSB PDB. Use this skill when: (1) Need to download a structure by PDB ID, (2) Search for similar structures, (3) Prepare target for binder design, (4) Extract specific chains or domains, (5) Get structure metadata.\nFor sequence lookup, use uniprot. For binder design workflow, use binder-design.\n",
@@ -13240,39 +12541,6 @@
       "path": "skills/boltz",
       "commitHash": "da0408233020",
       "tags": ["structure-prediction", "validation", "open-source"],
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "FrankChen021/datastoria/src/lib/ai/skills/sql-expert",
-      "name": "sql-expert",
-      "description": "Expert system for generating, validating, and optimizing ClickHouse SQL. Use this when the user needs data, queries, or analysis.",
-      "categories": ["Data & Analytics"],
-      "author": "FrankChen021",
-      "repo": "FrankChen021/datastoria",
-      "path": "src/lib/ai/skills/sql-expert",
-      "commitHash": "18c7f49cb40a",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "FrankChen021/datastoria/src/lib/ai/skills/optimization",
-      "name": "optimization",
-      "description": "Optimize slow queries, analyze SQL performance, find expensive queries. Use when the user mentions slow queries, optimize, performance, cpu, memory, duration.",
-      "categories": ["Research"],
-      "author": "FrankChen021",
-      "repo": "FrankChen021/datastoria",
-      "path": "src/lib/ai/skills/optimization",
-      "commitHash": "a54b95151e0b",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "FrankChen021/datastoria/src/lib/ai/skills/visualization",
-      "name": "visualization",
-      "description": "Rules for charts and visualization. Use when the user asks for charts, graphs, plots, or visual representations (line, bar, pie, timeseries).",
-      "categories": ["Design", "Data & Analytics"],
-      "author": "FrankChen021",
-      "repo": "FrankChen021/datastoria",
-      "path": "src/lib/ai/skills/visualization",
-      "commitHash": "8b9039cb2bcf",
       "files": ["SKILL.md"]
     },
     {
@@ -13646,6 +12914,17 @@
       "files": ["LICENSE.txt", "SKILL.md", "api", "examples", "templates"]
     },
     {
+      "id": "partme-ai/full-stack-skills/skills/learning-assessor",
+      "name": "learning-assessor",
+      "description": "Provides comprehensive guidance for learning assessment including assessment creation, evaluation methods, and assessment best practices. Use when the user asks about learning assessment, needs to create assessments, evaluate learning, or implement assessment strategies.",
+      "categories": ["Research"],
+      "author": "partme-ai",
+      "repo": "partme-ai/full-stack-skills",
+      "path": "skills/learning-assessor",
+      "commitHash": "0c7d1f380df8",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "partme-ai/full-stack-skills/skills/spring-cloud-alibaba",
       "name": "spring-cloud-alibaba",
       "description": "Provides comprehensive guidance for Spring Cloud Alibaba including Nacos, Sentinel, RocketMQ, and Alibaba Cloud integration. Use when the user asks about Spring Cloud Alibaba, needs to use Alibaba Cloud services, implement service discovery with Nacos, or work with Spring Cloud Alibaba components.",
@@ -13853,24 +13132,6 @@
       "path": "skills/ascii-diagram-boxflow",
       "commitHash": "9924c0d0759c",
       "files": ["LICENSE.txt", "SKILL.md", "examples", "scripts"]
-    },
-    {
-      "id": "partme-ai/full-stack-skills/skills/mermaid",
-      "name": "mermaid",
-      "description": "Provides comprehensive guidance for creating Mermaid diagrams. Mermaid is a JavaScript-based diagramming and charting tool that uses Markdown-inspired text definitions and a renderer to create and modify complex diagrams. The main purpose of Mermaid is to help documentation catch up with development. Mermaid is particularly well-suited for use in Markdown documents, GitHub, GitLab, wikis, blogs, and other Markdown-based platforms. Use when the user wants to draw, create, generate, make, build, or visualize any diagram, chart, graph, flowchart, architecture diagram, sequence diagram, class diagram, state diagram, Gantt chart, mindmap, timeline, or any other visual diagram in Markdown-friendly format. This skill covers all 23+ Mermaid diagram types including flowcharts, sequence diagrams, class diagrams, state diagrams, ER diagrams, Gantt charts, pie charts, quadrant charts, Git graphs, C4 diagrams, mindmaps, timelines, and more. Always use this skill when the user mentions Mermaid, needs diagrams for Markdown documentation, or wants quick diagrams that render directly in Markdown renderers.",
-      "categories": [
-        "Development",
-        "Design",
-        "Writing",
-        "Productivity",
-        "Data & Analytics",
-        "Documents"
-      ],
-      "author": "partme-ai",
-      "repo": "partme-ai/full-stack-skills",
-      "path": "skills/mermaid",
-      "commitHash": "c03b12c4f053",
-      "files": ["LICENSE.txt", "SKILL.md", "examples"]
     },
     {
       "id": "partme-ai/full-stack-skills/skills/ascii-mini-charts",
@@ -14192,6 +13453,17 @@
       "files": ["SKILL.md", "scripts"]
     },
     {
+      "id": "ZeroPointRepo/youtube-skills/clawhub/subtitles",
+      "name": "subtitles",
+      "description": "Get subtitles from YouTube videos for translation, language learning, or reading along. Use when the user asks for subtitles, subs, foreign language text, or wants to read video content. Supports multiple languages and timestamped output for sync'd reading.",
+      "categories": ["Writing", "Media"],
+      "author": "ZeroPointRepo",
+      "repo": "ZeroPointRepo/youtube-skills",
+      "path": "clawhub/subtitles",
+      "commitHash": "3b33c90d2726",
+      "files": ["SKILL.md", "scripts"]
+    },
+    {
       "id": "ZeroPointRepo/youtube-skills/clawhub/transcript",
       "name": "transcript",
       "description": "Get transcripts from any YouTube video — for summarization, research, translation, quoting, or content analysis. Use when the user shares a video link or asks \"what did they say\", \"get the transcript\", \"transcribe this video\", \"summarize this video\", or wants to analyze spoken content.",
@@ -14221,6 +13493,17 @@
       "author": "ZeroPointRepo",
       "repo": "ZeroPointRepo/youtube-skills",
       "path": "clawhub/video-transcript",
+      "commitHash": "3b33c90d2726",
+      "files": ["SKILL.md", "scripts"]
+    },
+    {
+      "id": "ZeroPointRepo/youtube-skills/clawhub/youtube-api",
+      "name": "youtube-api",
+      "description": "YouTube API access without the official API quota hassle — transcripts, search, channels, playlists, and metadata with no Google API key needed. Use when the user needs YouTube data programmatically, wants to avoid Google API quotas, or asks for \"youtube api\", \"get video data\", \"youtube without api key\", \"no quota youtube\".",
+      "categories": ["Media"],
+      "author": "ZeroPointRepo",
+      "repo": "ZeroPointRepo/youtube-skills",
+      "path": "clawhub/youtube-api",
       "commitHash": "3b33c90d2726",
       "files": ["SKILL.md", "scripts"]
     },
@@ -14896,17 +14179,6 @@
       "files": ["SKILL.md", "examples", "references"]
     },
     {
-      "id": "aws-samples/sample-strands-agents-agentskills/skills/file-processing",
-      "name": "file-processing",
-      "description": "Process and analyze CSV, JSON, and text files with data transformation, cleaning, analysis, and visualization capabilities",
-      "categories": ["Data & Analytics", "Documents"],
-      "author": "aws-samples",
-      "repo": "aws-samples/sample-strands-agents-agentskills",
-      "path": "skills/file-processing",
-      "commitHash": "c5564fcd2e7c",
-      "files": ["SKILL.md", "scripts"]
-    },
-    {
       "id": "shinpr/mcp-image/skills/image-generation",
       "name": "image-generation",
       "description": "Enhances image generation prompts using Subject-Context-Style structure and best practices. Use this skill when generating images, creating illustrations, photos, visual assets, editing images, or crafting prompts for image generation.",
@@ -14918,70 +14190,15 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "paulp-o/ask-user-questions-mcp/skills/ask-user-questions",
-      "name": "ask-user-questions",
-      "description": "Ask clarifying questions to users via interactive TUI. Use when you need user input on preferences, implementation choices, or ambiguous instructions.",
-      "categories": ["Other"],
-      "author": "paulp-o",
-      "repo": "paulp-o/ask-user-questions-mcp",
-      "path": "skills/ask-user-questions",
-      "commitHash": "cc6dc4e22099",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "paulp-o/ask-user-questions-mcp/.opencode/skills/slash-apply-spec",
-      "name": "slash-apply-spec",
-      "description": "Extending (and replacing) /opsx-apply slashCommand. Design parallelization strategy and apply tasks.",
-      "categories": ["Other"],
-      "author": "paulp-o",
-      "repo": "paulp-o/ask-user-questions-mcp",
-      "path": ".opencode/skills/slash-apply-spec",
-      "commitHash": "eacbc30555e1",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "paulp-o/ask-user-questions-mcp/.opencode/skills/slash-nonspec-modification",
-      "name": "slash-nonspec-modification",
-      "description": "Lightweight modification workflow for bug fixes, typos, config changes, and small refactoring that don't require OpenSpec artifacts.",
-      "categories": ["Design"],
-      "author": "paulp-o",
-      "repo": "paulp-o/ask-user-questions-mcp",
-      "path": ".opencode/skills/slash-nonspec-modification",
-      "commitHash": "eacbc30555e1",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "paulp-o/ask-user-questions-mcp/.opencode/skills/slash-bugfix",
-      "name": "slash-bugfix",
-      "description": "Structured workflow for debugging and fixing bugs.",
-      "categories": ["Development"],
-      "author": "paulp-o",
-      "repo": "paulp-o/ask-user-questions-mcp",
-      "path": ".opencode/skills/slash-bugfix",
-      "commitHash": "eacbc30555e1",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "paulp-o/ask-user-questions-mcp/.opencode/skills/example-skill",
-      "name": "example-skill",
-      "description": "An example skill demonstrating the programmatic skill definition pattern.",
-      "categories": ["Other"],
-      "author": "paulp-o",
-      "repo": "paulp-o/ask-user-questions-mcp",
-      "path": ".opencode/skills/example-skill",
-      "commitHash": "eacbc30555e1",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "paulp-o/ask-user-questions-mcp/.opencode/skills/slash-create-spec",
-      "name": "slash-create-spec",
-      "description": "Extending (and replacing) /openspec-proposal slashCommand. Design and craft the best spec interactively.",
-      "categories": ["Other"],
-      "author": "paulp-o",
-      "repo": "paulp-o/ask-user-questions-mcp",
-      "path": ".opencode/skills/slash-create-spec",
-      "commitHash": "eacbc30555e1",
-      "files": ["SKILL.md"]
+      "id": "aws-samples/sample-strands-agents-agentskills/skills/file-processing",
+      "name": "file-processing",
+      "description": "Process and analyze CSV, JSON, and text files with data transformation, cleaning, analysis, and visualization capabilities",
+      "categories": ["Data & Analytics", "Documents"],
+      "author": "aws-samples",
+      "repo": "aws-samples/sample-strands-agents-agentskills",
+      "path": "skills/file-processing",
+      "commitHash": "c5564fcd2e7c",
+      "files": ["SKILL.md", "scripts"]
     },
     {
       "id": "MADTeacher/mad-agents-skills/dart-drift",
@@ -15094,6 +14311,72 @@
       "files": ["SKILL.md", "assets", "references"]
     },
     {
+      "id": "paulp-o/ask-user-questions-mcp/skills/ask-user-questions",
+      "name": "ask-user-questions",
+      "description": "Ask clarifying questions to users via interactive TUI. Use when you need user input on preferences, implementation choices, or ambiguous instructions.",
+      "categories": ["Other"],
+      "author": "paulp-o",
+      "repo": "paulp-o/ask-user-questions-mcp",
+      "path": "skills/ask-user-questions",
+      "commitHash": "cc6dc4e22099",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "paulp-o/ask-user-questions-mcp/.opencode/skills/slash-apply-spec",
+      "name": "slash-apply-spec",
+      "description": "Extending (and replacing) /opsx-apply slashCommand. Design parallelization strategy and apply tasks.",
+      "categories": ["Other"],
+      "author": "paulp-o",
+      "repo": "paulp-o/ask-user-questions-mcp",
+      "path": ".opencode/skills/slash-apply-spec",
+      "commitHash": "eacbc30555e1",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "paulp-o/ask-user-questions-mcp/.opencode/skills/slash-nonspec-modification",
+      "name": "slash-nonspec-modification",
+      "description": "Lightweight modification workflow for bug fixes, typos, config changes, and small refactoring that don't require OpenSpec artifacts.",
+      "categories": ["Design"],
+      "author": "paulp-o",
+      "repo": "paulp-o/ask-user-questions-mcp",
+      "path": ".opencode/skills/slash-nonspec-modification",
+      "commitHash": "eacbc30555e1",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "paulp-o/ask-user-questions-mcp/.opencode/skills/slash-bugfix",
+      "name": "slash-bugfix",
+      "description": "Structured workflow for debugging and fixing bugs.",
+      "categories": ["Development"],
+      "author": "paulp-o",
+      "repo": "paulp-o/ask-user-questions-mcp",
+      "path": ".opencode/skills/slash-bugfix",
+      "commitHash": "eacbc30555e1",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "paulp-o/ask-user-questions-mcp/.opencode/skills/example-skill",
+      "name": "example-skill",
+      "description": "An example skill demonstrating the programmatic skill definition pattern.",
+      "categories": ["Other"],
+      "author": "paulp-o",
+      "repo": "paulp-o/ask-user-questions-mcp",
+      "path": ".opencode/skills/example-skill",
+      "commitHash": "eacbc30555e1",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "paulp-o/ask-user-questions-mcp/.opencode/skills/slash-create-spec",
+      "name": "slash-create-spec",
+      "description": "Extending (and replacing) /openspec-proposal slashCommand. Design and craft the best spec interactively.",
+      "categories": ["Other"],
+      "author": "paulp-o",
+      "repo": "paulp-o/ask-user-questions-mcp",
+      "path": ".opencode/skills/slash-create-spec",
+      "commitHash": "eacbc30555e1",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "avivsinai/langfuse-mcp/.claude/skills/langfuse",
       "name": "langfuse",
       "description": "Debug AI traces, find exceptions, analyze sessions, and manage prompts via Langfuse MCP. Also handles MCP setup and configuration.",
@@ -15105,6 +14388,17 @@
       "version": "1.0.2",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "leonardomso/rust-skills",
+      "name": "rust-skills",
+      "description": "Comprehensive Rust coding guidelines with 179 rules across 14 categories. Use when writing, reviewing, or refactoring Rust code. Covers ownership, error handling, async patterns, API design, memory optimization, performance, testing, and common anti-patterns. Invoke with /rust-skills.\n",
+      "categories": ["Development", "Design"],
+      "author": "leonardomso",
+      "repo": "leonardomso/rust-skills",
+      "path": "",
+      "commitHash": "0373001db0b7",
+      "files": ["SKILL.md"]
     },
     {
       "id": "osovv/grace-marketplace/codex-skills/grace-fix",
@@ -15228,17 +14522,6 @@
       "files": ["SKILL.md", "agents", "references"]
     },
     {
-      "id": "leonardomso/rust-skills",
-      "name": "rust-skills",
-      "description": "Comprehensive Rust coding guidelines with 179 rules across 14 categories. Use when writing, reviewing, or refactoring Rust code. Covers ownership, error handling, async patterns, API design, memory optimization, performance, testing, and common anti-patterns. Invoke with /rust-skills.\n",
-      "categories": ["Development", "Design"],
-      "author": "leonardomso",
-      "repo": "leonardomso/rust-skills",
-      "path": "",
-      "commitHash": "0373001db0b7",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "gmickel/sheets-cli",
       "name": "sheets-cli",
       "description": "Read, write, and update Google Sheets data via CLI. Use when the user asks to read spreadsheet data, update cells, append rows, or work with Google Sheets. Triggers on mentions of spreadsheets, sheets, Google Sheets, tabular data in the cloud, or specific sheet names like \"Projects\" or \"Tasks\".",
@@ -15261,26 +14544,197 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "jordanrubin/FUTURE_TOKENS",
-      "name": "future-tokens",
-      "description": "Every AI output has structural blind spots determined by the generation process itself. Future Tokens operations are named, composable instruments that target specific blind spots. They surface new information on every pass because expanding the output changes the blind spot geometry.",
+      "id": "OmidZamani/dspy-skills/skills/dspy-rag-pipeline",
+      "name": "dspy-rag-pipeline",
+      "description": "This skill should be used when the user asks to \"build a RAG pipeline\", \"create retrieval augmented generation\", \"use ColBERTv2 in DSPy\", \"set up a retriever in DSPy\", mentions \"RAG with DSPy\", \"context retrieval\", \"multi-hop RAG\", or needs to build a DSPy system that retrieves external knowledge to answer questions with grounded, factual responses.",
       "categories": ["Other"],
-      "author": "jordanrubin",
-      "repo": "jordanrubin/FUTURE_TOKENS",
-      "path": "",
-      "commitHash": "d3cf01f6aafe",
+      "author": "OmidZamani",
+      "repo": "OmidZamani/dspy-skills",
+      "path": "skills/dspy-rag-pipeline",
+      "commitHash": "cdf5dd5af90e",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
     },
     {
-      "id": "gokapso/agent-skills/skills/integrate-whatsapp",
-      "name": "integrate-whatsapp",
-      "description": "Connect WhatsApp to your product with Kapso: onboard customers with setup links, detect connections, receive events via webhooks, and send messages/templates/media. Also manage WhatsApp Flows (create/update/publish, data endpoints, encryption). Use when integrating WhatsApp end-to-end.",
-      "categories": ["Productivity", "Integration"],
-      "author": "gokapso",
-      "repo": "gokapso/agent-skills",
-      "path": "skills/integrate-whatsapp",
-      "commitHash": "e5fff1ec22eb",
-      "files": ["SKILL.md", "assets", "package.json", "references", "scripts"]
+      "id": "OmidZamani/dspy-skills/skills/dspy-react-agent-builder",
+      "name": "dspy-react-agent-builder",
+      "description": "This skill should be used when the user asks to \"create a ReAct agent\", \"build an agent with tools\", \"implement tool-calling agent\", \"use dspy.ReAct\", mentions \"agent with tools\", \"reasoning and acting\", \"multi-step agent\", \"agent optimization with GEPA\", or needs to build production agents that use tools to solve complex tasks.",
+      "categories": ["Development"],
+      "author": "OmidZamani",
+      "repo": "OmidZamani/dspy-skills",
+      "path": "skills/dspy-react-agent-builder",
+      "commitHash": "cdf5dd5af90e",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "OmidZamani/dspy-skills/skills/dspy-finetune-bootstrap",
+      "name": "dspy-finetune-bootstrap",
+      "description": "This skill should be used when the user asks to \"fine-tune a DSPy model\", \"distill a program into weights\", \"use BootstrapFinetune\", \"create a student model\", \"reduce inference costs with fine-tuning\", mentions \"model distillation\", \"teacher-student training\", or wants to deploy a DSPy program as fine-tuned weights for production efficiency.",
+      "categories": ["DevOps", "AI & ML"],
+      "author": "OmidZamani",
+      "repo": "OmidZamani/dspy-skills",
+      "path": "skills/dspy-finetune-bootstrap",
+      "commitHash": "cdf5dd5af90e",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "OmidZamani/dspy-skills/skills/dspy-signature-designer",
+      "name": "dspy-signature-designer",
+      "description": "This skill should be used when the user asks to \"create a DSPy signature\", \"define inputs and outputs\", \"design a signature\", \"use InputField or OutputField\", \"add type hints to DSPy\", mentions \"signature class\", \"type-safe DSPy\", \"Pydantic models in DSPy\", or needs to define what a DSPy module should do with structured inputs and outputs.",
+      "categories": ["Other"],
+      "author": "OmidZamani",
+      "repo": "OmidZamani/dspy-skills",
+      "path": "skills/dspy-signature-designer",
+      "commitHash": "cdf5dd5af90e",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "OmidZamani/dspy-skills/skills/dspy-miprov2-optimizer",
+      "name": "dspy-miprov2-optimizer",
+      "description": "This skill should be used when the user asks to \"optimize a DSPy program\", \"use MIPROv2\", \"tune instructions and demos\", \"get best DSPy performance\", \"run Bayesian optimization\", mentions \"state-of-the-art DSPy optimizer\", \"joint instruction tuning\", or needs maximum performance from a DSPy program with substantial training data (200+ examples).",
+      "categories": ["AI & ML"],
+      "author": "OmidZamani",
+      "repo": "OmidZamani/dspy-skills",
+      "path": "skills/dspy-miprov2-optimizer",
+      "commitHash": "cdf5dd5af90e",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "OmidZamani/dspy-skills/skills/dspy-simba-optimizer",
+      "name": "dspy-simba-optimizer",
+      "description": "This skill should be used when the user asks to \"optimize with SIMBA\", \"use Bayesian optimization\", \"optimize agents with custom feedback\", mentions \"SIMBA optimizer\", \"mini-batch optimization\", \"statistical optimization\", \"lightweight optimizer\", or needs an alternative to MIPROv2/GEPA for programs with rich feedback signals.",
+      "categories": ["Other"],
+      "author": "OmidZamani",
+      "repo": "OmidZamani/dspy-skills",
+      "path": "skills/dspy-simba-optimizer",
+      "commitHash": "cdf5dd5af90e",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "OmidZamani/dspy-skills/skills/dspy-evaluation-suite",
+      "name": "dspy-evaluation-suite",
+      "description": "This skill should be used when the user asks to \"evaluate a DSPy program\", \"test my DSPy module\", \"measure performance\", \"create evaluation metrics\", \"use answer_exact_match or SemanticF1\", mentions \"Evaluate class\", \"comparing programs\", \"establishing baselines\", or needs to systematically test and measure DSPy program quality with custom or built-in metrics.",
+      "categories": ["Other"],
+      "author": "OmidZamani",
+      "repo": "OmidZamani/dspy-skills",
+      "path": "skills/dspy-evaluation-suite",
+      "commitHash": "cdf5dd5af90e",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "OmidZamani/dspy-skills/skills/dspy-bootstrap-fewshot",
+      "name": "dspy-bootstrap-fewshot",
+      "description": "This skill should be used when the user asks to \"bootstrap few-shot examples\", \"generate demonstrations\", \"use BootstrapFewShot\", \"optimize with limited data\", \"create training demos automatically\", mentions \"teacher model for few-shot\", \"10-50 training examples\", or wants automatic demonstration generation for a DSPy program without extensive compute.",
+      "categories": ["AI & ML"],
+      "author": "OmidZamani",
+      "repo": "OmidZamani/dspy-skills",
+      "path": "skills/dspy-bootstrap-fewshot",
+      "commitHash": "cdf5dd5af90e",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "OmidZamani/dspy-skills/skills/dspy-gepa-reflective",
+      "name": "dspy-gepa-reflective",
+      "description": "This skill should be used when the user asks to \"optimize an agent with GEPA\", \"use reflective optimization\", \"optimize ReAct agents\", \"provide feedback metrics\", mentions \"GEPA optimizer\", \"LLM reflection\", \"execution trajectories\", \"agentic systems optimization\", or needs to optimize complex multi-step agents using textual feedback on execution traces.",
+      "categories": ["AI & ML"],
+      "author": "OmidZamani",
+      "repo": "OmidZamani/dspy-skills",
+      "path": "skills/dspy-gepa-reflective",
+      "commitHash": "5f181d9920b8",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "OmidZamani/dspy-skills/skills/dspy-optimize-anything",
+      "name": "dspy-optimize-anything",
+      "description": "Universal text artifact optimizer using GEPA's optimize_anything API for code, prompts, agent architectures, configs, and more",
+      "categories": ["Development", "AI & ML"],
+      "author": "OmidZamani",
+      "repo": "OmidZamani/dspy-skills",
+      "path": "skills/dspy-optimize-anything",
+      "commitHash": "5970598aac4b",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "OmidZamani/dspy-skills/skills/dspy-haystack-integration",
+      "name": "dspy-haystack-integration",
+      "description": "This skill should be used when the user asks to \"integrate DSPy with Haystack\", \"optimize Haystack prompts using DSPy\", \"use DSPy to improve Haystack pipeline\", mentions \"Haystack pipeline optimization\", \"combining DSPy and Haystack\", \"extract DSPy prompt for Haystack\", or wants to use DSPy's optimization capabilities to automatically improve prompts in existing Haystack pipelines.",
+      "categories": ["Other"],
+      "author": "OmidZamani",
+      "repo": "OmidZamani/dspy-skills",
+      "path": "skills/dspy-haystack-integration",
+      "commitHash": "cdf5dd5af90e",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "examples", "references"]
+    },
+    {
+      "id": "OmidZamani/dspy-skills/skills/dspy-custom-module-design",
+      "name": "dspy-custom-module-design",
+      "description": "This skill should be used when the user asks to \"create custom DSPy module\", \"design a DSPy module\", \"extend dspy.Module\", \"build reusable DSPy component\", mentions \"custom module patterns\", \"module serialization\", \"stateful modules\", \"module testing\", or needs to design production-quality custom DSPy modules with proper architecture, state management, and testing.",
+      "categories": ["Development", "Design"],
+      "author": "OmidZamani",
+      "repo": "OmidZamani/dspy-skills",
+      "path": "skills/dspy-custom-module-design",
+      "commitHash": "cdf5dd5af90e",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "OmidZamani/dspy-skills/skills/dspy-debugging-observability",
+      "name": "dspy-debugging-observability",
+      "description": "This skill should be used when the user asks to \"debug DSPy programs\", \"trace LLM calls\", \"monitor production DSPy\", \"use MLflow with DSPy\", mentions \"inspect_history\", \"custom callbacks\", \"observability\", \"production monitoring\", \"cost tracking\", or needs to debug, trace, and monitor DSPy applications in development and production.",
+      "categories": ["Development", "DevOps", "AI & ML"],
+      "author": "OmidZamani",
+      "repo": "OmidZamani/dspy-skills",
+      "path": "skills/dspy-debugging-observability",
+      "commitHash": "cdf5dd5af90e",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "OmidZamani/dspy-skills/skills/dspy-advanced-module-composition",
+      "name": "dspy-advanced-module-composition",
+      "description": "This skill should be used when the user asks to \"compose DSPy modules\", \"use Ensemble optimizer\", \"combine multiple programs\", \"use dspy.MultiChainComparison\", mentions \"ensemble voting\", \"module composition\", \"sequential pipelines\", or needs to build complex multi-module DSPy programs with ensemble patterns or multi-chain comparison.",
+      "categories": ["Development"],
+      "author": "OmidZamani",
+      "repo": "OmidZamani/dspy-skills",
+      "path": "skills/dspy-advanced-module-composition",
+      "commitHash": "cdf5dd5af90e",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "OmidZamani/dspy-skills/skills/dspy-output-refinement-constraints",
+      "name": "dspy-output-refinement-constraints",
+      "description": "This skill should be used when the user asks to \"refine DSPy outputs\", \"enforce constraints\", \"use dspy.Refine\", \"select best output\", \"use dspy.BestOfN\", mentions \"output validation\", \"constraint checking\", \"multi-attempt generation\", \"reward function\", or needs to improve output quality through iterative refinement or best-of-N selection with custom constraints.",
+      "categories": ["Other"],
+      "author": "OmidZamani",
+      "repo": "OmidZamani/dspy-skills",
+      "path": "skills/dspy-output-refinement-constraints",
+      "commitHash": "cdf5dd5af90e",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
     },
     {
       "id": "addyosmani/agent-skills/skills/idea-refine",
@@ -15481,92 +14935,59 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "shinpr/agentic-code/.agents/skills/testing",
-      "name": "testing",
-      "description": "Applies TDD process, test quality criteria, and mock guidelines. Use when: writing unit tests, using mocks, or reviewing test quality.",
+      "id": "kylehughes/the-unofficial-swift-programming-language-skill/programming-swift",
+      "name": "programming-swift",
+      "description": "Provides the complete content of 'The Swift Programming Language (6.2.3)' book by Apple. Use this skill when you need to verify Swift syntax, look up language features, understand concurrency, resolve compiler errors, or consult the formal language reference.",
       "categories": ["Development"],
-      "author": "shinpr",
-      "repo": "shinpr/agentic-code",
-      "path": ".agents/skills/testing",
-      "commitHash": "cb53cf606e97",
-      "files": ["SKILL.md", "references"]
+      "author": "kylehughes",
+      "repo": "kylehughes/the-unofficial-swift-programming-language-skill",
+      "path": "programming-swift",
+      "commitHash": "177f276c93d7",
+      "files": ["GuidedTour", "LICENSE.txt", "LanguageGuide", "ReferenceManual", "SKILL.md"]
     },
     {
-      "id": "shinpr/agentic-code/.agents/skills/coding-rules",
-      "name": "coding-rules",
-      "description": "Applies coding standards for clean, maintainable code. Use when: writing functions, handling errors, refactoring, or reviewing code style.",
-      "categories": ["Development"],
-      "author": "shinpr",
-      "repo": "shinpr/agentic-code",
-      "path": ".agents/skills/coding-rules",
-      "commitHash": "cb53cf606e97",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "shinpr/agentic-code/.agents/skills/metacognition",
-      "name": "metacognition",
-      "description": "Validates approach and checks assumptions before/after tasks. Use when: starting work, encountering errors, or switching phases.",
+      "id": "jordanrubin/FUTURE_TOKENS",
+      "name": "future-tokens",
+      "description": "Every AI output has structural blind spots determined by the generation process itself. Future Tokens operations are named, composable instruments that target specific blind spots. They surface new information on every pass because expanding the output changes the blind spot geometry.",
       "categories": ["Other"],
-      "author": "shinpr",
-      "repo": "shinpr/agentic-code",
-      "path": ".agents/skills/metacognition",
-      "commitHash": "cb53cf606e97",
+      "author": "jordanrubin",
+      "repo": "jordanrubin/FUTURE_TOKENS",
+      "path": "",
+      "commitHash": "d3cf01f6aafe",
       "files": ["SKILL.md"]
     },
     {
-      "id": "shinpr/agentic-code/.agents/skills/testing-strategy",
-      "name": "testing-strategy",
-      "description": "Prioritizes tests based on ROI and critical user journeys. Use when: deciding test coverage, selecting test types, or budgeting effort.",
-      "categories": ["Development", "Business"],
-      "author": "shinpr",
-      "repo": "shinpr/agentic-code",
-      "path": ".agents/skills/testing-strategy",
-      "commitHash": "cb53cf606e97",
-      "files": ["SKILL.md"]
+      "id": "gokapso/agent-skills/skills/observe-whatsapp",
+      "name": "observe-whatsapp",
+      "description": "Observe and troubleshoot WhatsApp in Kapso: debug message delivery, inspect webhook deliveries/retries, triage API errors, and run health checks. Use when investigating production issues, message failures, or webhook delivery problems.",
+      "categories": ["Development", "Integration"],
+      "author": "gokapso",
+      "repo": "gokapso/agent-skills",
+      "path": "skills/observe-whatsapp",
+      "commitHash": "798923065844",
+      "files": ["SKILL.md", "assets", "package.json", "references", "scripts"]
     },
     {
-      "id": "shinpr/agentic-code/.agents/skills/ai-development-guide",
-      "name": "ai-development-guide",
-      "description": "Detects code smells, anti-patterns, and debugging issues. Use when: fixing bugs, reviewing code quality, or refactoring.",
-      "categories": ["Development"],
-      "author": "shinpr",
-      "repo": "shinpr/agentic-code",
-      "path": ".agents/skills/ai-development-guide",
-      "commitHash": "cb53cf606e97",
-      "files": ["SKILL.md"]
+      "id": "gokapso/agent-skills/skills/automate-whatsapp",
+      "name": "automate-whatsapp",
+      "description": "Build WhatsApp automations with Kapso workflows: configure WhatsApp triggers, edit workflow graphs, manage executions, deploy functions, and use databases/integrations for state. Use when automating WhatsApp conversations and event handling.",
+      "categories": ["Productivity", "Data & Analytics", "Integration"],
+      "author": "gokapso",
+      "repo": "gokapso/agent-skills",
+      "path": "skills/automate-whatsapp",
+      "commitHash": "798923065844",
+      "files": ["SKILL.md", "assets", "package.json", "references", "scripts"]
     },
     {
-      "id": "shinpr/agentic-code/.agents/skills/documentation-criteria",
-      "name": "documentation-criteria",
-      "description": "Guides PRD, ADR, Design Doc, and Work Plan creation. Use when: planning features, writing specs, or creating technical documents.",
-      "categories": ["Design", "Writing"],
-      "author": "shinpr",
-      "repo": "shinpr/agentic-code",
-      "path": ".agents/skills/documentation-criteria",
-      "commitHash": "6c13c9b13f30",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "shinpr/agentic-code/.agents/skills/integration-e2e-testing",
-      "name": "integration-e2e-testing",
-      "description": "Designs integration and E2E tests with mock boundaries. Use when: writing E2E tests, integration tests, or reviewing test quality.",
-      "categories": ["Development"],
-      "author": "shinpr",
-      "repo": "shinpr/agentic-code",
-      "path": ".agents/skills/integration-e2e-testing",
-      "commitHash": "cb53cf606e97",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "shinpr/agentic-code/.agents/skills/implementation-approach",
-      "name": "implementation-approach",
-      "description": "Selects implementation strategy (vertical/horizontal/hybrid) with risk assessment. Use when: planning features or deciding development approach.",
-      "categories": ["Other"],
-      "author": "shinpr",
-      "repo": "shinpr/agentic-code",
-      "path": ".agents/skills/implementation-approach",
-      "commitHash": "cb53cf606e97",
-      "files": ["SKILL.md"]
+      "id": "gokapso/agent-skills/skills/integrate-whatsapp",
+      "name": "integrate-whatsapp",
+      "description": "Connect WhatsApp to your product with Kapso: onboard customers with setup links, detect connections, receive events via webhooks, and send messages/templates/media. Also manage WhatsApp Flows (create/update/publish, data endpoints, encryption). Use when integrating WhatsApp end-to-end.",
+      "categories": ["Productivity", "Integration"],
+      "author": "gokapso",
+      "repo": "gokapso/agent-skills",
+      "path": "skills/integrate-whatsapp",
+      "commitHash": "e5fff1ec22eb",
+      "files": ["SKILL.md", "assets", "package.json", "references", "scripts"]
     },
     {
       "id": "ricardogomes/learning-skills/skills/find-core-ideas",
@@ -15679,283 +15100,6 @@
       "files": ["SKILL.md", "package.json"]
     },
     {
-      "id": "rootcastleco/rei-skills/skills/c-pro",
-      "name": "c-pro",
-      "description": "Write efficient C code with proper memory management, pointer",
-      "categories": ["Other"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/c-pro",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/vexor",
-      "name": "vexor",
-      "description": "Vector-powered CLI for semantic file search with a Claude/Codex skill",
-      "categories": ["AI & ML"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/vexor",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/pypict-skill",
-      "name": "pypict-skill",
-      "description": "Pairwise test generation",
-      "categories": ["Other"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/pypict-skill",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/x-article-publisher-skill",
-      "name": "x-article-publisher-skill",
-      "description": "Publish articles to X/Twitter",
-      "categories": ["Writing"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/x-article-publisher-skill",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/superpowers-lab",
-      "name": "superpowers-lab",
-      "description": "Lab environment for Claude superpowers",
-      "categories": ["Other"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/superpowers-lab",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/fal-generate",
-      "name": "fal-generate",
-      "description": "Generate images and videos using fal.ai AI models",
-      "categories": ["AI & ML"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/fal-generate",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/haskell-pro",
-      "name": "haskell-pro",
-      "description": "Expert Haskell engineer specializing in advanced type systems, pure",
-      "categories": ["Other"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/haskell-pro",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/code-reviewer",
-      "name": "code-reviewer",
-      "description": "Elite code review expert specializing in modern AI-powered code",
-      "categories": ["Development"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/code-reviewer",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/ui-skills",
-      "name": "ui-skills",
-      "description": "Opinionated, evolving constraints to guide agents when building interfaces",
-      "categories": ["Design", "AI & ML"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/ui-skills",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/search-specialist",
-      "name": "search-specialist",
-      "description": "Expert web researcher using advanced search techniques and",
-      "categories": ["Research"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/search-specialist",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/fal-audio",
-      "name": "fal-audio",
-      "description": "Text-to-speech and speech-to-text using fal.ai audio models",
-      "categories": ["AI & ML", "Media"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/fal-audio",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/performance-engineer",
-      "name": "performance-engineer",
-      "description": "Expert performance engineer specializing in modern observability,",
-      "categories": ["Other"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/performance-engineer",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/aws-skills",
-      "name": "aws-skills",
-      "description": "AWS development with infrastructure automation and cloud architecture patterns",
-      "categories": ["Development", "DevOps"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/aws-skills",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/nanobanana-ppt-skills",
-      "name": "nanobanana-ppt-skills",
-      "description": "AI-powered PPT generation with document analysis and styled images",
-      "categories": ["Design", "Documents"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/nanobanana-ppt-skills",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/architect-review",
-      "name": "architect-review",
-      "description": "Master software architect specializing in modern architecture",
-      "categories": ["Other"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/architect-review",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/fal-workflow",
-      "name": "fal-workflow",
-      "description": "Generate workflow JSON files for chaining AI models",
-      "categories": ["Productivity", "AI & ML"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/fal-workflow",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/claude-scientific-skills",
-      "name": "claude-scientific-skills",
-      "description": "Scientific research and analysis skills",
-      "categories": ["Research"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/claude-scientific-skills",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/fal-upscale",
-      "name": "fal-upscale",
-      "description": "Upscale and enhance image and video resolution using AI",
-      "categories": ["Other"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/fal-upscale",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/fal-image-edit",
-      "name": "fal-image-edit",
-      "description": "AI-powered image editing with style transfer and object removal",
-      "categories": ["Design", "Writing"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/fal-image-edit",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/ffuf-claude-skill",
-      "name": "ffuf-claude-skill",
-      "description": "Web fuzzing with ffuf",
-      "categories": ["Other"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/ffuf-claude-skill",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/fal-platform",
-      "name": "fal-platform",
-      "description": "Platform APIs for model management, pricing, and usage tracking",
-      "categories": ["Business"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/fal-platform",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/security-bluebook-builder",
-      "name": "security-bluebook-builder",
-      "description": "Build security Blue Books for sensitive apps",
-      "categories": ["Other"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/security-bluebook-builder",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/claude-win11-speckit-update-skill",
-      "name": "claude-win11-speckit-update-skill",
-      "description": "Windows 11 system management",
-      "categories": ["Other"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/claude-win11-speckit-update-skill",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/database-migrations-sql-migrations",
-      "name": "database-migrations-sql-migrations",
-      "description": "SQL database migrations with zero-downtime strategies for",
-      "categories": ["Data & Analytics"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/database-migrations-sql-migrations",
-      "commitHash": "e221025690cc",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "resources"]
-    },
-    {
-      "id": "rootcastleco/rei-skills/skills/rag-implementation",
-      "name": "rag-implementation",
-      "description": "Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vector databases and semantic search. Use when implementing knowledge-grounded AI, building document Q&A systems, or int...",
-      "categories": ["Data & Analytics", "Research", "AI & ML"],
-      "author": "rootcastleco",
-      "repo": "rootcastleco/rei-skills",
-      "path": "skills/rag-implementation",
-      "commitHash": "e221025690cc",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "SpillwaveSolutions/mastering-aws-cdk-plugin/skills/mastering-aws-cdk",
       "name": "mastering-aws-cdk",
       "description": "Guides AWS CDK v2 infrastructure-as-code development in TypeScript with patterns, troubleshooting, and deployment workflows. Use when creating or refactoring CDK stacks, debugging CloudFormation or CDK deploy errors, setting up CI/CD with GitHub Actions OIDC, or integrating AWS services (Lambda, API Gateway, ECS/Fargate, S3, DynamoDB, EventBridge, Aurora, MSK).",
@@ -16022,20 +15166,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "ruvnet/claude-flow/.agents/skills/stream-chain",
-      "name": "stream-chain",
-      "description": "Stream-JSON chaining for multi-agent pipelines, data transformation, and sequential workflows",
-      "categories": ["Data & Analytics", "AI & ML"],
-      "author": "ruvnet",
-      "repo": "ruvnet/claude-flow",
-      "path": ".agents/skills/stream-chain",
-      "commitHash": "3b9e108c3c08",
-      "version": "1.0.0",
-      "tags": ["streaming", "pipeline", "chaining", "multi-agent", "workflow"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "ruvnet/claude-flow/.agents/skills/agent-planner",
       "name": "agent-planner",
       "description": "Agent skill for planner - invoke with $agent-planner",
@@ -16044,28 +15174,6 @@
       "repo": "ruvnet/claude-flow",
       "path": ".agents/skills/agent-planner",
       "commitHash": "caf3f4788dae",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ruvnet/claude-flow/.agents/skills/swarm-advanced",
-      "name": "swarm-advanced",
-      "description": "Advanced swarm orchestration patterns for research, development, testing, and complex distributed workflows",
-      "categories": ["Development", "Research"],
-      "author": "ruvnet",
-      "repo": "ruvnet/claude-flow",
-      "path": ".agents/skills/swarm-advanced",
-      "commitHash": "3b9e108c3c08",
-      "version": "2.0.0",
-      "tags": [
-        "swarm",
-        "distributed",
-        "parallel",
-        "research",
-        "testing",
-        "development",
-        "coordination"
-      ],
-      "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
     },
     {
@@ -16091,19 +15199,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "ruvnet/claude-flow/.agents/skills/agentic-jujutsu",
-      "name": "agentic-jujutsu",
-      "description": "Quantum-resistant, self-learning version control for AI agents with ReasoningBank intelligence and multi-agent coordination",
-      "categories": ["AI & ML"],
-      "author": "ruvnet",
-      "repo": "ruvnet/claude-flow",
-      "path": ".agents/skills/agentic-jujutsu",
-      "commitHash": "3b9e108c3c08",
-      "version": "2.3.2",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "ruvnet/claude-flow/.agents/skills/agent-challenges",
       "name": "agent-challenges",
       "description": "Agent skill for challenges - invoke with $agent-challenges",
@@ -16123,20 +15218,6 @@
       "repo": "ruvnet/claude-flow",
       "path": ".agents/skills/agent-swarm-issue",
       "commitHash": "caf3f4788dae",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ruvnet/claude-flow/.agents/skills/github-multi-repo",
-      "name": "github-multi-repo",
-      "description": "Multi-repository coordination, synchronization, and architecture management with AI swarm orchestration",
-      "categories": ["Development", "Integration"],
-      "author": "ruvnet",
-      "repo": "ruvnet/claude-flow",
-      "path": ".agents/skills/github-multi-repo",
-      "commitHash": "3b9e108c3c08",
-      "version": "1.0.0",
-      "tags": ["multi-repo", "synchronization", "architecture", "coordination", "github"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
     },
     {
@@ -16455,6 +15536,17 @@
       "author": "ruvnet",
       "repo": "ruvnet/claude-flow",
       "path": ".agents/skills/agent-base-template-generator",
+      "commitHash": "caf3f4788dae",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ruvnet/claude-flow/.agents/skills/agent-sona-learning-optimizer",
+      "name": "agent-sona-learning-optimizer",
+      "description": "Agent skill for sona-learning-optimizer - invoke with $agent-sona-learning-optimizer",
+      "categories": ["Other"],
+      "author": "ruvnet",
+      "repo": "ruvnet/claude-flow",
+      "path": ".agents/skills/agent-sona-learning-optimizer",
       "commitHash": "caf3f4788dae",
       "files": ["SKILL.md"]
     },
@@ -16842,28 +15934,6 @@
       "files": ["SKILL.md", "scripts"]
     },
     {
-      "id": "ruvnet/claude-flow/.claude/skills/hive-mind-advanced",
-      "name": "hive-mind-advanced",
-      "description": "Advanced Hive Mind collective intelligence system for queen-led multi-agent coordination with consensus mechanisms and persistent memory",
-      "categories": ["AI & ML"],
-      "author": "ruvnet",
-      "repo": "ruvnet/claude-flow",
-      "path": ".claude/skills/hive-mind-advanced",
-      "commitHash": "18cf822e4a8b",
-      "version": "1.0.0",
-      "tags": [
-        "hive-mind",
-        "swarm",
-        "queen-worker",
-        "consensus",
-        "collective-intelligence",
-        "multi-agent",
-        "coordination"
-      ],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "ruvnet/claude-flow/.agents/skills/agent-sync-coordinator",
       "name": "agent-sync-coordinator",
       "description": "Agent skill for sync-coordinator - invoke with $agent-sync-coordinator",
@@ -17227,39 +16297,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "mcp-use/mcp-use/skills/mcp-builder",
-      "name": "mcp-builder",
-      "description": "DEPRECATED: This skill has been replaced by `mcp-app-builder`.\nCheck if `mcp-app-builder` is available in the skills folder. If not, install it:\n`npx skills install mcp-use/mcp-use --skill mcp-app-builder`\nUse `mcp-app-builder` instead of this skill.\n\nBuild Model Context Protocol (MCP) servers with mcp-use framework.\nUse when creating MCP servers, defining tools/resources/prompts, working with mcp-use,\nbootstrapping MCP projects, or when user mentions MCP development, tools, resources, or prompts.\n",
-      "categories": ["Development", "AI & ML"],
-      "author": "mcp-use",
-      "repo": "mcp-use/mcp-use",
-      "path": "skills/mcp-builder",
-      "commitHash": "4546a8c5b4f1",
-      "files": ["LICENSE.txt", "SKILL.md", "evals", "references"]
-    },
-    {
-      "id": "mcp-use/mcp-use/skills/mcp-apps-builder",
-      "name": "mcp-apps-builder",
-      "description": "**MANDATORY for ALL MCP server work** - mcp-use framework best practices and patterns.\n\n**READ THIS FIRST** before any MCP server work, including:\n- Creating new MCP servers\n- Modifying existing MCP servers (adding/updating tools, resources, prompts, widgets)\n- Debugging MCP server issues or errors\n- Reviewing MCP server code for quality, security, or performance\n- Answering questions about MCP development or mcp-use patterns\n- Making ANY changes to server.tool(), server.resource(), server.prompt(), or widgets\n\nThis skill contains critical architecture decisions, security patterns, and common pitfalls.\nAlways consult the relevant reference files BEFORE implementing MCP features.\n",
-      "categories": ["Development", "Documents", "Research", "AI & ML"],
-      "author": "mcp-use",
-      "repo": "mcp-use/mcp-use",
-      "path": "skills/mcp-apps-builder",
-      "commitHash": "b18172f09daf",
-      "files": ["LICENSE.txt", "SKILL.md", "references"]
-    },
-    {
-      "id": "mcp-use/mcp-use/skills/chatgpt-app-builder",
-      "name": "chatgpt-app-builder",
-      "description": "DEPRECATED: This skill has been replaced by `mcp-app-builder`.\nCheck if `mcp-app-builder` is available in the skills folder. If not, install it:\n`npx skills install mcp-use/mcp-use --skill mcp-app-builder`\nUse `mcp-app-builder` instead of this skill.\n\nBuild ChatGPT apps with interactive widgets using mcp-use and OpenAI Apps SDK.\nUse when creating ChatGPT apps, building MCP servers with widgets, defining React widgets,\nworking with Apps SDK, or when user mentions ChatGPT widgets, mcp-use widgets, or Apps SDK development.\n",
-      "categories": ["Development", "AI & ML"],
-      "author": "mcp-use",
-      "repo": "mcp-use/mcp-use",
-      "path": "skills/chatgpt-app-builder",
-      "commitHash": "4546a8c5b4f1",
-      "files": ["LICENSE.txt", "SKILL.md", "evals", "references"]
-    },
-    {
       "id": "mrexodia/ida-pro-mcp/skills/idapython",
       "name": "idapython",
       "description": "IDA Pro Python scripting for reverse engineering. Use when writing IDAPython scripts, analyzing binaries, working with IDA's API for disassembly, decompilation (Hex-Rays), type systems, cross-references, functions, segments, or any IDA database manipulation. Covers ida_* modules (50+), idautils iterators, and common patterns.",
@@ -17269,6 +16306,28 @@
       "path": "skills/idapython",
       "commitHash": "780e83ed6acf",
       "files": ["SKILL.md", "docs"]
+    },
+    {
+      "id": "getsentry/XcodeBuildMCP/skills/xcodebuildmcp",
+      "name": "xcodebuildmcp",
+      "description": "Official skill for XcodeBuildMCP. Use when doing iOS/macOS/watchOS/tvOS/visionOS work (build, test, run, debug, log, UI automation).",
+      "categories": ["Development"],
+      "author": "getsentry",
+      "repo": "getsentry/XcodeBuildMCP",
+      "path": "skills/xcodebuildmcp",
+      "commitHash": "5add48b4fbea",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "getsentry/XcodeBuildMCP/skills/xcodebuildmcp-cli",
+      "name": "xcodebuildmcp-cli",
+      "description": "Official skill for the XcodeBuildMCP CLI. Use when doing iOS/macOS/watchOS/tvOS/visionOS work (build, test, run, debug, log, UI automation).",
+      "categories": ["Development"],
+      "author": "getsentry",
+      "repo": "getsentry/XcodeBuildMCP",
+      "path": "skills/xcodebuildmcp-cli",
+      "commitHash": "279efaa9ccfc",
+      "files": ["SKILL.md"]
     },
     {
       "id": "PaperDebugger/paperdebugger/.claude/skills/developer",
@@ -17455,6 +16514,19 @@
       "repo": "sockethub/sockethub",
       "path": "",
       "commitHash": "7d55d0cad6b5",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "zstmfhy/annas-to-notebooklm",
+      "name": "annas-to-notebooklm",
+      "description": "自动从 Anna's Archive 下载书籍并上传到 Google NotebookLM。支持 PDF/EPUB 格式，自动转换，一键创建知识库。",
+      "categories": ["Documents"],
+      "author": "zstmfhy",
+      "repo": "zstmfhy/annas-to-notebooklm",
+      "path": "",
+      "commitHash": "0a052c0d9a51",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
     },
     {
@@ -17754,17 +16826,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "thruthesky/open-meteo-skill",
-      "name": "open-meteo-skill",
-      "description": "전세계 날씨 API Open-Meteo 스킬. 무료 오픈소스 날씨 API로 16일 예보, 80년 역사 데이터, 대기질, 해양 날씨 등 제공.\n사용 시점: (1) 날씨 예보 조회 (2) 과거 날씨 데이터 조회 (3) 대기질/미세먼지 조회 (4) 해양 날씨/파도 정보 (5) 위치 좌표 검색 (6) 고도 정보 조회 (7) Flutter 앱에서 날씨 기능 구현 (8) 시간대별 날씨 표시 (2시간/4시간 단위) (9) 캐시 기반 실시간 날씨 아이콘 표시\n키워드: 날씨, weather, 기온, 강수량, 습도, 풍속, 미세먼지, PM2.5, 파도, 일출, 일몰, geocoding, Flutter, 캐시, FutureBuilder, WMO 코드, 날씨 아이콘\n",
-      "categories": ["Development"],
-      "author": "thruthesky",
-      "repo": "thruthesky/open-meteo-skill",
-      "path": "",
-      "commitHash": "e4fb229dd89d",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "datasette/skill",
       "name": "datasette-plugins",
       "description": "Writing Datasette plugins using Python and the pluggy plugin system. Use when Claude needs to: (1) Create a new Datasette plugin, (2) Implement plugin hooks like prepare_connection, register_routes, render_cell, etc., (3) Add custom SQL functions, (4) Create custom output renderers, (5) Add authentication or permissions logic, (6) Extend Datasette's UI with menus, actions, or templates, (7) Package a plugin for distribution on PyPI",
@@ -17831,161 +16892,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "mark64oswald/healthsim-workspace",
-      "name": "healthsim",
-      "description": "HealthSim generates realistic synthetic healthcare data for testing EMR systems, claims processing, pharmacy benefits, and analytics. Use for ANY request involving: (1) synthetic patients, clinical data, or medical records, (2) healthcare claims, billing, or adjudication, (3) pharmacy prescriptions, formularies, or drug utilization, (4) HL7v2, FHIR, X12, or NCPDP formatted output, (5) healthcare testing scenarios or sample data generation.",
-      "categories": ["Development", "Data & Analytics"],
-      "author": "mark64oswald",
-      "repo": "mark64oswald/healthsim-workspace",
-      "path": "",
-      "commitHash": "a76bd35c022e",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mark64oswald/healthsim-workspace/skills/membersim",
-      "name": "healthsim-membersim",
-      "description": "MemberSim generates realistic synthetic claims and payer data for testing claims processing systems, payment integrity, and benefits administration.",
-      "categories": ["Development"],
-      "author": "mark64oswald",
-      "repo": "mark64oswald/healthsim-workspace",
-      "path": "skills/membersim",
-      "commitHash": "737d74f93a08",
-      "files": [
-        "README.md",
-        "SKILL.md",
-        "accumulator-tracking.md",
-        "behavioral-health.md",
-        "enrollment-eligibility.md",
-        "facility-claims.md",
-        "plan-benefits.md",
-        "prior-authorization.md",
-        "professional-claims.md",
-        "value-based-care.md"
-      ]
-    },
-    {
-      "id": "mark64oswald/healthsim-workspace/skills/networksim",
-      "name": "healthsim-networksim",
-      "description": "NetworkSim provides provider network intelligence using real NPPES data (8.9M providers). Use this skill for ANY request involving: (1) provider search by specialty or location, (2) facility search (hospitals, nursing homes, clinics), (3) NPI validation, (4) network adequacy assessment against CMS/NCQA standards, (5) healthcare desert identification, (6) provider density analysis, (7) network roster generation, (8) hospital or physician quality metrics, (9) cross-product provider assignment, (10) pharmacy network analysis.\n",
-      "categories": ["Data & Analytics"],
-      "author": "mark64oswald",
-      "repo": "mark64oswald/healthsim-workspace",
-      "path": "skills/networksim",
-      "commitHash": "737d74f93a08",
-      "files": [
-        "README.md",
-        "SKILL.md",
-        "analytics",
-        "data",
-        "developer-guide.md",
-        "integration",
-        "patterns",
-        "prompt-guide.md",
-        "query",
-        "reference",
-        "synthetic"
-      ]
-    },
-    {
-      "id": "mark64oswald/healthsim-workspace/skills/patientsim",
-      "name": "healthsim-patientsim",
-      "description": "Generate realistic clinical patient data including demographics, encounters, diagnoses, medications, labs, and vitals. Use when user requests: (1) patient records or clinical data, (2) EMR test data, (3) specific clinical cohorts like diabetes or heart failure, (4) HL7v2 or FHIR patient resources.",
-      "categories": ["Design", "Data & Analytics"],
-      "author": "mark64oswald",
-      "repo": "mark64oswald/healthsim-workspace",
-      "path": "skills/patientsim",
-      "commitHash": "737d74f93a08",
-      "files": [
-        "README.md",
-        "SKILL.md",
-        "adt-workflow.md",
-        "behavioral-health.md",
-        "chronic-kidney-disease.md",
-        "data-integration.md",
-        "diabetes-management.md",
-        "ed-chest-pain.md",
-        "elective-joint.md",
-        "heart-failure.md",
-        "maternal-health.md",
-        "oncology",
-        "orders-results.md",
-        "pediatrics",
-        "sepsis-acute-care.md"
-      ]
-    },
-    {
-      "id": "mark64oswald/healthsim-workspace/skills/populationsim",
-      "name": "healthsim-populationsim",
-      "description": "PopulationSim provides population-level intelligence using public data sources. Use this skill for ANY request involving: (1) population demographics or profiles, (2) geographic health patterns or disparities, (3) social determinants of health (SDOH), (4) SVI or ADI analysis, (5) cohort definition or specification, (6) clinical trial feasibility, site selection, or enrollment projection, (7) service area analysis, (8) health equity assessment, (9) census data or ACS variables, (10) CDC PLACES health indicators.\n",
-      "categories": ["Design", "Data & Analytics"],
-      "author": "mark64oswald",
-      "repo": "mark64oswald/healthsim-workspace",
-      "path": "skills/populationsim",
-      "commitHash": "737d74f93a08",
-      "files": [
-        "README.md",
-        "SKILL.md",
-        "cohorts",
-        "data-access",
-        "data-sources.md",
-        "data",
-        "developer-guide.md",
-        "geographic",
-        "health-patterns",
-        "integration",
-        "models",
-        "population-intelligence-domain.md",
-        "prompt-guide.md",
-        "references",
-        "sdoh",
-        "trial-support"
-      ]
-    },
-    {
-      "id": "mark64oswald/healthsim-workspace/skills/rxmembersim",
-      "name": "healthsim-rxmembersim",
-      "description": "RxMemberSim generates realistic synthetic pharmacy data for testing PBM systems, claims adjudication, and drug utilization review. Use when user requests: (1) pharmacy claims or prescription data, (2) DUR alerts or drug interactions, (3) formulary or tier cohorts, (4) pharmacy prior authorization, (5) NCPDP formatted output.",
-      "categories": ["Development", "Security"],
-      "author": "mark64oswald",
-      "repo": "mark64oswald/healthsim-workspace",
-      "path": "skills/rxmembersim",
-      "commitHash": "737d74f93a08",
-      "files": [
-        "README.md",
-        "SKILL.md",
-        "dur-alerts.md",
-        "formulary-management.md",
-        "manufacturer-programs.md",
-        "retail-pharmacy.md",
-        "rx-accumulator.md",
-        "rx-enrollment.md",
-        "rx-prior-auth.md",
-        "specialty-pharmacy.md"
-      ]
-    },
-    {
-      "id": "mark64oswald/healthsim-workspace/skills/trialsim",
-      "name": "healthsim-trialsim",
-      "description": "Generate realistic clinical trial synthetic data including study definitions, sites, subjects, visits, adverse events, efficacy assessments, and disposition. Use when user requests: clinical trial data, CDISC/SDTM/ADaM datasets, trial cohorts (Phase I/II/III/IV), FDA submission test data, or specific therapeutic areas like oncology or biologics/CGT.",
-      "categories": ["Other"],
-      "author": "mark64oswald",
-      "repo": "mark64oswald/healthsim-workspace",
-      "path": "skills/trialsim",
-      "commitHash": "737d74f93a08",
-      "files": [
-        "README.md",
-        "SKILL.md",
-        "clinical-trials-domain.md",
-        "domains",
-        "phase1-dose-escalation.md",
-        "phase2-proof-of-concept.md",
-        "phase3-pivotal.md",
-        "recruitment-enrollment.md",
-        "rwe",
-        "therapeutic-areas"
-      ]
-    },
-    {
       "id": "singhsume123/xml-to-compose-skill",
       "name": "xml-to-compose",
       "description": "Convert Android XML layouts to Jetpack Compose. Use when asked to migrate XML layouts, convert views to composables, or help with Compose migration. Handles layouts, widgets, attributes, styles, and resource references.",
@@ -17994,6 +16900,28 @@
       "repo": "singhsume123/xml-to-compose-skill",
       "path": "",
       "commitHash": "735bae41e054",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "shawngraham/claude_antiquities_extractor_skill",
+      "name": "antiquities-extractor",
+      "description": "Extract and structure data from documents about the illegal antiquities trade, including dealers, collectors, artifacts, locations, and relationships. Use when processing news reports, academic articles, legal documents, encyclopedia entries, or research materials pertaining to looted artifacts, antiquities trafficking, provenance research, or cultural heritage crimes. Returns structured JSON with entities (persons, organizations, artifacts, locations) and their relationships.",
+      "categories": ["Design", "Data & Analytics", "Research"],
+      "author": "shawngraham",
+      "repo": "shawngraham/claude_antiquities_extractor_skill",
+      "path": "",
+      "commitHash": "2428b6796285",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "synapz-org/core-life-ops",
+      "name": "core-life-ops",
+      "description": "Core productivity workflows (daily planning, task triage, reporting) that work across any life domain. Not intended for direct use - imported by context-specific skills like covenant-marketing-ops or personal-life-ops.",
+      "categories": ["Productivity"],
+      "author": "synapz-org",
+      "repo": "synapz-org/core-life-ops",
+      "path": "",
+      "commitHash": "cb3bfd013ffa",
       "files": ["SKILL.md"]
     }
   ]
