@@ -21,15 +21,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "Vvkmnn/claude-emporium": {
-      "url": "https://github.com/Vvkmnn/claude-emporium",
+    "memvid/claude-brain": {
+      "url": "https://github.com/memvid/claude-brain",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "memvid/claude-brain": {
-      "url": "https://github.com/memvid/claude-brain",
+    "Vvkmnn/claude-emporium": {
+      "url": "https://github.com/Vvkmnn/claude-emporium",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -98,15 +98,22 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "LukasNiessen/terrashark": {
-      "url": "https://github.com/LukasNiessen/terrashark",
+    "posit-dev/skills": {
+      "url": "https://github.com/posit-dev/skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "posit-dev/skills": {
-      "url": "https://github.com/posit-dev/skills",
+    "aaronjmars/soul.md": {
+      "url": "https://github.com/aaronjmars/soul.md",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "LukasNiessen/terrashark": {
+      "url": "https://github.com/LukasNiessen/terrashark",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -140,13 +147,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "gapmiss/obsidian-plugin-skill": {
-      "url": "https://github.com/gapmiss/obsidian-plugin-skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "Weaverse/.claude": {
       "url": "https://github.com/Weaverse/.claude",
       "branch": "main",
@@ -175,8 +175,8 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "AltimateAI/data-engineering-skills": {
-      "url": "https://github.com/AltimateAI/data-engineering-skills",
+    "leemysw/feishu-docx": {
+      "url": "https://github.com/leemysw/feishu-docx",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -189,8 +189,22 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "AltimateAI/data-engineering-skills": {
+      "url": "https://github.com/AltimateAI/data-engineering-skills",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "sendaifun/skills": {
       "url": "https://github.com/sendaifun/skills",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "KaguraNanaga/document-format-skills": {
+      "url": "https://github.com/KaguraNanaga/document-format-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -203,8 +217,8 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "KaguraNanaga/document-format-skills": {
-      "url": "https://github.com/KaguraNanaga/document-format-skills",
+    "codenamev/ai-software-architect": {
+      "url": "https://github.com/codenamev/ai-software-architect",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -212,13 +226,6 @@
     },
     "kylehughes/the-unofficial-swift-concurrency-migration-skill": {
       "url": "https://github.com/kylehughes/the-unofficial-swift-concurrency-migration-skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "codenamev/ai-software-architect": {
-      "url": "https://github.com/codenamev/ai-software-architect",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -234,6 +241,13 @@
     "datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction": {
       "url": "https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction",
       "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "CCOSTAN/Home-AssistantConfig": {
+      "url": "https://github.com/CCOSTAN/Home-AssistantConfig",
+      "branch": "master",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
@@ -268,13 +282,6 @@
     },
     "ITlearning/study-ios": {
       "url": "https://github.com/ITlearning/study-ios",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "agent-next/behavior-driven-testing": {
-      "url": "https://github.com/agent-next/behavior-driven-testing",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -315,6 +322,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "th3vib3coder/vibe-science": {
+      "url": "https://github.com/th3vib3coder/vibe-science",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "subhashdasyam/security-antipatterns-javascript": {
       "url": "https://github.com/subhashdasyam/security-antipatterns-javascript",
       "branch": "main",
@@ -329,15 +343,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "subhashdasyam/security-antipatterns-java": {
-      "url": "https://github.com/subhashdasyam/security-antipatterns-java",
+    "shimo4228/claude-code-learned-skills": {
+      "url": "https://github.com/shimo4228/claude-code-learned-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "shimo4228/claude-code-learned-skills": {
-      "url": "https://github.com/shimo4228/claude-code-learned-skills",
+    "subhashdasyam/security-antipatterns-java": {
+      "url": "https://github.com/subhashdasyam/security-antipatterns-java",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -364,12 +378,19 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "varunreddy/SkillMesh": {
-      "url": "https://github.com/varunreddy/SkillMesh",
+    "WindoC/vibe-n8n": {
+      "url": "https://github.com/WindoC/vibe-n8n",
       "branch": "main",
       "stars": 0,
       "forks": 0,
-      "lastUpdated": "2026-02-28T16:41:09Z"
+      "lastUpdated": "2026-03-01T15:28:08Z"
+    },
+    "b6k-dev/quarkus-skill": {
+      "url": "https://github.com/b6k-dev/quarkus-skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2026-03-01T17:01:09Z"
     },
     "wyattowalsh/panel-debate-skill": {
       "url": "https://github.com/wyattowalsh/panel-debate-skill",
@@ -10080,6 +10101,28 @@
       "files": ["SKILL.md", "agents", "assets"]
     },
     {
+      "id": "memvid/claude-brain/skills/mind",
+      "name": "mind",
+      "description": "Claude Mind - Search and manage Claude's persistent memory stored in a single portable .mv2 file",
+      "categories": ["Documents"],
+      "author": "memvid",
+      "repo": "memvid/claude-brain",
+      "path": "skills/mind",
+      "commitHash": "995038041c80",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "memvid/claude-brain/skills/memory",
+      "name": "memory",
+      "description": "Claude Mind - Search and manage Claude's persistent memory stored in a single portable .mv2 file",
+      "categories": ["Documents"],
+      "author": "memvid",
+      "repo": "memvid/claude-brain",
+      "path": "skills/memory",
+      "commitHash": "83d8ed20a452",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "Vvkmnn/claude-emporium/plugins/claude-gladiator/skills/claude-gladiator",
       "name": "claude-gladiator",
       "description": "Continuous learning — hooks observe failures and prompt reflection, sibling synergy deepens analysis with history and tool discovery",
@@ -10143,28 +10186,6 @@
       "repo": "Vvkmnn/claude-emporium",
       "path": "plugins/claude-vigil/skills/claude-vigil",
       "commitHash": "1e9fd88c42aa",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "memvid/claude-brain/skills/mind",
-      "name": "mind",
-      "description": "Claude Mind - Search and manage Claude's persistent memory stored in a single portable .mv2 file",
-      "categories": ["Documents"],
-      "author": "memvid",
-      "repo": "memvid/claude-brain",
-      "path": "skills/mind",
-      "commitHash": "995038041c80",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "memvid/claude-brain/skills/memory",
-      "name": "memory",
-      "description": "Claude Mind - Search and manage Claude's persistent memory stored in a single portable .mv2 file",
-      "categories": ["Documents"],
-      "author": "memvid",
-      "repo": "memvid/claude-brain",
-      "path": "skills/memory",
-      "commitHash": "83d8ed20a452",
       "files": ["SKILL.md"]
     },
     {
@@ -12313,6 +12334,17 @@
       "files": ["SKILL.md", "references", "scripts"]
     },
     {
+      "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/pathml",
+      "name": "pathml",
+      "description": "Computational pathology toolkit for analyzing whole-slide images (WSI) and multiparametric imaging data. Use this skill when working with histopathology slides, H&E stained images, multiplex immunofluorescence (CODEX, Vectra), spatial proteomics, nucleus detection/segmentation, tissue graph construction, or training ML models on pathology data. Supports 160+ slide formats including Aperio SVS, NDPI, DICOM, OME-TIFF for digital pathology workflows.",
+      "categories": ["Development", "Data & Analytics", "Documents", "AI & ML"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/claude-scientific-skills/scientific-skills/pathml",
+      "commitHash": "68ef0c5bb702",
+      "files": ["SKILL.md", "references"]
+    },
+    {
       "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/peer-review",
       "name": "peer-review",
       "description": "Systematic peer review toolkit. Evaluate methodology, statistics, design, reproducibility, ethics, figure integrity, reporting standards, for manuscript and grant review across disciplines.",
@@ -12335,17 +12367,6 @@
       "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
-      "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/polars",
-      "name": "polars",
-      "description": "Fast DataFrame library (Apache Arrow). Select, filter, group_by, joins, lazy evaluation, CSV/Parquet I/O, expression API, for high-performance data analysis workflows.",
-      "categories": ["Development", "Data & Analytics"],
-      "author": "Microck",
-      "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/claude-scientific-skills/scientific-skills/polars",
-      "commitHash": "68ef0c5bb702",
-      "files": ["SKILL.md", "references"]
-    },
-    {
       "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/pylabrobot",
       "name": "pylabrobot",
       "description": "Laboratory automation toolkit for controlling liquid handlers, plate readers, pumps, heater shakers, incubators, centrifuges, and analytical equipment. Use this skill when automating laboratory workflows, programming liquid handling robots (Hamilton STAR, Opentrons OT-2, Tecan EVO), integrating lab equipment, managing deck layouts and resources (plates, tips, containers), reading plates, or creating reproducible laboratory protocols. Applicable for both simulated protocols and physical hardware control.",
@@ -12353,17 +12374,6 @@
       "author": "Microck",
       "repo": "Microck/ordinary-claude-skills",
       "path": "skills_all/claude-scientific-skills/scientific-skills/pylabrobot",
-      "commitHash": "68ef0c5bb702",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/qutip",
-      "name": "qutip",
-      "description": "Quantum mechanics simulations and analysis using QuTiP (Quantum Toolbox in Python). Use when working with quantum systems including: (1) quantum states (kets, bras, density matrices), (2) quantum operators and gates, (3) time evolution and dynamics (Schrödinger, master equations, Monte Carlo), (4) open quantum systems with dissipation, (5) quantum measurements and entanglement, (6) visualization (Bloch sphere, Wigner functions), (7) steady states and correlation functions, or (8) advanced methods (Floquet theory, HEOM, stochastic solvers). Handles both closed and open quantum systems across various domains including quantum optics, quantum computing, and condensed matter physics.",
-      "categories": ["Data & Analytics"],
-      "author": "Microck",
-      "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/claude-scientific-skills/scientific-skills/qutip",
       "commitHash": "68ef0c5bb702",
       "files": ["SKILL.md", "references"]
     },
@@ -13743,17 +13753,6 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "Microck/ordinary-claude-skills/skills_all/sequential-thinking",
-      "name": "sequential-thinking",
-      "description": "Use when complex problems require systematic step-by-step reasoning with ability to revise thoughts, branch into alternative approaches, or dynamically adjust scope. Ideal for multi-stage analysis, design planning, problem decomposition, or tasks with initially unclear scope.",
-      "categories": ["Design"],
-      "author": "Microck",
-      "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/sequential-thinking",
-      "commitHash": "68ef0c5bb702",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
       "id": "Microck/ordinary-claude-skills/skills_all/serena",
       "name": "serena",
       "description": "This skill provides symbol-level code understanding and navigation using Language Server Protocol (LSP). Enables IDE-like capabilities for finding symbols, tracking references, and making precise code edits at the symbol level.",
@@ -14208,17 +14207,6 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "LukasNiessen/terrashark",
-      "name": "terrashark",
-      "description": "Prevent Terraform/OpenTofu hallucinations by diagnosing and fixing failure modes: identity churn, secret exposure, blast-radius mistakes, CI drift, and compliance gate gaps. Use when generating, reviewing, refactoring, or migrating IaC and when building delivery/testing pipelines.",
-      "categories": ["Development", "DevOps"],
-      "author": "LukasNiessen",
-      "repo": "LukasNiessen/terrashark",
-      "path": "",
-      "commitHash": "af248781cebd",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "posit-dev/skills/brand-yml",
       "name": "brand-yml",
       "description": "Create and use brand.yml files for consistent branding across Shiny apps and Quarto documents. Use when working with brand styling, colors, fonts, logos, or corporate identity in Shiny or Quarto projects. Covers: (1) Creating new _brand.yml files from brand guidelines, (2) Applying brand.yml to Shiny for R apps with bslib, (3) Applying brand.yml to Shiny for Python apps with ui.Theme, (4) Using brand.yml in Quarto documents, presentations, dashboards, and PDFs, (5) Modifying existing brand.yml files, (6) Troubleshooting brand integration issues. Includes complete specifications and framework-specific integration guides.\n",
@@ -14370,6 +14358,28 @@
       "files": ["SKILL.md", "references"]
     },
     {
+      "id": "aaronjmars/soul.md",
+      "name": "soul",
+      "description": "Embody this digital identity. Read SOUL.md first, then STYLE.md, then examples/. Become the person—opinions, voice, worldview.",
+      "categories": ["Other"],
+      "author": "aaronjmars",
+      "repo": "aaronjmars/soul.md",
+      "path": "",
+      "commitHash": "bada24850997",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "LukasNiessen/terrashark",
+      "name": "terrashark",
+      "description": "Prevent Terraform/OpenTofu hallucinations by diagnosing and fixing failure modes: identity churn, secret exposure, blast-radius mistakes, CI drift, and compliance gate gaps. Use when generating, reviewing, refactoring, or migrating IaC and when building delivery/testing pipelines.",
+      "categories": ["Development", "DevOps"],
+      "author": "LukasNiessen",
+      "repo": "LukasNiessen/terrashark",
+      "path": "",
+      "commitHash": "af248781cebd",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "anombyte93/prd-taskmaster",
       "name": "prd-taskmaster",
       "description": "Smart PRD generator with TaskMaster integration. Detects existing PRDs and offers execute/update/replace options. Generates comprehensive technical PRDs optimized for task breakdown, validates with 13 automated checks, and optionally executes tasks autonomously with datetime tracking and rollback support. Use when user requests \"PRD\", \"product requirements\", or mentions task-driven development. Defaults to PRD generation with handoff to TaskMaster. Optionally supports autonomous execution with 4 modes.",
@@ -14456,17 +14466,6 @@
       "path": "skills/wp-performance-review",
       "commitHash": "0ac0bbd5fd7c",
       "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "gapmiss/obsidian-plugin-skill/.claude/skills/obsidian",
-      "name": "obsidian",
-      "description": "Comprehensive guidelines for Obsidian.md plugin development including all 27 ESLint rules from eslint-plugin-obsidianmd v0.1.9, TypeScript best practices, memory management, API usage (requestUrl vs fetch), UI/UX standards, locale file sentence-case enforcement, and submission requirements. Use when working with Obsidian plugins, main.ts files, manifest.json, Plugin class, MarkdownView, TFile, vault operations, or any Obsidian API development.",
-      "categories": ["Development", "Design", "Documents"],
-      "author": "gapmiss",
-      "repo": "gapmiss/obsidian-plugin-skill",
-      "path": ".claude/skills/obsidian",
-      "commitHash": "6e88660f3f0a",
-      "files": ["SKILL.md", "reference"]
     },
     {
       "id": "Weaverse/.claude/skills/code-review",
@@ -14664,6 +14663,61 @@
       "files": ["README.md", "SKILL.md", "scripts"]
     },
     {
+      "id": "leemysw/feishu-docx/.skills/feishu-docx",
+      "name": "feishu-docx",
+      "description": "Export Feishu/Lark cloud documents to Markdown. Supports docx, sheets, bitable, wiki, and batch wiki space export. Use this skill when you need to read, analyze, write, or reference content from Feishu knowledge base.",
+      "categories": ["Writing", "Documents", "Research"],
+      "author": "leemysw",
+      "repo": "leemysw/feishu-docx",
+      "path": ".skills/feishu-docx",
+      "commitHash": "c494ddc45f46",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jjmartres/opencode/opencode/skill/glab",
+      "name": "glab",
+      "description": "Expert guidance for using the GitLab CLI (glab) to manage GitLab issues, merge requests, CI/CD pipelines, repositories, and other GitLab operations from the command line. Use this skill when the user needs to interact with GitLab resources or perform GitLab workflows.",
+      "categories": ["DevOps", "Productivity", "Documents"],
+      "author": "jjmartres",
+      "repo": "jjmartres/opencode",
+      "path": "opencode/skill/glab",
+      "commitHash": "387a6fdc0b80",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "jjmartres/opencode/opencode/skill/datadog",
+      "name": "datadog-cli",
+      "description": "Use this skill when you need to search Datadog logs, query metrics, tail logs in real-time, trace distributed requests, investigate errors, compare time periods, find log patterns, check service health, or export observability data.",
+      "categories": ["Data & Analytics", "Research"],
+      "author": "jjmartres",
+      "repo": "jjmartres/opencode",
+      "path": "opencode/skill/datadog",
+      "commitHash": "4f14b9c4bacb",
+      "files": ["SKILL.md", "reference"]
+    },
+    {
+      "id": "jjmartres/opencode/opencode/skill/code-docs",
+      "name": "code-docs",
+      "description": "Apply Google Style documentation standards to Python, Go, and Terraform code. Use when writing or reviewing code that needs docstrings/comments, when asked to \"document this code\", \"add docstrings\", \"follow Google Style\", or when improving code documentation quality. Supports Python docstrings, Go comments, and Terraform variable/output descriptions. Enforces consistent, professional documentation standards.",
+      "categories": ["Development", "Writing", "Documents"],
+      "author": "jjmartres",
+      "repo": "jjmartres/opencode",
+      "path": "opencode/skill/code-docs",
+      "commitHash": "58a9a50bbfb5",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "jjmartres/opencode/opencode/skill/project-docs",
+      "name": "project-docs",
+      "description": "Generate comprehensive, professional project documentation structures including README, ARCHITECTURE, USER_GUIDE, DEVELOPER_GUIDE, and CONTRIBUTING files. Use when the user requests project documentation creation, asks to \"document a project\", needs standard documentation files, or wants to set up docs for a new repository. Adapts to Python/Go projects and OpenSource/internal contexts.",
+      "categories": ["Development", "Writing", "Productivity", "Documents"],
+      "author": "jjmartres",
+      "repo": "jjmartres/opencode",
+      "path": "opencode/skill/project-docs",
+      "commitHash": "58a9a50bbfb5",
+      "files": ["SKILL.md", "references"]
+    },
+    {
       "id": "AltimateAI/data-engineering-skills/skills/dbt/creating-dbt-models",
       "name": "creating-dbt-models",
       "description": "Creates dbt models following project conventions. Use when working with dbt models for:\n(1) Creating new models (any layer - discovers project's naming conventions first)\n(2) Task mentions \"create\", \"build\", \"add\", \"write\", \"new\", or \"implement\" with model, table, or SQL\n(3) Modifying existing model logic, columns, joins, or transformations\n(4) Implementing a model from schema.yml specs or expected output requirements\nDiscovers project conventions before writing. Runs dbt build (not just compile) to verify.\n",
@@ -14779,50 +14833,6 @@
       "path": "skills/snowflake/optimizing-query-text",
       "commitHash": "5b69ef410dd7",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "jjmartres/opencode/opencode/skill/glab",
-      "name": "glab",
-      "description": "Expert guidance for using the GitLab CLI (glab) to manage GitLab issues, merge requests, CI/CD pipelines, repositories, and other GitLab operations from the command line. Use this skill when the user needs to interact with GitLab resources or perform GitLab workflows.",
-      "categories": ["DevOps", "Productivity", "Documents"],
-      "author": "jjmartres",
-      "repo": "jjmartres/opencode",
-      "path": "opencode/skill/glab",
-      "commitHash": "387a6fdc0b80",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "jjmartres/opencode/opencode/skill/datadog",
-      "name": "datadog-cli",
-      "description": "Use this skill when you need to search Datadog logs, query metrics, tail logs in real-time, trace distributed requests, investigate errors, compare time periods, find log patterns, check service health, or export observability data.",
-      "categories": ["Data & Analytics", "Research"],
-      "author": "jjmartres",
-      "repo": "jjmartres/opencode",
-      "path": "opencode/skill/datadog",
-      "commitHash": "4f14b9c4bacb",
-      "files": ["SKILL.md", "reference"]
-    },
-    {
-      "id": "jjmartres/opencode/opencode/skill/code-docs",
-      "name": "code-docs",
-      "description": "Apply Google Style documentation standards to Python, Go, and Terraform code. Use when writing or reviewing code that needs docstrings/comments, when asked to \"document this code\", \"add docstrings\", \"follow Google Style\", or when improving code documentation quality. Supports Python docstrings, Go comments, and Terraform variable/output descriptions. Enforces consistent, professional documentation standards.",
-      "categories": ["Development", "Writing", "Documents"],
-      "author": "jjmartres",
-      "repo": "jjmartres/opencode",
-      "path": "opencode/skill/code-docs",
-      "commitHash": "58a9a50bbfb5",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "jjmartres/opencode/opencode/skill/project-docs",
-      "name": "project-docs",
-      "description": "Generate comprehensive, professional project documentation structures including README, ARCHITECTURE, USER_GUIDE, DEVELOPER_GUIDE, and CONTRIBUTING files. Use when the user requests project documentation creation, asks to \"document a project\", needs standard documentation files, or wants to set up docs for a new repository. Adapts to Python/Go projects and OpenSource/internal contexts.",
-      "categories": ["Development", "Writing", "Productivity", "Documents"],
-      "author": "jjmartres",
-      "repo": "jjmartres/opencode",
-      "path": "opencode/skill/project-docs",
-      "commitHash": "58a9a50bbfb5",
-      "files": ["SKILL.md", "references"]
     },
     {
       "id": "sendaifun/skills/skills/orca",
@@ -15231,6 +15241,17 @@
       "files": ["SKILL.md", "docs", "examples", "resources", "templates"]
     },
     {
+      "id": "KaguraNanaga/document-format-skills",
+      "name": "document-format-skills",
+      "description": "文档格式处理工具。支持格式诊断、标点符号修复、格式统一。输入杂乱的文档，输出规范整洁的docx。",
+      "categories": ["Documents"],
+      "author": "KaguraNanaga",
+      "repo": "KaguraNanaga/document-format-skills",
+      "path": "",
+      "commitHash": "218bfdca0475",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "athola/skrills/assets/demo-skills/api-designer",
       "name": "api-designer",
       "description": "Design RESTful APIs with best practices for consistency and usability",
@@ -15284,28 +15305,6 @@
       "path": "assets/demo-skills/test-writer",
       "commitHash": "0e498e996160",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "KaguraNanaga/document-format-skills",
-      "name": "document-format-skills",
-      "description": "文档格式处理工具。支持格式诊断、标点符号修复、格式统一。输入杂乱的文档，输出规范整洁的docx。",
-      "categories": ["Documents"],
-      "author": "KaguraNanaga",
-      "repo": "KaguraNanaga/document-format-skills",
-      "path": "",
-      "commitHash": "218bfdca0475",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "kylehughes/the-unofficial-swift-concurrency-migration-skill/migrating-to-swift-concurrency",
-      "name": "migrating-to-swift-concurrency",
-      "description": "Provides the complete Swift Concurrency Migration Guide. Use when migrating to Swift 6, resolving data-race safety errors, understanding Sendable and actor isolation, or incrementally adopting async/await.",
-      "categories": ["Data & Analytics"],
-      "author": "kylehughes",
-      "repo": "kylehughes/the-unofficial-swift-concurrency-migration-skill",
-      "path": "migrating-to-swift-concurrency",
-      "commitHash": "bcb4569878ff",
-      "files": ["Examples", "Guide", "LICENSE.txt", "SKILL.md"]
     },
     {
       "id": "codenamev/ai-software-architect/.claude/skills/create-adr",
@@ -15383,6 +15382,17 @@
       "path": ".claude/skills/architecture-review",
       "commitHash": "4635b08dd001",
       "files": ["SKILL.md", "assets", "references"]
+    },
+    {
+      "id": "kylehughes/the-unofficial-swift-concurrency-migration-skill/migrating-to-swift-concurrency",
+      "name": "migrating-to-swift-concurrency",
+      "description": "Provides the complete Swift Concurrency Migration Guide. Use when migrating to Swift 6, resolving data-race safety errors, understanding Sendable and actor isolation, or incrementally adopting async/await.",
+      "categories": ["Data & Analytics"],
+      "author": "kylehughes",
+      "repo": "kylehughes/the-unofficial-swift-concurrency-migration-skill",
+      "path": "migrating-to-swift-concurrency",
+      "commitHash": "bcb4569878ff",
+      "files": ["Examples", "Guide", "LICENSE.txt", "SKILL.md"]
     },
     {
       "id": "OmidZamani/dspy-skills/skills/dspy-rag-pipeline",
@@ -18022,6 +18032,39 @@
       "files": ["SKILL.md", "claw.json", "instructions.md"]
     },
     {
+      "id": "CCOSTAN/Home-AssistantConfig/codex_skills/infrastructure-doc-sync",
+      "name": "infrastructure-doc-sync",
+      "description": "Use when infra/container placement changes require synchronized AGENTS, docs, and Infra Info updates while keeping AGENTS concise, scoped, and non-runbook.",
+      "categories": ["DevOps", "AI & ML"],
+      "author": "CCOSTAN",
+      "repo": "CCOSTAN/Home-AssistantConfig",
+      "path": "codex_skills/infrastructure-doc-sync",
+      "commitHash": "c90ccde86dec",
+      "files": ["SKILL.md", "agents"]
+    },
+    {
+      "id": "CCOSTAN/Home-AssistantConfig/codex_skills/homeassistant-yaml-dry-verifier",
+      "name": "homeassistant-yaml-dry-verifier",
+      "description": "Verify Home Assistant YAML for DRY and efficiency issues by detecting redundant trigger/condition/action/sequence structures and repeated blocks across automations, scripts, and packages. Use when creating, reviewing, or refactoring YAML in config/packages, config/automations, config/scripts, or dashboard-related YAML where duplication risk is high.",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "CCOSTAN",
+      "repo": "CCOSTAN/Home-AssistantConfig",
+      "path": "codex_skills/homeassistant-yaml-dry-verifier",
+      "commitHash": "081da0aaa9d3",
+      "files": ["SKILL.md", "agents", "references", "scripts"]
+    },
+    {
+      "id": "CCOSTAN/Home-AssistantConfig/codex_skills/homeassistant-dashboard-designer",
+      "name": "homeassistant-dashboard-designer",
+      "description": "Design, update, and refactor Home Assistant Lovelace dashboards (YAML views/partials) with a constrained, machine-safe design system: button-card-first structure, minimal card-mod styling, optional flex-horseshoe + mini-graph telemetry, strict grid/vertical-stack layout rules, centralized templates, deterministic ordering, and config validation. Use for Home Assistant dashboard work (especially config/dashboards/**), when refactoring views, adding infra/home/energy/environment panels, or translating Stitch design inspiration into safe Lovelace YAML.",
+      "categories": ["Design", "AI & ML"],
+      "author": "CCOSTAN",
+      "repo": "CCOSTAN/Home-AssistantConfig",
+      "path": "codex_skills/homeassistant-dashboard-designer",
+      "commitHash": "a6105a34d49b",
+      "files": ["README.md", "SKILL.md", "agents", "references", "scripts"]
+    },
+    {
       "id": "ComposioHQ/awesome-codex-skills/connect",
       "name": "connect",
       "description": "Connect Codex to any app. Send emails, create issues, post messages, update databases - take real actions across Gmail, Slack, GitHub, Notion, and 1000+ services.",
@@ -18709,17 +18752,6 @@
       "repo": "ITlearning/study-ios",
       "path": ".agents/skills/swift-study",
       "commitHash": "85d4c19a8bc0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "agent-next/behavior-driven-testing",
-      "name": "behavior-driven-testing",
-      "description": "Systematic testing methodology for exhaustive branch coverage, edge case identification, and production bug prevention. Use when PR review reveals incomplete test coverage, when tests pass but users report bugs, when code changes break existing features, when verifying all branches and edge cases before merge, when analyzing \"it works on my machine\" issues, when planning test strategy for new features, or when debugging flaky tests and race conditions.",
-      "categories": ["Development"],
-      "author": "agent-next",
-      "repo": "agent-next/behavior-driven-testing",
-      "path": "",
-      "commitHash": "f55014ed04e0",
       "files": ["SKILL.md"]
     },
     {
@@ -19663,6 +19695,62 @@
       "files": ["SKILL.md", "agents", "references", "scripts"]
     },
     {
+      "id": "th3vib3coder/vibe-science",
+      "name": "vibe",
+      "description": "Scientific research engine with agentic tree search. Infinite loops until discovery, rigorous tracking, adversarial review, serendipity preserved.",
+      "categories": ["Research", "AI & ML"],
+      "author": "th3vib3coder",
+      "repo": "th3vib3coder/vibe-science",
+      "path": "",
+      "commitHash": "27455d39c70b",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "th3vib3coder/vibe-science/archive/vibe-science-v3.5",
+      "name": "vibe",
+      "description": "Scientific research in serendipity mode. Infinite loops until discovery, rigorous tracking, adversarial review.",
+      "categories": ["Research"],
+      "author": "th3vib3coder",
+      "repo": "th3vib3coder/vibe-science",
+      "path": "archive/vibe-science-v3.5",
+      "commitHash": "c07e2d8000c6",
+      "files": [
+        ".claude-plugin",
+        ".gitignore",
+        "CHANGELOG.md",
+        "LICENSE",
+        "README.md",
+        "SKILL.md",
+        "assets",
+        "commands",
+        "examples",
+        "gates",
+        "protocols"
+      ]
+    },
+    {
+      "id": "th3vib3coder/vibe-science/archive/vibe-science-v5.0-codex",
+      "name": "vibe-science",
+      "description": "Scientific research engine with adversarial review, tree search, and serendipity detection. Use when: exploring hypotheses, validating findings against literature, running computational experiments with quality gates, or hunting for unexpected discoveries. Do NOT use for simple Q&A, code editing, or non-research tasks.",
+      "categories": ["Writing", "Research"],
+      "author": "th3vib3coder",
+      "repo": "th3vib3coder/vibe-science",
+      "path": "archive/vibe-science-v5.0-codex",
+      "commitHash": "c07e2d8000c6",
+      "files": [".gitignore", "LICENSE", "README.md", "SKILL.md", "agents", "assets", "references"]
+    },
+    {
+      "id": "th3vib3coder/vibe-science/skills/vibe",
+      "name": "vibe",
+      "description": "Use when doing scientific research, literature review, hypothesis validation, gap finding, or any research task requiring rigorous evidence tracking and adversarial review. Activates the Vibe Science research engine with OTAE loops, Reviewer 2, quality gates, and serendipity tracking.",
+      "categories": ["Research"],
+      "author": "th3vib3coder",
+      "repo": "th3vib3coder/vibe-science",
+      "path": "skills/vibe",
+      "commitHash": "90812b8e6463",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "subhashdasyam/security-antipatterns-javascript",
       "name": "security-antipatterns-javascript",
       "description": "Code generation guard for Node.js/TypeScript/Next.js - prevents OWASP Top 10 vulnerabilities while writing code",
@@ -19761,19 +19849,6 @@
       "repo": "VapiAI/skills",
       "path": "create-phone-number",
       "commitHash": "9b95b89c02a6",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "subhashdasyam/security-antipatterns-java",
-      "name": "security-antipatterns-java",
-      "description": "Use when generating Java code for web applications, APIs, or enterprise systems - prevents OWASP Top 10 vulnerabilities in Spring Boot, Jakarta EE, and core Java",
-      "categories": ["Development"],
-      "author": "subhashdasyam",
-      "repo": "subhashdasyam/security-antipatterns-java",
-      "path": "",
-      "commitHash": "932392bfeace",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
     },
     {
@@ -20217,6 +20292,19 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "subhashdasyam/security-antipatterns-java",
+      "name": "security-antipatterns-java",
+      "description": "Use when generating Java code for web applications, APIs, or enterprise systems - prevents OWASP Top 10 vulnerabilities in Spring Boot, Jakarta EE, and core Java",
+      "categories": ["Development"],
+      "author": "subhashdasyam",
+      "repo": "subhashdasyam/security-antipatterns-java",
+      "path": "",
+      "commitHash": "932392bfeace",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "QuasarByte/codex-feature-driven-flow/skills/feature-driven-flow",
       "name": "feature-driven-flow",
       "description": "Coordinate a structured 7-phase feature delivery workflow in Codex for non-trivial work. Use when a task needs scoped intent, repository behavior tracing, ambiguity resolution, design choices, controlled implementation, assurance, and end-state reporting.",
@@ -20250,15 +20338,26 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "varunreddy/SkillMesh/skills/skillmesh",
-      "name": "skillmesh",
-      "description": "Retrieve the most relevant SkillMesh cards from a registry and inject a Codex-ready context block before coding. Use when a task spans many domains and you want top-K routing instead of loading the full skill catalog.",
-      "categories": ["Development", "AI & ML"],
-      "author": "varunreddy",
-      "repo": "varunreddy/SkillMesh",
-      "path": "skills/skillmesh",
-      "commitHash": "7b8222688a45",
-      "files": ["SKILL.md", "agents", "scripts"]
+      "id": "WindoC/vibe-n8n/.agents/skills/n8n",
+      "name": "n8n",
+      "description": "Work with the n8n Public API safely and efficiently, including authentication, pagination, endpoint selection, request shaping, and troubleshooting. Use when Codex is asked to read, create, update, transfer, or delete n8n resources (workflows, executions, credentials, users, projects, variables, tags, data tables), or when converting n8n OpenAPI specs into runnable API calls or automation code.",
+      "categories": ["Development", "Security", "Productivity", "Documents"],
+      "author": "WindoC",
+      "repo": "WindoC/vibe-n8n",
+      "path": ".agents/skills/n8n",
+      "commitHash": "5ffc003f48f7",
+      "files": ["SKILL.md", "agents", "references", "scripts"]
+    },
+    {
+      "id": "b6k-dev/quarkus-skill/skill/quarkus",
+      "name": "quarkus-platform",
+      "description": "Guides implementation, debugging, and architecture decisions across the Quarkus platform and extension ecosystem. Use when building or maintaining Quarkus applications, selecting extensions, or troubleshooting build and runtime behavior.",
+      "categories": ["Development"],
+      "author": "b6k-dev",
+      "repo": "b6k-dev/quarkus-skill",
+      "path": "skill/quarkus",
+      "commitHash": "ee1b2ade27f3",
+      "files": ["SKILL.md", "references"]
     },
     {
       "id": "wyattowalsh/panel-debate-skill",
