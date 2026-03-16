@@ -164,61 +164,38 @@ const t = MESSAGES[lang];
     });
   }, { passive: true });
 
-  // ---- Merge a fetched payload (skills + repos) into state ----
-  function mergePayload(payload) {
-    Object.assign(repositories, payload.repositories || {});
-    const newSkills = (payload.skills || []).filter((s) => !knownIds.has(s.id));
-    for (const s of newSkills) {
-      knownIds.add(s.id);
-      indexSkill(s);
-    }
-    state.skills.push(...newSkills);
-    return newSkills.length;
-  }
-
-  // ---- Hybrid loading: fetch full data from R2 CDN ----
-  async function loadFromCDN() {
-    if (state.busy) return;
+  // ---- Load full data from shared skill store (one fetch, list + detail reuse) ----
+  async function loadFromStore() {
+    if (state.busy || !window.__skillStore) return;
     state.busy = true;
     loading.style.display = "flex";
     loading.textContent = `${loadingText}...`;
 
     try {
-      // Step 1: Fetch the main skills.json from R2 CDN
-      const mainResp = await fetch(`${cdnBaseUrl}/skills.json`);
-      if (!mainResp.ok) throw new Error(`Failed to fetch skills.json from CDN (${mainResp.status})`);
-      const mainData = await mainResp.json();
-      const addedMain = mergePayload(mainData);
-      if (addedMain > 0) applyFilter();
-
-      // Step 2: Fetch chunk files listed in the CDN response
-      const chunkFiles = mainData.meta?.chunks || [];
-      for (let i = 0; i < chunkFiles.length; i++) {
-        loading.textContent = `${loadingText} (${i + 1}/${chunkFiles.length + 1})`;
-        try {
-          const chunkResp = await fetch(`${cdnBaseUrl}/${chunkFiles[i]}`);
-          if (!chunkResp.ok) throw new Error(`Failed chunk ${chunkFiles[i]}`);
-          const chunkData = await chunkResp.json();
-          const addedChunk = mergePayload(chunkData);
-          if (addedChunk > 0) applyFilter();
-        } catch (chunkErr) {
-          console.error(chunkErr);
-        }
+      await window.__skillStore.load(cdnBaseUrl);
+      const allSkills = window.__skillStore.getAllSkills();
+      const allRepos = window.__skillStore.getRepositories();
+      Object.assign(repositories, allRepos);
+      knownIds.clear();
+      searchIndex.clear();
+      for (const s of allSkills) {
+        knownIds.add(s.id);
+        indexSkill(s);
       }
-
+      state.skills = allSkills.slice();
       state.fullyLoaded = true;
       loading.style.display = "none";
+      applyFilter();
     } catch (error) {
-      console.error("CDN load failed:", error);
+      console.error("Skill store load failed:", error);
       loading.style.display = "none";
     } finally {
       state.busy = false;
     }
   }
 
-  // ---- Schedule CDN fetch after initial render ----
   function scheduleCDNLoad() {
-    const run = () => loadFromCDN();
+    const run = () => loadFromStore();
     if ("requestIdleCallback" in window) {
       window.requestIdleCallback(run, { timeout: 1500 });
     } else {

@@ -10,4 +10,36 @@ export default defineConfig({
       redirectToDefaultLocale: false,
     },
   },
+  vite: {
+    plugins: [
+      {
+        name: "rewrite-skill-detail",
+        configureServer(server) {
+          const rewrite = (req, res, next) => {
+            const url = req.url || "";
+            const [pathname, qs] = url.split("?");
+            const match = pathname.match(/^\/(en|zh)\/skill\/.+/);
+            if (match) {
+              req.url = `/${match[1]}/skill/` + (qs ? `?${qs}` : "");
+            }
+            next();
+          };
+          server.middlewares.stack.unshift({ route: "", handle: rewrite });
+          return () => {};
+        },
+        configurePreviewServer(server) {
+          const rewrite = (req, res, next) => {
+            const url = req.url || "";
+            const [pathname, qs] = url.split("?");
+            const match = pathname.match(/^\/(en|zh)\/skill\/.+/);
+            if (match) {
+              req.url = `/${match[1]}/skill/` + (qs ? `?${qs}` : "");
+            }
+            next();
+          };
+          server.middlewares.stack.unshift({ route: "", handle: rewrite });
+        },
+      },
+    ],
+  },
 });

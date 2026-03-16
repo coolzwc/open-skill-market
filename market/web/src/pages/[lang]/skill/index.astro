@@ -1,0 +1,514 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getLang, MESSAGES, type Lang } from "@/lib/i18n";
+import { CDN_BASE_URL } from "@/lib/market-data";
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  return [{ params: { lang: "en" } }, { params: { lang: "zh" } }];
+}
+
+const lang = getLang(Astro.params.lang) as Lang;
+const t = MESSAGES[lang];
+const altLang = lang === "en" ? "zh" : "en";
+
+const tools = [
+  { key: "cursor",  label: t.tabCursor,  hint: t.installHintCursor,  flag: "--tool cursor" },
+  { key: "claude",  label: t.tabClaude,  hint: t.installHintClaude,  flag: "--tool claude" },
+  { key: "codex",   label: t.tabCodex,   hint: t.installHintCodex,   flag: "--tool codex" },
+  { key: "copilot", label: t.tabCopilot, hint: t.installHintCopilot, flag: "--tool copilot" }
+];
+
+const title = `${t.siteName} | ${t.backToMarket}`;
+const description = t.siteDescription;
+const canonicalPath = `/${lang}/skill/`;
+const altPath = `/${altLang}/skill/`;
+---
+
+<BaseLayout
+  lang={lang}
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  altPath={altPath}
+  type="article"
+>
+  <script is:inline src="/skill-store.js"></script>
+  <!-- Topbar -->
+  <header class="topbar">
+    <a class="brand" href={`/${lang}/`}>{t.siteName}</a>
+    <div class="topbar-right">
+      <a class="gh-link" href="https://github.com/coolzwc/open-skill-market" target="_blank" rel="noreferrer" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.694.825.576C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+      </a>
+      <nav class="lang-switch" aria-label={t.language} id="lang-switch-nav">
+        <a href="#" class="lang-link-en" data-lang="en">EN</a>
+        <a href="#" class="lang-link-zh" data-lang="zh">中文</a>
+      </nav>
+      <div class="lang-dropdown" aria-label={t.language}>
+        <button class="lang-dropdown-toggle" type="button">
+          {lang === "en" ? "EN" : "中文"}
+          <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="lang-dropdown-menu">
+          <a href="#" class="lang-dropdown-en" data-lang="en">
+            <svg class="check-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            EN
+          </a>
+          <a href="#" class="lang-dropdown-zh" data-lang="zh">
+            <svg class="check-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            中文
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="detail-page">
+    <div class="detail-container">
+      <a class="back-link animate-in" href={`/${lang}/`}>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+        {t.backToMarket}
+      </a>
+
+      <div id="detail-loading" class="detail-loading animate-in">
+        <div class="loading-spinner">{t.loading}</div>
+      </div>
+
+      <div id="detail-notfound" class="detail-notfound" style="display:none;">
+        <p class="notfound-text">{lang === "zh" ? "未找到该技能。" : "Skill not found."}</p>
+        <a href={`/${lang}/`} class="back-link">{t.backToMarket}</a>
+      </div>
+
+      <div id="detail-content" class="detail-content" style="display:none;">
+        <div class="detail-grid">
+          <div class="detail-main">
+            <div class="detail-hero animate-in delay-1">
+              <div class="hero-glow"></div>
+              <div class="hero-content">
+                <div class="hero-top-row">
+                  <span class="card-category" id="detail-category" data-cat="Other">Other</span>
+                  <span class="version-badge" id="detail-version" style="display:none;"></span>
+                </div>
+                <h1 class="detail-title" id="detail-title"></h1>
+                <p class="detail-desc" id="detail-desc"></p>
+                <div class="detail-stats" id="detail-stats"></div>
+              </div>
+            </div>
+
+            <div class="detail-section animate-in delay-2" id="detail-agents-wrap" style="display:none;">
+              <h2 class="section-label">{t.compatibility}</h2>
+              <div class="agent-badges" id="detail-agents"></div>
+            </div>
+
+            <div class="detail-section animate-in delay-2">
+              <h2 class="section-label">{t.quickInstall}</h2>
+              <div class="install-panel">
+                <div class="install-tabs" role="tablist">
+                  {tools.map((tool, idx) => (
+                    <button
+                      class={`install-tab${idx === 0 ? " active" : ""}`}
+                      role="tab"
+                      data-tool={tool.key}
+                      aria-selected={idx === 0 ? "true" : "false"}
+                    >
+                      {tool.label}
+                    </button>
+                  ))}
+                </div>
+                {tools.map((tool, idx) => (
+                  <div
+                    class="install-body"
+                    data-panel={tool.key}
+                    style={idx === 0 ? "" : "display:none;"}
+                    role="tabpanel"
+                  >
+                    <div class="cmd-row">
+                      <code class="install-cmd" data-tool={tool.key}></code>
+                      <button class="copy-btn" data-cmd="" title={t.copyCommand}>
+                        <svg class="copy-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                        <svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;"><polyline points="20 6 9 17 4 12"/></svg>
+                      </button>
+                    </div>
+                    <div class="cmd-hint">{tool.hint}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div class="detail-section cli-quickstart animate-in delay-2">
+              <div class="cli-qs-header">
+                <div class="cli-qs-left">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+                  <div>
+                    <h3 class="cli-qs-title">{t.cliGetStarted}</h3>
+                    <p class="cli-qs-desc">{t.cliGetStartedDesc}</p>
+                  </div>
+                </div>
+                <a class="cli-qs-link" href={`/${lang}/guide/`}>
+                  {t.viewFullGuide}
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </a>
+              </div>
+              <div class="cli-qs-cmds">
+                <div class="cli-qs-cmd">
+                  <span class="cli-qs-label">{t.guideCmdSearch}</span>
+                  <code>npx skill-market search &lt;keyword&gt;</code>
+                </div>
+                <div class="cli-qs-cmd">
+                  <span class="cli-qs-label">{t.guideCmdList}</span>
+                  <code>npx skill-market list --tool cursor</code>
+                </div>
+                <div class="cli-qs-cmd">
+                  <span class="cli-qs-label">{t.guideCmdUpdate}</span>
+                  <code>npx skill-market update --all --tool cursor</code>
+                </div>
+              </div>
+            </div>
+
+            <div class="detail-section animate-in delay-3" id="detail-tags-wrap" style="display:none;">
+              <h2 class="section-label">{t.tags}</h2>
+              <div class="tag-cloud" id="detail-tags"></div>
+            </div>
+          </div>
+
+          <aside class="detail-aside animate-in delay-3">
+            <div class="aside-card">
+              <h3 class="aside-card-title">{t.sourceRepo}</h3>
+              <a href="#" id="aside-repo-link" target="_blank" rel="noreferrer" class="aside-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.694.825.576C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+                <span id="aside-repo-label"></span>
+                <svg class="ext-icon" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+              <a href="#" id="aside-details-link" target="_blank" rel="noreferrer" class="aside-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+                <span>SKILL.md</span>
+                <svg class="ext-icon" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+            <div class="aside-card" id="aside-files-wrap" style="display:none;">
+              <h3 class="aside-card-title">{t.files}</h3>
+              <ul class="file-list" id="aside-files"></ul>
+            </div>
+            <div class="aside-card" id="aside-cats-wrap" style="display:none;">
+              <h3 class="aside-card-title">{t.categoryLabel}</h3>
+              <div class="aside-categories" id="aside-cats"></div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      &copy; {new Date().getFullYear()} <a href="https://github.com/coolzwc/open-skill-market" target="_blank" rel="noreferrer">Open Skill Market</a>. MIT License.
+    </footer>
+  </main>
+</BaseLayout>
+
+<script
+  define:vars={{ cdnBaseUrl: CDN_BASE_URL, lang, altLang, starsLabel: t.stars, copyTitle: t.copyCommand }}
+  is:inline
+>
+(function () {
+  var pathname = window.location.pathname;
+  var match = pathname.match(/^\/(en|zh)\/skill\/(.+)$/);
+  if (!match || !match[2]) {
+    window.location.href = "/" + (lang || "en") + "/";
+    return;
+  }
+  var currentLang = match[1];
+  var skillId = match[2];
+
+  var loadingEl = document.getElementById("detail-loading");
+  var notfoundEl = document.getElementById("detail-notfound");
+  var contentEl = document.getElementById("detail-content");
+
+  function showLoading() {
+    if (loadingEl) loadingEl.style.display = "";
+    if (notfoundEl) notfoundEl.style.display = "none";
+    if (contentEl) contentEl.style.display = "none";
+  }
+  function showNotFound() {
+    if (loadingEl) loadingEl.style.display = "none";
+    if (notfoundEl) notfoundEl.style.display = "block";
+    if (contentEl) contentEl.style.display = "none";
+  }
+  function showContent() {
+    if (loadingEl) loadingEl.style.display = "none";
+    if (notfoundEl) notfoundEl.style.display = "none";
+    if (contentEl) contentEl.style.display = "block";
+  }
+
+  function esc(str) {
+    if (!str) return "";
+    var span = document.createElement("span");
+    span.textContent = str;
+    return span.innerHTML;
+  }
+
+  var agentIcons = { cursor: "Cursor", "claude-code": "Claude Code", "codex-cli": "Codex CLI", "github-copilot": "Copilot" };
+
+  function renderSkill(skill) {
+    document.title = skill.name + " | Open Skill Market";
+    var metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute("content", skill.description || "Open Skill Market");
+    var canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) canonical.setAttribute("href", "https://skillmarket.cc/" + currentLang + "/skill/" + skill.id);
+    var altLink = document.querySelector('link[rel="alternate"][hreflang="' + (currentLang === "en" ? "zh" : "en") + '"]');
+    if (altLink) altLink.setAttribute("href", "https://skillmarket.cc/" + (currentLang === "en" ? "zh" : "en") + "/skill/" + skill.id);
+
+    var cat = (skill.categories && skill.categories[0]) || "Other";
+    var catEl = document.getElementById("detail-category");
+    if (catEl) { catEl.textContent = cat; catEl.setAttribute("data-cat", cat); }
+    var verEl = document.getElementById("detail-version");
+    if (verEl) {
+      if (skill.version) { verEl.textContent = "v" + skill.version; verEl.style.display = ""; }
+      else verEl.style.display = "none";
+    }
+    var titleEl = document.getElementById("detail-title");
+    if (titleEl) titleEl.textContent = skill.name || "";
+    var descEl = document.getElementById("detail-desc");
+    if (descEl) descEl.textContent = skill.description || "";
+
+    var statsHtml = '<a href="' + esc(skill.repoUrl) + '" target="_blank" rel="noreferrer" class="stat-chip author-chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>@' + esc(skill.author || "unknown") + '</a>';
+    statsHtml += '<span class="stat-chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg> ' + (skill.stars || 0).toLocaleString() + ' ' + (starsLabel || "Stars") + '</span>';
+    statsHtml += '<span class="stat-chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 18V7l10 11V7"/></svg> ' + (skill.forks || 0).toLocaleString() + '</span>';
+    if (skill.lastUpdated) {
+      var dateStr = new Date(skill.lastUpdated).toLocaleDateString(currentLang === "zh" ? "zh-CN" : "en-US");
+      statsHtml += '<span class="stat-chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> ' + esc(dateStr) + '</span>';
+    }
+    var statsEl = document.getElementById("detail-stats");
+    if (statsEl) statsEl.innerHTML = statsHtml;
+
+    var agents = (skill.compatibility && skill.compatibility.agents) || [];
+    var agentsWrap = document.getElementById("detail-agents-wrap");
+    var agentsEl = document.getElementById("detail-agents");
+    if (agentsWrap && agentsEl) {
+      if (agents.length) {
+        agentsWrap.style.display = "";
+        agentsEl.innerHTML = agents.map(function (a) {
+          var label = agentIcons[a] || a;
+          return '<span class="agent-badge agent-' + esc(a) + '"><span class="agent-dot"></span>' + esc(label) + '</span>';
+        }).join("");
+      } else agentsWrap.style.display = "none";
+    }
+
+    var tools = [
+      { key: "cursor", flag: "--tool cursor" },
+      { key: "claude", flag: "--tool claude" },
+      { key: "codex", flag: "--tool codex" },
+      { key: "copilot", flag: "--tool copilot" }
+    ];
+    var cmdBase = "npx skill-market install " + (skill.name || "").replace(/"/g, '\\"');
+    tools.forEach(function (tool) {
+      var codeEl = document.querySelector('.install-cmd[data-tool="' + tool.key + '"]');
+      var btn = codeEl && codeEl.closest(".cmd-row") && codeEl.closest(".cmd-row").querySelector(".copy-btn");
+      var cmd = cmdBase + " " + tool.flag;
+      if (codeEl) codeEl.textContent = cmd;
+      if (btn) btn.dataset.cmd = cmd;
+    });
+
+    var tags = skill.tags || [];
+    var tagsWrap = document.getElementById("detail-tags-wrap");
+    var tagsEl = document.getElementById("detail-tags");
+    if (tagsWrap && tagsEl) {
+      if (tags.length) {
+        tagsWrap.style.display = "";
+        tagsEl.innerHTML = tags.map(function (t) { return '<span class="tag-pill">' + esc(t) + '</span>'; }).join("");
+      } else tagsWrap.style.display = "none";
+    }
+
+    var repoLink = document.getElementById("aside-repo-link");
+    var repoLabel = document.getElementById("aside-repo-label");
+    if (repoLink) repoLink.href = skill.repoUrl || "#";
+    if (repoLabel) repoLabel.textContent = skill.repo || "";
+    var detailsLink = document.getElementById("aside-details-link");
+    if (detailsLink) detailsLink.href = skill.detailsUrl || "#";
+
+    var files = skill.files || [];
+    var filesWrap = document.getElementById("aside-files-wrap");
+    var filesList = document.getElementById("aside-files");
+    if (filesWrap && filesList) {
+      if (files.length) {
+        filesWrap.style.display = "";
+        filesList.innerHTML = files.map(function (f) {
+          return '<li class="file-item"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>' + esc(f) + '</li>';
+        }).join("");
+      } else filesWrap.style.display = "none";
+    }
+
+    var cats = skill.categories || [];
+    var catsWrap = document.getElementById("aside-cats-wrap");
+    var catsEl = document.getElementById("aside-cats");
+    if (catsWrap && catsEl && cats.length > 1) {
+      catsWrap.style.display = "";
+      catsEl.innerHTML = cats.map(function (c) {
+        return '<a href="/' + currentLang + '/" class="aside-cat-link">' + esc(c) + '</a>';
+      }).join("");
+    } else if (catsWrap) catsWrap.style.display = "none";
+
+    var langEn = "/en/skill/" + skill.id;
+    var langZh = "/zh/skill/" + skill.id;
+    document.querySelectorAll(".lang-link-en, .lang-dropdown-en").forEach(function (a) { a.href = langEn; a.classList.toggle("active", currentLang === "en"); });
+    document.querySelectorAll(".lang-link-zh, .lang-dropdown-zh").forEach(function (a) { a.href = langZh; a.classList.toggle("active", currentLang === "zh"); });
+
+    var ldJson = {
+      "@context": "https://schema.org",
+      "@type": "SoftwareSourceCode",
+      name: skill.name,
+      description: skill.description,
+      codeRepository: skill.repoUrl,
+      author: { "@type": "Person", name: skill.author },
+      programmingLanguage: "Markdown"
+    };
+    var existing = document.getElementById("skill-ldjson");
+    if (existing) existing.remove();
+    var script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.id = "skill-ldjson";
+    script.textContent = JSON.stringify(ldJson);
+    document.body.appendChild(script);
+  }
+
+  if (!window.__skillStore) {
+    showNotFound();
+    return;
+  }
+  window.__skillStore.load(cdnBaseUrl).then(function () {
+    var skill = window.__skillStore.getSkillById(skillId);
+    if (!skill) {
+      showNotFound();
+      return;
+    }
+    showContent();
+    renderSkill(skill);
+
+    var tabs = document.querySelectorAll(".install-tab");
+    var panels = document.querySelectorAll(".install-body[data-panel]");
+    tabs.forEach(function (tab) {
+      tab.addEventListener("click", function () {
+        var tool = tab.dataset.tool;
+        tabs.forEach(function (t) {
+          t.classList.toggle("active", t.dataset.tool === tool);
+          t.setAttribute("aria-selected", t.dataset.tool === tool ? "true" : "false");
+        });
+        panels.forEach(function (p) {
+          p.style.display = p.dataset.panel === tool ? "" : "none";
+        });
+      });
+    });
+    document.querySelectorAll(".copy-btn").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var cmd = btn.dataset.cmd;
+        if (!cmd) return;
+        navigator.clipboard.writeText(cmd).then(function () {
+          var copyIcon = btn.querySelector(".copy-icon");
+          var checkIcon = btn.querySelector(".check-icon");
+          if (copyIcon && checkIcon) {
+            copyIcon.style.display = "none";
+            checkIcon.style.display = "block";
+            setTimeout(function () {
+              copyIcon.style.display = "block";
+              checkIcon.style.display = "none";
+            }, 1500);
+          }
+        });
+      });
+    });
+    var dropdown = document.querySelector(".lang-dropdown");
+    var langToggle = dropdown && dropdown.querySelector(".lang-dropdown-toggle");
+    if (dropdown && langToggle) {
+      langToggle.addEventListener("click", function (e) {
+        e.stopPropagation();
+        dropdown.classList.toggle("open");
+      });
+      document.addEventListener("click", function () { dropdown.classList.remove("open"); });
+    }
+  }).catch(function (err) {
+    console.error("skill-store load failed:", err);
+    showNotFound();
+  });
+})();
+</script>
+
+<style>
+  .detail-loading { padding: 2rem; text-align: center; }
+  .detail-notfound { padding: 2rem; }
+  .notfound-text { color: var(--text-soft); margin-bottom: 1rem; }
+  .detail-page { height: calc(100vh - var(--topbar-h)); overflow-y: auto; overflow-x: hidden; scrollbar-width: thin; scrollbar-color: var(--line-bright) transparent; }
+  .detail-container { max-width: 1080px; margin: 0 auto; padding: 1.5rem clamp(1rem, 4vw, 2.5rem) 3rem; min-height: calc(100vh - var(--topbar-h) - 60px); }
+  .back-link { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.95rem; font-weight: 500; color: var(--text-soft); margin-bottom: 1.25rem; transition: color 160ms ease, gap 160ms ease; }
+  .back-link:hover { color: var(--accent); gap: 0.5rem; }
+  .detail-grid { display: grid; grid-template-columns: 1fr 260px; gap: 1.5rem; align-items: start; }
+  .detail-hero { position: relative; padding: 1.75rem 1.5rem; border: 1px solid var(--line-bright); border-radius: var(--radius-lg); background: var(--bg-card); overflow: hidden; }
+  .hero-glow { position: absolute; top: -60px; right: -40px; width: 220px; height: 220px; border-radius: 50%; background: radial-gradient(circle, rgba(110,231,183,0.08), transparent 70%); pointer-events: none; }
+  .detail-hero::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--accent), var(--cyan), var(--violet), transparent); }
+  .hero-content { position: relative; z-index: 1; }
+  .hero-top-row { display: flex; align-items: center; gap: 0.5rem; }
+  .version-badge { font-family: "JetBrains Mono", monospace; font-size: 0.68rem; font-weight: 500; color: var(--cyan); background: var(--cyan-dim); border: 1px solid rgba(103,232,249,0.12); padding: 0.15rem 0.5rem; border-radius: 999px; }
+  .detail-title { margin: 0.75rem 0 0.6rem; font-size: clamp(1.5rem, 3.5vw, 2rem); font-weight: 700; line-height: 1.2; background: linear-gradient(135deg, var(--text) 60%, var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+  .detail-desc { color: var(--text-soft); line-height: 1.65; font-size: 0.94rem; margin-bottom: 1.25rem; }
+  .detail-stats { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+  .stat-chip { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.35rem 0.65rem; border-radius: 8px; font-family: "JetBrains Mono", monospace; font-size: 0.74rem; color: var(--text-soft); background: rgba(255,255,255,0.03); border: 1px solid var(--line); transition: all 180ms ease; }
+  .stat-chip svg { opacity: 0.6; }
+  .author-chip { color: var(--accent); border-color: rgba(110,231,183,0.15); background: rgba(110,231,183,0.05); }
+  .author-chip:hover { border-color: rgba(110,231,183,0.3); background: rgba(110,231,183,0.1); }
+  .detail-section { margin-top: 1.25rem; }
+  .section-label { font-family: "JetBrains Mono", monospace; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-dim); margin-bottom: 0.65rem; display: flex; align-items: center; gap: 0.5rem; }
+  .section-label::before { content: ""; display: inline-block; width: 10px; height: 2px; background: var(--accent); border-radius: 1px; }
+  .agent-badges { display: flex; gap: 0.45rem; flex-wrap: wrap; }
+  .agent-badge { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.75rem; border-radius: 8px; font-size: 0.78rem; font-weight: 500; border: 1px solid var(--line-bright); background: var(--bg-elevated); color: var(--text-soft); transition: all 180ms ease; }
+  .agent-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--text-dim); }
+  .agent-cursor .agent-dot { background: var(--accent); box-shadow: 0 0 6px var(--accent-glow); }
+  .agent-claude-code .agent-dot { background: var(--violet); box-shadow: 0 0 6px rgba(167,139,250,0.35); }
+  .agent-codex-cli .agent-dot { background: var(--cyan); box-shadow: 0 0 6px rgba(103,232,249,0.35); }
+  .agent-github-copilot .agent-dot { background: var(--rose); box-shadow: 0 0 6px rgba(251,113,133,0.35); }
+  .agent-cursor { border-color: rgba(110,231,183,0.18); }
+  .agent-claude-code { border-color: rgba(167,139,250,0.18); }
+  .agent-codex-cli { border-color: rgba(103,232,249,0.18); }
+  .agent-github-copilot { border-color: rgba(251,113,133,0.18); }
+  .detail-section .install-panel { margin-top: 0; }
+  .cmd-row { display: flex; align-items: stretch; gap: 0; }
+  .cmd-row code { flex: 1; display: block; padding: 0.75rem 0.85rem; border-radius: 8px 0 0 8px; background: rgba(0,0,0,0.45); border: 1px solid var(--line); border-right: none; font-family: "JetBrains Mono", monospace; font-size: 0.8rem; color: var(--accent); word-break: break-all; user-select: all; line-height: 1.5; }
+  .copy-btn { display: flex; align-items: center; justify-content: center; width: 42px; border: 1px solid var(--line); border-radius: 0 8px 8px 0; background: rgba(255,255,255,0.02); color: var(--text-dim); cursor: pointer; transition: all 160ms ease; }
+  .copy-btn:hover { background: rgba(110,231,183,0.08); color: var(--accent); border-color: rgba(110,231,183,0.2); }
+  .cmd-hint { margin-top: 0.45rem; font-size: 0.72rem; color: var(--text-dim); }
+  .tag-cloud { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+  .tag-pill { padding: 0.28rem 0.6rem; border-radius: 6px; font-family: "JetBrains Mono", monospace; font-size: 0.72rem; color: var(--text-soft); background: rgba(255,255,255,0.03); border: 1px solid var(--line); transition: all 180ms ease; }
+  .tag-pill:hover { border-color: var(--line-bright); color: var(--text); }
+  .detail-aside { display: flex; flex-direction: column; gap: 0.75rem; }
+  .aside-card { padding: 1rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg-card); transition: border-color 180ms ease; }
+  .aside-card:hover { border-color: var(--line-bright); }
+  .aside-card-title { font-family: "JetBrains Mono", monospace; font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-dim); margin-bottom: 0.6rem; }
+  .aside-link { display: flex; align-items: center; gap: 0.45rem; padding: 0.5rem 0.6rem; margin: 0 -0.5rem; border-radius: 6px; font-size: 0.82rem; color: var(--text-soft); transition: all 160ms ease; }
+  .aside-link:hover { background: rgba(110,231,183,0.05); color: var(--accent); }
+  .aside-link .ext-icon { margin-left: auto; opacity: 0; transition: opacity 160ms ease; }
+  .aside-link:hover .ext-icon { opacity: 0.6; }
+  .aside-link span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+  .file-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.3rem; }
+  .file-item { display: flex; align-items: center; gap: 0.4rem; font-family: "JetBrains Mono", monospace; font-size: 0.74rem; color: var(--text-soft); padding: 0.3rem 0; }
+  .file-item svg { flex-shrink: 0; opacity: 0.5; }
+  .aside-categories { display: flex; flex-direction: column; gap: 0.25rem; }
+  .aside-cat-link { display: inline-flex; align-items: center; padding: 0.35rem 0.55rem; border-radius: 6px; font-size: 0.8rem; color: var(--text-soft); transition: all 160ms ease; }
+  .aside-cat-link:hover { background: rgba(110,231,183,0.06); color: var(--accent); }
+  .cli-quickstart { border: 1px solid rgba(110,231,183,0.12); border-radius: var(--radius-lg); background: linear-gradient(160deg, var(--bg-card) 65%, rgba(110,231,183,0.03)); overflow: hidden; padding: 0; }
+  .cli-qs-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; padding: 1rem 1.25rem 0.65rem; }
+  .cli-qs-left { display: flex; gap: 0.5rem; align-items: flex-start; color: var(--accent); }
+  .cli-qs-left svg { flex-shrink: 0; margin-top: 0.15rem; }
+  .cli-qs-title { font-size: 0.88rem; font-weight: 600; color: var(--text); margin-bottom: 0.15rem; }
+  .cli-qs-desc { font-size: 0.78rem; color: var(--text-dim); line-height: 1.5; }
+  .cli-qs-link { display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.76rem; font-weight: 500; color: var(--accent); white-space: nowrap; padding: 0.3rem 0.6rem; border-radius: 6px; border: 1px solid rgba(110,231,183,0.15); background: rgba(110,231,183,0.04); transition: all 180ms ease; flex-shrink: 0; }
+  .cli-qs-link:hover { background: rgba(110,231,183,0.1); border-color: rgba(110,231,183,0.3); }
+  .cli-qs-cmds { display: flex; flex-direction: column; background: rgba(0,0,0,0.25); border-top: 1px solid var(--line); }
+  .cli-qs-cmd { padding: 0.55rem 1rem; border-bottom: 1px solid var(--line); }
+  .cli-qs-cmd:last-child { border-bottom: none; }
+  .cli-qs-label { display: block; font-family: "JetBrains Mono", monospace; font-size: 0.6rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-dim); margin-bottom: 0.25rem; }
+  .cli-qs-cmd code { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; color: var(--accent); line-height: 1.5; user-select: all; }
+  @media (max-width: 720px) {
+    .detail-grid { grid-template-columns: 1fr; }
+    .detail-aside { flex-direction: row; flex-wrap: wrap; }
+    .aside-card { flex: 1; min-width: 160px; }
+    .cli-qs-header { flex-direction: column; gap: 0.5rem; }
+  }
+</style>
