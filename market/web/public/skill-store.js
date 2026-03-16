@@ -17,9 +17,10 @@
   var cdnBaseUrl = "https://cdn.skillmarket.cc";
 
   function expandSkill(skill, repos) {
-    var repo = (repos && repos[skill.repo]) || { url: "https://github.com/" + skill.repo };
+    var repoId = skill.repo || "";
+    var repo = (repos && repos[repoId]) || { url: "https://github.com/" + repoId };
     var zipBase = cdnBaseUrl + "/zips";
-    var ownerRepo = skill.repo.split("/");
+    var ownerRepo = repoId.split("/");
     var owner = ownerRepo[0] || "";
     var repository = ownerRepo[1] || "";
     var safeName = (skill.name || "").replace(/[^a-zA-Z0-9-_]/g, "");
@@ -30,20 +31,24 @@
       description: skill.description,
       categories: skill.categories,
       author: skill.author,
-      repo: skill.repo,
+      repo: repoId,
       path: skill.path,
       commitHash: skill.commitHash,
       version: skill.version,
       tags: skill.tags,
       compatibility: skill.compatibility,
       files: skill.files,
-      repoUrl: repo.url || "https://github.com/" + skill.repo,
+      repoUrl: repo.url || "https://github.com/" + repoId,
       branch: displayBranch(repo),
-      detailsUrl: buildDetailsUrl(skill.repo, repo, skill.path),
+      detailsUrl: buildDetailsUrl(repoId, repo, skill.path),
       skillZipUrl: skillZipUrl,
       stars: repo.stars != null ? repo.stars : 0,
       forks: repo.forks != null ? repo.forks : 0,
       lastUpdated: repo.lastUpdated != null ? repo.lastUpdated : null,
+      securityScore: skill.securityScore,
+      riskLevel: skill.riskLevel,
+      scanTags: skill.scanTags,
+      scannedAt: skill.scannedAt,
     };
   }
 

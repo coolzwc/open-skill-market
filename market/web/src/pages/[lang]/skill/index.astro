@@ -17,7 +17,9 @@ const tools = [
   { key: "cursor",  label: t.tabCursor,  hint: t.installHintCursor,  flag: "--tool cursor" },
   { key: "claude",  label: t.tabClaude,  hint: t.installHintClaude,  flag: "--tool claude" },
   { key: "codex",   label: t.tabCodex,   hint: t.installHintCodex,   flag: "--tool codex" },
-  { key: "copilot", label: t.tabCopilot, hint: t.installHintCopilot, flag: "--tool copilot" }
+  { key: "copilot", label: t.tabCopilot, hint: t.installHintCopilot, flag: "--tool copilot" },
+  { key: "openclaw", label: t.tabOpenclaw, hint: t.installHintOpenclaw, flag: "--tool openclaw" },
+  { key: "gemini",   label: t.tabGemini,   hint: t.installHintGemini,   flag: "--tool gemini" }
 ];
 
 const title = `${t.siteName} | ${t.backToMarket}`;
@@ -94,6 +96,29 @@ const altPath = `/${altLang}/skill/`;
                 <h1 class="detail-title" id="detail-title"></h1>
                 <p class="detail-desc" id="detail-desc"></p>
                 <div class="detail-stats" id="detail-stats"></div>
+              </div>
+            </div>
+
+            <div class="detail-section detail-section-security animate-in delay-2" id="detail-security-wrap" style="display:none;">
+              <h2 class="section-label">{t.securityTitle}</h2>
+              <div class="security-panel" id="detail-security">
+                <div class="security-row" id="detail-security-score-row" style="display:none;">
+                  <span class="security-label" id="detail-security-score-label"></span>
+                  <div class="security-score-bar"><div class="security-score-fill" id="detail-security-score-fill"></div></div>
+                  <span class="security-score-value" id="detail-security-score-value"></span>
+                </div>
+                <div class="security-row" id="detail-security-risk-row" style="display:none;">
+                  <span class="security-label" id="detail-security-risk-label"></span>
+                  <span class="risk-badge" id="detail-security-risk-badge"></span>
+                </div>
+                <div class="security-row" id="detail-security-tags-row" style="display:none;">
+                  <span class="security-label" id="detail-security-tags-label"></span>
+                  <div class="security-tags" id="detail-security-tags"></div>
+                </div>
+                <div class="security-row" id="detail-security-time-row" style="display:none;">
+                  <span class="security-label" id="detail-security-time-label"></span>
+                  <span class="security-time" id="detail-security-time"></span>
+                </div>
               </div>
             </div>
 
@@ -186,6 +211,11 @@ const altPath = `/${altLang}/skill/`;
                 <span>SKILL.md</span>
                 <svg class="ext-icon" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
               </a>
+              <a href="#" id="aside-zip-link" target="_blank" rel="noreferrer" download class="aside-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                <span>{t.downloadZip}</span>
+                <svg class="ext-icon" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
             </div>
             <div class="aside-card" id="aside-files-wrap" style="display:none;">
               <h3 class="aside-card-title">{t.files}</h3>
@@ -207,7 +237,7 @@ const altPath = `/${altLang}/skill/`;
 </BaseLayout>
 
 <script
-  define:vars={{ cdnBaseUrl: CDN_BASE_URL, lang, altLang, starsLabel: t.stars, copyTitle: t.copyCommand }}
+  define:vars={{ cdnBaseUrl: CDN_BASE_URL, lang, altLang, starsLabel: t.stars, copyTitle: t.copyCommand, securityTitle: t.securityTitle, securityScoreLabel: t.securityScoreLabel, riskLevelLabel: t.riskLevelLabel, scanTagsLabel: t.scanTagsLabel, scannedAtLabel: t.scannedAtLabel, securityNotScanned: t.securityNotScanned, riskLow: t.riskLow, riskMedium: t.riskMedium, riskHigh: t.riskHigh, riskCritical: t.riskCritical }}
   is:inline
 >
 (function () {
@@ -281,6 +311,59 @@ const altPath = `/${altLang}/skill/`;
     var statsEl = document.getElementById("detail-stats");
     if (statsEl) statsEl.innerHTML = statsHtml;
 
+    var hasSecurity = skill.securityScore != null || (skill.scanTags && skill.scanTags.length) || skill.riskLevel || skill.scannedAt;
+    var securityWrap = document.getElementById("detail-security-wrap");
+    if (securityWrap) {
+      if (hasSecurity) {
+        securityWrap.style.display = "";
+        var scoreRow = document.getElementById("detail-security-score-row");
+        var scoreLabel = document.getElementById("detail-security-score-label");
+        var scoreFill = document.getElementById("detail-security-score-fill");
+        var scoreValue = document.getElementById("detail-security-score-value");
+        if (scoreRow && scoreLabel && scoreFill && scoreValue) {
+          if (skill.securityScore != null) {
+            scoreRow.style.display = "";
+            scoreLabel.textContent = (typeof securityScoreLabel !== "undefined" ? securityScoreLabel : "Security score") + ":";
+            var pct = Math.min(100, Math.max(0, Number(skill.securityScore)));
+            scoreFill.style.width = pct + "%";
+            scoreFill.className = "security-score-fill risk-" + (skill.riskLevel || "unknown");
+            scoreValue.textContent = pct + "/100";
+          } else scoreRow.style.display = "none";
+        }
+        var riskRow = document.getElementById("detail-security-risk-row");
+        var riskLabel = document.getElementById("detail-security-risk-label");
+        var riskBadge = document.getElementById("detail-security-risk-badge");
+        if (riskRow && riskLabel && riskBadge && skill.riskLevel) {
+          riskRow.style.display = "";
+          riskLabel.textContent = (typeof riskLevelLabel !== "undefined" ? riskLevelLabel : "Risk level") + ":";
+          var riskText = skill.riskLevel;
+          if (riskText === "low" && typeof riskLow !== "undefined") riskText = riskLow;
+          else if (riskText === "medium" && typeof riskMedium !== "undefined") riskText = riskMedium;
+          else if (riskText === "high" && typeof riskHigh !== "undefined") riskText = riskHigh;
+          else if (riskText === "critical" && typeof riskCritical !== "undefined") riskText = riskCritical;
+          riskBadge.textContent = riskText;
+          riskBadge.className = "risk-badge risk-" + (skill.riskLevel || "");
+        } else if (riskRow) riskRow.style.display = "none";
+        var tagsRow = document.getElementById("detail-security-tags-row");
+        var tagsLabel = document.getElementById("detail-security-tags-label");
+        var tagsContainer = document.getElementById("detail-security-tags");
+        if (tagsRow && tagsLabel && tagsContainer && skill.scanTags && skill.scanTags.length) {
+          tagsRow.style.display = "";
+          tagsLabel.textContent = (typeof scanTagsLabel !== "undefined" ? scanTagsLabel : "Scan tags") + ":";
+          tagsContainer.innerHTML = skill.scanTags.map(function (tag) { return '<span class="security-tag">' + esc(tag) + '</span>'; }).join("");
+        } else if (tagsRow) tagsRow.style.display = "none";
+        var timeRow = document.getElementById("detail-security-time-row");
+        var timeLabel = document.getElementById("detail-security-time-label");
+        var timeEl = document.getElementById("detail-security-time");
+        if (timeRow && timeLabel && timeEl && skill.scannedAt) {
+          timeRow.style.display = "";
+          timeLabel.textContent = (typeof scannedAtLabel !== "undefined" ? scannedAtLabel : "Last scanned") + ":";
+          var scannedDate = new Date(skill.scannedAt);
+          timeEl.textContent = !isNaN(scannedDate.getTime()) ? scannedDate.toLocaleDateString(currentLang === "zh" ? "zh-CN" : "en-US", { year: "numeric", month: "short", day: "numeric" }) : String(skill.scannedAt);
+        } else if (timeRow) timeRow.style.display = "none";
+      } else securityWrap.style.display = "none";
+    }
+
     var agents = (skill.compatibility && skill.compatibility.agents) || [];
     var agentsWrap = document.getElementById("detail-agents-wrap");
     var agentsEl = document.getElementById("detail-agents");
@@ -325,6 +408,11 @@ const altPath = `/${altLang}/skill/`;
     if (repoLabel) repoLabel.textContent = skill.repo || "";
     var detailsLink = document.getElementById("aside-details-link");
     if (detailsLink) detailsLink.href = skill.detailsUrl || "#";
+    var zipLink = document.getElementById("aside-zip-link");
+    if (zipLink && skill.skillZipUrl) {
+      zipLink.href = skill.skillZipUrl;
+      zipLink.setAttribute("download", (skill.name || "skill").replace(/[^a-zA-Z0-9-_]/g, "") + ".zip");
+    }
 
     var files = skill.files || [];
     var filesWrap = document.getElementById("aside-files-wrap");
@@ -455,6 +543,28 @@ const altPath = `/${altLang}/skill/`;
   .author-chip { color: var(--accent); border-color: rgba(110,231,183,0.15); background: rgba(110,231,183,0.05); }
   .author-chip:hover { border-color: rgba(110,231,183,0.3); background: rgba(110,231,183,0.1); }
   .detail-section { margin-top: 1.25rem; }
+  .detail-section-security { border: 1px solid rgba(110,231,183,0.15); border-radius: var(--radius-lg); background: linear-gradient(160deg, rgba(110,231,183,0.04) 0%, var(--bg-card) 100%); padding: 1rem 1.25rem; }
+  .detail-section-security .section-label { color: var(--accent); }
+  .detail-section-security .section-label::before { background: var(--accent); }
+  .security-panel { display: flex; flex-direction: column; gap: 0.75rem; }
+  .security-row { display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap; }
+  .security-label { font-size: 0.78rem; color: var(--text-dim); min-width: 5.5rem; }
+  .security-score-bar { flex: 1; min-width: 80px; height: 8px; border-radius: 4px; background: var(--line); overflow: hidden; }
+  .security-score-fill { height: 100%; border-radius: 4px; transition: width 0.3s ease; }
+  .security-score-fill.risk-low { background: linear-gradient(90deg, var(--accent), var(--cyan)); }
+  .security-score-fill.risk-medium { background: linear-gradient(90deg, #fbbf24, #f59e0b); }
+  .security-score-fill.risk-high { background: linear-gradient(90deg, #f97316, #ef4444); }
+  .security-score-fill.risk-critical { background: var(--rose); }
+  .security-score-fill.risk-unknown { background: var(--line-bright); }
+  .security-score-value { font-family: "JetBrains Mono", monospace; font-size: 0.8rem; font-weight: 600; color: var(--text-soft); }
+  .risk-badge { font-size: 0.75rem; font-weight: 600; padding: 0.25rem 0.6rem; border-radius: 6px; text-transform: capitalize; }
+  .risk-badge.risk-low { background: rgba(110,231,183,0.15); color: var(--accent); border: 1px solid rgba(110,231,183,0.25); }
+  .risk-badge.risk-medium { background: rgba(251,191,36,0.15); color: #fbbf24; border: 1px solid rgba(251,191,36,0.25); }
+  .risk-badge.risk-high { background: rgba(239,68,68,0.15); color: #f87171; border: 1px solid rgba(239,68,68,0.25); }
+  .risk-badge.risk-critical { background: rgba(251,113,133,0.2); color: var(--rose); border: 1px solid rgba(251,113,133,0.35); }
+  .security-tags { display: flex; gap: 0.35rem; flex-wrap: wrap; }
+  .security-tag { font-family: "JetBrains Mono", monospace; font-size: 0.7rem; padding: 0.2rem 0.5rem; border-radius: 4px; background: rgba(255,255,255,0.04); border: 1px solid var(--line); color: var(--text-soft); }
+  .security-time { font-size: 0.8rem; color: var(--text-dim); }
   .section-label { font-family: "JetBrains Mono", monospace; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-dim); margin-bottom: 0.65rem; display: flex; align-items: center; gap: 0.5rem; }
   .section-label::before { content: ""; display: inline-block; width: 10px; height: 2px; background: var(--accent); border-radius: 1px; }
   .agent-badges { display: flex; gap: 0.45rem; flex-wrap: wrap; }

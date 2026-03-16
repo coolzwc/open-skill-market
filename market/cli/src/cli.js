@@ -13,20 +13,25 @@ const ZIP_BASE_URL =
 const META_FILENAME = ".skill-market-meta.json";
 const SKILL_FILENAME = "SKILL.md";
 
-const TOOL_KEYS = ["cursor", "claude", "codex", "copilot"];
+const TOOL_KEYS = ["cursor", "claude", "codex", "copilot", "openclaw", "gemini"];
 
 function printHelp() {
   console.log(`skill-market
 
 Usage:
-  npx skill-market list [--tool <cursor|claude|codex|copilot>]
+  npx skill-market list [--tool <cursor|claude|codex|copilot|openclaw|gemini>]
   npx skill-market search <keyword>
   npx skill-market install <skill-id-or-name> [--tool <...>] [--dir <path>] [--check]
   npx skill-market update <skill-id-or-name|--all> [--tool <...>] [--dir <path>] [--check]
 
+Examples:
+  npx skill-market list --tool cursor
+  npx skill-market list --tool gemini
+  npx skill-market install <skill> --tool openclaw
+
 Flags:
   --registry <url>  Override registry URL
-  --tool <name>     Target tool: cursor|claude|codex|copilot
+  --tool <name>     Target tool: cursor|claude|codex|copilot|openclaw|gemini
   --dir <path>      Override install base directory
   --limit <n>       Limit number of rows for list/search
   --check           Check status only, no write
@@ -61,6 +66,8 @@ function normalizeTool(toolName) {
   if (key === "claude-code") return "claude";
   if (key === "codex-cli") return "codex";
   if (key === "github-copilot") return "copilot";
+  if (key === "claw" || key === "nanoclaw") return "openclaw";
+  if (key === "gemini-cli" || key === "google-gemini") return "gemini";
   if (TOOL_KEYS.includes(key)) return key;
   return "";
 }
@@ -76,6 +83,10 @@ function defaultInstallBase(tool) {
       return path.join(home, ".codex", "skills");
     case "copilot":
       return path.join(home, ".config", "github-copilot", "skills");
+    case "openclaw":
+      return path.join(home, ".openclaw", "skills");
+    case "gemini":
+      return path.join(home, ".gemini", "skills");
     default:
       return path.join(home, ".cursor", "skills");
   }
@@ -224,6 +235,11 @@ function skillSupportsTool(skill, tool) {
   if (tool === "codex") return normalized.some((x) => x.includes("codex"));
   if (tool === "copilot") return normalized.some((x) => x.includes("copilot"));
   if (tool === "cursor") return normalized.some((x) => x.includes("cursor"));
+  if (tool === "openclaw")
+    return normalized.some(
+      (x) => x.includes("openclaw") || x.includes("nanoclaw"),
+    );
+  if (tool === "gemini") return normalized.some((x) => x.includes("gemini"));
   return true;
 }
 

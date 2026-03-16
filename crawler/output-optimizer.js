@@ -92,6 +92,20 @@ export function compactSkill(skill, reposMap = null) {
     });
   }
 
+  // Scan result fields (from detector)
+  if (skill.securityScore != null) {
+    compacted.securityScore = skill.securityScore;
+  }
+  if (skill.riskLevel) {
+    compacted.riskLevel = skill.riskLevel;
+  }
+  if (skill.scanTags && skill.scanTags.length > 0) {
+    compacted.scanTags = skill.scanTags;
+  }
+  if (skill.scannedAt) {
+    compacted.scannedAt = skill.scannedAt;
+  }
+
   return compacted;
 }
 
@@ -148,6 +162,19 @@ export function expandSkill(compact, repositories = {}) {
 
   if (compact.compatibility) {
     expanded.compatibility = compact.compatibility;
+  }
+
+  if (compact.securityScore != null) {
+    expanded.securityScore = compact.securityScore;
+  }
+  if (compact.riskLevel) {
+    expanded.riskLevel = compact.riskLevel;
+  }
+  if (compact.scanTags && compact.scanTags.length > 0) {
+    expanded.scanTags = compact.scanTags;
+  }
+  if (compact.scannedAt) {
+    expanded.scannedAt = compact.scannedAt;
   }
 
   return expanded;

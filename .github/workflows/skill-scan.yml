@@ -1,0 +1,146 @@
+# Skill security scan: rule-based detection, scan cache, zip cache or CDN.
+# On completion: commit & push skills.json (+ chunks), then trigger deploy-web.
+# When incomplete (timeout): scan stops before job kill, writes partial results + cache, exits;
+#   workflow re-triggers self (like crawler) until scan completes. Needs WORKFLOW_DISPATCH_TOKEN.
+#
+# SCAN_TIMEOUT_MS must be < job timeout-minutes so we have time to write; default 310 min (job is 320).
+
+name: Skill Scan
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+  workflow_call:
+
+concurrency:
+  group: skill-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 320
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Restore zip cache
+        uses: actions/cache@v4
+        with:
+          path: market/zips
+          key: skill-zips-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            skill-zips-
+
+      - name: Restore scan cache
+        uses: actions/cache@v4
+        with:
+          path: market/.scan-cache.json
+          key: scan-cache-${{ hashFiles('detector/**', 'package-lock.json') }}
+          restore-keys: |
+            scan-cache-
+
+      - name: Run skill scan
+        id: scan
+        env:
+          # Stop starting new work ~10 min before job timeout so we can write skills.json + scan cache
+          SCAN_TIMEOUT_MS: 18600000
+        run: |
+          npm run scan; SCAN_EXIT=$?
+          if [ "$SCAN_EXIT" -eq 1 ]; then
+            echo "true" > /tmp/scan_incomplete.txt
+          elif [ "$SCAN_EXIT" -eq 0 ]; then
+            if [ -f market/skills.json ]; then
+              jq -r '.meta.scanIncomplete // false' market/skills.json > /tmp/scan_incomplete.txt
+            else
+              echo "false" > /tmp/scan_incomplete.txt
+            fi
+          else
+            echo "Scan failed with exit code $SCAN_EXIT"
+            exit $SCAN_EXIT
+          fi
+
+      - name: Set scan complete flag
+        id: scan_complete_flag
+        run: |
+          INCOMPLETE=$(cat /tmp/scan_incomplete.txt 2>/dev/null || echo "true")
+          echo "incomplete=$INCOMPLETE" >> $GITHUB_OUTPUT
+          if [ "$INCOMPLETE" = "true" ]; then
+            echo "complete=false" >> $GITHUB_OUTPUT
+          else
+            echo "complete=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git add -f market/skills.json market/skills-*.json
+          if git diff --cached --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push (scan complete, has changes)
+        if: steps.scan_complete_flag.outputs.complete == 'true' && steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -f market/skills.json market/skills-*.json
+          git commit -m "chore: skill scan results [skip ci]
+
+          Automated scan at $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+          git push
+
+      - name: Trigger deploy-web (scan complete)
+        if: steps.scan_complete_flag.outputs.complete == 'true'
+        env:
+          TOKEN: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "WORKFLOW_DISPATCH_TOKEN not set; skipping deploy-web trigger."
+            exit 0
+          fi
+          echo "Scan complete, triggering Deploy Web workflow..."
+          curl -sS -X POST \
+            -H "Authorization: token $TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/deploy-web.yml/dispatches" \
+            -d '{"ref":"main"}'
+          echo "Deploy Web triggered."
+
+      - name: Re-trigger workflow if incomplete
+        if: success()
+        env:
+          TOKEN: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
+        run: |
+          INCOMPLETE="${{ steps.scan_complete_flag.outputs.incomplete }}"
+          if [ "$INCOMPLETE" != "true" ]; then
+            echo "Scan complete, no re-trigger."
+            exit 0
+          fi
+          if [ -z "$TOKEN" ]; then
+            echo "Scan incomplete but WORKFLOW_DISPATCH_TOKEN not set; skipping re-trigger."
+            exit 0
+          fi
+          echo "Scan incomplete, re-triggering workflow..."
+          curl -sS -X POST \
+            -H "Authorization: token $TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/skill-scan.yml/dispatches" \
+            -d '{"ref":"main"}'
+          echo "Workflow re-triggered."

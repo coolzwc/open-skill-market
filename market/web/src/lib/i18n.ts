@@ -24,10 +24,14 @@ type Messages = {
   tabClaude: string;
   tabCodex: string;
   tabCopilot: string;
+  tabOpenclaw: string;
+  tabGemini: string;
   installHintCursor: string;
   installHintClaude: string;
   installHintCodex: string;
   installHintCopilot: string;
+  installHintOpenclaw: string;
+  installHintGemini: string;
   viewSkillMd: string;
   commit: string;
   files: string;
@@ -80,6 +84,16 @@ type Messages = {
   guideToolPaths: string;
   guideToolPathsDesc: string;
   downloadZip: string;
+  securityTitle: string;
+  securityScoreLabel: string;
+  riskLevelLabel: string;
+  scanTagsLabel: string;
+  scannedAtLabel: string;
+  securityNotScanned: string;
+  riskLow: string;
+  riskMedium: string;
+  riskHigh: string;
+  riskCritical: string;
 };
 
 export const MESSAGES: Record<Lang, Messages> = {
@@ -109,10 +123,14 @@ export const MESSAGES: Record<Lang, Messages> = {
     tabClaude: "Claude Code",
     tabCodex: "Codex CLI",
     tabCopilot: "Copilot",
+    tabOpenclaw: "OpenClaw",
+    tabGemini: "Gemini CLI",
     installHintCursor: "Installs to ~/.cursor/skills/",
     installHintClaude: "Installs to ~/.claude/skills/",
     installHintCodex: "Installs to ~/.codex/skills/",
     installHintCopilot: "Installs to ~/.config/github-copilot/skills/",
+    installHintOpenclaw: "Installs to ~/.openclaw/skills/",
+    installHintGemini: "Installs to ~/.gemini/skills/",
     viewSkillMd: "View SKILL.md",
     commit: "Commit",
     files: "Files",
@@ -174,7 +192,17 @@ export const MESSAGES: Record<Lang, Messages> = {
     guideToolPaths: "Default Install Paths",
     guideToolPathsDesc:
       "Each tool has a default directory. You can override it with --dir.",
-    downloadZip: "Download"
+    downloadZip: "Download",
+    securityTitle: "Security",
+    securityScoreLabel: "Security score",
+    riskLevelLabel: "Risk level",
+    scanTagsLabel: "Scan tags",
+    scannedAtLabel: "Last scanned",
+    securityNotScanned: "Not scanned yet",
+    riskLow: "Low",
+    riskMedium: "Medium",
+    riskHigh: "High",
+    riskCritical: "Critical",
   },
   zh: {
     siteName: "Open Skill Market",
@@ -201,10 +229,14 @@ export const MESSAGES: Record<Lang, Messages> = {
     tabClaude: "Claude Code",
     tabCodex: "Codex CLI",
     tabCopilot: "Copilot",
+    tabOpenclaw: "OpenClaw",
+    tabGemini: "Gemini CLI",
     installHintCursor: "安装到 ~/.cursor/skills/",
     installHintClaude: "安装到 ~/.claude/skills/",
     installHintCodex: "安装到 ~/.codex/skills/",
     installHintCopilot: "安装到 ~/.config/github-copilot/skills/",
+    installHintOpenclaw: "安装到 ~/.openclaw/skills/",
+    installHintGemini: "安装到 ~/.gemini/skills/",
     viewSkillMd: "查看 SKILL.md",
     commit: "提交",
     files: "文件",
@@ -258,7 +290,17 @@ export const MESSAGES: Record<Lang, Messages> = {
     guideExampleComment6: "# 以 JSON 格式输出结果",
     guideToolPaths: "默认安装路径",
     guideToolPathsDesc: "每个工具有默认目录，可通过 --dir 覆盖。",
-    downloadZip: "下载"
+    downloadZip: "下载",
+    securityTitle: "安全信息",
+    securityScoreLabel: "安全评分",
+    riskLevelLabel: "风险等级",
+    scanTagsLabel: "扫描标签",
+    scannedAtLabel: "最近扫描",
+    securityNotScanned: "尚未扫描",
+    riskLow: "低",
+    riskMedium: "中",
+    riskHigh: "高",
+    riskCritical: "高（严重）",
   },
 };
 

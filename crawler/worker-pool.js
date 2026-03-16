@@ -157,16 +157,17 @@ function createClient(octokit, label, isAuthenticated = true) {
 
 /**
  * Worker pool for parallel GitHub API requests with multiple tokens.
- * Manages separate Core API and Search API rate limits per client,
- * with independent round-robin selection for each API type.
+ * Manages separate Core API, Search API, and Code Search API rate limits per client.
+ * Uses drain-then-switch: use the current token until its quota is exhausted, then
+ * switch to the next; reduces collective rate-limit wait time by staggering usage.
  */
 export class WorkerPool {
   constructor() {
     this.tokens = collectGitHubTokens();
     this.clients = [];
-    this.coreIndex = 0;        // round-robin pointer for Core API
-    this.searchIndex = 0;      // round-robin pointer for Search API
-    this.codeSearchIndex = 0;  // round-robin pointer for Code Search API
+    this.coreIndex = 0;        // current client index for Core API (drain-then-switch)
+    this.searchIndex = 0;      // current client index for Search API (drain-then-switch)
+    this.codeSearchIndex = 0;  // current client index for Code Search API (drain-then-switch)
     this.queue = null;
 
     this._initClients();
@@ -260,11 +261,11 @@ export class WorkerPool {
   // ───── Core API client selection (repos.getContent, repos.listCommits, repos.get, etc.) ─────
 
   /**
-   * Get the next available client for Core API (round-robin with rate limit awareness)
+   * Get the next available client for Core API (drain-then-switch: same token until limited).
    * @returns {Object} Client object with octokit instance
    */
   getClient() {
-    // Try to find an available client starting from current index
+    // Prefer current client; only advance when it is limited
     for (let i = 0; i < this.clients.length; i++) {
       const idx = (this.coreIndex + i) % this.clients.length;
       const client = this.clients[idx];
@@ -272,7 +273,7 @@ export class WorkerPool {
       refreshBucket(client.core, client.label, "Core");
 
       if (!client.core.isLimited) {
-        this.coreIndex = (idx + 1) % this.clients.length;
+        this.coreIndex = idx; // drain-then-switch: keep using same token until limited
         return client;
       }
     }
@@ -325,7 +326,7 @@ export class WorkerPool {
   // ───── Search API client selection (search.repos — separate bucket) ─────
 
   /**
-   * Get the next available client for Search API (round-robin with rate limit awareness)
+   * Get the next available client for Search API (drain-then-switch: same token until limited).
    * @returns {Object} Client object with octokit instance
    */
   getSearchClient() {
@@ -336,7 +337,7 @@ export class WorkerPool {
       refreshBucket(client.search, client.label, "Search");
 
       if (!client.search.isLimited) {
-        this.searchIndex = (idx + 1) % this.clients.length;
+        this.searchIndex = idx; // drain-then-switch: keep using same token until limited
         return client;
       }
     }
@@ -400,7 +401,7 @@ export class WorkerPool {
   // ───── Code Search API client selection (search.code — separate bucket) ─────
 
   /**
-   * Get the next available client for Code Search API
+   * Get the next available client for Code Search API (drain-then-switch: same token until limited).
    * @returns {Object} Client object with octokit instance
    */
   getCodeSearchClient() {
@@ -411,7 +412,7 @@ export class WorkerPool {
       refreshBucket(client.codeSearch, client.label, "CodeSearch");
 
       if (!client.codeSearch.isLimited) {
-        this.codeSearchIndex = (idx + 1) % this.clients.length;
+        this.codeSearchIndex = idx; // drain-then-switch: keep using same token until limited
         return client;
       }
     }
