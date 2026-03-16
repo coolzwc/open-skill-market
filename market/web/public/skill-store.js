@@ -23,7 +23,8 @@
     var ownerRepo = repoId.split("/");
     var owner = ownerRepo[0] || "";
     var repository = ownerRepo[1] || "";
-    var safeName = (skill.name || "").replace(/[^a-zA-Z0-9-_]/g, "");
+    var rawName = (skill.name || "").replace(/[^a-zA-Z0-9-_]/g, "");
+    var safeName = rawName || "skill";
     var skillZipUrl = zipBase + "/" + owner + "-" + repository + "-" + safeName + ".zip";
     return {
       id: skill.id,
@@ -73,9 +74,14 @@
     }
     var cdnBase = cdnBaseUrl;
     loadPromise = (async function () {
-      var mainResp = await fetchOrNull(cdnBase + "/skills.json");
-      if (!mainResp) {
+      var isLocalDev = typeof window !== "undefined" && (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1");
+      var mainResp;
+      if (isLocalDev) {
         mainResp = await fetchOrNull(LOCAL_DATA_BASE + "/skills.json");
+        if (!mainResp) mainResp = await fetchOrNull(cdnBase + "/skills.json");
+      } else {
+        mainResp = await fetchOrNull(cdnBase + "/skills.json");
+        if (!mainResp) mainResp = await fetchOrNull(LOCAL_DATA_BASE + "/skills.json");
       }
       if (!mainResp) throw new Error("Failed to fetch skills.json (CDN and local)");
       var mainData = await mainResp.json();
@@ -84,8 +90,14 @@
       for (var k in mainData.repositories || {}) repositories[k] = mainData.repositories[k];
       var chunks = mainData.meta && mainData.meta.chunks ? mainData.meta.chunks : [];
       for (var i = 0; i < chunks.length; i++) {
-        var chunkResp = await fetchOrNull(cdnBase + "/" + chunks[i]);
-        if (!chunkResp) chunkResp = await fetchOrNull(LOCAL_DATA_BASE + "/" + chunks[i]);
+        var chunkResp;
+        if (isLocalDev) {
+          chunkResp = await fetchOrNull(LOCAL_DATA_BASE + "/" + chunks[i]);
+          if (!chunkResp) chunkResp = await fetchOrNull(cdnBase + "/" + chunks[i]);
+        } else {
+          chunkResp = await fetchOrNull(cdnBase + "/" + chunks[i]);
+          if (!chunkResp) chunkResp = await fetchOrNull(LOCAL_DATA_BASE + "/" + chunks[i]);
+        }
         if (!chunkResp) {
           console.warn("skill-store: failed to load chunk " + chunks[i] + " (CDN and local)");
           continue;

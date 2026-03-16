@@ -4,7 +4,7 @@ import * as prettier from "prettier";
 import "dotenv/config";
 
 import { CONFIG } from "./config.js";
-import { loadPriorityRepos, parseRepoUrl } from "./utils.js";
+import { loadPriorityRepos, parseRepoUrl, safeZipName } from "./utils.js";
 import { WorkerPool } from "./worker-pool.js";
 import {
   executionState,
@@ -23,6 +23,38 @@ import { crawlerCache } from "./cache.js";
 import { generateSkillZip } from "./zip-generator.js";
 import { compactOutput, calculateSizeSavings, splitByRepo } from "./output-optimizer.js";
 import { uploadToR2, buildR2Key, isR2Configured } from "./r2-uploader.js";
+
+/** Minimum zip size in bytes; below this we skip upload and re-queue for regeneration. Empty zip is ~22 bytes. */
+const MIN_ZIP_SIZE_BYTES = 50;
+
+/**
+ * If the zip at localPath exists and has valid size, returns true. If missing, too small, or error, returns false.
+ * When too small: unlinks file, clears cache zip info, optionally adds to pending zip list for next run.
+ * @param {string} localPath
+ * @param {string} cacheKey
+ * @param {string} zipLabel - For log message
+ * @param {{ addPendingZip?: boolean }} options - addPendingZip: when true (default), add cacheKey to pending zips when deleting
+ * @returns {Promise<boolean>}
+ */
+async function ensureZipValidSize(localPath, cacheKey, zipLabel, options = {}) {
+  const { addPendingZip = true } = options;
+  try {
+    await fs.access(localPath);
+    const stat = await fs.stat(localPath);
+    if (stat.size < MIN_ZIP_SIZE_BYTES) {
+      await fs.unlink(localPath);
+      crawlerCache.setZipInfo(cacheKey, null);
+      if (addPendingZip) crawlerCache.addPendingZip(cacheKey);
+      console.log(
+        `  ⚠ ${zipLabel} too small (${stat.size} bytes), deleted; will regenerate.`,
+      );
+      return false;
+    }
+    return true;
+  } catch {
+    return false;
+  }
+}
 
 /**
  * Resume mode: process only pending zips / R2 uploads from a previous interrupted run.
@@ -87,20 +119,20 @@ async function processPendingItems() {
       }
       const { owner, repo } = parsed;
 
-      // Check if zip already exists on disk
-      const zipFilename = `${owner}-${repo}-${skill.name}.zip`;
+      // Check if zip already exists on disk (filename must match CDN/frontend safe name)
+      const zipFilename = `${owner}-${repo}-${safeZipName(skill.name)}.zip`;
       const localZipPath = path.join(CONFIG.zips.outputDir, zipFilename);
-      try {
-        await fs.access(localZipPath);
-        // File already on disk, just update cache
+      const valid = await ensureZipValidSize(localZipPath, key, `${skill.name} zip on disk`, {
+        addPendingZip: false,
+      });
+      if (valid) {
         const zipPath = path.relative(path.join(CONFIG.zips.outputDir, ".."), localZipPath);
         crawlerCache.setZipInfo(key, zipPath);
         console.log(`  ✓ ${skill.name} (already on disk)`);
         zipOnDisk++;
         continue;
-      } catch {
-        // Not on disk, need to generate
       }
+      // Invalid or missing: fall through to generate below
 
       try {
         // Wait for available client if rate limited
@@ -150,7 +182,7 @@ async function processPendingItems() {
       const parsed = parseRepoUrl(cached.manifest.repository?.url || cached.manifest.repo);
       if (!parsed) continue;
       const { owner, repo } = parsed;
-      const skillName = cached.manifest.name;
+      const skillName = safeZipName(cached.manifest.name);
       const zipFilename = `${owner}-${repo}-${skillName}.zip`;
       tasks.push({ key, commitHash: cached.commitHash, owner, repo, skillName, zipFilename });
     }
@@ -176,7 +208,7 @@ async function processPendingItems() {
         const localPath = path.join(CONFIG.zips.outputDir, t.zipFilename);
         const r2Key = buildR2Key(r2Prefix, t.owner, t.repo, t.skillName);
         try {
-          await fs.access(localPath);
+          if (!(await ensureZipValidSize(localPath, t.key, t.zipFilename))) continue;
           await uploadToR2(localPath, r2Key, r2Bucket);
           crawlerCache.setR2Uploaded(t.key, t.commitHash);
           r2Uploaded++;
@@ -517,20 +549,22 @@ async function main() {
         return;
       }
 
-      const zipFilename = `${owner}-${repo}-${skill.name}.zip`;
+      const zipFilename = `${owner}-${repo}-${safeZipName(skill.name)}.zip`;
       const localPath = path.join(CONFIG.zips.outputDir, zipFilename);
-      const r2Key = buildR2Key(r2Prefix, owner, repo, skill.name);
+      const r2Key = buildR2Key(r2Prefix, owner, repo, safeZipName(skill.name));
 
-      const uploadPromise = uploadToR2(localPath, r2Key, r2Bucket)
-        .then(() => {
+      const uploadPromise = (async () => {
+        try {
+          if (!(await ensureZipValidSize(localPath, cacheKey, zipFilename))) return;
+          await uploadToR2(localPath, r2Key, r2Bucket);
           crawlerCache.setR2Uploaded(cacheKey, skill.commitHash);
           r2UploadedCount++;
-        })
-        .catch((err) => {
+        } catch (err) {
           console.error(`  ✗ R2 upload failed for ${zipFilename}: ${err.message}`);
           crawlerCache.addPendingR2Upload(cacheKey);
           r2ErrorCount++;
-        });
+        }
+      })();
 
       r2Uploads.push(uploadPromise);
     }
@@ -581,18 +615,15 @@ async function main() {
           if (zipInfo) {
             // Verify zip file actually exists on disk (cache metadata may outlive
             // the file if GitHub Actions zip cache was evicted while .crawler-cache.json persisted)
-            const zipFilename = `${owner}-${repo}-${skill.name}.zip`;
+            const zipFilename = `${owner}-${repo}-${safeZipName(skill.name)}.zip`;
             const localZipPath = path.join(CONFIG.zips.outputDir, zipFilename);
-            try {
-              await fs.access(localZipPath);
+            const valid = await ensureZipValidSize(localZipPath, cacheKey, `Cached zip ${zipFilename}`);
+            if (valid) {
               skippedCount++;
-              // Zip is cached — let scheduleR2Upload decide if upload is needed
               scheduleR2Upload(cacheKey, skill, owner, repo);
               continue;
-            } catch {
-              // Zip file missing on disk, fall through to regenerate
-              console.log(`  ⚠ Cached zip missing on disk: ${zipFilename}, regenerating...`);
             }
+            // Invalid (too small, already logged) or missing: fall through to regenerate below
           }
         }
 
@@ -758,35 +789,8 @@ async function main() {
     // Ignore cleanup errors
   }
 
-  // Upload skills.json (+ chunks) to R2 only when crawl fully completed (no rate limit/timeout)
-  const crawlComplete = !isIncomplete && !zipTimedOut;
-  if (isR2Configured() && crawlComplete) {
-    const r2Bucket = CONFIG.zips.r2.bucket || "skill-market";
-
-    console.log(`\nUploading registry files to R2...`);
-
-    // Upload main skills.json
-    try {
-      await uploadToR2(CONFIG.outputPath, "skills.json", r2Bucket);
-      console.log(`  ✓ Uploaded skills.json`);
-    } catch (err) {
-      console.error(`  ✗ Failed to upload skills.json: ${err.message}`);
-    }
-
-    // Upload chunk files
-    for (let i = 0; i < chunks.length; i++) {
-      const chunkFilename = `skills-${i + 1}.json`;
-      const chunkPath = path.join(outputDir, chunkFilename);
-      try {
-        await uploadToR2(chunkPath, chunkFilename, r2Bucket);
-        console.log(`  ✓ Uploaded ${chunkFilename}`);
-      } catch (err) {
-        console.error(`  ✗ Failed to upload ${chunkFilename}: ${err.message}`);
-      }
-    }
-  } else if (isR2Configured() && !crawlComplete) {
-    console.log(`\nSkipping R2 registry upload (crawl incomplete: rate limit or timeout).`);
-  }
+  // Registry (skills.json + chunks) is not uploaded to CDN by crawler; only commit to git.
+  // CDN upload is done after skill-scan completes (see .github/workflows/skill-scan.yml).
 
   // Save cache
   await crawlerCache.save();

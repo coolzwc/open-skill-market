@@ -4,7 +4,7 @@ import archiver from "archiver";
 import { createWriteStream } from "fs";
 import { CONFIG } from "./config.js";
 import { shouldStopForTimeout } from "./rate-limit.js";
-import { parseRepoUrl, sleep } from "./utils.js";
+import { parseRepoUrl, safeZipName, sleep } from "./utils.js";
 
 /**
  * Generate a zip package for a skill
@@ -23,8 +23,9 @@ export async function generateSkillZip(skillManifest, outputDir, workerPool) {
   }
   const { owner, repo } = parsed;
 
-  // Generate zip filename: owner-repo-skillName.zip
-  const zipFilename = `${owner}-${repo}-${name}.zip`;
+  // Generate zip filename: owner-repo-safeName.zip (safe name matches CDN URL and frontend)
+  const safeName = safeZipName(name);
+  const zipFilename = `${owner}-${repo}-${safeName}.zip`;
   const zipPath = path.join(outputDir, zipFilename);
 
   // Ensure output directory exists
@@ -32,7 +33,14 @@ export async function generateSkillZip(skillManifest, outputDir, workerPool) {
 
   // Fetch skill files
   console.log(`Generating zip for ${name}...`);
-  const fileContents = await fetchSkillFiles(owner, repo, branch, files, skillPath, workerPool);
+  const fileList = Array.isArray(files) ? files : [];
+  const fileContents = await fetchSkillFiles(owner, repo, branch, fileList, skillPath, workerPool);
+
+  if (fileContents.length === 0) {
+    throw new Error(
+      `No files could be fetched for skill (manifest has ${fileList.length} path(s)); not writing empty zip`,
+    );
+  }
 
   // Create zip file
   await createZipFile(zipPath, fileContents, name, skillPath);
@@ -291,6 +299,7 @@ function preserveDirectoryStructure(filePath, skillPath, skillName) {
  * @returns {string} - Full URL to zip file
  */
 export function generateZipUrl(baseUrl, owner, repo, skillName) {
-  const zipFilename = `${owner}-${repo}-${skillName}.zip`;
+  const safeName = safeZipName(skillName);
+  const zipFilename = `${owner}-${repo}-${safeName}.zip`;
   return `${baseUrl}/${zipFilename}`;
 }

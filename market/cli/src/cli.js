@@ -133,11 +133,12 @@ function expandSkill(skill, repositories) {
   const branch = repoInfo.branch || "main";
   const pathInRepo = skill.path || "";
   const [owner, repo] = skill.repo.split("/");
+  const safeZipName = (skill.name || "").replace(/[^a-zA-Z0-9-_]/g, "") || "skill";
   return {
     ...skill,
     repoUrl,
     branch,
-    skillZipUrl: `${ZIP_BASE_URL}/${owner}-${repo}-${skill.name}.zip`,
+    skillZipUrl: `${ZIP_BASE_URL}/${owner}-${repo}-${safeZipName}.zip`,
     downloadUrl: `https://api.github.com/repos/${owner}/${repo}/zipball/${branch}`,
     detailsUrl: `https://github.com/${owner}/${repo}/blob/${branch}/${pathInRepo}/SKILL.md`,
     stars: Number(repoInfo.stars || 0),

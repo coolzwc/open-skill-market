@@ -8,6 +8,7 @@
     "crawl": "node crawler/index.js",
     "crawl:test": "TEST_MODE=true node crawler/index.js",
     "scan": "node detector/index.js",
+    "upload-registry": "node scripts/upload-registry-to-r2.mjs",
     "test": "node --test \"detector/test/*.js\" \"crawler/test/*.js\"",
     "test:detector": "node --test \"detector/test/*.js\"",
     "test:crawler": "node --test \"crawler/test/*.js\""

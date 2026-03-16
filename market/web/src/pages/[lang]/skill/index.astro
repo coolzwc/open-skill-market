@@ -381,7 +381,9 @@ const altPath = `/${altLang}/skill/`;
       { key: "cursor", flag: "--tool cursor" },
       { key: "claude", flag: "--tool claude" },
       { key: "codex", flag: "--tool codex" },
-      { key: "copilot", flag: "--tool copilot" }
+      { key: "copilot", flag: "--tool copilot" },
+      { key: "openclaw", flag: "--tool openclaw" },
+      { key: "gemini", flag: "--tool gemini" }
     ];
     var cmdBase = "npx skill-market install " + (skill.name || "").replace(/"/g, '\\"');
     tools.forEach(function (tool) {

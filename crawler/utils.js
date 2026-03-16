@@ -86,6 +86,17 @@ export function parseRepoUrl(url) {
 }
 
 /**
+ * Sanitize skill name for zip filename and CDN URL (must match frontend and detector).
+ * Only [a-zA-Z0-9-_] allowed; used for owner-repo-name.zip so URLs are safe.
+ * @param {string} name - Raw skill name from manifest
+ * @returns {string}
+ */
+export function safeZipName(name) {
+  const s = (name || "").replace(/[^a-zA-Z0-9-_]/g, "");
+  return s || "skill";
+}
+
+/**
  * Generate display name from skill name
  * @param {string} name
  * @returns {string}

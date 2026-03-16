@@ -30,14 +30,24 @@ export function getOwnerRepo(skill) {
 }
 
 /**
- * Zip filename for a skill (matches crawler/r2-uploader).
+ * Sanitize skill name for zip filename (must match crawler and frontend).
+ * @param {string} name
+ * @returns {string}
+ */
+function safeZipName(name) {
+  const s = (name || "").replace(/[^a-zA-Z0-9-_]/g, "");
+  return s || "skill";
+}
+
+/**
+ * Zip filename for a skill (matches crawler/r2-uploader and frontend URL).
  * @param {string} owner
  * @param {string} repo
  * @param {string} skillName
  * @returns {string}
  */
 export function zipFilename(owner, repo, skillName) {
-  return `${owner}-${repo}-${skillName}.zip`;
+  return `${owner}-${repo}-${safeZipName(skillName)}.zip`;
 }
 
 /**

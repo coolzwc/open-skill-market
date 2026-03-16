@@ -1,5 +1,5 @@
 # Skill security scan: rule-based detection, scan cache, zip cache or CDN.
-# On completion: commit & push skills.json (+ chunks), then trigger deploy-web.
+# On completion: commit & push skills.json (+ chunks), upload registry to CDN (R2), then trigger deploy-web.
 # When incomplete (timeout): scan stops before job kill, writes partial results + cache, exits;
 #   workflow re-triggers self (like crawler) until scan completes. Needs WORKFLOW_DISPATCH_TOKEN.
 #
@@ -85,10 +85,14 @@ jobs:
             echo "complete=true" >> $GITHUB_OUTPUT
           fi
 
+      - name: Copy registry to web public data
+        if: steps.scan_complete_flag.outputs.complete == 'true'
+        run: cd market/web && npm run sync:data
+
       - name: Check for changes
         id: check_changes
         run: |
-          git add -f market/skills.json market/skills-*.json
+          git add -f market/skills.json market/skills-*.json market/web/public/data/
           if git diff --cached --quiet; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
@@ -100,11 +104,25 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add -f market/skills.json market/skills-*.json
+          git add -f market/skills.json market/skills-*.json market/web/public/data/
           git commit -m "chore: skill scan results [skip ci]
 
           Automated scan at $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
           git push
+
+      - name: Upload registry to CDN (scan complete)
+        if: steps.scan_complete_flag.outputs.complete == 'true'
+        env:
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+        run: |
+          if [ -z "$R2_ACCESS_KEY_ID" ] || [ -z "$R2_SECRET_ACCESS_KEY" ] || [ -z "$R2_ENDPOINT" ]; then
+            echo "R2 secrets not set; skipping registry upload to CDN."
+            exit 0
+          fi
+          npm run upload-registry
 
       - name: Trigger deploy-web (scan complete)
         if: steps.scan_complete_flag.outputs.complete == 'true'

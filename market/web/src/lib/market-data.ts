@@ -76,9 +76,15 @@ export const CDN_BASE_URL = "https://cdn.skillmarket.cc";
 
 const ZIP_BASE_URL = `${CDN_BASE_URL}/zips`;
 
+/** Sanitize skill name for zip URL (must match crawler and detector). */
+function safeZipName(name: string): string {
+  const s = (name || "").replace(/[^a-zA-Z0-9-_]/g, "");
+  return s || "skill";
+}
+
 function buildSkillZipUrl(repoId: string, skillName: string): string {
   const [owner, repository] = repoId.split("/");
-  return `${ZIP_BASE_URL}/${owner}-${repository}-${skillName}.zip`;
+  return `${ZIP_BASE_URL}/${owner}-${repository}-${safeZipName(skillName)}.zip`;
 }
 
 function expandSkill(
