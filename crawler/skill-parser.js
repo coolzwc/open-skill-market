@@ -15,6 +15,7 @@ const CATEGORY_DEFINITIONS = {
       "changelog", "version", "monorepo", "component", "frontend",
       "backend", "fullstack", "full-stack", "architecture", "pattern",
       "best practice", "code review", "pull request",
+      "pwa", "retry", "prototype", "checklist", "generator", "optimizer", "validator",
       // zh
       "开发", "编码", "编程", "调试", "重构", "测试", "单元测试",
       "组件", "前端", "后端", "代码审查", "代码质量", "开发规范",
@@ -22,6 +23,7 @@ const CATEGORY_DEFINITIONS = {
       // ja
       "実装", "開発", "テスト", "コード",
     ],
+    strongKeywords: ["api", "pwa"],
     label: "Development",
   },
   devops: {
@@ -49,10 +51,12 @@ const CATEGORY_DEFINITIONS = {
       "audit", "compliance", "penetration", "pentest", "siem", "soc",
       "incident response", "forensic", "triage", "ioc", "hunt",
       "credential", "xss", "csrf", "injection", "secops",
+      "pci", "osha", "hipaa", "dss",
       // zh
       "安全", "漏洞", "审计", "加密", "渗透", "威胁", "攻击",
       "防护", "风险", "权限",
     ],
+    strongKeywords: ["pci", "osha", "hipaa"],
     label: "Security",
   },
   design: {
@@ -76,6 +80,7 @@ const CATEGORY_DEFINITIONS = {
       "documentation", "docs", "readme", "text", "edit", "editing", "grammar",
       "proofread", "translate", "translation", "summary", "summarize",
       "publish", "author", "draft", "narrative", "storytelling",
+      "letter", "apology", "handbook", "post",
       // zh
       "写作", "文章", "文档", "博客", "翻译", "总结", "归纳",
       "周报", "日报", "摘要", "内容创作", "文案", "邮件写作",
@@ -91,6 +96,7 @@ const CATEGORY_DEFINITIONS = {
       "time", "efficiency", "template", "generate", "generator",
       "shortcut", "snippet", "boilerplate", "scaffold", "cli tool",
       "dotfile", "configuration", "setup",
+      "plan", "plans", "routine", "procedures",
       // zh
       "效率", "自动化", "工作流", "任务", "日程", "提醒",
       "模板", "生成", "配置", "脚手架",
@@ -106,6 +112,7 @@ const CATEGORY_DEFINITIONS = {
       "metrics", "statistics", "etl", "pipeline", "transform",
       "postgres", "mysql", "mongodb", "redis", "sqlite", "prisma",
       "drizzle", "query", "schema", "migration",
+      "inventory", "reconciliation", "procedures", "tracking",
       // zh
       "数据", "数据库", "报表", "统计", "分析", "可视化", "图表",
       "查询", "迁移",
@@ -148,29 +155,34 @@ const CATEGORY_DEFINITIONS = {
       // zh
       "营销", "推广", "获客", "用户增长", "社交媒体", "广告",
     ],
+    strongKeywords: ["seo"],
     label: "Marketing",
   },
   business: {
     keywords: [
-      "strategy", "roadmap", "okr", "kpi", "stakeholder", "leadership",
+      "strategy", "strategies", "roadmap", "okr", "kpi", "stakeholder", "leadership",
       "hiring", "onboarding", "interview", "candidate", "management",
       "product manager", "prd", "sprint", "agile", "scrum", "backlog",
       "prioritiz", "decision", "negotiat", "delegation", "meeting",
       "retrospective", "pitch", "startup", "founder", "enterprise",
       "pricing", "revenue", "budget", "fundrais",
+      "framework", "frameworks", "compliance", "policy", "policies", "audit",
+      "survey", "surveys", "workshop", "vision", "mvp", "launch", "lean",
+      "tier", "employee", "commission", "pivot", "checklist", "operations",
       // zh
       "产品", "需求", "规划", "用户故事", "路线图", "管理",
       "决策", "团队", "招聘", "面试", "创业", "融资",
       "产品设计", "需求分析", "产品经理",
     ],
+    strongKeywords: ["okr", "kpi"],
     label: "Business",
   },
   research: {
     keywords: [
       "research", "search", "find", "discover", "explore", "investigate",
-      "analyze", "study", "learn", "knowledge", "information", "source",
+      "analyze", "analysis", "study", "learn", "knowledge", "information", "source",
       "citation", "reference", "web", "scrape", "crawl",
-      "survey", "benchmark", "comparison", "evaluate",
+      "survey", "benchmark", "comparison", "evaluate", "review",
       // zh
       "研究", "搜索", "调研", "分析", "探索", "评估",
     ],
@@ -191,13 +203,15 @@ const CATEGORY_DEFINITIONS = {
   ai: {
     keywords: [
       "ai", "machine learning", "ml", "llm", "gpt", "claude", "gemini",
-      "openai", "prompt", "embedding", "vector", "rag", "agent",
+      "openai", "prompt", "embedding", "vector", "rag", "agent", "agents",
       "assistant", "chatbot", "natural language", "nlp", "model",
       "inference", "fine-tun", "training", "neural", "diffusion",
       "copilot", "deepseek", "multi-agent", "agentic",
+      "bias", "fairness", "red team", "red teaming",
       // zh
       "人工智能", "大模型", "智能体", "提示词", "对话",
     ],
+    strongKeywords: ["llm", "rag", "embedding"],
     label: "AI & ML",
   },
   media: {
@@ -233,6 +247,20 @@ export function categorizeSkill(name, description) {
 
     if (matchCount >= 2) {
       categories.push(categoryDef.label);
+    }
+  }
+
+  // Fallback: when no category from ≥2 keyword matches, try strong single-keyword match
+  if (categories.length === 0) {
+    for (const [, categoryDef] of Object.entries(CATEGORY_DEFINITIONS)) {
+      const strongKeywords = categoryDef.strongKeywords;
+      if (!Array.isArray(strongKeywords)) continue;
+      const hit = strongKeywords.some((kw) =>
+        textToAnalyze.includes(kw.toLowerCase())
+      );
+      if (hit) {
+        categories.push(categoryDef.label);
+      }
     }
   }
 

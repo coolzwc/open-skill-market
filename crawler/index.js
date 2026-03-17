@@ -16,13 +16,19 @@ import {
   crawlPriorityRepos,
   processReposInParallel,
   discoverSkillReposGlobally,
+  fetchReposDetailsBatch,
 } from "./github-api.js";
 import { scanLocalSkills } from "./local-scanner.js";
 
 import { crawlerCache } from "./cache.js";
-import { generateSkillZip } from "./zip-generator.js";
+import {
+  generateSkillZip,
+  isNoFilesFetchedError,
+  isRetryableZipError,
+} from "./zip-generator.js";
 import { compactOutput, calculateSizeSavings, splitByRepo } from "./output-optimizer.js";
 import { uploadToR2, buildR2Key, isR2Configured } from "./r2-uploader.js";
+import { removeExtractDir, cleanupAllExtracts } from "./github/archive.js";
 
 /** Minimum zip size in bytes; below this we skip upload and re-queue for regeneration. Empty zip is ~22 bytes. */
 const MIN_ZIP_SIZE_BYTES = 50;
@@ -134,6 +140,12 @@ async function processPendingItems() {
       }
       // Invalid or missing: fall through to generate below
 
+      if (crawlerCache.isZipUnreachable(key, skill.commitHash)) {
+        console.log(`  Skipping ${skill.name} (previously unreachable at this commit).`);
+        crawlerCache.removePendingZip(key);
+        continue;
+      }
+
       try {
         // Wait for available client if rate limited
         if (workerPool.allClientsLimited()) {
@@ -154,7 +166,12 @@ async function processPendingItems() {
         zipGenerated++;
       } catch (error) {
         console.error(`  ✗ ${skill.name}: ${error.message}`);
-        crawlerCache.addPendingZip(key);
+        if (isNoFilesFetchedError(error)) {
+          crawlerCache.setZipUnreachable(key, skill.commitHash);
+          crawlerCache.removePendingZip(key);
+        } else {
+          crawlerCache.addPendingZip(key);
+        }
         zipErrors++;
       }
     }
@@ -212,6 +229,13 @@ async function processPendingItems() {
           await uploadToR2(localPath, r2Key, r2Bucket);
           crawlerCache.setR2Uploaded(t.key, t.commitHash);
           r2Uploaded++;
+          if (CONFIG.zips.deleteLocalAfterR2Upload) {
+            try {
+              await fs.unlink(localPath);
+            } catch (unlinkErr) {
+              console.warn(`  Could not delete local zip ${t.zipFilename}: ${unlinkErr.message}`);
+            }
+          }
           console.log(`  ✓ ${t.zipFilename}`);
         } catch (error) {
           console.error(`  ✗ ${t.zipFilename}: ${error.message}`);
@@ -369,7 +393,7 @@ async function main() {
         console.log("\nScanning repositories for SKILL.md files (parallel)...");
         console.log(`Queue concurrency: ${CONFIG.parallel.concurrency}`);
 
-        // Filter repos to process
+        // Filter repos and sort by stars desc so we process high-star repos first
         const reposToProcess = [];
         for (const [repoFullName, repo] of reposMap) {
           if (processedRepos.has(repoFullName)) continue;
@@ -377,6 +401,9 @@ async function main() {
           reposToProcess.push({ repoFullName, repo });
           processedRepos.add(repoFullName);
         }
+        reposToProcess.sort(
+          (a, b) => (b.repo.stargazers_count || 0) - (a.repo.stargazers_count || 0),
+        );
 
         console.log(`Repositories to scan: ${reposToProcess.length}`);
 
@@ -419,20 +446,26 @@ async function main() {
     );
 
     if (globalRepos.size > 0 && !shouldStopForTimeout()) {
-      console.log(`\nProcessing ${globalRepos.size} newly discovered repos...`);
+      console.log(`\nFetching repo details to prioritize by stars (${globalRepos.size} repos)...`);
+      const detailsMap = await fetchReposDetailsBatch(workerPool, globalRepos);
 
       const reposToProcess = [];
       for (const [repoFullName, repo] of globalRepos) {
-        reposToProcess.push({ repoFullName, repo });
+        const fullRepo = detailsMap.get(repoFullName) || repo;
+        reposToProcess.push({ repoFullName, repo: fullRepo });
         processedRepos.add(repoFullName);
       }
+      reposToProcess.sort(
+        (a, b) => (b.repo.stargazers_count || 0) - (a.repo.stargazers_count || 0),
+      );
+      console.log(`Processing ${reposToProcess.length} newly discovered repos (high-star first)...`);
 
-      // Use shared function for parallel processing (with repo details fetch)
+      // Repo details already fetched; no need to fetch again
       const results = await processReposInParallel(
         workerPool,
         reposToProcess,
         "github",
-        { fetchRepoDetails: true },
+        { fetchRepoDetails: false },
       );
 
       allSkills.push(...results);
@@ -518,6 +551,21 @@ async function main() {
     }
     crawlerCache.clearPendingZips();
 
+    // Group by (owner, repo) so we can clear archive extract after last skill of each repo
+    const repoOrder = [];
+    const byRepo = new Map();
+    for (const skill of zipProcessOrder) {
+      const parsed = parseRepoUrl(skill.repository?.url);
+      if (!parsed) continue;
+      const rk = `${parsed.owner}/${parsed.repo}`;
+      if (!byRepo.has(rk)) {
+        repoOrder.push(rk);
+        byRepo.set(rk, []);
+      }
+      byRepo.get(rk).push(skill);
+    }
+    const zipProcessOrderByRepo = repoOrder.flatMap((rk) => byRepo.get(rk) || []);
+
     const r2Enabled = isR2Configured();
     const r2Bucket = CONFIG.zips.r2.bucket || "skill-market";
     const r2Prefix = CONFIG.zips.r2.prefix || "zips/";
@@ -538,14 +586,20 @@ async function main() {
 
     /**
      * Schedule an R2 upload for a skill if needed (non-blocking).
-     * Returns immediately; the upload runs in the background.
+     * If isLastInRepo, after upload clears archive extract for that repo and removes extract dir.
      */
-    function scheduleR2Upload(cacheKey, skill, owner, repo) {
+    function scheduleR2Upload(cacheKey, skill, owner, repo, isLastInRepo = false) {
       if (!r2Enabled) return;
 
-      // Already uploaded with same commit hash — skip
       if (crawlerCache.isR2Uploaded(cacheKey, skill.commitHash)) {
         r2SkippedCount++;
+        if (isLastInRepo && skill.commitHash) {
+          const extractRoot = crawlerCache.getArchiveExtractPath(owner, repo, skill.commitHash);
+          if (extractRoot) {
+            crawlerCache.clearArchiveExtractPath(owner, repo, skill.commitHash);
+            removeExtractDir(path.dirname(extractRoot));
+          }
+        }
         return;
       }
 
@@ -559,6 +613,20 @@ async function main() {
           await uploadToR2(localPath, r2Key, r2Bucket);
           crawlerCache.setR2Uploaded(cacheKey, skill.commitHash);
           r2UploadedCount++;
+          if (CONFIG.zips.deleteLocalAfterR2Upload) {
+            try {
+              await fs.unlink(localPath);
+            } catch (unlinkErr) {
+              console.warn(`  Could not delete local zip ${zipFilename}: ${unlinkErr.message}`);
+            }
+          }
+          if (isLastInRepo && skill.commitHash) {
+            const extractRoot = crawlerCache.getArchiveExtractPath(owner, repo, skill.commitHash);
+            if (extractRoot) {
+              crawlerCache.clearArchiveExtractPath(owner, repo, skill.commitHash);
+              removeExtractDir(path.dirname(extractRoot));
+            }
+          }
         } catch (err) {
           console.error(`  ✗ R2 upload failed for ${zipFilename}: ${err.message}`);
           crawlerCache.addPendingR2Upload(cacheKey);
@@ -569,17 +637,26 @@ async function main() {
       r2Uploads.push(uploadPromise);
     }
 
-    for (let i = 0; i < zipProcessOrder.length; i++) {
-      const skill = zipProcessOrder[i];
+    for (let i = 0; i < zipProcessOrderByRepo.length; i++) {
+      const skill = zipProcessOrderByRepo[i];
+      const nextSkill = zipProcessOrderByRepo[i + 1];
+      const parsed = parseRepoUrl(skill.repository?.url);
+      const nextParsed = nextSkill ? parseRepoUrl(nextSkill?.repository?.url) : null;
+      const isLastInRepo =
+        !nextParsed ||
+        parsed?.owner !== nextParsed?.owner ||
+        parsed?.repo !== nextParsed?.repo;
+      let cacheKey = "";
+      let owner = "";
+      let repo = "";
 
       if (shouldStopForTimeout()) {
-        for (let j = i; j < zipProcessOrder.length; j++) {
-          const s = zipProcessOrder[j];
+        for (let j = i; j < zipProcessOrderByRepo.length; j++) {
+          const s = zipProcessOrderByRepo[j];
           const p = parseRepoUrl(s.repository?.url);
           if (p) {
             const cacheKey = `${p.owner}/${p.repo}/${s.repository.path}`;
             crawlerCache.addPendingZip(cacheKey);
-            // Also mark R2 upload as pending if not yet uploaded
             if (r2Enabled && !crawlerCache.isR2Uploaded(cacheKey, s.commitHash)) {
               crawlerCache.addPendingR2Upload(cacheKey);
             }
@@ -587,24 +664,21 @@ async function main() {
         }
         zipTimedOut = true;
         console.log(
-          `\nZip generation stopped due to timeout. ${zipProcessOrder.length - i} skill(s) saved as pending for next run.`,
+          `\nZip generation stopped due to timeout. ${zipProcessOrderByRepo.length - i} skill(s) saved as pending for next run.`,
         );
         break;
       }
 
       try {
-        const parsed = parseRepoUrl(skill.repository?.url);
         if (!parsed) {
           console.log(`  ⚠ Skipping ${skill.name}: Invalid repository URL`);
           skippedCount++;
           continue;
         }
-        const { owner, repo } = parsed;
+        owner = parsed.owner;
+        repo = parsed.repo;
+        cacheKey = `${owner}/${repo}/${skill.repository.path}`;
 
-        // Generate cache key
-        const cacheKey = `${owner}/${repo}/${skill.repository.path}`;
-
-        // Check if zip needs regeneration
         const needsRegeneration = crawlerCache.needsZipRegeneration(
           cacheKey,
           skill.commitHash,
@@ -613,55 +687,55 @@ async function main() {
         if (!needsRegeneration) {
           const zipInfo = crawlerCache.getZipInfo(cacheKey);
           if (zipInfo) {
-            // Verify zip file actually exists on disk (cache metadata may outlive
-            // the file if GitHub Actions zip cache was evicted while .crawler-cache.json persisted)
             const zipFilename = `${owner}-${repo}-${safeZipName(skill.name)}.zip`;
             const localZipPath = path.join(CONFIG.zips.outputDir, zipFilename);
             const valid = await ensureZipValidSize(localZipPath, cacheKey, `Cached zip ${zipFilename}`);
             if (valid) {
               skippedCount++;
-              scheduleR2Upload(cacheKey, skill, owner, repo);
+              scheduleR2Upload(cacheKey, skill, owner, repo, isLastInRepo);
               continue;
             }
-            // Invalid (too small, already logged) or missing: fall through to regenerate below
           }
         }
 
-        // Generate new zip — using workerPool for rate-limited API calls
-        console.log(`  Generating zip for ${skill.name}...`);
+        if (crawlerCache.isZipUnreachable(cacheKey, skill.commitHash)) {
+          console.log(`  Skipping zip for ${skill.name} (previously unreachable at this commit).`);
+          skippedCount++;
+          continue;
+        }
+
         const { zipPath } = await generateSkillZip(
           skill,
           CONFIG.zips.outputDir,
           workerPool,
         );
-
-        // Update cache with zip path
         crawlerCache.setZipInfo(cacheKey, zipPath);
         generatedCount++;
-
-        // Immediately schedule R2 upload in parallel
-        scheduleR2Upload(cacheKey, skill, owner, repo);
+        scheduleR2Upload(cacheKey, skill, owner, repo, isLastInRepo);
       } catch (error) {
         console.error(
           `  ✗ Error generating zip for ${skill.name}: ${error.message}`,
         );
         errorCount++;
-        // If we stopped due to execution timeout (e.g. during waitForClient), re-queue
-        // so the next run (resume mode) can retry until all zips are generated.
-        if (executionState.isTimedOut) {
+        if (isNoFilesFetchedError(error)) {
+          crawlerCache.setZipUnreachable(cacheKey, skill.commitHash);
+        } else if (executionState.isTimedOut || isRetryableZipError(error)) {
           crawlerCache.addPendingZip(cacheKey);
           if (r2Enabled && !crawlerCache.isR2Uploaded(cacheKey, skill.commitHash)) {
             crawlerCache.addPendingR2Upload(cacheKey);
           }
         }
+        // Permanent non-retryable errors: don't add to pending
       }
     }
 
-    // Wait for all in-flight R2 uploads to finish
     if (r2Uploads.length > 0) {
       console.log(`\n  Waiting for ${r2Uploads.length} R2 upload(s) to finish...`);
       await Promise.allSettled(r2Uploads);
     }
+
+    crawlerCache.clearArchiveExtracts();
+    await cleanupAllExtracts();
 
     console.log(`\nZip Generation Summary:`);
     console.log(`  Generated: ${generatedCount}`);
@@ -799,6 +873,10 @@ async function main() {
 
   // Registry (skills.json + chunks) is not uploaded to CDN by crawler; only commit to git.
   // CDN upload is done after skill-scan completes (see .github/workflows/skill-scan.yml).
+
+  // Ensure archive extracts are cleared and temp dir removed (e.g. if zip phase was skipped)
+  crawlerCache.clearArchiveExtracts();
+  await cleanupAllExtracts();
 
   // Save cache
   await crawlerCache.save();

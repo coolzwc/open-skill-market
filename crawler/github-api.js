@@ -1,5 +1,10 @@
+import fs from "fs/promises";
 import path from "path";
 import { CONFIG } from "./config.js";
+import {
+  downloadRepoArchiveWithSizeLimit,
+  extractZipToTemp,
+} from "./github/archive.js";
 import {
   sleep,
   generateSkillId,
@@ -145,9 +150,14 @@ export async function processRepoWithCache(
   }
 
   // Check cache: repo commitHash unchanged → use cached data (including cached stats)
-  // No need to pass repoStats - cache stores stats internally to avoid extra API calls
+  // In test mode, skip cache for priority repos so we always re-crawl and get fresh results.
   const cachedRepo = crawlerCache.getRepo(owner, repo);
-  if (cachedRepo && cachedRepo.commitHash === latestCommit.commitHash) {
+  const skipCache = CONFIG.testMode?.enabled && source === "priority";
+  if (
+    !skipCache &&
+    cachedRepo &&
+    cachedRepo.commitHash === latestCommit.commitHash
+  ) {
     const cachedSkills = cachedRepo.skills || [];
 
     if (cachedSkills.length === 0) {
@@ -168,7 +178,6 @@ export async function processRepoWithCache(
 
   const skillFiles = await findSkillFilesInRepoSmart(workerPool, owner, repo);
 
-  // Build repo info for cache (stats from repoDetails or default)
   const repoStats = {
     stars: repoDetails?.stargazers_count || 0,
     forks: repoDetails?.forks_count || 0,
@@ -193,19 +202,12 @@ export async function processRepoWithCache(
     `  Found ${skillFiles.length} SKILL.md file(s) in ${repoFullName}`,
   );
 
-  const repoSkills = [];
-  let timedOut = false;
+  // Light pass: fetch each SKILL.md for name+description only, dedup within repo
+  const uniqueSignatures = new Set();
   for (const filePath of skillFiles) {
-    if (shouldStopForTimeout()) {
-      timedOut = true;
-      break;
-    }
-
+    if (shouldStopForTimeout()) break;
     while (workerPool.allClientsLimited()) {
-      if (shouldStopForTimeout()) {
-        timedOut = true;
-        break;
-      }
+      if (shouldStopForTimeout()) break;
       const nextReset = workerPool.getNextResetTime();
       const waitTime = nextReset - Date.now();
       if (waitTime > 0) {
@@ -214,31 +216,155 @@ export async function processRepoWithCache(
         await sleep(1000);
       }
     }
-    if (timedOut) break;
-
-    if (shouldStopForTimeout()) {
-      timedOut = true;
-      break;
+    if (shouldStopForTimeout()) break;
+    try {
+      const client = workerPool.getClient();
+      const response = await client.octokit.rest.repos.getContent({
+        owner,
+        repo,
+        path: filePath,
+        ref: branch,
+      });
+      workerPool.updateClientRateLimit(client, response);
+      if (!response.data.content) continue;
+      const content = Buffer.from(response.data.content, "base64").toString("utf-8");
+      const parsed = parseSkillContent(content);
+      if (!parsed.isValid) continue;
+      const name = (parsed.name || "").toLowerCase().trim();
+      const desc = (parsed.description || "").toLowerCase().trim();
+      uniqueSignatures.add(`${name}::${desc}`);
+    } catch {
+      // Skip failed fetches for dedup count
     }
+  }
+  const uniqueCount = uniqueSignatures.size;
 
-    const fileInfo = { path: filePath };
-    const repoInfo = { owner: { login: owner }, name: repo };
+  const useArchive =
+    CONFIG.archiveDownloadMinSkills > 0 &&
+    uniqueCount > CONFIG.archiveDownloadMinSkills;
 
-    const manifest = await processSkillFileWithPool(
+  let repoSkills = [];
+  let timedOut = false;
+
+  if (useArchive) {
+    const result = await downloadRepoArchiveWithSizeLimit(
       workerPool,
-      repoInfo,
-      fileInfo,
-      repoDetails,
+      owner,
+      repo,
       latestCommit.commitHash,
+      CONFIG.archiveMaxZipSizeBytes,
     );
-    if (manifest) {
-      manifest.source = source;
-      repoSkills.push(manifest);
+    if (result.exceededLimit) {
+      console.log(
+        `  ${repoFullName}: repo zip exceeds ${CONFIG.archiveMaxZipSizeBytes} bytes, using API path`,
+      );
+      const out = await processRepoFromAPI(
+        workerPool,
+        owner,
+        repo,
+        repoDetails,
+        latestCommit,
+        skillFiles,
+        source,
+        repoStats,
+        repoUrl,
+        branch,
+      );
+      repoSkills = out.skills;
+      timedOut = out.timedOut;
+    } else if (result.error) {
+      console.log(
+        `  ${repoFullName}: archive download failed (${result.error}), using API path`,
+      );
+      const out = await processRepoFromAPI(
+        workerPool,
+        owner,
+        repo,
+        repoDetails,
+        latestCommit,
+        skillFiles,
+        source,
+        repoStats,
+        repoUrl,
+        branch,
+      );
+      repoSkills = out.skills;
+      timedOut = out.timedOut;
+    } else {
+      try {
+        const { extractRoot, extractDir } = await extractZipToTemp(result.buffer);
+        crawlerCache.setArchiveExtractPath(
+          owner,
+          repo,
+          latestCommit.commitHash,
+          extractRoot,
+        );
+        const out = await processRepoFromArchive(
+          owner,
+          repo,
+          extractRoot,
+          skillFiles,
+          repoDetails,
+          latestCommit,
+          branch,
+          source,
+          repoStats,
+        );
+        repoSkills = out.skills;
+        timedOut = out.timedOut;
+        if (!timedOut) {
+          const skillKeys = repoSkills.map((s) =>
+            CrawlerCache.generateSkillKey(owner, repo, s.repository.path),
+          );
+          crawlerCache.setRepo(owner, repo, {
+            commitHash: latestCommit.commitHash,
+            skillKeys,
+            url: repoUrl,
+            branch,
+            stats: repoStats,
+            fetchedAt: new Date().toISOString(),
+          });
+        }
+        return repoSkills;
+      } catch (archiveErr) {
+        console.log(
+          `  ${repoFullName}: extract/parse failed (${archiveErr.message}), using API path`,
+        );
+        const out = await processRepoFromAPI(
+          workerPool,
+          owner,
+          repo,
+          repoDetails,
+          latestCommit,
+          skillFiles,
+          source,
+          repoStats,
+          repoUrl,
+          branch,
+        );
+        repoSkills = out.skills;
+        timedOut = out.timedOut;
+      }
     }
   }
 
-  // Only update repo cache when ALL skills were processed.
-  // If timed out mid-way, skip setRepo so next run re-scans this repo.
+  if (!useArchive || repoSkills.length === 0) {
+    const out = await processRepoFromAPI(
+      workerPool,
+      owner,
+      repo,
+      repoDetails,
+      latestCommit,
+      skillFiles,
+      source,
+      repoStats,
+      repoUrl,
+      branch,
+    );
+    repoSkills = out.skills;
+    timedOut = out.timedOut;
+  }
+
   if (!timedOut) {
     const skillKeys = repoSkills.map((s) =>
       CrawlerCache.generateSkillKey(owner, repo, s.repository.path),
@@ -258,6 +384,184 @@ export async function processRepoWithCache(
   }
 
   return repoSkills;
+}
+
+/**
+ * Process repo using per-file API (getContent for each SKILL.md and dir).
+ * @returns {Promise<{ skills: Object[], timedOut: boolean }>}
+ */
+async function processRepoFromAPI(
+  workerPool,
+  owner,
+  repo,
+  repoDetails,
+  latestCommit,
+  skillFiles,
+  source,
+  repoStats,
+  repoUrl,
+  branch,
+) {
+  const repoSkills = [];
+  let timedOut = false;
+  for (const filePath of skillFiles) {
+    if (shouldStopForTimeout()) {
+      timedOut = true;
+      break;
+    }
+    while (workerPool.allClientsLimited()) {
+      if (shouldStopForTimeout()) {
+        timedOut = true;
+        break;
+      }
+      const nextReset = workerPool.getNextResetTime();
+      const waitTime = nextReset - Date.now();
+      if (waitTime > 0) {
+        await sleep(Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitPerCycle));
+      } else {
+        await sleep(1000);
+      }
+    }
+    if (timedOut) break;
+    if (shouldStopForTimeout()) {
+      timedOut = true;
+      break;
+    }
+    const fileInfo = { path: filePath };
+    const repoInfo = { owner: { login: owner }, name: repo };
+    const manifest = await processSkillFileWithPool(
+      workerPool,
+      repoInfo,
+      fileInfo,
+      repoDetails,
+      latestCommit.commitHash,
+    );
+    if (manifest) {
+      manifest.source = source;
+      repoSkills.push(manifest);
+    }
+  }
+  return { skills: repoSkills, timedOut };
+}
+
+/**
+ * List relative file paths under dirPath (relative to extractRoot). Skips SKIP_DIRS.
+ * @param {string} extractRoot - Full path to repo root inside extract
+ * @param {string} dirPath - Relative path (e.g. "skills/foo")
+ * @returns {Promise<string[]>} Paths relative to extractRoot (e.g. "skills/foo/SKILL.md")
+ */
+async function listFilesUnderExtract(extractRoot, dirPath) {
+  const fullDir = path.join(extractRoot, dirPath);
+  const entries = await fs.readdir(fullDir, { withFileTypes: true });
+  const files = [];
+  for (const entry of entries) {
+    const rel = path.join(dirPath, entry.name);
+    if (entry.isDirectory()) {
+      if (SKIP_DIRS.has(entry.name)) continue;
+      files.push(...(await listFilesUnderExtract(extractRoot, rel)));
+    } else {
+      files.push(rel);
+    }
+  }
+  return files;
+}
+
+/**
+ * Process repo from extracted archive (read SKILL.md and list dirs from disk).
+ * @returns {Promise<{ skills: Object[], timedOut: boolean }>}
+ */
+async function processRepoFromArchive(
+  owner,
+  repo,
+  extractRoot,
+  skillFiles,
+  repoDetails,
+  latestCommit,
+  branch,
+  source,
+  repoStats,
+) {
+  const repoSkills = [];
+  let timedOut = false;
+  const repoUrl = `https://github.com/${owner}/${repo}`;
+
+  for (const filePath of skillFiles) {
+    if (shouldStopForTimeout()) {
+      timedOut = true;
+      break;
+    }
+    try {
+      const fullPath = path.join(extractRoot, filePath);
+      const content = await fs.readFile(fullPath, "utf-8");
+      const parsed = parseSkillContent(content);
+      if (!parsed.isValid) continue;
+
+      const skillPath = determineSkillPath(filePath);
+      const skillDirPath = path.dirname(filePath);
+      let files = [filePath];
+      if (skillPath !== "") {
+        try {
+          const listed = await listFilesUnderExtract(extractRoot, skillDirPath);
+          files = listed.length > 0 ? listed : [filePath];
+        } catch {
+          // keep [filePath]
+        }
+      }
+      files = files.slice(0, CONFIG.fileLimits.maxFilesPerSkill);
+
+      const skillName = parsed.name || path.basename(skillPath) || repo;
+      const skillDescription =
+        parsed.description || `Skill from ${owner}/${repo}`;
+      const id = generateSkillId(owner, repo, skillPath);
+      const detailsUrl = `https://github.com/${owner}/${repo}/blob/${branch}/${filePath}`;
+
+      const manifest = {
+        id,
+        name: skillName,
+        displayName: generateDisplayName(skillName),
+        description: skillDescription,
+        categories: categorizeSkill(skillName, skillDescription),
+        details: detailsUrl,
+        author: {
+          name: owner,
+          url: `https://github.com/${owner}`,
+          avatar: `https://github.com/${owner}.png`,
+        },
+        version: parsed.version || "0.0.0",
+        commitHash: latestCommit.commitHash,
+        tags: parsed.tags,
+        repository: {
+          url: repoUrl,
+          branch,
+          path: skillPath,
+          downloadUrl: `https://api.github.com/repos/${owner}/${repo}/zipball/${branch}`,
+        },
+        files,
+        stats: {
+          stars: repoStats.stars ?? 0,
+          forks: repoStats.forks ?? 0,
+          lastUpdated: repoStats.lastUpdated || new Date().toISOString(),
+        },
+      };
+      if (parsed.version) {
+        manifest.compatibility = { minAgentVersion: "0.1.0" };
+      }
+
+      const cacheKey = CrawlerCache.generateSkillKey(owner, repo, skillPath);
+      crawlerCache.setSkill(cacheKey, {
+        commitHash: latestCommit.commitHash,
+        manifest,
+        fetchedAt: new Date().toISOString(),
+      });
+      manifest.source = source;
+      repoSkills.push(manifest);
+    } catch (err) {
+      if (process.env.DEBUG) {
+        console.debug(`  processRepoFromArchive ${filePath}: ${err.message}`);
+      }
+    }
+  }
+  return { skills: repoSkills, timedOut };
 }
 
 // ─── Topic search (Search API) ──────────────────────────────────────────────
@@ -299,8 +603,12 @@ export async function searchRepositoriesByTopic(workerPool, topic) {
     }
 
     try {
+      const starsQualifier =
+        CONFIG.minStarsTopicSearch > 0
+          ? ` stars:>=${CONFIG.minStarsTopicSearch}`
+          : "";
       const response = await client.octokit.rest.search.repos({
-        q: `topic:${topic}`,
+        q: `topic:${topic}${starsQualifier}`,
         sort: "stars",
         order: "desc",
         per_page: CONFIG.perPage,
@@ -922,6 +1230,46 @@ export async function discoverSkillReposGlobally(workerPool, excludeRepos) {
   }
 
   return discoveredRepos;
+}
+
+/**
+ * Fetch full repo details (Core API) for a set of repos, so we can sort by stars
+ * before processing. Used for Phase 4 global discovery to prioritize high-star repos.
+ * @param {WorkerPool} workerPool
+ * @param {Map<string, Object>} reposMap - Map of repoFullName → partial repo (owner, name, etc.)
+ * @returns {Promise<Map<string, Object>>} Map of repoFullName → full repo (with stargazers_count, etc.)
+ */
+export async function fetchReposDetailsBatch(workerPool, reposMap) {
+  const entries = Array.from(reposMap.entries());
+  if (entries.length === 0) return new Map();
+
+  const tasks = entries.map(([repoFullName, repo]) => async () => {
+    const available = await workerPool.waitForAvailableClient(shouldStopForTimeout);
+    if (!available || shouldStopForTimeout()) return { repoFullName, repo };
+
+    const owner = repo.owner?.login || repo.owner;
+    const name = repo.name || repoFullName.split("/")[1];
+    if (!owner || !name) return { repoFullName, repo };
+
+    const client = workerPool.getClient();
+    try {
+      const response = await client.octokit.rest.repos.get({ owner, repo: name });
+      workerPool.updateClientRateLimit(client, response);
+      return { repoFullName, repo: response.data };
+    } catch (error) {
+      if ((error.status === 403 || error.status === 429) && error.response) {
+        workerPool.updateClientRateLimit(client, error.response);
+      }
+      return { repoFullName, repo };
+    }
+  });
+
+  const results = await workerPool.addTasks(tasks);
+  const out = new Map();
+  for (const r of results) {
+    if (r && r.repoFullName) out.set(r.repoFullName, r.repo || reposMap.get(r.repoFullName));
+  }
+  return out;
 }
 
 // ─── Batch repo processing ──────────────────────────────────────────────────

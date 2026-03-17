@@ -101,6 +101,15 @@ const t = MESSAGES[lang];
     const stars = getScore(skill);
     const href = `/${lang}/skill/${skill.id}`;
     const cat = esc(skill.categories?.[0] || "Other");
+    const qualityScore = skill.qualityScore != null ? Math.min(100, Math.max(0, Number(skill.qualityScore))) : null;
+    const qualityGrade = qualityScore != null ? (qualityScore >= 80 ? "excellent" : qualityScore >= 60 ? "good" : qualityScore >= 40 ? "average" : "fair") : null;
+    let qualityHtml = "";
+    if (qualityGrade) {
+      qualityHtml = `<span class="card-quality quality-${qualityGrade}" title="Quality: ${qualityScore}/100">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+        ${qualityScore}
+      </span>`;
+    }
     return `<a class="card" href="${href}">
       <span class="card-category" data-cat="${cat}">${cat}</span>
       <h3>${esc(skill.name)}</h3>
@@ -111,6 +120,7 @@ const t = MESSAGES[lang];
           <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
           ${stars.toLocaleString()}
         </span>
+        ${qualityHtml}
       </div>
     </a>`;
   }

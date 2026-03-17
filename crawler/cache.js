@@ -13,6 +13,8 @@ export class CrawlerCache {
     this.repos = new Map(); // repo-level cache: owner/repo -> { commitHash, skillKeys, url, branch, stats, fetchedAt }
     this.pendingZips = new Set(); // cache keys of skills that still need zip generation (from timeout)
     this.pendingR2Uploads = new Set(); // cache keys of skills that still need R2 upload
+    /** In-memory only (not persisted): "owner/repo/commitHash" -> absolute path to archive extract root */
+    this.archiveExtracts = new Map();
     this.isDirty = false;
   }
 
@@ -65,6 +67,7 @@ export class CrawlerCache {
     this.repos = new Map();
     this.pendingZips = new Set();
     this.pendingR2Uploads = new Set();
+    this.archiveExtracts = new Map();
   }
 
   /**
@@ -120,7 +123,53 @@ export class CrawlerCache {
     this.repos = new Map();
     this.pendingZips = new Set();
     this.pendingR2Uploads = new Set();
+    this.archiveExtracts = new Map();
     this.isDirty = true;
+  }
+
+  // ── Archive extract paths (in-memory only, not persisted) ─────
+
+  /**
+   * Register archive extract directory for a repo at a given commit.
+   * @param {string} owner
+   * @param {string} repo
+   * @param {string} commitHash
+   * @param {string} dirPath - Absolute path to extract root (e.g. owner-repo-sha)
+   */
+  setArchiveExtractPath(owner, repo, commitHash, dirPath) {
+    if (!commitHash || !dirPath) return;
+    const key = `${owner}/${repo}/${commitHash}`;
+    this.archiveExtracts.set(key, dirPath);
+  }
+
+  /**
+   * Get archive extract path for a repo at commit, if any.
+   * @param {string} owner
+   * @param {string} repo
+   * @param {string} commitHash
+   * @returns {string|undefined}
+   */
+  getArchiveExtractPath(owner, repo, commitHash) {
+    if (!commitHash) return undefined;
+    return this.archiveExtracts.get(`${owner}/${repo}/${commitHash}`);
+  }
+
+  /**
+   * Remove archive extract entry for a single repo/commit (e.g. after all skills from that repo are processed).
+   * @param {string} owner
+   * @param {string} repo
+   * @param {string} commitHash
+   */
+  clearArchiveExtractPath(owner, repo, commitHash) {
+    if (!commitHash) return;
+    this.archiveExtracts.delete(`${owner}/${repo}/${commitHash}`);
+  }
+
+  /**
+   * Clear all archive extract entries (call at end of run).
+   */
+  clearArchiveExtracts() {
+    this.archiveExtracts.clear();
   }
 
   /**
@@ -238,11 +287,13 @@ export class CrawlerCache {
   }
 
   /**
-   * Set skill with compacted manifest
+   * Set skill with compacted manifest.
+   * Merges in existing zip state (zipPath, r2UploadedHash) so re-crawls don't drop it.
    * @param {string} key - Skill cache key
    * @param {Object} data - { commitHash, manifest, ... }
    */
   setSkill(key, data) {
+    const existing = this.skills.get(key);
     // Compact the manifest before storing
     const compactedData = {
       ...data,
@@ -250,6 +301,17 @@ export class CrawlerCache {
         ? CrawlerCache.compactManifest(data.manifest)
         : undefined,
     };
+    if (existing) {
+      if (existing.zipUnreachableCommit && existing.commitHash === data.commitHash) {
+        compactedData.zipUnreachableCommit = existing.zipUnreachableCommit;
+      }
+      if (existing.zipPath !== undefined && compactedData.zipPath === undefined) {
+        compactedData.zipPath = existing.zipPath;
+      }
+      if (existing.r2UploadedHash !== undefined && compactedData.r2UploadedHash === undefined) {
+        compactedData.r2UploadedHash = existing.r2UploadedHash;
+      }
+    }
     this.skills.set(key, compactedData);
     this.isDirty = true;
   }
@@ -341,9 +403,36 @@ export class CrawlerCache {
   needsZipRegeneration(key, currentCommitHash) {
     const cached = this.skills.get(key);
     if (!cached) return true;
+    if (cached.zipUnreachableCommit === currentCommitHash) return false;
     if (!cached.zipPath) return true;
     if (cached.commitHash !== currentCommitHash) return true;
     return false;
+  }
+
+  /**
+   * Mark that zip could not be generated at this commit (e.g. no files could be fetched).
+   * Clears zipPath so we don't claim to have a zip; next run will skip until commit changes.
+   * @param {string} key - Skill cache key
+   * @param {string} commitHash - Commit hash at which fetch failed
+   */
+  setZipUnreachable(key, commitHash) {
+    const cached = this.skills.get(key);
+    if (cached) {
+      cached.zipUnreachableCommit = commitHash;
+      cached.zipPath = null;
+      this.isDirty = true;
+    }
+  }
+
+  /**
+   * Check if zip was previously unreachable at this commit (no files could be fetched).
+   * @param {string} key - Skill cache key
+   * @param {string} commitHash - Current commit hash
+   * @returns {boolean}
+   */
+  isZipUnreachable(key, commitHash) {
+    const cached = this.skills.get(key);
+    return !!(cached && cached.zipUnreachableCommit === commitHash);
   }
 
   /**

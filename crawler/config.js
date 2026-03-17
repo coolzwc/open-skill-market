@@ -29,11 +29,23 @@ export const CONFIG = {
   // Standard skill filename (only SKILL.md is valid per spec)
   skillFilename: "SKILL.md",
 
+  // Minimum stars for topic search (only repos with >= this many stars).
+  // Set to 0 to disable; helps prioritize high-quality skills when API quota is limited.
+  minStarsTopicSearch: 10,
+
   // Maximum number of repos per topic search
   perPage: 50,
 
   // Maximum pages to fetch per topic
   maxPages: 2,
+
+  // Archive path: when repo has > this many unique skills (after name+description dedup) and zip < archiveMaxZipSizeBytes, download zipball and parse from extract
+  // Set to 0 to disable. Env: ARCHIVE_DOWNLOAD_MIN_SKILLS
+  archiveDownloadMinSkills: parseInt(process.env.ARCHIVE_DOWNLOAD_MIN_SKILLS || "5", 10),
+
+  // Max repo zip size (bytes) to allow archive download; above this we fall back to per-file API. 100MB default.
+  // Env: ARCHIVE_MAX_ZIP_SIZE_BYTES
+  archiveMaxZipSizeBytes: parseInt(process.env.ARCHIVE_MAX_ZIP_SIZE_BYTES || "104857600", 10),
 
   // Output file path
   outputPath: path.join(__dirname, "..", "market", "skills.json"),
@@ -111,6 +123,8 @@ export const CONFIG = {
     outputDir: path.join(__dirname, "..", "market", "zips"),
     baseUrl:
       process.env.ZIP_BASE_URL || "https://cdn.skillmarket.cc/zips",
+    // Delete local zip file after successful R2 upload to save disk. Env: DELETE_LOCAL_AFTER_R2=true|false
+    deleteLocalAfterR2Upload: process.env.DELETE_LOCAL_AFTER_R2 !== "false",
     r2: {
       bucket: process.env.R2_BUCKET || "skill-market",
       prefix: "zips/",

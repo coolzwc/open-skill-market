@@ -5,6 +5,32 @@ import { createWriteStream } from "fs";
 import { CONFIG } from "./config.js";
 import { shouldStopForTimeout } from "./rate-limit.js";
 import { parseRepoUrl, safeZipName } from "./utils.js";
+import { crawlerCache } from "./cache.js";
+
+/** Error message prefix when no files could be fetched (ref/path missing or invalid). Used for detection in index.js. */
+export const NO_FILES_FETCHED_MESSAGE_PREFIX = "No files could be fetched for skill";
+
+/**
+ * @param {Error} error
+ * @returns {boolean}
+ */
+export function isNoFilesFetchedError(error) {
+  return error?.message?.includes(NO_FILES_FETCHED_MESSAGE_PREFIX) ?? false;
+}
+
+/**
+ * Whether the error is retryable (transient). If true, caller may add to pending for next run.
+ * @param {Error} error
+ * @returns {boolean}
+ */
+export function isRetryableZipError(error) {
+  if (!error) return false;
+  const code = error.code || error.status;
+  const status = error.status ?? error.response?.status;
+  if (status >= 500) return true;
+  if (code === "ETIMEDOUT" || code === "ECONNRESET" || code === "ENOTFOUND") return true;
+  return false;
+}
 
 /**
  * Generate a zip package for a skill
@@ -22,34 +48,72 @@ export async function generateSkillZip(skillManifest, outputDir, workerPool) {
     throw new Error(`Invalid repository URL: ${url}`);
   }
   const { owner, repo } = parsed;
+  const commitHash = skillManifest.commitHash;
 
-  // Generate zip filename: owner-repo-safeName.zip (safe name matches CDN URL and frontend)
   const safeName = safeZipName(name);
   const zipFilename = `${owner}-${repo}-${safeName}.zip`;
   const zipPath = path.join(outputDir, zipFilename);
 
-  // Ensure output directory exists
   await fs.mkdir(outputDir, { recursive: true });
 
-  // Fetch skill files
-  console.log(`Generating zip for ${name}...`);
   const fileList = Array.isArray(files) ? files : [];
-  const fileContents = await fetchSkillFiles(owner, repo, branch, fileList, skillPath, workerPool);
+  let fileContents = [];
+
+  const extractRoot = commitHash
+    ? crawlerCache.getArchiveExtractPath(owner, repo, commitHash)
+    : undefined;
+  if (extractRoot) {
+    try {
+      await fs.access(extractRoot);
+      fileContents = await readSkillFilesFromExtract(extractRoot, skillPath, fileList);
+    } catch {
+      // Extract dir missing (e.g. cleaned up), fall back to API
+    }
+  }
+  if (fileContents.length === 0) {
+    fileContents = await fetchSkillFiles(owner, repo, branch, fileList, skillPath, workerPool);
+  }
 
   if (fileContents.length === 0) {
     throw new Error(
-      `No files could be fetched for skill (manifest has ${fileList.length} path(s)); not writing empty zip`,
+      `${NO_FILES_FETCHED_MESSAGE_PREFIX} (manifest has ${fileList.length} path(s)); not writing empty zip`,
     );
   }
 
-  // Create zip file
+  console.log(`Generating zip for ${name}...`);
   await createZipFile(zipPath, fileContents, name, skillPath);
-
   console.log(`✓ Generated ${zipFilename}`);
 
   return {
     zipPath: path.relative(path.join(outputDir, ".."), zipPath),
   };
+}
+
+/**
+ * Read skill files from an extracted archive directory.
+ * @param {string} extractRoot - Full path to repo root inside extract (e.g. .../owner-repo-sha)
+ * @param {string} skillPath - Skill directory path (e.g. skills/foo)
+ * @param {string[]} files - List of relative paths (e.g. skills/foo/SKILL.md)
+ * @returns {Promise<Array<{path: string, content: Buffer}>>}
+ */
+async function readSkillFilesFromExtract(extractRoot, skillPath, files) {
+  const fileContents = [];
+  for (const filePath of files) {
+    try {
+      const fullPath = path.join(extractRoot, filePath);
+      const stat = await fs.stat(fullPath);
+      if (stat.isFile()) {
+        const content = await fs.readFile(fullPath);
+        fileContents.push({ path: filePath, content });
+      } else if (stat.isDirectory()) {
+        const dirFiles = await readDirectoryRecursive(fullPath, filePath);
+        fileContents.push(...dirFiles);
+      }
+    } catch (err) {
+      console.warn(`Warning: Error reading ${filePath} from extract: ${err.message}`);
+    }
+  }
+  return fileContents;
 }
 
 /**

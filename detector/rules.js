@@ -1,6 +1,6 @@
 /**
  * Rule-based detection for skill content.
- * Outputs: scanTags[], riskLevel, securityScore (0-100).
+ * Outputs: scanTags[], riskLevel, securityScore (0-100), qualityScore (0-100).
  *
  * Optimizations:
  * - Total penalty is capped (MAX_TOTAL_PENALTY) so a few medium-risk tags don't push score to 0.
@@ -57,7 +57,7 @@ const PATTERNS = [
  * Run rules on skill markdown (and optionally other file contents).
  * @param {string} skillMd - SKILL.md content
  * @param {Map<string, Buffer>} [files] - Optional other files (key = path)
- * @returns {{ scanTags: string[], riskLevel: string, securityScore: number }}
+ * @returns {{ scanTags: string[], riskLevel: string, securityScore: number, qualityScore: number }}
  */
 export function runRules(skillMd, files = new Map()) {
   const text = typeof skillMd === "string" ? skillMd : "";
@@ -98,9 +98,131 @@ export function runRules(skillMd, files = new Map()) {
   const riskLevel =
     maxRiskRank >= 3 ? "critical" : maxRiskRank >= 2 ? "high" : maxRiskRank >= 1 ? "medium" : "low";
 
+  const qualityScore = computeQualityScore(text, files);
+
   return {
     scanTags: Array.from(scanTags),
     riskLevel,
     securityScore,
+    qualityScore,
   };
+}
+
+// ---------------------------------------------------------------------------
+// Quality score (0-100): aligned with skill-creator eval-viewer/generate_review.py
+// and references/schemas.md — structure, description, content, organization, testability.
+// Evals schema: evals/evals.json with evals[].expectations; grader outputs expectations[].text, passed, evidence.
+// ---------------------------------------------------------------------------
+
+const QUALITY_BODY_MAX = 100 * 1024;
+const QUALITY_WEIGHTS = {
+  structure: 0.25,
+  description: 0.25,
+  content: 0.25,
+  organization: 0.15,
+  testability: 0.1,
+};
+
+/** Check for evals.json in files and validate evals[].expectations (schemas.md evals.json). */
+function parseEvalsFromFiles(files) {
+  if (!files || typeof files.get !== "function") return null;
+  const evalsPaths = ["evals/evals.json", "evals.json"];
+  for (const key of files.keys()) {
+    const normalized = key.replace(/\\/g, "/");
+    if (evalsPaths.some((p) => normalized === p || normalized.endsWith("/" + p))) {
+      try {
+        const buf = files.get(key);
+        const json = JSON.parse(buf.toString("utf-8"));
+        if (Array.isArray(json.evals) && json.evals.length > 0) {
+          const withExpectations = json.evals.filter(
+            (e) => Array.isArray(e.expectations) && e.expectations.length > 0
+          );
+          return { count: json.evals.length, withExpectations: withExpectations.length };
+        }
+      } catch {
+        // ignore parse errors
+      }
+      break;
+    }
+  }
+  return null;
+}
+
+function getStructureScore(body) {
+  const hasFrontmatter = /^---\s*\n[\s\S]*?\n---/.test(body);
+  const hasName = /^name:\s*[\w-]+/m.test(body) || /\nname:\s*[\w-]+/m.test(body);
+  const hasDesc =
+    /^description:\s*.+/m.test(body) || /\ndescription:\s*(?:[\w\s]|\|[^\n]+)/m.test(body);
+  const descMatch = body.match(/\ndescription:\s*(?:\|\s*\n)?([\s\S]*?)(?=\n\w+:|\n---|$)/);
+  const descLen = descMatch ? descMatch[1].replace(/\s+/g, " ").trim().length : 0;
+  const descOkLen =
+    descLen > 0 && descLen <= 1024 && !/<|>/.test(descMatch ? descMatch[1] : "");
+  const lineCount = (body.match(/\n/g) || []).length + 1;
+  const lineScore = lineCount <= 500 ? 0.2 : lineCount <= 800 ? 0.1 : 0;
+  const score =
+    (hasFrontmatter ? 0.4 : 0) +
+    (hasName ? 0.2 : 0) +
+    (hasDesc ? 0.2 : 0) +
+    (descOkLen ? 0.2 : 0) +
+    lineScore;
+  return Math.min(1, score);
+}
+
+function getDescriptionScore(body) {
+  const descMatch = body.match(/\ndescription:\s*(?:\|\s*\n)?([\s\S]*?)(?=\n\w+:|\n---|$)/);
+  const descText = (descMatch && descMatch[1]) || "";
+  const triggerHint =
+    /\b(when|use when|trigger|triggers on|when to use)\b/i.test(descText) ||
+    /,.*(?:or|and)\s+/.test(descText);
+  return 0.5 + (triggerHint ? 0.5 : 0);
+}
+
+function getContentScore(body) {
+  const hasExample = /\b(example|Example|Input:|Output:)\b/.test(body);
+  const hasTemplate = /\b(template|structure|format)\b/i.test(body);
+  const mustCount = (body.match(/\b(MUST|ALWAYS|NEVER)\b/g) || []).length;
+  const mustScore = mustCount <= 3 ? 0.5 : mustCount <= 8 ? 0.25 : 0;
+  return (hasExample ? 0.25 : 0) + (hasTemplate ? 0.25 : 0) + mustScore;
+}
+
+function getOrganizationScore(body, filePaths) {
+  const hasRefsInBody = /\breferences?\b/i.test(body);
+  const hasRefsPath =
+    filePaths && filePaths.some((p) => p.replace(/\\/g, "/").includes("references"));
+  return hasRefsInBody || hasRefsPath ? 1 : 0.5;
+}
+
+/** Testability: evals/evals.json with expectations (schemas) or mentions in body (generate_review uses grading.json expectations). */
+function getTestabilityScore(body, files) {
+  const evalsData = parseEvalsFromFiles(files);
+  if (evalsData && evalsData.withExpectations > 0) return 1;
+  if (evalsData && evalsData.count > 0) return 0.7;
+  const hasMention =
+    /\b(evals?|expectations?|assertions?)\b/i.test(body) ||
+    (files && [...files.keys()].some((p) => p.includes("evals")));
+  return hasMention ? 0.5 : 0.3;
+}
+
+/**
+ * Quality score 0-100 from skill-creator rules. Static heuristics only; no agent.
+ * Aligned with skill-creator/eval-viewer/generate_review.py and references/schemas.md.
+ */
+function computeQualityScore(skillMd, files) {
+  const raw = typeof skillMd === "string" ? skillMd : "";
+  const body = raw.slice(0, QUALITY_BODY_MAX);
+  const filePaths = files ? [...files.keys()] : [];
+
+  const structure = getStructureScore(body);
+  const description = getDescriptionScore(body);
+  const content = getContentScore(body);
+  const organization = getOrganizationScore(body, filePaths);
+  const testability = getTestabilityScore(body, files);
+
+  const quality =
+    QUALITY_WEIGHTS.structure * structure +
+    QUALITY_WEIGHTS.description * description +
+    QUALITY_WEIGHTS.content * content +
+    QUALITY_WEIGHTS.organization * organization +
+    QUALITY_WEIGHTS.testability * testability;
+  return Math.round(Math.max(0, Math.min(100, quality * 100)));
 }

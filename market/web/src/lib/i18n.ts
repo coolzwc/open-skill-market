@@ -94,6 +94,13 @@ type Messages = {
   riskMedium: string;
   riskHigh: string;
   riskCritical: string;
+  qualityTitle: string;
+  qualityScoreLabel: string;
+  qualityGradeLabel: string;
+  qualityExcellent: string;
+  qualityGood: string;
+  qualityAverage: string;
+  qualityFair: string;
 };
 
 export const MESSAGES: Record<Lang, Messages> = {
@@ -203,6 +210,13 @@ export const MESSAGES: Record<Lang, Messages> = {
     riskMedium: "Medium",
     riskHigh: "High",
     riskCritical: "Critical",
+    qualityTitle: "Quality",
+    qualityScoreLabel: "Quality score",
+    qualityGradeLabel: "Quality grade",
+    qualityExcellent: "Excellent",
+    qualityGood: "Good",
+    qualityAverage: "Average",
+    qualityFair: "Fair",
   },
   zh: {
     siteName: "Open Skill Market",
@@ -301,6 +315,13 @@ export const MESSAGES: Record<Lang, Messages> = {
     riskMedium: "中",
     riskHigh: "高",
     riskCritical: "高（严重）",
+    qualityTitle: "质量",
+    qualityScoreLabel: "质量评分",
+    qualityGradeLabel: "质量等级",
+    qualityExcellent: "优秀",
+    qualityGood: "良好",
+    qualityAverage: "一般",
+    qualityFair: "差",
   },
 };
 

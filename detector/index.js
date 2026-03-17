@@ -79,13 +79,14 @@ async function processOneSkill({ i, skill }) {
     return { i, removed: true };
   }
 
-  const { scanTags, riskLevel, securityScore } = runRules(content.skillMd, content.files);
+  const { scanTags, riskLevel, securityScore, qualityScore } = runRules(content.skillMd, content.files);
   const scannedAt = new Date().toISOString();
   scanCache.set(skillId, commitHash, {
     securityScore,
     riskLevel,
     scanTags,
     scannedAt,
+    qualityScore,
   });
   return {
     i,
@@ -95,6 +96,7 @@ async function processOneSkill({ i, skill }) {
       riskLevel,
       scanTags,
       scannedAt,
+      qualityScore,
     },
   };
 }
@@ -131,6 +133,7 @@ async function run() {
         riskLevel: cached.result.riskLevel,
         scanTags: cached.result.scanTags,
         scannedAt: cached.result.scannedAt || new Date().toISOString(),
+        qualityScore: cached.result.qualityScore ?? null,
       };
       skipped++;
     } else {
