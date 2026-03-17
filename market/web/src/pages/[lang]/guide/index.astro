@@ -20,13 +20,15 @@ const toolPaths = [
 ];
 
 const flags = [
-  { flag: t.guideFlagTool,  desc: t.guideFlagToolDesc },
-  { flag: t.guideFlagDir,   desc: t.guideFlagDirDesc },
-  { flag: t.guideFlagCheck, desc: t.guideFlagCheckDesc },
-  { flag: t.guideFlagJson,  desc: t.guideFlagJsonDesc },
-  { flag: t.guideFlagLimit, desc: t.guideFlagLimitDesc },
-  { flag: t.guideFlagYes,   desc: t.guideFlagYesDesc },
-  { flag: t.guideFlagAll,   desc: t.guideFlagAllDesc }
+  { flag: t.guideFlagTool,      desc: t.guideFlagToolDesc },
+  { flag: t.guideFlagDir,       desc: t.guideFlagDirDesc },
+  { flag: t.guideFlagCheck,     desc: t.guideFlagCheckDesc },
+  { flag: t.guideFlagJson,      desc: t.guideFlagJsonDesc },
+  { flag: t.guideFlagLimit,     desc: t.guideFlagLimitDesc },
+  { flag: t.guideFlagYes,       desc: t.guideFlagYesDesc },
+  { flag: t.guideFlagAll,       desc: t.guideFlagAllDesc },
+  { flag: t.guideFlagForce,     desc: t.guideFlagForceDesc },
+  { flag: t.guideFlagInstalled, desc: t.guideFlagInstalledDesc }
 ];
 ---
 
@@ -146,7 +148,28 @@ const flags = [
             <code>npx skill-market update --all --tool cursor</code>
           </div>
         </div>
-      </section>
+
+        <div class="guide-cmd-card">
+          <div class="guide-cmd-header">
+            <h3>{t.guideCmdScan}</h3>
+            <p>{t.guideCmdScanDesc}</p>
+          </div>
+          <div class="guide-code-block">
+            <code>npx skill-market scan brainstorming --json</code>
+            <code>npx skill-market scan --installed --tool cursor</code>
+          </div>
+        </div>
+
+        <div class="guide-cmd-card">
+          <div class="guide-cmd-header">
+            <h3>{t.guideCmdRemove}</h3>
+            <p>{t.guideCmdRemoveDesc}</p>
+          </div>
+          <div class="guide-code-block">
+            <code>npx skill-market remove mem-search --tool cursor</code>
+            <code>npx skill-market remove mem-search --tool cursor --yes</code>
+          </div>
+        </div>
 
       <!-- Flags -->
       <section class="guide-section animate-in delay-3">
@@ -182,6 +205,43 @@ const flags = [
           <code>&nbsp;</code>
           <code><span class="code-comment">{t.guideExampleComment6}</span></code>
           <code>npx skill-market list --json --limit 50</code>
+          <code>&nbsp;</code>
+          <code><span class="code-comment">{t.guideExampleComment7}</span></code>
+          <code>npx skill-market scan --installed --tool cursor</code>
+          <code>&nbsp;</code>
+          <code><span class="code-comment">{t.guideExampleComment8}</span></code>
+          <code>npx skill-market remove mem-search --tool cursor --yes</code>
+          <code>&nbsp;</code>
+          <code><span class="code-comment">{t.guideExampleComment9}</span></code>
+          <code>npx skill-market scan brainstorming --json</code>
+        </div>
+      </section>
+
+      <!-- Security & Quality Checks -->
+      <section class="guide-section animate-in delay-4">
+        <h2 class="guide-section-title">{t.guideSecurity}</h2>
+        <p class="guide-text">{t.guideSecurityDesc}</p>
+        <div class="guide-security-grid">
+          <div class="guide-security-card">
+            <div class="security-icon">🔒</div>
+            <h4>Security Detection</h4>
+            <p>Scans for dangerous patterns like credential access, shell execution, and file operations.</p>
+          </div>
+          <div class="guide-security-card">
+            <div class="security-icon">⭐</div>
+            <h4>Quality Assessment</h4>
+            <p>Evaluates documentation, structure, and testability of skills.</p>
+          </div>
+          <div class="guide-security-card">
+            <div class="security-icon">⚡</div>
+            <h4>Smart Prompts</h4>
+            <p>Low risk = auto-install. High risk or poor quality = user confirmation or --force flag.</p>
+          </div>
+          <div class="guide-security-card">
+            <div class="security-icon">🔍</div>
+            <h4>Pre-Install Audit</h4>
+            <p>Use 'scan' command to check any skill before installation.</p>
+          </div>
         </div>
       </section>
 
@@ -456,6 +516,50 @@ const flags = [
     color: var(--text-soft);
   }
 
+  /* ---- Security Grid ---- */
+  .guide-security-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .guide-security-card {
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--bg-card);
+    padding: 1.25rem;
+    transition: all 180ms ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .guide-security-card:hover {
+    border-color: var(--line-bright);
+    background: rgba(110,231,183,0.03);
+    transform: translateY(-2px);
+  }
+
+  .security-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .guide-security-card h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 0.5rem;
+  }
+
+  .guide-security-card p {
+    font-size: 0.8rem;
+    color: var(--text-soft);
+    line-height: 1.5;
+  }
+
   /* ---- Responsive ---- */
   @media (max-width: 600px) {
     .guide-flag-row {
@@ -468,6 +572,9 @@ const flags = [
     .guide-path-row {
       grid-template-columns: 1fr;
       gap: 0.15rem;
+    }
+    .guide-security-grid {
+      grid-template-columns: 1fr;
     }
   }
 </style>

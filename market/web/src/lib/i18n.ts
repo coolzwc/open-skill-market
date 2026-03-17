@@ -59,6 +59,10 @@ type Messages = {
   guideCmdInstallDesc: string;
   guideCmdUpdate: string;
   guideCmdUpdateDesc: string;
+  guideCmdScan: string;
+  guideCmdScanDesc: string;
+  guideCmdRemove: string;
+  guideCmdRemoveDesc: string;
   guideFlags: string;
   guideFlagTool: string;
   guideFlagToolDesc: string;
@@ -74,6 +78,10 @@ type Messages = {
   guideFlagYesDesc: string;
   guideFlagAll: string;
   guideFlagAllDesc: string;
+  guideFlagForce: string;
+  guideFlagForceDesc: string;
+  guideFlagInstalled: string;
+  guideFlagInstalledDesc: string;
   guideExamples: string;
   guideExampleComment1: string;
   guideExampleComment2: string;
@@ -81,6 +89,11 @@ type Messages = {
   guideExampleComment4: string;
   guideExampleComment5: string;
   guideExampleComment6: string;
+  guideExampleComment7: string;
+  guideExampleComment8: string;
+  guideExampleComment9: string;
+  guideSecurity: string;
+  guideSecurityDesc: string;
   guideToolPaths: string;
   guideToolPathsDesc: string;
   downloadZip: string;
@@ -171,6 +184,11 @@ export const MESSAGES: Record<Lang, Messages> = {
     guideCmdUpdate: "Update skills",
     guideCmdUpdateDesc:
       "Check for and apply updates. Supports single skill or --all.",
+    guideCmdScan: "Scan skills",
+    guideCmdScanDesc:
+      "Check security and quality of skills without installing.",
+    guideCmdRemove: "Remove a skill",
+    guideCmdRemoveDesc: "Uninstall a skill from the target tool.",
     guideFlags: "Flags",
     guideFlagTool: "--tool <name>",
     guideFlagToolDesc:
@@ -189,6 +207,12 @@ export const MESSAGES: Record<Lang, Messages> = {
     guideFlagAll: "--all",
     guideFlagAllDesc:
       "Update all installed skills at once (update command only).",
+    guideFlagForce: "--force",
+    guideFlagForceDesc:
+      "Skip security prompts and proceed with installation.",
+    guideFlagInstalled: "--installed",
+    guideFlagInstalledDesc:
+      "For scan: check already-installed skills instead of registry.",
     guideExamples: "Examples",
     guideExampleComment1: "# List top 20 skills for Cursor",
     guideExampleComment2: "# Search for React-related skills",
@@ -196,7 +220,12 @@ export const MESSAGES: Record<Lang, Messages> = {
     guideExampleComment4: "# Check if an update is available",
     guideExampleComment5: "# Update all skills for Codex CLI",
     guideExampleComment6: "# Output JSON for automation",
-    guideToolPaths: "Default Install Paths",
+    guideExampleComment7: "# Scan installed skills for security issues",
+    guideExampleComment8: "# Remove a skill safely",
+    guideExampleComment9: "# Scan with security details (JSON)",
+    guideSecurity: "Security & Quality Checks",
+    guideSecurityDesc:
+      "During installation, the CLI automatically scans skills for security risks (dangerous code, credential access) and quality metrics (documentation, structure). Use --force to skip prompts.",
     guideToolPathsDesc:
       "Each tool has a default directory. You can override it with --dir.",
     downloadZip: "Download",
@@ -279,6 +308,10 @@ export const MESSAGES: Record<Lang, Messages> = {
     guideCmdInstallDesc: "下载并安装技能到目标工具的技能目录。",
     guideCmdUpdate: "更新技能",
     guideCmdUpdateDesc: "检查并应用更新。支持单个技能或 --all 批量更新。",
+    guideCmdScan: "扫描技能",
+    guideCmdScanDesc: "检查技能的安全性和质量，无需安装。",
+    guideCmdRemove: "移除技能",
+    guideCmdRemoveDesc: "从目标工具中卸载技能。",
     guideFlags: "参数",
     guideFlagTool: "--tool <名称>",
     guideFlagToolDesc:
@@ -295,6 +328,10 @@ export const MESSAGES: Record<Lang, Messages> = {
     guideFlagYesDesc: "匹配到多个技能时自动选择第一个。",
     guideFlagAll: "--all",
     guideFlagAllDesc: "一次性更新所有已安装的技能（仅 update 命令）。",
+    guideFlagForce: "--force",
+    guideFlagForceDesc: "跳过安全检查提示，直接进行安装。",
+    guideFlagInstalled: "--installed",
+    guideFlagInstalledDesc: "对于 scan 命令：检查已安装的技能而非仓库。",
     guideExamples: "示例",
     guideExampleComment1: "# 列出 Cursor 的前 20 个技能",
     guideExampleComment2: "# 搜索 React 相关技能",
@@ -302,7 +339,12 @@ export const MESSAGES: Record<Lang, Messages> = {
     guideExampleComment4: "# 检查是否有可用更新",
     guideExampleComment5: "# 批量更新 Codex CLI 的所有技能",
     guideExampleComment6: "# 以 JSON 格式输出结果",
-    guideToolPaths: "默认安装路径",
+    guideExampleComment7: "# 扫描已安装技能的安全问题",
+    guideExampleComment8: "# 安全移除技能",
+    guideExampleComment9: "# 以 JSON 格式输出扫描的安全详情",
+    guideSecurity: "安全与质量检测",
+    guideSecurityDesc:
+      "安装过程中，CLI 会自动扫描技能的安全风险（危险代码、凭证访问）和质量指标（文档、结构）。使用 --force 可跳过提示。",
     guideToolPathsDesc: "每个工具有默认目录，可通过 --dir 覆盖。",
     downloadZip: "下载",
     securityTitle: "安全信息",
