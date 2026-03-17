@@ -88,9 +88,9 @@ else:
 ### 2. ✅ **Skill Scan** (`skill-scan.yml`)
 
 **触发条件**：
-- 日常定时：每天 00:30 UTC（在 crawl 后 30 分钟）
-- 手动触发：`workflow_dispatch`
-- 由 crawl 的完整运行调用：`workflow_call`
+- ✅ **仅由 crawl 完全结束时调用**：`workflow_call` 从 crawl.yml 触发（当 crawl 无 timeout/rate-limit 时）
+- ❌ ~~日常定时：每天 00:30 UTC（已移除）~~
+- 手动触发：`workflow_dispatch`（用于测试或补救）
 
 **主要步骤**：
 

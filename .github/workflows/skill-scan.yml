@@ -1,4 +1,5 @@
 # Skill security scan: rule-based detection, scan cache, zip cache or CDN.
+# Triggered ONLY when crawler completes successfully (workflow_call from crawl.yml).
 # On completion: commit & push skills.json (+ chunks), upload registry to CDN (R2), then trigger deploy-web.
 # When incomplete (timeout): scan stops before job kill, writes partial results + cache, exits;
 #   workflow re-triggers self (like crawler) until scan completes. Needs WORKFLOW_DISPATCH_TOKEN.
@@ -8,8 +9,6 @@
 name: Skill Scan
 
 on:
-  schedule:
-    - cron: "30 0 * * *"
   workflow_dispatch:
   workflow_call:
 
