@@ -99,44 +99,6 @@ const altPath = `/${altLang}/skill/`;
               </div>
             </div>
 
-            <div class="detail-section detail-section-security animate-in delay-2" id="detail-security-wrap" style="display:none;">
-              <h2 class="section-label">{t.securityTitle}</h2>
-              <div class="security-panel" id="detail-security">
-                <div class="security-row" id="detail-security-score-row" style="display:none;">
-                  <span class="security-label" id="detail-security-score-label"></span>
-                  <div class="security-score-bar"><div class="security-score-fill" id="detail-security-score-fill"></div></div>
-                  <span class="security-score-value" id="detail-security-score-value"></span>
-                </div>
-                <div class="security-row" id="detail-security-risk-row" style="display:none;">
-                  <span class="security-label" id="detail-security-risk-label"></span>
-                  <span class="risk-badge" id="detail-security-risk-badge"></span>
-                </div>
-                <div class="security-row" id="detail-security-tags-row" style="display:none;">
-                  <span class="security-label" id="detail-security-tags-label"></span>
-                  <div class="security-tags" id="detail-security-tags"></div>
-                </div>
-                <div class="security-row" id="detail-security-time-row" style="display:none;">
-                  <span class="security-label" id="detail-security-time-label"></span>
-                  <span class="security-time" id="detail-security-time"></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="detail-section detail-section-quality animate-in delay-2" id="detail-quality-wrap" style="display:none;">
-              <h2 class="section-label">{t.qualityTitle}</h2>
-              <div class="quality-panel" id="detail-quality">
-                <div class="quality-row" id="detail-quality-score-row" style="display:none;">
-                  <span class="quality-label" id="detail-quality-score-label"></span>
-                  <div class="quality-score-bar"><div class="quality-score-fill" id="detail-quality-score-fill"></div></div>
-                  <span class="quality-score-value" id="detail-quality-score-value"></span>
-                </div>
-                <div class="quality-row" id="detail-quality-grade-row" style="display:none;">
-                  <span class="quality-label" id="detail-quality-grade-label"></span>
-                  <span class="quality-badge" id="detail-quality-grade-badge"></span>
-                </div>
-              </div>
-            </div>
-
             <div class="detail-section animate-in delay-2" id="detail-agents-wrap" style="display:none;">
               <h2 class="section-label">{t.compatibility}</h2>
               <div class="agent-badges" id="detail-agents"></div>
@@ -240,6 +202,34 @@ const altPath = `/${altLang}/skill/`;
               <h3 class="aside-card-title">{t.categoryLabel}</h3>
               <div class="aside-categories" id="aside-cats"></div>
             </div>
+            <div class="aside-card" id="aside-security-wrap" style="display:none;">
+              <h3 class="aside-card-title">{t.securityTitle}</h3>
+              <div class="aside-security-panel" id="aside-security">
+                <div class="aside-security-row" id="aside-security-score-row" style="display:none;">
+                  <span class="aside-label">{t.securityScoreLabel}:</span>
+                  <div class="aside-score-bar"><div class="aside-security-score-fill" id="aside-security-score-fill"></div></div>
+                  <span class="aside-score-value" id="aside-security-score-value"></span>
+                </div>
+                <div class="aside-security-row" id="aside-security-risk-row" style="display:none;">
+                  <span class="aside-label">{t.riskLevelLabel}:</span>
+                  <span class="risk-badge" id="aside-security-risk-badge"></span>
+                </div>
+              </div>
+            </div>
+            <div class="aside-card" id="aside-quality-wrap" style="display:none;">
+              <h3 class="aside-card-title">{t.qualityTitle}</h3>
+              <div class="aside-quality-panel" id="aside-quality">
+                <div class="aside-quality-row" id="aside-quality-score-row" style="display:none;">
+                  <span class="aside-label">{t.qualityScoreLabel}:</span>
+                  <div class="aside-score-bar"><div class="aside-quality-score-fill" id="aside-quality-score-fill"></div></div>
+                  <span class="aside-score-value" id="aside-quality-score-value"></span>
+                </div>
+                <div class="aside-quality-row" id="aside-quality-grade-row" style="display:none;">
+                  <span class="aside-label">{t.qualityGradeLabel}:</span>
+                  <span class="quality-badge" id="aside-quality-grade-badge"></span>
+                </div>
+              </div>
+            </div>
           </aside>
         </div>
       </div>
@@ -327,30 +317,27 @@ const altPath = `/${altLang}/skill/`;
     if (statsEl) statsEl.innerHTML = statsHtml;
 
     var hasSecurity = skill.securityScore != null || (skill.scanTags && skill.scanTags.length) || skill.riskLevel || skill.scannedAt;
-    var securityWrap = document.getElementById("detail-security-wrap");
+    var securityWrap = document.getElementById("aside-security-wrap");
     if (securityWrap) {
       if (hasSecurity) {
         securityWrap.style.display = "";
-        var scoreRow = document.getElementById("detail-security-score-row");
-        var scoreLabel = document.getElementById("detail-security-score-label");
-        var scoreFill = document.getElementById("detail-security-score-fill");
-        var scoreValue = document.getElementById("detail-security-score-value");
-        if (scoreRow && scoreLabel && scoreFill && scoreValue) {
+        var scoreRow = document.getElementById("aside-security-score-row");
+        var scoreLabel = document.getElementById("aside-security-score-label");
+        var scoreFill = document.getElementById("aside-security-score-fill");
+        var scoreValue = document.getElementById("aside-security-score-value");
+        if (scoreRow && scoreFill && scoreValue) {
           if (skill.securityScore != null) {
             scoreRow.style.display = "";
-            scoreLabel.textContent = (typeof securityScoreLabel !== "undefined" ? securityScoreLabel : "Security score") + ":";
             var pct = Math.min(100, Math.max(0, Number(skill.securityScore)));
             scoreFill.style.width = pct + "%";
-            scoreFill.className = "security-score-fill risk-" + (skill.riskLevel || "unknown");
+            scoreFill.className = "aside-security-score-fill risk-" + (skill.riskLevel || "unknown");
             scoreValue.textContent = pct + "/100";
           } else scoreRow.style.display = "none";
         }
-        var riskRow = document.getElementById("detail-security-risk-row");
-        var riskLabel = document.getElementById("detail-security-risk-label");
-        var riskBadge = document.getElementById("detail-security-risk-badge");
-        if (riskRow && riskLabel && riskBadge && skill.riskLevel) {
+        var riskRow = document.getElementById("aside-security-risk-row");
+        var riskBadge = document.getElementById("aside-security-risk-badge");
+        if (riskRow && riskBadge && skill.riskLevel) {
           riskRow.style.display = "";
-          riskLabel.textContent = (typeof riskLevelLabel !== "undefined" ? riskLevelLabel : "Risk level") + ":";
           var riskText = skill.riskLevel;
           if (riskText === "low" && typeof riskLow !== "undefined") riskText = riskLow;
           else if (riskText === "medium" && typeof riskMedium !== "undefined") riskText = riskMedium;
@@ -359,52 +346,31 @@ const altPath = `/${altLang}/skill/`;
           riskBadge.textContent = riskText;
           riskBadge.className = "risk-badge risk-" + (skill.riskLevel || "");
         } else if (riskRow) riskRow.style.display = "none";
-        var tagsRow = document.getElementById("detail-security-tags-row");
-        var tagsLabel = document.getElementById("detail-security-tags-label");
-        var tagsContainer = document.getElementById("detail-security-tags");
-        if (tagsRow && tagsLabel && tagsContainer && skill.scanTags && skill.scanTags.length) {
-          tagsRow.style.display = "";
-          tagsLabel.textContent = (typeof scanTagsLabel !== "undefined" ? scanTagsLabel : "Scan tags") + ":";
-          tagsContainer.innerHTML = skill.scanTags.map(function (tag) { return '<span class="security-tag">' + esc(tag) + '</span>'; }).join("");
-        } else if (tagsRow) tagsRow.style.display = "none";
-        var timeRow = document.getElementById("detail-security-time-row");
-        var timeLabel = document.getElementById("detail-security-time-label");
-        var timeEl = document.getElementById("detail-security-time");
-        if (timeRow && timeLabel && timeEl && skill.scannedAt) {
-          timeRow.style.display = "";
-          timeLabel.textContent = (typeof scannedAtLabel !== "undefined" ? scannedAtLabel : "Last scanned") + ":";
-          var scannedDate = new Date(skill.scannedAt);
-          timeEl.textContent = !isNaN(scannedDate.getTime()) ? scannedDate.toLocaleDateString(currentLang === "zh" ? "zh-CN" : "en-US", { year: "numeric", month: "short", day: "numeric" }) : String(skill.scannedAt);
-        } else if (timeRow) timeRow.style.display = "none";
       } else securityWrap.style.display = "none";
     }
 
-    // Quality score rendering (similar to security)
+    // Quality score rendering in aside
     var hasQuality = skill.qualityScore != null;
-    var qualityWrap = document.getElementById("detail-quality-wrap");
+    var qualityWrap = document.getElementById("aside-quality-wrap");
     if (qualityWrap) {
       if (hasQuality) {
         qualityWrap.style.display = "";
-        var qScoreRow = document.getElementById("detail-quality-score-row");
-        var qScoreLabel = document.getElementById("detail-quality-score-label");
-        var qScoreFill = document.getElementById("detail-quality-score-fill");
-        var qScoreValue = document.getElementById("detail-quality-score-value");
-        if (qScoreRow && qScoreLabel && qScoreFill && qScoreValue) {
+        var qScoreRow = document.getElementById("aside-quality-score-row");
+        var qScoreFill = document.getElementById("aside-quality-score-fill");
+        var qScoreValue = document.getElementById("aside-quality-score-value");
+        if (qScoreRow && qScoreFill && qScoreValue) {
           qScoreRow.style.display = "";
-          qScoreLabel.textContent = (typeof qualityScoreLabel !== "undefined" ? qualityScoreLabel : "Quality score") + ":";
           var qPct = Math.min(100, Math.max(0, Number(skill.qualityScore)));
           qScoreFill.style.width = qPct + "%";
           // Determine quality grade based on score
           var qGrade = qPct >= 80 ? "excellent" : qPct >= 60 ? "good" : qPct >= 40 ? "average" : "fair";
-          qScoreFill.className = "quality-score-fill quality-" + qGrade;
+          qScoreFill.className = "aside-quality-score-fill quality-" + qGrade;
           qScoreValue.textContent = qPct + "/100";
         }
-        var qGradeRow = document.getElementById("detail-quality-grade-row");
-        var qGradeLabel = document.getElementById("detail-quality-grade-label");
-        var qGradeBadge = document.getElementById("detail-quality-grade-badge");
-        if (qGradeRow && qGradeLabel && qGradeBadge) {
+        var qGradeRow = document.getElementById("aside-quality-grade-row");
+        var qGradeBadge = document.getElementById("aside-quality-grade-badge");
+        if (qGradeRow && qGradeBadge) {
           qGradeRow.style.display = "";
-          qGradeLabel.textContent = (typeof qualityGradeLabel !== "undefined" ? qualityGradeLabel : "Quality grade") + ":";
           var qScore = Math.min(100, Math.max(0, Number(skill.qualityScore)));
           var qGradeText = qScore >= 80 ? (typeof qualityExcellent !== "undefined" ? qualityExcellent : "Excellent") :
                            qScore >= 60 ? (typeof qualityGood !== "undefined" ? qualityGood : "Good") :
@@ -688,6 +654,23 @@ const altPath = `/${altLang}/skill/`;
   .cli-qs-cmd:last-child { border-bottom: none; }
   .cli-qs-label { display: block; font-family: "JetBrains Mono", monospace; font-size: 0.6rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-dim); margin-bottom: 0.25rem; }
   .cli-qs-cmd code { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; color: var(--accent); line-height: 1.5; user-select: all; }
+  .aside-security-panel { display: flex; flex-direction: column; gap: 0.5rem; }
+  .aside-quality-panel { display: flex; flex-direction: column; gap: 0.5rem; }
+  .aside-security-row, .aside-quality-row { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+  .aside-label { font-size: 0.75rem; color: var(--text-dim); min-width: 4rem; }
+  .aside-score-bar { flex: 1; min-width: 60px; height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; }
+  .aside-security-score-fill { height: 100%; border-radius: 3px; transition: width 0.3s ease; }
+  .aside-security-score-fill.risk-low { background: linear-gradient(90deg, var(--accent), var(--cyan)); }
+  .aside-security-score-fill.risk-medium { background: linear-gradient(90deg, #fbbf24, #f59e0b); }
+  .aside-security-score-fill.risk-high { background: linear-gradient(90deg, #f97316, #ef4444); }
+  .aside-security-score-fill.risk-critical { background: var(--rose); }
+  .aside-security-score-fill.risk-unknown { background: var(--line-bright); }
+  .aside-quality-score-fill { height: 100%; border-radius: 3px; transition: width 0.3s ease; }
+  .aside-quality-score-fill.quality-excellent { background: linear-gradient(90deg, #10b981, var(--accent)); }
+  .aside-quality-score-fill.quality-good { background: linear-gradient(90deg, var(--cyan), #3b82f6); }
+  .aside-quality-score-fill.quality-average { background: linear-gradient(90deg, #f59e0b, #fbbf24); }
+  .aside-quality-score-fill.quality-fair { background: linear-gradient(90deg, #f87171, #ef4444); }
+  .aside-score-value { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; color: var(--text-soft); }
   @media (max-width: 720px) {
     .detail-grid { grid-template-columns: 1fr; }
     .detail-aside { flex-direction: row; flex-wrap: wrap; }
