@@ -70,18 +70,20 @@ function refreshBucket(bucket, label, type) {
 }
 
 /**
- * Update bucket from Rate Limit API response
+ * Update bucket from Rate Limit API response (e.g. at startup).
+ * Only mark limited when remaining is 0 so we don't wait at startup while we still have quota.
+ * During crawl, updateBucketFromHeaders will set isLimited when remaining is low (pre-pause).
  * @param {Object} bucket - Rate limit bucket
  * @param {Object} resourceData - { limit, remaining, reset, used }
  */
 function updateBucketFromRateLimitAPI(bucket, resourceData) {
   if (!resourceData) return;
-  
+
   bucket.limit = resourceData.limit;
   bucket.remaining = resourceData.remaining;
   bucket.used = resourceData.used;
   bucket.resetTime = resourceData.reset * 1000; // Convert to ms
-  bucket.isLimited = resourceData.remaining <= (bucket.limit <= 30 ? 1 : 10);
+  bucket.isLimited = resourceData.remaining <= 0;
 }
 
 /**
