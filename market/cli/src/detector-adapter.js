@@ -6,6 +6,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { runRules } from "../../detector/rules.js";
+import { getQualityGrade } from "./utils/formatting.js";
 
 const SCRIPT_EXTENSIONS = [".js", ".py", ".sh", ".rb", ".ts", ".go", ".java", ".c", ".cpp", ".rs"];
 const CONFIG_PATTERNS = [/^\.env/, /^config/, /\.conf$/, /\.json$/, /\.yaml$/, /\.yml$/];
@@ -148,19 +149,6 @@ export function getRiskLevelDisplay(riskLevel) {
     default:
       return "🟢 Low";
   }
-}
-
-/**
- * Get human-readable description of quality score grade
- * @param {number} qualityScore - 0-100
- * @returns {string}
- */
-export function getQualityGrade(qualityScore) {
-  if (qualityScore >= 80) return "Excellent";
-  if (qualityScore >= 70) return "Good";
-  if (qualityScore >= 60) return "Average";
-  if (qualityScore >= 50) return "Fair";
-  return "Poor";
 }
 
 /**

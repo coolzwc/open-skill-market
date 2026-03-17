@@ -109,6 +109,24 @@ export function runRules(skillMd, files = new Map(), options = {}) {
       
       // Collect risk details if detailed mode
       if (detailLevel === 'detailed') {
+        // Find all files containing this tag
+        for (const [filePath, fileData] of fileRisks) {
+          if (fileData.tags.has(tag)) {
+            for (const risk of fileData.risks) {
+              if (risk.tag === tag) {
+                detectedRisks.push({
+                  tag,
+                  riskLevel,
+                  scorePenalty,
+                  file: filePath,
+                  match: risk.match,
+                });
+              }
+            }
+          }
+        }
+      } else {
+        // Basic level: just track the tag without file info
         detectedRisks.push({ tag, riskLevel, scorePenalty });
       }
     }
@@ -132,7 +150,7 @@ export function runRules(skillMd, files = new Map(), options = {}) {
     qualityScore,
   };
   
-  // Add detailed risks if requested
+  // Add detailed risks if requested and found
   if (detailLevel === 'detailed' && detectedRisks.length > 0) {
     result.detectedRisks = detectedRisks;
   }

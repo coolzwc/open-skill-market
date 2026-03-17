@@ -12,9 +12,9 @@ export function formatScanTable(results) {
     return "No skills found.";
   }
 
-  // Calculate column widths
+  // Calculate column widths (use max, not min)
   const cols = {
-    name: Math.max(15, Math.min(25, ...results.map(r => (r.name || "").length))),
+    name: Math.max(15, Math.min(25, Math.max(...results.map(r => (r.name || "").length), 15))),
     security: 10,
     quality: 8,
     risk: 12,
@@ -122,13 +122,14 @@ export function formatQualityWarning(result, skillName) {
 
 /**
  * Get quality grade from score
- * @private
+ * @param {number} qualityScore - 0-100
+ * @returns {string}
  */
-function getQualityGrade(score) {
-  if (score >= 80) return "Excellent";
-  if (score >= 70) return "Good";
-  if (score >= 60) return "Average";
-  if (score >= 50) return "Fair";
+export function getQualityGrade(qualityScore) {
+  if (qualityScore >= 80) return "Excellent";
+  if (qualityScore >= 70) return "Good";
+  if (qualityScore >= 60) return "Average";
+  if (qualityScore >= 50) return "Fair";
   return "Poor";
 }
 

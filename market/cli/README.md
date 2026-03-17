@@ -104,8 +104,26 @@ Continue with installation? (y/n, or use --force to skip this prompt)
 
 ### Using --force Flag
 
-Skip all prompts and proceed with installation regardless of security or quality scores:
+The `--force` flag behaves differently depending on the context:
+
+**Interactive Mode (TTY):**
+- `--force` skips the security prompt and proceeds directly with installation
+- Useful for pre-vetted skills or CI/CD with prior approval
+
+**Non-Interactive Mode (no TTY):**
+- `--force` is **required** for High/Critical risk or low quality scores
+- Without it, the CLI will error and require manual `--force` override
+- Prevents accidental dangerous installations in automated scripts
+
+Examples:
 ```bash
+# Interactive: shows prompt, then installs if you type 'y'
+npx skill-market install agent-browser --tool cursor
+
+# Interactive: skips prompt, installs immediately
+npx skill-market install agent-browser --tool cursor --force
+
+# CI/CD: requires --force (non-TTY) for risky skills
 npx skill-market install agent-browser --tool cursor --force
 ```
 

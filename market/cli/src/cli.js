@@ -5,7 +5,7 @@ import crypto from "node:crypto";
 import readline from "node:readline/promises";
 import { stdin as input, stdout as output } from "node:process";
 import AdmZip from "adm-zip";
-import { scanSkillDirectory, scanRemoteSkillExtracted, getRiskLevelDisplay, getQualityGrade } from "./detector-adapter.js";
+import { scanSkillDirectory, scanRemoteSkillExtracted, getRiskLevelDisplay } from "./detector-adapter.js";
 import {
   formatScanTable,
   formatSecurityPrompt,
@@ -14,6 +14,7 @@ import {
   formatRemovalPrompt,
   formatRemovalSuccess,
   formatScanResultsJson,
+  getQualityGrade,
 } from "./utils/formatting.js";
 
 const DEFAULT_REGISTRY_URL =
@@ -1013,7 +1014,8 @@ async function runScan(registry, args) {
     };
 
     if (jsonMode) {
-      printAsJson(result, true);
+      // Use consistent JSON format
+      printAsJson(formatScanResultsJson([result]), true);
     } else {
       console.log(`\nScan Results for "${skill.name}"`);
       console.log("═══════════════════════════════════════");
@@ -1024,7 +1026,7 @@ async function runScan(registry, args) {
       if (result.detectedRisks && result.detectedRisks.length > 0) {
         console.log(`\nDetected Risks:`);
         for (const risk of result.detectedRisks) {
-          console.log(`  • ${risk.tag} [${risk.riskLevel}]`);
+          console.log(`  • ${risk.tag} [${risk.riskLevel}]${risk.file ? ` (in ${risk.file})` : ""}`);
         }
       }
     }
@@ -1070,13 +1072,28 @@ async function runRemove(registry, args) {
   }
 
   if (!exists) {
-    if (!jsonMode) {
+    if (jsonMode) {
+      printAsJson({
+        command: "remove",
+        skillId: skill.id,
+        skillName: skill.name,
+        status: "not-installed",
+        path: localSkillDir,
+      }, true);
+    } else {
       console.log(`Skill "${skill.name}" is not installed at ${localSkillDir}`);
     }
     return;
   }
 
-  // Ask for confirmation if not TTY or --yes
+  // Ask for confirmation: require --yes in non-TTY mode
+  if (!args.yes && (!process.stdout.isTTY || !process.stdin.isTTY)) {
+    throw new Error(
+      "Non-interactive mode: use --yes to confirm removal (e.g. npx skill-market remove <skill> --yes)"
+    );
+  }
+
+  // Interactive prompt in TTY mode if no --yes flag
   if (!args.yes && process.stdout.isTTY && process.stdin.isTTY) {
     const prompt = formatRemovalPrompt(skill.name, localSkillDir);
     console.log(prompt);
