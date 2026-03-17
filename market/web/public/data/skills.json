@@ -12,7 +12,7 @@
     "executionTimeMs": 104313,
     "compact": true,
     "scanIncomplete": false,
-    "scanCompletedAt": "2026-03-17T06:26:08.808Z"
+    "scanCompletedAt": "2026-03-17T08:41:30.058Z"
   },
   "repositories": {
     "vuejs-ai/skills": {
@@ -37,8 +37,8 @@
       "securityScore": 59,
       "riskLevel": "high",
       "scanTags": ["file-system-write", "network-call", "credential-access"],
-      "scannedAt": "2026-03-17T06:26:08.799Z",
-      "qualityScore": 87
+      "scannedAt": "2026-03-16T11:13:21.807Z",
+      "qualityScore": null
     },
     {
       "id": "vuejs-ai/skills/skills/vue-best-practices",
@@ -53,8 +53,8 @@
       "securityScore": 75,
       "riskLevel": "high",
       "scanTags": ["credential-access"],
-      "scannedAt": "2026-03-17T06:26:08.802Z",
-      "qualityScore": 93
+      "scannedAt": "2026-03-16T11:13:21.811Z",
+      "qualityScore": null
     },
     {
       "id": "vuejs-ai/skills/skills/vue-router-best-practices",
@@ -71,8 +71,8 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-17T06:26:08.803Z",
-      "qualityScore": 81
+      "scannedAt": "2026-03-16T11:13:21.817Z",
+      "qualityScore": null
     },
     {
       "id": "vuejs-ai/skills/skills/vue-pinia-best-practices",
@@ -89,8 +89,8 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-17T06:26:08.804Z",
-      "qualityScore": 87
+      "scannedAt": "2026-03-16T11:13:21.819Z",
+      "qualityScore": null
     },
     {
       "id": "vuejs-ai/skills/skills/vue-options-api-best-practices",
@@ -107,8 +107,8 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-17T06:26:08.806Z",
-      "qualityScore": 68
+      "scannedAt": "2026-03-16T11:13:21.813Z",
+      "qualityScore": null
     },
     {
       "id": "vuejs-ai/skills/skills/vue-testing-best-practices",
@@ -125,8 +125,8 @@
       "securityScore": 65,
       "riskLevel": "high",
       "scanTags": ["file-system-write", "credential-access"],
-      "scannedAt": "2026-03-17T06:26:08.807Z",
-      "qualityScore": 81
+      "scannedAt": "2026-03-16T11:13:21.815Z",
+      "qualityScore": null
     },
     {
       "id": "vuejs-ai/skills/skills/create-adaptable-composable",
@@ -141,8 +141,8 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-17T06:26:08.808Z",
-      "qualityScore": 73
+      "scannedAt": "2026-03-16T11:13:21.819Z",
+      "qualityScore": null
     }
   ]
 }
