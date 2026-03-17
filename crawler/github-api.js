@@ -62,6 +62,77 @@ const SKIP_DIRS = new Set([
 // ─── Core API helpers ───────────────────────────────────────────────────────
 
 /**
+ * Whether an error is a Code Search rate-limit/quota error (403/422/429 or "Request quota exhausted").
+ * Octokit/GitHub may phrase it as "Request quota exhausted"; we treat it as limit and set reset.
+ * @param {Error} error
+ * @returns {boolean}
+ */
+function isCodeSearchRateLimitError(error) {
+  const status = error.status ?? error.response?.status;
+  if (status === 403 || status === 422 || status === 429) return true;
+  const msg = (error.message || "").toLowerCase();
+  return (
+    msg.includes("quota") ||
+    msg.includes("exhausted") ||
+    msg.includes("rate limit") ||
+    msg.includes("secondary")
+  );
+}
+
+/**
+ * Compute rate-limit reset time (ms) from 403/429 response headers.
+ * GitHub primary limit uses x-ratelimit-reset; SecondaryRateLimit may send
+ * Retry-After (seconds) or neither — without a reset time, refreshBucket never
+ * clears and the crawler can wait forever. Use 60s fallback per GitHub docs.
+ * @param {Object} headers - error.response?.headers
+ * @returns {number} Reset timestamp in ms (always defined)
+ */
+function getCodeSearchResetTimeFromError(headers) {
+  const fallbackMs = CONFIG.rateLimit.maxWaitForReset; // 60s per GitHub docs
+  if (!headers) return Date.now() + fallbackMs;
+  const resetEpoch = headers["x-ratelimit-reset"];
+  if (resetEpoch != null) {
+    const t = parseInt(resetEpoch, 10) * 1000;
+    if (!Number.isNaN(t)) return t;
+  }
+  const retryAfter = headers["retry-after"] ?? headers["Retry-After"];
+  if (retryAfter != null) {
+    const s = parseInt(retryAfter, 10);
+    if (!Number.isNaN(s) && s > 0) return Date.now() + s * 1000;
+  }
+  return Date.now() + fallbackMs;
+}
+
+/**
+ * Wait until a Core API client is available (refreshes Code Search so we wake when it recovers).
+ * @param {WorkerPool} workerPool
+ * @param {Object} options - Optional
+ * @param {boolean} options.logWait - Log when waiting >10s (default true)
+ * @param {number} options.maxWaitPerCycle - Max ms to sleep per cycle (default from CONFIG)
+ * @returns {Promise<boolean>} true if a client is available, false if should stop (e.g. timeout)
+ */
+async function waitForCoreClient(workerPool, options = {}) {
+  const logWait = options.logWait !== false;
+  const maxWaitPerCycle =
+    options.maxWaitPerCycle ?? CONFIG.rateLimit.maxWaitPerCycle;
+  while (workerPool.allClientsLimited()) {
+    if (shouldStopForTimeout()) return false;
+    workerPool.allCodeSearchClientsLimited();
+    const nextReset = workerPool.getNextResetTimeMin();
+    const waitTime = nextReset - Date.now();
+    if (waitTime > 0) {
+      if (logWait && waitTime > 10000) {
+        logRateLimitWait(Math.ceil(waitTime / 1000));
+      }
+      await sleep(Math.min(waitTime + 1000, maxWaitPerCycle));
+    } else {
+      await sleep(1000);
+    }
+  }
+  return true;
+}
+
+/**
  * Get the latest commit hash for a repository's default branch.
  * Retries with other clients on rate limit.
  * @param {WorkerPool} workerPool
@@ -73,16 +144,8 @@ export async function getRepoLatestCommit(workerPool, owner, repo) {
   const maxAttempts = workerPool.clients.length + 1; // try each client at most once, plus one retry cycle
 
   for (let attempt = 0; attempt < maxAttempts; attempt++) {
-    while (workerPool.allClientsLimited()) {
-      if (shouldStopForTimeout()) return null;
-      const nextReset = workerPool.getNextResetTime();
-      const waitTime = nextReset - Date.now();
-      if (waitTime > 0) {
-        await sleep(Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitPerCycle));
-      } else {
-        await sleep(1000);
-      }
-    }
+    const available = await waitForCoreClient(workerPool);
+    if (!available) return null;
 
     const client = workerPool.getClient();
 
@@ -131,6 +194,8 @@ export async function getRepoLatestCommit(workerPool, owner, repo) {
  * @param {string} repo
  * @param {Object} repoDetails - Only used when cache miss (can be null for cache-first approach)
  * @param {string} source - 'priority' or 'github'
+ * @param {Object} options - Optional
+ * @param {string[]} options.skillPaths - Pre-collected SKILL.md paths (from Code Search phase); if empty, fall back to recursive
  * @returns {Promise<Object[]>}
  */
 export async function processRepoWithCache(
@@ -139,10 +204,12 @@ export async function processRepoWithCache(
   repo,
   repoDetails,
   source,
+  options = {},
 ) {
+  const { skillPaths: preCollectedPaths } = options;
   const repoFullName = `${owner}/${repo}`;
 
-  // Get repo's latest commit (lightweight API call)
+  // Get repo's latest commit (Core API) for cache check
   const latestCommit = await getRepoLatestCommit(workerPool, owner, repo);
   if (!latestCommit) {
     console.log(`  Could not get latest commit for ${repoFullName}`);
@@ -173,10 +240,21 @@ export async function processRepoWithCache(
     return cachedSkills;
   }
 
-  // Repo has changed or not in cache → crawl it
-  console.log(`  Scanning ${repoFullName} for SKILL.md files...`);
-
-  const skillFiles = await findSkillFilesInRepoSmart(workerPool, owner, repo);
+  // Repo has changed or not in cache → use pre-collected paths or discover
+  let skillFiles;
+  if (
+    Array.isArray(preCollectedPaths) &&
+    preCollectedPaths.length > 0
+  ) {
+    skillFiles = preCollectedPaths;
+  } else if (Array.isArray(preCollectedPaths) && preCollectedPaths.length === 0) {
+    // Code Search returned nothing for this repo — fall back to recursive (Core)
+    console.log(`  Scanning ${repoFullName} for SKILL.md files (recursive fallback)...`);
+    skillFiles = await findSkillFilesInRepoWithPool(workerPool, owner, repo);
+  } else {
+    console.log(`  Scanning ${repoFullName} for SKILL.md files...`);
+    skillFiles = await findSkillFilesInRepoSmart(workerPool, owner, repo);
+  }
 
   const repoStats = {
     stars: repoDetails?.stargazers_count || 0,
@@ -206,17 +284,8 @@ export async function processRepoWithCache(
   const uniqueSignatures = new Set();
   for (const filePath of skillFiles) {
     if (shouldStopForTimeout()) break;
-    while (workerPool.allClientsLimited()) {
-      if (shouldStopForTimeout()) break;
-      const nextReset = workerPool.getNextResetTime();
-      const waitTime = nextReset - Date.now();
-      if (waitTime > 0) {
-        await sleep(Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitPerCycle));
-      } else {
-        await sleep(1000);
-      }
-    }
-    if (shouldStopForTimeout()) break;
+    const available = await waitForCoreClient(workerPool);
+    if (!available) break;
     try {
       const client = workerPool.getClient();
       const response = await client.octokit.rest.repos.getContent({
@@ -239,9 +308,14 @@ export async function processRepoWithCache(
   }
   const uniqueCount = uniqueSignatures.size;
 
+  // GitHub repo.size is in KB. When known, only allow archive if size < 100MB.
+  // Phase 3 (topic search) repos may lack size; then we try archive and rely on stream abort.
+  const repoSizeBytes =
+    repoDetails?.size != null ? repoDetails.size * 1024 : null;
   const useArchive =
     CONFIG.archiveDownloadMinSkills > 0 &&
-    uniqueCount > CONFIG.archiveDownloadMinSkills;
+    uniqueCount > CONFIG.archiveDownloadMinSkills &&
+    (repoSizeBytes == null || repoSizeBytes < CONFIG.archiveMaxZipSizeBytes);
 
   let repoSkills = [];
   let timedOut = false;
@@ -409,20 +483,11 @@ async function processRepoFromAPI(
       timedOut = true;
       break;
     }
-    while (workerPool.allClientsLimited()) {
-      if (shouldStopForTimeout()) {
-        timedOut = true;
-        break;
-      }
-      const nextReset = workerPool.getNextResetTime();
-      const waitTime = nextReset - Date.now();
-      if (waitTime > 0) {
-        await sleep(Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitPerCycle));
-      } else {
-        await sleep(1000);
-      }
+    const available = await waitForCoreClient(workerPool);
+    if (!available) {
+      timedOut = true;
+      break;
     }
-    if (timedOut) break;
     if (shouldStopForTimeout()) {
       timedOut = true;
       break;
@@ -720,21 +785,8 @@ export async function findSkillFilesInRepoWithPool(
 ) {
   const skillFiles = [];
 
-  while (workerPool.allClientsLimited()) {
-    if (shouldStopForTimeout()) {
-      return skillFiles;
-    }
-    const nextReset = workerPool.getNextResetTime();
-    const waitTime = nextReset - Date.now();
-    if (waitTime > 0) {
-      if (waitTime > 10000) {
-        logRateLimitWait(Math.ceil(waitTime / 1000));
-      }
-      await sleep(Math.min(waitTime, CONFIG.rateLimit.maxWaitPerCycle));
-    } else {
-      await sleep(1000);
-    }
-  }
+  const available = await waitForCoreClient(workerPool);
+  if (!available) return skillFiles;
 
   const client = workerPool.getClient();
 
@@ -817,13 +869,14 @@ export async function findSkillFilesWithCodeSearch(workerPool, owner, repo) {
     );
     return paths;
   } catch (error) {
-    if (error.status === 403 || error.status === 422 || error.status === 429) {
-      const resetTime = error.response?.headers?.["x-ratelimit-reset"]
-        ? parseInt(error.response.headers["x-ratelimit-reset"], 10) * 1000
-        : null;
-      // Mark codeSearch bucket as limited
+    if (isCodeSearchRateLimitError(error)) {
+      const resetTime = getCodeSearchResetTimeFromError(error.response?.headers);
       client.codeSearch.isLimited = true;
-      if (resetTime) client.codeSearch.resetTime = resetTime;
+      client.codeSearch.resetTime = resetTime;
+      const resetIn = Math.max(0, Math.ceil((resetTime - Date.now()) / 1000));
+      console.log(
+        `  Code Search quota exhausted for ${owner}/${repo}, retry after ${resetIn}s or use recursive scan`,
+      );
       return null;
     }
     console.warn(`  Code Search error for ${owner}/${repo}: ${error.message}`);
@@ -892,21 +945,8 @@ export async function processSkillFileWithPool(
   repoDetails,
   repoCommitHash = "",
 ) {
-  while (workerPool.allClientsLimited()) {
-    if (shouldStopForTimeout()) {
-      return null;
-    }
-    const nextReset = workerPool.getNextResetTime();
-    const waitTime = nextReset - Date.now();
-    if (waitTime > 0) {
-      if (waitTime > 10000) {
-        logRateLimitWait(Math.ceil(waitTime / 1000));
-      }
-      await sleep(Math.min(waitTime, CONFIG.rateLimit.maxWaitPerCycle));
-    } else {
-      await sleep(1000);
-    }
-  }
+  const available = await waitForCoreClient(workerPool);
+  if (!available) return null;
 
   const client = workerPool.getClient();
   const owner = repoInfo.owner.login;
@@ -1093,11 +1133,19 @@ export async function processSkillFileWithPool(
 export async function discoverSkillReposGlobally(workerPool, excludeRepos) {
   console.log("Searching globally for SKILL.md files...");
   const discoveredRepos = new Map();
+  const codeSearchMaxWaitMs = CONFIG.rateLimit.codeSearchMaxWaitMs ?? 90000;
+  let codeSearchWaitStart = Date.now();
 
   // Wait for Code Search API to be available (separate bucket from search.repos)
   while (workerPool.allCodeSearchClientsLimited()) {
     if (shouldStopForTimeout()) {
       console.log("  Stopping global search due to timeout.");
+      return discoveredRepos;
+    }
+    if (Date.now() - codeSearchWaitStart >= codeSearchMaxWaitMs) {
+      console.log(
+        "  Code Search max wait reached, stopping global search to avoid blocking.",
+      );
       return discoveredRepos;
     }
     const nextReset = workerPool.getNextCodeSearchResetTime();
@@ -1133,6 +1181,12 @@ export async function discoverSkillReposGlobally(workerPool, excludeRepos) {
       // Check/wait for Code Search API availability
       while (workerPool.allCodeSearchClientsLimited()) {
         if (shouldStopForTimeout()) {
+          return discoveredRepos;
+        }
+        if (Date.now() - codeSearchWaitStart >= codeSearchMaxWaitMs) {
+          console.log(
+            "  Code Search max wait reached, stopping global search to avoid blocking.",
+          );
           return discoveredRepos;
         }
         const nextReset = workerPool.getNextCodeSearchResetTime();
@@ -1202,19 +1256,17 @@ export async function discoverSkillReposGlobally(workerPool, excludeRepos) {
           await sleep(CONFIG.rateLimit.waitAfterSearch);
         }
       } catch (error) {
-        if (error.status === 403 || error.status === 422 || error.status === 429) {
-          const resetTime = error.response?.headers?.["x-ratelimit-reset"]
-            ? parseInt(error.response.headers["x-ratelimit-reset"], 10) * 1000
-            : null;
-          // Mark codeSearch bucket as limited
+        if (isCodeSearchRateLimitError(error)) {
+          const resetTime = getCodeSearchResetTimeFromError(error.response?.headers);
           searchClient.codeSearch.isLimited = true;
-          if (resetTime) searchClient.codeSearch.resetTime = resetTime;
-          // Try to continue with another client
+          searchClient.codeSearch.resetTime = resetTime;
+          console.log(
+            "  Code Search quota exhausted, will wait for reset or skip remaining pages.",
+          );
           if (workerPool.allCodeSearchClientsLimited()) {
             console.log("  All CodeSearch clients limited, stopping global search.");
             break;
           }
-          // Retry same page with next client
         } else {
           console.error(`  Global search error: ${error.message}`);
           break;
@@ -1275,6 +1327,61 @@ export async function fetchReposDetailsBatch(workerPool, reposMap) {
 // ─── Batch repo processing ──────────────────────────────────────────────────
 
 /**
+ * Phase 1: Use Code Search only to collect SKILL.md paths for each repo.
+ * No Core API calls — when Core is exhausted we can still run this phase.
+ * @param {WorkerPool} workerPool
+ * @param {Array<{repoFullName: string, repo: Object}>} reposToProcess
+ * @returns {Promise<Map<string, string[]>>} Map repoFullName → paths (empty if Code Search failed)
+ */
+export async function collectSkillPathsWithCodeSearch(
+  workerPool,
+  reposToProcess,
+) {
+  if (!reposToProcess || reposToProcess.length === 0) return new Map();
+
+  console.log(
+    `  Phase 1 (Code Search): collecting SKILL.md paths for ${reposToProcess.length} repos...`,
+  );
+
+  const tasks = reposToProcess.map(({ repoFullName }) => async () => {
+    if (shouldStopForTimeout()) return null;
+    const [owner, repoName] = repoFullName.split("/");
+    if (!owner || !repoName) return null;
+
+    while (workerPool.allCodeSearchClientsLimited()) {
+      if (shouldStopForTimeout()) return null;
+      const nextReset = workerPool.getNextCodeSearchResetTime();
+      const waitTime = nextReset - Date.now();
+      if (waitTime > 0) {
+        await sleep(
+          Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitForReset),
+        );
+      } else {
+        await sleep(CONFIG.rateLimit.waitOnLimitedFallback);
+      }
+    }
+
+    const paths = await findSkillFilesWithCodeSearch(
+      workerPool,
+      owner,
+      repoName,
+    );
+    return { repoFullName, paths: paths !== null ? paths : [] };
+  });
+
+  const results = await workerPool.addTasks(tasks);
+  const pathMap = new Map();
+  for (const r of results) {
+    if (r?.repoFullName != null) pathMap.set(r.repoFullName, r.paths);
+  }
+  const withPaths = [...pathMap.values()].filter((p) => p.length > 0).length;
+  console.log(
+    `  Code Search done: ${withPaths}/${reposToProcess.length} repos have SKILL.md paths`,
+  );
+  return pathMap;
+}
+
+/**
  * Process a batch of repositories in parallel with rate limit handling.
  * Used by Phase 3 (topic search) and Phase 4 (global discovery).
  *
@@ -1283,6 +1390,7 @@ export async function fetchReposDetailsBatch(workerPool, reposMap) {
  * @param {string} source - 'github' or other source identifier
  * @param {Object} options
  * @param {boolean} options.fetchRepoDetails - Whether to fetch full repo details first
+ * @param {Map<string, string[]>} options.skillPathsMap - Pre-collected paths from Code Search (repoFullName → paths)
  * @returns {Promise<Object[]>} Array of skill manifests
  */
 export async function processReposInParallel(
@@ -1291,13 +1399,13 @@ export async function processReposInParallel(
   source,
   options = {}
 ) {
-  const { fetchRepoDetails = false } = options;
+  const { fetchRepoDetails = false, skillPathsMap = null } = options;
   const results = [];
   let processedCount = 0;
   let totalSkillCount = 0;
 
   const tasks = reposToProcess.map(({ repoFullName, repo }) => async () => {
-    // Wait for available client
+    // Wait for available Core client (for getContent / getCommit)
     const available = await workerPool.waitForAvailableClient(shouldStopForTimeout);
     if (!available) return null;
 
@@ -1324,12 +1432,14 @@ export async function processReposInParallel(
         }
       }
 
+      const skillPaths = skillPathsMap?.get(repoFullName);
       const repoSkills = await processRepoWithCache(
         workerPool,
         repo.owner.login,
         repo.name,
         repoDetails,
         source,
+        skillPaths !== undefined ? { skillPaths } : {},
       );
 
       processedCount++;
@@ -1382,21 +1492,8 @@ export async function crawlPriorityRepos(workerPool, priorityRepos) {
   );
 
   const tasks = priorityRepos.map((repoFullName) => async () => {
-    while (workerPool.allClientsLimited()) {
-      if (shouldStopForTimeout()) return null;
-      const nextReset = workerPool.getNextResetTime();
-      const waitTime = nextReset - Date.now();
-      if (waitTime > 0) {
-        if (waitTime > 10000) {
-          logRateLimitWait(Math.ceil(waitTime / 1000));
-        }
-        await sleep(Math.min(waitTime, CONFIG.rateLimit.maxWaitPerCycle));
-      } else {
-        await sleep(1000);
-      }
-    }
-
-    if (shouldStopForTimeout()) return null;
+    const available = await waitForCoreClient(workerPool);
+    if (!available) return null;
 
     const [owner, repo] = repoFullName.split("/");
     if (!owner || !repo) {
@@ -1419,16 +1516,8 @@ export async function crawlPriorityRepos(workerPool, priorityRepos) {
       for (let attempt = 0; attempt < maxRetries && !repoDetails; attempt++) {
         if (shouldStopForTimeout()) return null;
 
-        while (workerPool.allClientsLimited()) {
-          if (shouldStopForTimeout()) return null;
-          const nextReset = workerPool.getNextResetTime();
-          const waitTime = nextReset - Date.now();
-          if (waitTime > 0) {
-            await sleep(Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitPerCycle));
-          } else {
-            await sleep(1000);
-          }
-        }
+        const availableInner = await waitForCoreClient(workerPool);
+        if (!availableInner) return null;
 
         const client = workerPool.getClient();
         try {

@@ -53,7 +53,12 @@ function createBucket(remaining, limit = remaining) {
  * @returns {boolean} Whether the bucket was refreshed
  */
 function refreshBucket(bucket, label, type) {
-  if (bucket.isLimited && bucket.resetTime && Date.now() >= bucket.resetTime) {
+  if (!bucket.isLimited) return false;
+  // SecondaryRateLimit may omit x-ratelimit-reset; ensure we have a reset time so we don't wait forever
+  if (!bucket.resetTime) {
+    bucket.resetTime = Date.now() + CONFIG.rateLimit.maxWaitForReset;
+  }
+  if (Date.now() >= bucket.resetTime) {
     bucket.isLimited = false;
     bucket.remaining = bucket.limit;
     bucket.used = 0;
@@ -323,6 +328,15 @@ export class WorkerPool {
     return minReset === Infinity ? Date.now() + 60000 : minReset;
   }
 
+  /**
+   * Earliest reset time across Core and Code Search (so we wake when either recovers).
+   * Code Search resets every ~60s; when Core is exhausted we still wake to refresh and re-check.
+   * @returns {number} Timestamp in ms
+   */
+  getNextResetTimeMin() {
+    return Math.min(this.getNextResetTime(), this.getNextCodeSearchResetTime());
+  }
+
   // ───── Search API client selection (search.repos — separate bucket) ─────
 
   /**
@@ -495,7 +509,9 @@ export class WorkerPool {
       if (shouldStop && shouldStop()) {
         return false;
       }
-      const nextReset = this.getNextResetTime();
+      // Refresh Code Search state so we wake when it recovers (Code Search resets ~60s)
+      this.allCodeSearchClientsLimited();
+      const nextReset = this.getNextResetTimeMin();
       const waitTime = nextReset - Date.now();
       if (waitTime > 0) {
         if (logWait && waitTime > 10000) {

@@ -15,6 +15,7 @@ import {
   searchSkillRepositories,
   crawlPriorityRepos,
   processReposInParallel,
+  collectSkillPathsWithCodeSearch,
   discoverSkillReposGlobally,
   fetchReposDetailsBatch,
 } from "./github-api.js";
@@ -440,12 +441,18 @@ async function main() {
 
         console.log(`Repositories to scan: ${reposToProcess.length}`);
 
-        // Use shared function for parallel processing
+        // Phase 1: Code Search only — collect SKILL.md paths (no Core API)
+        const skillPathsMap = await collectSkillPathsWithCodeSearch(
+          workerPool,
+          reposToProcess,
+        );
+
+        // Phase 2: Core API — get commit, cache check, fetch SKILL.md content for dedup
         const results = await processReposInParallel(
           workerPool,
           reposToProcess,
           "github",
-          { fetchRepoDetails: false },
+          { fetchRepoDetails: false, skillPathsMap },
         );
 
         allSkills.push(...results);
@@ -493,12 +500,18 @@ async function main() {
       );
       console.log(`Processing ${reposToProcess.length} newly discovered repos (high-star first)...`);
 
-      // Repo details already fetched; no need to fetch again
+      // Phase 1: Code Search only — collect SKILL.md paths (no Core API)
+      const skillPathsMap = await collectSkillPathsWithCodeSearch(
+        workerPool,
+        reposToProcess,
+      );
+
+      // Phase 2: Core API — get commit, cache check, fetch SKILL.md content for dedup
       const results = await processReposInParallel(
         workerPool,
         reposToProcess,
         "github",
-        { fetchRepoDetails: false },
+        { fetchRepoDetails: false, skillPathsMap },
       );
 
       allSkills.push(...results);

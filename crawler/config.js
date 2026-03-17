@@ -41,7 +41,7 @@ export const CONFIG = {
 
   // Archive path: when repo has > this many unique skills (after name+description dedup) and zip < archiveMaxZipSizeBytes, download zipball and parse from extract
   // Set to 0 to disable. Env: ARCHIVE_DOWNLOAD_MIN_SKILLS
-  archiveDownloadMinSkills: parseInt(process.env.ARCHIVE_DOWNLOAD_MIN_SKILLS || "5", 10),
+  archiveDownloadMinSkills: parseInt(process.env.ARCHIVE_DOWNLOAD_MIN_SKILLS || "10", 10),
 
   // Max repo zip size (bytes) to allow archive download; above this we fall back to per-file API. 100MB default.
   // Env: ARCHIVE_MAX_ZIP_SIZE_BYTES
@@ -77,6 +77,7 @@ export const CONFIG = {
     waitOnLimitedFallback: 5000, // Wait when all clients are limited
     maxWaitPerCycle: 30000, // Max wait time per rate limit cycle
     maxWaitForReset: 60000, // Max wait for rate limit reset
+    codeSearchMaxWaitMs: 90000, // Cap total wait for Code Search in global discovery (avoid blocking)
   },
 
   // File limits
