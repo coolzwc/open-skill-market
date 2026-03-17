@@ -4,7 +4,7 @@ import archiver from "archiver";
 import { createWriteStream } from "fs";
 import { CONFIG } from "./config.js";
 import { shouldStopForTimeout } from "./rate-limit.js";
-import { parseRepoUrl, safeZipName, sleep } from "./utils.js";
+import { parseRepoUrl, safeZipName } from "./utils.js";
 
 /**
  * Generate a zip package for a skill
@@ -98,6 +98,18 @@ async function fetchSkillFiles(owner, repo, branch, files, skillPath, workerPool
 }
 
 /**
+ * Wait for an available Core API client (rate limit recovered) before making requests.
+ * Uses the pool's centralized wait so quota state stays accurate and logs are consistent.
+ */
+async function waitForClient(workerPool) {
+  const available = await workerPool.waitForAvailableClient(shouldStopForTimeout, {
+    maxWaitPerCycle: CONFIG.rateLimit.maxWaitPerCycle,
+    logWait: true,
+  });
+  return available;
+}
+
+/**
  * Fetch a file or directory from GitHub recursively, using workerPool for rate limiting.
  * @param {import('./worker-pool.js').WorkerPool} workerPool
  * @param {string} owner
@@ -107,17 +119,7 @@ async function fetchSkillFiles(owner, repo, branch, files, skillPath, workerPool
  * @param {Array<{path: string, content: Buffer}>} fileContents - accumulator
  */
 async function fetchGitHubPathWithPool(workerPool, owner, repo, branch, dirPath, fileContents) {
-  // Wait for rate limit reset if all clients are limited
-  while (workerPool.allClientsLimited()) {
-    if (shouldStopForTimeout()) return;
-    const nextReset = workerPool.getNextResetTime();
-    const waitTime = nextReset - Date.now();
-    if (waitTime > 0) {
-      await sleep(Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitPerCycle));
-    } else {
-      await sleep(1000);
-    }
-  }
+  if (!(await waitForClient(workerPool))) return;
 
   const client = workerPool.getClient();
 
@@ -136,17 +138,7 @@ async function fetchGitHubPathWithPool(workerPool, owner, repo, branch, dirPath,
       // It's a directory — fetch all files recursively
       for (const item of data) {
         if (item.type === "file") {
-          // Wait for rate limit
-          while (workerPool.allClientsLimited()) {
-            if (shouldStopForTimeout()) return;
-            const nextReset = workerPool.getNextResetTime();
-            const waitTime = nextReset - Date.now();
-            if (waitTime > 0) {
-              await sleep(Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitPerCycle));
-            } else {
-              await sleep(1000);
-            }
-          }
+          if (!(await waitForClient(workerPool))) return;
 
           const fileClient = workerPool.getClient();
           try {
@@ -160,12 +152,14 @@ async function fetchGitHubPathWithPool(workerPool, owner, repo, branch, dirPath,
             const content = Buffer.from(fileResponse.data.content, "base64");
             fileContents.push({ path: item.path, content });
           } catch (error) {
-            if (error.status === 403 || error.status === 429) {
+            // Always update rate limit from response headers (404/403/429 all return them)
+            // so we don't keep requesting when quota is exhausted.
+            if (error.response?.headers) {
+              workerPool.updateClientRateLimit(fileClient, error.response);
+            }
+            const status = error.status ?? error.response?.status;
+            if (status === 403 || status === 429) {
               fileClient.core.isLimited = true;
-              if (error.response?.headers?.["x-ratelimit-reset"]) {
-                fileClient.core.resetTime =
-                  parseInt(error.response.headers["x-ratelimit-reset"], 10) * 1000;
-              }
             }
             console.warn(`Warning: Failed to fetch file ${item.path}: ${error.message}`);
           }
@@ -178,12 +172,14 @@ async function fetchGitHubPathWithPool(workerPool, owner, repo, branch, dirPath,
       fileContents.push({ path: dirPath, content });
     }
   } catch (error) {
-    if (error.status === 403 || error.status === 429) {
+    // Always update rate limit from response headers so remaining/quota is accurate
+    // (e.g. 404 "No commit found" still consumes quota; we must track it).
+    if (error.response?.headers) {
+      workerPool.updateClientRateLimit(client, error.response);
+    }
+    const status = error.status ?? error.response?.status;
+    if (status === 403 || status === 429) {
       client.core.isLimited = true;
-      if (error.response?.headers?.["x-ratelimit-reset"]) {
-        client.core.resetTime =
-          parseInt(error.response.headers["x-ratelimit-reset"], 10) * 1000;
-      }
     }
     console.warn(`Warning: Failed to fetch ${dirPath}: ${error.message}`);
   }

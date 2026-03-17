@@ -646,6 +646,14 @@ async function main() {
           `  ✗ Error generating zip for ${skill.name}: ${error.message}`,
         );
         errorCount++;
+        // If we stopped due to execution timeout (e.g. during waitForClient), re-queue
+        // so the next run (resume mode) can retry until all zips are generated.
+        if (executionState.isTimedOut) {
+          crawlerCache.addPendingZip(cacheKey);
+          if (r2Enabled && !crawlerCache.isR2Uploaded(cacheKey, skill.commitHash)) {
+            crawlerCache.addPendingR2Upload(cacheKey);
+          }
+        }
       }
     }
 

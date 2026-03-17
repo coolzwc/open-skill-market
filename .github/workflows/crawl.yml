@@ -191,9 +191,11 @@ jobs:
           fi
 
       # If crawl was incomplete (timeout/rate limit), trigger this workflow again.
+      # Only re-trigger when this run wrote skills.json (has_changes). Resume runs only process
+      # pending zips/R2 and exit without writing; re-triggering on the old incomplete meta would loop.
       # Requires WORKFLOW_DISPATCH_TOKEN (PAT with "workflow" scope); GITHUB_TOKEN cannot trigger new runs.
       - name: Re-trigger workflow if incomplete
-        if: success()
+        if: success() && steps.check_changes.outputs.has_changes == 'true'
         env:
           TOKEN: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
         run: |
