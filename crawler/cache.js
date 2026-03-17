@@ -258,6 +258,15 @@ export class CrawlerCache {
   }
 
   /**
+   * Remove a single key from pending R2 uploads after successful processing
+   * @param {string} key - Skill cache key
+   */
+  removePendingR2Upload(key) {
+    this.pendingR2Uploads.delete(key);
+    this.isDirty = true;
+  }
+
+  /**
    * Get current cache version
    * @returns {number}
    */

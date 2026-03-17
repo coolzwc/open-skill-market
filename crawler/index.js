@@ -114,6 +114,7 @@ async function processPendingItems() {
       const cached = crawlerCache.getSkillExpanded(key);
       if (!cached?.manifest) {
         console.log(`  ⚠ No cached manifest for ${key}, skipping`);
+        crawlerCache.removePendingZip(key);
         continue;
       }
       const skill = cached.manifest;
@@ -121,6 +122,7 @@ async function processPendingItems() {
       const parsed = parseRepoUrl(skill.repository?.url || skill.repo);
       if (!parsed) {
         console.log(`  ⚠ Invalid repo URL for ${key}, skipping`);
+        crawlerCache.removePendingZip(key);
         continue;
       }
       const { owner, repo } = parsed;
@@ -136,6 +138,7 @@ async function processPendingItems() {
         crawlerCache.setZipInfo(key, zipPath);
         console.log(`  ✓ ${skill.name} (already on disk)`);
         zipOnDisk++;
+        crawlerCache.removePendingZip(key);
         continue;
       }
       // Invalid or missing: fall through to generate below
@@ -163,6 +166,7 @@ async function processPendingItems() {
         console.log(`  Generating zip for ${skill.name}...`);
         const { zipPath } = await generateSkillZip(skill, CONFIG.zips.outputDir, workerPool);
         crawlerCache.setZipInfo(key, zipPath);
+        crawlerCache.removePendingZip(key);
         zipGenerated++;
       } catch (error) {
         console.error(`  ✗ ${skill.name}: ${error.message}`);
@@ -170,7 +174,22 @@ async function processPendingItems() {
           crawlerCache.setZipUnreachable(key, skill.commitHash);
           crawlerCache.removePendingZip(key);
         } else {
-          crawlerCache.addPendingZip(key);
+          // For other errors: check if zip file exists on disk
+          // If file doesn't exist or is too small, delete it and remove from pending
+          // Otherwise keep as pending to retry next time
+          const zipFilename = `${owner}-${repo}-${safeZipName(skill.name)}.zip`;
+          const localZipPath = path.join(CONFIG.zips.outputDir, zipFilename);
+          const isValid = await ensureZipValidSize(localZipPath, key, zipFilename, {
+            addPendingZip: false,
+          });
+          if (!isValid) {
+            // Zip missing or too small - remove from pending to avoid infinite loops
+            crawlerCache.removePendingZip(key);
+            console.log(`  → Removed from pending (no valid zip file).`);
+          } else {
+            // Zip exists and is valid - retry next time
+            crawlerCache.addPendingZip(key);
+          }
         }
         zipErrors++;
       }
@@ -225,9 +244,17 @@ async function processPendingItems() {
         const localPath = path.join(CONFIG.zips.outputDir, t.zipFilename);
         const r2Key = buildR2Key(r2Prefix, t.owner, t.repo, t.skillName);
         try {
-          if (!(await ensureZipValidSize(localPath, t.key, t.zipFilename))) continue;
+          if (!(await ensureZipValidSize(localPath, t.key, t.zipFilename))) {
+            // Zip missing or too small - remove from pending to avoid infinite loops
+            crawlerCache.removePendingZip(t.key);
+            crawlerCache.removePendingR2Upload(t.key);
+            console.log(`  ⚠ ${t.zipFilename}: removed from pending (no valid zip file).`);
+            continue;
+          }
           await uploadToR2(localPath, r2Key, r2Bucket);
           crawlerCache.setR2Uploaded(t.key, t.commitHash);
+          crawlerCache.removePendingZip(t.key);
+          crawlerCache.removePendingR2Upload(t.key);
           r2Uploaded++;
           if (CONFIG.zips.deleteLocalAfterR2Upload) {
             try {
@@ -242,6 +269,7 @@ async function processPendingItems() {
           // Zip missing on disk: queue zip regeneration next run instead of retrying upload forever
           if (error.code === "ENOENT") {
             crawlerCache.addPendingZip(t.key);
+            crawlerCache.removePendingR2Upload(t.key);
             console.log(`  → ${t.zipFilename} missing, will regenerate zip next run.`);
           } else {
             crawlerCache.addPendingR2Upload(t.key);
