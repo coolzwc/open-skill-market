@@ -103,13 +103,25 @@ const t = MESSAGES[lang];
     const cat = esc(skill.categories?.[0] || "Other");
     const qualityScore = skill.qualityScore != null ? Math.min(100, Math.max(0, Number(skill.qualityScore))) : null;
     const qualityGrade = qualityScore != null ? (qualityScore >= 80 ? "excellent" : qualityScore >= 60 ? "good" : qualityScore >= 40 ? "average" : "fair") : null;
+    const securityScore = skill.securityScore != null ? Math.min(100, Math.max(0, Number(skill.securityScore))) : null;
+    const securityRisk = securityScore != null ? (securityScore >= 80 ? "low" : securityScore >= 60 ? "medium" : securityScore >= 40 ? "high" : "critical") : null;
+    
     let qualityHtml = "";
     if (qualityGrade) {
       qualityHtml = `<span class="card-quality quality-${qualityGrade}" title="Quality: ${qualityScore}/100">
-        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20M12 2l-3 5h6l-3-5M12 22l-3-5h6l-3 5"/></svg>
         ${qualityScore}
       </span>`;
     }
+    
+    let securityHtml = "";
+    if (securityRisk) {
+      securityHtml = `<span class="card-security security-${securityRisk}" title="Security: ${securityScore}/100">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        ${securityScore}
+      </span>`;
+    }
+    
     return `<a class="card" href="${href}">
       <span class="card-category" data-cat="${cat}">${cat}</span>
       <h3>${esc(skill.name)}</h3>
@@ -120,6 +132,7 @@ const t = MESSAGES[lang];
           <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
           ${stars.toLocaleString()}
         </span>
+        ${securityHtml}
         ${qualityHtml}
       </div>
     </a>`;

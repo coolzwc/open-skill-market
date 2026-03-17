@@ -760,6 +760,8 @@ const altUrl = `${siteUrl}${altPath}`;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 0.5rem;
+    flex-wrap: wrap;
     padding-top: 0.6rem;
     border-top: 1px solid var(--line);
   }
@@ -821,6 +823,43 @@ const altUrl = `${siteUrl}${altPath}`;
   .card-quality.quality-fair {
     background: rgba(239,68,68,0.15);
     color: #f87171;
+  }
+
+  .card-security {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.74rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+
+  .card-security svg {
+    width: 12px;
+    height: 12px;
+    opacity: 0.8;
+  }
+
+  .card-security.security-low {
+    background: rgba(110,231,183,0.15);
+    color: var(--accent);
+  }
+
+  .card-security.security-medium {
+    background: rgba(251,191,36,0.15);
+    color: #fbbf24;
+  }
+
+  .card-security.security-high {
+    background: rgba(239,68,68,0.15);
+    color: #f87171;
+  }
+
+  .card-security.security-critical {
+    background: rgba(251,113,133,0.2);
+    color: var(--rose);
   }
 
   /* ---- Pills ---- */
