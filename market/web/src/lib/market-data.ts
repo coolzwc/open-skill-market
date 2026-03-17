@@ -18,6 +18,11 @@ export type CompactSkill = {
     minAgentVersion?: string;
   };
   files?: string[];
+  securityScore?: number;
+  riskLevel?: string;
+  scanTags?: string[];
+  scannedAt?: string;
+  qualityScore?: number;
 };
 
 export type RepoInfo = {

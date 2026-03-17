@@ -50,6 +50,7 @@
       riskLevel: skill.riskLevel,
       scanTags: skill.scanTags,
       scannedAt: skill.scannedAt,
+      qualityScore: skill.qualityScore,
     };
   }
 
