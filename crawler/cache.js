@@ -296,6 +296,15 @@ export class CrawlerCache {
   }
 
   /**
+   * Remove a skill from cache entirely
+   * @param {string} key - Skill cache key
+   */
+  removeSkill(key) {
+    this.skills.delete(key);
+    this.isDirty = true;
+  }
+
+  /**
    * Set skill with compacted manifest.
    * Merges in existing zip state (zipPath, r2UploadedHash) so re-crawls don't drop it.
    * @param {string} key - Skill cache key

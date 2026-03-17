@@ -171,8 +171,13 @@ async function processPendingItems() {
       } catch (error) {
         console.error(`  ✗ ${skill.name}: ${error.message}`);
         if (isNoFilesFetchedError(error)) {
+          // Zombie skill: no files could be fetched (ref not found, path missing, etc.)
           crawlerCache.setZipUnreachable(key, skill.commitHash);
           crawlerCache.removePendingZip(key);
+          crawlerCache.removePendingR2Upload(key);
+          // Remove from skill cache entirely (treat as dead)
+          crawlerCache.removeSkill(key);
+          console.log(`  → Removed from cache (zombie skill: no files found).`);
         } else {
           // For other errors: check if zip file exists on disk
           // If file doesn't exist or is too small, delete it and remove from pending
@@ -746,7 +751,13 @@ async function main() {
         );
         errorCount++;
         if (isNoFilesFetchedError(error)) {
+          // Zombie skill: no files could be fetched
           crawlerCache.setZipUnreachable(cacheKey, skill.commitHash);
+          crawlerCache.removePendingZip(cacheKey);
+          crawlerCache.removePendingR2Upload(cacheKey);
+          // Remove from skill cache entirely (treat as dead)
+          crawlerCache.removeSkill(cacheKey);
+          console.log(`  → Removed from cache (zombie skill: no files found).`);
         } else if (executionState.isTimedOut || isRetryableZipError(error)) {
           crawlerCache.addPendingZip(cacheKey);
           if (r2Enabled && !crawlerCache.isR2Uploaded(cacheKey, skill.commitHash)) {
@@ -789,9 +800,22 @@ async function main() {
   // Check if any clients ended up rate limited (for incomplete status)
   const anyClientLimited = workerPool.allClientsLimited();
 
+  // Filter out zombie skills that were removed from cache during zip generation
+  const filteredSkills = allSkills.filter((skill) => {
+    const parsed = parseRepoUrl(skill.repository?.url);
+    if (!parsed) return true; // Keep skills without valid repos (shouldn't happen)
+    const cacheKey = `${parsed.owner}/${parsed.repo}/${skill.repository.path}`;
+    return crawlerCache.getSkill(cacheKey) !== undefined; // Keep if still in cache
+  });
+
+  const zombieCount = allSkills.length - filteredSkills.length;
+  if (zombieCount > 0) {
+    console.log(`\nRemoved ${zombieCount} zombie skill(s) from output (no files could be fetched).`);
+  }
+
   // Generate output
-  const priorityCount = allSkills.filter((s) => s.source === "priority").length;
-  const githubCount = allSkills.filter((s) => s.source === "github").length;
+  const priorityCount = filteredSkills.filter((s) => s.source === "priority").length;
+  const githubCount = filteredSkills.filter((s) => s.source === "github").length;
   const elapsedMs = Date.now() - executionState.startTime;
   const elapsedMin = Math.floor(elapsedMs / 60000);
   const elapsedSec = Math.floor((elapsedMs % 60000) / 1000);
@@ -800,7 +824,7 @@ async function main() {
   const output = {
     meta: {
       generatedAt: new Date().toISOString(),
-      totalSkills: allSkills.length,
+      totalSkills: filteredSkills.length,
       localSkills: localSkills.length,
       prioritySkills: priorityCount,
       remoteSkills: githubCount,
@@ -810,7 +834,7 @@ async function main() {
       zipTimedOut,
       executionTimeMs: elapsedMs,
     },
-    skills: allSkills,
+    skills: filteredSkills,
   };
 
   // Summary
@@ -822,7 +846,7 @@ async function main() {
   console.log(`  Priority repo skills:  ${priorityCount}`);
   console.log(`  GitHub search skills:  ${githubCount}`);
   console.log(`  ${"─".repeat(30)}`);
-  console.log(`  Total skills:          ${allSkills.length}`);
+  console.log(`  Total skills:          ${filteredSkills.length}`);
 
   if (isIncomplete || zipTimedOut) {
     console.log("");
