@@ -5,6 +5,16 @@ import crypto from "node:crypto";
 import readline from "node:readline/promises";
 import { stdin as input, stdout as output } from "node:process";
 import AdmZip from "adm-zip";
+import { scanSkillDirectory, scanRemoteSkillExtracted, getRiskLevelDisplay, getQualityGrade } from "./detector-adapter.js";
+import {
+  formatScanTable,
+  formatSecurityPrompt,
+  formatQualityWarning,
+  formatSecurityInfo,
+  formatRemovalPrompt,
+  formatRemovalSuccess,
+  formatScanResultsJson,
+} from "./utils/formatting.js";
 
 const DEFAULT_REGISTRY_URL =
   "https://raw.githubusercontent.com/coolzwc/open-skill-market/main/market/skills.json";
@@ -21,13 +31,24 @@ function printHelp() {
 Usage:
   npx skill-market list [--tool <cursor|claude|codex|copilot|openclaw|gemini>]
   npx skill-market search <keyword>
-  npx skill-market install <skill-id-or-name> [--tool <...>] [--dir <path>] [--check]
-  npx skill-market update <skill-id-or-name|--all> [--tool <...>] [--dir <path>] [--check]
+  npx skill-market install <skill-id-or-name> [--tool <...>] [--dir <path>] [--check] [--force]
+  npx skill-market update <skill-id-or-name|--all> [--tool <...>] [--dir <path>] [--check] [--force]
+  npx skill-market scan [<skill-id-or-name>] [--dir <path>] [--json] [--registry <url>]
+  npx skill-market scan --installed [--tool <tool>] [--dir <path>] [--json]
+  npx skill-market scan --all [--json]
+  npx skill-market remove <skill-id-or-name> [--tool <...>] [--dir <path>] [--yes]
 
 Examples:
   npx skill-market list --tool cursor
   npx skill-market list --tool gemini
+  npx skill-market install vercel-react-best-practices --tool cursor
   npx skill-market install <skill> --tool openclaw
+  npx skill-market install react --tool cursor --yes
+  npx skill-market update --all --tool cursor
+  npx skill-market scan brainstorming --json
+  npx skill-market scan --installed --tool cursor
+  npx skill-market scan --all --json
+  npx skill-market remove brainstorming --tool cursor --yes
 
 Flags:
   --registry <url>  Override registry URL
@@ -35,8 +56,11 @@ Flags:
   --dir <path>      Override install base directory
   --limit <n>       Limit number of rows for list/search
   --check           Check status only, no write
+  --force           Skip security prompts (install/update)
   --json            Output JSON results
   --yes             Auto-select first candidate on ambiguous matches
+  --all             Process all items (scan all / update all installed)
+  --installed       For scan: check already-installed skills
   --help            Show help
 `);
 }
@@ -533,7 +557,7 @@ async function resolveStatus(localSkillDir, skill, remoteExtractedDir) {
   };
 }
 
-async function installOrUpdate({ skill, tool, baseDir, checkOnly, jsonMode }) {
+async function installOrUpdate({ skill, tool, baseDir, checkOnly, jsonMode }, args = {}) {
   await fs.mkdir(baseDir, { recursive: true });
   if (!skillSupportsTool(skill, tool)) {
     console.warn(`[warn] ${skill.name} may not support tool "${tool}"`);
@@ -569,6 +593,52 @@ async function installOrUpdate({ skill, tool, baseDir, checkOnly, jsonMode }) {
       skill,
       tmpBase,
     );
+
+    // Security & Quality Check (NEW)
+    let scanResult = null;
+    const force = Boolean(args.force);
+    if (!checkOnly || true) { // Always scan, even for check-only
+      try {
+        scanResult = await scanSkillDirectory(extractedSkillDir, { detailed: true });
+        
+        if (!jsonMode) {
+          // Decide whether to proceed based on risk level
+          const shouldPrompt = force ? false : needsUserConfirmation(scanResult);
+          
+          if (shouldPrompt && process.stdout.isTTY && process.stdin.isTTY) {
+            // Interactive mode: ask user
+            const prompt = formatSecurityPrompt(scanResult, skill.name);
+            console.log(prompt);
+            
+            const rl = readline.createInterface({ input, output });
+            try {
+              const answer = await rl.question("");
+              if (!answer.toLowerCase().startsWith("y")) {
+                throw new Error(`Installation cancelled by user due to security concerns.`);
+              }
+            } finally {
+              rl.close();
+            }
+          } else if (shouldPrompt && !force) {
+            // Non-TTY mode without --force: abort
+            throw new Error(
+              `Security check failed (${scanResult.riskLevel} risk, quality: ${scanResult.qualityScore}/100). Use --force to override.`
+            );
+          } else if (!shouldPrompt) {
+            // Safe to install: show info
+            console.log(formatSecurityInfo(scanResult, skill.name));
+          }
+        }
+      } catch (err) {
+        if (!force) {
+          throw err;
+        }
+        if (!jsonMode) {
+          console.warn(`[warn] Security check skipped due to --force: ${err.message}`);
+        }
+      }
+    }
+
     const status = await resolveStatus(localSkillDir, skill, extractedSkillDir);
     if (!jsonMode) {
       console.log(`[${skill.name}] ${status.message}`);
@@ -583,6 +653,7 @@ async function installOrUpdate({ skill, tool, baseDir, checkOnly, jsonMode }) {
         status: status.code,
         message: status.message,
         checkOnly: true,
+        scanResult, // Include scan result if available
       };
     }
     if (status.code === "up-to-date") {
@@ -594,6 +665,7 @@ async function installOrUpdate({ skill, tool, baseDir, checkOnly, jsonMode }) {
         status: status.code,
         message: status.message,
         checkOnly: false,
+        scanResult,
       };
     }
     if (status.code === "up-to-date-legacy") {
@@ -613,6 +685,7 @@ async function installOrUpdate({ skill, tool, baseDir, checkOnly, jsonMode }) {
         message: status.message,
         checkOnly: false,
         metadataMigrated: true,
+        scanResult,
       };
     }
 
@@ -631,10 +704,22 @@ async function installOrUpdate({ skill, tool, baseDir, checkOnly, jsonMode }) {
       message: `Installed to ${localSkillDir}`,
       checkOnly: false,
       sourceUrl,
+      scanResult,
     };
   } finally {
     await fs.rm(tmpBase, { recursive: true, force: true });
   }
+}
+
+/**
+ * Determine if scan result needs user confirmation before install
+ * @private
+ */
+function needsUserConfirmation(scanResult) {
+  // Need confirmation if: High/Critical risk OR low quality
+  if (["high", "critical"].includes(scanResult.riskLevel)) return true;
+  if ((scanResult.qualityScore ?? 100) < 60) return true;
+  return false;
 }
 
 function selectSkillsForList(allSkills, repositories, tool) {
@@ -764,7 +849,7 @@ async function runInstall(registry, args, mode = "install") {
         baseDir,
         checkOnly: Boolean(args.check),
         jsonMode,
-      });
+      }, args);
       results.push(result);
     }
     if (jsonMode) {
@@ -800,7 +885,7 @@ async function runInstall(registry, args, mode = "install") {
     baseDir,
     checkOnly: Boolean(args.check),
     jsonMode,
-  });
+  }, args);
   printAsJson(
     {
       command: mode,
@@ -811,6 +896,211 @@ async function runInstall(registry, args, mode = "install") {
     },
     jsonMode,
   );
+}
+
+async function runScan(registry, args) {
+  const jsonMode = Boolean(args.json);
+  const selector = args._[1] || "";
+
+  // Mode 1: scan --installed (already installed skills)
+  if (args.installed) {
+    const tool = normalizeTool(args.tool || "cursor");
+    if (!tool) throw new Error(`Unsupported tool: ${args.tool}`);
+    const baseDir = args.dir ? path.resolve(args.dir) : defaultInstallBase(tool);
+
+    const expanded = registry.allSkills.map((item) =>
+      expandSkill(item, registry.repositories),
+    );
+    const installedSkills = await findInstalledSkills(baseDir, expanded);
+
+    if (installedSkills.length === 0) {
+      if (!jsonMode) console.log("No installed skills found.");
+      return;
+    }
+
+    const results = [];
+    for (const skill of installedSkills) {
+      const localSkillDir = path.join(baseDir, skill.name);
+      try {
+        const scanResult = await scanSkillDirectory(localSkillDir, { detailed: true });
+        results.push({
+          name: skill.name,
+          id: skill.id,
+          ...scanResult,
+        });
+      } catch (err) {
+        if (!jsonMode) console.warn(`[${skill.name}] Scan failed: ${err.message}`);
+      }
+    }
+
+    if (jsonMode) {
+      printAsJson(formatScanResultsJson(results), true);
+    } else {
+      console.log(formatScanTable(results));
+      console.log(`\nScanned ${results.length} skill(s).`);
+    }
+    return;
+  }
+
+  // Mode 2: scan --all (all registry skills)
+  if (args.all) {
+    if (!jsonMode) console.log("Scanning all registry skills...");
+
+    const results = [];
+    const tmpBase = await fs.mkdtemp(path.join(os.tmpdir(), "skill-market-scan-"));
+
+    try {
+      for (const skill of registry.allSkills.map((item) =>
+        expandSkill(item, registry.repositories),
+      )) {
+        try {
+          const { sourceUrl, extractedSkillDir } = await extractRemoteSkill(
+            skill,
+            tmpBase,
+          );
+          const scanResult = await scanSkillDirectory(extractedSkillDir, { detailed: false });
+          results.push({
+            name: skill.name,
+            id: skill.id,
+            ...scanResult,
+          });
+          await fs.rm(extractedSkillDir, { recursive: true, force: true });
+        } catch (err) {
+          if (!jsonMode) console.warn(`[${skill.name}] Scan failed: ${err.message}`);
+        }
+      }
+    } finally {
+      await fs.rm(tmpBase, { recursive: true, force: true });
+    }
+
+    if (jsonMode) {
+      printAsJson(formatScanResultsJson(results), true);
+    } else {
+      console.log(formatScanTable(results));
+      console.log(`\nScanned ${results.length} skill(s).`);
+    }
+    return;
+  }
+
+  // Mode 3: scan <skill> (single skill from registry)
+  if (!selector) {
+    throw new Error("Usage: scan [<skill-id-or-name>] or --installed or --all");
+  }
+
+  const expanded = registry.allSkills.map((item) =>
+    expandSkill(item, registry.repositories),
+  );
+  const match = getSkillMatches(expanded, selector);
+  let skill = match.selected;
+  if (!skill && match.matches.length > 1) {
+    if (args.yes) {
+      skill = match.matches[0];
+    } else {
+      skill = await chooseSkillInteractively(selector, match.matches, jsonMode);
+    }
+  }
+  if (!skill) throw new Error(`Skill not found: ${selector}`);
+
+  const tmpBase = await fs.mkdtemp(path.join(os.tmpdir(), "skill-market-scan-"));
+  try {
+    const { sourceUrl, extractedSkillDir } = await extractRemoteSkill(skill, tmpBase);
+    const scanResult = await scanSkillDirectory(extractedSkillDir, { detailed: true });
+
+    const result = {
+      name: skill.name,
+      id: skill.id,
+      ...scanResult,
+    };
+
+    if (jsonMode) {
+      printAsJson(result, true);
+    } else {
+      console.log(`\nScan Results for "${skill.name}"`);
+      console.log("═══════════════════════════════════════");
+      console.log(`Security Score: ${result.securityScore}/100 (${getRiskLevelDisplay(result.riskLevel)})`);
+      console.log(`Quality Score:  ${result.qualityScore}/100 (${getQualityGrade(result.qualityScore)})`);
+      console.log(`Risk Level:     ${result.riskLevel}`);
+      console.log(`Tags:           ${result.scanTags.join(", ")}`);
+      if (result.detectedRisks && result.detectedRisks.length > 0) {
+        console.log(`\nDetected Risks:`);
+        for (const risk of result.detectedRisks) {
+          console.log(`  • ${risk.tag} [${risk.riskLevel}]`);
+        }
+      }
+    }
+  } finally {
+    await fs.rm(tmpBase, { recursive: true, force: true });
+  }
+}
+
+async function runRemove(registry, args) {
+  const jsonMode = Boolean(args.json);
+  const selector = args._[1];
+  if (!selector) {
+    throw new Error("Usage: remove <skill-id-or-name>");
+  }
+
+  const tool = normalizeTool(args.tool || "cursor");
+  if (!tool) throw new Error(`Unsupported tool: ${args.tool}`);
+  const baseDir = args.dir ? path.resolve(args.dir) : defaultInstallBase(tool);
+
+  const expanded = registry.allSkills.map((item) =>
+    expandSkill(item, registry.repositories),
+  );
+  const match = getSkillMatches(expanded, selector);
+  let skill = match.selected;
+  if (!skill && match.matches.length > 1) {
+    if (args.yes) {
+      skill = match.matches[0];
+    } else {
+      skill = await chooseSkillInteractively(selector, match.matches, jsonMode);
+    }
+  }
+  if (!skill) throw new Error(`Skill not found: ${selector}`);
+
+  const localSkillDir = path.join(baseDir, skill.name);
+
+  // Check if it exists
+  let exists = false;
+  try {
+    await fs.access(localSkillDir);
+    exists = true;
+  } catch {
+    // Directory doesn't exist
+  }
+
+  if (!exists) {
+    if (!jsonMode) {
+      console.log(`Skill "${skill.name}" is not installed at ${localSkillDir}`);
+    }
+    return;
+  }
+
+  // Ask for confirmation if not TTY or --yes
+  if (!args.yes && process.stdout.isTTY && process.stdin.isTTY) {
+    const prompt = formatRemovalPrompt(skill.name, localSkillDir);
+    console.log(prompt);
+
+    const rl = readline.createInterface({ input, output });
+    try {
+      const answer = await rl.question("");
+      if (!answer.toLowerCase().startsWith("y")) {
+        if (!jsonMode) console.log("Removal cancelled.");
+        return;
+      }
+    } finally {
+      rl.close();
+    }
+  }
+
+  // Remove the directory
+  await fs.rm(localSkillDir, { recursive: true, force: true });
+
+  if (!jsonMode) {
+    console.log(formatRemovalSuccess(skill.name));
+  } else {
+    printAsJson({ command: "remove", skillId: skill.id, skillName: skill.name, status: "removed" }, true);
+  }
 }
 
 export async function run(argv) {
@@ -839,6 +1129,14 @@ export async function run(argv) {
   }
   if (command === "update") {
     await runInstall(registry, args, "update");
+    return;
+  }
+  if (command === "scan") {
+    await runScan(registry, args);
+    return;
+  }
+  if (command === "remove") {
+    await runRemove(registry, args);
     return;
   }
 

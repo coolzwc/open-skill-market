@@ -55,18 +55,37 @@ const PATTERNS = [
 
 /**
  * Run rules on skill markdown (and optionally other file contents).
+ * Supports detailed risk tracking for CLI display.
  * @param {string} skillMd - SKILL.md content
  * @param {Map<string, Buffer>} [files] - Optional other files (key = path)
- * @returns {{ scanTags: string[], riskLevel: string, securityScore: number, qualityScore: number }}
+ * @param {Object} [options] - Options object
+ * @param {boolean} [options.detailLevel='basic'] - 'basic' (default) or 'detailed' (includes per-file risks)
+ * @returns {{ scanTags: string[], riskLevel: string, securityScore: number, qualityScore: number, detectedRisks?: Object[] }}
  */
-export function runRules(skillMd, files = new Map()) {
+export function runRules(skillMd, files = new Map(), options = {}) {
+  const { detailLevel = 'basic' } = options;
   const text = typeof skillMd === "string" ? skillMd : "";
   let content = text.slice(0, SKILL_MD_MAX_LENGTH);
+  
+  // Track per-file risks when detail level is set to 'detailed'
+  const fileRisks = new Map(); // fileName -> { tags: Set, risks: Object[] }
+
   if (files.size > 0) {
-    for (const [, buf] of files) {
-      if (content.length >= SKILL_MD_MAX_LENGTH) break;
+    for (const [filePath, buf] of files) {
+      if (content.length >= SKILL_MD_MAX_LENGTH && detailLevel !== 'detailed') break;
       try {
-        content += "\n" + buf.toString("utf-8").slice(0, 50000);
+        const fileContent = buf.toString("utf-8");
+        const fileSlice = fileContent.slice(0, 50000);
+        content += "\n" + fileSlice;
+        
+        // Track per-file risks if detail level is detailed
+        if (detailLevel === 'detailed') {
+          if (!fileRisks.has(filePath)) {
+            fileRisks.set(filePath, { tags: new Set(), risks: [] });
+          }
+          const fileData = fileRisks.get(filePath);
+          analyzeContentForRisks(fileSlice, filePath, fileData);
+        }
       } catch {
         // skip binary
       }
@@ -76,6 +95,7 @@ export function runRules(skillMd, files = new Map()) {
   const scanTags = new Set();
   let totalPenalty = 0;
   let maxRiskRank = 0; // 0 low, 1 medium, 2 high, 3 critical
+  const detectedRisks = [];
 
   const levelRank = { low: 0, medium: 1, high: 2, critical: 3 };
 
@@ -86,6 +106,11 @@ export function runRules(skillMd, files = new Map()) {
       totalPenalty += scorePenalty;
       const rank = levelRank[riskLevel] ?? 0;
       if (rank > maxRiskRank) maxRiskRank = rank;
+      
+      // Collect risk details if detailed mode
+      if (detailLevel === 'detailed') {
+        detectedRisks.push({ tag, riskLevel, scorePenalty });
+      }
     }
   }
 
@@ -100,12 +125,50 @@ export function runRules(skillMd, files = new Map()) {
 
   const qualityScore = computeQualityScore(text, files);
 
-  return {
+  const result = {
     scanTags: Array.from(scanTags),
     riskLevel,
     securityScore,
     qualityScore,
   };
+  
+  // Add detailed risks if requested
+  if (detailLevel === 'detailed' && detectedRisks.length > 0) {
+    result.detectedRisks = detectedRisks;
+  }
+
+  return result;
+}
+
+/**
+ * Analyze file content for risks and track them per-file
+ * @private
+ */
+function analyzeContentForRisks(fileContent, filePath, fileData) {
+  for (const { tag, riskLevel, regex } of PATTERNS) {
+    regex.lastIndex = 0;
+    const matches = [];
+    let match;
+    while ((match = regex.exec(fileContent)) !== null) {
+      matches.push({
+        tag,
+        riskLevel,
+        match: match[0],
+        index: match.index,
+      });
+    }
+    if (matches.length > 0) {
+      fileData.tags.add(tag);
+      for (const m of matches) {
+        fileData.risks.push({
+          file: filePath,
+          tag: m.tag,
+          riskLevel: m.riskLevel,
+          match: m.match,
+        });
+      }
+    }
+  }
 }
 
 // ---------------------------------------------------------------------------
