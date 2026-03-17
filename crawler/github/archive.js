@@ -55,33 +55,70 @@ export async function downloadRepoArchiveWithSizeLimit(
       }
       return { buffer: body, exceededLimit: false };
     }
-    // Stream: collect chunks and abort if over limit
-    const chunks = [];
-    let totalLength = 0;
-    let overflow = false;
-    const stream = body;
-    const onData = (chunk) => {
-      if (overflow) return;
-      totalLength += chunk.length;
-      if (totalLength > maxBytes) {
-        overflow = true;
-        if (typeof stream.destroy === "function") stream.destroy();
-      } else {
-        chunks.push(chunk);
-      }
-    };
-    await new Promise((resolve, reject) => {
-      stream.on("data", onData);
-      stream.on("end", () => resolve());
-      stream.on("error", reject);
-    });
 
-    if (overflow || totalLength > maxBytes) {
-      return { exceededLimit: true };
+    // Web ReadableStream (fetch/Octokit v5): use getReader()
+    if (typeof body.getReader === "function") {
+      const chunks = [];
+      let totalLength = 0;
+      const reader = body.getReader();
+      try {
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          const chunk = Buffer.from(value);
+          totalLength += chunk.length;
+          if (totalLength > maxBytes) {
+            reader.cancel().catch(() => {});
+            return { exceededLimit: true };
+          }
+          chunks.push(chunk);
+        }
+        return {
+          buffer: Buffer.concat(chunks),
+          exceededLimit: false,
+        };
+      } catch (streamErr) {
+        return {
+          exceededLimit: false,
+          error: streamErr.message || String(streamErr),
+        };
+      }
     }
+
+    // Node.js stream (has .on): collect chunks and abort if over limit
+    if (typeof body.on === "function") {
+      const chunks = [];
+      let totalLength = 0;
+      let overflow = false;
+      const stream = body;
+      const onData = (chunk) => {
+        if (overflow) return;
+        totalLength += chunk.length;
+        if (totalLength > maxBytes) {
+          overflow = true;
+          if (typeof stream.destroy === "function") stream.destroy();
+        } else {
+          chunks.push(chunk);
+        }
+      };
+      await new Promise((resolve, reject) => {
+        stream.on("data", onData);
+        stream.on("end", () => resolve());
+        stream.on("error", reject);
+      });
+
+      if (overflow || totalLength > maxBytes) {
+        return { exceededLimit: true };
+      }
+      return {
+        buffer: Buffer.concat(chunks),
+        exceededLimit: false,
+      };
+    }
+
     return {
-      buffer: Buffer.concat(chunks),
       exceededLimit: false,
+      error: "Unsupported response body type (expected Buffer, ReadableStream, or Node stream)",
     };
   } catch (error) {
     if (error.status === 403 || error.status === 429) {
