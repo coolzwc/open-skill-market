@@ -83,6 +83,7 @@ jobs:
             skill-zips-
 
       - name: Run crawler
+        id: run_crawler
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
           EXTRA_TOKEN_1: ${{ secrets.EXTRA_TOKEN_1 }}
@@ -116,7 +117,7 @@ jobs:
           Automated update from crawler run at $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
           git push
 
-      # When crawl fully complete (same condition as re-trigger: all false → complete), trigger deploy-web.
+      # When crawl fully complete (same condition as re-trigger: all false → complete), trigger skill-scan.
       - name: Check if crawl complete
         id: crawl_complete
         if: success()
@@ -146,9 +147,14 @@ jobs:
           echo "Skill Scan triggered (deploy-web runs after scan completes)."
 
       - name: Summary
+        if: always()
         run: |
           echo "## Crawl Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.run_crawler.outcome }}" != "success" ]; then
+            echo "> **Crawl step failed** (timeout or error). Re-trigger may have been queued." >> $GITHUB_STEP_SUMMARY
+            exit 0
+          fi
           TOTAL=$(jq '.meta.totalSkills' market/skills.json)
           LOCAL=$(jq '.meta.localSkills' market/skills.json)
           PRIORITY=$(jq '.meta.prioritySkills // 0' market/skills.json)
@@ -190,16 +196,22 @@ jobs:
             echo "**Status**: No changes detected" >> $GITHUB_STEP_SUMMARY
           fi
 
-      # If crawl was incomplete (timeout/rate limit), trigger this workflow again.
-      # Only re-trigger when this run wrote skills.json (has_changes). Resume runs only process
-      # pending zips/R2 and exit without writing; re-triggering on the old incomplete meta would loop.
+      # If crawl was incomplete (timeout/rate limit) or crawl step failed (e.g. job timeout), trigger again.
+      # Run when: crawl step failed (no write, retry) OR crawl succeeded with has_changes (meta may be incomplete).
+      # When crawl fails we don't rely on meta; we re-trigger so the next run can resume.
       # Requires WORKFLOW_DISPATCH_TOKEN (PAT with "workflow" scope); GITHUB_TOKEN cannot trigger new runs.
       - name: Re-trigger workflow if incomplete
-        if: success() && steps.check_changes.outputs.has_changes == 'true'
+        if: always() && (steps.run_crawler.outcome != 'success' || steps.check_changes.outputs.has_changes == 'true')
         env:
           TOKEN: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
         run: |
-          INCOMPLETE=$(jq -r 'if .meta.rateLimited == true or .meta.timedOut == true or .meta.zipTimedOut == true then "yes" else "no" end' market/skills.json 2>/dev/null || echo "no")
+          CRAWL_FAILED="${{ steps.run_crawler.outcome != 'success' }}"
+          if [ "$CRAWL_FAILED" = "true" ]; then
+            echo "Crawl step failed (e.g. timeout), will re-trigger so next run can resume."
+            INCOMPLETE=yes
+          else
+            INCOMPLETE=$(jq -r 'if .meta.rateLimited == true or .meta.timedOut == true or .meta.zipTimedOut == true then "yes" else "no" end' market/skills.json 2>/dev/null || echo "yes")
+          fi
           if [ "$INCOMPLETE" != "yes" ]; then
             echo "Crawl complete, no re-trigger."
             exit 0
@@ -209,7 +221,7 @@ jobs:
             echo "Set a PAT with workflow scope to enable auto re-run until complete."
             exit 0
           fi
-          echo "Crawl incomplete (rate limit/timeout), triggering workflow again..."
+          echo "Crawl incomplete (rate limit/timeout or step failed), triggering workflow again..."
           curl -sS -X POST \
             -H "Authorization: token $TOKEN" \
             -H "Accept: application/vnd.github.v3+json" \

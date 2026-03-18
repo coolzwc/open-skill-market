@@ -109,9 +109,8 @@ function updateBucketFromHeaders(bucket, headers, label, type) {
     bucket.resetTime = parseInt(headers["x-ratelimit-reset"], 10) * 1000;
   }
 
-  // Dynamic threshold based on limit (10 for core, 1 for search)
-  const threshold = bucket.limit <= 30 ? 1 : 10;
-  if (bucket.remaining <= threshold && !bucket.isLimited) {
+  // Only mark limited when remaining is 0 (no quota left); avoid waiting while we still have requests
+  if (bucket.remaining <= 0 && !bucket.isLimited) {
     bucket.isLimited = true;
     const resetIn = bucket.resetTime
       ? Math.ceil((bucket.resetTime - Date.now()) / 1000)

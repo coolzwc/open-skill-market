@@ -78,6 +78,8 @@ export const CONFIG = {
     maxWaitPerCycle: 30000, // Max wait time per rate limit cycle
     maxWaitForReset: 60000, // Max wait for rate limit reset
     codeSearchMaxWaitMs: 90000, // Cap total wait for Code Search in global discovery (avoid blocking)
+    // Max Code Search pages per repo (1 page = 100 results). Prevents one repo from burning quota (e.g. 9 pages = 9 calls).
+    codeSearchMaxPagesPerRepo: parseInt(process.env.CODE_SEARCH_MAX_PAGES_PER_REPO || "1", 10),
   },
 
   // File limits

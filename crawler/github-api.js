@@ -830,57 +830,68 @@ export async function findSkillFilesInRepoWithPool(
 }
 
 /**
+ * Result of Code Search for one repo: paths and status for queue/retry handling.
+ * @typedef {{ paths: string[]|null, status: 'ok'|'rateLimited'|'notFound' }} CodeSearchResult
+ */
+
+/**
  * Find SKILL.md files using GitHub Code Search API (search.code).
  * Uses Search API quota (10 req/min) — shared with search.repos.
  *
  * Each client has its own quota; round-robin switches clients on limit.
- * Returns null only when ALL clients are search-limited (caller should fallback).
+ * Returns status so caller can re-queue on rate limit or remove on 404.
  *
  * @param {WorkerPool} workerPool
  * @param {string} owner
  * @param {string} repo
- * @returns {Promise<string[]|null>} Array of file paths, or null if all clients limited
+ * @returns {Promise<CodeSearchResult>} { paths, status: 'ok'|'rateLimited'|'notFound' }
  */
 export async function findSkillFilesWithCodeSearch(workerPool, owner, repo) {
   // Use CodeSearch bucket (separate from Search bucket for repos)
   const client = workerPool.getCodeSearchClient();
   if (!client || client.codeSearch.isLimited) {
-    return null; // All clients code-search-limited → caller should fallback
+    return { paths: null, status: "rateLimited" };
   }
 
   const query = `filename:${CONFIG.skillFilename} repo:${owner}/${repo}`;
+  const maxPages = Math.max(1, CONFIG.rateLimit?.codeSearchMaxPagesPerRepo ?? 1);
+  const allItems = [];
 
   try {
-    const items = await client.octokit.paginate(
-      client.octokit.rest.search.code,
-      {
+    for (let page = 1; page <= maxPages; page++) {
+      const response = await client.octokit.rest.search.code({
         q: query,
         per_page: 100,
-      },
-      (response) => {
-        workerPool.updateCodeSearchRateLimit(client, response);
-        return response.data;
-      },
-    );
+        page,
+      });
+      workerPool.updateCodeSearchRateLimit(client, response);
+      const items = response.data.items || [];
+      for (const item of items) allItems.push(item);
+      if (items.length < 100) break;
+    }
 
-    const paths = items.map((item) => item.path);
+    const paths = allItems.map((item) => item.path);
     console.log(
       `  Code Search (${client.label}) found ${paths.length} SKILL.md file(s) in ${owner}/${repo}`,
     );
-    return paths;
+    return { paths, status: "ok" };
   } catch (error) {
+    if (error.status === 404) {
+      console.log(`  Code Search: ${owner}/${repo} not found (404), removing from queue`);
+      return { paths: [], status: "notFound" };
+    }
     if (isCodeSearchRateLimitError(error)) {
       const resetTime = getCodeSearchResetTimeFromError(error.response?.headers);
       client.codeSearch.isLimited = true;
       client.codeSearch.resetTime = resetTime;
       const resetIn = Math.max(0, Math.ceil((resetTime - Date.now()) / 1000));
       console.log(
-        `  Code Search quota exhausted for ${owner}/${repo}, retry after ${resetIn}s or use recursive scan`,
+        `  Code Search quota exhausted for ${owner}/${repo}, will re-queue and retry after ${resetIn}s`,
       );
-      return null;
+      return { paths: null, status: "rateLimited" };
     }
     console.warn(`  Code Search error for ${owner}/${repo}: ${error.message}`);
-    return [];
+    return { paths: [], status: "notFound" };
   }
 }
 
@@ -898,25 +909,31 @@ export async function findSkillFilesWithCodeSearch(workerPool, owner, repo) {
  * @returns {Promise<string[]>}
  */
 export async function findSkillFilesInRepoSmart(workerPool, owner, repo) {
-  const codeSearchResult = await findSkillFilesWithCodeSearch(
+  const result = await findSkillFilesWithCodeSearch(
     workerPool,
     owner,
     repo,
   );
 
-  if (codeSearchResult !== null) {
-    return codeSearchResult;
+  if (result.status === "ok") {
+    return result.paths ?? [];
+  }
+  if (result.status === "notFound") {
+    return result.paths ?? [];
   }
 
-  // Client got limited — another client might be available
+  // rateLimited — another client might be available
   if (!workerPool.allCodeSearchClientsLimited()) {
     const retryResult = await findSkillFilesWithCodeSearch(
       workerPool,
       owner,
       repo,
     );
-    if (retryResult !== null) {
-      return retryResult;
+    if (retryResult.status === "ok") {
+      return retryResult.paths ?? [];
+    }
+    if (retryResult.status === "notFound") {
+      return retryResult.paths ?? [];
     }
   }
 
@@ -1328,57 +1345,120 @@ export async function fetchReposDetailsBatch(workerPool, reposMap) {
 
 /**
  * Phase 1: Use Code Search only to collect SKILL.md paths for each repo.
- * No Core API calls — when Core is exhausted we can still run this phase.
+ * Rate-limited repos are re-queued and retried after reset; 404/not-found are removed from queue.
  * @param {WorkerPool} workerPool
  * @param {Array<{repoFullName: string, repo: Object}>} reposToProcess
- * @returns {Promise<Map<string, string[]>>} Map repoFullName → paths (empty if Code Search failed)
+ * @returns {Promise<{ pathMap: Map<string, string[]>, notFoundRepos: Set<string> }>}
  */
 export async function collectSkillPathsWithCodeSearch(
   workerPool,
   reposToProcess,
 ) {
-  if (!reposToProcess || reposToProcess.length === 0) return new Map();
+  const pathMap = new Map();
+  const notFoundRepos = new Set();
 
-  console.log(
-    `  Phase 1 (Code Search): collecting SKILL.md paths for ${reposToProcess.length} repos...`,
-  );
+  if (!reposToProcess || reposToProcess.length === 0) {
+    return { pathMap, notFoundRepos };
+  }
 
-  const tasks = reposToProcess.map(({ repoFullName }) => async () => {
-    if (shouldStopForTimeout()) return null;
-    const [owner, repoName] = repoFullName.split("/");
-    if (!owner || !repoName) return null;
+  const maxRetryRounds = 2;
+  let currentRepos = reposToProcess.map((r) => r.repoFullName);
+  let round = 0;
 
-    while (workerPool.allCodeSearchClientsLimited()) {
-      if (shouldStopForTimeout()) return null;
-      const nextReset = workerPool.getNextCodeSearchResetTime();
-      const waitTime = nextReset - Date.now();
-      if (waitTime > 0) {
-        await sleep(
-          Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitForReset),
-        );
-      } else {
-        await sleep(CONFIG.rateLimit.waitOnLimitedFallback);
+  for (; round <= maxRetryRounds && currentRepos.length > 0; round++) {
+    if (shouldStopForTimeout()) break;
+
+    if (round > 0) {
+      // Re-queue: wait for Code Search reset before retrying rate-limited repos
+      while (workerPool.allCodeSearchClientsLimited()) {
+        if (shouldStopForTimeout()) break;
+        const nextReset = workerPool.getNextCodeSearchResetTime();
+        const waitTime = nextReset - Date.now();
+        if (waitTime > 0) {
+          if (waitTime > 10000) {
+            logRateLimitWait(Math.ceil(waitTime / 1000));
+          }
+          await sleep(
+            Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitForReset),
+          );
+        } else {
+          await sleep(CONFIG.rateLimit.waitOnLimitedFallback);
+        }
       }
+      console.log(
+        `  Code Search retry round ${round}: re-queued ${currentRepos.length} repo(s) after rate limit reset`,
+      );
+    } else {
+      console.log(
+        `  Phase 1 (Code Search): collecting SKILL.md paths for ${currentRepos.length} repos...`,
+      );
     }
 
-    const paths = await findSkillFilesWithCodeSearch(
-      workerPool,
-      owner,
-      repoName,
-    );
-    return { repoFullName, paths: paths !== null ? paths : [] };
-  });
+    const tasks = currentRepos.map((repoFullName) => async () => {
+      if (shouldStopForTimeout()) return null;
+      const [owner, repoName] = repoFullName.split("/");
+      if (!owner || !repoName) return null;
 
-  const results = await workerPool.addTasks(tasks);
-  const pathMap = new Map();
-  for (const r of results) {
-    if (r?.repoFullName != null) pathMap.set(r.repoFullName, r.paths);
+      while (workerPool.allCodeSearchClientsLimited()) {
+        if (shouldStopForTimeout()) return null;
+        const nextReset = workerPool.getNextCodeSearchResetTime();
+        const waitTime = nextReset - Date.now();
+        if (waitTime > 0) {
+          await sleep(
+            Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitForReset),
+          );
+        } else {
+          await sleep(CONFIG.rateLimit.waitOnLimitedFallback);
+        }
+      }
+
+      const result = await findSkillFilesWithCodeSearch(
+        workerPool,
+        owner,
+        repoName,
+      );
+      return {
+        repoFullName,
+        paths: result.paths ?? [],
+        status: result.status,
+      };
+    });
+
+    const results = await workerPool.addTasks(tasks);
+    const nextRetryList = [];
+
+    for (const r of results) {
+      if (r?.repoFullName == null) continue;
+      if (r.status === "notFound") {
+        notFoundRepos.add(r.repoFullName);
+        pathMap.set(r.repoFullName, []); // so caller can skip if desired
+        continue;
+      }
+      if (r.status === "rateLimited") {
+        nextRetryList.push(r.repoFullName);
+        continue;
+      }
+      // ok
+      pathMap.set(r.repoFullName, r.paths ?? []);
+    }
+
+    currentRepos = nextRetryList;
   }
+
+  if (currentRepos.length > 0) {
+    console.log(
+      `  Code Search: ${currentRepos.length} repo(s) still rate-limited after ${maxRetryRounds} retry round(s), will use recursive fallback when processed`,
+    );
+    for (const repoFullName of currentRepos) {
+      pathMap.set(repoFullName, []); // process with empty paths → recursive in processRepoWithCache
+    }
+  }
+
   const withPaths = [...pathMap.values()].filter((p) => p.length > 0).length;
   console.log(
-    `  Code Search done: ${withPaths}/${reposToProcess.length} repos have SKILL.md paths`,
+    `  Code Search done: ${withPaths}/${pathMap.size} repos have paths; ${notFoundRepos.size} not found (removed from queue)`,
   );
-  return pathMap;
+  return { pathMap, notFoundRepos };
 }
 
 /**

@@ -344,6 +344,11 @@ async function main() {
   // Show total capacity
   const totalRemaining = workerPool.getTotalRemaining();
   console.log(`\nTotal remaining capacity: ${totalRemaining.core} (Core), ${totalRemaining.search} (Search), ${totalRemaining.codeSearch} (CodeSearch)`);
+  if (totalRemaining.core < 100) {
+    console.warn(
+      `Warning: Core API remaining is low (${totalRemaining.core}). Phase 2+ may wait for reset. Consider running after quota resets (e.g. on the hour).`,
+    );
+  }
   console.log(`Parallel concurrency: ${CONFIG.parallel.concurrency}`);
   console.log("");
 
@@ -441,22 +446,30 @@ async function main() {
 
         console.log(`Repositories to scan: ${reposToProcess.length}`);
 
-        // Phase 1: Code Search only — collect SKILL.md paths (no Core API)
-        const skillPathsMap = await collectSkillPathsWithCodeSearch(
-          workerPool,
-          reposToProcess,
+        // Phase 1: Code Search only — collect SKILL.md paths (no Core API); rate-limited repos re-queued, 404 removed
+        const { pathMap: skillPathsMap, notFoundRepos } =
+          await collectSkillPathsWithCodeSearch(workerPool, reposToProcess);
+        const reposToProcessFiltered = reposToProcess.filter(
+          (r) => !notFoundRepos.has(r.repoFullName),
         );
+        if (notFoundRepos.size > 0) {
+          console.log(
+            `  Skipping ${notFoundRepos.size} repo(s) not found / removed from queue`,
+          );
+        }
 
         // Phase 2: Core API — get commit, cache check, fetch SKILL.md content for dedup
         const results = await processReposInParallel(
           workerPool,
-          reposToProcess,
+          reposToProcessFiltered,
           "github",
           { fetchRepoDetails: false, skillPathsMap },
         );
 
         allSkills.push(...results);
-        console.log(`\nPhase 3 complete: ${results.length} skills from ${reposToProcess.length} repos`);
+        console.log(
+          `\nPhase 3 complete: ${results.length} skills from ${reposToProcessFiltered.length} repos`,
+        );
       } else if (reposMap.size === 0) {
         console.log("No repositories found via topic search.");
       }
@@ -500,22 +513,30 @@ async function main() {
       );
       console.log(`Processing ${reposToProcess.length} newly discovered repos (high-star first)...`);
 
-      // Phase 1: Code Search only — collect SKILL.md paths (no Core API)
-      const skillPathsMap = await collectSkillPathsWithCodeSearch(
-        workerPool,
-        reposToProcess,
+      // Phase 1: Code Search only — collect SKILL.md paths (no Core API); rate-limited repos re-queued, 404 removed
+      const { pathMap: skillPathsMap, notFoundRepos } =
+        await collectSkillPathsWithCodeSearch(workerPool, reposToProcess);
+      const reposToProcessFiltered = reposToProcess.filter(
+        (r) => !notFoundRepos.has(r.repoFullName),
       );
+      if (notFoundRepos.size > 0) {
+        console.log(
+          `  Skipping ${notFoundRepos.size} repo(s) not found / removed from queue`,
+        );
+      }
 
       // Phase 2: Core API — get commit, cache check, fetch SKILL.md content for dedup
       const results = await processReposInParallel(
         workerPool,
-        reposToProcess,
+        reposToProcessFiltered,
         "github",
         { fetchRepoDetails: false, skillPathsMap },
       );
 
       allSkills.push(...results);
-      console.log(`\nPhase 4 complete: ${results.length} skills from ${reposToProcess.length} repos`);
+      console.log(
+        `\nPhase 4 complete: ${results.length} skills from ${reposToProcessFiltered.length} repos`,
+      );
     } else if (globalRepos.size === 0) {
       console.log("No additional repositories discovered via global search.");
     }
