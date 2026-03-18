@@ -990,7 +990,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:21.681Z",
+      "scannedAt": "2026-03-18T03:18:30.328Z",
       "qualityScore": 74
     },
     {
@@ -1006,7 +1006,7 @@
       "securityScore": 70,
       "riskLevel": "high",
       "scanTags": ["dangerous-shell"],
-      "scannedAt": "2026-03-18T01:21:21.682Z",
+      "scannedAt": "2026-03-18T03:18:30.329Z",
       "qualityScore": 81
     },
     {
@@ -1120,7 +1120,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:21.684Z",
+      "scannedAt": "2026-03-18T03:18:30.331Z",
       "qualityScore": 81
     },
     {
@@ -2125,7 +2125,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:21.690Z",
+      "scannedAt": "2026-03-18T03:18:30.336Z",
       "qualityScore": 93
     },
     {
@@ -3005,7 +3005,7 @@
       "securityScore": 90,
       "riskLevel": "medium",
       "scanTags": ["file-system-write"],
-      "scannedAt": "2026-03-18T01:21:21.692Z",
+      "scannedAt": "2026-03-18T03:18:30.339Z",
       "qualityScore": 93
     },
     {
@@ -15738,7 +15738,7 @@
       "securityScore": 50,
       "riskLevel": "high",
       "scanTags": ["prompt-injection", "file-system-write", "network-call", "credential-access"],
-      "scannedAt": "2026-03-18T01:21:21.694Z",
+      "scannedAt": "2026-03-18T03:18:30.340Z",
       "qualityScore": 87
     },
     {
@@ -16065,7 +16065,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:21.694Z",
+      "scannedAt": "2026-03-18T03:18:30.341Z",
       "qualityScore": 79
     },
     {
@@ -16644,7 +16644,7 @@
       "securityScore": 70,
       "riskLevel": "high",
       "scanTags": ["dangerous-shell"],
-      "scannedAt": "2026-03-18T01:21:21.695Z",
+      "scannedAt": "2026-03-18T03:18:30.341Z",
       "qualityScore": 73
     },
     {
@@ -17944,7 +17944,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:21.696Z",
+      "scannedAt": "2026-03-18T03:18:30.342Z",
       "qualityScore": 79
     },
     {
@@ -18177,7 +18177,7 @@
       "securityScore": 65,
       "riskLevel": "high",
       "scanTags": ["file-system-write", "credential-access"],
-      "scannedAt": "2026-03-18T01:21:21.699Z",
+      "scannedAt": "2026-03-18T03:18:30.345Z",
       "qualityScore": 79
     },
     {
@@ -28726,7 +28726,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:21.702Z",
+      "scannedAt": "2026-03-18T03:18:30.348Z",
       "qualityScore": 87
     },
     {
@@ -28870,7 +28870,7 @@
       "securityScore": 90,
       "riskLevel": "medium",
       "scanTags": ["file-system-write"],
-      "scannedAt": "2026-03-18T01:21:21.705Z",
+      "scannedAt": "2026-03-18T03:18:30.351Z",
       "qualityScore": 93
     },
     {
@@ -28950,7 +28950,7 @@
       "securityScore": 90,
       "riskLevel": "medium",
       "scanTags": ["file-system-write"],
-      "scannedAt": "2026-03-18T01:21:21.707Z",
+      "scannedAt": "2026-03-18T03:18:30.353Z",
       "qualityScore": 89
     },
     {
@@ -32301,7 +32301,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:21.708Z",
+      "scannedAt": "2026-03-18T03:18:30.354Z",
       "qualityScore": 93
     },
     {
@@ -38377,7 +38377,7 @@
       "securityScore": 75,
       "riskLevel": "high",
       "scanTags": ["credential-access"],
-      "scannedAt": "2026-03-18T01:21:21.709Z",
+      "scannedAt": "2026-03-18T03:18:30.355Z",
       "qualityScore": 76
     },
     {
@@ -38409,7 +38409,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:21.709Z",
+      "scannedAt": "2026-03-18T03:18:30.355Z",
       "qualityScore": 73
     },
     {
@@ -38843,7 +38843,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:21.710Z",
+      "scannedAt": "2026-03-18T03:18:30.356Z",
       "qualityScore": 87
     },
     {
@@ -39012,7 +39012,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:21.711Z",
+      "scannedAt": "2026-03-18T03:18:30.357Z",
       "qualityScore": 93
     },
     {
@@ -39028,7 +39028,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:21.710Z",
+      "scannedAt": "2026-03-18T03:18:30.357Z",
       "qualityScore": 81
     },
     {
@@ -39092,7 +39092,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:21.712Z",
+      "scannedAt": "2026-03-18T03:18:30.357Z",
       "qualityScore": 79
     },
     {
@@ -39108,7 +39108,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:21.712Z",
+      "scannedAt": "2026-03-18T03:18:30.358Z",
       "qualityScore": 67
     },
     {
@@ -39207,7 +39207,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.014Z",
+      "scannedAt": "2026-03-18T03:18:30.487Z",
       "qualityScore": 74
     },
     {
@@ -39273,7 +39273,7 @@
       "securityScore": 90,
       "riskLevel": "medium",
       "scanTags": ["file-system-write"],
-      "scannedAt": "2026-03-18T01:21:21.713Z",
+      "scannedAt": "2026-03-18T03:18:30.359Z",
       "qualityScore": 87
     },
     {
@@ -39289,7 +39289,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:21.714Z",
+      "scannedAt": "2026-03-18T03:18:30.359Z",
       "qualityScore": 93
     },
     {
@@ -39353,7 +39353,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:21.715Z",
+      "scannedAt": "2026-03-18T03:18:30.360Z",
       "qualityScore": 93
     },
     {
@@ -39461,7 +39461,7 @@
       "securityScore": 65,
       "riskLevel": "high",
       "scanTags": ["file-system-write", "credential-access"],
-      "scannedAt": "2026-03-18T01:21:21.716Z",
+      "scannedAt": "2026-03-18T03:18:30.362Z",
       "qualityScore": 93
     },
     {
@@ -39477,7 +39477,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:21.717Z",
+      "scannedAt": "2026-03-18T03:18:30.362Z",
       "qualityScore": 61
     },
     {
@@ -39525,7 +39525,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:21.717Z",
+      "scannedAt": "2026-03-18T03:18:30.362Z",
       "qualityScore": 93
     },
     {
@@ -39541,7 +39541,7 @@
       "securityScore": 65,
       "riskLevel": "high",
       "scanTags": ["file-system-write", "credential-access"],
-      "scannedAt": "2026-03-18T01:21:21.718Z",
+      "scannedAt": "2026-03-18T03:18:30.364Z",
       "qualityScore": 79
     },
     {
@@ -39557,7 +39557,7 @@
       "securityScore": 90,
       "riskLevel": "medium",
       "scanTags": ["file-system-write"],
-      "scannedAt": "2026-03-18T01:21:21.718Z",
+      "scannedAt": "2026-03-18T03:18:30.363Z",
       "qualityScore": 93
     },
     {
@@ -39573,7 +39573,7 @@
       "securityScore": 94,
       "riskLevel": "medium",
       "scanTags": ["network-call"],
-      "scannedAt": "2026-03-18T01:21:22.020Z",
+      "scannedAt": "2026-03-18T03:18:30.488Z",
       "qualityScore": 86
     },
     {
@@ -39639,7 +39639,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.017Z",
+      "scannedAt": "2026-03-18T03:18:30.490Z",
       "qualityScore": 93
     },
     {
@@ -39655,7 +39655,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.308Z",
+      "scannedAt": "2026-03-18T03:18:30.734Z",
       "qualityScore": 75
     },
     {
@@ -39671,7 +39671,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.017Z",
+      "scannedAt": "2026-03-18T03:18:30.491Z",
       "qualityScore": 87
     },
     {
@@ -39689,7 +39689,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.018Z",
+      "scannedAt": "2026-03-18T03:18:30.491Z",
       "qualityScore": 89
     },
     {
@@ -39705,7 +39705,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.329Z",
+      "scannedAt": "2026-03-18T03:18:30.618Z",
       "qualityScore": 73
     },
     {
@@ -39721,7 +39721,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.341Z",
+      "scannedAt": "2026-03-18T03:18:30.624Z",
       "qualityScore": 93
     },
     {
@@ -39737,7 +39737,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.328Z",
+      "scannedAt": "2026-03-18T03:18:30.625Z",
       "qualityScore": 87
     },
     {
@@ -39771,7 +39771,7 @@
       "securityScore": 75,
       "riskLevel": "high",
       "scanTags": ["credential-access"],
-      "scannedAt": "2026-03-18T01:21:22.323Z",
+      "scannedAt": "2026-03-18T03:18:30.626Z",
       "qualityScore": 73
     },
     {
@@ -39787,7 +39787,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.356Z",
+      "scannedAt": "2026-03-18T03:18:30.619Z",
       "qualityScore": 79
     },
     {
@@ -39803,7 +39803,7 @@
       "securityScore": 65,
       "riskLevel": "high",
       "scanTags": ["file-system-write", "credential-access"],
-      "scannedAt": "2026-03-18T01:21:22.362Z",
+      "scannedAt": "2026-03-18T03:18:30.735Z",
       "qualityScore": 73
     },
     {
@@ -39819,7 +39819,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.656Z",
+      "scannedAt": "2026-03-18T03:18:30.867Z",
       "qualityScore": 81
     },
     {
@@ -39835,7 +39835,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.357Z",
+      "scannedAt": "2026-03-18T03:18:30.735Z",
       "qualityScore": 68
     },
     {
@@ -39851,7 +39851,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.358Z",
+      "scannedAt": "2026-03-18T03:18:30.736Z",
       "qualityScore": 79
     },
     {
@@ -39885,7 +39885,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.358Z",
+      "scannedAt": "2026-03-18T03:18:30.736Z",
       "qualityScore": 68
     },
     {
@@ -39901,7 +39901,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.681Z",
+      "scannedAt": "2026-03-18T03:18:30.865Z",
       "qualityScore": 75
     },
     {
@@ -39930,7 +39930,7 @@
       "securityScore": 90,
       "riskLevel": "medium",
       "scanTags": ["file-system-write"],
-      "scannedAt": "2026-03-18T01:21:22.361Z",
+      "scannedAt": "2026-03-18T03:18:30.738Z",
       "qualityScore": 87
     },
     {
@@ -39962,7 +39962,7 @@
       "securityScore": 90,
       "riskLevel": "medium",
       "scanTags": ["file-system-write"],
-      "scannedAt": "2026-03-18T01:21:22.362Z",
+      "scannedAt": "2026-03-18T03:18:30.738Z",
       "qualityScore": 79
     },
     {
@@ -39978,7 +39978,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.362Z",
+      "scannedAt": "2026-03-18T03:18:30.739Z",
       "qualityScore": 73
     },
     {
@@ -39994,7 +39994,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.363Z",
+      "scannedAt": "2026-03-18T03:18:30.739Z",
       "qualityScore": 73
     },
     {
@@ -40058,7 +40058,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.682Z",
+      "scannedAt": "2026-03-18T03:18:30.868Z",
       "qualityScore": 87
     },
     {
@@ -40074,7 +40074,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.683Z",
+      "scannedAt": "2026-03-18T03:18:30.868Z",
       "qualityScore": 74
     },
     {
@@ -40090,7 +40090,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.682Z",
+      "scannedAt": "2026-03-18T03:18:30.868Z",
       "qualityScore": 87
     },
     {
@@ -40106,7 +40106,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.683Z",
+      "scannedAt": "2026-03-18T03:18:30.869Z",
       "qualityScore": 93
     },
     {
@@ -40122,7 +40122,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.683Z",
+      "scannedAt": "2026-03-18T03:18:30.869Z",
       "qualityScore": 93
     },
     {
@@ -40138,7 +40138,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.684Z",
+      "scannedAt": "2026-03-18T03:18:30.871Z",
       "qualityScore": 93
     },
     {
@@ -40156,7 +40156,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.685Z",
+      "scannedAt": "2026-03-18T03:18:30.871Z",
       "qualityScore": 93
     },
     {
@@ -40188,7 +40188,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.989Z",
+      "scannedAt": "2026-03-18T03:18:30.996Z",
       "qualityScore": 73
     },
     {
@@ -40204,7 +40204,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.975Z",
+      "scannedAt": "2026-03-18T03:18:31.000Z",
       "qualityScore": 93
     },
     {
@@ -40220,7 +40220,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.991Z",
+      "scannedAt": "2026-03-18T03:18:31.002Z",
       "qualityScore": 73
     },
     {
@@ -40236,7 +40236,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.303Z",
+      "scannedAt": "2026-03-18T03:18:31.134Z",
       "qualityScore": 81
     },
     {
@@ -40252,7 +40252,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.316Z",
+      "scannedAt": "2026-03-18T03:18:31.130Z",
       "qualityScore": 81
     },
     {
@@ -40268,7 +40268,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:22.992Z",
+      "scannedAt": "2026-03-18T03:18:31.003Z",
       "qualityScore": 89
     },
     {
@@ -40284,7 +40284,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.290Z",
+      "scannedAt": "2026-03-18T03:18:31.128Z",
       "qualityScore": 79
     },
     {
@@ -40300,7 +40300,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.291Z",
+      "scannedAt": "2026-03-18T03:18:31.136Z",
       "qualityScore": 79
     },
     {
@@ -40332,7 +40332,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.302Z",
+      "scannedAt": "2026-03-18T03:18:31.129Z",
       "qualityScore": 95
     },
     {
@@ -40348,7 +40348,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.305Z",
+      "scannedAt": "2026-03-18T03:18:31.136Z",
       "qualityScore": 93
     },
     {
@@ -40364,7 +40364,7 @@
       "securityScore": 94,
       "riskLevel": "medium",
       "scanTags": ["network-call"],
-      "scannedAt": "2026-03-18T01:21:23.323Z",
+      "scannedAt": "2026-03-18T03:18:31.146Z",
       "qualityScore": 93
     },
     {
@@ -40380,7 +40380,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.290Z",
+      "scannedAt": "2026-03-18T03:18:31.126Z",
       "qualityScore": 81
     },
     {
@@ -40396,7 +40396,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.324Z",
+      "scannedAt": "2026-03-18T03:18:31.153Z",
       "qualityScore": 73
     },
     {
@@ -40412,7 +40412,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.631Z",
+      "scannedAt": "2026-03-18T03:18:31.281Z",
       "qualityScore": 61
     },
     {
@@ -40429,7 +40429,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.623Z",
+      "scannedAt": "2026-03-18T03:18:31.290Z",
       "qualityScore": 73
     },
     {
@@ -40447,7 +40447,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.325Z",
+      "scannedAt": "2026-03-18T03:18:31.155Z",
       "qualityScore": 79
     },
     {
@@ -40463,7 +40463,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.326Z",
+      "scannedAt": "2026-03-18T03:18:31.155Z",
       "qualityScore": 74
     },
     {
@@ -40479,7 +40479,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.325Z",
+      "scannedAt": "2026-03-18T03:18:31.155Z",
       "qualityScore": 79
     },
     {
@@ -40495,7 +40495,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.327Z",
+      "scannedAt": "2026-03-18T03:18:31.156Z",
       "qualityScore": 87
     },
     {
@@ -40511,7 +40511,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.327Z",
+      "scannedAt": "2026-03-18T03:18:31.157Z",
       "qualityScore": 87
     },
     {
@@ -40527,7 +40527,7 @@
       "securityScore": 75,
       "riskLevel": "high",
       "scanTags": ["credential-access"],
-      "scannedAt": "2026-03-18T01:21:23.328Z",
+      "scannedAt": "2026-03-18T03:18:31.157Z",
       "qualityScore": 93
     },
     {
@@ -40543,7 +40543,7 @@
       "securityScore": 50,
       "riskLevel": "high",
       "scanTags": ["dangerous-shell", "credential-access"],
-      "scannedAt": "2026-03-18T01:21:23.329Z",
+      "scannedAt": "2026-03-18T03:18:31.158Z",
       "qualityScore": 89
     },
     {
@@ -40560,7 +40560,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.330Z",
+      "scannedAt": "2026-03-18T03:18:31.159Z",
       "qualityScore": 73
     },
     {
@@ -40576,7 +40576,7 @@
       "securityScore": 65,
       "riskLevel": "high",
       "scanTags": ["file-system-write", "credential-access"],
-      "scannedAt": "2026-03-18T01:21:23.634Z",
+      "scannedAt": "2026-03-18T03:18:31.291Z",
       "qualityScore": 81
     },
     {
@@ -40610,7 +40610,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.632Z",
+      "scannedAt": "2026-03-18T03:18:31.291Z",
       "qualityScore": 74
     },
     {
@@ -40626,7 +40626,7 @@
       "securityScore": 65,
       "riskLevel": "high",
       "scanTags": ["file-system-write", "credential-access"],
-      "scannedAt": "2026-03-18T01:21:23.633Z",
+      "scannedAt": "2026-03-18T03:18:31.292Z",
       "qualityScore": 86
     },
     {
@@ -40642,7 +40642,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.633Z",
+      "scannedAt": "2026-03-18T03:18:31.292Z",
       "qualityScore": 93
     },
     {
@@ -40658,7 +40658,7 @@
       "securityScore": 90,
       "riskLevel": "medium",
       "scanTags": ["file-system-write"],
-      "scannedAt": "2026-03-18T01:21:23.633Z",
+      "scannedAt": "2026-03-18T03:18:31.292Z",
       "qualityScore": 73
     },
     {
@@ -40674,7 +40674,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.634Z",
+      "scannedAt": "2026-03-18T03:18:31.293Z",
       "qualityScore": 74
     },
     {
@@ -40690,7 +40690,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.943Z",
+      "scannedAt": "2026-03-18T03:18:31.418Z",
       "qualityScore": 79
     },
     {
@@ -40706,7 +40706,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.929Z",
+      "scannedAt": "2026-03-18T03:18:31.423Z",
       "qualityScore": 93
     },
     {
@@ -40722,7 +40722,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.635Z",
+      "scannedAt": "2026-03-18T03:18:31.294Z",
       "qualityScore": 93
     },
     {
@@ -40738,7 +40738,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.941Z",
+      "scannedAt": "2026-03-18T03:18:31.420Z",
       "qualityScore": 61
     },
     {
@@ -40754,7 +40754,7 @@
       "securityScore": 90,
       "riskLevel": "medium",
       "scanTags": ["file-system-write"],
-      "scannedAt": "2026-03-18T01:21:24.260Z",
+      "scannedAt": "2026-03-18T03:18:31.556Z",
       "qualityScore": 79
     },
     {
@@ -40770,7 +40770,7 @@
       "securityScore": 65,
       "riskLevel": "high",
       "scanTags": ["file-system-write", "credential-access"],
-      "scannedAt": "2026-03-18T01:21:24.259Z",
+      "scannedAt": "2026-03-18T03:18:31.555Z",
       "qualityScore": 79
     },
     {
@@ -40786,7 +40786,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:24.265Z",
+      "scannedAt": "2026-03-18T03:18:31.557Z",
       "qualityScore": 73
     },
     {
@@ -40802,7 +40802,7 @@
       "securityScore": 75,
       "riskLevel": "high",
       "scanTags": ["credential-access"],
-      "scannedAt": "2026-03-18T01:21:23.945Z",
+      "scannedAt": "2026-03-18T03:18:31.425Z",
       "qualityScore": 81
     },
     {
@@ -40818,7 +40818,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:24.255Z",
+      "scannedAt": "2026-03-18T03:18:31.551Z",
       "qualityScore": 87
     },
     {
@@ -40834,7 +40834,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.946Z",
+      "scannedAt": "2026-03-18T03:18:31.426Z",
       "qualityScore": 81
     },
     {
@@ -40850,7 +40850,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:24.257Z",
+      "scannedAt": "2026-03-18T03:18:31.695Z",
       "qualityScore": 83
     },
     {
@@ -40866,7 +40866,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:24.266Z",
+      "scannedAt": "2026-03-18T03:18:31.672Z",
       "qualityScore": 87
     },
     {
@@ -40882,7 +40882,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.947Z",
+      "scannedAt": "2026-03-18T03:18:31.427Z",
       "qualityScore": 67
     },
     {
@@ -40914,7 +40914,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:23.948Z",
+      "scannedAt": "2026-03-18T03:18:31.428Z",
       "qualityScore": 93
     },
     {
@@ -40930,7 +40930,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:24.267Z",
+      "scannedAt": "2026-03-18T03:18:31.697Z",
       "qualityScore": 76
     },
     {
@@ -40946,7 +40946,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:24.267Z",
+      "scannedAt": "2026-03-18T03:18:31.696Z",
       "qualityScore": 95
     },
     {
@@ -40994,7 +40994,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:24.622Z",
+      "scannedAt": "2026-03-18T03:18:31.826Z",
       "qualityScore": 73
     },
     {
@@ -41026,7 +41026,7 @@
       "securityScore": 100,
       "riskLevel": "low",
       "scanTags": ["safe"],
-      "scannedAt": "2026-03-18T01:21:24.571Z",
+      "scannedAt": "2026-03-18T03:18:31.824Z",
       "qualityScore": 79
     },
     {
