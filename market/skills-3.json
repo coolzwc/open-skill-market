@@ -1,89 +1,5 @@
 {
   "repositories": {
-    "softaworks/agent-toolkit": {
-      "url": "https://github.com/softaworks/agent-toolkit",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "AIPexStudio/AIPex": {
-      "url": "https://github.com/AIPexStudio/AIPex",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "itsmostafa/aws-agent-skills": {
-      "url": "https://github.com/itsmostafa/aws-agent-skills",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "Prat011/awesome-llm-skills": {
-      "url": "https://github.com/Prat011/awesome-llm-skills",
-      "branch": "master",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "BayramAnnakov/claude-reflect": {
-      "url": "https://github.com/BayramAnnakov/claude-reflect",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "instavm/coderunner": {
-      "url": "https://github.com/instavm/coderunner",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "adithya-s-k/manim_skill": {
-      "url": "https://github.com/adithya-s-k/manim_skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "conorluddy/ios-simulator-skill": {
-      "url": "https://github.com/conorluddy/ios-simulator-skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "geekjourneyx/md2wechat-skill": {
-      "url": "https://github.com/geekjourneyx/md2wechat-skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "alirezarezvani/claude-code-skill-factory": {
-      "url": "https://github.com/alirezarezvani/claude-code-skill-factory",
-      "branch": "dev",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "rohitg00/skillkit": {
-      "url": "https://github.com/rohitg00/skillkit",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "tripleyak/SkillForge": {
-      "url": "https://github.com/tripleyak/SkillForge",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "rudrankriyam/app-store-connect-cli-skills": {
       "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills",
       "branch": "main",
@@ -189,13 +105,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "kazukinagata/shinkoku": {
-      "url": "https://github.com/kazukinagata/shinkoku",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "ancoleman/ai-design-components": {
       "url": "https://github.com/ancoleman/ai-design-components",
       "branch": "main",
@@ -217,15 +126,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "huangjia2019/claude-code-engineering": {
-      "url": "https://github.com/huangjia2019/claude-code-engineering",
+    "athina-ai/goose-skills": {
+      "url": "https://github.com/athina-ai/goose-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "athina-ai/goose-skills": {
-      "url": "https://github.com/athina-ai/goose-skills",
+    "huangjia2019/claude-code-engineering": {
+      "url": "https://github.com/huangjia2019/claude-code-engineering",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -294,15 +203,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "bowenliang123/markdown-exporter": {
-      "url": "https://github.com/bowenliang123/markdown-exporter",
+    "lawvable/awesome-legal-skills": {
+      "url": "https://github.com/lawvable/awesome-legal-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "lawvable/awesome-legal-skills": {
-      "url": "https://github.com/lawvable/awesome-legal-skills",
+    "bowenliang123/markdown-exporter": {
+      "url": "https://github.com/bowenliang123/markdown-exporter",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -357,15 +266,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "arpitg1304/robotics-agent-skills": {
-      "url": "https://github.com/arpitg1304/robotics-agent-skills",
+    "aannoo/hcom": {
+      "url": "https://github.com/aannoo/hcom",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "aannoo/hcom": {
-      "url": "https://github.com/aannoo/hcom",
+    "arpitg1304/robotics-agent-skills": {
+      "url": "https://github.com/arpitg1304/robotics-agent-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -378,15 +287,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "Microck/ordinary-claude-skills": {
-      "url": "https://github.com/Microck/ordinary-claude-skills",
+    "testdino-hq/playwright-skill": {
+      "url": "https://github.com/testdino-hq/playwright-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "testdino-hq/playwright-skill": {
-      "url": "https://github.com/testdino-hq/playwright-skill",
+    "Microck/ordinary-claude-skills": {
+      "url": "https://github.com/Microck/ordinary-claude-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -763,13 +672,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "fabriqaai/specs.md": {
-      "url": "https://github.com/fabriqaai/specs.md",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "Darkbluelr/dev-playbooks-cn": {
       "url": "https://github.com/Darkbluelr/dev-playbooks-cn",
       "branch": "master",
@@ -791,6 +693,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "xiaobei930/cc-best": {
+      "url": "https://github.com/xiaobei930/cc-best",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "tebjan/vvvv-skills": {
       "url": "https://github.com/tebjan/vvvv-skills",
       "branch": "main",
@@ -807,1258 +716,6 @@
     }
   },
   "skills": [
-    {
-      "id": "softaworks/agent-toolkit/skills/draw-io",
-      "name": "draw-io",
-      "description": "draw.io diagram creation, editing, and review. Use for .drawio XML editing, PNG conversion, layout adjustment, and AWS icon usage.",
-      "categories": ["Design", "Writing"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/draw-io",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/react-dev",
-      "name": "react-dev",
-      "description": "This skill should be used when building React components with TypeScript, typing hooks, handling events, or when React TypeScript, React 19, Server Components are mentioned. Covers type-safe patterns for React 18-19 including generic components, proper event typing, and routing integration (TanStack Router, React Router).",
-      "categories": ["Development"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/react-dev",
-      "commitHash": "e051bb4a4857",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["README.md", "SKILL.md", "examples", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/humanizer",
-      "name": "humanizer",
-      "description": "Remove signs of AI-generated writing from text. Use when editing or reviewing\ntext to make it sound more natural and human-written. Based on Wikipedia's\ncomprehensive \"Signs of AI writing\" guide. Detects and fixes patterns including:\ninflated symbolism, promotional language, superficial -ing analyses, vague\nattributions, em dash overuse, rule of three, AI vocabulary words, negative\nparallelisms, and excessive conjunctive phrases.\n\nCredits: Original skill by @blader - https://github.com/blader/humanizer\n",
-      "categories": ["Development", "Writing"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/humanizer",
-      "commitHash": "2c67cc5cae4f",
-      "version": "2.1.1",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/excalidraw",
-      "name": "excalidraw",
-      "description": "Use when working with *.excalidraw or *.excalidraw.json files, user mentions diagrams/flowcharts, or requests architecture visualization - delegates all Excalidraw operations to subagents to prevent context exhaustion from verbose JSON (single files: 4k-22k tokens, can exceed read limits)",
-      "categories": ["Design", "Data & Analytics"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/excalidraw",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/skill-judge",
-      "name": "skill-judge",
-      "description": "Evaluate Agent Skill design quality against official specifications and best practices. Use when reviewing, auditing, or improving SKILL.md files and skill packages. Provides multi-dimensional scoring and actionable improvement suggestions.",
-      "categories": ["AI & ML"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/skill-judge",
-      "commitHash": "40d4469f7357",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/commit-work",
-      "name": "commit-work",
-      "description": "Create high-quality git commits: review/stage intended changes, split into logical commits, and write clear commit messages (including Conventional Commits). Use when the user asks to commit, craft a commit message, stage changes, or split work into multiple commits.",
-      "categories": ["Development"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/commit-work",
-      "commitHash": "e5c69afe5ca4",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/lesson-learned",
-      "name": "lesson-learned",
-      "description": "Analyze recent code changes via git history and extract software engineering lessons. Use when the user asks 'what is the lesson here?', 'what can I learn from this?', 'engineering takeaway', 'what did I just learn?', 'reflect on this code', or wants to extract principles from recent work.",
-      "categories": ["Development", "Research"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/lesson-learned",
-      "commitHash": "0c042f2216a9",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/web-to-markdown",
-      "name": "web-to-markdown",
-      "description": "Use ONLY when the user explicitly says: 'use the skill web-to-markdown ...' (or 'use a skill web-to-markdown ...'). Converts webpage URLs to clean Markdown by calling the local web2md CLI (Puppeteer + Readability), suitable for JS-rendered pages.",
-      "categories": ["Documents"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/web-to-markdown",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/naming-analyzer",
-      "name": "naming-analyzer",
-      "description": "Suggest better variable, function, and class names based on context and conventions.",
-      "categories": ["Other"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/naming-analyzer",
-      "commitHash": "40d4469f7357",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/ship-learn-next",
-      "name": "ship-learn-next",
-      "description": "Transform learning content (like YouTube transcripts, articles, tutorials) into actionable implementation plans using the Ship-Learn-Next framework. Use when user wants to turn advice, lessons, or educational content into concrete action steps, reps, or a learning quest.",
-      "categories": ["Writing", "Media"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/ship-learn-next",
-      "commitHash": "40d4469f7357",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/react-useeffect",
-      "name": "react-useeffect",
-      "description": "React useEffect best practices from official docs. Use when writing/reviewing useEffect, useState for derived values, data fetching, or state synchronization. Teaches when NOT to use Effect and better alternatives.",
-      "categories": ["Development", "Writing"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/react-useeffect",
-      "commitHash": "1ef06f0abb5b",
-      "files": ["README.md", "SKILL.md", "alternatives.md", "anti-patterns.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/command-creator",
-      "name": "command-creator",
-      "description": "This skill should be used when creating a Claude Code slash command. Use when users ask to \"create a command\", \"make a slash command\", \"add a command\", or want to document a workflow as a reusable command. Essential for creating optimized, agent-executable slash commands with proper structure and best practices.",
-      "categories": ["Development", "Documents", "AI & ML"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/command-creator",
-      "commitHash": "2423b4f0d2cd",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/session-handoff",
-      "name": "session-handoff",
-      "description": "Creates comprehensive handoff documents for seamless AI agent session transfers. Triggered when: (1) user requests handoff/memory/context save, (2) context window approaches capacity, (3) major task milestone completed, (4) work session ending, (5) user says 'save state', 'create handoff', 'I need to pause', 'context is getting full', (6) resuming work with 'load handoff', 'resume from', 'continue where we left off'. Proactively suggests handoffs after substantial work (multiple file edits, complex debugging, architecture decisions). Solves long-running agent context exhaustion by enabling fresh agents to continue with zero ambiguity.",
-      "categories": ["Development", "Writing", "Documents", "AI & ML"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/session-handoff",
-      "commitHash": "ebb0419d8c5a",
-      "files": ["README.md", "SKILL.md", "evals", "references", "scripts"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/reducing-entropy",
-      "name": "reducing-entropy",
-      "description": "Manual-only skill for minimizing total codebase size. Only activate when explicitly requested by user. Measures success by final code amount, not effort. Bias toward deletion.",
-      "categories": ["Other"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/reducing-entropy",
-      "commitHash": "efbd228db868",
-      "files": ["README.md", "SKILL.md", "adding-reference-mindsets.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/feedback-mastery",
-      "name": "feedback-mastery",
-      "description": "Navigate difficult conversations and deliver constructive feedback using structured frameworks. Covers the Preparation-Delivery-Follow-up model and Situation-Behavior-Impact (SBI) feedback technique. Use when preparing for difficult conversations, giving feedback, or managing conflicts.",
-      "categories": ["Other"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/feedback-mastery",
-      "commitHash": "ebb0419d8c5a",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/agent-md-refactor",
-      "name": "agent-md-refactor",
-      "description": "Refactor bloated AGENTS.md, CLAUDE.md, or similar agent instruction files to follow progressive disclosure principles. Splits monolithic files into organized, linked documentation.",
-      "categories": ["Documents", "AI & ML"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/agent-md-refactor",
-      "commitHash": "39ab48063982",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/dependency-updater",
-      "name": "dependency-updater",
-      "description": "Smart dependency management for any language. Auto-detects project type, applies safe updates automatically, prompts for major versions, diagnoses and fixes dependency issues.",
-      "categories": ["Productivity"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/dependency-updater",
-      "commitHash": "011baf4acea9",
-      "files": ["README.md", "SKILL.md", "scripts"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/requirements-clarity",
-      "name": "requirements-clarity",
-      "description": "Clarify ambiguous requirements through focused dialogue before implementation. Use when requirements are unclear, features are complex (>2 days), or involve cross-team coordination. Ask two core questions - Why? (YAGNI check) and Simpler? (KISS check) - to ensure clarity before coding.",
-      "categories": ["Other"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/requirements-clarity",
-      "commitHash": "8453994cf12a",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/daily-meeting-update",
-      "name": "daily-meeting-update",
-      "description": "Interactive daily standup/meeting update generator. Use when user says 'daily', 'standup', 'scrum update', 'status update', 'what did I do yesterday', 'prepare for meeting', 'morning update', or 'team sync'. Pulls activity from GitHub, Jira, and Claude Code session history. Conducts 4-question interview (yesterday, today, blockers, discussion topics) and generates formatted Markdown update.",
-      "categories": [
-        "Development",
-        "Productivity",
-        "Documents",
-        "Integration",
-        "Business",
-        "AI & ML"
-      ],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/daily-meeting-update",
-      "commitHash": "87afc180e7e0",
-      "files": ["README.md", "SKILL.md", "scripts"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/professional-communication",
-      "name": "professional-communication",
-      "description": "Guide technical communication for software developers. Covers email structure, team messaging etiquette, meeting agendas, and adapting messages for technical vs non-technical audiences. Use when drafting professional messages, preparing meeting communications, or improving written communication.",
-      "categories": ["Other"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/professional-communication",
-      "commitHash": "ebb0419d8c5a",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/writing-clearly-and-concisely",
-      "name": "writing-clearly-and-concisely",
-      "description": "Use when writing prose humans will read—documentation, commit messages, error messages, explanations, reports, or UI text. Applies Strunk's timeless rules for clearer, stronger, more professional writing.",
-      "categories": ["Writing"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/writing-clearly-and-concisely",
-      "commitHash": "32d7e8aad4f4",
-      "files": ["README.md", "SKILL.md", "elements-of-style", "signs-of-ai-writing.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/difficult-workplace-conversations",
-      "name": "difficult-workplace-conversations",
-      "description": "Structured approach to workplace conflicts, performance discussions, and challenging feedback using preparation-delivery-followup framework. Use when preparing for tough conversations, addressing conflicts, giving critical feedback, or navigating sensitive workplace discussions.",
-      "categories": ["Other"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/difficult-workplace-conversations",
-      "commitHash": "011baf4acea9",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/qa-test-planner",
-      "name": "qa-test-planner",
-      "description": "Generate comprehensive test plans, manual test cases, regression test suites, and bug reports for QA engineers. Includes Figma MCP integration for design validation.",
-      "categories": ["Design", "Integration"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/qa-test-planner",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "AIPexStudio/AIPex/skill",
-      "name": "aipex-browser",
-      "description": "AI-powered browser automation using the AIPex Chrome Extension via MCP bridge. Use this skill when the agent needs to control a Chrome browser — navigating pages, clicking elements, filling forms, capturing screenshots, managing tabs, or downloading content — by connecting to the AIPex MCP bridge.",
-      "categories": ["Integration", "AI & ML"],
-      "author": "AIPexStudio",
-      "repo": "AIPexStudio/AIPex",
-      "path": "skill",
-      "commitHash": "7d2acc75c605",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "AIPexStudio/AIPex/packages/browser-runtime/src/skill/built-in/skill-creator-browser",
-      "name": "skill-creator",
-      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends AIPex's capabilities with specialized knowledge, workflows, or tool integrations.",
-      "categories": ["Other"],
-      "author": "AIPexStudio",
-      "repo": "AIPexStudio/AIPex",
-      "path": "packages/browser-runtime/src/skill/built-in/skill-creator-browser",
-      "commitHash": "0738605c0262",
-      "files": ["LICENSE.txt", "SKILL.md", "scripts"]
-    },
-    {
-      "id": "AIPexStudio/AIPex/packages/browser-runtime/src/skill/built-in/ux-audit-walkthrough",
-      "name": "ux-audit-walkthrough",
-      "description": "Minimalist UX/Interaction Audit Expert that deconstructs complex interactions through cognitive load and operational efficiency lenses. Use this skill when you need to perform a UX walkthrough audit on a Figma prototype or web interface, evaluating usability based on principles like fewer clicks, less UI elements, no hidden logic, and self-explanatory design.",
-      "categories": ["Design"],
-      "author": "AIPexStudio",
-      "repo": "AIPexStudio/AIPex",
-      "path": "packages/browser-runtime/src/skill/built-in/ux-audit-walkthrough",
-      "commitHash": "0738605c0262",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "AIPexStudio/AIPex/packages/browser-runtime/src/skill/built-in/wcag22-a11y-audit",
-      "name": "wcag22-a11y-audit",
-      "description": "WCAG 2.2 Accessibility Audit skill that systematically evaluates web pages against 8 core Success Criteria (1.1.1, 1.4.3, 1.4.11, 2.1.1, 2.1.2, 2.4.3, 2.4.7, 4.1.2) using accessibility tree inspection and visual analysis. Use this skill when you need to perform accessibility testing/auditing on a live webpage.",
-      "categories": ["Development", "Research"],
-      "author": "AIPexStudio",
-      "repo": "AIPexStudio/AIPex",
-      "path": "packages/browser-runtime/src/skill/built-in/wcag22-a11y-audit",
-      "commitHash": "0738605c0262",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "itsmostafa/aws-agent-skills/skills/sns",
-      "name": "sns",
-      "description": "AWS SNS notification service for pub/sub messaging. Use when creating topics, managing subscriptions, configuring message filtering, sending notifications, or setting up mobile push.",
-      "categories": ["Other"],
-      "author": "itsmostafa",
-      "repo": "itsmostafa/aws-agent-skills",
-      "path": "skills/sns",
-      "commitHash": "5b66f5cc3696",
-      "files": ["SKILL.md", "notification-patterns.md"]
-    },
-    {
-      "id": "itsmostafa/aws-agent-skills/skills/ecs",
-      "name": "ecs",
-      "description": "AWS ECS container orchestration for running Docker containers. Use when deploying containerized applications, configuring task definitions, setting up services, managing clusters, or troubleshooting container issues.",
-      "categories": ["DevOps"],
-      "author": "itsmostafa",
-      "repo": "itsmostafa/aws-agent-skills",
-      "path": "skills/ecs",
-      "commitHash": "5b66f5cc3696",
-      "files": ["SKILL.md", "task-definitions.md"]
-    },
-    {
-      "id": "itsmostafa/aws-agent-skills/skills/s3",
-      "name": "s3",
-      "description": "AWS S3 object storage for bucket management, object operations, and access control. Use when creating buckets, uploading files, configuring lifecycle policies, setting up static websites, managing permissions, or implementing cross-region replication.",
-      "categories": ["Other"],
-      "author": "itsmostafa",
-      "repo": "itsmostafa/aws-agent-skills",
-      "path": "skills/s3",
-      "commitHash": "5b66f5cc3696",
-      "files": ["SKILL.md", "security.md"]
-    },
-    {
-      "id": "itsmostafa/aws-agent-skills/skills/sqs",
-      "name": "sqs",
-      "description": "AWS SQS message queue service for decoupled architectures. Use when creating queues, configuring dead-letter queues, managing visibility timeouts, implementing FIFO ordering, or integrating with Lambda.",
-      "categories": ["Other"],
-      "author": "itsmostafa",
-      "repo": "itsmostafa/aws-agent-skills",
-      "path": "skills/sqs",
-      "commitHash": "5b66f5cc3696",
-      "files": ["SKILL.md", "messaging-patterns.md"]
-    },
-    {
-      "id": "itsmostafa/aws-agent-skills/skills/lambda",
-      "name": "lambda",
-      "description": "AWS Lambda serverless functions for event-driven compute. Use when creating functions, configuring triggers, debugging invocations, optimizing cold starts, setting up event source mappings, or managing layers.",
-      "categories": ["Development", "DevOps"],
-      "author": "itsmostafa",
-      "repo": "itsmostafa/aws-agent-skills",
-      "path": "skills/lambda",
-      "commitHash": "5b66f5cc3696",
-      "files": ["SKILL.md", "debugging.md", "deployment.md"]
-    },
-    {
-      "id": "itsmostafa/aws-agent-skills/skills/bedrock",
-      "name": "bedrock",
-      "description": "AWS Bedrock foundation models for generative AI. Use when invoking foundation models, building AI applications, creating embeddings, configuring model access, or implementing RAG patterns.",
-      "categories": ["Development", "AI & ML"],
-      "author": "itsmostafa",
-      "repo": "itsmostafa/aws-agent-skills",
-      "path": "skills/bedrock",
-      "commitHash": "5b66f5cc3696",
-      "files": ["SKILL.md", "model-invocation.md"]
-    },
-    {
-      "id": "itsmostafa/aws-agent-skills/skills/step-functions",
-      "name": "step-functions",
-      "description": "AWS Step Functions workflow orchestration with state machines. Use when designing workflows, implementing error handling, configuring parallel execution, integrating with AWS services, or debugging executions.",
-      "categories": ["Development"],
-      "author": "itsmostafa",
-      "repo": "itsmostafa/aws-agent-skills",
-      "path": "skills/step-functions",
-      "commitHash": "5b66f5cc3696",
-      "files": ["SKILL.md", "workflow-patterns.md"]
-    },
-    {
-      "id": "itsmostafa/aws-agent-skills/skills/cognito",
-      "name": "cognito",
-      "description": "AWS Cognito user authentication and authorization service. Use when setting up user pools, configuring identity pools, implementing OAuth flows, managing user attributes, or integrating with social identity providers.",
-      "categories": ["Security"],
-      "author": "itsmostafa",
-      "repo": "itsmostafa/aws-agent-skills",
-      "path": "skills/cognito",
-      "commitHash": "5b66f5cc3696",
-      "files": ["SKILL.md", "auth-flows.md"]
-    },
-    {
-      "id": "itsmostafa/aws-agent-skills/skills/secrets-manager",
-      "name": "secrets-manager",
-      "description": "AWS Secrets Manager for secure secret storage and rotation. Use when storing credentials, configuring automatic rotation, managing secret versions, retrieving secrets in applications, or integrating with RDS.",
-      "categories": ["Security"],
-      "author": "itsmostafa",
-      "repo": "itsmostafa/aws-agent-skills",
-      "path": "skills/secrets-manager",
-      "commitHash": "5b66f5cc3696",
-      "files": ["SKILL.md", "rotation-strategies.md"]
-    },
-    {
-      "id": "itsmostafa/aws-agent-skills/skills/dynamodb",
-      "name": "dynamodb",
-      "description": "AWS DynamoDB NoSQL database for scalable data storage. Use when designing table schemas, writing queries, configuring indexes, managing capacity, implementing single-table design, or troubleshooting performance issues.",
-      "categories": ["Data & Analytics", "Documents"],
-      "author": "itsmostafa",
-      "repo": "itsmostafa/aws-agent-skills",
-      "path": "skills/dynamodb",
-      "commitHash": "5b66f5cc3696",
-      "files": ["SKILL.md", "query-patterns.md"]
-    },
-    {
-      "id": "itsmostafa/aws-agent-skills/skills/api-gateway",
-      "name": "api-gateway",
-      "description": "AWS API Gateway for REST and HTTP API management. Use when creating APIs, configuring integrations, setting up authorization, managing stages, implementing rate limiting, or troubleshooting API issues.",
-      "categories": ["Security"],
-      "author": "itsmostafa",
-      "repo": "itsmostafa/aws-agent-skills",
-      "path": "skills/api-gateway",
-      "commitHash": "5b66f5cc3696",
-      "files": ["SKILL.md", "integration-patterns.md"]
-    },
-    {
-      "id": "itsmostafa/aws-agent-skills/skills/eventbridge",
-      "name": "eventbridge",
-      "description": "AWS EventBridge serverless event bus for event-driven architectures. Use when creating rules, configuring event patterns, setting up scheduled events, integrating with SaaS, or building cross-account event routing.",
-      "categories": ["Development", "DevOps"],
-      "author": "itsmostafa",
-      "repo": "itsmostafa/aws-agent-skills",
-      "path": "skills/eventbridge",
-      "commitHash": "5b66f5cc3696",
-      "files": ["SKILL.md", "event-patterns.md"]
-    },
-    {
-      "id": "itsmostafa/aws-agent-skills/skills/cloudwatch",
-      "name": "cloudwatch",
-      "description": "AWS CloudWatch monitoring for logs, metrics, alarms, and dashboards. Use when setting up monitoring, creating alarms, querying logs with Insights, configuring metric filters, building dashboards, or troubleshooting application issues.",
-      "categories": ["DevOps", "Data & Analytics"],
-      "author": "itsmostafa",
-      "repo": "itsmostafa/aws-agent-skills",
-      "path": "skills/cloudwatch",
-      "commitHash": "5b66f5cc3696",
-      "files": ["SKILL.md", "alarms-metrics.md"]
-    },
-    {
-      "id": "itsmostafa/aws-agent-skills/skills/cloudformation",
-      "name": "cloudformation",
-      "description": "AWS CloudFormation infrastructure as code for stack management. Use when writing templates, deploying stacks, managing drift, troubleshooting deployments, or organizing infrastructure with nested stacks.",
-      "categories": ["Development", "DevOps", "Productivity"],
-      "author": "itsmostafa",
-      "repo": "itsmostafa/aws-agent-skills",
-      "path": "skills/cloudformation",
-      "commitHash": "5b66f5cc3696",
-      "files": ["SKILL.md", "template-patterns.md"]
-    },
-    {
-      "id": "itsmostafa/aws-agent-skills/skills/rds",
-      "name": "rds",
-      "description": "AWS RDS relational database service for managed databases. Use when provisioning databases, configuring backups, managing replicas, troubleshooting connectivity, or optimizing performance.",
-      "categories": ["Data & Analytics", "Integration"],
-      "author": "itsmostafa",
-      "repo": "itsmostafa/aws-agent-skills",
-      "path": "skills/rds",
-      "commitHash": "5b66f5cc3696",
-      "files": ["SKILL.md", "administration.md"]
-    },
-    {
-      "id": "itsmostafa/aws-agent-skills/skills/eks",
-      "name": "eks",
-      "description": "AWS EKS Kubernetes management for clusters, node groups, and workloads. Use when creating clusters, configuring IRSA, managing node groups, deploying applications, or integrating with AWS services.",
-      "categories": ["DevOps"],
-      "author": "itsmostafa",
-      "repo": "itsmostafa/aws-agent-skills",
-      "path": "skills/eks",
-      "commitHash": "5b66f5cc3696",
-      "files": ["SKILL.md", "cluster-setup.md"]
-    },
-    {
-      "id": "itsmostafa/aws-agent-skills/skills/ec2",
-      "name": "ec2",
-      "description": "AWS EC2 virtual machine management for instances, AMIs, and networking. Use when launching instances, configuring security groups, managing key pairs, troubleshooting connectivity, or automating instance lifecycle.",
-      "categories": ["Other"],
-      "author": "itsmostafa",
-      "repo": "itsmostafa/aws-agent-skills",
-      "path": "skills/ec2",
-      "commitHash": "5b66f5cc3696",
-      "files": ["SKILL.md", "instance-management.md"]
-    },
-    {
-      "id": "itsmostafa/aws-agent-skills/skills/iam",
-      "name": "iam",
-      "description": "AWS Identity and Access Management for users, roles, policies, and permissions. Use when creating IAM policies, configuring cross-account access, setting up service roles, troubleshooting permission errors, or managing access control.",
-      "categories": ["Other"],
-      "author": "itsmostafa",
-      "repo": "itsmostafa/aws-agent-skills",
-      "path": "skills/iam",
-      "commitHash": "5b66f5cc3696",
-      "files": ["SKILL.md", "best-practices.md", "policies.md"]
-    },
-    {
-      "id": "Prat011/awesome-llm-skills/notion-knowledge-capture",
-      "name": "notion-knowledge-capture",
-      "description": "Transforms conversations and discussions into structured documentation pages in Notion. Captures insights, decisions, and knowledge from chat context, formats appropriately, and saves to wikis or databases with proper organization and linking for easy discovery.",
-      "categories": ["Writing", "Data & Analytics", "Documents", "Research"],
-      "author": "Prat011",
-      "repo": "Prat011/awesome-llm-skills",
-      "path": "notion-knowledge-capture",
-      "commitHash": "d62d6510cf18",
-      "files": [
-        "SKILL.md",
-        "evaluations/README.md",
-        "evaluations/conversation-to-wiki.json",
-        "evaluations/decision-record.json",
-        "examples/conversation-to-faq.md",
-        "examples/decision-capture.md",
-        "examples/how-to-guide.md",
-        "reference/database-best-practices.md",
-        "reference/decision-log-database.md",
-        "reference/documentation-database.md",
-        "reference/faq-database.md",
-        "reference/how-to-guide-database.md",
-        "reference/learning-database.md",
-        "reference/team-wiki-database.md"
-      ]
-    },
-    {
-      "id": "Prat011/awesome-llm-skills/notion-spec-to-implementation",
-      "name": "notion-spec-to-implementation",
-      "description": "Turns product or tech specs into concrete Notion tasks that Claude code can implement. Breaks down spec pages into detailed implementation plans with clear tasks, acceptance criteria, and progress tracking to guide development from requirements to completion.",
-      "categories": ["Productivity", "AI & ML"],
-      "author": "Prat011",
-      "repo": "Prat011/awesome-llm-skills",
-      "path": "notion-spec-to-implementation",
-      "commitHash": "d62d6510cf18",
-      "files": [
-        ".DS_Store",
-        "SKILL.md",
-        "evaluations/.DS_Store",
-        "evaluations/README.md",
-        "evaluations/basic-spec-implementation.json",
-        "evaluations/spec-to-tasks.json",
-        "examples/api-feature.md",
-        "examples/database-migration.md",
-        "examples/ui-component.md",
-        "reference/milestone-summary-template.md",
-        "reference/progress-tracking.md",
-        "reference/progress-update-template.md",
-        "reference/quick-implementation-plan.md",
-        "reference/spec-parsing.md",
-        "reference/standard-implementation-plan.md",
-        "reference/task-creation-template.md",
-        "reference/task-creation.md"
-      ]
-    },
-    {
-      "id": "Prat011/awesome-llm-skills/notion-research-documentation",
-      "name": "notion-research-documentation",
-      "description": "Searches across your Notion workspace, synthesizes findings from multiple pages, and creates comprehensive research documentation saved as new Notion pages. Turns scattered information into structured reports with proper citations and actionable insights.",
-      "categories": ["Documents", "Research"],
-      "author": "Prat011",
-      "repo": "Prat011/awesome-llm-skills",
-      "path": "notion-research-documentation",
-      "commitHash": "d62d6510cf18",
-      "files": [
-        ".DS_Store",
-        "SKILL.md",
-        "evaluations/.DS_Store",
-        "evaluations/README.md",
-        "evaluations/basic-research.json",
-        "evaluations/research-to-database.json",
-        "examples/competitor-analysis.md",
-        "examples/market-research.md",
-        "examples/technical-investigation.md",
-        "examples/trip-planning.md",
-        "reference/advanced-search.md",
-        "reference/citations.md",
-        "reference/comparison-format.md",
-        "reference/comparison-template.md",
-        "reference/comprehensive-report-format.md",
-        "reference/comprehensive-report-template.md",
-        "reference/format-selection-guide.md",
-        "reference/quick-brief-format.md",
-        "reference/quick-brief-template.md",
-        "reference/research-summary-format.md"
-      ]
-    },
-    {
-      "id": "Prat011/awesome-llm-skills/notion-meeting-intelligence",
-      "name": "notion-meeting-intelligence",
-      "description": "Prepares meeting materials by gathering context from Notion, enriching with Claude research, and creating both an internal pre-read and external agenda saved to Notion. Helps you arrive prepared with comprehensive background and structured meeting docs.",
-      "categories": ["Writing", "Integration", "Research"],
-      "author": "Prat011",
-      "repo": "Prat011/awesome-llm-skills",
-      "path": "notion-meeting-intelligence",
-      "commitHash": "d62d6510cf18",
-      "files": [
-        ".DS_Store",
-        "SKILL.md",
-        "evaluations/.DS_Store",
-        "evaluations/README.md",
-        "evaluations/decision-meeting-prep.json",
-        "evaluations/status-meeting-prep.json",
-        "examples/customer-meeting.md",
-        "examples/executive-review.md",
-        "examples/project-decision.md",
-        "examples/sprint-planning.md",
-        "reference/brainstorming-template.md",
-        "reference/decision-meeting-template.md",
-        "reference/one-on-one-template.md",
-        "reference/retrospective-template.md",
-        "reference/sprint-planning-template.md",
-        "reference/status-update-template.md",
-        "reference/template-selection-guide.md"
-      ]
-    },
-    {
-      "id": "BayramAnnakov/claude-reflect",
-      "name": "claude-reflect",
-      "description": "Self-learning system that captures corrections during sessions and reminds users to run /reflect to update CLAUDE.md. Use when discussing learnings, corrections, or when the user mentions remembering something for future sessions.",
-      "categories": ["Other"],
-      "author": "BayramAnnakov",
-      "repo": "BayramAnnakov/claude-reflect",
-      "path": "",
-      "commitHash": "8dc9db43c9bf",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "instavm/coderunner/skills/public/pdf-text-replace",
-      "name": "pdf-text-replace",
-      "description": "Replace text in fillable PDF forms by updating form field values. This skill should be used when users need to update names, addresses, dates, or other text in PDF form fields.",
-      "categories": ["Documents"],
-      "author": "instavm",
-      "repo": "instavm/coderunner",
-      "path": "skills/public/pdf-text-replace",
-      "commitHash": "971310ab8a8f",
-      "files": ["SKILL.md", "scripts"]
-    },
-    {
-      "id": "instavm/coderunner/skills/public/image-crop-rotate",
-      "name": "image-crop-rotate",
-      "description": "Image processing skill for cropping images to 50% from center and rotating them 90 degrees clockwise. This skill should be used when users request image cropping to center, image rotation, or both operations combined on image files.",
-      "categories": ["Other"],
-      "author": "instavm",
-      "repo": "instavm/coderunner",
-      "path": "skills/public/image-crop-rotate",
-      "commitHash": "971310ab8a8f",
-      "files": ["SKILL.md", "scripts"]
-    },
-    {
-      "id": "adithya-s-k/manim_skill/skills/manim-composer",
-      "name": "manim-composer",
-      "description": "Trigger when: (1) User wants to create an educational/explainer video, (2) User has a vague concept they want visualized, (3) User mentions \"3b1b style\" or \"explain like 3Blue1Brown\", (4) User wants to plan a Manim video or animation sequence, (5) User asks to \"compose\" or \"plan\" a math/science visualization.\n\nTransforms vague video ideas into detailed scene-by-scene plans (scenes.md). Conducts research, asks clarifying questions about audience/scope/focus, and outputs comprehensive scene specifications ready for implementation with ManimCE or ManimGL.\n\nUse this BEFORE writing any Manim code. This skill plans the video; use manimce-best-practices or manimgl-best-practices for implementation.\n",
-      "categories": ["Design", "Data & Analytics", "Research", "Media"],
-      "author": "adithya-s-k",
-      "repo": "adithya-s-k/manim_skill",
-      "path": "skills/manim-composer",
-      "commitHash": "66686635fc49",
-      "files": ["SKILL.md", "references", "templates"]
-    },
-    {
-      "id": "adithya-s-k/manim_skill/skills/manimgl-best-practices",
-      "name": "manimgl-best-practices",
-      "description": "Trigger when: (1) User mentions \"manimgl\" or \"ManimGL\" or \"3b1b manim\", (2) Code contains `from manimlib import *`, (3) User runs `manimgl` CLI commands, (4) Working with InteractiveScene, self.frame, self.embed(), ShowCreation(), or ManimGL-specific patterns.\n\nBest practices for ManimGL (Grant Sanderson's 3Blue1Brown version) - OpenGL-based animation engine with interactive development. Covers InteractiveScene, Tex with t2c, camera frame control, interactive mode (-se flag), 3D rendering, and checkpoint_paste() workflow.\n\nNOT for Manim Community Edition (which uses `manim` imports and `manim` CLI).\n",
-      "categories": ["Development", "AI & ML", "Media"],
-      "author": "adithya-s-k",
-      "repo": "adithya-s-k/manim_skill",
-      "path": "skills/manimgl-best-practices",
-      "commitHash": "2375ac0272aa",
-      "files": ["LICENSE.txt", "SKILL.md", "examples", "references", "rules", "templates"]
-    },
-    {
-      "id": "adithya-s-k/manim_skill/skills/manimce-best-practices",
-      "name": "manimce-best-practices",
-      "description": "Trigger when: (1) User mentions \"manim\" or \"Manim Community\" or \"ManimCE\", (2) Code contains `from manim import *`, (3) User runs `manim` CLI commands, (4) Working with Scene, MathTex, Create(), or ManimCE-specific classes.\n\nBest practices for Manim Community Edition - the community-maintained Python animation engine. Covers Scene structure, animations, LaTeX/MathTex, 3D with ThreeDScene, camera control, styling, and CLI usage.\n\nNOT for ManimGL/3b1b version (which uses `manimlib` imports and `manimgl` CLI).\n",
-      "categories": ["Development", "Documents", "AI & ML", "Media"],
-      "author": "adithya-s-k",
-      "repo": "adithya-s-k/manim_skill",
-      "path": "skills/manimce-best-practices",
-      "commitHash": "66686635fc49",
-      "files": ["LICENSE.txt", "SKILL.md", "examples", "rules", "templates"]
-    },
-    {
-      "id": "conorluddy/ios-simulator-skill/ios-simulator-skill",
-      "name": "ios-simulator-skill",
-      "description": "21 production-ready scripts for iOS app testing, building, and automation. Provides semantic UI navigation, build automation, accessibility testing, and simulator lifecycle management. Optimized for AI agents with minimal token output.",
-      "categories": ["Development", "Productivity", "AI & ML"],
-      "author": "conorluddy",
-      "repo": "conorluddy/ios-simulator-skill",
-      "path": "ios-simulator-skill",
-      "commitHash": "19c8349b1d64",
-      "version": "1.3.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "scripts"]
-    },
-    {
-      "id": "geekjourneyx/md2wechat-skill/skills/md2wechat",
-      "name": "md2wechat",
-      "description": "Convert Markdown to WeChat Official Account HTML. Supports API mode (fast) and AI mode (themed). Features writer style assistant, AI trace removal (humanizer), and draft upload.",
-      "categories": ["Design", "Writing", "Documents", "AI & ML"],
-      "author": "geekjourneyx",
-      "repo": "geekjourneyx/md2wechat-skill",
-      "path": "skills/md2wechat",
-      "commitHash": "c0dd9ddbf621",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/tdd-guide",
-      "name": "tdd-guide",
-      "description": "Comprehensive Test Driven Development guide for engineering subagents with multi-framework support, coverage analysis, and intelligent test generation",
-      "categories": ["Development", "AI & ML"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/tdd-guide",
-      "commitHash": "c3420bb0d704",
-      "files": [
-        "HOW_TO_USE.md",
-        "README.md",
-        "SKILL.md",
-        "coverage_analyzer.py",
-        "expected_output.json",
-        "fixture_generator.py",
-        "format_detector.py",
-        "framework_adapter.py",
-        "metrics_calculator.py",
-        "output_formatter.py",
-        "sample_coverage_report.lcov",
-        "sample_input_python.json",
-        "sample_input_typescript.json",
-        "tdd_workflow.py",
-        "test_generator.py"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/hook-factory",
-      "name": "hook-factory",
-      "description": "Generate production-ready Claude Code hooks with interactive Q&A, automated installation, and enhanced validation. Supports 10 templates across 7 event types for comprehensive workflow automation.",
-      "categories": ["Productivity"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/hook-factory",
-      "commitHash": "928705681ab7",
-      "version": "2.0.0",
-      "tags": [
-        "hooks",
-        "automation",
-        "code-generation",
-        "workflow",
-        "productivity",
-        "interactive",
-        "installer"
-      ],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "README.md",
-        "SKILL.md",
-        "examples",
-        "generator.py",
-        "hook_factory.py",
-        "install-hook.sh",
-        "installer.py",
-        "templates.json",
-        "validator.py"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/agent-factory",
-      "name": "agent-factory",
-      "description": "Claude Code agent generation system that creates custom agents and sub-agents with enhanced YAML frontmatter, tool access patterns, and MCP integration support following proven production patterns",
-      "categories": ["Development", "Integration", "AI & ML"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/agent-factory",
-      "commitHash": "60efb74283ee",
-      "files": [
-        "HOW_TO_USE.md",
-        "SKILL.md",
-        "agent_generator.py",
-        "expected_output.json",
-        "generated-agents",
-        "sample_input.json"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/prompt-factory",
-      "name": "prompt-factory",
-      "description": "World-class prompt powerhouse that generates production-ready mega-prompts for any role, industry, and task through intelligent 7-question flow, 69 comprehensive presets across 15 professional domains (technical, business, creative, legal, finance, HR, design, customer, executive, manufacturing, R&D, regulatory, specialized-technical, research, creative-media), multiple output formats (XML/Claude/ChatGPT/Gemini), quality validation gates, and contextual best practices from OpenAI/Anthropic/Google. Supports both core and advanced modes with testing scenarios and prompt variations.",
-      "categories": ["Development", "Design", "Productivity", "Research", "AI & ML"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/prompt-factory",
-      "commitHash": "b00515b36b5a",
-      "files": [
-        "CHANGELOG.md",
-        "HOW_TO_USE.md",
-        "README.md",
-        "SKILL.md",
-        "examples",
-        "outputs",
-        "references",
-        "requirements.txt",
-        "scripts",
-        "templates"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/codex-cli-bridge",
-      "name": "codex-cli-bridge",
-      "description": "Bridge between Claude Code and OpenAI Codex CLI - generates AGENTS.md from CLAUDE.md, provides Codex CLI execution helpers, and enables seamless interoperability between both tools",
-      "categories": ["AI & ML"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/codex-cli-bridge",
-      "commitHash": "e4afc5d1db47",
-      "files": [
-        "CHANGELOG.md",
-        "HOW_TO_USE.md",
-        "INSTALL.md",
-        "README.md",
-        "SKILL.md",
-        "agents_md_generator.py",
-        "bridge.py",
-        "claude_parser.py",
-        "codex_executor.py",
-        "expected_output.json",
-        "package.sh",
-        "project_analyzer.py",
-        "safety_mechanism.py",
-        "sample_input.json",
-        "skill_documenter.py"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/scrum-master-agent",
-      "name": "scrum-master-agent",
-      "description": "Comprehensive Scrum Master assistant for sprint planning, backlog grooming, retrospectives, capacity planning, and daily standups with intelligent context-aware reporting",
-      "categories": ["Business", "AI & ML"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/scrum-master-agent",
-      "commitHash": "c3420bb0d704",
-      "files": [
-        "HOW_TO_USE.md",
-        "README.md",
-        "SKILL.md",
-        "calculate_metrics.py",
-        "config.example.yaml",
-        "detect_context.py",
-        "expected_output.json",
-        "format_output.py",
-        "notify_channels.py",
-        "parse_input.py",
-        "prioritize_backlog.py",
-        "sample_input_csv.csv",
-        "sample_input_jira.json",
-        "sample_input_linear.json",
-        "tool_adapters.py"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/claude-md-enhancer",
-      "name": "claude-md-enhancer",
-      "description": "Analyzes, generates, and enhances CLAUDE.md files for any project type using best practices, modular architecture support, and tech stack customization. Use when setting up new projects, improving existing CLAUDE.md files, or establishing AI-assisted development standards.",
-      "categories": ["Development", "Productivity", "AI & ML"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/claude-md-enhancer",
-      "commitHash": "61135a053f00",
-      "files": [
-        "HOW_TO_USE.md",
-        "README.md",
-        "SKILL.md",
-        "analyzer.py",
-        "examples",
-        "expected_output.json",
-        "generator.py",
-        "sample_input.json",
-        "template_selector.py",
-        "validator.py",
-        "workflow.py"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/tech-stack-evaluator",
-      "name": "tech-stack-evaluator",
-      "description": "Comprehensive technology stack evaluation and comparison tool with TCO analysis, security assessment, and intelligent recommendations for engineering teams",
-      "categories": ["Other"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/tech-stack-evaluator",
-      "commitHash": "c3420bb0d704",
-      "files": [
-        "HOW_TO_USE.md",
-        "README.md",
-        "SKILL.md",
-        "ecosystem_analyzer.py",
-        "expected_output_comparison.json",
-        "format_detector.py",
-        "migration_analyzer.py",
-        "report_generator.py",
-        "sample_input_structured.json",
-        "sample_input_tco.json",
-        "sample_input_text.json",
-        "security_assessor.py",
-        "stack_comparator.py",
-        "tco_calculator.py"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/ms365-tenant-manager",
-      "name": "ms365-tenant-manager",
-      "description": "Comprehensive Microsoft 365 tenant administration skill for setup, configuration, user management, security policies, and organizational structure optimization for Global Administrators",
-      "categories": ["Productivity"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/ms365-tenant-manager",
-      "commitHash": "519262f93ee6",
-      "files": [
-        "HOW_TO_USE.md",
-        "SKILL.md",
-        "__pycache__",
-        "expected_output.json",
-        "powershell_generator.py",
-        "sample_input.json",
-        "tenant_setup.py",
-        "user_management.py"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/social-media-analyzer",
-      "name": "social-media-analyzer",
-      "description": "Analyzes social media campaign performance across platforms with engagement metrics, ROI calculations, and audience insights for data-driven marketing decisions",
-      "categories": ["Data & Analytics", "Marketing"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/social-media-analyzer",
-      "commitHash": "bd0c0e931b1a",
-      "files": [
-        "HOW_TO_USE.md",
-        "SKILL.md",
-        "analyze_performance.py",
-        "calculate_metrics.py",
-        "expected_output.json",
-        "sample_input.json"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/slash-command-factory",
-      "name": "slash-command-factory",
-      "description": "Generate custom Claude Code slash commands through intelligent 5-7 question flow. Creates powerful commands for business research, content analysis, healthcare compliance, API integration, documentation automation, and workflow optimization. Outputs organized commands to generated-commands/ with validation and installation guidance.",
-      "categories": ["Development", "Writing", "Productivity", "Research"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/slash-command-factory",
-      "commitHash": "440f81434c25",
-      "files": [
-        "HOW_TO_USE.md",
-        "SKILL.md",
-        "command_generator.py",
-        "expected_output.json",
-        "presets.json",
-        "sample_input.json",
-        "validator.py"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/aws-solution-architect",
-      "name": "aws-solution-architect",
-      "description": "Expert AWS solution architecture for startups focusing on serverless, scalable, and cost-effective cloud infrastructure with modern DevOps practices and infrastructure-as-code",
-      "categories": ["Development", "DevOps"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/aws-solution-architect",
-      "commitHash": "519262f93ee6",
-      "files": [
-        "HOW_TO_USE.md",
-        "SKILL.md",
-        "__pycache__",
-        "architecture_designer.py",
-        "cost_optimizer.py",
-        "expected_output.json",
-        "sample_input.json",
-        "serverless_stack.py"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/content-trend-researcher",
-      "name": "content-trend-researcher",
-      "description": "Advanced content and topic research skill that analyzes trends across Google Analytics, Google Trends, Substack, Medium, Reddit, LinkedIn, X, blogs, podcasts, and YouTube to generate data-driven article outlines based on user intent analysis",
-      "categories": ["Writing", "Data & Analytics", "Research", "Media"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/content-trend-researcher",
-      "commitHash": "f6af47207fef",
-      "files": [
-        "HOW_TO_USE.md",
-        "SKILL.md",
-        "expected_output.json",
-        "intent_analyzer.py",
-        "outline_generator.py",
-        "platform_insights.py",
-        "sample_input.json",
-        "trend_analyzer.py"
-      ]
-    },
-    {
-      "id": "rohitg00/skillkit/skills/find-skills",
-      "name": "find-skills",
-      "description": "Discovers, searches, and installs skills from multiple AI agent skill marketplaces (400K+ skills) using the SkillKit CLI. Supports browsing official partner collections (Anthropic, Vercel, Supabase, Stripe, and more) and community repositories, searching by domain or technology, and installing specific skills from GitHub. Use when the user wants to find, browse, or install new agent skills, plugins, extensions, or add-ons; asks 'is there a skill for X' or 'find a skill for X'; wants to explore a skill store or marketplace; needs to extend agent capabilities in areas like React, testing, DevOps, security, or APIs; or says 'browse skills', 'search skill marketplace', 'install a skill', or 'what skills are available'.",
-      "categories": ["Development", "Integration", "Research", "AI & ML"],
-      "author": "rohitg00",
-      "repo": "rohitg00/skillkit",
-      "path": "skills/find-skills",
-      "commitHash": "46153e6eb05d",
-      "version": "1.0.0",
-      "tags": ["meta", "discovery", "marketplace", "skills"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rohitg00/skillkit/packages/core/src/methodology/packs/meta/skill-authoring",
-      "name": "skill-authoring",
-      "description": "Creates and structures SKILL.md files for AI coding agents, including YAML frontmatter, trigger phrases, directive instructions, decision trees, code examples, and verification checklists. Use when the user asks to write a new skill, create a skill file, author agent capabilities, generate skill documentation, or define a skill template for Claude Code agents.",
-      "categories": ["Development", "Writing", "Productivity", "Documents", "AI & ML"],
-      "author": "rohitg00",
-      "repo": "rohitg00/skillkit",
-      "path": "packages/core/src/methodology/packs/meta/skill-authoring",
-      "commitHash": "06d1ba6420d1",
-      "version": "1.0.0",
-      "tags": ["meta", "authoring", "skills", "writing"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rohitg00/skillkit/packages/core/src/methodology/packs/testing/anti-patterns",
-      "name": "testing-anti-patterns",
-      "description": "Reviews test code to identify and fix common testing anti-patterns including flaky tests, over-mocking, brittle assertions, test interdependency, and hidden test logic. Flags bad patterns, explains the specific defect, and provides corrected implementations. Use when reviewing test code, debugging intermittent or unreliable test failures, or when the user mentions flaky tests, test smells, brittle tests, test isolation issues, mock overuse, slow tests, or test maintenance problems.",
-      "categories": ["Development"],
-      "author": "rohitg00",
-      "repo": "rohitg00/skillkit",
-      "path": "packages/core/src/methodology/packs/testing/anti-patterns",
-      "commitHash": "06d1ba6420d1",
-      "version": "1.0.0",
-      "tags": ["testing", "anti-patterns", "quality", "code-smells"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rohitg00/skillkit/packages/core/src/methodology/packs/planning/design-first",
-      "name": "design-first",
-      "description": "Guides the creation of technical design documents before writing code, producing architecture diagrams, data models, API interface definitions, implementation plans, and multi-option trade-off analyses. Use when the user asks to plan a feature, architect a system, design an API, explore implementation approaches, or requests a technical design or spec before coding — especially for complex features involving multiple components, ambiguous requirements, or significant architectural changes.",
-      "categories": ["Development", "Design"],
-      "author": "rohitg00",
-      "repo": "rohitg00/skillkit",
-      "path": "packages/core/src/methodology/packs/planning/design-first",
-      "commitHash": "06d1ba6420d1",
-      "version": "1.0.0",
-      "tags": ["planning", "design", "architecture", "thinking"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rohitg00/skillkit/packages/core/src/methodology/packs/planning/verification-gates",
-      "name": "verification-gates",
-      "description": "Creates explicit validation checkpoints (verification gates) between project phases to catch errors early and ensure quality before proceeding. Use when the user asks about quality gates, milestone checks, phase transitions, approval steps, go/no-go decision points, or preventing cascading errors across a multi-step workflow. Produces acceptance criteria checklists, automated CI gate configurations, manual sign-off requirements, and conditional review rules for scenarios such as security changes, API changes, or database migrations.",
-      "categories": ["Productivity", "Data & Analytics"],
-      "author": "rohitg00",
-      "repo": "rohitg00/skillkit",
-      "path": "packages/core/src/methodology/packs/planning/verification-gates",
-      "commitHash": "06d1ba6420d1",
-      "version": "1.0.0",
-      "tags": ["planning", "verification", "quality", "gates"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rohitg00/skillkit/packages/core/src/methodology/packs/debugging/hypothesis-testing",
-      "name": "hypothesis-testing",
-      "description": "Applies the scientific method to debugging by helping users form specific, testable hypotheses, design targeted experiments, and systematically confirm or reject theories to find root causes. Use when a user says their code isn't working, they're getting an error, something broke, they want to troubleshoot a bug, or they're trying to figure out what's causing an issue. Concrete actions include isolating failing components, forming and testing hypotheses, analyzing error messages, tracing execution paths, and interpreting test results to narrow down root causes.",
-      "categories": ["Development", "Documents"],
-      "author": "rohitg00",
-      "repo": "rohitg00/skillkit",
-      "path": "packages/core/src/methodology/packs/debugging/hypothesis-testing",
-      "commitHash": "06d1ba6420d1",
-      "version": "1.0.0",
-      "tags": ["debugging", "scientific-method", "investigation", "validation"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rohitg00/skillkit/packages/core/src/methodology/packs/debugging/root-cause-analysis",
-      "name": "root-cause-analysis",
-      "description": "Performs systematic root cause analysis to identify the true source of bugs, errors, and unexpected behavior through structured investigation phases — not just treating symptoms. Use when a user reports a bug, crash, error, or broken behavior and needs to debug, troubleshoot, or investigate why something is not working; especially for complex or intermittent issues across multiple components. Applies the Five Whys method, hypothesis-driven testing, stack trace analysis, git blame/log evidence gathering, and causal chain documentation to isolate and confirm root causes before applying any fix.",
-      "categories": ["Development", "Data & Analytics", "Documents", "Research"],
-      "author": "rohitg00",
-      "repo": "rohitg00/skillkit",
-      "path": "packages/core/src/methodology/packs/debugging/root-cause-analysis",
-      "commitHash": "06d1ba6420d1",
-      "version": "1.0.0",
-      "tags": ["debugging", "investigation", "problem-solving", "systematic"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rohitg00/skillkit/packages/core/src/methodology/packs/collaboration/structured-review",
-      "name": "structured-code-review",
-      "description": "Performs a structured five-stage code review covering requirements compliance, correctness, code quality, testing, and security/performance. Each stage uses targeted checklists and categorized feedback (Blocker/Major/Minor/Nit) with actionable suggestions and rationale. Use when the user asks for code review, PR feedback, pull request review, or wants their code checked for bugs, style issues, or vulnerabilities — triggered by phrases like \"review my code\", \"check this PR\", \"review my changes\", \"pull request review\", or \"code feedback\".",
-      "categories": ["Development", "Security", "Design"],
-      "author": "rohitg00",
-      "repo": "rohitg00/skillkit",
-      "path": "packages/core/src/methodology/packs/collaboration/structured-review",
-      "commitHash": "06d1ba6420d1",
-      "version": "1.0.0",
-      "tags": ["collaboration", "code-review", "quality", "feedback"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rohitg00/skillkit/packages/core/src/methodology/packs/collaboration/parallel-investigation",
-      "name": "parallel-investigation",
-      "description": "Coordinates parallel investigation threads to simultaneously explore multiple hypotheses or root causes across different system areas. Use when debugging production incidents, slow API performance, multi-system integration failures, or complex bugs where the root cause is unclear and multiple plausible theories exist; when serial troubleshooting is too slow; or when multiple investigators can divide root-cause analysis work. Provides structured phases for problem decomposition, thread assignment, sync points with Continue/Pivot/Converge decisions, and final report synthesis.",
-      "categories": ["Development", "DevOps", "Data & Analytics", "Integration"],
-      "author": "rohitg00",
-      "repo": "rohitg00/skillkit",
-      "path": "packages/core/src/methodology/packs/collaboration/parallel-investigation",
-      "commitHash": "06d1ba6420d1",
-      "version": "1.0.0",
-      "tags": ["collaboration", "investigation", "parallel", "problem-solving"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rohitg00/skillkit/packages/core/src/methodology/packs/planning/task-decomposition",
-      "name": "task-decomposition",
-      "description": "Breaks down complex software, writing, or research tasks into small, atomic, independently completable units with dependency graphs and milestone breakdowns. Use when the user asks to plan a project, decompose a feature, create subtasks, split up work, or needs help organizing a large piece of work into a step-by-step plan. Triggered by phrases like \"break down\", \"decompose\", \"where do I start\", \"too big\", \"split into tasks\", \"work breakdown\", or \"task list\".",
-      "categories": ["Productivity", "Documents", "Research"],
-      "author": "rohitg00",
-      "repo": "rohitg00/skillkit",
-      "path": "packages/core/src/methodology/packs/planning/task-decomposition",
-      "commitHash": "06d1ba6420d1",
-      "version": "1.0.0",
-      "tags": ["planning", "decomposition", "tasks", "organization"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rohitg00/skillkit/packages/core/src/methodology/packs/debugging/trace-and-isolate",
-      "name": "trace-and-isolate",
-      "description": "Applies systematic tracing and isolation techniques to pinpoint exactly where a bug originates in code. Use when a bug is hard to locate, code is not working as expected, an error or crash appears with unclear cause, a regression was introduced between recent commits, or you need to narrow down which component, function, or line is faulty. Covers binary search debugging, git bisect for regressions, strategic logging with [TRACE] patterns, data and control flow tracing, component isolation, minimal reproduction cases, conditional breakpoints, and watch expressions across TypeScript, SQL, and bash.",
-      "categories": ["Development", "Data & Analytics"],
-      "author": "rohitg00",
-      "repo": "rohitg00/skillkit",
-      "path": "packages/core/src/methodology/packs/debugging/trace-and-isolate",
-      "commitHash": "06d1ba6420d1",
-      "version": "1.0.0",
-      "tags": ["debugging", "tracing", "isolation", "bisect"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rohitg00/skillkit/packages/core/src/methodology/packs/testing/red-green-refactor",
-      "name": "red-green-refactor",
-      "description": "Guides the red-green-refactor TDD workflow: write a failing test first, implement the minimum code to make it pass, then refactor while keeping tests green. Use when a user asks to practice TDD, write tests first, follow red-green-refactor, do test-driven development, write failing tests before code, or phrases like 'make the test pass', 'test coverage', or 'unit tests before implementation'.",
-      "categories": ["Development", "AI & ML"],
-      "author": "rohitg00",
-      "repo": "rohitg00/skillkit",
-      "path": "packages/core/src/methodology/packs/testing/red-green-refactor",
-      "commitHash": "06d1ba6420d1",
-      "version": "1.0.0",
-      "tags": ["tdd", "testing", "quality", "methodology"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rohitg00/skillkit/packages/core/src/methodology/packs/collaboration/handoff-protocols",
-      "name": "handoff-protocols",
-      "description": "Manages work transitions between team members or agents by creating structured handoff documents, summarizing project status, documenting key decisions, blockers, and open questions, and generating onboarding briefs. Use when someone needs to hand off, hand over, or transition a project; pass work to another person or agent; brief a colleague taking over; prepare a shift change summary; or onboard someone mid-task. Produces ready-to-use handoff documents covering current status, next steps, known issues, technical context, and communication templates for both planned and unplanned transfers.",
-      "categories": ["Writing", "Productivity", "Business"],
-      "author": "rohitg00",
-      "repo": "rohitg00/skillkit",
-      "path": "packages/core/src/methodology/packs/collaboration/handoff-protocols",
-      "commitHash": "06d1ba6420d1",
-      "version": "1.0.0",
-      "tags": ["collaboration", "handoff", "communication", "context"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rohitg00/skillkit/packages/core/src/eval/__tests__/fixtures/good-skill",
-      "name": "typescript-best-practices",
-      "description": "Enforces TypeScript best practices and modern patterns",
-      "categories": ["Development"],
-      "author": "rohitg00",
-      "repo": "rohitg00/skillkit",
-      "path": "packages/core/src/eval/__tests__/fixtures/good-skill",
-      "commitHash": "5691b10c7e63",
-      "version": "1.0.0",
-      "tags": ["typescript", "best-practices", "code-quality"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rohitg00/skillkit/packages/core/src/methodology/packs/testing/test-patterns",
-      "name": "test-patterns",
-      "description": "Applies proven testing patterns — Arrange-Act-Assert (AAA), Given-When-Then, Test Data Builders, Object Mother, parameterized tests, fixtures, spies, and test doubles — to help write maintainable, reliable, and readable test suites. Use when the user asks about writing unit tests, integration tests, or end-to-end tests; structuring test cases or test suites; applying TDD or BDD practices; working with mocks, stubs, spies, or fakes; improving test coverage or reducing flakiness; or needs guidance on test organization, naming conventions, or assertions in frameworks like Jest, Vitest, pytest, or similar.",
-      "categories": ["Development", "Writing", "AI & ML"],
-      "author": "rohitg00",
-      "repo": "rohitg00/skillkit",
-      "path": "packages/core/src/methodology/packs/testing/test-patterns",
-      "commitHash": "06d1ba6420d1",
-      "version": "1.0.0",
-      "tags": ["testing", "patterns", "quality", "best-practices"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rohitg00/skillkit/packages/core/src/eval/__tests__/fixtures/eval-injection-skill",
-      "name": "eval-injection-test",
-      "description": "Skill with injected eval patterns for security testing",
-      "categories": ["Development", "Security"],
-      "author": "rohitg00",
-      "repo": "rohitg00/skillkit",
-      "path": "packages/core/src/eval/__tests__/fixtures/eval-injection-skill",
-      "commitHash": "5691b10c7e63",
-      "version": "1.0.0",
-      "tags": ["test", "security"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "tripleyak/SkillForge",
-      "name": "skillforge",
-      "description": "Intelligent skill router and creator. Analyzes ANY input to recommend existing skills, improve them, or create new ones. Uses deep iterative analysis with 11 thinking models, regression questioning, evolution lens, and multi-agent synthesis panel. Phase 0 triage ensures you never duplicate existing functionality.",
-      "categories": ["AI & ML"],
-      "author": "tripleyak",
-      "repo": "tripleyak/SkillForge",
-      "path": "",
-      "commitHash": "f07042f09793",
-      "files": ["SKILL.md"]
-    },
     {
       "id": "rudrankriyam/app-store-connect-cli-skills/skills/asc-workflow",
       "name": "asc-workflow",
@@ -6105,237 +4762,6 @@
       "files": ["SKILL.md", "references", "scripts", "tests"]
     },
     {
-      "id": "kazukinagata/shinkoku/skills/e-tax",
-      "name": "e-tax",
-      "description": "This skill should be used when the user wants to file their tax return electronically via the 確定申告書等作成コーナー (NTA Tax Return Preparation Corner) using Claude in Chrome, Antigravity Browser Sub-Agent, or Playwright CLI (fallback). It guides the browser-based input of calculated tax data. Trigger phrases include: \"e-Tax提出\", \"電子申告\", \"e-Taxで申告\", \"作成コーナーに入力\", \"確定申告書等作成コーナー\", \"作成コーナー\", \"申告書を提出\".\n",
-      "categories": ["AI & ML"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/e-tax",
-      "commitHash": "f87523999582",
-      "files": ["SKILL.md", "research", "scripts"]
-    },
-    {
-      "id": "kazukinagata/shinkoku/skills/setup",
-      "name": "setup",
-      "description": "This skill should be used when the user wants to set up shinkoku for the first time, initialize their configuration, or update their existing settings. Trigger phrases include: \"セットアップ\", \"初期設定\", \"設定ファイルを作る\", \"shinkokuの設定\", \"config\", \"setup\", \"始め方\", \"使い方\", \"設定を更新\", \"configを作り直す\".\n",
-      "categories": ["Productivity"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/setup",
-      "commitHash": "9a65d4133dff",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "kazukinagata/shinkoku/skills/submit",
-      "name": "submit",
-      "description": "This skill should be used when the user is ready to submit their tax return, needs a final review checklist, wants to know how to submit (e-Tax, mail, or in-person), or asks about common mistakes before submission. Trigger phrases include: \"提出準備\", \"提出方法\", \"e-Taxで提出\", \"チェックリスト\", \"申告書の確認\", \"提出前の確認\", \"郵送で提出\", \"税務署に持っていく\", \"提出期限\".\n",
-      "categories": ["Other"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/submit",
-      "commitHash": "724e5a27d4ef",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "kazukinagata/shinkoku/skills/assess",
-      "name": "assess",
-      "description": "This skill should be used when the user asks to determine what tax filings they need, wants to know if they must file a tax return (確定申告), asks about consumption tax obligations (消費税), or needs help understanding their filing requirements. Trigger phrases include: \"確定申告が必要か\", \"申告の種類\", \"消費税の届出\", \"課税事業者かどうか\", \"何を申告すればいい\", \"申告要否\", \"税金の申告\", \"住民税の申告\".\n",
-      "categories": ["Other"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/assess",
-      "commitHash": "724e5a27d4ef",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "kazukinagata/shinkoku/skills/gather",
-      "name": "gather",
-      "description": "This skill should be used when the user needs to know what documents to collect for their tax filing, wants a checklist of required documents, or asks where to obtain specific tax documents. Trigger phrases include: \"必要書類\", \"書類を集める\", \"何を準備すればいい\", \"源泉徴収票はどこで\", \"書類チェックリスト\", \"確定申告に必要なもの\", \"書類収集\", \"準備するもの\".\n",
-      "categories": ["Other"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/gather",
-      "commitHash": "724e5a27d4ef",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "kazukinagata/shinkoku/skills/journal",
-      "name": "journal",
-      "description": "This skill should be used when the user wants to record bookkeeping entries (仕訳), import transaction data from CSV files, receipts, or invoices, or manage their general ledger. Trigger phrases include: \"仕訳を入力\", \"仕訳登録\", \"CSVを取り込む\", \"レシートを読み込む\", \"請求書を取り込む\", \"帳簿を付ける\", \"経費を記録\", \"売上を記録\", \"仕訳を修正\", \"仕訳を検索\", \"仕訳を削除\", \"取引を登録\", \"帳簿の初期化\".\n",
-      "categories": ["Data & Analytics", "Documents"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/journal",
-      "commitHash": "296d9e9cc1fb",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "kazukinagata/shinkoku/skills/furusato",
-      "name": "furusato",
-      "description": "This skill manages furusato nozei (hometown tax) donations. Use when the user wants to register donation data, read donation receipts, check deduction limits, or manage their furusato nozei records. Trigger phrases: \"ふるさと納税\", \"furusato\", \"寄附金\", \"寄付金\", \"ふるさと納税の控除\", \"寄附金受領証明書\", \"ワンストップ特例\".\n",
-      "categories": ["Other"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/furusato",
-      "commitHash": "deda82589739",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "kazukinagata/shinkoku/skills/income-tax",
-      "name": "income-tax",
-      "description": "This skill should be used when the user needs to calculate their income tax (所得税), compute deductions, or import withholding slips. Trigger phrases include: \"所得税を計算\", \"確定申告書を作成\", \"控除を計算\", \"源泉徴収票を取り込む\", \"所得税額\", \"納付額を計算\", \"還付額を計算\", \"第一表\", \"第二表\", \"申告書B\", \"所得控除\", \"税額控除\".\n",
-      "categories": ["Other"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/income-tax",
-      "commitHash": "724e5a27d4ef",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "kazukinagata/shinkoku/skills/settlement",
-      "name": "settlement",
-      "description": "This skill should be used when the user needs to perform year-end closing adjustments (決算整理), review financial statements (決算書), compute depreciation, or review their trial balance. Trigger phrases include: \"決算\", \"決算整理\", \"決算書を作る\", \"減価償却\", \"試算表\", \"残高試算表\", \"損益計算書\", \"貸借対照表\", \"BS\", \"PL\", \"期末処理\", \"棚卸し\", \"未払計上\", \"前払処理\".\n",
-      "categories": ["Other"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/settlement",
-      "commitHash": "296d9e9cc1fb",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "kazukinagata/shinkoku/skills/tax-advisor",
-      "name": "tax-advisor",
-      "description": "This skill should be used when the user asks tax-related questions, wants advice on deductions or tax savings, or needs expert guidance equivalent to a tax accountant (税理士) or life planner. Trigger phrases include: \"税金について教えて\", \"控除は使える？\", \"確定申告の相談\", \"節税\", \"ふるさと納税の上限\", \"iDeCoの効果\", \"住宅ローン控除\", \"青色申告のメリット\", \"消費税はかかる？\", \"扶養に入れる？\", \"配偶者控除\", \"医療費控除\", \"法人成り\", \"経費になる？\", \"税率を教えて\", \"所得税の計算\", \"住民税\", \"社会保険料\", \"103万の壁\", \"130万の壁\", \"インボイス\", \"簡易課税\", \"税制改正\", \"開業届\", \"副業バレ\", \"白色申告\", \"税務調査\", \"特定支出控除\", \"予定納税\", \"中間納付\".\n",
-      "categories": ["Other"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/tax-advisor",
-      "commitHash": "724e5a27d4ef",
-      "files": ["README.md", "SKILL.md", "reference"]
-    },
-    {
-      "id": "kazukinagata/shinkoku/skills/incorporation",
-      "name": "incorporation",
-      "description": "法人成り（個人事業主から法人への移行）に関する相談。税額比較シミュレーション、 法人形態の選択、設立手続き、役員報酬戦略、社会保険の比較を支援する。 Trigger: \"法人成り\", \"会社設立\", \"法人化\", \"株式会社にしたい\", \"合同会社\", \"法人税と所得税の比較\", \"役員報酬\", \"法人成りのタイミング\", \"マイクロ法人\", \"1人法人\"\n",
-      "categories": ["Other"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/incorporation",
-      "commitHash": "21cd309a406f",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "kazukinagata/shinkoku/skills/invoice-system",
-      "name": "invoice-system",
-      "description": "This skill should be used when the user asks about the invoice system (インボイス制度), qualified invoices (適格請求書), registration numbers (登録番号), input tax credits (仕入税額控除), the 20% special measure (2割特例), the 30% special measure (3割特例), tax-exempt businesses (免税事業者), transitional measures (経過措置), small-amount exceptions (少額特例), corrected invoices (修正インボイス), or any related topics. Trigger phrases include: \"インボイス\", \"適格請求書\", \"登録番号\", \"仕入税額控除\", \"2割特例\", \"3割特例\", \"免税事業者\", \"経過措置\", \"少額特例\", \"修正インボイス\", \"返還インボイス\", \"簡易インボイス\", \"インボイス登録\", \"T番号\", \"適格請求書発行事業者\".\n",
-      "categories": ["Finance"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/invoice-system",
-      "commitHash": "724e5a27d4ef",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "kazukinagata/shinkoku/skills/consumption-tax",
-      "name": "consumption-tax",
-      "description": "This skill should be used when the user needs to calculate consumption tax (消費税) or determine their tax method (2割特例, 簡易課税, or 本則課税). Trigger phrases include: \"消費税を計算\", \"消費税の申告\", \"消費税申告書\", \"2割特例\", \"簡易課税\", \"本則課税\", \"課税売上\", \"消費税額\", \"インボイス\", \"みなし仕入率\", \"課税仕入\".\n",
-      "categories": ["Other"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/consumption-tax",
-      "commitHash": "724e5a27d4ef",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "kazukinagata/shinkoku/skills/reading-payment-statement",
-      "name": "reading-payment-statement",
-      "description": "支払調書の画像を読み取り構造化データを返す。 他のスキルから呼び出されるほか、直接ユーザーが呼び出すことも可能。\n",
-      "categories": ["Other"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/reading-payment-statement",
-      "commitHash": "5f6f2c80aa63",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "kazukinagata/shinkoku/skills/reading-invoice",
-      "name": "reading-invoice",
-      "description": "請求書の画像を読み取り構造化データを返す。 他のスキルから呼び出されるほか、直接ユーザーが呼び出すことも可能。\n",
-      "categories": ["Other"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/reading-invoice",
-      "commitHash": "5f6f2c80aa63",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "kazukinagata/shinkoku/skills/reading-withholding",
-      "name": "reading-withholding",
-      "description": "源泉徴収票の画像を読み取り構造化データを返す。 他のスキルから呼び出されるほか、直接ユーザーが呼び出すことも可能。\n",
-      "categories": ["Other"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/reading-withholding",
-      "commitHash": "5f6f2c80aa63",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "kazukinagata/shinkoku/skills/e-bookkeeping-compliance",
-      "name": "e-bookkeeping-compliance",
-      "description": "優良な電子帳簿の要件チェック・コンプライアンス診断を実行する。 「優良な電子帳簿」「電帳法対応」「電子帳簿の要件確認」 「税務調査の準備」「75万円控除の条件」「帳簿の要件を満たしているか」 「e-bookkeeping compliance」で起動。\n",
-      "categories": ["Other"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/e-bookkeeping-compliance",
-      "commitHash": "724e5a27d4ef",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "kazukinagata/shinkoku/skills/capabilities",
-      "name": "capabilities",
-      "description": "Display shinkoku's current capabilities, supported personas, and known limitations. Use when the user asks \"what can you do?\", \"what's supported?\", or similar questions.\n",
-      "categories": ["Other"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/capabilities",
-      "commitHash": "296d9e9cc1fb",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "kazukinagata/shinkoku/skills/tax-invoice-credit-context",
-      "name": "tax-invoice-credit-context",
-      "description": "Background context for invoice-system input tax credit rules (仕入税額控除) in the shinkoku tax filing plugin. Contains eligibility requirements, the 6 permanent exceptions (帳簿のみ保存の恒久特例), transitional measures for purchases from tax-exempt businesses, and storage requirements. This skill is not user-invocable — Claude loads it automatically when responding to input tax credit questions under the invoice system.\n",
-      "categories": ["Writing", "Finance", "AI & ML"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/tax-invoice-credit-context",
-      "commitHash": "724e5a27d4ef",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "kazukinagata/shinkoku/skills/reading-deduction-cert",
-      "name": "reading-deduction-cert",
-      "description": "控除証明書（生命保険料・地震保険料等）の画像を読み取り構造化データを返す。 他のスキルから呼び出されるほか、直接ユーザーが呼び出すことも可能。\n",
-      "categories": ["Other"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/reading-deduction-cert",
-      "commitHash": "5f6f2c80aa63",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "kazukinagata/shinkoku/skills/reading-receipt",
-      "name": "reading-receipt",
-      "description": "レシート・領収書・ふるさと納税受領証明書の画像を読み取り構造化データを返す。 他のスキルから呼び出されるほか、直接ユーザーが呼び出すことも可能。\n",
-      "categories": ["Other"],
-      "author": "kazukinagata",
-      "repo": "kazukinagata/shinkoku",
-      "path": "skills/reading-receipt",
-      "commitHash": "5f6f2c80aa63",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
       "id": "ancoleman/ai-design-components/skills/administering-linux",
       "name": "administering-linux",
       "description": "Manage Linux systems covering systemd services, process management, filesystems, networking, performance tuning, and troubleshooting. Use when deploying applications, optimizing server performance, diagnosing production issues, or managing users and security on Linux servers.",
@@ -7227,134 +5653,6 @@
       "path": "swift-testing-expert",
       "commitHash": "a5cd574599b1",
       "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "huangjia2019/claude-code-engineering/04-Skills/projects/00-basic-skill",
-      "name": "code-reviewing",
-      "description": "Review code for quality, security, and best practices. Use when the user asks for code review, wants feedback on their code, mentions reviewing changes, or asks about code quality.",
-      "categories": ["Development"],
-      "author": "huangjia2019",
-      "repo": "huangjia2019/claude-code-engineering",
-      "path": "04-Skills/projects/00-basic-skill",
-      "commitHash": "dd9417d5ab19",
-      "files": [".claude", "README.md", "SKILL.md", "src"]
-    },
-    {
-      "id": "huangjia2019/claude-code-engineering/04-Skills/projects/08-skill-pipeline/.claude/skills/doc-writing",
-      "name": "doc-writing",
-      "description": "Generate API documentation from a route manifest. Use when you have a list of discovered routes and need to produce markdown documentation.",
-      "categories": ["Writing", "Documents"],
-      "author": "huangjia2019",
-      "repo": "huangjia2019/claude-code-engineering",
-      "path": "04-Skills/projects/08-skill-pipeline/.claude/skills/doc-writing",
-      "commitHash": "a9dcd18730f4",
-      "files": ["SKILL.md", "templates"]
-    },
-    {
-      "id": "huangjia2019/claude-code-engineering/04-Skills/projects/05-api-generator",
-      "name": "api-generating",
-      "description": "Generate API endpoint code and documentation from specifications. Use when the user wants to create new API endpoints, generate route handlers, scaffold REST APIs, or produce OpenAPI/Swagger specs from code.",
-      "categories": ["Development", "Productivity"],
-      "author": "huangjia2019",
-      "repo": "huangjia2019/claude-code-engineering",
-      "path": "04-Skills/projects/05-api-generator",
-      "commitHash": "dd9417d5ab19",
-      "files": [
-        ".claude",
-        "EXAMPLES.md",
-        "PATTERNS.md",
-        "README.md",
-        "SKILL.md",
-        "STANDARDS.md",
-        "scripts",
-        "templates"
-      ]
-    },
-    {
-      "id": "huangjia2019/claude-code-engineering/04-Skills/projects/08-skill-pipeline/.claude/skills/route-scanning",
-      "name": "route-scanning",
-      "description": "Scan Express.js source files to discover all API route definitions.",
-      "categories": ["Research"],
-      "author": "huangjia2019",
-      "repo": "huangjia2019/claude-code-engineering",
-      "path": "04-Skills/projects/08-skill-pipeline/.claude/skills/route-scanning",
-      "commitHash": "a9dcd18730f4",
-      "files": ["SKILL.md", "scripts"]
-    },
-    {
-      "id": "huangjia2019/claude-code-engineering/04-Skills/projects/06-agent-skill-combo/.claude/skills/api-generating",
-      "name": "api-generating",
-      "description": "Generate API endpoint documentation from Express route files. Use when the user asks to generate, update, or review API docs for Express.js routes.",
-      "categories": ["Writing", "Documents"],
-      "author": "huangjia2019",
-      "repo": "huangjia2019/claude-code-engineering",
-      "path": "04-Skills/projects/06-agent-skill-combo/.claude/skills/api-generating",
-      "commitHash": "dd9417d5ab19",
-      "files": ["SKILL.md", "scripts", "templates"]
-    },
-    {
-      "id": "huangjia2019/claude-code-engineering/04-Skills/projects/03-financial-skill",
-      "name": "financial-analyzing",
-      "description": "Analyze financial data, calculate financial ratios, and generate analysis reports. Use when the user asks about revenue, costs, profits, margins, ROI, financial metrics, or needs financial analysis of a company or project.",
-      "categories": ["Productivity", "Data & Analytics", "Finance"],
-      "author": "huangjia2019",
-      "repo": "huangjia2019/claude-code-engineering",
-      "path": "04-Skills/projects/03-financial-skill",
-      "commitHash": "4096f49710e5",
-      "files": [".claude", "README.md", "SKILL.md", "data", "reference", "scripts", "templates"]
-    },
-    {
-      "id": "huangjia2019/claude-code-engineering/04-Skills/projects/02-progressive-skill",
-      "name": "api-documenting",
-      "description": "Generate API documentation from code. Use when the user wants to document APIs, create API reference, generate endpoint documentation, or needs help with OpenAPI/Swagger specs.",
-      "categories": ["Development"],
-      "author": "huangjia2019",
-      "repo": "huangjia2019/claude-code-engineering",
-      "path": "04-Skills/projects/02-progressive-skill",
-      "commitHash": "e45f7580aaeb",
-      "files": [
-        ".claude",
-        "EXAMPLES.md",
-        "PATTERNS.md",
-        "README.md",
-        "SKILL.md",
-        "STANDARDS.md",
-        "scripts",
-        "templates"
-      ]
-    },
-    {
-      "id": "huangjia2019/claude-code-engineering/04-Skills/projects/08-skill-pipeline/.claude/skills/quality-checking",
-      "name": "quality-checking",
-      "description": "Validate API documentation against quality standards. Use when you need to verify generated docs are complete and correct.",
-      "categories": ["Writing"],
-      "author": "huangjia2019",
-      "repo": "huangjia2019/claude-code-engineering",
-      "path": "04-Skills/projects/08-skill-pipeline/.claude/skills/quality-checking",
-      "commitHash": "a9dcd18730f4",
-      "files": ["SKILL.md", "rules"]
-    },
-    {
-      "id": "huangjia2019/claude-code-engineering/04-Skills/projects/01-reference-skill/.claude/skills/api-conventions",
-      "name": "api-conventions",
-      "description": "API design patterns and conventions for this project. Covers RESTful URL naming, response format standards, error handling, and authentication requirements. Use when writing or reviewing API endpoints, designing new APIs, or making decisions about request/response formats.",
-      "categories": ["Development", "Security", "Design"],
-      "author": "huangjia2019",
-      "repo": "huangjia2019/claude-code-engineering",
-      "path": "04-Skills/projects/01-reference-skill/.claude/skills/api-conventions",
-      "commitHash": "4096f49710e5",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "huangjia2019/claude-code-engineering/04-Skills/projects/07-skill-fork-demo/.claude/skills/code-health-check",
-      "name": "code-health-check",
-      "description": "Perform a comprehensive code health check on a directory. Use when the user asks to analyze code quality, find issues, or get a health report.",
-      "categories": ["Research"],
-      "author": "huangjia2019",
-      "repo": "huangjia2019/claude-code-engineering",
-      "path": "04-Skills/projects/07-skill-fork-demo/.claude/skills/code-health-check",
-      "commitHash": "a9dcd18730f4",
-      "files": ["SKILL.md"]
     },
     {
       "id": "athina-ai/goose-skills/skills/capabilities/aeo-visibility",
@@ -8889,6 +7187,134 @@
       "path": "skills/playbooks/signal-detection-pipeline",
       "commitHash": "5c89966aa4f8",
       "files": ["SKILL.md", "skill.meta.json"]
+    },
+    {
+      "id": "huangjia2019/claude-code-engineering/04-Skills/projects/00-basic-skill",
+      "name": "code-reviewing",
+      "description": "Review code for quality, security, and best practices. Use when the user asks for code review, wants feedback on their code, mentions reviewing changes, or asks about code quality.",
+      "categories": ["Development"],
+      "author": "huangjia2019",
+      "repo": "huangjia2019/claude-code-engineering",
+      "path": "04-Skills/projects/00-basic-skill",
+      "commitHash": "dd9417d5ab19",
+      "files": [".claude", "README.md", "SKILL.md", "src"]
+    },
+    {
+      "id": "huangjia2019/claude-code-engineering/04-Skills/projects/08-skill-pipeline/.claude/skills/doc-writing",
+      "name": "doc-writing",
+      "description": "Generate API documentation from a route manifest. Use when you have a list of discovered routes and need to produce markdown documentation.",
+      "categories": ["Writing", "Documents"],
+      "author": "huangjia2019",
+      "repo": "huangjia2019/claude-code-engineering",
+      "path": "04-Skills/projects/08-skill-pipeline/.claude/skills/doc-writing",
+      "commitHash": "a9dcd18730f4",
+      "files": ["SKILL.md", "templates"]
+    },
+    {
+      "id": "huangjia2019/claude-code-engineering/04-Skills/projects/05-api-generator",
+      "name": "api-generating",
+      "description": "Generate API endpoint code and documentation from specifications. Use when the user wants to create new API endpoints, generate route handlers, scaffold REST APIs, or produce OpenAPI/Swagger specs from code.",
+      "categories": ["Development", "Productivity"],
+      "author": "huangjia2019",
+      "repo": "huangjia2019/claude-code-engineering",
+      "path": "04-Skills/projects/05-api-generator",
+      "commitHash": "dd9417d5ab19",
+      "files": [
+        ".claude",
+        "EXAMPLES.md",
+        "PATTERNS.md",
+        "README.md",
+        "SKILL.md",
+        "STANDARDS.md",
+        "scripts",
+        "templates"
+      ]
+    },
+    {
+      "id": "huangjia2019/claude-code-engineering/04-Skills/projects/08-skill-pipeline/.claude/skills/route-scanning",
+      "name": "route-scanning",
+      "description": "Scan Express.js source files to discover all API route definitions.",
+      "categories": ["Research"],
+      "author": "huangjia2019",
+      "repo": "huangjia2019/claude-code-engineering",
+      "path": "04-Skills/projects/08-skill-pipeline/.claude/skills/route-scanning",
+      "commitHash": "a9dcd18730f4",
+      "files": ["SKILL.md", "scripts"]
+    },
+    {
+      "id": "huangjia2019/claude-code-engineering/04-Skills/projects/06-agent-skill-combo/.claude/skills/api-generating",
+      "name": "api-generating",
+      "description": "Generate API endpoint documentation from Express route files. Use when the user asks to generate, update, or review API docs for Express.js routes.",
+      "categories": ["Writing", "Documents"],
+      "author": "huangjia2019",
+      "repo": "huangjia2019/claude-code-engineering",
+      "path": "04-Skills/projects/06-agent-skill-combo/.claude/skills/api-generating",
+      "commitHash": "dd9417d5ab19",
+      "files": ["SKILL.md", "scripts", "templates"]
+    },
+    {
+      "id": "huangjia2019/claude-code-engineering/04-Skills/projects/03-financial-skill",
+      "name": "financial-analyzing",
+      "description": "Analyze financial data, calculate financial ratios, and generate analysis reports. Use when the user asks about revenue, costs, profits, margins, ROI, financial metrics, or needs financial analysis of a company or project.",
+      "categories": ["Productivity", "Data & Analytics", "Finance"],
+      "author": "huangjia2019",
+      "repo": "huangjia2019/claude-code-engineering",
+      "path": "04-Skills/projects/03-financial-skill",
+      "commitHash": "4096f49710e5",
+      "files": [".claude", "README.md", "SKILL.md", "data", "reference", "scripts", "templates"]
+    },
+    {
+      "id": "huangjia2019/claude-code-engineering/04-Skills/projects/02-progressive-skill",
+      "name": "api-documenting",
+      "description": "Generate API documentation from code. Use when the user wants to document APIs, create API reference, generate endpoint documentation, or needs help with OpenAPI/Swagger specs.",
+      "categories": ["Development"],
+      "author": "huangjia2019",
+      "repo": "huangjia2019/claude-code-engineering",
+      "path": "04-Skills/projects/02-progressive-skill",
+      "commitHash": "e45f7580aaeb",
+      "files": [
+        ".claude",
+        "EXAMPLES.md",
+        "PATTERNS.md",
+        "README.md",
+        "SKILL.md",
+        "STANDARDS.md",
+        "scripts",
+        "templates"
+      ]
+    },
+    {
+      "id": "huangjia2019/claude-code-engineering/04-Skills/projects/08-skill-pipeline/.claude/skills/quality-checking",
+      "name": "quality-checking",
+      "description": "Validate API documentation against quality standards. Use when you need to verify generated docs are complete and correct.",
+      "categories": ["Writing"],
+      "author": "huangjia2019",
+      "repo": "huangjia2019/claude-code-engineering",
+      "path": "04-Skills/projects/08-skill-pipeline/.claude/skills/quality-checking",
+      "commitHash": "a9dcd18730f4",
+      "files": ["SKILL.md", "rules"]
+    },
+    {
+      "id": "huangjia2019/claude-code-engineering/04-Skills/projects/01-reference-skill/.claude/skills/api-conventions",
+      "name": "api-conventions",
+      "description": "API design patterns and conventions for this project. Covers RESTful URL naming, response format standards, error handling, and authentication requirements. Use when writing or reviewing API endpoints, designing new APIs, or making decisions about request/response formats.",
+      "categories": ["Development", "Security", "Design"],
+      "author": "huangjia2019",
+      "repo": "huangjia2019/claude-code-engineering",
+      "path": "04-Skills/projects/01-reference-skill/.claude/skills/api-conventions",
+      "commitHash": "4096f49710e5",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "huangjia2019/claude-code-engineering/04-Skills/projects/07-skill-fork-demo/.claude/skills/code-health-check",
+      "name": "code-health-check",
+      "description": "Perform a comprehensive code health check on a directory. Use when the user asks to analyze code quality, find issues, or get a health report.",
+      "categories": ["Research"],
+      "author": "huangjia2019",
+      "repo": "huangjia2019/claude-code-engineering",
+      "path": "04-Skills/projects/07-skill-fork-demo/.claude/skills/code-health-check",
+      "commitHash": "a9dcd18730f4",
+      "files": ["SKILL.md"]
     },
     {
       "id": "tzachbon/smart-ralph/platforms/codex/skills/ralph-specum-start",
@@ -12083,17 +10509,6 @@
       "files": ["SKILL.md", "references"]
     },
     {
-      "id": "bowenliang123/markdown-exporter",
-      "name": "markdown-exporter",
-      "description": "Convert Markdown text to DOCX, PPTX, XLSX, PDF, PNG, HTML, IPYNB, MD, CSV, JSON, JSONL, XML files, and extract code blocks in Markdown to Python, Bash,JS and etc files.",
-      "categories": ["Development", "Data & Analytics", "Documents"],
-      "author": "bowenliang123",
-      "repo": "bowenliang123/markdown-exporter",
-      "path": "",
-      "commitHash": "c8033c906714",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "lawvable/awesome-legal-skills/skills/compliance-anthropic",
       "name": "compliance-anthropic",
       "description": "Navigate privacy regulations (GDPR, CCPA), review DPAs, and handle data subject requests. Use when reviewing data processing agreements, responding to data subject access or deletion requests, assessing cross-border data transfer requirements, or evaluating privacy compliance.",
@@ -12561,6 +10976,17 @@
       "path": "skills/pdf-processing-anthropic",
       "commitHash": "9d40a6a583db",
       "files": ["LICENSE.txt", "SKILL.md", "forms.md", "reference.md", "scripts"]
+    },
+    {
+      "id": "bowenliang123/markdown-exporter",
+      "name": "markdown-exporter",
+      "description": "Convert Markdown text to DOCX, PPTX, XLSX, PDF, PNG, HTML, IPYNB, MD, CSV, JSON, JSONL, XML files, and extract code blocks in Markdown to Python, Bash,JS and etc files.",
+      "categories": ["Development", "Data & Analytics", "Documents"],
+      "author": "bowenliang123",
+      "repo": "bowenliang123/markdown-exporter",
+      "path": "",
+      "commitHash": "c8033c906714",
+      "files": ["SKILL.md"]
     },
     {
       "id": "Bhanunamikaze/Agentic-SEO-Skill",
@@ -13885,6 +12311,17 @@
       "files": ["SKILL.md", "script.py"]
     },
     {
+      "id": "aannoo/hcom/skills/hcom-agent-messaging",
+      "name": "hcom-agent-messaging",
+      "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Gemini CLI, Codex, OpenCode. Use this skill when the human user needs help, status, or reference about hcom - when user asks questions like \"how to setup hcom\", \"hcom not working\", \"explain hcom\", or any hcom troubleshooting.\n",
+      "categories": ["AI & ML"],
+      "author": "aannoo",
+      "repo": "aannoo/hcom",
+      "path": "skills/hcom-agent-messaging",
+      "commitHash": "7aa78cae642c",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "arpitg1304/robotics-agent-skills/skills/ros2",
       "name": "ros2-development",
       "description": "Comprehensive best practices, design patterns, and common pitfalls for ROS2 (Robot Operating System 2) development. Use this skill when building ROS2 nodes, packages, launch files, components, or debugging ROS2 systems. Trigger whenever the user mentions ROS2, colcon, rclpy, rclcpp, DDS, QoS, lifecycle nodes, managed nodes, ROS2 launch, ROS2 parameters, ROS2 actions, nav2, MoveIt2, micro-ROS, or any ROS2-era robotics middleware. Also trigger for ROS2 workspace setup, DDS tuning, intra-process communication, ROS2 security, or deploying ROS2 in production. Also trigger for colcon build issues, ament_cmake, ament_python, CMakeLists.txt for ROS2, package.xml dependencies, rosdep, workspace overlays, custom message generation, or ROS2 build troubleshooting. Covers Humble, Iron, Jazzy, and Rolling distributions.\n",
@@ -13995,17 +12432,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "aannoo/hcom/skills/hcom-agent-messaging",
-      "name": "hcom-agent-messaging",
-      "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Gemini CLI, Codex, OpenCode. Use this skill when the human user needs help, status, or reference about hcom - when user asks questions like \"how to setup hcom\", \"hcom not working\", \"explain hcom\", or any hcom troubleshooting.\n",
-      "categories": ["AI & ML"],
-      "author": "aannoo",
-      "repo": "aannoo/hcom",
-      "path": "skills/hcom-agent-messaging",
-      "commitHash": "7aa78cae642c",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "Vvkmnn/claude-emporium/plugins/claude-gladiator/skills/claude-gladiator",
       "name": "claude-gladiator",
       "description": "Continuous learning — hooks observe failures and prompt reflection, sibling synergy deepens analysis with history and tool discovery",
@@ -14070,6 +12496,94 @@
       "path": "plugins/claude-vigil/skills/claude-vigil",
       "commitHash": "1e9fd88c42aa",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "testdino-hq/playwright-skill",
+      "name": "playwright-skill",
+      "description": "Battle-tested Playwright patterns for E2E, API, component, visual, accessibility, and security testing. Covers locators, fixtures, POM, network mocking, auth flows, debugging, CI/CD (GitHub Actions, GitLab, CircleCI, Azure, Jenkins), framework recipes (React, Next.js, Vue, Angular), and migration guides from Cypress/Selenium. TypeScript and JavaScript.",
+      "categories": ["Development", "DevOps", "Security", "Design"],
+      "author": "testdino-hq",
+      "repo": "testdino-hq/playwright-skill",
+      "path": "",
+      "commitHash": "11003e2b63ab",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "testdino-hq/playwright-skill/ci",
+      "name": "playwright-ci",
+      "description": "Production-ready CI/CD configurations for Playwright — GitHub Actions, GitLab CI, CircleCI, Azure DevOps, Jenkins, Docker, parallel sharding, reporting, code coverage, and global setup/teardown.",
+      "categories": ["Development", "DevOps", "Productivity"],
+      "author": "testdino-hq",
+      "repo": "testdino-hq/playwright-skill",
+      "path": "ci",
+      "commitHash": "11003e2b63ab",
+      "files": [
+        "SKILL.md",
+        "ci-github-actions.md",
+        "ci-gitlab.md",
+        "ci-other.md",
+        "docker-and-containers.md",
+        "global-setup-teardown.md",
+        "parallel-and-sharding.md",
+        "projects-and-dependencies.md",
+        "reporting-and-artifacts.md",
+        "test-coverage.md"
+      ]
+    },
+    {
+      "id": "testdino-hq/playwright-skill/core",
+      "name": "playwright-core",
+      "description": "Battle-tested Playwright patterns for E2E, API, component, visual, accessibility, and security testing. Covers locators, assertions, fixtures, network mocking, auth flows, debugging, and framework recipes for React, Next.js, Vue, and Angular. TypeScript and JavaScript.",
+      "categories": ["Development", "Security"],
+      "author": "testdino-hq",
+      "repo": "testdino-hq/playwright-skill",
+      "path": "core",
+      "commitHash": "4724c5618e3a",
+      "files": [
+        "SKILL.md",
+        "accessibility.md",
+        "angular.md",
+        "api-testing.md",
+        "assertions-and-waiting.md",
+        "auth-flows.md",
+        "authentication.md",
+        "browser-apis.md",
+        "browser-extensions.md",
+        "canvas-and-webgl.md",
+        "clock-and-time-mocking.md",
+        "common-pitfalls.md",
+        "component-testing.md",
+        "configuration.md",
+        "crud-testing.md",
+        "debugging.md",
+        "drag-and-drop.md",
+        "electron-testing.md",
+        "error-and-edge-cases.md",
+        "error-index.md"
+      ]
+    },
+    {
+      "id": "testdino-hq/playwright-skill/playwright-cli",
+      "name": "playwright-cli",
+      "description": "Automates browser interactions for testing and validating your own web applications using playwright-cli. Use when the user needs to navigate their own apps, fill forms, take screenshots, test web application behavior, mock network requests, manage browser sessions, or generate test code. Only use against applications you own or have explicit authorization to test.",
+      "categories": ["Development", "Security", "Productivity"],
+      "author": "testdino-hq",
+      "repo": "testdino-hq/playwright-skill",
+      "path": "playwright-cli",
+      "commitHash": "11003e2b63ab",
+      "files": [
+        "SKILL.md",
+        "advanced-workflows.md",
+        "core-commands.md",
+        "device-emulation.md",
+        "request-mocking.md",
+        "running-custom-code.md",
+        "screenshots-and-media.md",
+        "session-management.md",
+        "storage-and-auth.md",
+        "test-generation.md",
+        "tracing-and-debugging.md"
+      ]
     },
     {
       "id": "Microck/ordinary-claude-skills/skills_all/activitypub-testing",
@@ -14312,13 +12826,13 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "Microck/ordinary-claude-skills/skills_all/biopython",
-      "name": "biopython",
-      "description": "Primary Python toolkit for molecular biology. Preferred for Python-based PubMed/NCBI queries (Bio.Entrez), sequence manipulation, file parsing (FASTA, GenBank, FASTQ, PDB), advanced BLAST workflows, structures, phylogenetics. For quick BLAST, use gget. For direct REST API, use pubmed-database.",
-      "categories": ["Development", "Data & Analytics"],
+      "id": "Microck/ordinary-claude-skills/skills_all/biomni",
+      "name": "biomni",
+      "description": "Autonomous biomedical AI agent framework for executing complex research tasks across genomics, drug discovery, molecular biology, and clinical analysis. Use this skill when conducting multi-step biomedical research including CRISPR screening design, single-cell RNA-seq analysis, ADMET prediction, GWAS interpretation, rare disease diagnosis, or lab protocol optimization. Leverages LLM reasoning with code execution and integrated biomedical databases.",
+      "categories": ["Development", "Data & Analytics", "Research", "AI & ML"],
       "author": "Microck",
       "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/biopython",
+      "path": "skills_all/biomni",
       "commitHash": "68ef0c5bb702",
       "files": ["SKILL.md", "metadata.json"]
     },
@@ -14424,17 +12938,6 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "Microck/ordinary-claude-skills/skills_all/cellxgene-census",
-      "name": "cellxgene-census",
-      "description": "Query CZ CELLxGENE Census (61M+ cells). Filter by cell type/tissue/disease, retrieve expression data, integrate with scanpy/PyTorch, for population-scale single-cell analysis.",
-      "categories": ["Data & Analytics"],
-      "author": "Microck",
-      "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/cellxgene-census",
-      "commitHash": "68ef0c5bb702",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
       "id": "Microck/ordinary-claude-skills/skills_all/chembl-database",
       "name": "chembl-database",
       "description": "Query ChEMBL's bioactive molecules and drug discovery data. Search compounds by structure/properties, retrieve bioactivity data (IC50, Ki), find inhibitors, perform SAR studies, for medicinal chemistry.",
@@ -14468,17 +12971,6 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "Microck/ordinary-claude-skills/skills_all/claude-opus-4-5-migration",
-      "name": "claude-opus-4-5-migration",
-      "description": "Migrate prompts and code from Claude Sonnet 4.0, Sonnet 4.5, or Opus 4.1 to Opus 4.5. Use when the user wants to update their codebase, prompts, or API calls to use Opus 4.5. Handles model string updates and prompt adjustments for known Opus 4.5 behavioral differences. Does NOT migrate Haiku 4.5.",
-      "categories": ["Development", "AI & ML"],
-      "author": "Microck",
-      "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/claude-opus-4-5-migration",
-      "commitHash": "68ef0c5bb702",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
       "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills",
       "name": "claude-scientific-skills",
       "description": "Comprehensive collection of 128+ ready-to-use scientific skills for Claude enabling research across biology, chemistry, medicine, genomics, and advanced analysis domains.",
@@ -14497,17 +12989,6 @@
         "docs",
         "scientific-skills"
       ]
-    },
-    {
-      "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/anndata",
-      "name": "anndata",
-      "description": "This skill should be used when working with annotated data matrices in Python, particularly for single-cell genomics analysis, managing experimental measurements with metadata, or handling large-scale biological datasets. Use when tasks involve AnnData objects, h5ad files, single-cell RNA-seq data, or integration with scanpy/scverse tools.",
-      "categories": ["Data & Analytics"],
-      "author": "Microck",
-      "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/claude-scientific-skills/scientific-skills/anndata",
-      "commitHash": "68ef0c5bb702",
-      "files": ["SKILL.md", "references"]
     },
     {
       "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/cosmic-database",
@@ -14532,6 +13013,28 @@
       "files": ["SKILL.md", "references"]
     },
     {
+      "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/diffdock",
+      "name": "diffdock",
+      "description": "Diffusion-based molecular docking. Predict protein-ligand binding poses from PDB/SMILES, confidence scores, virtual screening, for structure-based drug design. Not for affinity prediction.",
+      "categories": ["Other"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/claude-scientific-skills/scientific-skills/diffdock",
+      "commitHash": "68ef0c5bb702",
+      "files": ["SKILL.md", "assets", "references", "scripts"]
+    },
+    {
+      "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/document-skills/docx",
+      "name": "docx",
+      "description": "Document toolkit (.docx). Create/edit documents, tracked changes, comments, formatting preservation, text extraction, for professional document processing.",
+      "categories": ["Writing", "Documents"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/claude-scientific-skills/scientific-skills/document-skills/docx",
+      "commitHash": "68ef0c5bb702",
+      "files": ["LICENSE.txt", "SKILL.md", "docx-js.md", "ooxml.md", "ooxml", "scripts"]
+    },
+    {
       "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/document-skills/pdf",
       "name": "pdf",
       "description": "PDF manipulation toolkit. Extract text/tables, create PDFs, merge/split, fill forms, for programmatic document processing and analysis.",
@@ -14541,6 +13044,17 @@
       "path": "skills_all/claude-scientific-skills/scientific-skills/document-skills/pdf",
       "commitHash": "68ef0c5bb702",
       "files": ["LICENSE.txt", "SKILL.md", "forms.md", "reference.md", "scripts"]
+    },
+    {
+      "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/document-skills/pptx",
+      "name": "pptx",
+      "description": "Presentation toolkit (.pptx). Create/edit slides, layouts, content, speaker notes, comments, for programmatic presentation creation and modification.",
+      "categories": ["Writing", "Documents"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/claude-scientific-skills/scientific-skills/document-skills/pptx",
+      "commitHash": "68ef0c5bb702",
+      "files": ["LICENSE.txt", "SKILL.md", "html2pptx.md", "ooxml.md", "ooxml", "scripts"]
     },
     {
       "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/document-skills/xlsx",
@@ -14664,15 +13178,15 @@
       "files": ["SKILL.md", "references", "scripts"]
     },
     {
-      "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/literature-review",
-      "name": "literature-review",
-      "description": "Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar, etc.). This skill should be used when conducting systematic literature reviews, meta-analyses, research synthesis, or comprehensive literature searches across biomedical, scientific, and technical domains. Creates professionally formatted markdown documents and PDFs with verified citations in multiple citation styles (APA, Nature, Vancouver, etc.).",
-      "categories": ["Data & Analytics", "Documents", "Research"],
+      "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/latchbio-integration",
+      "name": "latchbio-integration",
+      "description": "Latch platform for bioinformatics workflows. Build pipelines with Latch SDK, @workflow/@task decorators, deploy serverless workflows, LatchFile/LatchDir, Nextflow/Snakemake integration.",
+      "categories": ["Development", "DevOps", "Productivity", "Documents"],
       "author": "Microck",
       "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/claude-scientific-skills/scientific-skills/literature-review",
+      "path": "skills_all/claude-scientific-skills/scientific-skills/latchbio-integration",
       "commitHash": "68ef0c5bb702",
-      "files": ["SKILL.md", "assets", "references", "scripts"]
+      "files": ["SKILL.md", "references"]
     },
     {
       "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/markitdown",
@@ -14695,17 +13209,6 @@
       "path": "skills_all/claude-scientific-skills/scientific-skills/matplotlib",
       "commitHash": "68ef0c5bb702",
       "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/networkx",
-      "name": "networkx",
-      "description": "Comprehensive toolkit for creating, analyzing, and visualizing complex networks and graphs in Python. Use when working with network/graph data structures, analyzing relationships between entities, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks, or visualizing network topologies. Applicable to social networks, biological networks, transportation systems, citation networks, and any domain involving pairwise relationships.",
-      "categories": ["Development", "Data & Analytics"],
-      "author": "Microck",
-      "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/claude-scientific-skills/scientific-skills/networkx",
-      "commitHash": "68ef0c5bb702",
-      "files": ["SKILL.md", "references"]
     },
     {
       "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/neurokit2",
@@ -14741,6 +13244,17 @@
       "files": ["SKILL.md", "references", "scripts"]
     },
     {
+      "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/pdb-database",
+      "name": "pdb-database",
+      "description": "Access RCSB PDB for 3D protein/nucleic acid structures. Search by text/sequence/structure, download coordinates (PDB/mmCIF), retrieve metadata, for structural biology and drug discovery.",
+      "categories": ["Data & Analytics", "Research"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/claude-scientific-skills/scientific-skills/pdb-database",
+      "commitHash": "68ef0c5bb702",
+      "files": ["SKILL.md", "references"]
+    },
+    {
       "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/peer-review",
       "name": "peer-review",
       "description": "Systematic peer review toolkit. Evaluate methodology, statistics, design, reproducibility, ethics, figure integrity, reporting standards, for manuscript and grant review across disciplines.",
@@ -14774,17 +13288,6 @@
       "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
-      "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/pubchem-database",
-      "name": "pubchem-database",
-      "description": "Query PubChem via PUG-REST API/PubChemPy (110M+ compounds). Search by name/CID/SMILES, retrieve properties, similarity/substructure searches, bioactivity, for cheminformatics.",
-      "categories": ["Development", "Data & Analytics"],
-      "author": "Microck",
-      "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/claude-scientific-skills/scientific-skills/pubchem-database",
-      "commitHash": "68ef0c5bb702",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
       "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/pubmed-database",
       "name": "pubmed-database",
       "description": "Direct REST API access to PubMed. Advanced Boolean/MeSH queries, E-utilities API, batch processing, citation management. For Python workflows, prefer biopython (Bio.Entrez). Use this for direct HTTP/REST work or custom API implementations.",
@@ -14794,17 +13297,6 @@
       "path": "skills_all/claude-scientific-skills/scientific-skills/pubmed-database",
       "commitHash": "68ef0c5bb702",
       "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/pufferlib",
-      "name": "pufferlib",
-      "description": "This skill should be used when working with reinforcement learning tasks including high-performance RL training, custom environment development, vectorized parallel simulation, multi-agent systems, or integration with existing RL environments (Gymnasium, PettingZoo, Atari, Procgen, etc.). Use this skill for implementing PPO training, creating PufferEnv environments, optimizing RL performance, or developing policies with CNNs/LSTMs.",
-      "categories": ["AI & ML"],
-      "author": "Microck",
-      "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/claude-scientific-skills/scientific-skills/pufferlib",
-      "commitHash": "68ef0c5bb702",
-      "files": ["SKILL.md", "references", "scripts"]
     },
     {
       "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/pylabrobot",
@@ -14825,6 +13317,17 @@
       "author": "Microck",
       "repo": "Microck/ordinary-claude-skills",
       "path": "skills_all/claude-scientific-skills/scientific-skills/pytorch-lightning",
+      "commitHash": "68ef0c5bb702",
+      "files": ["SKILL.md", "references", "scripts"]
+    },
+    {
+      "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/rdkit",
+      "name": "rdkit",
+      "description": "Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, descriptors (MW, LogP, TPSA), fingerprints, substructure search, 2D/3D generation, similarity, reactions. For standard workflows with simpler interface, use datamol (wrapper around RDKit). Use rdkit for advanced control, custom sanitization, specialized algorithms.",
+      "categories": ["Development"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/claude-scientific-skills/scientific-skills/rdkit",
       "commitHash": "68ef0c5bb702",
       "files": ["SKILL.md", "references", "scripts"]
     },
@@ -15521,17 +14024,6 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "Microck/ordinary-claude-skills/skills_all/ffuf-claude-skill",
-      "name": "ffuf-web-fuzzing",
-      "description": "Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis",
-      "categories": ["Development", "Security"],
-      "author": "Microck",
-      "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/ffuf-claude-skill",
-      "commitHash": "68ef0c5bb702",
-      "files": ["README.md", "SKILL.md", "ffuf-skill"]
-    },
-    {
       "id": "Microck/ordinary-claude-skills/skills_all/file-todos",
       "name": "file-todos",
       "description": "This skill should be used when managing the file-based todo tracking system in the todos/ directory. It provides workflows for creating todos, managing status and dependencies, conducting triage, and integrating with slash commands and code review processes.",
@@ -15562,41 +14054,6 @@
       "repo": "Microck/ordinary-claude-skills",
       "path": "skills_all/find-hypertable-candidates",
       "commitHash": "68ef0c5bb702",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "Microck/ordinary-claude-skills/skills_all/flow-nexus-neural",
-      "name": "flow-nexus-neural",
-      "description": "Train and deploy neural networks in distributed E2B sandboxes with Flow Nexus",
-      "categories": ["AI & ML"],
-      "author": "Microck",
-      "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/flow-nexus-neural",
-      "commitHash": "68ef0c5bb702",
-      "version": "1.0.0",
-      "tags": [
-        "neural-networks",
-        "distributed-training",
-        "machine-learning",
-        "deep-learning",
-        "flow-nexus",
-        "e2b-sandboxes"
-      ],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "Microck/ordinary-claude-skills/skills_all/flow-nexus-platform",
-      "name": "flow-nexus-platform",
-      "description": "Comprehensive Flow Nexus platform management - authentication, sandboxes, app deployment, payments, and challenges",
-      "categories": ["DevOps", "Security"],
-      "author": "Microck",
-      "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/flow-nexus-platform",
-      "commitHash": "68ef0c5bb702",
-      "version": "1.0.0",
-      "tags": ["authentication", "sandboxes", "deployment", "payments", "gamification", "cloud"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -16168,17 +14625,6 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "Microck/ordinary-claude-skills/skills_all/product-strategist",
-      "name": "product-strategist",
-      "description": "Strategic product leadership toolkit for Head of Product including OKR cascade generation, market analysis, vision setting, and team scaling. Use for strategic planning, goal alignment, competitive analysis, and organizational design.",
-      "categories": ["Business"],
-      "author": "Microck",
-      "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/product-strategist",
-      "commitHash": "68ef0c5bb702",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
       "id": "Microck/ordinary-claude-skills/skills_all/project-planning",
       "name": "project-planning",
       "description": "Generate structured planning documentation for web projects with context-safe phases, verification criteria, and exit conditions. Creates IMPLEMENTATION_PHASES.md plus conditional docs (DATABASE_SCHEMA, API_ENDPOINTS, UI_COMPONENTS, CRITICAL_WORKFLOWS).\n\nUse when: starting new Cloudflare Workers/React projects, adding major features to existing apps, breaking large work into manageable phases, or need verified planning before coding begins.\n",
@@ -16597,6 +15043,20 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "Microck/ordinary-claude-skills/skills_all/sparc-methodology",
+      "name": "sparc-methodology",
+      "description": "SPARC (Specification, Pseudocode, Architecture, Refinement, Completion) comprehensive development methodology with multi-agent orchestration",
+      "categories": ["Development", "AI & ML"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/sparc-methodology",
+      "commitHash": "68ef0c5bb702",
+      "version": "2.7.0",
+      "tags": ["sparc", "tdd", "architecture", "orchestration", "methodology", "multi-agent"],
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "Microck/ordinary-claude-skills/skills_all/sql-research",
       "name": "sql-research",
       "description": "Guide for researching SQL syntax and behavior for database backends. Use when you need to research how a SQL function, command, or feature works in a specific database before implementing it in dbplyr.",
@@ -16661,17 +15121,6 @@
       "path": "skills_all/superpowers-lab",
       "commitHash": "68ef0c5bb702",
       "files": [".claude-plugin", ".gitignore", "LICENSE", "README.md", "SKILL.md", "skills"]
-    },
-    {
-      "id": "Microck/ordinary-claude-skills/skills_all/superpowers-lab/skills/using-tmux-for-interactive-commands",
-      "name": "using-tmux-for-interactive-commands",
-      "description": "Use when you need to run interactive CLI tools (vim, git rebase -i, Python REPL, etc.) that require real-time input/output - provides tmux-based approach for controlling interactive sessions through detached sessions and send-keys",
-      "categories": ["Development", "Design", "Productivity"],
-      "author": "Microck",
-      "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/superpowers-lab/skills/using-tmux-for-interactive-commands",
-      "commitHash": "68ef0c5bb702",
-      "files": ["SKILL.md", "tmux-wrapper.sh"]
     },
     {
       "id": "Microck/ordinary-claude-skills/skills_all/swapper-integration",
@@ -16770,6 +15219,20 @@
       "repo": "Microck/ordinary-claude-skills",
       "path": "skills_all/testing",
       "commitHash": "68ef0c5bb702",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "Microck/ordinary-claude-skills/skills_all/todowrite-orchestration",
+      "name": "todowrite-orchestration",
+      "description": "Track progress in multi-phase workflows with TodoWrite. Use when orchestrating 5+ phase commands, managing iteration loops, tracking parallel tasks, or providing real-time progress visibility. Trigger keywords - \"phase tracking\", \"progress\", \"workflow\", \"multi-step\", \"multi-phase\", \"todo\", \"tracking\", \"status\".",
+      "categories": ["Productivity"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/todowrite-orchestration",
+      "commitHash": "68ef0c5bb702",
+      "version": "0.1.0",
+      "tags": ["orchestration", "todowrite", "progress", "tracking", "workflow", "multi-phase"],
+      "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -16940,94 +15403,6 @@
       "path": "skills_all/zapier-workflows",
       "commitHash": "68ef0c5bb702",
       "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "testdino-hq/playwright-skill",
-      "name": "playwright-skill",
-      "description": "Battle-tested Playwright patterns for E2E, API, component, visual, accessibility, and security testing. Covers locators, fixtures, POM, network mocking, auth flows, debugging, CI/CD (GitHub Actions, GitLab, CircleCI, Azure, Jenkins), framework recipes (React, Next.js, Vue, Angular), and migration guides from Cypress/Selenium. TypeScript and JavaScript.",
-      "categories": ["Development", "DevOps", "Security", "Design"],
-      "author": "testdino-hq",
-      "repo": "testdino-hq/playwright-skill",
-      "path": "",
-      "commitHash": "11003e2b63ab",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "testdino-hq/playwright-skill/ci",
-      "name": "playwright-ci",
-      "description": "Production-ready CI/CD configurations for Playwright — GitHub Actions, GitLab CI, CircleCI, Azure DevOps, Jenkins, Docker, parallel sharding, reporting, code coverage, and global setup/teardown.",
-      "categories": ["Development", "DevOps", "Productivity"],
-      "author": "testdino-hq",
-      "repo": "testdino-hq/playwright-skill",
-      "path": "ci",
-      "commitHash": "11003e2b63ab",
-      "files": [
-        "SKILL.md",
-        "ci-github-actions.md",
-        "ci-gitlab.md",
-        "ci-other.md",
-        "docker-and-containers.md",
-        "global-setup-teardown.md",
-        "parallel-and-sharding.md",
-        "projects-and-dependencies.md",
-        "reporting-and-artifacts.md",
-        "test-coverage.md"
-      ]
-    },
-    {
-      "id": "testdino-hq/playwright-skill/core",
-      "name": "playwright-core",
-      "description": "Battle-tested Playwright patterns for E2E, API, component, visual, accessibility, and security testing. Covers locators, assertions, fixtures, network mocking, auth flows, debugging, and framework recipes for React, Next.js, Vue, and Angular. TypeScript and JavaScript.",
-      "categories": ["Development", "Security"],
-      "author": "testdino-hq",
-      "repo": "testdino-hq/playwright-skill",
-      "path": "core",
-      "commitHash": "4724c5618e3a",
-      "files": [
-        "SKILL.md",
-        "accessibility.md",
-        "angular.md",
-        "api-testing.md",
-        "assertions-and-waiting.md",
-        "auth-flows.md",
-        "authentication.md",
-        "browser-apis.md",
-        "browser-extensions.md",
-        "canvas-and-webgl.md",
-        "clock-and-time-mocking.md",
-        "common-pitfalls.md",
-        "component-testing.md",
-        "configuration.md",
-        "crud-testing.md",
-        "debugging.md",
-        "drag-and-drop.md",
-        "electron-testing.md",
-        "error-and-edge-cases.md",
-        "error-index.md"
-      ]
-    },
-    {
-      "id": "testdino-hq/playwright-skill/playwright-cli",
-      "name": "playwright-cli",
-      "description": "Automates browser interactions for testing and validating your own web applications using playwright-cli. Use when the user needs to navigate their own apps, fill forms, take screenshots, test web application behavior, mock network requests, manage browser sessions, or generate test code. Only use against applications you own or have explicit authorization to test.",
-      "categories": ["Development", "Security", "Productivity"],
-      "author": "testdino-hq",
-      "repo": "testdino-hq/playwright-skill",
-      "path": "playwright-cli",
-      "commitHash": "11003e2b63ab",
-      "files": [
-        "SKILL.md",
-        "advanced-workflows.md",
-        "core-commands.md",
-        "device-emulation.md",
-        "request-mocking.md",
-        "running-custom-code.md",
-        "screenshots-and-media.md",
-        "session-management.md",
-        "storage-and-auth.md",
-        "test-generation.md",
-        "tracing-and-debugging.md"
-      ]
     },
     {
       "id": "adeze/raindrop-mcp/.github/skills/publishing",
@@ -20524,6 +18899,17 @@
       "files": ["SKILL.md", "agents"]
     },
     {
+      "id": "xu-xiang/everything-claude-code-zh/docs/zh-TW/skills/security-review",
+      "name": "security-review",
+      "description": "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.",
+      "categories": ["Development", "Security"],
+      "author": "xu-xiang",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "docs/zh-TW/skills/security-review",
+      "commitHash": "0e5571998f92",
+      "files": ["SKILL.md", "cloud-infrastructure-security.md"]
+    },
+    {
       "id": "xu-xiang/everything-claude-code-zh/docs/zh-TW/skills/golang-patterns",
       "name": "golang-patterns",
       "description": "Idiomatic Go patterns, best practices, and conventions for building robust, efficient, and maintainable Go applications.",
@@ -20576,6 +18962,17 @@
       "repo": "xu-xiang/everything-claude-code-zh",
       "path": "docs/zh-CN/skills/strategic-compact",
       "commitHash": "dfbf9467b90d",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "xu-xiang/everything-claude-code-zh/docs/zh-TW/skills/frontend-patterns",
+      "name": "frontend-patterns",
+      "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.",
+      "categories": ["Development"],
+      "author": "xu-xiang",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "docs/zh-TW/skills/frontend-patterns",
+      "commitHash": "0e5571998f92",
       "files": ["SKILL.md"]
     },
     {
@@ -21542,17 +19939,6 @@
       "path": ".agents/skills/security-review",
       "commitHash": "dfbf9467b90d",
       "files": ["SKILL.md", "agents"]
-    },
-    {
-      "id": "xu-xiang/everything-claude-code-zh/docs/zh-TW/skills/clickhouse-io",
-      "name": "clickhouse-io",
-      "description": "ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads.",
-      "categories": ["Development", "Data & Analytics"],
-      "author": "xu-xiang",
-      "repo": "xu-xiang/everything-claude-code-zh",
-      "path": "docs/zh-TW/skills/clickhouse-io",
-      "commitHash": "0e5571998f92",
-      "files": ["SKILL.md"]
     },
     {
       "id": "xu-xiang/everything-claude-code-zh/.cursor/skills/investor-outreach",
@@ -26792,188 +25178,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "fabriqaai/specs.md/src/flows/fire/agents/planner/skills/intent-capture",
-      "name": "intent-capture",
-      "description": "Capture user intent through guided conversation. Exploratory phase with high degrees of freedom.",
-      "categories": ["Other"],
-      "author": "fabriqaai",
-      "repo": "fabriqaai/specs.md",
-      "path": "src/flows/fire/agents/planner/skills/intent-capture",
-      "commitHash": "b105f0832318",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "templates"]
-    },
-    {
-      "id": "fabriqaai/specs.md/src/flows/fire/agents/builder/skills/run-execute",
-      "name": "run-execute",
-      "description": "Execute work items based on their assigned mode (autopilot, confirm, validate). Supports single-item and multi-item (batch/wide) runs.",
-      "categories": ["Other"],
-      "author": "fabriqaai",
-      "repo": "fabriqaai/specs.md",
-      "path": "src/flows/fire/agents/builder/skills/run-execute",
-      "commitHash": "b1ecdcc1c4fc",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "scripts", "templates"]
-    },
-    {
-      "id": "fabriqaai/specs.md/src/flows/fire/agents/planner/skills/design-doc-generate",
-      "name": "design-doc-generate",
-      "description": "Generate design documents for Validate mode work items (Checkpoint 1). Required for high-complexity items.",
-      "categories": ["Design"],
-      "author": "fabriqaai",
-      "repo": "fabriqaai/specs.md",
-      "path": "src/flows/fire/agents/planner/skills/design-doc-generate",
-      "commitHash": "b105f0832318",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "templates"]
-    },
-    {
-      "id": "fabriqaai/specs.md/src/flows/fire/agents/planner/skills/work-item-decompose",
-      "name": "work-item-decompose",
-      "description": "Break an intent into discrete, executable work items with complexity assessment and dependency validation.",
-      "categories": ["Other"],
-      "author": "fabriqaai",
-      "repo": "fabriqaai/specs.md",
-      "path": "src/flows/fire/agents/planner/skills/work-item-decompose",
-      "commitHash": "b105f0832318",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "templates"]
-    },
-    {
-      "id": "fabriqaai/specs.md/src/flows/fire/agents/builder/skills/run-status",
-      "name": "run-status",
-      "description": "Display current run status and progress. Shows work item, mode, duration, and files changed.",
-      "categories": ["Other"],
-      "author": "fabriqaai",
-      "repo": "fabriqaai/specs.md",
-      "path": "src/flows/fire/agents/builder/skills/run-status",
-      "commitHash": "d3e3d621786b",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "fabriqaai/specs.md/src/flows/ideation/agents/orchestrator/skills/spark",
-      "name": "spark",
-      "description": "Rapid idea generation with cross-domain diversity, anti-bias enforcement, and deep thinking.",
-      "categories": ["Other"],
-      "author": "fabriqaai",
-      "repo": "fabriqaai/specs.md",
-      "path": "src/flows/ideation/agents/orchestrator/skills/spark",
-      "commitHash": "3face4676cf8",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references", "templates"]
-    },
-    {
-      "id": "fabriqaai/specs.md/src/flows/fire/agents/builder/skills/run-plan",
-      "name": "run-plan",
-      "description": "Plan the scope of a run by discovering available work items and suggesting groupings. Invoked before run-execute.",
-      "categories": ["Other"],
-      "author": "fabriqaai",
-      "repo": "fabriqaai/specs.md",
-      "path": "src/flows/fire/agents/builder/skills/run-plan",
-      "commitHash": "504fa76c3b39",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "fabriqaai/specs.md/src/flows/fire/agents/orchestrator/skills/route",
-      "name": "route",
-      "description": "Analyze project state and route user to the appropriate agent based on current context.",
-      "categories": ["Other"],
-      "author": "fabriqaai",
-      "repo": "fabriqaai/specs.md",
-      "path": "src/flows/fire/agents/orchestrator/skills/route",
-      "commitHash": "8a5a7f1ee1ab",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "fabriqaai/specs.md/src/flows/fire/agents/builder/skills/code-review",
-      "name": "code-review",
-      "description": "Review code written during a run, auto-fix no-brainer issues, and suggest improvements requiring confirmation. Invoked after tests pass.",
-      "categories": ["Development"],
-      "author": "fabriqaai",
-      "repo": "fabriqaai/specs.md",
-      "path": "src/flows/fire/agents/builder/skills/code-review",
-      "commitHash": "d3e3d621786b",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references", "templates"]
-    },
-    {
-      "id": "fabriqaai/specs.md/src/flows/fire/agents/orchestrator/skills/status",
-      "name": "status",
-      "description": "Display current FIRE project status and validate integrity of intents, work items, and runs.",
-      "categories": ["Other"],
-      "author": "fabriqaai",
-      "repo": "fabriqaai/specs.md",
-      "path": "src/flows/fire/agents/orchestrator/skills/status",
-      "commitHash": "d3e3d621786b",
-      "version": "2.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "fabriqaai/specs.md/src/flows/ideation/agents/orchestrator/skills/forge",
-      "name": "forge",
-      "description": "Shape top ideas into actionable concept briefs using Disney Strategy — Dream, Reality, Critique.",
-      "categories": ["Other"],
-      "author": "fabriqaai",
-      "repo": "fabriqaai/specs.md",
-      "path": "src/flows/ideation/agents/orchestrator/skills/forge",
-      "commitHash": "3face4676cf8",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references", "templates"]
-    },
-    {
-      "id": "fabriqaai/specs.md/src/flows/ideation/agents/orchestrator/skills/flame",
-      "name": "flame",
-      "description": "Multi-perspective idea evaluation using Six Hats analysis, impact/feasibility scoring, and collaborative shortlisting.",
-      "categories": ["Other"],
-      "author": "fabriqaai",
-      "repo": "fabriqaai/specs.md",
-      "path": "src/flows/ideation/agents/orchestrator/skills/flame",
-      "commitHash": "3face4676cf8",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references", "templates"]
-    },
-    {
-      "id": "fabriqaai/specs.md/src/flows/fire/agents/orchestrator/skills/project-init",
-      "name": "project-init",
-      "description": "Initialize a new FIRE project by detecting workspace type and setting up standards.",
-      "categories": ["Other"],
-      "author": "fabriqaai",
-      "repo": "fabriqaai/specs.md",
-      "path": "src/flows/fire/agents/orchestrator/skills/project-init",
-      "commitHash": "280ba3f72c95",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "templates"]
-    },
-    {
-      "id": "fabriqaai/specs.md/src/flows/fire/agents/builder/skills/walkthrough-generate",
-      "name": "walkthrough-generate",
-      "description": "Generate implementation walkthrough for human review after run completion. Documents decisions, changes, and verification steps.",
-      "categories": ["Other"],
-      "author": "fabriqaai",
-      "repo": "fabriqaai/specs.md",
-      "path": "src/flows/fire/agents/builder/skills/walkthrough-generate",
-      "commitHash": "3face4676cf8",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "templates"]
-    },
-    {
       "id": "Darkbluelr/dev-playbooks-cn/skills/devbooks-void",
       "name": "devbooks-void",
       "description": "devbooks-void：Void 协议执行器：处理高熵/不确定/多方案争议问题，只产出 research_report + ADR + Freeze/Thaw 工件，不产出生产代码。用户说\"进入 void/卡住了/不确定/需要调研/冻结解冻\"等时使用。",
@@ -28844,6 +27048,255 @@
       "files": ["SKILL.md", "references", "scripts"]
     },
     {
+      "id": "xiaobei930/cc-best/skills/api",
+      "name": "api",
+      "description": "RESTful API design patterns and best practices. Use when creating endpoints, designing APIs, or implementing routes.",
+      "categories": ["Development"],
+      "author": "xiaobei930",
+      "repo": "xiaobei930/cc-best",
+      "path": "skills/api",
+      "commitHash": "6f2700871396",
+      "files": ["SKILL.md", "express.md", "fastapi.md", "nextjs.md"]
+    },
+    {
+      "id": "xiaobei930/cc-best/skills/model",
+      "name": "model",
+      "description": "Model selection strategy and routing. Use when choosing between models for different task types, subagent configurations, or optimizing token cost vs quality tradeoffs.",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "xiaobei930",
+      "repo": "xiaobei930/cc-best",
+      "path": "skills/model",
+      "commitHash": "63504ce9fefd",
+      "files": ["SKILL.md", "routing-matrix.md"]
+    },
+    {
+      "id": "xiaobei930/cc-best/skills/session",
+      "name": "session",
+      "description": "Session lifecycle management. Parent skill for session-related skills: learning (pattern extraction) and compact (context compression).",
+      "categories": ["Other"],
+      "author": "xiaobei930",
+      "repo": "xiaobei930/cc-best",
+      "path": "skills/session",
+      "commitHash": "63504ce9fefd",
+      "files": [
+        "SKILL.md",
+        "context-dev.md",
+        "context-planning.md",
+        "context-research.md",
+        "context-review.md"
+      ]
+    },
+    {
+      "id": "xiaobei930/cc-best/skills/search-first",
+      "name": "search-first",
+      "description": "Research-before-coding workflow: systematically search existing solutions before custom implementation. Use when introducing new libraries, tools, or solving unfamiliar problems.",
+      "categories": ["Research"],
+      "author": "xiaobei930",
+      "repo": "xiaobei930/cc-best",
+      "path": "skills/search-first",
+      "commitHash": "06cf781e1d06",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "xiaobei930/cc-best/skills/compact",
+      "name": "compact",
+      "description": "Strategic compaction skill: suggests context compression at logical breakpoints. Use to suggest compaction at logical intervals during development sessions.",
+      "categories": ["Other"],
+      "author": "xiaobei930",
+      "repo": "xiaobei930/cc-best",
+      "path": "skills/compact",
+      "commitHash": "9bb2c53d02d0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "xiaobei930/cc-best/skills/security",
+      "name": "security",
+      "description": "Security review skill: comprehensive security checklist and patterns. Use when adding authentication, handling user input, working with secrets, or creating API endpoints.",
+      "categories": ["Development", "Security"],
+      "author": "xiaobei930",
+      "repo": "xiaobei930/cc-best",
+      "path": "skills/security",
+      "commitHash": "cc711ea8e3dd",
+      "files": ["SKILL.md", "cloud-security.md", "config-audit.md", "verify-checklist.md"]
+    },
+    {
+      "id": "xiaobei930/cc-best/skills/database",
+      "name": "database",
+      "description": "Database design, query optimization, migrations, and indexing. Use when designing schemas, writing queries, or managing migrations.",
+      "categories": ["Data & Analytics"],
+      "author": "xiaobei930",
+      "repo": "xiaobei930/cc-best",
+      "path": "skills/database",
+      "commitHash": "6f2700871396",
+      "files": ["SKILL.md", "mysql.md", "oracle.md", "postgres.md", "sqlite.md"]
+    },
+    {
+      "id": "xiaobei930/cc-best/skills/testing",
+      "name": "testing",
+      "description": "Testing strategies and methodologies including TDD and E2E testing. Use when writing tests, implementing TDD workflow, or setting up E2E test infrastructure.",
+      "categories": ["Development"],
+      "author": "xiaobei930",
+      "repo": "xiaobei930/cc-best",
+      "path": "skills/testing",
+      "commitHash": "63504ce9fefd",
+      "files": [
+        "SKILL.md",
+        "e2e.md",
+        "frameworks.md",
+        "qa-methodology.md",
+        "tdd-example.md",
+        "tdd.md"
+      ]
+    },
+    {
+      "id": "xiaobei930/cc-best/skills/frontend",
+      "name": "frontend",
+      "description": "Frontend patterns: component design, state management, performance, accessibility. Use when building web frontends, components, or client-side apps.",
+      "categories": ["Development", "Design"],
+      "author": "xiaobei930",
+      "repo": "xiaobei930/cc-best",
+      "path": "skills/frontend",
+      "commitHash": "cc711ea8e3dd",
+      "files": [
+        "SKILL.md",
+        "angular.md",
+        "design-guide.md",
+        "performance.md",
+        "react.md",
+        "svelte.md",
+        "tailwind.md",
+        "vue.md"
+      ]
+    },
+    {
+      "id": "xiaobei930/cc-best/skills/exploration",
+      "name": "exploration",
+      "description": "Code exploration strategies for understanding unfamiliar codebases. Use when exploring unknown code, debugging, or analyzing architecture.",
+      "categories": ["Development"],
+      "author": "xiaobei930",
+      "repo": "xiaobei930/cc-best",
+      "path": "skills/exploration",
+      "commitHash": "63504ce9fefd",
+      "files": ["SKILL.md", "isolated-research.md", "iterative-retrieval.md"]
+    },
+    {
+      "id": "xiaobei930/cc-best/skills/devops",
+      "name": "devops",
+      "description": "DevOps patterns: containerization, CI/CD, deployment strategies, monitoring. Use when containerizing apps, setting up pipelines, or deploying services.",
+      "categories": ["DevOps"],
+      "author": "xiaobei930",
+      "repo": "xiaobei930/cc-best",
+      "path": "skills/devops",
+      "commitHash": "68f8ff23645d",
+      "files": ["SKILL.md", "ci-cd.md", "docker.md"]
+    },
+    {
+      "id": "xiaobei930/cc-best/skills/backend",
+      "name": "backend",
+      "description": "Backend development patterns for services, error handling, logging, caching. Use when building backend services, APIs, or microservices.",
+      "categories": ["Development"],
+      "author": "xiaobei930",
+      "repo": "xiaobei930/cc-best",
+      "path": "skills/backend",
+      "commitHash": "6f2700871396",
+      "files": [
+        "SKILL.md",
+        "csharp.md",
+        "go.md",
+        "java.md",
+        "performance.md",
+        "python-observability.md",
+        "python-patterns.md",
+        "python-types.md",
+        "python.md",
+        "rust.md",
+        "typescript.md"
+      ]
+    },
+    {
+      "id": "xiaobei930/cc-best/skills/learning",
+      "name": "learning",
+      "description": "Extracts reusable patterns from sessions. Use at session end to capture debugging insights and project-specific knowledge.",
+      "categories": ["Development", "Research"],
+      "author": "xiaobei930",
+      "repo": "xiaobei930/cc-best",
+      "path": "skills/learning",
+      "commitHash": "cc711ea8e3dd",
+      "files": ["SKILL.md", "config.json", "extraction-guide.md", "instinct-tracker.md"]
+    },
+    {
+      "id": "xiaobei930/cc-best/skills/git",
+      "name": "git",
+      "description": "Git version control best practices: branching, commits, merging, conflict resolution, PR workflows. Use when managing branches, creating commits, merging code, or resolving conflicts.",
+      "categories": ["Development"],
+      "author": "xiaobei930",
+      "repo": "xiaobei930/cc-best",
+      "path": "skills/git",
+      "commitHash": "cc711ea8e3dd",
+      "files": [
+        "SKILL.md",
+        "commands-reference.md",
+        "delegation.md",
+        "hooks-guide.md",
+        "pr-workflow.md"
+      ]
+    },
+    {
+      "id": "xiaobei930/cc-best/skills/quality",
+      "name": "quality",
+      "description": "Code quality assurance strategies. Parent skill for quality-related skills: security (security review) and debug (systematic debugging).",
+      "categories": ["Development"],
+      "author": "xiaobei930",
+      "repo": "xiaobei930/cc-best",
+      "path": "skills/quality",
+      "commitHash": "63504ce9fefd",
+      "files": ["SKILL.md", "code-health.md"]
+    },
+    {
+      "id": "xiaobei930/cc-best/skills/architecture",
+      "name": "architecture",
+      "description": "Architecture design skill: ADR records, system design checklists, scalability assessment, architecture patterns. Use for complex system design and architecture decisions.",
+      "categories": ["Development"],
+      "author": "xiaobei930",
+      "repo": "xiaobei930/cc-best",
+      "path": "skills/architecture",
+      "commitHash": "6f2700871396",
+      "files": ["SKILL.md", "lead-methodology.md", "pm-methodology.md"]
+    },
+    {
+      "id": "xiaobei930/cc-best/skills/second-opinion",
+      "name": "second-opinion",
+      "description": "Cross-validate code, architecture or design decisions using a second model. Use for critical decisions, complex refactoring, security reviews.",
+      "categories": ["Development"],
+      "author": "xiaobei930",
+      "repo": "xiaobei930/cc-best",
+      "path": "skills/second-opinion",
+      "commitHash": "6f2700871396",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "xiaobei930/cc-best/skills/debug",
+      "name": "debug",
+      "description": "Systematic debugging methods, log analysis, and performance diagnostics. Use when debugging issues, analyzing errors, or troubleshooting incidents.",
+      "categories": ["Development"],
+      "author": "xiaobei930",
+      "repo": "xiaobei930/cc-best",
+      "path": "skills/debug",
+      "commitHash": "6f2700871396",
+      "files": ["SKILL.md", "frontend-debug.md", "network-debug.md", "performance-debug.md"]
+    },
+    {
+      "id": "xiaobei930/cc-best/skills/native",
+      "name": "native",
+      "description": "Native app development strategies including iOS/macOS (Apple platforms), Tauri desktop apps. Use when developing native mobile or desktop applications.",
+      "categories": ["Other"],
+      "author": "xiaobei930",
+      "repo": "xiaobei930/cc-best",
+      "path": "skills/native",
+      "commitHash": "63504ce9fefd",
+      "files": ["SKILL.md", "ios.md", "swift-concurrency.md", "swiftui-performance.md", "tauri.md"]
+    },
+    {
       "id": "tebjan/vvvv-skills/skills/vvvv-dotnet",
       "name": "vvvv-dotnet",
       "description": "Helps with .NET integration in vvvv gamma — NuGet packages, library references, .csproj project configuration, the [assembly: ImportAsIs] attribute, vector type interop, and async patterns. Use when adding NuGet packages, configuring build settings, referencing external .NET libraries, setting up the ImportAsIs assembly attribute, working with System.Numerics/Stride type conversions, or when nodes aren't appearing in the node browser due to missing assembly configuration.",
@@ -28853,6 +27306,17 @@
       "path": "skills/vvvv-dotnet",
       "commitHash": "22ca55918ec7",
       "files": ["SKILL.md", "forwarding.md"]
+    },
+    {
+      "id": "tebjan/vvvv-skills/skills/vvvv-fileformat",
+      "name": "vvvv-fileformat",
+      "description": "Describes the .vl XML file format used by vvvv gamma — document structure, element hierarchy, ID system (base62 GUIDs), NodeReference/Choice patterns, Pins, Pads (IOBoxes), Links, ProcessDefinition/Fragment lifecycle, regions (If/ForEach/Cache), type definitions, TypeAnnotations, and property serialization. Use when generating, parsing, or modifying .vl files programmatically, or when understanding the structure of vvvv patches at the XML level.",
+      "categories": ["Development", "Documents", "AI & ML"],
+      "author": "tebjan",
+      "repo": "tebjan/vvvv-skills",
+      "path": "skills/vvvv-fileformat",
+      "commitHash": "38238049ec50",
+      "files": ["SKILL.md", "best-practices.md", "format-reference.md"]
     },
     {
       "id": "tebjan/vvvv-skills/skills/vvvv-debugging",
@@ -28875,6 +27339,17 @@
       "path": "skills/vvvv-channels",
       "commitHash": "22ca55918ec7",
       "files": ["SKILL.md", "examples.md"]
+    },
+    {
+      "id": "tebjan/vvvv-skills/skills/vvvv-patching",
+      "name": "vvvv-patching",
+      "description": "Explains vvvv gamma visual programming patterns — dataflow, node connections, regions (ForEach/If/Switch/Repeat/Accumulator), channels for reactive data flow, event handling (Bang/Toggle/FrameDelay/Changed), patch organization, and common anti-patterns (circular dependencies, polling vs reacting, ignoring Nil). Use when the user asks about patching best practices, dataflow patterns, event handling, or how to structure visual programs.",
+      "categories": ["Development"],
+      "author": "tebjan",
+      "repo": "tebjan/vvvv-skills",
+      "path": "skills/vvvv-patching",
+      "commitHash": "4f6ad2365153",
+      "files": ["SKILL.md", "patterns.md"]
     },
     {
       "id": "tebjan/vvvv-skills/skills/vvvv-testing",
@@ -28921,6 +27396,28 @@
       "files": ["SKILL.md", "syntax-rules.md"]
     },
     {
+      "id": "tebjan/vvvv-skills/skills/vvvv-fundamentals",
+      "name": "vvvv-fundamentals",
+      "description": "Explains vvvv gamma core concepts — data types, frame-based execution model, pins, pads, links, node browser, live compilation (source project vs binary reference workflows), .vl document structure, file types (.vl/.sdsl/.cs/.csproj), ecosystem overview, and AppHost runtime detection. Use when the user asks about vvvv basics, how vvvv works, the live reload model, when to patch vs code, or needs an overview of the visual programming environment.",
+      "categories": ["Development", "Productivity", "Documents", "Research", "AI & ML"],
+      "author": "tebjan",
+      "repo": "tebjan/vvvv-skills",
+      "path": "skills/vvvv-fundamentals",
+      "commitHash": "4f6ad2365153",
+      "files": ["SKILL.md", "reference.md"]
+    },
+    {
+      "id": "tebjan/vvvv-skills/skills/vvvv-custom-nodes",
+      "name": "vvvv-custom-nodes",
+      "description": "Helps write C# node classes for vvvv gamma — the [ProcessNode] pattern, Update() method, out parameters, pin configuration, change detection, stateless operation nodes, and service consumption via NodeContext (IFrameClock, Game access, logging). Use when writing a node class, adding pins, implementing change detection, accessing services in node constructors, or creating stateless utility methods. Requires [assembly: ImportAsIs].",
+      "categories": ["Development", "Writing"],
+      "author": "tebjan",
+      "repo": "tebjan/vvvv-skills",
+      "path": "skills/vvvv-custom-nodes",
+      "commitHash": "38238049ec50",
+      "files": ["SKILL.md", "advanced.md", "examples.md", "regions.md", "services.md", "templates"]
+    },
+    {
       "id": "tebjan/vvvv-skills/skills/vvvv-node-libraries",
       "name": "vvvv-node-libraries",
       "description": "Helps set up C# library projects that provide nodes to vvvv gamma — project directory structure, Initialization.cs with AssemblyInitializer, service registration via RegisterService, IResourceProvider factories, ImportAsIs namespace/category configuration, .csproj setup, and dynamic node factories via RegisterNodeFactory. Use when creating a new vvvv library, VL package, NuGet package for vvvv, registering services or node factories, configuring ImportAsIs parameters, or setting up the project structure. Trigger when the user says 'create a package', 'make a library', 'distribute nodes', or 'publish a VL package'.",
@@ -28930,6 +27427,28 @@
       "path": "skills/vvvv-node-libraries",
       "commitHash": "22ca55918ec7",
       "files": ["SKILL.md", "design-guidelines.md", "examples.md", "publishing.md"]
+    },
+    {
+      "id": "tebjan/vvvv-skills/skills/vvvv-troubleshooting",
+      "name": "vvvv-troubleshooting",
+      "description": "Diagnoses and fixes common vvvv gamma errors in C# nodes, SDSL shaders, and runtime behavior. Use when encountering errors, exceptions, crashes, red nodes, shader compilation failures, missing nodes in the browser, performance issues, or unexpected behavior.",
+      "categories": ["Other"],
+      "author": "tebjan",
+      "repo": "tebjan/vvvv-skills",
+      "path": "skills/vvvv-troubleshooting",
+      "commitHash": "22ca55918ec7",
+      "files": ["SKILL.md", "error-catalog.md"]
+    },
+    {
+      "id": "tebjan/vvvv-skills/skills/vvvv-editor-extensions",
+      "name": "vvvv-editor-extensions",
+      "description": "Helps create vvvv gamma editor extensions — .HDE.vl file naming, Command node registration with keyboard shortcuts, SkiaWindow/SkiaWindowTopMost window types, docking with WindowFactory, and API access to hovered/selected nodes via VL.Lang Session nodes. Use when building editor plugins, custom tooling windows, or automating editor workflows.",
+      "categories": ["Development", "Productivity"],
+      "author": "tebjan",
+      "repo": "tebjan/vvvv-skills",
+      "path": "skills/vvvv-editor-extensions",
+      "commitHash": "4f6ad2365153",
+      "files": ["SKILL.md"]
     },
     {
       "id": "norsizu/comfyui-zimage-skill",
