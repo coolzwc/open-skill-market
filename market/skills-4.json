@@ -7,6 +7,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "norsizu/comfyui-zimage-skill": {
+      "url": "https://github.com/norsizu/comfyui-zimage-skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "cablate/Agentic-MCP-Skill": {
       "url": "https://github.com/cablate/Agentic-MCP-Skill",
       "branch": "master",
@@ -9986,6 +9993,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "norsizu/comfyui-zimage-skill",
+      "name": "comfyui-zimage",
+      "description": "Z-Image Manga/Illustration Generation. Local scripts, no ToolSearch needed.\nTrigger words: Hojo, Satoshi, manga, generate image, portrait.\n",
+      "categories": ["Design"],
+      "author": "norsizu",
+      "repo": "norsizu/comfyui-zimage-skill",
+      "path": "",
+      "commitHash": "6d203bc7b47d",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "cablate/Agentic-MCP-Skill",
       "name": "agentic-mcp",
       "description": "Agentic MCP - Three-layer progressive disclosure for MCP servers with Socket daemon. Use when the user needs to interact with MCP servers, query available tools, call MCP tools, or manage the MCP daemon process. Provides socket-based communication for efficient server interaction with three-layer progressive disclosure API.",
@@ -10982,17 +11000,6 @@
       "author": "jpoutrin",
       "repo": "jpoutrin/product-forge",
       "path": "plugins/devops-data/skills/dbt",
-      "commitHash": "bd0b5fc2acf6",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "jpoutrin/product-forge/plugins/product-design/skills/ctx",
-      "name": "ctx",
-      "description": "Load PRD, FRD, Tech Spec, or RFC into context",
-      "categories": ["Other"],
-      "author": "jpoutrin",
-      "repo": "jpoutrin/product-forge",
-      "path": "plugins/product-design/skills/ctx",
       "commitHash": "bd0b5fc2acf6",
       "files": ["SKILL.md"]
     },
@@ -12269,6 +12276,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "diegosouzapw/awesome-omni-skill/skills/backend/base",
+      "name": "base",
+      "description": "Database management, forms, reports, and data operations with LibreOffice Base.",
+      "categories": ["Data & Analytics"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/backend/base",
+      "commitHash": "c98b9d7acc07",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "diegosouzapw/awesome-omni-skill/skills/product/jtbd",
       "name": "jtbd",
       "description": "Jobs to Be Done analysis to understand what customers really want. Use for product discovery, competitive analysis, or understanding why customers hire/fire solutions.",
@@ -12313,14 +12331,36 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "diegosouzapw/awesome-omni-skill/skills/tools/julia-pro",
-      "name": "julia-pro",
-      "description": "Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices.",
+      "id": "diegosouzapw/awesome-omni-skill/skills/backend/java-pro",
+      "name": "java-pro",
+      "description": "Master Java 21+ with modern features like virtual threads, pattern matching, and Spring Boot 3.x. Expert in the latest Java ecosystem including GraalVM, Project Loom, and cloud-native patterns.",
+      "categories": ["Development"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/backend/java-pro",
+      "commitHash": "02b8e2fbda51",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/business/seo-audit",
+      "name": "seo-audit",
+      "description": "Diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance.",
       "categories": ["Other"],
       "author": "diegosouzapw",
       "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/tools/julia-pro",
+      "path": "skills/business/seo-audit",
       "commitHash": "02b8e2fbda51",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/tools/mem0-automation",
+      "name": "mem0-automation",
+      "description": "Automate Mem0 tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+      "categories": ["Productivity"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/tools/mem0-automation",
+      "commitHash": "00c4d7cc2bbe",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -12401,6 +12441,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "diegosouzapw/awesome-omni-skill/skills/tools/adobe-automation",
+      "name": "adobe-automation",
+      "description": "Automate Adobe tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+      "categories": ["Productivity"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/tools/adobe-automation",
+      "commitHash": "00c4d7cc2bbe",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "diegosouzapw/awesome-omni-skill/skills/tools/linkedin-cli",
       "name": "linkedin-cli",
       "description": "Use when automating LinkedIn via CLI: fetch profiles, search people/companies, send messages, manage connections, create posts, and Sales Navigator.",
@@ -12434,6 +12485,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "diegosouzapw/awesome-omni-skill/skills/development/unreal-engine-cpp-pro",
+      "name": "unreal-engine-cpp-pro",
+      "description": "Expert guide for Unreal Engine 5.x C++ development, covering UObject hygiene, performance patterns, and best practices.",
+      "categories": ["Development"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/development/unreal-engine-cpp-pro",
+      "commitHash": "9a0f06626940",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "diegosouzapw/awesome-omni-skill/skills/cli-automation/shopify-automation",
       "name": "shopify-automation",
       "description": "Automate Shopify tasks via Rube MCP (Composio): products, orders, customers, inventory, collections. Always search tools first for current schemas.",
@@ -12441,6 +12503,17 @@
       "author": "diegosouzapw",
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/cli-automation/shopify-automation",
+      "commitHash": "9a0f06626940",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/cli-automation/cal-com-automation",
+      "name": "cal-com-automation",
+      "description": "Automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webhooks, and handle teams. Always search tools first for current schemas.",
+      "categories": ["Productivity", "Integration", "Research"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/cli-automation/cal-com-automation",
       "commitHash": "9a0f06626940",
       "files": ["SKILL.md", "metadata.json"]
     },
@@ -12453,6 +12526,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/tools/frontend-slides",
       "commitHash": "c0ab24a5cbdf",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/documentation/wiki-qa",
+      "name": "wiki-qa",
+      "description": "Answers questions about a code repository using source file analysis. Use when the user asks a question about how something works, wants to understand a component, or needs help navigating the code...",
+      "categories": ["Development"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/documentation/wiki-qa",
+      "commitHash": "c98b9d7acc07",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -12544,25 +12628,14 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "diegosouzapw/awesome-omni-skill/skills/frontend/algolia-search",
-      "name": "algolia-search",
-      "description": "Expert patterns for Algolia search implementation, indexing strategies, React InstantSearch, and relevance tuning Use when: adding search to, algolia, instantsearch, search api, search functionality.",
-      "categories": ["Development"],
+      "id": "diegosouzapw/awesome-omni-skill/skills/tools/textit-automation",
+      "name": "textit-automation",
+      "description": "Automate Textit tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+      "categories": ["Productivity"],
       "author": "diegosouzapw",
       "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/frontend/algolia-search",
-      "commitHash": "9a0f06626940",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/backend/parallel-agents",
-      "name": "parallel-agents",
-      "description": "Multi-agent orchestration patterns. Use when multiple independent tasks can run with different domain expertise or when comprehensive analysis requires multiple perspectives.",
-      "categories": ["AI & ML"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/backend/parallel-agents",
-      "commitHash": "9a0f06626940",
+      "path": "skills/tools/textit-automation",
+      "commitHash": "00c4d7cc2bbe",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -12599,6 +12672,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "diegosouzapw/awesome-omni-skill/skills/tools/godot-4-migration",
+      "name": "godot-4-migration",
+      "description": "Specialized guide for migrating Godot 3.x projects to Godot 4 (GDScript 2.0), covering syntax changes, Tweens, and exports.",
+      "categories": ["Other"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/tools/godot-4-migration",
+      "commitHash": "c0ab24a5cbdf",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "diegosouzapw/awesome-omni-skill/skills/tools/codacy-automation",
       "name": "codacy-automation",
       "description": "Automate Codacy tasks via Rube MCP (Composio). Always search tools first for current schemas.",
@@ -12618,17 +12702,6 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/tools/docnify-automation",
       "commitHash": "ae3078b949ac",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/tools/alchemy-automation",
-      "name": "alchemy-automation",
-      "description": "Automate Alchemy tasks via Rube MCP (Composio). Always search tools first for current schemas.",
-      "categories": ["Productivity"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/tools/alchemy-automation",
-      "commitHash": "00c4d7cc2bbe",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -12709,17 +12782,6 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "diegosouzapw/awesome-omni-skill/skills/devops/secrets-management",
-      "name": "secrets-management",
-      "description": "Implement secure secrets management for CI/CD pipelines using Vault, AWS Secrets Manager, or native platform solutions. Use when handling sensitive credentials, rotating secrets, or securing CI/CD ...",
-      "categories": ["DevOps", "Security"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/devops/secrets-management",
-      "commitHash": "9a0f06626940",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
       "id": "diegosouzapw/awesome-omni-skill/skills/backend/bullmq-specialist",
       "name": "bullmq-specialist",
       "description": "BullMQ expert for Redis-backed job queues, background processing, and reliable async execution in Node.js/TypeScript applications. Use when: bullmq, bull queue, redis queue, background job, job queue.",
@@ -12731,14 +12793,14 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "diegosouzapw/awesome-omni-skill/skills/data-ai/x-twitter-scraper",
-      "name": "x-twitter-scraper",
-      "description": "X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction tools, MCP server.",
-      "categories": ["DevOps", "Data & Analytics", "Integration", "Marketing", "Research"],
+      "id": "diegosouzapw/awesome-omni-skill/skills/testing-security/broken-authentication",
+      "name": "broken-authentication",
+      "description": "This skill should be used when the user asks to \"test for broken authentication vulnerabilities\", \"assess session management security\", \"perform credential stuffing tests\", \"evaluate ...",
+      "categories": ["Security"],
       "author": "diegosouzapw",
       "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/data-ai/x-twitter-scraper",
-      "commitHash": "02b8e2fbda51",
+      "path": "skills/testing-security/broken-authentication",
+      "commitHash": "9a0f06626940",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -12793,6 +12855,17 @@
       "author": "diegosouzapw",
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/devops/azure-servicebus-py",
+      "commitHash": "02b8e2fbda51",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/backend/apify-actorization",
+      "name": "apify-actorization",
+      "description": "Convert existing projects into Apify Actors - serverless cloud programs. Actorize JavaScript/TypeScript (SDK with Actor.init/exit), Python (async context manager), or any language (CLI wrapper). Us...",
+      "categories": ["Development", "DevOps", "Productivity"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/backend/apify-actorization",
       "commitHash": "02b8e2fbda51",
       "files": ["SKILL.md", "metadata.json"]
     },
@@ -14548,17 +14621,6 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "diegosouzapw/awesome-omni-skill/skills/tools/multiplayer",
-      "name": "multiplayer",
-      "description": "Multiplayer game development principles. Architecture, networking, synchronization.",
-      "categories": ["Other"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/tools/multiplayer",
-      "commitHash": "ae3078b949ac",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
       "id": "diegosouzapw/awesome-omni-skill/skills/devops/skiplagged",
       "name": "skiplagged",
       "description": "Find hidden-city flight deals and significantly cheaper airfares using Skiplagged's fare discovery",
@@ -14967,6 +15029,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/tools/xmtp-cli",
       "commitHash": "f5beda6d885c",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/devops/inngest",
+      "name": "inngest",
+      "description": "Inngest expert for serverless-first background jobs, event-driven workflows, and durable execution without managing queues or workers. Use when: inngest, serverless background job, event-driven wor...",
+      "categories": ["Other"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/devops/inngest",
+      "commitHash": "7e399b4b01c2",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -16382,19 +16455,6 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "diegosouzapw/awesome-omni-skill/skills/development/testing-qa",
-      "name": "testing-qa",
-      "description": "Comprehensive testing and QA workflow covering unit testing, integration testing, E2E testing, browser automation, and quality assurance.",
-      "categories": ["Development", "Productivity"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/development/testing-qa",
-      "commitHash": "71d3c3374a33",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
       "id": "diegosouzapw/awesome-omni-skill/skills/development/cloudflare",
       "name": "cloudflare",
       "description": "Use when configuring Cloudflare platform services (DNS, SSL/TLS, WAF, security) or deploying static sites (Pages). For Workers/serverless functions, use the cloudflare-workers skill instead.",
@@ -16823,14 +16883,14 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "diegosouzapw/awesome-omni-skill/skills/ai-agents/aieos",
-      "name": "aieos",
-      "description": "AIEOS (AI Entity Object Specification) is a standardization framework designed to solve the \"identity crisis\" currently facing AI agents. Combined with Soul Documents, together they form a comprehensive blueprint for AI behavior. The goal is to establish a standardized data structure that defines exactly how an agent speaks, reacts, and remembers. This allows developers, and agents themselves, to construct specific personas with the portability to move across different ecosystems without losing their behavioral integrity. As we move toward a world of \"Agentic Workflows,\" AIEOS ensures that agents maintain consistent traits regardless of the underlying model. By treating personality as a deployable asset rather than a fragile prompt, we are providing the \"DNA kit\" for the next generation of digital entities.",
-      "categories": ["Development", "Documents", "AI & ML"],
+      "id": "diegosouzapw/awesome-omni-skill/skills/design/nuxt-ui",
+      "name": "nuxt-ui",
+      "description": "Use when building styled UI with @nuxt/ui v4 components (Button, Modal, Form, Table, etc.) - provides ready-to-use components with Tailwind Variants theming. Use vue skill for raw component patterns, reka-ui for headless primitives.",
+      "categories": ["Development", "Design", "Documents"],
       "author": "diegosouzapw",
       "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/ai-agents/aieos",
-      "commitHash": "8fe1e531d7c1",
+      "path": "skills/design/nuxt-ui",
+      "commitHash": "acda4ed57db7",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -16919,6 +16979,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/design/design-lab",
       "commitHash": "acda4ed57db7",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/design/hig-inputs",
+      "name": "hig-inputs",
+      "description": "Apple HIG guidance for input methods and interaction patterns: gestures, Apple Pencil, keyboards, game controllers, pointers, Digital Crown, eye tracking, focus system, remotes, spatial...",
+      "categories": ["Development"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/design/hig-inputs",
+      "commitHash": "02b8e2fbda51",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -17331,6 +17402,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/data-ai/agent-network",
       "commitHash": "0a9eefcd613e",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/design/ui-ux-designer",
+      "name": "ui-ux-designer",
+      "description": "Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools.",
+      "categories": ["Design", "Research"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/design/ui-ux-designer",
+      "commitHash": "02b8e2fbda51",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -17777,17 +17859,6 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "diegosouzapw/awesome-omni-skill/skills/design/stitch-ui-design",
-      "name": "stitch-ui-design",
-      "description": "Expert guide for creating effective prompts for Google Stitch AI UI design tool. Use when user wants to design UI/UX in Stitch, create app interfaces, generate mobile/web designs, or needs help cra...",
-      "categories": ["Design", "AI & ML"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/design/stitch-ui-design",
-      "commitHash": "9a0f06626940",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
       "id": "diegosouzapw/awesome-omni-skill/skills/cli-automation/glab-cli",
       "name": "glab-cli",
       "description": "GitLab CLI (glab) utilities - pipeline debugging, MR management, release automation. Use when working with GitLab via CLI for anything beyond basic git commands.",
@@ -17931,6 +18002,17 @@
       "version": "2.1.0",
       "tags": ["orchestration", "multi-model", "parallel", "workflow"],
       "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/ai-agents/qdrant-memory",
+      "name": "qdrant-memory",
+      "description": "Intelligent token optimization through Qdrant-powered semantic caching and long-term memory. Use for (1) Semantic Cache - avoid LLM calls entirely for semantically similar queries with 100% token savings, (2) Long-Term Memory - retrieve only relevant context chunks instead of full conversation history with 80-95% context reduction, (3) Hybrid Search - combine vector similarity with keyword filtering for technical queries, (4) Memory Management - store and retrieve conversation memories, decisions, and code patterns with metadata filtering. Triggers when needing to cache responses, remember past interactions, optimize context windows, or implement RAG patterns.",
+      "categories": ["Development", "Business", "AI & ML"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/ai-agents/qdrant-memory",
+      "commitHash": "a34fbe5f780e",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -18132,6 +18214,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "diegosouzapw/awesome-omni-skill/skills/tools/seismic-automation",
+      "name": "seismic-automation",
+      "description": "Automate Seismic tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+      "categories": ["Productivity"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/tools/seismic-automation",
+      "commitHash": "00c4d7cc2bbe",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "diegosouzapw/awesome-omni-skill/skills/development/booking-flow",
       "name": "booking-flow",
       "description": "End-to-end booking lifecycle in the Ever Club Members App — booking request creation, booking flow, booking lifecycle, session creation, conflict detection, bay assignment, approval flow, auto-approve, Trackman sync, Trackman booking modifications, booking request statuses, guest pass holds, usage tracking, member cancel, staff approval, prepayment, calendar sync, and reconciliation.",
@@ -18222,6 +18315,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/development/backend-skill",
       "commitHash": "bdb8c4519aa4",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/tools/langbase-automation",
+      "name": "langbase-automation",
+      "description": "Automate Langbase tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+      "categories": ["Productivity"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/tools/langbase-automation",
+      "commitHash": "00c4d7cc2bbe",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -18371,17 +18475,6 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "diegosouzapw/awesome-omni-skill/skills/development/xaem-theme-ui",
-      "name": "xaem-theme-ui",
-      "description": "Two-pass theme generation and code translation pipeline. Pass 1 generates high-entropy visual themes (colour palettes, glow intensities, animation timing, typography weights). Pass 2 translates themes into CSS variables, TypeScript design tokens, Tailwind config, and Framer Motion presets. Complements scientific-luxury by handling creative generation before constraint enforcement.",
-      "categories": ["Development", "Design", "Writing", "Data & Analytics"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/development/xaem-theme-ui",
-      "commitHash": "855f11bb282b",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
       "id": "diegosouzapw/awesome-omni-skill/skills/backend/amp-api-awareness",
       "name": "amp-api-awareness",
       "description": "Extract hidden Amp API patterns from local thread data via DuckDB analysis",
@@ -18510,14 +18603,14 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "diegosouzapw/awesome-omni-skill/skills/frontend/react-ui-patterns",
-      "name": "react-ui-patterns",
-      "description": "Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.",
-      "categories": ["Development"],
+      "id": "diegosouzapw/awesome-omni-skill/skills/tools/shotstack-automation",
+      "name": "shotstack-automation",
+      "description": "Automate Shotstack tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+      "categories": ["Productivity"],
       "author": "diegosouzapw",
       "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/frontend/react-ui-patterns",
-      "commitHash": "9a0f06626940",
+      "path": "skills/tools/shotstack-automation",
+      "commitHash": "00c4d7cc2bbe",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
