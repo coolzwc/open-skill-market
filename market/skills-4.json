@@ -1,14 +1,7 @@
 {
   "repositories": {
-    "404kidwiz/claude-supercode-skills": {
-      "url": "https://github.com/404kidwiz/claude-supercode-skills",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "norsizu/comfyui-zimage-skill": {
-      "url": "https://github.com/norsizu/comfyui-zimage-skill",
+    "membranedev/application-skills": {
+      "url": "https://github.com/membranedev/application-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -17,13 +10,6 @@
     "cablate/Agentic-MCP-Skill": {
       "url": "https://github.com/cablate/Agentic-MCP-Skill",
       "branch": "master",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "membranedev/application-skills": {
-      "url": "https://github.com/membranedev/application-skills",
-      "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
@@ -86,1711 +72,6 @@
     }
   },
   "skills": [
-    {
-      "id": "404kidwiz/claude-supercode-skills/pdf-skill",
-      "name": "pdf-skill",
-      "description": "Expert in generating, parsing, and manipulating PDF documents using tools like PDFKit, PDF.js, and Puppeteer. Use when creating PDFs, extracting content, merging documents, or filling forms. Triggers include \"PDF\", \"generate PDF\", \"parse PDF\", \"extract PDF\", \"merge PDF\", \"PDF form\", \"PDFKit\".",
-      "categories": ["Documents"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "pdf-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/xlsx-skill",
-      "name": "xlsx",
-      "description": "Expert in automating Excel workflows using Node.js (ExcelJS, SheetJS) and Python (pandas, openpyxl).",
-      "categories": ["Development", "Documents"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "xlsx-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/docx-skill",
-      "name": "docx",
-      "description": "Expert in creating, editing, and automating Word documents (.docx) using python-docx and docx.js. Use when generating Word documents, modifying existing docx files, or automating document workflows.",
-      "categories": ["Writing", "Documents"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "docx-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/pptx-skill",
-      "name": "pptx-skill",
-      "description": "Expert in creating, editing, and automating PowerPoint presentations using python-pptx and PptxGenJS. Use when generating slides programmatically, modifying presentations, or building report automation. Triggers include \"PowerPoint\", \"PPTX\", \"slides\", \"presentation\", \"python-pptx\", \"PptxGenJS\", \"slide deck\".",
-      "categories": ["Development", "Writing", "Documents"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "pptx-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/plan-skill",
-      "name": "strategic-planning",
-      "description": "Strategic planning specialist for task breakdown, dependency management, timeline estimation, and resource allocation. Manual invocation only - expert at decomposing complex projects into manageable tasks, identifying dependencies, assessing risks, and creating actionable roadmaps. Use when starting complex projects, facing overwhelmed scope, needing structured approaches, or requiring systematic task management before implementation.",
-      "categories": ["Design", "Productivity", "Business"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "plan-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/build-skill",
-      "name": "build",
-      "description": "Manual invocation build specialist - handles compilation, packaging, and build system optimization",
-      "categories": ["Other"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "build-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/oracle-skill",
-      "name": "technical-advisory",
-      "description": "Expert technical advisor with deep reasoning for architecture decisions, code analysis, and engineering guidance. Masters complex tradeoffs, system design, security architecture, performance optimization, and engineering best practices. Use when making critical architecture decisions, after implementing significant work, when debugging complex issues, encountering unfamiliar patterns, facing security/performance concerns, or evaluating multi-system tradeoffs. Provides comprehensive analysis with clear recommendations and rationale.",
-      "categories": ["Development", "Design"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "oracle-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/sql-pro-skill",
-      "name": "sql-pro",
-      "description": "Use when user needs SQL development, database design, query optimization, performance tuning, or database administration across PostgreSQL, MySQL, SQL Server, and Oracle platforms.",
-      "categories": ["Data & Analytics"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "sql-pro-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/explore-skill",
-      "name": "codebase-exploration",
-      "description": "Deep contextual grep for codebases. Expert at finding patterns, architectures, implementations, and answering \"Where is X?\", \"Which file has Y?\", and \"Find code that does Z\" questions. Use when exploring unfamiliar codebases, finding specific implementations, understanding code organization, discovering patterns across multiple files, or locating functionality in a project. Supports three thoroughness levels: quick, medium, very thorough.",
-      "categories": ["Development", "Research"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "explore-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/cpp-pro-skill",
-      "name": "cpp-pro",
-      "description": "C++20 specialist with expertise in modern C++ features, performance optimization, and system programming",
-      "categories": ["Other"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "cpp-pro-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/php-pro-skill",
-      "name": "php-pro",
-      "description": "PHP 8.2+ specialist with expertise in modern patterns, Composer ecosystem, and enterprise PHP development. Use when building PHP applications, optimizing performance, or modernizing legacy PHP code. Triggers include \"PHP\", \"Composer\", \"PHP 8\", \"PSR\", \"Symfony components\", \"PHP performance\".",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "php-pro-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/general-skill",
-      "name": "general-purpose",
-      "description": "General-purpose agent for researching complex questions and executing multi-step tasks. Versatile problem-solver that combines research capabilities, analytical thinking, and systematic task execution. Use for complex research projects, multi-step workflows, cross-domain analysis, and tasks requiring multiple tools and approaches.",
-      "categories": ["Productivity", "Research", "AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "general-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/debugger-skill",
-      "name": "debugger",
-      "description": "Expert at advanced debugging and root cause analysis. Use when troubleshooting complex issues, finding root causes of bugs, investigating performance problems, or analyzing system failures.",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "debugger-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/qa-expert-skill",
-      "name": "qa-expert",
-      "description": "Quality assurance specialist focusing on test strategy, quality processes, and comprehensive testing methodologies",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "qa-expert-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/librarian-skill",
-      "name": "external-reference-research",
-      "description": "Specialized agent for multi-repository analysis, searching remote codebases, retrieving official documentation, and finding implementation examples using GitHub CLI, Context7, and Web Search. Use proactively when unfamiliar libraries or frameworks are involved, working with external dependencies, or needing examples from open-source projects to understand best practices and real-world implementations.",
-      "categories": ["Development", "Writing", "Integration", "Research"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "librarian-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/golang-pro-skill",
-      "name": "golang-pro",
-      "description": "Expert Go developer specializing in Go 1.21+ features, concurrent programming with goroutines and channels, and comprehensive stdlib utilization. This agent excels at building high-performance, concurrent systems with idiomatic Go patterns and robust error handling.",
-      "categories": ["Development", "Documents"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "golang-pro-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/vue-expert-skill",
-      "name": "vue-expert",
-      "description": "Expert Vue.js developer specializing in Vue 3 Composition API, Pinia state management, and Nuxt.js framework. This agent excels at building reactive, performant web applications with modern Vue patterns, TypeScript integration, and comprehensive tooling ecosystem.",
-      "categories": ["Development", "Design", "Documents"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "vue-expert-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/m365-admin-skill",
-      "name": "m365-admin",
-      "description": "Use when user needs Microsoft 365 administration, automation, and management for Exchange Online, Teams, SharePoint, licensing, and Graph API operations. Handles secure identity and workload automation.",
-      "categories": ["Productivity"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "m365-admin-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/python-pro-skill",
-      "name": "python-pro",
-      "description": "Expert Python developer specializing in Python 3.11+ features, type annotations, and async programming patterns. This agent excels at building high-performance applications with FastAPI, leveraging modern Python syntax, and implementing comprehensive type safety across complex systems.",
-      "categories": ["Development", "Documents", "AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "python-pro-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/bmad-master-skill",
-      "name": "bmad-master",
-      "description": "BMAD master coordinator who orchestrates the entire AI-powered agile development workflow across multiple specialized agents and phases",
-      "categories": ["AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "bmad-master-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/ui-designer-skill",
-      "name": "ui-designer",
-      "description": "Use when user needs visual UI design, interface creation, component systems, design systems, interaction patterns, or accessibility-focused user interfaces.",
-      "categories": ["Development", "Design"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "ui-designer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/ai-engineer-skill",
-      "name": "ai-engineer",
-      "description": "Expert in building comprehensive AI systems, integrating LLMs, RAG architectures, and autonomous agents into production applications. Use when building AI-powered features, implementing LLM integrations, designing RAG pipelines, or deploying AI systems.",
-      "categories": ["Development", "DevOps", "Design", "AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "ai-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/threejs-pro-skill",
-      "name": "threejs-pro",
-      "description": "Expert in 3D web graphics using Three.js, React Three Fiber (R3F), and WebGL shaders.",
-      "categories": ["Media"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "threejs-pro-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/ml-engineer-skill",
-      "name": "ml-engineer",
-      "description": "Expert in building scalable ML systems, from data pipelines and model training to production deployment and monitoring.",
-      "categories": ["DevOps", "Data & Analytics", "AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "ml-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/postgres-pro-skill",
-      "name": "postgres-pro",
-      "description": "Use when user needs PostgreSQL database administration, performance optimization, high availability setup, backup/recovery, or advanced PostgreSQL feature implementation.",
-      "categories": ["Data & Analytics"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "postgres-pro-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/electron-pro-skill",
-      "name": "electron-pro",
-      "description": "Expert in building cross-platform desktop applications using web technologies (HTML/CSS/JS) with the Electron framework.",
-      "categories": ["Development", "Design"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "electron-pro-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/data-analyst-skill",
-      "name": "data-analyst",
-      "description": "Expert in business intelligence, SQL, data visualization, and translating data into actionable business insights.",
-      "categories": ["Data & Analytics"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "data-analyst-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/risk-manager-skill",
-      "name": "risk-manager",
-      "description": "Risk management specialist who assesses, analyzes, and mitigates financial and operational risks with expertise in quantitative risk modeling, compliance frameworks, and enterprise risk assessment",
-      "categories": ["Business"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "risk-manager-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/rails-expert-skill",
-      "name": "rails-expert",
-      "description": "Rails 7+ specialist with expertise in Hotwire, Turbo, Stimulus, and modern Rails development",
-      "categories": ["Other"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "rails-expert-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/nlp-engineer-skill",
-      "name": "nlp-engineer",
-      "description": "Expert in Natural Language Processing, designing systems for text classification, NER, translation, and LLM integration using Hugging Face, spaCy, and LangChain. Use when building NLP pipelines, text analysis, or LLM-powered features. Triggers include \"NLP\", \"text classification\", \"NER\", \"named entity\", \"sentiment analysis\", \"spaCy\", \"Hugging Face\", \"transformers\".",
-      "categories": ["Design", "Writing", "Data & Analytics", "AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "nlp-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/dx-optimizer-skill",
-      "name": "dx-optimizer",
-      "description": "Expert in optimizing the end-to-end developer journey. Specializes in Internal Developer Portals (IDP), DORA metrics, and on-call health. Use when improving developer experience, building internal platforms, measuring engineering productivity, or reducing developer friction.",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "dx-optimizer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/scrum-master-skill",
-      "name": "scrum-master",
-      "description": "Agile process facilitator specializing in Scrum framework implementation, team coaching, and continuous improvement. Masters servant leadership to unlock team potential and delivery excellence.",
-      "categories": ["Business"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "scrum-master-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/slack-expert-skill",
-      "name": "slack-expert",
-      "description": "Use when user needs Slack app development, @slack/bolt implementation, Block Kit UI design, event handling, OAuth flows, or Slack API integrations for bots and interactive components.",
-      "categories": ["Development", "Security", "Design", "Integration"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "slack-expert-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/iot-engineer-skill",
-      "name": "iot-engineer",
-      "description": "Expert in Internet of Things, Edge Computing, and MQTT. Specializes in firmware (C/C++), wireless protocols, and cloud integration.",
-      "categories": ["Other"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "iot-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/sre-engineer-skill",
-      "name": "sre-engineer",
-      "description": "Expert Site Reliability Engineer specializing in SLOs, error budgets, and reliability engineering practices. Proficient in incident management, post-mortems, capacity planning, and building scalable, resilient systems with focus on reliability, availability, and performance.",
-      "categories": ["DevOps", "Business"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "sre-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/swift-expert-skill",
-      "name": "swift-expert",
-      "description": "Expert in the Swift ecosystem, specializing in iOS/macOS/visionOS development, Swift 6 concurrency, and deep system integration.",
-      "categories": ["Other"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "swift-expert-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/api-designer-skill",
-      "name": "api-designer",
-      "description": "REST/GraphQL API architect specializing in OpenAPI 3.1, HATEOAS, pagination, and versioning strategies",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "api-designer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/ux-researcher-skill",
-      "name": "ux-researcher",
-      "description": "Expert in understanding user behaviors, needs, and motivations through qualitative and quantitative research methods to drive user-centered design.",
-      "categories": ["Design", "Research"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "ux-researcher-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/legal-advisor-skill",
-      "name": "legal-advisor",
-      "description": "Provides legal guidance for contracts, compliance, intellectual property, data privacy, and regulatory matters. Use when reviewing contracts, ensuring compliance, protecting IP, or navigating technology law. Triggers include \"contract review\", \"terms of service\", \"GDPR\", \"privacy policy\", \"intellectual property\", \"licensing\", \"compliance\".",
-      "categories": ["Other"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "legal-advisor-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/rust-engineer-skill",
-      "name": "rust-engineer",
-      "description": "Rust specialist with expertise in async programming, ownership patterns, FFI, and WebAssembly development",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "rust-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/quant-analyst-skill",
-      "name": "quant-analyst",
-      "description": "Expert in quantitative finance, algorithmic trading, and financial data analysis using Python (Pandas/NumPy), statistical modeling, and machine learning.",
-      "categories": ["Data & Analytics", "Finance", "AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "quant-analyst-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/code-reviewer-skill",
-      "name": "code-reviewer",
-      "description": "Expert at quality-focused code review with security emphasis. Use when reviewing code changes, performing security audits, identifying bugs, ensuring code quality and maintainability, or analyzing pull requests for issues.",
-      "categories": ["Development", "Security"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "code-reviewer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/mcp-developer-skill",
-      "name": "mcp-developer",
-      "description": "Model Context Protocol development expert. Use when creating MCP servers, clients, or tools that enable AI agents to interact with external systems, APIs, and development environments.",
-      "categories": ["Development", "Integration", "AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "mcp-developer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/trend-analyst-skill",
-      "name": "trend-analyst",
-      "description": "Expert in forecasting, signal detection, and market intelligence. Specializes in time-series analysis, social listening, and predictive modeling for business trends.",
-      "categories": ["Other"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "trend-analyst-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/llm-architect-skill",
-      "name": "llm-architect",
-      "description": "Use when user needs LLM system architecture, model deployment, optimization strategies, and production serving infrastructure. Designs scalable large language model applications with focus on performance, cost efficiency, and safety.",
-      "categories": ["DevOps", "AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "llm-architect-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/cli-developer-skill",
-      "name": "cli-developer",
-      "description": "Expert in building Command Line Interfaces (CLIs), Terminal User Interfaces (TUIs), and shell automation tools. Use when creating CLI applications, building interactive terminal UIs, parsing command-line arguments, or developing shell scripts and automation tools.",
-      "categories": ["Development", "Design"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "cli-developer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/elixir-expert-skill",
-      "name": "elixir-expert",
-      "description": "Expert in Elixir, Phoenix Framework, and OTP. Specializes in building concurrent, fault-tolerant, and real-time applications using the BEAM. Use when building Elixir applications, working with Phoenix, implementing GenServers, or designing distributed systems on the BEAM.",
-      "categories": ["Development", "Design"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "elixir-expert-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/data-engineer-skill",
-      "name": "data-engineer",
-      "description": "Use when user needs scalable data pipeline development, ETL/ELT implementation, or data infrastructure design.",
-      "categories": ["DevOps", "Data & Analytics"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "data-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/mlops-engineer-skill",
-      "name": "mlops-engineer",
-      "description": "Expert in Machine Learning Operations bridging data science and DevOps. Use when building ML pipelines, model versioning, feature stores, or production ML serving. Triggers include \"MLOps\", \"ML pipeline\", \"model deployment\", \"feature store\", \"model versioning\", \"ML monitoring\", \"Kubeflow\", \"MLflow\".",
-      "categories": ["Development", "DevOps", "Data & Analytics", "AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "mlops-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/video-engineer-skill",
-      "name": "video-engineer",
-      "description": "Expert in video processing, streaming protocols (HLS/DASH/WebRTC), and FFmpeg automation. Specializes in building scalable video infrastructure.",
-      "categories": ["Media"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "video-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/build-engineer-skill",
-      "name": "build-engineer",
-      "description": "Expert in monorepo tooling (Turborepo, Nx, Bazel), CI/CD pipelines, and bundler optimization (Webpack/Vite/Rspack).",
-      "categories": ["Development", "DevOps"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "build-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/javascript-pro-skill",
-      "name": "javascript-pro",
-      "description": "Expert JavaScript developer specializing in modern ES2023+ features, Node.js runtime environments, and asynchronous programming patterns. This agent excels at writing clean, performant JavaScript code using the latest language features, optimizing runtime performance, and implementing scalable backend solutions with Node.js or Bun.",
-      "categories": ["Development", "Documents"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "javascript-pro-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/seo-specialist-skill",
-      "name": "seo-specialist",
-      "description": "Expert in Search Engine Optimization, driving organic traffic through technical auditing, content strategy, and authority building.",
-      "categories": ["Security", "Writing"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "seo-specialist-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/api-documenter-skill",
-      "name": "api-documenter",
-      "description": "API documentation specialist who creates comprehensive OpenAPI/Swagger specifications and technical documentation for RESTful APIs, GraphQL schemas, and microservices architectures. Use when writing API docs, creating OpenAPI specs, or documenting endpoints.",
-      "categories": ["Development", "Writing", "Data & Analytics"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "api-documenter-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/internal-comms-skill",
-      "name": "internal-comms",
-      "description": "Expert in corporate communication, employee engagement, and change management. Use when drafting internal announcements, change communications, leadership messages, or employee updates. Triggers include \"internal announcement\", \"employee communication\", \"change management\", \"company update\", \"leadership message\", \"town hall\".",
-      "categories": ["Marketing", "Business"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "internal-comms-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/error-detector-skill",
-      "name": "error-detector",
-      "description": "Advanced error analysis and pattern detection specialist for identifying, analyzing, and preventing software errors",
-      "categories": ["Other"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "error-detector-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/chaos-engineer-skill",
-      "name": "chaos-engineer",
-      "description": "Expert in resilience testing, fault injection, and building anti-fragile systems using controlled experiments.",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "chaos-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/kafka-engineer-skill",
-      "name": "kafka-engineer",
-      "description": "Expert in Apache Kafka, Event Streaming, and Real-time Data Pipelines. Specializes in Kafka Connect, KSQL, and Schema Registry.",
-      "categories": ["Data & Analytics"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "kafka-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/sales-engineer-skill",
-      "name": "sales-engineer",
-      "description": "Technical sales expert specializing in product demonstrations, technical validation (PoC), and solution design. Bridges the gap between sales and engineering.",
-      "categories": ["Other"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "sales-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/java-architect-skill",
-      "name": "java-architect",
-      "description": "Expert Java architect specializing in Java 21, Spring Boot 3, and Jakarta EE ecosystem. This agent excels at designing enterprise-grade applications with modern Java features, microservices architecture, and comprehensive enterprise integration patterns.",
-      "categories": ["Development", "Design", "Integration"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "java-architect-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/typescript-pro-skill",
-      "name": "typescript-pro",
-      "description": "Expert TypeScript developer specializing in advanced type system features, generic programming, and type-safe application architecture. This agent excels at leveraging TypeScript 5+ features for building robust, maintainable applications with comprehensive type safety and excellent developer experience.",
-      "categories": ["Development", "AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "typescript-pro-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/flutter-expert-skill",
-      "name": "flutter-expert",
-      "description": "Expert in building cross-platform apps with Flutter 3+. Specializes in Dart, Riverpod, Flame (Game Engine), and FFI (Native Integration).",
-      "categories": ["Design"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "flutter-expert-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/data-scientist-skill",
-      "name": "data-scientist",
-      "description": "Expert in statistical analysis, predictive modeling, machine learning, and data storytelling to drive business insights.",
-      "categories": ["Data & Analytics", "AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "data-scientist-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/game-developer-skill",
-      "name": "game-developer",
-      "description": "Expert in interactive entertainment, creating immersive experiences with Unity, Unreal Engine, and Godot.",
-      "categories": ["Other"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "game-developer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/algorithmic-art-skill",
-      "name": "algorithmic-art",
-      "description": "Expert in generative art, creative coding, and mathematical visualizations using p5.js and JavaScript.",
-      "categories": ["Development", "Design"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "algorithmic-art-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/devops-engineer-skill",
-      "name": "devops-engineer",
-      "description": "Senior DevOps Engineer with expertise in CI/CD automation, infrastructure as code, monitoring, and SRE practices. Proficient in cloud platforms, containerization, configuration management, and building scalable DevOps pipelines with focus on automation and operational excellence.",
-      "categories": ["Development", "DevOps", "Productivity", "Data & Analytics", "Documents"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "devops-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/product-manager-skill",
-      "name": "product-manager",
-      "description": "Strategic product leadership specializing in product strategy, roadmap development, feature prioritization, and cross-functional coordination. Use for product planning, requirements, user stories, or product decisions. Triggers include \"product roadmap\", \"feature prioritization\", \"user story\", \"product strategy\", \"PRD\", \"product requirements\", \"backlog\".",
-      "categories": ["Business"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "product-manager-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/prompt-engineer-skill",
-      "name": "prompt-engineer",
-      "description": "Expert in designing, optimizing, and evaluating prompts for Large Language Models. Specializes in Chain-of-Thought, ReAct, few-shot learning, and production prompt management. Use when crafting prompts, optimizing LLM outputs, or building prompt systems. Triggers include \"prompt engineering\", \"prompt optimization\", \"chain of thought\", \"few-shot\", \"prompt template\", \"LLM prompting\".",
-      "categories": ["Development", "Design", "Productivity", "AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "prompt-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/document-writer-skill",
-      "name": "document-writer",
-      "description": "Expert in creating technical documentation, architectural decision records (ADRs), and RFCs. Specializes in structured knowledge management and system documentation. Use when writing technical docs, ADRs, RFCs, or system design documents.",
-      "categories": ["Writing", "Business"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "document-writer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/data-researcher-skill",
-      "name": "data-researcher",
-      "description": "Data discovery and analysis specialist focused on extracting actionable insights from complex datasets, identifying patterns and anomalies, and transforming raw data into strategic intelligence. Excels at multi-source data integration, advanced analytics, and data-driven decision support.",
-      "categories": ["Data & Analytics", "Documents", "Research"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "data-researcher-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/error-detective-skill",
-      "name": "error-detective",
-      "description": "Use when user needs complex error pattern analysis, distributed system debugging, error correlation, root cause discovery, or predictive error prevention across microservices.",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "error-detective-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/context-manager-skill",
-      "name": "context-manager",
-      "description": "Expert in managing the \"Memory\" of AI systems. Specializes in Vector Databases (RAG), Short/Long-term memory architectures, and Context Window optimization. Use when designing AI memory systems, optimizing context usage, or implementing conversation history management.",
-      "categories": ["Data & Analytics", "AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "context-manager-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/agent-organizer-skill",
-      "name": "agent-organizer",
-      "description": "Expert in designing, orchestrating, and managing multi-agent systems (MAS). Specializes in agent collaboration patterns, hierarchical structures, and swarm intelligence. Use when building agent teams, designing agent communication, or orchestrating autonomous workflows.",
-      "categories": ["Development", "Design", "Productivity", "AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "agent-organizer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/cloud-architect-skill",
-      "name": "cloud-architect",
-      "description": "Senior Cloud Architect specializing in AWS, Azure, and GCP multi-cloud strategies with expertise in cost optimization, infrastructure design, and enterprise cloud migration. Use when designing cloud architecture, planning migrations, optimizing cloud costs, or implementing multi-cloud strategies.",
-      "categories": ["DevOps"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "cloud-architect-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/project-manager-skill",
-      "name": "project-manager",
-      "description": "Project management expert specializing in planning, execution, monitoring, and closure of projects. Masters traditional and agile methodologies to deliver projects on time, within budget, and to quality standards.",
-      "categories": ["Productivity", "Business"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "project-manager-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/macos-developer-skill",
-      "name": "macos-developer",
-      "description": "Expert in macOS app development using AppKit, SwiftUI for Mac, and XPC. Specializes in system extensions, menu bar apps, and deep OS integration.",
-      "categories": ["Other"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "macos-developer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/embedded-systems-skill",
-      "name": "embedded-systems",
-      "description": "Expert in RTOS, bare-metal programming, and embedded Linux. Specializes in Rust for Embedded and high-reliability firmware.",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "embedded-systems-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/nextjs-developer-skill",
-      "name": "nextjs-developer",
-      "description": "Expert Next.js developer specializing in Next.js 14+, App Router, Server Components, and modern React patterns. This agent excels at building high-performance, SEO-optimized web applications with full-stack capabilities, server actions, and cutting-edge Next.js features.",
-      "categories": ["Development", "Documents"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "nextjs-developer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/django-developer-skill",
-      "name": "django-developer",
-      "description": "Expert Django developer specializing in Async Views, Django Ninja (FastAPI-like), and HTMX patterns for modern full-stack apps.",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "django-developer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/task-distributor-skill",
-      "name": "task-distributor",
-      "description": "Expert in load balancing and dynamic task allocation for multi-agent systems. Specializes in optimal routing based on agent capability, availability, and cost (Token Economics).",
-      "categories": ["AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "task-distributor-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/network-engineer-skill",
-      "name": "network-engineer",
-      "description": "Use when user needs network architecture design, security implementation, performance optimization, and troubleshooting for cloud and hybrid environments. Builds reliable, secure networks with zero-trust principles.",
-      "categories": ["Development", "Security", "Design"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "network-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/wordpress-master-skill",
-      "name": "wordpress-master",
-      "description": "Use when user needs WordPress development, theme or plugin creation, site optimization, security hardening, multisite management, or scaling WordPress from small sites to enterprise platforms.",
-      "categories": ["Documents", "Business"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "wordpress-master-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/csharp-developer-skill",
-      "name": "csharp-developer",
-      "description": ".NET 8 and C# 12 specialist with expertise in ASP.NET Core, EF Core, and modern enterprise development. Use when building C# applications, working with .NET, implementing ASP.NET Core APIs, or using Entity Framework.",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "csharp-developer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/mobile-developer-skill",
-      "name": "mobile-developer",
-      "description": "Expert in pure native development (Swift/Kotlin) for iOS and Android, maximizing platform capabilities and performance.",
-      "categories": ["Other"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "mobile-developer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/research-analyst-skill",
-      "name": "research-analyst",
-      "description": "Comprehensive research and synthesis agent specializing in multi-source information gathering, critical analysis, and integrated knowledge synthesis. Excels at complex research projects requiring systematic investigation across domains, evidence evaluation, and coherent narrative construction.",
-      "categories": ["Data & Analytics", "Documents", "Research", "AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "research-analyst-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/fintech-engineer-skill",
-      "name": "fintech-engineer",
-      "description": "Expert in financial technology systems, double-entry ledger design, high-precision math, and regulatory compliance. Use when building payment systems, ledger architectures, financial calculations, PCI compliance, or banking integrations. Triggers include \"fintech\", \"ledger\", \"double-entry\", \"financial calculations\", \"PCI compliance\", \"banking API\".",
-      "categories": ["Development", "Design", "Finance"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "fintech-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/business-analyst-skill",
-      "name": "business-analyst",
-      "description": "Expert in bridging the gap between business needs and technical solutions. Specializes in Requirements Engineering, BPMN, and Agile User Stories. Use when gathering requirements, creating user stories, modeling business processes, or translating business needs to technical specs.",
-      "categories": ["Other"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "business-analyst-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/tooling-engineer-skill",
-      "name": "tooling-engineer",
-      "description": "Expert in building developer tools, CLI utilities, IDE extensions, and optimizing local development environments.",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "tooling-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/technical-writer-skill",
-      "name": "technical-writer",
-      "description": "Expert in creating clear, accurate, and user-friendly documentation. Masters API documentation, user guides, tutorials, and knowledge base creation.",
-      "categories": ["Writing"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "technical-writer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/bmad-bmm-analyst-skill",
-      "name": "bmad-bmm-analyst",
-      "description": "Business analysis expert who drives project discovery, market research, and requirements validation within the BMAD methodology",
-      "categories": ["Research"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "bmad-bmm-analyst-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/react-specialist-skill",
-      "name": "react-specialist",
-      "description": "Expert React developer specializing in React 18+, Next.js ecosystem, and modern React patterns. This agent excels at building performant, scalable React applications using hooks, concurrent features, state management solutions like Zustand, and data fetching with TanStack Query.",
-      "categories": ["Development", "Data & Analytics", "Documents"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "react-specialist-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/security-auditor-skill",
-      "name": "security-auditor",
-      "description": "Expert in compliance frameworks (SOC2, ISO 27001), automated auditing, and risk management.",
-      "categories": ["Security", "Productivity"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "security-auditor-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/content-marketer-skill",
-      "name": "content-marketer",
-      "description": "Expert in content strategy, SEO-driven storytelling, and developer advocacy. Bridges the gap between technical products and market adoption. Use when creating marketing content, developing content strategy, writing blog posts, or planning developer outreach.",
-      "categories": ["Writing", "Marketing"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "content-marketer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/csv-data-wrangler-skill",
-      "name": "csv-data-wrangler",
-      "description": "Expert in high-performance CSV processing, parsing, and data cleaning using Python, DuckDB, and command-line tools. Use when working with CSV files, cleaning data, transforming datasets, or processing large tabular data files.",
-      "categories": ["Data & Analytics", "Documents"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "csv-data-wrangler-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/graphql-architect-skill",
-      "name": "graphql-architect",
-      "description": "GraphQL schema and federation expert specializing in resolver optimization, subscriptions, and API gateway patterns",
-      "categories": ["Development", "Data & Analytics"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "graphql-architect-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/kotlin-specialist-skill",
-      "name": "kotlin-specialist",
-      "description": "Expert Kotlin developer specializing in Kotlin 2.0, Kotlin Multiplatform Mobile (KMP), Coroutines, and Ktor for building modern cross-platform applications and backend services.",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "kotlin-specialist-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/angular-architect-skill",
-      "name": "angular-architect",
-      "description": "Enterprise Angular development expert specializing in Angular 16+ features, Signals, Standalone Components, and RxJS/NgRx at scale.",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "angular-architect-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/market-researcher-skill",
-      "name": "market-researcher",
-      "description": "Market research specialist focused on comprehensive market analysis, consumer behavior insights, and market opportunity identification. Excels at quantitative market sizing, qualitative consumer research, and strategic market positioning analysis.",
-      "categories": ["Data & Analytics", "Research"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "market-researcher-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/error-coordinator-skill",
-      "name": "error-coordinator",
-      "description": "Expert in making multi-agent systems resilient. Specializes in detecting loops, hallucinations, and failures, and implementing self-healing workflows. Use when designing error handling for agent systems, implementing retry strategies, or building resilient AI workflows.",
-      "categories": ["Design", "AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "error-coordinator-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/legacy-modernizer-skill",
-      "name": "legacy-modernizer",
-      "description": "Expert in migrating monolithic, legacy systems to modern architectures using patterns like Strangler Fig, CDC, and Anti-Corruption Layers. Use when modernizing legacy codebases, breaking monoliths, or planning incremental migrations. Triggers include \"legacy migration\", \"modernization\", \"strangler fig\", \"monolith to microservices\", \"legacy rewrite\", \"incremental migration\".",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "legacy-modernizer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/incident-responder-skill",
-      "name": "incident-responder",
-      "description": "Use when user needs security incident response, operational incident management, evidence collection, forensic analysis, or coordinated response for outages and breaches.",
-      "categories": ["Security"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "incident-responder-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/dependency-manager-skill",
-      "name": "dependency-manager",
-      "description": "Expert at package management and supply chain security. Use when managing dependencies, updating packages, resolving version conflicts, ensuring supply chain security, or auditing vulnerabilities in project dependencies.",
-      "categories": ["Security", "Productivity"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "dependency-manager-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/database-optimizer-skill",
-      "name": "database-optimizer",
-      "description": "Use when user needs database query optimization, performance tuning, index strategies, execution plan analysis, or scalability across PostgreSQL, MySQL, MongoDB, Redis, and other database systems.",
-      "categories": ["Data & Analytics"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "database-optimizer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/frontend-developer-skill",
-      "name": "frontend-developer-skill",
-      "description": "Comprehensive frontend development specialist for building modern web applications with React, Vue, Angular, and modern tooling including state management, testing, and performance optimization",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "frontend-developer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/penetration-tester-skill",
-      "name": "penetration-tester",
-      "description": "Expert in ethical hacking, vulnerability assessment, and offensive security testing (Web/Network/Cloud).",
-      "categories": ["Development", "Security"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "penetration-tester-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/compliance-auditor-skill",
-      "name": "compliance-auditor",
-      "description": "Specialized auditor for SOC2, HIPAA, GDPR, and regulatory compliance frameworks across industries",
-      "categories": ["Security"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "compliance-auditor-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/windows-infra-admin-skill",
-      "name": "windows-infra-admin",
-      "description": "Expert in Windows Server, Active Directory (AD DS), Hybrid Identity (Entra ID), and PowerShell automation.",
-      "categories": ["Other"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "windows-infra-admin-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/it-ops-orchestrator-skill",
-      "name": "it-ops-orchestrator",
-      "description": "Use when user needs cross-domain IT task coordination across PowerShell, .NET, infrastructure, Azure, and M365, especially for Windows environments preferring PowerShell automation.",
-      "categories": ["DevOps", "Productivity"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "it-ops-orchestrator-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/powershell-7-expert-skill",
-      "name": "powershell-7-expert",
-      "description": "Expert in modern, cross-platform PowerShell Core. Specializes in Linux/macOS automation, parallel processing, REST API integration, and modern scripting patterns. Use for cross-platform automation and modern PowerShell features. Triggers include \"PowerShell 7\", \"PowerShell Core\", \"pwsh\", \"ForEach-Object -Parallel\", \"cross-platform PowerShell\".",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "powershell-7-expert-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/competitive-analyst-skill",
-      "name": "competitive-analyst",
-      "description": "Competitive intelligence specialist focused on systematic competitor analysis, market positioning assessment, and strategic advantage identification. Excels at multi-dimensional competitive landscape mapping, capability assessment, and strategic recommendation development.",
-      "categories": ["Data & Analytics"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "competitive-analyst-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/deployment-engineer-skill",
-      "name": "deployment-engineer",
-      "description": "Expert Deployment Engineer specializing in CI/CD automation, containerization, and release management across diverse platforms. Proficient in Jenkins, GitHub Actions, GitLab CI, Azure DevOps, and modern deployment strategies including blue-green deployments and canary releases.",
-      "categories": ["DevOps", "Productivity"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "deployment-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/fullstack-developer-skill",
-      "name": "fullstack-developer",
-      "description": "End-to-end feature expert specializing in frontend-backend integration, system architecture, and complete application development",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "fullstack-developer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/performance-monitor-skill",
-      "name": "performance-monitor",
-      "description": "Expert in observing, benchmarking, and optimizing AI agents. Specializes in token usage tracking, latency analysis, and quality evaluation metrics. Use when optimizing agent costs, measuring performance, or implementing evals. Triggers include \"agent performance\", \"token usage\", \"latency optimization\", \"eval\", \"agent metrics\", \"cost optimization\", \"agent benchmarking\".",
-      "categories": ["Data & Analytics", "AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "performance-monitor-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/ad-security-reviewer-skill",
-      "name": "ad-security-reviewer",
-      "description": "Use when user needs Active Directory security analysis, privileged group design review, authentication policy assessment, or delegation and attack surface evaluation across enterprise domains.",
-      "categories": ["Security", "Business"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "ad-security-reviewer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/performance-engineer-skill",
-      "name": "performance-engineer",
-      "description": "Expert in system optimization, profiling, and scalability. Specializes in eBPF, Flamegraphs, and kernel-level tuning.",
-      "categories": ["Other"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "performance-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/blockchain-developer-skill",
-      "name": "blockchain-developer",
-      "description": "Expert in Web3 development, smart contracts (Solidity/Rust), and decentralized application (dApp) architecture.",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "blockchain-developer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/spring-boot-engineer-skill",
-      "name": "spring-boot-engineer",
-      "description": "Expert in Spring Boot 3+, Microservices, and Cloud-Native Java. Specializes in Virtual Threads, Spring Cloud, and Reactive Stack.",
-      "categories": ["Development", "DevOps"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "spring-boot-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/git-workflow-manager-skill",
-      "name": "git-workflow-manager",
-      "description": "Git workflow and branching strategy expert. Use when establishing team collaboration patterns, optimizing commit practices, or designing scalable version control workflows for better developer experience.",
-      "categories": ["Development", "Productivity"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "git-workflow-manager-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/codebase-exploration-skill",
-      "name": "codebase-exploration",
-      "description": "Deep contextual grep for codebases. Expert at finding patterns, architectures, implementations, and answering \"Where is X?\", \"Which file has Y?\", and \"Find code that does Z\" questions. Use when exploring unfamiliar codebases, finding specific implementations, understanding code organization, discovering patterns across multiple files, or locating functionality in a project. Supports three thoroughness levels quick, medium, very thorough.",
-      "categories": ["Development", "Research"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "codebase-exploration-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/accessibility-tester-skill",
-      "name": "accessibility-tester",
-      "description": "WCAG 2.2 AA compliance expert specializing in audits, automated testing, screen reader validation, and remediation.",
-      "categories": ["Development", "Security"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "accessibility-tester-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/kubernetes-specialist-skill",
-      "name": "kubernetes-specialist",
-      "description": "Expert Kubernetes Specialist with deep expertise in container orchestration, cluster management, and cloud-native applications. Proficient in Kubernetes architecture, Helm charts, operators, and multi-cluster management across EKS, AKS, GKE, and on-premises deployments.",
-      "categories": ["DevOps"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "kubernetes-specialist-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/windows-app-developer-skill",
-      "name": "windows-app-developer",
-      "description": "Expert in building modern Windows applications using WinUI 3, WPF, and the Windows App SDK. Specializes in MSIX packaging, XAML styling, and MVVM architecture.",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "windows-app-developer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/knowledge-synthesizer-skill",
-      "name": "knowledge-synthesizer",
-      "description": "Expert in aggregating, processing, and synthesizing information from multiple sources into coherent insights. Use when building knowledge graphs, ontologies, RAG systems, or extracting insights across documents. Triggers include \"knowledge graph\", \"ontology\", \"synthesize information\", \"GraphRAG\", \"insight extraction\", \"cross-document analysis\".",
-      "categories": ["Development", "Data & Analytics", "Documents", "Research"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "knowledge-synthesizer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/database-administrator-skill",
-      "name": "database-administrator",
-      "description": "Senior Database Administrator with expertise in PostgreSQL, MySQL, MongoDB, and enterprise database systems. Specializes in high availability architectures, performance tuning, backup strategies, and database security for production environments.",
-      "categories": ["Data & Analytics"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "database-administrator-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/documentation-engineer-skill",
-      "name": "documentation-engineer",
-      "description": "Technical documentation and knowledge management expert. Use when creating comprehensive documentation systems, improving developer knowledge sharing, or building documentation-driven development workflows.",
-      "categories": ["Development", "Productivity"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "documentation-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/event-driven-architect-skill",
-      "name": "event-driven-architect",
-      "description": "Expert in designing asynchronous, decoupled systems using Event-Driven Architecture (EDA). Specializes in AsyncAPI, Event Mesh, and CloudEvents standards. Use when designing event-driven systems, implementing message queues, or building asynchronous microservices.",
-      "categories": ["Development", "DevOps", "Design", "Integration"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "event-driven-architect-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/microservices-architect-skill",
-      "name": "microservices-architect",
-      "description": "Distributed systems expert specializing in service decomposition, orchestration, and microservices architecture patterns. Use when designing microservices, defining service boundaries, implementing service mesh, or handling distributed system challenges. Triggers include \"microservices\", \"service mesh\", \"service decomposition\", \"distributed systems\", \"API gateway\", \"event-driven\".",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "microservices-architect-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/frontend-ui-ux-engineer-skill",
-      "name": "frontend-ui-ux-engineer",
-      "description": "A designer-turned-developer who crafts stunning UI/UX even without design mockups. Code may be a bit messy, but the visual output is always fire.",
-      "categories": ["Development", "Design"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "frontend-ui-ux-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/powershell-ui-architect-skill",
-      "name": "powershell-ui-architect",
-      "description": "Expert in building GUIs and TUIs with PowerShell using WinForms, WPF, and Console/TUI frameworks. Use when creating PowerShell tools with graphical or terminal interfaces. Triggers include \"PowerShell GUI\", \"WinForms\", \"WPF PowerShell\", \"PowerShell TUI\", \"terminal UI\", \"PowerShell interface\".",
-      "categories": ["Development", "Design"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "powershell-ui-architect-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/multi-agent-coordinator-skill",
-      "name": "multi-agent-coordinator",
-      "description": "An advanced orchestration specialist that manages complex coordination of 100+ agents across distributed systems with hierarchical control, dynamic scaling, and intelligent resource allocation",
-      "categories": ["AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "multi-agent-coordinator-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/react-native-specialist-skill",
-      "name": "react-native-specialist",
-      "description": "Expert in React Native (New Architecture), TurboModules, Fabric, and Expo. Specializes in native module development and performance optimization.",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "react-native-specialist-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/customer-success-manager-skill",
-      "name": "customer-success-manager",
-      "description": "Expert in onboarding, adoption, and retention strategies. Specializes in turning users into advocates through structured success plans and proactive health monitoring. Use when designing onboarding flows, creating success plans, or improving customer retention.",
-      "categories": ["Other"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "customer-success-manager-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/powershell-module-architect-skill",
-      "name": "powershell-module-architect",
-      "description": "Use when user needs PowerShell module design, function structure, reusable libraries, profile optimization, or cross-version compatibility across PowerShell 5.1 and PowerShell 7+.",
-      "categories": ["Other"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "powershell-module-architect-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/test-automator-skill",
-      "name": "test-automator",
-      "description": "Expert in designing robust test frameworks using Playwright, Cypress, and AI-driven testing tools.",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "test-automator-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/search-specialist-skill",
-      "name": "search-specialist",
-      "description": "Advanced information retrieval specialist combining systematic search strategies, multi-platform expertise, and precision filtering techniques. Excels at finding specific, high-quality information across diverse sources while minimizing noise and maximizing relevance.",
-      "categories": ["Documents", "Research"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "search-specialist-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/security-engineer-skill",
-      "name": "security-engineer",
-      "description": "Expert in infrastructure security, DevSecOps pipelines, and zero-trust architecture design.",
-      "categories": ["Development", "DevOps", "Security"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "security-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/multimodal-looker-skill",
-      "name": "multimodal-analysis",
-      "description": "Analyze media files (PDFs, images, diagrams) that require interpretation beyond raw text. Extracts specific information or summaries from documents, describes visual content. Use for document analysis, image understanding, diagram interpretation, chart analysis, table extraction, and any media requiring visual or contextual interpretation beyond literal text extraction.",
-      "categories": ["Design", "Writing", "Data & Analytics", "Documents", "Research"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "multimodal-looker-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/platform-engineer-skill",
-      "name": "platform-engineer",
-      "description": "Expert in building Internal Developer Platforms (IDP), self-service infrastructure, and Golden Paths using Backstage, Crossplane, and Kubernetes.",
-      "categories": ["Development", "DevOps"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "platform-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/backend-developer-skill",
-      "name": "backend-developer",
-      "description": "Comprehensive backend development for building production-ready server-side applications with multiple frameworks, databases, and deployment strategies. Use when building APIs, services, databases, or server infrastructure.",
-      "categories": ["Development", "DevOps", "Data & Analytics"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "backend-developer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["EXAMPLES.md", "REFERENCE.md", "SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/dotnet-core-expert-skill",
-      "name": "dotnet-core-expert",
-      "description": ".NET 8 cross-platform specialist with expertise in MAUI, EF Core, and modern C# development. Use when building cross-platform .NET apps, working with .NET MAUI, or developing applications for multiple operating systems.",
-      "categories": ["Other"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "dotnet-core-expert-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/terraform-engineer-skill",
-      "name": "terraform-engineer",
-      "description": "Infrastructure as Code (IaC) expert using Terraform/OpenTofu, HCL, and modern state management.",
-      "categories": ["DevOps"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "terraform-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/solution-architect-skill",
-      "name": "solution-architect",
-      "description": "Expert in designing high-level enterprise solutions. Specializes in TOGAF adaptation, trade-off analysis, and aligning technology with business strategy.",
-      "categories": ["Business"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "solution-architect-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/websocket-engineer-skill",
-      "name": "websocket-engineer",
-      "description": "Expert in real-time communication systems, including WebSockets, Socket.IO, SSE, and WebRTC.",
-      "categories": ["Other"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "websocket-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/laravel-specialist-skill",
-      "name": "laravel-specialist",
-      "description": "Expert Laravel developer specializing in Laravel 11+, Octane, Livewire 3, and PHP 8.3 features. Use when building Laravel applications, APIs, real-time features, or optimizing performance. Triggers include \"Laravel\", \"Livewire\", \"Eloquent\", \"Blade\", \"Octane\", \"Laravel Sail\", \"Artisan\".",
-      "categories": ["Development", "Design"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "laravel-specialist-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/payment-integration-skill",
-      "name": "payment-integration",
-      "description": "Expert in integrating payment gateways (Stripe, PayPal, Adyen) and designing PCI-compliant billing architectures. Use when implementing checkout flows, subscriptions, or payment processing. Triggers include \"Stripe\", \"PayPal\", \"payment gateway\", \"checkout\", \"subscription billing\", \"PCI compliance\", \"payment processing\".",
-      "categories": ["Integration", "Finance"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "payment-integration-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/performance-testing-skill",
-      "name": "performance-testing",
-      "description": "Performance testing specialist for load testing, stress testing, and performance optimization across applications and infrastructure",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "performance-testing-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/mobile-app-developer-skill",
-      "name": "mobile-app-developer",
-      "description": "Expert in cross-platform mobile development (React Native/Flutter), bridging native performance with shared business logic.",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "mobile-app-developer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/azure-infra-engineer-skill",
-      "name": "azure-infra-engineer",
-      "description": "Expert in Microsoft Azure cloud services, specializing in Bicep/ARM templates, Enterprise Landing Zones, and Cloud Adoption Framework (CAF).",
-      "categories": ["DevOps"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "azure-infra-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/workflow-orchestrator-skill",
-      "name": "workflow-orchestrator",
-      "description": "Expert in designing durable, scalable workflow systems using Temporal, Camunda, and Event-Driven Architectures.",
-      "categories": ["Other"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "workflow-orchestrator-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/refactoring-specialist-skill",
-      "name": "refactoring-specialist",
-      "description": "Expert in improving code structure without changing behavior. Specializes in Design Patterns, SOLID principles, and Anti-Corruption Layers.",
-      "categories": ["Development"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "refactoring-specialist-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/machine-learning-engineer-skill",
-      "name": "machine-learning-engineer",
-      "description": "Use when user needs ML model deployment, production serving infrastructure, optimization strategies, and real-time inference systems. Designs and implements scalable ML systems with focus on reliability and performance.",
-      "categories": ["DevOps", "AI & ML"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "machine-learning-engineer-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/devops-incident-responder-skill",
-      "name": "devops-incident-responder",
-      "description": "Expert in SRE practices, incident management, root cause analysis, and automated remediation.",
-      "categories": ["DevOps", "Productivity"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "devops-incident-responder-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "404kidwiz/claude-supercode-skills/powershell-security-hardening-skill",
-      "name": "powershell-security-hardening",
-      "description": "Expert in Windows security hardening and PowerShell security configuration. Specializes in securing automation, enforcing least privilege, and aligning with enterprise security baselines. Use for securing PowerShell environments and Windows systems. Triggers include \"PowerShell security\", \"constrained language mode\", \"JEA\", \"execution policy\", \"security baseline\", \"PowerShell logging\".",
-      "categories": ["Productivity"],
-      "author": "404kidwiz",
-      "repo": "404kidwiz/claude-supercode-skills",
-      "path": "powershell-security-hardening-skill",
-      "commitHash": "2c3fe6a948ac",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "norsizu/comfyui-zimage-skill",
-      "name": "comfyui-zimage",
-      "description": "Z-Image Manga/Illustration Generation. Local scripts, no ToolSearch needed.\nTrigger words: Hojo, Satoshi, manga, generate image, portrait.\n",
-      "categories": ["Design"],
-      "author": "norsizu",
-      "repo": "norsizu/comfyui-zimage-skill",
-      "path": "",
-      "commitHash": "6d203bc7b47d",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cablate/Agentic-MCP-Skill",
-      "name": "agentic-mcp",
-      "description": "Agentic MCP - Three-layer progressive disclosure for MCP servers with Socket daemon. Use when the user needs to interact with MCP servers, query available tools, call MCP tools, or manage the MCP daemon process. Provides socket-based communication for efficient server interaction with three-layer progressive disclosure API.",
-      "categories": ["AI & ML"],
-      "author": "cablate",
-      "repo": "cablate/Agentic-MCP-Skill",
-      "path": "",
-      "commitHash": "7d7ebbed34ae",
-      "files": ["SKILL.md"]
-    },
     {
       "id": "membranedev/application-skills/skills/wb",
       "name": "wb",
@@ -11670,6 +9951,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "cablate/Agentic-MCP-Skill",
+      "name": "agentic-mcp",
+      "description": "Agentic MCP - Three-layer progressive disclosure for MCP servers with Socket daemon. Use when the user needs to interact with MCP servers, query available tools, call MCP tools, or manage the MCP daemon process. Provides socket-based communication for efficient server interaction with three-layer progressive disclosure API.",
+      "categories": ["AI & ML"],
+      "author": "cablate",
+      "repo": "cablate/Agentic-MCP-Skill",
+      "path": "",
+      "commitHash": "7d7ebbed34ae",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "leogodin217/leos_claude_starter/.claude/skills/session",
       "name": "session",
       "description": "Analyze Claude Code session transcripts — search, summarize, list, or inspect how a session went.",
@@ -12380,6 +10672,17 @@
       "path": ".claude/skills/serena",
       "commitHash": "c72645b3d257",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "sc30gsw/claude-code-customes/.claude/skills/code-reviewer",
+      "name": "code-reviewer",
+      "description": "Comprehensive code review skill for TypeScript, JavaScript, Python, Swift, Kotlin, Go. Includes automated code analysis, best practice checking, security scanning, and review checklist generation. Use when reviewing pull requests, providing code feedback, identifying issues, or ensuring code quality standards.",
+      "categories": ["Development"],
+      "author": "sc30gsw",
+      "repo": "sc30gsw/claude-code-customes",
+      "path": ".claude/skills/code-reviewer",
+      "commitHash": "56001ae139e9",
+      "files": ["SKILL.md", "references", "scripts"]
     },
     {
       "id": "sc30gsw/claude-code-customes/.claude/skills/dependabot-check",
@@ -13929,17 +12232,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "diegosouzapw/awesome-omni-skill/skills/backend/base",
-      "name": "base",
-      "description": "Database management, forms, reports, and data operations with LibreOffice Base.",
-      "categories": ["Data & Analytics"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/backend/base",
-      "commitHash": "c98b9d7acc07",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
       "id": "diegosouzapw/awesome-omni-skill/skills/product/jtbd",
       "name": "jtbd",
       "description": "Jobs to Be Done analysis to understand what customers really want. Use for product discovery, competitive analysis, or understanding why customers hire/fire solutions.",
@@ -13995,6 +12287,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "diegosouzapw/awesome-omni-skill/skills/tools/mem0-automation",
+      "name": "mem0-automation",
+      "description": "Automate Mem0 tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+      "categories": ["Productivity"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/tools/mem0-automation",
+      "commitHash": "00c4d7cc2bbe",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "diegosouzapw/awesome-omni-skill/skills/product/conductor-setup",
       "name": "conductor-setup",
       "description": "Initialize project with Conductor artifacts (product definition,\ntech stack, workflow, style guides)\n",
@@ -14003,28 +12306,6 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/product/conductor-setup",
       "commitHash": "02b8e2fbda51",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/tools/finage-automation",
-      "name": "finage-automation",
-      "description": "Automate Finage tasks via Rube MCP (Composio). Always search tools first for current schemas.",
-      "categories": ["Productivity"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/tools/finage-automation",
-      "commitHash": "ae3078b949ac",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/tools/botstar-automation",
-      "name": "botstar-automation",
-      "description": "Automate Botstar tasks via Rube MCP (Composio). Always search tools first for current schemas.",
-      "categories": ["Productivity"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/tools/botstar-automation",
-      "commitHash": "00c4d7cc2bbe",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -14039,6 +12320,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "diegosouzapw/awesome-omni-skill/skills/data-ai/agentql-automation",
+      "name": "agentql-automation",
+      "description": "Automate Agentql tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+      "categories": ["Productivity"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/data-ai/agentql-automation",
+      "commitHash": "9e5c26884e72",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "diegosouzapw/awesome-omni-skill/skills/frontend/frontend-developer",
       "name": "frontend-developer",
       "description": "Build React components, implement responsive layouts, and handle client-side state management. Masters React 19, Next.js 15, and modern frontend architecture.",
@@ -14047,17 +12339,6 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/frontend/frontend-developer",
       "commitHash": "02b8e2fbda51",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/content-media/videodb-skills",
-      "name": "videodb-skills",
-      "description": "Upload, stream, search, edit, transcribe, and generate AI video and audio using the VideoDB SDK.",
-      "categories": ["Media"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/content-media/videodb-skills",
-      "commitHash": "c98b9d7acc07",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -14112,6 +12393,17 @@
       "author": "diegosouzapw",
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/devops/file-uploads",
+      "commitHash": "9a0f06626940",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/frontend/fp-ts-react",
+      "name": "fp-ts-react",
+      "description": "Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Use when building React apps with functional programming patterns. Works with React 18/19, Next.js 14/15.",
+      "categories": ["Development"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/frontend/fp-ts-react",
       "commitHash": "9a0f06626940",
       "files": ["SKILL.md", "metadata.json"]
     },
@@ -14204,6 +12496,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "diegosouzapw/awesome-omni-skill/skills/tools/kadoa-automation",
+      "name": "kadoa-automation",
+      "description": "Automate Kadoa tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+      "categories": ["Productivity"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/tools/kadoa-automation",
+      "commitHash": "00c4d7cc2bbe",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "diegosouzapw/awesome-omni-skill/skills/cli-automation/amplitude-automation",
       "name": "amplitude-automation",
       "description": "Automate Amplitude tasks via Rube MCP (Composio): events, user activity, cohorts, user identification. Always search tools first for current schemas.",
@@ -14222,39 +12525,6 @@
       "author": "diegosouzapw",
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/tools/ascora-automation",
-      "commitHash": "00c4d7cc2bbe",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/tools/timely-automation",
-      "name": "timely-automation",
-      "description": "Automate Timely tasks via Rube MCP (Composio). Always search tools first for current schemas.",
-      "categories": ["Productivity"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/tools/timely-automation",
-      "commitHash": "00c4d7cc2bbe",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/tools/expofp-automation",
-      "name": "expofp-automation",
-      "description": "Automate Expofp tasks via Rube MCP (Composio). Always search tools first for current schemas.",
-      "categories": ["Productivity"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/tools/expofp-automation",
-      "commitHash": "ae3078b949ac",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/tools/borneo-automation",
-      "name": "borneo-automation",
-      "description": "Automate Borneo tasks via Rube MCP (Composio). Always search tools first for current schemas.",
-      "categories": ["Productivity"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/tools/borneo-automation",
       "commitHash": "00c4d7cc2bbe",
       "files": ["SKILL.md", "metadata.json"]
     },
@@ -14292,14 +12562,14 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "diegosouzapw/awesome-omni-skill/skills/tools/pdf-co-automation",
-      "name": "pdf-co-automation",
-      "description": "Automate PDF co tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+      "id": "diegosouzapw/awesome-omni-skill/skills/tools/codacy-automation",
+      "name": "codacy-automation",
+      "description": "Automate Codacy tasks via Rube MCP (Composio). Always search tools first for current schemas.",
       "categories": ["Productivity"],
       "author": "diegosouzapw",
       "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/tools/pdf-co-automation",
-      "commitHash": "00c4d7cc2bbe",
+      "path": "skills/tools/codacy-automation",
+      "commitHash": "ae3078b949ac",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -14322,39 +12592,6 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/tools/alchemy-automation",
       "commitHash": "00c4d7cc2bbe",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/data-ai/bigml-automation",
-      "name": "bigml-automation",
-      "description": "Automate Bigml tasks via Rube MCP (Composio). Always search tools first for current schemas.",
-      "categories": ["Productivity"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/data-ai/bigml-automation",
-      "commitHash": "9e5c26884e72",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/tools/heyzine-automation",
-      "name": "heyzine-automation",
-      "description": "Automate Heyzine tasks via Rube MCP (Composio). Always search tools first for current schemas.",
-      "categories": ["Productivity"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/tools/heyzine-automation",
-      "commitHash": "00c4d7cc2bbe",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/devops/azure-eventhub-ts",
-      "name": "azure-eventhub-ts",
-      "description": "Build event streaming applications using Azure Event Hubs SDK for JavaScript (@azure/event-hubs). Use when implementing high-throughput event ingestion, real-time analytics, IoT telemetry, or event...",
-      "categories": ["Development"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/devops/azure-eventhub-ts",
-      "commitHash": "9a0f06626940",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -14399,17 +12636,6 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/tools/abstract-automation",
       "commitHash": "00c4d7cc2bbe",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/development/nerdzao-elite",
-      "name": "nerdzao-elite",
-      "description": "Senior Elite Software Engineer (15+) and Senior Product Designer. Full workflow with planning, architecture, TDD, clean code, and pixel-perfect UX validation.",
-      "categories": ["Development", "Design"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/development/nerdzao-elite",
-      "commitHash": "9a0f06626940",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -14468,17 +12694,6 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "diegosouzapw/awesome-omni-skill/skills/backend/bullmq-specialist",
-      "name": "bullmq-specialist",
-      "description": "BullMQ expert for Redis-backed job queues, background processing, and reliable async execution in Node.js/TypeScript applications. Use when: bullmq, bull queue, redis queue, background job, job queue.",
-      "categories": ["Development"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/backend/bullmq-specialist",
-      "commitHash": "9a0f06626940",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
       "id": "diegosouzapw/awesome-omni-skill/skills/data-ai/x-twitter-scraper",
       "name": "x-twitter-scraper",
       "description": "X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction tools, MCP server.",
@@ -14487,6 +12702,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/data-ai/x-twitter-scraper",
       "commitHash": "02b8e2fbda51",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/testing-security/broken-authentication",
+      "name": "broken-authentication",
+      "description": "This skill should be used when the user asks to \"test for broken authentication vulnerabilities\", \"assess session management security\", \"perform credential stuffing tests\", \"evaluate ...",
+      "categories": ["Security"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/testing-security/broken-authentication",
+      "commitHash": "9a0f06626940",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -14534,14 +12760,14 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "diegosouzapw/awesome-omni-skill/skills/devops/azure-servicebus-py",
-      "name": "azure-servicebus-py",
-      "description": "Azure Service Bus SDK for Python messaging. Use for queues, topics, subscriptions, and enterprise messaging patterns.",
+      "id": "diegosouzapw/awesome-omni-skill/skills/development/upgrading-expo",
+      "name": "upgrading-expo",
+      "description": "Upgrade Expo SDK versions",
       "categories": ["Development"],
       "author": "diegosouzapw",
       "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/devops/azure-servicebus-py",
-      "commitHash": "02b8e2fbda51",
+      "path": "skills/development/upgrading-expo",
+      "commitHash": "c98b9d7acc07",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -14553,39 +12779,6 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/backend/apify-actorization",
       "commitHash": "02b8e2fbda51",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/tools/buildkite-automation",
-      "name": "buildkite-automation",
-      "description": "Automate Buildkite tasks via Rube MCP (Composio). Always search tools first for current schemas.",
-      "categories": ["Productivity"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/tools/buildkite-automation",
-      "commitHash": "ae3078b949ac",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/devops/azure-servicebus-ts",
-      "name": "azure-servicebus-ts",
-      "description": "Build messaging applications using Azure Service Bus SDK for JavaScript (@azure/service-bus). Use when implementing queues, topics/subscriptions, message sessions, dead-letter handling, or enterpri...",
-      "categories": ["Development"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/devops/azure-servicebus-ts",
-      "commitHash": "9a0f06626940",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/testing-security/find-bugs",
-      "name": "find-bugs",
-      "description": "Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch.",
-      "categories": ["Security"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/testing-security/find-bugs",
-      "commitHash": "9a0f06626940",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -15368,6 +13561,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/development/api",
       "commitHash": "a8cd64845804",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/ai-agents/tidar",
+      "name": "tidar",
+      "description": "Triadic Interleaving Dispatch with Agents for Reading/writing. Pre-hooks split into 3³=27 sub-agents before any read/write, collapse via middle path. Use for parallel ACSet access, Goblins vat coordination, and GF(3)-conserved agency trees.",
+      "categories": ["Writing"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/ai-agents/tidar",
+      "commitHash": "fc92e966f0b4",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -16304,6 +14508,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "diegosouzapw/awesome-omni-skill/skills/tools/multiplayer",
+      "name": "multiplayer",
+      "description": "Multiplayer game development principles. Architecture, networking, synchronization.",
+      "categories": ["Other"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/tools/multiplayer",
+      "commitHash": "ae3078b949ac",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "diegosouzapw/awesome-omni-skill/skills/devops/skiplagged",
       "name": "skiplagged",
       "description": "Find hidden-city flight deals and significantly cheaper airfares using Skiplagged's fare discovery",
@@ -16613,6 +14828,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/development/vuejs3",
       "commitHash": "4d289fd11a6b",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/data-ai/markitdown",
+      "name": "markitdown",
+      "description": "Convert files and office documents to Markdown. Supports PDF, DOCX, PPTX, XLSX, images (with OCR), audio (with transcription), HTML, CSV, JSON, XML, ZIP, YouTube URLs, EPubs and more.",
+      "categories": ["Data & Analytics", "Documents", "Media"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/data-ai/markitdown",
+      "commitHash": "ab593f82f4fd",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -17376,17 +15602,6 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "diegosouzapw/awesome-omni-skill/skills/development/c4-code",
-      "name": "c4-code",
-      "description": "Expert C4 Code-level documentation specialist. Analyzes code directories to create comprehensive C4 code-level documentation including function signatures, arguments, dependencies, and code structure.",
-      "categories": ["Other"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/development/c4-code",
-      "commitHash": "02b8e2fbda51",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
       "id": "diegosouzapw/awesome-omni-skill/skills/ai-agents/bootstrap",
       "name": "bootstrap",
       "description": "Smart repo bootstrapping for Agentic flow (AGENTS.md)",
@@ -17533,6 +15748,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/development/insomnia",
       "commitHash": "bdb8c4519aa4",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/development/firebase",
+      "name": "firebase",
+      "description": "Firebase gives you a complete backend in minutes - auth, database, storage, functions, hosting. But the ease of setup hides real complexity. Security rules are your last line of defense, and they'r...",
+      "categories": ["Security", "Data & Analytics"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/development/firebase",
+      "commitHash": "3f8b1190fc29",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -17694,6 +15920,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/development/bug-hunt",
       "commitHash": "97ba41c2500c",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/design/canvas-design",
+      "name": "canvas-design",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create ...",
+      "categories": ["Design", "Documents"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/design/canvas-design",
+      "commitHash": "9a0f06626940",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -18080,17 +16317,6 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "diegosouzapw/awesome-omni-skill/skills/development/elixir-pro",
-      "name": "elixir-pro",
-      "description": "Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault tolerance, and distributed systems.",
-      "categories": ["Development"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/development/elixir-pro",
-      "commitHash": "02b8e2fbda51",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
       "id": "diegosouzapw/awesome-omni-skill/skills/documentation/compound",
       "name": "compound",
       "description": "Capture session learnings and save to skills, guidelines, or reference docs under ~/.claude/.",
@@ -18264,6 +16490,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/devops/scaffold-docker",
       "commitHash": "22bfbab8aebc",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/backend/file-organizer",
+      "name": "file-organizer",
+      "description": "Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better organizational structures. Use when user wants to clean up directories, organize downloads, remove duplicates, or restructure projects.",
+      "categories": ["Productivity"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/backend/file-organizer",
+      "commitHash": "a603de7d0098",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -18455,6 +16692,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "diegosouzapw/awesome-omni-skill/skills/tools/stannp-automation",
+      "name": "stannp-automation",
+      "description": "Automate Stannp tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+      "categories": ["Productivity"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/tools/stannp-automation",
+      "commitHash": "00c4d7cc2bbe",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "diegosouzapw/awesome-omni-skill/skills/development/init-python",
       "name": "init-python",
       "description": "Initialize or refresh a root `AGENTS.md` for a Python project from repository inspection, then enforce typing and architecture rules tailored to the detected stack.",
@@ -18631,17 +16879,6 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/tools/aesthetic",
       "commitHash": "ae3078b949ac",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/data-ai/debugger",
-      "name": "debugger",
-      "description": "Debugging specialist for errors, test failures, and unexpected\nbehavior. Use proactively when encountering any issues.\n",
-      "categories": ["Development"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/data-ai/debugger",
-      "commitHash": "9e5c26884e72",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -19101,6 +17338,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "diegosouzapw/awesome-omni-skill/skills/devops/senior-devops",
+      "name": "senior-devops",
+      "description": "Comprehensive DevOps skill for CI/CD, infrastructure automation, containerization, and cloud platforms (AWS, GCP, Azure). Includes pipeline setup, infrastructure as code, deployment automation, and monitoring. Use when setting up pipelines, deploying applications, managing infrastructure, implementing monitoring, or optimizing deployment processes.",
+      "categories": ["DevOps", "Productivity"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/devops/senior-devops",
+      "commitHash": "97ba41c2500c",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "diegosouzapw/awesome-omni-skill/skills/data-ai/agent-network",
       "name": "agent-network",
       "description": "Multi-Agent group chat collaboration system inspired by DingTalk/Lark. Enables AI agents to chat in groups, @mention each other, assign tasks, make decisions via voting, and collaborate. Use when building multi-agent systems that need structured communication, task delegation, decision making, or group coordination.",
@@ -19109,6 +17357,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/data-ai/agent-network",
       "commitHash": "0a9eefcd613e",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/design/ui-ux-designer",
+      "name": "ui-ux-designer",
+      "description": "Create interface designs, wireframes, and design systems. Masters user research, accessibility standards, and modern design tools.",
+      "categories": ["Design", "Research"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/design/ui-ux-designer",
+      "commitHash": "02b8e2fbda51",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -19142,6 +17401,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/backend/document-docx",
       "commitHash": "fc92e966f0b4",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/tools/deel-automation",
+      "name": "deel-automation",
+      "description": "Automate Deel tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+      "categories": ["Productivity"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/tools/deel-automation",
+      "commitHash": "ae3078b949ac",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -19351,17 +17621,6 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "diegosouzapw/awesome-omni-skill/skills/tools/mboum-automation",
-      "name": "mboum-automation",
-      "description": "Automate Mboum tasks via Rube MCP (Composio). Always search tools first for current schemas.",
-      "categories": ["Productivity"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/tools/mboum-automation",
-      "commitHash": "00c4d7cc2bbe",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
       "id": "diegosouzapw/awesome-omni-skill/skills/data-ai/gpt-researcher",
       "name": "gpt-researcher",
       "description": "Run GPT-Researcher multi-agent deep research framework locally using OpenAI GPT-5.2. Replaces ChatGPT Deep Research with local control. Researches 100+ sources in parallel, provides comprehensive citations. Use for Phase 3 industry/technical research or comprehensive synthesis. Takes 6-20 min depending on report type. Supports multiple LLM providers.",
@@ -19392,19 +17651,6 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/product/agent-ops-spec",
       "commitHash": "ed1269c9d50c",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/frontend/accessibility",
-      "name": "accessibility",
-      "description": "Ensure accessibility in UI components including semantic HTML, ARIA attributes, keyboard navigation, and WCAG 2.2 AA compliance.",
-      "categories": ["Other"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/frontend/accessibility",
-      "commitHash": "8fe1e531d7c1",
-      "version": "2.2.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -19726,6 +17972,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "diegosouzapw/awesome-omni-skill/skills/tools/icypeas-automation",
+      "name": "icypeas-automation",
+      "description": "Automate Icypeas tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+      "categories": ["Productivity"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/tools/icypeas-automation",
+      "commitHash": "00c4d7cc2bbe",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "diegosouzapw/awesome-omni-skill/skills/development/tailwind-css",
       "name": "tailwind-css",
       "description": "Tailwind CSS configuration, custom plugins, design systems, theming, and component patterns for modern web applications.",
@@ -19745,6 +18002,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/frontend/pcf-canvas-apps",
       "commitHash": "8fe1e531d7c1",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/tools/detrack-automation",
+      "name": "detrack-automation",
+      "description": "Automate Detrack tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+      "categories": ["Productivity"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/tools/detrack-automation",
+      "commitHash": "ae3078b949ac",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -19913,6 +18181,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "diegosouzapw/awesome-omni-skill/skills/tools/seismic-automation",
+      "name": "seismic-automation",
+      "description": "Automate Seismic tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+      "categories": ["Productivity"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/tools/seismic-automation",
+      "commitHash": "00c4d7cc2bbe",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "diegosouzapw/awesome-omni-skill/skills/development/booking-flow",
       "name": "booking-flow",
       "description": "End-to-end booking lifecycle in the Ever Club Members App — booking request creation, booking flow, booking lifecycle, session creation, conflict detection, bay assignment, approval flow, auto-approve, Trackman sync, Trackman booking modifications, booking request statuses, guest pass holds, usage tracking, member cancel, staff approval, prepayment, calendar sync, and reconciliation.",
@@ -19921,6 +18200,19 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/development/booking-flow",
       "commitHash": "b1e56ec3a657",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/data-ai/imports-aliasing",
+      "name": "imports-aliasing",
+      "description": "Recommends using aliased imports as defined in svelte.config.js. This improves code organization and readability, especially when dealing with complex project structures.",
+      "categories": ["Development"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/data-ai/imports-aliasing",
+      "commitHash": "e967abf5cd73",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -19954,6 +18246,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/fullstack-web/osx-review",
       "commitHash": "20a6d415545e",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/tools/toneden-automation",
+      "name": "toneden-automation",
+      "description": "Automate Toneden tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+      "categories": ["Productivity"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/tools/toneden-automation",
+      "commitHash": "00c4d7cc2bbe",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -20001,17 +18304,6 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/development/backend-guide",
       "commitHash": "8fe5168c540e",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/design/gdpr-data-handling",
-      "name": "gdpr-data-handling",
-      "description": "Implement GDPR-compliant data handling with consent management, data subject rights, and privacy by design. Use when building systems that process EU personal data, implementing privacy controls, o...",
-      "categories": ["Design"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/design/gdpr-data-handling",
-      "commitHash": "9a0f06626940",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -20136,17 +18428,6 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/development/vibe-security",
       "commitHash": "c98b9d7acc07",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/development/xaem-theme-ui",
-      "name": "xaem-theme-ui",
-      "description": "Two-pass theme generation and code translation pipeline. Pass 1 generates high-entropy visual themes (colour palettes, glow intensities, animation timing, typography weights). Pass 2 translates themes into CSS variables, TypeScript design tokens, Tailwind config, and Framer Motion presets. Complements scientific-luxury by handling creative generation before constraint enforcement.",
-      "categories": ["Development", "Design", "Writing", "Data & Analytics"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/development/xaem-theme-ui",
-      "commitHash": "855f11bb282b",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
