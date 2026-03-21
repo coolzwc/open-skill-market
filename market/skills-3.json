@@ -1,5 +1,47 @@
 {
   "repositories": {
+    "outcomeeng/spx-claude": {
+      "url": "https://github.com/outcomeeng/spx-claude",
+      "branch": "main",
+      "stars": 1,
+      "forks": 0,
+      "lastUpdated": "2026-03-16T22:08:19Z"
+    },
+    "webmanufaktur/pwaiworkflow": {
+      "url": "https://github.com/webmanufaktur/pwaiworkflow",
+      "branch": "master",
+      "stars": 1,
+      "forks": 0,
+      "lastUpdated": "2026-03-10T12:42:06Z"
+    },
+    "edithatogo/conductor-next": {
+      "url": "https://github.com/edithatogo/conductor-next",
+      "branch": "main",
+      "stars": 1,
+      "forks": 0,
+      "lastUpdated": "2026-03-14T04:41:54Z"
+    },
+    "laihuip001/hegemonikon": {
+      "url": "https://github.com/laihuip001/hegemonikon",
+      "branch": "master",
+      "stars": 1,
+      "forks": 0,
+      "lastUpdated": "2026-03-20T14:33:42Z"
+    },
+    "assafelovic/gpt-researcher": {
+      "url": "https://github.com/assafelovic/gpt-researcher",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "xpzouying/xiaohongshu-mcp": {
+      "url": "https://github.com/xpzouying/xiaohongshu-mcp",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "phuryn/pm-skills": {
       "url": "https://github.com/phuryn/pm-skills",
       "branch": "main",
@@ -56,6 +98,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "lackeyjb/playwright-skill": {
+      "url": "https://github.com/lackeyjb/playwright-skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "KhazP/vibe-coding-prompt-template": {
       "url": "https://github.com/KhazP/vibe-coding-prompt-template",
       "branch": "main",
@@ -65,6 +114,13 @@
     },
     "cisco-ai-defense/skill-scanner": {
       "url": "https://github.com/cisco-ai-defense/skill-scanner",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "addyosmani/web-quality-skills": {
+      "url": "https://github.com/addyosmani/web-quality-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -469,16 +525,16 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "PleasePrompto/google-ai-mode-skill": {
-      "url": "https://github.com/PleasePrompto/google-ai-mode-skill",
-      "branch": "main",
+    "Haaaiawd/Nexus-skills": {
+      "url": "https://github.com/Haaaiawd/Nexus-skills",
+      "branch": "master",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "Haaaiawd/Nexus-skills": {
-      "url": "https://github.com/Haaaiawd/Nexus-skills",
-      "branch": "master",
+    "PleasePrompto/google-ai-mode-skill": {
+      "url": "https://github.com/PleasePrompto/google-ai-mode-skill",
+      "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
@@ -553,16 +609,16 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "Dianel555/DSkills": {
-      "url": "https://github.com/Dianel555/DSkills",
-      "branch": "main",
+    "anhvt52/jetpack-compose-skills": {
+      "url": "https://github.com/anhvt52/jetpack-compose-skills",
+      "branch": "master",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "anhvt52/jetpack-compose-skills": {
-      "url": "https://github.com/anhvt52/jetpack-compose-skills",
-      "branch": "master",
+    "Dianel555/DSkills": {
+      "url": "https://github.com/Dianel555/DSkills",
+      "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
@@ -812,9 +868,9 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "Darkbluelr/dev-playbooks-cn": {
-      "url": "https://github.com/Darkbluelr/dev-playbooks-cn",
-      "branch": "master",
+    "fabriqaai/specs.md": {
+      "url": "https://github.com/fabriqaai/specs.md",
+      "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
@@ -842,6 +898,938 @@
     }
   },
   "skills": [
+    {
+      "id": "outcomeeng/spx-claude/plugins/spec-tree/skills/testing",
+      "name": "testing",
+      "description": "Manage Spec Tree lock file lifecycle: create tests from assertions, run tests, write lock files.\nUse when locking nodes, checking stale status, or synchronizing spec-test consistency after changes.\n",
+      "categories": ["Development"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/spec-tree/skills/testing",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/prose/skills/writing-prose",
+      "name": "writing-prose",
+      "description": "Write varied, specific, human prose. Always apply when generating articles, documentation, blog posts, specs, or any long-form text.",
+      "categories": ["Writing", "Documents"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/prose/skills/writing-prose",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/frontend/skills/designing-frontend",
+      "name": "designing-frontend",
+      "description": "Design and build beautiful web UI that doesn't look generic. Use when designing or building web components, pages, or dashboards.",
+      "categories": ["Development", "Design"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/frontend/skills/designing-frontend",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/typescript/skills/coding-typescript",
+      "name": "coding-typescript",
+      "description": "Write TypeScript code that's type-safe and tested. Use when coding TypeScript or implementing features.",
+      "categories": ["Development"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/typescript/skills/coding-typescript",
+      "commitHash": "136086ca08dd",
+      "files": [
+        "SKILL.md",
+        "references/outcome-engineering-patterns.md",
+        "references/test-patterns.md",
+        "references/verification-checklist.md",
+        "workflows/implementation.md",
+        "workflows/remediation.md"
+      ]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/typescript/skills/reviewing-typescript",
+      "name": "reviewing-typescript",
+      "description": "Review TypeScript code strictly, reject mocking. Use when reviewing TypeScript code, checking if code is ready for merge, or validating implementations.",
+      "categories": ["Development"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/typescript/skills/reviewing-typescript",
+      "commitHash": "136086ca08dd",
+      "files": [
+        "SKILL.md",
+        "references/false-positive-handling.md",
+        "references/manual-review-checklist.md",
+        "references/verification-tests.md",
+        "rules/eslint.config.js",
+        "rules/semgrep_sec.yaml",
+        "rules/tsconfig.strict.json",
+        "templates/review_report.md",
+        "workflows/commit-protocol.md",
+        "workflows/review-protocol.md",
+        "workflows/verification-protocol.md"
+      ]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/python/skills/implementing-python-feature",
+      "name": "implementing-python-feature",
+      "description": "Implement Python stories in a feature through specs, testing, coding, and review. Use when implementing features with multiple stories or when auto-implementing a feature.",
+      "categories": ["Development"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/python/skills/implementing-python-feature",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/python/skills/reviewing-python-architecture",
+      "name": "reviewing-python-architecture",
+      "description": "Review ADRs to check they follow testing principles and parent PDR constraints. Use when reviewing ADRs or architecture decisions.",
+      "categories": ["Development"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/python/skills/reviewing-python-architecture",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/claude/skills/creating-skills",
+      "name": "creating-skills",
+      "description": "Create and refine Claude Code Skills. Use when user asks you to create a skill, write a SKILL.md file, or improve a skill.",
+      "categories": ["Other"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/claude/skills/creating-skills",
+      "commitHash": "136086ca08dd",
+      "files": [
+        "SKILL.md",
+        "references/core-principles.md",
+        "references/evaluation-patterns.md",
+        "references/reusability-patterns.md",
+        "references/skill-patterns.md",
+        "references/technical-patterns.md",
+        "references/testing-patterns.md",
+        "references/use-xml-tags.md",
+        "scripts/init_skill.py",
+        "scripts/package_skill.py",
+        "scripts/quick_validate.py",
+        "templates/analyzer-skill.md",
+        "templates/automation-skill.md",
+        "templates/builder-skill.md",
+        "templates/guide-skill.md",
+        "templates/router-skill.md",
+        "templates/simple-skill.md",
+        "templates/validator-skill.md",
+        "workflows/add-reference.md",
+        "workflows/add-workflow.md"
+      ]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/python/skills/coding-python",
+      "name": "coding-python",
+      "description": "Write or fix Python implementation code to pass tests. Use when implementing code after tests exist, or fixing code after review rejection.",
+      "categories": ["Development"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/python/skills/coding-python",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/python/skills/architecting-python",
+      "name": "architecting-python",
+      "description": "Write ADRs for Python architecture decisions. Use when making architecture decisions or writing ADRs.",
+      "categories": ["Development", "Writing"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/python/skills/architecting-python",
+      "commitHash": "136086ca08dd",
+      "files": [
+        "SKILL.md",
+        "references/architecture-patterns.md",
+        "references/security-patterns.md",
+        "references/test-infrastructure-patterns.md",
+        "references/testability-patterns.md",
+        "references/type-system-patterns.md"
+      ]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/prose/skills/reviewing-prose",
+      "name": "reviewing-prose",
+      "description": "Review and edit prose for formulaic, machine-sounding patterns. Use when asked to review, edit, or improve existing text for quality.",
+      "categories": ["Writing"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/prose/skills/reviewing-prose",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md", "references/patterns-to-avoid.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/spx-legacy/skills/writing-prd",
+      "name": "writing-prd",
+      "description": "Write PRDs documenting what users need and why. Use when writing PRDs or product requirements.",
+      "categories": ["Writing"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/spx-legacy/skills/writing-prd",
+      "commitHash": "136086ca08dd",
+      "files": [
+        "SKILL.md",
+        "references/acceptance-test-patterns.md",
+        "references/measurable-outcomes.md",
+        "references/prd-template-guide.md",
+        "references/testing-methodology.md",
+        "workflows/define-product-scope.md",
+        "workflows/design-measurable-outcomes.md",
+        "workflows/understand-user-problem.md",
+        "workflows/write-prd.md"
+      ]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/specs/skills/understanding-specs",
+      "name": "understanding-specs",
+      "description": "Read all specs for a story, feature, or capability including PRDs, TRDs, ADRs, and PDRs. Use when starting implementation, checking progress, or asked to \"read the spec\".",
+      "categories": ["Other"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/specs/skills/understanding-specs",
+      "commitHash": "136086ca08dd",
+      "files": [
+        "SKILL.md",
+        "references/abort-protocol.md",
+        "references/document-types.md",
+        "workflows/ingest-context.md"
+      ]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/claude/skills/auditing-skills",
+      "name": "auditing-skills",
+      "description": "Review and audit skills for best practices. Use when user asks you to audit a skill, audit all skills, review a skill, review all skills",
+      "categories": ["Other"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/claude/skills/auditing-skills",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/spx-legacy/skills/migrating-spec-to-spx",
+      "name": "migrating-spec-to-spx",
+      "description": "Use when migrating specs to spx, reviewing migrations, understanding spec-to-spx process, or debugging migration issues.",
+      "categories": ["Development"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/spx-legacy/skills/migrating-spec-to-spx",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/specs/skills/managing-specs",
+      "name": "managing-specs",
+      "description": "Create and manage specs including capabilities, features, stories, PRDs, TRDs, ADRs, and PDRs. Use when creating a feature, creating a story, adding specs, or setting up spec structure.",
+      "categories": ["Other"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/specs/skills/managing-specs",
+      "commitHash": "136086ca08dd",
+      "files": [
+        "SKILL.md",
+        "templates/decisions/architectural-decision.adr.md",
+        "templates/decisions/product-decision.pdr.md",
+        "templates/requirements/product-change.prd.md",
+        "templates/requirements/technical-change.trd.md",
+        "templates/work-items/DONE.md",
+        "templates/work-items/capability-name.capability.md",
+        "templates/work-items/feature-name.feature.md",
+        "templates/work-items/story-name.story.md"
+      ]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/python/skills/implementing-python-files",
+      "name": "implementing-python-files",
+      "description": "Implement Python code for specific files using test-driven workflow. Use when given file paths to implement, coding specific modules, or applying TDD to explicit files.",
+      "categories": ["Development"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/python/skills/implementing-python-files",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/spx-legacy/skills/decomposing-feature-to-stories",
+      "name": "decomposing-feature-to-stories",
+      "description": "Break down a feature into story specs. Use when decomposing a significant slice into atomic implementation units.\nStories must be expressible as structured outcomes. Aim for ≤7 stories per feature.\n",
+      "categories": ["Other"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/spx-legacy/skills/decomposing-feature-to-stories",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/python/skills/standardizing-python-testing",
+      "name": "standardizing-python-testing",
+      "description": "Python testing standards enforced across all skills. Reference skill for property-based testing, factories, harness patterns, and level-specific implementations.",
+      "categories": ["Development"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/python/skills/standardizing-python-testing",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/spx-legacy/skills/understanding-durable-map",
+      "name": "understanding-durable-map",
+      "description": "Specs are permanent product documentation, not work items. Use when agents think in tasks/backlogs, want to \"close\" items, or ask where \"done\" work goes.",
+      "categories": ["AI & ML"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/spx-legacy/skills/understanding-durable-map",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/typescript/skills/standardizing-typescript",
+      "name": "standardizing-typescript",
+      "description": "TypeScript code standards enforced across all skills. Reference skill for type safety, naming conventions, and linting rules.",
+      "categories": ["Development"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/typescript/skills/standardizing-typescript",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/spec-tree/skills/understanding",
+      "name": "understanding",
+      "description": "Foundation skill — loaded automatically before any other spec-tree skill.\nWhen the user asks about methodology, node types, or how specs work, invoke this first.\n",
+      "categories": ["Other"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/spec-tree/skills/understanding",
+      "commitHash": "136086ca08dd",
+      "files": [
+        "SKILL.md",
+        "examples/adr-example.md",
+        "examples/enabler-example.md",
+        "examples/outcome-example.md",
+        "examples/pdr-example.md",
+        "references/assertion-types.md",
+        "references/decomposition-semantics.md",
+        "references/durable-map.md",
+        "references/node-types.md",
+        "references/ordering-rules.md",
+        "references/what-goes-where.md",
+        "templates/decisions/decision-name.adr.md",
+        "templates/decisions/decision-name.pdr.md",
+        "templates/nodes/enabler-name.md",
+        "templates/nodes/outcome-name.md",
+        "templates/product/product-name.product.md"
+      ]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/typescript/skills/reviewing-typescript-architecture",
+      "name": "reviewing-typescript-architecture",
+      "description": "Review ADRs to check they follow testing principles. Use when reviewing ADRs or architecture decisions.",
+      "categories": ["Development"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/typescript/skills/reviewing-typescript-architecture",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/typescript/skills/implementing-typescript-feature",
+      "name": "implementing-typescript-feature",
+      "description": "Implement TypeScript stories in a feature through specs, testing, coding, and review. Use when implementing features with multiple stories or when auto-implementing a feature.",
+      "categories": ["Development"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/typescript/skills/implementing-typescript-feature",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/python/skills/reviewing-python",
+      "name": "reviewing-python",
+      "description": "Review Python code strictly, reject mocking. Use when reviewing Python code, checking if code is ready for merge, or validating implementations.",
+      "categories": ["Development"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/python/skills/reviewing-python",
+      "commitHash": "136086ca08dd",
+      "files": [
+        "SKILL.md",
+        "rules/mypy_strict.toml",
+        "rules/ruff_quality.toml",
+        "rules/semgrep_sec.yaml",
+        "templates/review_report.md"
+      ]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/spx-legacy/skills/understanding-spx",
+      "name": "understanding-spx",
+      "description": "Read all specs for a story, feature, or capability including PRDs, ADRs, and PDRs. Use when starting implementation, checking progress, or asked to \"read the spec\". For Outcome Engineering framework (spx/) projects.",
+      "categories": ["Business"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/spx-legacy/skills/understanding-spx",
+      "commitHash": "136086ca08dd",
+      "files": [
+        "SKILL.md",
+        "references/abort-protocol.md",
+        "references/document-types.md",
+        "workflows/ingest-context.md"
+      ]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/spx-legacy/skills/understanding-outcome-decomposition",
+      "name": "understanding-outcome-decomposition",
+      "description": "Foundational skill for decomposing outcomes into capabilities, features, and stories.\nUse when breaking down PRDs, understanding outcome levels, or before using decomposition skills.\n",
+      "categories": ["Other"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/spx-legacy/skills/understanding-outcome-decomposition",
+      "commitHash": "136086ca08dd",
+      "files": [
+        "SKILL.md",
+        "references/level-decision-tree.md",
+        "references/outcome-types.md",
+        "references/what-goes-where.md"
+      ]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/python/skills/standardizing-python",
+      "name": "standardizing-python",
+      "description": "Python code standards enforced across all skills. Reference skill for type annotations, naming conventions, and linting rules.",
+      "categories": ["Development"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/python/skills/standardizing-python",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/typescript/skills/testing-typescript",
+      "name": "testing-typescript",
+      "description": "TypeScript-specific testing patterns with type-safe test design. Use when testing TypeScript code or writing TypeScript tests.",
+      "categories": ["Development"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/typescript/skills/testing-typescript",
+      "commitHash": "136086ca08dd",
+      "files": [
+        "SKILL.md",
+        "levels/level-1-unit.md",
+        "levels/level-2-integration.md",
+        "levels/level-3-e2e.md"
+      ]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/python/skills/testing-python",
+      "name": "testing-python",
+      "description": "Write or fix Python tests for a story spec. Use when writing tests for Python code, or fixing tests after review rejection.",
+      "categories": ["Development", "Writing"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/python/skills/testing-python",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/typescript/skills/implementing-typescript-files",
+      "name": "implementing-typescript-files",
+      "description": "Implement TypeScript code for specific files using test-driven workflow. Use when given file paths to implement, coding specific modules, or applying TDD to explicit files.",
+      "categories": ["Development"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/typescript/skills/implementing-typescript-files",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/spx-legacy/skills/managing-spx",
+      "name": "managing-spx",
+      "description": "Create and manage spx/ specs including capabilities, features, stories, PRDs, ADRs, and PDRs. Use when creating a feature, creating a story, adding specs, or setting up spec structure. For Outcome Engineering framework (spx/) projects.",
+      "categories": ["Productivity", "Business"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/spx-legacy/skills/managing-spx",
+      "commitHash": "136086ca08dd",
+      "files": [
+        "SKILL.md",
+        "templates/decisions/architectural-decision.adr.md",
+        "templates/decisions/product-decision.pdr.md",
+        "templates/outcomes/capability-name.capability.md",
+        "templates/outcomes/feature-name.feature.md",
+        "templates/outcomes/story-name.story.md",
+        "templates/product/product.prd.md"
+      ]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/spx/skills/committing-changes",
+      "name": "committing-changes",
+      "description": "Commit changes following Conventional Commits with selective staging. Use when user says \"commit\", \"commit this\", or when ready to commit after completing work.",
+      "categories": ["Other"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/spx/skills/committing-changes",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/typescript/skills/architecting-typescript",
+      "name": "architecting-typescript",
+      "description": "Write ADRs for TypeScript architecture decisions. Use when making architecture decisions or writing ADRs.",
+      "categories": ["Development", "Writing"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/typescript/skills/architecting-typescript",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md", "references/adr-patterns.md", "references/typescript-principles.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/spx-legacy/skills/decomposing-capability-to-features",
+      "name": "decomposing-capability-to-features",
+      "description": "Break down a capability into feature specs. Use when decomposing a product ability into significant vertical slices.\nEach feature must be implementable in at most 7 atomic stories.\n",
+      "categories": ["Other"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/spx-legacy/skills/decomposing-capability-to-features",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/spx-legacy/skills/decomposing-prd-to-capabilities",
+      "name": "decomposing-prd-to-capabilities",
+      "description": "Break down a PRD into capability specs. Use when decomposing product requirements into what the product CAN DO.\nCreates cross-cutting vertical slices like \"Document Generation\" or \"Identity Management\".\n",
+      "categories": ["Business"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/spx-legacy/skills/decomposing-prd-to-capabilities",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/test/skills/testing",
+      "name": "testing",
+      "description": "Learn how to test code without mocking. Use when learning testing approach or before writing tests.",
+      "categories": ["Development"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/test/skills/testing",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "outcomeeng/spx-claude/plugins/python/skills/reviewing-python-tests",
+      "name": "reviewing-python-tests",
+      "description": "Review Python tests for evidentiary value and spec compliance. Use when reviewing capabilities, features, or stories and their tests in Python.",
+      "categories": ["Development"],
+      "author": "outcomeeng",
+      "repo": "outcomeeng/spx-claude",
+      "path": "plugins/python/skills/reviewing-python-tests",
+      "commitHash": "136086ca08dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/processwire/api",
+      "name": "processwire-api",
+      "description": "Core API variables, functions, classes, and ProcessWire coding conventions for page/data manipulation and development",
+      "categories": ["Development"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/processwire/api",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/processwire/promailer",
+      "name": "promailer",
+      "description": "ProMailer is a ProcessWire Pro module for managing email newsletters, subscribers, and distributions.",
+      "categories": ["Other"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/processwire/promailer",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/general/opencode-skill-generator",
+      "name": "opencode-skill-generator",
+      "description": "Converts raw instructions into standardized, token-efficient SKILL.md files",
+      "categories": ["Development", "Documents"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/general/opencode-skill-generator",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/processwire/rockmigrations",
+      "name": "rockmigrations",
+      "description": "Generate ProcessWire field definitions and migration code using RockMigrations",
+      "categories": ["Other"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/processwire/rockmigrations",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/php/php-processwire-standards",
+      "name": "php-processwire-standards",
+      "description": "Coding standards, security, and best practices for ProcessWire PHP development",
+      "categories": ["Development"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/php/php-processwire-standards",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/git/commit-generator",
+      "name": "commit-generator",
+      "description": "Analyzes git status, groups changes logically, and generates conventional commit messages",
+      "categories": ["Development", "Productivity"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/git/commit-generator",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/processwire/templates",
+      "name": "processwire-templates",
+      "description": "Output strategies (direct, delayed, markup regions), URL segments, pagination, file includes, and front-end rendering patterns",
+      "categories": ["Other"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/processwire/templates",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/markdown/alerts",
+      "name": "alerts",
+      "description": "Create GitHub-flavored markdown alerts (callouts) for READMEs and issues",
+      "categories": ["Other"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/markdown/alerts",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/general/prompt-rephraser",
+      "name": "prompt-rephraser",
+      "description": "Refines vague prompts into concise technical instructions upon request",
+      "categories": ["Other"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/general/prompt-rephraser",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/processwire/modules",
+      "name": "processwire-modules",
+      "description": "Module types, module development, autoload modules, site modules, third-party modules, LazyCron, and module configuration",
+      "categories": ["Other"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/processwire/modules",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/processwire/formbuilder",
+      "name": "processwire-formbuilder",
+      "description": "FormBuilder Pro module API, form creation, entry management, hooks, embed methods, and customization patterns",
+      "categories": ["Development"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/processwire/formbuilder",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/general/prompt-optimizer",
+      "name": "prompt-optimizer",
+      "description": "Analyze prompts to reduce token usage while maintaining logic",
+      "categories": ["AI & ML"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/general/prompt-optimizer",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/processwire/fields",
+      "name": "processwire-fields",
+      "description": "Field types, inputfields, repeaters, images, file handling, field dependencies, and custom field configuration",
+      "categories": ["Other"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/processwire/fields",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/processwire/multi-language",
+      "name": "processwire-multi-language",
+      "description": "Multi-language fields, URLs, translation functions, language switching, code i18n, and language packs",
+      "categories": ["Other"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/processwire/multi-language",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/processwire/getting-started",
+      "name": "processwire-getting-started",
+      "description": "Installation, upgrade, directory structure, pages/templates/fields concepts, API access patterns, and foundational ProcessWire development guidance",
+      "categories": ["Development", "Design"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/processwire/getting-started",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/processwire/module-checklist",
+      "name": "processwire-module-checklist",
+      "description": "Complete checklist for ProcessWire module development covering hooks, configuration, testing, and deployment",
+      "categories": ["Development", "DevOps"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/processwire/module-checklist",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/processwire/custom-page-classes",
+      "name": "processwire-custom-page-classes",
+      "description": "Custom page classes, class naming, inheritance, interfaces, hookable methods, IDE integration with phpdoc",
+      "categories": ["Other"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/processwire/custom-page-classes",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/processwire/hooks",
+      "name": "processwire-hooks",
+      "description": "Hook types (before/after/replace), defining hooks, URL/path hooks, conditional hooks, hook priority, adding methods/properties, and hookable methods",
+      "categories": ["Other"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/processwire/hooks",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/processwire/security",
+      "name": "processwire-security",
+      "description": "Security best practices, file permissions, admin security, two-factor authentication, input sanitization, CSRF protection, and secure coding",
+      "categories": ["Development", "Security"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/processwire/security",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/processwire/inputfield-frontend-file",
+      "name": "processwire-inputfield-frontend-file",
+      "description": "InputfieldFrontendFile module for ProcessWire - front-end file and image uploads for user profiles with drag-drop, thumbnails, and validation",
+      "categories": ["AI & ML"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/processwire/inputfield-frontend-file",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/processwire/user-access",
+      "name": "processwire-user-access",
+      "description": "Role-based access control, permissions, template access control, user management, and checking user permissions via API",
+      "categories": ["Productivity"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/processwire/user-access",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/processwire/selectors",
+      "name": "processwire-selectors",
+      "description": "Selector syntax, operators, OR/AND groups, sub-selectors, sorting, limiting, access control, and input sanitization for querying pages",
+      "categories": ["Other"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/processwire/selectors",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/processwire/advanced-modules",
+      "name": "processwire-advanced-modules",
+      "description": "Advanced module development techniques including Admin UIs, security patterns, virtual templates, and robust integrations",
+      "categories": ["Other"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/processwire/advanced-modules",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/processwire/login-register-pro",
+      "name": "processwire-login-register-pro",
+      "description": "LoginRegisterPro module for ProcessWire - front-end user authentication, registration, login, profile editing, and user management",
+      "categories": ["Security", "Writing"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/processwire/login-register-pro",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/processwire/field-configuration",
+      "name": "processwire-field-configuration",
+      "description": "Field configuration access patterns, Field vs Inputfield relationship, configuration storage, and universal patterns for ProcessWire development",
+      "categories": ["AI & ML"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/processwire/field-configuration",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "webmanufaktur/pwaiworkflow/.agents/skills/processwire/procache",
+      "name": "processwire-procache",
+      "description": "ProCache module for ProcessWire - page caching, CDN integration, CSS/JS minification, HTML minification, file merging, SCSS/LESS compilation",
+      "categories": ["Other"],
+      "author": "webmanufaktur",
+      "repo": "webmanufaktur/pwaiworkflow",
+      "path": ".agents/skills/processwire/procache",
+      "commitHash": "1a42f77f6777",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "edithatogo/conductor-next/skill",
+      "name": "conductor",
+      "description": "Use when the user wants to setup a new project, create a new feature, write a spec, plan a feature, fix a bug with a plan, start a new track, check project status, implement next task, or revert changes. Also use when user mentions \"conductor\", \"track\", or \"spec-driven development\". If conductor is not yet configured in the project, start with setup.",
+      "categories": ["Productivity"],
+      "author": "edithatogo",
+      "repo": "edithatogo/conductor-next",
+      "path": "skill",
+      "commitHash": "b1609bb7c600",
+      "files": ["SKILL.md", "scripts"]
+    },
+    {
+      "id": "edithatogo/conductor-next/conductor-vscode/skills/conductor-setup/conductor-setup",
+      "name": "conductor-setup",
+      "description": "Initialize project with Conductor context-driven development. Sets up product.md, tech-stack.md, and workflow.md.",
+      "categories": ["Productivity"],
+      "author": "edithatogo",
+      "repo": "edithatogo/conductor-next",
+      "path": "conductor-vscode/skills/conductor-setup/conductor-setup",
+      "commitHash": "b1609bb7c600",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "edithatogo/conductor-next/conductor-vscode/skills/conductor-implement/conductor-implement",
+      "name": "conductor-implement",
+      "description": "Execute tasks from a track's plan following the TDD workflow.",
+      "categories": ["Productivity"],
+      "author": "edithatogo",
+      "repo": "edithatogo/conductor-next",
+      "path": "conductor-vscode/skills/conductor-implement/conductor-implement",
+      "commitHash": "2da2fe3ff36f",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "edithatogo/conductor-next/conductor-vscode/skills/conductor-revert/conductor-revert",
+      "name": "conductor-revert",
+      "description": "Git-aware revert of tracks, phases, or tasks.",
+      "categories": ["Other"],
+      "author": "edithatogo",
+      "repo": "edithatogo/conductor-next",
+      "path": "conductor-vscode/skills/conductor-revert/conductor-revert",
+      "commitHash": "b1609bb7c600",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "edithatogo/conductor-next/conductor-vscode/skills/conductor-newtrack/conductor-newtrack",
+      "name": "conductor-newtrack",
+      "description": "Create a new feature/bug track with spec and plan.",
+      "categories": ["Other"],
+      "author": "edithatogo",
+      "repo": "edithatogo/conductor-next",
+      "path": "conductor-vscode/skills/conductor-newtrack/conductor-newtrack",
+      "commitHash": "b1609bb7c600",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "edithatogo/conductor-next/conductor-vscode/skills/conductor-status/conductor-status",
+      "name": "conductor-status",
+      "description": "Display project progress overview.",
+      "categories": ["Other"],
+      "author": "edithatogo",
+      "repo": "edithatogo/conductor-next",
+      "path": "conductor-vscode/skills/conductor-status/conductor-status",
+      "commitHash": "b1609bb7c600",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "laihuip001/hegemonikon/openclaw/extensions/acpx/skills/acp-router",
+      "name": "acp-router",
+      "description": "Route plain-language requests for Pi, Claude Code, Codex, OpenCode, Gemini CLI, or ACP harness work into either OpenClaw ACP runtime sessions or direct acpx-driven sessions (\"telephone game\" flow).",
+      "categories": ["AI & ML"],
+      "author": "laihuip001",
+      "repo": "laihuip001/hegemonikon",
+      "path": "openclaw/extensions/acpx/skills/acp-router",
+      "commitHash": "00448447ca94",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "laihuip001/hegemonikon/nous/skills/utils/jules-pe",
+      "name": "jules-pe",
+      "description": "Jules（Gemini エージェント）にプロンプト生成を委譲するためのスキル",
+      "categories": ["Other"],
+      "author": "laihuip001",
+      "repo": "laihuip001/hegemonikon",
+      "path": "nous/skills/utils/jules-pe",
+      "commitHash": "00448447ca94",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "assafelovic/gpt-researcher/.claude",
+      "name": "gpt-researcher",
+      "description": "GPT Researcher is an autonomous deep research agent that conducts web and local research, producing detailed reports with citations. Use this skill when helping developers understand, extend, debug, or integrate with GPT Researcher - including adding features, understanding the architecture, working with the API, customizing research workflows, adding new retrievers, integrating MCP data sources, or troubleshooting research pipelines.",
+      "categories": ["Development", "Data & Analytics", "Research", "AI & ML"],
+      "author": "assafelovic",
+      "repo": "assafelovic/gpt-researcher",
+      "path": ".claude",
+      "commitHash": "75fa22b7fe55",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "xpzouying/xiaohongshu-mcp/skills/post-to-xhs",
+      "name": "post-to-xhs",
+      "description": "小红书内容发布技能。支持两种发布模式：(1) 上传图文模式 - 图片+短文；(2) 写长文模式 - 长篇文章+排版模板。 支持两种输入方式：用户提供完整内容和图片/图片URL，直接发布；或提供网页URL，自动提取内容和图片。 用户说\"发长文\"时使用长文模式，否则默认图文模式。\n",
+      "categories": ["Other"],
+      "author": "xpzouying",
+      "repo": "xpzouying/xiaohongshu-mcp",
+      "path": "skills/post-to-xhs",
+      "commitHash": "8572c8c5e0cf",
+      "files": ["SKILL.md", "config", "references", "scripts"]
+    },
     {
       "id": "phuryn/pm-skills/pm-execution/skills/wwas",
       "name": "wwas",
@@ -3995,6 +4983,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "lackeyjb/playwright-skill/skills/playwright-skill",
+      "name": "playwright-skill",
+      "description": "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing.",
+      "categories": ["Development", "Design", "Productivity"],
+      "author": "lackeyjb",
+      "repo": "lackeyjb/playwright-skill",
+      "path": "skills/playwright-skill",
+      "commitHash": "bb7e920d3760",
+      "files": ["API_REFERENCE.md", "SKILL.md", "lib", "package.json", "run.js"]
+    },
+    {
       "id": "KhazP/vibe-coding-prompt-template/.claude/skills/vibe-prd",
       "name": "vibe-prd",
       "description": "Create a Product Requirements Document (PRD) for your MVP. Use when the user wants to define product requirements, create a PRD, or says \"help me write requirements\", \"create PRD\", or \"define my product\".",
@@ -4070,6 +5069,72 @@
       "path": "evals/skills/prompt-injection/jailbreak-override",
       "commitHash": "1b978c792c96",
       "files": ["SKILL.md", "_expected.json"]
+    },
+    {
+      "id": "addyosmani/web-quality-skills/skills/seo",
+      "name": "seo",
+      "description": "Optimize for search engine visibility and ranking. Use when asked to \"improve SEO\", \"optimize for search\", \"fix meta tags\", \"add structured data\", \"sitemap optimization\", or \"search engine optimization\".",
+      "categories": ["Other"],
+      "author": "addyosmani",
+      "repo": "addyosmani/web-quality-skills",
+      "path": "skills/seo",
+      "commitHash": "2c8612260b21",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "addyosmani/web-quality-skills/skills/accessibility",
+      "name": "accessibility",
+      "description": "Audit and improve web accessibility following WCAG 2.2 guidelines. Use when asked to \"improve accessibility\", \"a11y audit\", \"WCAG compliance\", \"screen reader support\", \"keyboard navigation\", or \"make accessible\".",
+      "categories": ["Security"],
+      "author": "addyosmani",
+      "repo": "addyosmani/web-quality-skills",
+      "path": "skills/accessibility",
+      "commitHash": "3f0fd0791dc7",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "addyosmani/web-quality-skills/skills/performance",
+      "name": "performance",
+      "description": "Optimize web performance for faster loading and better user experience. Use when asked to \"speed up my site\", \"optimize performance\", \"reduce load time\", \"fix slow loading\", \"improve page speed\", or \"performance audit\".",
+      "categories": ["Other"],
+      "author": "addyosmani",
+      "repo": "addyosmani/web-quality-skills",
+      "path": "skills/performance",
+      "commitHash": "2c8612260b21",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "addyosmani/web-quality-skills/skills/best-practices",
+      "name": "best-practices",
+      "description": "Apply modern web development best practices for security, compatibility, and code quality. Use when asked to \"apply best practices\", \"security audit\", \"modernize code\", \"code quality review\", or \"check for vulnerabilities\".",
+      "categories": ["Development", "Security"],
+      "author": "addyosmani",
+      "repo": "addyosmani/web-quality-skills",
+      "path": "skills/best-practices",
+      "commitHash": "2c8612260b21",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "addyosmani/web-quality-skills/skills/core-web-vitals",
+      "name": "core-web-vitals",
+      "description": "Optimize Core Web Vitals (LCP, INP, CLS) for better page experience and search ranking. Use when asked to \"improve Core Web Vitals\", \"fix LCP\", \"reduce CLS\", \"optimize INP\", \"page experience optimization\", or \"fix layout shifts\".",
+      "categories": ["Research"],
+      "author": "addyosmani",
+      "repo": "addyosmani/web-quality-skills",
+      "path": "skills/core-web-vitals",
+      "commitHash": "2c8612260b21",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "addyosmani/web-quality-skills/skills/web-quality-audit",
+      "name": "web-quality-audit",
+      "description": "Comprehensive web quality audit covering performance, accessibility, SEO, and best practices. Use when asked to \"audit my site\", \"review web quality\", \"run lighthouse audit\", \"check page quality\", or \"optimize my website\".",
+      "categories": ["Other"],
+      "author": "addyosmani",
+      "repo": "addyosmani/web-quality-skills",
+      "path": "skills/web-quality-audit",
+      "commitHash": "2c8612260b21",
+      "files": ["SKILL.md", "scripts"]
     },
     {
       "id": "PaperDebugger/paperdebugger/.claude/skills/developer",
@@ -4448,17 +5513,6 @@
       "files": ["README.md", "SKILL.md"]
     },
     {
-      "id": "softaworks/agent-toolkit/skills/perplexity",
-      "name": "perplexity",
-      "description": "Web search and research using Perplexity AI. Use when user says \"search\", \"find\", \"look up\", \"ask\", \"research\", or \"what's the latest\" for generic queries. NOT for library/framework docs (use Context7) or workspace questions.",
-      "categories": ["Development", "Writing", "Research"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/perplexity",
-      "commitHash": "c0556074cf27",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
       "id": "softaworks/agent-toolkit/skills/excalidraw",
       "name": "excalidraw",
       "description": "Use when working with *.excalidraw or *.excalidraw.json files, user mentions diagrams/flowcharts, or requests architecture visualization - delegates all Excalidraw operations to subagents to prevent context exhaustion from verbose JSON (single files: 4k-22k tokens, can exceed read limits)",
@@ -4514,17 +5568,6 @@
       "files": ["README.md", "SKILL.md", "references", "scripts"]
     },
     {
-      "id": "softaworks/agent-toolkit/skills/meme-factory",
-      "name": "meme-factory",
-      "description": "Generate memes using the memegen.link API. Use when users request memes, want to add humor to content, or need visual aids for social media. Supports 100+ popular templates with custom text and styling.",
-      "categories": ["Writing", "Productivity"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/meme-factory",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md", "references", "scripts"]
-    },
-    {
       "id": "softaworks/agent-toolkit/skills/lesson-learned",
       "name": "lesson-learned",
       "description": "Analyze recent code changes via git history and extract software engineering lessons. Use when the user asks 'what is the lesson here?', 'what can I learn from this?', 'engineering takeaway', 'what did I just learn?', 'reflect on this code', or wants to extract principles from recent work.",
@@ -4567,17 +5610,6 @@
       "path": "skills/ship-learn-next",
       "commitHash": "40d4469f7357",
       "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/c4-architecture",
-      "name": "c4-architecture",
-      "description": "Generate architecture documentation using C4 model Mermaid diagrams. Use when asked to create architecture diagrams, document system architecture, visualize software structure, create C4 diagrams, or generate context/container/component/deployment diagrams. Triggers include \"architecture diagram\", \"C4 diagram\", \"system context\", \"container diagram\", \"component diagram\", \"deployment diagram\", \"document architecture\", \"visualize architecture\".",
-      "categories": ["Development", "DevOps", "Writing", "AI & ML"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/c4-architecture",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md", "references"]
     },
     {
       "id": "softaworks/agent-toolkit/skills/react-useeffect",
@@ -6737,20 +7769,6 @@
       "files": ["SKILL.md", "agents", "assets"]
     },
     {
-      "id": "waynesutton/convexskills/skills/convex-component-authoring",
-      "name": "convex-component-authoring",
-      "description": "How to create, structure, and publish self-contained Convex components with proper isolation, exports, and dependency management",
-      "categories": ["Writing"],
-      "author": "waynesutton",
-      "repo": "waynesutton/convexskills",
-      "path": "skills/convex-component-authoring",
-      "commitHash": "bfa30639c3c8",
-      "version": "1.0.0",
-      "tags": ["convex", "components", "reusable", "packages", "npm"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
       "id": "ghostsecurity/skills/plugins/ghost/skills/proxy",
       "name": "ghost-proxy",
       "description": "Starts and controls the reaper MITM proxy to capture, inspect, search, and replay HTTP/HTTPS traffic between clients and servers. Capabilities include starting/stopping the proxy scoped to specific domains, viewing captured request/response logs, searching traffic by method/path/status/host, and inspecting full raw HTTP entries for security analysis. Use when the user asks to \"start the proxy\", \"capture traffic\", \"intercept requests\", \"inspect HTTP traffic\", \"search captured requests\", or \"view request/response\".",
@@ -7287,6 +8305,28 @@
       "files": ["SKILL.md", "examples", "outputs.yaml", "references", "templates"]
     },
     {
+      "id": "ancoleman/ai-design-components/skills/guiding-users",
+      "name": "guiding-users",
+      "description": "Implements onboarding and help systems including product tours, interactive tutorials, tooltips, checklists, help panels, and progressive disclosure patterns. Use when building first-time experiences, feature discovery, guided walkthroughs, contextual help, setup flows, or user activation features. Provides timing strategies, accessibility patterns (keyboard, screen readers, reduced motion), and metrics for measuring onboarding success.",
+      "categories": ["Development", "Productivity"],
+      "author": "ancoleman",
+      "repo": "ancoleman/ai-design-components",
+      "path": "skills/guiding-users",
+      "commitHash": "d6b36cd8f6ec",
+      "files": ["SKILL.md", "assets", "examples", "outputs.yaml", "references", "scripts"]
+    },
+    {
+      "id": "ancoleman/ai-design-components/skills/implementing-api-patterns",
+      "name": "implementing-api-patterns",
+      "description": "API design and implementation across REST, GraphQL, gRPC, and tRPC patterns. Use when building backend services, public APIs, or service-to-service communication. Covers REST frameworks (FastAPI, Axum, Gin, Hono), GraphQL libraries (Strawberry, async-graphql, gqlgen, Pothos), gRPC (Tonic, Connect-Go), tRPC for TypeScript, pagination strategies (cursor-based, offset-based), rate limiting, caching, versioning, and OpenAPI documentation generation. Includes frontend integration patterns for forms, tables, dashboards, and ai-chat skills.",
+      "categories": ["Development", "Design", "Documents", "Integration"],
+      "author": "ancoleman",
+      "repo": "ancoleman/ai-design-components",
+      "path": "skills/implementing-api-patterns",
+      "commitHash": "d6b36cd8f6ec",
+      "files": ["README.md", "SKILL.md", "examples", "outputs.yaml", "references", "scripts"]
+    },
+    {
       "id": "ancoleman/ai-design-components/skills/implementing-compliance",
       "name": "implementing-compliance",
       "description": "Implement and maintain compliance with SOC 2, HIPAA, PCI-DSS, and GDPR using unified control mapping, policy-as-code enforcement, and automated evidence collection. Use when building systems requiring regulatory compliance, implementing security controls across multiple frameworks, or automating audit preparation.",
@@ -7351,6 +8391,28 @@
       "path": "skills/implementing-observability",
       "commitHash": "d6b36cd8f6ec",
       "files": ["SKILL.md", "examples", "outputs.yaml", "references", "scripts"]
+    },
+    {
+      "id": "ancoleman/ai-design-components/skills/implementing-realtime-sync",
+      "name": "implementing-realtime-sync",
+      "description": "Real-time communication patterns for live updates, collaboration, and presence. Use when building chat applications, collaborative tools, live dashboards, or streaming interfaces (LLM responses, metrics). Covers SSE (server-sent events for one-way streams), WebSocket (bidirectional communication), WebRTC (peer-to-peer video/audio), CRDTs (Yjs, Automerge for conflict-free collaboration), presence patterns, offline sync, and scaling strategies. Supports Python, Rust, Go, and TypeScript.",
+      "categories": ["Development", "DevOps", "Design", "Media"],
+      "author": "ancoleman",
+      "repo": "ancoleman/ai-design-components",
+      "path": "skills/implementing-realtime-sync",
+      "commitHash": "d6b36cd8f6ec",
+      "files": ["SKILL.md", "examples", "outputs.yaml", "references", "scripts"]
+    },
+    {
+      "id": "ancoleman/ai-design-components/skills/implementing-search-filter",
+      "name": "implementing-search-filter",
+      "description": "Implements search and filter interfaces for both frontend (React/TypeScript) and backend (Python) with debouncing, query management, and database integration. Use when adding search functionality, building filter UIs, implementing faceted search, or optimizing search performance.",
+      "categories": ["Development", "Design", "Data & Analytics"],
+      "author": "ancoleman",
+      "repo": "ancoleman/ai-design-components",
+      "path": "skills/implementing-search-filter",
+      "commitHash": "d6b36cd8f6ec",
+      "files": ["SKILL.md", "assets", "examples", "outputs.yaml", "references", "scripts"]
     },
     {
       "id": "ancoleman/ai-design-components/skills/implementing-service-mesh",
@@ -7997,6 +9059,17 @@
         "screenshot-slides.js",
         "skill.meta.json"
       ]
+    },
+    {
+      "id": "athina-ai/goose-skills/skills/capabilities/create-html-slides",
+      "name": "frontend-slides",
+      "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices.",
+      "categories": ["Development", "Design", "Documents", "Research"],
+      "author": "athina-ai",
+      "repo": "athina-ai/goose-skills",
+      "path": "skills/capabilities/create-html-slides",
+      "commitHash": "daa40055e639",
+      "files": ["README.md", "SKILL.md", "STYLE_PRESETS.md", "skill.meta.json"]
     },
     {
       "id": "athina-ai/goose-skills/skills/capabilities/create-workflow-diagram",
@@ -14075,6 +15148,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "Microck/ordinary-claude-skills/skills_all/biorxiv-database",
+      "name": "biorxiv-database",
+      "description": "Efficient database search tool for bioRxiv preprint server. Use this skill when searching for life sciences preprints by keywords, authors, date ranges, or categories, retrieving paper metadata, downloading PDFs, or conducting literature reviews.",
+      "categories": ["Data & Analytics", "Documents"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/biorxiv-database",
+      "commitHash": "68ef0c5bb702",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "Microck/ordinary-claude-skills/skills_all/bioservices",
       "name": "bioservices",
       "description": "Primary Python tool for 40+ bioinformatics services. Preferred for multi-database workflows: UniProt, KEGG, ChEMBL, PubChem, Reactome, QuickGO. Unified API for queries, ID mapping, pathway analysis. For direct REST control, use individual database skills (uniprot-database, kegg-database).",
@@ -14220,17 +15304,6 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "Microck/ordinary-claude-skills/skills_all/claude-opus-4-5-migration",
-      "name": "claude-opus-4-5-migration",
-      "description": "Migrate prompts and code from Claude Sonnet 4.0, Sonnet 4.5, or Opus 4.1 to Opus 4.5. Use when the user wants to update their codebase, prompts, or API calls to use Opus 4.5. Handles model string updates and prompt adjustments for known Opus 4.5 behavioral differences. Does NOT migrate Haiku 4.5.",
-      "categories": ["Development", "AI & ML"],
-      "author": "Microck",
-      "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/claude-opus-4-5-migration",
-      "commitHash": "68ef0c5bb702",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
       "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills",
       "name": "claude-scientific-skills",
       "description": "Comprehensive collection of 128+ ready-to-use scientific skills for Claude enabling research across biology, chemistry, medicine, genomics, and advanced analysis domains.",
@@ -14315,6 +15388,17 @@
       "path": "skills_all/claude-scientific-skills/scientific-skills/dnanexus-integration",
       "commitHash": "68ef0c5bb702",
       "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/document-skills/docx",
+      "name": "docx",
+      "description": "Document toolkit (.docx). Create/edit documents, tracked changes, comments, formatting preservation, text extraction, for professional document processing.",
+      "categories": ["Writing", "Documents"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/claude-scientific-skills/scientific-skills/document-skills/docx",
+      "commitHash": "68ef0c5bb702",
+      "files": ["LICENSE.txt", "SKILL.md", "docx-js.md", "ooxml.md", "ooxml", "scripts"]
     },
     {
       "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/document-skills/pdf",
@@ -14458,6 +15542,28 @@
       "path": "skills_all/claude-scientific-skills/scientific-skills/hypothesis-generation",
       "commitHash": "68ef0c5bb702",
       "files": ["SKILL.md", "assets", "references"]
+    },
+    {
+      "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/labarchive-integration",
+      "name": "labarchive-integration",
+      "description": "Electronic lab notebook API integration. Access notebooks, manage entries/attachments, backup notebooks, integrate with Protocols.io/Jupyter/REDCap, for programmatic ELN workflows.",
+      "categories": ["Productivity"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/claude-scientific-skills/scientific-skills/labarchive-integration",
+      "commitHash": "68ef0c5bb702",
+      "files": ["SKILL.md", "references", "scripts"]
+    },
+    {
+      "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/latchbio-integration",
+      "name": "latchbio-integration",
+      "description": "Latch platform for bioinformatics workflows. Build pipelines with Latch SDK, @workflow/@task decorators, deploy serverless workflows, LatchFile/LatchDir, Nextflow/Snakemake integration.",
+      "categories": ["Development", "DevOps", "Productivity", "Documents"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/claude-scientific-skills/scientific-skills/latchbio-integration",
+      "commitHash": "68ef0c5bb702",
+      "files": ["SKILL.md", "references"]
     },
     {
       "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/markitdown",
@@ -14614,17 +15720,6 @@
       "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
-      "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/scanpy",
-      "name": "scanpy",
-      "description": "Single-cell RNA-seq analysis. Load .h5ad/10X data, QC, normalization, PCA/UMAP/t-SNE, Leiden clustering, marker genes, cell type annotation, trajectory, for scRNA-seq analysis.",
-      "categories": ["Data & Analytics"],
-      "author": "Microck",
-      "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/claude-scientific-skills/scientific-skills/scanpy",
-      "commitHash": "68ef0c5bb702",
-      "files": ["SKILL.md", "assets", "references", "scripts"]
-    },
-    {
       "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/scholar-evaluation",
       "name": "scholar-evaluation",
       "description": "Systematic framework for evaluating scholarly and research work based on the ScholarEval methodology. This skill should be used when assessing research papers, evaluating literature reviews, scoring research methodologies, analyzing scientific writing quality, or applying structured evaluation criteria to academic work. Provides comprehensive assessment across multiple dimensions including problem formulation, literature review, methodology, data collection, analysis, results interpretation, and scholarly writing quality.",
@@ -14755,6 +15850,17 @@
       "path": "skills_all/claude-scientific-skills/scientific-skills/torchdrug",
       "commitHash": "68ef0c5bb702",
       "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/uspto-database",
+      "name": "uspto-database",
+      "description": "Access USPTO APIs for patent/trademark searches, examination history (PEDS), assignments, citations, office actions, TSDR, for IP analysis and prior art searches.",
+      "categories": ["Data & Analytics", "Research"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/claude-scientific-skills/scientific-skills/uspto-database",
+      "commitHash": "68ef0c5bb702",
+      "files": ["SKILL.md", "references", "scripts"]
     },
     {
       "id": "Microck/ordinary-claude-skills/skills_all/claude-scientific-skills/scientific-skills/zarr-python",
@@ -14943,6 +16049,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "Microck/ordinary-claude-skills/skills_all/cost-optimization",
+      "name": "cost-optimization",
+      "description": "Optimize cloud costs through resource rightsizing, tagging strategies, reserved instances, and spending analysis. Use when reducing cloud expenses, analyzing infrastructure costs, or implementing cost governance policies.",
+      "categories": ["DevOps"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/cost-optimization",
+      "commitHash": "68ef0c5bb702",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "Microck/ordinary-claude-skills/skills_all/create-plan",
       "name": "create-plan",
       "description": "Generate detailed implementation plans for complex tasks. Creates comprehensive strategic plans in Markdown format with objectives, step-by-step implementation tasks using checkbox format, verification criteria, risk assessments, and alternative approaches. All plans MUST be validated using the included validation script. Use when users need thorough analysis and structured planning before implementation, when breaking down complex features into actionable steps, or when they explicitly ask for a plan, roadmap, or strategy. Strictly planning-focused with no code modifications.",
@@ -14950,17 +16067,6 @@
       "author": "Microck",
       "repo": "Microck/ordinary-claude-skills",
       "path": "skills_all/create-plan",
-      "commitHash": "68ef0c5bb702",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "Microck/ordinary-claude-skills/skills_all/create-plans",
-      "name": "create-plans",
-      "description": "Create hierarchical project plans optimized for solo agentic development. Use when planning projects, phases, or tasks that Claude will execute. Produces Claude-executable plans with verification criteria, not enterprise documentation. Handles briefs, roadmaps, phase plans, and context handoffs.",
-      "categories": ["Writing", "Productivity", "Documents", "Business", "AI & ML"],
-      "author": "Microck",
-      "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/create-plans",
       "commitHash": "68ef0c5bb702",
       "files": ["SKILL.md", "metadata.json"]
     },
@@ -15251,6 +16357,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "Microck/ordinary-claude-skills/skills_all/every-style-editor",
+      "name": "every-style-editor",
+      "description": "This skill should be used when reviewing or editing copy to ensure adherence to Every's style guide. It provides a systematic line-by-line review process for grammar, punctuation, mechanics, and style guide compliance.",
+      "categories": ["Design", "Writing"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/every-style-editor",
+      "commitHash": "68ef0c5bb702",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "Microck/ordinary-claude-skills/skills_all/execute-plan",
       "name": "execute-plan",
       "description": "Execute structured task plans with status tracking. Use when the user provides a plan file path in the format `plans/{current-date}-{task-name}-{version}.md` or explicitly asks you to execute a plan file.",
@@ -15336,6 +16453,27 @@
       "repo": "Microck/ordinary-claude-skills",
       "path": "skills_all/find-hypertable-candidates",
       "commitHash": "68ef0c5bb702",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "Microck/ordinary-claude-skills/skills_all/flow-nexus-neural",
+      "name": "flow-nexus-neural",
+      "description": "Train and deploy neural networks in distributed E2B sandboxes with Flow Nexus",
+      "categories": ["AI & ML"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/flow-nexus-neural",
+      "commitHash": "68ef0c5bb702",
+      "version": "1.0.0",
+      "tags": [
+        "neural-networks",
+        "distributed-training",
+        "machine-learning",
+        "deep-learning",
+        "flow-nexus",
+        "e2b-sandboxes"
+      ],
+      "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -15496,6 +16634,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "Microck/ordinary-claude-skills/skills_all/javascript-testing-patterns",
+      "name": "javascript-testing-patterns",
+      "description": "Implement comprehensive testing strategies using Jest, Vitest, and Testing Library for unit tests, integration tests, and end-to-end testing with mocking, fixtures, and test-driven development. Use when writing JavaScript/TypeScript tests, setting up test infrastructure, or implementing TDD/BDD workflows.",
+      "categories": ["Development"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/javascript-testing-patterns",
+      "commitHash": "68ef0c5bb702",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "Microck/ordinary-claude-skills/skills_all/judaism-hebrew-wisdom",
       "name": "judaism-hebrew-wisdom",
       "description": "Jewish and Hebrew wisdom - Order before creation, Kabbalah Tree of Life, Gematria navigation, Talmudic argument as collision, Tzimtzum incompleteness",
@@ -15627,6 +16776,17 @@
       "author": "Microck",
       "repo": "Microck/ordinary-claude-skills",
       "path": "skills_all/model-registry-maintainer",
+      "commitHash": "68ef0c5bb702",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "Microck/ordinary-claude-skills/skills_all/modern-javascript-patterns",
+      "name": "modern-javascript-patterns",
+      "description": "Master ES6+ features including async/await, destructuring, spread operators, arrow functions, promises, modules, iterators, generators, and functional programming patterns for writing clean, efficient JavaScript code. Use when refactoring legacy code, implementing modern patterns, or optimizing JavaScript applications.",
+      "categories": ["Development"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/modern-javascript-patterns",
       "commitHash": "68ef0c5bb702",
       "files": ["SKILL.md", "metadata.json"]
     },
@@ -15819,6 +16979,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "Microck/ordinary-claude-skills/skills_all/paypal-integration",
+      "name": "paypal-integration",
+      "description": "Integrate PayPal payment processing with support for express checkout, subscriptions, and refund management. Use when implementing PayPal payments, processing online transactions, or building e-commerce checkout flows.",
+      "categories": ["Finance"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/paypal-integration",
+      "commitHash": "68ef0c5bb702",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "Microck/ordinary-claude-skills/skills_all/performance-analysis",
       "name": "performance-analysis",
       "description": "Comprehensive performance analysis, bottleneck detection, and optimization recommendations for Claude Flow swarms",
@@ -15906,6 +17077,17 @@
       "author": "Microck",
       "repo": "Microck/ordinary-claude-skills",
       "path": "skills_all/product-management",
+      "commitHash": "68ef0c5bb702",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "Microck/ordinary-claude-skills/skills_all/product-manager-toolkit",
+      "name": "product-manager-toolkit",
+      "description": "Comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, discovery frameworks, and go-to-market strategies. Use for feature prioritization, user research synthesis, requirement documentation, and product strategy development.",
+      "categories": ["Productivity", "Business", "Research"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/product-manager-toolkit",
       "commitHash": "68ef0c5bb702",
       "files": ["SKILL.md", "metadata.json"]
     },
@@ -16273,6 +17455,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "Microck/ordinary-claude-skills/skills_all/skill-developer",
+      "name": "skill-developer",
+      "description": "Create and manage Claude Code skills following Anthropic best practices. Use when creating new skills, modifying skill-rules.json, understanding trigger patterns, working with hooks, debugging skill activation, or implementing progressive disclosure. Covers skill structure, YAML frontmatter, trigger types (keywords, intent patterns, file paths, content patterns), enforcement levels (block, suggest, warn), hook mechanisms (UserPromptSubmit, PreToolUse), session tracking, and the 500-line rule.",
+      "categories": ["Development", "Documents", "AI & ML"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/skill-developer",
+      "commitHash": "68ef0c5bb702",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "Microck/ordinary-claude-skills/skills_all/skill-navigator",
       "name": "skill-navigator",
       "description": "The 100th skill! Your intelligent guide to all 99 other skills. Recommends the perfect skill for any task, creates skill combinations, and helps you discover capabilities you didn't know you had.",
@@ -16280,17 +17473,6 @@
       "author": "Microck",
       "repo": "Microck/ordinary-claude-skills",
       "path": "skills_all/skill-navigator",
-      "commitHash": "68ef0c5bb702",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "Microck/ordinary-claude-skills/skills_all/skill-writer",
-      "name": "skill-writer",
-      "description": "Guide users through creating Agent Skills for Claude Code. Use when the user wants to create, write, author, or design a new Skill, or needs help with SKILL.md files, frontmatter, or skill structure.",
-      "categories": ["Design", "Writing", "AI & ML"],
-      "author": "Microck",
-      "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/skill-writer",
       "commitHash": "68ef0c5bb702",
       "files": ["SKILL.md", "metadata.json"]
     },
@@ -16313,6 +17495,17 @@
       "author": "Microck",
       "repo": "Microck/ordinary-claude-skills",
       "path": "skills_all/software-crypto-web3",
+      "commitHash": "68ef0c5bb702",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "Microck/ordinary-claude-skills/skills_all/sql-optimization-patterns",
+      "name": "sql-optimization-patterns",
+      "description": "Master SQL query optimization, indexing strategies, and EXPLAIN analysis to dramatically improve database performance and eliminate slow queries. Use when debugging slow queries, designing database schemas, or optimizing application performance.",
+      "categories": ["Development", "Data & Analytics"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/sql-optimization-patterns",
       "commitHash": "68ef0c5bb702",
       "files": ["SKILL.md", "metadata.json"]
     },
@@ -16381,17 +17574,6 @@
       "path": "skills_all/superpowers-lab",
       "commitHash": "68ef0c5bb702",
       "files": [".claude-plugin", ".gitignore", "LICENSE", "README.md", "SKILL.md", "skills"]
-    },
-    {
-      "id": "Microck/ordinary-claude-skills/skills_all/superpowers-lab/skills/using-tmux-for-interactive-commands",
-      "name": "using-tmux-for-interactive-commands",
-      "description": "Use when you need to run interactive CLI tools (vim, git rebase -i, Python REPL, etc.) that require real-time input/output - provides tmux-based approach for controlling interactive sessions through detached sessions and send-keys",
-      "categories": ["Development", "Design", "Productivity"],
-      "author": "Microck",
-      "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/superpowers-lab/skills/using-tmux-for-interactive-commands",
-      "commitHash": "68ef0c5bb702",
-      "files": ["SKILL.md", "tmux-wrapper.sh"]
     },
     {
       "id": "Microck/ordinary-claude-skills/skills_all/swapper-integration",
@@ -16529,6 +17711,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "Microck/ordinary-claude-skills/skills_all/typescript-advanced-types",
+      "name": "typescript-advanced-types",
+      "description": "Master TypeScript's advanced type system including generics, conditional types, mapped types, template literals, and utility types for building type-safe applications. Use when implementing complex type logic, creating reusable type utilities, or ensuring compile-time type safety in TypeScript projects.",
+      "categories": ["Development", "Productivity"],
+      "author": "Microck",
+      "repo": "Microck/ordinary-claude-skills",
+      "path": "skills_all/typescript-advanced-types",
+      "commitHash": "68ef0c5bb702",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "Microck/ordinary-claude-skills/skills_all/ui-styling",
       "name": "ui-styling",
       "description": "Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first styling, and canvas-based visual designs. Use when building user interfaces, implementing design systems, creating responsive layouts, adding accessible components (dialogs, dropdowns, forms, tables), customizing themes and colors, implementing dark mode, generating visual designs and posters, or establishing consistent styling patterns across applications.",
@@ -16539,17 +17732,6 @@
       "commitHash": "68ef0c5bb702",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "Microck/ordinary-claude-skills/skills_all/user-file-ops",
-      "name": "user-file-ops",
-      "description": "Simple operations on user-provided text files including summarization.",
-      "categories": ["Other"],
-      "author": "Microck",
-      "repo": "Microck/ordinary-claude-skills",
-      "path": "skills_all/user-file-ops",
-      "commitHash": "68ef0c5bb702",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -16742,17 +17924,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "PleasePrompto/google-ai-mode-skill",
-      "name": "google-ai-mode-skill",
-      "description": "Use this skill when the user requests current information, documentation, coding examples, or web research beyond the knowledge cutoff. Queries Google's AI Search mode to retrieve comprehensive AI-generated overviews with source citations from 100+ websites. Returns markdown with inline footnoted references [1][2][3]. You will receive a detailed Markdown file with references and information summarized directly from Google's AI search. Ideal for you to get new information and clues for further research.",
-      "categories": ["Development", "Writing", "Documents", "Research"],
-      "author": "PleasePrompto",
-      "repo": "PleasePrompto/google-ai-mode-skill",
-      "path": "",
-      "commitHash": "c10c13b296c7",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "Haaaiawd/Nexus-skills/skills/nexus-query",
       "name": "nexus-query",
       "description": "Precise, instant code structure queries for active development — answer 'who depends on this interface before I refactor it', 'how many modules break if I change this', 'what is the real impact radius of this feature change', 'which module is the true high-coupling hotspot in this legacy codebase'. Essential before any interface change, continuous refactoring task, sprint work estimation, or when navigating unfamiliar or large legacy codebases. Requires Python 3.10+ and shell. Use nexus-mapper instead when building a full .nexus-map/ knowledge base.",
@@ -16773,6 +17944,17 @@
       "path": "skills/nexus-mapper",
       "commitHash": "40a9640e2f36",
       "files": ["SKILL.md", "references", "scripts"]
+    },
+    {
+      "id": "PleasePrompto/google-ai-mode-skill",
+      "name": "google-ai-mode-skill",
+      "description": "Use this skill when the user requests current information, documentation, coding examples, or web research beyond the knowledge cutoff. Queries Google's AI Search mode to retrieve comprehensive AI-generated overviews with source citations from 100+ websites. Returns markdown with inline footnoted references [1][2][3]. You will receive a detailed Markdown file with references and information summarized directly from Google's AI search. Ideal for you to get new information and clues for further research.",
+      "categories": ["Development", "Writing", "Documents", "Research"],
+      "author": "PleasePrompto",
+      "repo": "PleasePrompto/google-ai-mode-skill",
+      "path": "",
+      "commitHash": "c10c13b296c7",
+      "files": ["SKILL.md"]
     },
     {
       "id": "elvismdev/claude-wordpress-skills/skills/wp-performance-review",
@@ -16801,6 +17983,17 @@
       "repo": "berserkdisruptors/contextual-commits",
       "path": "skills/recall",
       "commitHash": "cdd5ee323b23",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "berserkdisruptors/contextual-commits/skills/contextual-commit",
+      "name": "contextual-commit",
+      "description": "Write contextual commits that capture intent, decisions, and constraints alongside code changes. Use when committing code, finishing a task, or when the user asks to commit. Extends Conventional Commits with structured action lines in the commit body that preserve WHY code was written, not just WHAT changed.",
+      "categories": ["Development", "Writing"],
+      "author": "berserkdisruptors",
+      "repo": "berserkdisruptors/contextual-commits",
+      "path": "skills/contextual-commit",
+      "commitHash": "7b81c3153057",
       "files": ["SKILL.md"]
     },
     {
@@ -16925,6 +18118,17 @@
       "files": ["SKILL.md", "references"]
     },
     {
+      "id": "nokonoko1203/claude-code-settings/skills/playwright-cli",
+      "name": "playwright-cli",
+      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.",
+      "categories": ["Development", "Research"],
+      "author": "nokonoko1203",
+      "repo": "nokonoko1203/claude-code-settings",
+      "path": "skills/playwright-cli",
+      "commitHash": "000f5fe44452",
+      "files": ["SKILL.md", "references"]
+    },
+    {
       "id": "nokonoko1203/claude-code-settings/skills/kill-dev-process",
       "name": "kill-dev-process",
       "description": "Kill orphaned dev servers, browsers, and port-hogging processes spawned during development. Use when ports are occupied, too many node/browser processes are running, or you want a fresh start.",
@@ -16975,6 +18179,17 @@
       "path": "python-project-creator",
       "commitHash": "0fe6a68dd061",
       "files": ["SKILL.md", "assets", "references", "scripts"]
+    },
+    {
+      "id": "anhvt52/jetpack-compose-skills/modern-jetpack-compose",
+      "name": "modern-jetpack-compose",
+      "description": "Guides writing, reviewing, and reasoning about modern Android UI code using Jetpack Compose. Covers best practices for state management, side effects, recomposition, navigation, Material 3 design, accessibility, and performance. Use when reading, writing, or reviewing any Jetpack Compose project.\n",
+      "categories": ["Development", "Design", "Productivity"],
+      "author": "anhvt52",
+      "repo": "anhvt52/jetpack-compose-skills",
+      "path": "modern-jetpack-compose",
+      "commitHash": "12599cb38570",
+      "files": ["SKILL.md", "agents", "references"]
     },
     {
       "id": "Dianel555/DSkills/skills/ace-tool",
@@ -17049,17 +18264,6 @@
       "path": "skills/time",
       "commitHash": "d2409d56f704",
       "files": ["README.md", "SKILL.md", "scripts"]
-    },
-    {
-      "id": "anhvt52/jetpack-compose-skills/modern-jetpack-compose",
-      "name": "modern-jetpack-compose",
-      "description": "Guides writing, reviewing, and reasoning about modern Android UI code using Jetpack Compose. Covers best practices for state management, side effects, recomposition, navigation, Material 3 design, accessibility, and performance. Use when reading, writing, or reviewing any Jetpack Compose project.\n",
-      "categories": ["Development", "Design", "Productivity"],
-      "author": "anhvt52",
-      "repo": "anhvt52/jetpack-compose-skills",
-      "path": "modern-jetpack-compose",
-      "commitHash": "12599cb38570",
-      "files": ["SKILL.md", "agents", "references"]
     },
     {
       "id": "proflead/codex-skills-library/skills/docs/readme-polish",
@@ -19601,6 +20805,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "xu-xiang/everything-claude-code-zh/docs/zh-CN/skills/search-first",
+      "name": "search-first",
+      "description": "研究优先于编码的工作流程。在编写自定义代码之前，搜索现有的工具、库和模式。调用研究员代理。",
+      "categories": ["Research"],
+      "author": "xu-xiang",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "docs/zh-CN/skills/search-first",
+      "commitHash": "dfbf9467b90d",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "xu-xiang/everything-claude-code-zh/docs/ja-JP/skills/tdd-workflow",
       "name": "tdd-workflow",
       "description": "在创建新功能、修复 Bug 或重构代码时使用此技能。强制执行测试驱动开发（TDD），要求包括单元测试、集成测试和 E2E 测试在内的测试覆盖率达到 80% 以上。",
@@ -19632,6 +20847,17 @@
       "path": ".agents/skills/investor-outreach",
       "commitHash": "dfbf9467b90d",
       "files": ["SKILL.md", "agents"]
+    },
+    {
+      "id": "xu-xiang/everything-claude-code-zh/docs/zh-TW/skills/golang-patterns",
+      "name": "golang-patterns",
+      "description": "Idiomatic Go patterns, best practices, and conventions for building robust, efficient, and maintainable Go applications.",
+      "categories": ["Development"],
+      "author": "xu-xiang",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "docs/zh-TW/skills/golang-patterns",
+      "commitHash": "0e5571998f92",
+      "files": ["SKILL.md"]
     },
     {
       "id": "xu-xiang/everything-claude-code-zh/docs/zh-CN/skills/frontend-slides",
@@ -19675,17 +20901,6 @@
       "repo": "xu-xiang/everything-claude-code-zh",
       "path": "docs/zh-CN/skills/strategic-compact",
       "commitHash": "dfbf9467b90d",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "xu-xiang/everything-claude-code-zh/docs/zh-TW/skills/frontend-patterns",
-      "name": "frontend-patterns",
-      "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.",
-      "categories": ["Development"],
-      "author": "xu-xiang",
-      "repo": "xu-xiang/everything-claude-code-zh",
-      "path": "docs/zh-TW/skills/frontend-patterns",
-      "commitHash": "0e5571998f92",
       "files": ["SKILL.md"]
     },
     {
@@ -19843,6 +21058,17 @@
       "author": "xu-xiang",
       "repo": "xu-xiang/everything-claude-code-zh",
       "path": "docs/ja-JP/skills/configure-ecc",
+      "commitHash": "dfbf9467b90d",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "xu-xiang/everything-claude-code-zh/docs/zh-CN/skills/docker-patterns",
+      "name": "docker-patterns",
+      "description": "用于本地开发的Docker和Docker Compose模式，包括容器安全、网络、卷策略和多服务编排。",
+      "categories": ["Development", "DevOps"],
+      "author": "xu-xiang",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "docs/zh-CN/skills/docker-patterns",
       "commitHash": "dfbf9467b90d",
       "files": ["SKILL.md"]
     },
@@ -20122,17 +21348,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "xu-xiang/everything-claude-code-zh/docs/ja-JP/skills/django-tdd",
-      "name": "django-tdd",
-      "description": "Django testing strategies with pytest-django, TDD methodology, factory_boy, mocking, coverage, and testing Django REST Framework APIs.",
-      "categories": ["Development"],
-      "author": "xu-xiang",
-      "repo": "xu-xiang/everything-claude-code-zh",
-      "path": "docs/ja-JP/skills/django-tdd",
-      "commitHash": "dfbf9467b90d",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "xu-xiang/everything-claude-code-zh/skills/plankton-code-quality",
       "name": "plankton-code-quality",
       "description": "使用 Plankton 实现编写时代码质量强制执行 —— 通过钩子在每次文件编辑时进行自动格式化、代码检查，并由 Claude 驱动自动修复。",
@@ -20267,6 +21482,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "xu-xiang/everything-claude-code-zh/docs/zh-TW/skills/golang-testing",
+      "name": "golang-testing",
+      "description": "Go testing patterns including table-driven tests, subtests, benchmarks, fuzzing, and test coverage. Follows TDD methodology with idiomatic Go practices.",
+      "categories": ["Development"],
+      "author": "xu-xiang",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "docs/zh-TW/skills/golang-testing",
+      "commitHash": "0e5571998f92",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "xu-xiang/everything-claude-code-zh/docs/ja-JP/skills/springboot-tdd",
       "name": "springboot-tdd",
       "description": "使用 JUnit 5, Mockito, MockMvc, Testcontainers 和 JaCoCo 进行 Spring Boot 的测试驱动开发（TDD）。适用于添加新功能、修复 bug 或重构场景。",
@@ -20278,13 +21504,13 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "xu-xiang/everything-claude-code-zh/docs/zh-CN/skills/python-testing",
-      "name": "python-testing",
-      "description": "使用pytest的Python测试策略，包括TDD方法、夹具、模拟、参数化和覆盖率要求。",
+      "id": "xu-xiang/everything-claude-code-zh/docs/zh-CN/skills/springboot-tdd",
+      "name": "springboot-tdd",
+      "description": "使用JUnit 5、Mockito、MockMvc、Testcontainers和JaCoCo进行Spring Boot的测试驱动开发。适用于添加功能、修复错误或重构时。",
       "categories": ["Development"],
       "author": "xu-xiang",
       "repo": "xu-xiang/everything-claude-code-zh",
-      "path": "docs/zh-CN/skills/python-testing",
+      "path": "docs/zh-CN/skills/springboot-tdd",
       "commitHash": "dfbf9467b90d",
       "files": ["SKILL.md"]
     },
@@ -20399,6 +21625,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "xu-xiang/everything-claude-code-zh/docs/zh-CN/skills/market-research",
+      "name": "market-research",
+      "description": "进行市场研究、竞争分析、投资者尽职调查和行业情报，附带来源归属和决策导向的摘要。适用于用户需要市场规模、竞争对手比较、基金研究、技术扫描或为商业决策提供信息的研究时。",
+      "categories": ["Data & Analytics", "Research", "Finance"],
+      "author": "xu-xiang",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "docs/zh-CN/skills/market-research",
+      "commitHash": "dfbf9467b90d",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "xu-xiang/everything-claude-code-zh/docs/zh-CN/skills/cpp-coding-standards",
       "name": "cpp-coding-standards",
       "description": "基于C++核心指南（isocpp.github.io）的C++编码标准。在编写、审查或重构C++代码时使用，以强制实施现代、安全和惯用的实践。",
@@ -20505,6 +21742,17 @@
       "author": "xu-xiang",
       "repo": "xu-xiang/everything-claude-code-zh",
       "path": "skills/search-first",
+      "commitHash": "dfbf9467b90d",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "xu-xiang/everything-claude-code-zh/docs/zh-CN/skills/e2e-testing",
+      "name": "e2e-testing",
+      "description": "Playwright E2E 测试模式、页面对象模型、配置、CI/CD 集成、工件管理和不稳定测试策略。",
+      "categories": ["Development"],
+      "author": "xu-xiang",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "docs/zh-CN/skills/e2e-testing",
       "commitHash": "dfbf9467b90d",
       "files": ["SKILL.md"]
     },
@@ -20651,6 +21899,17 @@
       "repo": "xu-xiang/everything-claude-code-zh",
       "path": "docs/zh-CN/skills/golang-patterns",
       "commitHash": "dfbf9467b90d",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "xu-xiang/everything-claude-code-zh/docs/zh-TW/skills/coding-standards",
+      "name": "coding-standards",
+      "description": "Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.",
+      "categories": ["Development"],
+      "author": "xu-xiang",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "docs/zh-TW/skills/coding-standards",
+      "commitHash": "0e5571998f92",
       "files": ["SKILL.md"]
     },
     {
@@ -21015,6 +22274,17 @@
       "path": ".agents/skills/strategic-compact",
       "commitHash": "dfbf9467b90d",
       "files": ["SKILL.md", "agents"]
+    },
+    {
+      "id": "xu-xiang/everything-claude-code-zh/docs/zh-CN/skills/python-patterns",
+      "name": "python-patterns",
+      "description": "Pythonic 惯用法、PEP 8 标准、类型提示以及构建稳健、高效且可维护的 Python 应用程序的最佳实践。",
+      "categories": ["Development"],
+      "author": "xu-xiang",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "docs/zh-CN/skills/python-patterns",
+      "commitHash": "dfbf9467b90d",
+      "files": ["SKILL.md"]
     },
     {
       "id": "xu-xiang/everything-claude-code-zh/docs/zh-CN/skills/springboot-patterns",
@@ -25627,17 +26897,6 @@
       "files": ["SKILL.md", "assets", "references", "templates"]
     },
     {
-      "id": "secondsky/claude-skills/plugins/supabase-postgres-best-practices/skills/supabase-postgres-best-practices",
-      "name": "supabase-postgres-best-practices",
-      "description": "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.",
-      "categories": ["Data & Analytics"],
-      "author": "secondsky",
-      "repo": "secondsky/claude-skills",
-      "path": "plugins/supabase-postgres-best-practices/skills/supabase-postgres-best-practices",
-      "commitHash": "c1dcd41a5ad7",
-      "files": ["AGENTS.md", "CLAUDE.md", "README_SOURCE.md", "SKILL.md", "references"]
-    },
-    {
       "id": "secondsky/claude-skills/plugins/shadcn-vue/skills/shadcn-vue",
       "name": "shadcn-vue",
       "description": "shadcn-vue for Vue/Nuxt with Reka UI components and Tailwind. Use for accessible UI, Auto Form, data tables, charts, or encountering component imports, dark mode, Reka UI errors.",
@@ -25836,180 +27095,186 @@
       "files": ["SKILL.md", "templates"]
     },
     {
-      "id": "Darkbluelr/dev-playbooks-cn/skills/devbooks-void",
-      "name": "devbooks-void",
-      "description": "devbooks-void：Void 协议执行器：处理高熵/不确定/多方案争议问题，只产出 research_report + ADR + Freeze/Thaw 工件，不产出生产代码。用户说\"进入 void/卡住了/不确定/需要调研/冻结解冻\"等时使用。",
-      "categories": ["Research"],
-      "author": "Darkbluelr",
-      "repo": "Darkbluelr/dev-playbooks-cn",
-      "path": "skills/devbooks-void",
-      "commitHash": "e5c2147f1803",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Darkbluelr/dev-playbooks-cn/skills/devbooks-knife",
-      "name": "devbooks-knife",
-      "description": "devbooks-knife：把 Epic 级需求切成可拓扑排序的 Slice 队列，并落盘机读 Knife Plan（用于高风险/史诗级变更的 G3 强制闸门）。",
+      "id": "fabriqaai/specs.md/src/flows/fire/agents/planner/skills/intent-capture",
+      "name": "intent-capture",
+      "description": "Capture user intent through guided conversation. Exploratory phase with high degrees of freedom.",
       "categories": ["Other"],
-      "author": "Darkbluelr",
-      "repo": "Darkbluelr/dev-playbooks-cn",
-      "path": "skills/devbooks-knife",
-      "commitHash": "a708578a9328",
-      "files": ["SKILL.md"]
+      "author": "fabriqaai",
+      "repo": "fabriqaai/specs.md",
+      "path": "src/flows/fire/agents/planner/skills/intent-capture",
+      "commitHash": "b105f0832318",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "templates"]
     },
     {
-      "id": "Darkbluelr/dev-playbooks-cn/skills/devbooks-coder",
-      "name": "devbooks-coder",
-      "description": "devbooks-coder：以 Coder 角色严格按 tasks.md 实现功能并跑闸门，禁止修改 tests/，以测试/静态检查为唯一完成判据。用户说\"按计划实现/修复测试失败/让闸门全绿/实现任务项/不改测试\"，或在 DevBooks apply 阶段以 coder 执行时使用。",
-      "categories": ["Development", "Productivity"],
-      "author": "Darkbluelr",
-      "repo": "Darkbluelr/dev-playbooks-cn",
-      "path": "skills/devbooks-coder",
-      "commitHash": "e5c2147f1803",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "Darkbluelr/dev-playbooks-cn/skills/devbooks-archiver",
-      "name": "devbooks-archiver",
-      "description": "devbooks-archiver：归档阶段的唯一入口，负责完整的归档闭环（自动回写→规格合并→文档同步检查→变更包归档移动）。用户说\"归档/archive/收尾/闭环/合并到真理\"等时使用。",
-      "categories": ["Documents"],
-      "author": "Darkbluelr",
-      "repo": "Darkbluelr/dev-playbooks-cn",
-      "path": "skills/devbooks-archiver",
-      "commitHash": "e5c2147f1803",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "Darkbluelr/dev-playbooks-cn/skills/devbooks-reviewer",
-      "name": "devbooks-reviewer",
-      "description": "devbooks-reviewer：以 Reviewer 角色做可读性/一致性/依赖健康/坏味道审查，只输出审查意见与可执行建议，不讨论业务正确性。用户说\"帮我做代码评审/review 可维护性/坏味道/依赖风险/一致性建议\"，或在 DevBooks apply 阶段以 reviewer 执行时使用。",
+      "id": "fabriqaai/specs.md/src/flows/fire/agents/builder/skills/run-execute",
+      "name": "run-execute",
+      "description": "Execute work items based on their assigned mode (autopilot, confirm, validate). Supports single-item and multi-item (batch/wide) runs.",
       "categories": ["Other"],
-      "author": "Darkbluelr",
-      "repo": "Darkbluelr/dev-playbooks-cn",
-      "path": "skills/devbooks-reviewer",
-      "commitHash": "90611adf793b",
-      "files": ["SKILL.md", "references"]
+      "author": "fabriqaai",
+      "repo": "fabriqaai/specs.md",
+      "path": "src/flows/fire/agents/builder/skills/run-execute",
+      "commitHash": "b1ecdcc1c4fc",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "scripts", "templates"]
     },
     {
-      "id": "Darkbluelr/dev-playbooks-cn/skills/devbooks-design-doc",
-      "name": "devbooks-design-doc",
-      "description": "devbooks-design-doc：产出变更包的设计文档（design.md），只写 What/Constraints 与 AC-xxx，不写实现步骤。用户说\"写设计文档/Design Doc/架构设计/约束/验收标准/AC/C4 Delta\"等时使用。",
+      "id": "fabriqaai/specs.md/src/flows/fire/agents/planner/skills/design-doc-generate",
+      "name": "design-doc-generate",
+      "description": "Generate design documents for Validate mode work items (Checkpoint 1). Required for high-complexity items.",
       "categories": ["Design"],
-      "author": "Darkbluelr",
-      "repo": "Darkbluelr/dev-playbooks-cn",
-      "path": "skills/devbooks-design-doc",
-      "commitHash": "90611adf793b",
-      "files": ["SKILL.md", "references"]
+      "author": "fabriqaai",
+      "repo": "fabriqaai/specs.md",
+      "path": "src/flows/fire/agents/planner/skills/design-doc-generate",
+      "commitHash": "b105f0832318",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "templates"]
     },
     {
-      "id": "Darkbluelr/dev-playbooks-cn/skills/devbooks-proposal-judge",
-      "name": "devbooks-proposal-judge",
-      "description": "devbooks-proposal-judge：对 proposal 阶段进行裁决（Judge），输出 Approved/Revise/Rejected 并写回 proposal.md 的 Decision Log。用户说\"裁决提案/提案评审/Approved Revise Rejected/decision log\"等时使用。",
+      "id": "fabriqaai/specs.md/src/flows/fire/agents/planner/skills/work-item-decompose",
+      "name": "work-item-decompose",
+      "description": "Break an intent into discrete, executable work items with complexity assessment and dependency validation.",
       "categories": ["Other"],
-      "author": "Darkbluelr",
-      "repo": "Darkbluelr/dev-playbooks-cn",
-      "path": "skills/devbooks-proposal-judge",
-      "commitHash": "90611adf793b",
-      "files": ["SKILL.md", "references"]
+      "author": "fabriqaai",
+      "repo": "fabriqaai/specs.md",
+      "path": "src/flows/fire/agents/planner/skills/work-item-decompose",
+      "commitHash": "b105f0832318",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "templates"]
     },
     {
-      "id": "Darkbluelr/dev-playbooks-cn/skills/devbooks-entropy-monitor",
-      "name": "devbooks-entropy-monitor",
-      "description": "devbooks-entropy-monitor：定期采集系统熵度量（结构熵/变更熵/测试熵/依赖熵），生成量化报告，当指标超阈值时建议重构。用户说\"熵度量/复杂度趋势/重构预警/代码健康/技术债务度量\"等时使用。",
-      "categories": ["Development"],
-      "author": "Darkbluelr",
-      "repo": "Darkbluelr/dev-playbooks-cn",
-      "path": "skills/devbooks-entropy-monitor",
-      "commitHash": "90611adf793b",
-      "files": ["SKILL.md", "references", "scripts", "templates"]
-    },
-    {
-      "id": "Darkbluelr/dev-playbooks-cn/skills/devbooks-impact-analysis",
-      "name": "devbooks-impact-analysis",
-      "description": "devbooks-impact-analysis：跨模块/跨文件/对外契约变更前做影响分析，产出可直接写入 proposal.md 的 Impact 部分（Scope/Impacts/Risks/Minimal Diff/Open Questions）。用户说\"做影响分析/改动面控制/引用查找/受影响模块/兼容性风险\"等时使用。",
-      "categories": ["Data & Analytics"],
-      "author": "Darkbluelr",
-      "repo": "Darkbluelr/dev-playbooks-cn",
-      "path": "skills/devbooks-impact-analysis",
-      "commitHash": "90611adf793b",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "Darkbluelr/dev-playbooks-cn/skills/devbooks-proposal-author",
-      "name": "devbooks-proposal-author",
-      "description": "devbooks-proposal-author：撰写变更提案 proposal.md（Why/What/Impact + Debate Packet），作为后续 Design/Spec/Plan 的入口。对设计性决策会呈现选项给用户选择。用户说\"写提案/proposal/为什么要改/影响范围/坏味道重构提案\"等时使用。",
-      "categories": ["Design"],
-      "author": "Darkbluelr",
-      "repo": "Darkbluelr/dev-playbooks-cn",
-      "path": "skills/devbooks-proposal-author",
-      "commitHash": "90611adf793b",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "Darkbluelr/dev-playbooks-cn/skills/devbooks-docs-consistency",
-      "name": "devbooks-docs-consistency",
-      "description": "devbooks-docs-consistency：检查并维护项目文档与代码的一致性，支持增量扫描、自定义规则与完备性检查。可在变更包内按需运行或全局检查。旧名称 devbooks-docs-sync 保留为别名并输出弃用提示。",
-      "categories": ["Writing"],
-      "author": "Darkbluelr",
-      "repo": "Darkbluelr/dev-playbooks-cn",
-      "path": "skills/devbooks-docs-consistency",
-      "commitHash": "e5c2147f1803",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "Darkbluelr/dev-playbooks-cn/skills/devbooks-convergence-audit",
-      "name": "devbooks-convergence-audit",
-      "description": "devbooks-convergence-audit：以证据优先、声明存疑的原则评估 DevBooks 工作流收敛性，检测\"西西弗斯反模式\"和\"假完成\"。主动验证而非信任文档声明。用户说\"评估收敛性/检查升级健康度/西西弗斯检测/工作流审计\"等时使用。",
-      "categories": ["Security"],
-      "author": "Darkbluelr",
-      "repo": "Darkbluelr/dev-playbooks-cn",
-      "path": "skills/devbooks-convergence-audit",
-      "commitHash": "90611adf793b",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "Darkbluelr/dev-playbooks-cn/skills/devbooks-implementation-plan",
-      "name": "devbooks-implementation-plan",
-      "description": "devbooks-implementation-plan：从设计文档推导编码计划（tasks.md），输出可跟踪的主线计划/临时计划/断点区，并绑定验收锚点。用户说\"写编码计划/Implementation Plan/tasks.md/任务拆解/并行拆分/里程碑/验收锚点\"等时使用。",
-      "categories": ["Productivity"],
-      "author": "Darkbluelr",
-      "repo": "Darkbluelr/dev-playbooks-cn",
-      "path": "skills/devbooks-implementation-plan",
-      "commitHash": "90611adf793b",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "Darkbluelr/dev-playbooks-cn/skills/devbooks-proposal-challenger",
-      "name": "devbooks-proposal-challenger",
-      "description": "devbooks-proposal-challenger：对 proposal.md 发起质疑（Challenger）+ 查漏补缺，指出风险/遗漏/不一致并给结论，发现缺失的验收标准和未覆盖场景。用户说\"质疑提案/挑刺/风险评估/提案对辩 challenger/查漏补缺\"等时使用。",
+      "id": "fabriqaai/specs.md/src/flows/fire/agents/builder/skills/run-status",
+      "name": "run-status",
+      "description": "Display current run status and progress. Shows work item, mode, duration, and files changed.",
       "categories": ["Other"],
-      "author": "Darkbluelr",
-      "repo": "Darkbluelr/dev-playbooks-cn",
-      "path": "skills/devbooks-proposal-challenger",
-      "commitHash": "90611adf793b",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "Darkbluelr/dev-playbooks-cn/skills/devbooks-test-owner",
-      "name": "devbooks-test-owner",
-      "description": "devbooks-test-owner：以 Test Owner 角色把设计/规格转成可执行验收测试与追溯文档（verification.md），强调与实现（Coder）独立对话、先跑出 Red 基线。用户说\"写测试/验收测试/追溯矩阵/verification.md/Red-Green/contract tests/fitness tests\"，或在 DevBooks apply 阶段以 test owner 执行时使用。",
-      "categories": ["Development"],
-      "author": "Darkbluelr",
-      "repo": "Darkbluelr/dev-playbooks-cn",
-      "path": "skills/devbooks-test-owner",
-      "commitHash": "e5c2147f1803",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "Darkbluelr/dev-playbooks-cn/skills/devbooks-test-reviewer",
-      "name": "devbooks-test-reviewer",
-      "description": "devbooks-test-reviewer：以 Test Reviewer 角色评审 tests/ 测试质量（覆盖、边界、可读性、可维护性），只输出评审意见，不修改代码。用户说“测试评审/评审测试质量/覆盖率/边界条件”等时使用。",
-      "categories": ["Development"],
-      "author": "Darkbluelr",
-      "repo": "Darkbluelr/dev-playbooks-cn",
-      "path": "skills/devbooks-test-reviewer",
-      "commitHash": "90611adf793b",
+      "author": "fabriqaai",
+      "repo": "fabriqaai/specs.md",
+      "path": "src/flows/fire/agents/builder/skills/run-status",
+      "commitHash": "d3e3d621786b",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "fabriqaai/specs.md/src/flows/ideation/agents/orchestrator/skills/spark",
+      "name": "spark",
+      "description": "Rapid idea generation with cross-domain diversity, anti-bias enforcement, and deep thinking.",
+      "categories": ["Other"],
+      "author": "fabriqaai",
+      "repo": "fabriqaai/specs.md",
+      "path": "src/flows/ideation/agents/orchestrator/skills/spark",
+      "commitHash": "3face4676cf8",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references", "templates"]
+    },
+    {
+      "id": "fabriqaai/specs.md/src/flows/fire/agents/builder/skills/run-plan",
+      "name": "run-plan",
+      "description": "Plan the scope of a run by discovering available work items and suggesting groupings. Invoked before run-execute.",
+      "categories": ["Other"],
+      "author": "fabriqaai",
+      "repo": "fabriqaai/specs.md",
+      "path": "src/flows/fire/agents/builder/skills/run-plan",
+      "commitHash": "504fa76c3b39",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "fabriqaai/specs.md/src/flows/fire/agents/orchestrator/skills/route",
+      "name": "route",
+      "description": "Analyze project state and route user to the appropriate agent based on current context.",
+      "categories": ["Other"],
+      "author": "fabriqaai",
+      "repo": "fabriqaai/specs.md",
+      "path": "src/flows/fire/agents/orchestrator/skills/route",
+      "commitHash": "8a5a7f1ee1ab",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "fabriqaai/specs.md/src/flows/fire/agents/builder/skills/code-review",
+      "name": "code-review",
+      "description": "Review code written during a run, auto-fix no-brainer issues, and suggest improvements requiring confirmation. Invoked after tests pass.",
+      "categories": ["Development"],
+      "author": "fabriqaai",
+      "repo": "fabriqaai/specs.md",
+      "path": "src/flows/fire/agents/builder/skills/code-review",
+      "commitHash": "d3e3d621786b",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references", "templates"]
+    },
+    {
+      "id": "fabriqaai/specs.md/src/flows/fire/agents/orchestrator/skills/status",
+      "name": "status",
+      "description": "Display current FIRE project status and validate integrity of intents, work items, and runs.",
+      "categories": ["Other"],
+      "author": "fabriqaai",
+      "repo": "fabriqaai/specs.md",
+      "path": "src/flows/fire/agents/orchestrator/skills/status",
+      "commitHash": "d3e3d621786b",
+      "version": "2.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "fabriqaai/specs.md/src/flows/ideation/agents/orchestrator/skills/forge",
+      "name": "forge",
+      "description": "Shape top ideas into actionable concept briefs using Disney Strategy — Dream, Reality, Critique.",
+      "categories": ["Other"],
+      "author": "fabriqaai",
+      "repo": "fabriqaai/specs.md",
+      "path": "src/flows/ideation/agents/orchestrator/skills/forge",
+      "commitHash": "3face4676cf8",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references", "templates"]
+    },
+    {
+      "id": "fabriqaai/specs.md/src/flows/ideation/agents/orchestrator/skills/flame",
+      "name": "flame",
+      "description": "Multi-perspective idea evaluation using Six Hats analysis, impact/feasibility scoring, and collaborative shortlisting.",
+      "categories": ["Other"],
+      "author": "fabriqaai",
+      "repo": "fabriqaai/specs.md",
+      "path": "src/flows/ideation/agents/orchestrator/skills/flame",
+      "commitHash": "3face4676cf8",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references", "templates"]
+    },
+    {
+      "id": "fabriqaai/specs.md/src/flows/fire/agents/orchestrator/skills/project-init",
+      "name": "project-init",
+      "description": "Initialize a new FIRE project by detecting workspace type and setting up standards.",
+      "categories": ["Other"],
+      "author": "fabriqaai",
+      "repo": "fabriqaai/specs.md",
+      "path": "src/flows/fire/agents/orchestrator/skills/project-init",
+      "commitHash": "280ba3f72c95",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "templates"]
+    },
+    {
+      "id": "fabriqaai/specs.md/src/flows/fire/agents/builder/skills/walkthrough-generate",
+      "name": "walkthrough-generate",
+      "description": "Generate implementation walkthrough for human review after run completion. Documents decisions, changes, and verification steps.",
+      "categories": ["Other"],
+      "author": "fabriqaai",
+      "repo": "fabriqaai/specs.md",
+      "path": "src/flows/fire/agents/builder/skills/walkthrough-generate",
+      "commitHash": "3face4676cf8",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "templates"]
     },
     {
       "id": "joinmassive/clawpod",
