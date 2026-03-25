@@ -7,6 +7,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "jpoutrin/product-forge": {
+      "url": "https://github.com/jpoutrin/product-forge",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "nguyenngothuong/youtube-transcript-skill": {
       "url": "https://github.com/nguyenngothuong/youtube-transcript-skill",
       "branch": "master",
@@ -28,8 +35,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "amterp/council": {
-      "url": "https://github.com/amterp/council",
+    "iamzifei/image-upload-skill": {
+      "url": "https://github.com/iamzifei/image-upload-skill",
+      "branch": "master",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "lionelsimai/claude-skills-collection": {
+      "url": "https://github.com/lionelsimai/claude-skills-collection",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -37,13 +51,6 @@
     },
     "Artifex1/auditor-addon": {
       "url": "https://github.com/Artifex1/auditor-addon",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "lionelsimai/claude-skills-collection": {
-      "url": "https://github.com/lionelsimai/claude-skills-collection",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -90,9 +97,34 @@
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
+    },
+    "er1chu/claude-skills-weekly": {
+      "url": "https://github.com/er1chu/claude-skills-weekly",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "lubancafe/agent-skills": {
+      "url": "https://github.com/lubancafe/agent-skills",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
     }
   },
   "skills": [
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/backend/base",
+      "name": "base",
+      "description": "Database management, forms, reports, and data operations with LibreOffice Base.",
+      "categories": ["Data & Analytics"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/backend/base",
+      "commitHash": "c98b9d7acc07",
+      "files": ["SKILL.md", "metadata.json"]
+    },
     {
       "id": "diegosouzapw/awesome-omni-skill/skills/product/jtbd",
       "name": "jtbd",
@@ -157,6 +189,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/business/seo-audit",
       "commitHash": "02b8e2fbda51",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/tools/mem0-automation",
+      "name": "mem0-automation",
+      "description": "Automate Mem0 tasks via Rube MCP (Composio). Always search tools first for current schemas.",
+      "categories": ["Productivity"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/tools/mem0-automation",
+      "commitHash": "00c4d7cc2bbe",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -226,6 +269,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "diegosouzapw/awesome-omni-skill/skills/content-media/videodb-skills",
+      "name": "videodb-skills",
+      "description": "Upload, stream, search, edit, transcribe, and generate AI video and audio using the VideoDB SDK.",
+      "categories": ["Media"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/content-media/videodb-skills",
+      "commitHash": "c98b9d7acc07",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "diegosouzapw/awesome-omni-skill/skills/documentation/api-documentation",
       "name": "api-documentation",
       "description": "API documentation workflow for generating OpenAPI specs, creating developer guides, and maintaining comprehensive API documentation.",
@@ -234,6 +288,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/documentation/api-documentation",
       "commitHash": "c0ab24a5cbdf",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/backend/apify-audience-analysis",
+      "name": "apify-audience-analysis",
+      "description": "Understand audience demographics, preferences, behavior patterns, and engagement quality across Facebook, Instagram, YouTube, and TikTok.",
+      "categories": ["Development", "Data & Analytics", "Marketing", "Media"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/backend/apify-audience-analysis",
+      "commitHash": "02b8e2fbda51",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -299,6 +364,39 @@
       "author": "diegosouzapw",
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/fullstack-web/stripe-integration",
+      "commitHash": "9a0f06626940",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/frontend/fp-ts-react",
+      "name": "fp-ts-react",
+      "description": "Practical patterns for using fp-ts with React - hooks, state, forms, data fetching. Use when building React apps with functional programming patterns. Works with React 18/19, Next.js 14/15.",
+      "categories": ["Development"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/frontend/fp-ts-react",
+      "commitHash": "9a0f06626940",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/ai-agents/last30days",
+      "name": "last30days",
+      "description": "Research a topic from the last 30 days on Reddit + X + Web, become an expert, and write copy-paste-ready prompts for the user's target tool.",
+      "categories": ["Writing", "Research"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/ai-agents/last30days",
+      "commitHash": "a34fbe5f780e",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/development/unreal-engine-cpp-pro",
+      "name": "unreal-engine-cpp-pro",
+      "description": "Expert guide for Unreal Engine 5.x C++ development, covering UObject hygiene, performance patterns, and best practices.",
+      "categories": ["Development"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/development/unreal-engine-cpp-pro",
       "commitHash": "9a0f06626940",
       "files": ["SKILL.md", "metadata.json"]
     },
@@ -454,17 +552,6 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/tools/resend-automation",
       "commitHash": "00c4d7cc2bbe",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/frontend/algolia-search",
-      "name": "algolia-search",
-      "description": "Expert patterns for Algolia search implementation, indexing strategies, React InstantSearch, and relevance tuning Use when: adding search to, algolia, instantsearch, search api, search functionality.",
-      "categories": ["Development"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/frontend/algolia-search",
-      "commitHash": "9a0f06626940",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -699,6 +786,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "diegosouzapw/awesome-omni-skill/skills/backend/azure-postgres-ts",
+      "name": "azure-postgres-ts",
+      "description": "Connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package.",
+      "categories": ["Development", "DevOps", "Data & Analytics"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/backend/azure-postgres-ts",
+      "commitHash": "02b8e2fbda51",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "diegosouzapw/awesome-omni-skill/skills/tools/abstract-automation",
       "name": "abstract-automation",
       "description": "Automate Abstract tasks via Rube MCP (Composio). Always search tools first for current schemas.",
@@ -718,6 +816,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/frontend/zustand-store-ts",
       "commitHash": "c98b9d7acc07",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/development/vercel-deploy",
+      "name": "vercel-deploy",
+      "description": "Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as \"Deploy my app\", \"Deploy this to production\", \"Create a preview deployment\", \"Deploy and give me the link\", or \"Push this live\". No authentication required - returns preview URL and claimable deployment link.",
+      "categories": ["DevOps", "Security"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/development/vercel-deploy",
+      "commitHash": "4d289fd11a6b",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -783,17 +892,6 @@
       "author": "diegosouzapw",
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/testing-security/broken-authentication",
-      "commitHash": "9a0f06626940",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/cli-automation/freshservice-automation",
-      "name": "freshservice-automation",
-      "description": "Automate Freshservice ITSM tasks via Rube MCP (Composio): create/update tickets, bulk operations, service requests, and outbound emails. Always search tools first for current schemas.",
-      "categories": ["Productivity", "Integration"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/cli-automation/freshservice-automation",
       "commitHash": "9a0f06626940",
       "files": ["SKILL.md", "metadata.json"]
     },
@@ -1086,6 +1184,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/design/ship",
       "commitHash": "97ba41c2500c",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/data-ai/dbt",
+      "name": "dbt",
+      "description": "dbt (data build tool) patterns for data transformation and analytics engineering. Use when building data models, implementing data quality tests, or managing data transformation pipelines.",
+      "categories": ["Development", "Data & Analytics"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/data-ai/dbt",
+      "commitHash": "47c8d6934100",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -1960,17 +2069,6 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
-      "id": "diegosouzapw/awesome-omni-skill/skills/tools/review-pr",
-      "name": "review-pr",
-      "description": "Analyze a GitHub pull request including diff, comments, related issues, and local code context",
-      "categories": ["Development"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/tools/review-pr",
-      "commitHash": "427085008da0",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
       "id": "diegosouzapw/awesome-omni-skill/skills/tools/repo-init",
       "name": "repo-init",
       "description": "Initialize a new repository with standard scaffolding - git, gitignore, CLAUDE.md, justfile, mise, and beads. Use when starting a new project or setting up an existing repo for Claude Code workflows.",
@@ -2354,6 +2452,17 @@
       "commitHash": "acda4ed57db7",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/devops/link-deps",
+      "name": "link-deps",
+      "description": "Discover and link related issues as dependencies. Searches for issues that should be connected and recommends dependency relationships to establish proper work order.",
+      "categories": ["Research"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/devops/link-deps",
+      "commitHash": "7e399b4b01c2",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -2797,28 +2906,6 @@
       "commitHash": "97ba41c2500c",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/development/ralph",
-      "name": "ralph",
-      "description": "Convert PRDs to prd.json format for the Ralph autonomous agent system. Use when you have an existing PRD and need to convert it to Ralph's JSON format. Triggers on: convert this prd, turn this into ralph format, create prd.json from this, ralph json.",
-      "categories": ["Documents"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/development/ralph",
-      "commitHash": "4d289fd11a6b",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "diegosouzapw/awesome-omni-skill/skills/tools/secops-hunt",
-      "name": "secops-hunt",
-      "description": "Expert guidance for proactive threat hunting. Use this when the user asks to \"hunt\" for threads, IOCs, or specific TTPs.",
-      "categories": ["Security"],
-      "author": "diegosouzapw",
-      "repo": "diegosouzapw/awesome-omni-skill",
-      "path": "skills/tools/secops-hunt",
-      "commitHash": "427085008da0",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -3293,6 +3380,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/devops/clawshake",
       "commitHash": "22bfbab8aebc",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/devops/gcp-cloud",
+      "name": "gcp-cloud",
+      "description": "Google Cloud Platform infrastructure patterns and best practices. Use when designing or implementing GCP solutions including Compute Engine, Cloud Functions, Cloud Storage, and BigQuery.",
+      "categories": ["Development", "DevOps"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/devops/gcp-cloud",
+      "commitHash": "00c4d7cc2bbe",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -4997,6 +5095,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "diegosouzapw/awesome-omni-skill/skills/ai-agents/aieos",
+      "name": "aieos",
+      "description": "AIEOS (AI Entity Object Specification) is a standardization framework designed to solve the \"identity crisis\" currently facing AI agents. Combined with Soul Documents, together they form a comprehensive blueprint for AI behavior. The goal is to establish a standardized data structure that defines exactly how an agent speaks, reacts, and remembers. This allows developers, and agents themselves, to construct specific personas with the portability to move across different ecosystems without losing their behavioral integrity. As we move toward a world of \"Agentic Workflows,\" AIEOS ensures that agents maintain consistent traits regardless of the underlying model. By treating personality as a deployable asset rather than a fragile prompt, we are providing the \"DNA kit\" for the next generation of digital entities.",
+      "categories": ["Development", "Documents", "AI & ML"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/ai-agents/aieos",
+      "commitHash": "8fe1e531d7c1",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "diegosouzapw/awesome-omni-skill/skills/devops/overview",
       "name": "overview",
       "description": "Overview of Claude Code capabilities, features, and use cases. Use when user asks about what Claude Code is, what it can do, or general capabilities.",
@@ -5038,6 +5147,17 @@
       "repo": "diegosouzapw/awesome-omni-skill",
       "path": "skills/tools/aesthetic",
       "commitHash": "ae3078b949ac",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
+      "id": "diegosouzapw/awesome-omni-skill/skills/data-ai/debugger",
+      "name": "debugger",
+      "description": "Debugging specialist for errors, test failures, and unexpected\nbehavior. Use proactively when encountering any issues.\n",
+      "categories": ["Development"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/data-ai/debugger",
+      "commitHash": "9e5c26884e72",
       "files": ["SKILL.md", "metadata.json"]
     },
     {
@@ -6009,6 +6129,17 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "diegosouzapw/awesome-omni-skill/skills/design/stitch-ui-design",
+      "name": "stitch-ui-design",
+      "description": "Expert guide for creating effective prompts for Google Stitch AI UI design tool. Use when user wants to design UI/UX in Stitch, create app interfaces, generate mobile/web designs, or needs help cra...",
+      "categories": ["Design", "AI & ML"],
+      "author": "diegosouzapw",
+      "repo": "diegosouzapw/awesome-omni-skill",
+      "path": "skills/design/stitch-ui-design",
+      "commitHash": "9a0f06626940",
+      "files": ["SKILL.md", "metadata.json"]
+    },
+    {
       "id": "diegosouzapw/awesome-omni-skill/skills/cli-automation/glab-cli",
       "name": "glab-cli",
       "description": "GitLab CLI (glab) utilities - pipeline debugging, MR management, release automation. Use when working with GitLab via CLI for anything beyond basic git commands.",
@@ -6874,6 +7005,1256 @@
       "files": ["SKILL.md", "metadata.json"]
     },
     {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/ctx",
+      "name": "ctx",
+      "description": "Load PRD, FRD, Tech Spec, or RFC into context",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/ctx",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/git-workflow/skills/commit",
+      "name": "commit",
+      "description": "Guided git commit with atomic commit analysis and conventional commit format",
+      "categories": ["Development"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/git-workflow/skills/commit",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/git-workflow/skills/bl-undo",
+      "name": "bl-undo",
+      "description": "Undo git-branchless operations - recover from mistakes interactively",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/git-workflow/skills/bl-undo",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/git-workflow/skills/bl-submit",
+      "name": "bl-submit",
+      "description": "Submit git-branchless stack as PRs - create branches and push to remote",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/git-workflow/skills/bl-submit",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/devops-data/skills/rfc-status",
+      "name": "rfc-status",
+      "description": "Show RFC details or update RFC status through lifecycle",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/devops-data/skills/rfc-status",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/list-prds",
+      "name": "list-prds",
+      "description": "List all PRDs with status, progress, and metadata",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/list-prds",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/python-experts/skills/django-api",
+      "name": "django-api",
+      "description": "Django API development for 2025. Covers Django Ninja (modern, async-first, type-safe) and Django REST Framework (mature, ecosystem-rich). Use when building REST APIs, choosing between frameworks, implementing authentication, permissions, filtering, pagination, or async endpoints.",
+      "categories": ["Development", "Security"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/python-experts/skills/django-api",
+      "commitHash": "4d6eb9be2fbf",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/create-prd",
+      "name": "create-prd",
+      "description": "Interactive PRD creation wizard with comprehensive question flow",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/create-prd",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/claude-code-dev/skills/tmux-init",
+      "name": "tmux-init",
+      "description": "Set up tmux notification system for Claude Code sessions",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/claude-code-dev/skills/tmux-init",
+      "commitHash": "13f51e3b7306",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/prd-archive",
+      "name": "prd-archive",
+      "description": "Archive completed or cancelled PRDs",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/prd-archive",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/parallel-run",
+      "name": "parallel-run",
+      "description": "Orchestrate parallel agent execution with git worktrees",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/parallel-run",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/browser-debug",
+      "name": "browser-debug",
+      "description": "Capture browser console, network, and performance logs for debugging. Auto-loads when debugging browser issues, analyzing errors, or investigating page behavior. Provides systematic log capture workflow using Chrome DevTools MCP.",
+      "categories": ["Development"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/browser-debug",
+      "commitHash": "391988743c9b",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/claude-code-dev/skills/create-plugin",
+      "name": "create-plugin",
+      "description": "Create a new Claude Code plugin with proper directory structure and manifest. Use when the user wants to create a new plugin from scratch. Sets up plugin.json, directory structure, and optional components.",
+      "categories": ["Development"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/claude-code-dev/skills/create-plugin",
+      "commitHash": "5abdd5fc5492",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/parallel-decompose",
+      "name": "parallel-decompose",
+      "description": "Decompose PRDs and Tech Specs into parallel-executable tasks with contracts, prompts, and dependency graphs. Use when breaking down a PRD for multi-agent execution.",
+      "categories": ["AI & ML"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/parallel-decompose",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/python-experts/skills/parallel-fix-django",
+      "name": "parallel-fix-django",
+      "description": "Fix Django-specific blockers identified in parallelization readiness assessment",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/python-experts/skills/parallel-fix-django",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/python-experts/skills/django-project-setup",
+      "name": "django-project-setup",
+      "description": "Set up a new Django 6.0 project with modern tooling (uv, direnv, HTMX, OAuth, DRF, testing). Use when the user wants to create a Django project from scratch with production-ready configuration.",
+      "categories": ["Development", "Security", "Productivity"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/python-experts/skills/django-project-setup",
+      "commitHash": "2082936ea213",
+      "files": ["README.md", "SKILL.md", "examples", "templates"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/qa-screenshot-management",
+      "name": "qa-screenshot-management",
+      "description": "Screenshot capture, organization, and comparison for QA testing. Use when taking screenshots during test execution to ensure proper naming, organization, and traceability back to test cases.",
+      "categories": ["Development"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/qa-screenshot-management",
+      "commitHash": "8fe7cfb39a0a",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/git-workflow/skills/bl-init",
+      "name": "bl-init",
+      "description": "Initialize git-branchless in the current repository from the current branch",
+      "categories": ["Development"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/git-workflow/skills/bl-init",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/git-workflow/skills/bl-record",
+      "name": "bl-record",
+      "description": "Record changes as a new commit in git-branchless workflow",
+      "categories": ["Development"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/git-workflow/skills/bl-record",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/python-experts/skills/mypy-setup",
+      "name": "mypy-setup",
+      "description": "Set up Mypy type checking configuration for a Python project",
+      "categories": ["Productivity"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/python-experts/skills/mypy-setup",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/prd-progress",
+      "name": "prd-progress",
+      "description": "Show implementation progress from linked tasks",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/prd-progress",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/devops-data/skills/tech-spec-status",
+      "name": "tech-spec-status",
+      "description": "Show Tech Spec details or update status through lifecycle",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/devops-data/skills/tech-spec-status",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/position-product",
+      "name": "position-product",
+      "description": "Define product positioning and brand strategy",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/position-product",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/discovery-session",
+      "name": "discovery-session",
+      "description": "Start interactive product discovery with expert guidance",
+      "categories": ["Design"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/discovery-session",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/parallel-integrate",
+      "name": "parallel-integrate",
+      "description": "Verify integration after parallel agent execution and generate report",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/parallel-integrate",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/content-tools/skills/fetch-youtube-transcript",
+      "name": "fetch-youtube-transcript",
+      "description": "Download YouTube video transcripts as readable text files. Use when extracting transcripts from videos for analysis, documentation, or content review.",
+      "categories": ["Writing", "Documents", "Media"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/content-tools/skills/fetch-youtube-transcript",
+      "commitHash": "ec3d36cbf003",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/devops-data/skills/direnv",
+      "name": "direnv",
+      "description": "Direnv environment management for automatic per-project shell configuration. Use when setting up .envrc files, configuring project-specific environment variables, or integrating direnv with development tools like nix, asdf, pyenv, or nvm.",
+      "categories": ["Productivity"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/devops-data/skills/direnv",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/claude-code-dev/skills/propose-forge-improvement",
+      "name": "propose-forge-improvement",
+      "description": "Propose improvements or new components for Product Forge",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/claude-code-dev/skills/propose-forge-improvement",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/devops-data/skills/rfc-specification",
+      "name": "rfc-specification",
+      "description": "RFC (Request for Comments) specification writing with objective technical analysis. Use when creating technical specifications, design documents, or architecture proposals that require structured evaluation of options and trade-offs.",
+      "categories": ["Design"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/devops-data/skills/rfc-specification",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/team-orchestration/skills/plan-with-team",
+      "name": "plan-with-team",
+      "description": "Validate plan file ownership",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/team-orchestration/skills/plan-with-team",
+      "commitHash": "13f51e3b7306",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/task-orchestration",
+      "name": "task-orchestration",
+      "description": "Documentation-first task execution with quality checks and progress tracking. Use when working with task lists, implementing features, or executing multi-step work to ensure systematic completion with proper documentation review.",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/task-orchestration",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/typescript-experts/skills/typescript-import-style",
+      "name": "typescript-import-style",
+      "description": "Merge-friendly import formatting (one-per-line, alphabetical). Auto-loads when writing TypeScript/JavaScript imports to minimize merge conflicts in parallel development. Enforces consistent grouping and sorting.",
+      "categories": ["Development", "Documents"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/typescript-experts/skills/typescript-import-style",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/claude-code-dev/skills/mcp-setup",
+      "name": "mcp-setup",
+      "description": "Set up and configure MCP (Model Context Protocol) servers with Claude Code. Use when the user wants to connect Claude Code to external tools, databases, APIs, or services via MCP. Handles HTTP, SSE, and stdio server configurations with proper authentication.",
+      "categories": [
+        "Development",
+        "Security",
+        "Productivity",
+        "Data & Analytics",
+        "Integration",
+        "AI & ML"
+      ],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/claude-code-dev/skills/mcp-setup",
+      "commitHash": "e3b8dc91a556",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/claude-code-dev/skills/copy-skill",
+      "name": "copy-skill",
+      "description": "Copy a skill from Product Forge to user or project level",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/claude-code-dev/skills/copy-skill",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/devops-data/skills/create-tech-spec",
+      "name": "create-tech-spec",
+      "description": "Create a new Technical Specification for implementation details",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/devops-data/skills/create-tech-spec",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/create-persona",
+      "name": "create-persona",
+      "description": "Create detailed user persona with guided questions",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/create-persona",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/console-debugging",
+      "name": "console-debugging",
+      "description": "Use when debugging JavaScript errors, checking console warnings, analyzing browser logs, finding runtime errors, investigating console output, or troubleshooting browser issues. Provides console message analysis.",
+      "categories": ["Development"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/console-debugging",
+      "commitHash": "573826ab9072",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/create-prd-feature",
+      "name": "create-prd-feature",
+      "description": "Create a feature-specific PRD (FRD) for individual features",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/create-prd-feature",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/claude-code-dev/skills/integrate-command",
+      "name": "integrate-command",
+      "description": "Integrate a user or project command into Product Forge",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/claude-code-dev/skills/integrate-command",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/python-experts/skills/parallel-ready-django",
+      "name": "parallel-ready-django",
+      "description": "Audit and prepare a Django codebase for parallel multi-agent development. Use when asked to check if a Django project is ready for parallelization, prepare a repo for multi-agent work, audit codebase structure, set up orchestration infrastructure, or identify blockers for parallel development. Analyzes Django apps, models, migrations, and module boundaries.",
+      "categories": ["AI & ML"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/python-experts/skills/parallel-ready-django",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/python-experts/skills/review-django-commands",
+      "name": "review-django-commands",
+      "description": "Review Django management commands for proper structure and refactor if needed",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/python-experts/skills/review-django-commands",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/parallel-validate-prompts",
+      "name": "parallel-validate-prompts",
+      "description": "Validate and fix parallel prompts for required sections",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/parallel-validate-prompts",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/devops-data/skills/aws-cloud",
+      "name": "aws-cloud",
+      "description": "AWS cloud infrastructure patterns and best practices. Use when designing or implementing AWS solutions including EC2, Lambda, S3, RDS, and infrastructure as code with Terraform or CloudFormation.",
+      "categories": ["Development", "DevOps"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/devops-data/skills/aws-cloud",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/task-list",
+      "name": "task-list",
+      "description": "List tasks by directory with progress and visual indicators",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/task-list",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/forge-help",
+      "name": "forge-help",
+      "description": "Show all available Product Forge agents, skills, and commands",
+      "categories": ["AI & ML"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/forge-help",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/prd-status",
+      "name": "prd-status",
+      "description": "Check and update PRD status through lifecycle",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/prd-status",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/python-experts/skills/python-mypy",
+      "name": "python-mypy",
+      "description": "Static type checking with Mypy for Python code quality. Use when writing or reviewing Python code to ensure type safety, catch bugs early, and maintain code quality through proper type annotations and Mypy configuration.",
+      "categories": ["Development"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/python-experts/skills/python-mypy",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/claude-code-dev/skills/create-skill",
+      "name": "create-skill",
+      "description": "Create a new Claude Code agent skill with proper folder structure and SKILL.md format. Use when the user wants to add a model-invoked skill that Claude uses autonomously based on context. Handles skill folder creation with SKILL.md and optional reference files.",
+      "categories": ["Development", "Documents", "AI & ML"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/claude-code-dev/skills/create-skill",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/claude-code-dev/skills/sync-feedback",
+      "name": "sync-feedback",
+      "description": "Review and sync captured feedback to Product Forge",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/claude-code-dev/skills/sync-feedback",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/typescript-experts/skills/add-mcp-tool",
+      "name": "add-mcp-tool",
+      "description": "Add a new tool to an existing FastMCP server with guided configuration",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/typescript-experts/skills/add-mcp-tool",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/claude-code-dev/skills/pattern-detection",
+      "name": "pattern-detection",
+      "description": "Auto-detects reusable patterns, best practices, and automation opportunities during implementation. Recognizes repetitive structures and generalizable solutions that could become skills.",
+      "categories": ["Development"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/claude-code-dev/skills/pattern-detection",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/typescript-experts/skills/add-mcp-resource",
+      "name": "add-mcp-resource",
+      "description": "Add a new resource or resource template to an existing FastMCP server",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/typescript-experts/skills/add-mcp-resource",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/parallel-prompt-generator",
+      "name": "parallel-prompt-generator",
+      "description": "Generate agent-ready prompts from existing task specification files. Use when regenerating prompts after editing tasks, updating prompt templates, or preparing tasks for cpo execution.",
+      "categories": ["Writing", "Productivity", "AI & ML"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/parallel-prompt-generator",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/devops-data/skills/list-tech-specs",
+      "name": "list-tech-specs",
+      "description": "List all Technical Specifications with status and metadata",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/devops-data/skills/list-tech-specs",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/git-workflow/skills/bl-sync",
+      "name": "bl-sync",
+      "description": "Sync git-branchless stack with main branch - fetch, rebase, and handle merges",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/git-workflow/skills/bl-sync",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/quick-start",
+      "name": "quick-start",
+      "description": "Quick start guide for new product development",
+      "categories": ["Design"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/quick-start",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/generate-tasks",
+      "name": "generate-tasks",
+      "description": "Convert PRD to structured task list with automatic linking",
+      "categories": ["Productivity"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/generate-tasks",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/network-inspection",
+      "name": "network-inspection",
+      "description": "Use when debugging API calls, checking network requests, inspecting HTTP traffic, finding failed requests, analyzing response data, or investigating API errors. Provides detailed request/response analysis.",
+      "categories": ["Development", "Data & Analytics"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/network-inspection",
+      "commitHash": "573826ab9072",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/claude-code-dev/skills/propose-project-learning",
+      "name": "propose-project-learning",
+      "description": "Propose additions to project CLAUDE.md based on session learnings",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/claude-code-dev/skills/propose-project-learning",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/devops-data/skills/sqlmesh",
+      "name": "sqlmesh",
+      "description": "SQLMesh patterns for data transformation with column-level lineage and virtual environments. Use when building data pipelines that need advanced features like automatic DAG inference and efficient incremental processing.",
+      "categories": ["Development", "Data & Analytics"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/devops-data/skills/sqlmesh",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/devops-data/skills/create-rfc",
+      "name": "create-rfc",
+      "description": "Create a new RFC (Request for Comments) technical specification",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/devops-data/skills/create-rfc",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/rag-cag/skills/rag-cag-security",
+      "name": "rag-cag-security",
+      "description": "Security patterns for RAG and CAG systems with multi-tenant isolation. Use when building retrieval-augmented or cache-augmented generation systems that require tenant isolation, access control, and secure data handling.",
+      "categories": ["Development", "Security"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/rag-cag/skills/rag-cag-security",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/git-workflow/skills/code-review",
+      "name": "code-review",
+      "description": "Review code changes between commits for security, logic, performance, and style issues",
+      "categories": ["Development"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/git-workflow/skills/code-review",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/git-workflow/skills/git-commits",
+      "name": "git-commits",
+      "description": "Git commit best practices with conventional commits format and atomic commit principles. Use when committing code to ensure clear, meaningful commit history with proper type prefixes and semantic versioning support.",
+      "categories": ["Development"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/git-workflow/skills/git-commits",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/claude-code-dev/skills/copy-agent",
+      "name": "copy-agent",
+      "description": "Copy an agent from Product Forge to user or project level",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/claude-code-dev/skills/copy-agent",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/typescript-experts/skills/fastmcp",
+      "name": "fastmcp",
+      "description": "FastMCP TypeScript framework patterns for MCP servers. Auto-loads when building MCP servers, creating tools/resources/prompts, implementing authentication, configuring transports, or working with FastMCP in TypeScript.",
+      "categories": ["Development", "Security"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/typescript-experts/skills/fastmcp",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/python-experts/skills/python-style",
+      "name": "python-style",
+      "description": "Python coding style enforcement (PEP standards, type hints, docstrings, modern patterns). Auto-loads when writing or reviewing Python code.",
+      "categories": ["Development", "Writing"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/python-experts/skills/python-style",
+      "commitHash": "ca16ac2f36e6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/design-system",
+      "name": "design-system",
+      "description": "Design system management for building and reusing UI components, tokens, and patterns. Use when working with component libraries, design tokens, style guides, or reusable UI patterns to ensure consistency and promote component reuse.",
+      "categories": ["Development", "Design"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/design-system",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/parallel-setup",
+      "name": "parallel-setup",
+      "description": "One-time setup of parallel/ directory for multi-agent development",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/parallel-setup",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/claude-code-dev/skills/create-command",
+      "name": "create-command",
+      "description": "Create a new Claude Code slash command with proper YAML frontmatter structure. Use when the user wants to add a custom slash command to a plugin. Handles command file creation with description, argument hints, allowed tools, and all advanced features.",
+      "categories": ["AI & ML"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/claude-code-dev/skills/create-command",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/product-strategy",
+      "name": "product-strategy",
+      "description": "Chief Product Officer expertise with proven frameworks and strategic guidance. Use when discussing product strategy, market analysis, competitive positioning, feature prioritization, or business models to apply expert CPO perspective.",
+      "categories": ["Business"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/product-strategy",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/devops-data/skills/dependency-alignment",
+      "name": "dependency-alignment",
+      "description": "Dependency version alignment and conflict resolution for parallel development. Use when extracting dependencies from Tech Specs to ensure version compatibility with existing project dependencies and transitive dependencies.",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/devops-data/skills/dependency-alignment",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/typescript-experts/skills/setup-mcp-auth",
+      "name": "setup-mcp-auth",
+      "description": "Configure authentication for an existing FastMCP server",
+      "categories": ["Security"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/typescript-experts/skills/setup-mcp-auth",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/frontend-experts/skills/typescript-style",
+      "name": "typescript-style",
+      "description": "TypeScript coding style enforcement (ESLint, type safety, React patterns). Auto-loads when writing or reviewing TypeScript/JavaScript code.",
+      "categories": ["Development"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/frontend-experts/skills/typescript-style",
+      "commitHash": "ca16ac2f36e6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/brainstorm-solution",
+      "name": "brainstorm-solution",
+      "description": "Structured brainstorming for technical solutions",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/brainstorm-solution",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/qa-testing-methodology",
+      "name": "qa-testing-methodology",
+      "description": "QA test design patterns (equivalence partitioning, boundary analysis, accessibility). Auto-loads when designing test cases, planning test coverage, or writing test procedures.",
+      "categories": ["Development", "Design"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/qa-testing-methodology",
+      "commitHash": "ca16ac2f36e6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/frontend-experts/skills/typescript-code-review",
+      "name": "typescript-code-review",
+      "description": "TypeScript and React code review guidelines (type safety, React patterns, performance). Auto-loads when reviewing TypeScript/React code.",
+      "categories": ["Development"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/frontend-experts/skills/typescript-code-review",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/python-experts/skills/python-code-review",
+      "name": "python-code-review",
+      "description": "Python code review guidelines (security, performance, bugs, style). Auto-loads when reviewing Python code or analyzing code quality.",
+      "categories": ["Development", "Design"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/python-experts/skills/python-code-review",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/task-focus",
+      "name": "task-focus",
+      "description": "Focus on a specific task with context loading",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/task-focus",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/claude-code-dev/skills/copy-command",
+      "name": "copy-command",
+      "description": "Copy a command from Product Forge to user or project level",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/claude-code-dev/skills/copy-command",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/debug-orchestrator",
+      "name": "debug-orchestrator",
+      "description": "Use when facing complex, multi-layered debugging issues that require coordinated investigation across different domains (frontend, backend, database, network, etc). Spawns specialized debug expert agents to handle specific aspects of the investigation.",
+      "categories": ["Development", "Data & Analytics", "AI & ML"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/debug-orchestrator",
+      "commitHash": "13f51e3b7306",
+      "files": ["SKILL.md", "examples"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/qa-screenshot-validation",
+      "name": "qa-screenshot-validation",
+      "description": "Evaluate captured screenshots for layout issues, masked elements, and rendering problems. Use after taking screenshots to validate visual correctness and automatically resize viewport if elements are unexpectedly clipped.",
+      "categories": ["Design"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/qa-screenshot-validation",
+      "commitHash": "cd10b50321cd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/git-workflow/skills/rebase",
+      "name": "rebase",
+      "description": "Rebase local changes on top of remote branch updates",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/git-workflow/skills/rebase",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/git-workflow/skills/bl-stack",
+      "name": "bl-stack",
+      "description": "Manage git-branchless commit stacks - view, navigate, and edit commits",
+      "categories": ["Development"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/git-workflow/skills/bl-stack",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/typescript-experts/skills/zod",
+      "name": "zod",
+      "description": "Zod schema validation patterns and type inference. Auto-loads when validating schemas, parsing data, validating forms, checking types at runtime, or using z.object/z.string/z.infer in TypeScript.",
+      "categories": ["Development", "Data & Analytics"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/typescript-experts/skills/zod",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/python-experts/skills/django-dev",
+      "name": "django",
+      "description": "Django development patterns and conventions (2025). Auto-loads when working with Django models, views, URLs, forms, templates, management commands, or project structure. Includes async support and type hints.",
+      "categories": ["Productivity"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/python-experts/skills/django-dev",
+      "commitHash": "ca16ac2f36e6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/claude-code-dev/skills/install-lsp",
+      "name": "install-lsp",
+      "description": "Install and configure LSP (Language Server Protocol) for Claude Code to enable go-to-definition, find-references, and real-time diagnostics",
+      "categories": ["Research"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/claude-code-dev/skills/install-lsp",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/claude-code-dev/skills/create-agent",
+      "name": "create-agent",
+      "description": "Create a new Claude Code agent with proper YAML frontmatter structure. Use when the user wants to add a specialized agent to a plugin. Handles agent file creation with name, description, tools, model selection, and color configuration.",
+      "categories": ["AI & ML"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/claude-code-dev/skills/create-agent",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/security-compliance/skills/mcp-security",
+      "name": "mcp-security",
+      "description": "Use when securing MCP servers, preventing prompt injection, implementing authorization, validating user input, or building secure multi-agent pipelines. Provides 5-layer defense architecture patterns.",
+      "categories": ["Development", "DevOps", "Security", "AI & ML"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/security-compliance/skills/mcp-security",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/parallel-execution",
+      "name": "parallel-execution",
+      "description": "Execute multiple Claude Code agents in parallel using the cpo CLI tool. Use when running parallel tasks, monitoring execution, or understanding the execution workflow.",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/parallel-execution",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/qa-element-extraction",
+      "name": "qa-element-extraction",
+      "description": "Extract and capture screenshots of specific UI elements mentioned in QA test procedures. Use when creating visual references for test steps to show exactly what buttons, fields, and components look like.",
+      "categories": ["Development", "Design"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/qa-element-extraction",
+      "commitHash": "8fe7cfb39a0a",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/claude-code-dev/skills/enable-feedback-hooks",
+      "name": "enable-feedback-hooks",
+      "description": "Enable feedback capture hooks for the current project",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/claude-code-dev/skills/enable-feedback-hooks",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/security-compliance/skills/privacy-compliance",
+      "name": "privacy-compliance",
+      "description": "GDPR, CCPA, and privacy compliance guidance for data protection. Use when handling personal data, implementing consent management, or ensuring regulatory compliance across jurisdictions.",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/security-compliance/skills/privacy-compliance",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/devops-data/skills/portman",
+      "name": "portman",
+      "description": "Port management for local development with git worktrees. Use when setting up local development environments, booking ports for services to avoid collisions between parallel worktrees, or configuring docker-compose with dynamic ports.",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/devops-data/skills/portman",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/atlassian-integration/skills/atlassian-attachments",
+      "name": "atlassian-attachments",
+      "description": "Attach documents, screenshots, PDFs, and files to Jira issues and Confluence pages via REST API. Use when uploading evidence, documentation, or media to Atlassian products.",
+      "categories": ["Documents"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/atlassian-integration/skills/atlassian-attachments",
+      "commitHash": "c08153717c1c",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/agent-tools",
+      "name": "agent-tools",
+      "description": "Reference for configuring tool permissions when launching Claude Code agents. Use when setting up --allowedTools flags, restricting file access, or configuring agent permissions.",
+      "categories": ["AI & ML"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/agent-tools",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/parallel-agents",
+      "name": "parallel-agents",
+      "description": "Use when parallelizing development, running multiple agents, splitting work across agents, coordinating parallel tasks, or decomposing PRDs for concurrent execution. Breaks work into independent agent workstreams.",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/parallel-agents",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md", "agent-skills-mapping.yaml"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/devops-data/skills/technical-specification",
+      "name": "technical-specification",
+      "description": "Technical specification writing for implementation details. Use when documenting how to build a solution (post-decision), API contracts, schemas, and system design. Complements RFC skill which handles decision-making.",
+      "categories": ["Development", "Design"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/devops-data/skills/technical-specification",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/devops-data/skills/ansible",
+      "name": "ansible",
+      "description": "Ansible automation and configuration management patterns. Use when writing Ansible playbooks, roles, or automating infrastructure configuration and deployment tasks.",
+      "categories": ["DevOps", "Productivity"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/devops-data/skills/ansible",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/devops-data/skills/list-rfcs",
+      "name": "list-rfcs",
+      "description": "List all RFCs with status, progress, and metadata",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/devops-data/skills/list-rfcs",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/prd-management",
+      "name": "prd-management",
+      "description": "Use when organizing PRDs, tracking requirements, managing product specs, updating PRD status, archiving completed docs, or setting up PRD structure. Auto-applies naming conventions and lifecycle management.",
+      "categories": ["Business"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/prd-management",
+      "commitHash": "573826ab9072",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/security-compliance/skills/oauth",
+      "name": "oauth",
+      "description": "OAuth 2.0 and OpenID Connect implementation patterns. Use when implementing authentication, authorization flows, or integrating with OAuth providers like Google, GitHub, or custom identity providers.",
+      "categories": ["Development", "Security", "Integration"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/security-compliance/skills/oauth",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/python-experts/skills/documentation-research",
+      "name": "documentation-research",
+      "description": "Enforces documentation research before implementation. Auto-loads when implementing features to ensure current best practices are followed. Researches official docs first.",
+      "categories": ["Writing", "Research"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/python-experts/skills/documentation-research",
+      "commitHash": "ca16ac2f36e6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/devops-data/skills/mcp-architecture",
+      "name": "mcp-architecture",
+      "description": "MCP architecture patterns, security, and memory management. Auto-loads when building MCP servers, implementing tools/resources, discussing MCP security, or working with FastMCP.",
+      "categories": ["Development"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/devops-data/skills/mcp-architecture",
+      "commitHash": "ca16ac2f36e6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/install-chrome-devtools-mcp",
+      "name": "install-chrome-devtools-mcp",
+      "description": "Install Chrome DevTools MCP server for debugging and network inspection in Claude Code",
+      "categories": ["Development"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/install-chrome-devtools-mcp",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/parallel-task-format",
+      "name": "parallel-task-format",
+      "description": "Compact YAML format for defining parallel task specifications with scope, boundaries, and agent assignments. Use when creating task files for parallel development.",
+      "categories": ["Documents", "AI & ML"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/parallel-task-format",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/rag-cag/skills/chunking-strategies",
+      "name": "chunking-strategies",
+      "description": "Document chunking strategies for RAG systems. Use when implementing document processing pipelines to determine optimal chunking approaches based on document type and retrieval requirements.",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/rag-cag/skills/chunking-strategies",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/git-workflow/skills/branchless-workflow",
+      "name": "branchless-workflow",
+      "description": "Git-branchless stacked diffs workflow patterns and command reference",
+      "categories": ["Development"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/git-workflow/skills/branchless-workflow",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/claude-code-dev/skills/install-playwright-mcp",
+      "name": "install-playwright-mcp",
+      "description": "Install Playwright MCP server for browser automation in Claude Code",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/claude-code-dev/skills/install-playwright-mcp",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/list-qa-tests",
+      "name": "list-qa-tests",
+      "description": "List QA test procedures with status and priority",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/list-qa-tests",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/create-qa-test",
+      "name": "create-qa-test",
+      "description": "Create a new QA test procedure for a feature",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/create-qa-test",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/qa-test-management",
+      "name": "qa-test-management",
+      "description": "Automatic QA test lifecycle management, naming conventions, and directory structure. Use when creating, organizing, or tracking QA tests to ensure proper naming, directory structure, and status transitions.",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/qa-test-management",
+      "commitHash": "8846135ee5d7",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jpoutrin/product-forge/plugins/product-design/skills/enrich-qa-test",
+      "name": "enrich-qa-test",
+      "description": "Review QA test and capture element screenshots to enrich documentation",
+      "categories": ["Other"],
+      "author": "jpoutrin",
+      "repo": "jpoutrin/product-forge",
+      "path": "plugins/product-design/skills/enrich-qa-test",
+      "commitHash": "bd0b5fc2acf6",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "nguyenngothuong/youtube-transcript-skill",
       "name": "youtube-transcript",
       "description": "Download YouTube video transcripts with automatic translation to Vietnamese and AI summarization. Perfect for learning English from YouTube, managing knowledge base, and extracting insights from video content.",
@@ -6907,70 +8288,15 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "amterp/council",
-      "name": "council-participant",
-      "description": "Participate in Council multi-agent collaboration sessions. Use when asked to join a council session, collaborate with other agents, or when given a council session ID to participate in.",
-      "categories": ["AI & ML"],
-      "author": "amterp",
-      "repo": "amterp/council",
-      "path": "",
-      "commitHash": "8d90a0d37b9e",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Artifex1/auditor-addon/skills/scribe",
-      "name": "scribe",
-      "description": "Technical writing for formal security audit reports. Use when the user wants to write up a security finding, create a formal issue report, or draft system overview and security model sections for an audit report.",
-      "categories": ["Security", "Writing"],
-      "author": "Artifex1",
-      "repo": "Artifex1/auditor-addon",
-      "path": "skills/scribe",
-      "commitHash": "5a8f29e4cda4",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Artifex1/auditor-addon/skills/estimator",
-      "name": "estimator",
-      "description": "Conducting project scoping and estimation using logical chunking and metric analysis. Use when the user wants to estimate audit effort, scope a codebase for review, calculate hours for a security engagement, or assess the size of a diff or full repository.",
-      "categories": ["Development", "Security"],
-      "author": "Artifex1",
-      "repo": "Artifex1/auditor-addon",
-      "path": "skills/estimator",
-      "commitHash": "fa3257ebe8ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Artifex1/auditor-addon/skills/threat-modeling",
-      "name": "threat-modeling",
-      "description": "Analyzing codebases to systematically identify and categorize potential security threats, producing a threat model report before code-level auditing. Use when starting an engagement and wanting to map the attack surface, identify high-value assets, and enumerate threat agents before diving into code-level analysis.",
-      "categories": ["Security", "Data & Analytics", "AI & ML"],
-      "author": "Artifex1",
-      "repo": "Artifex1/auditor-addon",
-      "path": "skills/threat-modeling",
-      "commitHash": "fa3257ebe8ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Artifex1/auditor-addon/skills/design-challenger",
-      "name": "design-challenger",
-      "description": "Evaluate high-level protocol or system designs for overcomplication, then propose simpler, more structured alternatives with explicit trade-offs. Use when the user wants to challenge a system design, simplify an architecture, reduce protocol complexity, or compare design alternatives.",
+      "id": "iamzifei/image-upload-skill",
+      "name": "image-upload",
+      "description": "Upload images to hosting providers and get shareable URLs",
       "categories": ["Other"],
-      "author": "Artifex1",
-      "repo": "Artifex1/auditor-addon",
-      "path": "skills/design-challenger",
-      "commitHash": "5a8f29e4cda4",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "Artifex1/auditor-addon/skills/security-auditor",
-      "name": "security-auditor",
-      "description": "Conducting interactive security audits using the Map & Probe methodology. Use when the user wants to perform a security review of source code, find vulnerabilities, audit a codebase, or analyze code for security issues.",
-      "categories": ["Security", "Research"],
-      "author": "Artifex1",
-      "repo": "Artifex1/auditor-addon",
-      "path": "skills/security-auditor",
-      "commitHash": "c3a48c5fbf7d",
-      "files": ["SKILL.md", "references"]
+      "author": "iamzifei",
+      "repo": "iamzifei/image-upload-skill",
+      "path": "",
+      "commitHash": "96018cd72e92",
+      "files": ["SKILL.md"]
     },
     {
       "id": "lionelsimai/claude-skills-collection/skill-template",
@@ -18623,6 +19949,61 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "Artifex1/auditor-addon/skills/scribe",
+      "name": "scribe",
+      "description": "Technical writing for formal security audit reports. Use when the user wants to write up a security finding, create a formal issue report, or draft system overview and security model sections for an audit report.",
+      "categories": ["Security", "Writing"],
+      "author": "Artifex1",
+      "repo": "Artifex1/auditor-addon",
+      "path": "skills/scribe",
+      "commitHash": "5a8f29e4cda4",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Artifex1/auditor-addon/skills/estimator",
+      "name": "estimator",
+      "description": "Conducting project scoping and estimation using logical chunking and metric analysis. Use when the user wants to estimate audit effort, scope a codebase for review, calculate hours for a security engagement, or assess the size of a diff or full repository.",
+      "categories": ["Development", "Security"],
+      "author": "Artifex1",
+      "repo": "Artifex1/auditor-addon",
+      "path": "skills/estimator",
+      "commitHash": "fa3257ebe8ac",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Artifex1/auditor-addon/skills/threat-modeling",
+      "name": "threat-modeling",
+      "description": "Analyzing codebases to systematically identify and categorize potential security threats, producing a threat model report before code-level auditing. Use when starting an engagement and wanting to map the attack surface, identify high-value assets, and enumerate threat agents before diving into code-level analysis.",
+      "categories": ["Security", "Data & Analytics", "AI & ML"],
+      "author": "Artifex1",
+      "repo": "Artifex1/auditor-addon",
+      "path": "skills/threat-modeling",
+      "commitHash": "fa3257ebe8ac",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Artifex1/auditor-addon/skills/design-challenger",
+      "name": "design-challenger",
+      "description": "Evaluate high-level protocol or system designs for overcomplication, then propose simpler, more structured alternatives with explicit trade-offs. Use when the user wants to challenge a system design, simplify an architecture, reduce protocol complexity, or compare design alternatives.",
+      "categories": ["Other"],
+      "author": "Artifex1",
+      "repo": "Artifex1/auditor-addon",
+      "path": "skills/design-challenger",
+      "commitHash": "5a8f29e4cda4",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "Artifex1/auditor-addon/skills/security-auditor",
+      "name": "security-auditor",
+      "description": "Conducting interactive security audits using the Map & Probe methodology. Use when the user wants to perform a security review of source code, find vulnerabilities, audit a codebase, or analyze code for security issues.",
+      "categories": ["Security", "Research"],
+      "author": "Artifex1",
+      "repo": "Artifex1/auditor-addon",
+      "path": "skills/security-auditor",
+      "commitHash": "c3a48c5fbf7d",
+      "files": ["SKILL.md", "references"]
+    },
+    {
       "id": "openwork-hackathon/team-sentinel",
       "name": "clawathon",
       "description": "The first AI agent hackathon. Teams of agents build together on Openwork.",
@@ -19778,6 +21159,124 @@
       "path": "skills/clawfreelance",
       "commitHash": "ab54a8b4d8e5",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "er1chu/claude-skills-weekly/skills/friday",
+      "name": "friday",
+      "description": "End-of-week wrap-up for the weekly report. Use on Fridays, when closing out the week, or when the user says \"friday\", \"week close\", or \"wrap up week\".",
+      "categories": ["Other"],
+      "author": "er1chu",
+      "repo": "er1chu/claude-skills-weekly",
+      "path": "skills/friday",
+      "commitHash": "9c5442c3e9b5",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "er1chu/claude-skills-weekly/skills/monday",
+      "name": "monday",
+      "description": "Full Monday morning setup. Creates week folder, pulls carry-forward, and generates briefing in one pass. Use on Monday mornings or when the user says \"monday\", \"start my week\", or \"monday morning\".",
+      "categories": ["Productivity"],
+      "author": "er1chu",
+      "repo": "er1chu/claude-skills-weekly",
+      "path": "skills/monday",
+      "commitHash": "9c5442c3e9b5",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "er1chu/claude-skills-weekly/skills/1-1-prep",
+      "name": "1-1-prep",
+      "description": "Prepare for a 1:1 meeting with context from person file, meeting history, and shared projects",
+      "categories": ["Other"],
+      "author": "er1chu",
+      "repo": "er1chu/claude-skills-weekly",
+      "path": "skills/1-1-prep",
+      "commitHash": "32386d6e8b2a",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "er1chu/claude-skills-weekly/skills/week-prep",
+      "name": "week-prep",
+      "description": "Generate a briefing with calendar, tasks, and attention flags. Use for \"week prep\", \"briefing\", or \"what's on this week\".",
+      "categories": ["Productivity"],
+      "author": "er1chu",
+      "repo": "er1chu/claude-skills-weekly",
+      "path": "skills/week-prep",
+      "commitHash": "9c5442c3e9b5",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "er1chu/claude-skills-weekly/skills/daily-roundup",
+      "name": "daily-roundup",
+      "description": "Morning briefing combining email, yesterday's meetings, and Slack into one section appended to the weekly report",
+      "categories": ["Integration"],
+      "author": "er1chu",
+      "repo": "er1chu/claude-skills-weekly",
+      "path": "skills/daily-roundup",
+      "commitHash": "9c5442c3e9b5",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "er1chu/claude-skills-weekly/skills/decision-extractor",
+      "name": "decision-extractor",
+      "description": "Scan recent notes for decision language and offer to update project Decision Logs",
+      "categories": ["Other"],
+      "author": "er1chu",
+      "repo": "er1chu/claude-skills-weekly",
+      "path": "skills/decision-extractor",
+      "commitHash": "9c5442c3e9b5",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "lubancafe/agent-skills/opcua-read",
+      "name": "opcua-read",
+      "description": "Read current values from OPC UA nodes for monitoring and data collection",
+      "categories": ["Other"],
+      "author": "lubancafe",
+      "repo": "lubancafe/agent-skills",
+      "path": "opcua-read",
+      "commitHash": "111eba2588f3",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "QUICK_REFERENCE.md",
+        "README.md",
+        "SKILL.md",
+        "TEST_SCENARIO.md",
+        "references",
+        "scripts"
+      ]
+    },
+    {
+      "id": "lubancafe/agent-skills/pptx-hard",
+      "name": "pptx-adv",
+      "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks",
+      "categories": ["Writing", "Documents"],
+      "author": "lubancafe",
+      "repo": "lubancafe/agent-skills",
+      "path": "pptx-hard",
+      "commitHash": "111eba2588f3",
+      "files": [
+        "LICENSE.txt",
+        "SKILL.md",
+        "create-presentation.js",
+        "html2pptx.js",
+        "html2pptx.md",
+        "ooxml.md",
+        "ooxml",
+        "reference",
+        "scripts"
+      ]
+    },
+    {
+      "id": "lubancafe/agent-skills/ppt-master",
+      "name": "ppt-master",
+      "description": "AI 驱动的多格式 SVG 内容生成系统",
+      "categories": ["Other"],
+      "author": "lubancafe",
+      "repo": "lubancafe/agent-skills",
+      "path": "ppt-master",
+      "commitHash": "0ce31eeaa7bd",
+      "files": ["SKILL.md", "examples", "projects", "reference", "templates", "tools"]
     }
   ]
 }
