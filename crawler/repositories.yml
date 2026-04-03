@@ -14,3 +14,4 @@ priority:
   - agentskills/agentskills
   - vuejs-ai/skills
   - huggingface/skills
+  - baixianger/snowball-cli
