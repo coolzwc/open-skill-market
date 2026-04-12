@@ -38,14 +38,14 @@
     "bergside/typeui": {
       "url": "https://github.com/bergside/typeui",
       "branch": "main",
-      "stars": 435,
+      "stars": 437,
       "forks": 22,
       "lastUpdated": "2026-04-03T13:59:00Z"
     },
     "huangjia2019/claude-code-engineering": {
       "url": "https://github.com/huangjia2019/claude-code-engineering",
       "branch": "main",
-      "stars": 434,
+      "stars": 436,
       "forks": 166,
       "lastUpdated": "2026-04-05T08:09:24Z"
     },
@@ -61,14 +61,14 @@
       "branch": "develop",
       "stars": 431,
       "forks": 64,
-      "lastUpdated": "2026-04-12T06:45:34Z"
+      "lastUpdated": "2026-04-12T11:59:32Z"
     },
     "computerlovetech/agr": {
       "url": "https://github.com/computerlovetech/agr",
       "branch": "main",
       "stars": 427,
       "forks": 36,
-      "lastUpdated": "2026-04-11T22:11:52Z"
+      "lastUpdated": "2026-04-12T11:25:10Z"
     },
     "gooseworks-ai/goose-skills": {
       "url": "https://github.com/gooseworks-ai/goose-skills",
@@ -80,15 +80,15 @@
     "Agents365-ai/video-podcast-maker": {
       "url": "https://github.com/Agents365-ai/video-podcast-maker",
       "branch": "main",
-      "stars": 418,
-      "forks": 60,
+      "stars": 420,
+      "forks": 61,
       "lastUpdated": "2026-04-08T17:07:21Z"
     },
     "dpearson2699/swift-ios-skills": {
       "url": "https://github.com/dpearson2699/swift-ios-skills",
       "branch": "main",
       "stars": 409,
-      "forks": 13,
+      "forks": 14,
       "lastUpdated": "2026-03-30T15:20:31Z"
     },
     "HoangNguyen0403/agent-skills-standard": {
@@ -108,7 +108,7 @@
     "jabrena/cursor-rules-java": {
       "url": "https://github.com/jabrena/cursor-rules-java",
       "branch": "main",
-      "stars": 349,
+      "stars": 350,
       "forks": 63,
       "lastUpdated": "2026-04-11T22:03:52Z"
     },
@@ -129,14 +129,14 @@
     "shaom/infocard-skills": {
       "url": "https://github.com/shaom/infocard-skills",
       "branch": "main",
-      "stars": 340,
+      "stars": 341,
       "forks": 22,
       "lastUpdated": "2026-03-28T14:56:06Z"
     },
     "AvdLee/Swift-Testing-Agent-Skill": {
       "url": "https://github.com/AvdLee/Swift-Testing-Agent-Skill",
       "branch": "main",
-      "stars": 340,
+      "stars": 341,
       "forks": 14,
       "lastUpdated": "2026-04-08T06:41:45Z"
     },
@@ -173,7 +173,7 @@
       "branch": "main",
       "stars": 271,
       "forks": 24,
-      "lastUpdated": "2026-04-12T06:43:54Z"
+      "lastUpdated": "2026-04-12T10:00:04Z"
     },
     "posit-dev/skills": {
       "url": "https://github.com/posit-dev/skills",
@@ -199,14 +199,14 @@
     "oliver-kriska/claude-elixir-phoenix": {
       "url": "https://github.com/oliver-kriska/claude-elixir-phoenix",
       "branch": "main",
-      "stars": 251,
+      "stars": 252,
       "forks": 17,
       "lastUpdated": "2026-04-09T19:02:29Z"
     },
     "mcpware/claude-code-organizer": {
       "url": "https://github.com/mcpware/claude-code-organizer",
       "branch": "main",
-      "stars": 247,
+      "stars": 248,
       "forks": 25,
       "lastUpdated": "2026-04-10T21:36:51Z"
     },
@@ -248,8 +248,8 @@
     "Sushegaad/Claude-Skills-Governance-Risk-and-Compliance": {
       "url": "https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance",
       "branch": "main",
-      "stars": 219,
-      "forks": 46,
+      "stars": 221,
+      "forks": 49,
       "lastUpdated": "2026-04-11T01:34:10Z"
     },
     "assafelovic/gpt-researcher": {
@@ -331,13 +331,6 @@
     },
     "BayramAnnakov/claude-reflect": {
       "url": "https://github.com/BayramAnnakov/claude-reflect",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "conorluddy/ios-simulator-skill": {
-      "url": "https://github.com/conorluddy/ios-simulator-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -9124,7 +9117,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/doc",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "SKILL.md",
         "references/generation-templates.md",
@@ -9141,7 +9134,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/perf",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [".agentops-generated.json", "SKILL.md", "prompt.md"]
     },
     {
@@ -9152,7 +9145,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/implement",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -9170,7 +9163,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/shared",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -9197,7 +9190,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/product",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
     },
     {
@@ -9208,7 +9201,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/red-team",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -9227,7 +9220,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/ratchet",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
     },
     {
@@ -9238,7 +9231,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/pre-mortem",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -9262,7 +9255,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/pr-plan",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
     },
     {
@@ -9273,7 +9266,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/converter",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -9291,7 +9284,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/update",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
     },
     {
@@ -9302,7 +9295,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/status",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
     },
     {
@@ -9313,7 +9306,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/security-suite",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -9334,7 +9327,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/pr-prep",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "SKILL.md",
         "references/case-study-historical-context.md",
@@ -9352,7 +9345,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/refactor",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": ["SKILL.md"]
     },
     {
@@ -9363,7 +9356,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/beads",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -9392,7 +9385,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/bug-hunt",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "SKILL.md",
         "references/audit-report-template.md",
@@ -9409,7 +9402,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex-overrides/swarm",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": ["SKILL.md", "prompt.md"]
     },
     {
@@ -9420,7 +9413,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/retro",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
     },
     {
@@ -9431,7 +9424,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/oss-docs",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "SKILL.md",
         "references/beads-patterns.md",
@@ -9449,7 +9442,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/plan",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "SKILL.md",
         "references/complexity-estimation.md",
@@ -9476,7 +9469,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/compile",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -9496,7 +9489,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/vibe",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "SKILL.md",
         "references/deep-audit-protocol.md",
@@ -9528,7 +9521,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/harvest",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "references/governance.md"]
     },
     {
@@ -9539,7 +9532,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/brainstorm",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": ["SKILL.md", "references/red-team-checklist.md", "scripts/validate.sh"]
     },
     {
@@ -9550,7 +9543,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/autodev",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": ["SKILL.md"]
     },
     {
@@ -9561,7 +9554,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/complexity",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -9578,7 +9571,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/review",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": ["SKILL.md"]
     },
     {
@@ -9589,7 +9582,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/design",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -9606,7 +9599,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/pr-validate",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
     },
     {
@@ -9617,7 +9610,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/standards",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -9649,7 +9642,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/pr-research",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": ["SKILL.md", "references/upstream-research-checklist.md", "scripts/validate.sh"]
     },
     {
@@ -9660,7 +9653,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/trace",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -9679,7 +9672,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/knowledge-activation",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "SKILL.md",
         "references/dag.md",
@@ -9696,7 +9689,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/beads",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "SKILL.md",
         "references/ANTI_PATTERNS.md",
@@ -9723,7 +9716,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/deps",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": ["SKILL.md"]
     },
     {
@@ -9734,7 +9727,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/council",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -9766,7 +9759,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/bootstrap",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": ["SKILL.md"]
     },
     {
@@ -9777,7 +9770,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/scaffold",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [".agentops-generated.json", "SKILL.md", "prompt.md"]
     },
     {
@@ -9788,7 +9781,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/push",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
     },
     {
@@ -9799,7 +9792,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/evolve",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "SKILL.md",
         "references/artifacts.md",
@@ -9827,7 +9820,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/rpi",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "SKILL.md",
         "references/autonomous-execution.md",
@@ -9853,7 +9846,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/security",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -9870,7 +9863,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/bug-hunt",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -9889,7 +9882,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/provenance",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -9906,7 +9899,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/pr-implement",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
     },
     {
@@ -9917,7 +9910,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/grafana-platform-dashboard",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -9939,7 +9932,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/post-mortem",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "SKILL.md",
         "references/activation-policy.md",
@@ -9971,7 +9964,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/evolve",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -9997,7 +9990,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/goals",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "SKILL.md",
         "references/generation-heuristics.md",
@@ -10013,7 +10006,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/reverse-engineer-rpi",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".gitignore",
         "SKILL.md",
@@ -10045,7 +10038,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/flywheel",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "SKILL.md",
         "references/.gitkeep",
@@ -10065,7 +10058,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/forge",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "SKILL.md",
         "references/.gitkeep",
@@ -10081,7 +10074,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/discovery",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -10101,7 +10094,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/release",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "SKILL.md",
         "references/release-cadence.md",
@@ -10117,7 +10110,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/validation",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -10135,7 +10128,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/readme",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -10152,7 +10145,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/using-agentops",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
     },
     {
@@ -10163,7 +10156,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/recover",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
     },
     {
@@ -10174,7 +10167,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/handoff",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -10191,7 +10184,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/crank",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "SKILL.md",
         "references/claude-code-latest-features.md",
@@ -10223,7 +10216,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/codex-team",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "SKILL.md",
         "references/.gitkeep",
@@ -10239,7 +10232,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/swarm",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -10267,7 +10260,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/council",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "SKILL.md",
         "references/agent-prompts.md",
@@ -10299,7 +10292,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex-overrides/crank",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "SKILL.md",
         "prompt.md",
@@ -10317,7 +10310,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/inject",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
     },
     {
@@ -10328,7 +10321,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/retro",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": ["SKILL.md", "scripts/validate.sh"]
     },
     {
@@ -10339,7 +10332,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/swarm",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "SKILL.md",
         "references/backend-background-tasks.md",
@@ -10367,7 +10360,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/crank",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -10399,7 +10392,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/dream",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": ["SKILL.md"]
     },
     {
@@ -10410,7 +10403,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/openai-docs",
-      "commitHash": "7b702fb7f48a",
+      "commitHash": "1a513549171d",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -10719,7 +10712,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/ship",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -10730,7 +10723,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/audit",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -10741,7 +10734,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/stage",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -10752,7 +10745,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/onboard",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -10763,7 +10756,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/finalize",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -10774,13 +10767,8 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/turboplan",
-      "commitHash": "6b027b0f784a",
-      "files": [
-        "SKILL.md",
-        "references/complex-project-mode.md",
-        "references/shell-mode.md",
-        "references/small-task-mode.md"
-      ]
+      "commitHash": "a182a1aa76fa",
+      "files": ["SKILL.md", "references/complex-project-mode.md", "references/small-task-mode.md"]
     },
     {
       "id": "tobihagemann/turbo/skills/review-pr",
@@ -10790,7 +10778,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/review-pr",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -10801,7 +10789,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/update-pr",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -10812,19 +10800,19 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/create-pr",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
       "id": "tobihagemann/turbo/skills/draft-plan",
       "name": "draft-plan",
-      "description": "Produce an implementation plan at .turbo/plans/<slug>.md. Use when the user asks to \"draft a plan\", \"draft the plan\", \"write an implementation plan\", \"plan this change\", \"create an implementation plan\", \"fill in the shell\", \"expand the shell\", or needs a first-draft plan file before refinement.",
+      "description": "Produce an implementation plan at .turbo/plans/<slug>.md. Use when the user asks to \"draft a plan\", \"draft the plan\", \"write an implementation plan\", \"plan this change\", \"create an implementation plan\", or needs a first-draft plan file before refinement.",
       "categories": ["Writing", "Productivity"],
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/draft-plan",
-      "commitHash": "6b027b0f784a",
-      "files": ["SKILL.md", "references/fill-in-mode.md", "references/full-mode.md"]
+      "commitHash": "a182a1aa76fa",
+      "files": ["SKILL.md"]
     },
     {
       "id": "tobihagemann/turbo/skills/draft-spec",
@@ -10834,7 +10822,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/draft-spec",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -10845,7 +10833,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/code-style",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -10856,7 +10844,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/codex-exec",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md", "references/parallel-execution.md"]
     },
     {
@@ -10867,7 +10855,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/investigate",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md", "references/problem-type-playbooks.md"]
     },
     {
@@ -10878,7 +10866,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/polish-code",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -10889,7 +10877,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/refine-plan",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -10900,7 +10888,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/review-spec",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -10911,7 +10899,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/refine-spec",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -10922,7 +10910,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/review-plan",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -10933,18 +10921,18 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/review-code",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
       "id": "tobihagemann/turbo/skills/peer-review",
       "name": "peer-review",
-      "description": "Run an independent peer review via codex. Use when the user asks to \"peer review\", \"peer review my code\", \"peer review my plan\", \"peer review my spec\", \"peer review my prompt plan\", \"get a second opinion\", or \"independent review\".",
+      "description": "Run an independent peer review via codex. Use when the user asks to \"peer review\", \"peer review my code\", \"peer review my plan\", \"peer review my spec\", \"peer review my plan shells\", \"get a second opinion\", or \"independent review\".",
       "categories": ["Other"],
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/peer-review",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -10955,7 +10943,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/update-turbo",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -10966,7 +10954,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/codex-review",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -10977,7 +10965,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/self-improve",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -10988,7 +10976,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/create-skill",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md", "references/best-practices.md", "references/skill-reviewer.md"]
     },
     {
@@ -10999,7 +10987,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/commit-rules",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11010,7 +10998,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/map-codebase",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11021,7 +11009,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/github-voice",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11032,7 +11020,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/consult-codex",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11043,7 +11031,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/simplify-code",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11054,7 +11042,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/split-and-ship",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11065,7 +11053,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/review-tooling",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11076,7 +11064,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/find-dead-code",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11087,7 +11075,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/consult-oracle",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md", "scripts/refresh_cookies.py", "scripts/run_oracle.py"]
     },
     {
@@ -11098,7 +11086,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/review-quality",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11109,7 +11097,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/implement-plan",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11120,7 +11108,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/apply-findings",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11131,7 +11119,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/frontend-design",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11142,7 +11130,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/changelog-rules",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11153,7 +11141,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/survey-patterns",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md", "references/pattern-surveyor.md"]
     },
     {
@@ -11164,7 +11152,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/pick-next-issue",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11175,7 +11163,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/review-security",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11186,7 +11174,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/review-api-usage",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11197,7 +11185,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/create-changelog",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11208,7 +11196,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/note-improvement",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11219,7 +11207,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/contribute-turbo",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11230,19 +11218,8 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/recall-reasoning",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md", "scripts/find_transcript.py"]
-    },
-    {
-      "id": "tobihagemann/turbo/skills/pick-next-prompt",
-      "name": "pick-next-prompt",
-      "description": "Pick the next ready shell from a prompt plan in .turbo/prompt-plans/ and hand it to /turboplan for fill-in. Use when the user asks to \"pick next prompt\", \"next prompt\", \"continue prompt plan\", \"what's next\", \"next implementation step\", or \"continue with the plan\".",
-      "categories": ["Productivity"],
-      "author": "tobihagemann",
-      "repo": "tobihagemann/turbo",
-      "path": "skills/pick-next-prompt",
-      "commitHash": "6b027b0f784a",
-      "files": ["SKILL.md"]
     },
     {
       "id": "tobihagemann/turbo/skills/update-changelog",
@@ -11252,18 +11229,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/update-changelog",
-      "commitHash": "6b027b0f784a",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "tobihagemann/turbo/skills/draft-prompt-plan",
-      "name": "draft-prompt-plan",
-      "description": "Decompose a specification file into context-sized shell plans. Each shell captures the wiring invariants (Produces, Consumes, Covers) and high-level Implementation Steps without committing to file paths. Use when the user asks to \"draft a prompt plan\", \"create a prompt plan\", \"break spec into prompts\", \"decompose spec into sessions\", \"plan prompts for spec\", \"generate prompts from spec\", or \"make prompts from spec\".",
-      "categories": ["Writing", "Productivity"],
-      "author": "tobihagemann",
-      "repo": "tobihagemann/turbo",
-      "path": "skills/draft-prompt-plan",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11274,7 +11240,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/fetch-pr-comments",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11285,18 +11251,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/evaluate-findings",
-      "commitHash": "6b027b0f784a",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "tobihagemann/turbo/skills/refine-prompt-plan",
-      "name": "refine-prompt-plan",
-      "description": "Iteratively review and revise a prompt plan until no new findings survive evaluation. Runs /review-prompt-plan, /evaluate-findings, /apply-findings, then re-runs itself until stable. Use when the user asks to \"refine the prompt plan\", \"refine this prompt plan\", \"iterate on the prompt plan\", \"tighten the prompt plan\", or \"improve the prompt plan\".",
-      "categories": ["Research"],
-      "author": "tobihagemann",
-      "repo": "tobihagemann/turbo",
-      "path": "skills/refine-prompt-plan",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11307,18 +11262,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/interpret-feedback",
-      "commitHash": "6b027b0f784a",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "tobihagemann/turbo/skills/review-prompt-plan",
-      "name": "review-prompt-plan",
-      "description": "Review a prompt plan against its source spec: launches an internal prompt plan review and `/peer-review` in parallel and returns combined findings. Use when the user asks to \"review my prompt plan\", \"review my prompts\", \"check my prompt plan\", \"critique my prompts\", or wants prompt plan feedback before implementation.",
-      "categories": ["Research", "AI & ML"],
-      "author": "tobihagemann",
-      "repo": "tobihagemann/turbo",
-      "path": "skills/review-prompt-plan",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11329,7 +11273,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/review-correctness",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11340,7 +11284,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/review-dependencies",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11351,7 +11295,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/update-dependencies",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11362,7 +11306,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/create-threat-model",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md", "references/analysis-guide.md"]
     },
     {
@@ -11373,7 +11317,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/resolve-pr-comments",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11384,7 +11328,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/review-agentic-setup",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11395,7 +11339,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/implement-improvements",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11406,7 +11350,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/smoke-test",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11417,7 +11361,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/create-test-plan",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11428,7 +11372,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/comprehensive-test",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -11439,7 +11383,7 @@
       "author": "tobihagemann",
       "repo": "tobihagemann/turbo",
       "path": "skills/review-test-coverage",
-      "commitHash": "6b027b0f784a",
+      "commitHash": "a182a1aa76fa",
       "files": ["SKILL.md"]
     },
     {
@@ -14057,6 +14001,28 @@
       "repo": "Sushegaad/Claude-Skills-Governance-Risk-and-Compliance",
       "path": "plugins/soc2/skills/soc2",
       "commitHash": "22533da9c2da",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/plugins/fedramp/skills/fedramp",
+      "name": "fedramp",
+      "description": "Expert guidance for FedRAMP certification and compliance. Use this skill whenever a user asks about FedRAMP authorization, ATO (Authority to Operate), cloud security for federal government, NIST SP 800-53 controls, CSP compliance, or any of the core FedRAMP document types: SSP, SAP, SAR, POA&M, CIS/CRM workbooks. Also trigger for questions about FedRAMP impact levels (Low, Moderate, High, LI-SaaS), FedRAMP 20x, OSCAL, 3PAO assessments, continuous monitoring (ConMon), gap assessments, system boundary definition, FedRAMP readiness, or architecture reviews for federal cloud. When in doubt, use this skill — it covers the full FedRAMP lifecycle from readiness through continuous monitoring.\n",
+      "categories": ["DevOps", "Security"],
+      "author": "Sushegaad",
+      "repo": "Sushegaad/Claude-Skills-Governance-Risk-and-Compliance",
+      "path": "plugins/fedramp/skills/fedramp",
+      "commitHash": "22533da9c2da",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/plugins/iso42001/skills/iso42001",
+      "name": "iso42001",
+      "description": "Expert ISO 42001 AI Management System (AIMS) compliance advisor. Use this skill whenever a user asks about ISO/IEC 42001:2023, AI governance, AI management systems, AI risk assessment, AI system impact assessment, Annex A controls for AI, Statement of Applicability for AI systems, AI policy, responsible AI, AI lifecycle management, AI incident management, AI transparency, AI bias, AI certification readiness, or any topic related to implementing or auditing an AI Management System. Also trigger for questions like \"how do I become ISO 42001 certified?\", \"what controls does ISO 42001 require?\", \"how do I assess AI risk under 42001?\", \"what is an AIMS?\", or any request involving organisational governance of AI systems, responsible AI frameworks, or AI regulatory compliance aligned to an ISO standard.\n",
+      "categories": ["Security", "Business", "AI & ML"],
+      "author": "Sushegaad",
+      "repo": "Sushegaad/Claude-Skills-Governance-Risk-and-Compliance",
+      "path": "plugins/iso42001/skills/iso42001",
+      "commitHash": "50584e8ce4c5",
       "files": ["SKILL.md", "references"]
     },
     {
@@ -17154,19 +17120,6 @@
       "path": "",
       "commitHash": "8dc9db43c9bf",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "conorluddy/ios-simulator-skill/ios-simulator-skill",
-      "name": "ios-simulator-skill",
-      "description": "21 production-ready scripts for iOS app testing, building, and automation. Provides semantic UI navigation, build automation, accessibility testing, and simulator lifecycle management. Optimized for AI agents with minimal token output.",
-      "categories": ["Development", "Productivity", "AI & ML"],
-      "author": "conorluddy",
-      "repo": "conorluddy/ios-simulator-skill",
-      "path": "ios-simulator-skill",
-      "commitHash": "19c8349b1d64",
-      "version": "1.3.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "scripts"]
     },
     {
       "id": "adithya-s-k/manim_skill/skills/manim-composer",
