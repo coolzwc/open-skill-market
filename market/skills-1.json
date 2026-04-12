@@ -3,7 +3,7 @@
     "MicrosoftDocs/Agent-Skills": {
       "url": "https://github.com/MicrosoftDocs/Agent-Skills",
       "branch": "main",
-      "stars": 484,
+      "stars": 485,
       "forks": 45,
       "lastUpdated": "2026-04-09T10:18:53Z"
     },
@@ -19,21 +19,28 @@
       "branch": "master",
       "stars": 459,
       "forks": 36,
-      "lastUpdated": "2026-04-10T17:01:55Z"
+      "lastUpdated": "2026-04-12T01:02:50Z"
     },
     "vibeeval/vibecosystem": {
       "url": "https://github.com/vibeeval/vibecosystem",
       "branch": "main",
       "stars": 457,
       "forks": 38,
-      "lastUpdated": "2026-04-08T00:57:54Z"
+      "lastUpdated": "2026-04-12T01:33:56Z"
     },
     "JackyST0/awesome-agent-skills": {
       "url": "https://github.com/JackyST0/awesome-agent-skills",
       "branch": "main",
-      "stars": 446,
+      "stars": 447,
       "forks": 51,
       "lastUpdated": "2026-04-06T00:31:36Z"
+    },
+    "zanwei/design-dna": {
+      "url": "https://github.com/zanwei/design-dna",
+      "branch": "main",
+      "stars": 432,
+      "forks": 15,
+      "lastUpdated": "2026-03-28T07:14:49Z"
     },
     "huangjia2019/claude-code-engineering": {
       "url": "https://github.com/huangjia2019/claude-code-engineering",
@@ -49,45 +56,38 @@
       "forks": 22,
       "lastUpdated": "2026-04-03T13:59:00Z"
     },
-    "zanwei/design-dna": {
-      "url": "https://github.com/zanwei/design-dna",
-      "branch": "main",
-      "stars": 430,
-      "forks": 15,
-      "lastUpdated": "2026-03-28T07:14:49Z"
-    },
     "milady-ai/milady": {
       "url": "https://github.com/milady-ai/milady",
       "branch": "develop",
-      "stars": 430,
-      "forks": 63,
-      "lastUpdated": "2026-04-11T20:16:59Z"
+      "stars": 431,
+      "forks": 64,
+      "lastUpdated": "2026-04-12T01:37:09Z"
     },
     "computerlovetech/agr": {
       "url": "https://github.com/computerlovetech/agr",
       "branch": "main",
       "stars": 427,
       "forks": 36,
-      "lastUpdated": "2026-04-09T06:24:38Z"
+      "lastUpdated": "2026-04-11T22:11:52Z"
     },
     "gooseworks-ai/goose-skills": {
       "url": "https://github.com/gooseworks-ai/goose-skills",
       "branch": "main",
-      "stars": 423,
-      "forks": 70,
+      "stars": 425,
+      "forks": 71,
       "lastUpdated": "2026-04-10T19:06:24Z"
     },
     "Agents365-ai/video-podcast-maker": {
       "url": "https://github.com/Agents365-ai/video-podcast-maker",
       "branch": "main",
-      "stars": 414,
+      "stars": 416,
       "forks": 59,
       "lastUpdated": "2026-04-08T17:07:21Z"
     },
     "dpearson2699/swift-ios-skills": {
       "url": "https://github.com/dpearson2699/swift-ios-skills",
       "branch": "main",
-      "stars": 407,
+      "stars": 408,
       "forks": 13,
       "lastUpdated": "2026-03-30T15:20:31Z"
     },
@@ -110,7 +110,7 @@
       "branch": "main",
       "stars": 349,
       "forks": 63,
-      "lastUpdated": "2026-04-11T19:06:11Z"
+      "lastUpdated": "2026-04-11T22:03:52Z"
     },
     "robrohan/WebArchiveExtractor": {
       "url": "https://github.com/robrohan/WebArchiveExtractor",
@@ -173,7 +173,7 @@
       "branch": "main",
       "stars": 268,
       "forks": 24,
-      "lastUpdated": "2026-04-11T18:49:04Z"
+      "lastUpdated": "2026-04-12T01:35:42Z"
     },
     "posit-dev/skills": {
       "url": "https://github.com/posit-dev/skills",
@@ -185,14 +185,14 @@
     "tobihagemann/turbo": {
       "url": "https://github.com/tobihagemann/turbo",
       "branch": "main",
-      "stars": 260,
+      "stars": 261,
       "forks": 21,
       "lastUpdated": "2026-04-11T19:03:50Z"
     },
     "athola/claude-night-market": {
       "url": "https://github.com/athola/claude-night-market",
       "branch": "master",
-      "stars": 254,
+      "stars": 255,
       "forks": 24,
       "lastUpdated": "2026-04-11T03:55:06Z"
     },
@@ -206,8 +206,8 @@
     "mcpware/claude-code-organizer": {
       "url": "https://github.com/mcpware/claude-code-organizer",
       "branch": "main",
-      "stars": 246,
-      "forks": 24,
+      "stars": 247,
+      "forks": 25,
       "lastUpdated": "2026-04-10T21:36:51Z"
     },
     "Zaloog/kanban-tui": {
@@ -224,6 +224,13 @@
       "forks": 25,
       "lastUpdated": "2026-04-11T18:44:43Z"
     },
+    "BrianRWagner/ai-marketing-claude-code-skills": {
+      "url": "https://github.com/BrianRWagner/ai-marketing-claude-code-skills",
+      "branch": "main",
+      "stars": 224,
+      "forks": 50,
+      "lastUpdated": "2026-03-19T12:37:28Z"
+    },
     "assafelovic/skyll": {
       "url": "https://github.com/assafelovic/skyll",
       "branch": "main",
@@ -231,17 +238,10 @@
       "forks": 23,
       "lastUpdated": "2026-04-02T16:21:47Z"
     },
-    "BrianRWagner/ai-marketing-claude-code-skills": {
-      "url": "https://github.com/BrianRWagner/ai-marketing-claude-code-skills",
-      "branch": "main",
-      "stars": 223,
-      "forks": 50,
-      "lastUpdated": "2026-03-19T12:37:28Z"
-    },
     "Ruya-AI/cozempic": {
       "url": "https://github.com/Ruya-AI/cozempic",
       "branch": "main",
-      "stars": 221,
+      "stars": 222,
       "forks": 12,
       "lastUpdated": "2026-04-09T09:09:13Z"
     },
@@ -1782,7 +1782,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/mot",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -1793,7 +1793,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/rag-patterns",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["skill.md"]
     },
     {
@@ -1804,7 +1804,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/tdd",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -1815,7 +1815,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/aws-patterns",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["skill.md"]
     },
     {
@@ -1826,7 +1826,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/fix",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -1837,7 +1837,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/seo-patterns",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["skill.md"]
     },
     {
@@ -1848,7 +1848,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/tour",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -1859,7 +1859,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/gcp-patterns",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["skill.md"]
     },
     {
@@ -1870,7 +1870,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/help",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -1881,7 +1881,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/grpc-patterns",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["skill.md"]
     },
     {
@@ -1892,7 +1892,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/hooks",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -1903,7 +1903,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/swift-patterns",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["skill.md"]
     },
     {
@@ -1914,7 +1914,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/hizir",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -1925,7 +1925,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/oauth-patterns",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["skill.md"]
     },
     {
@@ -1936,7 +1936,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/build",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -1947,7 +1947,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/azure-patterns",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["skill.md"]
     },
     {
@@ -1958,7 +1958,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/redis-patterns",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["skill.md"]
     },
     {
@@ -1969,18 +1969,18 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/prove",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
-      "id": "vibeeval/vibecosystem/skills/kotlin-patterns",
-      "name": "kotlin-patterns",
-      "description": "Coroutine patterns, Flow operators, Jetpack Compose state management, Ktor routing, and Kotlin Multiplatform shared code.",
-      "categories": ["Development", "Productivity"],
+      "id": "vibeeval/vibecosystem/skills/kafka-patterns",
+      "name": "kafka-patterns",
+      "description": "Topic design, partition strategies, consumer group patterns, exactly-once processing, and dead letter queue handling.",
+      "categories": ["Design"],
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
-      "path": "skills/kotlin-patterns",
-      "commitHash": "85b86f4b58b0",
+      "path": "skills/kafka-patterns",
+      "commitHash": "6f524ea33e38",
       "files": ["skill.md"]
     },
     {
@@ -1991,7 +1991,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/review",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2002,7 +2002,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/recall",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2013,7 +2013,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/migrate",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2024,7 +2024,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/explore",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2035,7 +2035,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/fp-check",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2046,7 +2046,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/research",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2057,7 +2057,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/security",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md", "prompt.md"]
     },
     {
@@ -2068,7 +2068,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/remember",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2079,7 +2079,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/math-help",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2090,7 +2090,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/premortem",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2101,7 +2101,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/tldr-deep",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2112,7 +2112,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/tldr-code",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md", "rules.md"]
     },
     {
@@ -2123,7 +2123,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/dead-code",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2134,7 +2134,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/docker-ops",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2145,7 +2145,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/sub-agents",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2156,7 +2156,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/qlty-check",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2167,7 +2167,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/morph-apply",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2178,7 +2178,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/sharp-edges",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2189,7 +2189,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/debug-hooks",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2200,7 +2200,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/math-router",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2211,7 +2211,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/self-healing",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2222,7 +2222,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/jpa-patterns",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2233,7 +2233,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/morph-search",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2244,7 +2244,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/eval-harness",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2255,7 +2255,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/search-tools",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2266,7 +2266,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/frontend-dev",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": [
         "SKILL.md",
         "canvas-fonts/ArsenalSC-OFL.txt",
@@ -2298,7 +2298,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/art-director",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2309,7 +2309,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/modular-code",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2320,7 +2320,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/achievements",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2331,29 +2331,29 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/agent-linter",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
-      "id": "vibeeval/vibecosystem/skills/mcp-chaining",
-      "name": "mcp-chaining",
-      "description": "Research-to-implement pipeline chaining 5 MCP tools with graceful degradation",
-      "categories": ["Research"],
+      "id": "vibeeval/vibecosystem/skills/api-patterns",
+      "name": "api-patterns",
+      "description": "API design, versioning, testing, schema validation, and contract testing patterns for REST and GraphQL APIs.",
+      "categories": ["Development", "Data & Analytics"],
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
-      "path": "skills/mcp-chaining",
-      "commitHash": "85b86f4b58b0",
+      "path": "skills/api-patterns",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
-      "id": "vibeeval/vibecosystem/skills/cli-reference",
-      "name": "cli-reference",
-      "description": "Claude Code CLI commands, flags, headless mode, and automation patterns",
-      "categories": ["Development"],
+      "id": "vibeeval/vibecosystem/skills/agentica-sdk",
+      "name": "agentica-sdk",
+      "description": "Build Python agents with Agentica SDK - @agentic decorator, spawn(), persistence, MCP integration",
+      "categories": ["Development", "Integration", "AI & ML"],
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
-      "path": "skills/cli-reference",
-      "commitHash": "85b86f4b58b0",
+      "path": "skills/agentica-sdk",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2364,7 +2364,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/github-search",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2375,7 +2375,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/reference-sdk",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2386,7 +2386,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/ast-grep-find",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2397,7 +2397,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/search-router",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2408,7 +2408,18 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/clone-website",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "vibeeval/vibecosystem/skills/tldr-overview",
+      "name": "tldr-overview",
+      "description": "Get a token-efficient overview of any project using file tree, code structure, and call graph analysis.",
+      "categories": ["Data & Analytics"],
+      "author": "vibeeval",
+      "repo": "vibeeval/vibecosystem",
+      "path": "skills/tldr-overview",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2419,18 +2430,18 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/autonomous-pr",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
-      "id": "vibeeval/vibecosystem/skills/loogle-search",
-      "name": "loogle-search",
-      "description": "Search Mathlib for lemmas by type signature pattern using Loogle.",
+      "id": "vibeeval/vibecosystem/skills/memory-palace",
+      "name": "memory-palace",
+      "description": "Hierarchical memory organization for multi-session context retention. Wings (projects) > Rooms (domains) > Drawers (decisions). Semantic search across all memories with zero cloud dependency.",
       "categories": ["Other"],
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
-      "path": "skills/loogle-search",
-      "commitHash": "85b86f4b58b0",
+      "path": "skills/memory-palace",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2448,7 +2459,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/fullstack-dev",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": [
         "SKILL.md",
         "references/api-design.md",
@@ -2469,18 +2480,18 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/no-task-output",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
-      "id": "vibeeval/vibecosystem/skills/notepad-system",
-      "name": "notepad-system",
-      "description": "Use this skill when context compression is imminent, when resuming a session, or when preserving critical decisions across long tasks. Provides a durable notepad that survives compaction and lets any agent pick up exactly where the previous context left off.",
+      "id": "vibeeval/vibecosystem/skills/layered-recall",
+      "name": "layered-recall",
+      "description": "Progressive memory recall with 4 scope layers AND 3 depth layers. Scope: identity > project > room > deep. Depth: IDs only > summary > full. 10-50x token savings through fetch-on-confirmation pattern.",
       "categories": ["Other"],
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
-      "path": "skills/notepad-system",
-      "commitHash": "85b86f4b58b0",
+      "path": "skills/layered-recall",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2498,26 +2509,19 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/ci-cd-pipeline",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
-      "id": "vibeeval/vibecosystem/skills/pptx-generator",
-      "name": "pptx-generator",
-      "description": "Generate, edit, and read PowerPoint presentations. Create from scratch with PptxGenJS (cover, TOC, content, section divider, summary slides), edit existing PPTX via XML workflows, or extract text with markitdown. Triggers: PPT, PPTX, PowerPoint, presentation, slide, deck, slides.",
-      "categories": ["Writing", "Productivity", "Documents"],
+      "id": "vibeeval/vibecosystem/skills/design-to-code",
+      "name": "design-to-code",
+      "description": "Figma-to-code translation, design tokens, spacing/typography scales, responsive breakpoints, and design system bridge patterns.",
+      "categories": ["Development", "Design"],
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
-      "path": "skills/pptx-generator",
-      "commitHash": "85b86f4b58b0",
-      "files": [
-        "SKILL.md",
-        "references/design-system.md",
-        "references/editing.md",
-        "references/pitfalls.md",
-        "references/pptxgenjs.md",
-        "references/slide-types.md"
-      ]
+      "path": "skills/design-to-code",
+      "commitHash": "6f524ea33e38",
+      "files": ["SKILL.md"]
     },
     {
       "id": "vibeeval/vibecosystem/skills/visual-verdict",
@@ -2527,7 +2531,18 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/visual-verdict",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "vibeeval/vibecosystem/skills/deep-interview",
+      "name": "deep-interview",
+      "description": "Mathematically rigorous Socratic interview system that drives ambiguity below 20% before any code is written. One question per message, weighted ambiguity scoring, brownfield-aware, outputs a complete PRD. Replaces discovery-interview with a stricter protocol.",
+      "categories": ["Business"],
+      "author": "vibeeval",
+      "repo": "vibeeval/vibecosystem",
+      "path": "skills/deep-interview",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2538,7 +2553,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/hook-developer",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2549,7 +2564,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/python-testing",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2560,29 +2575,18 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/error-boundary",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
-      "id": "vibeeval/vibecosystem/skills/harvest-single",
-      "name": "harvest-single",
-      "description": "Single page smart extraction - articles, docs, blog posts to clean markdown",
-      "categories": ["Writing"],
+      "id": "vibeeval/vibecosystem/skills/skill-upgrader",
+      "name": "skill-upgrader",
+      "description": "Upgrade any skill to v5 Hybrid format using decision theory + modal logic",
+      "categories": ["Other"],
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
-      "path": "skills/harvest-single",
-      "commitHash": "85b86f4b58b0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "vibeeval/vibecosystem/skills/research-agent",
-      "name": "research-agent",
-      "description": "Research agent for external documentation, best practices, and library APIs via MCP tools",
-      "categories": ["Development", "Integration", "Research"],
-      "author": "vibeeval",
-      "repo": "vibeeval/vibecosystem",
-      "path": "skills/research-agent",
-      "commitHash": "85b86f4b58b0",
+      "path": "skills/skill-upgrader",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2593,7 +2597,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/springboot-tdd",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2604,7 +2608,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/ai-slop-cleaner",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2615,7 +2619,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/golang-patterns",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2626,7 +2630,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/workflow-router",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2637,7 +2641,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/python-patterns",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2648,7 +2652,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/knowledge-graph",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2659,8 +2663,19 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/cognitive-modes",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "vibeeval/vibecosystem/skills/kotlin-patterns",
+      "name": "kotlin-patterns",
+      "description": "Coroutine patterns, Flow operators, Jetpack Compose state management, Ktor routing, and Kotlin Multiplatform shared code.",
+      "categories": ["Development", "Productivity"],
+      "author": "vibeeval",
+      "repo": "vibeeval/vibecosystem",
+      "path": "skills/kotlin-patterns",
+      "commitHash": "6f524ea33e38",
+      "files": ["skill.md"]
     },
     {
       "id": "vibeeval/vibecosystem/skills/shapely-compute",
@@ -2670,7 +2685,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/shapely-compute",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2681,7 +2696,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/skill-developer",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2692,7 +2707,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/form-validation",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2703,7 +2718,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/parallel-agents",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2714,7 +2729,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/factcheck-guard",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2725,18 +2740,18 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/skill-evolution",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
-      "id": "vibeeval/vibecosystem/skills/harvest-monitor",
-      "name": "harvest-monitor",
-      "description": "Web change monitoring - track changes on pages, detect updates, changelog diffs",
-      "categories": ["Other"],
+      "id": "vibeeval/vibecosystem/skills/agent-benchmark",
+      "name": "agent-benchmark",
+      "description": "Framework for measuring and tracking agent response quality over time. Detects regressions before they reach production. Use when evaluating agent changes, auditing quality, or establishing performance baselines.",
+      "categories": ["Business"],
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
-      "path": "skills/harvest-monitor",
-      "commitHash": "85b86f4b58b0",
+      "path": "skills/agent-benchmark",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2747,7 +2762,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/agentica-server",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2758,7 +2773,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/experiment-loop",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2769,7 +2784,7 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/django-patterns",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
     },
     {
@@ -2780,30 +2795,8 @@
       "author": "vibeeval",
       "repo": "vibeeval/vibecosystem",
       "path": "skills/agentic-workflow",
-      "commitHash": "85b86f4b58b0",
+      "commitHash": "6f524ea33e38",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "vibeeval/vibecosystem/skills/caching-patterns",
-      "name": "caching-patterns",
-      "description": "Redis caching strategies, cache invalidation, write-through/write-behind, TTL management, and cache stampede protection.",
-      "categories": ["Business"],
-      "author": "vibeeval",
-      "repo": "vibeeval/vibecosystem",
-      "path": "skills/caching-patterns",
-      "commitHash": "85b86f4b58b0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "vibeeval/vibecosystem/skills/coding-standards",
-      "name": "coding-standards",
-      "description": "Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.",
-      "categories": ["Development"],
-      "author": "vibeeval",
-      "repo": "vibeeval/vibecosystem",
-      "path": "skills/coding-standards",
-      "commitHash": "85b86f4b58b0",
-      "files": ["SKILL.md", "prompt.md"]
     },
     {
       "id": "JackyST0/awesome-agent-skills/examples/git-commit",
@@ -2859,6 +2852,17 @@
       "path": "examples/unit-test-generator",
       "commitHash": "59e71e1e9035",
       "files": ["SKILL.md", "templates"]
+    },
+    {
+      "id": "zanwei/design-dna",
+      "name": "design-dna",
+      "description": "Extract, define, and apply design DNA across three dimensions: design system (tokens), design style (qualitative feel), and visual effects (Canvas, WebGL, 3D, particles, shaders, scroll effects, etc.). Use this skill when: (1) a user wants to see the full 3-dimension design structure/schema, (2) a user provides images, screenshots, or URLs of reference designs and wants them analyzed into a structured JSON profile covering all three dimensions, (3) a user has a Design DNA JSON and content and wants a design generated from it, or (4) any combination of these phases. Triggers on \"design DNA\", \"extract design style\", \"analyze design\", \"design tokens from reference\", \"generate design from JSON\", \"design system from screenshot\", \"design profile\", \"style guide JSON\", \"visual effects analysis\", \"design with effects\", \"3d design analysis\".",
+      "categories": ["Design", "Writing", "Data & Analytics", "Research", "Finance", "Media"],
+      "author": "zanwei",
+      "repo": "zanwei/design-dna",
+      "path": "",
+      "commitHash": "6debc51c1478",
+      "files": ["SKILL.md"]
     },
     {
       "id": "huangjia2019/claude-code-engineering/04-Skills/projects/00-basic-skill",
@@ -2997,17 +3001,6 @@
       "repo": "bergside/typeui",
       "path": "skills/typeui-cli",
       "commitHash": "6277a40b563e",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "zanwei/design-dna",
-      "name": "design-dna",
-      "description": "Extract, define, and apply design DNA across three dimensions: design system (tokens), design style (qualitative feel), and visual effects (Canvas, WebGL, 3D, particles, shaders, scroll effects, etc.). Use this skill when: (1) a user wants to see the full 3-dimension design structure/schema, (2) a user provides images, screenshots, or URLs of reference designs and wants them analyzed into a structured JSON profile covering all three dimensions, (3) a user has a Design DNA JSON and content and wants a design generated from it, or (4) any combination of these phases. Triggers on \"design DNA\", \"extract design style\", \"analyze design\", \"design tokens from reference\", \"generate design from JSON\", \"design system from screenshot\", \"design profile\", \"style guide JSON\", \"visual effects analysis\", \"design with effects\", \"3d design analysis\".",
-      "categories": ["Design", "Writing", "Data & Analytics", "Research", "Finance", "Media"],
-      "author": "zanwei",
-      "repo": "zanwei/design-dna",
-      "path": "",
-      "commitHash": "6debc51c1478",
       "files": ["SKILL.md"]
     },
     {
@@ -9124,7 +9117,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/doc",
-      "commitHash": "c75fadd91ed1",
+      "commitHash": "f788fc391081",
       "files": [
         "SKILL.md",
         "references/generation-templates.md",
@@ -9141,7 +9134,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/red-team",
-      "commitHash": "c75fadd91ed1",
+      "commitHash": "f788fc391081",
       "files": [
         "SKILL.md",
         "references/persona-format.md",
@@ -9151,54 +9144,41 @@
       ]
     },
     {
-      "id": "boshu2/agentops/skills-codex/pr-prep",
-      "name": "pr-prep",
-      "description": "PR preparation: git archaeology, test validation, structured PR body generation. Mandatory user review gate before submission. Triggers: \"prepare PR\", \"PR prep\", \"submit PR\", \"create PR body\", \"write PR description\".",
-      "categories": ["Development"],
+      "id": "boshu2/agentops/skills-codex/ratchet",
+      "name": "ratchet",
+      "description": "Brownian Ratchet progress gates for RPI workflow. Check, record, verify. Triggers: \"check gate\", \"verify progress\", \"ratchet status\".",
+      "categories": ["Other"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills-codex/pr-prep",
-      "commitHash": "c75fadd91ed1",
+      "path": "skills-codex/ratchet",
+      "commitHash": "f788fc391081",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
         "prompt.md",
-        "references/case-study-historical-context.md",
-        "references/commit-split-advisor.md",
-        "references/lessons-learned.md",
-        "references/package-extraction.md",
+        "references/.gitkeep",
         "scripts/validate.sh"
       ]
     },
     {
-      "id": "boshu2/agentops/skills/post-mortem",
-      "name": "post-mortem",
-      "description": "Wrap up completed work. Council validates the implementation, then extract and process learnings. Triggers: \"post-mortem\", \"wrap up\", \"close epic\", \"what did we learn\".",
-      "categories": ["Other"],
+      "id": "boshu2/agentops/skills-codex/grafana-platform-dashboard",
+      "name": "grafana-platform-dashboard",
+      "description": "Design, refactor, and validate Grafana dashboards for OpenShift/Kubernetes platform operations. Use when users ask to improve platform health dashboards, prioritize critical tenant-impacting signals, filter noise (for example ArgoCD), add Crossplane/Keycloak health panels, validate PromQL programmatically, or apply GrafanaDashboard CR changes live then promote to GitOps.",
+      "categories": ["Development", "DevOps", "Business"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills/post-mortem",
-      "commitHash": "c75fadd91ed1",
+      "path": "skills-codex/grafana-platform-dashboard",
+      "commitHash": "f788fc391081",
       "files": [
+        ".agentops-generated.json",
         "SKILL.md",
-        "references/activation-policy.md",
-        "references/backlog-processing.md",
-        "references/checkpoint-policy.md",
-        "references/closure-integrity-audit.md",
-        "references/context-gathering.md",
-        "references/four-surface-closure.md",
-        "references/harvest-next-work.md",
-        "references/learning-templates.md",
-        "references/maintenance-phases.md",
-        "references/metadata-verification.md",
-        "references/output-templates.md",
-        "references/plan-compliance-checklist.md",
-        "references/prediction-tracking.md",
-        "references/retro-history.md",
-        "references/security-patterns.md",
-        "references/streak-tracking.md",
-        "scripts/closure-integrity-audit.sh",
-        "scripts/preflight-refs.sh",
+        "agents/openai.yaml",
+        "prompt.md",
+        "references/layout-guidelines.md",
+        "references/platform-contract.md",
+        "references/promql-library.md",
+        "scripts/grafanadashboard_roundtrip.sh",
+        "scripts/promql_scan_thanos.sh",
         "scripts/validate.sh"
       ]
     },
@@ -9210,7 +9190,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/pr-implement",
-      "commitHash": "c75fadd91ed1",
+      "commitHash": "f788fc391081",
       "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
     },
     {
@@ -9221,63 +9201,22 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/pr-research",
-      "commitHash": "c75fadd91ed1",
+      "commitHash": "f788fc391081",
       "files": ["SKILL.md", "references/upstream-research-checklist.md", "scripts/validate.sh"]
     },
     {
-      "id": "boshu2/agentops/skills-codex/reverse-engineer-rpi",
-      "name": "reverse-engineer-rpi",
-      "description": "Reverse-engineer a product into a feature catalog, code map, and specs. Uses RPI-style loop with verification gates. Triggers: “reverse engineer”, “catalog features”, “feature inventory”, “code map”, “docs to code mapping”, “binary analysis”.",
-      "categories": ["Data & Analytics"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/reverse-engineer-rpi",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        ".agentops-generated.json",
-        ".gitignore",
-        "SKILL.md",
-        "agents/openai.yaml",
-        "fixtures/cc-sdd-v2.1.0/cli-surface-contracts.txt",
-        "fixtures/cc-sdd-v2.1.0/clone-metadata.json",
-        "fixtures/cc-sdd-v2.1.0/docs-features.txt",
-        "fixtures/cc-sdd-v2.1.0/feature-registry.yaml",
-        "prompt.md",
-        "references/templates/post-mortem.md.tmpl",
-        "references/templates/security/attack-surface.md.tmpl",
-        "references/templates/security/authn-authz.md.tmpl",
-        "references/templates/security/crypto-review.md.tmpl",
-        "references/templates/security/dataflow.md.tmpl",
-        "references/templates/security/findings.md.tmpl",
-        "references/templates/security/reproducibility.md.tmpl",
-        "references/templates/security/threat-model.md.tmpl",
-        "references/templates/spec-architecture.md.tmpl",
-        "references/templates/spec-cli-surface.md.tmpl",
-        "references/templates/spec-clone-mvp.md.tmpl"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/refactor",
-      "name": "refactor",
-      "description": "Safe, verified refactoring with regression testing at each step. Identify targets, plan transformation, execute incrementally. Triggers: \"refactor\", \"restructure\", \"extract\", \"rename\", \"move\", \"simplify\", \"reduce complexity\", \"clean up\", \"decompose\".",
-      "categories": ["Development"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/refactor",
-      "commitHash": "c75fadd91ed1",
-      "files": [".agentops-generated.json", "SKILL.md", "prompt.md"]
-    },
-    {
-      "id": "boshu2/agentops/skills/knowledge-activation",
+      "id": "boshu2/agentops/skills-codex/knowledge-activation",
       "name": "knowledge-activation",
       "description": "Operationalize a mature .agents corpus into usable information. Consolidates packet layers, promotes a belief book, generates playbook candidates, compiles runtime briefings, and surfaces flywheel gaps. Triggers: \"operationalize .agents\", \"turn dot agents into usable information\", \"knowledge activation\", \"knowledge flywheel outer loop\", \"activate knowledge corpus\".",
       "categories": ["Development", "Productivity", "Research", "AI & ML"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills/knowledge-activation",
-      "commitHash": "c75fadd91ed1",
+      "path": "skills-codex/knowledge-activation",
+      "commitHash": "f788fc391081",
       "files": [
+        ".agentops-generated.json",
         "SKILL.md",
+        "prompt.md",
         "references/dag.md",
         "references/output-surfaces.md",
         "references/script-contracts.md",
@@ -9285,851 +9224,15 @@
       ]
     },
     {
-      "id": "boshu2/agentops/skills/review",
-      "name": "review",
-      "description": "Review incoming PRs, agent-generated changes, or diffs. Structured review with security, correctness, performance, and maintainability checks. Triggers: \"review\", \"review PR\", \"review changes\", \"code review\", \"review this PR\", \"review agent output\", \"check this diff\".",
-      "categories": ["Development", "AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/review",
-      "commitHash": "c75fadd91ed1",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/complexity",
-      "name": "complexity",
-      "description": "Analyze code complexity and find refactor targets using radon/gocyclo. Triggers: \"complexity\", \"analyze complexity\", \"find complex code\", \"refactor targets\", \"cyclomatic complexity\", \"code metrics\".",
-      "categories": ["Development", "Research"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/complexity",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/.gitkeep",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/plan",
-      "name": "plan",
-      "description": "Epic decomposition into trackable issues. Triggers: \"create a plan\", \"plan implementation\", \"break down into tasks\", \"decompose into features\", \"create beads issues from research\", \"what issues should we create\", \"plan out the work\".",
-      "categories": ["Productivity", "Research"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/plan",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        "SKILL.md",
-        "references/complexity-estimation.md",
-        "references/decomposition.md",
-        "references/detail-templates.md",
-        "references/examples.md",
-        "references/implementation-detail.md",
-        "references/plan-document-template.md",
-        "references/plan-mutations.md",
-        "references/planning-rules.md",
-        "references/pre-decomposition.md",
-        "references/sdd-patterns.md",
-        "references/task-creation.md",
-        "references/templates.md",
-        "references/wave-matrices.md",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/evolve",
-      "name": "evolve",
-      "description": "Goal-driven fitness-scored improvement loop. Measures goals, picks worst gap, runs /rpi, compounds via knowledge flywheel. Also pulls from open beads when goals all pass. Accepts ordered roadmap via --queue for sequential execution with auto-unblocking. Use when you want to \"improve\", \"iterate\", \"fix issues\", \"work through tasks\", \"evolve\", \"check goal fitness\", \"run improvement loop\", \"pick up next work\", or \"run roadmap\".",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/evolve",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        "SKILL.md",
-        "references/artifacts.md",
-        "references/autonomous-execution.md",
-        "references/compounding.md",
-        "references/cycle-history.md",
-        "references/examples.md",
-        "references/fitness-scoring.md",
-        "references/goals-schema.md",
-        "references/knowledge-loop-integration.md",
-        "references/oscillation.md",
-        "references/parallel-execution.md",
-        "references/pinned-queue.md",
-        "references/quality-mode.md",
-        "references/roadmap-queue-patterns.md",
-        "references/teardown.md",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/standards",
-      "name": "standards",
-      "description": "Language-specific coding standards and validation rules. Provides Python, Go, Rust, TypeScript, Shell, YAML, JSON, and Markdown standards. Auto-loaded by $vibe, $implement, $doc, $bug-hunt, $complexity based on file types.",
-      "categories": ["Development", "Documents"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/standards",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/behavioral-discipline.md",
-        "references/codex-skill.md",
-        "references/common-standards.md",
-        "references/examples-troubleshooting-template.md",
-        "references/go.md",
-        "references/json.md",
-        "references/llm-trust-boundary-checklist.md",
-        "references/markdown.md",
-        "references/python.md",
-        "references/race-condition-checklist.md",
-        "references/rust.md",
-        "references/shell.md",
-        "references/skill-structure.md",
-        "references/sql-safety-checklist.md",
-        "references/standards-index.md",
-        "references/test-pyramid.md",
-        "references/typescript.md"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/flywheel",
-      "name": "flywheel",
-      "description": "Knowledge flywheel health monitoring. Checks velocity, pool depths, staleness. Triggers: \"flywheel status\", \"knowledge health\", \"is knowledge compounding\".",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/flywheel",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        "SKILL.md",
-        "references/.gitkeep",
-        "references/artifact-consistency-allowlist.txt",
-        "references/artifact-consistency.md",
-        "references/cache-eviction.md",
-        "references/promotion-tiers.md",
-        "scripts/artifact-consistency.sh",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/release",
-      "name": "release",
-      "description": "Release your software. Pre-flight validation, changelog generation, version bumps, release commit, tag, curated release notes. Boundary: everything up to the git tag. Triggers: \"release\", \"cut a release\", \"prepare release\", \"release check\".",
-      "categories": ["Development"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/release",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/release-cadence.md",
-        "references/release-notes.md",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/converter",
-      "name": "converter",
-      "description": "Cross-platform skill converter. Parse AgentOps skills into a universal bundle format, then convert to target platforms (Codex, Cursor). Triggers: convert, converter, convert skill, export skill, cross-platform.",
-      "categories": ["Development", "Documents"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/converter",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/skill-bundle-schema.md",
-        "scripts/convert.sh",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/shared",
-      "name": "shared",
-      "description": "Shared reference documents for multi-agent skills (not directly invocable)",
-      "categories": ["AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/shared",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        "SKILL.md",
-        "references/.gitkeep",
-        "references/backend-background-tasks.md",
-        "references/backend-claude-teams.md",
-        "references/backend-codex-subagents.md",
-        "references/backend-inline.md",
-        "references/claude-cli-verified-commands.md",
-        "references/claude-code-latest-features.md",
-        "references/cli-command-failures-2026-02-26.md",
-        "references/codex-cli-verified-commands.md",
-        "references/compaction-signals.md",
-        "references/content-hash-cache.md",
-        "references/orchestration-as-prompt.md",
-        "references/ralph-loop-contract.md",
-        "references/stale-scope-validation.md",
-        "scripts/validate.sh",
-        "validation-contract.md"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/product",
-      "name": "product",
-      "description": "Interactive PRODUCT.md generation. Interviews you about mission, personas, value props, and competitive landscape, then generates a filled-in PRODUCT.md. Triggers: \"product\", \"create product doc\", \"product definition\", \"who is this for\".",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/product",
-      "commitHash": "c75fadd91ed1",
-      "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/update",
+      "id": "boshu2/agentops/skills/update",
       "name": "update",
       "description": "Reinstall all AgentOps skills globally from the latest source. Triggers: \"update skills\", \"reinstall skills\", \"sync skills\".",
       "categories": ["Other"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills-codex/update",
-      "commitHash": "c75fadd91ed1",
-      "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills/goals",
-      "name": "goals",
-      "description": "Maintain GOALS.yaml and GOALS.md fitness specifications. Measure fitness, manage directives, track drift, add/prune goals. Triggers: \"goals\", \"goal status\", \"show goals\", \"add goals\", \"prune goals\", \"clean goals\", \"goal drift\", \"goal history\", \"export goals\", \"meta goals\", \"migrate goals\".",
-      "categories": ["AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/goals",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        "SKILL.md",
-        "references/generation-heuristics.md",
-        "references/goals-schema.md",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/status",
-      "name": "status",
-      "description": "Single-screen dashboard showing current work, recent validations, flywheel health, and suggested next action. Triggers: \"status\", \"dashboard\", \"what am I working on\", \"where was I\".",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/status",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/.gitkeep",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/deps",
-      "name": "deps",
-      "description": "Dependency audit, update, vulnerability scanning, and license compliance. Triggers: \"deps\", \"dependencies\", \"update deps\", \"audit dependencies\", \"dependency update\", \"vulnerable dependencies\", \"outdated packages\", \"license check\", \"dep audit\".",
-      "categories": ["Security", "Business"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/deps",
-      "commitHash": "c75fadd91ed1",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/push",
-      "name": "push",
-      "description": "Test, commit, and push in one atomic workflow. Runs Go and Python tests, commits with conventional message, pushes to current branch.",
-      "categories": ["Development"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/push",
-      "commitHash": "c75fadd91ed1",
-      "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills/handoff",
-      "name": "handoff",
-      "description": "Create structured handoff for session continuation. Triggers: handoff, pause, save context, end session, pick up later, continue later.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/handoff",
-      "commitHash": "c75fadd91ed1",
-      "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills/harvest",
-      "name": "harvest",
-      "description": "Cross-rig knowledge consolidation. One-time sweep + ongoing tiered promotion. Walks all .agents/ directories, extracts learnings/patterns/research, deduplicates across rigs, and promotes high-value items to global hub. Triggers: \"harvest\", \"consolidate knowledge\", \"cross-rig sweep\", \"knowledge federation\", \"harvest knowledge\".\n",
-      "categories": ["Research", "AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/harvest",
-      "commitHash": "c75fadd91ed1",
-      "files": ["SKILL.md", "references/governance.md"]
-    },
-    {
-      "id": "boshu2/agentops/skills/inject",
-      "name": "inject",
-      "description": "Inject relevant knowledge into session context from .agents/ artifacts. Triggers: \"inject knowledge\", \"recall context\", SessionStart hook.",
-      "categories": ["AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/inject",
-      "commitHash": "c75fadd91ed1",
-      "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/swarm",
-      "name": "swarm",
-      "description": "Spawn isolated agents for parallel task execution with Codex session agents. Fresh context per agent (Ralph Wiggum pattern). Triggers: \"swarm\", \"spawn agents\", \"parallel work\", \"run in parallel\", \"parallel execution\".",
-      "categories": ["Development", "AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/swarm",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/backend-background-tasks.md",
-        "references/backend-codex-subagents.md",
-        "references/backend-inline.md",
-        "references/cold-start-contexts.md",
-        "references/conflict-recovery.md",
-        "references/local-mode.md",
-        "references/pre-spawn-friction-gates.md",
-        "references/ralph-loop-contract.md",
-        "references/validation-contract.md",
-        "references/worker-pitfalls.md",
-        "scripts/ol-ratchet.sh",
-        "scripts/ol-wave-loader.sh",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/evolve",
-      "name": "evolve",
-      "description": "Goal-driven fitness-scored improvement loop. Measures goals, picks worst gap, runs $rpi, compounds via knowledge flywheel. Also pulls from open beads when goals all pass. Accepts ordered roadmap via --queue for sequential execution with auto-unblocking. Use when you want to \"improve\", \"iterate\", \"fix issues\", \"work through tasks\", \"evolve\", \"check goal fitness\", \"run improvement loop\", \"pick up next work\", or \"run roadmap\".",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/evolve",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/artifacts.md",
-        "references/compounding.md",
-        "references/cycle-history.md",
-        "references/examples.md",
-        "references/goals-schema.md",
-        "references/oscillation.md",
-        "references/parallel-execution.md",
-        "references/pinned-queue.md",
-        "references/quality-mode.md",
-        "references/teardown.md",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/vibe",
-      "name": "vibe",
-      "description": "Comprehensive code validation. Runs complexity analysis then multi-model council. Answer: Is this code ready to ship? Triggers: \"vibe\", \"validate code\", \"check code\", \"review code\", \"code quality\", \"is this ready\".",
-      "categories": ["Research"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/vibe",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        "SKILL.md",
-        "references/deep-audit-protocol.md",
-        "references/deep-checks.md",
-        "references/examples.md",
-        "references/go-patterns.md",
-        "references/go-standards.md",
-        "references/json-standards.md",
-        "references/markdown-standards.md",
-        "references/patterns.md",
-        "references/python-standards.md",
-        "references/report-format.md",
-        "references/rust-standards.md",
-        "references/shell-standards.md",
-        "references/test-pyramid-weighting.md",
-        "references/typescript-standards.md",
-        "references/verification-report.md",
-        "references/vibe-coding.md",
-        "references/vibe-suppressions.md",
-        "references/write-time-quality.md",
-        "references/yaml-standards.md"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/recover",
-      "name": "recover",
-      "description": "Post-compaction context recovery. Detects in-progress RPI and evolve sessions, loads knowledge, shows recent work and pending tasks. In Codex, it also prefers the explicit hookless lifecycle path. Triggers: \"recover\", \"lost context\", \"where was I\", \"what was I working on\".",
-      "categories": ["Writing"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/recover",
-      "commitHash": "c75fadd91ed1",
-      "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills/ratchet",
-      "name": "ratchet",
-      "description": "Brownian Ratchet progress gates for RPI workflow. Check, record, verify. Triggers: \"check gate\", \"verify progress\", \"ratchet status\".",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/ratchet",
-      "commitHash": "c75fadd91ed1",
-      "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/security-suite",
-      "name": "security-suite",
-      "description": "Composable security suite for binary and prompt-surface assurance, static analysis, dynamic tracing, repo-native redteam scans, contract capture, baseline drift, and policy gating. Triggers: \"binary security\", \"reverse engineer binary\", \"black-box binary test\", \"behavioral trace\", \"baseline diff\", \"prompt redteam\", \"security suite\".",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/security-suite",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/agentops-redteam-pack.json",
-        "references/owasp-checklist.md",
-        "references/policy-example.json",
-        "scripts/prompt_redteam.py",
-        "scripts/security_suite.py",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/codex-team",
-      "name": "codex-team",
-      "description": "Use when you have 2+ tasks that Codex agents should execute. Runtime-native: Codex sub-agents when available, Codex CLI fallback otherwise. Handles file conflicts via merge/wave strategies. Triggers: \"codex team\", \"spawn codex\", \"codex agents\", \"use codex for\", \"codex fix\".",
-      "categories": ["Productivity", "Documents", "AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/codex-team",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/.gitkeep",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/pr-validate",
-      "name": "pr-validate",
-      "description": "PR-specific validation: isolation, upstream alignment, quality, scope creep. Triggers: \"validate PR\", \"pr validation\", \"check PR scope\", \"scope creep check\", \"isolation check\".",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/pr-validate",
-      "commitHash": "c75fadd91ed1",
-      "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills/grafana-platform-dashboard",
-      "name": "grafana-platform-dashboard",
-      "description": "Design, refactor, and validate Grafana dashboards for OpenShift/Kubernetes platform operations. Use when users ask to improve platform health dashboards, prioritize critical tenant-impacting signals, filter noise (for example ArgoCD), add Crossplane/Keycloak health panels, validate PromQL programmatically, or apply GrafanaDashboard CR changes live then promote to GitOps.",
-      "categories": ["Development", "DevOps", "Business"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/grafana-platform-dashboard",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        "SKILL.md",
-        "agents/openai.yaml",
-        "references/layout-guidelines.md",
-        "references/platform-contract.md",
-        "references/promql-library.md",
-        "scripts/grafanadashboard_roundtrip.sh",
-        "scripts/promql_scan_thanos.sh",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/scenario",
-      "name": "scenario",
-      "description": "Author and manage holdout scenarios for behavioral validation. Scenarios are stored in .agents/holdout/ where implementing agents cannot see them. Triggers: \"$scenario\", \"holdout\", \"behavioral scenario\", \"create scenario\", \"list scenarios\".",
-      "categories": ["AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/scenario",
-      "commitHash": "c75fadd91ed1",
-      "files": [".agentops-generated.json", "SKILL.md", "prompt.md"]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/bootstrap",
-      "name": "bootstrap",
-      "description": "One command to full AgentOps product layer. Sets up GOALS.md, PRODUCT.md, README.md, .agents/ structure, and hooks. Progressive -- fills gaps only. Triggers: \"bootstrap\", \"setup agentops\", \"initialize repo\", \"full setup\".",
-      "categories": ["AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/bootstrap",
-      "commitHash": "c75fadd91ed1",
-      "files": [".agentops-generated.json", "SKILL.md", "prompt.md"]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/crank",
-      "name": "crank",
-      "description": "Hands-free epic execution. Runs until ALL children are CLOSED. Uses Codex session agents for parallel waves. NO human prompts, NO stopping. Triggers: \"crank\", \"run epic\", \"execute epic\", \"run all tasks\", \"hands-free execution\", \"crank it\".",
-      "categories": ["AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/crank",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/commit-strategies.md",
-        "references/contract-template.md",
-        "references/de-sloppify.md",
-        "references/external-gate-protocol.md",
-        "references/failure-recovery.md",
-        "references/failure-taxonomy.md",
-        "references/fire.md",
-        "references/gc-pool-dispatch.md",
-        "references/plan-mutations.md",
-        "references/ralph-loop-contract.md",
-        "references/shared-task-notes.md",
-        "references/taskcreate-examples.md",
-        "references/team-coordination.md",
-        "references/test-first-mode.md",
-        "references/troubleshooting.md",
-        "references/uat-integration-wave.md",
-        "references/wave-patterns.md"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/bug-hunt",
-      "name": "bug-hunt",
-      "description": "Investigate suspected bugs or run proactive code audits. Triggers: \"bug\", \"broken\", \"doesn't work\", \"failing\", \"investigate bug\", \"debug\", \"find the bug\", \"troubleshoot\", \"audit code\", \"find bugs in\", \"code audit\", \"hunt bugs\".",
-      "categories": ["Development", "Security", "Research"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/bug-hunt",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        "SKILL.md",
-        "references/audit-report-template.md",
-        "references/bug-report-template.md",
-        "references/failure-categories.md",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/forge",
-      "name": "forge",
-      "description": "Mine transcripts for knowledge - decisions, learnings, failures, patterns. Triggers: \"forge insights\", \"mine transcripts\", \"extract knowledge\".",
-      "categories": ["Research"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/forge",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        "SKILL.md",
-        "references/.gitkeep",
-        "references/uncaptured-lesson-patterns.md",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/beads",
-      "name": "beads",
-      "description": "Manages git-based issue tracking using the bd CLI: creates issues, tracks blockers, routes work across rigs (independent workstreams with their own issue prefixes), and organizes beads (issues) hierarchically with parent-child dependencies. Beads marked \"slingable\" are ready to hand off between agents or sessions. Use when: \"track issues\", \"create beads issue\", \"show blockers\", \"what''s ready to work on\", \"beads routing\", \"prefix routing\", \"cross-rig beads\", \"slingable beads\", or git-based issue tracking with bd.",
-      "categories": ["Productivity", "AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/beads",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/ANTI_PATTERNS.md",
-        "references/BOUNDARIES.md",
-        "references/CLI_REFERENCE.md",
-        "references/DEPENDENCIES.md",
-        "references/INTEGRATION_PATTERNS.md",
-        "references/ISSUE_CREATION.md",
-        "references/MOLECULES.md",
-        "references/PATTERNS.md",
-        "references/RESUMABILITY.md",
-        "references/ROUTING.md",
-        "references/STATIC_DATA.md",
-        "references/TROUBLESHOOTING.md",
-        "references/WORKFLOWS.md",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/oss-docs",
-      "name": "oss-docs",
-      "description": "Scaffold and audit OSS documentation packs for open source projects. Triggers: \"add OSS docs\", \"setup contributing guide\", \"add changelog\", \"prepare for open source\", \"add AGENTS.md\", \"OSS documentation\".",
-      "categories": ["Writing", "Productivity", "AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/oss-docs",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        "SKILL.md",
-        "references/beads-patterns.md",
-        "references/documentation-tiers.md",
-        "references/project-types.md",
-        "scripts/audit-oss-docs.sh",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/retro",
-      "name": "retro",
-      "description": "Quick-capture a learning. For full retrospectives, use /post-mortem. Trigger phrases: \"quick learning\", \"capture lesson\", \"retro quick\".",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/retro",
-      "commitHash": "c75fadd91ed1",
+      "path": "skills/update",
+      "commitHash": "f788fc391081",
       "files": ["SKILL.md", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills/compile",
-      "name": "compile",
-      "description": "Knowledge compiler. Reads raw .agents/ artifacts (learnings, research, patterns, retros, findings) and compiles them into an interlinked markdown wiki at .agents/compiled/. Pluggable LLM backend via AGENTOPS_COMPILE_RUNTIME (ollama|claude). Also runs Mine → Grow → Defrag maintenance cycle and Lint pass for gaps/contradictions. Triggers: \"compile\", \"compile knowledge\", \"build wiki\", \"knowledge compile\", \"lint knowledge\", \"mine and grow\", \"knowledge defrag\", \"clean flywheel\".\n",
-      "categories": ["Development", "Design", "Research", "AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/compile",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        "SKILL.md",
-        "references/confidence-scoring.md",
-        "references/flywheel-diagnostics.md",
-        "references/knowledge-synthesis-patterns.md",
-        "scripts/compile.sh",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex-overrides/crank",
-      "name": "crank",
-      "description": "Hands-free epic execution for Codex using wave-based sub-agents and lead-side validation. Triggers: \"crank\", \"run epic\", \"execute epic\", \"run all tasks\", \"hands-free execution\", \"crank it\".",
-      "categories": ["AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex-overrides/crank",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        "SKILL.md",
-        "prompt.md",
-        "references/commit-strategies.md",
-        "references/failure-recovery.md",
-        "references/team-coordination.md",
-        "references/wave-patterns.md"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex-overrides/council",
-      "name": "council",
-      "description": "Multi-perspective review for Codex using the current sub-agent runtime. Triggers: \"council\", \"get consensus\", \"multi-model review\", \"multi-perspective review\", \"council validate\", \"council brainstorm\", \"council research\".",
-      "categories": ["Research", "AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex-overrides/council",
-      "commitHash": "c75fadd91ed1",
-      "files": ["SKILL.md", "prompt.md"]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/implement",
-      "name": "implement",
-      "description": "Execute a single issue with full lifecycle. Triggers: \"implement\", \"work on task\", \"build this\", \"start feature\", \"pick up next issue\", \"work on issue\".",
-      "categories": ["Design"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/implement",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/gate-checks.md",
-        "references/resume-protocol.md",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/pr-plan",
-      "name": "pr-plan",
-      "description": "Plan an open source PR contribution. Takes pr-research output and produces scope, acceptance criteria, and risk assessment. Triggers: \"pr plan\", \"contribution plan\", \"plan PR\", \"plan contribution\".",
-      "categories": ["Research"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/pr-plan",
-      "commitHash": "c75fadd91ed1",
-      "files": ["SKILL.md", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills/standards",
-      "name": "standards",
-      "description": "Language-specific coding standards and validation rules. Provides Python, Go, Rust, TypeScript, Shell, YAML, JSON, and Markdown standards. Auto-loaded by /vibe, /implement, /doc, /bug-hunt, /complexity based on file types.",
-      "categories": ["Development", "Documents"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/standards",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        "SKILL.md",
-        "references/behavioral-discipline.md",
-        "references/codex-skill.md",
-        "references/common-standards.md",
-        "references/examples-troubleshooting-template.md",
-        "references/go.md",
-        "references/json.md",
-        "references/llm-trust-boundary-checklist.md",
-        "references/markdown.md",
-        "references/python.md",
-        "references/race-condition-checklist.md",
-        "references/rust.md",
-        "references/shell.md",
-        "references/skill-structure.md",
-        "references/sql-safety-checklist.md",
-        "references/standards-index.md",
-        "references/test-pyramid.md",
-        "references/typescript.md",
-        "references/yaml.md",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/perf",
-      "name": "perf",
-      "description": "Performance profiling, benchmarking, regression detection, and optimization. Triggers: \"perf\", \"performance\", \"benchmark\", \"profile\", \"slow\", \"optimize\", \"latency\", \"throughput\", \"memory leak\", \"perf regression\".",
-      "categories": ["Documents"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/perf",
-      "commitHash": "c75fadd91ed1",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex-overrides/swarm",
-      "name": "swarm",
-      "description": "Spawn isolated Codex sub-agents for parallel task execution using the current runtime primitives. Triggers: \"swarm\", \"spawn agents\", \"parallel work\", \"run in parallel\", \"parallel execution\".",
-      "categories": ["Productivity", "AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex-overrides/swarm",
-      "commitHash": "c75fadd91ed1",
-      "files": ["SKILL.md", "prompt.md"]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/council",
-      "name": "council",
-      "description": "Multi-model consensus council. Spawns parallel judges with Codex session agents when available. Modes: validate, brainstorm, research. Triggers: \"council\", \"get consensus\", \"multi-model review\", \"multi-perspective review\", \"council validate\", \"council brainstorm\", \"council research\".",
-      "categories": ["Research", "AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/council",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/agent-prompts.md",
-        "references/backend-background-tasks.md",
-        "references/backend-codex-subagents.md",
-        "references/backend-inline.md",
-        "references/brainstorm-techniques.md",
-        "references/caching-guidance.md",
-        "references/cli-spawning.md",
-        "references/debate-protocol.md",
-        "references/explorers.md",
-        "references/finding-extraction.md",
-        "references/model-profiles.md",
-        "references/model-routing.md",
-        "references/output-format.md",
-        "references/personas.md",
-        "references/presets.md",
-        "references/quick-mode.md",
-        "references/ralph-loop-contract.md"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/brainstorm",
-      "name": "brainstorm",
-      "description": "Separate WHAT from HOW before planning. Clarify goals, explore approaches, capture structured design decisions. Triggers: brainstorm, explore idea, clarify goal, idea phase.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/brainstorm",
-      "commitHash": "c75fadd91ed1",
-      "files": ["SKILL.md", "references/red-team-checklist.md", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/discovery",
-      "name": "discovery",
-      "description": "Full discovery phase orchestrator. Brainstorm + ao search + research + plan + pre-mortem gate. Produces epic-id and execution-packet for $crank. Triggers: \"discovery\", \"discover\", \"explore and plan\", \"research and plan\", \"discovery phase\".",
-      "categories": ["Research"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/discovery",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/complexity-auto-detect.md",
-        "references/idempotency-and-resume.md",
-        "references/output-templates.md",
-        "references/phase-budgets.md",
-        "references/troubleshooting.md"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/pr-retro",
-      "name": "pr-retro",
-      "description": "Learn from PR outcomes. Analyzes accept/reject patterns and updates contribution lessons. Triggers: \"pr retro\", \"learn from PR\", \"PR outcome\", \"why was PR rejected\", \"analyze PR feedback\".",
-      "categories": ["Research"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/pr-retro",
-      "commitHash": "c75fadd91ed1",
-      "files": ["SKILL.md", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/dream",
-      "name": "dream",
-      "description": "Private overnight operator mode. Routes interactive Dream requests to the shared `ao overnight` engine for setup, bedtime runs, and morning reports. Triggers: \"$dream\", \"overnight\", \"bedtime run\", \"morning report\", \"dream setup\", \"dream report\", \"dream council\", \"dreamscape\".",
-      "categories": ["Productivity"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/dream",
-      "commitHash": "c75fadd91ed1",
-      "files": [".agentops-generated.json", "SKILL.md", "prompt.md"]
     },
     {
       "id": "boshu2/agentops/skills-codex/heal-skill",
@@ -10139,7 +9242,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/heal-skill",
-      "commitHash": "c75fadd91ed1",
+      "commitHash": "f788fc391081",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -10151,82 +9254,102 @@
       ]
     },
     {
-      "id": "boshu2/agentops/skills-codex/pre-mortem",
-      "name": "pre-mortem",
-      "description": "Validate a plan or spec before implementation using multi-model council. Answer: Is this good enough to implement? Triggers: \"pre-mortem\", \"validate plan\", \"validate spec\", \"is this ready\".",
-      "categories": ["Other"],
+      "id": "boshu2/agentops/skills-codex/research",
+      "name": "research",
+      "description": "Deep codebase exploration. Triggers: research, explore, investigate, understand, deep dive, current state.",
+      "categories": ["Research"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills-codex/pre-mortem",
-      "commitHash": "c75fadd91ed1",
+      "path": "skills-codex/research",
+      "commitHash": "f788fc391081",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
         "prompt.md",
-        "references/council-fail-patterns.md",
-        "references/enhancement-patterns.md",
-        "references/error-rescue-map-template.md",
-        "references/failure-taxonomy.md",
-        "references/prediction-tracking.md",
-        "references/simulation-prompts.md",
-        "references/spec-verification-checklist.md",
-        "references/temporal-interrogation.md",
+        "references/backend-background-tasks.md",
+        "references/backend-codex-subagents.md",
+        "references/backend-inline.md",
+        "references/context-discovery.md",
+        "references/deep-research-mcp.md",
+        "references/document-template.md",
+        "references/failure-patterns.md",
+        "references/iterative-retrieval.md",
+        "references/ralph-loop-contract.md",
+        "references/vibe-methodology.md",
+        "schemas/findings.json",
+        "scripts/validate.md",
         "scripts/validate.sh"
       ]
     },
     {
-      "id": "boshu2/agentops/skills-codex/design",
-      "name": "design",
-      "description": "Product validation gate for RPI pipeline. Validates goal alignment with PRODUCT.md before discovery. Checks: gap alignment, persona fit, competitive differentiation, precedent, scope boundaries. Council-gated with --preset=product. Triggers: \"design\", \"product validation\", \"validate product fit\", \"design gate\".",
-      "categories": ["Other"],
+      "id": "boshu2/agentops/skills/security",
+      "name": "security",
+      "description": "Continuous repository security scanning and release gating. Triggers: \"security scan\", \"security audit\", \"pre-release security\", \"run scanners\", \"check vulnerabilities\".",
+      "categories": ["Security"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills-codex/design",
-      "commitHash": "c75fadd91ed1",
+      "path": "skills/security",
+      "commitHash": "f788fc391081",
+      "files": ["SKILL.md", "scripts/security-gate.sh", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills/reverse-engineer-rpi",
+      "name": "reverse-engineer-rpi",
+      "description": "Reverse-engineer a product into a feature catalog, code map, and specs. Uses RPI-style loop with verification gates. Triggers: “reverse engineer”, “catalog features”, “feature inventory”, “code map”, “docs to code mapping”, “binary analysis”.",
+      "categories": ["Data & Analytics"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/reverse-engineer-rpi",
+      "commitHash": "f788fc391081",
       "files": [
-        ".agentops-generated.json",
+        ".gitignore",
         "SKILL.md",
-        "prompt.md",
-        "references/alignment-matrix.md",
-        "references/product-council-preset.md"
+        "agents/openai.yaml",
+        "fixtures/cc-sdd-v2.1.0/cli-surface-contracts.txt",
+        "fixtures/cc-sdd-v2.1.0/clone-metadata.json",
+        "fixtures/cc-sdd-v2.1.0/docs-features.txt",
+        "fixtures/cc-sdd-v2.1.0/feature-registry.yaml",
+        "references/templates/post-mortem.md.tmpl",
+        "references/templates/security/attack-surface.md.tmpl",
+        "references/templates/security/authn-authz.md.tmpl",
+        "references/templates/security/crypto-review.md.tmpl",
+        "references/templates/security/dataflow.md.tmpl",
+        "references/templates/security/findings.md.tmpl",
+        "references/templates/security/reproducibility.md.tmpl",
+        "references/templates/security/threat-model.md.tmpl",
+        "references/templates/spec-architecture.md.tmpl",
+        "references/templates/spec-cli-surface.md.tmpl",
+        "references/templates/spec-clone-mvp.md.tmpl",
+        "references/templates/spec-clone-vs-use.md.tmpl",
+        "references/templates/spec-code-map.md.tmpl"
       ]
     },
     {
-      "id": "boshu2/agentops/skills/beads",
-      "name": "beads",
-      "description": "Manages git-based issue tracking using the bd CLI: creates issues, tracks blockers, routes work across rigs (independent workstreams with their own issue prefixes), and organizes beads (issues) hierarchically with parent-child dependencies. Beads marked \"slingable\" are ready to hand off between agents or sessions. Use when: \"track issues\", \"create beads issue\", \"show blockers\", \"what's ready to work on\", \"beads routing\", \"prefix routing\", \"cross-rig beads\", \"slingable beads\", or git-based issue tracking with bd.",
-      "categories": ["Productivity", "AI & ML"],
+      "id": "boshu2/agentops/skills/bug-hunt",
+      "name": "bug-hunt",
+      "description": "Investigate suspected bugs or run proactive code audits. Triggers: \"bug\", \"broken\", \"doesn't work\", \"failing\", \"investigate bug\", \"debug\", \"find the bug\", \"troubleshoot\", \"audit code\", \"find bugs in\", \"code audit\", \"hunt bugs\".",
+      "categories": ["Development", "Security", "Research"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills/beads",
-      "commitHash": "c75fadd91ed1",
+      "path": "skills/bug-hunt",
+      "commitHash": "f788fc391081",
       "files": [
         "SKILL.md",
-        "references/ANTI_PATTERNS.md",
-        "references/BOUNDARIES.md",
-        "references/CLI_REFERENCE.md",
-        "references/DEPENDENCIES.md",
-        "references/INTEGRATION_PATTERNS.md",
-        "references/ISSUE_CREATION.md",
-        "references/MOLECULES.md",
-        "references/PATTERNS.md",
-        "references/RESUMABILITY.md",
-        "references/ROUTING.md",
-        "references/STATIC_DATA.md",
-        "references/TROUBLESHOOTING.md",
-        "references/WORKFLOWS.md",
+        "references/audit-report-template.md",
+        "references/bug-report-template.md",
+        "references/failure-categories.md",
         "scripts/validate.sh"
       ]
     },
     {
-      "id": "boshu2/agentops/skills-codex/readme",
-      "name": "readme",
-      "description": "Generate a gold-standard README for any project. Interviews you about the problem, generates a draft following battle-tested patterns, then council-validates it. Triggers: \"readme\", \"write readme\", \"generate readme\", \"improve readme\", \"rewrite readme\".",
-      "categories": ["Development", "Writing", "Productivity"],
+      "id": "boshu2/agentops/skills-codex/using-agentops",
+      "name": "using-agentops",
+      "description": "Meta skill explaining the AgentOps operating model. Hook-capable runtimes inject it at session start; Codex uses it through the explicit startup fallback. Covers bookkeeping, validation, primitives, flows, the RPI lifecycle, and the skill catalog.",
+      "categories": ["AI & ML"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills-codex/readme",
-      "commitHash": "c75fadd91ed1",
+      "path": "skills-codex/using-agentops",
+      "commitHash": "f788fc391081",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -10236,22 +9359,53 @@
       ]
     },
     {
-      "id": "boshu2/agentops/skills/discovery",
-      "name": "discovery",
-      "description": "Full discovery phase orchestrator. Brainstorm + ao search + research + plan + pre-mortem gate. Produces epic-id and execution-packet for /crank. Triggers: \"discovery\", \"discover\", \"explore and plan\", \"research and plan\", \"discovery phase\".",
-      "categories": ["Research"],
+      "id": "boshu2/agentops/skills/inject",
+      "name": "inject",
+      "description": "Inject relevant knowledge into session context from .agents/ artifacts. Triggers: \"inject knowledge\", \"recall context\", SessionStart hook.",
+      "categories": ["AI & ML"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills/discovery",
-      "commitHash": "c75fadd91ed1",
+      "path": "skills/inject",
+      "commitHash": "f788fc391081",
+      "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills/release",
+      "name": "release",
+      "description": "Release your software. Pre-flight validation, changelog generation, version bumps, release commit, tag, curated release notes. Boundary: everything up to the git tag. Triggers: \"release\", \"cut a release\", \"prepare release\", \"release check\".",
+      "categories": ["Development"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/release",
+      "commitHash": "f788fc391081",
       "files": [
         "SKILL.md",
-        "references/complexity-auto-detect.md",
-        "references/idempotency-and-resume.md",
-        "references/output-templates.md",
-        "references/phase-budgets.md",
-        "references/troubleshooting.md"
+        "references/release-cadence.md",
+        "references/release-notes.md",
+        "scripts/validate.sh"
       ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/recover",
+      "name": "recover",
+      "description": "Post-compaction context recovery. Detects in-progress RPI and evolve sessions, loads knowledge, shows recent work and pending tasks. In Codex, it also prefers the explicit hookless lifecycle path. Triggers: \"recover\", \"lost context\", \"where was I\", \"what was I working on\".",
+      "categories": ["Writing"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/recover",
+      "commitHash": "f788fc391081",
+      "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills/scaffold",
+      "name": "scaffold",
+      "description": "Project scaffolding, component generation, and boilerplate setup. Triggers: \"scaffold\", \"new project\", \"init project\", \"create project\", \"generate component\", \"setup project\", \"starter\", \"boilerplate\".",
+      "categories": ["Productivity"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/scaffold",
+      "commitHash": "f788fc391081",
+      "files": ["SKILL.md"]
     },
     {
       "id": "boshu2/agentops/skills/crank",
@@ -10261,7 +9415,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/crank",
-      "commitHash": "c75fadd91ed1",
+      "commitHash": "f788fc391081",
       "files": [
         "SKILL.md",
         "references/claude-code-latest-features.md",
@@ -10286,136 +9440,572 @@
       ]
     },
     {
-      "id": "boshu2/agentops/skills/openai-docs",
-      "name": "openai-docs",
-      "description": "Use when the user asks how to build with OpenAI products or APIs and needs up-to-date official documentation with citations (for example: Codex, Responses API, Chat Completions, Apps SDK, Agents SDK, Realtime, model capabilities or limits); prioritize OpenAI docs MCP tools and restrict any fallback browsing to official OpenAI domains.",
-      "categories": ["Development", "Writing", "AI & ML"],
+      "id": "boshu2/agentops/skills-codex-overrides/swarm",
+      "name": "swarm",
+      "description": "Spawn isolated Codex sub-agents for parallel task execution using the current runtime primitives. Triggers: \"swarm\", \"spawn agents\", \"parallel work\", \"run in parallel\", \"parallel execution\".",
+      "categories": ["Productivity", "AI & ML"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills/openai-docs",
-      "commitHash": "c75fadd91ed1",
-      "files": [
-        "LICENSE.txt",
-        "SKILL.md",
-        "agents/openai.yaml",
-        "assets/openai-small.svg",
-        "assets/openai.png",
-        "scripts/validate.sh"
-      ]
+      "path": "skills-codex-overrides/swarm",
+      "commitHash": "f788fc391081",
+      "files": ["SKILL.md", "prompt.md"]
     },
     {
-      "id": "boshu2/agentops/skills-codex/bug-hunt",
-      "name": "bug-hunt",
-      "description": "Investigate suspected bugs or run proactive code audits. Triggers: \"bug\", \"broken\", \"doesn''t work\", \"failing\", \"investigate bug\", \"debug\", \"find the bug\", \"troubleshoot\", \"audit code\", \"find bugs in\", \"code audit\", \"hunt bugs\".",
-      "categories": ["Development", "Security", "Research"],
+      "id": "boshu2/agentops/skills-codex/council",
+      "name": "council",
+      "description": "Multi-model consensus council. Spawns parallel judges with Codex session agents when available. Modes: validate, brainstorm, research. Triggers: \"council\", \"get consensus\", \"multi-model review\", \"multi-perspective review\", \"council validate\", \"council brainstorm\", \"council research\".",
+      "categories": ["Research", "AI & ML"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills-codex/bug-hunt",
-      "commitHash": "c75fadd91ed1",
+      "path": "skills-codex/council",
+      "commitHash": "f788fc391081",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
         "prompt.md",
-        "references/audit-report-template.md",
-        "references/bug-report-template.md",
-        "references/failure-categories.md",
-        "scripts/validate.sh"
+        "references/agent-prompts.md",
+        "references/backend-background-tasks.md",
+        "references/backend-codex-subagents.md",
+        "references/backend-inline.md",
+        "references/brainstorm-techniques.md",
+        "references/caching-guidance.md",
+        "references/cli-spawning.md",
+        "references/debate-protocol.md",
+        "references/explorers.md",
+        "references/finding-extraction.md",
+        "references/model-profiles.md",
+        "references/model-routing.md",
+        "references/output-format.md",
+        "references/personas.md",
+        "references/presets.md",
+        "references/quick-mode.md",
+        "references/ralph-loop-contract.md"
       ]
     },
     {
-      "id": "boshu2/agentops/skills-codex/retro",
-      "name": "retro",
-      "description": "Quick-capture a learning. For full retrospectives, use $post-mortem. Trigger phrases: \"quick learning\", \"capture lesson\", \"retro quick\".",
+      "id": "boshu2/agentops/skills/harvest",
+      "name": "harvest",
+      "description": "Cross-rig knowledge consolidation. One-time sweep + ongoing tiered promotion. Walks all .agents/ directories, extracts learnings/patterns/research, deduplicates across rigs, and promotes high-value items to global hub. Triggers: \"harvest\", \"consolidate knowledge\", \"cross-rig sweep\", \"knowledge federation\", \"harvest knowledge\".\n",
+      "categories": ["Research", "AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/harvest",
+      "commitHash": "f788fc391081",
+      "files": ["SKILL.md", "references/governance.md"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/shared",
+      "name": "shared",
+      "description": "Shared reference documents for multi-agent skills (not directly invocable)",
+      "categories": ["AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/shared",
+      "commitHash": "f788fc391081",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/.gitkeep",
+        "references/backend-background-tasks.md",
+        "references/backend-codex-subagents.md",
+        "references/backend-inline.md",
+        "references/cli-command-failures-2026-02-26.md",
+        "references/codex-cli-verified-commands.md",
+        "references/compaction-signals.md",
+        "references/content-hash-cache.md",
+        "references/orchestration-as-prompt.md",
+        "references/ralph-loop-contract.md",
+        "scripts/validate.sh",
+        "validation-contract.md"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/deps",
+      "name": "deps",
+      "description": "Dependency audit, update, vulnerability scanning, and license compliance. Triggers: \"deps\", \"dependencies\", \"update deps\", \"audit dependencies\", \"dependency update\", \"vulnerable dependencies\", \"outdated packages\", \"license check\", \"dep audit\".",
+      "categories": ["Security", "Business"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/deps",
+      "commitHash": "f788fc391081",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/standards",
+      "name": "standards",
+      "description": "Language-specific coding standards and validation rules. Provides Python, Go, Rust, TypeScript, Shell, YAML, JSON, and Markdown standards. Auto-loaded by $vibe, $implement, $doc, $bug-hunt, $complexity based on file types.",
+      "categories": ["Development", "Documents"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/standards",
+      "commitHash": "f788fc391081",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/behavioral-discipline.md",
+        "references/codex-skill.md",
+        "references/common-standards.md",
+        "references/examples-troubleshooting-template.md",
+        "references/go.md",
+        "references/json.md",
+        "references/llm-trust-boundary-checklist.md",
+        "references/markdown.md",
+        "references/python.md",
+        "references/race-condition-checklist.md",
+        "references/rust.md",
+        "references/shell.md",
+        "references/skill-structure.md",
+        "references/sql-safety-checklist.md",
+        "references/standards-index.md",
+        "references/test-pyramid.md",
+        "references/typescript.md"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/pr-validate",
+      "name": "pr-validate",
+      "description": "PR-specific validation: isolation, upstream alignment, quality, scope creep. Triggers: \"validate PR\", \"pr validation\", \"check PR scope\", \"scope creep check\", \"isolation check\".",
       "categories": ["Other"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills-codex/retro",
-      "commitHash": "c75fadd91ed1",
-      "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
+      "path": "skills/pr-validate",
+      "commitHash": "f788fc391081",
+      "files": ["SKILL.md", "scripts/validate.sh"]
     },
     {
-      "id": "boshu2/agentops/skills/rpi",
-      "name": "rpi",
-      "description": "Full RPI lifecycle orchestrator. Delegates to /discovery, /crank, /validation phase skills. One command, full lifecycle with complexity classification, --from routing, and optional loop. Triggers: \"rpi\", \"full lifecycle\", \"research plan implement\", \"end to end\".",
-      "categories": ["Research"],
+      "id": "boshu2/agentops/skills-codex/quickstart",
+      "name": "quickstart",
+      "description": "New user onboarding. Detect setup, explain what AgentOps does, give one next action. Under 30 seconds. Triggers: \"quickstart\", \"get started\", \"onboarding\", \"how do I start\".",
+      "categories": ["Design", "AI & ML"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills/rpi",
-      "commitHash": "c75fadd91ed1",
+      "path": "skills-codex/quickstart",
+      "commitHash": "f788fc391081",
       "files": [
+        ".agentops-generated.json",
         "SKILL.md",
-        "references/autonomous-execution.md",
-        "references/complexity-scaling.md",
-        "references/context-windowing.md",
-        "references/discovery-artifact-mode.md",
-        "references/error-handling.md",
-        "references/examples.md",
-        "references/gate-retry-logic.md",
-        "references/gate4-loop-and-spawn.md",
-        "references/phase-budgets.md",
-        "references/phase-data-contracts.md",
-        "references/report-template.md",
+        "prompt.md",
+        "references/full-catalog.md",
+        "references/getting-started.md",
         "references/troubleshooting.md",
         "scripts/validate.sh"
       ]
     },
     {
-      "id": "boshu2/agentops/skills/council",
-      "name": "council",
-      "description": "Multi-model consensus council. Spawns parallel judges with configurable perspectives. Modes: validate, brainstorm, research. Triggers: \"council\", \"get consensus\", \"multi-model review\", \"multi-perspective review\", \"council validate\", \"council brainstorm\", \"council research\".",
-      "categories": ["Research", "AI & ML"],
+      "id": "boshu2/agentops/skills/bootstrap",
+      "name": "bootstrap",
+      "description": "One command to full AgentOps product layer. Sets up GOALS.md, PRODUCT.md, README.md, .agents/ structure, and hooks. Progressive — fills gaps only. Triggers: \"bootstrap\", \"setup agentops\", \"initialize repo\", \"full setup\".",
+      "categories": ["AI & ML"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills/council",
-      "commitHash": "c75fadd91ed1",
+      "path": "skills/bootstrap",
+      "commitHash": "f788fc391081",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/perf",
+      "name": "perf",
+      "description": "Performance profiling, benchmarking, regression detection, and optimization. Triggers: \"perf\", \"performance\", \"benchmark\", \"profile\", \"slow\", \"optimize\", \"latency\", \"throughput\", \"memory leak\", \"perf regression\".",
+      "categories": ["Documents"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/perf",
+      "commitHash": "f788fc391081",
+      "files": [".agentops-generated.json", "SKILL.md", "prompt.md"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/dream",
+      "name": "dream",
+      "description": "Private overnight operator mode. Routes interactive Dream requests to the shared `ao overnight` engine for setup, bedtime runs, and morning reports. Triggers: \"$dream\", \"overnight\", \"bedtime run\", \"morning report\", \"dream setup\", \"dream report\", \"dream council\", \"dreamscape\".",
+      "categories": ["Productivity"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/dream",
+      "commitHash": "f788fc391081",
+      "files": [".agentops-generated.json", "SKILL.md", "prompt.md"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/readme",
+      "name": "readme",
+      "description": "Generate a gold-standard README for any project. Interviews you about the problem, generates a draft following battle-tested patterns, then council-validates it. Triggers: \"readme\", \"write readme\", \"generate readme\", \"improve readme\", \"rewrite readme\".",
+      "categories": ["Development", "Writing", "Productivity"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/readme",
+      "commitHash": "f788fc391081",
       "files": [
+        ".agentops-generated.json",
         "SKILL.md",
-        "references/agent-prompts.md",
-        "references/architecture-flow.md",
-        "references/backend-background-tasks.md",
-        "references/backend-claude-teams.md",
-        "references/backend-codex-subagents.md",
-        "references/backend-inline.md",
-        "references/brainstorm-techniques.md",
-        "references/caching-guidance.md",
-        "references/claude-code-latest-features.md",
-        "references/cli-spawning.md",
-        "references/consensus-and-output.md",
-        "references/debate-protocol.md",
-        "references/evidence-mode.md",
-        "references/examples-extended.md",
-        "references/explorers.md",
-        "references/finding-extraction.md",
-        "references/flags-reference.md",
-        "references/model-profiles.md",
-        "references/model-routing.md"
+        "prompt.md",
+        "references/.gitkeep",
+        "scripts/validate.sh"
       ]
     },
     {
-      "id": "boshu2/agentops/skills/research",
-      "name": "research",
-      "description": "Deep codebase exploration. Triggers: research, explore, investigate, understand, deep dive, current state.",
+      "id": "boshu2/agentops/skills-codex/converter",
+      "name": "converter",
+      "description": "Cross-platform skill converter. Parse AgentOps skills into a universal bundle format, then convert to target platforms (Codex, Cursor). Triggers: convert, converter, convert skill, export skill, cross-platform.",
+      "categories": ["Development", "Documents"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/converter",
+      "commitHash": "f788fc391081",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/skill-bundle-schema.md",
+        "scripts/convert.sh",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/beads",
+      "name": "beads",
+      "description": "Manages git-based issue tracking using the bd CLI: creates issues, tracks blockers, routes work across rigs (independent workstreams with their own issue prefixes), and organizes beads (issues) hierarchically with parent-child dependencies. Beads marked \"slingable\" are ready to hand off between agents or sessions. Use when: \"track issues\", \"create beads issue\", \"show blockers\", \"what's ready to work on\", \"beads routing\", \"prefix routing\", \"cross-rig beads\", \"slingable beads\", or git-based issue tracking with bd.",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/beads",
+      "commitHash": "f788fc391081",
+      "files": [
+        "SKILL.md",
+        "references/ANTI_PATTERNS.md",
+        "references/BOUNDARIES.md",
+        "references/CLI_REFERENCE.md",
+        "references/DEPENDENCIES.md",
+        "references/INTEGRATION_PATTERNS.md",
+        "references/ISSUE_CREATION.md",
+        "references/MOLECULES.md",
+        "references/PATTERNS.md",
+        "references/RESUMABILITY.md",
+        "references/ROUTING.md",
+        "references/STATIC_DATA.md",
+        "references/TROUBLESHOOTING.md",
+        "references/WORKFLOWS.md",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/refactor",
+      "name": "refactor",
+      "description": "Safe, verified refactoring with regression testing at each step. Identify targets, plan transformation, execute incrementally. Triggers: \"refactor\", \"restructure\", \"extract\", \"rename\", \"move\", \"simplify\", \"reduce complexity\", \"clean up\", \"decompose\".",
+      "categories": ["Development"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/refactor",
+      "commitHash": "f788fc391081",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/vibe",
+      "name": "vibe",
+      "description": "Comprehensive code validation. Runs complexity analysis then multi-model council. Answer: Is this code ready to ship? Triggers: \"vibe\", \"validate code\", \"check code\", \"review code\", \"code quality\", \"is this ready\".",
       "categories": ["Research"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills/research",
-      "commitHash": "c75fadd91ed1",
+      "path": "skills-codex/vibe",
+      "commitHash": "f788fc391081",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/deep-audit-protocol.md",
+        "references/examples.md",
+        "references/go-patterns.md",
+        "references/go-standards.md",
+        "references/json-standards.md",
+        "references/markdown-standards.md",
+        "references/patterns.md",
+        "references/python-standards.md",
+        "references/report-format.md",
+        "references/rust-standards.md",
+        "references/shell-standards.md",
+        "references/test-pyramid-weighting.md",
+        "references/typescript-standards.md",
+        "references/verification-report.md",
+        "references/vibe-coding.md",
+        "references/vibe-suppressions.md",
+        "references/write-time-quality.md"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/product",
+      "name": "product",
+      "description": "Interactive PRODUCT.md generation. Interviews you about mission, personas, value props, and competitive landscape, then generates a filled-in PRODUCT.md. Triggers: \"product\", \"create product doc\", \"product definition\", \"who is this for\".",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/product",
+      "commitHash": "f788fc391081",
+      "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/compile",
+      "name": "compile",
+      "description": "Knowledge compiler. Reads raw .agents/ artifacts (learnings, research, patterns, retros, findings) and compiles them into an interlinked markdown wiki at .agents/compiled/. Pluggable LLM backend via AGENTOPS_COMPILE_RUNTIME (ollama|api). Also runs Mine → Grow → Defrag maintenance cycle and Lint pass for gaps/contradictions. Triggers: \"compile\", \"compile knowledge\", \"build wiki\", \"knowledge compile\", \"lint knowledge\", \"mine and grow\", \"knowledge defrag\", \"clean flywheel\".",
+      "categories": ["Development", "Design", "Research", "AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/compile",
+      "commitHash": "f788fc391081",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/confidence-scoring.md",
+        "references/flywheel-diagnostics.md",
+        "references/knowledge-synthesis-patterns.md",
+        "scripts/compile.sh",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/scenario",
+      "name": "scenario",
+      "description": "Author and manage holdout scenarios for behavioral validation. Scenarios are stored in .agents/holdout/ where implementing agents cannot see them. Triggers: \"$scenario\", \"holdout\", \"behavioral scenario\", \"create scenario\", \"list scenarios\".",
+      "categories": ["AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/scenario",
+      "commitHash": "f788fc391081",
+      "files": [".agentops-generated.json", "SKILL.md", "prompt.md"]
+    },
+    {
+      "id": "boshu2/agentops/skills/validation",
+      "name": "validation",
+      "description": "Full validation phase orchestrator. Vibe + post-mortem + retro + forge. Reviews implementation quality, extracts learnings, feeds the knowledge flywheel. Triggers: \"validation\", \"validate\", \"validate work\", \"review and learn\", \"validation phase\", \"post-implementation review\".",
+      "categories": ["Research"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/validation",
+      "commitHash": "f788fc391081",
       "files": [
         "SKILL.md",
-        "references/backend-background-tasks.md",
-        "references/backend-claude-teams.md",
-        "references/backend-codex-subagents.md",
-        "references/backend-inline.md",
-        "references/claude-code-latest-features.md",
-        "references/context-discovery.md",
-        "references/deep-research-mcp.md",
-        "references/document-template.md",
-        "references/failure-patterns.md",
-        "references/iterative-retrieval.md",
-        "references/ralph-loop-contract.md",
-        "references/vibe-methodology.md",
-        "schemas/findings.json",
-        "scripts/validate.md",
+        "references/forge-scope.md",
+        "references/four-surface-closure.md",
+        "references/idempotency-and-resume.md",
+        "references/step-1.8-behavioral-validation.md"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/status",
+      "name": "status",
+      "description": "Single-screen dashboard showing current work, recent validations, flywheel health, and suggested next action. Triggers: \"status\", \"dashboard\", \"what am I working on\", \"where was I\".",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/status",
+      "commitHash": "f788fc391081",
+      "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/discovery",
+      "name": "discovery",
+      "description": "Full discovery phase orchestrator. Brainstorm + ao search + research + plan + pre-mortem gate. Produces epic-id and execution-packet for $crank. Triggers: \"discovery\", \"discover\", \"explore and plan\", \"research and plan\", \"discovery phase\".",
+      "categories": ["Research"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/discovery",
+      "commitHash": "f788fc391081",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/complexity-auto-detect.md",
+        "references/idempotency-and-resume.md",
+        "references/output-templates.md",
+        "references/phase-budgets.md",
+        "references/troubleshooting.md"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/beads",
+      "name": "beads",
+      "description": "Manages git-based issue tracking using the bd CLI: creates issues, tracks blockers, routes work across rigs (independent workstreams with their own issue prefixes), and organizes beads (issues) hierarchically with parent-child dependencies. Beads marked \"slingable\" are ready to hand off between agents or sessions. Use when: \"track issues\", \"create beads issue\", \"show blockers\", \"what''s ready to work on\", \"beads routing\", \"prefix routing\", \"cross-rig beads\", \"slingable beads\", or git-based issue tracking with bd.",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/beads",
+      "commitHash": "f788fc391081",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/ANTI_PATTERNS.md",
+        "references/BOUNDARIES.md",
+        "references/CLI_REFERENCE.md",
+        "references/DEPENDENCIES.md",
+        "references/INTEGRATION_PATTERNS.md",
+        "references/ISSUE_CREATION.md",
+        "references/MOLECULES.md",
+        "references/PATTERNS.md",
+        "references/RESUMABILITY.md",
+        "references/ROUTING.md",
+        "references/STATIC_DATA.md",
+        "references/TROUBLESHOOTING.md",
+        "references/WORKFLOWS.md",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/pr-plan",
+      "name": "pr-plan",
+      "description": "Plan an open source PR contribution. Takes pr-research output and produces scope, acceptance criteria, and risk assessment. Triggers: \"pr plan\", \"contribution plan\", \"plan PR\", \"plan contribution\".",
+      "categories": ["Research"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/pr-plan",
+      "commitHash": "f788fc391081",
+      "files": ["SKILL.md", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills/recover",
+      "name": "recover",
+      "description": "Post-compaction context recovery. Detects in-progress RPI and evolve sessions, loads knowledge, shows recent work and pending tasks. In Codex v0.115.0+, native hooks handle lifecycle automatically; for older versions, it prefers the explicit hookless fallback path. Triggers: \"recover\", \"lost context\", \"where was I\", \"what was I working on\".",
+      "categories": ["Development", "Writing"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/recover",
+      "commitHash": "f788fc391081",
+      "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/pre-mortem",
+      "name": "pre-mortem",
+      "description": "Validate a plan or spec before implementation using multi-model council. Answer: Is this good enough to implement? Triggers: \"pre-mortem\", \"validate plan\", \"validate spec\", \"is this ready\".",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/pre-mortem",
+      "commitHash": "f788fc391081",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/council-fail-patterns.md",
+        "references/enhancement-patterns.md",
+        "references/error-rescue-map-template.md",
+        "references/failure-taxonomy.md",
+        "references/prediction-tracking.md",
+        "references/simulation-prompts.md",
+        "references/spec-verification-checklist.md",
+        "references/temporal-interrogation.md",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/evolve",
+      "name": "evolve",
+      "description": "Goal-driven v2 autonomous improvement loop. Runs the post-mortem, repo analysis, next-work selection, plan/pre-mortem, implementation, validation, and repeat cadence through $rpi and ao evolve. Also pulls from open beads when goals all pass and accepts ordered roadmaps via --queue. Use when you want to \"improve\", \"iterate\", \"fix issues\", \"work through tasks\", \"evolve\", \"check goal fitness\", \"run improvement loop\", \"pick up next work\", \"postmortem and continue\", or \"run roadmap\".",
+      "categories": ["Productivity"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/evolve",
+      "commitHash": "f788fc391081",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/artifacts.md",
+        "references/compounding.md",
+        "references/cycle-history.md",
+        "references/examples.md",
+        "references/goals-schema.md",
+        "references/oscillation.md",
+        "references/parallel-execution.md",
+        "references/pinned-queue.md",
+        "references/quality-mode.md",
+        "references/teardown.md",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/brainstorm",
+      "name": "brainstorm",
+      "description": "Separate WHAT from HOW before planning. Clarify goals, explore approaches, capture structured design decisions. Triggers: brainstorm, explore idea, clarify goal, idea phase.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/brainstorm",
+      "commitHash": "f788fc391081",
+      "files": ["SKILL.md", "references/red-team-checklist.md", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex-overrides/crank",
+      "name": "crank",
+      "description": "Hands-free epic execution for Codex using wave-based sub-agents and lead-side validation. Triggers: \"crank\", \"run epic\", \"execute epic\", \"run all tasks\", \"hands-free execution\", \"crank it\".",
+      "categories": ["AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex-overrides/crank",
+      "commitHash": "f788fc391081",
+      "files": [
+        "SKILL.md",
+        "prompt.md",
+        "references/commit-strategies.md",
+        "references/failure-recovery.md",
+        "references/team-coordination.md",
+        "references/wave-patterns.md"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/trace",
+      "name": "trace",
+      "description": "Trace design decisions and concepts through session history, handoffs, and git. Triggers: \"trace decision\", \"how did we decide\", \"where did this come from\", \"design provenance\", \"decision history\".",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/trace",
+      "commitHash": "f788fc391081",
+      "files": [
+        "SKILL.md",
+        "references/discovery-patterns.md",
+        "references/edge-cases.md",
+        "references/report-template.md",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/plan",
+      "name": "plan",
+      "description": "Epic decomposition into trackable issues. Triggers: \"create a plan\", \"plan implementation\", \"break down into tasks\", \"decompose into features\", \"create beads issues from research\", \"what issues should we create\", \"plan out the work\".",
+      "categories": ["Productivity", "Research"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/plan",
+      "commitHash": "f788fc391081",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/complexity-estimation.md",
+        "references/detail-templates.md",
+        "references/examples.md",
+        "references/plan-mutations.md",
+        "references/planning-rules.md",
+        "references/sdd-patterns.md",
+        "references/templates.md",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/oss-docs",
+      "name": "oss-docs",
+      "description": "Scaffold and audit OSS documentation packs for open source projects. Triggers: \"add OSS docs\", \"setup contributing guide\", \"add changelog\", \"prepare for open source\", \"add AGENTS.md\", \"OSS documentation\".",
+      "categories": ["Writing", "Productivity", "AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/oss-docs",
+      "commitHash": "f788fc391081",
+      "files": [
+        "SKILL.md",
+        "references/beads-patterns.md",
+        "references/documentation-tiers.md",
+        "references/project-types.md",
+        "scripts/audit-oss-docs.sh",
         "scripts/validate.sh"
       ]
     },
@@ -10427,7 +10017,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/rpi",
-      "commitHash": "c75fadd91ed1",
+      "commitHash": "f788fc391081",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -10447,33 +10037,337 @@
       ]
     },
     {
-      "id": "boshu2/agentops/skills/scaffold",
-      "name": "scaffold",
-      "description": "Project scaffolding, component generation, and boilerplate setup. Triggers: \"scaffold\", \"new project\", \"init project\", \"create project\", \"generate component\", \"setup project\", \"starter\", \"boilerplate\".",
-      "categories": ["Productivity"],
+      "id": "boshu2/agentops/skills/swarm",
+      "name": "swarm",
+      "description": "Spawn isolated agents for parallel task execution. Auto-selects runtime-native teams (Claude Native Teams in Claude sessions, Codex sub-agents in Codex sessions). Triggers: \"swarm\", \"spawn agents\", \"parallel work\", \"run in parallel\", \"parallel execution\".",
+      "categories": ["Productivity", "AI & ML"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills/scaffold",
-      "commitHash": "c75fadd91ed1",
+      "path": "skills/swarm",
+      "commitHash": "f788fc391081",
+      "files": [
+        "SKILL.md",
+        "references/backend-background-tasks.md",
+        "references/backend-claude-teams.md",
+        "references/backend-codex-subagents.md",
+        "references/backend-inline.md",
+        "references/claude-code-latest-features.md",
+        "references/cold-start-contexts.md",
+        "references/conflict-recovery.md",
+        "references/local-mode.md",
+        "references/pre-spawn-friction-gates.md",
+        "references/ralph-loop-contract.md",
+        "references/validation-contract.md",
+        "references/worker-pitfalls.md",
+        "scripts/ol-ratchet.sh",
+        "scripts/ol-wave-loader.sh",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/pr-retro",
+      "name": "pr-retro",
+      "description": "Learn from PR outcomes. Analyzes accept/reject patterns and updates contribution lessons. Triggers: \"pr retro\", \"learn from PR\", \"PR outcome\", \"why was PR rejected\", \"analyze PR feedback\".",
+      "categories": ["Research"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/pr-retro",
+      "commitHash": "f788fc391081",
+      "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills/review",
+      "name": "review",
+      "description": "Review incoming PRs, agent-generated changes, or diffs. Structured review with security, correctness, performance, and maintainability checks. Triggers: \"review\", \"review PR\", \"review changes\", \"code review\", \"review this PR\", \"review agent output\", \"check this diff\".",
+      "categories": ["Development", "AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/review",
+      "commitHash": "f788fc391081",
       "files": ["SKILL.md"]
     },
     {
-      "id": "boshu2/agentops/skills-codex/compile",
-      "name": "compile",
-      "description": "Knowledge compiler. Reads raw .agents/ artifacts (learnings, research, patterns, retros, findings) and compiles them into an interlinked markdown wiki at .agents/compiled/. Pluggable LLM backend via AGENTOPS_COMPILE_RUNTIME (ollama|api). Also runs Mine → Grow → Defrag maintenance cycle and Lint pass for gaps/contradictions. Triggers: \"compile\", \"compile knowledge\", \"build wiki\", \"knowledge compile\", \"lint knowledge\", \"mine and grow\", \"knowledge defrag\", \"clean flywheel\".",
-      "categories": ["Development", "Design", "Research", "AI & ML"],
+      "id": "boshu2/agentops/skills-codex/provenance",
+      "name": "provenance",
+      "description": "Trace knowledge artifact lineage and sources. Find orphans, stale citations. Triggers: \"where did this come from\", \"trace this learning\", \"knowledge lineage\".",
+      "categories": ["Research"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills-codex/compile",
-      "commitHash": "c75fadd91ed1",
+      "path": "skills-codex/provenance",
+      "commitHash": "f788fc391081",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
         "prompt.md",
+        "references/.gitkeep",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/security-suite",
+      "name": "security-suite",
+      "description": "Composable security suite for binary and prompt-surface assurance, static analysis, dynamic tracing, repo-native redteam scans, contract capture, baseline drift, and policy gating. Triggers: \"binary security\", \"reverse engineer binary\", \"black-box binary test\", \"behavioral trace\", \"baseline diff\", \"prompt redteam\", \"security suite\".",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/security-suite",
+      "commitHash": "f788fc391081",
+      "files": [
+        "SKILL.md",
+        "references/agentops-redteam-pack.json",
+        "references/owasp-checklist.md",
+        "references/policy-example.json",
+        "scripts/prompt_redteam.py",
+        "scripts/security_suite.py",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/bug-hunt",
+      "name": "bug-hunt",
+      "description": "Investigate suspected bugs or run proactive code audits. Triggers: \"bug\", \"broken\", \"doesn''t work\", \"failing\", \"investigate bug\", \"debug\", \"find the bug\", \"troubleshoot\", \"audit code\", \"find bugs in\", \"code audit\", \"hunt bugs\".",
+      "categories": ["Development", "Security", "Research"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/bug-hunt",
+      "commitHash": "f788fc391081",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/audit-report-template.md",
+        "references/bug-report-template.md",
+        "references/failure-categories.md",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/design",
+      "name": "design",
+      "description": "Product validation gate for RPI pipeline. Validates goal alignment with PRODUCT.md before discovery. Checks: gap alignment, persona fit, competitive differentiation, precedent, scope boundaries. Council-gated with --preset=product. Triggers: \"design\", \"product validation\", \"validate product fit\", \"design gate\".",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/design",
+      "commitHash": "f788fc391081",
+      "files": [
+        "SKILL.md",
+        "references/alignment-matrix.md",
+        "references/product-council-preset.md"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/handoff",
+      "name": "handoff",
+      "description": "Create structured handoff for session continuation. Triggers: handoff, pause, save context, end session, pick up later, continue later.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/handoff",
+      "commitHash": "f788fc391081",
+      "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills/autodev",
+      "name": "autodev",
+      "description": "Manage the PROGRAM.md operational contract that bounds autonomous development loops. Use when setting up or validating PROGRAM.md/AUTODEV.md, choosing between autodev and evolve, or turning a repeated postmortem -> analyze -> plan -> pre-mortem -> implement -> validate cycle into the v2 autonomous workflow.",
+      "categories": ["Productivity"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/autodev",
+      "commitHash": "f788fc391081",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "boshu2/agentops/skills/compile",
+      "name": "compile",
+      "description": "Knowledge compiler. Reads raw .agents/ artifacts (learnings, research, patterns, retros, findings) and compiles them into an interlinked markdown wiki at .agents/compiled/. Pluggable LLM backend via AGENTOPS_COMPILE_RUNTIME (ollama|claude). Also runs Mine → Grow → Defrag maintenance cycle and Lint pass for gaps/contradictions. Triggers: \"compile\", \"compile knowledge\", \"build wiki\", \"knowledge compile\", \"lint knowledge\", \"mine and grow\", \"knowledge defrag\", \"clean flywheel\".\n",
+      "categories": ["Development", "Design", "Research", "AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/compile",
+      "commitHash": "f788fc391081",
+      "files": [
+        "SKILL.md",
         "references/confidence-scoring.md",
         "references/flywheel-diagnostics.md",
         "references/knowledge-synthesis-patterns.md",
         "scripts/compile.sh",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/post-mortem",
+      "name": "post-mortem",
+      "description": "Wrap up completed work. Council validates the implementation, then extract and process learnings. Triggers: \"post-mortem\", \"wrap up\", \"close epic\", \"what did we learn\".",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/post-mortem",
+      "commitHash": "f788fc391081",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/activation-policy.md",
+        "references/backlog-processing.md",
+        "references/checkpoint-policy.md",
+        "references/closure-integrity-audit.md",
+        "references/context-gathering.md",
+        "references/four-surface-closure.md",
+        "references/harvest-next-work.md",
+        "references/learning-templates.md",
+        "references/maintenance-phases.md",
+        "references/metadata-verification.md",
+        "references/output-templates.md",
+        "references/plan-compliance-checklist.md",
+        "references/prediction-tracking.md",
+        "references/retro-history.md",
+        "references/security-patterns.md",
+        "references/streak-tracking.md",
+        "scripts/closure-integrity-audit.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/dream",
+      "name": "dream",
+      "description": "Private overnight operator mode. Routes interactive Dream requests to the shared `ao overnight` engine for setup, bedtime runs, and morning reports. Use when the user wants to bootstrap Dream, run an overnight compounding pass, inspect Dream Council or DreamScape output, or review the latest morning report. Triggers: \"dream\", \"overnight\", \"bedtime run\", \"morning report\", \"dream setup\", \"dream report\", \"dream council\", \"dreamscape\".\n",
+      "categories": ["Productivity"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/dream",
+      "commitHash": "f788fc391081",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/swarm",
+      "name": "swarm",
+      "description": "Spawn isolated agents for parallel task execution with Codex session agents. Fresh context per agent (Ralph Wiggum pattern). Triggers: \"swarm\", \"spawn agents\", \"parallel work\", \"run in parallel\", \"parallel execution\".",
+      "categories": ["Development", "AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/swarm",
+      "commitHash": "f788fc391081",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/backend-background-tasks.md",
+        "references/backend-codex-subagents.md",
+        "references/backend-inline.md",
+        "references/cold-start-contexts.md",
+        "references/conflict-recovery.md",
+        "references/local-mode.md",
+        "references/pre-spawn-friction-gates.md",
+        "references/ralph-loop-contract.md",
+        "references/validation-contract.md",
+        "references/worker-pitfalls.md",
+        "scripts/ol-ratchet.sh",
+        "scripts/ol-wave-loader.sh",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex-overrides/council",
+      "name": "council",
+      "description": "Multi-perspective review for Codex using the current sub-agent runtime. Triggers: \"council\", \"get consensus\", \"multi-model review\", \"multi-perspective review\", \"council validate\", \"council brainstorm\", \"council research\".",
+      "categories": ["Research", "AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex-overrides/council",
+      "commitHash": "f788fc391081",
+      "files": ["SKILL.md", "prompt.md"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/flywheel",
+      "name": "flywheel",
+      "description": "Knowledge flywheel health monitoring. Checks velocity, pool depths, staleness. Triggers: \"flywheel status\", \"knowledge health\", \"is knowledge compounding\".",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/flywheel",
+      "commitHash": "f788fc391081",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/.gitkeep",
+        "references/artifact-consistency-allowlist.txt",
+        "references/artifact-consistency.md",
+        "references/cache-eviction.md",
+        "references/promotion-tiers.md",
+        "scripts/artifact-consistency.sh",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/retro",
+      "name": "retro",
+      "description": "Quick-capture a learning. For full retrospectives, use $post-mortem. Trigger phrases: \"quick learning\", \"capture lesson\", \"retro quick\".",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/retro",
+      "commitHash": "f788fc391081",
+      "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/codex-team",
+      "name": "codex-team",
+      "description": "Use when you have 2+ tasks that Codex agents should execute. Runtime-native: Codex sub-agents when available, Codex CLI fallback otherwise. Handles file conflicts via merge/wave strategies. Triggers: \"codex team\", \"spawn codex\", \"codex agents\", \"use codex for\", \"codex fix\".",
+      "categories": ["Productivity", "Documents", "AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/codex-team",
+      "commitHash": "f788fc391081",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/.gitkeep",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/implement",
+      "name": "implement",
+      "description": "Execute a single issue with full lifecycle. Triggers: \"implement\", \"work on task\", \"build this\", \"start feature\", \"pick up next issue\", \"work on issue\".",
+      "categories": ["Design"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/implement",
+      "commitHash": "f788fc391081",
+      "files": [
+        "SKILL.md",
+        "references/gate-checks.md",
+        "references/resume-protocol.md",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/push",
+      "name": "push",
+      "description": "Test, commit, and push in one atomic workflow. Runs Go and Python tests, commits with conventional message, pushes to current branch.",
+      "categories": ["Development"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/push",
+      "commitHash": "f788fc391081",
+      "files": ["SKILL.md", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills/goals",
+      "name": "goals",
+      "description": "Maintain GOALS.yaml and GOALS.md fitness specifications. Measure fitness, manage directives, track drift, add/prune goals. Triggers: \"goals\", \"goal status\", \"show goals\", \"add goals\", \"prune goals\", \"clean goals\", \"goal drift\", \"goal history\", \"export goals\", \"meta goals\", \"migrate goals\".",
+      "categories": ["AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/goals",
+      "commitHash": "f788fc391081",
+      "files": [
+        "SKILL.md",
+        "references/generation-heuristics.md",
+        "references/goals-schema.md",
         "scripts/validate.sh"
       ]
     },
@@ -13726,17 +13620,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "assafelovic/skyll/skills/skyll",
-      "name": "skyll",
-      "description": "Search and retrieve agent skills at runtime. This skill should be used when the agent needs to find specialized capabilities, workflows, or domain knowledge to accomplish a task. Skyll aggregates skills from skills.sh and returns full SKILL.md content ready for context injection.",
-      "categories": ["Writing", "Productivity", "Research", "AI & ML"],
-      "author": "assafelovic",
-      "repo": "assafelovic/skyll",
-      "path": "skills/skyll",
-      "commitHash": "e20c79e7d99a",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "BrianRWagner/ai-marketing-claude-code-skills/go-mode",
       "name": "go-mode",
       "description": "Autonomous goal execution — give a goal, get a plan, confirm, execute, report. You steer, Claude drives.",
@@ -14042,6 +13925,17 @@
       "files": [".clawdhub/origin.json", "README.md", "SKILL-OC.md", "SKILL.md"]
     },
     {
+      "id": "assafelovic/skyll/skills/skyll",
+      "name": "skyll",
+      "description": "Search and retrieve agent skills at runtime. This skill should be used when the agent needs to find specialized capabilities, workflows, or domain knowledge to accomplish a task. Skyll aggregates skills from skills.sh and returns full SKILL.md content ready for context injection.",
+      "categories": ["Writing", "Productivity", "Research", "AI & ML"],
+      "author": "assafelovic",
+      "repo": "assafelovic/skyll",
+      "path": "skills/skyll",
+      "commitHash": "e20c79e7d99a",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "Ruya-AI/cozempic/plugin/skills/treat",
       "name": "treat",
       "description": "Prune bloated session with a prescription. Removes progress ticks, stale reads, duplicate content, and more.",
@@ -14061,39 +13955,6 @@
       "repo": "Ruya-AI/cozempic",
       "path": "plugin/skills/guard",
       "commitHash": "c1d5d2227a48",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Ruya-AI/cozempic/plugin/skills/doctor",
-      "name": "doctor",
-      "description": "Run health checks on Claude Code configuration and sessions. Use when troubleshooting Claude Code issues.",
-      "categories": ["Other"],
-      "author": "Ruya-AI",
-      "repo": "Ruya-AI/cozempic",
-      "path": "plugin/skills/doctor",
-      "commitHash": "63ce69a42576",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Ruya-AI/cozempic/plugin/skills/diagnose",
-      "name": "diagnose",
-      "description": "Analyze Claude Code session bloat — shows token count, context usage %, and bloat breakdown. Use when the user asks about session size, context usage, or when you notice the context window is getting full.",
-      "categories": ["Other"],
-      "author": "Ruya-AI",
-      "repo": "Ruya-AI/cozempic",
-      "path": "plugin/skills/diagnose",
-      "commitHash": "32be93ce6dee",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Ruya-AI/cozempic/plugin/skills/reload",
-      "name": "reload",
-      "description": "Treat the current session and auto-resume in a new terminal window.",
-      "categories": ["Other"],
-      "author": "Ruya-AI",
-      "repo": "Ruya-AI/cozempic",
-      "path": "plugin/skills/reload",
-      "commitHash": "bdbf682f4a79",
       "files": ["SKILL.md"]
     },
     {
@@ -15076,17 +14937,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/agentica-sdk",
-      "name": "agentica-sdk",
-      "description": "Build Python agents with Agentica SDK - @agentic decorator, spawn(), persistence, MCP integration",
-      "categories": ["Development", "Integration", "AI & ML"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/agentica-sdk",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/tldr-overview",
       "name": "tldr-overview",
       "description": "Get a token-efficient overview of any project using the TLDR stack",
@@ -15285,14 +15135,25 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/skill-upgrader",
-      "name": "skill-upgrader",
-      "description": "Upgrade any skill to v5 Hybrid format using decision theory + modal logic",
-      "categories": ["Other"],
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/cli-reference",
+      "name": "cli-reference",
+      "description": "Claude Code CLI commands, flags, headless mode, and automation patterns",
+      "categories": ["Development"],
       "author": "parcadei",
       "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/skill-upgrader",
-      "commitHash": "f8d7173d9e35",
+      "path": ".claude/skills/cli-reference",
+      "commitHash": "0854d473fbe4",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/research-agent",
+      "name": "research-agent",
+      "description": "Research agent for external documentation, best practices, and library APIs via MCP tools",
+      "categories": ["Development", "Integration", "Research"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/research-agent",
+      "commitHash": "e13603363d21",
       "files": ["SKILL.md"]
     },
     {
@@ -15888,6 +15749,17 @@
       "author": "parcadei",
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/math/odes-pdes/boundary-value-problems",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/mcp-chaining",
+      "name": "mcp-chaining",
+      "description": "Research-to-implement pipeline chaining 5 MCP tools with graceful degradation",
+      "categories": ["Research"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/mcp-chaining",
       "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
