@@ -122,7 +122,10 @@ jobs:
         id: crawl_complete
         if: success()
         run: |
-          INCOMPLETE=$(jq -r 'if .meta.rateLimited == true or .meta.timedOut == true or .meta.zipTimedOut == true then "yes" else "no" end' market/skills.json 2>/dev/null || echo "yes")
+          # Only rateLimited and timedOut indicate an incomplete crawl that needs
+          # re-triggering. zipTimedOut is handled by resume mode on the next run
+          # and should NOT cause a re-trigger (avoids infinite dispatch loops).
+          INCOMPLETE=$(jq -r 'if .meta.rateLimited == true or .meta.timedOut == true then "yes" else "no" end' market/skills.json 2>/dev/null || echo "yes")
           if [ "$INCOMPLETE" != "yes" ]; then
             echo "complete=true" >> $GITHUB_OUTPUT
           else
@@ -197,11 +200,13 @@ jobs:
           fi
 
       # If crawl was incomplete (timeout/rate limit) or crawl step failed (e.g. job timeout), trigger again.
-      # Run when: crawl step failed (no write, retry) OR crawl succeeded with has_changes (meta may be incomplete).
-      # When crawl fails we don't rely on meta; we re-trigger so the next run can resume.
+      # Only re-trigger when the crawl step itself failed (e.g. GHA timeout) OR
+      # meta explicitly says incomplete (rateLimited/timedOut). zipTimedOut alone
+      # is NOT a reason to re-trigger the full crawl — pending zips are handled
+      # in resume mode on the next scheduled run, avoiding infinite dispatch loops.
       # Requires WORKFLOW_DISPATCH_TOKEN (PAT with "workflow" scope); GITHUB_TOKEN cannot trigger new runs.
       - name: Re-trigger workflow if incomplete
-        if: always() && (steps.run_crawler.outcome != 'success' || steps.check_changes.outputs.has_changes == 'true')
+        if: failure() || (success() && steps.crawl_complete.outputs.complete == 'false')
         env:
           TOKEN: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
         run: |
@@ -210,7 +215,7 @@ jobs:
             echo "Crawl step failed (e.g. timeout), will re-trigger so next run can resume."
             INCOMPLETE=yes
           else
-            INCOMPLETE=$(jq -r 'if .meta.rateLimited == true or .meta.timedOut == true or .meta.zipTimedOut == true then "yes" else "no" end' market/skills.json 2>/dev/null || echo "yes")
+            INCOMPLETE=$(jq -r 'if .meta.rateLimited == true or .meta.timedOut == true then "yes" else "no" end' market/skills.json 2>/dev/null || echo "yes")
           fi
           if [ "$INCOMPLETE" != "yes" ]; then
             echo "Crawl complete, no re-trigger."

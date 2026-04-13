@@ -13,6 +13,7 @@ export class CrawlerCache {
     this.repos = new Map(); // repo-level cache: owner/repo -> { commitHash, skillKeys, url, branch, stats, fetchedAt }
     this.pendingZips = new Set(); // cache keys of skills that still need zip generation (from timeout)
     this.pendingR2Uploads = new Set(); // cache keys of skills that still need R2 upload
+    this.pendingZipRetries = new Map(); // cache key -> retry count (prevents infinite retry loops)
     /** In-memory only (not persisted): "owner/repo/commitHash" -> absolute path to archive extract root */
     this.archiveExtracts = new Map();
     this.isDirty = false;
@@ -47,6 +48,9 @@ export class CrawlerCache {
       this.pendingR2Uploads = Array.isArray(json.pendingR2Uploads)
         ? new Set(json.pendingR2Uploads)
         : new Set();
+      this.pendingZipRetries = json.pendingZipRetries
+        ? new Map(Object.entries(json.pendingZipRetries).map(([k, v]) => [k, Number(v)]))
+        : new Map();
 
       console.log(
         `Loaded cache: ${this.skills.size} skills, ${this.repos.size} repos.`,
@@ -67,6 +71,7 @@ export class CrawlerCache {
     this.repos = new Map();
     this.pendingZips = new Set();
     this.pendingR2Uploads = new Set();
+    this.pendingZipRetries = new Map();
     this.archiveExtracts = new Map();
   }
 
@@ -102,6 +107,7 @@ export class CrawlerCache {
         skills: Object.fromEntries(this.skills),
         pendingZips: Array.from(this.pendingZips),
         pendingR2Uploads: Array.from(this.pendingR2Uploads),
+        pendingZipRetries: Object.fromEntries(this.pendingZipRetries),
       };
       const tmpFile = `${CACHE_FILE}.tmp`;
       await fs.writeFile(tmpFile, JSON.stringify(json, null, 2), "utf-8");
@@ -123,6 +129,7 @@ export class CrawlerCache {
     this.repos = new Map();
     this.pendingZips = new Set();
     this.pendingR2Uploads = new Set();
+    this.pendingZipRetries = new Map();
     this.archiveExtracts = new Map();
     this.isDirty = true;
   }
@@ -172,13 +179,28 @@ export class CrawlerCache {
     this.archiveExtracts.clear();
   }
 
+  /** Max retries before dropping a pending zip to prevent infinite loops */
+  static MAX_PENDING_ZIP_RETRIES = 3;
+
   /**
-   * Add a skill cache key to the pending zip queue (for next run priority)
+   * Add a skill cache key to the pending zip queue (for next run priority).
+   * Tracks retry count; drops the key after MAX_PENDING_ZIP_RETRIES to prevent infinite loops.
    * @param {string} key - Skill cache key (owner/repo/path)
+   * @returns {boolean} true if added, false if max retries exceeded
    */
   addPendingZip(key) {
+    const retries = (this.pendingZipRetries.get(key) || 0) + 1;
+    if (retries > CrawlerCache.MAX_PENDING_ZIP_RETRIES) {
+      console.log(`  ⚠ Dropping pending zip ${key} after ${retries - 1} retries (max ${CrawlerCache.MAX_PENDING_ZIP_RETRIES})`);
+      this.pendingZips.delete(key);
+      this.pendingZipRetries.delete(key);
+      this.isDirty = true;
+      return false;
+    }
+    this.pendingZipRetries.set(key, retries);
     this.pendingZips.add(key);
     this.isDirty = true;
+    return true;
   }
 
   /**
@@ -190,19 +212,22 @@ export class CrawlerCache {
   }
 
   /**
-   * Clear the pending zip queue
+   * Clear the pending zip queue and retry counters
    */
   clearPendingZips() {
     this.pendingZips.clear();
+    this.pendingZipRetries.clear();
     this.isDirty = true;
   }
 
   /**
-   * Remove a single key from pending after successful processing
+   * Remove a single key from pending after successful processing.
+   * Also clears the retry counter so future pending additions start fresh.
    * @param {string} key - Skill cache key
    */
   removePendingZip(key) {
     this.pendingZips.delete(key);
+    this.pendingZipRetries.delete(key);
     this.isDirty = true;
   }
 

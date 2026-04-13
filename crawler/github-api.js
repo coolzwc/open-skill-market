@@ -280,41 +280,13 @@ export async function processRepoWithCache(
     `  Found ${skillFiles.length} SKILL.md file(s) in ${repoFullName}`,
   );
 
-  // Light pass: fetch each SKILL.md for name+description only, dedup within repo
-  const uniqueSignatures = new Set();
-  for (const filePath of skillFiles) {
-    if (shouldStopForTimeout()) break;
-    const available = await waitForCoreClient(workerPool);
-    if (!available) break;
-    try {
-      const client = workerPool.getClient();
-      const response = await client.octokit.rest.repos.getContent({
-        owner,
-        repo,
-        path: filePath,
-        ref: branch,
-      });
-      workerPool.updateClientRateLimit(client, response);
-      if (!response.data.content) continue;
-      const content = Buffer.from(response.data.content, "base64").toString("utf-8");
-      const parsed = parseSkillContent(content);
-      if (!parsed.isValid) continue;
-      const name = (parsed.name || "").toLowerCase().trim();
-      const desc = (parsed.description || "").toLowerCase().trim();
-      uniqueSignatures.add(`${name}::${desc}`);
-    } catch {
-      // Skip failed fetches for dedup count
-    }
-  }
-  const uniqueCount = uniqueSignatures.size;
-
-  // GitHub repo.size is in KB. When known, only allow archive if size < 100MB.
-  // Phase 3 (topic search) repos may lack size; then we try archive and rely on stream abort.
+  // Decide whether to use archive download based on skill file count (avoids
+  // a redundant "light pass" that would fetch every SKILL.md twice).
   const repoSizeBytes =
     repoDetails?.size != null ? repoDetails.size * 1024 : null;
   const useArchive =
     CONFIG.archiveDownloadMinSkills > 0 &&
-    uniqueCount > CONFIG.archiveDownloadMinSkills &&
+    skillFiles.length > CONFIG.archiveDownloadMinSkills &&
     (repoSizeBytes == null || repoSizeBytes < CONFIG.archiveMaxZipSizeBytes);
 
   let repoSkills = [];
@@ -978,32 +950,14 @@ export async function processSkillFileWithPool(
     // Calculate skill directory path
     const skillDirPath = path.dirname(filePath);
 
-    // 1. Get skill directory's latest commit hash
-    let skillDirCommitHash = "";
-    try {
-      const commitsResponse = await client.octokit.rest.repos.listCommits({
-        owner,
-        repo,
-        path: skillDirPath,
-        per_page: 1,
-      });
-      workerPool.updateClientRateLimit(client, commitsResponse);
+    // Use repo-level commit hash (already obtained by processRepoWithCache)
+    // instead of making a per-skill listCommits call — saves 1 API call per skill.
+    const skillDirCommitHash = repoCommitHash;
 
-      if (commitsResponse.data.length > 0) {
-        skillDirCommitHash = commitsResponse.data[0].sha.substring(0, 12);
-      }
-    } catch (error) {
-      // Failed to get commit hash, will use empty string
-      // This is non-critical - skill will still be processed
-      if (process.env.DEBUG) {
-        console.debug(`  Could not get commit hash for ${skillDirPath}: ${error.message}`);
-      }
-    }
-
-    // 2. Determine skill path
+    // Determine skill path
     const skillPath = determineSkillPath(filePath);
 
-    // 3. Check cache
+    // Check cache
     const cacheKey = CrawlerCache.generateSkillKey(owner, repo, skillPath);
     const cached = crawlerCache.getSkill(cacheKey);
 
@@ -1012,7 +966,6 @@ export async function processSkillFileWithPool(
       skillDirCommitHash &&
       cached.commitHash === skillDirCommitHash
     ) {
-      // Expand compact manifest back to full format (avoid mutating cached object)
       const repoStats = {
         stars: repoDetails?.stargazers_count || 0,
         forks: repoDetails?.forks_count || 0,
@@ -1027,7 +980,7 @@ export async function processSkillFileWithPool(
       return manifest;
     }
 
-    // 4. Fetch and process (cache miss)
+    // Cache miss — fetch and process
     const response = await client.octokit.rest.repos.getContent({
       owner,
       repo,
