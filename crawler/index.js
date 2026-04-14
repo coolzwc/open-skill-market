@@ -144,6 +144,12 @@ async function processPendingItems() {
       }
       // Invalid or missing: fall through to generate below
 
+      // Already in R2 and local copy gone — no need to regenerate
+      if (r2Enabled && crawlerCache.isR2Uploaded(key, skill.commitHash)) {
+        crawlerCache.removePendingZip(key);
+        continue;
+      }
+
       if (crawlerCache.isZipUnreachable(key, skill.commitHash)) {
         console.log(`  Skipping ${skill.name} (previously unreachable at this commit).`);
         crawlerCache.removePendingZip(key);
@@ -213,16 +219,23 @@ async function processPendingItems() {
     const tasks = [];
     for (const key of allR2Candidates) {
       const cached = crawlerCache.getSkill(key);
-      if (!cached?.manifest?.name) continue;
+      if (!cached?.manifest?.name) {
+        crawlerCache.removePendingZip(key);
+        continue;
+      }
 
       // Skip if already uploaded with same commit hash
       if (crawlerCache.isR2Uploaded(key, cached.commitHash)) {
         r2Skipped++;
+        crawlerCache.removePendingZip(key);
         continue;
       }
 
       const parsed = parseRepoUrl(cached.manifest.repository?.url || cached.manifest.repo);
-      if (!parsed) continue;
+      if (!parsed) {
+        crawlerCache.removePendingZip(key);
+        continue;
+      }
       const { owner, repo } = parsed;
       const skillName = safeZipName(cached.manifest.name);
       const zipFilename = `${owner}-${repo}-${skillName}.zip`;
@@ -723,8 +736,11 @@ async function main() {
           const p = parseRepoUrl(s.repository?.url);
           if (p) {
             const cacheKey = `${p.owner}/${p.repo}/${s.repository.path}`;
+            if (r2Enabled && crawlerCache.isR2Uploaded(cacheKey, s.commitHash)) {
+              continue;
+            }
             crawlerCache.addPendingZip(cacheKey);
-            if (r2Enabled && !crawlerCache.isR2Uploaded(cacheKey, s.commitHash)) {
+            if (r2Enabled) {
               crawlerCache.addPendingR2Upload(cacheKey);
             }
           }
@@ -762,6 +778,11 @@ async function main() {
               scheduleR2Upload(cacheKey, skill, owner, repo, isLastInRepo);
               continue;
             }
+            // Local copy gone but already in R2 — no need to regenerate
+            if (r2Enabled && crawlerCache.isR2Uploaded(cacheKey, skill.commitHash)) {
+              skippedCount++;
+              continue;
+            }
           }
         }
 
@@ -793,9 +814,11 @@ async function main() {
           crawlerCache.removeSkill(cacheKey);
           console.log(`  → Removed from cache (zombie skill: no files found).`);
         } else if (executionState.isTimedOut || isRetryableZipError(error)) {
-          crawlerCache.addPendingZip(cacheKey);
-          if (r2Enabled && !crawlerCache.isR2Uploaded(cacheKey, skill.commitHash)) {
-            crawlerCache.addPendingR2Upload(cacheKey);
+          if (!r2Enabled || !crawlerCache.isR2Uploaded(cacheKey, skill.commitHash)) {
+            crawlerCache.addPendingZip(cacheKey);
+            if (r2Enabled) {
+              crawlerCache.addPendingR2Upload(cacheKey);
+            }
           }
         }
         // Permanent non-retryable errors: don't add to pending
