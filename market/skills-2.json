@@ -105,15 +105,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "furkancingoz/aso-skill": {
-      "url": "https://github.com/furkancingoz/aso-skill",
+    "huangwb8/skills": {
+      "url": "https://github.com/huangwb8/skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "huangwb8/skills": {
-      "url": "https://github.com/huangwb8/skills",
+    "furkancingoz/aso-skill": {
+      "url": "https://github.com/furkancingoz/aso-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -147,15 +147,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "ForteScarlet/codex-kkp": {
-      "url": "https://github.com/ForteScarlet/codex-kkp",
+    "Agents365-ai/semanticscholar-skill": {
+      "url": "https://github.com/Agents365-ai/semanticscholar-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "Agents365-ai/semanticscholar-skill": {
-      "url": "https://github.com/Agents365-ai/semanticscholar-skill",
+    "ForteScarlet/codex-kkp": {
+      "url": "https://github.com/ForteScarlet/codex-kkp",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -252,6 +252,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "cjpatten/canadian-finance-planner-skill": {
+      "url": "https://github.com/cjpatten/canadian-finance-planner-skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "cmertdalli/polisci-review": {
       "url": "https://github.com/cmertdalli/polisci-review",
       "branch": "main",
@@ -261,13 +268,6 @@
     },
     "vulhunt-re/skills": {
       "url": "https://github.com/vulhunt-re/skills",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "cjpatten/canadian-finance-planner-skill": {
-      "url": "https://github.com/cjpatten/canadian-finance-planner-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -723,17 +723,6 @@
       "files": ["EXAMPLES.md", "REVIEWS.md", "SKILL.md", "TEMPLATES.md"]
     },
     {
-      "id": "furkancingoz/aso-skill",
-      "name": "aso",
-      "description": "Complete App Store Optimization toolkit - generate metadata in any language, analyze competitors, optimize keywords, set up IAPs/subscriptions, and submit to App Store Connect via direct API",
-      "categories": ["Development"],
-      "author": "furkancingoz",
-      "repo": "furkancingoz/aso-skill",
-      "path": "",
-      "commitHash": "38814baf84dc",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "huangwb8/skills/git-commit",
       "name": "git-commit",
       "description": "当用户明确要求\"提交 Git 改动\"、\"生成 commit 信息\"或\"创建 git commit\"时使用。仅用 Git 分析改动并自动生成 conventional commit 信息（可选 emoji）；必要时建议拆分提交，默认运行本地 Git 钩子（可 --no-verify 跳过），提交后默认自动 push（可 --no-push 跳过）。",
@@ -1183,6 +1172,17 @@
       ]
     },
     {
+      "id": "furkancingoz/aso-skill",
+      "name": "aso",
+      "description": "Complete App Store Optimization toolkit - generate metadata in any language, analyze competitors, optimize keywords, set up IAPs/subscriptions, and submit to App Store Connect via direct API",
+      "categories": ["Development"],
+      "author": "furkancingoz",
+      "repo": "furkancingoz/aso-skill",
+      "path": "",
+      "commitHash": "38814baf84dc",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "echoVic/spec-flow",
       "name": "spec-flow",
       "description": "Spec-driven development workflow. Interactive phase-by-phase confirmation from proposal to implementation. Trigger: 'spec-flow', 'spec mode', 'need a plan', 'structured development', 'write a spec', 'feature spec', 'technical spec', '需求文档', '技术方案', '任务拆解', '规格驱动', '写个方案', '做个规划', '结构化开发', 'plan this feature', 'break this down', 'design doc'. Creates .spec-flow/ directory with proposal, requirements, design, and tasks.",
@@ -1282,6 +1282,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "Agents365-ai/semanticscholar-skill",
+      "name": "semanticscholar-skill",
+      "description": "Use when searching academic papers, looking up citations, finding authors, or getting paper recommendations using the Semantic Scholar API. Triggers on queries about research papers, academic search, citation analysis, or literature discovery.",
+      "categories": ["Research"],
+      "author": "Agents365-ai",
+      "repo": "Agents365-ai/semanticscholar-skill",
+      "path": "",
+      "commitHash": "717511d9c69b",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "ForteScarlet/codex-kkp/claude-code-skills-template/codex-agent-collaboration",
       "name": "codex-agent-collaboration",
       "description": "Delegate coding tasks to Codex AI for implementation, analysis, and alternative solutions. Use when you need a second AI perspective, want to explore different approaches, or need specialized Codex capabilities for complex coding tasks.",
@@ -1297,17 +1308,6 @@
         "outputs.md",
         "sandbox-modes.md"
       ]
-    },
-    {
-      "id": "Agents365-ai/semanticscholar-skill",
-      "name": "semanticscholar-skill",
-      "description": "Use when searching academic papers, looking up citations, finding authors, or getting paper recommendations using the Semantic Scholar API. Triggers on queries about research papers, academic search, citation analysis, or literature discovery.",
-      "categories": ["Research"],
-      "author": "Agents365-ai",
-      "repo": "Agents365-ai/semanticscholar-skill",
-      "path": "",
-      "commitHash": "717511d9c69b",
-      "files": ["SKILL.md"]
     },
     {
       "id": "Ashutos1997/claude-design-auditor-skill",
@@ -1705,6 +1705,17 @@
       "files": ["SKILL.md", "scripts"]
     },
     {
+      "id": "cjpatten/canadian-finance-planner-skill",
+      "name": "financial-planner",
+      "description": "Your Personal Finance Manager for Canadians — an AI financial planning partner that conducts thorough financial interviews, builds complete plans, generates interactive dashboards, and provides ongoing coaching. Use this skill whenever someone asks about budgeting, saving, investing, debt strategy, retirement planning, tax optimization, government benefits, insurance, RRSPs, TFSAs, RESPs, CPP, OAS, or any aspect of personal finance in a Canadian context. Also triggers for \"should I buy this?\", \"can I afford this?\", financial check-ins, plan updates, life change impacts on finances, or any request to build or review a financial plan. Even if the user just says \"help me with my money\" or \"I need a budget\", this skill should activate. Canada-focused (v1).\n",
+      "categories": ["Design", "Productivity", "Business", "Finance"],
+      "author": "cjpatten",
+      "repo": "cjpatten/canadian-finance-planner-skill",
+      "path": "",
+      "commitHash": "51037ce9006e",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "cmertdalli/polisci-review/templates/codex-skill",
       "name": "polisci-review",
       "description": "Run a political science pre-submission audit with journal-aware personas, stage-aware standards, and evidence-grounded issue reporting.",
@@ -1790,17 +1801,6 @@
       "repo": "vulhunt-re/skills",
       "path": "plugins/vulhunt/skills/code-pattern-matching",
       "commitHash": "52a1443464bd",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cjpatten/canadian-finance-planner-skill",
-      "name": "financial-planner",
-      "description": "Your Personal Finance Manager for Canadians — an AI financial planning partner that conducts thorough financial interviews, builds complete plans, generates interactive dashboards, and provides ongoing coaching. Use this skill whenever someone asks about budgeting, saving, investing, debt strategy, retirement planning, tax optimization, government benefits, insurance, RRSPs, TFSAs, RESPs, CPP, OAS, or any aspect of personal finance in a Canadian context. Also triggers for \"should I buy this?\", \"can I afford this?\", financial check-ins, plan updates, life change impacts on finances, or any request to build or review a financial plan. Even if the user just says \"help me with my money\" or \"I need a budget\", this skill should activate. Canada-focused (v1).\n",
-      "categories": ["Design", "Productivity", "Business", "Finance"],
-      "author": "cjpatten",
-      "repo": "cjpatten/canadian-finance-planner-skill",
-      "path": "",
-      "commitHash": "51037ce9006e",
       "files": ["SKILL.md"]
     },
     {
