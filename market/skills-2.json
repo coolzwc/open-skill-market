@@ -154,15 +154,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "YIKUAIBANZI/forge-skill": {
-      "url": "https://github.com/YIKUAIBANZI/forge-skill",
+    "iamzifei/wechat-article-formatter-skill": {
+      "url": "https://github.com/iamzifei/wechat-article-formatter-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "iamzifei/wechat-article-formatter-skill": {
-      "url": "https://github.com/iamzifei/wechat-article-formatter-skill",
+    "YIKUAIBANZI/forge-skill": {
+      "url": "https://github.com/YIKUAIBANZI/forge-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -294,15 +294,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "ForteScarlet/codex-kkp": {
-      "url": "https://github.com/ForteScarlet/codex-kkp",
+    "Agents365-ai/semanticscholar-skill": {
+      "url": "https://github.com/Agents365-ai/semanticscholar-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "Agents365-ai/semanticscholar-skill": {
-      "url": "https://github.com/Agents365-ai/semanticscholar-skill",
+    "ForteScarlet/codex-kkp": {
+      "url": "https://github.com/ForteScarlet/codex-kkp",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -3543,6 +3543,17 @@
       "files": ["README.md", "SKILL.md", "scripts"]
     },
     {
+      "id": "iamzifei/wechat-article-formatter-skill",
+      "name": "wechat-article-formatter",
+      "description": "Format markdown and publish to WeChat Official Account via bm.md rendering + WeChat official API",
+      "categories": ["Development", "Writing", "Documents"],
+      "author": "iamzifei",
+      "repo": "iamzifei/wechat-article-formatter-skill",
+      "path": "",
+      "commitHash": "69e0ca1c7aac",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "YIKUAIBANZI/forge-skill/use-self",
       "name": "use-self",
       "description": "召唤你的数字替身进行决策辅助。多个版本的你同时分析一个决定，帮你看清局中看不清的自己。",
@@ -3606,17 +3617,6 @@
       "repo": "YIKUAIBANZI/forge-skill",
       "path": "evals/eval-consistency",
       "commitHash": "6bb2448003ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "iamzifei/wechat-article-formatter-skill",
-      "name": "wechat-article-formatter",
-      "description": "Format markdown and publish to WeChat Official Account via bm.md rendering + WeChat official API",
-      "categories": ["Development", "Writing", "Documents"],
-      "author": "iamzifei",
-      "repo": "iamzifei/wechat-article-formatter-skill",
-      "path": "",
-      "commitHash": "69e0ca1c7aac",
       "files": ["SKILL.md"]
     },
     {
@@ -4433,6 +4433,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "Agents365-ai/semanticscholar-skill",
+      "name": "semanticscholar-skill",
+      "description": "Use when searching academic papers, looking up citations, finding authors, or getting paper recommendations using the Semantic Scholar API. Triggers on queries about research papers, academic search, citation analysis, or literature discovery.",
+      "categories": ["Research"],
+      "author": "Agents365-ai",
+      "repo": "Agents365-ai/semanticscholar-skill",
+      "path": "",
+      "commitHash": "717511d9c69b",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "ForteScarlet/codex-kkp/claude-code-skills-template/codex-agent-collaboration",
       "name": "codex-agent-collaboration",
       "description": "Delegate coding tasks to Codex AI for implementation, analysis, and alternative solutions. Use when you need a second AI perspective, want to explore different approaches, or need specialized Codex capabilities for complex coding tasks.",
@@ -4448,17 +4459,6 @@
         "outputs.md",
         "sandbox-modes.md"
       ]
-    },
-    {
-      "id": "Agents365-ai/semanticscholar-skill",
-      "name": "semanticscholar-skill",
-      "description": "Use when searching academic papers, looking up citations, finding authors, or getting paper recommendations using the Semantic Scholar API. Triggers on queries about research papers, academic search, citation analysis, or literature discovery.",
-      "categories": ["Research"],
-      "author": "Agents365-ai",
-      "repo": "Agents365-ai/semanticscholar-skill",
-      "path": "",
-      "commitHash": "717511d9c69b",
-      "files": ["SKILL.md"]
     },
     {
       "id": "Ashutos1997/claude-design-auditor-skill",
