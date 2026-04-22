@@ -1,19 +1,5 @@
 {
   "repositories": {
-    "bitwize-music-studio/claude-ai-music-skills": {
-      "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "axiaoge2/Apple-Hig-Designer": {
-      "url": "https://github.com/axiaoge2/Apple-Hig-Designer",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "nokonoko1203/claude-code-settings": {
       "url": "https://github.com/nokonoko1203/claude-code-settings",
       "branch": "main",
@@ -63,15 +49,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "YIKUAIBANZI/forge-skill": {
-      "url": "https://github.com/YIKUAIBANZI/forge-skill",
+    "iamzifei/wechat-article-formatter-skill": {
+      "url": "https://github.com/iamzifei/wechat-article-formatter-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "iamzifei/wechat-article-formatter-skill": {
-      "url": "https://github.com/iamzifei/wechat-article-formatter-skill",
+    "YIKUAIBANZI/forge-skill": {
+      "url": "https://github.com/YIKUAIBANZI/forge-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -231,6 +217,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "brettdavies/crawl4ai-skill": {
+      "url": "https://github.com/brettdavies/crawl4ai-skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "proyecto26/sherlock-ai-plugin": {
       "url": "https://github.com/proyecto26/sherlock-ai-plugin",
       "branch": "main",
@@ -343,6 +336,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "wrsmith108/claude-md-optimizer": {
+      "url": "https://github.com/wrsmith108/claude-md-optimizer",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "sacredvoid/skillkit": {
       "url": "https://github.com/sacredvoid/skillkit",
       "branch": "main",
@@ -352,596 +352,6 @@
     }
   },
   "skills": [
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/help",
-      "name": "help",
-      "description": "Shows available skills, common workflows, and quick reference for the plugin. Use when the user asks for help, what skills are available, or how to do something.",
-      "categories": ["Other"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/help",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "SKILL_GLOSSARY.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/resume",
-      "name": "resume",
-      "description": "Finds an album by name and shows detailed status with next steps. Use when the user mentions an album name or wants to continue previous work.",
-      "categories": ["Other"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/resume",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/researcher",
-      "name": "researcher",
-      "description": "Conducts investigative-grade research with primary source analysis, cross-verification, and trial-level depth. Use when an album needs factual research, source material, or verification of claims.",
-      "categories": ["Research"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/researcher",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "free-sources.md", "source-standards.md", "templates.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/researchers-gov",
-      "name": "researchers-gov",
-      "description": "Researches DOJ/FBI/SEC press releases, agency statements, and government sources. Use when research needs official government records or agency documentation.",
-      "categories": ["Research"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/researchers-gov",
-      "commitHash": "7306bcaebf37",
-      "files": ["AGENCY_SOURCES.md", "SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/voice-checker",
-      "name": "voice-checker",
-      "description": "Reviews lyrics and prose for AI-written patterns (abstract noun stacking, over-explained metaphors, cliche escalation, missing idiosyncrasy, prose AI tells). Advisory Warning/Info severity — flags issues, does not block or rewrite. Use when reviewing lyrics for authenticity or before generation to catch AI-sounding language.",
-      "categories": ["Media"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/voice-checker",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/researchers-legal",
-      "name": "researchers-legal",
-      "description": "Researches court documents, indictments, plea agreements, and sentencing records. Use when the album subject involves legal proceedings or criminal cases.",
-      "categories": ["Research"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/researchers-legal",
-      "commitHash": "7306bcaebf37",
-      "files": ["DISCOVERY_GUIDE.md", "SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/session-start",
-      "name": "session-start",
-      "description": "Runs the session startup procedure - verifies setup, loads config and state, checks skill models, and reports project status. Use at the beginning of a fresh session.",
-      "categories": ["Productivity"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/session-start",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/cloud-uploader",
-      "name": "cloud-uploader",
-      "description": "Uploads promo videos and content to Cloudflare R2 or AWS S3. Use when the user wants to host promo content for social media or distribution.",
-      "categories": ["DevOps", "Marketing"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/cloud-uploader",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/suno-engineer",
-      "name": "suno-engineer",
-      "description": "Constructs technical Suno V5 style prompts, selects genres, and optimizes generation settings. Use when creating or refining Suno prompts for track generation.",
-      "categories": ["Other"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/suno-engineer",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "genre-practices.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/genre-creator",
-      "name": "genre-creator",
-      "description": "Create new genre documentation files for the bitwize-music genre library. Use when the user wants to add a genre, says \"/genre-creator\", \"neues Genre erstellen\", \"Genre hinzufuegen\", \"add genre\", or asks to create genre documentation. Takes a genre name as argument.",
-      "categories": ["Documents"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/genre-creator",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/import-audio",
-      "name": "import-audio",
-      "description": "Moves audio files to the correct album location with proper path structure. Use when the user has downloaded WAV files from Suno or other sources that need to be organized.",
-      "categories": ["Documents"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/import-audio",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/album-ideas",
-      "name": "album-ideas",
-      "description": "Tracks and manages album ideas including brainstorming, planning, and status updates. Use when the user wants to add, review, or organize their album idea backlog.",
-      "categories": ["Productivity"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/album-ideas",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "STATUS_VALUES.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/researchers-tech",
-      "name": "researchers-tech",
-      "description": "Researches project histories, changelogs, developer interviews, and open source documentation. Use when the album subject involves technology projects or developer stories.",
-      "categories": ["Development", "Research"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/researchers-tech",
-      "commitHash": "7306bcaebf37",
-      "files": ["PROJECT_RESEARCH.md", "SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/researchers-biographical",
-      "name": "researchers-biographical",
-      "description": "Researches personal backgrounds, interviews, motivations, and humanizing details. Use when research needs biographical context about people involved in the album's subject.",
-      "categories": ["Research"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/researchers-biographical",
-      "commitHash": "7306bcaebf37",
-      "files": ["INTERVIEW_SOURCES.md", "SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/researchers-primary-source",
-      "name": "researchers-primary-source",
-      "description": "Researches the subject's own words from tweets, blogs, forums, and chat logs. Use when research needs direct quotes or first-person accounts.",
-      "categories": ["Research"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/researchers-primary-source",
-      "commitHash": "7306bcaebf37",
-      "files": ["DIRECT_SOURCES.md", "SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/setup",
-      "name": "setup",
-      "description": "Detects your Python environment and guides you through installing plugin dependencies. Use on first-time setup or when MCP server fails to start.",
-      "categories": ["Design", "Productivity"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/setup",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/lyric-writer",
-      "name": "lyric-writer",
-      "description": "Writes or reviews lyrics with professional prosody, rhyme craft, and quality checks. Use when writing new lyrics, revising existing lyrics, or when the user says 'let's work on a track.'",
-      "categories": ["Writing"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/lyric-writer",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "craft-reference.md", "documentary-standards.md", "examples.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/explicit-checker",
-      "name": "explicit-checker",
-      "description": "Scans lyrics for explicit content and verifies that explicit flags match actual content. Use before Suno generation or release to ensure accurate content ratings.",
-      "categories": ["Other"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/explicit-checker",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/promo-reviewer",
-      "name": "promo-reviewer",
-      "description": "Reviews and iterates on social media copy in album promo/ files. Use after populating promo templates and before release to polish platform-specific posts.",
-      "categories": ["Writing", "Documents"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/promo-reviewer",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "platform-rules.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/pronunciation-specialist",
-      "name": "pronunciation-specialist",
-      "description": "Scans lyrics for pronunciation risks and prevents Suno mispronunciations. Use when writing lyrics with proper nouns, technical terms, homographs, or non-English words.",
-      "categories": ["Other"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/pronunciation-specialist",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "word-lists.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/configure",
-      "name": "configure",
-      "description": "Sets up or edits the plugin configuration file interactively. Use on first-time setup, when config is missing, or when the user wants to change settings.",
-      "categories": ["Productivity"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/configure",
-      "commitHash": "7306bcaebf37",
-      "files": ["SETTINGS_REFERENCE.md", "SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/import-art",
-      "name": "import-art",
-      "description": "Places album art files in the correct audio and content directory locations. Use when the user has generated or downloaded album artwork that needs to be saved.",
-      "categories": ["Documents"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/import-art",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/researchers-verifier",
-      "name": "researchers-verifier",
-      "description": "Performs quality control, citation validation, and fact-checking before human review. Use after research is complete to verify all sources and claims before production.",
-      "categories": ["Research"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/researchers-verifier",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "VERIFICATION_CHECKLIST.md", "checklists.md", "patterns.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/album-dashboard",
-      "name": "album-dashboard",
-      "description": "Shows a structured progress dashboard for an album with percentage complete per phase, blocking items, and status breakdown. Use for a quick visual overview of album progress.",
-      "categories": ["Design"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/album-dashboard",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/researchers-financial",
-      "name": "researchers-financial",
-      "description": "Researches SEC filings, earnings calls, analyst reports, and market data. Use when the album subject involves financial crimes, corporate stories, or market events.",
-      "categories": ["Data & Analytics", "Research", "Finance"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/researchers-financial",
-      "commitHash": "7306bcaebf37",
-      "files": ["SEC_FILING_GUIDE.md", "SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/next-step",
-      "name": "next-step",
-      "description": "Analyzes album state and recommends the optimal next action. Use when the user asks \"what should I do next?\" or \"what's left to do?\"",
-      "categories": ["Other"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/next-step",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/new-album",
-      "name": "new-album",
-      "description": "Creates a new album with the correct directory structure and templates. Use IMMEDIATELY when the user says 'make a new album' or similar, before any discussion.",
-      "categories": ["Other"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/new-album",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/verify-sources",
-      "name": "verify-sources",
-      "description": "Captures human source verification for tracks, timestamps it, and updates track files. Use when sources need human review before generation.",
-      "categories": ["Research"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/verify-sources",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/skill-model-updater",
-      "name": "skill-model-updater",
-      "description": "Updates model references across all skill files when new Claude models are released. Use when Anthropic releases new Claude models to keep skills current.",
-      "categories": ["AI & ML"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/skill-model-updater",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/sheet-music-publisher",
-      "name": "sheet-music-publisher",
-      "description": "Converts mastered audio to sheet music and creates printable songbooks. Use after mastering when the user wants sheet music or a songbook for their album.",
-      "categories": ["Documents", "Media"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/sheet-music-publisher",
-      "commitHash": "7306bcaebf37",
-      "files": [
-        "REQUIREMENTS.md",
-        "SKILL.md",
-        "anthemscore-reference.md",
-        "musescore-reference.md",
-        "publishing-guide.md",
-        "workflow-detail.md"
-      ]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/lyric-refiner",
-      "name": "lyric-refiner",
-      "description": "Autonomous multi-pass lyric refinement for tightening, cohesion, and album unity. Use after lyrics are written to polish a track or entire album through iterative passes.",
-      "categories": ["Other"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/lyric-refiner",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/tutorial",
-      "name": "tutorial",
-      "description": "Provides interactive guided album creation for new users. Use when the user is new to the plugin or asks for a walkthrough of the album creation process.",
-      "categories": ["Other"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/tutorial",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "phases.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/researchers-security",
-      "name": "researchers-security",
-      "description": "Researches malware analysis, CVEs, attribution reports, and hacker community sources. Use when the album subject involves cybersecurity incidents or threat actors.",
-      "categories": ["Security", "Data & Analytics", "Research"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/researchers-security",
-      "commitHash": "7306bcaebf37",
-      "files": ["CVE_RESEARCH.md", "SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/clipboard",
-      "name": "clipboard",
-      "description": "Copies track content (lyrics, style prompts, streaming lyrics) to the system clipboard. Use when the user needs to paste lyrics or style prompts into Suno or other external tools.",
-      "categories": ["Other"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/clipboard",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "USAGE_EXAMPLES.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/promo-director",
-      "name": "promo-director",
-      "description": "Generates 15-second vertical promo videos for social media from mastered audio. Use after mastering is complete and before release, when the user wants social media content.",
-      "categories": ["Media"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/promo-director",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "technical-reference.md", "visualization-guide.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/rename",
-      "name": "rename",
-      "description": "Renames an album or track, updating slugs, titles, and all mirrored paths. Use when the user wants to rename an album or track.",
-      "categories": ["Other"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/rename",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/lyric-reviewer",
-      "name": "lyric-reviewer",
-      "description": "Reviews lyrics against a quality checklist before Suno generation. Use before generating tracks to catch rhyme, prosody, pronunciation, and structural issues.",
-      "categories": ["Other"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/lyric-reviewer",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "checklist-reference.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/researchers-historical",
-      "name": "researchers-historical",
-      "description": "Researches archives, contemporary accounts, and timeline reconstruction. Use when the album subject involves historical events that need primary source verification.",
-      "categories": ["Research"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/researchers-historical",
-      "commitHash": "7306bcaebf37",
-      "files": ["ARCHIVE_SOURCES.md", "SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/document-hunter",
-      "name": "document-hunter",
-      "description": "Searches and retrieves documents from free public sources using automated browser navigation. Use when research needs primary source documents like court filings, government reports, or public records.",
-      "categories": ["Research"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/document-hunter",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "site-patterns.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/researchers-journalism",
-      "name": "researchers-journalism",
-      "description": "Researches investigative articles, interviews, and news coverage. Use when research needs journalistic sources for cross-referencing or additional context.",
-      "categories": ["Writing", "Research"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/researchers-journalism",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "SOURCE_EXTRACTION.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/mix-engineer",
-      "name": "mix-engineer",
-      "description": "Polishes raw Suno audio by processing per-stem WAVs (vocals, backing_vocals, drums, bass, guitar, keyboard, strings, brass, woodwinds, percussion, synth, other) with targeted cleanup, EQ, and compression, then remixing into a polished stereo WAV ready for mastering. Use after audio import and before mastering.",
-      "categories": ["Documents"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/mix-engineer",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "mix-presets.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/album-conceptualizer",
-      "name": "album-conceptualizer",
-      "description": "Designs album concepts, tracklist architecture, and thematic planning through 7 structured phases. Use when planning a new album or reworking an existing album concept.",
-      "categories": ["Other"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/album-conceptualizer",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "album-types.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/about",
-      "name": "about",
-      "description": "Provides information about the bitwize-music plugin, its version, and its creator. Use when the user asks about the plugin, its purpose, version, or capabilities.",
-      "categories": ["Development"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/about",
-      "commitHash": "7306bcaebf37",
-      "files": ["PROJECT_HISTORY.md", "SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/mastering-engineer",
-      "name": "mastering-engineer",
-      "description": "Guides audio mastering for streaming platforms including loudness optimization and tonal balance. Use when the user has approved tracks and wants to master audio files.",
-      "categories": ["Documents", "Media"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/mastering-engineer",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "genre-presets.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/plagiarism-checker",
-      "name": "plagiarism-checker",
-      "description": "Scans lyrics for phrases that may match existing songs using web search and LLM knowledge. Use before release to check for unintentional borrowing.",
-      "categories": ["Research"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/plagiarism-checker",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/release-director",
-      "name": "release-director",
-      "description": "Coordinates album release including QA, distribution prep, and platform uploads. Use when mastering and album art are complete and the user is ready to release.",
-      "categories": ["Other"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/release-director",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "platform-guides.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/promo-writer",
-      "name": "promo-writer",
-      "description": "Generates platform-specific social media copy from album themes, track concepts, and lyrics. Use when promo/ templates need to be populated before release.",
-      "categories": ["Writing", "Productivity"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/promo-writer",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "copy-formulas.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/pre-generation-check",
-      "name": "pre-generation-check",
-      "description": "Validates all pre-generation gates before sending tracks to Suno. Checks sources verified, lyrics reviewed, pronunciation resolved, explicit flag set, style prompt complete, and artist names cleared. Use before generating tracks on Suno or when the user says \"pre-gen check\" or \"ready to generate\".",
-      "categories": ["Design", "Research"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/pre-generation-check",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/validate-album",
-      "name": "validate-album",
-      "description": "Validates album directory structure, file locations, and content integrity. Use before release or whenever the user wants to check an album's structural health.",
-      "categories": ["Other"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/validate-album",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/album-art-director",
-      "name": "album-art-director",
-      "description": "Creates visual concepts for album artwork and generates AI art prompts. Use during planning for concept discussion, or after all tracks are Final for actual artwork generation.",
-      "categories": ["Design", "Productivity", "AI & ML"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/album-art-director",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "album-types.md", "prompt-examples.md", "visual-styles.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/import-track",
-      "name": "import-track",
-      "description": "Moves track markdown files to the correct album location. Use when the user has track files in Downloads or other locations that need to be placed in an album.",
-      "categories": ["Documents"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/import-track",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "bitwize-music-studio/claude-ai-music-skills/skills/test",
-      "name": "test",
-      "description": "Runs automated tests to validate plugin integrity across 14 categories. Use before creating PRs, after making changes to skills or templates, or to verify plugin health.",
-      "categories": ["Productivity"],
-      "author": "bitwize-music-studio",
-      "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "path": "skills/test",
-      "commitHash": "7306bcaebf37",
-      "files": ["SKILL.md", "test-definitions.md"]
-    },
-    {
-      "id": "axiaoge2/Apple-Hig-Designer",
-      "name": "apple-hig-designer",
-      "description": "Design Apple-style iOS/macOS interfaces following Human Interface Guidelines. Creates HIG-compliant components with SF Symbols, San Francisco typography, and proper accessibility. Supports optional modern effects. Use when designing Apple-style UI, iOS/macOS interfaces, HIG-compliant components, or implementing design system specifications.",
-      "categories": ["Design"],
-      "author": "axiaoge2",
-      "repo": "axiaoge2/Apple-Hig-Designer",
-      "path": "",
-      "commitHash": "ff17b91ff290",
-      "files": ["SKILL.md"]
-    },
     {
       "id": "nokonoko1203/claude-code-settings/skills/playwright-cli",
       "name": "playwright-cli",
@@ -1641,6 +1051,17 @@
       "files": ["README.md", "SKILL.md", "scripts"]
     },
     {
+      "id": "iamzifei/wechat-article-formatter-skill",
+      "name": "wechat-article-formatter",
+      "description": "Format markdown and publish to WeChat Official Account via bm.md rendering + WeChat official API",
+      "categories": ["Development", "Writing", "Documents"],
+      "author": "iamzifei",
+      "repo": "iamzifei/wechat-article-formatter-skill",
+      "path": "",
+      "commitHash": "69e0ca1c7aac",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "YIKUAIBANZI/forge-skill/use-self",
       "name": "use-self",
       "description": "召唤你的数字替身进行决策辅助。多个版本的你同时分析一个决定，帮你看清局中看不清的自己。",
@@ -1704,17 +1125,6 @@
       "repo": "YIKUAIBANZI/forge-skill",
       "path": "evals/eval-consistency",
       "commitHash": "6bb2448003ac",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "iamzifei/wechat-article-formatter-skill",
-      "name": "wechat-article-formatter",
-      "description": "Format markdown and publish to WeChat Official Account via bm.md rendering + WeChat official API",
-      "categories": ["Development", "Writing", "Documents"],
-      "author": "iamzifei",
-      "repo": "iamzifei/wechat-article-formatter-skill",
-      "path": "",
-      "commitHash": "69e0ca1c7aac",
       "files": ["SKILL.md"]
     },
     {
@@ -2601,6 +2011,17 @@
       "path": "skills/content-creator",
       "commitHash": "b2d79319d1d0",
       "files": ["SKILL.md", "assets", "references", "scripts"]
+    },
+    {
+      "id": "brettdavies/crawl4ai-skill/crawl4ai",
+      "name": "crawl4ai",
+      "description": "This skill should be used when users need to scrape websites, extract structured data, handle JavaScript-heavy pages, crawl multiple URLs, or build automated web data pipelines. Includes optimized extraction patterns with schema generation for efficient, LLM-free extraction.",
+      "categories": ["Development", "Data & Analytics", "Research", "AI & ML"],
+      "author": "brettdavies",
+      "repo": "brettdavies/crawl4ai-skill",
+      "path": "crawl4ai",
+      "commitHash": "2c595528f7d9",
+      "files": ["SKILL.md", "references", "scripts", "tests"]
     },
     {
       "id": "proyecto26/sherlock-ai-plugin/skills/paper2code",
@@ -4809,6 +4230,26 @@
         "examples/good-output.md",
         "verification/checklist.md"
       ]
+    },
+    {
+      "id": "wrsmith108/claude-md-optimizer",
+      "name": "claude-md-optimizer",
+      "description": "Optimize oversized CLAUDE.md files using progressive disclosure. Analyzes content tiers, detects encryption constraints, creates sub-documents, and rewrites the main file with a Sub-Documentation Table. Triggers: optimize CLAUDE.md, reduce CLAUDE.md size, CLAUDE.md too long, apply progressive disclosure to CLAUDE.md",
+      "categories": ["Writing", "Documents", "AI & ML"],
+      "author": "wrsmith108",
+      "repo": "wrsmith108/claude-md-optimizer",
+      "path": "",
+      "commitHash": "3c1a5258cfb8",
+      "version": "1.1.1",
+      "tags": [
+        "claude-md",
+        "optimization",
+        "progressive-disclosure",
+        "context-window",
+        "documentation"
+      ],
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
     },
     {
       "id": "sacredvoid/skillkit/skills/icons8",
