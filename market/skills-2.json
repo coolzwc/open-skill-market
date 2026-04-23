@@ -315,15 +315,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "IJONIS/geo-lint": {
-      "url": "https://github.com/IJONIS/geo-lint",
+    "proyecto26/sherlock-ai-plugin": {
+      "url": "https://github.com/proyecto26/sherlock-ai-plugin",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "proyecto26/sherlock-ai-plugin": {
-      "url": "https://github.com/proyecto26/sherlock-ai-plugin",
+    "IJONIS/geo-lint": {
+      "url": "https://github.com/IJONIS/geo-lint",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -371,6 +371,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "cjpatten/canadian-finance-planner-skill": {
+      "url": "https://github.com/cjpatten/canadian-finance-planner-skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "iamzifei/linkedin-article-publisher-skill": {
       "url": "https://github.com/iamzifei/linkedin-article-publisher-skill",
       "branch": "main",
@@ -380,13 +387,6 @@
     },
     "Yaroslavle/seo-content-writer-claude-skill": {
       "url": "https://github.com/Yaroslavle/seo-content-writer-claude-skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "cjpatten/canadian-finance-planner-skill": {
-      "url": "https://github.com/cjpatten/canadian-finance-planner-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -4483,28 +4483,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "IJONIS/geo-lint/skills/geo-lint",
-      "name": "geo-lint",
-      "description": "SEO & GEO content linter — validates Markdown/MDX files for AI search visibility using 92 deterministic rules (35 GEO, 32 SEO, 14 content quality, 8 technical, 3 i18n). Runs an autonomous lint-fix loop: scan content, read structured violations, fix them, re-lint until clean. Use when optimizing content for AI citations, auditing SEO compliance, checking GEO readiness, or running pre-publish content validation. Triggers on: \"geo-lint\", \"lint content\", \"SEO audit\", \"GEO\", \"content optimization\", \"AI search\", \"citation readiness\".\n",
-      "categories": ["Security", "Writing", "Documents", "Business", "Research"],
-      "author": "IJONIS",
-      "repo": "IJONIS/geo-lint",
-      "path": "skills/geo-lint",
-      "commitHash": "b2d79319d1d0",
-      "files": ["SKILL.md", "reference.md"]
-    },
-    {
-      "id": "IJONIS/geo-lint/skills/content-creator",
-      "name": "content-creator",
-      "description": "Self-configuring content creation pipeline with geo-lint validation. On first use, scans your project to learn its framework, content schema, categories, and authors, then creates SEO & GEO-optimized content matched to your brand voice. Validates every piece with geo-lint's 92 rules until zero violations. Triggers on: \"content-creator\", \"create content\", \"write blog\", \"new post\", \"content calendar\", \"brand voice\", \"content strategy\".\n",
-      "categories": ["Development", "Writing", "Productivity", "Data & Analytics", "Business"],
-      "author": "IJONIS",
-      "repo": "IJONIS/geo-lint",
-      "path": "skills/content-creator",
-      "commitHash": "b2d79319d1d0",
-      "files": ["SKILL.md", "assets", "references", "scripts"]
-    },
-    {
       "id": "proyecto26/sherlock-ai-plugin/skills/paper2code",
       "name": "paper2code",
       "description": "Analyzes research papers (PDF/arXiv URL) and converts them into executable code.\nAutomatically activated upon requests for paper replication, algorithm implementation, or research reproduction.\nResponds to requests like \"Implement this paper\", \"paper2code\", \"Convert paper to code\".\n",
@@ -4592,6 +4570,28 @@
       "path": "skills/deep-research",
       "commitHash": "0be95c939a12",
       "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "IJONIS/geo-lint/skills/geo-lint",
+      "name": "geo-lint",
+      "description": "SEO & GEO content linter — validates Markdown/MDX files for AI search visibility using 92 deterministic rules (35 GEO, 32 SEO, 14 content quality, 8 technical, 3 i18n). Runs an autonomous lint-fix loop: scan content, read structured violations, fix them, re-lint until clean. Use when optimizing content for AI citations, auditing SEO compliance, checking GEO readiness, or running pre-publish content validation. Triggers on: \"geo-lint\", \"lint content\", \"SEO audit\", \"GEO\", \"content optimization\", \"AI search\", \"citation readiness\".\n",
+      "categories": ["Security", "Writing", "Documents", "Business", "Research"],
+      "author": "IJONIS",
+      "repo": "IJONIS/geo-lint",
+      "path": "skills/geo-lint",
+      "commitHash": "b2d79319d1d0",
+      "files": ["SKILL.md", "reference.md"]
+    },
+    {
+      "id": "IJONIS/geo-lint/skills/content-creator",
+      "name": "content-creator",
+      "description": "Self-configuring content creation pipeline with geo-lint validation. On first use, scans your project to learn its framework, content schema, categories, and authors, then creates SEO & GEO-optimized content matched to your brand voice. Validates every piece with geo-lint's 92 rules until zero violations. Triggers on: \"content-creator\", \"create content\", \"write blog\", \"new post\", \"content calendar\", \"brand voice\", \"content strategy\".\n",
+      "categories": ["Development", "Writing", "Productivity", "Data & Analytics", "Business"],
+      "author": "IJONIS",
+      "repo": "IJONIS/geo-lint",
+      "path": "skills/content-creator",
+      "commitHash": "b2d79319d1d0",
+      "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
       "id": "lee-fuhr/claude-session-index/skills/session-index",
@@ -4810,6 +4810,17 @@
       "files": ["SKILL.md", "references"]
     },
     {
+      "id": "cjpatten/canadian-finance-planner-skill",
+      "name": "financial-planner",
+      "description": "Your Personal Finance Manager for Canadians — an AI financial planning partner that conducts thorough financial interviews, builds complete plans, generates interactive dashboards, and provides ongoing coaching. Use this skill whenever someone asks about budgeting, saving, investing, debt strategy, retirement planning, tax optimization, government benefits, insurance, RRSPs, TFSAs, RESPs, CPP, OAS, or any aspect of personal finance in a Canadian context. Also triggers for \"should I buy this?\", \"can I afford this?\", financial check-ins, plan updates, life change impacts on finances, or any request to build or review a financial plan. Even if the user just says \"help me with my money\" or \"I need a budget\", this skill should activate. Canada-focused (v1).\n",
+      "categories": ["Design", "Productivity", "Business", "Finance"],
+      "author": "cjpatten",
+      "repo": "cjpatten/canadian-finance-planner-skill",
+      "path": "",
+      "commitHash": "51037ce9006e",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "iamzifei/linkedin-article-publisher-skill/skills/linkedin-article-publisher",
       "name": "linkedin-article-publisher",
       "description": "Publish Markdown articles to LinkedIn Articles editor with proper formatting. Use when user wants to publish a Markdown file/URL to LinkedIn Articles, or mentions \"publish to LinkedIn\", \"post article to LinkedIn\", \"LinkedIn article\", or wants help with LinkedIn article publishing. Handles cover image upload and converts Markdown to rich text automatically.",
@@ -4829,17 +4840,6 @@
       "repo": "Yaroslavle/seo-content-writer-claude-skill",
       "path": "",
       "commitHash": "c07ae5f09db9",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cjpatten/canadian-finance-planner-skill",
-      "name": "financial-planner",
-      "description": "Your Personal Finance Manager for Canadians — an AI financial planning partner that conducts thorough financial interviews, builds complete plans, generates interactive dashboards, and provides ongoing coaching. Use this skill whenever someone asks about budgeting, saving, investing, debt strategy, retirement planning, tax optimization, government benefits, insurance, RRSPs, TFSAs, RESPs, CPP, OAS, or any aspect of personal finance in a Canadian context. Also triggers for \"should I buy this?\", \"can I afford this?\", financial check-ins, plan updates, life change impacts on finances, or any request to build or review a financial plan. Even if the user just says \"help me with my money\" or \"I need a budget\", this skill should activate. Canada-focused (v1).\n",
-      "categories": ["Design", "Productivity", "Business", "Finance"],
-      "author": "cjpatten",
-      "repo": "cjpatten/canadian-finance-planner-skill",
-      "path": "",
-      "commitHash": "51037ce9006e",
       "files": ["SKILL.md"]
     },
     {
