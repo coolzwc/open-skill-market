@@ -427,15 +427,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "hoavdc/CodexKit": {
-      "url": "https://github.com/hoavdc/CodexKit",
+    "wrsmith108/claude-md-optimizer": {
+      "url": "https://github.com/wrsmith108/claude-md-optimizer",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "wrsmith108/claude-md-optimizer": {
-      "url": "https://github.com/wrsmith108/claude-md-optimizer",
+    "hoavdc/CodexKit": {
+      "url": "https://github.com/hoavdc/CodexKit",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -5501,6 +5501,26 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "wrsmith108/claude-md-optimizer",
+      "name": "claude-md-optimizer",
+      "description": "Optimize oversized CLAUDE.md files using progressive disclosure. Analyzes content tiers, detects encryption constraints, creates sub-documents, and rewrites the main file with a Sub-Documentation Table. Triggers: optimize CLAUDE.md, reduce CLAUDE.md size, CLAUDE.md too long, apply progressive disclosure to CLAUDE.md",
+      "categories": ["Writing", "Documents", "AI & ML"],
+      "author": "wrsmith108",
+      "repo": "wrsmith108/claude-md-optimizer",
+      "path": "",
+      "commitHash": "3c1a5258cfb8",
+      "version": "1.1.1",
+      "tags": [
+        "claude-md",
+        "optimization",
+        "progressive-disclosure",
+        "context-window",
+        "documentation"
+      ],
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "hoavdc/CodexKit/skills/codexkit-bug-hunt",
       "name": "codexkit-bug-hunt",
       "description": "Reproduce, isolate, patch, and verify defects with explicit expected-versus-observed behavior.",
@@ -6709,26 +6729,6 @@
         "examples/good-output.md",
         "verification/checklist.md"
       ]
-    },
-    {
-      "id": "wrsmith108/claude-md-optimizer",
-      "name": "claude-md-optimizer",
-      "description": "Optimize oversized CLAUDE.md files using progressive disclosure. Analyzes content tiers, detects encryption constraints, creates sub-documents, and rewrites the main file with a Sub-Documentation Table. Triggers: optimize CLAUDE.md, reduce CLAUDE.md size, CLAUDE.md too long, apply progressive disclosure to CLAUDE.md",
-      "categories": ["Writing", "Documents", "AI & ML"],
-      "author": "wrsmith108",
-      "repo": "wrsmith108/claude-md-optimizer",
-      "path": "",
-      "commitHash": "3c1a5258cfb8",
-      "version": "1.1.1",
-      "tags": [
-        "claude-md",
-        "optimization",
-        "progressive-disclosure",
-        "context-window",
-        "documentation"
-      ],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
     },
     {
       "id": "sacredvoid/skillkit/skills/icons8",
