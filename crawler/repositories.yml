@@ -14,3 +14,4 @@ priority:
   - agentskills/agentskills
   - vuejs-ai/skills
   - huggingface/skills
+  - vibheksoni/ssh-api
