@@ -168,13 +168,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "salespeak-ai/buyer-eval-skill": {
-      "url": "https://github.com/salespeak-ai/buyer-eval-skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "hqhq1025/skill-optimizer": {
       "url": "https://github.com/hqhq1025/skill-optimizer",
       "branch": "main",
@@ -294,15 +287,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "Agents365-ai/semanticscholar-skill": {
-      "url": "https://github.com/Agents365-ai/semanticscholar-skill",
+    "ForteScarlet/codex-kkp": {
+      "url": "https://github.com/ForteScarlet/codex-kkp",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "ForteScarlet/codex-kkp": {
-      "url": "https://github.com/ForteScarlet/codex-kkp",
+    "Agents365-ai/semanticscholar-skill": {
+      "url": "https://github.com/Agents365-ai/semanticscholar-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -324,6 +317,13 @@
     },
     "IJONIS/geo-lint": {
       "url": "https://github.com/IJONIS/geo-lint",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "brettdavies/crawl4ai-skill": {
+      "url": "https://github.com/brettdavies/crawl4ai-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -3620,19 +3620,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "salespeak-ai/buyer-eval-skill",
-      "name": "buyer-eval",
-      "description": "Structured B2B software vendor evaluation for buyers. Researches your company,\nasks domain-expert questions, engages vendor AI agents via the Salespeak Frontdoor\nAPI, scores vendors across 7 dimensions, and produces a comparative recommendation\nwith evidence transparency. Use when asked to evaluate, compare, or research B2B\nsoftware vendors.\n",
-      "categories": ["Research", "AI & ML"],
-      "author": "salespeak-ai",
-      "repo": "salespeak-ai/buyer-eval-skill",
-      "path": "",
-      "commitHash": "4f9a578b1eb2",
-      "version": "3.2.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "hqhq1025/skill-optimizer/skills/skill-optimizer",
       "name": "skill-optimizer",
       "description": "Use when the user wants to analyze, audit, or improve their Agent Skills (SKILL.md files). Triggers on /optimize-skill, /skill-audit, 'optimize skills', 'analyze skills', 'check my skills', 'skill quality'. Also use proactively when the user mentions skills aren't triggering, skills feel broken, or asks why a skill didn't fire.",
@@ -4433,17 +4420,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "Agents365-ai/semanticscholar-skill",
-      "name": "semanticscholar-skill",
-      "description": "Use when searching academic papers, looking up citations, finding authors, or getting paper recommendations using the Semantic Scholar API. Triggers on queries about research papers, academic search, citation analysis, or literature discovery.",
-      "categories": ["Research"],
-      "author": "Agents365-ai",
-      "repo": "Agents365-ai/semanticscholar-skill",
-      "path": "",
-      "commitHash": "717511d9c69b",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "ForteScarlet/codex-kkp/claude-code-skills-template/codex-agent-collaboration",
       "name": "codex-agent-collaboration",
       "description": "Delegate coding tasks to Codex AI for implementation, analysis, and alternative solutions. Use when you need a second AI perspective, want to explore different approaches, or need specialized Codex capabilities for complex coding tasks.",
@@ -4459,6 +4435,17 @@
         "outputs.md",
         "sandbox-modes.md"
       ]
+    },
+    {
+      "id": "Agents365-ai/semanticscholar-skill",
+      "name": "semanticscholar-skill",
+      "description": "Use when searching academic papers, looking up citations, finding authors, or getting paper recommendations using the Semantic Scholar API. Triggers on queries about research papers, academic search, citation analysis, or literature discovery.",
+      "categories": ["Research"],
+      "author": "Agents365-ai",
+      "repo": "Agents365-ai/semanticscholar-skill",
+      "path": "",
+      "commitHash": "717511d9c69b",
+      "files": ["SKILL.md"]
     },
     {
       "id": "Ashutos1997/claude-design-auditor-skill",
@@ -4592,6 +4579,17 @@
       "path": "skills/content-creator",
       "commitHash": "b2d79319d1d0",
       "files": ["SKILL.md", "assets", "references", "scripts"]
+    },
+    {
+      "id": "brettdavies/crawl4ai-skill/crawl4ai",
+      "name": "crawl4ai",
+      "description": "This skill should be used when users need to scrape websites, extract structured data, handle JavaScript-heavy pages, crawl multiple URLs, or build automated web data pipelines. Includes optimized extraction patterns with schema generation for efficient, LLM-free extraction.",
+      "categories": ["Development", "Data & Analytics", "Research", "AI & ML"],
+      "author": "brettdavies",
+      "repo": "brettdavies/crawl4ai-skill",
+      "path": "crawl4ai",
+      "commitHash": "2c595528f7d9",
+      "files": ["SKILL.md", "references", "scripts", "tests"]
     },
     {
       "id": "lee-fuhr/claude-session-index/skills/session-index",
