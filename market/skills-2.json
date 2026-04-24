@@ -119,13 +119,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "LukeRenton/explore-claude-code": {
-      "url": "https://github.com/LukeRenton/explore-claude-code",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "dpconde/claude-android-skill": {
       "url": "https://github.com/dpconde/claude-android-skill",
       "branch": "main",
@@ -364,6 +357,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "ForteScarlet/codex-kkp": {
+      "url": "https://github.com/ForteScarlet/codex-kkp",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "Agents365-ai/semanticscholar-skill": {
       "url": "https://github.com/Agents365-ai/semanticscholar-skill",
       "branch": "main",
@@ -373,13 +373,6 @@
     },
     "Ashutos1997/claude-design-auditor-skill": {
       "url": "https://github.com/Ashutos1997/claude-design-auditor-skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "ForteScarlet/codex-kkp": {
-      "url": "https://github.com/ForteScarlet/codex-kkp",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -441,6 +434,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "Yaroslavle/seo-content-writer-claude-skill": {
+      "url": "https://github.com/Yaroslavle/seo-content-writer-claude-skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "cjpatten/canadian-finance-planner-skill": {
       "url": "https://github.com/cjpatten/canadian-finance-planner-skill",
       "branch": "main",
@@ -455,8 +455,8 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "Yaroslavle/seo-content-writer-claude-skill": {
-      "url": "https://github.com/Yaroslavle/seo-content-writer-claude-skill",
+    "cmertdalli/polisci-review": {
+      "url": "https://github.com/cmertdalli/polisci-review",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -464,13 +464,6 @@
     },
     "vulhunt-re/skills": {
       "url": "https://github.com/vulhunt-re/skills",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "cmertdalli/polisci-review": {
-      "url": "https://github.com/cmertdalli/polisci-review",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -3462,50 +3455,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "LukeRenton/explore-claude-code/.claude/skills/build-skill",
-      "name": "build-skill",
-      "description": "Builds new Claude Code skills with consistent structure, enforced standards, and project-aware configuration. Use when creating a new skill, when the user describes a workflow they want automated, or when the user says they want a new slash command.",
-      "categories": ["Development", "Productivity"],
-      "author": "LukeRenton",
-      "repo": "LukeRenton/explore-claude-code",
-      "path": ".claude/skills/build-skill",
-      "commitHash": "68ac333f62e3",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "LukeRenton/explore-claude-code/.claude/skills/build-agent",
-      "name": "build-agent",
-      "description": "Builds new Claude Code agents with consistent structure, enforced standards, and project-aware configuration. Use when creating a new agent, when the user describes a specialised role they want delegated to, or when discussing team composition.",
-      "categories": ["Development", "Productivity", "AI & ML"],
-      "author": "LukeRenton",
-      "repo": "LukeRenton/explore-claude-code",
-      "path": ".claude/skills/build-agent",
-      "commitHash": "68ac333f62e3",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "LukeRenton/explore-claude-code/.claude/skills/core-brainstorm",
-      "name": "core-brainstorm",
-      "description": "Collaborative brainstorming mode for thinking through problems, ideas, and features before planning. Use when the user wants to discuss, explore ideas, or think through a problem without writing code.",
-      "categories": ["Other"],
-      "author": "LukeRenton",
-      "repo": "LukeRenton/explore-claude-code",
-      "path": ".claude/skills/core-brainstorm",
-      "commitHash": "68ac333f62e3",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "LukeRenton/explore-claude-code/site/content/.claude/skills/my-skill",
-      "name": "my-skill",
-      "description": "What this skill does and when to use it. Claude reads this to decide relevance. Include keywords users would naturally say.",
-      "categories": ["Other"],
-      "author": "LukeRenton",
-      "repo": "LukeRenton/explore-claude-code",
-      "path": "site/content/.claude/skills/my-skill",
-      "commitHash": "68ac333f62e3",
-      "files": ["SKILL.md", "assets", "references", "scripts"]
-    },
-    {
       "id": "dpconde/claude-android-skill",
       "name": "android-development",
       "description": "Create production-quality Android applications following Google's official architecture guidance and NowInAndroid best practices. Use when building Android apps with Kotlin, Jetpack Compose, MVVM architecture, Hilt dependency injection, Room database, or multi-module projects. Triggers on requests to create Android projects, screens, ViewModels, repositories, feature modules, or when asked about Android architecture patterns.",
@@ -5870,6 +5819,23 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "ForteScarlet/codex-kkp/claude-code-skills-template/codex-agent-collaboration",
+      "name": "codex-agent-collaboration",
+      "description": "Delegate coding tasks to Codex AI for implementation, analysis, and alternative solutions. Use when you need a second AI perspective, want to explore different approaches, or need specialized Codex capabilities for complex coding tasks.",
+      "categories": ["Development", "AI & ML"],
+      "author": "ForteScarlet",
+      "repo": "ForteScarlet/codex-kkp",
+      "path": "claude-code-skills-template/codex-agent-collaboration",
+      "commitHash": "c829e64a944d",
+      "files": [
+        "SKILL.md",
+        "codex-kkp-cli-platform",
+        "examples.md",
+        "outputs.md",
+        "sandbox-modes.md"
+      ]
+    },
+    {
       "id": "Agents365-ai/semanticscholar-skill",
       "name": "semanticscholar-skill",
       "description": "Use when searching academic papers, looking up citations, finding authors, or getting paper recommendations using the Semantic Scholar API. Triggers on queries about research papers, academic search, citation analysis, or literature discovery.",
@@ -5901,23 +5867,6 @@
       "version": "1.2.6",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "ForteScarlet/codex-kkp/claude-code-skills-template/codex-agent-collaboration",
-      "name": "codex-agent-collaboration",
-      "description": "Delegate coding tasks to Codex AI for implementation, analysis, and alternative solutions. Use when you need a second AI perspective, want to explore different approaches, or need specialized Codex capabilities for complex coding tasks.",
-      "categories": ["Development", "AI & ML"],
-      "author": "ForteScarlet",
-      "repo": "ForteScarlet/codex-kkp",
-      "path": "claude-code-skills-template/codex-agent-collaboration",
-      "commitHash": "c829e64a944d",
-      "files": [
-        "SKILL.md",
-        "codex-kkp-cli-platform",
-        "examples.md",
-        "outputs.md",
-        "sandbox-modes.md"
-      ]
     },
     {
       "id": "proyecto26/sherlock-ai-plugin/skills/paper2code",
@@ -6247,6 +6196,17 @@
       "files": ["SKILL.md", "references"]
     },
     {
+      "id": "Yaroslavle/seo-content-writer-claude-skill",
+      "name": "seo-content-writer",
+      "description": "Full AI-assisted workflow for long-form SEO content (2,000+ words). Covers JTBD strategy, E-E-A-T quality standards, and 5 production phases: research, outline, draft, editing, and SEO/publishing. Built for B2B marketing agency context. Use when: user wants to write or optimize an SEO article, mentions \"SEO content\", \"blog post\", \"GTM article\", \"long-form content\", or asks to create content with keyword strategy.\n",
+      "categories": ["Design", "Writing", "Documents", "Marketing", "Research"],
+      "author": "Yaroslavle",
+      "repo": "Yaroslavle/seo-content-writer-claude-skill",
+      "path": "",
+      "commitHash": "c07ae5f09db9",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "cjpatten/canadian-finance-planner-skill",
       "name": "financial-planner",
       "description": "Your Personal Finance Manager for Canadians — an AI financial planning partner that conducts thorough financial interviews, builds complete plans, generates interactive dashboards, and provides ongoing coaching. Use this skill whenever someone asks about budgeting, saving, investing, debt strategy, retirement planning, tax optimization, government benefits, insurance, RRSPs, TFSAs, RESPs, CPP, OAS, or any aspect of personal finance in a Canadian context. Also triggers for \"should I buy this?\", \"can I afford this?\", financial check-ins, plan updates, life change impacts on finances, or any request to build or review a financial plan. Even if the user just says \"help me with my money\" or \"I need a budget\", this skill should activate. Canada-focused (v1).\n",
@@ -6269,15 +6229,15 @@
       "files": ["SKILL.md", "scripts"]
     },
     {
-      "id": "Yaroslavle/seo-content-writer-claude-skill",
-      "name": "seo-content-writer",
-      "description": "Full AI-assisted workflow for long-form SEO content (2,000+ words). Covers JTBD strategy, E-E-A-T quality standards, and 5 production phases: research, outline, draft, editing, and SEO/publishing. Built for B2B marketing agency context. Use when: user wants to write or optimize an SEO article, mentions \"SEO content\", \"blog post\", \"GTM article\", \"long-form content\", or asks to create content with keyword strategy.\n",
-      "categories": ["Design", "Writing", "Documents", "Marketing", "Research"],
-      "author": "Yaroslavle",
-      "repo": "Yaroslavle/seo-content-writer-claude-skill",
-      "path": "",
-      "commitHash": "c07ae5f09db9",
-      "files": ["SKILL.md"]
+      "id": "cmertdalli/polisci-review/templates/codex-skill",
+      "name": "polisci-review",
+      "description": "Run a political science pre-submission audit with journal-aware personas, stage-aware standards, and evidence-grounded issue reporting.",
+      "categories": ["Other"],
+      "author": "cmertdalli",
+      "repo": "cmertdalli/polisci-review",
+      "path": "templates/codex-skill",
+      "commitHash": "df5e14f35aee",
+      "files": ["SKILL.md", "agents"]
     },
     {
       "id": "vulhunt-re/skills/plugins/vulhunt/skills/functions",
@@ -6355,17 +6315,6 @@
       "path": "plugins/vulhunt/skills/code-pattern-matching",
       "commitHash": "52a1443464bd",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "cmertdalli/polisci-review/templates/codex-skill",
-      "name": "polisci-review",
-      "description": "Run a political science pre-submission audit with journal-aware personas, stage-aware standards, and evidence-grounded issue reporting.",
-      "categories": ["Other"],
-      "author": "cmertdalli",
-      "repo": "cmertdalli/polisci-review",
-      "path": "templates/codex-skill",
-      "commitHash": "df5e14f35aee",
-      "files": ["SKILL.md", "agents"]
     },
     {
       "id": "girijashankarj/cursor-handbook/.cursor/skills/backend/api-mock-server",
