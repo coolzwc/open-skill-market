@@ -1,82 +1,5 @@
 {
   "repositories": {
-    "a5c-ai/babysitter": {
-      "url": "https://github.com/a5c-ai/babysitter",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "tripleyak/SkillForge": {
-      "url": "https://github.com/tripleyak/SkillForge",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "mhattingpete/claude-skills-marketplace": {
-      "url": "https://github.com/mhattingpete/claude-skills-marketplace",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "zscole/adversarial-spec": {
-      "url": "https://github.com/zscole/adversarial-spec",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "Code-and-Sorts/awesome-copilot-agents": {
-      "url": "https://github.com/Code-and-Sorts/awesome-copilot-agents",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "memvid/claude-brain": {
-      "url": "https://github.com/memvid/claude-brain",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "axtonliu/smart-illustrator": {
-      "url": "https://github.com/axtonliu/smart-illustrator",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "Bhanunamikaze/Agentic-SEO-Skill": {
-      "url": "https://github.com/Bhanunamikaze/Agentic-SEO-Skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "waynesutton/convexskills": {
-      "url": "https://github.com/waynesutton/convexskills",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "ghostsecurity/skills": {
-      "url": "https://github.com/ghostsecurity/skills",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "coffeefuelbump/csv-data-summarizer-claude-skill": {
-      "url": "https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "ancoleman/ai-design-components": {
       "url": "https://github.com/ancoleman/ai-design-components",
       "branch": "main",
@@ -98,15 +21,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "BrianRWagner/ai-marketing-claude-code-skills": {
-      "url": "https://github.com/BrianRWagner/ai-marketing-claude-code-skills",
+    "ferdinandobons/startup-skill": {
+      "url": "https://github.com/ferdinandobons/startup-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "ferdinandobons/startup-skill": {
-      "url": "https://github.com/ferdinandobons/startup-skill",
+    "BrianRWagner/ai-marketing-claude-code-skills": {
+      "url": "https://github.com/BrianRWagner/ai-marketing-claude-code-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -294,15 +217,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "VapiAI/skills": {
-      "url": "https://github.com/VapiAI/skills",
+    "chrisvoncsefalvay/autostar": {
+      "url": "https://github.com/chrisvoncsefalvay/autostar",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "chrisvoncsefalvay/autostar": {
-      "url": "https://github.com/chrisvoncsefalvay/autostar",
+    "VapiAI/skills": {
+      "url": "https://github.com/VapiAI/skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -385,6 +308,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "brettdavies/crawl4ai-skill": {
+      "url": "https://github.com/brettdavies/crawl4ai-skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "IJONIS/geo-lint": {
       "url": "https://github.com/IJONIS/geo-lint",
       "branch": "main",
@@ -455,15 +385,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "cmertdalli/polisci-review": {
-      "url": "https://github.com/cmertdalli/polisci-review",
+    "vulhunt-re/skills": {
+      "url": "https://github.com/vulhunt-re/skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "vulhunt-re/skills": {
-      "url": "https://github.com/vulhunt-re/skills",
+    "cmertdalli/polisci-review": {
+      "url": "https://github.com/cmertdalli/polisci-review",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -513,1386 +443,6 @@
     }
   },
   "skills": [
-    {
-      "id": "a5c-ai/babysitter/.claude/skills/process-builder",
-      "name": "process-builder",
-      "description": "Scaffold new babysitter process definitions following SDK patterns, proper structure, and best practices. Guides the 3-phase workflow from research to implementation.",
-      "categories": ["Development", "Productivity", "Research"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": ".claude/skills/process-builder",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/plugins/babysitter/skills/babysit",
-      "name": "babysit",
-      "description": "Orchestrate via @babysitter. Use this skill when asked to babysit a run, orchestrate a process or whenever it is called explicitly. (babysit, babysitter, orchestrate, orchestrate a run, workflow, etc.)",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "plugins/babysitter/skills/babysit",
-      "commitHash": "d97a2e46a84c",
-      "version": "0.1.3",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/plugins/babysitter-pi/skills/help",
-      "name": "help",
-      "description": "help and documentation for babysitter command usage, processes, skills, agents, and methodologies. use this command to understand how to use babysitter effectively.",
-      "categories": ["AI & ML"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "plugins/babysitter-pi/skills/help",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/plugins/babysitter-pi/skills/doctor",
-      "name": "doctor",
-      "description": "Diagnose babysitter run health - journal integrity, state cache, effects, locks, sessions, logs, and disk usage",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "plugins/babysitter-pi/skills/doctor",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/plugins/babysitter-pi/skills/contrib",
-      "name": "contrib",
-      "description": "Submit feedback or contribute to babysitter project",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "plugins/babysitter-pi/skills/contrib",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/plugins/babysitter-pi/skills/plugins",
-      "name": "plugins",
-      "description": "manage babysitter plugins. use this command to see the list of installed babysitter plugins, their status, and manage them (install, update, uninstall, list from marketplace, add marketplace, configure plugin, create new plugin, etc).",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "plugins/babysitter-pi/skills/plugins",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/plugins/babysitter-pi/skills/cleanup",
-      "name": "cleanup",
-      "description": "Clean up .a5c/runs and .a5c/processes directories. Aggregates insights from completed/failed runs into docs/run-history-insights.md, then removes old run data and orphaned process files.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "plugins/babysitter-pi/skills/cleanup",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/plugins/babysitter-pi/skills/retrospect",
-      "name": "retrospect",
-      "description": "Analysis for a run and its results, process, suggestions for process improvements, process optimizations, fixes, etc. for the next runs.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "plugins/babysitter-pi/skills/retrospect",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/plugins/babysitter-pi/skills/assimilate",
-      "name": "assimilate",
-      "description": "Assimilate an external methodology, harness, or specification into babysitter process definitions with skills and agents.",
-      "categories": ["AI & ML"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "plugins/babysitter-pi/skills/assimilate",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/plugins/babysitter-pi/skills/user-install",
-      "name": "user-install",
-      "description": "Set up babysitter for yourself. Guides you through onboarding — installs dependencies, interviews you about your specialties and preferences, builds your user profile, and configures the best tools for your workflow.",
-      "categories": ["Business"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "plugins/babysitter-pi/skills/user-install",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/plugins/babysitter-pi/skills/project-install",
-      "name": "project-install",
-      "description": "Set up a project for babysitting. Guides you through onboarding a new or existing project — researches the codebase, interviews you about goals and workflows, builds the project profile, installs the best tools, and optionally configures CI/CD integration.",
-      "categories": ["Development", "Productivity", "Business", "Research"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "plugins/babysitter-pi/skills/project-install",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/ruflo/skills/smart-routing",
-      "name": "smart-routing",
-      "description": "Complexity-based task routing with Q-Learning optimization, Agent Booster WASM fast-path, and Mixture-of-Experts model selection.",
-      "categories": ["AI & ML"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/ruflo/skills/smart-routing",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/gastown/skills/merge-queue",
-      "name": "merge-queue",
-      "description": "Process the Refinery merge queue - collect agent work, detect and resolve conflicts, merge in dependency order, and verify integration.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/gastown/skills/merge-queue",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/nx",
-      "name": "nx",
-      "description": "Nx workspace configuration, generators, and affected commands.",
-      "categories": ["Productivity"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/nx",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/claudekit/skills/file-guard",
-      "name": "file-guard",
-      "description": "PreToolUse protection blocking sensitive file access across 195+ patterns in 12 categories with bash pipeline analysis and multi-tool ignore support.",
-      "categories": ["Data & Analytics"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/claudekit/skills/file-guard",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/gsd/skills/state-management",
-      "name": "state-management",
-      "description": "STATE.md reading, writing, and field-level updates. Provides cross-session state persistence via .planning/STATE.md with structured fields for current task, completed phases, blockers, decisions, and quick tasks.",
-      "categories": ["Productivity", "Business"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/gsd/skills/state-management",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/rpikit/skills/brainstorming",
-      "name": "brainstorming",
-      "description": "Clarify vague requirements through exploratory questioning and option generation before committing to research or implementation.",
-      "categories": ["Research"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/rpikit/skills/brainstorming",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/cc10x/skills/session-memory",
-      "name": "session-memory",
-      "description": "Mandatory memory persistence system across session resets using three markdown surfaces in .claude/cc10x/. Iron law - every workflow must load at start and update at end.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/cc10x/skills/session-memory",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/msw",
-      "name": "msw",
-      "description": "Mock Service Worker API mocking, request handlers, and integration testing.",
-      "categories": ["Development", "Integration"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/msw",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/jwt",
-      "name": "jwt",
-      "description": "JWT implementation, token management, refresh patterns, and security.",
-      "categories": ["Security"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/jwt",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/zod",
-      "name": "zod",
-      "description": "Zod schema validation and type inference.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/zod",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/lit",
-      "name": "lit",
-      "description": "Web Components development with Lit including custom elements, reactive properties, shadow DOM, and interoperability.",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/lit",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/git",
-      "name": "git",
-      "description": "Git workflows, branching strategies, and hooks.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/git",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/seo",
-      "name": "seo",
-      "description": "Technical SEO, structured data, sitemaps, and meta tags.",
-      "categories": ["Marketing"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/seo",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/csp",
-      "name": "csp",
-      "description": "Content Security Policy configuration, nonces, and reporting.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/csp",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/cc10x/skills/code-generation",
-      "name": "code-generation",
-      "description": "Minimal, pattern-matching code output. Write the least code that satisfies requirements. Match existing project patterns. Use Write/Edit tools only.",
-      "categories": ["Development", "Writing"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/cc10x/skills/code-generation",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/maestro/skills/hotfix-triage",
-      "name": "hotfix-triage",
-      "description": "Urgent issue classification, root cause analysis, and fast-path routing for production hotfixes",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/maestro/skills/hotfix-triage",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/sse",
-      "name": "sse",
-      "description": "Server-Sent Events implementation, streaming patterns, and real-time updates.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/sse",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/rpikit/skills/finishing-work",
-      "name": "finishing-work",
-      "description": "Final completion discipline including summary generation, plan document updates, and confirmation that all success criteria from the original plan are satisfied.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/rpikit/skills/finishing-work",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/aria",
-      "name": "aria",
-      "description": "WAI-ARIA implementation, roles, states, and properties.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/aria",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/jest",
-      "name": "jest",
-      "description": "Jest configuration, mocking strategies, snapshot testing, and coverage.",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/jest",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/gastown/skills/issue-tracking",
-      "name": "issue-tracking",
-      "description": "Track beads as git-backed issues with persistent attribution, supporting Gas Town's bead lifecycle and convoy progress monitoring.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/gastown/skills/issue-tracking",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/ngrx",
-      "name": "ngrx",
-      "description": "NgRx state management for Angular including store, effects, entity adapter, component store, and selectors.",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/ngrx",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/trpc",
-      "name": "trpc",
-      "description": "tRPC end-to-end type safety, procedures, routers, middleware, and React integration.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/trpc",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/gsd/skills/verification-suite",
-      "name": "verification-suite",
-      "description": "Plan structure validation, phase completeness checks, reference integrity verification, and artifact existence confirmation. Provides the structured verification layer ensuring GSD artifacts are well-formed and complete.",
-      "categories": ["Design"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/gsd/skills/verification-suite",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/meta/skills/skill-generator",
-      "name": "skill-generator",
-      "description": "Generate SKILL.md files with proper YAML frontmatter, capabilities documentation, and usage examples following Babysitter SDK conventions.",
-      "categories": ["Development", "Productivity", "Documents"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/meta/skills/skill-generator",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/nuxt",
-      "name": "nuxt",
-      "description": "Nuxt 3 patterns including Nitro server, auto-imports, modules, hybrid rendering, and full-stack development.",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/nuxt",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/rpikit/skills/security-review",
-      "name": "security-review",
-      "description": "Security vulnerability assessment identifying OWASP risks, injection vectors, authentication issues, and data exposure with severity classification.",
-      "categories": ["Security"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/rpikit/skills/security-review",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/pilot-shell/skills/strict-tdd",
-      "name": "strict-tdd",
-      "description": "Strict RED->GREEN->REFACTOR test-driven development with enforcement. Never write production code before a failing test. Atomic commits per TDD cycle.",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/pilot-shell/skills/strict-tdd",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/wcag",
-      "name": "wcag",
-      "description": "WCAG 2.1/2.2 compliance, auditing, and remediation.",
-      "categories": ["Security", "Business"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/wcag",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/rxjs",
-      "name": "rxjs",
-      "description": "RxJS reactive programming patterns including operators, error handling, multicasting, and Angular integration.",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/rxjs",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/meta/skills/agent-generator",
-      "name": "agent-generator",
-      "description": "Generate AGENT.md files with proper YAML frontmatter, role definitions, expertise areas, and prompt templates following Babysitter SDK conventions.",
-      "categories": ["Development", "Productivity", "AI & ML"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/meta/skills/agent-generator",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/gsd/skills/roadmap-management",
-      "name": "roadmap-management",
-      "description": "Roadmap parsing, analysis, and mutation operations for ROADMAP.md. Handles phase and milestone lifecycle including add, insert (decimal), remove, complete, and requirements coverage analysis.",
-      "categories": ["Business"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/gsd/skills/roadmap-management",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/vite",
-      "name": "vite",
-      "description": "Vite configuration, plugins, optimization, HMR, and build customization.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/vite",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/ruflo/skills/self-optimization",
-      "name": "self-optimization",
-      "description": "SONA self-optimizing neural architecture with ReasoningBank trajectory learning, EWC++ anti-forgetting, and reinforcement learning feedback loops.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/ruflo/skills/self-optimization",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/game-development/skills/hlsl",
-      "name": "hlsl",
-      "description": "HLSL shader programming skill for DirectX, compute shaders, and optimization.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/game-development/skills/hlsl",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/gsd/skills/context-engineering",
-      "name": "context-engineering",
-      "description": "Context window monitoring and budget management. Keeps orchestrator at 15-30% context usage while subagents get full 200k tokens. Provides warnings at thresholds, context-aware summarization triggers, and wave-level budget planning.",
-      "categories": ["Productivity", "Business", "AI & ML"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/gsd/skills/context-engineering",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/redis",
-      "name": "redis",
-      "description": "Redis caching patterns, pub/sub, sessions, rate limiting, and data structures.",
-      "categories": ["Data & Analytics"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/redis",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/gsd/skills/frontmatter-parsing",
-      "name": "frontmatter-parsing",
-      "description": "YAML frontmatter parsing and manipulation for .planning/ documents. Provides read, write, update, query, and validation operations on frontmatter blocks in GSD markdown artifacts.",
-      "categories": ["Documents"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/gsd/skills/frontmatter-parsing",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/oauth",
-      "name": "oauth",
-      "description": "OAuth 2.0/OIDC flows, provider integration, and token handling.",
-      "categories": ["Security"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/oauth",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/claudekit/skills/spec-creation",
-      "name": "spec-creation",
-      "description": "Feature specification creation from codebase research. Produces requirements, acceptance criteria, architecture decisions, implementation plans, and risk analysis.",
-      "categories": ["Development", "Productivity", "Research"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/claudekit/skills/spec-creation",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/meta/skills/process-analyzer",
-      "name": "process-analyzer",
-      "description": "Analyze processes, identify workflows, define boundaries and scope, and map process requirements for specialization creation.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/meta/skills/process-analyzer",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/game-development/skills/glsl",
-      "name": "glsl",
-      "description": "GLSL shader programming skill for OpenGL/Vulkan, fragment and vertex shaders.",
-      "categories": ["AI & ML"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/game-development/skills/glsl",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/pinia",
-      "name": "pinia",
-      "description": "Pinia state management for Vue 3 including store creation, actions, getters, plugins, and DevTools integration.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/pinia",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/cc10x/skills/planning-patterns",
-      "name": "planning-patterns",
-      "description": "Structured planning methodology with research, brainstorming, phased plan creation, risk assessment, and plan-to-build continuity.",
-      "categories": ["Development", "Research"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/cc10x/skills/planning-patterns",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/remix",
-      "name": "remix",
-      "description": "Remix patterns including loaders, actions, nested routing, progressive enhancement, and deployment strategies.",
-      "categories": ["DevOps"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/remix",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/svelte",
-      "name": "svelte",
-      "description": "Svelte and SvelteKit development with built-in reactivity, stores, SSR/SSG, and modern web patterns.",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/svelte",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/maestro/skills/code-review-gate",
-      "name": "code-review-gate",
-      "description": "Architect code review with DRY, YAGNI, abstraction, and test coverage principle enforcement",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/maestro/skills/code-review-gate",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/spec-kit/skills/planning-design",
-      "name": "planning-design",
-      "description": "Design technical architecture, select technology stack, and define implementation strategy from specifications and constitution constraints.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/spec-kit/skills/planning-design",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/meta/skills/process-generator",
-      "name": "process-generator",
-      "description": "Generate process JS files following Babysitter SDK patterns including task definitions, quality gates, breakpoints, and proper io configuration.",
-      "categories": ["Development", "Productivity"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/meta/skills/process-generator",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/gsd/skills/template-scaffolding",
-      "name": "template-scaffolding",
-      "description": "Template loading, variable filling, and scaffolding for all GSD artifacts. Manages 22+ templates covering every document type in the GSD system, from PROJECT.md to milestone archives.",
-      "categories": ["Productivity", "Documents"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/gsd/skills/template-scaffolding",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/nextjs",
-      "name": "nextjs",
-      "description": "Next.js specific patterns including App Router, React Server Components, Server Actions, streaming, caching, and Vercel deployment.",
-      "categories": ["Development", "DevOps"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/nextjs",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/eslint",
-      "name": "eslint",
-      "description": "ESLint configuration, custom rules, and plugin development.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/eslint",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/ux-ui-design/skills/figma-api",
-      "name": "figma-api",
-      "description": "Direct Figma API interactions for design asset management. Fetch files and components, extract design tokens, export images, manage comments, and access version history.",
-      "categories": ["Development", "Design", "Documents"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/ux-ui-design/skills/figma-api",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/vitest",
-      "name": "vitest",
-      "description": "Vitest configuration, mocking, coverage, snapshot testing, and performance.",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/vitest",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/ruflo/skills/security-hardening",
-      "name": "security-hardening",
-      "description": "AIDefence security layer with prompt injection blocking, input validation, sandboxed execution, output sanitization, and STRIDE threat modeling.",
-      "categories": ["Security", "AI & ML"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/ruflo/skills/security-hardening",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/cc10x/skills/debugging-patterns",
-      "name": "debugging-patterns",
-      "description": "Root cause analysis frameworks including log-first investigation, git bisect correlation, and pattern-based diagnosis with confidence scoring.",
-      "categories": ["Development", "Business"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/cc10x/skills/debugging-patterns",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/nestjs",
-      "name": "nestjs",
-      "description": "NestJS architecture including modules, dependency injection, guards, interceptors, and microservices patterns.",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/nestjs",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/shadcn",
-      "name": "shadcn",
-      "description": "shadcn/ui component patterns, customization, theming, and integration.",
-      "categories": ["Development", "Design"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/shadcn",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/meta/skills/process-validator",
-      "name": "process-validator",
-      "description": "Validate process JS files for correct SDK patterns, task definitions, syntax, and quality gate implementation.",
-      "categories": ["Development", "Finance"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/meta/skills/process-validator",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/metaswarm/skills/pr-shepherding",
-      "name": "pr-shepherding",
-      "description": "Monitor PR lifecycle from creation through merge including CI monitoring, review comment handling, thread resolution, and merge readiness verification.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/metaswarm/skills/pr-shepherding",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/rpikit/skills/codebase-research",
-      "name": "codebase-research",
-      "description": "Systematic codebase exploration following the Iron Law - understand the problem before exploring code. Four phases with file-finder and web-researcher agents.",
-      "categories": ["Research", "AI & ML"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/rpikit/skills/codebase-research",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/claudekit/skills/spec-execution",
-      "name": "spec-execution",
-      "description": "6-phase iterative specification execution workflow covering implementation, testing, review, improvement, commit, and progress tracking with quality-gated convergence.",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/claudekit/skills/spec-execution",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "tripleyak/SkillForge",
-      "name": "skillforge",
-      "description": "Intelligent skill router and creator. Analyzes ANY input to recommend existing skills, improve them, or create new ones. Uses deep iterative analysis with 11 thinking models, regression questioning, evolution lens, and multi-agent synthesis panel. Phase 0 triage ensures you never duplicate existing functionality.",
-      "categories": ["AI & ML"],
-      "author": "tripleyak",
-      "repo": "tripleyak/SkillForge",
-      "path": "",
-      "commitHash": "f07042f09793",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mhattingpete/claude-skills-marketplace/code-operations-plugin/skills/code-transfer",
-      "name": "code-transfer",
-      "description": "Transfer code between files with line-based precision. Use when users request copying code from one location to another, moving functions or classes between files, extracting code blocks, or inserting code at specific line numbers.",
-      "categories": ["Other"],
-      "author": "mhattingpete",
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "path": "code-operations-plugin/skills/code-transfer",
-      "commitHash": "71429f72e5c2",
-      "files": ["SKILL.md", "scripts"]
-    },
-    {
-      "id": "mhattingpete/claude-skills-marketplace/code-operations-plugin/skills/code-refactor",
-      "name": "code-refactor",
-      "description": "Perform bulk code refactoring operations like renaming variables/functions across files, replacing patterns, and updating API calls. Use when users request renaming identifiers, replacing deprecated code patterns, updating method calls, or making consistent changes across multiple locations.",
-      "categories": ["Development", "Documents"],
-      "author": "mhattingpete",
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "path": "code-operations-plugin/skills/code-refactor",
-      "commitHash": "71429f72e5c2",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mhattingpete/claude-skills-marketplace/code-operations-plugin/skills/code-execution",
-      "name": "code-execution",
-      "description": "Execute Python code locally with marketplace API access for 90%+ token savings on bulk operations. Activates when user requests bulk operations (10+ files), complex multi-step workflows, iterative processing, or mentions efficiency/performance.",
-      "categories": ["Development", "Productivity", "Documents", "Finance"],
-      "author": "mhattingpete",
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "path": "code-operations-plugin/skills/code-execution",
-      "commitHash": "80ac0f58a6b2",
-      "files": ["SKILL.md", "examples"]
-    },
-    {
-      "id": "mhattingpete/claude-skills-marketplace/code-operations-plugin/skills/file-operations",
-      "name": "file-operations",
-      "description": "Analyze files and get detailed metadata including size, line counts, modification times, and content statistics. Use when users request file information, statistics, or analysis without modifying files.",
-      "categories": ["Data & Analytics", "Documents", "Research"],
-      "author": "mhattingpete",
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "path": "code-operations-plugin/skills/file-operations",
-      "commitHash": "71429f72e5c2",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mhattingpete/claude-skills-marketplace/productivity-skills-plugin/skills/code-auditor",
-      "name": "code-auditor",
-      "description": "Performs comprehensive codebase analysis covering architecture, code quality, security, performance, testing, and maintainability. Use when user wants to audit code quality, identify technical debt, find security issues, assess test coverage, or get a codebase health check.",
-      "categories": ["Development", "Security", "AI & ML"],
-      "author": "mhattingpete",
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "path": "productivity-skills-plugin/skills/code-auditor",
-      "commitHash": "71429f72e5c2",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mhattingpete/claude-skills-marketplace/visual-documentation-plugin/skills/timeline-creator",
-      "name": "timeline-creator",
-      "description": "Create HTML timelines and project roadmaps with Gantt charts, milestones, phase groupings, and progress indicators. Use when users request timelines, roadmaps, Gantt charts, project schedules, or milestone visualizations.",
-      "categories": ["Design", "Productivity", "Data & Analytics"],
-      "author": "mhattingpete",
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "path": "visual-documentation-plugin/skills/timeline-creator",
-      "commitHash": "71429f72e5c2",
-      "files": ["SKILL.md", "assets", "references"]
-    },
-    {
-      "id": "mhattingpete/claude-skills-marketplace/engineering-workflow-plugin/skills/feature-planning",
-      "name": "feature-planning",
-      "description": "Break down feature requests into detailed, implementable plans with clear tasks. Use when user requests a new feature, enhancement, or complex change.",
-      "categories": ["Other"],
-      "author": "mhattingpete",
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "path": "engineering-workflow-plugin/skills/feature-planning",
-      "commitHash": "71429f72e5c2",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "mhattingpete/claude-skills-marketplace/engineering-workflow-plugin/skills/ensemble-solving",
-      "name": "ensemble-solving",
-      "description": "Generate multiple diverse solutions in parallel and select the best. Use for architecture decisions, code generation with multiple valid approaches, or creative tasks where exploring alternatives improves quality.",
-      "categories": ["Development", "Productivity"],
-      "author": "mhattingpete",
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "path": "engineering-workflow-plugin/skills/ensemble-solving",
-      "commitHash": "02b02453afc4",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "mhattingpete/claude-skills-marketplace/visual-documentation-plugin/skills/flowchart-creator",
-      "name": "flowchart-creator",
-      "description": "Create HTML flowcharts and process diagrams with decision trees, color-coded stages, arrows, and swimlanes. Use when users request flowcharts, process diagrams, workflow visualizations, or decision trees.",
-      "categories": ["Design", "Data & Analytics"],
-      "author": "mhattingpete",
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "path": "visual-documentation-plugin/skills/flowchart-creator",
-      "commitHash": "71429f72e5c2",
-      "files": ["SKILL.md", "assets", "references"]
-    },
-    {
-      "id": "mhattingpete/claude-skills-marketplace/visual-documentation-plugin/skills/dashboard-creator",
-      "name": "dashboard-creator",
-      "description": "Create HTML dashboards with KPI metric cards, bar/pie/line charts, progress indicators, and data visualizations. Use when users request dashboards, metrics displays, KPI visualizations, data charts, or monitoring interfaces.",
-      "categories": ["Design", "Data & Analytics"],
-      "author": "mhattingpete",
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "path": "visual-documentation-plugin/skills/dashboard-creator",
-      "commitHash": "71429f72e5c2",
-      "files": ["SKILL.md", "assets", "references"]
-    },
-    {
-      "id": "mhattingpete/claude-skills-marketplace/productivity-skills-plugin/skills/codebase-documenter",
-      "name": "codebase-documenter",
-      "description": "Generates comprehensive documentation explaining how a codebase works, including architecture, key components, data flow, and development guidelines. Use when user wants to understand unfamiliar code, create onboarding docs, document architecture, or explain how the system works.",
-      "categories": ["Development", "Writing"],
-      "author": "mhattingpete",
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "path": "productivity-skills-plugin/skills/codebase-documenter",
-      "commitHash": "71429f72e5c2",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mhattingpete/claude-skills-marketplace/productivity-skills-plugin/skills/project-bootstrapper",
-      "name": "project-bootstrapper",
-      "description": "Sets up new projects or improves existing projects with development best practices, tooling, documentation, and workflow automation. Use when user wants to start a new project, improve project structure, add development tooling, or establish professional workflows.",
-      "categories": ["Productivity"],
-      "author": "mhattingpete",
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "path": "productivity-skills-plugin/skills/project-bootstrapper",
-      "commitHash": "71429f72e5c2",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mhattingpete/claude-skills-marketplace/engineering-workflow-plugin/skills/review-implementing",
-      "name": "review-implementing",
-      "description": "Process and implement code review feedback systematically. Use when user provides reviewer comments, PR feedback, code review notes, or asks to implement suggestions from reviews.",
-      "categories": ["Development"],
-      "author": "mhattingpete",
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "path": "engineering-workflow-plugin/skills/review-implementing",
-      "commitHash": "71429f72e5c2",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mhattingpete/claude-skills-marketplace/productivity-skills-plugin/skills/conversation-analyzer",
-      "name": "conversation-analyzer",
-      "description": "Analyzes your Claude Code conversation history to identify patterns, common mistakes, and opportunities for workflow improvement. Use when user wants to understand usage patterns, optimize workflow, identify automation opportunities, or check if they're following best practices.",
-      "categories": ["Development", "Productivity"],
-      "author": "mhattingpete",
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "path": "productivity-skills-plugin/skills/conversation-analyzer",
-      "commitHash": "71429f72e5c2",
-      "files": ["SKILL.md", "scripts"]
-    },
-    {
-      "id": "mhattingpete/claude-skills-marketplace/visual-documentation-plugin/skills/technical-doc-creator",
-      "name": "technical-doc-creator",
-      "description": "Create HTML technical documentation with code blocks, API workflows, system architecture diagrams, and syntax highlighting. Use when users request technical documentation, API docs, API references, code examples, or developer documentation.",
-      "categories": ["Development", "Writing"],
-      "author": "mhattingpete",
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "path": "visual-documentation-plugin/skills/technical-doc-creator",
-      "commitHash": "71429f72e5c2",
-      "files": ["SKILL.md", "assets", "references"]
-    },
-    {
-      "id": "mhattingpete/claude-skills-marketplace/visual-documentation-plugin/skills/architecture-diagram-creator",
-      "name": "architecture-diagram-creator",
-      "description": "Create comprehensive HTML architecture diagrams showing data flows, business objectives, features, technical architecture, and deployment. Use when users request system architecture, project documentation, high-level overviews, or technical specifications.",
-      "categories": ["DevOps"],
-      "author": "mhattingpete",
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "path": "visual-documentation-plugin/skills/architecture-diagram-creator",
-      "commitHash": "71429f72e5c2",
-      "files": ["SKILL.md", "assets", "references"]
-    },
-    {
-      "id": "mhattingpete/claude-skills-marketplace/engineering-workflow-plugin/skills/test-fixing",
-      "name": "test-fixing",
-      "description": "Run tests and systematically fix all failing tests using smart error grouping. Use when user asks to fix failing tests, mentions test failures, runs test suite and failures occur, or requests to make tests pass.",
-      "categories": ["Design"],
-      "author": "mhattingpete",
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "path": "engineering-workflow-plugin/skills/test-fixing",
-      "commitHash": "71429f72e5c2",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "zscole/adversarial-spec/skills/adversarial-spec",
-      "name": "adversarial-spec",
-      "description": "Iteratively refine a product spec by debating with multiple LLMs (GPT, Gemini, Grok, etc.) until all models agree. Use when user wants to write or refine a specification document using adversarial development.",
-      "categories": ["AI & ML"],
-      "author": "zscole",
-      "repo": "zscole/adversarial-spec",
-      "path": "skills/adversarial-spec",
-      "commitHash": "59f854c42668",
-      "files": ["SKILL.md", "scripts"]
-    },
-    {
-      "id": "Code-and-Sorts/awesome-copilot-agents/skills/jira-cli",
-      "name": "jira-cli",
-      "description": "Interact with Jira from the command line to create, list, view, edit, and transition issues, manage sprints and epics, and perform common Jira workflows. Use when the user asks about Jira tasks, tickets, issues, sprints, or needs to manage project work items.",
-      "categories": ["Productivity"],
-      "author": "Code-and-Sorts",
-      "repo": "Code-and-Sorts/awesome-copilot-agents",
-      "path": "skills/jira-cli",
-      "commitHash": "da3bbb98d2a8",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Code-and-Sorts/awesome-copilot-agents/skills/cloud/az-cli",
-      "name": "az-cli",
-      "description": "Use the Azure CLI (`az`) to manage Azure resources from the command line. Trigger this skill whenever the user asks to create, configure, manage, deploy, or interact with any Azure resource — even if they don't explicitly mention \"az cli\". Also trigger when the user asks about Azure CLI commands, syntax, or wants to know how to do something in Azure from the terminal.",
-      "categories": ["DevOps"],
-      "author": "Code-and-Sorts",
-      "repo": "Code-and-Sorts/awesome-copilot-agents",
-      "path": "skills/cloud/az-cli",
-      "commitHash": "da3bbb98d2a8",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "Code-and-Sorts/awesome-copilot-agents/skills/cloud/azure-prices",
-      "name": "azure-prices",
-      "description": "Look up and compare Azure service pricing using the Azure Retail Prices API. Use this skill whenever the user asks about Azure costs, pricing, rates, or wants to compare prices across regions or services — even if they don't say \"pricing\" explicitly. Trigger for questions like \"how much does a D2 v2 VM cost?\", \"cheapest region for Azure SQL\", or \"compare storage prices between eastus and westeurope\".",
-      "categories": ["AI & ML"],
-      "author": "Code-and-Sorts",
-      "repo": "Code-and-Sorts/awesome-copilot-agents",
-      "path": "skills/cloud/azure-prices",
-      "commitHash": "da3bbb98d2a8",
-      "files": ["SKILL.md", "scripts"]
-    },
-    {
-      "id": "Code-and-Sorts/awesome-copilot-agents/skills/calculator",
-      "name": "calculator",
-      "description": "Performs arbitrary-precision arithmetic calculations including addition, subtraction, multiplication, division, and exponents. Use when the user asks to calculate, compute, or evaluate math expressions, or when precise decimal arithmetic is needed to avoid floating-point errors.",
-      "categories": ["Other"],
-      "author": "Code-and-Sorts",
-      "repo": "Code-and-Sorts/awesome-copilot-agents",
-      "path": "skills/calculator",
-      "commitHash": "da3bbb98d2a8",
-      "files": ["SKILL.md", "scripts"]
-    },
-    {
-      "id": "memvid/claude-brain/skills/mind",
-      "name": "mind",
-      "description": "Claude Mind - Search and manage Claude's persistent memory stored in a single portable .mv2 file",
-      "categories": ["Documents"],
-      "author": "memvid",
-      "repo": "memvid/claude-brain",
-      "path": "skills/mind",
-      "commitHash": "995038041c80",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "memvid/claude-brain/skills/memory",
-      "name": "memory",
-      "description": "Claude Mind - Search and manage Claude's persistent memory stored in a single portable .mv2 file",
-      "categories": ["Documents"],
-      "author": "memvid",
-      "repo": "memvid/claude-brain",
-      "path": "skills/memory",
-      "commitHash": "83d8ed20a452",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "axtonliu/smart-illustrator",
-      "name": "smart-illustrator",
-      "description": "智能配图与 PPT 信息图生成器。支持三种模式：(1) 文章配图模式 - 分析文章内容，生成插图；(2) PPT/Slides 模式 - 生成批量信息图；(3) Cover 模式 - 生成封面图。所有模式默认生成图片，`--prompt-only` 只输出 prompt。支持 Bento Grid 功能展示图风格（--style bento）。触发词：配图、插图、PPT、slides、封面图、thumbnail、cover、bento grid、功能展示图、feature showcase。",
-      "categories": ["Design", "Data & Analytics", "Documents", "AI & ML"],
-      "author": "axtonliu",
-      "repo": "axtonliu/smart-illustrator",
-      "path": "",
-      "commitHash": "51408881fa41",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Bhanunamikaze/Agentic-SEO-Skill",
-      "name": "seo",
-      "description": "Deterministic LLM-first SEO audits for websites, blog posts, and GitHub repositories. Use this when the user asks to \"perform SEO analysis\", \"run SEO audit\", \"analyze SEO\", \"check technical SEO\", \"review schema\", \"Core Web Vitals\", \"E-E-A-T\", \"hreflang\", \"GEO\", \"AEO\", or GitHub repository SEO optimization. For full/page/repo audits, run bundled scripts for evidence and return prioritized, confidence-labeled fixes.\n",
-      "categories": ["Development", "Data & Analytics", "Research"],
-      "author": "Bhanunamikaze",
-      "repo": "Bhanunamikaze/Agentic-SEO-Skill",
-      "path": "",
-      "commitHash": "337069435d16",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "waynesutton/convexskills/skills/convex",
-      "name": "convex",
-      "description": "Umbrella skill for all Convex development patterns. Routes to specific skills like convex-functions, convex-realtime, convex-agents, etc.",
-      "categories": ["Other"],
-      "author": "waynesutton",
-      "repo": "waynesutton/convexskills",
-      "path": "skills/convex",
-      "commitHash": "bfa30639c3c8",
-      "version": "1.0.0",
-      "tags": ["convex", "backend", "database", "realtime"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
-      "id": "waynesutton/convexskills/skills/avoid-feature-creep",
-      "name": "avoid-feature-creep",
-      "description": "Prevent feature creep when building software, apps, and AI-powered products. Use this skill when planning features, reviewing scope, building MVPs, managing backlogs, or when a user says \"just one more feature.\" Helps developers and AI agents stay focused, ship faster, and avoid bloated products.",
-      "categories": ["Development", "AI & ML"],
-      "author": "waynesutton",
-      "repo": "waynesutton/convexskills",
-      "path": "skills/avoid-feature-creep",
-      "commitHash": "bfa30639c3c8",
-      "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
-      "id": "waynesutton/convexskills/skills/convex-migrations",
-      "name": "convex-migrations",
-      "description": "Schema migration strategies for evolving applications including adding new fields, backfilling data, removing deprecated fields, index migrations, and zero-downtime migration patterns",
-      "categories": ["Data & Analytics"],
-      "author": "waynesutton",
-      "repo": "waynesutton/convexskills",
-      "path": "skills/convex-migrations",
-      "commitHash": "bfa30639c3c8",
-      "version": "1.0.0",
-      "tags": ["convex", "migrations", "schema", "database", "data-modeling"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
-      "id": "waynesutton/convexskills/skills/convex-cron-jobs",
-      "name": "convex-cron-jobs",
-      "description": "Scheduled function patterns for background tasks including interval scheduling, cron expressions, job monitoring, retry strategies, and best practices for long-running tasks",
-      "categories": ["Development", "Productivity"],
-      "author": "waynesutton",
-      "repo": "waynesutton/convexskills",
-      "path": "skills/convex-cron-jobs",
-      "commitHash": "bfa30639c3c8",
-      "version": "1.0.0",
-      "tags": ["convex", "cron", "scheduling", "background-jobs", "automation"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
-      "id": "waynesutton/convexskills/skills/convex-agents",
-      "name": "convex-agents",
-      "description": "Building AI agents with the Convex Agent component including thread management, tool integration, streaming responses, RAG patterns, and workflow orchestration",
-      "categories": ["Development", "Productivity", "AI & ML"],
-      "author": "waynesutton",
-      "repo": "waynesutton/convexskills",
-      "path": "skills/convex-agents",
-      "commitHash": "bfa30639c3c8",
-      "version": "1.0.0",
-      "tags": ["convex", "agents", "ai", "llm", "tools", "rag", "workflows"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
-      "id": "waynesutton/convexskills/skills/convex-security-audit",
-      "name": "convex-security-audit",
-      "description": "Deep security review patterns for authorization logic, data access boundaries, action isolation, rate limiting, and protecting sensitive operations",
-      "categories": ["Security"],
-      "author": "waynesutton",
-      "repo": "waynesutton/convexskills",
-      "path": "skills/convex-security-audit",
-      "commitHash": "bfa30639c3c8",
-      "version": "1.0.0",
-      "tags": ["convex", "security", "audit", "authorization", "rate-limiting", "protection"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
-      "id": "waynesutton/convexskills/skills/convex-file-storage",
-      "name": "convex-file-storage",
-      "description": "Complete file handling including upload flows, serving files via URL, storing generated files from actions, deletion, and accessing file metadata from system tables",
-      "categories": ["Documents"],
-      "author": "waynesutton",
-      "repo": "waynesutton/convexskills",
-      "path": "skills/convex-file-storage",
-      "commitHash": "bfa30639c3c8",
-      "version": "1.0.0",
-      "tags": ["convex", "file-storage", "uploads", "images", "files"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
-      "id": "waynesutton/convexskills/skills/convex-realtime",
-      "name": "convex-realtime",
-      "description": "Patterns for building reactive apps including subscription management, optimistic updates, cache behavior, and paginated queries with cursor-based loading",
-      "categories": ["Development", "Productivity"],
-      "author": "waynesutton",
-      "repo": "waynesutton/convexskills",
-      "path": "skills/convex-realtime",
-      "commitHash": "bfa30639c3c8",
-      "version": "1.0.0",
-      "tags": ["convex", "realtime", "subscriptions", "optimistic-updates", "pagination"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
-      "id": "waynesutton/convexskills/skills/convex-best-practices",
-      "name": "convex-best-practices",
-      "description": "Guidelines for building production-ready Convex apps covering function organization, query patterns, validation, TypeScript usage, error handling, and the Zen of Convex design philosophy",
-      "categories": ["Development", "Design"],
-      "author": "waynesutton",
-      "repo": "waynesutton/convexskills",
-      "path": "skills/convex-best-practices",
-      "commitHash": "6dfa247c34a8",
-      "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
-      "id": "waynesutton/convexskills/skills/convex-http-actions",
-      "name": "convex-http-actions",
-      "description": "External API integration and webhook handling including HTTP endpoint routing, request/response handling, authentication, CORS configuration, and webhook signature validation",
-      "categories": ["Security", "Integration"],
-      "author": "waynesutton",
-      "repo": "waynesutton/convexskills",
-      "path": "skills/convex-http-actions",
-      "commitHash": "bfa30639c3c8",
-      "version": "1.0.0",
-      "tags": ["convex", "http", "actions", "webhooks", "api", "endpoints"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
-      "id": "waynesutton/convexskills/skills/convex-functions",
-      "name": "convex-functions",
-      "description": "Writing queries, mutations, actions, and HTTP actions with proper argument validation, error handling, internal functions, and runtime considerations",
-      "categories": ["Other"],
-      "author": "waynesutton",
-      "repo": "waynesutton/convexskills",
-      "path": "skills/convex-functions",
-      "commitHash": "6dfa247c34a8",
-      "version": "1.0.0",
-      "tags": ["convex", "functions", "queries", "mutations", "actions", "http"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
-      "id": "waynesutton/convexskills/skills/convex-security-check",
-      "name": "convex-security-check",
-      "description": "Quick security audit checklist covering authentication, function exposure, argument validation, row-level access control, and environment variable handling",
-      "categories": ["Security"],
-      "author": "waynesutton",
-      "repo": "waynesutton/convexskills",
-      "path": "skills/convex-security-check",
-      "commitHash": "bfa30639c3c8",
-      "version": "1.0.0",
-      "tags": ["convex", "security", "authentication", "authorization", "checklist"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
-      "id": "waynesutton/convexskills/skills/convex-schema-validator",
-      "name": "convex-schema-validator",
-      "description": "Defining and validating database schemas with proper typing, index configuration, optional fields, unions, and migration strategies for schema changes",
-      "categories": ["Data & Analytics"],
-      "author": "waynesutton",
-      "repo": "waynesutton/convexskills",
-      "path": "skills/convex-schema-validator",
-      "commitHash": "bfa30639c3c8",
-      "version": "1.0.0",
-      "tags": ["convex", "schema", "validation", "typescript", "indexes", "migrations"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
-      "id": "waynesutton/convexskills/skills/convex-component-authoring",
-      "name": "convex-component-authoring",
-      "description": "How to create, structure, and publish self-contained Convex components with proper isolation, exports, and dependency management",
-      "categories": ["Writing"],
-      "author": "waynesutton",
-      "repo": "waynesutton/convexskills",
-      "path": "skills/convex-component-authoring",
-      "commitHash": "bfa30639c3c8",
-      "version": "1.0.0",
-      "tags": ["convex", "components", "reusable", "packages", "npm"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
-      "id": "ghostsecurity/skills/plugins/ghost/skills/proxy",
-      "name": "ghost-proxy",
-      "description": "Starts and controls the reaper MITM proxy to capture, inspect, search, and replay HTTP/HTTPS traffic between clients and servers. Capabilities include starting/stopping the proxy scoped to specific domains, viewing captured request/response logs, searching traffic by method/path/status/host, and inspecting full raw HTTP entries for security analysis. Use when the user asks to \"start the proxy\", \"capture traffic\", \"intercept requests\", \"inspect HTTP traffic\", \"search captured requests\", or \"view request/response\".",
-      "categories": ["Other"],
-      "author": "ghostsecurity",
-      "repo": "ghostsecurity/skills",
-      "path": "plugins/ghost/skills/proxy",
-      "commitHash": "1fe7998e9849",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ghostsecurity/skills/plugins/ghost/skills/scan-code",
-      "name": "ghost-scan-code",
-      "description": "Ghost Security - SAST code scanner. Finds security vulnerabilities in source code by planning and executing targeted scans for issues like SQL injection, XSS, BOLA, BFLA, SSRF, and other OWASP categories. Supports applications (backend, frontend, mobile) and libraries (prototype pollution, unsafe deserialization, ReDoS, path traversal, zip slip). Use when the user asks for a code security audit, SAST scan, vulnerability scan of source code, or wants to find security flaws in a codebase or library.",
-      "categories": ["Development", "Security", "Research"],
-      "author": "ghostsecurity",
-      "repo": "ghostsecurity/skills",
-      "path": "plugins/ghost/skills/scan-code",
-      "commitHash": "3c1875a3286d",
-      "files": ["SKILL.md", "criteria", "prompts", "scripts"]
-    },
-    {
-      "id": "ghostsecurity/skills/plugins/ghost/skills/scan-secrets",
-      "name": "ghost-scan-secrets",
-      "description": "Ghost Security - Secrets and credentials scanner. Scans codebase for leaked API keys, tokens, passwords, and sensitive data. Detects hardcoded secrets and generates findings with severity and remediation guidance. Use when the user asks to check for leaked secrets, scan for credentials, find hardcoded API keys or passwords, detect exposed .env values, or audit code for sensitive data exposure.\n",
-      "categories": ["Development", "Security"],
-      "author": "ghostsecurity",
-      "repo": "ghostsecurity/skills",
-      "path": "plugins/ghost/skills/scan-secrets",
-      "commitHash": "1fe7998e9849",
-      "files": ["README.md", "SKILL.md", "agents"]
-    },
-    {
-      "id": "ghostsecurity/skills/plugins/ghost/skills/report",
-      "name": "ghost-report",
-      "description": "Ghost Security — combined security report. Aggregates findings from all scan skills (scan-deps, scan-secrets, scan-code) into a single prioritized report focused on the highest risk, highest confidence issues. Use when the user requests a security overview, vulnerability summary, full security audit, or combined scan results.",
-      "categories": ["Security"],
-      "author": "ghostsecurity",
-      "repo": "ghostsecurity/skills",
-      "path": "plugins/ghost/skills/report",
-      "commitHash": "1fe7998e9849",
-      "files": ["SKILL.md", "report-template.md"]
-    },
-    {
-      "id": "ghostsecurity/skills/plugins/ghost/skills/repo-context",
-      "name": "ghost-repo-context",
-      "description": "Scans directory structure, detects projects, maps dependencies, and documents code organization into a repo.md file. Use when the user needs a codebase overview, project structure map, or repository context before security analysis.",
-      "categories": ["Development", "Documents"],
-      "author": "ghostsecurity",
-      "repo": "ghostsecurity/skills",
-      "path": "plugins/ghost/skills/repo-context",
-      "commitHash": "31a48a870699",
-      "files": ["SKILL.md", "detector.md", "summarizer.md", "template-repo.md"]
-    },
-    {
-      "id": "ghostsecurity/skills/plugins/ghost/skills/validate",
-      "name": "ghost-validate",
-      "description": "This skill should be used when the user asks to \"validate a finding\", \"check if a vulnerability is real\", \"triage a security finding\", \"confirm a vulnerability\", \"determine if a finding is a true positive or false positive\", or provides a security finding for review. It validates security vulnerability findings by tracing data flows, verifying exploit conditions, analyzing security controls, and optionally testing attack vectors against a live application.",
-      "categories": ["Development", "Security", "AI & ML"],
-      "author": "ghostsecurity",
-      "repo": "ghostsecurity/skills",
-      "path": "plugins/ghost/skills/validate",
-      "commitHash": "1fe7998e9849",
-      "files": ["SKILL.md", "VULNERABILITY_PATTERNS.md"]
-    },
-    {
-      "id": "ghostsecurity/skills/plugins/ghost/skills/scan-deps",
-      "name": "ghost-scan-deps",
-      "description": "Ghost Security - Software Composition Analysis (SCA) scanner. Scans dependency lockfiles for known vulnerabilities, identifies CVEs, and generates findings with severity levels and remediation guidance. Use when the user asks about dependency vulnerabilities, vulnerable packages, CVE checks, security audits of dependencies, or wants to scan lockfiles like package-lock.json, yarn.lock, go.sum, or Gemfile.lock.\n",
-      "categories": ["Security", "Data & Analytics"],
-      "author": "ghostsecurity",
-      "repo": "ghostsecurity/skills",
-      "path": "plugins/ghost/skills/scan-deps",
-      "commitHash": "1fe7998e9849",
-      "files": ["README.md", "SKILL.md", "agents"]
-    },
-    {
-      "id": "coffeefuelbump/csv-data-summarizer-claude-skill",
-      "name": "csv-data-summarizer",
-      "description": "Analyzes CSV files, generates summary stats, and plots quick visualizations using Python and pandas.",
-      "categories": ["Design", "Writing", "Data & Analytics"],
-      "author": "coffeefuelbump",
-      "repo": "coffeefuelbump/csv-data-summarizer-claude-skill",
-      "path": "",
-      "commitHash": "9b3affd270f8",
-      "files": ["SKILL.md"]
-    },
     {
       "id": "ancoleman/ai-design-components/skills/administering-linux",
       "name": "administering-linux",
@@ -3095,6 +1645,50 @@
       ]
     },
     {
+      "id": "ferdinandobons/startup-skill/startup-pitch",
+      "name": "startup-pitch",
+      "description": "Build investor-ready pitch scripts in multiple formats (10-min, 5-min, 2-min, 1-min elevator, investor email). Produces pitch narratives, Q&A preparation, pitch scoring rubric, and optional investor roleplay practice. Use when the user wants to create a pitch, prepare for investor meetings, craft a startup pitch, write a fundraising narrative, or practice their pitch. Triggers for \"pitch deck\", \"investor pitch\", \"pitch my startup\", \"fundraising deck\", \"seed deck\", \"how to pitch\", \"investor meeting\", \"demo day\", \"prepare pitch\", \"pitch script\", \"elevator pitch for investors\", \"pitch practice\", \"practice my pitch\", \"investor roleplay\", or any request to present a startup to investors, accelerators, or partners. Works standalone — no prior startup-design session needed, but leverages its output if available.",
+      "categories": ["Development", "Design", "Writing", "Business", "AI & ML"],
+      "author": "ferdinandobons",
+      "repo": "ferdinandobons/startup-skill",
+      "path": "startup-pitch",
+      "commitHash": "1dbf3926043d",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "ferdinandobons/startup-skill/startup-design",
+      "name": "startup-design",
+      "description": "Design, validate, and plan a startup from scratch. Covers market research, competitive analysis, business model, brand identity, product definition, financial projections, and validation experiments. Trigger when the user has a startup idea to explore, wants to validate a business concept, needs a business plan or lean canvas, asks for market sizing or competitive landscape, wants brand positioning or go-to-market strategy, or says anything like \"I have an idea for...\" or \"is this idea worth pursuing\". Also handles resuming from a previous checkpoint.",
+      "categories": ["Design", "Productivity", "Business", "Research", "Finance"],
+      "author": "ferdinandobons",
+      "repo": "ferdinandobons/startup-skill",
+      "path": "startup-design",
+      "commitHash": "1dbf3926043d",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "ferdinandobons/startup-skill/startup-competitors",
+      "name": "startup-competitors",
+      "description": "Deep competitive intelligence for any market. Analyzes competitors' products, pricing, customer sentiment, GTM strategy, and growth signals using real web data. Produces battle cards, pricing landscape, and feature matrix. Use when the user wants to understand their competitive landscape, analyze competitors, compare products in a market, or research who they're competing against. Triggers for \"who are my competitors\", \"competitive analysis\", \"competitor research\", \"battle cards\", \"pricing comparison\", \"competitor pricing\", \"market players\", \"competitive intelligence\", \"competitive landscape\", \"who else is in this space\", \"competitive moat\", or any request to profile, compare, or map competitors in a category. Works standalone — no prior startup-design session needed.",
+      "categories": ["Design", "Data & Analytics", "Business", "Research"],
+      "author": "ferdinandobons",
+      "repo": "ferdinandobons/startup-skill",
+      "path": "startup-competitors",
+      "commitHash": "1dbf3926043d",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "ferdinandobons/startup-skill/startup-positioning",
+      "name": "startup-positioning",
+      "description": "Market positioning strategy using the April Dunford framework, enriched with JTBD discovery, Moore positioning statement, and Neumeier's Onliness Test. Produces a complete positioning document, positioning statement, competitive alternatives map, and market category analysis. Use when the user wants to define or refine their market positioning, find their unique position, differentiate from competitors, craft a positioning statement, choose a market category, or figure out \"how should we position this product.\" Triggers for \"positioning\", \"how to position\", \"market position\", \"differentiation strategy\", \"positioning statement\", \"competitive positioning\", \"category strategy\", \"where do we fit in the market\", \"how are we different\", \"unique value proposition\", or any request to define, sharpen, or rethink positioning. Works standalone — no prior startup-design or startup-competitors session needed, but leverages their output if available.",
+      "categories": ["Development", "Design", "Business", "Research", "Finance", "AI & ML"],
+      "author": "ferdinandobons",
+      "repo": "ferdinandobons/startup-skill",
+      "path": "startup-positioning",
+      "commitHash": "1dbf3926043d",
+      "files": ["SKILL.md", "references"]
+    },
+    {
       "id": "BrianRWagner/ai-marketing-claude-code-skills/go-mode",
       "name": "go-mode",
       "description": "Autonomous goal execution — give a goal, get a plan, confirm, execute, report. You steer, Claude drives.",
@@ -3398,50 +1992,6 @@
       "path": "reddit-insights",
       "commitHash": "f36b34fc539a",
       "files": [".clawdhub/origin.json", "README.md", "SKILL-OC.md", "SKILL.md"]
-    },
-    {
-      "id": "ferdinandobons/startup-skill/startup-pitch",
-      "name": "startup-pitch",
-      "description": "Build investor-ready pitch scripts in multiple formats (10-min, 5-min, 2-min, 1-min elevator, investor email). Produces pitch narratives, Q&A preparation, pitch scoring rubric, and optional investor roleplay practice. Use when the user wants to create a pitch, prepare for investor meetings, craft a startup pitch, write a fundraising narrative, or practice their pitch. Triggers for \"pitch deck\", \"investor pitch\", \"pitch my startup\", \"fundraising deck\", \"seed deck\", \"how to pitch\", \"investor meeting\", \"demo day\", \"prepare pitch\", \"pitch script\", \"elevator pitch for investors\", \"pitch practice\", \"practice my pitch\", \"investor roleplay\", or any request to present a startup to investors, accelerators, or partners. Works standalone — no prior startup-design session needed, but leverages its output if available.",
-      "categories": ["Development", "Design", "Writing", "Business", "AI & ML"],
-      "author": "ferdinandobons",
-      "repo": "ferdinandobons/startup-skill",
-      "path": "startup-pitch",
-      "commitHash": "1dbf3926043d",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "ferdinandobons/startup-skill/startup-design",
-      "name": "startup-design",
-      "description": "Design, validate, and plan a startup from scratch. Covers market research, competitive analysis, business model, brand identity, product definition, financial projections, and validation experiments. Trigger when the user has a startup idea to explore, wants to validate a business concept, needs a business plan or lean canvas, asks for market sizing or competitive landscape, wants brand positioning or go-to-market strategy, or says anything like \"I have an idea for...\" or \"is this idea worth pursuing\". Also handles resuming from a previous checkpoint.",
-      "categories": ["Design", "Productivity", "Business", "Research", "Finance"],
-      "author": "ferdinandobons",
-      "repo": "ferdinandobons/startup-skill",
-      "path": "startup-design",
-      "commitHash": "1dbf3926043d",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "ferdinandobons/startup-skill/startup-competitors",
-      "name": "startup-competitors",
-      "description": "Deep competitive intelligence for any market. Analyzes competitors' products, pricing, customer sentiment, GTM strategy, and growth signals using real web data. Produces battle cards, pricing landscape, and feature matrix. Use when the user wants to understand their competitive landscape, analyze competitors, compare products in a market, or research who they're competing against. Triggers for \"who are my competitors\", \"competitive analysis\", \"competitor research\", \"battle cards\", \"pricing comparison\", \"competitor pricing\", \"market players\", \"competitive intelligence\", \"competitive landscape\", \"who else is in this space\", \"competitive moat\", or any request to profile, compare, or map competitors in a category. Works standalone — no prior startup-design session needed.",
-      "categories": ["Design", "Data & Analytics", "Business", "Research"],
-      "author": "ferdinandobons",
-      "repo": "ferdinandobons/startup-skill",
-      "path": "startup-competitors",
-      "commitHash": "1dbf3926043d",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "ferdinandobons/startup-skill/startup-positioning",
-      "name": "startup-positioning",
-      "description": "Market positioning strategy using the April Dunford framework, enriched with JTBD discovery, Moore positioning statement, and Neumeier's Onliness Test. Produces a complete positioning document, positioning statement, competitive alternatives map, and market category analysis. Use when the user wants to define or refine their market positioning, find their unique position, differentiate from competitors, craft a positioning statement, choose a market category, or figure out \"how should we position this product.\" Triggers for \"positioning\", \"how to position\", \"market position\", \"differentiation strategy\", \"positioning statement\", \"competitive positioning\", \"category strategy\", \"where do we fit in the market\", \"how are we different\", \"unique value proposition\", or any request to define, sharpen, or rethink positioning. Works standalone — no prior startup-design or startup-competitors session needed, but leverages their output if available.",
-      "categories": ["Development", "Design", "Business", "Research", "Finance", "AI & ML"],
-      "author": "ferdinandobons",
-      "repo": "ferdinandobons/startup-skill",
-      "path": "startup-positioning",
-      "commitHash": "1dbf3926043d",
-      "files": ["SKILL.md", "references"]
     },
     {
       "id": "assafelovic/skyll/skills/skyll",
@@ -5139,6 +3689,28 @@
       "files": ["README.md", "SKILL.md", "examples.md"]
     },
     {
+      "id": "chrisvoncsefalvay/autostar/autostar-skill",
+      "name": "autostar",
+      "description": "Generalised autonomous optimisation loop — soft RLVR for any artifact a user can measure. Use this skill whenever a user wants to iteratively improve an artifact — code, prompts, documents, configs, designs, content — by running structured experiments, evaluating results against a multi-dimensional rubric, and learning from each attempt. Triggers include: \"optimise this\", \"keep improving until it's good\", \"run experiments on\", \"autoresearch\", \"iterate on this overnight\", \"try different approaches and pick the best\", or any request implying repeated evaluate-and-improve cycles. Also use when the user wants to improve a system prompt, a data pipeline, a writing style, or any artifact where quality can be decomposed into measurable tracks. For inference optimisation tasks (model latency, throughput, quantization, GPU deployment), a* delegates the low-level tuning to AITune while maintaining quality tracking and learning.\n",
+      "categories": ["DevOps", "Design", "Writing", "Data & Analytics", "Research", "AI & ML"],
+      "author": "chrisvoncsefalvay",
+      "repo": "chrisvoncsefalvay/autostar",
+      "path": "autostar-skill",
+      "commitHash": "1f4a2f62e773",
+      "files": ["SKILL.md", "assets", "references", "runtime-profiles", "scripts"]
+    },
+    {
+      "id": "chrisvoncsefalvay/autostar/autostar-claude-ai-skill",
+      "name": "autostar-web",
+      "description": "Generalised autonomous optimisation loop — soft RLVR for any artifact a user can measure. Web runtime package: uses memory in this order: connector-backed, project-pack, none. Never assumes subprocess access or unrestricted local files. Use this skill whenever a user wants to iteratively improve an artifact — code, prompts, documents, configs, designs, content — by running structured experiments, evaluating results against a multi-dimensional rubric, and learning from each attempt. Triggers include: \"optimise this\", \"keep improving until it's good\", \"run experiments on\", \"autoresearch\", \"iterate on this overnight\", \"try different approaches and pick the best\", or any request implying repeated evaluate-and-improve cycles.\n",
+      "categories": ["Design", "Productivity", "Documents", "Research", "AI & ML"],
+      "author": "chrisvoncsefalvay",
+      "repo": "chrisvoncsefalvay/autostar",
+      "path": "autostar-claude-ai-skill",
+      "commitHash": "1f4a2f62e773",
+      "files": ["SKILL.md", "references", "runtime-profiles"]
+    },
+    {
       "id": "VapiAI/skills/create-tool",
       "name": "create-tool",
       "description": "Create custom tools for Vapi voice assistants including function tools, API request tools, transfer call tools, end call tools, and integrations with Google Calendar, Sheets, Slack, and more. Use when adding capabilities to voice agents, building tool servers, or integrating external APIs.",
@@ -5225,28 +3797,6 @@
       "path": "create-phone-number",
       "commitHash": "9b95b89c02a6",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "chrisvoncsefalvay/autostar/autostar-skill",
-      "name": "autostar",
-      "description": "Generalised autonomous optimisation loop — soft RLVR for any artifact a user can measure. Use this skill whenever a user wants to iteratively improve an artifact — code, prompts, documents, configs, designs, content — by running structured experiments, evaluating results against a multi-dimensional rubric, and learning from each attempt. Triggers include: \"optimise this\", \"keep improving until it's good\", \"run experiments on\", \"autoresearch\", \"iterate on this overnight\", \"try different approaches and pick the best\", or any request implying repeated evaluate-and-improve cycles. Also use when the user wants to improve a system prompt, a data pipeline, a writing style, or any artifact where quality can be decomposed into measurable tracks. For inference optimisation tasks (model latency, throughput, quantization, GPU deployment), a* delegates the low-level tuning to AITune while maintaining quality tracking and learning.\n",
-      "categories": ["DevOps", "Design", "Writing", "Data & Analytics", "Research", "AI & ML"],
-      "author": "chrisvoncsefalvay",
-      "repo": "chrisvoncsefalvay/autostar",
-      "path": "autostar-skill",
-      "commitHash": "1f4a2f62e773",
-      "files": ["SKILL.md", "assets", "references", "runtime-profiles", "scripts"]
-    },
-    {
-      "id": "chrisvoncsefalvay/autostar/autostar-claude-ai-skill",
-      "name": "autostar-web",
-      "description": "Generalised autonomous optimisation loop — soft RLVR for any artifact a user can measure. Web runtime package: uses memory in this order: connector-backed, project-pack, none. Never assumes subprocess access or unrestricted local files. Use this skill whenever a user wants to iteratively improve an artifact — code, prompts, documents, configs, designs, content — by running structured experiments, evaluating results against a multi-dimensional rubric, and learning from each attempt. Triggers include: \"optimise this\", \"keep improving until it's good\", \"run experiments on\", \"autoresearch\", \"iterate on this overnight\", \"try different approaches and pick the best\", or any request implying repeated evaluate-and-improve cycles.\n",
-      "categories": ["Design", "Productivity", "Documents", "Research", "AI & ML"],
-      "author": "chrisvoncsefalvay",
-      "repo": "chrisvoncsefalvay/autostar",
-      "path": "autostar-claude-ai-skill",
-      "commitHash": "1f4a2f62e773",
-      "files": ["SKILL.md", "references", "runtime-profiles"]
     },
     {
       "id": "iamzifei/gtd-coach-plugin/skills/gtd-coach",
@@ -5958,6 +4508,17 @@
       "files": ["SKILL.md", "references"]
     },
     {
+      "id": "brettdavies/crawl4ai-skill/crawl4ai",
+      "name": "crawl4ai",
+      "description": "This skill should be used when users need to scrape websites, extract structured data, handle JavaScript-heavy pages, crawl multiple URLs, or build automated web data pipelines. Includes optimized extraction patterns with schema generation for efficient, LLM-free extraction.",
+      "categories": ["Development", "Data & Analytics", "Research", "AI & ML"],
+      "author": "brettdavies",
+      "repo": "brettdavies/crawl4ai-skill",
+      "path": "crawl4ai",
+      "commitHash": "2c595528f7d9",
+      "files": ["SKILL.md", "references", "scripts", "tests"]
+    },
+    {
       "id": "IJONIS/geo-lint/skills/geo-lint",
       "name": "geo-lint",
       "description": "SEO & GEO content linter — validates Markdown/MDX files for AI search visibility using 92 deterministic rules (35 GEO, 32 SEO, 14 content quality, 8 technical, 3 i18n). Runs an autonomous lint-fix loop: scan content, read structured violations, fix them, re-lint until clean. Use when optimizing content for AI citations, auditing SEO compliance, checking GEO readiness, or running pre-publish content validation. Triggers on: \"geo-lint\", \"lint content\", \"SEO audit\", \"GEO\", \"content optimization\", \"AI search\", \"citation readiness\".\n",
@@ -6229,17 +4790,6 @@
       "files": ["SKILL.md", "scripts"]
     },
     {
-      "id": "cmertdalli/polisci-review/templates/codex-skill",
-      "name": "polisci-review",
-      "description": "Run a political science pre-submission audit with journal-aware personas, stage-aware standards, and evidence-grounded issue reporting.",
-      "categories": ["Other"],
-      "author": "cmertdalli",
-      "repo": "cmertdalli/polisci-review",
-      "path": "templates/codex-skill",
-      "commitHash": "df5e14f35aee",
-      "files": ["SKILL.md", "agents"]
-    },
-    {
       "id": "vulhunt-re/skills/plugins/vulhunt/skills/functions",
       "name": "functions",
       "description": "Find and list functions in a binary by name, address, regex, or byte pattern. Use as the starting point for binary analysis, to locate specific functions, or to enumerate all functions matching criteria.",
@@ -6315,6 +4865,17 @@
       "path": "plugins/vulhunt/skills/code-pattern-matching",
       "commitHash": "52a1443464bd",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "cmertdalli/polisci-review/templates/codex-skill",
+      "name": "polisci-review",
+      "description": "Run a political science pre-submission audit with journal-aware personas, stage-aware standards, and evidence-grounded issue reporting.",
+      "categories": ["Other"],
+      "author": "cmertdalli",
+      "repo": "cmertdalli/polisci-review",
+      "path": "templates/codex-skill",
+      "commitHash": "df5e14f35aee",
+      "files": ["SKILL.md", "agents"]
     },
     {
       "id": "girijashankarj/cursor-handbook/.cursor/skills/backend/api-mock-server",
