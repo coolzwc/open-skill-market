@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generatedAt": "2026-04-25T02:32:30.119Z",
-    "totalSkills": 5455,
+    "generatedAt": "2026-04-25T07:41:34.474Z",
+    "totalSkills": 5457,
     "localSkills": 0,
     "prioritySkills": 87,
-    "remoteSkills": 5368,
+    "remoteSkills": 5370,
     "apiVersion": "1.1",
     "rateLimited": false,
     "timedOut": true,
     "zipTimedOut": true,
-    "executionTimeMs": 18607043,
+    "executionTimeMs": 18522897,
     "compact": true,
     "chunks": ["skills-1.json", "skills-2.json"]
   },
@@ -17,29 +17,29 @@
     "anthropics/skills": {
       "url": "https://github.com/anthropics/skills",
       "branch": "main",
-      "stars": 123411,
-      "forks": 14426,
+      "stars": 123469,
+      "forks": 14436,
       "lastUpdated": "2026-04-23T17:07:20Z"
     },
     "vercel-labs/agent-skills": {
       "url": "https://github.com/vercel-labs/agent-skills",
       "branch": "main",
-      "stars": 25661,
+      "stars": 25665,
       "forks": 2331,
       "lastUpdated": "2026-04-20T21:13:10Z"
     },
     "openai/skills": {
       "url": "https://github.com/openai/skills",
       "branch": "main",
-      "stars": 17414,
-      "forks": 1098,
-      "lastUpdated": "2026-04-24T21:08:03Z"
+      "stars": 17432,
+      "forks": 1099,
+      "lastUpdated": "2026-04-24T21:26:34Z"
     },
     "huggingface/skills": {
       "url": "https://github.com/huggingface/skills",
       "branch": "main",
       "stars": 10304,
-      "forks": 645,
+      "forks": 646,
       "lastUpdated": "2026-04-24T13:32:17Z"
     },
     "vuejs-ai/skills": {
@@ -52,126 +52,126 @@
     "n8n-io/n8n": {
       "url": "https://github.com/n8n-io/n8n",
       "branch": "master",
-      "stars": 185457,
+      "stars": 185472,
       "forks": 57093,
-      "lastUpdated": "2026-04-24T19:54:44Z"
+      "lastUpdated": "2026-04-25T01:23:43Z"
     },
     "google-gemini/gemini-cli": {
       "url": "https://github.com/google-gemini/gemini-cli",
       "branch": "main",
-      "stars": 102323,
-      "forks": 13307,
-      "lastUpdated": "2026-04-24T21:20:47Z"
+      "stars": 102336,
+      "forks": 13310,
+      "lastUpdated": "2026-04-25T02:31:59Z"
     },
     "thedotmack/claude-mem": {
       "url": "https://github.com/thedotmack/claude-mem",
       "branch": "main",
-      "stars": 66988,
-      "forks": 5682,
-      "lastUpdated": "2026-04-24T20:57:09Z"
+      "stars": 67069,
+      "forks": 5697,
+      "lastUpdated": "2026-04-25T02:32:11Z"
     },
     "ComposioHQ/awesome-claude-skills": {
       "url": "https://github.com/ComposioHQ/awesome-claude-skills",
       "branch": "master",
-      "stars": 56084,
-      "forks": 6021,
+      "stars": 56112,
+      "forks": 6024,
       "lastUpdated": "2026-04-21T11:45:47Z"
     },
     "code-yeongyu/oh-my-openagent": {
       "url": "https://github.com/code-yeongyu/oh-my-openagent",
       "branch": "dev",
-      "stars": 53966,
-      "forks": 4379,
+      "stars": 53988,
+      "forks": 4378,
       "lastUpdated": "2026-04-24T17:59:48Z"
     },
     "upstash/context7": {
       "url": "https://github.com/upstash/context7",
       "branch": "master",
-      "stars": 53655,
-      "forks": 2536,
+      "stars": 53671,
+      "forks": 2539,
       "lastUpdated": "2026-04-24T17:50:23Z"
     },
     "D4Vinci/Scrapling": {
       "url": "https://github.com/D4Vinci/Scrapling",
       "branch": "main",
-      "stars": 38612,
-      "forks": 3424,
+      "stars": 38629,
+      "forks": 3427,
       "lastUpdated": "2026-04-24T19:00:11Z"
     },
     "ChromeDevTools/chrome-devtools-mcp": {
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "branch": "main",
-      "stars": 37090,
-      "forks": 2289,
+      "stars": 37111,
+      "forks": 2292,
       "lastUpdated": "2026-04-24T19:47:26Z"
     },
     "sickn33/antigravity-awesome-skills": {
       "url": "https://github.com/sickn33/antigravity-awesome-skills",
       "branch": "main",
-      "stars": 34943,
-      "forks": 5762,
+      "stars": 34975,
+      "forks": 5765,
       "lastUpdated": "2026-04-24T06:41:17Z"
     },
     "wshobson/agents": {
       "url": "https://github.com/wshobson/agents",
       "branch": "main",
-      "stars": 34235,
+      "stars": 34248,
       "forks": 3710,
       "lastUpdated": "2026-04-18T18:30:34Z"
     },
     "github/awesome-copilot": {
       "url": "https://github.com/github/awesome-copilot",
       "branch": "main",
-      "stars": 31139,
-      "forks": 3745,
+      "stars": 31150,
+      "forks": 3750,
       "lastUpdated": "2026-04-24T19:42:16Z"
     },
     "qwibitai/nanoclaw": {
       "url": "https://github.com/qwibitai/nanoclaw",
       "branch": "main",
-      "stars": 27903,
-      "forks": 12615,
+      "stars": 27923,
+      "forks": 12617,
       "lastUpdated": "2026-04-24T14:21:01Z"
     },
     "assafelovic/gpt-researcher": {
       "url": "https://github.com/assafelovic/gpt-researcher",
       "branch": "main",
-      "stars": 26675,
+      "stars": 26678,
       "forks": 3566,
       "lastUpdated": "2026-04-16T17:41:04Z"
     },
     "PrefectHQ/fastmcp": {
       "url": "https://github.com/PrefectHQ/fastmcp",
       "branch": "main",
-      "stars": 24836,
+      "stars": 24841,
       "forks": 1958,
       "lastUpdated": "2026-04-24T21:09:48Z"
     },
     "addyosmani/agent-skills": {
       "url": "https://github.com/addyosmani/agent-skills",
       "branch": "main",
-      "stars": 22669,
-      "forks": 2796,
+      "stars": 22722,
+      "forks": 2802,
       "lastUpdated": "2026-04-21T06:34:32Z"
     },
     "activepieces/activepieces": {
       "url": "https://github.com/activepieces/activepieces",
       "branch": "main",
       "stars": 21859,
-      "forks": 3575,
-      "lastUpdated": "2026-04-24T18:17:22Z"
+      "forks": 3579,
+      "lastUpdated": "2026-04-24T23:58:15Z"
     },
     "OthmanAdi/planning-with-files": {
       "url": "https://github.com/OthmanAdi/planning-with-files",
       "branch": "master",
-      "stars": 19537,
-      "forks": 1751,
+      "stars": 19556,
+      "forks": 1752,
       "lastUpdated": "2026-04-21T13:56:38Z"
     },
     "K-Dense-AI/scientific-agent-skills": {
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "branch": "main",
-      "stars": 19353,
+      "stars": 19359,
       "forks": 2165,
       "lastUpdated": "2026-04-20T10:43:53Z"
     },
@@ -192,133 +192,133 @@
     "JimLiu/baoyu-skills": {
       "url": "https://github.com/JimLiu/baoyu-skills",
       "branch": "main",
-      "stars": 16291,
-      "forks": 1887,
+      "stars": 16310,
+      "forks": 1889,
       "lastUpdated": "2026-04-24T07:16:02Z"
     },
     "zarazhangrui/frontend-slides": {
       "url": "https://github.com/zarazhangrui/frontend-slides",
       "branch": "main",
-      "stars": 15532,
+      "stars": 15542,
       "forks": 1243,
       "lastUpdated": "2026-04-08T18:23:28Z"
     },
     "triggerdotdev/trigger.dev": {
       "url": "https://github.com/triggerdotdev/trigger.dev",
       "branch": "main",
-      "stars": 14666,
+      "stars": 14667,
       "forks": 1177,
       "lastUpdated": "2026-04-24T15:02:56Z"
     },
     "eigent-ai/eigent": {
       "url": "https://github.com/eigent-ai/eigent",
       "branch": "main",
-      "stars": 13732,
-      "forks": 1612,
+      "stars": 13736,
+      "forks": 1614,
       "lastUpdated": "2026-04-24T04:17:37Z"
     },
     "open-metadata/OpenMetadata": {
       "url": "https://github.com/open-metadata/OpenMetadata",
       "branch": "main",
-      "stars": 13312,
-      "forks": 2035,
-      "lastUpdated": "2026-04-24T19:27:42Z"
+      "stars": 13376,
+      "forks": 2037,
+      "lastUpdated": "2026-04-24T23:37:00Z"
     },
     "yusufkaraaslan/Skill_Seekers": {
       "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
       "branch": "development",
-      "stars": 13077,
+      "stars": 13082,
       "forks": 1349,
       "lastUpdated": "2026-04-23T13:59:33Z"
     },
     "xpzouying/xiaohongshu-mcp": {
       "url": "https://github.com/xpzouying/xiaohongshu-mcp",
       "branch": "main",
-      "stars": 13048,
+      "stars": 13049,
       "forks": 1971,
       "lastUpdated": "2026-04-17T04:45:46Z"
     },
     "alirezarezvani/claude-skills": {
       "url": "https://github.com/alirezarezvani/claude-skills",
       "branch": "main",
-      "stars": 12602,
-      "forks": 1668,
+      "stars": 12622,
+      "forks": 1671,
       "lastUpdated": "2026-04-20T12:37:36Z"
     },
     "teng-lin/notebooklm-py": {
       "url": "https://github.com/teng-lin/notebooklm-py",
       "branch": "main",
-      "stars": 11698,
+      "stars": 11707,
       "forks": 1582,
       "lastUpdated": "2026-04-21T22:21:19Z"
     },
     "phuryn/pm-skills": {
       "url": "https://github.com/phuryn/pm-skills",
       "branch": "main",
-      "stars": 10602,
-      "forks": 1225,
+      "stars": 10608,
+      "forks": 1226,
       "lastUpdated": "2026-04-22T14:30:24Z"
     },
     "aden-hive/hive": {
       "url": "https://github.com/aden-hive/hive",
       "branch": "main",
-      "stars": 10130,
-      "forks": 5623,
-      "lastUpdated": "2026-04-24T17:12:10Z"
+      "stars": 10131,
+      "forks": 5626,
+      "lastUpdated": "2026-04-25T02:02:04Z"
+    },
+    "mksglu/context-mode": {
+      "url": "https://github.com/mksglu/context-mode",
+      "branch": "main",
+      "stars": 9843,
+      "forks": 670,
+      "lastUpdated": "2026-04-24T18:12:42Z"
     },
     "mcp-use/mcp-use": {
       "url": "https://github.com/mcp-use/mcp-use",
       "branch": "main",
       "stars": 9806,
       "forks": 1251,
-      "lastUpdated": "2026-04-24T19:46:05Z"
-    },
-    "mksglu/context-mode": {
-      "url": "https://github.com/mksglu/context-mode",
-      "branch": "main",
-      "stars": 9790,
-      "forks": 668,
-      "lastUpdated": "2026-04-24T18:12:42Z"
+      "lastUpdated": "2026-04-25T00:36:41Z"
     },
     "awslabs/mcp": {
       "url": "https://github.com/awslabs/mcp",
       "branch": "main",
-      "stars": 8863,
-      "forks": 1480,
+      "stars": 8864,
+      "forks": 1481,
       "lastUpdated": "2026-04-24T09:45:09Z"
     },
     "Lum1104/Understand-Anything": {
       "url": "https://github.com/Lum1104/Understand-Anything",
       "branch": "main",
       "stars": 8776,
-      "forks": 737,
+      "forks": 739,
       "lastUpdated": "2026-04-24T11:29:29Z"
     },
     "Jeffallan/claude-skills": {
       "url": "https://github.com/Jeffallan/claude-skills",
       "branch": "main",
-      "stars": 8529,
+      "stars": 8535,
       "forks": 698,
       "lastUpdated": "2026-04-21T14:49:45Z"
     },
     "mrexodia/ida-pro-mcp": {
       "url": "https://github.com/mrexodia/ida-pro-mcp",
       "branch": "main",
-      "stars": 7832,
+      "stars": 7838,
       "forks": 954,
       "lastUpdated": "2026-04-24T15:28:16Z"
     },
     "wanshuiyin/Auto-claude-code-research-in-sleep": {
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
       "branch": "main",
-      "stars": 7435,
-      "forks": 706,
+      "stars": 7439,
+      "forks": 707,
       "lastUpdated": "2026-04-24T18:08:07Z"
     },
     "Orchestra-Research/AI-Research-SKILLs": {
       "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
       "branch": "main",
-      "stars": 7352,
+      "stars": 7356,
       "forks": 566,
       "lastUpdated": "2026-04-13T20:41:37Z"
     },
@@ -339,14 +339,14 @@
     "getsentry/XcodeBuildMCP": {
       "url": "https://github.com/getsentry/XcodeBuildMCP",
       "branch": "main",
-      "stars": 5318,
+      "stars": 5319,
       "forks": 259,
-      "lastUpdated": "2026-04-24T21:07:24Z"
+      "lastUpdated": "2026-04-24T22:18:19Z"
     },
     "CCOSTAN/Home-AssistantConfig": {
       "url": "https://github.com/CCOSTAN/Home-AssistantConfig",
       "branch": "master",
-      "stars": 5146,
+      "stars": 5147,
       "forks": 495,
       "lastUpdated": "2026-04-24T19:54:58Z"
     },
@@ -360,35 +360,35 @@
     "trailofbits/skills": {
       "url": "https://github.com/trailofbits/skills",
       "branch": "main",
-      "stars": 4778,
+      "stars": 4785,
       "forks": 414,
       "lastUpdated": "2026-04-24T04:56:08Z"
     },
     "exa-labs/exa-mcp-server": {
       "url": "https://github.com/exa-labs/exa-mcp-server",
       "branch": "main",
-      "stars": 4316,
+      "stars": 4317,
       "forks": 320,
       "lastUpdated": "2026-04-24T15:45:13Z"
     },
     "maximhq/bifrost": {
       "url": "https://github.com/maximhq/bifrost",
       "branch": "main",
-      "stars": 4259,
-      "forks": 496,
-      "lastUpdated": "2026-04-24T19:04:59Z"
+      "stars": 4272,
+      "forks": 498,
+      "lastUpdated": "2026-04-25T01:38:50Z"
     },
     "modelcontextprotocol/csharp-sdk": {
       "url": "https://github.com/modelcontextprotocol/csharp-sdk",
       "branch": "main",
-      "stars": 4216,
-      "forks": 681,
+      "stars": 4217,
+      "forks": 682,
       "lastUpdated": "2026-04-20T06:55:37Z"
     },
     "gosom/google-maps-scraper": {
       "url": "https://github.com/gosom/google-maps-scraper",
       "branch": "main",
-      "stars": 3775,
+      "stars": 3776,
       "forks": 540,
       "lastUpdated": "2026-04-22T20:29:20Z"
     },
@@ -402,8 +402,8 @@
     "gotalab/cc-sdd": {
       "url": "https://github.com/gotalab/cc-sdd",
       "branch": "main",
-      "stars": 3182,
-      "forks": 245,
+      "stars": 3183,
+      "forks": 244,
       "lastUpdated": "2026-04-14T21:46:11Z"
     },
     "glitternetwork/pinme": {
@@ -416,7 +416,7 @@
     "davepoon/buildwithclaude": {
       "url": "https://github.com/davepoon/buildwithclaude",
       "branch": "main",
-      "stars": 2799,
+      "stars": 2801,
       "forks": 320,
       "lastUpdated": "2026-04-20T11:34:33Z"
     },
@@ -437,35 +437,35 @@
     "rusq/slackdump": {
       "url": "https://github.com/rusq/slackdump",
       "branch": "master",
-      "stars": 2556,
+      "stars": 2557,
       "forks": 137,
       "lastUpdated": "2026-04-24T08:40:53Z"
     },
     "deedy5/ddgs": {
       "url": "https://github.com/deedy5/ddgs",
       "branch": "main",
-      "stars": 2541,
+      "stars": 2546,
       "forks": 248,
       "lastUpdated": "2026-04-20T12:09:00Z"
     },
     "IvanMurzak/Unity-MCP": {
       "url": "https://github.com/IvanMurzak/Unity-MCP",
       "branch": "main",
-      "stars": 2315,
+      "stars": 2316,
       "forks": 208,
       "lastUpdated": "2026-04-24T02:15:42Z"
     },
     "KhazP/vibe-coding-prompt-template": {
       "url": "https://github.com/KhazP/vibe-coding-prompt-template",
       "branch": "main",
-      "stars": 2277,
+      "stars": 2279,
       "forks": 291,
       "lastUpdated": "2026-04-19T22:22:18Z"
     },
     "taylorwilsdon/google_workspace_mcp": {
       "url": "https://github.com/taylorwilsdon/google_workspace_mcp",
       "branch": "main",
-      "stars": 2202,
+      "stars": 2203,
       "forks": 671,
       "lastUpdated": "2026-04-24T17:45:56Z"
     },
@@ -474,19 +474,19 @@
       "branch": "main",
       "stars": 2149,
       "forks": 219,
-      "lastUpdated": "2026-04-24T07:46:31Z"
+      "lastUpdated": "2026-04-25T01:44:25Z"
     },
     "atilaahmettaner/tradingview-mcp": {
       "url": "https://github.com/atilaahmettaner/tradingview-mcp",
       "branch": "main",
-      "stars": 2144,
-      "forks": 469,
+      "stars": 2148,
+      "forks": 471,
       "lastUpdated": "2026-04-24T20:55:31Z"
     },
     "microsoft/skills": {
       "url": "https://github.com/microsoft/skills",
       "branch": "main",
-      "stars": 2132,
+      "stars": 2133,
       "forks": 243,
       "lastUpdated": "2026-04-24T14:01:35Z"
     },
@@ -500,14 +500,14 @@
     "jeremylongshore/claude-code-plugins-plus-skills": {
       "url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills",
       "branch": "main",
-      "stars": 2012,
+      "stars": 2013,
       "forks": 272,
       "lastUpdated": "2026-04-23T05:25:09Z"
     },
     "rohitg00/pro-workflow": {
       "url": "https://github.com/rohitg00/pro-workflow",
       "branch": "main",
-      "stars": 2005,
+      "stars": 2007,
       "forks": 191,
       "lastUpdated": "2026-04-20T22:20:39Z"
     },
@@ -516,40 +516,40 @@
       "branch": "main",
       "stars": 1883,
       "forks": 218,
-      "lastUpdated": "2026-04-24T20:39:51Z"
+      "lastUpdated": "2026-04-25T00:38:16Z"
     },
     "cisco-ai-defense/skill-scanner": {
       "url": "https://github.com/cisco-ai-defense/skill-scanner",
       "branch": "main",
-      "stars": 1828,
-      "forks": 221,
+      "stars": 1830,
+      "forks": 220,
       "lastUpdated": "2026-04-22T20:22:51Z"
     },
     "stacklok/toolhive": {
       "url": "https://github.com/stacklok/toolhive",
       "branch": "main",
       "stars": 1730,
-      "forks": 205,
-      "lastUpdated": "2026-04-24T21:06:43Z"
+      "forks": 207,
+      "lastUpdated": "2026-04-25T00:53:26Z"
     },
     "doobidoo/mcp-memory-service": {
       "url": "https://github.com/doobidoo/mcp-memory-service",
       "branch": "main",
-      "stars": 1726,
+      "stars": 1727,
       "forks": 260,
       "lastUpdated": "2026-04-24T16:45:23Z"
     },
     "antonbabenko/terraform-skill": {
       "url": "https://github.com/antonbabenko/terraform-skill",
       "branch": "master",
-      "stars": 1711,
+      "stars": 1714,
       "forks": 141,
       "lastUpdated": "2026-04-22T18:01:23Z"
     },
     "ljagiello/ctf-skills": {
       "url": "https://github.com/ljagiello/ctf-skills",
       "branch": "main",
-      "stars": 1703,
+      "stars": 1706,
       "forks": 233,
       "lastUpdated": "2026-04-23T05:57:02Z"
     },
@@ -570,23 +570,30 @@
     "stickerdaniel/linkedin-mcp-server": {
       "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
       "branch": "main",
-      "stars": 1661,
+      "stars": 1663,
       "forks": 312,
       "lastUpdated": "2026-04-22T15:53:15Z"
     },
     "runkids/skillshare": {
       "url": "https://github.com/runkids/skillshare",
       "branch": "main",
-      "stars": 1621,
+      "stars": 1622,
       "forks": 93,
       "lastUpdated": "2026-04-23T11:53:11Z"
     },
     "Manavarya09/design-extract": {
       "url": "https://github.com/Manavarya09/design-extract",
       "branch": "main",
-      "stars": 1508,
-      "forks": 141,
+      "stars": 1520,
+      "forks": 142,
       "lastUpdated": "2026-04-24T19:55:16Z"
+    },
+    "ComposioHQ/awesome-claude-plugins": {
+      "url": "https://github.com/ComposioHQ/awesome-claude-plugins",
+      "branch": "master",
+      "stars": 1467,
+      "forks": 339,
+      "lastUpdated": "2026-04-21T11:40:49Z"
     },
     "feiskyer/claude-code-settings": {
       "url": "https://github.com/feiskyer/claude-code-settings",
@@ -594,13 +601,6 @@
       "stars": 1463,
       "forks": 218,
       "lastUpdated": "2026-04-17T02:34:48Z"
-    },
-    "ComposioHQ/awesome-claude-plugins": {
-      "url": "https://github.com/ComposioHQ/awesome-claude-plugins",
-      "branch": "master",
-      "stars": 1455,
-      "forks": 336,
-      "lastUpdated": "2026-04-21T11:40:49Z"
     },
     "PaperDebugger/paperdebugger": {
       "url": "https://github.com/PaperDebugger/paperdebugger",
@@ -619,16 +619,16 @@
     "jnMetaCode/superpowers-zh": {
       "url": "https://github.com/jnMetaCode/superpowers-zh",
       "branch": "main",
-      "stars": 1401,
-      "forks": 159,
+      "stars": 1412,
+      "forks": 160,
       "lastUpdated": "2026-04-19T12:02:35Z"
     },
     "dotnet/skills": {
       "url": "https://github.com/dotnet/skills",
       "branch": "main",
-      "stars": 1382,
+      "stars": 1384,
       "forks": 106,
-      "lastUpdated": "2026-04-24T13:27:29Z"
+      "lastUpdated": "2026-04-24T23:19:26Z"
     },
     "samber/cc-skills-golang": {
       "url": "https://github.com/samber/cc-skills-golang",
@@ -647,7 +647,7 @@
     "aaron-he-zhu/seo-geo-claude-skills": {
       "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
       "branch": "main",
-      "stars": 1250,
+      "stars": 1251,
       "forks": 177,
       "lastUpdated": "2026-04-23T12:44:38Z"
     },
@@ -668,8 +668,8 @@
     "ComposioHQ/awesome-codex-skills": {
       "url": "https://github.com/ComposioHQ/awesome-codex-skills",
       "branch": "master",
-      "stars": 1136,
-      "forks": 113,
+      "stars": 1158,
+      "forks": 114,
       "lastUpdated": "2026-04-24T06:18:42Z"
     },
     "silverstein/minutes": {
@@ -677,13 +677,13 @@
       "branch": "main",
       "stars": 1131,
       "forks": 115,
-      "lastUpdated": "2026-04-24T20:10:35Z"
+      "lastUpdated": "2026-04-24T22:05:19Z"
     },
     "Natively-AI-assistant/natively-cluely-ai-assistant": {
       "url": "https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant",
       "branch": "main",
       "stars": 1033,
-      "forks": 244,
+      "forks": 245,
       "lastUpdated": "2026-04-19T03:23:38Z"
     },
     "MoizIbnYousaf/Ai-Agent-Skills": {
@@ -717,14 +717,14 @@
     "rohitg00/skillkit": {
       "url": "https://github.com/rohitg00/skillkit",
       "branch": "main",
-      "stars": 886,
+      "stars": 887,
       "forks": 83,
       "lastUpdated": "2026-04-21T10:18:26Z"
     },
     "ArcadeAI/arcade-mcp": {
       "url": "https://github.com/ArcadeAI/arcade-mcp",
       "branch": "main",
-      "stars": 867,
+      "stars": 868,
       "forks": 88,
       "lastUpdated": "2026-04-24T17:31:28Z"
     },
@@ -745,7 +745,7 @@
     "first-fluke/oh-my-agent": {
       "url": "https://github.com/first-fluke/oh-my-agent",
       "branch": "main",
-      "stars": 804,
+      "stars": 807,
       "forks": 98,
       "lastUpdated": "2026-04-24T13:47:05Z"
     },
@@ -780,7 +780,7 @@
     "microsoft/azure-skills": {
       "url": "https://github.com/microsoft/azure-skills",
       "branch": "main",
-      "stars": 708,
+      "stars": 709,
       "forks": 110,
       "lastUpdated": "2026-04-24T18:58:19Z"
     },
@@ -801,21 +801,21 @@
     "fcakyon/claude-codex-settings": {
       "url": "https://github.com/fcakyon/claude-codex-settings",
       "branch": "main",
-      "stars": 640,
+      "stars": 641,
       "forks": 57,
       "lastUpdated": "2026-04-24T07:56:57Z"
     },
     "awslabs/agent-plugins": {
       "url": "https://github.com/awslabs/agent-plugins",
       "branch": "main",
-      "stars": 622,
+      "stars": 623,
       "forks": 80,
       "lastUpdated": "2026-04-23T23:06:38Z"
     },
     "Ar9av/obsidian-wiki": {
       "url": "https://github.com/Ar9av/obsidian-wiki",
       "branch": "main",
-      "stars": 614,
+      "stars": 621,
       "forks": 87,
       "lastUpdated": "2026-04-24T17:01:29Z"
     },
@@ -829,7 +829,7 @@
     "Agents365-ai/video-podcast-maker": {
       "url": "https://github.com/Agents365-ai/video-podcast-maker",
       "branch": "main",
-      "stars": 560,
+      "stars": 563,
       "forks": 76,
       "lastUpdated": "2026-04-24T13:08:12Z"
     },
@@ -843,7 +843,7 @@
     "Agents365-ai/drawio-skill": {
       "url": "https://github.com/Agents365-ai/drawio-skill",
       "branch": "main",
-      "stars": 524,
+      "stars": 528,
       "forks": 31,
       "lastUpdated": "2026-04-23T10:23:53Z"
     },
@@ -857,7 +857,7 @@
     "countbot-ai/CountBot": {
       "url": "https://github.com/countbot-ai/CountBot",
       "branch": "main",
-      "stars": 513,
+      "stars": 514,
       "forks": 69,
       "lastUpdated": "2026-04-19T14:51:32Z"
     }
@@ -1279,15 +1279,15 @@
       "files": ["AGENTS.md", "README.md", "SKILL.md", "metadata.json", "rules"]
     },
     {
-      "id": "vercel-labs/agent-skills/skills/react-best-practices",
-      "name": "vercel-react-best-practices",
-      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
-      "categories": ["Development"],
+      "id": "vercel-labs/agent-skills/skills/vercel-cli-with-tokens",
+      "name": "vercel-cli-with-tokens",
+      "description": "Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. \"deploy to vercel\", \"set up vercel\", \"add environment variables to vercel\".",
+      "categories": ["DevOps", "Security", "Productivity"],
       "author": "vercel-labs",
       "repo": "vercel-labs/agent-skills",
-      "path": "skills/react-best-practices",
+      "path": "skills/vercel-cli-with-tokens",
       "commitHash": "ce3e64e468f8",
-      "files": ["AGENTS.md", "README.md", "SKILL.md", "metadata.json", "rules"]
+      "files": ["SKILL.md"]
     },
     {
       "id": "vercel-labs/agent-skills/skills/web-design-guidelines",
@@ -1297,17 +1297,6 @@
       "author": "vercel-labs",
       "repo": "vercel-labs/agent-skills",
       "path": "skills/web-design-guidelines",
-      "commitHash": "ce3e64e468f8",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "vercel-labs/agent-skills/skills/vercel-cli-with-tokens",
-      "name": "vercel-cli-with-tokens",
-      "description": "Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. \"deploy to vercel\", \"set up vercel\", \"add environment variables to vercel\".",
-      "categories": ["DevOps", "Security", "Productivity"],
-      "author": "vercel-labs",
-      "repo": "vercel-labs/agent-skills",
-      "path": "skills/vercel-cli-with-tokens",
       "commitHash": "ce3e64e468f8",
       "files": ["SKILL.md"]
     },
@@ -1323,6 +1312,17 @@
       "files": ["AGENTS.md", "README.md", "SKILL.md", "metadata.json", "references"]
     },
     {
+      "id": "vercel-labs/agent-skills/skills/react-best-practices",
+      "name": "vercel-react-best-practices",
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+      "categories": ["Development"],
+      "author": "vercel-labs",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/react-best-practices",
+      "commitHash": "ce3e64e468f8",
+      "files": ["AGENTS.md", "README.md", "SKILL.md", "metadata.json", "rules"]
+    },
+    {
       "id": "openai/skills/skills/.curated/pdf",
       "name": "pdf",
       "description": "Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab`, `pdfplumber`, and `pypdf` for generation and extraction.",
@@ -1330,7 +1330,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/pdf",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": ["LICENSE.txt", "SKILL.md", "agents/openai.yaml", "assets/pdf.png"]
     },
     {
@@ -1341,7 +1341,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/doc",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1359,7 +1359,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/sora",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1378,29 +1378,6 @@
       ]
     },
     {
-      "id": "openai/skills/skills/.system/imagegen",
-      "name": "imagegen",
-      "description": "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas.",
-      "categories": ["Development", "Design", "Writing", "Productivity", "AI & ML"],
-      "author": "openai",
-      "repo": "openai/skills",
-      "path": "skills/.system/imagegen",
-      "commitHash": "fde460865b58",
-      "files": [
-        "LICENSE.txt",
-        "SKILL.md",
-        "agents/openai.yaml",
-        "assets/imagegen-small.svg",
-        "assets/imagegen.png",
-        "references/cli.md",
-        "references/codex-network.md",
-        "references/image-api.md",
-        "references/prompting.md",
-        "references/sample-prompts.md",
-        "scripts/image_gen.py"
-      ]
-    },
-    {
       "id": "openai/skills/skills/.curated/yeet",
       "name": "yeet",
       "description": "Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (`gh`).",
@@ -1408,13 +1385,32 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/yeet",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
         "agents/openai.yaml",
         "assets/yeet-small.svg",
         "assets/yeet.png"
+      ]
+    },
+    {
+      "id": "openai/skills/skills/.system/skill-creator",
+      "name": "skill-creator",
+      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflows, or tool integrations.",
+      "categories": ["Other"],
+      "author": "openai",
+      "repo": "openai/skills",
+      "path": "skills/.system/skill-creator",
+      "commitHash": "724cd511c965",
+      "files": [
+        "LICENSE.txt",
+        "SKILL.md",
+        "agents/openai.yaml",
+        "references/openai_yaml.md",
+        "scripts/generate_openai_yaml.py",
+        "scripts/init_skill.py",
+        "scripts/quick_validate.py"
       ]
     },
     {
@@ -1425,7 +1421,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/figma",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1445,7 +1441,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/sentry",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1462,7 +1458,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/linear",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1479,7 +1475,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/speech",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1500,6 +1496,29 @@
       ]
     },
     {
+      "id": "openai/skills/skills/.system/imagegen",
+      "name": "imagegen",
+      "description": "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas.",
+      "categories": ["Development", "Design", "Writing", "Productivity", "AI & ML"],
+      "author": "openai",
+      "repo": "openai/skills",
+      "path": "skills/.system/imagegen",
+      "commitHash": "724cd511c965",
+      "files": [
+        "LICENSE.txt",
+        "SKILL.md",
+        "agents/openai.yaml",
+        "assets/imagegen-small.svg",
+        "assets/imagegen.png",
+        "references/cli.md",
+        "references/codex-network.md",
+        "references/image-api.md",
+        "references/prompting.md",
+        "references/sample-prompts.md",
+        "scripts/image_gen.py"
+      ]
+    },
+    {
       "id": "openai/skills/skills/.curated/gh-fix-ci",
       "name": "gh-fix-ci",
       "description": "Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. Treat external providers (for example Buildkite) as out of scope and report only the details URL.",
@@ -1507,7 +1526,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/gh-fix-ci",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1525,7 +1544,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/figma-use",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.TXT",
         "SKILL.md",
@@ -1557,7 +1576,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/winui-app",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1589,7 +1608,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.system/openai-docs",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1610,7 +1629,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/playwright",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "NOTICE.txt",
@@ -1631,7 +1650,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/transcribe",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1650,7 +1669,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/screenshot",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1673,7 +1692,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/aspnet-core",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1702,27 +1721,8 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/cli-creator",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": ["LICENSE.txt", "SKILL.md", "agents/openai.yaml", "references/agent-cli-patterns.md"]
-    },
-    {
-      "id": "openai/skills/skills/.system/skill-creator",
-      "name": "skill-creator",
-      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflows, or tool integrations.",
-      "categories": ["Other"],
-      "author": "openai",
-      "repo": "openai/skills",
-      "path": "skills/.system/skill-creator",
-      "commitHash": "fde460865b58",
-      "files": [
-        "LICENSE.txt",
-        "SKILL.md",
-        "agents/openai.yaml",
-        "references/openai_yaml.md",
-        "scripts/generate_openai_yaml.py",
-        "scripts/init_skill.py",
-        "scripts/quick_validate.py"
-      ]
     },
     {
       "id": "openai/skills/skills/.curated/chatgpt-apps",
@@ -1732,7 +1732,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/chatgpt-apps",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1755,7 +1755,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/vercel-deploy",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1773,7 +1773,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/render-deploy",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1805,7 +1805,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.system/plugin-creator",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1822,7 +1822,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.system/skill-installer",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1842,7 +1842,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/netlify-deploy",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1862,7 +1862,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/jupyter-notebook",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1886,7 +1886,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/cloudflare-deploy",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1918,7 +1918,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/gh-address-comments",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1936,7 +1936,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/figma-generate-design",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.TXT",
         "SKILL.md",
@@ -1955,7 +1955,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/security-threat-model",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1972,7 +1972,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/figma-create-new-file",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.TXT",
         "SKILL.md",
@@ -1991,7 +1991,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/figma-implement-design",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -2009,7 +2009,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/playwright-interactive",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "NOTICE.txt",
@@ -2027,7 +2027,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/figma-generate-library",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.TXT",
         "SKILL.md",
@@ -2059,7 +2059,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/security-ownership-map",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -2079,7 +2079,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/security-best-practices",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -2104,7 +2104,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/notion-knowledge-capture",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -2134,7 +2134,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/notion-meeting-intelligence",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -2165,7 +2165,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/notion-spec-to-implementation",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -2196,7 +2196,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/figma-code-connect-components",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.TXT",
         "SKILL.md",
@@ -2216,7 +2216,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/notion-research-documentation",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -2248,7 +2248,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/figma-create-design-system-rules",
-      "commitHash": "fde460865b58",
+      "commitHash": "724cd511c965",
       "files": [
         "LICENSE.TXT",
         "SKILL.md",
@@ -2612,7 +2612,7 @@
       "author": "google-gemini",
       "repo": "google-gemini/gemini-cli",
       "path": ".gemini/skills/ci",
-      "commitHash": "a5b030b42484",
+      "commitHash": "42587de7338f",
       "files": ["SKILL.md", "scripts/ci.mjs"]
     },
     {
@@ -2623,7 +2623,7 @@
       "author": "google-gemini",
       "repo": "google-gemini/gemini-cli",
       "path": ".gemini/skills/docs-changelog",
-      "commitHash": "a5b030b42484",
+      "commitHash": "42587de7338f",
       "files": [
         "SKILL.md",
         "references/highlights_examples.md",
@@ -2640,7 +2640,7 @@
       "author": "google-gemini",
       "repo": "google-gemini/gemini-cli",
       "path": ".gemini/skills/behavioral-evals",
-      "commitHash": "a5b030b42484",
+      "commitHash": "42587de7338f",
       "files": [
         "SKILL.md",
         "assets/interactive_eval.ts.txt",
@@ -2659,7 +2659,7 @@
       "author": "google-gemini",
       "repo": "google-gemini/gemini-cli",
       "path": ".gemini/skills/pr-address-comments",
-      "commitHash": "a5b030b42484",
+      "commitHash": "42587de7338f",
       "files": ["SKILL.md", "scripts/fetch-pr-info.js"]
     },
     {
@@ -2670,7 +2670,7 @@
       "author": "google-gemini",
       "repo": "google-gemini/gemini-cli",
       "path": "packages/core/src/skills/builtin/skill-creator",
-      "commitHash": "a5b030b42484",
+      "commitHash": "42587de7338f",
       "files": [
         "SKILL.md",
         "scripts/init_skill.cjs",
@@ -2686,7 +2686,7 @@
       "author": "google-gemini",
       "repo": "google-gemini/gemini-cli",
       "path": ".gemini/skills/pr-creator",
-      "commitHash": "a5b030b42484",
+      "commitHash": "42587de7338f",
       "files": ["SKILL.md"]
     },
     {
@@ -2697,7 +2697,7 @@
       "author": "google-gemini",
       "repo": "google-gemini/gemini-cli",
       "path": ".gemini/skills/code-reviewer",
-      "commitHash": "a5b030b42484",
+      "commitHash": "42587de7338f",
       "files": ["SKILL.md"]
     },
     {
@@ -2708,7 +2708,7 @@
       "author": "google-gemini",
       "repo": "google-gemini/gemini-cli",
       "path": ".gemini/skills/string-reviewer",
-      "commitHash": "a5b030b42484",
+      "commitHash": "42587de7338f",
       "files": ["SKILL.md", "references/settings.md", "references/word-list.md"]
     },
     {
@@ -2719,7 +2719,7 @@
       "author": "google-gemini",
       "repo": "google-gemini/gemini-cli",
       "path": ".gemini/skills/review-duplication",
-      "commitHash": "a5b030b42484",
+      "commitHash": "42587de7338f",
       "files": ["SKILL.md"]
     },
     {
@@ -2730,7 +2730,7 @@
       "author": "google-gemini",
       "repo": "google-gemini/gemini-cli",
       "path": ".gemini/skills/docs-writer",
-      "commitHash": "a5b030b42484",
+      "commitHash": "42587de7338f",
       "files": ["SKILL.md", "quota-limit-style-guide.md", "references/docs-auditing.md"]
     },
     {
@@ -2741,7 +2741,7 @@
       "author": "google-gemini",
       "repo": "google-gemini/gemini-cli",
       "path": ".gemini/skills/async-pr-review",
-      "commitHash": "a5b030b42484",
+      "commitHash": "42587de7338f",
       "files": [
         "SKILL.md",
         "policy.toml",
@@ -2757,7 +2757,7 @@
       "author": "google-gemini",
       "repo": "google-gemini/gemini-cli",
       "path": ".gemini/skills/github-issue-creator",
-      "commitHash": "a5b030b42484",
+      "commitHash": "42587de7338f",
       "files": ["SKILL.md"]
     },
     {
@@ -8553,7 +8553,7 @@
       "author": "activepieces",
       "repo": "activepieces/activepieces",
       "path": ".agents/skills/mintlify",
-      "commitHash": "2c146521d9da",
+      "commitHash": "9c2be8fa0d81",
       "files": ["SKILL.md"]
     },
     {
@@ -8564,7 +8564,7 @@
       "author": "activepieces",
       "repo": "activepieces/activepieces",
       "path": ".agents/skills/add-entity",
-      "commitHash": "2c146521d9da",
+      "commitHash": "9c2be8fa0d81",
       "files": ["SKILL.md"]
     },
     {
@@ -8575,7 +8575,7 @@
       "author": "activepieces",
       "repo": "activepieces/activepieces",
       "path": ".agents/skills/add-feature",
-      "commitHash": "2c146521d9da",
+      "commitHash": "9c2be8fa0d81",
       "files": ["SKILL.md"]
     },
     {
@@ -8586,7 +8586,7 @@
       "author": "activepieces",
       "repo": "activepieces/activepieces",
       "path": ".agents/skills/db-migration",
-      "commitHash": "2c146521d9da",
+      "commitHash": "9c2be8fa0d81",
       "files": ["SKILL.md"]
     },
     {
@@ -8597,7 +8597,7 @@
       "author": "activepieces",
       "repo": "activepieces/activepieces",
       "path": ".agents/skills/add-endpoint",
-      "commitHash": "2c146521d9da",
+      "commitHash": "9c2be8fa0d81",
       "files": ["SKILL.md"]
     },
     {
@@ -8608,7 +8608,7 @@
       "author": "activepieces",
       "repo": "activepieces/activepieces",
       "path": ".agents/skills/piece-builder",
-      "commitHash": "2c146521d9da",
+      "commitHash": "9c2be8fa0d81",
       "files": [
         "SKILL.md",
         "action-patterns.md",
@@ -8629,7 +8629,7 @@
       "author": "activepieces",
       "repo": "activepieces/activepieces",
       "path": ".agents/skills/agent-browser",
-      "commitHash": "2c146521d9da",
+      "commitHash": "9c2be8fa0d81",
       "files": ["SKILL.md", "references", "templates"]
     },
     {
@@ -8640,7 +8640,7 @@
       "author": "activepieces",
       "repo": "activepieces/activepieces",
       "path": ".agents/skills/ubiquitous-language",
-      "commitHash": "2c146521d9da",
+      "commitHash": "9c2be8fa0d81",
       "files": ["SKILL.md"]
     },
     {
@@ -8651,7 +8651,7 @@
       "author": "activepieces",
       "repo": "activepieces/activepieces",
       "path": ".agents/skills/playwright-e2e-testing",
-      "commitHash": "2c146521d9da",
+      "commitHash": "9c2be8fa0d81",
       "files": ["SKILL.md"]
     },
     {
@@ -13058,7 +13058,7 @@
       "author": "aden-hive",
       "repo": "aden-hive/hive",
       "path": ".claude/skills/browser-edge-cases",
-      "commitHash": "22d75bfb05b9",
+      "commitHash": "445c9600ab3b",
       "files": [
         "SKILL.md",
         "registry.md",
@@ -13073,39 +13073,6 @@
         "scripts/test_15_screenshot.py",
         "scripts/test_case.py"
       ]
-    },
-    {
-      "id": "mcp-use/mcp-use/skills/mcp-builder",
-      "name": "mcp-builder",
-      "description": "**MANDATORY for ALL MCP server work** - mcp-use framework best practices and patterns.\n\n**READ THIS FIRST** before any MCP server work, including:\n- Creating new MCP servers\n- Modifying existing MCP servers (adding/updating tools, resources, prompts, widgets)\n- Debugging MCP server issues or errors\n- Reviewing MCP server code for quality, security, or performance\n- Answering questions about MCP development or mcp-use patterns\n- Making ANY changes to server.tool(), server.resource(), server.prompt(), or widgets\n\nThis skill contains critical architecture decisions, security patterns, and common pitfalls.\nAlways consult the relevant reference files BEFORE implementing MCP features.\n",
-      "categories": ["Development", "Documents", "Business", "Research", "AI & ML"],
-      "author": "mcp-use",
-      "repo": "mcp-use/mcp-use",
-      "path": "skills/mcp-builder",
-      "commitHash": "ba0a357d48c6",
-      "files": ["LICENSE.txt", "SKILL.md", "evals", "references"]
-    },
-    {
-      "id": "mcp-use/mcp-use/skills/mcp-apps-builder",
-      "name": "mcp-apps-builder",
-      "description": "**MANDATORY for ALL MCP server work** - mcp-use framework best practices and patterns.\n\n**READ THIS FIRST** before any MCP server work, including:\n- Creating new MCP servers\n- Modifying existing MCP servers (adding/updating tools, resources, prompts, widgets)\n- Debugging MCP server issues or errors\n- Reviewing MCP server code for quality, security, or performance\n- Answering questions about MCP development or mcp-use patterns\n- Making ANY changes to server.tool(), server.resource(), server.prompt(), or widgets\n\nThis skill contains critical architecture decisions, security patterns, and common pitfalls.\nAlways consult the relevant reference files BEFORE implementing MCP features.\n",
-      "categories": ["Development", "Documents", "Business", "Research", "AI & ML"],
-      "author": "mcp-use",
-      "repo": "mcp-use/mcp-use",
-      "path": "skills/mcp-apps-builder",
-      "commitHash": "ba0a357d48c6",
-      "files": ["LICENSE.txt", "SKILL.md", "references"]
-    },
-    {
-      "id": "mcp-use/mcp-use/skills/chatgpt-app-builder",
-      "name": "chatgpt-app-builder",
-      "description": "**MANDATORY for ALL MCP server work** - mcp-use framework best practices and patterns.\n\n**READ THIS FIRST** before any MCP server work, including:\n- Creating new MCP servers\n- Modifying existing MCP servers (adding/updating tools, resources, prompts, widgets)\n- Debugging MCP server issues or errors\n- Reviewing MCP server code for quality, security, or performance\n- Answering questions about MCP development or mcp-use patterns\n- Making ANY changes to server.tool(), server.resource(), server.prompt(), or widgets\n\nThis skill contains critical architecture decisions, security patterns, and common pitfalls.\nAlways consult the relevant reference files BEFORE implementing MCP features.\n",
-      "categories": ["Development", "Documents", "Business", "Research", "AI & ML"],
-      "author": "mcp-use",
-      "repo": "mcp-use/mcp-use",
-      "path": "skills/chatgpt-app-builder",
-      "commitHash": "ba0a357d48c6",
-      "files": ["LICENSE.txt", "SKILL.md", "evals", "references"]
     },
     {
       "id": "mksglu/context-mode/skills/ctx-stats",
@@ -13209,6 +13176,39 @@
       "path": "skills/ctx-upgrade",
       "commitHash": "33f5e09d5504",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "mcp-use/mcp-use/skills/mcp-builder",
+      "name": "mcp-builder",
+      "description": "**MANDATORY for ALL MCP server work** - mcp-use framework best practices and patterns.\n\n**READ THIS FIRST** before any MCP server work, including:\n- Creating new MCP servers\n- Modifying existing MCP servers (adding/updating tools, resources, prompts, widgets)\n- Debugging MCP server issues or errors\n- Reviewing MCP server code for quality, security, or performance\n- Answering questions about MCP development or mcp-use patterns\n- Making ANY changes to server.tool(), server.resource(), server.prompt(), or widgets\n\nThis skill contains critical architecture decisions, security patterns, and common pitfalls.\nAlways consult the relevant reference files BEFORE implementing MCP features.\n",
+      "categories": ["Development", "Documents", "Business", "Research", "AI & ML"],
+      "author": "mcp-use",
+      "repo": "mcp-use/mcp-use",
+      "path": "skills/mcp-builder",
+      "commitHash": "ba0a357d48c6",
+      "files": ["LICENSE.txt", "SKILL.md", "evals", "references"]
+    },
+    {
+      "id": "mcp-use/mcp-use/skills/mcp-apps-builder",
+      "name": "mcp-apps-builder",
+      "description": "**MANDATORY for ALL MCP server work** - mcp-use framework best practices and patterns.\n\n**READ THIS FIRST** before any MCP server work, including:\n- Creating new MCP servers\n- Modifying existing MCP servers (adding/updating tools, resources, prompts, widgets)\n- Debugging MCP server issues or errors\n- Reviewing MCP server code for quality, security, or performance\n- Answering questions about MCP development or mcp-use patterns\n- Making ANY changes to server.tool(), server.resource(), server.prompt(), or widgets\n\nThis skill contains critical architecture decisions, security patterns, and common pitfalls.\nAlways consult the relevant reference files BEFORE implementing MCP features.\n",
+      "categories": ["Development", "Documents", "Business", "Research", "AI & ML"],
+      "author": "mcp-use",
+      "repo": "mcp-use/mcp-use",
+      "path": "skills/mcp-apps-builder",
+      "commitHash": "ba0a357d48c6",
+      "files": ["LICENSE.txt", "SKILL.md", "references"]
+    },
+    {
+      "id": "mcp-use/mcp-use/skills/chatgpt-app-builder",
+      "name": "chatgpt-app-builder",
+      "description": "**MANDATORY for ALL MCP server work** - mcp-use framework best practices and patterns.\n\n**READ THIS FIRST** before any MCP server work, including:\n- Creating new MCP servers\n- Modifying existing MCP servers (adding/updating tools, resources, prompts, widgets)\n- Debugging MCP server issues or errors\n- Reviewing MCP server code for quality, security, or performance\n- Answering questions about MCP development or mcp-use patterns\n- Making ANY changes to server.tool(), server.resource(), server.prompt(), or widgets\n\nThis skill contains critical architecture decisions, security patterns, and common pitfalls.\nAlways consult the relevant reference files BEFORE implementing MCP features.\n",
+      "categories": ["Development", "Documents", "Business", "Research", "AI & ML"],
+      "author": "mcp-use",
+      "repo": "mcp-use/mcp-use",
+      "path": "skills/chatgpt-app-builder",
+      "commitHash": "ba0a357d48c6",
+      "files": ["LICENSE.txt", "SKILL.md", "evals", "references"]
     },
     {
       "id": "awslabs/mcp/src/aurora-dsql-mcp-server/skills/dsql-skill",
@@ -25094,7 +25094,7 @@
       "author": "MCPJam",
       "repo": "MCPJam/inspector",
       "path": "skills/mcp-inspector",
-      "commitHash": "934c606820c5",
+      "commitHash": "85367f829f66",
       "files": ["SKILL.md", "references"]
     },
     {
@@ -25105,7 +25105,7 @@
       "author": "MCPJam",
       "repo": "MCPJam/inspector",
       "path": "sdk/skills/create-mcp-eval",
-      "commitHash": "934c606820c5",
+      "commitHash": "85367f829f66",
       "files": ["SKILL.md"]
     },
     {
@@ -26995,6 +26995,174 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "ComposioHQ/awesome-claude-plugins/perf/skills/theory",
+      "name": "perf-theory-gatherer",
+      "description": "Use when generating performance hypotheses backed by git history and code evidence.",
+      "categories": ["Development"],
+      "author": "ComposioHQ",
+      "repo": "ComposioHQ/awesome-claude-plugins",
+      "path": "perf/skills/theory",
+      "commitHash": "32895666bd4f",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ComposioHQ/awesome-claude-plugins/senior-frontend/skills/senior-frontend",
+      "name": "senior-frontend",
+      "description": "Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing frontend code quality.",
+      "categories": ["Development", "Design", "Productivity"],
+      "author": "ComposioHQ",
+      "repo": "ComposioHQ/awesome-claude-plugins",
+      "path": "senior-frontend/skills/senior-frontend",
+      "commitHash": "32895666bd4f",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ComposioHQ/awesome-claude-plugins/developer-growth-analysis/skills/developer-growth-analysis",
+      "name": "developer-growth-analysis",
+      "description": "Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and areas for improvement, curates relevant learning resources from HackerNews, and automatically sends a personalized growth report to your Slack DMs.",
+      "categories": ["Development", "Data & Analytics", "Research"],
+      "author": "ComposioHQ",
+      "repo": "ComposioHQ/awesome-claude-plugins",
+      "path": "developer-growth-analysis/skills/developer-growth-analysis",
+      "commitHash": "32895666bd4f",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ComposioHQ/awesome-claude-plugins/skill-bus/skills/list-subs",
+      "name": "list-subs",
+      "description": "List all active skill-bus subscriptions across global and project scopes, showing merge status, insert-level and subscription-level conditions, effective condition stacking, and what would fire for each skill.",
+      "categories": ["Other"],
+      "author": "ComposioHQ",
+      "repo": "ComposioHQ/awesome-claude-plugins",
+      "path": "skill-bus/skills/list-subs",
+      "commitHash": "32895666bd4f",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ComposioHQ/awesome-claude-plugins/perf/skills/investigation-logger",
+      "name": "perf-investigation-logger",
+      "description": "Use when appending structured perf investigation notes and evidence.",
+      "categories": ["Other"],
+      "author": "ComposioHQ",
+      "repo": "ComposioHQ/awesome-claude-plugins",
+      "path": "perf/skills/investigation-logger",
+      "commitHash": "32895666bd4f",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ComposioHQ/awesome-claude-plugins/frontend-design/skills/frontend-design",
+      "name": "frontend-design",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.",
+      "categories": ["Development", "Design"],
+      "author": "ComposioHQ",
+      "repo": "ComposioHQ/awesome-claude-plugins",
+      "path": "frontend-design/skills/frontend-design",
+      "commitHash": "32895666bd4f",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ComposioHQ/awesome-claude-plugins/skill-bus/skills/reflecting-on-sessions",
+      "name": "reflecting-on-sessions",
+      "description": "Use when completing a plan, finishing a development branch, wrapping up a session, or at any natural transition between work phases — reviews skill-bus telemetry to identify subscription gaps and suggest improvements",
+      "categories": ["Other"],
+      "author": "ComposioHQ",
+      "repo": "ComposioHQ/awesome-claude-plugins",
+      "path": "skill-bus/skills/reflecting-on-sessions",
+      "commitHash": "32895666bd4f",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ComposioHQ/awesome-claude-plugins/perf/skills/analyzer",
+      "name": "perf-analyzer",
+      "description": "Use when synthesizing perf findings into evidence-backed recommendations and decisions.",
+      "categories": ["Research"],
+      "author": "ComposioHQ",
+      "repo": "ComposioHQ/awesome-claude-plugins",
+      "path": "perf/skills/analyzer",
+      "commitHash": "32895666bd4f",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ComposioHQ/awesome-claude-plugins/perf/skills/benchmark",
+      "name": "perf-benchmarker",
+      "description": "Use when running performance benchmarks, establishing baselines, or validating regressions with sequential runs. Enforces 60s minimum runs (30s only for binary search) and no parallel benchmarks.",
+      "categories": ["Research"],
+      "author": "ComposioHQ",
+      "repo": "ComposioHQ/awesome-claude-plugins",
+      "path": "perf/skills/benchmark",
+      "commitHash": "32895666bd4f",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ComposioHQ/awesome-claude-plugins/perf/skills/code-paths",
+      "name": "perf-code-paths",
+      "description": "Use when mapping code paths, entrypoints, and likely hot files before profiling.",
+      "categories": ["Other"],
+      "author": "ComposioHQ",
+      "repo": "ComposioHQ/awesome-claude-plugins",
+      "path": "perf/skills/code-paths",
+      "commitHash": "32895666bd4f",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ComposioHQ/awesome-claude-plugins/perf/skills/theory-tester",
+      "name": "perf-theory-tester",
+      "description": "Use when running controlled perf experiments to validate hypotheses.",
+      "categories": ["Other"],
+      "author": "ComposioHQ",
+      "repo": "ComposioHQ/awesome-claude-plugins",
+      "path": "perf/skills/theory-tester",
+      "commitHash": "32895666bd4f",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ComposioHQ/awesome-claude-plugins/skill-bus/skills/pause-subs",
+      "name": "pause-subs",
+      "description": "Temporarily disable the skill bus. Quick toggle to stop all subscriptions from firing without removing them.",
+      "categories": ["Other"],
+      "author": "ComposioHQ",
+      "repo": "ComposioHQ/awesome-claude-plugins",
+      "path": "skill-bus/skills/pause-subs",
+      "commitHash": "32895666bd4f",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ComposioHQ/awesome-claude-plugins/skill-bus/skills/unpause-subs",
+      "name": "unpause-subs",
+      "description": "Re-enable the skill bus after pausing. Restores subscription processing.",
+      "categories": ["Other"],
+      "author": "ComposioHQ",
+      "repo": "ComposioHQ/awesome-claude-plugins",
+      "path": "skill-bus/skills/unpause-subs",
+      "commitHash": "32895666bd4f",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ComposioHQ/awesome-claude-plugins/perf/skills/profile",
+      "name": "perf-profiler",
+      "description": "Use when profiling CPU/memory hot paths, generating flame graphs, or capturing JFR/perf evidence.",
+      "categories": ["Other"],
+      "author": "ComposioHQ",
+      "repo": "ComposioHQ/awesome-claude-plugins",
+      "path": "perf/skills/profile",
+      "commitHash": "32895666bd4f",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "feiskyer/claude-code-settings/skills/eureka",
       "name": "eureka",
       "description": "Capture technical breakthroughs and transform them into actionable, reusable documentation. Use this skill when the user has achieved a significant technical insight, solved a hard problem, discovered a non-obvious solution, or wants to document a breakthrough moment. Also trigger when the user mentions \"eureka\", \"breakthrough\", \"document this insight\", \"capture this discovery\", or wants to turn a technical win into reusable knowledge.",
@@ -27176,174 +27344,6 @@
       "repo": "feiskyer/claude-code-settings",
       "path": "skills/youtube-transcribe-skill",
       "commitHash": "a2e0b4d81a62",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ComposioHQ/awesome-claude-plugins/perf/skills/theory",
-      "name": "perf-theory-gatherer",
-      "description": "Use when generating performance hypotheses backed by git history and code evidence.",
-      "categories": ["Development"],
-      "author": "ComposioHQ",
-      "repo": "ComposioHQ/awesome-claude-plugins",
-      "path": "perf/skills/theory",
-      "commitHash": "32895666bd4f",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ComposioHQ/awesome-claude-plugins/senior-frontend/skills/senior-frontend",
-      "name": "senior-frontend",
-      "description": "Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance, analyzing bundle sizes, scaffolding frontend projects, implementing accessibility, or reviewing frontend code quality.",
-      "categories": ["Development", "Design", "Productivity"],
-      "author": "ComposioHQ",
-      "repo": "ComposioHQ/awesome-claude-plugins",
-      "path": "senior-frontend/skills/senior-frontend",
-      "commitHash": "32895666bd4f",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ComposioHQ/awesome-claude-plugins/developer-growth-analysis/skills/developer-growth-analysis",
-      "name": "developer-growth-analysis",
-      "description": "Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and areas for improvement, curates relevant learning resources from HackerNews, and automatically sends a personalized growth report to your Slack DMs.",
-      "categories": ["Development", "Data & Analytics", "Research"],
-      "author": "ComposioHQ",
-      "repo": "ComposioHQ/awesome-claude-plugins",
-      "path": "developer-growth-analysis/skills/developer-growth-analysis",
-      "commitHash": "32895666bd4f",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ComposioHQ/awesome-claude-plugins/skill-bus/skills/list-subs",
-      "name": "list-subs",
-      "description": "List all active skill-bus subscriptions across global and project scopes, showing merge status, insert-level and subscription-level conditions, effective condition stacking, and what would fire for each skill.",
-      "categories": ["Other"],
-      "author": "ComposioHQ",
-      "repo": "ComposioHQ/awesome-claude-plugins",
-      "path": "skill-bus/skills/list-subs",
-      "commitHash": "32895666bd4f",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ComposioHQ/awesome-claude-plugins/perf/skills/investigation-logger",
-      "name": "perf-investigation-logger",
-      "description": "Use when appending structured perf investigation notes and evidence.",
-      "categories": ["Other"],
-      "author": "ComposioHQ",
-      "repo": "ComposioHQ/awesome-claude-plugins",
-      "path": "perf/skills/investigation-logger",
-      "commitHash": "32895666bd4f",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ComposioHQ/awesome-claude-plugins/frontend-design/skills/frontend-design",
-      "name": "frontend-design",
-      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.",
-      "categories": ["Development", "Design"],
-      "author": "ComposioHQ",
-      "repo": "ComposioHQ/awesome-claude-plugins",
-      "path": "frontend-design/skills/frontend-design",
-      "commitHash": "32895666bd4f",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ComposioHQ/awesome-claude-plugins/skill-bus/skills/reflecting-on-sessions",
-      "name": "reflecting-on-sessions",
-      "description": "Use when completing a plan, finishing a development branch, wrapping up a session, or at any natural transition between work phases — reviews skill-bus telemetry to identify subscription gaps and suggest improvements",
-      "categories": ["Other"],
-      "author": "ComposioHQ",
-      "repo": "ComposioHQ/awesome-claude-plugins",
-      "path": "skill-bus/skills/reflecting-on-sessions",
-      "commitHash": "32895666bd4f",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ComposioHQ/awesome-claude-plugins/perf/skills/analyzer",
-      "name": "perf-analyzer",
-      "description": "Use when synthesizing perf findings into evidence-backed recommendations and decisions.",
-      "categories": ["Research"],
-      "author": "ComposioHQ",
-      "repo": "ComposioHQ/awesome-claude-plugins",
-      "path": "perf/skills/analyzer",
-      "commitHash": "32895666bd4f",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ComposioHQ/awesome-claude-plugins/perf/skills/benchmark",
-      "name": "perf-benchmarker",
-      "description": "Use when running performance benchmarks, establishing baselines, or validating regressions with sequential runs. Enforces 60s minimum runs (30s only for binary search) and no parallel benchmarks.",
-      "categories": ["Research"],
-      "author": "ComposioHQ",
-      "repo": "ComposioHQ/awesome-claude-plugins",
-      "path": "perf/skills/benchmark",
-      "commitHash": "32895666bd4f",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ComposioHQ/awesome-claude-plugins/perf/skills/code-paths",
-      "name": "perf-code-paths",
-      "description": "Use when mapping code paths, entrypoints, and likely hot files before profiling.",
-      "categories": ["Other"],
-      "author": "ComposioHQ",
-      "repo": "ComposioHQ/awesome-claude-plugins",
-      "path": "perf/skills/code-paths",
-      "commitHash": "32895666bd4f",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ComposioHQ/awesome-claude-plugins/perf/skills/theory-tester",
-      "name": "perf-theory-tester",
-      "description": "Use when running controlled perf experiments to validate hypotheses.",
-      "categories": ["Other"],
-      "author": "ComposioHQ",
-      "repo": "ComposioHQ/awesome-claude-plugins",
-      "path": "perf/skills/theory-tester",
-      "commitHash": "32895666bd4f",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ComposioHQ/awesome-claude-plugins/skill-bus/skills/pause-subs",
-      "name": "pause-subs",
-      "description": "Temporarily disable the skill bus. Quick toggle to stop all subscriptions from firing without removing them.",
-      "categories": ["Other"],
-      "author": "ComposioHQ",
-      "repo": "ComposioHQ/awesome-claude-plugins",
-      "path": "skill-bus/skills/pause-subs",
-      "commitHash": "32895666bd4f",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ComposioHQ/awesome-claude-plugins/skill-bus/skills/unpause-subs",
-      "name": "unpause-subs",
-      "description": "Re-enable the skill bus after pausing. Restores subscription processing.",
-      "categories": ["Other"],
-      "author": "ComposioHQ",
-      "repo": "ComposioHQ/awesome-claude-plugins",
-      "path": "skill-bus/skills/unpause-subs",
-      "commitHash": "32895666bd4f",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ComposioHQ/awesome-claude-plugins/perf/skills/profile",
-      "name": "perf-profiler",
-      "description": "Use when profiling CPU/memory hot paths, generating flame graphs, or capturing JFR/perf evidence.",
-      "categories": ["Other"],
-      "author": "ComposioHQ",
-      "repo": "ComposioHQ/awesome-claude-plugins",
-      "path": "perf/skills/profile",
-      "commitHash": "32895666bd4f",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
     },
     {
@@ -30967,7 +30967,7 @@
       "author": "silverstein",
       "repo": "silverstein/minutes",
       "path": ".opencode/skills/minutes-tag",
-      "commitHash": "ce02800e591d",
+      "commitHash": "28388e5f0d16",
       "files": ["SKILL.md", "scripts/tag_apply.py"]
     },
     {
@@ -30978,7 +30978,7 @@
       "author": "silverstein",
       "repo": "silverstein/minutes",
       "path": "tooling/skills/sources/minutes-list",
-      "commitHash": "ce02800e591d",
+      "commitHash": "28388e5f0d16",
       "files": ["skill.md"]
     },
     {
@@ -30989,7 +30989,7 @@
       "author": "silverstein",
       "repo": "silverstein/minutes",
       "path": "tooling/skills/sources/minutes-prep",
-      "commitHash": "ce02800e591d",
+      "commitHash": "28388e5f0d16",
       "files": ["skill.md"]
     },
     {
@@ -31000,7 +31000,7 @@
       "author": "silverstein",
       "repo": "silverstein/minutes",
       "path": ".claude/plugins/minutes/skills/minutes-mirror",
-      "commitHash": "ce02800e591d",
+      "commitHash": "28388e5f0d16",
       "files": ["SKILL.md", "scripts/mirror_metrics.py"]
     },
     {
@@ -31011,7 +31011,7 @@
       "author": "silverstein",
       "repo": "silverstein/minutes",
       "path": "tooling/skills/sources/minutes-setup",
-      "commitHash": "ce02800e591d",
+      "commitHash": "28388e5f0d16",
       "files": ["skill.md"]
     },
     {
@@ -31022,7 +31022,7 @@
       "author": "silverstein",
       "repo": "silverstein/minutes",
       "path": ".claude/plugins/minutes/skills/minutes-cleanup",
-      "commitHash": "ce02800e591d",
+      "commitHash": "28388e5f0d16",
       "files": ["SKILL.md"]
     },
     {
@@ -31033,7 +31033,7 @@
       "author": "silverstein",
       "repo": "silverstein/minutes",
       "path": "tooling/skills/sources/minutes-graph",
-      "commitHash": "ce02800e591d",
+      "commitHash": "28388e5f0d16",
       "files": ["skill.md"]
     },
     {
@@ -31044,69 +31044,7 @@
       "author": "silverstein",
       "repo": "silverstein/minutes",
       "path": ".claude/plugins/minutes/skills/minutes-ingest",
-      "commitHash": "ce02800e591d",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "silverstein/minutes/tooling/skills/sources/minutes-recap",
-      "name": "minutes-recap",
-      "description": "Generate a daily digest of today's meetings and voice memos — key decisions, action items, and themes across all recordings. Use when the user asks \"recap my day\", \"what happened in my meetings today\", \"daily summary\", \"what did I discuss today\", \"any action items from today\", or wants a consolidated view of the day's conversations.",
-      "categories": ["Business", "Media"],
-      "author": "silverstein",
-      "repo": "silverstein/minutes",
-      "path": "tooling/skills/sources/minutes-recap",
-      "commitHash": "ce02800e591d",
-      "files": ["skill.md"]
-    },
-    {
-      "id": "silverstein/minutes/.opencode/skills/minutes-brief",
-      "name": "minutes-brief",
-      "description": "Fast non-interactive briefing before any meeting — auto-detects your next calendar event, pulls relationship history, surfaces open commitments, and produces a one-page brief in under 30 seconds. Use this whenever the user says \"brief me\", \"give me a quick brief\", \"what's coming up\", \"background on my next call\", \"who am I meeting next\", \"brief me on Sarah\", \"I have a call in 10 min\", \"quick rundown\", or right before walking into a meeting. Different from /minutes-prep — brief is the fast hook-fireable version that doesn't ask questions and doesn't set goals. Use brief when speed matters; use prep when the user wants to think hard about goals first.",
-      "categories": ["Development"],
-      "author": "silverstein",
-      "repo": "silverstein/minutes",
-      "path": ".opencode/skills/minutes-brief",
-      "commitHash": "ce02800e591d",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "silverstein/minutes/tooling/skills/sources/minutes-ideas",
-      "name": "minutes-ideas",
-      "description": "Surface recent voice memos and ideas captured from any device. Use when the user asks \"what ideas did I have?\", \"what were my recent memos?\", \"what did I record while walking?\", or wants to recall a captured thought.",
-      "categories": ["Other"],
-      "author": "silverstein",
-      "repo": "silverstein/minutes",
-      "path": "tooling/skills/sources/minutes-ideas",
-      "commitHash": "ce02800e591d",
-      "files": ["skill.md"]
-    },
-    {
-      "id": "silverstein/minutes/tooling/skills/sources/minutes-video-review",
-      "name": "minutes-video-review",
-      "description": "Analyze a product walkthrough, bug report video, Loom, or ScreenPal using Minutes transcription plus visual review. Use when the user wants a recorded demo or bug clip turned into a durable brief with transcript, key frames, issues, and next steps.",
-      "categories": ["Research", "Media"],
-      "author": "silverstein",
-      "repo": "silverstein/minutes",
-      "path": "tooling/skills/sources/minutes-video-review",
-      "commitHash": "ce02800e591d",
-      "files": [
-        "references/dependencies.md",
-        "references/output-schema.md",
-        "scripts/eval_video_review.py",
-        "scripts/test_video_review.py",
-        "scripts/video_review.py",
-        "skill.md"
-      ]
-    },
-    {
-      "id": "silverstein/minutes/.claude/plugins/minutes/skills/minutes-note",
-      "name": "minutes-note",
-      "description": "Add a note to the current recording or annotate a past meeting. Use whenever the user says \"note that\", \"remember this\", \"mark this as important\", \"add a note about\", \"annotate the meeting\", or wants to capture a thought during or after a recording. Plain text input — no markdown needed.",
-      "categories": ["Documents"],
-      "author": "silverstein",
-      "repo": "silverstein/minutes",
-      "path": ".claude/plugins/minutes/skills/minutes-note",
-      "commitHash": "ce02800e591d",
+      "commitHash": "28388e5f0d16",
       "files": ["SKILL.md"]
     },
     {
@@ -31117,19 +31055,63 @@
       "author": "silverstein",
       "repo": "silverstein/minutes",
       "path": "tooling/skills/sources/minutes-weekly",
-      "commitHash": "ce02800e591d",
+      "commitHash": "28388e5f0d16",
       "files": ["skill.md"]
     },
     {
-      "id": "silverstein/minutes/.opencode/skills/minutes-debrief",
+      "id": "silverstein/minutes/.agents/skills/minutes/minutes-brief",
+      "name": "minutes-brief",
+      "description": "Fast non-interactive briefing before any meeting — auto-detects your next calendar event, pulls relationship history, surfaces open commitments, and produces a one-page brief in under 30 seconds. Use this whenever the user says \"brief me\", \"give me a quick brief\", \"what's coming up\", \"background on my next call\", \"who am I meeting next\", \"brief me on Sarah\", \"I have a call in 10 min\", \"quick rundown\", or right before walking into a meeting. Different from /minutes-prep — brief is the fast hook-fireable version that doesn't ask questions and doesn't set goals. Use brief when speed matters; use prep when the user wants to think hard about goals first.",
+      "categories": ["Development"],
+      "author": "silverstein",
+      "repo": "silverstein/minutes",
+      "path": ".agents/skills/minutes/minutes-brief",
+      "commitHash": "28388e5f0d16",
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "silverstein/minutes/tooling/skills/sources/minutes-recap",
+      "name": "minutes-recap",
+      "description": "Generate a daily digest of today's meetings and voice memos — key decisions, action items, and themes across all recordings. Use when the user asks \"recap my day\", \"what happened in my meetings today\", \"daily summary\", \"what did I discuss today\", \"any action items from today\", or wants a consolidated view of the day's conversations.",
+      "categories": ["Business", "Media"],
+      "author": "silverstein",
+      "repo": "silverstein/minutes",
+      "path": "tooling/skills/sources/minutes-recap",
+      "commitHash": "28388e5f0d16",
+      "files": ["skill.md"]
+    },
+    {
+      "id": "silverstein/minutes/.opencode/skills/minutes-ideas",
+      "name": "minutes-ideas",
+      "description": "Surface recent voice memos and ideas captured from any device. Use when the user asks \"what ideas did I have?\", \"what were my recent memos?\", \"what did I record while walking?\", or wants to recall a captured thought.",
+      "categories": ["Other"],
+      "author": "silverstein",
+      "repo": "silverstein/minutes",
+      "path": ".opencode/skills/minutes-ideas",
+      "commitHash": "28388e5f0d16",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "silverstein/minutes/tooling/skills/sources/minutes-verify",
+      "name": "minutes-verify",
+      "description": "Verify that Minutes is properly set up and working — model downloaded, mic accessible, directories exist, no stale state. Use when the user says \"is minutes working\", \"check my setup\", \"verify minutes\", \"test recording setup\", \"why isn't minutes working\", \"minutes health check\", or after running setup for the first time.",
+      "categories": ["Productivity"],
+      "author": "silverstein",
+      "repo": "silverstein/minutes",
+      "path": "tooling/skills/sources/minutes-verify",
+      "commitHash": "28388e5f0d16",
+      "files": ["skill.md"]
+    },
+    {
+      "id": "silverstein/minutes/.agents/skills/minutes/minutes-debrief",
       "name": "minutes-debrief",
       "description": "Post-meeting debrief — analyzes what happened, compares outcomes to your prep intentions, tracks decision evolution. Use when the user says \"debrief\", \"what just happened in that meeting\", \"what did we decide\", \"debrief that call\", \"post-meeting\", \"what changed\", or right after stopping a recording.",
       "categories": ["Business"],
       "author": "silverstein",
       "repo": "silverstein/minutes",
-      "path": ".opencode/skills/minutes-debrief",
-      "commitHash": "ce02800e591d",
-      "files": ["SKILL.md"]
+      "path": ".agents/skills/minutes/minutes-debrief",
+      "commitHash": "28388e5f0d16",
+      "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
       "id": "silverstein/minutes/.agents/skills/minutes/minutes-search",
@@ -31139,8 +31121,47 @@
       "author": "silverstein",
       "repo": "silverstein/minutes",
       "path": ".agents/skills/minutes/minutes-search",
-      "commitHash": "ce02800e591d",
+      "commitHash": "28388e5f0d16",
       "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "silverstein/minutes/.agents/skills/minutes/minutes-video-review",
+      "name": "minutes-video-review",
+      "description": "Analyze a product walkthrough, bug report video, Loom, or ScreenPal using Minutes transcription plus visual review. Use when the user wants a recorded demo or bug clip turned into a durable brief with transcript, key frames, issues, and next steps.",
+      "categories": ["Research", "Media"],
+      "author": "silverstein",
+      "repo": "silverstein/minutes",
+      "path": ".agents/skills/minutes/minutes-video-review",
+      "commitHash": "28388e5f0d16",
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "references/dependencies.md",
+        "references/output-schema.md",
+        "scripts/video_review.py"
+      ]
+    },
+    {
+      "id": "silverstein/minutes/.agents/skills/minutes/minutes-note",
+      "name": "minutes-note",
+      "description": "Add a note to the current recording or annotate a past meeting. Use whenever the user says \"note that\", \"remember this\", \"mark this as important\", \"add a note about\", \"annotate the meeting\", or wants to capture a thought during or after a recording. Plain text input — no markdown needed.",
+      "categories": ["Documents"],
+      "author": "silverstein",
+      "repo": "silverstein/minutes",
+      "path": ".agents/skills/minutes/minutes-note",
+      "commitHash": "28388e5f0d16",
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "silverstein/minutes/tooling/skills/sources/minutes-record",
+      "name": "minutes-record",
+      "description": "Start or stop recording a meeting, call, or voice memo. Use this whenever the user says \"record\", \"start recording\", \"capture this meeting\", \"stop recording\", \"I'm in a meeting\", \"take notes on this call\", or wants to transcribe live audio. Also use when they ask about recording status or want to know if something is being recorded.",
+      "categories": ["Media"],
+      "author": "silverstein",
+      "repo": "silverstein/minutes",
+      "path": "tooling/skills/sources/minutes-record",
+      "commitHash": "28388e5f0d16",
+      "files": ["skill.md"]
     },
     {
       "id": "silverstein/minutes/tooling/skills/sources/minutes-lint",
@@ -31150,30 +31171,8 @@
       "author": "silverstein",
       "repo": "silverstein/minutes",
       "path": "tooling/skills/sources/minutes-lint",
-      "commitHash": "ce02800e591d",
+      "commitHash": "28388e5f0d16",
       "files": ["skill.md"]
-    },
-    {
-      "id": "silverstein/minutes/.claude/plugins/minutes/skills/minutes-verify",
-      "name": "minutes-verify",
-      "description": "Verify that Minutes is properly set up and working — model downloaded, mic accessible, directories exist, no stale state. Use when the user says \"is minutes working\", \"check my setup\", \"verify minutes\", \"test recording setup\", \"why isn't minutes working\", \"minutes health check\", or after running setup for the first time.",
-      "categories": ["Productivity"],
-      "author": "silverstein",
-      "repo": "silverstein/minutes",
-      "path": ".claude/plugins/minutes/skills/minutes-verify",
-      "commitHash": "ce02800e591d",
-      "files": ["SKILL.md", "scripts/verify-setup.sh"]
-    },
-    {
-      "id": "silverstein/minutes/.claude/plugins/minutes/skills/minutes-record",
-      "name": "minutes-record",
-      "description": "Start or stop recording a meeting, call, or voice memo. Use this whenever the user says \"record\", \"start recording\", \"capture this meeting\", \"stop recording\", \"I'm in a meeting\", \"take notes on this call\", or wants to transcribe live audio. Also use when they ask about recording status or want to know if something is being recorded.",
-      "categories": ["Media"],
-      "author": "silverstein",
-      "repo": "silverstein/minutes",
-      "path": ".claude/plugins/minutes/skills/minutes-record",
-      "commitHash": "ce02800e591d",
-      "files": ["SKILL.md", "references/audio-devices.md"]
     },
     {
       "id": "Natively-AI-assistant/natively-cluely-ai-assistant/.agents/skills/minimalist-ui",
@@ -35759,7 +35758,7 @@
       "author": "countbot-ai",
       "repo": "countbot-ai/CountBot",
       "path": "workspace/skills/map",
-      "commitHash": "8e67990a57ed",
+      "commitHash": "649eb0d4d6ae",
       "files": [
         "SKILL.md",
         "scripts/config.json",
@@ -35776,7 +35775,7 @@
       "author": "countbot-ai",
       "repo": "countbot-ai/CountBot",
       "path": "workspace/skills/news",
-      "commitHash": "8e67990a57ed",
+      "commitHash": "649eb0d4d6ae",
       "files": ["SKILL.md", "scripts/news.py"]
     },
     {
@@ -35787,7 +35786,7 @@
       "author": "countbot-ai",
       "repo": "countbot-ai/CountBot",
       "path": "workspace/skills/ima-notes",
-      "commitHash": "8e67990a57ed",
+      "commitHash": "649eb0d4d6ae",
       "files": [
         "SKILL.md",
         "config.help.md",
@@ -35807,7 +35806,7 @@
       "author": "countbot-ai",
       "repo": "countbot-ai/CountBot",
       "path": "workspace/skills/web-design",
-      "commitHash": "8e67990a57ed",
+      "commitHash": "649eb0d4d6ae",
       "files": [
         "SKILL.md",
         "assets/template.html",
@@ -35824,7 +35823,7 @@
       "author": "countbot-ai",
       "repo": "countbot-ai/CountBot",
       "path": "workspace/skills/agent-team-manager",
-      "commitHash": "8e67990a57ed",
+      "commitHash": "649eb0d4d6ae",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "scripts/agent_team_manager.py"]
@@ -35837,7 +35836,7 @@
       "author": "countbot-ai",
       "repo": "countbot-ai/CountBot",
       "path": "workspace/skills/ima-knowledge-base",
-      "commitHash": "8e67990a57ed",
+      "commitHash": "649eb0d4d6ae",
       "files": [
         "SKILL.md",
         "config.help.md",
@@ -35857,7 +35856,7 @@
       "author": "countbot-ai",
       "repo": "countbot-ai/CountBot",
       "path": "workspace/skills/humanizer-1.0.0",
-      "commitHash": "8e67990a57ed",
+      "commitHash": "649eb0d4d6ae",
       "version": "2.1.1",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["README.md", "SKILL.md", "_meta.json"]
@@ -35870,7 +35869,7 @@
       "author": "countbot-ai",
       "repo": "countbot-ai/CountBot",
       "path": "workspace/skills/baidu-search",
-      "commitHash": "8e67990a57ed",
+      "commitHash": "649eb0d4d6ae",
       "files": [
         "SKILL.md",
         "scripts/baidu_search_manager.py",
@@ -35887,7 +35886,7 @@
       "author": "countbot-ai",
       "repo": "countbot-ai/CountBot",
       "path": "workspace/skills/cron-manager",
-      "commitHash": "8e67990a57ed",
+      "commitHash": "649eb0d4d6ae",
       "version": "1.1.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "scripts/cron_manager.py"]
@@ -35900,7 +35899,7 @@
       "author": "countbot-ai",
       "repo": "countbot-ai/CountBot",
       "path": "workspace/skills/email",
-      "commitHash": "8e67990a57ed",
+      "commitHash": "649eb0d4d6ae",
       "files": [
         "SKILL.md",
         "scripts/config.json",
@@ -35917,7 +35916,7 @@
       "author": "countbot-ai",
       "repo": "countbot-ai/CountBot",
       "path": "workspace/skills/find-skills",
-      "commitHash": "8e67990a57ed",
+      "commitHash": "649eb0d4d6ae",
       "files": ["SKILL.md", "scripts/skillhub_tool.py"]
     },
     {
@@ -35928,7 +35927,7 @@
       "author": "countbot-ai",
       "repo": "countbot-ai/CountBot",
       "path": "workspace/skills/image-analysis",
-      "commitHash": "8e67990a57ed",
+      "commitHash": "649eb0d4d6ae",
       "files": [
         "SKILL.md",
         "scripts/config.json",
