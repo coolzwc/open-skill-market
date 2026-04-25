@@ -1,8 +1,57 @@
 {
   "repositories": {
+    "itsmostafa/aws-agent-skills": {
+      "url": "https://github.com/itsmostafa/aws-agent-skills",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "minsight-ai-info/AI-Search-Hub": {
+      "url": "https://github.com/minsight-ai-info/AI-Search-Hub",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "BayramAnnakov/claude-reflect": {
+      "url": "https://github.com/BayramAnnakov/claude-reflect",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "conorluddy/ios-simulator-skill": {
+      "url": "https://github.com/conorluddy/ios-simulator-skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "adithya-s-k/manim_skill": {
+      "url": "https://github.com/adithya-s-k/manim_skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "bevibing/tutor-skills": {
+      "url": "https://github.com/bevibing/tutor-skills",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "wondelai/skills": {
       "url": "https://github.com/wondelai/skills",
       "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "alirezarezvani/claude-code-skill-factory": {
+      "url": "https://github.com/alirezarezvani/claude-code-skill-factory",
+      "branch": "dev",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
@@ -119,15 +168,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "ferdinandobons/startup-skill": {
-      "url": "https://github.com/ferdinandobons/startup-skill",
+    "BrianRWagner/ai-marketing-claude-code-skills": {
+      "url": "https://github.com/BrianRWagner/ai-marketing-claude-code-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "BrianRWagner/ai-marketing-claude-code-skills": {
-      "url": "https://github.com/BrianRWagner/ai-marketing-claude-code-skills",
+    "ferdinandobons/startup-skill": {
+      "url": "https://github.com/ferdinandobons/startup-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -196,6 +245,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "proflead/codex-skills-library": {
+      "url": "https://github.com/proflead/codex-skills-library",
+      "branch": "master",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "nokonoko1203/claude-code-settings": {
       "url": "https://github.com/nokonoko1203/claude-code-settings",
       "branch": "main",
@@ -205,13 +261,6 @@
     },
     "haddock-development/claude-reflect-system": {
       "url": "https://github.com/haddock-development/claude-reflect-system",
-      "branch": "master",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "proflead/codex-skills-library": {
-      "url": "https://github.com/proflead/codex-skills-library",
       "branch": "master",
       "stars": 0,
       "forks": 0,
@@ -490,13 +539,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "girijashankarj/cursor-handbook": {
-      "url": "https://github.com/girijashankarj/cursor-handbook",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "0xArx/claude-managed-agents-skill": {
       "url": "https://github.com/0xArx/claude-managed-agents-skill",
       "branch": "main",
@@ -534,6 +576,294 @@
     }
   },
   "skills": [
+    {
+      "id": "itsmostafa/aws-agent-skills/skills/sns",
+      "name": "sns",
+      "description": "AWS SNS notification service for pub/sub messaging. Use when creating topics, managing subscriptions, configuring message filtering, sending notifications, or setting up mobile push.",
+      "categories": ["Other"],
+      "author": "itsmostafa",
+      "repo": "itsmostafa/aws-agent-skills",
+      "path": "skills/sns",
+      "commitHash": "5b66f5cc3696",
+      "files": ["SKILL.md", "notification-patterns.md"]
+    },
+    {
+      "id": "itsmostafa/aws-agent-skills/skills/ecs",
+      "name": "ecs",
+      "description": "AWS ECS container orchestration for running Docker containers. Use when deploying containerized applications, configuring task definitions, setting up services, managing clusters, or troubleshooting container issues.",
+      "categories": ["DevOps"],
+      "author": "itsmostafa",
+      "repo": "itsmostafa/aws-agent-skills",
+      "path": "skills/ecs",
+      "commitHash": "5b66f5cc3696",
+      "files": ["SKILL.md", "task-definitions.md"]
+    },
+    {
+      "id": "itsmostafa/aws-agent-skills/skills/s3",
+      "name": "s3",
+      "description": "AWS S3 object storage for bucket management, object operations, and access control. Use when creating buckets, uploading files, configuring lifecycle policies, setting up static websites, managing permissions, or implementing cross-region replication.",
+      "categories": ["Other"],
+      "author": "itsmostafa",
+      "repo": "itsmostafa/aws-agent-skills",
+      "path": "skills/s3",
+      "commitHash": "5b66f5cc3696",
+      "files": ["SKILL.md", "security.md"]
+    },
+    {
+      "id": "itsmostafa/aws-agent-skills/skills/sqs",
+      "name": "sqs",
+      "description": "AWS SQS message queue service for decoupled architectures. Use when creating queues, configuring dead-letter queues, managing visibility timeouts, implementing FIFO ordering, or integrating with Lambda.",
+      "categories": ["Other"],
+      "author": "itsmostafa",
+      "repo": "itsmostafa/aws-agent-skills",
+      "path": "skills/sqs",
+      "commitHash": "5b66f5cc3696",
+      "files": ["SKILL.md", "messaging-patterns.md"]
+    },
+    {
+      "id": "itsmostafa/aws-agent-skills/skills/lambda",
+      "name": "lambda",
+      "description": "AWS Lambda serverless functions for event-driven compute. Use when creating functions, configuring triggers, debugging invocations, optimizing cold starts, setting up event source mappings, or managing layers.",
+      "categories": ["Development", "DevOps"],
+      "author": "itsmostafa",
+      "repo": "itsmostafa/aws-agent-skills",
+      "path": "skills/lambda",
+      "commitHash": "5b66f5cc3696",
+      "files": ["SKILL.md", "debugging.md", "deployment.md"]
+    },
+    {
+      "id": "itsmostafa/aws-agent-skills/skills/bedrock",
+      "name": "bedrock",
+      "description": "AWS Bedrock foundation models for generative AI. Use when invoking foundation models, building AI applications, creating embeddings, configuring model access, or implementing RAG patterns.",
+      "categories": ["Development", "AI & ML"],
+      "author": "itsmostafa",
+      "repo": "itsmostafa/aws-agent-skills",
+      "path": "skills/bedrock",
+      "commitHash": "5b66f5cc3696",
+      "files": ["SKILL.md", "model-invocation.md"]
+    },
+    {
+      "id": "itsmostafa/aws-agent-skills/skills/step-functions",
+      "name": "step-functions",
+      "description": "AWS Step Functions workflow orchestration with state machines. Use when designing workflows, implementing error handling, configuring parallel execution, integrating with AWS services, or debugging executions.",
+      "categories": ["Development"],
+      "author": "itsmostafa",
+      "repo": "itsmostafa/aws-agent-skills",
+      "path": "skills/step-functions",
+      "commitHash": "5b66f5cc3696",
+      "files": ["SKILL.md", "workflow-patterns.md"]
+    },
+    {
+      "id": "itsmostafa/aws-agent-skills/skills/cognito",
+      "name": "cognito",
+      "description": "AWS Cognito user authentication and authorization service. Use when setting up user pools, configuring identity pools, implementing OAuth flows, managing user attributes, or integrating with social identity providers.",
+      "categories": ["Security"],
+      "author": "itsmostafa",
+      "repo": "itsmostafa/aws-agent-skills",
+      "path": "skills/cognito",
+      "commitHash": "5b66f5cc3696",
+      "files": ["SKILL.md", "auth-flows.md"]
+    },
+    {
+      "id": "itsmostafa/aws-agent-skills/skills/secrets-manager",
+      "name": "secrets-manager",
+      "description": "AWS Secrets Manager for secure secret storage and rotation. Use when storing credentials, configuring automatic rotation, managing secret versions, retrieving secrets in applications, or integrating with RDS.",
+      "categories": ["Security"],
+      "author": "itsmostafa",
+      "repo": "itsmostafa/aws-agent-skills",
+      "path": "skills/secrets-manager",
+      "commitHash": "5b66f5cc3696",
+      "files": ["SKILL.md", "rotation-strategies.md"]
+    },
+    {
+      "id": "itsmostafa/aws-agent-skills/skills/dynamodb",
+      "name": "dynamodb",
+      "description": "AWS DynamoDB NoSQL database for scalable data storage. Use when designing table schemas, writing queries, configuring indexes, managing capacity, implementing single-table design, or troubleshooting performance issues.",
+      "categories": ["Data & Analytics", "Documents"],
+      "author": "itsmostafa",
+      "repo": "itsmostafa/aws-agent-skills",
+      "path": "skills/dynamodb",
+      "commitHash": "5b66f5cc3696",
+      "files": ["SKILL.md", "query-patterns.md"]
+    },
+    {
+      "id": "itsmostafa/aws-agent-skills/skills/api-gateway",
+      "name": "api-gateway",
+      "description": "AWS API Gateway for REST and HTTP API management. Use when creating APIs, configuring integrations, setting up authorization, managing stages, implementing rate limiting, or troubleshooting API issues.",
+      "categories": ["Security"],
+      "author": "itsmostafa",
+      "repo": "itsmostafa/aws-agent-skills",
+      "path": "skills/api-gateway",
+      "commitHash": "5b66f5cc3696",
+      "files": ["SKILL.md", "integration-patterns.md"]
+    },
+    {
+      "id": "itsmostafa/aws-agent-skills/skills/eventbridge",
+      "name": "eventbridge",
+      "description": "AWS EventBridge serverless event bus for event-driven architectures. Use when creating rules, configuring event patterns, setting up scheduled events, integrating with SaaS, or building cross-account event routing.",
+      "categories": ["Development", "DevOps"],
+      "author": "itsmostafa",
+      "repo": "itsmostafa/aws-agent-skills",
+      "path": "skills/eventbridge",
+      "commitHash": "5b66f5cc3696",
+      "files": ["SKILL.md", "event-patterns.md"]
+    },
+    {
+      "id": "itsmostafa/aws-agent-skills/skills/cloudwatch",
+      "name": "cloudwatch",
+      "description": "AWS CloudWatch monitoring for logs, metrics, alarms, and dashboards. Use when setting up monitoring, creating alarms, querying logs with Insights, configuring metric filters, building dashboards, or troubleshooting application issues.",
+      "categories": ["DevOps", "Data & Analytics"],
+      "author": "itsmostafa",
+      "repo": "itsmostafa/aws-agent-skills",
+      "path": "skills/cloudwatch",
+      "commitHash": "5b66f5cc3696",
+      "files": ["SKILL.md", "alarms-metrics.md"]
+    },
+    {
+      "id": "itsmostafa/aws-agent-skills/skills/cloudformation",
+      "name": "cloudformation",
+      "description": "AWS CloudFormation infrastructure as code for stack management. Use when writing templates, deploying stacks, managing drift, troubleshooting deployments, or organizing infrastructure with nested stacks.",
+      "categories": ["Development", "DevOps", "Productivity"],
+      "author": "itsmostafa",
+      "repo": "itsmostafa/aws-agent-skills",
+      "path": "skills/cloudformation",
+      "commitHash": "5b66f5cc3696",
+      "files": ["SKILL.md", "template-patterns.md"]
+    },
+    {
+      "id": "itsmostafa/aws-agent-skills/skills/rds",
+      "name": "rds",
+      "description": "AWS RDS relational database service for managed databases. Use when provisioning databases, configuring backups, managing replicas, troubleshooting connectivity, or optimizing performance.",
+      "categories": ["Data & Analytics", "Integration"],
+      "author": "itsmostafa",
+      "repo": "itsmostafa/aws-agent-skills",
+      "path": "skills/rds",
+      "commitHash": "5b66f5cc3696",
+      "files": ["SKILL.md", "administration.md"]
+    },
+    {
+      "id": "itsmostafa/aws-agent-skills/skills/eks",
+      "name": "eks",
+      "description": "AWS EKS Kubernetes management for clusters, node groups, and workloads. Use when creating clusters, configuring IRSA, managing node groups, deploying applications, or integrating with AWS services.",
+      "categories": ["DevOps"],
+      "author": "itsmostafa",
+      "repo": "itsmostafa/aws-agent-skills",
+      "path": "skills/eks",
+      "commitHash": "5b66f5cc3696",
+      "files": ["SKILL.md", "cluster-setup.md"]
+    },
+    {
+      "id": "itsmostafa/aws-agent-skills/skills/ec2",
+      "name": "ec2",
+      "description": "AWS EC2 virtual machine management for instances, AMIs, and networking. Use when launching instances, configuring security groups, managing key pairs, troubleshooting connectivity, or automating instance lifecycle.",
+      "categories": ["Other"],
+      "author": "itsmostafa",
+      "repo": "itsmostafa/aws-agent-skills",
+      "path": "skills/ec2",
+      "commitHash": "5b66f5cc3696",
+      "files": ["SKILL.md", "instance-management.md"]
+    },
+    {
+      "id": "itsmostafa/aws-agent-skills/skills/iam",
+      "name": "iam",
+      "description": "AWS Identity and Access Management for users, roles, policies, and permissions. Use when creating IAM policies, configuring cross-account access, setting up service roles, troubleshooting permission errors, or managing access control.",
+      "categories": ["Other"],
+      "author": "itsmostafa",
+      "repo": "itsmostafa/aws-agent-skills",
+      "path": "skills/iam",
+      "commitHash": "5b66f5cc3696",
+      "files": ["SKILL.md", "best-practices.md", "policies.md"]
+    },
+    {
+      "id": "minsight-ai-info/AI-Search-Hub",
+      "name": "ai-search-hub",
+      "description": "Run the AI Search Hub browser automation scripts for Yuanbao, LongCat, Doubao, Qwen, Gemini, Grok, and MiniMax. Use this skill when the user wants to ask one of those sites a prompt, auto-start or attach to a Chrome DevTools session on port 9222, seed an isolated debug browser profile from the user's local browser data, detect whether login is required, wait for the user to finish logging in if needed, and then continue automatically.",
+      "categories": ["Design", "AI & ML"],
+      "author": "minsight-ai-info",
+      "repo": "minsight-ai-info/AI-Search-Hub",
+      "path": "",
+      "commitHash": "a75cff6186e2",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "BayramAnnakov/claude-reflect",
+      "name": "claude-reflect",
+      "description": "Self-learning system that captures corrections during sessions and reminds users to run /reflect to update CLAUDE.md. Use when discussing learnings, corrections, or when the user mentions remembering something for future sessions.",
+      "categories": ["Other"],
+      "author": "BayramAnnakov",
+      "repo": "BayramAnnakov/claude-reflect",
+      "path": "",
+      "commitHash": "8dc9db43c9bf",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "conorluddy/ios-simulator-skill/ios-simulator-skill",
+      "name": "ios-simulator-skill",
+      "description": "22 production-ready scripts for iOS app testing, building, and automation. Provides semantic UI navigation, build automation, accessibility testing, and simulator lifecycle management. Optimized for AI agents with minimal token output.",
+      "categories": ["Development", "Productivity", "AI & ML"],
+      "author": "conorluddy",
+      "repo": "conorluddy/ios-simulator-skill",
+      "path": "ios-simulator-skill",
+      "commitHash": "21a386904e57",
+      "version": "1.4.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [".claude-plugin", "SKILL.md", "scripts"]
+    },
+    {
+      "id": "adithya-s-k/manim_skill/skills/manim-composer",
+      "name": "manim-composer",
+      "description": "Trigger when: (1) User wants to create an educational/explainer video, (2) User has a vague concept they want visualized, (3) User mentions \"3b1b style\" or \"explain like 3Blue1Brown\", (4) User wants to plan a Manim video or animation sequence, (5) User asks to \"compose\" or \"plan\" a math/science visualization.\n\nTransforms vague video ideas into detailed scene-by-scene plans (scenes.md). Conducts research, asks clarifying questions about audience/scope/focus, and outputs comprehensive scene specifications ready for implementation with ManimCE or ManimGL.\n\nUse this BEFORE writing any Manim code. This skill plans the video; use manimce-best-practices or manimgl-best-practices for implementation.\n",
+      "categories": ["Design", "Data & Analytics", "Research", "Media"],
+      "author": "adithya-s-k",
+      "repo": "adithya-s-k/manim_skill",
+      "path": "skills/manim-composer",
+      "commitHash": "66686635fc49",
+      "files": ["SKILL.md", "references", "templates"]
+    },
+    {
+      "id": "adithya-s-k/manim_skill/skills/manimgl-best-practices",
+      "name": "manimgl-best-practices",
+      "description": "Trigger when: (1) User mentions \"manimgl\" or \"ManimGL\" or \"3b1b manim\", (2) Code contains `from manimlib import *`, (3) User runs `manimgl` CLI commands, (4) Working with InteractiveScene, self.frame, self.embed(), ShowCreation(), or ManimGL-specific patterns.\n\nBest practices for ManimGL (Grant Sanderson's 3Blue1Brown version) - OpenGL-based animation engine with interactive development. Covers InteractiveScene, Tex with t2c, camera frame control, interactive mode (-se flag), 3D rendering, and checkpoint_paste() workflow.\n\nNOT for Manim Community Edition (which uses `manim` imports and `manim` CLI).\n",
+      "categories": ["Development", "AI & ML", "Media"],
+      "author": "adithya-s-k",
+      "repo": "adithya-s-k/manim_skill",
+      "path": "skills/manimgl-best-practices",
+      "commitHash": "2375ac0272aa",
+      "files": ["LICENSE.txt", "SKILL.md", "examples", "references", "rules", "templates"]
+    },
+    {
+      "id": "adithya-s-k/manim_skill/skills/manimce-best-practices",
+      "name": "manimce-best-practices",
+      "description": "Trigger when: (1) User mentions \"manim\" or \"Manim Community\" or \"ManimCE\", (2) Code contains `from manim import *`, (3) User runs `manim` CLI commands, (4) Working with Scene, MathTex, Create(), or ManimCE-specific classes.\n\nBest practices for Manim Community Edition - the community-maintained Python animation engine. Covers Scene structure, animations, LaTeX/MathTex, 3D with ThreeDScene, camera control, styling, and CLI usage.\n\nNOT for ManimGL/3b1b version (which uses `manimlib` imports and `manimgl` CLI).\n",
+      "categories": ["Development", "Documents", "AI & ML", "Media"],
+      "author": "adithya-s-k",
+      "repo": "adithya-s-k/manim_skill",
+      "path": "skills/manimce-best-practices",
+      "commitHash": "66686635fc49",
+      "files": ["LICENSE.txt", "SKILL.md", "examples", "rules", "templates"]
+    },
+    {
+      "id": "bevibing/tutor-skills/skills/tutor",
+      "name": "tutor",
+      "description": "Interactive quiz tutor for Obsidian StudyVault learning. Use when the user wants to: (1) Take a diagnostic assessment of their knowledge, (2) Study or review specific sections/topics, (3) Drill weak areas identified in previous sessions, (4) Check their learning progress or dashboard, or says things like \"quiz me\", \"test me\", \"let's study\", \"/tutor\", \"학습\", \"퀴즈\", \"평가\".\n",
+      "categories": ["Research"],
+      "author": "bevibing",
+      "repo": "bevibing/tutor-skills",
+      "path": "skills/tutor",
+      "commitHash": "397110c9fefb",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "bevibing/tutor-skills/skills/tutor-setup",
+      "name": "tutor-setup",
+      "description": "Transforms knowledge sources into an Obsidian StudyVault. Two modes: (1) Document Mode — PDF/text/web sources → study notes with practice questions. (2) Codebase Mode — source code project → onboarding vault for new developers. Mode is auto-detected based on project markers in CWD.\n",
+      "categories": ["Development", "Productivity", "Documents", "Research"],
+      "author": "bevibing",
+      "repo": "bevibing/tutor-skills",
+      "path": "skills/tutor-setup",
+      "commitHash": "397110c9fefb",
+      "files": ["SKILL.md", "references"]
+    },
     {
       "id": "wondelai/skills/lean-ux",
       "name": "lean-ux",
@@ -1375,6 +1705,305 @@
         "references/finding-conversations.md",
         "references/processing-learning.md",
         "references/question-patterns.md"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/tdd-guide",
+      "name": "tdd-guide",
+      "description": "Comprehensive Test Driven Development guide for engineering subagents with multi-framework support, coverage analysis, and intelligent test generation",
+      "categories": ["Development", "AI & ML"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/tdd-guide",
+      "commitHash": "c3420bb0d704",
+      "files": [
+        "HOW_TO_USE.md",
+        "README.md",
+        "SKILL.md",
+        "coverage_analyzer.py",
+        "expected_output.json",
+        "fixture_generator.py",
+        "format_detector.py",
+        "framework_adapter.py",
+        "metrics_calculator.py",
+        "output_formatter.py",
+        "sample_coverage_report.lcov",
+        "sample_input_python.json",
+        "sample_input_typescript.json",
+        "tdd_workflow.py",
+        "test_generator.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/hook-factory",
+      "name": "hook-factory",
+      "description": "Generate production-ready Claude Code hooks with interactive Q&A, automated installation, and enhanced validation. Supports 10 templates across 7 event types for comprehensive workflow automation.",
+      "categories": ["Productivity"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/hook-factory",
+      "commitHash": "928705681ab7",
+      "version": "2.0.0",
+      "tags": [
+        "hooks",
+        "automation",
+        "code-generation",
+        "workflow",
+        "productivity",
+        "interactive",
+        "installer"
+      ],
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "examples",
+        "generator.py",
+        "hook_factory.py",
+        "install-hook.sh",
+        "installer.py",
+        "templates.json",
+        "validator.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/agent-factory",
+      "name": "agent-factory",
+      "description": "Claude Code agent generation system that creates custom agents and sub-agents with enhanced YAML frontmatter, tool access patterns, and MCP integration support following proven production patterns",
+      "categories": ["Development", "Integration", "AI & ML"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/agent-factory",
+      "commitHash": "60efb74283ee",
+      "files": [
+        "HOW_TO_USE.md",
+        "SKILL.md",
+        "agent_generator.py",
+        "expected_output.json",
+        "generated-agents",
+        "sample_input.json"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/prompt-factory",
+      "name": "prompt-factory",
+      "description": "World-class prompt powerhouse that generates production-ready mega-prompts for any role, industry, and task through intelligent 7-question flow, 69 comprehensive presets across 15 professional domains (technical, business, creative, legal, finance, HR, design, customer, executive, manufacturing, R&D, regulatory, specialized-technical, research, creative-media), multiple output formats (XML/Claude/ChatGPT/Gemini), quality validation gates, and contextual best practices from OpenAI/Anthropic/Google. Supports both core and advanced modes with testing scenarios and prompt variations.",
+      "categories": ["Development", "Design", "Productivity", "Research", "AI & ML"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/prompt-factory",
+      "commitHash": "b00515b36b5a",
+      "files": [
+        "CHANGELOG.md",
+        "HOW_TO_USE.md",
+        "README.md",
+        "SKILL.md",
+        "examples",
+        "outputs",
+        "references",
+        "requirements.txt",
+        "scripts",
+        "templates"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/codex-cli-bridge",
+      "name": "codex-cli-bridge",
+      "description": "Bridge between Claude Code and OpenAI Codex CLI - generates AGENTS.md from CLAUDE.md, provides Codex CLI execution helpers, and enables seamless interoperability between both tools",
+      "categories": ["AI & ML"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/codex-cli-bridge",
+      "commitHash": "e4afc5d1db47",
+      "files": [
+        "CHANGELOG.md",
+        "HOW_TO_USE.md",
+        "INSTALL.md",
+        "README.md",
+        "SKILL.md",
+        "agents_md_generator.py",
+        "bridge.py",
+        "claude_parser.py",
+        "codex_executor.py",
+        "expected_output.json",
+        "package.sh",
+        "project_analyzer.py",
+        "safety_mechanism.py",
+        "sample_input.json",
+        "skill_documenter.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/scrum-master-agent",
+      "name": "scrum-master-agent",
+      "description": "Comprehensive Scrum Master assistant for sprint planning, backlog grooming, retrospectives, capacity planning, and daily standups with intelligent context-aware reporting",
+      "categories": ["Business", "AI & ML"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/scrum-master-agent",
+      "commitHash": "c3420bb0d704",
+      "files": [
+        "HOW_TO_USE.md",
+        "README.md",
+        "SKILL.md",
+        "calculate_metrics.py",
+        "config.example.yaml",
+        "detect_context.py",
+        "expected_output.json",
+        "format_output.py",
+        "notify_channels.py",
+        "parse_input.py",
+        "prioritize_backlog.py",
+        "sample_input_csv.csv",
+        "sample_input_jira.json",
+        "sample_input_linear.json",
+        "tool_adapters.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/claude-md-enhancer",
+      "name": "claude-md-enhancer",
+      "description": "Analyzes, generates, and enhances CLAUDE.md files for any project type using best practices, modular architecture support, and tech stack customization. Use when setting up new projects, improving existing CLAUDE.md files, or establishing AI-assisted development standards.",
+      "categories": ["Development", "Productivity", "AI & ML"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/claude-md-enhancer",
+      "commitHash": "61135a053f00",
+      "files": [
+        "HOW_TO_USE.md",
+        "README.md",
+        "SKILL.md",
+        "analyzer.py",
+        "examples",
+        "expected_output.json",
+        "generator.py",
+        "sample_input.json",
+        "template_selector.py",
+        "validator.py",
+        "workflow.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/tech-stack-evaluator",
+      "name": "tech-stack-evaluator",
+      "description": "Comprehensive technology stack evaluation and comparison tool with TCO analysis, security assessment, and intelligent recommendations for engineering teams",
+      "categories": ["Other"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/tech-stack-evaluator",
+      "commitHash": "c3420bb0d704",
+      "files": [
+        "HOW_TO_USE.md",
+        "README.md",
+        "SKILL.md",
+        "ecosystem_analyzer.py",
+        "expected_output_comparison.json",
+        "format_detector.py",
+        "migration_analyzer.py",
+        "report_generator.py",
+        "sample_input_structured.json",
+        "sample_input_tco.json",
+        "sample_input_text.json",
+        "security_assessor.py",
+        "stack_comparator.py",
+        "tco_calculator.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/ms365-tenant-manager",
+      "name": "ms365-tenant-manager",
+      "description": "Comprehensive Microsoft 365 tenant administration skill for setup, configuration, user management, security policies, and organizational structure optimization for Global Administrators",
+      "categories": ["Productivity"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/ms365-tenant-manager",
+      "commitHash": "519262f93ee6",
+      "files": [
+        "HOW_TO_USE.md",
+        "SKILL.md",
+        "__pycache__",
+        "expected_output.json",
+        "powershell_generator.py",
+        "sample_input.json",
+        "tenant_setup.py",
+        "user_management.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/social-media-analyzer",
+      "name": "social-media-analyzer",
+      "description": "Analyzes social media campaign performance across platforms with engagement metrics, ROI calculations, and audience insights for data-driven marketing decisions",
+      "categories": ["Data & Analytics", "Marketing"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/social-media-analyzer",
+      "commitHash": "bd0c0e931b1a",
+      "files": [
+        "HOW_TO_USE.md",
+        "SKILL.md",
+        "analyze_performance.py",
+        "calculate_metrics.py",
+        "expected_output.json",
+        "sample_input.json"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/slash-command-factory",
+      "name": "slash-command-factory",
+      "description": "Generate custom Claude Code slash commands through intelligent 5-7 question flow. Creates powerful commands for business research, content analysis, healthcare compliance, API integration, documentation automation, and workflow optimization. Outputs organized commands to generated-commands/ with validation and installation guidance.",
+      "categories": ["Development", "Writing", "Productivity", "Research"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/slash-command-factory",
+      "commitHash": "440f81434c25",
+      "files": [
+        "HOW_TO_USE.md",
+        "SKILL.md",
+        "command_generator.py",
+        "expected_output.json",
+        "presets.json",
+        "sample_input.json",
+        "validator.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/aws-solution-architect",
+      "name": "aws-solution-architect",
+      "description": "Expert AWS solution architecture for startups focusing on serverless, scalable, and cost-effective cloud infrastructure with modern DevOps practices and infrastructure-as-code",
+      "categories": ["Development", "DevOps"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/aws-solution-architect",
+      "commitHash": "519262f93ee6",
+      "files": [
+        "HOW_TO_USE.md",
+        "SKILL.md",
+        "__pycache__",
+        "architecture_designer.py",
+        "cost_optimizer.py",
+        "expected_output.json",
+        "sample_input.json",
+        "serverless_stack.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/content-trend-researcher",
+      "name": "content-trend-researcher",
+      "description": "Advanced content and topic research skill that analyzes trends across Google Analytics, Google Trends, Substack, Medium, Reddit, LinkedIn, X, blogs, podcasts, and YouTube to generate data-driven article outlines based on user intent analysis",
+      "categories": ["Writing", "Data & Analytics", "Research", "Media"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/content-trend-researcher",
+      "commitHash": "f6af47207fef",
+      "files": [
+        "HOW_TO_USE.md",
+        "SKILL.md",
+        "expected_output.json",
+        "intent_analyzer.py",
+        "outline_generator.py",
+        "platform_insights.py",
+        "sample_input.json",
+        "trend_analyzer.py"
       ]
     },
     {
@@ -4074,50 +4703,6 @@
       ]
     },
     {
-      "id": "ferdinandobons/startup-skill/startup-pitch",
-      "name": "startup-pitch",
-      "description": "Build investor-ready pitch scripts in multiple formats (10-min, 5-min, 2-min, 1-min elevator, investor email). Produces pitch narratives, Q&A preparation, pitch scoring rubric, and optional investor roleplay practice. Use when the user wants to create a pitch, prepare for investor meetings, craft a startup pitch, write a fundraising narrative, or practice their pitch. Triggers for \"pitch deck\", \"investor pitch\", \"pitch my startup\", \"fundraising deck\", \"seed deck\", \"how to pitch\", \"investor meeting\", \"demo day\", \"prepare pitch\", \"pitch script\", \"elevator pitch for investors\", \"pitch practice\", \"practice my pitch\", \"investor roleplay\", or any request to present a startup to investors, accelerators, or partners. Works standalone — no prior startup-design session needed, but leverages its output if available.",
-      "categories": ["Development", "Design", "Writing", "Business", "AI & ML"],
-      "author": "ferdinandobons",
-      "repo": "ferdinandobons/startup-skill",
-      "path": "startup-pitch",
-      "commitHash": "1dbf3926043d",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "ferdinandobons/startup-skill/startup-design",
-      "name": "startup-design",
-      "description": "Design, validate, and plan a startup from scratch. Covers market research, competitive analysis, business model, brand identity, product definition, financial projections, and validation experiments. Trigger when the user has a startup idea to explore, wants to validate a business concept, needs a business plan or lean canvas, asks for market sizing or competitive landscape, wants brand positioning or go-to-market strategy, or says anything like \"I have an idea for...\" or \"is this idea worth pursuing\". Also handles resuming from a previous checkpoint.",
-      "categories": ["Design", "Productivity", "Business", "Research", "Finance"],
-      "author": "ferdinandobons",
-      "repo": "ferdinandobons/startup-skill",
-      "path": "startup-design",
-      "commitHash": "1dbf3926043d",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "ferdinandobons/startup-skill/startup-competitors",
-      "name": "startup-competitors",
-      "description": "Deep competitive intelligence for any market. Analyzes competitors' products, pricing, customer sentiment, GTM strategy, and growth signals using real web data. Produces battle cards, pricing landscape, and feature matrix. Use when the user wants to understand their competitive landscape, analyze competitors, compare products in a market, or research who they're competing against. Triggers for \"who are my competitors\", \"competitive analysis\", \"competitor research\", \"battle cards\", \"pricing comparison\", \"competitor pricing\", \"market players\", \"competitive intelligence\", \"competitive landscape\", \"who else is in this space\", \"competitive moat\", or any request to profile, compare, or map competitors in a category. Works standalone — no prior startup-design session needed.",
-      "categories": ["Design", "Data & Analytics", "Business", "Research"],
-      "author": "ferdinandobons",
-      "repo": "ferdinandobons/startup-skill",
-      "path": "startup-competitors",
-      "commitHash": "1dbf3926043d",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "ferdinandobons/startup-skill/startup-positioning",
-      "name": "startup-positioning",
-      "description": "Market positioning strategy using the April Dunford framework, enriched with JTBD discovery, Moore positioning statement, and Neumeier's Onliness Test. Produces a complete positioning document, positioning statement, competitive alternatives map, and market category analysis. Use when the user wants to define or refine their market positioning, find their unique position, differentiate from competitors, craft a positioning statement, choose a market category, or figure out \"how should we position this product.\" Triggers for \"positioning\", \"how to position\", \"market position\", \"differentiation strategy\", \"positioning statement\", \"competitive positioning\", \"category strategy\", \"where do we fit in the market\", \"how are we different\", \"unique value proposition\", or any request to define, sharpen, or rethink positioning. Works standalone — no prior startup-design or startup-competitors session needed, but leverages their output if available.",
-      "categories": ["Development", "Design", "Business", "Research", "Finance", "AI & ML"],
-      "author": "ferdinandobons",
-      "repo": "ferdinandobons/startup-skill",
-      "path": "startup-positioning",
-      "commitHash": "1dbf3926043d",
-      "files": ["SKILL.md", "references"]
-    },
-    {
       "id": "BrianRWagner/ai-marketing-claude-code-skills/go-mode",
       "name": "go-mode",
       "description": "Autonomous goal execution — give a goal, get a plan, confirm, execute, report. You steer, Claude drives.",
@@ -4421,6 +5006,50 @@
       "path": "reddit-insights",
       "commitHash": "f36b34fc539a",
       "files": [".clawdhub/origin.json", "README.md", "SKILL-OC.md", "SKILL.md"]
+    },
+    {
+      "id": "ferdinandobons/startup-skill/startup-pitch",
+      "name": "startup-pitch",
+      "description": "Build investor-ready pitch scripts in multiple formats (10-min, 5-min, 2-min, 1-min elevator, investor email). Produces pitch narratives, Q&A preparation, pitch scoring rubric, and optional investor roleplay practice. Use when the user wants to create a pitch, prepare for investor meetings, craft a startup pitch, write a fundraising narrative, or practice their pitch. Triggers for \"pitch deck\", \"investor pitch\", \"pitch my startup\", \"fundraising deck\", \"seed deck\", \"how to pitch\", \"investor meeting\", \"demo day\", \"prepare pitch\", \"pitch script\", \"elevator pitch for investors\", \"pitch practice\", \"practice my pitch\", \"investor roleplay\", or any request to present a startup to investors, accelerators, or partners. Works standalone — no prior startup-design session needed, but leverages its output if available.",
+      "categories": ["Development", "Design", "Writing", "Business", "AI & ML"],
+      "author": "ferdinandobons",
+      "repo": "ferdinandobons/startup-skill",
+      "path": "startup-pitch",
+      "commitHash": "1dbf3926043d",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "ferdinandobons/startup-skill/startup-design",
+      "name": "startup-design",
+      "description": "Design, validate, and plan a startup from scratch. Covers market research, competitive analysis, business model, brand identity, product definition, financial projections, and validation experiments. Trigger when the user has a startup idea to explore, wants to validate a business concept, needs a business plan or lean canvas, asks for market sizing or competitive landscape, wants brand positioning or go-to-market strategy, or says anything like \"I have an idea for...\" or \"is this idea worth pursuing\". Also handles resuming from a previous checkpoint.",
+      "categories": ["Design", "Productivity", "Business", "Research", "Finance"],
+      "author": "ferdinandobons",
+      "repo": "ferdinandobons/startup-skill",
+      "path": "startup-design",
+      "commitHash": "1dbf3926043d",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "ferdinandobons/startup-skill/startup-competitors",
+      "name": "startup-competitors",
+      "description": "Deep competitive intelligence for any market. Analyzes competitors' products, pricing, customer sentiment, GTM strategy, and growth signals using real web data. Produces battle cards, pricing landscape, and feature matrix. Use when the user wants to understand their competitive landscape, analyze competitors, compare products in a market, or research who they're competing against. Triggers for \"who are my competitors\", \"competitive analysis\", \"competitor research\", \"battle cards\", \"pricing comparison\", \"competitor pricing\", \"market players\", \"competitive intelligence\", \"competitive landscape\", \"who else is in this space\", \"competitive moat\", or any request to profile, compare, or map competitors in a category. Works standalone — no prior startup-design session needed.",
+      "categories": ["Design", "Data & Analytics", "Business", "Research"],
+      "author": "ferdinandobons",
+      "repo": "ferdinandobons/startup-skill",
+      "path": "startup-competitors",
+      "commitHash": "1dbf3926043d",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "ferdinandobons/startup-skill/startup-positioning",
+      "name": "startup-positioning",
+      "description": "Market positioning strategy using the April Dunford framework, enriched with JTBD discovery, Moore positioning statement, and Neumeier's Onliness Test. Produces a complete positioning document, positioning statement, competitive alternatives map, and market category analysis. Use when the user wants to define or refine their market positioning, find their unique position, differentiate from competitors, craft a positioning statement, choose a market category, or figure out \"how should we position this product.\" Triggers for \"positioning\", \"how to position\", \"market position\", \"differentiation strategy\", \"positioning statement\", \"competitive positioning\", \"category strategy\", \"where do we fit in the market\", \"how are we different\", \"unique value proposition\", or any request to define, sharpen, or rethink positioning. Works standalone — no prior startup-design or startup-competitors session needed, but leverages their output if available.",
+      "categories": ["Development", "Design", "Business", "Research", "Finance", "AI & ML"],
+      "author": "ferdinandobons",
+      "repo": "ferdinandobons/startup-skill",
+      "path": "startup-positioning",
+      "commitHash": "1dbf3926043d",
+      "files": ["SKILL.md", "references"]
     },
     {
       "id": "assafelovic/skyll/skills/skyll",
@@ -5223,58 +5852,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "nokonoko1203/claude-code-settings/skills/playwright-cli",
-      "name": "playwright-cli",
-      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.",
-      "categories": ["Development", "Research"],
-      "author": "nokonoko1203",
-      "repo": "nokonoko1203/claude-code-settings",
-      "path": "skills/playwright-cli",
-      "commitHash": "000f5fe44452",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "nokonoko1203/claude-code-settings/skills/kill-dev-process",
-      "name": "kill-dev-process",
-      "description": "Kill orphaned dev servers, browsers, and port-hogging processes spawned during development. Use when ports are occupied, too many node/browser processes are running, or you want a fresh start.",
-      "categories": ["Other"],
-      "author": "nokonoko1203",
-      "repo": "nokonoko1203/claude-code-settings",
-      "path": "skills/kill-dev-process",
-      "commitHash": "4e0e366f0870",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "haddock-development/claude-reflect-system/reflect",
-      "name": "reflect",
-      "description": "Analyzes conversation transcripts to extract user corrections, patterns, and preferences, then proposes skill improvements. Use this skill when users provide corrections, express preferences about code style, or when patterns emerge from successful approaches. Can be triggered manually with /reflect or automatically at session end when enabled.\n",
-      "categories": ["Development", "Research"],
-      "author": "haddock-development",
-      "repo": "haddock-development/claude-reflect-system",
-      "path": "reflect",
-      "commitHash": "41d03d052e31",
-      "files": [
-        ".state",
-        "README.md",
-        "SKILL.md",
-        "USER_GUIDE.md",
-        "commands",
-        "references",
-        "scripts"
-      ]
-    },
-    {
-      "id": "haddock-development/claude-reflect-system/python-project-creator",
-      "name": "python-project-creator",
-      "description": "Creates Python projects with proper structure, virtual environments, and dependency management. Use when users request to create a new Python project, set up a Python development environment, or initialize a Python application with standard tooling.\n",
-      "categories": ["Productivity"],
-      "author": "haddock-development",
-      "repo": "haddock-development/claude-reflect-system",
-      "path": "python-project-creator",
-      "commitHash": "0fe6a68dd061",
-      "files": ["SKILL.md", "assets", "references", "scripts"]
-    },
-    {
       "id": "proflead/codex-skills-library/skills/docs/readme-polish",
       "name": "readme-polish",
       "description": "Improve a README for clarity and completeness. Use when a junior developer needs guidance on documenting setup and usage.",
@@ -5779,6 +6356,58 @@
       "path": "skills/testing/integration-test-planner",
       "commitHash": "7c8c9bed2080",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "nokonoko1203/claude-code-settings/skills/playwright-cli",
+      "name": "playwright-cli",
+      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.",
+      "categories": ["Development", "Research"],
+      "author": "nokonoko1203",
+      "repo": "nokonoko1203/claude-code-settings",
+      "path": "skills/playwright-cli",
+      "commitHash": "000f5fe44452",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "nokonoko1203/claude-code-settings/skills/kill-dev-process",
+      "name": "kill-dev-process",
+      "description": "Kill orphaned dev servers, browsers, and port-hogging processes spawned during development. Use when ports are occupied, too many node/browser processes are running, or you want a fresh start.",
+      "categories": ["Other"],
+      "author": "nokonoko1203",
+      "repo": "nokonoko1203/claude-code-settings",
+      "path": "skills/kill-dev-process",
+      "commitHash": "4e0e366f0870",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "haddock-development/claude-reflect-system/reflect",
+      "name": "reflect",
+      "description": "Analyzes conversation transcripts to extract user corrections, patterns, and preferences, then proposes skill improvements. Use this skill when users provide corrections, express preferences about code style, or when patterns emerge from successful approaches. Can be triggered manually with /reflect or automatically at session end when enabled.\n",
+      "categories": ["Development", "Research"],
+      "author": "haddock-development",
+      "repo": "haddock-development/claude-reflect-system",
+      "path": "reflect",
+      "commitHash": "41d03d052e31",
+      "files": [
+        ".state",
+        "README.md",
+        "SKILL.md",
+        "USER_GUIDE.md",
+        "commands",
+        "references",
+        "scripts"
+      ]
+    },
+    {
+      "id": "haddock-development/claude-reflect-system/python-project-creator",
+      "name": "python-project-creator",
+      "description": "Creates Python projects with proper structure, virtual environments, and dependency management. Use when users request to create a new Python project, set up a Python development environment, or initialize a Python application with standard tooling.\n",
+      "categories": ["Productivity"],
+      "author": "haddock-development",
+      "repo": "haddock-development/claude-reflect-system",
+      "path": "python-project-creator",
+      "commitHash": "0fe6a68dd061",
+      "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
       "id": "felixrieseberg/claude-coach/skill",
@@ -6856,556 +7485,6 @@
       "path": "templates/codex-skill",
       "commitHash": "df5e14f35aee",
       "files": ["SKILL.md", "agents"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/backend/api-mock-server",
-      "name": "api-mock-server",
-      "description": "Generate a mock API server from OpenAPI specs, TypeScript interfaces, or endpoint descriptions for frontend development and testing. Use when the user asks to create a mock server, fake API, or stub endpoints.",
-      "categories": ["Development"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/backend/api-mock-server",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/backend/code-review",
-      "name": "code-review",
-      "description": "Structured workflow for conducting thorough code reviews. Use when the user asks to review code, a PR, or specific files.",
-      "categories": ["Development"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/backend/code-review",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/backend/create-handler",
-      "name": "create-handler",
-      "description": "Create a new API handler following the handler pattern. Use when the user asks to create an endpoint, handler, or route.",
-      "categories": ["Development"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/backend/create-handler",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md", "scripts/scaffold-handler-dirs.sh"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/backend/debug-issue",
-      "name": "debug-issue",
-      "description": "Structured workflow for debugging a reported or reproduced issue. Use when the user asks to debug a bug, find root cause, or fix a failing scenario.",
-      "categories": ["Development"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/backend/debug-issue",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/backend/dependency-graph",
-      "name": "dependency-graph",
-      "description": "Map and visualize module dependencies, detect circular imports, and identify coupling hotspots. Use when the user asks to analyze dependencies, find circular imports, or understand module relationships.",
-      "categories": ["Research"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/backend/dependency-graph",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/backend/error-handler-generator",
-      "name": "error-handler-generator",
-      "description": "Generate typed error classes, error handling middleware, and HTTP error mapping following project conventions. Use when the user asks to set up error handling, create error classes, or implement error middleware.",
-      "categories": ["Productivity"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/backend/error-handler-generator",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/backend/feature-flag-manager",
-      "name": "feature-flag-manager",
-      "description": "Create, manage, and clean up feature flags for gradual rollouts and safe deployments. Use when the user asks to add a feature flag, toggle, or manage feature gating.",
-      "categories": ["DevOps"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/backend/feature-flag-manager",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/backend/optimize-performance",
-      "name": "optimize-performance",
-      "description": "Workflow for identifying and applying backend performance improvements. Use when the user asks to optimize, speed up, or reduce latency.",
-      "categories": ["Other"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/backend/optimize-performance",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/cloud/aws-cost-estimator",
-      "name": "aws-cost-estimator",
-      "description": "Estimate or review cost for proposed AWS resources (compute, storage, data transfer). Use when the user asks for cost estimate or cost optimization.",
-      "categories": ["Research"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/cloud/aws-cost-estimator",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/cloud/docker-compose-generator",
-      "name": "docker-compose-generator",
-      "description": "Generate docker-compose.yml files for local development with application services, databases, caches, and queues. Use when the user asks to set up a local dev environment or create docker-compose configuration.",
-      "categories": ["Productivity", "Data & Analytics"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/cloud/docker-compose-generator",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/cloud/infrastructure",
-      "name": "infrastructure",
-      "description": "Workflow for provisioning cloud infrastructure using IaC. Use when the user needs to create or modify cloud resources.",
-      "categories": ["DevOps"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/cloud/infrastructure",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/cloud/opensearch-dashboard",
-      "name": "opensearch-dashboard",
-      "description": "Generate OpenSearch Dashboards (Kibana) saved objects — index patterns, visualizations, and dashboards as JSON. Use when the user asks to create dashboards, charts, or visualizations for OpenSearch/Elasticsearch/Kibana.",
-      "categories": ["Design", "Data & Analytics"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/cloud/opensearch-dashboard",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/cloud/opensearch",
-      "name": "opensearch",
-      "description": "Workflow for OpenSearch (or Elasticsearch) usage: indexing, search, mappings, and tuning. Use when the user asks about OpenSearch/Elasticsearch.",
-      "categories": ["Other"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/cloud/opensearch",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/database/create-migration",
-      "name": "create-migration",
-      "description": "Create a new database migration following project naming and safety rules. Use when the user asks to add a migration or create a migration for a schema change.",
-      "categories": ["Data & Analytics"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/database/create-migration",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/database/migration",
-      "name": "migration",
-      "description": "Safe workflow for creating and applying database schema changes. Use when the user needs to modify the database schema.",
-      "categories": ["Data & Analytics"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/database/migration",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/database/query-optimization",
-      "name": "query-optimization",
-      "description": "Workflow for identifying and fixing slow database queries. Use when a query is slow or the user asks to optimize database performance.",
-      "categories": ["Data & Analytics"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/database/query-optimization",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/automation-helper",
-      "name": "automation-helper",
-      "description": "Design and create automation workflows — shell scripts, Cursor hooks, GitHub Actions, cron jobs, and task runners. Use when the user asks to automate a process, create a script, or set up a workflow.",
-      "categories": ["Productivity"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/devops/automation-helper",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/changelog-generator",
-      "name": "changelog-generator",
-      "description": "Generate a CHANGELOG.md from Conventional Commit history with grouped sections and version headers. Use when the user asks to create or update a changelog.",
-      "categories": ["Development", "Productivity"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/devops/changelog-generator",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md", "scripts/generate-changelog.sh"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/ci-cd",
-      "name": "ci-cd",
-      "description": "Workflow for creating a complete CI/CD pipeline. Use when the user needs to set up or modify CI/CD pipelines.",
-      "categories": ["DevOps"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/devops/ci-cd",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/commit-message-generator",
-      "name": "commit-message-generator",
-      "description": "Generate structured Conventional Commit messages from staged changes, diffs, or descriptions. Use when the user asks to write a commit message or needs help with commit formatting.",
-      "categories": ["Development", "Productivity"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/devops/commit-message-generator",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/component-search",
-      "name": "component-search",
-      "description": "Search across cursor-handbook rules, agents, commands, and skills for a specific term or topic. Use when the user asks to find a component, search for a keyword, or locate where something is defined.",
-      "categories": ["Research", "AI & ML"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/devops/component-search",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md", "scripts/search-components.sh"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/cursor-setup",
-      "name": "cursor-setup",
-      "description": "Set up cursor-handbook in a new project by cloning, configuring, and validating the .cursor directory. Use when the user asks to install cursor-handbook, set up a new project, or bootstrap Cursor configuration.",
-      "categories": ["Productivity"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/devops/cursor-setup",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md", "scripts/setup-cursor.sh"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/dependency-remediation",
-      "name": "dependency-remediation",
-      "description": "Step-by-step workflow to fix npm/pnpm/yarn vulnerabilities and review Dependabot PRs with semver and CI safety.",
-      "categories": ["Other"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/devops/dependency-remediation",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/doc-redactor",
-      "name": "doc-redactor",
-      "description": "Scan and redact sensitive information (secrets, PII, internal URLs, credentials) from documents, configs, logs, and code. Use when the user asks to sanitize files, redact secrets, or prepare content for sharing.",
-      "categories": ["Development", "Documents"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/devops/doc-redactor",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/env-file-generator",
-      "name": "env-file-generator",
-      "description": "Scan codebase for environment variable references and generate a complete .env.example file with safe placeholders. Use when the user asks to create or update .env.example or audit env var usage.",
-      "categories": ["Development", "Productivity"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/devops/env-file-generator",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/git-conflict-resolver",
-      "name": "git-conflict-resolver",
-      "description": "Systematic workflow for understanding and resolving git merge conflicts safely. Use when the user has merge conflicts or asks for help resolving conflicts.",
-      "categories": ["Other"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/devops/git-conflict-resolver",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/handbook-validator",
-      "name": "handbook-validator",
-      "description": "Validate cursor-handbook structure, config, and component integrity. Use when the user asks to validate the setup, check for issues, or verify the handbook installation.",
-      "categories": ["Development"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/devops/handbook-validator",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md", "scripts/validate.sh"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/incident-runbook-creator",
-      "name": "incident-runbook-creator",
-      "description": "Generate operational runbooks for services covering common failure scenarios, diagnostics, and recovery steps. Use when the user asks to create a runbook, document incident response, or prepare on-call guides.",
-      "categories": ["Other"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/devops/incident-runbook-creator",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/jira-ticket-creator",
-      "name": "jira-ticket-creator",
-      "description": "Generate well-structured JIRA tickets (stories, bugs, tasks, epics) with acceptance criteria, estimates, and labels. Use when the user asks to create a JIRA ticket, write a story, or document a bug report.",
-      "categories": ["Productivity"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/devops/jira-ticket-creator",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/monitoring",
-      "name": "monitoring",
-      "description": "Workflow for implementing comprehensive monitoring and alerting. Use when the user needs to set up or improve service monitoring.",
-      "categories": ["Other"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/devops/monitoring",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/pr-description-generator",
-      "name": "pr-description-generator",
-      "description": "Generate comprehensive PR titles and descriptions with summary, test plan, risks, and linked issues. Use when the user asks to write or improve a pull request description.",
-      "categories": ["Development", "Writing", "Productivity"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/devops/pr-description-generator",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/release-manager",
-      "name": "release-manager",
-      "description": "Manage the full release lifecycle — version bump, changelog, tag, and release notes. Use when the user asks to prepare, create, or publish a release.",
-      "categories": ["Development"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/devops/release-manager",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/setup-monitoring",
-      "name": "setup-monitoring",
-      "description": "Guide for setting up or extending monitoring (metrics, logs, alerts) for a service. Use when the user asks to set up monitoring or add alerts.",
-      "categories": ["Other"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/devops/setup-monitoring",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/task-master",
-      "name": "task-master",
-      "description": "Break a high-level request into ordered, actionable tasks. Use when the user asks to break down into tasks, create a plan, or list steps.",
-      "categories": ["Productivity"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/devops/task-master",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/token-counter",
-      "name": "token-counter",
-      "description": "Estimate LLM token counts for files or directories using a word-based heuristic. Use when the user asks how many tokens a file uses, wants to check context size, or needs to estimate token cost.",
-      "categories": ["Documents"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/devops/token-counter",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md", "scripts/count-tokens.sh"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/documentation/adr-generator",
-      "name": "adr-generator",
-      "description": "Generate Architecture Decision Records (ADRs) documenting significant technical decisions with context, options, and consequences. Use when the user asks to document an architecture decision, design choice, or technical trade-off.",
-      "categories": ["Development", "Productivity"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/documentation/adr-generator",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/documentation/api-docs",
-      "name": "api-docs",
-      "description": "Workflow for creating comprehensive API documentation. Use when the user needs to document API endpoints.",
-      "categories": ["Writing"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/documentation/api-docs",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/documentation/architecture-docs",
-      "name": "architecture-docs",
-      "description": "Workflow for creating and maintaining architecture documentation. Use when the user needs to document system architecture or make ADRs.",
-      "categories": ["Writing"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/documentation/architecture-docs",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/documentation/openapi-generator",
-      "name": "openapi-generator",
-      "description": "Generate OpenAPI 3.x specifications from code, requirements, or existing APIs. Use when the user asks to create an API spec, Swagger doc, or OpenAPI definition.",
-      "categories": ["Development", "Productivity"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/documentation/openapi-generator",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/documentation/postman-collection-generator",
-      "name": "postman-collection-generator",
-      "description": "Generate Postman or Insomnia collections from OpenAPI specs, code, or endpoint descriptions. Use when the user asks to create an API collection, export endpoints for testing, or set up Postman/Insomnia.",
-      "categories": ["Development", "Productivity"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/documentation/postman-collection-generator",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/documentation/prompt-engineering",
-      "name": "prompt-engineering",
-      "description": "Craft effective prompts and instructions for AI coding assistants. Use when creating rules, agents, skills, or system prompts for Cursor or other LLM-based tools.",
-      "categories": ["AI & ML"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/documentation/prompt-engineering",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/documentation/regex-builder",
-      "name": "regex-builder",
-      "description": "Build, explain, and test regular expressions step-by-step with plain-English breakdowns. Use when the user asks to create, debug, or explain a regex pattern.",
-      "categories": ["Development"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/documentation/regex-builder",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/documentation/websearch",
-      "name": "websearch",
-      "description": "Use web search to find current documentation, best practices, or version-specific information. Use when the user asks about library versions or recent API changes.",
-      "categories": ["Development", "Documents", "Research"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/documentation/websearch",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/frontend/component-creation",
-      "name": "component-creation",
-      "description": "Step-by-step workflow for creating accessible, tested UI components. Use when the user asks to create a new UI component.",
-      "categories": ["Development"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/frontend/component-creation",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/frontend/state-management",
-      "name": "state-management",
-      "description": "Workflow for choosing and implementing the right state management approach. Use when the user needs to manage state for a new feature or refactor.",
-      "categories": ["Productivity"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/frontend/state-management",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/testing/coverage-improvement",
-      "name": "coverage-improvement",
-      "description": "Systematic workflow for identifying coverage gaps and writing missing tests. Use when coverage is below target or the user asks to improve coverage.",
-      "categories": ["AI & ML"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/testing/coverage-improvement",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/testing/fix-tests",
-      "name": "fix-tests",
-      "description": "Systematic workflow for diagnosing and fixing failing tests. Use when the user reports failing tests or asks to fix test failures.",
-      "categories": ["Other"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/testing/fix-tests",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/testing/flaky-test",
-      "name": "flaky-test",
-      "description": "Diagnose and fix flaky tests. Use when a test passes sometimes and fails other times.",
-      "categories": ["Other"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/testing/flaky-test",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/testing/load-test-generator",
-      "name": "load-test-generator",
-      "description": "Generate load test scripts using k6, Artillery, or Locust from API endpoints or OpenAPI specs. Use when the user asks to create load tests, stress tests, or performance benchmarks.",
-      "categories": ["Development", "Productivity"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/testing/load-test-generator",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "girijashankarj/cursor-handbook/.cursor/skills/testing/test-data-factory",
-      "name": "test-data-factory",
-      "description": "Generate type-safe test data factories and fixtures for unit and integration tests. Use when the user asks to create mock data, test fixtures, or data factories.",
-      "categories": ["Other"],
-      "author": "girijashankarj",
-      "repo": "girijashankarj/cursor-handbook",
-      "path": ".cursor/skills/testing/test-data-factory",
-      "commitHash": "9f697ac88884",
-      "files": ["SKILL.md"]
     },
     {
       "id": "0xArx/claude-managed-agents-skill",
