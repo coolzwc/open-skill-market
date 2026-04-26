@@ -455,15 +455,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "cmertdalli/polisci-review": {
-      "url": "https://github.com/cmertdalli/polisci-review",
+    "vulhunt-re/skills": {
+      "url": "https://github.com/vulhunt-re/skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "vulhunt-re/skills": {
-      "url": "https://github.com/vulhunt-re/skills",
+    "cmertdalli/polisci-review": {
+      "url": "https://github.com/cmertdalli/polisci-review",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -5804,17 +5804,6 @@
       "files": ["SKILL.md", "scripts"]
     },
     {
-      "id": "cmertdalli/polisci-review/templates/codex-skill",
-      "name": "polisci-review",
-      "description": "Run a political science pre-submission audit with journal-aware personas, stage-aware standards, and evidence-grounded issue reporting.",
-      "categories": ["Other"],
-      "author": "cmertdalli",
-      "repo": "cmertdalli/polisci-review",
-      "path": "templates/codex-skill",
-      "commitHash": "df5e14f35aee",
-      "files": ["SKILL.md", "agents"]
-    },
-    {
       "id": "vulhunt-re/skills/plugins/vulhunt/skills/functions",
       "name": "functions",
       "description": "Find and list functions in a binary by name, address, regex, or byte pattern. Use as the starting point for binary analysis, to locate specific functions, or to enumerate all functions matching criteria.",
@@ -5890,6 +5879,17 @@
       "path": "plugins/vulhunt/skills/code-pattern-matching",
       "commitHash": "52a1443464bd",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "cmertdalli/polisci-review/templates/codex-skill",
+      "name": "polisci-review",
+      "description": "Run a political science pre-submission audit with journal-aware personas, stage-aware standards, and evidence-grounded issue reporting.",
+      "categories": ["Other"],
+      "author": "cmertdalli",
+      "repo": "cmertdalli/polisci-review",
+      "path": "templates/codex-skill",
+      "commitHash": "df5e14f35aee",
+      "files": ["SKILL.md", "agents"]
     },
     {
       "id": "0xArx/claude-managed-agents-skill",
