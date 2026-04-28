@@ -1,12 +1,5 @@
 {
   "repositories": {
-    "a5c-ai/babysitter": {
-      "url": "https://github.com/a5c-ai/babysitter",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "OpenRaiser/NanoResearch": {
       "url": "https://github.com/OpenRaiser/NanoResearch",
       "branch": "main",
@@ -16,13 +9,6 @@
     },
     "zanwei/design-dna": {
       "url": "https://github.com/zanwei/design-dna",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "tripleyak/SkillForge": {
-      "url": "https://github.com/tripleyak/SkillForge",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -105,15 +91,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "BrianRWagner/ai-marketing-claude-code-skills": {
-      "url": "https://github.com/BrianRWagner/ai-marketing-claude-code-skills",
+    "ferdinandobons/startup-skill": {
+      "url": "https://github.com/ferdinandobons/startup-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "ferdinandobons/startup-skill": {
-      "url": "https://github.com/ferdinandobons/startup-skill",
+    "BrianRWagner/ai-marketing-claude-code-skills": {
+      "url": "https://github.com/BrianRWagner/ai-marketing-claude-code-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -154,13 +140,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "iamzifei/wechat-article-publisher-skill": {
-      "url": "https://github.com/iamzifei/wechat-article-publisher-skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "ckelsoe/prompt-architect": {
       "url": "https://github.com/ckelsoe/prompt-architect",
       "branch": "main",
@@ -170,6 +149,13 @@
     },
     "bitwize-music-studio/claude-ai-music-skills": {
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "iamzifei/wechat-article-publisher-skill": {
+      "url": "https://github.com/iamzifei/wechat-article-publisher-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -294,15 +280,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "scoobynko/claude-code-design-skills": {
-      "url": "https://github.com/scoobynko/claude-code-design-skills",
+    "VapiAI/skills": {
+      "url": "https://github.com/VapiAI/skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "VapiAI/skills": {
-      "url": "https://github.com/VapiAI/skills",
+    "scoobynko/claude-code-design-skills": {
+      "url": "https://github.com/scoobynko/claude-code-design-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -343,6 +329,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "Ashutos1997/claude-design-auditor-skill": {
+      "url": "https://github.com/Ashutos1997/claude-design-auditor-skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "Shelpuk-AI-Technology-Consulting/agent-skill-tdd": {
       "url": "https://github.com/Shelpuk-AI-Technology-Consulting/agent-skill-tdd",
       "branch": "main",
@@ -364,13 +357,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "Ashutos1997/claude-design-auditor-skill": {
-      "url": "https://github.com/Ashutos1997/claude-design-auditor-skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "proyecto26/sherlock-ai-plugin": {
       "url": "https://github.com/proyecto26/sherlock-ai-plugin",
       "branch": "main",
@@ -380,6 +366,13 @@
     },
     "brettdavies/crawl4ai-skill": {
       "url": "https://github.com/brettdavies/crawl4ai-skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "cjpatten/canadian-finance-planner-skill": {
+      "url": "https://github.com/cjpatten/canadian-finance-planner-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -406,8 +399,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "cjpatten/canadian-finance-planner-skill": {
-      "url": "https://github.com/cjpatten/canadian-finance-planner-skill",
+    "ITlearning/study-ios": {
+      "url": "https://github.com/ITlearning/study-ios",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "stevembarclay/pencilplaybook": {
+      "url": "https://github.com/stevembarclay/pencilplaybook",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -420,22 +420,8 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "ITlearning/study-ios": {
-      "url": "https://github.com/ITlearning/study-ios",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "inngest/inngest-skills": {
       "url": "https://github.com/inngest/inngest-skills",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "stevembarclay/pencilplaybook": {
-      "url": "https://github.com/stevembarclay/pencilplaybook",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -499,811 +485,6 @@
     }
   },
   "skills": [
-    {
-      "id": "a5c-ai/babysitter/.claude/skills/process-builder",
-      "name": "process-builder",
-      "description": "Scaffold new babysitter process definitions following SDK patterns, proper structure, and best practices. Guides the 3-phase workflow from research to implementation.",
-      "categories": ["Development", "Productivity", "Research"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": ".claude/skills/process-builder",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/plugins/babysitter/skills/babysit",
-      "name": "babysit",
-      "description": "Orchestrate via @babysitter. Use this skill when asked to babysit a run, orchestrate a process or whenever it is called explicitly. (babysit, babysitter, orchestrate, orchestrate a run, workflow, etc.)",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "plugins/babysitter/skills/babysit",
-      "commitHash": "d97a2e46a84c",
-      "version": "0.1.3",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/plugins/babysitter-pi/skills/help",
-      "name": "help",
-      "description": "help and documentation for babysitter command usage, processes, skills, agents, and methodologies. use this command to understand how to use babysitter effectively.",
-      "categories": ["AI & ML"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "plugins/babysitter-pi/skills/help",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/plugins/babysitter-pi/skills/doctor",
-      "name": "doctor",
-      "description": "Diagnose babysitter run health - journal integrity, state cache, effects, locks, sessions, logs, and disk usage",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "plugins/babysitter-pi/skills/doctor",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/plugins/babysitter-pi/skills/contrib",
-      "name": "contrib",
-      "description": "Submit feedback or contribute to babysitter project",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "plugins/babysitter-pi/skills/contrib",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/plugins/babysitter-pi/skills/plugins",
-      "name": "plugins",
-      "description": "manage babysitter plugins. use this command to see the list of installed babysitter plugins, their status, and manage them (install, update, uninstall, list from marketplace, add marketplace, configure plugin, create new plugin, etc).",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "plugins/babysitter-pi/skills/plugins",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/plugins/babysitter-pi/skills/cleanup",
-      "name": "cleanup",
-      "description": "Clean up .a5c/runs and .a5c/processes directories. Aggregates insights from completed/failed runs into docs/run-history-insights.md, then removes old run data and orphaned process files.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "plugins/babysitter-pi/skills/cleanup",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/plugins/babysitter-pi/skills/retrospect",
-      "name": "retrospect",
-      "description": "Analysis for a run and its results, process, suggestions for process improvements, process optimizations, fixes, etc. for the next runs.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "plugins/babysitter-pi/skills/retrospect",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/plugins/babysitter-pi/skills/assimilate",
-      "name": "assimilate",
-      "description": "Assimilate an external methodology, harness, or specification into babysitter process definitions with skills and agents.",
-      "categories": ["AI & ML"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "plugins/babysitter-pi/skills/assimilate",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/plugins/babysitter-pi/skills/user-install",
-      "name": "user-install",
-      "description": "Set up babysitter for yourself. Guides you through onboarding — installs dependencies, interviews you about your specialties and preferences, builds your user profile, and configures the best tools for your workflow.",
-      "categories": ["Business"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "plugins/babysitter-pi/skills/user-install",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/plugins/babysitter-pi/skills/project-install",
-      "name": "project-install",
-      "description": "Set up a project for babysitting. Guides you through onboarding a new or existing project — researches the codebase, interviews you about goals and workflows, builds the project profile, installs the best tools, and optionally configures CI/CD integration.",
-      "categories": ["Development", "Productivity", "Business", "Research"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "plugins/babysitter-pi/skills/project-install",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/ruflo/skills/smart-routing",
-      "name": "smart-routing",
-      "description": "Complexity-based task routing with Q-Learning optimization, Agent Booster WASM fast-path, and Mixture-of-Experts model selection.",
-      "categories": ["AI & ML"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/ruflo/skills/smart-routing",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/gastown/skills/merge-queue",
-      "name": "merge-queue",
-      "description": "Process the Refinery merge queue - collect agent work, detect and resolve conflicts, merge in dependency order, and verify integration.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/gastown/skills/merge-queue",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/nx",
-      "name": "nx",
-      "description": "Nx workspace configuration, generators, and affected commands.",
-      "categories": ["Productivity"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/nx",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/claudekit/skills/file-guard",
-      "name": "file-guard",
-      "description": "PreToolUse protection blocking sensitive file access across 195+ patterns in 12 categories with bash pipeline analysis and multi-tool ignore support.",
-      "categories": ["Data & Analytics"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/claudekit/skills/file-guard",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/gsd/skills/state-management",
-      "name": "state-management",
-      "description": "STATE.md reading, writing, and field-level updates. Provides cross-session state persistence via .planning/STATE.md with structured fields for current task, completed phases, blockers, decisions, and quick tasks.",
-      "categories": ["Productivity", "Business"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/gsd/skills/state-management",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/rpikit/skills/brainstorming",
-      "name": "brainstorming",
-      "description": "Clarify vague requirements through exploratory questioning and option generation before committing to research or implementation.",
-      "categories": ["Research"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/rpikit/skills/brainstorming",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/cc10x/skills/session-memory",
-      "name": "session-memory",
-      "description": "Mandatory memory persistence system across session resets using three markdown surfaces in .claude/cc10x/. Iron law - every workflow must load at start and update at end.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/cc10x/skills/session-memory",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/msw",
-      "name": "msw",
-      "description": "Mock Service Worker API mocking, request handlers, and integration testing.",
-      "categories": ["Development", "Integration"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/msw",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/jwt",
-      "name": "jwt",
-      "description": "JWT implementation, token management, refresh patterns, and security.",
-      "categories": ["Security"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/jwt",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/zod",
-      "name": "zod",
-      "description": "Zod schema validation and type inference.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/zod",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/lit",
-      "name": "lit",
-      "description": "Web Components development with Lit including custom elements, reactive properties, shadow DOM, and interoperability.",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/lit",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/git",
-      "name": "git",
-      "description": "Git workflows, branching strategies, and hooks.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/git",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/seo",
-      "name": "seo",
-      "description": "Technical SEO, structured data, sitemaps, and meta tags.",
-      "categories": ["Marketing"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/seo",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/csp",
-      "name": "csp",
-      "description": "Content Security Policy configuration, nonces, and reporting.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/csp",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/cc10x/skills/code-generation",
-      "name": "code-generation",
-      "description": "Minimal, pattern-matching code output. Write the least code that satisfies requirements. Match existing project patterns. Use Write/Edit tools only.",
-      "categories": ["Development", "Writing"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/cc10x/skills/code-generation",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/maestro/skills/hotfix-triage",
-      "name": "hotfix-triage",
-      "description": "Urgent issue classification, root cause analysis, and fast-path routing for production hotfixes",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/maestro/skills/hotfix-triage",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/sse",
-      "name": "sse",
-      "description": "Server-Sent Events implementation, streaming patterns, and real-time updates.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/sse",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/rpikit/skills/finishing-work",
-      "name": "finishing-work",
-      "description": "Final completion discipline including summary generation, plan document updates, and confirmation that all success criteria from the original plan are satisfied.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/rpikit/skills/finishing-work",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/aria",
-      "name": "aria",
-      "description": "WAI-ARIA implementation, roles, states, and properties.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/aria",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/jest",
-      "name": "jest",
-      "description": "Jest configuration, mocking strategies, snapshot testing, and coverage.",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/jest",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/gastown/skills/issue-tracking",
-      "name": "issue-tracking",
-      "description": "Track beads as git-backed issues with persistent attribution, supporting Gas Town's bead lifecycle and convoy progress monitoring.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/gastown/skills/issue-tracking",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/ngrx",
-      "name": "ngrx",
-      "description": "NgRx state management for Angular including store, effects, entity adapter, component store, and selectors.",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/ngrx",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/trpc",
-      "name": "trpc",
-      "description": "tRPC end-to-end type safety, procedures, routers, middleware, and React integration.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/trpc",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/gsd/skills/verification-suite",
-      "name": "verification-suite",
-      "description": "Plan structure validation, phase completeness checks, reference integrity verification, and artifact existence confirmation. Provides the structured verification layer ensuring GSD artifacts are well-formed and complete.",
-      "categories": ["Design"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/gsd/skills/verification-suite",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/meta/skills/skill-generator",
-      "name": "skill-generator",
-      "description": "Generate SKILL.md files with proper YAML frontmatter, capabilities documentation, and usage examples following Babysitter SDK conventions.",
-      "categories": ["Development", "Productivity", "Documents"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/meta/skills/skill-generator",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/nuxt",
-      "name": "nuxt",
-      "description": "Nuxt 3 patterns including Nitro server, auto-imports, modules, hybrid rendering, and full-stack development.",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/nuxt",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/rpikit/skills/security-review",
-      "name": "security-review",
-      "description": "Security vulnerability assessment identifying OWASP risks, injection vectors, authentication issues, and data exposure with severity classification.",
-      "categories": ["Security"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/rpikit/skills/security-review",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/pilot-shell/skills/strict-tdd",
-      "name": "strict-tdd",
-      "description": "Strict RED->GREEN->REFACTOR test-driven development with enforcement. Never write production code before a failing test. Atomic commits per TDD cycle.",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/pilot-shell/skills/strict-tdd",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/wcag",
-      "name": "wcag",
-      "description": "WCAG 2.1/2.2 compliance, auditing, and remediation.",
-      "categories": ["Security", "Business"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/wcag",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/rxjs",
-      "name": "rxjs",
-      "description": "RxJS reactive programming patterns including operators, error handling, multicasting, and Angular integration.",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/rxjs",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/meta/skills/agent-generator",
-      "name": "agent-generator",
-      "description": "Generate AGENT.md files with proper YAML frontmatter, role definitions, expertise areas, and prompt templates following Babysitter SDK conventions.",
-      "categories": ["Development", "Productivity", "AI & ML"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/meta/skills/agent-generator",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/gsd/skills/roadmap-management",
-      "name": "roadmap-management",
-      "description": "Roadmap parsing, analysis, and mutation operations for ROADMAP.md. Handles phase and milestone lifecycle including add, insert (decimal), remove, complete, and requirements coverage analysis.",
-      "categories": ["Business"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/gsd/skills/roadmap-management",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/vite",
-      "name": "vite",
-      "description": "Vite configuration, plugins, optimization, HMR, and build customization.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/vite",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/ruflo/skills/self-optimization",
-      "name": "self-optimization",
-      "description": "SONA self-optimizing neural architecture with ReasoningBank trajectory learning, EWC++ anti-forgetting, and reinforcement learning feedback loops.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/ruflo/skills/self-optimization",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/game-development/skills/hlsl",
-      "name": "hlsl",
-      "description": "HLSL shader programming skill for DirectX, compute shaders, and optimization.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/game-development/skills/hlsl",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/gsd/skills/context-engineering",
-      "name": "context-engineering",
-      "description": "Context window monitoring and budget management. Keeps orchestrator at 15-30% context usage while subagents get full 200k tokens. Provides warnings at thresholds, context-aware summarization triggers, and wave-level budget planning.",
-      "categories": ["Productivity", "Business", "AI & ML"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/gsd/skills/context-engineering",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/redis",
-      "name": "redis",
-      "description": "Redis caching patterns, pub/sub, sessions, rate limiting, and data structures.",
-      "categories": ["Data & Analytics"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/redis",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/gsd/skills/frontmatter-parsing",
-      "name": "frontmatter-parsing",
-      "description": "YAML frontmatter parsing and manipulation for .planning/ documents. Provides read, write, update, query, and validation operations on frontmatter blocks in GSD markdown artifacts.",
-      "categories": ["Documents"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/gsd/skills/frontmatter-parsing",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/oauth",
-      "name": "oauth",
-      "description": "OAuth 2.0/OIDC flows, provider integration, and token handling.",
-      "categories": ["Security"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/oauth",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/claudekit/skills/spec-creation",
-      "name": "spec-creation",
-      "description": "Feature specification creation from codebase research. Produces requirements, acceptance criteria, architecture decisions, implementation plans, and risk analysis.",
-      "categories": ["Development", "Productivity", "Research"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/claudekit/skills/spec-creation",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/meta/skills/process-analyzer",
-      "name": "process-analyzer",
-      "description": "Analyze processes, identify workflows, define boundaries and scope, and map process requirements for specialization creation.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/meta/skills/process-analyzer",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/game-development/skills/glsl",
-      "name": "glsl",
-      "description": "GLSL shader programming skill for OpenGL/Vulkan, fragment and vertex shaders.",
-      "categories": ["AI & ML"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/game-development/skills/glsl",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/pinia",
-      "name": "pinia",
-      "description": "Pinia state management for Vue 3 including store creation, actions, getters, plugins, and DevTools integration.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/pinia",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/cc10x/skills/planning-patterns",
-      "name": "planning-patterns",
-      "description": "Structured planning methodology with research, brainstorming, phased plan creation, risk assessment, and plan-to-build continuity.",
-      "categories": ["Development", "Research"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/cc10x/skills/planning-patterns",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/remix",
-      "name": "remix",
-      "description": "Remix patterns including loaders, actions, nested routing, progressive enhancement, and deployment strategies.",
-      "categories": ["DevOps"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/remix",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/svelte",
-      "name": "svelte",
-      "description": "Svelte and SvelteKit development with built-in reactivity, stores, SSR/SSG, and modern web patterns.",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/svelte",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/maestro/skills/code-review-gate",
-      "name": "code-review-gate",
-      "description": "Architect code review with DRY, YAGNI, abstraction, and test coverage principle enforcement",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/maestro/skills/code-review-gate",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/spec-kit/skills/planning-design",
-      "name": "planning-design",
-      "description": "Design technical architecture, select technology stack, and define implementation strategy from specifications and constitution constraints.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/spec-kit/skills/planning-design",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/meta/skills/process-generator",
-      "name": "process-generator",
-      "description": "Generate process JS files following Babysitter SDK patterns including task definitions, quality gates, breakpoints, and proper io configuration.",
-      "categories": ["Development", "Productivity"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/meta/skills/process-generator",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/gsd/skills/template-scaffolding",
-      "name": "template-scaffolding",
-      "description": "Template loading, variable filling, and scaffolding for all GSD artifacts. Manages 22+ templates covering every document type in the GSD system, from PROJECT.md to milestone archives.",
-      "categories": ["Productivity", "Documents"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/gsd/skills/template-scaffolding",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/nextjs",
-      "name": "nextjs",
-      "description": "Next.js specific patterns including App Router, React Server Components, Server Actions, streaming, caching, and Vercel deployment.",
-      "categories": ["Development", "DevOps"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/nextjs",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/eslint",
-      "name": "eslint",
-      "description": "ESLint configuration, custom rules, and plugin development.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/eslint",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/ux-ui-design/skills/figma-api",
-      "name": "figma-api",
-      "description": "Direct Figma API interactions for design asset management. Fetch files and components, extract design tokens, export images, manage comments, and access version history.",
-      "categories": ["Development", "Design", "Documents"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/ux-ui-design/skills/figma-api",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/vitest",
-      "name": "vitest",
-      "description": "Vitest configuration, mocking, coverage, snapshot testing, and performance.",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/vitest",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/ruflo/skills/security-hardening",
-      "name": "security-hardening",
-      "description": "AIDefence security layer with prompt injection blocking, input validation, sandboxed execution, output sanitization, and STRIDE threat modeling.",
-      "categories": ["Security", "AI & ML"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/ruflo/skills/security-hardening",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/cc10x/skills/debugging-patterns",
-      "name": "debugging-patterns",
-      "description": "Root cause analysis frameworks including log-first investigation, git bisect correlation, and pattern-based diagnosis with confidence scoring.",
-      "categories": ["Development", "Business"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/cc10x/skills/debugging-patterns",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/nestjs",
-      "name": "nestjs",
-      "description": "NestJS architecture including modules, dependency injection, guards, interceptors, and microservices patterns.",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/nestjs",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/web-development/skills/shadcn",
-      "name": "shadcn",
-      "description": "shadcn/ui component patterns, customization, theming, and integration.",
-      "categories": ["Development", "Design"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/web-development/skills/shadcn",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/specializations/meta/skills/process-validator",
-      "name": "process-validator",
-      "description": "Validate process JS files for correct SDK patterns, task definitions, syntax, and quality gate implementation.",
-      "categories": ["Development", "Finance"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/specializations/meta/skills/process-validator",
-      "commitHash": "d97a2e46a84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/metaswarm/skills/pr-shepherding",
-      "name": "pr-shepherding",
-      "description": "Monitor PR lifecycle from creation through merge including CI monitoring, review comment handling, thread resolution, and merge readiness verification.",
-      "categories": ["Other"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/metaswarm/skills/pr-shepherding",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/rpikit/skills/codebase-research",
-      "name": "codebase-research",
-      "description": "Systematic codebase exploration following the Iron Law - understand the problem before exploring code. Four phases with file-finder and web-researcher agents.",
-      "categories": ["Research", "AI & ML"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/rpikit/skills/codebase-research",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "a5c-ai/babysitter/library/methodologies/claudekit/skills/spec-execution",
-      "name": "spec-execution",
-      "description": "6-phase iterative specification execution workflow covering implementation, testing, review, improvement, commit, and progress tracking with quality-gated convergence.",
-      "categories": ["Development"],
-      "author": "a5c-ai",
-      "repo": "a5c-ai/babysitter",
-      "path": "library/methodologies/claudekit/skills/spec-execution",
-      "commitHash": "d97a2e46a84c",
-      "files": ["README.md", "SKILL.md"]
-    },
     {
       "id": "OpenRaiser/NanoResearch/skills/nanoresearch-writing",
       "name": "nanoresearch-writing",
@@ -1417,17 +598,6 @@
       "repo": "zanwei/design-dna",
       "path": "",
       "commitHash": "9d9d79568df3",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "tripleyak/SkillForge",
-      "name": "skillforge",
-      "description": "Intelligent skill router and creator. Analyzes ANY input to recommend existing skills, improve them, or create new ones. Uses deep iterative analysis with 11 thinking models, regression questioning, evolution lens, and multi-agent synthesis panel. Phase 0 triage ensures you never duplicate existing functionality.",
-      "categories": ["AI & ML"],
-      "author": "tripleyak",
-      "repo": "tripleyak/SkillForge",
-      "path": "",
-      "commitHash": "f07042f09793",
       "files": ["SKILL.md"]
     },
     {
@@ -3119,6 +2289,50 @@
       ]
     },
     {
+      "id": "ferdinandobons/startup-skill/startup-pitch",
+      "name": "startup-pitch",
+      "description": "Build investor-ready pitch scripts in multiple formats (10-min, 5-min, 2-min, 1-min elevator, investor email). Produces pitch narratives, Q&A preparation, pitch scoring rubric, and optional investor roleplay practice. Use when the user wants to create a pitch, prepare for investor meetings, craft a startup pitch, write a fundraising narrative, or practice their pitch. Triggers for \"pitch deck\", \"investor pitch\", \"pitch my startup\", \"fundraising deck\", \"seed deck\", \"how to pitch\", \"investor meeting\", \"demo day\", \"prepare pitch\", \"pitch script\", \"elevator pitch for investors\", \"pitch practice\", \"practice my pitch\", \"investor roleplay\", or any request to present a startup to investors, accelerators, or partners. Works standalone — no prior startup-design session needed, but leverages its output if available.",
+      "categories": ["Development", "Design", "Writing", "Business", "AI & ML"],
+      "author": "ferdinandobons",
+      "repo": "ferdinandobons/startup-skill",
+      "path": "startup-pitch",
+      "commitHash": "1dbf3926043d",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "ferdinandobons/startup-skill/startup-design",
+      "name": "startup-design",
+      "description": "Design, validate, and plan a startup from scratch. Covers market research, competitive analysis, business model, brand identity, product definition, financial projections, and validation experiments. Trigger when the user has a startup idea to explore, wants to validate a business concept, needs a business plan or lean canvas, asks for market sizing or competitive landscape, wants brand positioning or go-to-market strategy, or says anything like \"I have an idea for...\" or \"is this idea worth pursuing\". Also handles resuming from a previous checkpoint.",
+      "categories": ["Design", "Productivity", "Business", "Research", "Finance"],
+      "author": "ferdinandobons",
+      "repo": "ferdinandobons/startup-skill",
+      "path": "startup-design",
+      "commitHash": "1dbf3926043d",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "ferdinandobons/startup-skill/startup-competitors",
+      "name": "startup-competitors",
+      "description": "Deep competitive intelligence for any market. Analyzes competitors' products, pricing, customer sentiment, GTM strategy, and growth signals using real web data. Produces battle cards, pricing landscape, and feature matrix. Use when the user wants to understand their competitive landscape, analyze competitors, compare products in a market, or research who they're competing against. Triggers for \"who are my competitors\", \"competitive analysis\", \"competitor research\", \"battle cards\", \"pricing comparison\", \"competitor pricing\", \"market players\", \"competitive intelligence\", \"competitive landscape\", \"who else is in this space\", \"competitive moat\", or any request to profile, compare, or map competitors in a category. Works standalone — no prior startup-design session needed.",
+      "categories": ["Design", "Data & Analytics", "Business", "Research"],
+      "author": "ferdinandobons",
+      "repo": "ferdinandobons/startup-skill",
+      "path": "startup-competitors",
+      "commitHash": "1dbf3926043d",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "ferdinandobons/startup-skill/startup-positioning",
+      "name": "startup-positioning",
+      "description": "Market positioning strategy using the April Dunford framework, enriched with JTBD discovery, Moore positioning statement, and Neumeier's Onliness Test. Produces a complete positioning document, positioning statement, competitive alternatives map, and market category analysis. Use when the user wants to define or refine their market positioning, find their unique position, differentiate from competitors, craft a positioning statement, choose a market category, or figure out \"how should we position this product.\" Triggers for \"positioning\", \"how to position\", \"market position\", \"differentiation strategy\", \"positioning statement\", \"competitive positioning\", \"category strategy\", \"where do we fit in the market\", \"how are we different\", \"unique value proposition\", or any request to define, sharpen, or rethink positioning. Works standalone — no prior startup-design or startup-competitors session needed, but leverages their output if available.",
+      "categories": ["Development", "Design", "Business", "Research", "Finance", "AI & ML"],
+      "author": "ferdinandobons",
+      "repo": "ferdinandobons/startup-skill",
+      "path": "startup-positioning",
+      "commitHash": "1dbf3926043d",
+      "files": ["SKILL.md", "references"]
+    },
+    {
       "id": "BrianRWagner/ai-marketing-claude-code-skills/go-mode",
       "name": "go-mode",
       "description": "Autonomous goal execution — give a goal, get a plan, confirm, execute, report. You steer, Claude drives.",
@@ -3424,50 +2638,6 @@
       "files": [".clawdhub/origin.json", "README.md", "SKILL-OC.md", "SKILL.md"]
     },
     {
-      "id": "ferdinandobons/startup-skill/startup-pitch",
-      "name": "startup-pitch",
-      "description": "Build investor-ready pitch scripts in multiple formats (10-min, 5-min, 2-min, 1-min elevator, investor email). Produces pitch narratives, Q&A preparation, pitch scoring rubric, and optional investor roleplay practice. Use when the user wants to create a pitch, prepare for investor meetings, craft a startup pitch, write a fundraising narrative, or practice their pitch. Triggers for \"pitch deck\", \"investor pitch\", \"pitch my startup\", \"fundraising deck\", \"seed deck\", \"how to pitch\", \"investor meeting\", \"demo day\", \"prepare pitch\", \"pitch script\", \"elevator pitch for investors\", \"pitch practice\", \"practice my pitch\", \"investor roleplay\", or any request to present a startup to investors, accelerators, or partners. Works standalone — no prior startup-design session needed, but leverages its output if available.",
-      "categories": ["Development", "Design", "Writing", "Business", "AI & ML"],
-      "author": "ferdinandobons",
-      "repo": "ferdinandobons/startup-skill",
-      "path": "startup-pitch",
-      "commitHash": "1dbf3926043d",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "ferdinandobons/startup-skill/startup-design",
-      "name": "startup-design",
-      "description": "Design, validate, and plan a startup from scratch. Covers market research, competitive analysis, business model, brand identity, product definition, financial projections, and validation experiments. Trigger when the user has a startup idea to explore, wants to validate a business concept, needs a business plan or lean canvas, asks for market sizing or competitive landscape, wants brand positioning or go-to-market strategy, or says anything like \"I have an idea for...\" or \"is this idea worth pursuing\". Also handles resuming from a previous checkpoint.",
-      "categories": ["Design", "Productivity", "Business", "Research", "Finance"],
-      "author": "ferdinandobons",
-      "repo": "ferdinandobons/startup-skill",
-      "path": "startup-design",
-      "commitHash": "1dbf3926043d",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "ferdinandobons/startup-skill/startup-competitors",
-      "name": "startup-competitors",
-      "description": "Deep competitive intelligence for any market. Analyzes competitors' products, pricing, customer sentiment, GTM strategy, and growth signals using real web data. Produces battle cards, pricing landscape, and feature matrix. Use when the user wants to understand their competitive landscape, analyze competitors, compare products in a market, or research who they're competing against. Triggers for \"who are my competitors\", \"competitive analysis\", \"competitor research\", \"battle cards\", \"pricing comparison\", \"competitor pricing\", \"market players\", \"competitive intelligence\", \"competitive landscape\", \"who else is in this space\", \"competitive moat\", or any request to profile, compare, or map competitors in a category. Works standalone — no prior startup-design session needed.",
-      "categories": ["Design", "Data & Analytics", "Business", "Research"],
-      "author": "ferdinandobons",
-      "repo": "ferdinandobons/startup-skill",
-      "path": "startup-competitors",
-      "commitHash": "1dbf3926043d",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "ferdinandobons/startup-skill/startup-positioning",
-      "name": "startup-positioning",
-      "description": "Market positioning strategy using the April Dunford framework, enriched with JTBD discovery, Moore positioning statement, and Neumeier's Onliness Test. Produces a complete positioning document, positioning statement, competitive alternatives map, and market category analysis. Use when the user wants to define or refine their market positioning, find their unique position, differentiate from competitors, craft a positioning statement, choose a market category, or figure out \"how should we position this product.\" Triggers for \"positioning\", \"how to position\", \"market position\", \"differentiation strategy\", \"positioning statement\", \"competitive positioning\", \"category strategy\", \"where do we fit in the market\", \"how are we different\", \"unique value proposition\", or any request to define, sharpen, or rethink positioning. Works standalone — no prior startup-design or startup-competitors session needed, but leverages their output if available.",
-      "categories": ["Development", "Design", "Business", "Research", "Finance", "AI & ML"],
-      "author": "ferdinandobons",
-      "repo": "ferdinandobons/startup-skill",
-      "path": "startup-positioning",
-      "commitHash": "1dbf3926043d",
-      "files": ["SKILL.md", "references"]
-    },
-    {
       "id": "assafelovic/skyll/skills/skyll",
       "name": "skyll",
       "description": "Search and retrieve agent skills at runtime. This skill should be used when the agent needs to find specialized capabilities, workflows, or domain knowledge to accomplish a task. Skyll aggregates skills from skills.sh and returns full SKILL.md content ready for context injection.",
@@ -3654,17 +2824,6 @@
       "version": "1.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "iamzifei/wechat-article-publisher-skill/skills/wechat-article-publisher",
-      "name": "wechat-article-publisher",
-      "description": "Publish Markdown/HTML articles to WeChat Official Account (微信公众号) drafts via API",
-      "categories": ["Writing", "Integration"],
-      "author": "iamzifei",
-      "repo": "iamzifei/wechat-article-publisher-skill",
-      "path": "skills/wechat-article-publisher",
-      "commitHash": "8f6c3aae0174",
-      "files": ["SKILL.md", "scripts"]
     },
     {
       "id": "ckelsoe/prompt-architect/skills/prompt-architect",
@@ -4255,6 +3414,17 @@
       "path": "skills/test",
       "commitHash": "7306bcaebf37",
       "files": ["SKILL.md", "test-definitions.md"]
+    },
+    {
+      "id": "iamzifei/wechat-article-publisher-skill/skills/wechat-article-publisher",
+      "name": "wechat-article-publisher",
+      "description": "Publish Markdown/HTML articles to WeChat Official Account (微信公众号) drafts via API",
+      "categories": ["Writing", "Integration"],
+      "author": "iamzifei",
+      "repo": "iamzifei/wechat-article-publisher-skill",
+      "path": "skills/wechat-article-publisher",
+      "commitHash": "8f6c3aae0174",
+      "files": ["SKILL.md", "scripts"]
     },
     {
       "id": "axiaoge2/Apple-Hig-Designer",
@@ -5163,17 +4333,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "scoobynko/claude-code-design-skills/figma-to-code",
-      "name": "figma-to-code",
-      "description": "Generate production-ready React/Next.js code from Figma designs. Instructs proper Figma MCP tool usage, component reuse strategies, and variant mapping. **CRITICAL: ALWAYS use this skill when user provides a Figma link or mentions implementing/redesigning from Figma design.** Never attempt manual implementation without invoking this skill first.",
-      "categories": ["Development", "Design"],
-      "author": "scoobynko",
-      "repo": "scoobynko/claude-code-design-skills",
-      "path": "figma-to-code",
-      "commitHash": "3dfc52761098",
-      "files": ["README.md", "SKILL.md", "examples.md"]
-    },
-    {
       "id": "VapiAI/skills/create-tool",
       "name": "create-tool",
       "description": "Create custom tools for Vapi voice assistants including function tools, API request tools, transfer call tools, end call tools, and integrations with Google Calendar, Sheets, Slack, and more. Use when adding capabilities to voice agents, building tool servers, or integrating external APIs.",
@@ -5260,6 +4419,17 @@
       "path": "create-phone-number",
       "commitHash": "9b95b89c02a6",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "scoobynko/claude-code-design-skills/figma-to-code",
+      "name": "figma-to-code",
+      "description": "Generate production-ready React/Next.js code from Figma designs. Instructs proper Figma MCP tool usage, component reuse strategies, and variant mapping. **CRITICAL: ALWAYS use this skill when user provides a Figma link or mentions implementing/redesigning from Figma design.** Never attempt manual implementation without invoking this skill first.",
+      "categories": ["Development", "Design"],
+      "author": "scoobynko",
+      "repo": "scoobynko/claude-code-design-skills",
+      "path": "figma-to-code",
+      "commitHash": "3dfc52761098",
+      "files": ["README.md", "SKILL.md", "examples.md"]
     },
     {
       "id": "furkancingoz/aso-skill",
@@ -5372,6 +4542,28 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "Ashutos1997/claude-design-auditor-skill",
+      "name": "design-auditor",
+      "description": "Audit designs against 18 professional rules across Figma files and code (HTML/CSS/React/Vue/Tailwind). Detects framework automatically, runs code superpowers (aria, focus, contrast, tokens, responsive, motion, forms, navigation, spacing), audits for dark patterns and ethical design issues, outputs before/after code diffs, generates developer handoff reports, and converts wireframes into annotated dev-ready specs. Triggers on: check my design, review my UI, audit my layout, is this accessible, design review, typography check, color contrast, WCAG, a11y, pixel perfect, UI critique, Figma audit, CSS check, review this component, does this look good, dark patterns, ethical design, is this GDPR compliant, check my onboarding, review my checkout, is this manipulative, is my UI accessible, check my design system, is this ethical, is my form accessible, is my dark mode correct, is this responsive, review my empty states, wireframe to spec, annotate my wireframe, turn this wireframe into a spec, spec out this design.",
+      "categories": [
+        "Development",
+        "Security",
+        "Design",
+        "Data & Analytics",
+        "Documents",
+        "Business",
+        "Finance",
+        "AI & ML"
+      ],
+      "author": "Ashutos1997",
+      "repo": "Ashutos1997/claude-design-auditor-skill",
+      "path": "",
+      "commitHash": "eba2c33d36af",
+      "version": "1.2.6",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "Shelpuk-AI-Technology-Consulting/agent-skill-tdd/skills/tdd",
       "name": "tdd",
       "description": "Use for every coding task. Enforce strict TDD workflow: activate Serena, investigate first, clarify+confirm requirements, write per-task REQUIREMENTS.md in .requirements/<datetime>_<feature_name>/, verify APIs via web search, then implement in tiny test-verified steps.",
@@ -5409,28 +4601,6 @@
         "outputs.md",
         "sandbox-modes.md"
       ]
-    },
-    {
-      "id": "Ashutos1997/claude-design-auditor-skill",
-      "name": "design-auditor",
-      "description": "Audit designs against 18 professional rules across Figma files and code (HTML/CSS/React/Vue/Tailwind). Detects framework automatically, runs code superpowers (aria, focus, contrast, tokens, responsive, motion, forms, navigation, spacing), audits for dark patterns and ethical design issues, outputs before/after code diffs, generates developer handoff reports, and converts wireframes into annotated dev-ready specs. Triggers on: check my design, review my UI, audit my layout, is this accessible, design review, typography check, color contrast, WCAG, a11y, pixel perfect, UI critique, Figma audit, CSS check, review this component, does this look good, dark patterns, ethical design, is this GDPR compliant, check my onboarding, review my checkout, is this manipulative, is my UI accessible, check my design system, is this ethical, is my form accessible, is my dark mode correct, is this responsive, review my empty states, wireframe to spec, annotate my wireframe, turn this wireframe into a spec, spec out this design.",
-      "categories": [
-        "Development",
-        "Security",
-        "Design",
-        "Data & Analytics",
-        "Documents",
-        "Business",
-        "Finance",
-        "AI & ML"
-      ],
-      "author": "Ashutos1997",
-      "repo": "Ashutos1997/claude-design-auditor-skill",
-      "path": "",
-      "commitHash": "eba2c33d36af",
-      "version": "1.2.6",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
     },
     {
       "id": "proyecto26/sherlock-ai-plugin/skills/paper2code",
@@ -5533,6 +4703,17 @@
       "files": ["SKILL.md", "references", "scripts", "tests"]
     },
     {
+      "id": "cjpatten/canadian-finance-planner-skill",
+      "name": "financial-planner",
+      "description": "Your Personal Finance Manager for Canadians — an AI financial planning partner that conducts thorough financial interviews, builds complete plans, generates interactive dashboards, and provides ongoing coaching. Use this skill whenever someone asks about budgeting, saving, investing, debt strategy, retirement planning, tax optimization, government benefits, insurance, RRSPs, TFSAs, RESPs, CPP, OAS, or any aspect of personal finance in a Canadian context. Also triggers for \"should I buy this?\", \"can I afford this?\", financial check-ins, plan updates, life change impacts on finances, or any request to build or review a financial plan. Even if the user just says \"help me with my money\" or \"I need a budget\", this skill should activate. Canada-focused (v1).\n",
+      "categories": ["Design", "Productivity", "Business", "Finance"],
+      "author": "cjpatten",
+      "repo": "cjpatten/canadian-finance-planner-skill",
+      "path": "",
+      "commitHash": "51037ce9006e",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "IJONIS/geo-lint/skills/geo-lint",
       "name": "geo-lint",
       "description": "SEO & GEO content linter — validates Markdown/MDX files for AI search visibility using 92 deterministic rules (35 GEO, 32 SEO, 14 content quality, 8 technical, 3 i18n). Runs an autonomous lint-fix loop: scan content, read structured violations, fix them, re-lint until clean. Use when optimizing content for AI citations, auditing SEO compliance, checking GEO readiness, or running pre-publish content validation. Triggers on: \"geo-lint\", \"lint content\", \"SEO audit\", \"GEO\", \"content optimization\", \"AI search\", \"citation readiness\".\n",
@@ -5580,15 +4761,74 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "cjpatten/canadian-finance-planner-skill",
-      "name": "financial-planner",
-      "description": "Your Personal Finance Manager for Canadians — an AI financial planning partner that conducts thorough financial interviews, builds complete plans, generates interactive dashboards, and provides ongoing coaching. Use this skill whenever someone asks about budgeting, saving, investing, debt strategy, retirement planning, tax optimization, government benefits, insurance, RRSPs, TFSAs, RESPs, CPP, OAS, or any aspect of personal finance in a Canadian context. Also triggers for \"should I buy this?\", \"can I afford this?\", financial check-ins, plan updates, life change impacts on finances, or any request to build or review a financial plan. Even if the user just says \"help me with my money\" or \"I need a budget\", this skill should activate. Canada-focused (v1).\n",
-      "categories": ["Design", "Productivity", "Business", "Finance"],
-      "author": "cjpatten",
-      "repo": "cjpatten/canadian-finance-planner-skill",
-      "path": "",
-      "commitHash": "51037ce9006e",
+      "id": "ITlearning/study-ios/.agents/skills/study-summary",
+      "name": "study-summary",
+      "description": "Saves learning notes from the current conversation. Classic mode makes concise notes, Mastery mode keeps detailed training artifacts.",
+      "categories": ["Research", "AI & ML"],
+      "author": "ITlearning",
+      "repo": "ITlearning/study-ios",
+      "path": ".agents/skills/study-summary",
+      "commitHash": "85d4c19a8bc0",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "ITlearning/study-ios/.agents/skills/swift-quiz",
+      "name": "swift-quiz",
+      "description": "Adaptive Swift/iOS quiz with two modes. Classic is lighter, Mastery requires mechanism-level reasoning.",
+      "categories": ["Other"],
+      "author": "ITlearning",
+      "repo": "ITlearning/study-ios",
+      "path": ".agents/skills/swift-quiz",
+      "commitHash": "85d4c19a8bc0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ITlearning/study-ios/.agents/skills/swift-study",
+      "name": "swift-study",
+      "description": "Interactive Swift/iOS tutor with two modes. Classic explains first, Mastery uses a predict-first Core Loop with gates.",
+      "categories": ["Other"],
+      "author": "ITlearning",
+      "repo": "ITlearning/study-ios",
+      "path": ".agents/skills/swift-study",
+      "commitHash": "85d4c19a8bc0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "stevembarclay/pencilplaybook",
+      "name": "pencilplaybook",
+      "description": "PencilPlaybook is the UI Skills / Taste-Skill for Pencil.dev + Claude Code — a design playbook that gives Claude real perceptual psychology and senior-level guardrails so it stops producing averaged-out AI slop.",
+      "categories": ["Design", "AI & ML"],
+      "author": "stevembarclay",
+      "repo": "stevembarclay/pencilplaybook",
+      "path": "",
+      "commitHash": "b7324295d73d",
+      "version": "1.1.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "stevembarclay/pencilplaybook/.claude/skills/best-in-world-research",
+      "name": "best-in-world-research",
+      "description": "World-class practice research. This skill should be used when the user asks what the best in the world does about a specific problem, technique, or situation — covering product, engineering, design, marketing, compliance, operations, org design, and any other domain. Use when the goal is to understand elite-tier practice, not to make a strategic decision. Distinct from best-in-world-strategy, which is for choosing between options.",
+      "categories": ["Business", "Research"],
+      "author": "stevembarclay",
+      "repo": "stevembarclay/pencilplaybook",
+      "path": ".claude/skills/best-in-world-research",
+      "commitHash": "b7324295d73d",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "stevembarclay/pencilplaybook/.claude/skills/best-in-world-strategy",
+      "name": "best-in-world-strategy",
+      "description": "Excellence-first strategic decision support. This skill should be used when users need to choose between options, pressure-test a plan, evaluate risk, or make a specific decision — across security, product, growth, operations, org design, and finance. Use when there is a decision with tradeoffs to score and a recommendation to make. For pure research (\"what does the best in the world do about X?\"), use best-in-world-research instead.",
+      "categories": ["Business", "Research"],
+      "author": "stevembarclay",
+      "repo": "stevembarclay/pencilplaybook",
+      "path": ".claude/skills/best-in-world-strategy",
+      "commitHash": "b7324295d73d",
+      "version": "1.1.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references"]
     },
     {
       "id": "greenstevester/fastlane-skill/skills/beta",
@@ -5643,39 +4883,6 @@
       "repo": "greenstevester/fastlane-skill",
       "path": "skills/release",
       "commitHash": "8cf72fc9623f",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ITlearning/study-ios/.agents/skills/study-summary",
-      "name": "study-summary",
-      "description": "Saves learning notes from the current conversation. Classic mode makes concise notes, Mastery mode keeps detailed training artifacts.",
-      "categories": ["Research", "AI & ML"],
-      "author": "ITlearning",
-      "repo": "ITlearning/study-ios",
-      "path": ".agents/skills/study-summary",
-      "commitHash": "85d4c19a8bc0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ITlearning/study-ios/.agents/skills/swift-quiz",
-      "name": "swift-quiz",
-      "description": "Adaptive Swift/iOS quiz with two modes. Classic is lighter, Mastery requires mechanism-level reasoning.",
-      "categories": ["Other"],
-      "author": "ITlearning",
-      "repo": "ITlearning/study-ios",
-      "path": ".agents/skills/swift-quiz",
-      "commitHash": "85d4c19a8bc0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ITlearning/study-ios/.agents/skills/swift-study",
-      "name": "swift-study",
-      "description": "Interactive Swift/iOS tutor with two modes. Classic explains first, Mastery uses a predict-first Core Loop with gates.",
-      "categories": ["Other"],
-      "author": "ITlearning",
-      "repo": "ITlearning/study-ios",
-      "path": ".agents/skills/swift-study",
-      "commitHash": "85d4c19a8bc0",
       "files": ["SKILL.md"]
     },
     {
@@ -5742,43 +4949,6 @@
       "repo": "inngest/inngest-skills",
       "path": "skills/inngest-durable-functions",
       "commitHash": "7f927c5a167f",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "stevembarclay/pencilplaybook",
-      "name": "pencilplaybook",
-      "description": "PencilPlaybook is the UI Skills / Taste-Skill for Pencil.dev + Claude Code — a design playbook that gives Claude real perceptual psychology and senior-level guardrails so it stops producing averaged-out AI slop.",
-      "categories": ["Design", "AI & ML"],
-      "author": "stevembarclay",
-      "repo": "stevembarclay/pencilplaybook",
-      "path": "",
-      "commitHash": "b7324295d73d",
-      "version": "1.1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "stevembarclay/pencilplaybook/.claude/skills/best-in-world-research",
-      "name": "best-in-world-research",
-      "description": "World-class practice research. This skill should be used when the user asks what the best in the world does about a specific problem, technique, or situation — covering product, engineering, design, marketing, compliance, operations, org design, and any other domain. Use when the goal is to understand elite-tier practice, not to make a strategic decision. Distinct from best-in-world-strategy, which is for choosing between options.",
-      "categories": ["Business", "Research"],
-      "author": "stevembarclay",
-      "repo": "stevembarclay/pencilplaybook",
-      "path": ".claude/skills/best-in-world-research",
-      "commitHash": "b7324295d73d",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "stevembarclay/pencilplaybook/.claude/skills/best-in-world-strategy",
-      "name": "best-in-world-strategy",
-      "description": "Excellence-first strategic decision support. This skill should be used when users need to choose between options, pressure-test a plan, evaluate risk, or make a specific decision — across security, product, growth, operations, org design, and finance. Use when there is a decision with tradeoffs to score and a recommendation to make. For pure research (\"what does the best in the world do about X?\"), use best-in-world-research instead.",
-      "categories": ["Business", "Research"],
-      "author": "stevembarclay",
-      "repo": "stevembarclay/pencilplaybook",
-      "path": ".claude/skills/best-in-world-strategy",
-      "commitHash": "b7324295d73d",
-      "version": "1.1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "references"]
     },
     {
