@@ -133,15 +133,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "bitwize-music-studio/claude-ai-music-skills": {
-      "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
+    "ckelsoe/prompt-architect": {
+      "url": "https://github.com/ckelsoe/prompt-architect",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "ckelsoe/prompt-architect": {
-      "url": "https://github.com/ckelsoe/prompt-architect",
+    "bitwize-music-studio/claude-ai-music-skills": {
+      "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -212,13 +212,6 @@
     },
     "YIKUAIBANZI/forge-skill": {
       "url": "https://github.com/YIKUAIBANZI/forge-skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "Dianel555/DSkills": {
-      "url": "https://github.com/Dianel555/DSkills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -3462,6 +3455,17 @@
       "files": ["SKILL.md", "references"]
     },
     {
+      "id": "ckelsoe/prompt-architect/skills/prompt-architect",
+      "name": "prompt-architect",
+      "description": "Analyzes and improves prompts using 27 research-backed frameworks across 7 intent categories. Use when a user wants to improve, rewrite, structure, or engineer a prompt — including requests like \"help me write a better prompt\", \"improve this prompt\", \"what framework should I use\", \"make this prompt more effective\", or any prompt engineering task. Recommends the right framework based on intent (create, transform, reason, critique, recover, clarify, agentic), asks targeted questions, and delivers a structured, high-quality result.",
+      "categories": ["Business", "Research", "AI & ML"],
+      "author": "ckelsoe",
+      "repo": "ckelsoe/prompt-architect",
+      "path": "skills/prompt-architect",
+      "commitHash": "6e12013eb782",
+      "files": ["SKILL.md", "assets", "references", "scripts"]
+    },
+    {
       "id": "bitwize-music-studio/claude-ai-music-skills/skills/help",
       "name": "help",
       "description": "Shows available skills, common workflows, and quick reference for the plugin. Use when the user asks for help, what skills are available, or how to do something.",
@@ -4039,17 +4043,6 @@
       "path": "skills/test",
       "commitHash": "7306bcaebf37",
       "files": ["SKILL.md", "test-definitions.md"]
-    },
-    {
-      "id": "ckelsoe/prompt-architect/skills/prompt-architect",
-      "name": "prompt-architect",
-      "description": "Analyzes and improves prompts using 27 research-backed frameworks across 7 intent categories. Use when a user wants to improve, rewrite, structure, or engineer a prompt — including requests like \"help me write a better prompt\", \"improve this prompt\", \"what framework should I use\", \"make this prompt more effective\", or any prompt engineering task. Recommends the right framework based on intent (create, transform, reason, critique, recover, clarify, agentic), asks targeted questions, and delivers a structured, high-quality result.",
-      "categories": ["Business", "Research", "AI & ML"],
-      "author": "ckelsoe",
-      "repo": "ckelsoe/prompt-architect",
-      "path": "skills/prompt-architect",
-      "commitHash": "6e12013eb782",
-      "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
       "id": "iamzifei/wechat-article-publisher-skill/skills/wechat-article-publisher",
@@ -4773,80 +4766,6 @@
       "path": "evals/eval-consistency",
       "commitHash": "6bb2448003ac",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "Dianel555/DSkills/skills/ace-tool",
-      "name": "ace-tool",
-      "description": "Semantic codebase search, code indexing, and prompt enhancement via standalone CLI. Use when: (1) Semantic code search with natural language queries, (2) Code indexing for remote codebase retrieval, (3) Prompt enhancement with codebase context, (4) Before grep/find/glob operations for better accuracy, (5) Complex requirements clarification, (6) Large codebase navigation. Triggers: \"search context\", \"enhance prompt\", \"find code that\", \"index project\", \"clarify requirements\". IMPORTANT: Always use ace-tool BEFORE grep/find/glob for semantic-level code location.\n",
-      "categories": ["Research", "AI & ML"],
-      "author": "Dianel555",
-      "repo": "Dianel555/DSkills",
-      "path": "skills/ace-tool",
-      "commitHash": "4a887a381177",
-      "files": ["README.md", "SKILL.md", "scripts"]
-    },
-    {
-      "id": "Dianel555/DSkills/skills/exa",
-      "name": "exa",
-      "description": "High-precision semantic search and content retrieval via Exa API. Use when: (1) Deep research requiring semantic understanding, (2) Code documentation and examples lookup, (3) Company/professional research, (4) AI-powered comprehensive research tasks, (5) URL content extraction with structured output. Triggers: \"research\", \"find papers\", \"code examples\", \"company info\", \"LinkedIn profiles\", \"deep analysis\". Differentiator: Exa excels at semantic/neural search while grok-search is better for real-time news and general web content.\n",
-      "categories": [
-        "Development",
-        "Writing",
-        "Productivity",
-        "Data & Analytics",
-        "Documents",
-        "Research",
-        "AI & ML"
-      ],
-      "author": "Dianel555",
-      "repo": "Dianel555/DSkills",
-      "path": "skills/exa",
-      "commitHash": "a8b46b67b0f4",
-      "files": ["README.md", "SKILL.md", "scripts"]
-    },
-    {
-      "id": "Dianel555/DSkills/skills/grok-search",
-      "name": "grok-search",
-      "description": "Enhanced web search and real-time content retrieval via Grok API with forced tool routing. Use when: (1) Web search / information retrieval / fact-checking, (2) Webpage content extraction / URL parsing, (3) Breaking knowledge cutoff limits for current information, (4) Real-time news and technical documentation, (5) Multi-source information aggregation. Triggers: \"search for\", \"find information about\", \"latest news\", \"current\", \"fetch webpage\", \"get content from URL\". IMPORTANT: This skill REPLACES built-in WebSearch/WebFetch with Grok Search tools.\n",
-      "categories": ["Development", "Writing", "Documents", "Research"],
-      "author": "Dianel555",
-      "repo": "Dianel555/DSkills",
-      "path": "skills/grok-search",
-      "commitHash": "a8b46b67b0f4",
-      "files": ["README.md", "SKILL.md", "scripts"]
-    },
-    {
-      "id": "Dianel555/DSkills/skills/sequential-think",
-      "name": "sequential-think",
-      "description": "Multi-step reasoning engine for complex analysis and systematic problem solving. Use when: (1) Complex debugging scenarios with multiple layers, (2) Architectural analysis and system design, (3) Problems requiring hypothesis testing and validation, (4) Multi-component failure investigation, (5) Performance bottleneck identification. Triggers: \"--think\", \"--think-hard\", \"--ultrathink\", \"analyze step by step\", \"break down this problem\", \"systematic analysis\". IMPORTANT: Do NOT use for simple single-step tasks.\n",
-      "categories": ["Development", "Design", "Documents"],
-      "author": "Dianel555",
-      "repo": "Dianel555/DSkills",
-      "path": "skills/sequential-think",
-      "commitHash": "d2409d56f704",
-      "files": ["README.md", "SKILL.md", "scripts"]
-    },
-    {
-      "id": "Dianel555/DSkills/skills/serena",
-      "name": "serena",
-      "description": "Semantic code understanding with IDE-like symbol operations. Use when: (1) Large codebase analysis (>50 files), (2) Symbol-level operations (find, rename, refactor), (3) Cross-file reference tracking, (4) Project memory and session persistence, (5) Multi-language semantic navigation. Triggers: \"find symbol\", \"rename function\", \"find references\", \"symbol overview\", \"project memory\". IMPORTANT: Prioritize Serena's symbolic tools over file-based grep/read for code exploration.\n",
-      "categories": ["Development", "Documents", "Research"],
-      "author": "Dianel555",
-      "repo": "Dianel555/DSkills",
-      "path": "skills/serena",
-      "commitHash": "9ca1b340636d",
-      "files": [".env.example", "README.md", "SKILL.md", "tools"]
-    },
-    {
-      "id": "Dianel555/DSkills/skills/time",
-      "name": "time",
-      "description": "Time and timezone utilities for getting current time and converting between timezones. Use when: (1) Getting current time in any timezone, (2) Converting time between different timezones, (3) Working with IANA timezone names, (4) Scheduling across timezones, (5) Time-sensitive operations. Triggers: \"what time is it\", \"current time\", \"convert time\", \"timezone\", \"time in [city]\".\n",
-      "categories": ["Other"],
-      "author": "Dianel555",
-      "repo": "Dianel555/DSkills",
-      "path": "skills/time",
-      "commitHash": "d2409d56f704",
-      "files": ["README.md", "SKILL.md", "scripts"]
     },
     {
       "id": "iamzifei/wechat-article-formatter-skill",
