@@ -1,14 +1,28 @@
 {
   "repositories": {
-    "a5c-ai/babysitter": {
-      "url": "https://github.com/a5c-ai/babysitter",
+    "wondelai/skills": {
+      "url": "https://github.com/wondelai/skills",
       "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "alirezarezvani/claude-code-skill-factory": {
+      "url": "https://github.com/alirezarezvani/claude-code-skill-factory",
+      "branch": "dev",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
     "OpenRaiser/NanoResearch": {
       "url": "https://github.com/OpenRaiser/NanoResearch",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "a5c-ai/babysitter": {
+      "url": "https://github.com/a5c-ai/babysitter",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -30,13 +44,6 @@
     },
     "zscole/adversarial-spec": {
       "url": "https://github.com/zscole/adversarial-spec",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "Code-and-Sorts/awesome-copilot-agents": {
-      "url": "https://github.com/Code-and-Sorts/awesome-copilot-agents",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -70,6 +77,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "vladikk/modularity": {
+      "url": "https://github.com/vladikk/modularity",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "coffeefuelbump/csv-data-summarizer-claude-skill": {
       "url": "https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill",
       "branch": "main",
@@ -79,13 +93,6 @@
     },
     "ancoleman/ai-design-components": {
       "url": "https://github.com/ancoleman/ai-design-components",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "vladikk/modularity": {
-      "url": "https://github.com/vladikk/modularity",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -182,6 +189,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "felixrieseberg/claude-coach": {
+      "url": "https://github.com/felixrieseberg/claude-coach",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "nokonoko1203/claude-code-settings": {
       "url": "https://github.com/nokonoko1203/claude-code-settings",
       "branch": "main",
@@ -192,13 +206,6 @@
     "haddock-development/claude-reflect-system": {
       "url": "https://github.com/haddock-development/claude-reflect-system",
       "branch": "master",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "felixrieseberg/claude-coach": {
-      "url": "https://github.com/felixrieseberg/claude-coach",
-      "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
@@ -224,13 +231,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "Dianel555/DSkills": {
-      "url": "https://github.com/Dianel555/DSkills",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "hqhq1025/skill-optimizer": {
       "url": "https://github.com/hqhq1025/skill-optimizer",
       "branch": "main",
@@ -238,8 +238,22 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "Dianel555/DSkills": {
+      "url": "https://github.com/Dianel555/DSkills",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "iamzifei/wechat-article-formatter-skill": {
       "url": "https://github.com/iamzifei/wechat-article-formatter-skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "k-kolomeitsev/data-structure-protocol": {
+      "url": "https://github.com/k-kolomeitsev/data-structure-protocol",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -266,13 +280,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "k-kolomeitsev/data-structure-protocol": {
-      "url": "https://github.com/k-kolomeitsev/data-structure-protocol",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "chrisvoncsefalvay/autostar": {
       "url": "https://github.com/chrisvoncsefalvay/autostar",
       "branch": "main",
@@ -280,15 +287,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "mykpono/ultimate-seo-geo": {
-      "url": "https://github.com/mykpono/ultimate-seo-geo",
+    "VapiAI/skills": {
+      "url": "https://github.com/VapiAI/skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "VapiAI/skills": {
-      "url": "https://github.com/VapiAI/skills",
+    "mykpono/ultimate-seo-geo": {
+      "url": "https://github.com/mykpono/ultimate-seo-geo",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -308,15 +315,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "iamzifei/gtd-coach-plugin": {
-      "url": "https://github.com/iamzifei/gtd-coach-plugin",
+    "a-pavithraa/springboot-skills-marketplace": {
+      "url": "https://github.com/a-pavithraa/springboot-skills-marketplace",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "a-pavithraa/springboot-skills-marketplace": {
-      "url": "https://github.com/a-pavithraa/springboot-skills-marketplace",
+    "iamzifei/gtd-coach-plugin": {
+      "url": "https://github.com/iamzifei/gtd-coach-plugin",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -350,13 +357,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "ForteScarlet/codex-kkp": {
-      "url": "https://github.com/ForteScarlet/codex-kkp",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "proyecto26/sherlock-ai-plugin": {
       "url": "https://github.com/proyecto26/sherlock-ai-plugin",
       "branch": "main",
@@ -366,6 +366,13 @@
     },
     "brettdavies/crawl4ai-skill": {
       "url": "https://github.com/brettdavies/crawl4ai-skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "ForteScarlet/codex-kkp": {
+      "url": "https://github.com/ForteScarlet/codex-kkp",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -399,15 +406,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "ITlearning/study-ios": {
-      "url": "https://github.com/ITlearning/study-ios",
+    "stevembarclay/pencilplaybook": {
+      "url": "https://github.com/stevembarclay/pencilplaybook",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "stevembarclay/pencilplaybook": {
-      "url": "https://github.com/stevembarclay/pencilplaybook",
+    "ITlearning/study-ios": {
+      "url": "https://github.com/ITlearning/study-ios",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -441,13 +448,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "vulhunt-re/skills": {
-      "url": "https://github.com/vulhunt-re/skills",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "cmertdalli/polisci-review": {
       "url": "https://github.com/cmertdalli/polisci-review",
       "branch": "main",
@@ -455,15 +455,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "0xArx/claude-managed-agents-skill": {
-      "url": "https://github.com/0xArx/claude-managed-agents-skill",
+    "vulhunt-re/skills": {
+      "url": "https://github.com/vulhunt-re/skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "diegoeis/product-spec-kit": {
-      "url": "https://github.com/diegoeis/product-spec-kit",
+    "0xArx/claude-managed-agents-skill": {
+      "url": "https://github.com/0xArx/claude-managed-agents-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -485,6 +485,1252 @@
     }
   },
   "skills": [
+    {
+      "id": "wondelai/skills/lean-ux",
+      "name": "lean-ux",
+      "description": "Apply lean thinking to UX: hypothesis-driven design, collaborative sketching, and rapid experiments instead of heavy deliverables. Use when the user mentions \"Lean UX\", \"design hypothesis\", \"UX experiment\", \"collaborative design\", \"outcome over output\", \"design studio method\", \"assumption mapping\", or \"lightweight research\". Also trigger when reducing design documentation overhead, getting cross-functional teams to co-design, or running fast usability experiments. Covers hypothesis statements, MVPs for UX, and cross-functional collaboration. For Build-Measure-Learn, see lean-startup. For usability audits, see ux-heuristics.",
+      "categories": ["Development", "Design", "Business", "Research"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "lean-ux",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/agile-integration.md",
+        "references/case-studies.md",
+        "references/collaborative-design.md",
+        "references/experiment-patterns.md",
+        "references/hypothesis-canvas.md",
+        "references/outcome-metrics.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/hooked-ux",
+      "name": "hooked-ux",
+      "description": "Design habit-forming product loops using the Hook Model (Trigger, Action, Variable Reward, Investment). Use when the user mentions \"users arent coming back\", \"engagement loops\", \"habit formation\", \"push notifications\", \"variable rewards\", \"daily active users\", \"habit zone\", or \"user retention loops\". Also trigger when designing notification strategies, building streaks or progress systems, or analyzing why users stop using a product after initial signup. Covers ethics evaluation and onboarding for habits. For friction reduction and B=MAP, see improve-retention. For viral sharing, see contagious.",
+      "categories": ["Development", "Design", "Business", "AI & ML"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "hooked-ux",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/case-studies.md",
+        "references/ethical-boundaries.md",
+        "references/habit-testing.md",
+        "references/neuroscience-foundations.md",
+        "references/product-applications.md",
+        "references/rewards.md",
+        "references/triggers.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/top-design",
+      "name": "top-design",
+      "description": "Create award-winning, immersive web experiences at the level of Awwwards-featured agencies. Use when the user mentions \"premium website\", \"portfolio site\", \"scroll animations\", \"Awwwards quality\", \"brand experience\", \"cinematic web design\", \"parallax storytelling\", or \"agency-quality site\". Also trigger when building landing pages that need to impress, designing creative portfolios, or elevating a standard website to a memorable digital experience. Covers dramatic typography, purposeful motion, scroll-based composition, and performance-optimized animation. For foundational UI, see refactoring-ui. For type selection, see web-typography.",
+      "categories": ["Development", "Design"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "top-design",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/animation-patterns.md",
+        "references/case-studies.md",
+        "references/layout-systems.md",
+        "references/technical-stack.md",
+        "references/typography.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/negotiation",
+      "name": "negotiation",
+      "description": "Prepare and execute negotiations using tactical empathy, calibrated questions, and the Ackerman method. Use when the user mentions \"salary negotiation\", \"contract terms\", \"handling objections\", \"mirroring and labeling\", \"difficult conversation\", \"deal terms\", \"BATNA\", or \"anchoring\". Also trigger when preparing for vendor negotiations, resolving pricing disputes, or navigating high-stakes conversations where both parties need to feel heard. Covers accusation audits, Black Swan discovery, and the \"Thats Right\" technique. For persuasion in product/marketing, see influence-psychology.",
+      "categories": ["Business"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "negotiation",
+      "commitHash": "7c71a845071e",
+      "files": ["SKILL.md", "references/techniques.md"]
+    },
+    {
+      "id": "wondelai/skills/ios-hig-design",
+      "name": "ios-hig-design",
+      "description": "Design native iOS interfaces following Apple Human Interface Guidelines. Use when the user mentions \"iPhone app\", \"iPad layout\", \"SwiftUI\", \"UIKit\", \"Dynamic Island\", \"safe areas\", \"HIG compliance\", \"SF Symbols\", \"haptic feedback\", or \"iOS accessibility\". Also trigger when building tab bars, navigation stacks, sheets, or modals for iOS, implementing dark mode, or adapting layouts for different screen sizes. Covers navigation patterns, accessibility, SF Symbols, and platform conventions. For general UI polish, see refactoring-ui. For affordance design, see design-everyday-things.",
+      "categories": ["Development", "Design"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "ios-hig-design",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/accessibility.md",
+        "references/app-icons.md",
+        "references/colors-depth.md",
+        "references/components.md",
+        "references/gestures.md",
+        "references/keyboard-input.md",
+        "references/navigation.md",
+        "references/privacy-permissions.md",
+        "references/system-integration.md",
+        "references/typography.md",
+        "references/widgets-extensions.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/ux-heuristics",
+      "name": "ux-heuristics",
+      "description": "Evaluate and improve interface usability using heuristic analysis. Use when the user mentions \"usability audit\", \"UX review\", \"users are confused\", \"heuristic evaluation\", \"form usability\", \"navigation problems\", \"Nielsen heuristics\", \"cognitive walkthrough\", or \"usability testing\". Also trigger when reviewing a design for usability issues, improving form completion rates, or evaluating information architecture and navigation. Covers Nielsens 10 heuristics, severity ratings, and information architecture. For visual design fixes, see refactoring-ui. For conversion-focused audits, see cro-methodology.",
+      "categories": ["Development", "Design", "Research"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "ux-heuristics",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/audit-template.md",
+        "references/cultural-ux.md",
+        "references/dark-patterns.md",
+        "references/heuristic-conflicts.md",
+        "references/krug-principles.md",
+        "references/nielsen-heuristics.md",
+        "references/wcag-checklist.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/jobs-to-be-done",
+      "name": "jobs-to-be-done",
+      "description": "Discover what customers truly need by analyzing the \"job\" they hire your product to do. Use when the user mentions \"customer discovery\", \"why customers churn\", \"what job does this solve\", \"competing against luck\", \"product-market fit\", \"switching behavior\", \"milkshake moment\", or \"functional vs emotional jobs\". Also trigger when investigating why users choose competitors, designing features around real customer needs, or reframing product value propositions. Covers JTBD interviews, competition analysis, and jobs-oriented roadmaps. For product positioning, see obviously-awesome. For rapid validation, see design-sprint.",
+      "categories": ["Business", "Research"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "jobs-to-be-done",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/case-studies.md",
+        "references/competitive-strategy.md",
+        "references/diagnostics.md",
+        "references/innovation-process.md",
+        "references/organizational-change.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/refactoring-patterns",
+      "name": "refactoring-patterns",
+      "description": "Apply named refactoring transformations to improve code structure without changing behavior. Use when the user mentions \"refactor this\", \"code smells\", \"extract method\", \"replace conditional\", \"technical debt\", \"move method\", \"inline variable\", or \"decompose conditional\". Also trigger when cleaning up legacy code, preparing code for new features by restructuring, or identifying which transformation to apply to a specific code smell. Covers smell-driven refactoring, safe transformation sequences, and testing guards. For code quality foundations, see clean-code. For managing complexity, see software-design-philosophy.",
+      "categories": ["Development"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "refactoring-patterns",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/composing-methods.md",
+        "references/moving-features.md",
+        "references/organizing-data.md",
+        "references/refactoring-workflow.md",
+        "references/simplifying-conditionals.md",
+        "references/smell-catalog.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/cro-methodology",
+      "name": "cro-methodology",
+      "description": "Audit websites and landing pages for conversion issues and design evidence-based A/B tests. Use when the user mentions \"landing page isnt converting\", \"conversion rate\", \"A/B test\", \"why visitors leave\", \"objection handling\", \"bounce rate\", \"split testing\", or \"conversion funnel\". Also trigger when diagnosing why signups are low, designing experiment hypotheses, or auditing checkout flows for friction points. Covers funnel mapping, persuasion assets, and objection/counter-objection frameworks. For overall marketing strategy, see one-page-marketing. For usability issues, see ux-heuristics.",
+      "categories": ["Development", "Design", "Documents", "Marketing", "Business", "Finance"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "cro-methodology",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/COPYWRITING.md",
+        "references/OBJECTIONS.md",
+        "references/PERSUASION.md",
+        "references/RESEARCH.md",
+        "references/funnel-analysis.md",
+        "references/testing-methodology.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/web-typography",
+      "name": "web-typography",
+      "description": "Select, pair, and implement typefaces for web projects. Use when the user mentions \"font pairing\", \"which typeface\", \"line height\", \"responsive typography\", \"web font loading\", \"type hierarchy\", \"variable fonts\", \"FOUT/FOIT\", or \"typographic scale\". Also trigger when choosing between system fonts and web fonts, optimizing font loading performance, or designing readable long-form content layouts. Covers readability evaluation, CSS implementation, and performance optimization. For overall UI design systems, see refactoring-ui. For dramatic typographic experiences, see top-design.",
+      "categories": ["Design"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "web-typography",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/css-implementation.md",
+        "references/evaluating-typefaces.md",
+        "references/pairing-strategies.md",
+        "references/responsive-typography.md",
+        "references/typeface-anatomy.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/obviously-awesome",
+      "name": "obviously-awesome",
+      "description": "Define product positioning by mapping competitive alternatives, unique attributes, and best-fit customers to the right market category. Use when the user mentions \"positioning\", \"competitive alternatives\", \"how to position\", \"market category\", \"why customers dont get it\", \"positioning canvas\", \"repositioning\", or \"category creation\". Also trigger when launching a new product, entering a crowded market, or diagnosing why prospects dont understand the products value. Covers positioning canvas and team workshops. For customer jobs analysis, see jobs-to-be-done. For go-to-market, see crossing-the-chasm.",
+      "categories": ["Business", "Finance"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "obviously-awesome",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/case-studies.md",
+        "references/competitive-alternatives.md",
+        "references/market-category.md",
+        "references/positioning-canvas.md",
+        "references/target-customers.md",
+        "references/team-exercise.md",
+        "references/unique-attributes.md",
+        "references/value-mapping.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/predictable-revenue",
+      "name": "predictable-revenue",
+      "description": "Build a scalable outbound B2B sales process with specialized roles (SDR, AE, CSM). Use when the user mentions \"outbound sales\", \"Cold Calling 2.0\", \"prospecting emails\", \"sales pipeline\", \"SDR process\", \"B2B SaaS sales\", \"sales development\", or \"pipeline velocity\". Also trigger when setting up a sales team from scratch, designing cold email sequences, or building qualification frameworks to improve close rates. Covers lead generation, qualification frameworks, and separating prospecting from closing. For offer design, see hundred-million-offers. For persuasion science, see influence-psychology.",
+      "categories": ["Development", "Design", "Business"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "predictable-revenue",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/case-studies.md",
+        "references/cold-calling-2.md",
+        "references/lead-types.md",
+        "references/metrics.md",
+        "references/pipeline-math.md",
+        "references/qualification.md",
+        "references/roles.md",
+        "references/team-building.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/design-sprint",
+      "name": "design-sprint",
+      "description": "Run a structured 5-day process to prototype, test, and validate product ideas with real users. Use when the user mentions \"design sprint\", \"validate in a week\", \"rapid prototype\", \"test with users\", \"de-risk before building\", \"GV sprint\", \"prototype testing\", or \"design workshop\". Also trigger when a team needs to make a critical product decision quickly, resolve stakeholder disagreements, or test risky ideas before investing in development. Covers mapping, sketching, deciding, prototyping, and testing. For ongoing experimentation, see lean-startup. For customer job analysis, see jobs-to-be-done.",
+      "categories": ["Development", "Design", "Business"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "design-sprint",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/case-studies.md",
+        "references/facilitation.md",
+        "references/friday.md",
+        "references/monday.md",
+        "references/recruiting.md",
+        "references/remote-sprints.md",
+        "references/thursday.md",
+        "references/tuesday.md",
+        "references/wednesday.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/refactoring-ui",
+      "name": "refactoring-ui",
+      "description": "Audit and fix visual hierarchy, spacing, color, and depth in web UIs. Use when the user mentions \"my UI looks off\", \"fix the design\", \"Tailwind styling\", \"color palette\", \"visual hierarchy\", \"design system\", \"spacing scale\", or \"component styling\". Also trigger when building consistent design tokens, creating dark mode themes, improving data visualization clarity, or polishing UI details before launch. Covers grayscale-first workflow, constrained design scales, shadows, and component styling. For typeface selection, see web-typography. For usability audits, see ux-heuristics.",
+      "categories": ["Development", "Security", "Design", "Data & Analytics", "Business"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "refactoring-ui",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/accessibility-depth.md",
+        "references/advanced-patterns.md",
+        "references/animation-microinteractions.md",
+        "references/data-visualization.md",
+        "references/theming-dark-mode.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/drive-motivation",
+      "name": "drive-motivation",
+      "description": "Design motivation systems using Autonomy, Mastery, and Purpose (AMP) for products and teams. Use when the user mentions \"intrinsic motivation\", \"gamification isnt working\", \"team incentives\", \"autonomy\", \"mastery\", \"purpose-driven\", \"employee engagement\", or \"reward systems\". Also trigger when designing onboarding progression systems, fixing broken gamification, or building team structures that sustain high performance. Covers why carrot-and-stick fails and how to build progress systems. For habit-forming product loops, see hooked-ux. For retention behavior design, see improve-retention.",
+      "categories": ["Design", "Business"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "drive-motivation",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/applications.md",
+        "references/autonomy.md",
+        "references/case-studies.md",
+        "references/extrinsic-rewards.md",
+        "references/mastery.md",
+        "references/purpose.md",
+        "references/type-i.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/inspired-product",
+      "name": "inspired-product",
+      "description": "Build empowered product teams using discovery and delivery dual-track. Use when the user mentions \"product discovery\", \"empowered teams\", \"feature factory\", \"product roadmap\", \"opportunity assessment\", \"product vision\", \"product-led growth\", or \"discovery vs delivery\". Also trigger when restructuring product teams away from output-driven models, setting product strategy, or defining what to build next based on outcomes. Covers product discovery techniques, team structure, and continuous value delivery. For customer interviews, see mom-test. For ongoing discovery systems, see continuous-discovery.",
+      "categories": ["Development", "Business", "AI & ML"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "inspired-product",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/case-studies.md",
+        "references/discovery-techniques.md",
+        "references/empowered-teams.md",
+        "references/opportunity-assessment.md",
+        "references/product-vision.md",
+        "references/stakeholder-management.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/microinteractions",
+      "name": "microinteractions",
+      "description": "Design the small details -- triggers, rules, feedback, loops and modes -- that separate good products from great ones. Use when the user mentions \"microinteraction\", \"button feedback\", \"loading state\", \"toggle design\", \"animation detail\", \"interaction polish\", \"state transitions\", or \"input feedback\". Also trigger when designing form validation responses, progress indicators, confirmation dialogs, or any UI element where the user expects immediate feedback. Covers trigger design, state rules, feedback mechanisms, and progressive loops. For overall UI polish, see refactoring-ui. For affordance design, see design-everyday-things.",
+      "categories": ["Design"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "microinteractions",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/case-studies.md",
+        "references/feedback-patterns.md",
+        "references/loops-modes.md",
+        "references/rules-and-state.md",
+        "references/signature-moments.md",
+        "references/trigger-design.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/scorecard-marketing",
+      "name": "scorecard-marketing",
+      "description": "Build quiz and assessment funnels that generate qualified leads at 30-50%% conversion. Use when the user mentions \"lead magnet\", \"quiz funnel\", \"assessment tool\", \"lead generation\", \"score-based segmentation\", \"interactive content\", \"lead qualification\", or \"quiz marketing\". Also trigger when designing self-assessment tools, building calculators or graders for marketing, or creating personalized result pages that drive conversions. Covers question design, dynamic results by tier, and automated follow-up sequences. For landing page conversion, see cro-methodology. For full marketing plans, see one-page-marketing.",
+      "categories": ["Development", "Design", "Productivity", "Marketing"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "scorecard-marketing",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/analytics-optimization.md",
+        "references/industry-examples.md",
+        "references/psychology.md",
+        "references/technical-implementation.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/storybrand-messaging",
+      "name": "storybrand-messaging",
+      "description": "Clarify brand messaging using narrative structure that positions the customer as hero. Use when the user mentions \"brand message\", \"website copy\", \"elevator pitch\", \"one-liner\", \"messaging isnt resonating\", \"brand script\", \"StoryBrand framework\", or \"customer as hero\". Also trigger when rewriting homepage copy, crafting email nurture sequences, or creating consistent messaging across sales collateral and marketing materials. Covers landing page copy, marketing collateral, and consistent communication. For memorable messaging, see made-to-stick. For product positioning, see obviously-awesome.",
+      "categories": ["Writing", "Business"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "storybrand-messaging",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/brand-script.md",
+        "references/email-sequences.md",
+        "references/multi-channel-consistency.md",
+        "references/one-liners.md",
+        "references/sales-conversations.md",
+        "references/website-wireframe.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/software-design-philosophy",
+      "name": "software-design-philosophy",
+      "description": "Manage software complexity through deep modules, information hiding, and strategic programming. Use when the user mentions \"module design\", \"API too complex\", \"shallow class\", \"complexity budget\", \"strategic vs tactical\", \"deep module\", \"information leakage\", or \"pass-through method\". Also trigger when reviewing interface designs for simplicity, evaluating whether an abstraction is pulling its weight, or choosing between general-purpose and special-purpose approaches. Covers deep vs shallow modules, red flags for complexity, and comments as design documentation. For code quality, see clean-code. For boundaries, see clean-architecture.",
+      "categories": ["Development", "Design", "Documents", "Business", "Research"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "software-design-philosophy",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/comments-as-design.md",
+        "references/complexity-symptoms.md",
+        "references/deep-modules.md",
+        "references/general-vs-special.md",
+        "references/information-hiding.md",
+        "references/strategic-programming.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/clean-code",
+      "name": "clean-code",
+      "description": "Write readable, maintainable code through disciplined naming, small functions, and clean error handling. Use when the user mentions \"code review\", \"naming conventions\", \"function too long\", \"code smells\", \"readable code\", \"boy scout rule\", \"single responsibility\", or \"unit test quality\". Also trigger when reviewing pull requests for readability, refactoring messy functions, debating comment styles, or improving error handling patterns. Covers SRP, comment discipline, formatting, and unit testing. For refactoring techniques, see refactoring-patterns. For architecture, see clean-architecture.",
+      "categories": ["Development"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "clean-code",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/code-smells.md",
+        "references/comments-formatting.md",
+        "references/error-handling.md",
+        "references/functions-and-methods.md",
+        "references/naming-conventions.md",
+        "references/testing-principles.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/lean-startup",
+      "name": "lean-startup",
+      "description": "Design MVPs, validated learning experiments, and pivot-or-persevere decisions using Build-Measure-Learn. Use when the user mentions \"MVP scope\", \"validated learning\", \"pivot or persevere\", \"vanity metrics\", \"test assumptions\", \"innovation accounting\", \"build-measure-learn\", or \"minimum viable experiment\". Also trigger when deciding what to include in a first version, measuring startup progress, or evaluating whether to change direction on a product bet. Covers innovation accounting and actionable metrics. For 5-day prototype testing, see design-sprint. For customer motivation analysis, see jobs-to-be-done.",
+      "categories": ["Development", "Design", "Data & Analytics", "Business", "Research"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "lean-startup",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/applications.md",
+        "references/assumptions.md",
+        "references/build-measure-learn.md",
+        "references/case-studies.md",
+        "references/five-whys.md",
+        "references/growth-engines.md",
+        "references/innovation-accounting.md",
+        "references/metrics.md",
+        "references/mvp-design.md",
+        "references/pivots.md",
+        "references/small-batches.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/system-design",
+      "name": "system-design",
+      "description": "Design scalable distributed systems using structured approaches for load balancing, caching, database scaling, and message queues. Use when the user mentions \"system design\", \"scale this\", \"high availability\", \"rate limiter\", \"design a URL shortener\", \"system design interview\", \"capacity planning\", or \"distributed architecture\". Also trigger when estimating infrastructure requirements, choosing between microservices and monoliths, or designing for millions of concurrent users. Covers common system designs and back-of-the-envelope estimation. For data fundamentals, see ddia-systems. For resilience, see release-it.",
+      "categories": ["DevOps", "Design", "Data & Analytics"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "system-design",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/building-blocks.md",
+        "references/common-designs.md",
+        "references/database-scaling.md",
+        "references/estimation-numbers.md",
+        "references/four-step-process.md",
+        "references/reliability-operations.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/37signals-way",
+      "name": "37signals-way",
+      "description": "Build lean, opinionated products using the 37signals philosophy from Getting Real, Rework, and Shape Up. Use when the user mentions \"Getting Real\", \"Rework\", \"Shape Up\", \"37signals\", \"Basecamp method\", \"six-week cycles\", \"fixed time variable scope\", \"appetite vs estimates\", \"betting table\", \"breadboarding\", \"fat marker sketch\", \"build less\", \"underdo the competition\", or \"opinionated software\". Also trigger when cutting scope to ship faster, running small teams, avoiding long-term roadmaps, or eliminating meetings. Covers shaping, betting, building, and the art of saying no. For MVP validation, see lean-startup. For design sprints, see design-sprint.",
+      "categories": ["Development", "Design", "Business"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "37signals-way",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/betting-cycles.md",
+        "references/build-less.md",
+        "references/case-studies.md",
+        "references/opinionated-software.md",
+        "references/shaping-work.md",
+        "references/small-teams-execution.md",
+        "references/ux-ui-copy.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/high-perf-browser",
+      "name": "high-perf-browser",
+      "description": "Optimize web performance through network protocols, resource loading, and browser rendering internals. Use when the user mentions \"page load speed\", \"Core Web Vitals\", \"HTTP/2\", \"resource hints\", \"network latency\", \"render blocking\", \"TCP optimization\", \"service worker\", or \"critical rendering path\". Also trigger when diagnosing slow page loads, optimizing time to first byte, choosing between WebSocket and SSE, or reducing bundle sizes. Covers TCP/TLS optimization, caching strategies, WebSocket/SSE, and protocol selection. For UI visual performance, see refactoring-ui. For font loading, see web-typography.",
+      "categories": ["Design", "Research"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "high-perf-browser",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/caching-strategies.md",
+        "references/core-web-vitals.md",
+        "references/http-protocols.md",
+        "references/network-fundamentals.md",
+        "references/real-time-communication.md",
+        "references/resource-loading.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/crossing-the-chasm",
+      "name": "crossing-the-chasm",
+      "description": "Navigate the technology adoption lifecycle from early adopters to mainstream market. Use when the user mentions \"crossing the chasm\", \"beachhead segment\", \"whole product\", \"early adopters vs. mainstream\", \"tech go-to-market\", \"bowling pin strategy\", \"technology adoption lifecycle\", or \"pragmatist buyers\". Also trigger when a startup has early traction but struggles to grow beyond initial users, or when planning go-to-market for technical products. Covers D-Day analogy, bowling-pin strategy, and positioning against incumbents. For product positioning, see obviously-awesome. For new market creation, see blue-ocean-strategy.",
+      "categories": ["Business", "AI & ML"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "crossing-the-chasm",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/b2b-saas.md",
+        "references/beachhead-selection.md",
+        "references/buyer-segments.md",
+        "references/case-studies.md",
+        "references/expansion.md",
+        "references/go-to-market.md",
+        "references/positioning.md",
+        "references/whole-product.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/blue-ocean-strategy",
+      "name": "blue-ocean-strategy",
+      "description": "Create uncontested market space using value innovation instead of competing head-to-head. Use when the user mentions \"blue ocean\", \"red ocean\", \"strategy canvas\", \"ERRC framework\", \"value innovation\", \"non-customers\", \"buyer utility map\", \"eliminate-reduce-raise-create\", or \"uncontested market\". Also trigger when comparing pricing strategies, exploring new market categories, finding underserved customer segments, or asking how to stop competing on price. Covers the Four Actions Framework, buyer utility map, and value-cost trade-offs. For tech adoption strategy, see crossing-the-chasm. For product positioning, see obviously-awesome.",
+      "categories": ["Development", "Business", "Finance"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "blue-ocean-strategy",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/blue-ocean-examples.md",
+        "references/errc-grid.md",
+        "references/implementation.md",
+        "references/non-customers.md",
+        "references/sequence.md",
+        "references/six-paths.md",
+        "references/strategy-canvas.md",
+        "references/value-innovation.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/influence-psychology",
+      "name": "influence-psychology",
+      "description": "Apply the six principles of ethical persuasion (reciprocity, commitment, social proof, authority, liking, scarcity) to product design, copy, and sales. Use when the user mentions \"social proof\", \"persuasive copy\", \"why users dont convert\", \"ethical persuasion\", \"reciprocity\", \"scarcity tactics\", or \"commitment and consistency\". Also trigger when designing testimonial sections, crafting urgency messaging, or improving trust signals on landing pages. For deal negotiation tactics, see negotiation. For viral word-of-mouth, see contagious.",
+      "categories": ["Development", "Security", "Writing", "Documents"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "influence-psychology",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/authority.md",
+        "references/case-studies.md",
+        "references/commitment-consistency.md",
+        "references/copywriting.md",
+        "references/ethics.md",
+        "references/liking.md",
+        "references/reciprocity.md",
+        "references/scarcity.md",
+        "references/social-proof.md",
+        "references/unity.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/pragmatic-programmer",
+      "name": "pragmatic-programmer",
+      "description": "Apply meta-principles of software craftsmanship: DRY, orthogonality, tracer bullets, and design by contract. Use when the user mentions \"best practices\", \"pragmatic approach\", \"broken windows\", \"tracer bullet\", \"software craftsmanship\", \"technical debt prevention\", \"prototype vs tracer bullet\", or \"code ownership\". Also trigger when evaluating build-vs-buy decisions, designing estimation approaches, or choosing between reversible and irreversible architectural decisions. Covers estimation, domain languages, and reversibility. For code-level quality, see clean-code. For refactoring techniques, see refactoring-patterns.",
+      "categories": ["Development", "Design", "Business", "AI & ML"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "pragmatic-programmer",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/broken-windows.md",
+        "references/contracts-assertions.md",
+        "references/dry-orthogonality.md",
+        "references/estimation-portfolio.md",
+        "references/reversibility.md",
+        "references/tracer-bullets.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/continuous-discovery",
+      "name": "continuous-discovery",
+      "description": "Build a weekly cadence of customer touchpoints using Opportunity Solution Trees, assumption mapping, and interview snapshots. Use when the user mentions \"continuous discovery\", \"opportunity solution tree\", \"weekly interviews\", \"assumption testing\", \"discovery habits\", \"product trio\", or \"outcome-based roadmap\". Also trigger when setting up regular customer feedback loops, prioritizing which experiments to run, or connecting discovery insights to delivery work. Covers experience mapping, co-creation, and prioritizing opportunities. For interview technique, see mom-test. For team structure, see inspired-product.",
+      "categories": ["Development", "Business"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "continuous-discovery",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/assumption-mapping.md",
+        "references/case-studies.md",
+        "references/experience-mapping.md",
+        "references/interview-snapshots.md",
+        "references/opportunity-trees.md",
+        "references/prioritization-methods.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/design-everyday-things",
+      "name": "design-everyday-things",
+      "description": "Apply foundational design principles: affordances, signifiers, constraints, feedback, and conceptual models. Use when the user mentions \"why is this confusing\", \"affordance\", \"error prevention\", \"discoverability\", \"human-centered design\", \"fault tolerance\", \"mental model\", \"mapping\", or \"seven stages of action\". Also trigger when diagnosing why users make mistakes, reducing product complexity, or improving error messages and feedback systems. Covers the gulfs of execution and evaluation. For usability scoring, see ux-heuristics. For iOS-specific patterns, see ios-hig-design.",
+      "categories": ["Design", "AI & ML"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "design-everyday-things",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/affordances.md",
+        "references/case-studies.md",
+        "references/conceptual-models.md",
+        "references/constraints.md",
+        "references/feedback.md",
+        "references/human-error.md",
+        "references/mappings.md",
+        "references/seven-stages.md",
+        "references/signifiers.md",
+        "references/two-gulfs.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/release-it",
+      "name": "release-it",
+      "description": "Build production-ready systems with stability patterns: circuit breakers, bulkheads, timeouts, and retry logic. Use when the user mentions \"production outage\", \"circuit breaker\", \"timeout strategy\", \"deployment pipeline\", \"chaos engineering\", \"bulkhead pattern\", \"retry with backoff\", or \"health checks\". Also trigger when designing resilient microservices, planning zero-downtime deployments, or investigating cascading failure scenarios. Covers capacity planning, health checks, and anti-fragility patterns. For data systems, see ddia-systems. For system architecture, see system-design.",
+      "categories": [
+        "Development",
+        "DevOps",
+        "Design",
+        "Productivity",
+        "Data & Analytics",
+        "AI & ML"
+      ],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "release-it",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/anti-patterns.md",
+        "references/capacity-planning.md",
+        "references/chaos-engineering.md",
+        "references/deployment-strategies.md",
+        "references/observability.md",
+        "references/stability-patterns.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/contagious",
+      "name": "contagious",
+      "description": "Engineer word-of-mouth and virality using the STEPPS framework (Social Currency, Triggers, Emotion, Public, Practical Value, Stories). Use when the user mentions \"go viral\", \"word of mouth\", \"shareable content\", \"social currency\", \"why people share\", \"viral loop\", \"referral program\", or \"organic growth\". Also trigger when designing shareable features, crafting social media campaigns, or building products that spread through peer recommendation. Covers environmental triggers and high-arousal emotional content. For sticky messaging, see made-to-stick. For persuasion tactics, see influence-psychology.",
+      "categories": ["Development", "Design", "Marketing"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "contagious",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/case-studies.md",
+        "references/emotion.md",
+        "references/practical-value.md",
+        "references/public-visibility.md",
+        "references/social-currency.md",
+        "references/stories-trojan-horse.md",
+        "references/triggers.md",
+        "references/viral-content-patterns.md",
+        "references/word-of-mouth.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/ddia-systems",
+      "name": "ddia-systems",
+      "description": "Design data systems by understanding storage engines, replication, partitioning, transactions, and consistency models. Use when the user mentions \"database choice\", \"replication lag\", \"partitioning strategy\", \"consistency vs availability\", \"stream processing\", \"ACID transactions\", \"eventual consistency\", or \"LSM tree vs B-tree\". Also trigger when choosing between SQL and NoSQL, designing data pipelines, or debugging distributed system consistency issues. Covers data models, batch/stream processing, and distributed consensus. For system design, see system-design. For resilience, see release-it.",
+      "categories": ["Development", "Design", "Data & Analytics", "AI & ML"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "ddia-systems",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/batch-stream.md",
+        "references/data-models.md",
+        "references/fault-tolerance.md",
+        "references/partitioning.md",
+        "references/replication.md",
+        "references/storage-engines.md",
+        "references/transactions.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/one-page-marketing",
+      "name": "one-page-marketing",
+      "description": "Build a complete marketing plan covering the full customer journey from stranger to raving fan. Use when the user mentions \"marketing plan\", \"target market\", \"USP\", \"lead nurture\", \"customer lifetime value\", \"referral program\", \"marketing strategy\", or \"PVP Index\". Also trigger when building a marketing plan from scratch, choosing acquisition channels, or designing end-to-end customer lifecycle campaigns. Covers the PVP Index, channel selection, and advocacy systems. For brand messaging, see storybrand-messaging. For conversion optimization, see cro-methodology.",
+      "categories": ["Development", "Design", "Productivity", "Marketing"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "one-page-marketing",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/advertising-media.md",
+        "references/capture-leads.md",
+        "references/craft-message.md",
+        "references/customer-experience.md",
+        "references/lifetime-value.md",
+        "references/nurture-leads.md",
+        "references/one-page-plan-template.md",
+        "references/referral-systems.md",
+        "references/sales-conversion.md",
+        "references/target-market.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/domain-driven-design",
+      "name": "domain-driven-design",
+      "description": "Model software around the business domain using bounded contexts, aggregates, and ubiquitous language. Use when the user mentions \"domain modeling\", \"bounded context\", \"aggregate root\", \"ubiquitous language\", \"anti-corruption layer\", \"context mapping\", \"domain events\", or \"strategic design\". Also trigger when splitting a monolith into services, defining microservice boundaries, or aligning code structure with business processes. Covers entities vs value objects, domain events, and context mapping strategies. For architecture layers, see clean-architecture. For complexity, see software-design-philosophy.",
+      "categories": ["Development", "Design", "Business", "AI & ML"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "domain-driven-design",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/bounded-contexts.md",
+        "references/building-blocks.md",
+        "references/domain-events.md",
+        "references/repositories-factories.md",
+        "references/strategic-design.md",
+        "references/ubiquitous-language.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/hundred-million-offers",
+      "name": "hundred-million-offers",
+      "description": "Create irresistible offers using the Value Equation, bonus stacking, risk-reversing guarantees, and ethical scarcity. Use when the user mentions \"pricing strategy\", \"irresistible offer\", \"bonuses and guarantees\", \"value-to-price ratio\", \"offer naming\", \"grand slam offer\", \"guarantee strategy\", or \"premium pricing justification\". Also trigger when packaging products for higher perceived value, designing money-back guarantees, or structuring pricing tiers to maximize conversions. Covers the MAGIC naming formula and starving-crowd targeting. For product positioning, see obviously-awesome. For outbound sales, see predictable-revenue.",
+      "categories": ["Documents", "Business", "Finance"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "hundred-million-offers",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/bonuses-stacking.md",
+        "references/case-studies.md",
+        "references/grand-slam-offers.md",
+        "references/guarantees.md",
+        "references/naming-offers.md",
+        "references/offer-creation-checklist.md",
+        "references/pricing-strategy.md",
+        "references/scarcity-urgency.md",
+        "references/starving-crowd.md",
+        "references/value-equation.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/traction-eos",
+      "name": "traction-eos",
+      "description": "Implement the Entrepreneurial Operating System (EOS) to align vision and execution across a company. Use when the user mentions \"EOS\", \"V/TO\", \"quarterly rocks\", \"Level 10 meetings\", \"accountability chart\", \"IDS process\", \"Entrepreneurial Operating System\", or \"business operating system\". Also trigger when a growing company needs meeting structure, goal-setting frameworks, or a systematic approach to solving recurring organizational issues. Covers the six EOS components: Vision, People, Data, Issues, Process, Traction. For team motivation design, see drive-motivation. For lean experimentation, see lean-startup.",
+      "categories": ["Development", "Design", "Data & Analytics", "Business"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "traction-eos",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/case-studies.md",
+        "references/data.md",
+        "references/implementation.md",
+        "references/issues.md",
+        "references/level-10.md",
+        "references/people.md",
+        "references/process.md",
+        "references/rocks.md",
+        "references/vto.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/made-to-stick",
+      "name": "made-to-stick",
+      "description": "Craft messages that are understood, remembered, and drive action using the SUCCESs checklist (Simple, Unexpected, Concrete, Credible, Emotional, Stories). Use when the user mentions \"make it memorable\", \"sticky messaging\", \"tagline\", \"value proposition\", \"why the message isnt landing\", \"knowledge curse\", \"surprise gap\", or \"concrete language\". Also trigger when writing pitch decks, simplifying complex product explanations, or making presentations more compelling and memorable. For narrative brand frameworks, see storybrand-messaging. For viral sharing, see contagious.",
+      "categories": ["Development", "Writing", "Business"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "made-to-stick",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/applications.md",
+        "references/case-studies.md",
+        "references/concrete.md",
+        "references/credible.md",
+        "references/curse-of-knowledge.md",
+        "references/emotional.md",
+        "references/simple.md",
+        "references/stories.md",
+        "references/unexpected.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/improve-retention",
+      "name": "improve-retention",
+      "description": "Diagnose and fix retention problems using behavior design (B=MAP). Use when the user mentions \"users drop off\", \"activation rate\", \"onboarding friction\", \"retention metrics\", \"why users dont complete\", \"churn analysis\", \"user activation\", or \"aha moment\". Also trigger when analyzing cohort retention curves, designing activation milestones, reducing time-to-value for new users, or investigating why users stop after their first session. Covers the Ability Chain, prompt design, and tiny behaviors that compound. For habit loops and variable rewards, see hooked-ux. For intrinsic motivation, see drive-motivation.",
+      "categories": ["Design", "Data & Analytics", "AI & ML"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "improve-retention",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/ability-chain.md",
+        "references/behavior-model.md",
+        "references/case-studies.md",
+        "references/motivation-waves.md",
+        "references/product-applications.md",
+        "references/prompt-design.md",
+        "references/tiny-habits.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/clean-architecture",
+      "name": "clean-architecture",
+      "description": "Structure software around the Dependency Rule: source code dependencies point inward from frameworks to use cases to entities. Use when the user mentions \"architecture layers\", \"dependency rule\", \"ports and adapters\", \"hexagonal architecture\", \"use case boundary\", \"onion architecture\", \"screaming architecture\", or \"framework independence\". Also trigger when decoupling business logic from databases or frameworks, defining module boundaries, or debating where to put business rules. Covers component principles, boundaries, and SOLID. For code quality, see clean-code. For domain modeling, see domain-driven-design.",
+      "categories": ["Development", "Data & Analytics", "Business", "AI & ML"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "clean-architecture",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/adapters-frameworks.md",
+        "references/boundaries.md",
+        "references/component-principles.md",
+        "references/dependency-rule.md",
+        "references/entities-use-cases.md",
+        "references/solid-principles.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/mom-test",
+      "name": "mom-test",
+      "description": "Talk to customers without leading them using Mom Test rules: discuss their life not your idea, ask about specifics in the past, and talk less. Use when the user mentions \"customer interviews\", \"validate my idea\", \"users say they want it but dont buy\", \"leading questions\", \"The Mom Test\", \"customer feedback bias\", or \"interview script\". Also trigger when preparing user research questions, interpreting ambiguous customer feedback, or designing customer discovery processes that avoid false positives. Covers commitment and advancement, avoiding compliments, and extracting signal from noise. For product-market fit, see jobs-to-be-done. For rapid prototype testing, see design-sprint.",
+      "categories": ["Development", "Design", "Business", "Research"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "mom-test",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/avoiding-bad-data.md",
+        "references/case-studies.md",
+        "references/commitment-advancement.md",
+        "references/finding-conversations.md",
+        "references/processing-learning.md",
+        "references/question-patterns.md"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/tdd-guide",
+      "name": "tdd-guide",
+      "description": "Comprehensive Test Driven Development guide for engineering subagents with multi-framework support, coverage analysis, and intelligent test generation",
+      "categories": ["Development", "AI & ML"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/tdd-guide",
+      "commitHash": "c3420bb0d704",
+      "files": [
+        "HOW_TO_USE.md",
+        "README.md",
+        "SKILL.md",
+        "coverage_analyzer.py",
+        "expected_output.json",
+        "fixture_generator.py",
+        "format_detector.py",
+        "framework_adapter.py",
+        "metrics_calculator.py",
+        "output_formatter.py",
+        "sample_coverage_report.lcov",
+        "sample_input_python.json",
+        "sample_input_typescript.json",
+        "tdd_workflow.py",
+        "test_generator.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/hook-factory",
+      "name": "hook-factory",
+      "description": "Generate production-ready Claude Code hooks with interactive Q&A, automated installation, and enhanced validation. Supports 10 templates across 7 event types for comprehensive workflow automation.",
+      "categories": ["Productivity"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/hook-factory",
+      "commitHash": "928705681ab7",
+      "version": "2.0.0",
+      "tags": [
+        "hooks",
+        "automation",
+        "code-generation",
+        "workflow",
+        "productivity",
+        "interactive",
+        "installer"
+      ],
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "examples",
+        "generator.py",
+        "hook_factory.py",
+        "install-hook.sh",
+        "installer.py",
+        "templates.json",
+        "validator.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/agent-factory",
+      "name": "agent-factory",
+      "description": "Claude Code agent generation system that creates custom agents and sub-agents with enhanced YAML frontmatter, tool access patterns, and MCP integration support following proven production patterns",
+      "categories": ["Development", "Integration", "AI & ML"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/agent-factory",
+      "commitHash": "60efb74283ee",
+      "files": [
+        "HOW_TO_USE.md",
+        "SKILL.md",
+        "agent_generator.py",
+        "expected_output.json",
+        "generated-agents",
+        "sample_input.json"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/prompt-factory",
+      "name": "prompt-factory",
+      "description": "World-class prompt powerhouse that generates production-ready mega-prompts for any role, industry, and task through intelligent 7-question flow, 69 comprehensive presets across 15 professional domains (technical, business, creative, legal, finance, HR, design, customer, executive, manufacturing, R&D, regulatory, specialized-technical, research, creative-media), multiple output formats (XML/Claude/ChatGPT/Gemini), quality validation gates, and contextual best practices from OpenAI/Anthropic/Google. Supports both core and advanced modes with testing scenarios and prompt variations.",
+      "categories": ["Development", "Design", "Productivity", "Research", "AI & ML"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/prompt-factory",
+      "commitHash": "b00515b36b5a",
+      "files": [
+        "CHANGELOG.md",
+        "HOW_TO_USE.md",
+        "README.md",
+        "SKILL.md",
+        "examples",
+        "outputs",
+        "references",
+        "requirements.txt",
+        "scripts",
+        "templates"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/codex-cli-bridge",
+      "name": "codex-cli-bridge",
+      "description": "Bridge between Claude Code and OpenAI Codex CLI - generates AGENTS.md from CLAUDE.md, provides Codex CLI execution helpers, and enables seamless interoperability between both tools",
+      "categories": ["AI & ML"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/codex-cli-bridge",
+      "commitHash": "e4afc5d1db47",
+      "files": [
+        "CHANGELOG.md",
+        "HOW_TO_USE.md",
+        "INSTALL.md",
+        "README.md",
+        "SKILL.md",
+        "agents_md_generator.py",
+        "bridge.py",
+        "claude_parser.py",
+        "codex_executor.py",
+        "expected_output.json",
+        "package.sh",
+        "project_analyzer.py",
+        "safety_mechanism.py",
+        "sample_input.json",
+        "skill_documenter.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/scrum-master-agent",
+      "name": "scrum-master-agent",
+      "description": "Comprehensive Scrum Master assistant for sprint planning, backlog grooming, retrospectives, capacity planning, and daily standups with intelligent context-aware reporting",
+      "categories": ["Business", "AI & ML"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/scrum-master-agent",
+      "commitHash": "c3420bb0d704",
+      "files": [
+        "HOW_TO_USE.md",
+        "README.md",
+        "SKILL.md",
+        "calculate_metrics.py",
+        "config.example.yaml",
+        "detect_context.py",
+        "expected_output.json",
+        "format_output.py",
+        "notify_channels.py",
+        "parse_input.py",
+        "prioritize_backlog.py",
+        "sample_input_csv.csv",
+        "sample_input_jira.json",
+        "sample_input_linear.json",
+        "tool_adapters.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/claude-md-enhancer",
+      "name": "claude-md-enhancer",
+      "description": "Analyzes, generates, and enhances CLAUDE.md files for any project type using best practices, modular architecture support, and tech stack customization. Use when setting up new projects, improving existing CLAUDE.md files, or establishing AI-assisted development standards.",
+      "categories": ["Development", "Productivity", "AI & ML"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/claude-md-enhancer",
+      "commitHash": "61135a053f00",
+      "files": [
+        "HOW_TO_USE.md",
+        "README.md",
+        "SKILL.md",
+        "analyzer.py",
+        "examples",
+        "expected_output.json",
+        "generator.py",
+        "sample_input.json",
+        "template_selector.py",
+        "validator.py",
+        "workflow.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/tech-stack-evaluator",
+      "name": "tech-stack-evaluator",
+      "description": "Comprehensive technology stack evaluation and comparison tool with TCO analysis, security assessment, and intelligent recommendations for engineering teams",
+      "categories": ["Other"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/tech-stack-evaluator",
+      "commitHash": "c3420bb0d704",
+      "files": [
+        "HOW_TO_USE.md",
+        "README.md",
+        "SKILL.md",
+        "ecosystem_analyzer.py",
+        "expected_output_comparison.json",
+        "format_detector.py",
+        "migration_analyzer.py",
+        "report_generator.py",
+        "sample_input_structured.json",
+        "sample_input_tco.json",
+        "sample_input_text.json",
+        "security_assessor.py",
+        "stack_comparator.py",
+        "tco_calculator.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/ms365-tenant-manager",
+      "name": "ms365-tenant-manager",
+      "description": "Comprehensive Microsoft 365 tenant administration skill for setup, configuration, user management, security policies, and organizational structure optimization for Global Administrators",
+      "categories": ["Productivity"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/ms365-tenant-manager",
+      "commitHash": "519262f93ee6",
+      "files": [
+        "HOW_TO_USE.md",
+        "SKILL.md",
+        "__pycache__",
+        "expected_output.json",
+        "powershell_generator.py",
+        "sample_input.json",
+        "tenant_setup.py",
+        "user_management.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/social-media-analyzer",
+      "name": "social-media-analyzer",
+      "description": "Analyzes social media campaign performance across platforms with engagement metrics, ROI calculations, and audience insights for data-driven marketing decisions",
+      "categories": ["Data & Analytics", "Marketing"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/social-media-analyzer",
+      "commitHash": "bd0c0e931b1a",
+      "files": [
+        "HOW_TO_USE.md",
+        "SKILL.md",
+        "analyze_performance.py",
+        "calculate_metrics.py",
+        "expected_output.json",
+        "sample_input.json"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/slash-command-factory",
+      "name": "slash-command-factory",
+      "description": "Generate custom Claude Code slash commands through intelligent 5-7 question flow. Creates powerful commands for business research, content analysis, healthcare compliance, API integration, documentation automation, and workflow optimization. Outputs organized commands to generated-commands/ with validation and installation guidance.",
+      "categories": ["Development", "Writing", "Productivity", "Research"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/slash-command-factory",
+      "commitHash": "440f81434c25",
+      "files": [
+        "HOW_TO_USE.md",
+        "SKILL.md",
+        "command_generator.py",
+        "expected_output.json",
+        "presets.json",
+        "sample_input.json",
+        "validator.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/aws-solution-architect",
+      "name": "aws-solution-architect",
+      "description": "Expert AWS solution architecture for startups focusing on serverless, scalable, and cost-effective cloud infrastructure with modern DevOps practices and infrastructure-as-code",
+      "categories": ["Development", "DevOps"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/aws-solution-architect",
+      "commitHash": "519262f93ee6",
+      "files": [
+        "HOW_TO_USE.md",
+        "SKILL.md",
+        "__pycache__",
+        "architecture_designer.py",
+        "cost_optimizer.py",
+        "expected_output.json",
+        "sample_input.json",
+        "serverless_stack.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/content-trend-researcher",
+      "name": "content-trend-researcher",
+      "description": "Advanced content and topic research skill that analyzes trends across Google Analytics, Google Trends, Substack, Medium, Reddit, LinkedIn, X, blogs, podcasts, and YouTube to generate data-driven article outlines based on user intent analysis",
+      "categories": ["Writing", "Data & Analytics", "Research", "Media"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/content-trend-researcher",
+      "commitHash": "f6af47207fef",
+      "files": [
+        "HOW_TO_USE.md",
+        "SKILL.md",
+        "expected_output.json",
+        "intent_analyzer.py",
+        "outline_generator.py",
+        "platform_insights.py",
+        "sample_input.json",
+        "trend_analyzer.py"
+      ]
+    },
+    {
+      "id": "OpenRaiser/NanoResearch/skills/nanoresearch-writing",
+      "name": "nanoresearch-writing",
+      "description": "Draft a LaTeX research paper from all previous stage outputs",
+      "categories": ["Writing", "Research"],
+      "author": "OpenRaiser",
+      "repo": "OpenRaiser/NanoResearch",
+      "path": "skills/nanoresearch-writing",
+      "commitHash": "7130f14cd340",
+      "version": "0.1.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "OpenRaiser/NanoResearch/skills/nanoresearch-ideation",
+      "name": "nanoresearch-ideation",
+      "description": "Search academic literature and generate research hypotheses",
+      "categories": ["Research"],
+      "author": "OpenRaiser",
+      "repo": "OpenRaiser/NanoResearch",
+      "path": "skills/nanoresearch-ideation",
+      "commitHash": "7130f14cd340",
+      "version": "0.1.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "OpenRaiser/NanoResearch/skills/nanoresearch-planning",
+      "name": "nanoresearch-planning",
+      "description": "Produce an experiment blueprint from a research hypothesis",
+      "categories": ["Research"],
+      "author": "OpenRaiser",
+      "repo": "OpenRaiser/NanoResearch",
+      "path": "skills/nanoresearch-planning",
+      "commitHash": "7130f14cd340",
+      "version": "0.1.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "OpenRaiser/NanoResearch/skills/nanoresearch-experiment",
+      "name": "nanoresearch-experiment",
+      "description": "Generate a Python code skeleton from an experiment blueprint",
+      "categories": ["Development", "Research"],
+      "author": "OpenRaiser",
+      "repo": "OpenRaiser/NanoResearch",
+      "path": "skills/nanoresearch-experiment",
+      "commitHash": "7130f14cd340",
+      "version": "0.1.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "OpenRaiser/NanoResearch/skills/vendor-ai-research/ml-paper-writing",
+      "name": "ml-paper-writing",
+      "description": "Write publication-ready ML/AI/Systems papers for NeurIPS, ICML, ICLR, ACL, AAAI, COLM, OSDI, NSDI, ASPLOS, SOSP. Use when drafting papers from research repos, structuring arguments, verifying citations, or preparing camera-ready submissions. Includes LaTeX templates, reviewer guidelines, and citation verification workflows.",
+      "categories": ["Writing", "Productivity", "Research", "AI & ML"],
+      "author": "OpenRaiser",
+      "repo": "OpenRaiser/NanoResearch",
+      "path": "skills/vendor-ai-research/ml-paper-writing",
+      "commitHash": "7130f14cd340",
+      "version": "1.1.0",
+      "tags": [
+        "Academic Writing",
+        "NeurIPS",
+        "ICML",
+        "ICLR",
+        "ACL",
+        "AAAI",
+        "COLM",
+        "OSDI",
+        "NSDI",
+        "ASPLOS",
+        "SOSP",
+        "LaTeX",
+        "Paper Writing",
+        "Citations",
+        "Research",
+        "Systems"
+      ],
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "SKILL.md",
+        "references/checklists.md",
+        "references/citation-workflow.md",
+        "references/reviewer-guidelines.md",
+        "references/sources.md",
+        "references/systems-conferences.md",
+        "references/writing-guide.md",
+        "templates/README.md",
+        "templates/aaai2026/README.md",
+        "templates/aaai2026/aaai2026-unified-supp.tex",
+        "templates/aaai2026/aaai2026-unified-template.tex",
+        "templates/aaai2026/aaai2026.bib",
+        "templates/aaai2026/aaai2026.bst",
+        "templates/aaai2026/aaai2026.sty",
+        "templates/acl/README.md",
+        "templates/acl/acl.sty",
+        "templates/acl/acl_latex.tex",
+        "templates/acl/acl_lualatex.tex",
+        "templates/acl/acl_natbib.bst",
+        "templates/acl/anthology.bib.txt"
+      ]
+    },
     {
       "id": "a5c-ai/babysitter/.claude/skills/process-builder",
       "name": "process-builder",
@@ -1291,110 +2537,6 @@
       "files": ["README.md", "SKILL.md"]
     },
     {
-      "id": "OpenRaiser/NanoResearch/skills/nanoresearch-writing",
-      "name": "nanoresearch-writing",
-      "description": "Draft a LaTeX research paper from all previous stage outputs",
-      "categories": ["Writing", "Research"],
-      "author": "OpenRaiser",
-      "repo": "OpenRaiser/NanoResearch",
-      "path": "skills/nanoresearch-writing",
-      "commitHash": "7130f14cd340",
-      "version": "0.1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "OpenRaiser/NanoResearch/skills/nanoresearch-ideation",
-      "name": "nanoresearch-ideation",
-      "description": "Search academic literature and generate research hypotheses",
-      "categories": ["Research"],
-      "author": "OpenRaiser",
-      "repo": "OpenRaiser/NanoResearch",
-      "path": "skills/nanoresearch-ideation",
-      "commitHash": "7130f14cd340",
-      "version": "0.1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "OpenRaiser/NanoResearch/skills/nanoresearch-planning",
-      "name": "nanoresearch-planning",
-      "description": "Produce an experiment blueprint from a research hypothesis",
-      "categories": ["Research"],
-      "author": "OpenRaiser",
-      "repo": "OpenRaiser/NanoResearch",
-      "path": "skills/nanoresearch-planning",
-      "commitHash": "7130f14cd340",
-      "version": "0.1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "OpenRaiser/NanoResearch/skills/nanoresearch-experiment",
-      "name": "nanoresearch-experiment",
-      "description": "Generate a Python code skeleton from an experiment blueprint",
-      "categories": ["Development", "Research"],
-      "author": "OpenRaiser",
-      "repo": "OpenRaiser/NanoResearch",
-      "path": "skills/nanoresearch-experiment",
-      "commitHash": "7130f14cd340",
-      "version": "0.1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "OpenRaiser/NanoResearch/skills/vendor-ai-research/ml-paper-writing",
-      "name": "ml-paper-writing",
-      "description": "Write publication-ready ML/AI/Systems papers for NeurIPS, ICML, ICLR, ACL, AAAI, COLM, OSDI, NSDI, ASPLOS, SOSP. Use when drafting papers from research repos, structuring arguments, verifying citations, or preparing camera-ready submissions. Includes LaTeX templates, reviewer guidelines, and citation verification workflows.",
-      "categories": ["Writing", "Productivity", "Research", "AI & ML"],
-      "author": "OpenRaiser",
-      "repo": "OpenRaiser/NanoResearch",
-      "path": "skills/vendor-ai-research/ml-paper-writing",
-      "commitHash": "7130f14cd340",
-      "version": "1.1.0",
-      "tags": [
-        "Academic Writing",
-        "NeurIPS",
-        "ICML",
-        "ICLR",
-        "ACL",
-        "AAAI",
-        "COLM",
-        "OSDI",
-        "NSDI",
-        "ASPLOS",
-        "SOSP",
-        "LaTeX",
-        "Paper Writing",
-        "Citations",
-        "Research",
-        "Systems"
-      ],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "SKILL.md",
-        "references/checklists.md",
-        "references/citation-workflow.md",
-        "references/reviewer-guidelines.md",
-        "references/sources.md",
-        "references/systems-conferences.md",
-        "references/writing-guide.md",
-        "templates/README.md",
-        "templates/aaai2026/README.md",
-        "templates/aaai2026/aaai2026-unified-supp.tex",
-        "templates/aaai2026/aaai2026-unified-template.tex",
-        "templates/aaai2026/aaai2026.bib",
-        "templates/aaai2026/aaai2026.bst",
-        "templates/aaai2026/aaai2026.sty",
-        "templates/acl/README.md",
-        "templates/acl/acl.sty",
-        "templates/acl/acl_latex.tex",
-        "templates/acl/acl_lualatex.tex",
-        "templates/acl/acl_natbib.bst",
-        "templates/acl/anthology.bib.txt"
-      ]
-    },
-    {
       "id": "zanwei/design-dna",
       "name": "design-dna",
       "description": "Extract, define, and apply design DNA across three dimensions: design system (tokens), design style (qualitative feel), and visual effects (Canvas, WebGL, 3D, particles, shaders, scroll effects, etc.). Use this skill when: (1) a user wants to see the full 3-dimension design structure/schema, (2) a user provides images, screenshots, or URLs of reference designs and wants them analyzed into a structured JSON profile covering all three dimensions, (3) a user has a Design DNA JSON and content and wants a design generated from it, or (4) any combination of these phases. Triggers on \"design DNA\", \"extract design style\", \"analyze design\", \"design tokens from reference\", \"generate design from JSON\", \"design system from screenshot\", \"design profile\", \"style guide JSON\", \"visual effects analysis\", \"design with effects\", \"3d design analysis\".",
@@ -1601,50 +2743,6 @@
       "repo": "zscole/adversarial-spec",
       "path": "skills/adversarial-spec",
       "commitHash": "59f854c42668",
-      "files": ["SKILL.md", "scripts"]
-    },
-    {
-      "id": "Code-and-Sorts/awesome-copilot-agents/skills/jira-cli",
-      "name": "jira-cli",
-      "description": "Interact with Jira from the command line to create, list, view, edit, and transition issues, manage sprints and epics, and perform common Jira workflows. Use when the user asks about Jira tasks, tickets, issues, sprints, or needs to manage project work items.",
-      "categories": ["Productivity"],
-      "author": "Code-and-Sorts",
-      "repo": "Code-and-Sorts/awesome-copilot-agents",
-      "path": "skills/jira-cli",
-      "commitHash": "da3bbb98d2a8",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Code-and-Sorts/awesome-copilot-agents/skills/cloud/az-cli",
-      "name": "az-cli",
-      "description": "Use the Azure CLI (`az`) to manage Azure resources from the command line. Trigger this skill whenever the user asks to create, configure, manage, deploy, or interact with any Azure resource — even if they don't explicitly mention \"az cli\". Also trigger when the user asks about Azure CLI commands, syntax, or wants to know how to do something in Azure from the terminal.",
-      "categories": ["DevOps"],
-      "author": "Code-and-Sorts",
-      "repo": "Code-and-Sorts/awesome-copilot-agents",
-      "path": "skills/cloud/az-cli",
-      "commitHash": "da3bbb98d2a8",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "Code-and-Sorts/awesome-copilot-agents/skills/cloud/azure-prices",
-      "name": "azure-prices",
-      "description": "Look up and compare Azure service pricing using the Azure Retail Prices API. Use this skill whenever the user asks about Azure costs, pricing, rates, or wants to compare prices across regions or services — even if they don't say \"pricing\" explicitly. Trigger for questions like \"how much does a D2 v2 VM cost?\", \"cheapest region for Azure SQL\", or \"compare storage prices between eastus and westeurope\".",
-      "categories": ["AI & ML"],
-      "author": "Code-and-Sorts",
-      "repo": "Code-and-Sorts/awesome-copilot-agents",
-      "path": "skills/cloud/azure-prices",
-      "commitHash": "da3bbb98d2a8",
-      "files": ["SKILL.md", "scripts"]
-    },
-    {
-      "id": "Code-and-Sorts/awesome-copilot-agents/skills/calculator",
-      "name": "calculator",
-      "description": "Performs arbitrary-precision arithmetic calculations including addition, subtraction, multiplication, division, and exponents. Use when the user asks to calculate, compute, or evaluate math expressions, or when precise decimal arithmetic is needed to avoid floating-point errors.",
-      "categories": ["Other"],
-      "author": "Code-and-Sorts",
-      "repo": "Code-and-Sorts/awesome-copilot-agents",
-      "path": "skills/calculator",
-      "commitHash": "da3bbb98d2a8",
       "files": ["SKILL.md", "scripts"]
     },
     {
@@ -1880,6 +2978,50 @@
       "tags": ["convex", "components", "reusable", "packages", "npm"],
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "agents", "assets"]
+    },
+    {
+      "id": "vladikk/modularity/skills/review",
+      "name": "review",
+      "description": "Analyzes a codebase's modularity imbalances using the Balanced Coupling model and produces a review of design issues. Use when reviewing existing code for coupling problems, assessing architecture quality, identifying distributed monolith risks, or finding areas where changes are unexpectedly expensive.\n",
+      "categories": ["Development", "Research"],
+      "author": "vladikk",
+      "repo": "vladikk/modularity",
+      "path": "skills/review",
+      "commitHash": "bcdca9a59576",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "vladikk/modularity/skills/design",
+      "name": "design",
+      "description": "Designs modular high-level architectures from functional requirements and produces design documents for each module. Use when designing a new system, creating architecture documentation, or producing module-level design specs with integration contracts and test specifications.\n",
+      "categories": ["Development", "Design"],
+      "author": "vladikk",
+      "repo": "vladikk/modularity",
+      "path": "skills/design",
+      "commitHash": "bcdca9a59576",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "vladikk/modularity/skills/document",
+      "name": "document",
+      "description": "Produces modularity review documents in both Markdown and HTML formats. Use when writing the final review output from a modularity analysis.\n",
+      "categories": ["Documents", "Research"],
+      "author": "vladikk",
+      "repo": "vladikk/modularity",
+      "path": "skills/document",
+      "commitHash": "bcdca9a59576",
+      "files": ["SKILL.md", "assets"]
+    },
+    {
+      "id": "vladikk/modularity/skills/balanced-coupling",
+      "name": "balanced-coupling",
+      "description": "The Balanced Coupling model for software design. Use when: designing modular architectures, evaluating coupling between components, reviewing code modularity, deciding whether to split or merge modules/services, assessing integration patterns, classifying coupling as balanced or unbalanced, applying DDD strategic and tactical patterns, reasoning about cohesion vs coupling trade-offs, identifying distributed monolith risks, or explaining why a system is hard to change. Provides the three-dimensional framework (integration strength, distance, volatility) and the balance rule for making coupling decisions.\n",
+      "categories": ["Development", "Documents", "Integration", "Business", "AI & ML"],
+      "author": "vladikk",
+      "repo": "vladikk/modularity",
+      "path": "skills/balanced-coupling",
+      "commitHash": "bcdca9a59576",
+      "files": ["SKILL.md"]
     },
     {
       "id": "coffeefuelbump/csv-data-summarizer-claude-skill",
@@ -2762,50 +3904,6 @@
       "path": "skills/writing-infrastructure-code",
       "commitHash": "d6b36cd8f6ec",
       "files": ["SKILL.md", "examples", "outputs.yaml", "references", "scripts"]
-    },
-    {
-      "id": "vladikk/modularity/skills/review",
-      "name": "review",
-      "description": "Analyzes a codebase's modularity imbalances using the Balanced Coupling model and produces a review of design issues. Use when reviewing existing code for coupling problems, assessing architecture quality, identifying distributed monolith risks, or finding areas where changes are unexpectedly expensive.\n",
-      "categories": ["Development", "Research"],
-      "author": "vladikk",
-      "repo": "vladikk/modularity",
-      "path": "skills/review",
-      "commitHash": "bcdca9a59576",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "vladikk/modularity/skills/design",
-      "name": "design",
-      "description": "Designs modular high-level architectures from functional requirements and produces design documents for each module. Use when designing a new system, creating architecture documentation, or producing module-level design specs with integration contracts and test specifications.\n",
-      "categories": ["Development", "Design"],
-      "author": "vladikk",
-      "repo": "vladikk/modularity",
-      "path": "skills/design",
-      "commitHash": "bcdca9a59576",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "vladikk/modularity/skills/document",
-      "name": "document",
-      "description": "Produces modularity review documents in both Markdown and HTML formats. Use when writing the final review output from a modularity analysis.\n",
-      "categories": ["Documents", "Research"],
-      "author": "vladikk",
-      "repo": "vladikk/modularity",
-      "path": "skills/document",
-      "commitHash": "bcdca9a59576",
-      "files": ["SKILL.md", "assets"]
-    },
-    {
-      "id": "vladikk/modularity/skills/balanced-coupling",
-      "name": "balanced-coupling",
-      "description": "The Balanced Coupling model for software design. Use when: designing modular architectures, evaluating coupling between components, reviewing code modularity, deciding whether to split or merge modules/services, assessing integration patterns, classifying coupling as balanced or unbalanced, applying DDD strategic and tactical patterns, reasoning about cohesion vs coupling trade-offs, identifying distributed monolith risks, or explaining why a system is hard to change. Provides the three-dimensional framework (integration strength, distance, volatility) and the balance rule for making coupling decisions.\n",
-      "categories": ["Development", "Documents", "Integration", "Business", "AI & ML"],
-      "author": "vladikk",
-      "repo": "vladikk/modularity",
-      "path": "skills/balanced-coupling",
-      "commitHash": "bcdca9a59576",
-      "files": ["SKILL.md"]
     },
     {
       "id": "tzachbon/smart-ralph/plugins/ralph-specum/skills/interview-framework",
@@ -4749,6 +5847,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "felixrieseberg/claude-coach/skill",
+      "name": "coach",
+      "description": "Create personalized triathlon, marathon, and ultra-endurance training plans. Use when athletes ask for training plans, workout schedules, race preparation, or coaching advice. Can sync with Strava to analyze training history, or work from manually provided fitness data. Generates periodized plans with sport-specific workouts, zones, and race-day strategies.",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "felixrieseberg",
+      "repo": "felixrieseberg/claude-coach",
+      "path": "skill",
+      "commitHash": "c569b880837f",
+      "files": ["SKILL.md", "reference"]
+    },
+    {
       "id": "nokonoko1203/claude-code-settings/skills/playwright-cli",
       "name": "playwright-cli",
       "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.",
@@ -4799,17 +5908,6 @@
       "path": "python-project-creator",
       "commitHash": "0fe6a68dd061",
       "files": ["SKILL.md", "assets", "references", "scripts"]
-    },
-    {
-      "id": "felixrieseberg/claude-coach/skill",
-      "name": "coach",
-      "description": "Create personalized triathlon, marathon, and ultra-endurance training plans. Use when athletes ask for training plans, workout schedules, race preparation, or coaching advice. Can sync with Strava to analyze training history, or work from manually provided fitness data. Generates periodized plans with sport-specific workouts, zones, and race-day strategies.",
-      "categories": ["Productivity", "AI & ML"],
-      "author": "felixrieseberg",
-      "repo": "felixrieseberg/claude-coach",
-      "path": "skill",
-      "commitHash": "c569b880837f",
-      "files": ["SKILL.md", "reference"]
     },
     {
       "id": "anhvt52/jetpack-compose-skills/modern-jetpack-compose",
@@ -4933,6 +6031,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "hqhq1025/skill-optimizer/skills/skill-optimizer",
+      "name": "skill-optimizer",
+      "description": "Use when the user wants to analyze, audit, or improve their Agent Skills (SKILL.md files). Triggers on /optimize-skill, /skill-audit, 'optimize skills', 'analyze skills', 'check my skills', 'skill quality'. Also use proactively when the user mentions skills aren't triggering, skills feel broken, or asks why a skill didn't fire.",
+      "categories": ["Other"],
+      "author": "hqhq1025",
+      "repo": "hqhq1025/skill-optimizer",
+      "path": "skills/skill-optimizer",
+      "commitHash": "c48b4b5e22e1",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "Dianel555/DSkills/skills/ace-tool",
       "name": "ace-tool",
       "description": "Semantic codebase search, code indexing, and prompt enhancement via standalone CLI. Use when: (1) Semantic code search with natural language queries, (2) Code indexing for remote codebase retrieval, (3) Prompt enhancement with codebase context, (4) Before grep/find/glob operations for better accuracy, (5) Complex requirements clarification, (6) Large codebase navigation. Triggers: \"search context\", \"enhance prompt\", \"find code that\", \"index project\", \"clarify requirements\". IMPORTANT: Always use ace-tool BEFORE grep/find/glob for semantic-level code location.\n",
@@ -5007,17 +6116,6 @@
       "files": ["README.md", "SKILL.md", "scripts"]
     },
     {
-      "id": "hqhq1025/skill-optimizer/skills/skill-optimizer",
-      "name": "skill-optimizer",
-      "description": "Use when the user wants to analyze, audit, or improve their Agent Skills (SKILL.md files). Triggers on /optimize-skill, /skill-audit, 'optimize skills', 'analyze skills', 'check my skills', 'skill quality'. Also use proactively when the user mentions skills aren't triggering, skills feel broken, or asks why a skill didn't fire.",
-      "categories": ["Other"],
-      "author": "hqhq1025",
-      "repo": "hqhq1025/skill-optimizer",
-      "path": "skills/skill-optimizer",
-      "commitHash": "c48b4b5e22e1",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "iamzifei/wechat-article-formatter-skill",
       "name": "wechat-article-formatter",
       "description": "Format markdown and publish to WeChat Official Account via bm.md rendering + WeChat official API",
@@ -5027,6 +6125,17 @@
       "path": "",
       "commitHash": "69e0ca1c7aac",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "k-kolomeitsev/data-structure-protocol/skills/data-structure-protocol",
+      "name": "data-structure-protocol",
+      "description": "Build and navigate DSP (Data Structure Protocol) — graph-based long-term structural memory of codebases for LLM agents. Stores entities (modules, functions), their dependencies (imports), public API (shared/exports), and reasons for every connection. Use when: (1) project has a .dsp/ directory, (2) user asks to set up DSP or bootstrap project structure, (3) creating/modifying/deleting code files in a DSP-tracked project, (4) navigating project structure, understanding dependencies, or finding modules, (5) user mentions DSP, dsp-cli, .dsp, or structure mapping.",
+      "categories": ["Development", "Data & Analytics", "Documents", "AI & ML"],
+      "author": "k-kolomeitsev",
+      "repo": "k-kolomeitsev/data-structure-protocol",
+      "path": "skills/data-structure-protocol",
+      "commitHash": "2860ff46175e",
+      "files": ["LICENSE", "SKILL.md", "references", "scripts"]
     },
     {
       "id": "VideoZero/skills/motion-canvas-agent",
@@ -5084,17 +6193,6 @@
       "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
-      "id": "k-kolomeitsev/data-structure-protocol/skills/data-structure-protocol",
-      "name": "data-structure-protocol",
-      "description": "Build and navigate DSP (Data Structure Protocol) — graph-based long-term structural memory of codebases for LLM agents. Stores entities (modules, functions), their dependencies (imports), public API (shared/exports), and reasons for every connection. Use when: (1) project has a .dsp/ directory, (2) user asks to set up DSP or bootstrap project structure, (3) creating/modifying/deleting code files in a DSP-tracked project, (4) navigating project structure, understanding dependencies, or finding modules, (5) user mentions DSP, dsp-cli, .dsp, or structure mapping.",
-      "categories": ["Development", "Data & Analytics", "Documents", "AI & ML"],
-      "author": "k-kolomeitsev",
-      "repo": "k-kolomeitsev/data-structure-protocol",
-      "path": "skills/data-structure-protocol",
-      "commitHash": "2860ff46175e",
-      "files": ["LICENSE", "SKILL.md", "references", "scripts"]
-    },
-    {
       "id": "chrisvoncsefalvay/autostar/autostar-skill",
       "name": "autostar",
       "description": "Generalised autonomous optimisation loop — soft RLVR for any artifact a user can measure. Use this skill whenever a user wants to iteratively improve an artifact — code, prompts, documents, configs, designs, content — by running structured experiments, evaluating results against a multi-dimensional rubric, and learning from each attempt. Triggers include: \"optimise this\", \"keep improving until it's good\", \"run experiments on\", \"autoresearch\", \"iterate on this overnight\", \"try different approaches and pick the best\", or any request implying repeated evaluate-and-improve cycles. Also use when the user wants to improve a system prompt, a data pipeline, a writing style, or any artifact where quality can be decomposed into measurable tracks. For inference optimisation tasks (model latency, throughput, quantization, GPU deployment), a* delegates the low-level tuning to AITune while maintaining quality tracking and learning.\n",
@@ -5115,27 +6213,6 @@
       "path": "autostar-claude-ai-skill",
       "commitHash": "1f4a2f62e773",
       "files": ["SKILL.md", "references", "runtime-profiles"]
-    },
-    {
-      "id": "mykpono/ultimate-seo-geo",
-      "name": "ultimate-seo-geo",
-      "description": "Audits and optimizes websites for search engine visibility (SEO) and AI search citation (GEO), covering technical health, E-E-A-T content scoring, domain authority, structured data, rich results, and entity signals. Use when running SEO audits, diagnosing traffic drops or ranking losses, generating Schema.org JSON-LD, checking Core Web Vitals, crawlability, robots.txt, sitemaps, hreflang, backlinks, planning content strategy or site migrations, fixing indexing issues, or optimizing for AI Overviews, ChatGPT, and Perplexity. NOT for paid ads (PPC/SEM), social media strategy, email marketing, or general web development unrelated to search.",
-      "categories": [
-        "Security",
-        "Writing",
-        "Data & Analytics",
-        "Marketing",
-        "Business",
-        "Research",
-        "AI & ML"
-      ],
-      "author": "mykpono",
-      "repo": "mykpono/ultimate-seo-geo",
-      "path": "",
-      "commitHash": "eb77d1a5763f",
-      "version": "1.8.5",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
     },
     {
       "id": "VapiAI/skills/create-tool",
@@ -5226,6 +6303,27 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "mykpono/ultimate-seo-geo",
+      "name": "ultimate-seo-geo",
+      "description": "Audits and optimizes websites for search engine visibility (SEO) and AI search citation (GEO), covering technical health, E-E-A-T content scoring, domain authority, structured data, rich results, and entity signals. Use when running SEO audits, diagnosing traffic drops or ranking losses, generating Schema.org JSON-LD, checking Core Web Vitals, crawlability, robots.txt, sitemaps, hreflang, backlinks, planning content strategy or site migrations, fixing indexing issues, or optimizing for AI Overviews, ChatGPT, and Perplexity. NOT for paid ads (PPC/SEM), social media strategy, email marketing, or general web development unrelated to search.",
+      "categories": [
+        "Security",
+        "Writing",
+        "Data & Analytics",
+        "Marketing",
+        "Business",
+        "Research",
+        "AI & ML"
+      ],
+      "author": "mykpono",
+      "repo": "mykpono/ultimate-seo-geo",
+      "path": "",
+      "commitHash": "eb77d1a5763f",
+      "version": "1.8.5",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "scoobynko/claude-code-design-skills/figma-to-code",
       "name": "figma-to-code",
       "description": "Generate production-ready React/Next.js code from Figma designs. Instructs proper Figma MCP tool usage, component reuse strategies, and variant mapping. **CRITICAL: ALWAYS use this skill when user provides a Figma link or mentions implementing/redesigning from Figma design.** Never attempt manual implementation without invoking this skill first.",
@@ -5246,17 +6344,6 @@
       "path": "",
       "commitHash": "38814baf84dc",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "iamzifei/gtd-coach-plugin/skills/gtd-coach",
-      "name": "gtd-coach",
-      "description": "Personal GTD (Getting Things Done) coach that helps users achieve their annual goals. Use when users mention goals, plans, daily tasks, productivity, time management, task tracking, reviews, or need help breaking down objectives into actionable steps. Automatically remembers user's goals and progress across conversations. Supports multiple languages.",
-      "categories": ["Productivity"],
-      "author": "iamzifei",
-      "repo": "iamzifei/gtd-coach-plugin",
-      "path": "skills/gtd-coach",
-      "commitHash": "70f09ba8de6f",
-      "files": ["EXAMPLES.md", "REVIEWS.md", "SKILL.md", "TEMPLATES.md"]
     },
     {
       "id": "a-pavithraa/springboot-skills-marketplace/plugins/springboot-architecture/skills/code-reviewer",
@@ -5301,6 +6388,17 @@
       "path": "plugins/springboot-architecture/skills/creating-springboot-projects",
       "commitHash": "efa55466f755",
       "files": ["SKILL.md", "assets", "references"]
+    },
+    {
+      "id": "iamzifei/gtd-coach-plugin/skills/gtd-coach",
+      "name": "gtd-coach",
+      "description": "Personal GTD (Getting Things Done) coach that helps users achieve their annual goals. Use when users mention goals, plans, daily tasks, productivity, time management, task tracking, reviews, or need help breaking down objectives into actionable steps. Automatically remembers user's goals and progress across conversations. Supports multiple languages.",
+      "categories": ["Productivity"],
+      "author": "iamzifei",
+      "repo": "iamzifei/gtd-coach-plugin",
+      "path": "skills/gtd-coach",
+      "commitHash": "70f09ba8de6f",
+      "files": ["EXAMPLES.md", "REVIEWS.md", "SKILL.md", "TEMPLATES.md"]
     },
     {
       "id": "phughesmcr/deno-mcp-template/.cursor/skills/implementing-mcp-tools",
@@ -5367,23 +6465,6 @@
       "path": "",
       "commitHash": "717511d9c69b",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "ForteScarlet/codex-kkp/claude-code-skills-template/codex-agent-collaboration",
-      "name": "codex-agent-collaboration",
-      "description": "Delegate coding tasks to Codex AI for implementation, analysis, and alternative solutions. Use when you need a second AI perspective, want to explore different approaches, or need specialized Codex capabilities for complex coding tasks.",
-      "categories": ["Development", "AI & ML"],
-      "author": "ForteScarlet",
-      "repo": "ForteScarlet/codex-kkp",
-      "path": "claude-code-skills-template/codex-agent-collaboration",
-      "commitHash": "c829e64a944d",
-      "files": [
-        "SKILL.md",
-        "codex-kkp-cli-platform",
-        "examples.md",
-        "outputs.md",
-        "sandbox-modes.md"
-      ]
     },
     {
       "id": "proyecto26/sherlock-ai-plugin/skills/paper2code",
@@ -5486,6 +6567,23 @@
       "files": ["SKILL.md", "references", "scripts", "tests"]
     },
     {
+      "id": "ForteScarlet/codex-kkp/claude-code-skills-template/codex-agent-collaboration",
+      "name": "codex-agent-collaboration",
+      "description": "Delegate coding tasks to Codex AI for implementation, analysis, and alternative solutions. Use when you need a second AI perspective, want to explore different approaches, or need specialized Codex capabilities for complex coding tasks.",
+      "categories": ["Development", "AI & ML"],
+      "author": "ForteScarlet",
+      "repo": "ForteScarlet/codex-kkp",
+      "path": "claude-code-skills-template/codex-agent-collaboration",
+      "commitHash": "c829e64a944d",
+      "files": [
+        "SKILL.md",
+        "codex-kkp-cli-platform",
+        "examples.md",
+        "outputs.md",
+        "sandbox-modes.md"
+      ]
+    },
+    {
       "id": "cjpatten/canadian-finance-planner-skill",
       "name": "financial-planner",
       "description": "Your Personal Finance Manager for Canadians — an AI financial planning partner that conducts thorough financial interviews, builds complete plans, generates interactive dashboards, and provides ongoing coaching. Use this skill whenever someone asks about budgeting, saving, investing, debt strategy, retirement planning, tax optimization, government benefits, insurance, RRSPs, TFSAs, RESPs, CPP, OAS, or any aspect of personal finance in a Canadian context. Also triggers for \"should I buy this?\", \"can I afford this?\", financial check-ins, plan updates, life change impacts on finances, or any request to build or review a financial plan. Even if the user just says \"help me with my money\" or \"I need a budget\", this skill should activate. Canada-focused (v1).\n",
@@ -5544,39 +6642,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "ITlearning/study-ios/.agents/skills/study-summary",
-      "name": "study-summary",
-      "description": "Saves learning notes from the current conversation. Classic mode makes concise notes, Mastery mode keeps detailed training artifacts.",
-      "categories": ["Research", "AI & ML"],
-      "author": "ITlearning",
-      "repo": "ITlearning/study-ios",
-      "path": ".agents/skills/study-summary",
-      "commitHash": "85d4c19a8bc0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ITlearning/study-ios/.agents/skills/swift-quiz",
-      "name": "swift-quiz",
-      "description": "Adaptive Swift/iOS quiz with two modes. Classic is lighter, Mastery requires mechanism-level reasoning.",
-      "categories": ["Other"],
-      "author": "ITlearning",
-      "repo": "ITlearning/study-ios",
-      "path": ".agents/skills/swift-quiz",
-      "commitHash": "85d4c19a8bc0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ITlearning/study-ios/.agents/skills/swift-study",
-      "name": "swift-study",
-      "description": "Interactive Swift/iOS tutor with two modes. Classic explains first, Mastery uses a predict-first Core Loop with gates.",
-      "categories": ["Other"],
-      "author": "ITlearning",
-      "repo": "ITlearning/study-ios",
-      "path": ".agents/skills/swift-study",
-      "commitHash": "85d4c19a8bc0",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "stevembarclay/pencilplaybook",
       "name": "pencilplaybook",
       "description": "PencilPlaybook is the UI Skills / Taste-Skill for Pencil.dev + Claude Code — a design playbook that gives Claude real perceptual psychology and senior-level guardrails so it stops producing averaged-out AI slop.",
@@ -5612,6 +6677,39 @@
       "version": "1.1.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "ITlearning/study-ios/.agents/skills/study-summary",
+      "name": "study-summary",
+      "description": "Saves learning notes from the current conversation. Classic mode makes concise notes, Mastery mode keeps detailed training artifacts.",
+      "categories": ["Research", "AI & ML"],
+      "author": "ITlearning",
+      "repo": "ITlearning/study-ios",
+      "path": ".agents/skills/study-summary",
+      "commitHash": "85d4c19a8bc0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ITlearning/study-ios/.agents/skills/swift-quiz",
+      "name": "swift-quiz",
+      "description": "Adaptive Swift/iOS quiz with two modes. Classic is lighter, Mastery requires mechanism-level reasoning.",
+      "categories": ["Other"],
+      "author": "ITlearning",
+      "repo": "ITlearning/study-ios",
+      "path": ".agents/skills/swift-quiz",
+      "commitHash": "85d4c19a8bc0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ITlearning/study-ios/.agents/skills/swift-study",
+      "name": "swift-study",
+      "description": "Interactive Swift/iOS tutor with two modes. Classic explains first, Mastery uses a predict-first Core Loop with gates.",
+      "categories": ["Other"],
+      "author": "ITlearning",
+      "repo": "ITlearning/study-ios",
+      "path": ".agents/skills/swift-study",
+      "commitHash": "85d4c19a8bc0",
+      "files": ["SKILL.md"]
     },
     {
       "id": "greenstevester/fastlane-skill/skills/beta",
@@ -5757,6 +6855,17 @@
       "files": ["SKILL.md", "scripts"]
     },
     {
+      "id": "cmertdalli/polisci-review/templates/codex-skill",
+      "name": "polisci-review",
+      "description": "Run a political science pre-submission audit with journal-aware personas, stage-aware standards, and evidence-grounded issue reporting.",
+      "categories": ["Other"],
+      "author": "cmertdalli",
+      "repo": "cmertdalli/polisci-review",
+      "path": "templates/codex-skill",
+      "commitHash": "df5e14f35aee",
+      "files": ["SKILL.md", "agents"]
+    },
+    {
       "id": "vulhunt-re/skills/plugins/vulhunt/skills/functions",
       "name": "functions",
       "description": "Find and list functions in a binary by name, address, regex, or byte pattern. Use as the starting point for binary analysis, to locate specific functions, or to enumerate all functions matching criteria.",
@@ -5834,17 +6943,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "cmertdalli/polisci-review/templates/codex-skill",
-      "name": "polisci-review",
-      "description": "Run a political science pre-submission audit with journal-aware personas, stage-aware standards, and evidence-grounded issue reporting.",
-      "categories": ["Other"],
-      "author": "cmertdalli",
-      "repo": "cmertdalli/polisci-review",
-      "path": "templates/codex-skill",
-      "commitHash": "df5e14f35aee",
-      "files": ["SKILL.md", "agents"]
-    },
-    {
       "id": "0xArx/claude-managed-agents-skill",
       "name": "claude-managed-agents",
       "description": "Build applications with the Claude Managed Agents API — Anthropic's managed infrastructure for running Claude as an autonomous agent in a cloud container. Trigger this skill whenever the user wants to build with managed agents, asks about agent sessions, wants to stream agent events, uses client.beta.agents / client.beta.sessions / client.beta.environments, asks about the managed-agents-2026-04-01 beta, wants Claude to autonomously run tools in a sandbox, or asks about outcomes, multiagent orchestration, or persistent agent memory. Also trigger when the user asks how to run Claude for long-running tasks, async work, or when they want Claude to execute bash commands, write files, or browse the web autonomously.\n",
@@ -5853,17 +6951,6 @@
       "repo": "0xArx/claude-managed-agents-skill",
       "path": "",
       "commitHash": "be102cd3457f",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "diegoeis/product-spec-kit",
-      "name": "product-spec-kit",
-      "description": "Comprehensive skill for Product Managers to create organize and manage Product Teams, Strategy, PRDs, release plans, user stories, and standalone issues with high-quality acceptance criteria. Supports both full documentation workflows (PRD → Plan → Stories) and quick issue creation (standalone stories, tasks, bugs). All documentation follows design-driven development principles with functional, testable acceptance criteria based on visual designs and user flows.",
-      "categories": ["Design", "Productivity", "Documents", "Business"],
-      "author": "diegoeis",
-      "repo": "diegoeis/product-spec-kit",
-      "path": "",
-      "commitHash": "1b4e84ed0c84",
       "files": ["SKILL.md"]
     },
     {
