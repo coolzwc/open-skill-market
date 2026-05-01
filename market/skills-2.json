@@ -14,13 +14,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "OpenRaiser/NanoResearch": {
-      "url": "https://github.com/OpenRaiser/NanoResearch",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "a5c-ai/babysitter": {
       "url": "https://github.com/a5c-ai/babysitter",
       "branch": "main",
@@ -224,15 +217,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "hqhq1025/skill-optimizer": {
-      "url": "https://github.com/hqhq1025/skill-optimizer",
+    "YIKUAIBANZI/forge-skill": {
+      "url": "https://github.com/YIKUAIBANZI/forge-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "YIKUAIBANZI/forge-skill": {
-      "url": "https://github.com/YIKUAIBANZI/forge-skill",
+    "hqhq1025/skill-optimizer": {
+      "url": "https://github.com/hqhq1025/skill-optimizer",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -1618,110 +1611,6 @@
         "platform_insights.py",
         "sample_input.json",
         "trend_analyzer.py"
-      ]
-    },
-    {
-      "id": "OpenRaiser/NanoResearch/skills/nanoresearch-writing",
-      "name": "nanoresearch-writing",
-      "description": "Draft a LaTeX research paper from all previous stage outputs",
-      "categories": ["Writing", "Research"],
-      "author": "OpenRaiser",
-      "repo": "OpenRaiser/NanoResearch",
-      "path": "skills/nanoresearch-writing",
-      "commitHash": "7130f14cd340",
-      "version": "0.1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "OpenRaiser/NanoResearch/skills/nanoresearch-ideation",
-      "name": "nanoresearch-ideation",
-      "description": "Search academic literature and generate research hypotheses",
-      "categories": ["Research"],
-      "author": "OpenRaiser",
-      "repo": "OpenRaiser/NanoResearch",
-      "path": "skills/nanoresearch-ideation",
-      "commitHash": "7130f14cd340",
-      "version": "0.1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "OpenRaiser/NanoResearch/skills/nanoresearch-planning",
-      "name": "nanoresearch-planning",
-      "description": "Produce an experiment blueprint from a research hypothesis",
-      "categories": ["Research"],
-      "author": "OpenRaiser",
-      "repo": "OpenRaiser/NanoResearch",
-      "path": "skills/nanoresearch-planning",
-      "commitHash": "7130f14cd340",
-      "version": "0.1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "OpenRaiser/NanoResearch/skills/nanoresearch-experiment",
-      "name": "nanoresearch-experiment",
-      "description": "Generate a Python code skeleton from an experiment blueprint",
-      "categories": ["Development", "Research"],
-      "author": "OpenRaiser",
-      "repo": "OpenRaiser/NanoResearch",
-      "path": "skills/nanoresearch-experiment",
-      "commitHash": "7130f14cd340",
-      "version": "0.1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "OpenRaiser/NanoResearch/skills/vendor-ai-research/ml-paper-writing",
-      "name": "ml-paper-writing",
-      "description": "Write publication-ready ML/AI/Systems papers for NeurIPS, ICML, ICLR, ACL, AAAI, COLM, OSDI, NSDI, ASPLOS, SOSP. Use when drafting papers from research repos, structuring arguments, verifying citations, or preparing camera-ready submissions. Includes LaTeX templates, reviewer guidelines, and citation verification workflows.",
-      "categories": ["Writing", "Productivity", "Research", "AI & ML"],
-      "author": "OpenRaiser",
-      "repo": "OpenRaiser/NanoResearch",
-      "path": "skills/vendor-ai-research/ml-paper-writing",
-      "commitHash": "7130f14cd340",
-      "version": "1.1.0",
-      "tags": [
-        "Academic Writing",
-        "NeurIPS",
-        "ICML",
-        "ICLR",
-        "ACL",
-        "AAAI",
-        "COLM",
-        "OSDI",
-        "NSDI",
-        "ASPLOS",
-        "SOSP",
-        "LaTeX",
-        "Paper Writing",
-        "Citations",
-        "Research",
-        "Systems"
-      ],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "SKILL.md",
-        "references/checklists.md",
-        "references/citation-workflow.md",
-        "references/reviewer-guidelines.md",
-        "references/sources.md",
-        "references/systems-conferences.md",
-        "references/writing-guide.md",
-        "templates/README.md",
-        "templates/aaai2026/README.md",
-        "templates/aaai2026/aaai2026-unified-supp.tex",
-        "templates/aaai2026/aaai2026-unified-template.tex",
-        "templates/aaai2026/aaai2026.bib",
-        "templates/aaai2026/aaai2026.bst",
-        "templates/aaai2026/aaai2026.sty",
-        "templates/acl/README.md",
-        "templates/acl/acl.sty",
-        "templates/acl/acl_latex.tex",
-        "templates/acl/acl_lualatex.tex",
-        "templates/acl/acl_natbib.bst",
-        "templates/acl/anthology.bib.txt"
       ]
     },
     {
@@ -5958,17 +5847,6 @@
       "files": ["SKILL.md", "reference.md"]
     },
     {
-      "id": "hqhq1025/skill-optimizer/skills/skill-optimizer",
-      "name": "skill-optimizer",
-      "description": "Use when the user wants to analyze, audit, or improve their Agent Skills (SKILL.md files). Triggers on /optimize-skill, /skill-audit, 'optimize skills', 'analyze skills', 'check my skills', 'skill quality'. Also use proactively when the user mentions skills aren't triggering, skills feel broken, or asks why a skill didn't fire.",
-      "categories": ["Other"],
-      "author": "hqhq1025",
-      "repo": "hqhq1025/skill-optimizer",
-      "path": "skills/skill-optimizer",
-      "commitHash": "c48b4b5e22e1",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "YIKUAIBANZI/forge-skill/use-self",
       "name": "use-self",
       "description": "召唤你的数字替身进行决策辅助。多个版本的你同时分析一个决定，帮你看清局中看不清的自己。",
@@ -6032,6 +5910,17 @@
       "repo": "YIKUAIBANZI/forge-skill",
       "path": "evals/eval-consistency",
       "commitHash": "6bb2448003ac",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "hqhq1025/skill-optimizer/skills/skill-optimizer",
+      "name": "skill-optimizer",
+      "description": "Use when the user wants to analyze, audit, or improve their Agent Skills (SKILL.md files). Triggers on /optimize-skill, /skill-audit, 'optimize skills', 'analyze skills', 'check my skills', 'skill quality'. Also use proactively when the user mentions skills aren't triggering, skills feel broken, or asks why a skill didn't fire.",
+      "categories": ["Other"],
+      "author": "hqhq1025",
+      "repo": "hqhq1025/skill-optimizer",
+      "path": "skills/skill-optimizer",
+      "commitHash": "c48b4b5e22e1",
       "files": ["SKILL.md"]
     },
     {
