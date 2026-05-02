@@ -1,19 +1,5 @@
 {
   "repositories": {
-    "CloudAI-X/claude-workflow-v2": {
-      "url": "https://github.com/CloudAI-X/claude-workflow-v2",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "AIPexStudio/AIPex": {
-      "url": "https://github.com/AIPexStudio/AIPex",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "itsmostafa/aws-agent-skills": {
       "url": "https://github.com/itsmostafa/aws-agent-skills",
       "branch": "main",
@@ -385,15 +371,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "brettdavies/crawl4ai-skill": {
-      "url": "https://github.com/brettdavies/crawl4ai-skill",
+    "ForteScarlet/codex-kkp": {
+      "url": "https://github.com/ForteScarlet/codex-kkp",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "ForteScarlet/codex-kkp": {
-      "url": "https://github.com/ForteScarlet/codex-kkp",
+    "brettdavies/crawl4ai-skill": {
+      "url": "https://github.com/brettdavies/crawl4ai-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -506,199 +492,6 @@
     }
   },
   "skills": [
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/managing-git",
-      "name": "managing-git",
-      "description": "Manages Git workflows including branching, commits, and pull requests. Use when working with Git, creating commits, opening PRs, managing branches, resolving conflicts, or when asked about version control best practices.",
-      "categories": ["Development", "Productivity"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/managing-git",
-      "commitHash": "28af9ed56fe0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/error-handling",
-      "name": "error-handling",
-      "description": "Implements error handling patterns, structured logging, retry strategies, circuit breakers, and graceful degradation. Use when designing error handling, setting up logging, implementing retries, adding error tracking, or when asked about error boundaries, log aggregation, alerting, or resilience patterns.",
-      "categories": ["Design"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/error-handling",
-      "commitHash": "b6952dd3cd31",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/convex-backend",
-      "name": "convex-backend",
-      "description": "Convex backend development guidelines. Use when writing Convex functions, schemas, queries, mutations, actions, or any backend code in a Convex project. Triggers on tasks involving Convex database operations, real-time subscriptions, file storage, or serverless functions.",
-      "categories": ["Development", "Productivity", "Data & Analytics"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/convex-backend",
-      "commitHash": "b6952dd3cd31",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/designing-apis",
-      "name": "designing-apis",
-      "description": "Designs REST and GraphQL APIs including endpoints, error handling, versioning, and documentation. Use when creating new APIs, designing endpoints, reviewing API contracts, or when asked about REST, GraphQL, or API patterns.",
-      "categories": ["Development"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/designing-apis",
-      "commitHash": "28af9ed56fe0",
-      "files": ["OPENAPI-TEMPLATE.md", "SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/database-design",
-      "name": "database-design",
-      "description": "Designs database schemas, indexing strategies, query optimization, and migration patterns for SQL and NoSQL databases. Use when designing tables, optimizing queries, fixing N+1 problems, planning migrations, or when asked about database performance, normalization, ORMs, or data modeling.",
-      "categories": ["Data & Analytics", "Documents"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/database-design",
-      "commitHash": "28af9ed56fe0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/security-patterns",
-      "name": "security-patterns",
-      "description": "Implements authentication, authorization, encryption, secrets management, and security hardening patterns. Use when designing auth flows, managing secrets, configuring CORS, implementing rate limiting, or when asked about JWT, OAuth, password hashing, API keys, RBAC, or security best practices.",
-      "categories": ["Development", "Security"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/security-patterns",
-      "commitHash": "b6952dd3cd31",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/parallel-execution",
-      "name": "parallel-execution",
-      "description": "Patterns for parallel subagent execution using Task tool with run_in_background. Use when coordinating multiple independent tasks, spawning dynamic subagents, or implementing features that can be parallelized.",
-      "categories": ["Other"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/parallel-execution",
-      "commitHash": "28af9ed56fe0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/analyzing-projects",
-      "name": "analyzing-projects",
-      "description": "Analyzes codebases to understand structure, tech stack, patterns, and conventions. Use when onboarding to a new project, exploring unfamiliar code, or when asked \"how does this work?\" or \"what's the architecture?\"",
-      "categories": ["Development"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/analyzing-projects",
-      "commitHash": "28af9ed56fe0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/web-design-guidelines",
-      "name": "web-design-guidelines",
-      "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", \"check my site against best practices\", or \"web interface guidelines\".",
-      "categories": ["Development", "Security", "Design"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/web-design-guidelines",
-      "commitHash": "28af9ed56fe0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/devops-infrastructure",
-      "name": "devops-infrastructure",
-      "description": "Guides Docker, CI/CD pipelines, deployment strategies, infrastructure as code, and observability setup. Use when writing Dockerfiles, configuring GitHub Actions, planning deployments, setting up monitoring, or when asked about containers, pipelines, Terraform, or production infrastructure.",
-      "categories": ["Development", "DevOps", "Documents"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/devops-infrastructure",
-      "commitHash": "28af9ed56fe0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/designing-architecture",
-      "name": "designing-architecture",
-      "description": "Designs software architecture and selects appropriate patterns for projects. Use when designing systems, choosing architecture patterns, structuring projects, making technical decisions, or when asked about microservices, monoliths, or architectural approaches.",
-      "categories": ["Development"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/designing-architecture",
-      "commitHash": "28af9ed56fe0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/optimizing-performance",
-      "name": "optimizing-performance",
-      "description": "Analyzes and optimizes application performance across frontend, backend, and database layers. Use when diagnosing slowness, improving load times, optimizing queries, reducing bundle size, or when asked about performance issues.",
-      "categories": ["Development", "Data & Analytics"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/optimizing-performance",
-      "commitHash": "28af9ed56fe0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/designing-tests",
-      "name": "designing-tests",
-      "description": "Designs and implements testing strategies for any codebase. Use when adding tests, improving coverage, setting up testing infrastructure, debugging test failures, or when asked about unit tests, integration tests, or E2E testing.",
-      "categories": ["Development", "AI & ML"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/designing-tests",
-      "commitHash": "28af9ed56fe0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "AIPexStudio/AIPex/skill",
-      "name": "aipex-browser",
-      "description": "AI-powered browser automation using the AIPex Chrome Extension via MCP bridge. Use this skill when the agent needs to control a Chrome browser — navigating pages, clicking elements, filling forms, capturing screenshots, managing tabs, or downloading content — by connecting to the AIPex MCP bridge.",
-      "categories": ["Integration", "AI & ML"],
-      "author": "AIPexStudio",
-      "repo": "AIPexStudio/AIPex",
-      "path": "skill",
-      "commitHash": "d2da20132496",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "AIPexStudio/AIPex/packages/browser-runtime/src/skill/built-in/skill-creator-browser",
-      "name": "skill-creator",
-      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends AIPex's capabilities with specialized knowledge, workflows, or tool integrations.",
-      "categories": ["Other"],
-      "author": "AIPexStudio",
-      "repo": "AIPexStudio/AIPex",
-      "path": "packages/browser-runtime/src/skill/built-in/skill-creator-browser",
-      "commitHash": "d2da20132496",
-      "files": ["LICENSE.txt", "SKILL.md", "scripts"]
-    },
-    {
-      "id": "AIPexStudio/AIPex/packages/browser-runtime/src/skill/built-in/ux-audit-walkthrough",
-      "name": "ux-audit-walkthrough",
-      "description": "Minimalist UX/Interaction Audit Expert that deconstructs complex interactions through cognitive load and operational efficiency lenses. Use this skill when you need to perform a UX walkthrough audit on a Figma prototype or web interface, evaluating usability based on principles like fewer clicks, less UI elements, no hidden logic, and self-explanatory design.",
-      "categories": ["Design", "Productivity"],
-      "author": "AIPexStudio",
-      "repo": "AIPexStudio/AIPex",
-      "path": "packages/browser-runtime/src/skill/built-in/ux-audit-walkthrough",
-      "commitHash": "d2da20132496",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "AIPexStudio/AIPex/packages/browser-runtime/src/skill/built-in/wcag22-a11y-audit",
-      "name": "wcag22-a11y-audit",
-      "description": "WCAG 2.2 Accessibility Audit skill that systematically evaluates web pages against 8 core Success Criteria (1.1.1, 1.4.3, 1.4.11, 2.1.1, 2.1.2, 2.4.3, 2.4.7, 4.1.2) using accessibility tree inspection and visual analysis. Use this skill when you need to perform accessibility testing/auditing on a live webpage.",
-      "categories": ["Development", "Research"],
-      "author": "AIPexStudio",
-      "repo": "AIPexStudio/AIPex",
-      "path": "packages/browser-runtime/src/skill/built-in/wcag22-a11y-audit",
-      "commitHash": "d2da20132496",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
     {
       "id": "itsmostafa/aws-agent-skills/skills/sns",
       "name": "sns",
@@ -6823,17 +6616,6 @@
       "files": ["SKILL.md", "references"]
     },
     {
-      "id": "brettdavies/crawl4ai-skill/crawl4ai",
-      "name": "crawl4ai",
-      "description": "This skill should be used when users need to scrape websites, extract structured data, handle JavaScript-heavy pages, crawl multiple URLs, or build automated web data pipelines. Includes optimized extraction patterns with schema generation for efficient, LLM-free extraction.",
-      "categories": ["Development", "Data & Analytics", "Research", "AI & ML"],
-      "author": "brettdavies",
-      "repo": "brettdavies/crawl4ai-skill",
-      "path": "crawl4ai",
-      "commitHash": "2c595528f7d9",
-      "files": ["SKILL.md", "references", "scripts", "tests"]
-    },
-    {
       "id": "ForteScarlet/codex-kkp/claude-code-skills-template/codex-agent-collaboration",
       "name": "codex-agent-collaboration",
       "description": "Delegate coding tasks to Codex AI for implementation, analysis, and alternative solutions. Use when you need a second AI perspective, want to explore different approaches, or need specialized Codex capabilities for complex coding tasks.",
@@ -6849,6 +6631,17 @@
         "outputs.md",
         "sandbox-modes.md"
       ]
+    },
+    {
+      "id": "brettdavies/crawl4ai-skill/crawl4ai",
+      "name": "crawl4ai",
+      "description": "This skill should be used when users need to scrape websites, extract structured data, handle JavaScript-heavy pages, crawl multiple URLs, or build automated web data pipelines. Includes optimized extraction patterns with schema generation for efficient, LLM-free extraction.",
+      "categories": ["Development", "Data & Analytics", "Research", "AI & ML"],
+      "author": "brettdavies",
+      "repo": "brettdavies/crawl4ai-skill",
+      "path": "crawl4ai",
+      "commitHash": "2c595528f7d9",
+      "files": ["SKILL.md", "references", "scripts", "tests"]
     },
     {
       "id": "cjpatten/canadian-finance-planner-skill",
