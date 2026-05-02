@@ -1,12 +1,5 @@
 {
   "repositories": {
-    "softaworks/agent-toolkit": {
-      "url": "https://github.com/softaworks/agent-toolkit",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "CloudAI-X/claude-workflow-v2": {
       "url": "https://github.com/CloudAI-X/claude-workflow-v2",
       "branch": "main",
@@ -98,15 +91,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "axtonliu/smart-illustrator": {
-      "url": "https://github.com/axtonliu/smart-illustrator",
+    "Bhanunamikaze/Agentic-SEO-Skill": {
+      "url": "https://github.com/Bhanunamikaze/Agentic-SEO-Skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "Bhanunamikaze/Agentic-SEO-Skill": {
-      "url": "https://github.com/Bhanunamikaze/Agentic-SEO-Skill",
+    "axtonliu/smart-illustrator": {
+      "url": "https://github.com/axtonliu/smart-illustrator",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -238,16 +231,16 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "nokonoko1203/claude-code-settings": {
-      "url": "https://github.com/nokonoko1203/claude-code-settings",
-      "branch": "main",
+    "haddock-development/claude-reflect-system": {
+      "url": "https://github.com/haddock-development/claude-reflect-system",
+      "branch": "master",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "haddock-development/claude-reflect-system": {
-      "url": "https://github.com/haddock-development/claude-reflect-system",
-      "branch": "master",
+    "nokonoko1203/claude-code-settings": {
+      "url": "https://github.com/nokonoko1203/claude-code-settings",
+      "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
@@ -294,13 +287,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "VideoZero/skills": {
-      "url": "https://github.com/VideoZero/skills",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "snakeying/Synapse": {
       "url": "https://github.com/snakeying/Synapse",
       "branch": "main",
@@ -315,15 +301,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "chrisvoncsefalvay/autostar": {
-      "url": "https://github.com/chrisvoncsefalvay/autostar",
+    "VapiAI/skills": {
+      "url": "https://github.com/VapiAI/skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "VapiAI/skills": {
-      "url": "https://github.com/VapiAI/skills",
+    "chrisvoncsefalvay/autostar": {
+      "url": "https://github.com/chrisvoncsefalvay/autostar",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -520,476 +506,6 @@
     }
   },
   "skills": [
-    {
-      "id": "softaworks/agent-toolkit/skills/mui",
-      "name": "mui",
-      "description": "Material-UI v7 component library patterns including sx prop styling, theme integration, responsive design, and MUI-specific hooks. Use when working with MUI components, styling with sx prop, theme customization, or MUI utilities.",
-      "categories": ["Development", "Design"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/mui",
-      "commitHash": "011baf4acea9",
-      "files": ["README.md", "SKILL.md", "resources", "skill-rules-fragment.json"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/jira",
-      "name": "jira",
-      "description": "Use when the user mentions Jira issues (e.g., \"PROJ-123\"), asks about tickets, wants to create/view/update issues, check sprint status, or manage their Jira workflow. Triggers on keywords like \"jira\", \"issue\", \"ticket\", \"sprint\", \"backlog\", or issue key patterns.",
-      "categories": ["Productivity", "Business"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/jira",
-      "commitHash": "507609844c9c",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/gemini",
-      "name": "gemini",
-      "description": "Use when the user asks to run Gemini CLI for code review, plan review, or big context (>200k) processing. Ideal for comprehensive analysis requiring large context windows. Uses Gemini 3 Pro by default for state-of-the-art reasoning and coding.",
-      "categories": ["Development", "Design"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/gemini",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/gepetto",
-      "name": "gepetto",
-      "description": "Creates detailed, sectionized implementation plans through research, stakeholder interviews, and multi-LLM review. Use when planning features that need thorough pre-implementation analysis.",
-      "categories": ["Business", "Research", "AI & ML"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/gepetto",
-      "commitHash": "e6077cf7cd68",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/draw-io",
-      "name": "draw-io",
-      "description": "draw.io diagram creation, editing, and review. Use for .drawio XML editing, PNG conversion, layout adjustment, and AWS icon usage.",
-      "categories": ["Design", "Writing"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/draw-io",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/react-dev",
-      "name": "react-dev",
-      "description": "This skill should be used when building React components with TypeScript, typing hooks, handling events, or when React TypeScript, React 19, Server Components are mentioned. Covers type-safe patterns for React 18-19 including generic components, proper event typing, and routing integration (TanStack Router, React Router).",
-      "categories": ["Development"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/react-dev",
-      "commitHash": "e051bb4a4857",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["README.md", "SKILL.md", "examples", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/humanizer",
-      "name": "humanizer",
-      "description": "Remove signs of AI-generated writing from text. Use when editing or reviewing\ntext to make it sound more natural and human-written. Based on Wikipedia's\ncomprehensive \"Signs of AI writing\" guide. Detects and fixes patterns including:\ninflated symbolism, promotional language, superficial -ing analyses, vague\nattributions, em dash overuse, rule of three, AI vocabulary words, negative\nparallelisms, and excessive conjunctive phrases.\n\nCredits: Original skill by @blader - https://github.com/blader/humanizer\n",
-      "categories": ["Development", "Writing"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/humanizer",
-      "commitHash": "2c67cc5cae4f",
-      "version": "2.1.1",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/perplexity",
-      "name": "perplexity",
-      "description": "Web search and research using Perplexity AI. Use when user says \"search\", \"find\", \"look up\", \"ask\", \"research\", or \"what's the latest\" for generic queries. NOT for library/framework docs (use Context7) or workspace questions.",
-      "categories": ["Development", "Writing", "Research"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/perplexity",
-      "commitHash": "c0556074cf27",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/excalidraw",
-      "name": "excalidraw",
-      "description": "Use when working with *.excalidraw or *.excalidraw.json files, user mentions diagrams/flowcharts, or requests architecture visualization - delegates all Excalidraw operations to subagents to prevent context exhaustion from verbose JSON (single files: 4k-22k tokens, can exceed read limits)",
-      "categories": ["Design", "Data & Analytics"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/excalidraw",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/marp-slide",
-      "name": "marp-slide",
-      "description": "Create professional Marp presentation slides with 7 beautiful themes (default, minimal, colorful, dark, gradient, tech, business). Use when users request slide creation, presentations, or Marp documents. Supports custom themes, image layouts, and \"make it look good\" requests with automatic quality improvements.",
-      "categories": ["Design", "Documents"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/marp-slide",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md", "assets", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/datadog-cli",
-      "name": "datadog-cli",
-      "description": "Datadog CLI for searching logs, querying metrics, tracing requests, and managing dashboards. Use this when debugging production issues or working with Datadog observability.",
-      "categories": ["Development", "DevOps", "Data & Analytics"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/datadog-cli",
-      "commitHash": "812fc0517b11",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/skill-judge",
-      "name": "skill-judge",
-      "description": "Evaluate Agent Skill design quality against official specifications and best practices. Use when reviewing, auditing, or improving SKILL.md files and skill packages. Provides multi-dimensional scoring and actionable improvement suggestions.",
-      "categories": ["AI & ML"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/skill-judge",
-      "commitHash": "40d4469f7357",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/commit-work",
-      "name": "commit-work",
-      "description": "Create high-quality git commits: review/stage intended changes, split into logical commits, and write clear commit messages (including Conventional Commits). Use when the user asks to commit, craft a commit message, stage changes, or split work into multiple commits.",
-      "categories": ["Development"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/commit-work",
-      "commitHash": "e5c69afe5ca4",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/plugin-forge",
-      "name": "plugin-forge",
-      "description": "Create and manage Claude Code plugins with proper structure, manifests, and marketplace integration. Use when creating plugins for a marketplace, adding plugin components (commands, agents, hooks), bumping plugin versions, or working with plugin.json/marketplace.json manifests.",
-      "categories": ["Development", "AI & ML"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/plugin-forge",
-      "commitHash": "c0556074cf27",
-      "files": ["README.md", "SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/meme-factory",
-      "name": "meme-factory",
-      "description": "Generate memes using the memegen.link API. Use when users request memes, want to add humor to content, or need visual aids for social media. Supports 100+ popular templates with custom text and styling.",
-      "categories": ["Writing", "Productivity"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/meme-factory",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/lesson-learned",
-      "name": "lesson-learned",
-      "description": "Analyze recent code changes via git history and extract software engineering lessons. Use when the user asks 'what is the lesson here?', 'what can I learn from this?', 'engineering takeaway', 'what did I just learn?', 'reflect on this code', or wants to extract principles from recent work.",
-      "categories": ["Development", "Research"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/lesson-learned",
-      "commitHash": "0c042f2216a9",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/web-to-markdown",
-      "name": "web-to-markdown",
-      "description": "Use ONLY when the user explicitly says: 'use the skill web-to-markdown ...' (or 'use a skill web-to-markdown ...'). Converts webpage URLs to clean Markdown by calling the local web2md CLI (Puppeteer + Readability), suitable for JS-rendered pages.",
-      "categories": ["Documents"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/web-to-markdown",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/naming-analyzer",
-      "name": "naming-analyzer",
-      "description": "Suggest better variable, function, and class names based on context and conventions.",
-      "categories": ["Other"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/naming-analyzer",
-      "commitHash": "40d4469f7357",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/ship-learn-next",
-      "name": "ship-learn-next",
-      "description": "Transform learning content (like YouTube transcripts, articles, tutorials) into actionable implementation plans using the Ship-Learn-Next framework. Use when user wants to turn advice, lessons, or educational content into concrete action steps, reps, or a learning quest.",
-      "categories": ["Writing", "Media"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/ship-learn-next",
-      "commitHash": "40d4469f7357",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/c4-architecture",
-      "name": "c4-architecture",
-      "description": "Generate architecture documentation using C4 model Mermaid diagrams. Use when asked to create architecture diagrams, document system architecture, visualize software structure, create C4 diagrams, or generate context/container/component/deployment diagrams. Triggers include \"architecture diagram\", \"C4 diagram\", \"system context\", \"container diagram\", \"component diagram\", \"deployment diagram\", \"document architecture\", \"visualize architecture\".",
-      "categories": ["Development", "DevOps", "Writing", "AI & ML"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/c4-architecture",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/react-useeffect",
-      "name": "react-useeffect",
-      "description": "React useEffect best practices from official docs. Use when writing/reviewing useEffect, useState for derived values, data fetching, or state synchronization. Teaches when NOT to use Effect and better alternatives.",
-      "categories": ["Development", "Writing"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/react-useeffect",
-      "commitHash": "1ef06f0abb5b",
-      "files": ["README.md", "SKILL.md", "alternatives.md", "anti-patterns.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/command-creator",
-      "name": "command-creator",
-      "description": "This skill should be used when creating a Claude Code slash command. Use when users ask to \"create a command\", \"make a slash command\", \"add a command\", or want to document a workflow as a reusable command. Essential for creating optimized, agent-executable slash commands with proper structure and best practices.",
-      "categories": ["Development", "Documents", "AI & ML"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/command-creator",
-      "commitHash": "2423b4f0d2cd",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/session-handoff",
-      "name": "session-handoff",
-      "description": "Creates comprehensive handoff documents for seamless AI agent session transfers. Triggered when: (1) user requests handoff/memory/context save, (2) context window approaches capacity, (3) major task milestone completed, (4) work session ending, (5) user says 'save state', 'create handoff', 'I need to pause', 'context is getting full', (6) resuming work with 'load handoff', 'resume from', 'continue where we left off'. Proactively suggests handoffs after substantial work (multiple file edits, complex debugging, architecture decisions). Solves long-running agent context exhaustion by enabling fresh agents to continue with zero ambiguity.",
-      "categories": ["Development", "Writing", "Documents", "AI & ML"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/session-handoff",
-      "commitHash": "ebb0419d8c5a",
-      "files": ["README.md", "SKILL.md", "evals", "references", "scripts"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/reducing-entropy",
-      "name": "reducing-entropy",
-      "description": "Manual-only skill for minimizing total codebase size. Only activate when explicitly requested by user. Measures success by final code amount, not effort. Bias toward deletion.",
-      "categories": ["Other"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/reducing-entropy",
-      "commitHash": "efbd228db868",
-      "files": ["README.md", "SKILL.md", "adding-reference-mindsets.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/mermaid-diagrams",
-      "name": "mermaid-diagrams",
-      "description": "Comprehensive guide for creating software diagrams using Mermaid syntax. Use when users need to create, visualize, or document software through diagrams including class diagrams (domain modeling, object-oriented design), sequence diagrams (application flows, API interactions, code execution), flowcharts (processes, algorithms, user journeys), entity relationship diagrams (database schemas), C4 architecture diagrams (system context, containers, components), state diagrams, git graphs, pie charts, gantt charts, or any other diagram type. Triggers include requests to \"diagram\", \"visualize\", \"model\", \"map out\", \"show the flow\", or when explaining system architecture, database design, code structure, or user/application flows.",
-      "categories": ["Development", "Design", "Data & Analytics", "AI & ML"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/mermaid-diagrams",
-      "commitHash": "025dcd003b45",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/feedback-mastery",
-      "name": "feedback-mastery",
-      "description": "Navigate difficult conversations and deliver constructive feedback using structured frameworks. Covers the Preparation-Delivery-Follow-up model and Situation-Behavior-Impact (SBI) feedback technique. Use when preparing for difficult conversations, giving feedback, or managing conflicts.",
-      "categories": ["Other"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/feedback-mastery",
-      "commitHash": "ebb0419d8c5a",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/agent-md-refactor",
-      "name": "agent-md-refactor",
-      "description": "Refactor bloated AGENTS.md, CLAUDE.md, or similar agent instruction files to follow progressive disclosure principles. Splits monolithic files into organized, linked documentation.",
-      "categories": ["Documents", "AI & ML"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/agent-md-refactor",
-      "commitHash": "39ab48063982",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/dependency-updater",
-      "name": "dependency-updater",
-      "description": "Smart dependency management for any language. Auto-detects project type, applies safe updates automatically, prompts for major versions, diagnoses and fixes dependency issues.",
-      "categories": ["Productivity"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/dependency-updater",
-      "commitHash": "011baf4acea9",
-      "files": ["README.md", "SKILL.md", "scripts"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/requirements-clarity",
-      "name": "requirements-clarity",
-      "description": "Clarify ambiguous requirements through focused dialogue before implementation. Use when requirements are unclear, features are complex (>2 days), or involve cross-team coordination. Ask two core questions - Why? (YAGNI check) and Simpler? (KISS check) - to ensure clarity before coding.",
-      "categories": ["Other"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/requirements-clarity",
-      "commitHash": "8453994cf12a",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/daily-meeting-update",
-      "name": "daily-meeting-update",
-      "description": "Interactive daily standup/meeting update generator. Use when user says 'daily', 'standup', 'scrum update', 'status update', 'what did I do yesterday', 'prepare for meeting', 'morning update', or 'team sync'. Pulls activity from GitHub, Jira, and Claude Code session history. Conducts 4-question interview (yesterday, today, blockers, discussion topics) and generates formatted Markdown update.",
-      "categories": [
-        "Development",
-        "Productivity",
-        "Documents",
-        "Integration",
-        "Business",
-        "AI & ML"
-      ],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/daily-meeting-update",
-      "commitHash": "87afc180e7e0",
-      "files": ["README.md", "SKILL.md", "scripts"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/design-system-starter",
-      "name": "design-system-starter",
-      "description": "Create and evolve design systems with design tokens, component architecture, accessibility guidelines, and documentation templates. Ensures consistent, scalable, and accessible UI across products.",
-      "categories": ["Development", "Design"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/design-system-starter",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md", "checklists", "references", "templates"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/openapi-to-typescript",
-      "name": "openapi-to-typescript",
-      "description": "Converts OpenAPI 3.0 JSON/YAML to TypeScript interfaces and type guards. This skill should be used when the user asks to generate types from OpenAPI, convert schema to TS, create API interfaces, or generate TypeScript types from an API specification.",
-      "categories": ["Development", "Data & Analytics"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/openapi-to-typescript",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/game-changing-features",
-      "name": "game-changing-features",
-      "description": "Find 10x product opportunities and high-leverage improvements. Use when user wants strategic product thinking, mentions '10x', wants to find high-impact features, or says 'what would make this 10x better', 'product strategy', or 'what should we build next'.",
-      "categories": ["Other"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/game-changing-features",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/database-schema-designer",
-      "name": "database-schema-designer",
-      "description": "Design robust, scalable database schemas for SQL and NoSQL databases. Provides normalization guidelines, indexing strategies, migration patterns, constraint design, and performance optimization. Ensures data integrity, query performance, and maintainable data models.",
-      "categories": ["Design", "Data & Analytics", "AI & ML"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/database-schema-designer",
-      "commitHash": "011baf4acea9",
-      "files": ["README.md", "SKILL.md", "assets", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/professional-communication",
-      "name": "professional-communication",
-      "description": "Guide technical communication for software developers. Covers email structure, team messaging etiquette, meeting agendas, and adapting messages for technical vs non-technical audiences. Use when drafting professional messages, preparing meeting communications, or improving written communication.",
-      "categories": ["Other"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/professional-communication",
-      "commitHash": "ebb0419d8c5a",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/crafting-effective-readmes",
-      "name": "crafting-effective-readmes",
-      "description": "Use when writing or improving README files. Not all READMEs are the same — provides templates and guidance matched to your audience and project type.",
-      "categories": ["Writing", "Productivity"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/crafting-effective-readmes",
-      "commitHash": "efbd228db868",
-      "files": [
-        "README.md",
-        "SKILL.md",
-        "references",
-        "section-checklist.md",
-        "style-guide.md",
-        "templates",
-        "using-references.md"
-      ]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/writing-clearly-and-concisely",
-      "name": "writing-clearly-and-concisely",
-      "description": "Use when writing prose humans will read—documentation, commit messages, error messages, explanations, reports, or UI text. Applies Strunk's timeless rules for clearer, stronger, more professional writing.",
-      "categories": ["Writing"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/writing-clearly-and-concisely",
-      "commitHash": "32d7e8aad4f4",
-      "files": ["README.md", "SKILL.md", "elements-of-style", "signs-of-ai-writing.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/backend-to-frontend-handoff-docs",
-      "name": "backend-to-frontend-handoff-docs",
-      "description": "Create API handoff documentation for frontend developers. Use when backend work is complete and needs to be documented for frontend integration, or user says 'create handoff', 'document API', 'frontend handoff', or 'API documentation'.",
-      "categories": ["Development", "Writing"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/backend-to-frontend-handoff-docs",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/frontend-to-backend-requirements",
-      "name": "frontend-to-backend-requirements",
-      "description": "Document frontend data needs for backend developers. Use when frontend needs to communicate API requirements to backend, or user says 'backend requirements', 'what data do I need', 'API requirements', or is describing data needs for a UI.",
-      "categories": ["Development"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/frontend-to-backend-requirements",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/difficult-workplace-conversations",
-      "name": "difficult-workplace-conversations",
-      "description": "Structured approach to workplace conflicts, performance discussions, and challenging feedback using preparation-delivery-followup framework. Use when preparing for tough conversations, addressing conflicts, giving critical feedback, or navigating sensitive workplace discussions.",
-      "categories": ["Other"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/difficult-workplace-conversations",
-      "commitHash": "011baf4acea9",
-      "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/qa-test-planner",
-      "name": "qa-test-planner",
-      "description": "Generate comprehensive test plans, manual test cases, regression test suites, and bug reports for QA engineers. Includes Figma MCP integration for design validation.",
-      "categories": ["Design", "Integration"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/qa-test-planner",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md", "references", "scripts"]
-    },
     {
       "id": "CloudAI-X/claude-workflow-v2/skills/managing-git",
       "name": "managing-git",
@@ -3626,17 +3142,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "axtonliu/smart-illustrator",
-      "name": "smart-illustrator",
-      "description": "智能配图与 PPT 信息图生成器。支持三种模式：(1) 文章配图模式 - 分析文章内容，生成插图；(2) PPT/Slides 模式 - 生成批量信息图；(3) Cover 模式 - 生成封面图。所有模式默认生成图片，`--prompt-only` 只输出 prompt。支持 Bento Grid 功能展示图风格（--style bento）。触发词：配图、插图、PPT、slides、封面图、thumbnail、cover、bento grid、功能展示图、feature showcase。",
-      "categories": ["Design", "Data & Analytics", "Documents", "AI & ML"],
-      "author": "axtonliu",
-      "repo": "axtonliu/smart-illustrator",
-      "path": "",
-      "commitHash": "51408881fa41",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "Bhanunamikaze/Agentic-SEO-Skill",
       "name": "seo",
       "description": "Deterministic LLM-first SEO audits for websites, blog posts, and GitHub repositories. Use this when the user asks to \"perform SEO analysis\", \"run SEO audit\", \"analyze SEO\", \"check technical SEO\", \"review schema\", \"Core Web Vitals\", \"E-E-A-T\", \"hreflang\", \"GEO\", \"AEO\", or GitHub repository SEO optimization. For full/page/repo audits, run bundled scripts for evidence and return prioritized, confidence-labeled fixes.\n",
@@ -3645,6 +3150,17 @@
       "repo": "Bhanunamikaze/Agentic-SEO-Skill",
       "path": "",
       "commitHash": "337069435d16",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "axtonliu/smart-illustrator",
+      "name": "smart-illustrator",
+      "description": "智能配图与 PPT 信息图生成器。支持三种模式：(1) 文章配图模式 - 分析文章内容，生成插图；(2) PPT/Slides 模式 - 生成批量信息图；(3) Cover 模式 - 生成封面图。所有模式默认生成图片，`--prompt-only` 只输出 prompt。支持 Bento Grid 功能展示图风格（--style bento）。触发词：配图、插图、PPT、slides、封面图、thumbnail、cover、bento grid、功能展示图、feature showcase。",
+      "categories": ["Design", "Data & Analytics", "Documents", "AI & ML"],
+      "author": "axtonliu",
+      "repo": "axtonliu/smart-illustrator",
+      "path": "",
+      "commitHash": "51408881fa41",
       "files": ["SKILL.md"]
     },
     {
@@ -6716,28 +6232,6 @@
       "files": ["SKILL.md", "reference"]
     },
     {
-      "id": "nokonoko1203/claude-code-settings/skills/playwright-cli",
-      "name": "playwright-cli",
-      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.",
-      "categories": ["Development", "Research"],
-      "author": "nokonoko1203",
-      "repo": "nokonoko1203/claude-code-settings",
-      "path": "skills/playwright-cli",
-      "commitHash": "000f5fe44452",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "nokonoko1203/claude-code-settings/skills/kill-dev-process",
-      "name": "kill-dev-process",
-      "description": "Kill orphaned dev servers, browsers, and port-hogging processes spawned during development. Use when ports are occupied, too many node/browser processes are running, or you want a fresh start.",
-      "categories": ["Other"],
-      "author": "nokonoko1203",
-      "repo": "nokonoko1203/claude-code-settings",
-      "path": "skills/kill-dev-process",
-      "commitHash": "4e0e366f0870",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "haddock-development/claude-reflect-system/reflect",
       "name": "reflect",
       "description": "Analyzes conversation transcripts to extract user corrections, patterns, and preferences, then proposes skill improvements. Use this skill when users provide corrections, express preferences about code style, or when patterns emerge from successful approaches. Can be triggered manually with /reflect or automatically at session end when enabled.\n",
@@ -6766,6 +6260,28 @@
       "path": "python-project-creator",
       "commitHash": "0fe6a68dd061",
       "files": ["SKILL.md", "assets", "references", "scripts"]
+    },
+    {
+      "id": "nokonoko1203/claude-code-settings/skills/playwright-cli",
+      "name": "playwright-cli",
+      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.",
+      "categories": ["Development", "Research"],
+      "author": "nokonoko1203",
+      "repo": "nokonoko1203/claude-code-settings",
+      "path": "skills/playwright-cli",
+      "commitHash": "000f5fe44452",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "nokonoko1203/claude-code-settings/skills/kill-dev-process",
+      "name": "kill-dev-process",
+      "description": "Kill orphaned dev servers, browsers, and port-hogging processes spawned during development. Use when ports are occupied, too many node/browser processes are running, or you want a fresh start.",
+      "categories": ["Other"],
+      "author": "nokonoko1203",
+      "repo": "nokonoko1203/claude-code-settings",
+      "path": "skills/kill-dev-process",
+      "commitHash": "4e0e366f0870",
+      "files": ["SKILL.md"]
     },
     {
       "id": "anhvt52/jetpack-compose-skills/modern-jetpack-compose",
@@ -6922,39 +6438,6 @@
       "files": ["LICENSE", "SKILL.md", "references", "scripts"]
     },
     {
-      "id": "VideoZero/skills/motion-canvas-agent",
-      "name": "motion-canvas-agent",
-      "description": "Agent tooling for Motion Canvas — seek, screenshot, scene graph inspection, settings control, and rendering via HTTP API. Requires a browser with the editor open.",
-      "categories": ["Design"],
-      "author": "VideoZero",
-      "repo": "VideoZero/skills",
-      "path": "motion-canvas-agent",
-      "commitHash": "40e66089a494",
-      "files": ["SKILL.md", "assets"]
-    },
-    {
-      "id": "VideoZero/skills/motion-canvas",
-      "name": "motion-canvas",
-      "description": "Motion Canvas framework reference covering project setup, core concepts (generators, signals, refs, scene hierarchy, timing, utilities), and 2D components (shapes, paths, text, media, layout, camera, transitions, custom components). Use when building or editing Motion Canvas scenes.",
-      "categories": ["Development", "Design", "Writing", "Productivity"],
-      "author": "VideoZero",
-      "repo": "VideoZero/skills",
-      "path": "motion-canvas",
-      "commitHash": "40e66089a494",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "VideoZero/skills/motion-graphics-fundamentals",
-      "name": "animation-basics",
-      "description": "Animation theory covering the 12 principles of animation and timing guidance. Use when designing motion, choosing easing approaches, or improving animation quality.",
-      "categories": ["Design"],
-      "author": "VideoZero",
-      "repo": "VideoZero/skills",
-      "path": "motion-graphics-fundamentals",
-      "commitHash": "40e66089a494",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "snakeying/Synapse/.codex/skills/synapse",
       "name": "synapse",
       "description": "Codex-led multi-model workflow (Codex + Claude + Gemini). Use when the user asks to run `synapse <cmd> ...` to generate draft diffs/audits and persist artifacts to `./.synapse/**`.",
@@ -6975,28 +6458,6 @@
       "path": ".claude/skills/textum",
       "commitHash": "0ae858ecba60",
       "files": ["SKILL.md", "assets", "references", "scripts"]
-    },
-    {
-      "id": "chrisvoncsefalvay/autostar/autostar-skill",
-      "name": "autostar",
-      "description": "Generalised autonomous optimisation loop — soft RLVR for any artifact a user can measure. Use this skill whenever a user wants to iteratively improve an artifact — code, prompts, documents, configs, designs, content — by running structured experiments, evaluating results against a multi-dimensional rubric, and learning from each attempt. Triggers include: \"optimise this\", \"keep improving until it's good\", \"run experiments on\", \"autoresearch\", \"iterate on this overnight\", \"try different approaches and pick the best\", or any request implying repeated evaluate-and-improve cycles. Also use when the user wants to improve a system prompt, a data pipeline, a writing style, or any artifact where quality can be decomposed into measurable tracks. For inference optimisation tasks (model latency, throughput, quantization, GPU deployment), a* delegates the low-level tuning to AITune while maintaining quality tracking and learning.\n",
-      "categories": ["DevOps", "Design", "Writing", "Data & Analytics", "Research", "AI & ML"],
-      "author": "chrisvoncsefalvay",
-      "repo": "chrisvoncsefalvay/autostar",
-      "path": "autostar-skill",
-      "commitHash": "1f4a2f62e773",
-      "files": ["SKILL.md", "assets", "references", "runtime-profiles", "scripts"]
-    },
-    {
-      "id": "chrisvoncsefalvay/autostar/autostar-claude-ai-skill",
-      "name": "autostar-web",
-      "description": "Generalised autonomous optimisation loop — soft RLVR for any artifact a user can measure. Web runtime package: uses memory in this order: connector-backed, project-pack, none. Never assumes subprocess access or unrestricted local files. Use this skill whenever a user wants to iteratively improve an artifact — code, prompts, documents, configs, designs, content — by running structured experiments, evaluating results against a multi-dimensional rubric, and learning from each attempt. Triggers include: \"optimise this\", \"keep improving until it's good\", \"run experiments on\", \"autoresearch\", \"iterate on this overnight\", \"try different approaches and pick the best\", or any request implying repeated evaluate-and-improve cycles.\n",
-      "categories": ["Design", "Productivity", "Documents", "Research", "AI & ML"],
-      "author": "chrisvoncsefalvay",
-      "repo": "chrisvoncsefalvay/autostar",
-      "path": "autostar-claude-ai-skill",
-      "commitHash": "1f4a2f62e773",
-      "files": ["SKILL.md", "references", "runtime-profiles"]
     },
     {
       "id": "VapiAI/skills/create-tool",
@@ -7085,6 +6546,28 @@
       "path": "create-phone-number",
       "commitHash": "9b95b89c02a6",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "chrisvoncsefalvay/autostar/autostar-skill",
+      "name": "autostar",
+      "description": "Generalised autonomous optimisation loop — soft RLVR for any artifact a user can measure. Use this skill whenever a user wants to iteratively improve an artifact — code, prompts, documents, configs, designs, content — by running structured experiments, evaluating results against a multi-dimensional rubric, and learning from each attempt. Triggers include: \"optimise this\", \"keep improving until it's good\", \"run experiments on\", \"autoresearch\", \"iterate on this overnight\", \"try different approaches and pick the best\", or any request implying repeated evaluate-and-improve cycles. Also use when the user wants to improve a system prompt, a data pipeline, a writing style, or any artifact where quality can be decomposed into measurable tracks. For inference optimisation tasks (model latency, throughput, quantization, GPU deployment), a* delegates the low-level tuning to AITune while maintaining quality tracking and learning.\n",
+      "categories": ["DevOps", "Design", "Writing", "Data & Analytics", "Research", "AI & ML"],
+      "author": "chrisvoncsefalvay",
+      "repo": "chrisvoncsefalvay/autostar",
+      "path": "autostar-skill",
+      "commitHash": "1f4a2f62e773",
+      "files": ["SKILL.md", "assets", "references", "runtime-profiles", "scripts"]
+    },
+    {
+      "id": "chrisvoncsefalvay/autostar/autostar-claude-ai-skill",
+      "name": "autostar-web",
+      "description": "Generalised autonomous optimisation loop — soft RLVR for any artifact a user can measure. Web runtime package: uses memory in this order: connector-backed, project-pack, none. Never assumes subprocess access or unrestricted local files. Use this skill whenever a user wants to iteratively improve an artifact — code, prompts, documents, configs, designs, content — by running structured experiments, evaluating results against a multi-dimensional rubric, and learning from each attempt. Triggers include: \"optimise this\", \"keep improving until it's good\", \"run experiments on\", \"autoresearch\", \"iterate on this overnight\", \"try different approaches and pick the best\", or any request implying repeated evaluate-and-improve cycles.\n",
+      "categories": ["Design", "Productivity", "Documents", "Research", "AI & ML"],
+      "author": "chrisvoncsefalvay",
+      "repo": "chrisvoncsefalvay/autostar",
+      "path": "autostar-claude-ai-skill",
+      "commitHash": "1f4a2f62e773",
+      "files": ["SKILL.md", "references", "runtime-profiles"]
     },
     {
       "id": "mykpono/ultimate-seo-geo",
