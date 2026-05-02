@@ -1,5 +1,12 @@
 {
   "repositories": {
+    "AIPexStudio/AIPex": {
+      "url": "https://github.com/AIPexStudio/AIPex",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "itsmostafa/aws-agent-skills": {
       "url": "https://github.com/itsmostafa/aws-agent-skills",
       "branch": "main",
@@ -371,15 +378,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "ForteScarlet/codex-kkp": {
-      "url": "https://github.com/ForteScarlet/codex-kkp",
+    "brettdavies/crawl4ai-skill": {
+      "url": "https://github.com/brettdavies/crawl4ai-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "brettdavies/crawl4ai-skill": {
-      "url": "https://github.com/brettdavies/crawl4ai-skill",
+    "ForteScarlet/codex-kkp": {
+      "url": "https://github.com/ForteScarlet/codex-kkp",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -492,6 +499,56 @@
     }
   },
   "skills": [
+    {
+      "id": "AIPexStudio/AIPex/skill",
+      "name": "aipex-browser",
+      "description": "AI-powered browser automation using the AIPex Chrome Extension via MCP bridge. Use this skill when the agent needs to control a Chrome browser — navigating pages, clicking elements, filling forms, capturing screenshots, managing tabs, or downloading content — by connecting to the AIPex MCP bridge.",
+      "categories": ["Integration", "AI & ML"],
+      "author": "AIPexStudio",
+      "repo": "AIPexStudio/AIPex",
+      "path": "skill",
+      "commitHash": "d2da20132496",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "AIPexStudio/AIPex/packages/browser-runtime/src/skill/built-in/skill-creator-browser",
+      "name": "skill-creator",
+      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends AIPex's capabilities with specialized knowledge, workflows, or tool integrations.",
+      "categories": ["Other"],
+      "author": "AIPexStudio",
+      "repo": "AIPexStudio/AIPex",
+      "path": "packages/browser-runtime/src/skill/built-in/skill-creator-browser",
+      "commitHash": "d2da20132496",
+      "files": ["LICENSE.txt", "SKILL.md", "scripts"]
+    },
+    {
+      "id": "AIPexStudio/AIPex/packages/browser-runtime/src/skill/built-in/ux-audit-walkthrough",
+      "name": "ux-audit-walkthrough",
+      "description": "Minimalist UX/Interaction Audit Expert that deconstructs complex interactions through cognitive load and operational efficiency lenses. Use this skill when you need to perform a UX walkthrough audit on a Figma prototype or web interface, evaluating usability based on principles like fewer clicks, less UI elements, no hidden logic, and self-explanatory design.",
+      "categories": ["Design", "Productivity"],
+      "author": "AIPexStudio",
+      "repo": "AIPexStudio/AIPex",
+      "path": "packages/browser-runtime/src/skill/built-in/ux-audit-walkthrough",
+      "commitHash": "d2da20132496",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "AIPexStudio/AIPex/packages/browser-runtime/src/skill/built-in/wcag22-a11y-audit",
+      "name": "wcag22-a11y-audit",
+      "description": "WCAG 2.2 Accessibility Audit skill that systematically evaluates web pages against 8 core Success Criteria (1.1.1, 1.4.3, 1.4.11, 2.1.1, 2.1.2, 2.4.3, 2.4.7, 4.1.2) using accessibility tree inspection and visual analysis. Use this skill when you need to perform accessibility testing/auditing on a live webpage.",
+      "categories": ["Development", "Research"],
+      "author": "AIPexStudio",
+      "repo": "AIPexStudio/AIPex",
+      "path": "packages/browser-runtime/src/skill/built-in/wcag22-a11y-audit",
+      "commitHash": "d2da20132496",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
     {
       "id": "itsmostafa/aws-agent-skills/skills/sns",
       "name": "sns",
@@ -6616,6 +6673,17 @@
       "files": ["SKILL.md", "references"]
     },
     {
+      "id": "brettdavies/crawl4ai-skill/crawl4ai",
+      "name": "crawl4ai",
+      "description": "This skill should be used when users need to scrape websites, extract structured data, handle JavaScript-heavy pages, crawl multiple URLs, or build automated web data pipelines. Includes optimized extraction patterns with schema generation for efficient, LLM-free extraction.",
+      "categories": ["Development", "Data & Analytics", "Research", "AI & ML"],
+      "author": "brettdavies",
+      "repo": "brettdavies/crawl4ai-skill",
+      "path": "crawl4ai",
+      "commitHash": "2c595528f7d9",
+      "files": ["SKILL.md", "references", "scripts", "tests"]
+    },
+    {
       "id": "ForteScarlet/codex-kkp/claude-code-skills-template/codex-agent-collaboration",
       "name": "codex-agent-collaboration",
       "description": "Delegate coding tasks to Codex AI for implementation, analysis, and alternative solutions. Use when you need a second AI perspective, want to explore different approaches, or need specialized Codex capabilities for complex coding tasks.",
@@ -6631,17 +6699,6 @@
         "outputs.md",
         "sandbox-modes.md"
       ]
-    },
-    {
-      "id": "brettdavies/crawl4ai-skill/crawl4ai",
-      "name": "crawl4ai",
-      "description": "This skill should be used when users need to scrape websites, extract structured data, handle JavaScript-heavy pages, crawl multiple URLs, or build automated web data pipelines. Includes optimized extraction patterns with schema generation for efficient, LLM-free extraction.",
-      "categories": ["Development", "Data & Analytics", "Research", "AI & ML"],
-      "author": "brettdavies",
-      "repo": "brettdavies/crawl4ai-skill",
-      "path": "crawl4ai",
-      "commitHash": "2c595528f7d9",
-      "files": ["SKILL.md", "references", "scripts", "tests"]
     },
     {
       "id": "cjpatten/canadian-finance-planner-skill",
