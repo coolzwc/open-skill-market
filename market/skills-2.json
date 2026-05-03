@@ -1,12 +1,5 @@
 {
   "repositories": {
-    "CloudAI-X/claude-workflow-v2": {
-      "url": "https://github.com/CloudAI-X/claude-workflow-v2",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "AIPexStudio/AIPex": {
       "url": "https://github.com/AIPexStudio/AIPex",
       "branch": "main",
@@ -182,15 +175,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "smnandre/symfony-ux-skills": {
-      "url": "https://github.com/smnandre/symfony-ux-skills",
+    "bitwize-music-studio/claude-ai-music-skills": {
+      "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "bitwize-music-studio/claude-ai-music-skills": {
-      "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
+    "smnandre/symfony-ux-skills": {
+      "url": "https://github.com/smnandre/symfony-ux-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -499,149 +492,6 @@
     }
   },
   "skills": [
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/managing-git",
-      "name": "managing-git",
-      "description": "Manages Git workflows including branching, commits, and pull requests. Use when working with Git, creating commits, opening PRs, managing branches, resolving conflicts, or when asked about version control best practices.",
-      "categories": ["Development", "Productivity"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/managing-git",
-      "commitHash": "28af9ed56fe0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/error-handling",
-      "name": "error-handling",
-      "description": "Implements error handling patterns, structured logging, retry strategies, circuit breakers, and graceful degradation. Use when designing error handling, setting up logging, implementing retries, adding error tracking, or when asked about error boundaries, log aggregation, alerting, or resilience patterns.",
-      "categories": ["Design"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/error-handling",
-      "commitHash": "b6952dd3cd31",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/convex-backend",
-      "name": "convex-backend",
-      "description": "Convex backend development guidelines. Use when writing Convex functions, schemas, queries, mutations, actions, or any backend code in a Convex project. Triggers on tasks involving Convex database operations, real-time subscriptions, file storage, or serverless functions.",
-      "categories": ["Development", "Productivity", "Data & Analytics"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/convex-backend",
-      "commitHash": "b6952dd3cd31",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/designing-apis",
-      "name": "designing-apis",
-      "description": "Designs REST and GraphQL APIs including endpoints, error handling, versioning, and documentation. Use when creating new APIs, designing endpoints, reviewing API contracts, or when asked about REST, GraphQL, or API patterns.",
-      "categories": ["Development"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/designing-apis",
-      "commitHash": "28af9ed56fe0",
-      "files": ["OPENAPI-TEMPLATE.md", "SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/database-design",
-      "name": "database-design",
-      "description": "Designs database schemas, indexing strategies, query optimization, and migration patterns for SQL and NoSQL databases. Use when designing tables, optimizing queries, fixing N+1 problems, planning migrations, or when asked about database performance, normalization, ORMs, or data modeling.",
-      "categories": ["Data & Analytics", "Documents"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/database-design",
-      "commitHash": "28af9ed56fe0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/security-patterns",
-      "name": "security-patterns",
-      "description": "Implements authentication, authorization, encryption, secrets management, and security hardening patterns. Use when designing auth flows, managing secrets, configuring CORS, implementing rate limiting, or when asked about JWT, OAuth, password hashing, API keys, RBAC, or security best practices.",
-      "categories": ["Development", "Security"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/security-patterns",
-      "commitHash": "b6952dd3cd31",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/parallel-execution",
-      "name": "parallel-execution",
-      "description": "Patterns for parallel subagent execution using Task tool with run_in_background. Use when coordinating multiple independent tasks, spawning dynamic subagents, or implementing features that can be parallelized.",
-      "categories": ["Other"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/parallel-execution",
-      "commitHash": "28af9ed56fe0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/analyzing-projects",
-      "name": "analyzing-projects",
-      "description": "Analyzes codebases to understand structure, tech stack, patterns, and conventions. Use when onboarding to a new project, exploring unfamiliar code, or when asked \"how does this work?\" or \"what's the architecture?\"",
-      "categories": ["Development"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/analyzing-projects",
-      "commitHash": "28af9ed56fe0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/web-design-guidelines",
-      "name": "web-design-guidelines",
-      "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", \"check my site against best practices\", or \"web interface guidelines\".",
-      "categories": ["Development", "Security", "Design"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/web-design-guidelines",
-      "commitHash": "28af9ed56fe0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/devops-infrastructure",
-      "name": "devops-infrastructure",
-      "description": "Guides Docker, CI/CD pipelines, deployment strategies, infrastructure as code, and observability setup. Use when writing Dockerfiles, configuring GitHub Actions, planning deployments, setting up monitoring, or when asked about containers, pipelines, Terraform, or production infrastructure.",
-      "categories": ["Development", "DevOps", "Documents"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/devops-infrastructure",
-      "commitHash": "28af9ed56fe0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/designing-architecture",
-      "name": "designing-architecture",
-      "description": "Designs software architecture and selects appropriate patterns for projects. Use when designing systems, choosing architecture patterns, structuring projects, making technical decisions, or when asked about microservices, monoliths, or architectural approaches.",
-      "categories": ["Development"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/designing-architecture",
-      "commitHash": "28af9ed56fe0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/optimizing-performance",
-      "name": "optimizing-performance",
-      "description": "Analyzes and optimizes application performance across frontend, backend, and database layers. Use when diagnosing slowness, improving load times, optimizing queries, reducing bundle size, or when asked about performance issues.",
-      "categories": ["Development", "Data & Analytics"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/optimizing-performance",
-      "commitHash": "28af9ed56fe0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CloudAI-X/claude-workflow-v2/skills/designing-tests",
-      "name": "designing-tests",
-      "description": "Designs and implements testing strategies for any codebase. Use when adding tests, improving coverage, setting up testing infrastructure, debugging test failures, or when asked about unit tests, integration tests, or E2E testing.",
-      "categories": ["Development", "AI & ML"],
-      "author": "CloudAI-X",
-      "repo": "CloudAI-X/claude-workflow-v2",
-      "path": "skills/designing-tests",
-      "commitHash": "28af9ed56fe0",
-      "files": ["SKILL.md"]
-    },
     {
       "id": "AIPexStudio/AIPex/skill",
       "name": "aipex-browser",
@@ -4989,95 +4839,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "smnandre/symfony-ux-skills/skills/turbo",
-      "name": "turbo",
-      "description": "Hotwire Turbo for Symfony UX -- SPA-like speed with zero JavaScript. Covers Drive (full-page navigation), Frames (partial page sections), and Streams (multi-target updates). Use when building ajax navigation, lazy-loaded page sections, inline editing, pagination without reload, modals loaded from the server, flash messages via streams, real-time updates via Mercure/SSE, or multi-section page updates. Code triggers: turbo-frame, turbo-stream, data-turbo-frame, data-turbo, data-turbo-action, turbo-stream-source, TurboStreamResponse, <twig:Turbo:Frame>, <twig:Turbo:Stream:Append>, <twig:Turbo:Stream:Replace>, turbo:before-fetch-request. Also trigger when the user asks \"how to update part of the page without reload\", \"how to make navigation feel like SPA\", \"how to lazy-load a section\", \"how to do inline editing\", \"how to push real-time updates from server\", \"how to use Mercure with Turbo\". Do NOT trigger for client-side JS behavior (use stimulus), server-rendered reactive components (use live-component), or reusable static UI (use twig-component).",
-      "categories": ["Development", "Design", "Writing", "Media"],
-      "author": "smnandre",
-      "repo": "smnandre/symfony-ux-skills",
-      "path": "skills/turbo",
-      "commitHash": "35901c0dce70",
-      "version": "1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "smnandre/symfony-ux-skills/skills/ux-map",
-      "name": "ux-map",
-      "description": "Symfony UX Map for interactive maps with Leaflet or Google Maps in Symfony. Covers markers, polygons, polylines, circles, info windows, and LiveComponent integration. Use when displaying maps, placing markers, drawing shapes or routes, handling map events, building store locators, using custom tile layers, or making maps reactive with LiveComponent. Code triggers: <twig:ux:map />, Map(), Point(), Marker(), Polygon(), Polyline(), Circle(), InfoWindow(), MapOptionsInterface, ComponentWithMapTrait, fitBoundsToMarkers, ux:map:marker:before-create, ux:map:connect, SYMFONY_UX_MAP_DSN. Also trigger when the user asks \"how to display a map\", \"how to add markers\", \"how to draw a polygon on a map\", \"how to handle map click events\", \"how to make a reactive map\", \"how to use Leaflet in Symfony\", \"how to use Google Maps in Symfony\", \"map not showing\", \"map has zero height\". Do NOT trigger for SVG icons (use ux-icons) or general frontend interactivity (use stimulus).",
-      "categories": ["Development", "Design", "Integration"],
-      "author": "smnandre",
-      "repo": "smnandre/symfony-ux-skills",
-      "path": "skills/ux-map",
-      "commitHash": "35901c0dce70",
-      "version": "1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "smnandre/symfony-ux-skills/skills/ux-icons",
-      "name": "ux-icons",
-      "description": "Symfony UX Icons for rendering SVG icons in Twig templates. Supports 200,000+ Iconify icons (Lucide, Heroicons, Tabler, Material Design, etc.), local SVG files, and custom icon sets with aliases. Use when displaying icons, configuring icon defaults, importing or locking on-demand icons, creating icon aliases, or styling SVG icons with CSS. Code triggers: <twig:ux:icon />, ux_icon(), UX_ICONS_DEFAULT_ICON_ATTRIBUTES, icon.yaml, icons/, iconify:, lucide:, heroicons:, tabler:, mdi:, bin/console ux:icons:lock, bin/console ux:icons:import. Also trigger when the user asks \"how to add an icon\", \"how to use Lucide/Heroicons/Tabler icons\", \"how to render an SVG icon in Twig\", \"how to lock icons for production\", \"how to create icon aliases\", \"how to style an icon\", \"icon not found\", \"icon not rendering\". Do NOT trigger for interactive maps (use ux-map) or general Twig components (use twig-component).",
-      "categories": ["Development", "Design", "Documents"],
-      "author": "smnandre",
-      "repo": "smnandre/symfony-ux-skills",
-      "path": "skills/ux-icons",
-      "commitHash": "35901c0dce70",
-      "version": "1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "smnandre/symfony-ux-skills/skills/stimulus",
-      "name": "stimulus",
-      "description": "Stimulus JS framework for Symfony UX -- client-side behavior via HTML data attributes, zero server round-trips. Use when creating controllers for DOM manipulation, handling click/input/submit events, managing targets and values, wiring outlets between controllers, wrapping third-party JS libraries, or building toggles, dropdowns, modals, tabs, clipboard interactions. Code triggers: data-controller, data-action, data-target, data-*-value, data-*-class, data-*-outlet, stimulusFetch lazy, connect(), disconnect(), static targets, static values. Also trigger when the user asks \"how do I add a click handler\", \"how to toggle a class\", \"how to build a dropdown/modal/tabs\", \"how to wrap a JS library in Symfony\", \"add keyboard shortcuts\", \"lazy-load a controller\", \"listen to global events\", \"communicate between controllers\". Do NOT trigger for partial page updates without JS (use turbo), server-rendered reactivity (use live-component), or reusable Twig templates (use twig-component).",
-      "categories": ["Development", "Design", "Productivity", "Integration"],
-      "author": "smnandre",
-      "repo": "smnandre/symfony-ux-skills",
-      "path": "skills/stimulus",
-      "commitHash": "35901c0dce70",
-      "version": "1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "smnandre/symfony-ux-skills/skills/symfony-ux",
-      "name": "symfony-ux",
-      "description": "Symfony UX frontend stack -- decision tree and orchestrator for choosing between Stimulus, Turbo, TwigComponent, LiveComponent, UX Icons, and UX Map. Use when the user is unsure which tool fits, wants to combine multiple UX packages, or asks a general frontend architecture question in Symfony. Also trigger when the user asks \"which UX package should I use\", \"how to make this interactive\", \"should I use Stimulus or LiveComponent\", \"how to structure my Symfony frontend\", \"what is the difference between Turbo and LiveComponent\", \"should this be a Frame or a LiveComponent\", \"how do these UX packages work together\", \"what is the Symfony way to do frontend\". Do NOT trigger when the user clearly names a specific tool (stimulus, turbo, twig-component, live-component, ux-icons, ux-map) -- defer to the specialized skill instead.",
-      "categories": ["Development", "Design"],
-      "author": "smnandre",
-      "repo": "smnandre/symfony-ux-skills",
-      "path": "skills/symfony-ux",
-      "commitHash": "35901c0dce70",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "smnandre/symfony-ux-skills/skills/twig-component",
-      "name": "twig-component",
-      "description": "Symfony UX TwigComponent for reusable UI building blocks -- server-rendered components with PHP classes and Twig templates. Use when creating buttons, cards, alerts, badges, navbars, or any reusable UI element with props, blocks/slots, computed properties, or anonymous (template-only) components. Code triggers: AsTwigComponent, #[AsTwigComponent], ExposeInTemplate, PreMount, PostMount, <twig:Alert />, <twig:Button>, component(), computed properties, anonymous component, HTML syntax. Also trigger when the user asks \"how to create a reusable component\", \"how to make a component library\", \"how to pass props to a component\", \"how to use slots/blocks in a component\", \"how to build a design system in Symfony\", \"what is the HTML syntax for components\", \"how to create a component without a PHP class\". Do NOT trigger for components that re-render dynamically on user input (use live-component), for JS behavior (use stimulus), or for page navigation (use turbo).",
-      "categories": ["Development", "Design"],
-      "author": "smnandre",
-      "repo": "smnandre/symfony-ux-skills",
-      "path": "skills/twig-component",
-      "commitHash": "35901c0dce70",
-      "version": "1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "smnandre/symfony-ux-skills/skills/live-component",
-      "name": "live-component",
-      "description": "Symfony UX LiveComponent for reactive server-rendered UI -- components that re-render via AJAX on user interaction, zero JavaScript required. Use when building live search, real-time filtering, dynamic forms, inline validation, dependent selects, auto-save, polling, deferred/lazy rendering, or any UI that updates itself based on user input. Code triggers: AsLiveComponent, #[AsLiveComponent], LiveProp, #[LiveProp], LiveAction, #[LiveAction], data-model, data-loading, data-live-action-url, ComponentWithFormTrait, LiveListener, emit, defer, lazy, polling. Also trigger when the user asks \"how to build a search that filters as I type\", \"how to validate a form in real-time\", \"how to make a reactive component in PHP\", \"how to build dependent selects\", \"how to defer component rendering\", \"how to communicate between components via emit\", \"how to bind a form to a LiveComponent\". Do NOT trigger for static reusable UI without reactivity (use twig-component), for pure client-side JS behavior (use stimulus), or for page-level navigation (use turbo).",
-      "categories": ["Development", "Design", "AI & ML"],
-      "author": "smnandre",
-      "repo": "smnandre/symfony-ux-skills",
-      "path": "skills/live-component",
-      "commitHash": "35901c0dce70",
-      "version": "1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references"]
-    },
-    {
       "id": "bitwize-music-studio/claude-ai-music-skills/skills/help",
       "name": "help",
       "description": "Shows available skills, common workflows, and quick reference for the plugin. Use when the user asks for help, what skills are available, or how to do something.",
@@ -5655,6 +5416,95 @@
       "path": "skills/test",
       "commitHash": "7306bcaebf37",
       "files": ["SKILL.md", "test-definitions.md"]
+    },
+    {
+      "id": "smnandre/symfony-ux-skills/skills/turbo",
+      "name": "turbo",
+      "description": "Hotwire Turbo for Symfony UX -- SPA-like speed with zero JavaScript. Covers Drive (full-page navigation), Frames (partial page sections), and Streams (multi-target updates). Use when building ajax navigation, lazy-loaded page sections, inline editing, pagination without reload, modals loaded from the server, flash messages via streams, real-time updates via Mercure/SSE, or multi-section page updates. Code triggers: turbo-frame, turbo-stream, data-turbo-frame, data-turbo, data-turbo-action, turbo-stream-source, TurboStreamResponse, <twig:Turbo:Frame>, <twig:Turbo:Stream:Append>, <twig:Turbo:Stream:Replace>, turbo:before-fetch-request. Also trigger when the user asks \"how to update part of the page without reload\", \"how to make navigation feel like SPA\", \"how to lazy-load a section\", \"how to do inline editing\", \"how to push real-time updates from server\", \"how to use Mercure with Turbo\". Do NOT trigger for client-side JS behavior (use stimulus), server-rendered reactive components (use live-component), or reusable static UI (use twig-component).",
+      "categories": ["Development", "Design", "Writing", "Media"],
+      "author": "smnandre",
+      "repo": "smnandre/symfony-ux-skills",
+      "path": "skills/turbo",
+      "commitHash": "35901c0dce70",
+      "version": "1.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "smnandre/symfony-ux-skills/skills/ux-map",
+      "name": "ux-map",
+      "description": "Symfony UX Map for interactive maps with Leaflet or Google Maps in Symfony. Covers markers, polygons, polylines, circles, info windows, and LiveComponent integration. Use when displaying maps, placing markers, drawing shapes or routes, handling map events, building store locators, using custom tile layers, or making maps reactive with LiveComponent. Code triggers: <twig:ux:map />, Map(), Point(), Marker(), Polygon(), Polyline(), Circle(), InfoWindow(), MapOptionsInterface, ComponentWithMapTrait, fitBoundsToMarkers, ux:map:marker:before-create, ux:map:connect, SYMFONY_UX_MAP_DSN. Also trigger when the user asks \"how to display a map\", \"how to add markers\", \"how to draw a polygon on a map\", \"how to handle map click events\", \"how to make a reactive map\", \"how to use Leaflet in Symfony\", \"how to use Google Maps in Symfony\", \"map not showing\", \"map has zero height\". Do NOT trigger for SVG icons (use ux-icons) or general frontend interactivity (use stimulus).",
+      "categories": ["Development", "Design", "Integration"],
+      "author": "smnandre",
+      "repo": "smnandre/symfony-ux-skills",
+      "path": "skills/ux-map",
+      "commitHash": "35901c0dce70",
+      "version": "1.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "smnandre/symfony-ux-skills/skills/ux-icons",
+      "name": "ux-icons",
+      "description": "Symfony UX Icons for rendering SVG icons in Twig templates. Supports 200,000+ Iconify icons (Lucide, Heroicons, Tabler, Material Design, etc.), local SVG files, and custom icon sets with aliases. Use when displaying icons, configuring icon defaults, importing or locking on-demand icons, creating icon aliases, or styling SVG icons with CSS. Code triggers: <twig:ux:icon />, ux_icon(), UX_ICONS_DEFAULT_ICON_ATTRIBUTES, icon.yaml, icons/, iconify:, lucide:, heroicons:, tabler:, mdi:, bin/console ux:icons:lock, bin/console ux:icons:import. Also trigger when the user asks \"how to add an icon\", \"how to use Lucide/Heroicons/Tabler icons\", \"how to render an SVG icon in Twig\", \"how to lock icons for production\", \"how to create icon aliases\", \"how to style an icon\", \"icon not found\", \"icon not rendering\". Do NOT trigger for interactive maps (use ux-map) or general Twig components (use twig-component).",
+      "categories": ["Development", "Design", "Documents"],
+      "author": "smnandre",
+      "repo": "smnandre/symfony-ux-skills",
+      "path": "skills/ux-icons",
+      "commitHash": "35901c0dce70",
+      "version": "1.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "smnandre/symfony-ux-skills/skills/stimulus",
+      "name": "stimulus",
+      "description": "Stimulus JS framework for Symfony UX -- client-side behavior via HTML data attributes, zero server round-trips. Use when creating controllers for DOM manipulation, handling click/input/submit events, managing targets and values, wiring outlets between controllers, wrapping third-party JS libraries, or building toggles, dropdowns, modals, tabs, clipboard interactions. Code triggers: data-controller, data-action, data-target, data-*-value, data-*-class, data-*-outlet, stimulusFetch lazy, connect(), disconnect(), static targets, static values. Also trigger when the user asks \"how do I add a click handler\", \"how to toggle a class\", \"how to build a dropdown/modal/tabs\", \"how to wrap a JS library in Symfony\", \"add keyboard shortcuts\", \"lazy-load a controller\", \"listen to global events\", \"communicate between controllers\". Do NOT trigger for partial page updates without JS (use turbo), server-rendered reactivity (use live-component), or reusable Twig templates (use twig-component).",
+      "categories": ["Development", "Design", "Productivity", "Integration"],
+      "author": "smnandre",
+      "repo": "smnandre/symfony-ux-skills",
+      "path": "skills/stimulus",
+      "commitHash": "35901c0dce70",
+      "version": "1.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "smnandre/symfony-ux-skills/skills/symfony-ux",
+      "name": "symfony-ux",
+      "description": "Symfony UX frontend stack -- decision tree and orchestrator for choosing between Stimulus, Turbo, TwigComponent, LiveComponent, UX Icons, and UX Map. Use when the user is unsure which tool fits, wants to combine multiple UX packages, or asks a general frontend architecture question in Symfony. Also trigger when the user asks \"which UX package should I use\", \"how to make this interactive\", \"should I use Stimulus or LiveComponent\", \"how to structure my Symfony frontend\", \"what is the difference between Turbo and LiveComponent\", \"should this be a Frame or a LiveComponent\", \"how do these UX packages work together\", \"what is the Symfony way to do frontend\". Do NOT trigger when the user clearly names a specific tool (stimulus, turbo, twig-component, live-component, ux-icons, ux-map) -- defer to the specialized skill instead.",
+      "categories": ["Development", "Design"],
+      "author": "smnandre",
+      "repo": "smnandre/symfony-ux-skills",
+      "path": "skills/symfony-ux",
+      "commitHash": "35901c0dce70",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "smnandre/symfony-ux-skills/skills/twig-component",
+      "name": "twig-component",
+      "description": "Symfony UX TwigComponent for reusable UI building blocks -- server-rendered components with PHP classes and Twig templates. Use when creating buttons, cards, alerts, badges, navbars, or any reusable UI element with props, blocks/slots, computed properties, or anonymous (template-only) components. Code triggers: AsTwigComponent, #[AsTwigComponent], ExposeInTemplate, PreMount, PostMount, <twig:Alert />, <twig:Button>, component(), computed properties, anonymous component, HTML syntax. Also trigger when the user asks \"how to create a reusable component\", \"how to make a component library\", \"how to pass props to a component\", \"how to use slots/blocks in a component\", \"how to build a design system in Symfony\", \"what is the HTML syntax for components\", \"how to create a component without a PHP class\". Do NOT trigger for components that re-render dynamically on user input (use live-component), for JS behavior (use stimulus), or for page navigation (use turbo).",
+      "categories": ["Development", "Design"],
+      "author": "smnandre",
+      "repo": "smnandre/symfony-ux-skills",
+      "path": "skills/twig-component",
+      "commitHash": "35901c0dce70",
+      "version": "1.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "smnandre/symfony-ux-skills/skills/live-component",
+      "name": "live-component",
+      "description": "Symfony UX LiveComponent for reactive server-rendered UI -- components that re-render via AJAX on user interaction, zero JavaScript required. Use when building live search, real-time filtering, dynamic forms, inline validation, dependent selects, auto-save, polling, deferred/lazy rendering, or any UI that updates itself based on user input. Code triggers: AsLiveComponent, #[AsLiveComponent], LiveProp, #[LiveProp], LiveAction, #[LiveAction], data-model, data-loading, data-live-action-url, ComponentWithFormTrait, LiveListener, emit, defer, lazy, polling. Also trigger when the user asks \"how to build a search that filters as I type\", \"how to validate a form in real-time\", \"how to make a reactive component in PHP\", \"how to build dependent selects\", \"how to defer component rendering\", \"how to communicate between components via emit\", \"how to bind a form to a LiveComponent\". Do NOT trigger for static reusable UI without reactivity (use twig-component), for pure client-side JS behavior (use stimulus), or for page-level navigation (use turbo).",
+      "categories": ["Development", "Design", "AI & ML"],
+      "author": "smnandre",
+      "repo": "smnandre/symfony-ux-skills",
+      "path": "skills/live-component",
+      "commitHash": "35901c0dce70",
+      "version": "1.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references"]
     },
     {
       "id": "ckelsoe/prompt-architect/skills/prompt-architect",
