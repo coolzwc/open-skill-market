@@ -1,5 +1,12 @@
 {
   "repositories": {
+    "CloudAI-X/claude-workflow-v2": {
+      "url": "https://github.com/CloudAI-X/claude-workflow-v2",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "AIPexStudio/AIPex": {
       "url": "https://github.com/AIPexStudio/AIPex",
       "branch": "main",
@@ -182,15 +189,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "ckelsoe/prompt-architect": {
-      "url": "https://github.com/ckelsoe/prompt-architect",
+    "bitwize-music-studio/claude-ai-music-skills": {
+      "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "bitwize-music-studio/claude-ai-music-skills": {
-      "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
+    "ckelsoe/prompt-architect": {
+      "url": "https://github.com/ckelsoe/prompt-architect",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -378,15 +385,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "brettdavies/crawl4ai-skill": {
-      "url": "https://github.com/brettdavies/crawl4ai-skill",
+    "ForteScarlet/codex-kkp": {
+      "url": "https://github.com/ForteScarlet/codex-kkp",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "ForteScarlet/codex-kkp": {
-      "url": "https://github.com/ForteScarlet/codex-kkp",
+    "brettdavies/crawl4ai-skill": {
+      "url": "https://github.com/brettdavies/crawl4ai-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -434,6 +441,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "Yaroslavle/seo-content-writer-claude-skill": {
+      "url": "https://github.com/Yaroslavle/seo-content-writer-claude-skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "greenstevester/fastlane-skill": {
       "url": "https://github.com/greenstevester/fastlane-skill",
       "branch": "main",
@@ -443,13 +457,6 @@
     },
     "inngest/inngest-skills": {
       "url": "https://github.com/inngest/inngest-skills",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "Yaroslavle/seo-content-writer-claude-skill": {
-      "url": "https://github.com/Yaroslavle/seo-content-writer-claude-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -476,13 +483,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "wrsmith108/claude-md-optimizer": {
-      "url": "https://github.com/wrsmith108/claude-md-optimizer",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "hoavdc/CodexKit": {
       "url": "https://github.com/hoavdc/CodexKit",
       "branch": "main",
@@ -499,6 +499,149 @@
     }
   },
   "skills": [
+    {
+      "id": "CloudAI-X/claude-workflow-v2/skills/managing-git",
+      "name": "managing-git",
+      "description": "Manages Git workflows including branching, commits, and pull requests. Use when working with Git, creating commits, opening PRs, managing branches, resolving conflicts, or when asked about version control best practices.",
+      "categories": ["Development", "Productivity"],
+      "author": "CloudAI-X",
+      "repo": "CloudAI-X/claude-workflow-v2",
+      "path": "skills/managing-git",
+      "commitHash": "28af9ed56fe0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CloudAI-X/claude-workflow-v2/skills/error-handling",
+      "name": "error-handling",
+      "description": "Implements error handling patterns, structured logging, retry strategies, circuit breakers, and graceful degradation. Use when designing error handling, setting up logging, implementing retries, adding error tracking, or when asked about error boundaries, log aggregation, alerting, or resilience patterns.",
+      "categories": ["Design"],
+      "author": "CloudAI-X",
+      "repo": "CloudAI-X/claude-workflow-v2",
+      "path": "skills/error-handling",
+      "commitHash": "b6952dd3cd31",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CloudAI-X/claude-workflow-v2/skills/convex-backend",
+      "name": "convex-backend",
+      "description": "Convex backend development guidelines. Use when writing Convex functions, schemas, queries, mutations, actions, or any backend code in a Convex project. Triggers on tasks involving Convex database operations, real-time subscriptions, file storage, or serverless functions.",
+      "categories": ["Development", "Productivity", "Data & Analytics"],
+      "author": "CloudAI-X",
+      "repo": "CloudAI-X/claude-workflow-v2",
+      "path": "skills/convex-backend",
+      "commitHash": "b6952dd3cd31",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CloudAI-X/claude-workflow-v2/skills/designing-apis",
+      "name": "designing-apis",
+      "description": "Designs REST and GraphQL APIs including endpoints, error handling, versioning, and documentation. Use when creating new APIs, designing endpoints, reviewing API contracts, or when asked about REST, GraphQL, or API patterns.",
+      "categories": ["Development"],
+      "author": "CloudAI-X",
+      "repo": "CloudAI-X/claude-workflow-v2",
+      "path": "skills/designing-apis",
+      "commitHash": "28af9ed56fe0",
+      "files": ["OPENAPI-TEMPLATE.md", "SKILL.md"]
+    },
+    {
+      "id": "CloudAI-X/claude-workflow-v2/skills/database-design",
+      "name": "database-design",
+      "description": "Designs database schemas, indexing strategies, query optimization, and migration patterns for SQL and NoSQL databases. Use when designing tables, optimizing queries, fixing N+1 problems, planning migrations, or when asked about database performance, normalization, ORMs, or data modeling.",
+      "categories": ["Data & Analytics", "Documents"],
+      "author": "CloudAI-X",
+      "repo": "CloudAI-X/claude-workflow-v2",
+      "path": "skills/database-design",
+      "commitHash": "28af9ed56fe0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CloudAI-X/claude-workflow-v2/skills/security-patterns",
+      "name": "security-patterns",
+      "description": "Implements authentication, authorization, encryption, secrets management, and security hardening patterns. Use when designing auth flows, managing secrets, configuring CORS, implementing rate limiting, or when asked about JWT, OAuth, password hashing, API keys, RBAC, or security best practices.",
+      "categories": ["Development", "Security"],
+      "author": "CloudAI-X",
+      "repo": "CloudAI-X/claude-workflow-v2",
+      "path": "skills/security-patterns",
+      "commitHash": "b6952dd3cd31",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CloudAI-X/claude-workflow-v2/skills/parallel-execution",
+      "name": "parallel-execution",
+      "description": "Patterns for parallel subagent execution using Task tool with run_in_background. Use when coordinating multiple independent tasks, spawning dynamic subagents, or implementing features that can be parallelized.",
+      "categories": ["Other"],
+      "author": "CloudAI-X",
+      "repo": "CloudAI-X/claude-workflow-v2",
+      "path": "skills/parallel-execution",
+      "commitHash": "28af9ed56fe0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CloudAI-X/claude-workflow-v2/skills/analyzing-projects",
+      "name": "analyzing-projects",
+      "description": "Analyzes codebases to understand structure, tech stack, patterns, and conventions. Use when onboarding to a new project, exploring unfamiliar code, or when asked \"how does this work?\" or \"what's the architecture?\"",
+      "categories": ["Development"],
+      "author": "CloudAI-X",
+      "repo": "CloudAI-X/claude-workflow-v2",
+      "path": "skills/analyzing-projects",
+      "commitHash": "28af9ed56fe0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CloudAI-X/claude-workflow-v2/skills/web-design-guidelines",
+      "name": "web-design-guidelines",
+      "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", \"check my site against best practices\", or \"web interface guidelines\".",
+      "categories": ["Development", "Security", "Design"],
+      "author": "CloudAI-X",
+      "repo": "CloudAI-X/claude-workflow-v2",
+      "path": "skills/web-design-guidelines",
+      "commitHash": "28af9ed56fe0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CloudAI-X/claude-workflow-v2/skills/devops-infrastructure",
+      "name": "devops-infrastructure",
+      "description": "Guides Docker, CI/CD pipelines, deployment strategies, infrastructure as code, and observability setup. Use when writing Dockerfiles, configuring GitHub Actions, planning deployments, setting up monitoring, or when asked about containers, pipelines, Terraform, or production infrastructure.",
+      "categories": ["Development", "DevOps", "Documents"],
+      "author": "CloudAI-X",
+      "repo": "CloudAI-X/claude-workflow-v2",
+      "path": "skills/devops-infrastructure",
+      "commitHash": "28af9ed56fe0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CloudAI-X/claude-workflow-v2/skills/designing-architecture",
+      "name": "designing-architecture",
+      "description": "Designs software architecture and selects appropriate patterns for projects. Use when designing systems, choosing architecture patterns, structuring projects, making technical decisions, or when asked about microservices, monoliths, or architectural approaches.",
+      "categories": ["Development"],
+      "author": "CloudAI-X",
+      "repo": "CloudAI-X/claude-workflow-v2",
+      "path": "skills/designing-architecture",
+      "commitHash": "28af9ed56fe0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CloudAI-X/claude-workflow-v2/skills/optimizing-performance",
+      "name": "optimizing-performance",
+      "description": "Analyzes and optimizes application performance across frontend, backend, and database layers. Use when diagnosing slowness, improving load times, optimizing queries, reducing bundle size, or when asked about performance issues.",
+      "categories": ["Development", "Data & Analytics"],
+      "author": "CloudAI-X",
+      "repo": "CloudAI-X/claude-workflow-v2",
+      "path": "skills/optimizing-performance",
+      "commitHash": "28af9ed56fe0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CloudAI-X/claude-workflow-v2/skills/designing-tests",
+      "name": "designing-tests",
+      "description": "Designs and implements testing strategies for any codebase. Use when adding tests, improving coverage, setting up testing infrastructure, debugging test failures, or when asked about unit tests, integration tests, or E2E testing.",
+      "categories": ["Development", "AI & ML"],
+      "author": "CloudAI-X",
+      "repo": "CloudAI-X/claude-workflow-v2",
+      "path": "skills/designing-tests",
+      "commitHash": "28af9ed56fe0",
+      "files": ["SKILL.md"]
+    },
     {
       "id": "AIPexStudio/AIPex/skill",
       "name": "aipex-browser",
@@ -850,24 +993,6 @@
         "references/product-applications.md",
         "references/rewards.md",
         "references/triggers.md"
-      ]
-    },
-    {
-      "id": "wondelai/skills/top-design",
-      "name": "top-design",
-      "description": "Create award-winning, immersive web experiences at the level of Awwwards-featured agencies. Use when the user mentions \"premium website\", \"portfolio site\", \"scroll animations\", \"Awwwards quality\", \"brand experience\", \"cinematic web design\", \"parallax storytelling\", or \"agency-quality site\". Also trigger when building landing pages that need to impress, designing creative portfolios, or elevating a standard website to a memorable digital experience. Covers dramatic typography, purposeful motion, scroll-based composition, and performance-optimized animation. For foundational UI, see refactoring-ui. For type selection, see web-typography.",
-      "categories": ["Development", "Design"],
-      "author": "wondelai",
-      "repo": "wondelai/skills",
-      "path": "top-design",
-      "commitHash": "7c71a845071e",
-      "files": [
-        "SKILL.md",
-        "references/animation-patterns.md",
-        "references/case-studies.md",
-        "references/layout-systems.md",
-        "references/technical-stack.md",
-        "references/typography.md"
       ]
     },
     {
@@ -4953,17 +5078,6 @@
       "files": ["SKILL.md", "references"]
     },
     {
-      "id": "ckelsoe/prompt-architect/skills/prompt-architect",
-      "name": "prompt-architect",
-      "description": "Analyzes and improves prompts using 27 research-backed frameworks across 7 intent categories. Use when a user wants to improve, rewrite, structure, or engineer a prompt — including requests like \"help me write a better prompt\", \"improve this prompt\", \"what framework should I use\", \"make this prompt more effective\", or any prompt engineering task. Recommends the right framework based on intent (create, transform, reason, critique, recover, clarify, agentic), asks targeted questions, and delivers a structured, high-quality result.",
-      "categories": ["Business", "Research", "AI & ML"],
-      "author": "ckelsoe",
-      "repo": "ckelsoe/prompt-architect",
-      "path": "skills/prompt-architect",
-      "commitHash": "6e12013eb782",
-      "files": ["SKILL.md", "assets", "references", "scripts"]
-    },
-    {
       "id": "bitwize-music-studio/claude-ai-music-skills/skills/help",
       "name": "help",
       "description": "Shows available skills, common workflows, and quick reference for the plugin. Use when the user asks for help, what skills are available, or how to do something.",
@@ -5541,6 +5655,17 @@
       "path": "skills/test",
       "commitHash": "7306bcaebf37",
       "files": ["SKILL.md", "test-definitions.md"]
+    },
+    {
+      "id": "ckelsoe/prompt-architect/skills/prompt-architect",
+      "name": "prompt-architect",
+      "description": "Analyzes and improves prompts using 27 research-backed frameworks across 7 intent categories. Use when a user wants to improve, rewrite, structure, or engineer a prompt — including requests like \"help me write a better prompt\", \"improve this prompt\", \"what framework should I use\", \"make this prompt more effective\", or any prompt engineering task. Recommends the right framework based on intent (create, transform, reason, critique, recover, clarify, agentic), asks targeted questions, and delivers a structured, high-quality result.",
+      "categories": ["Business", "Research", "AI & ML"],
+      "author": "ckelsoe",
+      "repo": "ckelsoe/prompt-architect",
+      "path": "skills/prompt-architect",
+      "commitHash": "6e12013eb782",
+      "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
       "id": "iamzifei/wechat-article-publisher-skill/skills/wechat-article-publisher",
@@ -6673,17 +6798,6 @@
       "files": ["SKILL.md", "references"]
     },
     {
-      "id": "brettdavies/crawl4ai-skill/crawl4ai",
-      "name": "crawl4ai",
-      "description": "This skill should be used when users need to scrape websites, extract structured data, handle JavaScript-heavy pages, crawl multiple URLs, or build automated web data pipelines. Includes optimized extraction patterns with schema generation for efficient, LLM-free extraction.",
-      "categories": ["Development", "Data & Analytics", "Research", "AI & ML"],
-      "author": "brettdavies",
-      "repo": "brettdavies/crawl4ai-skill",
-      "path": "crawl4ai",
-      "commitHash": "2c595528f7d9",
-      "files": ["SKILL.md", "references", "scripts", "tests"]
-    },
-    {
       "id": "ForteScarlet/codex-kkp/claude-code-skills-template/codex-agent-collaboration",
       "name": "codex-agent-collaboration",
       "description": "Delegate coding tasks to Codex AI for implementation, analysis, and alternative solutions. Use when you need a second AI perspective, want to explore different approaches, or need specialized Codex capabilities for complex coding tasks.",
@@ -6699,6 +6813,17 @@
         "outputs.md",
         "sandbox-modes.md"
       ]
+    },
+    {
+      "id": "brettdavies/crawl4ai-skill/crawl4ai",
+      "name": "crawl4ai",
+      "description": "This skill should be used when users need to scrape websites, extract structured data, handle JavaScript-heavy pages, crawl multiple URLs, or build automated web data pipelines. Includes optimized extraction patterns with schema generation for efficient, LLM-free extraction.",
+      "categories": ["Development", "Data & Analytics", "Research", "AI & ML"],
+      "author": "brettdavies",
+      "repo": "brettdavies/crawl4ai-skill",
+      "path": "crawl4ai",
+      "commitHash": "2c595528f7d9",
+      "files": ["SKILL.md", "references", "scripts", "tests"]
     },
     {
       "id": "cjpatten/canadian-finance-planner-skill",
@@ -6829,6 +6954,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "Yaroslavle/seo-content-writer-claude-skill",
+      "name": "seo-content-writer",
+      "description": "Full AI-assisted workflow for long-form SEO content (2,000+ words). Covers JTBD strategy, E-E-A-T quality standards, and 5 production phases: research, outline, draft, editing, and SEO/publishing. Built for B2B marketing agency context. Use when: user wants to write or optimize an SEO article, mentions \"SEO content\", \"blog post\", \"GTM article\", \"long-form content\", or asks to create content with keyword strategy.\n",
+      "categories": ["Design", "Writing", "Documents", "Marketing", "Research"],
+      "author": "Yaroslavle",
+      "repo": "Yaroslavle/seo-content-writer-claude-skill",
+      "path": "",
+      "commitHash": "c07ae5f09db9",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "greenstevester/fastlane-skill/skills/beta",
       "name": "beta",
       "description": "Build and upload iOS app to TestFlight",
@@ -6950,17 +7086,6 @@
       "files": ["SKILL.md", "references"]
     },
     {
-      "id": "Yaroslavle/seo-content-writer-claude-skill",
-      "name": "seo-content-writer",
-      "description": "Full AI-assisted workflow for long-form SEO content (2,000+ words). Covers JTBD strategy, E-E-A-T quality standards, and 5 production phases: research, outline, draft, editing, and SEO/publishing. Built for B2B marketing agency context. Use when: user wants to write or optimize an SEO article, mentions \"SEO content\", \"blog post\", \"GTM article\", \"long-form content\", or asks to create content with keyword strategy.\n",
-      "categories": ["Design", "Writing", "Documents", "Marketing", "Research"],
-      "author": "Yaroslavle",
-      "repo": "Yaroslavle/seo-content-writer-claude-skill",
-      "path": "",
-      "commitHash": "c07ae5f09db9",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "iamzifei/linkedin-article-publisher-skill/skills/linkedin-article-publisher",
       "name": "linkedin-article-publisher",
       "description": "Publish Markdown articles to LinkedIn Articles editor with proper formatting. Use when user wants to publish a Markdown file/URL to LinkedIn Articles, or mentions \"publish to LinkedIn\", \"post article to LinkedIn\", \"LinkedIn article\", or wants help with LinkedIn article publishing. Handles cover image upload and converts Markdown to rich text automatically.",
@@ -7057,26 +7182,6 @@
       "repo": "vulhunt-re/skills",
       "path": "plugins/vulhunt/skills/code-pattern-matching",
       "commitHash": "52a1443464bd",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "wrsmith108/claude-md-optimizer",
-      "name": "claude-md-optimizer",
-      "description": "Optimize oversized CLAUDE.md files using progressive disclosure. Analyzes content tiers, detects encryption constraints, creates sub-documents, and rewrites the main file with a Sub-Documentation Table. Triggers: optimize CLAUDE.md, reduce CLAUDE.md size, CLAUDE.md too long, apply progressive disclosure to CLAUDE.md",
-      "categories": ["Writing", "Documents", "AI & ML"],
-      "author": "wrsmith108",
-      "repo": "wrsmith108/claude-md-optimizer",
-      "path": "",
-      "commitHash": "3c1a5258cfb8",
-      "version": "1.1.1",
-      "tags": [
-        "claude-md",
-        "optimization",
-        "progressive-disclosure",
-        "context-window",
-        "documentation"
-      ],
-      "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
     },
     {
