@@ -3,15 +3,15 @@
     "jezweb/claude-skills": {
       "url": "https://github.com/jezweb/claude-skills",
       "branch": "main",
-      "stars": 759,
+      "stars": 760,
       "forks": 64,
       "lastUpdated": "2026-05-02T11:31:07Z"
     },
     "worldwonderer/oh-story-claudecode": {
       "url": "https://github.com/worldwonderer/oh-story-claudecode",
       "branch": "main",
-      "stars": 704,
-      "forks": 194,
+      "stars": 706,
+      "forks": 195,
       "lastUpdated": "2026-05-02T15:38:59Z"
     },
     "agenmod/immortal-skill": {
@@ -45,21 +45,21 @@
     "tripleyak/SkillForge": {
       "url": "https://github.com/tripleyak/SkillForge",
       "branch": "main",
-      "stars": 635,
+      "stars": 636,
       "forks": 73,
       "lastUpdated": "2026-04-27T17:47:32Z"
     },
     "evo-hq/evo": {
       "url": "https://github.com/evo-hq/evo",
       "branch": "main",
-      "stars": 621,
+      "stars": 622,
       "forks": 52,
       "lastUpdated": "2026-05-02T16:26:28Z"
     },
     "brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research": {
       "url": "https://github.com/brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research",
       "branch": "main",
-      "stars": 609,
+      "stars": 612,
       "forks": 114,
       "lastUpdated": "2026-04-30T20:01:12Z"
     },
@@ -81,13 +81,13 @@
       "url": "https://github.com/countbot-ai/CountBot",
       "branch": "main",
       "stars": 546,
-      "forks": 71,
+      "forks": 72,
       "lastUpdated": "2026-05-01T10:28:00Z"
     },
     "dominikmartn/hue": {
       "url": "https://github.com/dominikmartn/hue",
       "branch": "main",
-      "stars": 525,
+      "stars": 526,
       "forks": 48,
       "lastUpdated": "2026-04-17T04:57:56Z"
     },
@@ -109,13 +109,13 @@
       "url": "https://github.com/Code-and-Sorts/awesome-copilot-agents",
       "branch": "main",
       "stars": 498,
-      "forks": 72,
+      "forks": 73,
       "lastUpdated": "2026-04-29T06:42:59Z"
     },
     "eugeniughelbur/obsidian-second-brain": {
       "url": "https://github.com/eugeniughelbur/obsidian-second-brain",
       "branch": "main",
-      "stars": 485,
+      "stars": 486,
       "forks": 54,
       "lastUpdated": "2026-05-02T19:41:02Z"
     },
@@ -138,7 +138,7 @@
       "branch": "master",
       "stars": 460,
       "forks": 36,
-      "lastUpdated": "2026-04-28T00:50:29Z"
+      "lastUpdated": "2026-05-03T01:16:55Z"
     },
     "HoangNguyen0403/agent-skills-standard": {
       "url": "https://github.com/HoangNguyen0403/agent-skills-standard",
@@ -150,7 +150,7 @@
     "aaronjmars/soul.md": {
       "url": "https://github.com/aaronjmars/soul.md",
       "branch": "main",
-      "stars": 410,
+      "stars": 411,
       "forks": 40,
       "lastUpdated": "2026-04-28T12:56:30Z"
     },
@@ -164,7 +164,7 @@
     "Sushegaad/Claude-Skills-Governance-Risk-and-Compliance": {
       "url": "https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance",
       "branch": "main",
-      "stars": 366,
+      "stars": 367,
       "forks": 81,
       "lastUpdated": "2026-05-01T00:12:49Z"
     },
@@ -174,6 +174,13 @@
       "stars": 344,
       "forks": 60,
       "lastUpdated": "2026-03-20T08:45:22Z"
+    },
+    "nvk/llm-wiki": {
+      "url": "https://github.com/nvk/llm-wiki",
+      "branch": "master",
+      "stars": 334,
+      "forks": 46,
+      "lastUpdated": "2026-05-01T20:19:10Z"
     },
     "bitjaru/styleseed": {
       "url": "https://github.com/bitjaru/styleseed",
@@ -189,13 +196,6 @@
       "forks": 24,
       "lastUpdated": "2026-05-01T15:28:26Z"
     },
-    "nvk/llm-wiki": {
-      "url": "https://github.com/nvk/llm-wiki",
-      "branch": "master",
-      "stars": 330,
-      "forks": 46,
-      "lastUpdated": "2026-05-01T20:19:10Z"
-    },
     "Ar9av/PaperOrchestra": {
       "url": "https://github.com/Ar9av/PaperOrchestra",
       "branch": "main",
@@ -208,21 +208,21 @@
       "branch": "main",
       "stars": 324,
       "forks": 34,
-      "lastUpdated": "2026-05-02T18:30:42Z"
-    },
-    "mxyhi/ok-skills": {
-      "url": "https://github.com/mxyhi/ok-skills",
-      "branch": "main",
-      "stars": 314,
-      "forks": 25,
-      "lastUpdated": "2026-04-30T02:12:46Z"
+      "lastUpdated": "2026-05-03T02:19:44Z"
     },
     "swarmclawai/swarmvault": {
       "url": "https://github.com/swarmclawai/swarmvault",
       "branch": "main",
-      "stars": 314,
+      "stars": 317,
       "forks": 31,
       "lastUpdated": "2026-05-02T15:49:12Z"
+    },
+    "mxyhi/ok-skills": {
+      "url": "https://github.com/mxyhi/ok-skills",
+      "branch": "main",
+      "stars": 315,
+      "forks": 25,
+      "lastUpdated": "2026-04-30T02:12:46Z"
     },
     "mcpware/cross-code-organizer": {
       "url": "https://github.com/mcpware/cross-code-organizer",
@@ -257,7 +257,7 @@
       "branch": "master",
       "stars": 267,
       "forks": 22,
-      "lastUpdated": "2026-05-02T00:13:27Z"
+      "lastUpdated": "2026-05-03T01:24:27Z"
     },
     "zxkane/aws-skills": {
       "url": "https://github.com/zxkane/aws-skills",
@@ -290,7 +290,7 @@
     "sanjay3290/ai-skills": {
       "url": "https://github.com/sanjay3290/ai-skills",
       "branch": "main",
-      "stars": 248,
+      "stars": 250,
       "forks": 23,
       "lastUpdated": "2026-04-13T14:16:19Z"
     },
@@ -299,7 +299,7 @@
       "branch": "main",
       "stars": 233,
       "forks": 26,
-      "lastUpdated": "2026-05-02T21:04:59Z"
+      "lastUpdated": "2026-05-03T00:42:51Z"
     },
     "testdino-hq/playwright-skill": {
       "url": "https://github.com/testdino-hq/playwright-skill",
@@ -325,7 +325,7 @@
     "egebese/dataseo-mcp": {
       "url": "https://github.com/egebese/dataseo-mcp",
       "branch": "main",
-      "stars": 176,
+      "stars": 177,
       "forks": 26,
       "lastUpdated": "2026-04-29T12:32:41Z"
     },
@@ -339,8 +339,8 @@
     "yoloshii/ClawMem": {
       "url": "https://github.com/yoloshii/ClawMem",
       "branch": "main",
-      "stars": 145,
-      "forks": 23,
+      "stars": 147,
+      "forks": 24,
       "lastUpdated": "2026-04-28T12:39:19Z"
     },
     "gapmiss/obsidian-plugin-skill": {
@@ -376,7 +376,7 @@
       "branch": "main",
       "stars": 118,
       "forks": 5,
-      "lastUpdated": "2026-05-02T20:12:15Z"
+      "lastUpdated": "2026-05-02T22:17:01Z"
     },
     "JuneYaooo/gpt-image2-ppt-skills": {
       "url": "https://github.com/JuneYaooo/gpt-image2-ppt-skills",
@@ -388,7 +388,7 @@
     "Storybloq/storybloq": {
       "url": "https://github.com/Storybloq/storybloq",
       "branch": "main",
-      "stars": 87,
+      "stars": 88,
       "forks": 8,
       "lastUpdated": "2026-04-28T20:16:04Z"
     },
@@ -448,6 +448,13 @@
       "forks": 2,
       "lastUpdated": "2026-04-30T05:38:29Z"
     },
+    "ndjordjevic/pin-llm-wiki": {
+      "url": "https://github.com/ndjordjevic/pin-llm-wiki",
+      "branch": "main",
+      "stars": 55,
+      "forks": 10,
+      "lastUpdated": "2026-05-01T09:05:06Z"
+    },
     "OSideMedia/higgsfield-ai-prompt-skill": {
       "url": "https://github.com/OSideMedia/higgsfield-ai-prompt-skill",
       "branch": "main",
@@ -462,12 +469,12 @@
       "forks": 2,
       "lastUpdated": "2026-04-16T03:32:33Z"
     },
-    "ndjordjevic/pin-llm-wiki": {
-      "url": "https://github.com/ndjordjevic/pin-llm-wiki",
+    "AgriciDaniel/codex-seo": {
+      "url": "https://github.com/AgriciDaniel/codex-seo",
       "branch": "main",
-      "stars": 53,
-      "forks": 10,
-      "lastUpdated": "2026-05-01T09:05:06Z"
+      "stars": 54,
+      "forks": 9,
+      "lastUpdated": "2026-04-30T03:00:15Z"
     },
     "devallibus/shiplog": {
       "url": "https://github.com/devallibus/shiplog",
@@ -475,13 +482,6 @@
       "stars": 52,
       "forks": 1,
       "lastUpdated": "2026-04-22T10:57:47Z"
-    },
-    "AgriciDaniel/codex-seo": {
-      "url": "https://github.com/AgriciDaniel/codex-seo",
-      "branch": "main",
-      "stars": 52,
-      "forks": 9,
-      "lastUpdated": "2026-04-30T03:00:15Z"
     },
     "rediumvex/social-media-caption-generator-claude": {
       "url": "https://github.com/rediumvex/social-media-caption-generator-claude",
@@ -495,7 +495,7 @@
       "branch": "main",
       "stars": 47,
       "forks": 7,
-      "lastUpdated": "2026-05-01T19:53:14Z"
+      "lastUpdated": "2026-05-02T21:38:32Z"
     },
     "huhx0015/HXAudioPlayer": {
       "url": "https://github.com/huhx0015/HXAudioPlayer",
@@ -551,14 +551,7 @@
       "branch": "main",
       "stars": 37,
       "forks": 5,
-      "lastUpdated": "2026-05-02T18:55:44Z"
-    },
-    "diegosouzapw/awesome-omni-skills": {
-      "url": "https://github.com/diegosouzapw/awesome-omni-skills",
-      "branch": "main",
-      "stars": 35,
-      "forks": 9,
-      "lastUpdated": "2026-04-29T22:20:39Z"
+      "lastUpdated": "2026-05-03T01:11:54Z"
     },
     "Ashutos1997/claude-design-auditor-skill": {
       "url": "https://github.com/Ashutos1997/claude-design-auditor-skill",
@@ -572,7 +565,14 @@
       "branch": "main",
       "stars": 34,
       "forks": 6,
-      "lastUpdated": "2026-04-25T00:30:09Z"
+      "lastUpdated": "2026-05-03T00:49:18Z"
+    },
+    "diegosouzapw/awesome-omni-skills": {
+      "url": "https://github.com/diegosouzapw/awesome-omni-skills",
+      "branch": "main",
+      "stars": 34,
+      "forks": 8,
+      "lastUpdated": "2026-04-29T22:20:39Z"
     },
     "vwww-droid/Mira": {
       "url": "https://github.com/vwww-droid/Mira",
@@ -614,14 +614,14 @@
       "branch": "main",
       "stars": 32,
       "forks": 2,
-      "lastUpdated": "2026-05-02T11:38:38Z"
+      "lastUpdated": "2026-05-02T22:16:40Z"
     },
     "cleodin/antigravity-awesome-skills": {
       "url": "https://github.com/cleodin/antigravity-awesome-skills",
       "branch": "main",
       "stars": 32,
       "forks": 5,
-      "lastUpdated": "2026-05-02T20:28:47Z"
+      "lastUpdated": "2026-05-03T01:48:47Z"
     },
     "Productfculty-aipm/PM-Copilot-by-Product-Faculty": {
       "url": "https://github.com/Productfculty-aipm/PM-Copilot-by-Product-Faculty",
@@ -651,19 +651,19 @@
       "forks": 6,
       "lastUpdated": "2026-03-31T20:43:40Z"
     },
+    "arvindrk/extract-design-system": {
+      "url": "https://github.com/arvindrk/extract-design-system",
+      "branch": "main",
+      "stars": 28,
+      "forks": 3,
+      "lastUpdated": "2026-04-21T18:05:07Z"
+    },
     "ssdeanx/AgentStack": {
       "url": "https://github.com/ssdeanx/AgentStack",
       "branch": "main",
       "stars": 28,
       "forks": 6,
       "lastUpdated": "2026-04-21T11:17:04Z"
-    },
-    "arvindrk/extract-design-system": {
-      "url": "https://github.com/arvindrk/extract-design-system",
-      "branch": "main",
-      "stars": 27,
-      "forks": 3,
-      "lastUpdated": "2026-04-21T18:05:07Z"
     },
     "akseolabs-seo/cinematic-ui": {
       "url": "https://github.com/akseolabs-seo/cinematic-ui",
@@ -784,6 +784,13 @@
       "forks": 2,
       "lastUpdated": "2026-04-26T12:12:03Z"
     },
+    "MohamedAbdallah-14/unslop": {
+      "url": "https://github.com/MohamedAbdallah-14/unslop",
+      "branch": "main",
+      "stars": 17,
+      "forks": 1,
+      "lastUpdated": "2026-05-02T03:53:44Z"
+    },
     "PranavNagrecha/AwesomeSalesforceSkills": {
       "url": "https://github.com/PranavNagrecha/AwesomeSalesforceSkills",
       "branch": "main",
@@ -797,13 +804,6 @@
       "stars": 16,
       "forks": 2,
       "lastUpdated": "2026-04-24T19:22:15Z"
-    },
-    "MohamedAbdallah-14/unslop": {
-      "url": "https://github.com/MohamedAbdallah-14/unslop",
-      "branch": "main",
-      "stars": 16,
-      "forks": 1,
-      "lastUpdated": "2026-05-02T03:53:44Z"
     },
     "kgeoffrey/postmodernist": {
       "url": "https://github.com/kgeoffrey/postmodernist",
@@ -894,7 +894,7 @@
       "branch": "main",
       "stars": 12,
       "forks": 3,
-      "lastUpdated": "2026-05-02T16:42:33Z"
+      "lastUpdated": "2026-05-03T02:05:39Z"
     },
     "ChenXi-hub/tju-thesis-review-kit": {
       "url": "https://github.com/ChenXi-hub/tju-thesis-review-kit",
@@ -982,13 +982,6 @@
     },
     "RKiding/Awesome-finance-skills": {
       "url": "https://github.com/RKiding/Awesome-finance-skills",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "addyosmani/web-quality-skills": {
-      "url": "https://github.com/addyosmani/web-quality-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -9472,7 +9465,7 @@
       "author": "malob",
       "repo": "malob/nix-config",
       "path": "configs/claude/skills/search-tips",
-      "commitHash": "4ebc21378d83",
+      "commitHash": "fb0c948551ab",
       "files": [
         "SKILL.md",
         "references/academic-search.md",
@@ -9494,7 +9487,7 @@
       "author": "malob",
       "repo": "malob/nix-config",
       "path": "configs/claude/plugins/homebrew/skills/new-cask",
-      "commitHash": "4ebc21378d83",
+      "commitHash": "fb0c948551ab",
       "files": ["SKILL.md"]
     },
     {
@@ -9505,7 +9498,7 @@
       "author": "malob",
       "repo": "malob/nix-config",
       "path": "configs/claude/skills/deep-research-team",
-      "commitHash": "4ebc21378d83",
+      "commitHash": "fb0c948551ab",
       "files": [
         "SKILL.md",
         "dev/ITERATION-LOG.md",
@@ -9537,7 +9530,7 @@
       "author": "malob",
       "repo": "malob/nix-config",
       "path": "configs/claude/plugins/cc-maintenance/skills/audit-permissions",
-      "commitHash": "4ebc21378d83",
+      "commitHash": "fb0c948551ab",
       "files": [
         "SKILL.md",
         "scripts/cleanup-redundant.py",
@@ -9553,7 +9546,7 @@
       "author": "malob",
       "repo": "malob/nix-config",
       "path": "configs/claude/skills/malo-find-skills",
-      "commitHash": "4ebc21378d83",
+      "commitHash": "fb0c948551ab",
       "files": ["SKILL.md"]
     },
     {
@@ -9564,7 +9557,7 @@
       "author": "malob",
       "repo": "malob/nix-config",
       "path": "configs/claude/plugins/pua-unicode/skills/icon-lookup",
-      "commitHash": "4ebc21378d83",
+      "commitHash": "fb0c948551ab",
       "files": ["SKILL.md"]
     },
     {
@@ -11983,6 +11976,47 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "nvk/llm-wiki/plugins/llm-wiki/skills/wiki",
+      "name": "wiki",
+      "description": "LLM-compiled knowledge base manager for Codex. Use it to initialize, ingest, import source collections, compile, query, lint, audit, research, plan, and generate outputs from topic-scoped wikis. Activates when the user mentions wiki workflows, knowledge-base management, ingestion, collection ingestion, import wiki, compilation, querying, linting, audit, research, librarian, scan quality, article quality, content review, output drift, provenance, implementation plan, or uses /wiki-style shorthand in a repo with .wiki/, ~/wiki/, or a configured hub path.\n",
+      "categories": ["Development", "Design", "Writing", "Productivity", "Business", "Research"],
+      "author": "nvk",
+      "repo": "nvk/llm-wiki",
+      "path": "plugins/llm-wiki/skills/wiki",
+      "commitHash": "5fa813474bef",
+      "files": ["SKILL.md", "agents", "references"]
+    },
+    {
+      "id": "nvk/llm-wiki/claude-plugin/skills/wiki-manager",
+      "name": "wiki-manager",
+      "description": "LLM-compiled knowledge base manager. Activates when user works with wiki directories, mentions knowledge base management, asks knowledge questions in a project with a wiki, wants to ingest/import/compile/query/lint/audit knowledge, or uses /wiki commands. Also activates when user says \"wiki\", \"knowledge base\", \"ingest\", \"import wiki\", \"ingest collection\", \"compile wiki\", \"add to wiki\", \"search wiki\", \"audit\", \"librarian\", \"scan quality\", \"article quality\", \"content review\", \"output drift\", \"provenance\", \"trust this\", or asks a factual question in a directory containing .wiki/ or when ~/wiki/ exists or the configured hub path exists (check ~/.config/llm-wiki/config.json for hub_path).\n",
+      "categories": [
+        "Development",
+        "Writing",
+        "Productivity",
+        "Data & Analytics",
+        "Business",
+        "Research",
+        "AI & ML"
+      ],
+      "author": "nvk",
+      "repo": "nvk/llm-wiki",
+      "path": "claude-plugin/skills/wiki-manager",
+      "commitHash": "5fa813474bef",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "nvk/llm-wiki/plugins/llm-wiki-opencode/skills/wiki-manager",
+      "name": "wiki-manager",
+      "description": "LLM-compiled knowledge base manager for OpenCode. Use it to initialize, ingest, import source collections, compile, query, lint, audit, research, plan, and generate outputs from topic-scoped wikis. Activates when the user mentions wiki workflows, knowledge-base management, ingestion, collection ingestion, import wiki, compilation, querying, linting, audit, research, librarian, scan quality, article quality, content review, output drift, provenance, lessons learned, implementation plan, or uses wiki-related shorthand in a repo with .wiki/, ~/wiki/, or a configured hub path.\n",
+      "categories": ["Development", "Writing", "Productivity", "Business", "Research"],
+      "author": "nvk",
+      "repo": "nvk/llm-wiki",
+      "path": "plugins/llm-wiki-opencode/skills/wiki-manager",
+      "commitHash": "5fa813474bef",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "bitjaru/styleseed/engine/.claude/skills/ss-lint",
       "name": "ss-lint",
       "description": "Quick automated lint — detects common design system violations in seconds",
@@ -12426,47 +12460,6 @@
       ]
     },
     {
-      "id": "nvk/llm-wiki/plugins/llm-wiki/skills/wiki",
-      "name": "wiki",
-      "description": "LLM-compiled knowledge base manager for Codex. Use it to initialize, ingest, import source collections, compile, query, lint, audit, research, plan, and generate outputs from topic-scoped wikis. Activates when the user mentions wiki workflows, knowledge-base management, ingestion, collection ingestion, import wiki, compilation, querying, linting, audit, research, librarian, scan quality, article quality, content review, output drift, provenance, implementation plan, or uses /wiki-style shorthand in a repo with .wiki/, ~/wiki/, or a configured hub path.\n",
-      "categories": ["Development", "Design", "Writing", "Productivity", "Business", "Research"],
-      "author": "nvk",
-      "repo": "nvk/llm-wiki",
-      "path": "plugins/llm-wiki/skills/wiki",
-      "commitHash": "5fa813474bef",
-      "files": ["SKILL.md", "agents", "references"]
-    },
-    {
-      "id": "nvk/llm-wiki/claude-plugin/skills/wiki-manager",
-      "name": "wiki-manager",
-      "description": "LLM-compiled knowledge base manager. Activates when user works with wiki directories, mentions knowledge base management, asks knowledge questions in a project with a wiki, wants to ingest/import/compile/query/lint/audit knowledge, or uses /wiki commands. Also activates when user says \"wiki\", \"knowledge base\", \"ingest\", \"import wiki\", \"ingest collection\", \"compile wiki\", \"add to wiki\", \"search wiki\", \"audit\", \"librarian\", \"scan quality\", \"article quality\", \"content review\", \"output drift\", \"provenance\", \"trust this\", or asks a factual question in a directory containing .wiki/ or when ~/wiki/ exists or the configured hub path exists (check ~/.config/llm-wiki/config.json for hub_path).\n",
-      "categories": [
-        "Development",
-        "Writing",
-        "Productivity",
-        "Data & Analytics",
-        "Business",
-        "Research",
-        "AI & ML"
-      ],
-      "author": "nvk",
-      "repo": "nvk/llm-wiki",
-      "path": "claude-plugin/skills/wiki-manager",
-      "commitHash": "5fa813474bef",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "nvk/llm-wiki/plugins/llm-wiki-opencode/skills/wiki-manager",
-      "name": "wiki-manager",
-      "description": "LLM-compiled knowledge base manager for OpenCode. Use it to initialize, ingest, import source collections, compile, query, lint, audit, research, plan, and generate outputs from topic-scoped wikis. Activates when the user mentions wiki workflows, knowledge-base management, ingestion, collection ingestion, import wiki, compilation, querying, linting, audit, research, librarian, scan quality, article quality, content review, output drift, provenance, lessons learned, implementation plan, or uses wiki-related shorthand in a repo with .wiki/, ~/wiki/, or a configured hub path.\n",
-      "categories": ["Development", "Writing", "Productivity", "Business", "Research"],
-      "author": "nvk",
-      "repo": "nvk/llm-wiki",
-      "path": "plugins/llm-wiki-opencode/skills/wiki-manager",
-      "commitHash": "5fa813474bef",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "Ar9av/PaperOrchestra/skills/outline-agent",
       "name": "outline-agent",
       "description": "Step 1 of the PaperOrchestra pipeline (arXiv:2604.05018). Convert (idea.md, experimental_log.md, template.tex, conference_guidelines.md) into a strict JSON outline containing a plotting plan, literature search plan (Intro + Related Work), and section-level writing plan with citation hints. TRIGGER when the orchestrator delegates Step 1 or when the user asks to \"outline a paper from raw materials\" or \"generate the paper structure\".",
@@ -12573,7 +12566,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/rpi",
-      "commitHash": "342a8fc0105c",
+      "commitHash": "f382d42bc360",
       "files": [
         "SKILL.md",
         "references/autonomous-execution.md",
@@ -12599,104 +12592,188 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/scenario",
-      "commitHash": "342a8fc0105c",
+      "commitHash": "f382d42bc360",
       "files": [".agentops-generated.json", "SKILL.md", "prompt.md"]
     },
     {
-      "id": "boshu2/agentops/skills/using-agentops",
-      "name": "using-agentops",
-      "description": "Explain AgentOps workflows.",
-      "categories": ["AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/using-agentops",
-      "commitHash": "342a8fc0105c",
-      "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills/validation",
-      "name": "validation",
-      "description": "Run post-implementation validation.",
+      "id": "boshu2/agentops/skills-codex/pr-plan",
+      "name": "pr-plan",
+      "description": "Plan an open source PR.",
       "categories": ["Other"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills/validation",
-      "commitHash": "342a8fc0105c",
+      "path": "skills-codex/pr-plan",
+      "commitHash": "f382d42bc360",
+      "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills/push",
+      "name": "push",
+      "description": "Validate, commit, and push.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/push",
+      "commitHash": "f382d42bc360",
+      "files": ["SKILL.md", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/bootstrap",
+      "name": "bootstrap",
+      "description": "Initialize AgentOps project files.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/bootstrap",
+      "commitHash": "f382d42bc360",
+      "files": [".agentops-generated.json", "SKILL.md", "prompt.md"]
+    },
+    {
+      "id": "boshu2/agentops/skills/quickstart",
+      "name": "quickstart",
+      "description": "Show AgentOps next action.",
+      "categories": ["Design"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/quickstart",
+      "commitHash": "f382d42bc360",
       "files": [
         "SKILL.md",
-        "references/forge-scope.md",
-        "references/four-surface-closure.md",
+        "references/full-catalog.md",
+        "references/getting-started.md",
+        "references/troubleshooting.md",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/brainstorm",
+      "name": "brainstorm",
+      "description": "Separate goals from implementation.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/brainstorm",
+      "commitHash": "f382d42bc360",
+      "files": ["SKILL.md", "references/red-team-checklist.md", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills/discovery",
+      "name": "discovery",
+      "description": "Create execution packets.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/discovery",
+      "commitHash": "f382d42bc360",
+      "files": [
+        "SKILL.md",
+        "references/complexity-auto-detect.md",
         "references/idempotency-and-resume.md",
-        "references/step-1.8-behavioral-validation.md",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/red-team",
-      "name": "red-team",
-      "description": "Probe docs and skills.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/red-team",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        "SKILL.md",
-        "references/persona-format.md",
-        "references/report-format.md",
-        "references/scenario-format.md",
-        "references/surface-types.md",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/post-mortem",
-      "name": "post-mortem",
-      "description": "Review completed work and learn.",
-      "categories": ["Research"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/post-mortem",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        "SKILL.md",
-        "references/activation-policy.md",
-        "references/backlog-processing.md",
-        "references/checkpoint-policy.md",
-        "references/closure-integrity-audit.md",
-        "references/context-gathering.md",
-        "references/four-surface-closure.md",
-        "references/harvest-next-work.md",
-        "references/learning-templates.md",
-        "references/maintenance-phases.md",
-        "references/metadata-verification.md",
         "references/output-templates.md",
-        "references/plan-compliance-checklist.md",
-        "references/prediction-tracking.md",
-        "references/retro-history.md",
-        "references/security-patterns.md",
-        "references/streak-tracking.md",
-        "scripts/closure-integrity-audit.sh",
-        "scripts/preflight-refs.sh",
+        "references/phase-budgets.md",
+        "references/troubleshooting.md",
         "scripts/validate.sh"
       ]
     },
     {
-      "id": "boshu2/agentops/skills-codex/bug-hunt",
-      "name": "bug-hunt",
-      "description": "Investigate bugs and root causes.",
+      "id": "boshu2/agentops/skills/implement",
+      "name": "implement",
+      "description": "Implement one tracked issue.",
       "categories": ["Other"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills-codex/bug-hunt",
-      "commitHash": "342a8fc0105c",
+      "path": "skills/implement",
+      "commitHash": "f382d42bc360",
+      "files": [
+        "SKILL.md",
+        "references/binary-deployment-gate.md",
+        "references/gate-checks.md",
+        "references/resume-protocol.md",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/readme",
+      "name": "readme",
+      "description": "Draft or improve README docs.",
+      "categories": ["Writing"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/readme",
+      "commitHash": "f382d42bc360",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
         "prompt.md",
-        "references/audit-report-template.md",
-        "references/bug-report-template.md",
-        "references/failure-categories.md",
+        "references/.gitkeep",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/release",
+      "name": "release",
+      "description": "Run release validation.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/release",
+      "commitHash": "f382d42bc360",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/release-cadence.md",
+        "references/release-notes.md",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/beads",
+      "name": "beads",
+      "description": "Track bd issues and dependencies.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/beads",
+      "commitHash": "f382d42bc360",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/ANTI_PATTERNS.md",
+        "references/BOUNDARIES.md",
+        "references/CLI_REFERENCE.md",
+        "references/DEPENDENCIES.md",
+        "references/INTEGRATION_PATTERNS.md",
+        "references/ISSUE_CREATION.md",
+        "references/MOLECULES.md",
+        "references/PATTERNS.md",
+        "references/RESUMABILITY.md",
+        "references/ROUTING.md",
+        "references/STATIC_DATA.md",
+        "references/TROUBLESHOOTING.md",
+        "references/WORKFLOWS.md",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/flywheel",
+      "name": "flywheel",
+      "description": "Check knowledge flywheel health.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/flywheel",
+      "commitHash": "f382d42bc360",
+      "files": [
+        "SKILL.md",
+        "references/.gitkeep",
+        "references/artifact-consistency-allowlist.txt",
+        "references/artifact-consistency.md",
+        "references/cache-eviction.md",
+        "references/hub-budget.md",
+        "references/promotion-tiers.md",
+        "scripts/artifact-consistency.sh",
         "scripts/validate.sh"
       ]
     },
@@ -12708,7 +12785,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/shared",
-      "commitHash": "342a8fc0105c",
+      "commitHash": "f382d42bc360",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -12729,239 +12806,56 @@
       ]
     },
     {
-      "id": "boshu2/agentops/skills-codex/flywheel",
-      "name": "flywheel",
-      "description": "Check knowledge flywheel health.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/flywheel",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/.gitkeep",
-        "references/artifact-consistency-allowlist.txt",
-        "references/artifact-consistency.md",
-        "references/cache-eviction.md",
-        "references/hub-budget.md",
-        "references/promotion-tiers.md",
-        "scripts/artifact-consistency.sh",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/dream",
-      "name": "dream",
-      "description": "Run overnight compounding sessions.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/dream",
-      "commitHash": "342a8fc0105c",
-      "files": [".agentops-generated.json", "SKILL.md", "prompt.md"]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/pr-validate",
-      "name": "pr-validate",
-      "description": "Validate PR scope and quality.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/pr-validate",
-      "commitHash": "342a8fc0105c",
-      "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills/harvest",
-      "name": "harvest",
-      "description": "Promote .agents knowledge.",
-      "categories": ["AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/harvest",
-      "commitHash": "342a8fc0105c",
-      "files": ["SKILL.md", "references/governance.md", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills/oss-docs",
-      "name": "oss-docs",
-      "description": "Scaffold or audit OSS docs.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/oss-docs",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        "SKILL.md",
-        "references/beads-patterns.md",
-        "references/documentation-tiers.md",
-        "references/project-types.md",
-        "scripts/audit-oss-docs.sh",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/retro",
-      "name": "retro",
-      "description": "Capture a session learning.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/retro",
-      "commitHash": "342a8fc0105c",
-      "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills/reverse-engineer-rpi",
-      "name": "reverse-engineer-rpi",
-      "description": "Reverse-engineer product specs.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/reverse-engineer-rpi",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        ".gitignore",
-        "SKILL.md",
-        "agents/openai.yaml",
-        "fixtures/cc-sdd-v2.1.0/cli-surface-contracts.txt",
-        "fixtures/cc-sdd-v2.1.0/clone-metadata.json",
-        "fixtures/cc-sdd-v2.1.0/docs-features.txt",
-        "fixtures/cc-sdd-v2.1.0/feature-registry.yaml",
-        "references/templates/post-mortem.md.tmpl",
-        "references/templates/security/attack-surface.md.tmpl",
-        "references/templates/security/authn-authz.md.tmpl",
-        "references/templates/security/crypto-review.md.tmpl",
-        "references/templates/security/dataflow.md.tmpl",
-        "references/templates/security/findings.md.tmpl",
-        "references/templates/security/reproducibility.md.tmpl",
-        "references/templates/security/threat-model.md.tmpl",
-        "references/templates/spec-architecture.md.tmpl",
-        "references/templates/spec-cli-surface.md.tmpl",
-        "references/templates/spec-clone-mvp.md.tmpl",
-        "references/templates/spec-clone-vs-use.md.tmpl",
-        "references/templates/spec-code-map.md.tmpl"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/ratchet",
-      "name": "ratchet",
-      "description": "Record Brownian Ratchet gates.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/ratchet",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/.gitkeep",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/llm-wiki",
-      "name": "llm-wiki",
-      "description": "Build external-knowledge wikis.",
-      "categories": ["AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/llm-wiki",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/architecture.md",
-        "references/research.md"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/complexity",
-      "name": "complexity",
-      "description": "Find focused refactor hotspots.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/complexity",
-      "commitHash": "342a8fc0105c",
-      "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills/release",
-      "name": "release",
-      "description": "Run release validation.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/release",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        "SKILL.md",
-        "references/release-cadence.md",
-        "references/release-notes.md",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/perf",
-      "name": "perf",
-      "description": "Profile and optimize hotspots.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/perf",
-      "commitHash": "342a8fc0105c",
-      "files": ["SKILL.md", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/implement",
-      "name": "implement",
-      "description": "Implement one tracked issue.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/implement",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/binary-deployment-gate.md",
-        "references/gate-checks.md",
-        "references/resume-protocol.md",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/plan",
-      "name": "plan",
-      "description": "Decompose goals into issue plans.",
+      "id": "boshu2/agentops/skills/scaffold",
+      "name": "scaffold",
+      "description": "Create project, component, or boilerplate scaffolds.",
       "categories": ["Productivity"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills/plan",
-      "commitHash": "342a8fc0105c",
+      "path": "skills/scaffold",
+      "commitHash": "f382d42bc360",
+      "files": ["SKILL.md", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/doc",
+      "name": "doc",
+      "description": "Generate and validate repo docs.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/doc",
+      "commitHash": "f382d42bc360",
       "files": [
+        ".agentops-generated.json",
         "SKILL.md",
-        "references/complexity-estimation.md",
-        "references/decomposition.md",
-        "references/detail-templates.md",
-        "references/examples.md",
-        "references/implementation-detail.md",
-        "references/plan-document-template.md",
-        "references/plan-mutations.md",
-        "references/planning-rules.md",
-        "references/pre-decomposition.md",
-        "references/sdd-patterns.md",
-        "references/task-creation.md",
-        "references/templates.md",
-        "references/wave-matrices.md",
+        "prompt.md",
+        "references/generation-templates.md",
+        "references/project-types.md",
+        "references/validation-rules.md",
         "scripts/validate.sh"
       ]
+    },
+    {
+      "id": "boshu2/agentops/skills/pr-implement",
+      "name": "pr-implement",
+      "description": "Implement a scoped OSS PR.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/pr-implement",
+      "commitHash": "f382d42bc360",
+      "files": ["SKILL.md", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/pr-retro",
+      "name": "pr-retro",
+      "description": "Learn from PR outcomes.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/pr-retro",
+      "commitHash": "f382d42bc360",
+      "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
     },
     {
       "id": "boshu2/agentops/skills/pre-mortem",
@@ -12971,7 +12865,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/pre-mortem",
-      "commitHash": "342a8fc0105c",
+      "commitHash": "f382d42bc360",
       "files": [
         "SKILL.md",
         "references/compiled-prevention.md",
@@ -12983,6 +12877,7 @@
         "references/mandatory-checks.md",
         "references/prediction-tracking.md",
         "references/scope-mode.md",
+        "references/scope-predicate-positive-negative-cases.md",
         "references/simulation-prompts.md",
         "references/spec-verification-checklist.md",
         "references/temporal-interrogation.md",
@@ -12991,379 +12886,169 @@
       ]
     },
     {
-      "id": "boshu2/agentops/skills-codex/grafana-platform-dashboard",
-      "name": "grafana-platform-dashboard",
-      "description": "Validate OpenShift Grafana dashboards.",
+      "id": "boshu2/agentops/skills-codex/provenance",
+      "name": "provenance",
+      "description": "Trace artifact provenance.",
       "categories": ["Other"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills-codex/grafana-platform-dashboard",
-      "commitHash": "342a8fc0105c",
+      "path": "skills-codex/provenance",
+      "commitHash": "f382d42bc360",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
-        "agents/openai.yaml",
         "prompt.md",
-        "references/layout-guidelines.md",
-        "references/platform-contract.md",
-        "references/promql-library.md",
-        "scripts/grafanadashboard_roundtrip.sh",
-        "scripts/promql_scan_thanos.sh",
+        "references/.gitkeep",
         "scripts/validate.sh"
       ]
     },
     {
-      "id": "boshu2/agentops/skills-codex/update",
-      "name": "update",
-      "description": "Sync AgentOps skills.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/update",
-      "commitHash": "342a8fc0105c",
-      "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/design",
-      "name": "design",
-      "description": "Validate product fit before discovery.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/design",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/alignment-matrix.md",
-        "references/product-council-preset.md"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex-overrides/swarm",
-      "name": "swarm",
-      "description": "Spawn isolated Codex sub-agents for parallel task execution using the current runtime primitives. Triggers: \"swarm\", \"spawn agents\", \"parallel work\", \"run in parallel\", \"parallel execution\".",
-      "categories": ["Productivity", "AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex-overrides/swarm",
-      "commitHash": "342a8fc0105c",
-      "files": ["SKILL.md", "prompt.md"]
-    },
-    {
-      "id": "boshu2/agentops/skills/converter",
+      "id": "boshu2/agentops/skills-codex/converter",
       "name": "converter",
       "description": "Convert AgentOps skill formats.",
       "categories": ["Documents"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills/converter",
-      "commitHash": "342a8fc0105c",
+      "path": "skills-codex/converter",
+      "commitHash": "f382d42bc360",
       "files": [
+        ".agentops-generated.json",
         "SKILL.md",
+        "prompt.md",
         "references/skill-bundle-schema.md",
         "scripts/convert.sh",
         "scripts/validate.sh"
       ]
     },
     {
-      "id": "boshu2/agentops/skills-codex-overrides/council",
-      "name": "council",
-      "description": "Multi-perspective review for Codex using the current sub-agent runtime. Triggers: \"council\", \"get consensus\", \"multi-model review\", \"multi-perspective review\", \"council validate\", \"council brainstorm\", \"council research\".",
-      "categories": ["Research", "AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex-overrides/council",
-      "commitHash": "342a8fc0105c",
-      "files": ["SKILL.md", "prompt.md"]
-    },
-    {
-      "id": "boshu2/agentops/skills/crank",
-      "name": "crank",
-      "description": "Execute epics through waves.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/crank",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        "SKILL.md",
-        "references/branch-isolation.md",
-        "references/claude-code-latest-features.md",
-        "references/commit-strategies.md",
-        "references/contract-template.md",
-        "references/de-sloppify.md",
-        "references/external-gate-protocol.md",
-        "references/failure-recovery.md",
-        "references/failure-taxonomy.md",
-        "references/fire.md",
-        "references/gc-pool-dispatch.md",
-        "references/parallel-wave-isolation.md",
-        "references/plan-mutations.md",
-        "references/ralph-loop-contract.md",
-        "references/shared-task-notes.md",
-        "references/taskcreate-examples.md",
-        "references/team-coordination.md",
-        "references/test-first-mode.md",
-        "references/troubleshooting.md",
-        "references/uat-integration-wave.md"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/vibe",
-      "name": "vibe",
-      "description": "Validate code readiness.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/vibe",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/deep-audit-protocol.md",
-        "references/examples.md",
-        "references/go-patterns.md",
-        "references/go-standards.md",
-        "references/json-standards.md",
-        "references/markdown-standards.md",
-        "references/patterns.md",
-        "references/python-standards.md",
-        "references/report-format.md",
-        "references/rust-standards.md",
-        "references/shell-standards.md",
-        "references/test-pyramid-weighting.md",
-        "references/typescript-standards.md",
-        "references/verification-report.md",
-        "references/vibe-coding.md",
-        "references/vibe-suppressions.md",
-        "references/write-time-quality.md"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/status",
-      "name": "status",
-      "description": "Show AgentOps work status.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/status",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/.gitkeep",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/goals",
-      "name": "goals",
-      "description": "Maintain AgentOps goals.",
-      "categories": ["AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/goals",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        "SKILL.md",
-        "references/generation-heuristics.md",
-        "references/goals-schema.md",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/scope",
-      "name": "scope",
-      "description": "Hard-block edits outside declared frozen directories via PreToolUse hook.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/scope",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/lock-file-format.md"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/inject",
-      "name": "inject",
-      "description": "Load relevant .agents context.",
-      "categories": ["AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/inject",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/.gitkeep",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/deps",
-      "name": "deps",
-      "description": "Audit dependency risks and updates.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/deps",
-      "commitHash": "342a8fc0105c",
-      "files": ["SKILL.md", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills/trace",
-      "name": "trace",
-      "description": "Trace decisions through artifacts.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/trace",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        "SKILL.md",
-        "references/discovery-patterns.md",
-        "references/edge-cases.md",
-        "references/report-template.md",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/pr-retro",
-      "name": "pr-retro",
-      "description": "Learn from PR outcomes.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/pr-retro",
-      "commitHash": "342a8fc0105c",
-      "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/council",
-      "name": "council",
-      "description": "Run multi-judge consensus.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/council",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/agent-prompts.md",
-        "references/backend-background-tasks.md",
-        "references/backend-codex-subagents.md",
-        "references/backend-inline.md",
-        "references/brainstorm-techniques.md",
-        "references/caching-guidance.md",
-        "references/cli-spawning.md",
-        "references/debate-protocol.md",
-        "references/explorers.md",
-        "references/finding-extraction.md",
-        "references/model-profiles.md",
-        "references/model-routing.md",
-        "references/output-format.md",
-        "references/personas.md",
-        "references/presets.md",
-        "references/quick-mode.md",
-        "references/ralph-loop-contract.md"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/openai-docs",
-      "name": "openai-docs",
-      "description": "Use official OpenAI docs.",
-      "categories": ["AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/openai-docs",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        "LICENSE.txt",
-        "SKILL.md",
-        "agents/openai.yaml",
-        "assets/openai-small.svg",
-        "assets/openai.png",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/forge",
+      "id": "boshu2/agentops/skills/forge",
       "name": "forge",
       "description": "Mine transcripts into learnings.",
       "categories": ["Other"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills-codex/forge",
-      "commitHash": "342a8fc0105c",
+      "path": "skills/forge",
+      "commitHash": "f382d42bc360",
       "files": [
-        ".agentops-generated.json",
         "SKILL.md",
-        "prompt.md",
         "references/.gitkeep",
         "references/uncaptured-lesson-patterns.md",
         "scripts/validate.sh"
       ]
     },
     {
-      "id": "boshu2/agentops/skills/compile",
-      "name": "compile",
-      "description": "Compile .agents knowledge wiki.",
-      "categories": ["AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/compile",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        "SKILL.md",
-        "references/confidence-scoring.md",
-        "references/flywheel-diagnostics.md",
-        "references/knowledge-synthesis-patterns.md",
-        "references/phases.md",
-        "scripts/compile.sh",
-        "scripts/tests/test-fence-stripping.sh",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/bootstrap",
-      "name": "bootstrap",
-      "description": "Initialize AgentOps project files.",
+      "id": "boshu2/agentops/skills/dream",
+      "name": "dream",
+      "description": "Run overnight compounding sessions.",
       "categories": ["Other"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills/bootstrap",
-      "commitHash": "342a8fc0105c",
+      "path": "skills/dream",
+      "commitHash": "f382d42bc360",
       "files": ["SKILL.md", "scripts/validate.sh"]
     },
     {
-      "id": "boshu2/agentops/skills/security-suite",
-      "name": "security-suite",
-      "description": "Run composable security analysis.",
+      "id": "boshu2/agentops/skills/ratchet",
+      "name": "ratchet",
+      "description": "Record Brownian Ratchet gates.",
       "categories": ["Other"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills/security-suite",
-      "commitHash": "342a8fc0105c",
+      "path": "skills/ratchet",
+      "commitHash": "f382d42bc360",
+      "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills/security",
+      "name": "security",
+      "description": "Run repository security scans.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/security",
+      "commitHash": "f382d42bc360",
+      "files": ["SKILL.md", "scripts/security-gate.sh", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/pr-validate",
+      "name": "pr-validate",
+      "description": "Validate PR scope and quality.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/pr-validate",
+      "commitHash": "f382d42bc360",
+      "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/reverse-engineer-rpi",
+      "name": "reverse-engineer-rpi",
+      "description": "Reverse-engineer product specs.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/reverse-engineer-rpi",
+      "commitHash": "f382d42bc360",
+      "files": [
+        ".agentops-generated.json",
+        ".gitignore",
+        "SKILL.md",
+        "agents/openai.yaml",
+        "fixtures/cc-sdd-v2.1.0/cli-surface-contracts.txt",
+        "fixtures/cc-sdd-v2.1.0/clone-metadata.json",
+        "fixtures/cc-sdd-v2.1.0/docs-features.txt",
+        "fixtures/cc-sdd-v2.1.0/feature-registry.yaml",
+        "prompt.md",
+        "references/templates/post-mortem.md.tmpl",
+        "references/templates/security/attack-surface.md.tmpl",
+        "references/templates/security/authn-authz.md.tmpl",
+        "references/templates/security/crypto-review.md.tmpl",
+        "references/templates/security/dataflow.md.tmpl",
+        "references/templates/security/findings.md.tmpl",
+        "references/templates/security/reproducibility.md.tmpl",
+        "references/templates/security/threat-model.md.tmpl",
+        "references/templates/spec-architecture.md.tmpl",
+        "references/templates/spec-cli-surface.md.tmpl",
+        "references/templates/spec-clone-mvp.md.tmpl"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/scope",
+      "name": "scope",
+      "description": "Hard-block edits outside declared frozen directories via PreToolUse hook.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/scope",
+      "commitHash": "f382d42bc360",
+      "files": ["SKILL.md", "references/lock-file-format.md"]
+    },
+    {
+      "id": "boshu2/agentops/skills/codex-team",
+      "name": "codex-team",
+      "description": "Coordinate multiple Codex agents.",
+      "categories": ["AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/codex-team",
+      "commitHash": "f382d42bc360",
       "files": [
         "SKILL.md",
-        "references/agentops-redteam-pack.json",
-        "references/owasp-checklist.md",
-        "references/policy-example.json",
-        "scripts/prompt_redteam.py",
-        "scripts/security_suite.py",
+        "references/.gitkeep",
+        "references/claude-code-latest-features.md",
         "scripts/validate.sh"
       ]
+    },
+    {
+      "id": "boshu2/agentops/skills/inject",
+      "name": "inject",
+      "description": "Load relevant .agents context.",
+      "categories": ["AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/inject",
+      "commitHash": "f382d42bc360",
+      "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
     },
     {
       "id": "boshu2/agentops/skills/review",
@@ -13373,28 +13058,30 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/review",
-      "commitHash": "342a8fc0105c",
+      "commitHash": "f382d42bc360",
       "files": ["SKILL.md", "scripts/validate.sh"]
     },
     {
-      "id": "boshu2/agentops/skills-codex/discovery",
-      "name": "discovery",
-      "description": "Create execution packets.",
+      "id": "boshu2/agentops/skills/product",
+      "name": "product",
+      "description": "Create or refine PRODUCT.md.",
       "categories": ["Other"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills-codex/discovery",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/complexity-auto-detect.md",
-        "references/idempotency-and-resume.md",
-        "references/output-templates.md",
-        "references/phase-budgets.md",
-        "references/troubleshooting.md"
-      ]
+      "path": "skills/product",
+      "commitHash": "f382d42bc360",
+      "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/autodev",
+      "name": "autodev",
+      "description": "Manage bounded autonomous dev loops.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/autodev",
+      "commitHash": "f382d42bc360",
+      "files": [".agentops-generated.json", "SKILL.md", "prompt.md"]
     },
     {
       "id": "boshu2/agentops/skills-codex/evolve",
@@ -13404,7 +13091,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills-codex/evolve",
-      "commitHash": "342a8fc0105c",
+      "commitHash": "f382d42bc360",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
@@ -13422,160 +13109,36 @@
       ]
     },
     {
-      "id": "boshu2/agentops/skills/refactor",
-      "name": "refactor",
-      "description": "Execute safe refactors.",
-      "categories": ["Other"],
+      "id": "boshu2/agentops/skills-codex/post-mortem",
+      "name": "post-mortem",
+      "description": "Review completed work and learn.",
+      "categories": ["Research"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills/refactor",
-      "commitHash": "342a8fc0105c",
-      "files": ["SKILL.md", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills/heal-skill",
-      "name": "heal-skill",
-      "description": "Repair skill hygiene.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/heal-skill",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        "SKILL.md",
-        "references/codex-parity.md",
-        "references/skill-stocktake.md",
-        "scripts/heal.sh",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/knowledge-activation",
-      "name": "knowledge-activation",
-      "description": "Activate mature .agents knowledge.",
-      "categories": ["AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/knowledge-activation",
-      "commitHash": "342a8fc0105c",
+      "path": "skills-codex/post-mortem",
+      "commitHash": "f382d42bc360",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
         "prompt.md",
-        "references/dag.md",
-        "references/output-surfaces.md",
-        "references/script-contracts.md",
-        "scripts/validate.sh"
+        "references/activation-policy.md",
+        "references/backlog-processing.md",
+        "references/checkpoint-policy.md",
+        "references/closure-integrity-audit.md",
+        "references/context-gathering.md",
+        "references/four-surface-closure.md",
+        "references/harvest-next-work.md",
+        "references/learning-templates.md",
+        "references/maintenance-phases.md",
+        "references/metadata-verification.md",
+        "references/output-templates.md",
+        "references/plan-compliance-checklist.md",
+        "references/prediction-tracking.md",
+        "references/retro-history.md",
+        "references/security-patterns.md",
+        "references/streak-tracking.md",
+        "scripts/closure-integrity-audit.sh"
       ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/pr-implement",
-      "name": "pr-implement",
-      "description": "Implement a scoped OSS PR.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/pr-implement",
-      "commitHash": "342a8fc0105c",
-      "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills/provenance",
-      "name": "provenance",
-      "description": "Trace artifact provenance.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/provenance",
-      "commitHash": "342a8fc0105c",
-      "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/push",
-      "name": "push",
-      "description": "Validate, commit, and push.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/push",
-      "commitHash": "342a8fc0105c",
-      "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
-    },
-    {
-      "id": "boshu2/agentops/skills/swarm",
-      "name": "swarm",
-      "description": "Dispatch parallel agents.",
-      "categories": ["AI & ML"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/swarm",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        "SKILL.md",
-        "references/backend-background-tasks.md",
-        "references/backend-claude-teams.md",
-        "references/backend-codex-subagents.md",
-        "references/backend-inline.md",
-        "references/claude-code-latest-features.md",
-        "references/cold-start-contexts.md",
-        "references/conflict-recovery.md",
-        "references/local-mode.md",
-        "references/pre-spawn-friction-gates.md",
-        "references/ralph-loop-contract.md",
-        "references/scope-escape-template.md",
-        "references/validation-contract.md",
-        "references/worker-pitfalls.md",
-        "references/worker-pre-task-checks.md",
-        "scripts/ol-ratchet.sh",
-        "scripts/ol-wave-loader.sh",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills-codex/readme",
-      "name": "readme",
-      "description": "Draft or improve README docs.",
-      "categories": ["Writing"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills-codex/readme",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        ".agentops-generated.json",
-        "SKILL.md",
-        "prompt.md",
-        "references/.gitkeep",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/pr-prep",
-      "name": "pr-prep",
-      "description": "Prepare PR commits and body.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/pr-prep",
-      "commitHash": "342a8fc0105c",
-      "files": [
-        "SKILL.md",
-        "references/case-study-historical-context.md",
-        "references/commit-split-advisor.md",
-        "references/lessons-learned.md",
-        "references/package-extraction.md",
-        "scripts/validate.sh"
-      ]
-    },
-    {
-      "id": "boshu2/agentops/skills/autodev",
-      "name": "autodev",
-      "description": "Manage bounded autonomous dev loops.",
-      "categories": ["Other"],
-      "author": "boshu2",
-      "repo": "boshu2/agentops",
-      "path": "skills/autodev",
-      "commitHash": "342a8fc0105c",
-      "files": ["SKILL.md", "scripts/validate.sh"]
     },
     {
       "id": "boshu2/agentops/skills/standards",
@@ -13585,7 +13148,7 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/standards",
-      "commitHash": "342a8fc0105c",
+      "commitHash": "f382d42bc360",
       "files": [
         "SKILL.md",
         "references/behavioral-discipline.md",
@@ -13610,48 +13173,209 @@
       ]
     },
     {
-      "id": "boshu2/agentops/skills-codex/security",
-      "name": "security",
-      "description": "Run repository security scans.",
+      "id": "boshu2/agentops/skills-codex/red-team",
+      "name": "red-team",
+      "description": "Probe docs and skills.",
       "categories": ["Other"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills-codex/security",
-      "commitHash": "342a8fc0105c",
+      "path": "skills-codex/red-team",
+      "commitHash": "f382d42bc360",
       "files": [
         ".agentops-generated.json",
         "SKILL.md",
         "prompt.md",
-        "scripts/security-gate.sh",
+        "references/persona-format.md",
+        "references/report-format.md",
+        "references/scenario-format.md",
+        "references/surface-types.md"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/heal-skill",
+      "name": "heal-skill",
+      "description": "Repair skill hygiene.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/heal-skill",
+      "commitHash": "f382d42bc360",
+      "files": [
+        "SKILL.md",
+        "references/codex-parity.md",
+        "references/skill-stocktake.md",
+        "scripts/heal.sh",
         "scripts/validate.sh"
       ]
     },
     {
-      "id": "boshu2/agentops/skills/beads",
-      "name": "beads",
-      "description": "Track bd issues and dependencies.",
+      "id": "boshu2/agentops/skills-codex/using-agentops",
+      "name": "using-agentops",
+      "description": "Explain AgentOps workflows.",
+      "categories": ["AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/using-agentops",
+      "commitHash": "f382d42bc360",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/.gitkeep",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/llm-wiki",
+      "name": "llm-wiki",
+      "description": "Build external-knowledge wikis.",
+      "categories": ["AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/llm-wiki",
+      "commitHash": "f382d42bc360",
+      "files": [
+        "SKILL.md",
+        "references/architecture.md",
+        "references/research.md",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/goals",
+      "name": "goals",
+      "description": "Maintain AgentOps goals.",
+      "categories": ["AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/goals",
+      "commitHash": "f382d42bc360",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/generation-heuristics.md",
+        "references/goals-schema.md",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/bug-hunt",
+      "name": "bug-hunt",
+      "description": "Investigate bugs and root causes.",
       "categories": ["Other"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills/beads",
-      "commitHash": "342a8fc0105c",
+      "path": "skills/bug-hunt",
+      "commitHash": "f382d42bc360",
       "files": [
         "SKILL.md",
-        "references/ANTI_PATTERNS.md",
-        "references/BOUNDARIES.md",
-        "references/CLI_REFERENCE.md",
-        "references/DEPENDENCIES.md",
-        "references/INTEGRATION_PATTERNS.md",
-        "references/ISSUE_CREATION.md",
-        "references/MOLECULES.md",
-        "references/PATTERNS.md",
-        "references/RESUMABILITY.md",
-        "references/ROUTING.md",
-        "references/STATIC_DATA.md",
-        "references/TROUBLESHOOTING.md",
-        "references/WORKFLOWS.md",
+        "references/audit-report-template.md",
+        "references/bug-report-template.md",
+        "references/failure-categories.md",
         "scripts/validate.sh"
       ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex-overrides/crank",
+      "name": "crank",
+      "description": "Hands-free epic execution for Codex using wave-based sub-agents and lead-side validation. Triggers: \"crank\", \"run epic\", \"execute epic\", \"run all tasks\", \"hands-free execution\", \"crank it\".",
+      "categories": ["AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex-overrides/crank",
+      "commitHash": "f382d42bc360",
+      "files": [
+        "SKILL.md",
+        "prompt.md",
+        "references/commit-strategies.md",
+        "references/failure-recovery.md",
+        "references/team-coordination.md",
+        "references/wave-patterns.md"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/pr-prep",
+      "name": "pr-prep",
+      "description": "Prepare PR commits and body.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/pr-prep",
+      "commitHash": "f382d42bc360",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/case-study-historical-context.md",
+        "references/commit-split-advisor.md",
+        "references/lessons-learned.md",
+        "references/package-extraction.md",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/crank",
+      "name": "crank",
+      "description": "Execute epics through waves.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/crank",
+      "commitHash": "f382d42bc360",
+      "files": [
+        "SKILL.md",
+        "references/branch-isolation.md",
+        "references/claude-code-latest-features.md",
+        "references/commit-strategies.md",
+        "references/contract-template.md",
+        "references/de-sloppify.md",
+        "references/external-gate-protocol.md",
+        "references/failure-recovery.md",
+        "references/failure-taxonomy.md",
+        "references/fire.md",
+        "references/gc-pool-dispatch.md",
+        "references/parallel-wave-isolation.md",
+        "references/plan-mutations.md",
+        "references/ralph-loop-contract.md",
+        "references/shared-task-notes.md",
+        "references/taskcreate-examples.md",
+        "references/team-coordination.md",
+        "references/test-first-mode.md",
+        "references/troubleshooting.md",
+        "references/uat-integration-wave.md"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/oss-docs",
+      "name": "oss-docs",
+      "description": "Scaffold or audit OSS docs.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/oss-docs",
+      "commitHash": "f382d42bc360",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/beads-patterns.md",
+        "references/documentation-tiers.md",
+        "references/project-types.md",
+        "scripts/audit-oss-docs.sh",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/refactor",
+      "name": "refactor",
+      "description": "Execute safe refactors.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/refactor",
+      "commitHash": "f382d42bc360",
+      "files": [".agentops-generated.json", "SKILL.md", "prompt.md"]
     },
     {
       "id": "boshu2/agentops/skills/handoff",
@@ -13661,47 +13385,324 @@
       "author": "boshu2",
       "repo": "boshu2/agentops",
       "path": "skills/handoff",
-      "commitHash": "342a8fc0105c",
+      "commitHash": "f382d42bc360",
       "files": ["SKILL.md", "references/.gitkeep", "scripts/validate.sh"]
     },
     {
-      "id": "boshu2/agentops/skills/quickstart",
-      "name": "quickstart",
-      "description": "Show AgentOps next action.",
-      "categories": ["Design"],
+      "id": "boshu2/agentops/skills/research",
+      "name": "research",
+      "description": "Explore and write findings.",
+      "categories": ["Research"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills/quickstart",
-      "commitHash": "342a8fc0105c",
+      "path": "skills/research",
+      "commitHash": "f382d42bc360",
       "files": [
         "SKILL.md",
-        "references/full-catalog.md",
-        "references/getting-started.md",
-        "references/troubleshooting.md",
+        "references/backend-background-tasks.md",
+        "references/backend-claude-teams.md",
+        "references/backend-codex-subagents.md",
+        "references/backend-inline.md",
+        "references/claude-code-latest-features.md",
+        "references/context-discovery.md",
+        "references/deep-research-mcp.md",
+        "references/document-template.md",
+        "references/failure-patterns.md",
+        "references/iterative-retrieval.md",
+        "references/ralph-loop-contract.md",
+        "references/vibe-methodology.md",
+        "schemas/findings.json",
+        "scripts/validate.md",
         "scripts/validate.sh"
       ]
     },
     {
-      "id": "boshu2/agentops/skills-codex/pr-plan",
-      "name": "pr-plan",
-      "description": "Plan an open source PR.",
+      "id": "boshu2/agentops/skills/trace",
+      "name": "trace",
+      "description": "Trace decisions through artifacts.",
       "categories": ["Other"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills-codex/pr-plan",
-      "commitHash": "342a8fc0105c",
-      "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
+      "path": "skills/trace",
+      "commitHash": "f382d42bc360",
+      "files": [
+        "SKILL.md",
+        "references/discovery-patterns.md",
+        "references/edge-cases.md",
+        "references/report-template.md",
+        "scripts/validate.sh"
+      ]
     },
     {
-      "id": "boshu2/agentops/skills-codex/pr-research",
+      "id": "boshu2/agentops/skills-codex/deps",
+      "name": "deps",
+      "description": "Audit dependency risks and updates.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/deps",
+      "commitHash": "f382d42bc360",
+      "files": [".agentops-generated.json", "SKILL.md", "prompt.md"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex-overrides/swarm",
+      "name": "swarm",
+      "description": "Spawn isolated Codex sub-agents for parallel task execution using the current runtime primitives. Triggers: \"swarm\", \"spawn agents\", \"parallel work\", \"run in parallel\", \"parallel execution\".",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex-overrides/swarm",
+      "commitHash": "f382d42bc360",
+      "files": ["SKILL.md", "prompt.md"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/openai-docs",
+      "name": "openai-docs",
+      "description": "Use official OpenAI docs.",
+      "categories": ["AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/openai-docs",
+      "commitHash": "f382d42bc360",
+      "files": [
+        ".agentops-generated.json",
+        "LICENSE.txt",
+        "SKILL.md",
+        "agents/openai.yaml",
+        "assets/openai-small.svg",
+        "assets/openai.png",
+        "prompt.md",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/harvest",
+      "name": "harvest",
+      "description": "Promote .agents knowledge.",
+      "categories": ["AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/harvest",
+      "commitHash": "f382d42bc360",
+      "files": ["SKILL.md", "references/governance.md", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills/pr-research",
       "name": "pr-research",
       "description": "Research an upstream repo.",
       "categories": ["Research"],
       "author": "boshu2",
       "repo": "boshu2/agentops",
-      "path": "skills-codex/pr-research",
-      "commitHash": "342a8fc0105c",
-      "files": [".agentops-generated.json", "SKILL.md", "prompt.md", "scripts/validate.sh"]
+      "path": "skills/pr-research",
+      "commitHash": "f382d42bc360",
+      "files": ["SKILL.md", "references/upstream-research-checklist.md", "scripts/validate.sh"]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/council",
+      "name": "council",
+      "description": "Run multi-judge consensus.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/council",
+      "commitHash": "f382d42bc360",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/agent-prompts.md",
+        "references/backend-background-tasks.md",
+        "references/backend-codex-subagents.md",
+        "references/backend-inline.md",
+        "references/brainstorm-techniques.md",
+        "references/caching-guidance.md",
+        "references/cli-spawning.md",
+        "references/debate-protocol.md",
+        "references/explorers.md",
+        "references/finding-extraction.md",
+        "references/model-profiles.md",
+        "references/model-routing.md",
+        "references/output-format.md",
+        "references/personas.md",
+        "references/presets.md",
+        "references/quick-mode.md",
+        "references/ralph-loop-contract.md"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/knowledge-activation",
+      "name": "knowledge-activation",
+      "description": "Activate mature .agents knowledge.",
+      "categories": ["AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/knowledge-activation",
+      "commitHash": "f382d42bc360",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/dag.md",
+        "references/output-surfaces.md",
+        "references/script-contracts.md",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/security-suite",
+      "name": "security-suite",
+      "description": "Run composable security analysis.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/security-suite",
+      "commitHash": "f382d42bc360",
+      "files": [
+        "SKILL.md",
+        "references/agentops-redteam-pack.json",
+        "references/owasp-checklist.md",
+        "references/policy-example.json",
+        "scripts/prompt_redteam.py",
+        "scripts/security_suite.py",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills/validation",
+      "name": "validation",
+      "description": "Run post-implementation validation.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills/validation",
+      "commitHash": "f382d42bc360",
+      "files": [
+        "SKILL.md",
+        "references/forge-scope.md",
+        "references/four-surface-closure.md",
+        "references/idempotency-and-resume.md",
+        "references/step-1.8-behavioral-validation.md",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/vibe",
+      "name": "vibe",
+      "description": "Validate code readiness.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/vibe",
+      "commitHash": "f382d42bc360",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/deep-audit-protocol.md",
+        "references/examples.md",
+        "references/go-patterns.md",
+        "references/go-standards.md",
+        "references/json-standards.md",
+        "references/markdown-standards.md",
+        "references/patterns.md",
+        "references/python-standards.md",
+        "references/report-format.md",
+        "references/rust-standards.md",
+        "references/shell-standards.md",
+        "references/test-pyramid-weighting.md",
+        "references/typescript-standards.md",
+        "references/verification-report.md",
+        "references/vibe-coding.md",
+        "references/vibe-suppressions.md",
+        "references/write-time-quality.md"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/swarm",
+      "name": "swarm",
+      "description": "Dispatch parallel agents.",
+      "categories": ["AI & ML"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/swarm",
+      "commitHash": "f382d42bc360",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/backend-background-tasks.md",
+        "references/backend-codex-subagents.md",
+        "references/backend-inline.md",
+        "references/cold-start-contexts.md",
+        "references/conflict-recovery.md",
+        "references/local-mode.md",
+        "references/pre-spawn-friction-gates.md",
+        "references/ralph-loop-contract.md",
+        "references/scope-escape-template.md",
+        "references/validation-contract.md",
+        "references/worker-pitfalls.md",
+        "references/worker-pre-task-checks.md",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/grafana-platform-dashboard",
+      "name": "grafana-platform-dashboard",
+      "description": "Validate OpenShift Grafana dashboards.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/grafana-platform-dashboard",
+      "commitHash": "f382d42bc360",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "agents/openai.yaml",
+        "prompt.md",
+        "references/layout-guidelines.md",
+        "references/platform-contract.md",
+        "references/promql-library.md",
+        "scripts/grafanadashboard_roundtrip.sh",
+        "scripts/promql_scan_thanos.sh",
+        "scripts/validate.sh"
+      ]
+    },
+    {
+      "id": "boshu2/agentops/skills-codex/design",
+      "name": "design",
+      "description": "Validate product fit before discovery.",
+      "categories": ["Other"],
+      "author": "boshu2",
+      "repo": "boshu2/agentops",
+      "path": "skills-codex/design",
+      "commitHash": "f382d42bc360",
+      "files": [
+        ".agentops-generated.json",
+        "SKILL.md",
+        "prompt.md",
+        "references/alignment-matrix.md",
+        "references/product-council-preset.md"
+      ]
+    },
+    {
+      "id": "swarmclawai/swarmvault/skills/swarmvault",
+      "name": "swarmvault",
+      "description": "Use SwarmVault when the user needs a local-first knowledge vault that writes durable markdown, graph, search, dashboard, review, context-pack, task-ledger, retrieval, and MCP artifacts to disk from books, notes, transcripts, exports, datasets, slide decks, files, URLs, code, and recurring source workflows.",
+      "categories": ["Writing", "Productivity", "Data & Analytics", "Documents", "Research"],
+      "author": "swarmclawai",
+      "repo": "swarmclawai/swarmvault",
+      "path": "skills/swarmvault",
+      "commitHash": "d3e370870012",
+      "version": "3.3.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "TROUBLESHOOTING.md",
+        "examples",
+        "references",
+        "validation"
+      ]
     },
     {
       "id": "mxyhi/ok-skills/tdd",
@@ -14205,26 +14206,6 @@
       "path": "agent-browser",
       "commitHash": "8d7d14520705",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "swarmclawai/swarmvault/skills/swarmvault",
-      "name": "swarmvault",
-      "description": "Use SwarmVault when the user needs a local-first knowledge vault that writes durable markdown, graph, search, dashboard, review, context-pack, task-ledger, retrieval, and MCP artifacts to disk from books, notes, transcripts, exports, datasets, slide decks, files, URLs, code, and recurring source workflows.",
-      "categories": ["Writing", "Productivity", "Data & Analytics", "Documents", "Research"],
-      "author": "swarmclawai",
-      "repo": "swarmclawai/swarmvault",
-      "path": "skills/swarmvault",
-      "commitHash": "d3e370870012",
-      "version": "3.3.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "README.md",
-        "SKILL.md",
-        "TROUBLESHOOTING.md",
-        "examples",
-        "references",
-        "validation"
-      ]
     },
     {
       "id": "mcpware/cross-code-organizer/skills/organize",
@@ -17320,17 +17301,6 @@
       "files": ["SKILL.md", "skill-report.json"]
     },
     {
-      "id": "aiskillstore/marketplace/skills/addyosmani/seo",
-      "name": "seo",
-      "description": "Optimize for search engine visibility and ranking. Use when asked to \"improve SEO\", \"optimize for search\", \"fix meta tags\", \"add structured data\", \"sitemap optimization\", or \"search engine optimization\".",
-      "categories": ["Marketing"],
-      "author": "aiskillstore",
-      "repo": "aiskillstore/marketplace",
-      "path": "skills/addyosmani/seo",
-      "commitHash": "47586b630b6e",
-      "files": ["SKILL.md", "skill-report.json"]
-    },
-    {
       "id": "aiskillstore/marketplace/skills/0xbigboss/tilt",
       "name": "tilt",
       "description": "Manages Tilt development environments via CLI and Tiltfile authoring. Must use when working with Tilt or Tiltfiles.",
@@ -17476,15 +17446,15 @@
       "files": ["SKILL.md", "skill-report.json"]
     },
     {
-      "id": "aiskillstore/marketplace/skills/mylukin/openhue",
+      "id": "aiskillstore/marketplace/skills/openhue/openhue",
       "name": "openhue",
       "description": "Control Philips Hue lights and scenes via the OpenHue CLI.",
       "categories": ["Other"],
       "author": "aiskillstore",
       "repo": "aiskillstore/marketplace",
-      "path": "skills/mylukin/openhue",
+      "path": "skills/openhue/openhue",
       "commitHash": "47586b630b6e",
-      "files": ["SKILL.md"]
+      "files": ["SKILL.md", "skill-report.json"]
     },
     {
       "id": "aiskillstore/marketplace/skills/sickn33/php-pro",
@@ -19232,7 +19202,7 @@
       "author": "likaku",
       "repo": "likaku/Mck-ppt-design-skill",
       "path": "",
-      "commitHash": "41e123bea240",
+      "commitHash": "4c20e59cd105",
       "files": ["SKILL.md"]
     },
     {
@@ -21201,6 +21171,28 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "ndjordjevic/pin-llm-wiki/skills/pin-llm-wiki",
+      "name": "pin-llm-wiki",
+      "description": "Automates the Karpathy LLM Wiki workflow: turns web, GitHub, and YouTube URLs into well-structured, citable, wikilinked pages with automatic linting and sourcing — invoke with /pin-llm-wiki",
+      "categories": ["Development", "Productivity"],
+      "author": "ndjordjevic",
+      "repo": "ndjordjevic/pin-llm-wiki",
+      "path": "skills/pin-llm-wiki",
+      "commitHash": "3d25235955c9",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "SKILL.md",
+        "ingest-protocol.md",
+        "ingest.md",
+        "init.md",
+        "lint.md",
+        "queue.md",
+        "remove.md",
+        "templates"
+      ]
+    },
+    {
       "id": "OSideMedia/higgsfield-ai-prompt-skill",
       "name": "higgsfield",
       "description": "Use this skill whenever the user asks anything about Higgsfield AI — writing or refining video/image prompts, choosing a model (Kling, Sora 2, Veo, Wan, Seedance, Minimax Hailuo, DoP, Soul, Nano Banana, Seedream, Flux, GPT Image, etc.), camera controls, named motion presets, Soul ID character consistency, Cinema Studio 2.5/3.0, Vibe Motion, troubleshooting failed generations, credit optimization, Photodump, or any mention of higgsfield.ai. Also trigger on generic \"write me a video prompt\" or \"make me an AI video prompt\" requests when Higgsfield is the user's configured platform.\n",
@@ -21458,49 +21450,6 @@
       "path": "skills/evolutionary-naming",
       "commitHash": "9ff0280833cc",
       "files": ["SKILL.md", "audit-mode.md", "improve-mode.md", "reference.md"]
-    },
-    {
-      "id": "ndjordjevic/pin-llm-wiki/skills/pin-llm-wiki",
-      "name": "pin-llm-wiki",
-      "description": "Automates the Karpathy LLM Wiki workflow: turns web, GitHub, and YouTube URLs into well-structured, citable, wikilinked pages with automatic linting and sourcing — invoke with /pin-llm-wiki",
-      "categories": ["Development", "Productivity"],
-      "author": "ndjordjevic",
-      "repo": "ndjordjevic/pin-llm-wiki",
-      "path": "skills/pin-llm-wiki",
-      "commitHash": "3d25235955c9",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "SKILL.md",
-        "ingest-protocol.md",
-        "ingest.md",
-        "init.md",
-        "lint.md",
-        "queue.md",
-        "remove.md",
-        "templates"
-      ]
-    },
-    {
-      "id": "devallibus/shiplog/skills/shiplog",
-      "name": "shiplog",
-      "description": "Git-as-knowledge-graph workflow for traceability. Use when planning work, brainstorming designs, creating/managing issues and PRs, tracking architectural decisions, or resuming prior sessions. Slash command /shiplog.",
-      "categories": ["Productivity", "Data & Analytics"],
-      "author": "devallibus",
-      "repo": "devallibus/shiplog",
-      "path": "skills/shiplog",
-      "commitHash": "6d30468b0112",
-      "files": [
-        "SKILL.md",
-        "brainstorm.md",
-        "branch.md",
-        "commit.md",
-        "discovery.md",
-        "lookup.md",
-        "pr.md",
-        "references",
-        "timeline.md"
-      ]
     },
     {
       "id": "AgriciDaniel/codex-seo/skills/seo",
@@ -21898,6 +21847,27 @@
       ]
     },
     {
+      "id": "devallibus/shiplog/skills/shiplog",
+      "name": "shiplog",
+      "description": "Git-as-knowledge-graph workflow for traceability. Use when planning work, brainstorming designs, creating/managing issues and PRs, tracking architectural decisions, or resuming prior sessions. Slash command /shiplog.",
+      "categories": ["Productivity", "Data & Analytics"],
+      "author": "devallibus",
+      "repo": "devallibus/shiplog",
+      "path": "skills/shiplog",
+      "commitHash": "6d30468b0112",
+      "files": [
+        "SKILL.md",
+        "brainstorm.md",
+        "branch.md",
+        "commit.md",
+        "discovery.md",
+        "lookup.md",
+        "pr.md",
+        "references",
+        "timeline.md"
+      ]
+    },
+    {
       "id": "rediumvex/social-media-caption-generator-claude",
       "name": "social-captions",
       "description": "Write algorithm-optimized captions/descriptions for social media posts and reels.\nSupports Instagram (Reels, Feed, Carousel), TikTok, Threads, Facebook, and YouTube Shorts.\nThe user sends material (text, image, script, competitor post, screenshot) and\ngets ready-to-use captions for ALL platforms at once, in English.\nUse when asked to \"write a caption\", \"write a description\", \"caption for instagram\",\n\"описание к посту\", \"подпись для рилса\", \"описание для тикток\",\n\"caption for reels\", \"social media post\", or any caption/description writing task.\nAlso triggers when user sends an image, screenshot, or text and says something like\n\"сделай описание\", \"напиши подпись\", \"caption this\", \"описание для этого\".\n",
@@ -22200,7 +22170,7 @@
       "author": "wsbs20",
       "repo": "wsbs20/claude-code-aso-skill",
       "path": ".claude/skills/aso",
-      "commitHash": "a92e77d990dd",
+      "commitHash": "8acc78e848e3",
       "files": [
         "AGENT-INTEGRATION.md",
         "HOW_TO_USE.md",
@@ -22217,6 +22187,487 @@
         "metadata_optimizer.py",
         "review_analyzer.py",
         "sample_input.json"
+      ]
+    },
+    {
+      "id": "Ashutos1997/claude-design-auditor-skill",
+      "name": "design-auditor",
+      "description": "Audit designs against 19 rules across Figma files and code (HTML/CSS/React/Vue/Tailwind). Auto-detects framework and design system (MUI, Chakra, shadcn/ui, Ant Design, Radix, Bootstrap). Runs code superpowers across all 19 categories: aria, focus, contrast, tokens, responsive, motion, forms, navigation, spacing, states, microcopy, elevation, iconography/SVG. Flags color blindness risk. Audits dark patterns, ethical design, Nielsen's heuristics. Outputs before/after diffs, developer handoff reports, wireframe-to-spec. English and Korean. Triggers on: check my design, review my UI, audit my layout, is this accessible, design review, color contrast, WCAG, a11y, pixel perfect, Figma audit, CSS check, dark patterns, is this GDPR compliant, is this manipulative, is my form accessible, is my dark mode correct, wireframe to spec, heuristic review, Nielsen audit, usability heuristics, 디자인 검토, 접근성 확인, 색상 대비, 다크 패턴, 와이어프레임 스펙.",
+      "categories": [
+        "Development",
+        "Security",
+        "Design",
+        "Data & Analytics",
+        "Documents",
+        "Business",
+        "AI & ML"
+      ],
+      "author": "Ashutos1997",
+      "repo": "Ashutos1997/claude-design-auditor-skill",
+      "path": "",
+      "commitHash": "d97af7645d24",
+      "version": "1.2.11",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "huangwb8/skills/git-commit",
+      "name": "git-commit",
+      "description": "当用户明确要求\"提交 Git 改动\"、\"生成 commit 信息\"或\"创建 git commit\"时使用。仅用 Git 分析改动并自动生成 conventional commit 信息（可选 emoji）；必要时建议拆分提交，默认运行本地 Git 钩子（可 --no-verify 跳过），提交后默认自动 push（可 --no-push 跳过）。",
+      "categories": ["Development", "Data & Analytics"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "git-commit",
+      "commitHash": "09d3e687fa5c",
+      "files": ["CHANGELOG.md", "README.md", "SKILL.md", "config.yaml"]
+    },
+    {
+      "id": "huangwb8/skills/awesome-code",
+      "name": "awesome-code",
+      "description": "当用户明确要求\"使用 awesome-code / 多代理协作 / 并行协调开发\"时使用。通过脚本解析任务，输出 `required / preferred / optional` 三层子代理分派、`dispatch_gate` 门禁与可执行的下一步；当 required agent 缺失时必须阻塞继续执行。⚠️ 不适用：用户仅需单一角色的简单修改或咨询、用户未明确表达多代理协作意图、用户只是了解技能概念。",
+      "categories": ["Development"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "awesome-code",
+      "commitHash": "09d3e687fa5c",
+      "files": [
+        ".gitignore",
+        "CHANGELOG.md",
+        "README.md",
+        "ROADMAP.md",
+        "SKILL.md",
+        "agents/backend-specialist/SKILL.md",
+        "agents/backend-specialist/references/legacy-skill-full.md",
+        "agents/brainstorming/SKILL.md",
+        "agents/code-reviewer/SKILL.md",
+        "agents/code-reviewer/references/legacy-skill-full.md",
+        "agents/context-optimizer/SKILL.md",
+        "agents/devops-specialist/SKILL.md",
+        "agents/devops-specialist/references/legacy-skill-full.md",
+        "agents/documentation-specialist/SKILL.md",
+        "agents/documentation-specialist/references/legacy-skill-full.md",
+        "agents/frontend-specialist/SKILL.md",
+        "agents/git-workflow/SKILL.md",
+        "agents/mirror-optimizer/SKILL.md",
+        "agents/mirror-optimizer/references/china-mirror-sources.md",
+        "agents/mirror-optimizer/references/dockerfile-mirror-templates.md"
+      ]
+    },
+    {
+      "id": "huangwb8/skills/awesome-code/agents/git-workflow",
+      "name": "git-workflow",
+      "description": "Git 工作流专家。规范化版本控制，确保提交历史清晰可追溯。支持 Conventional Commits 规范、Pull Request 最佳实践、分支管理策略和自动化工作流。",
+      "categories": ["Development", "Productivity"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "awesome-code/agents/git-workflow",
+      "commitHash": "09d3e687fa5c",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "huangwb8/skills/awesome-code/agents/frontend-specialist",
+      "name": "frontend-specialist",
+      "description": "前端开发专家。精通 React/Vue/Next.js/Nuxt 等现代前端框架，专注于视觉系统、组件化开发、响应式设计、性能优化和用户体验。用于前端应用开发、UI 设计落地、设计系统实现和高质量界面交付。",
+      "categories": ["Development", "Design"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "awesome-code/agents/frontend-specialist",
+      "commitHash": "09d3e687fa5c",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "huangwb8/skills/bensz-collect-bugs",
+      "name": "bensz-collect-bugs",
+      "description": "当 Bensz 系列 skills 在真实用户环境中因 skill 设计缺陷而出现 bug，或用户明确说“我想 report bensz skills bugs”“帮我公开上报 bensz skills 的 bug”时使用。该 skill 负责把 bug 规范化记录到 `~/.bensz-skills/bugs/`，并在用户明确要求公开报告时通过本地 `gh` 轻量上传到 `huangwb8/bensz-bugs`，全程严禁修改用户本地 Claude Code/Codex 中已安装 skills 的源代码。",
+      "categories": ["Other"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "bensz-collect-bugs",
+      "commitHash": "09d3e687fa5c",
+      "files": [
+        "CHANGELOG.md",
+        "README.md",
+        "SKILL.md",
+        "config.yaml",
+        "qa/test_privacy_protection.py",
+        "references/DATA_MODEL.md",
+        "references/REPORTING_PROTOCOL.md",
+        "scripts/collect_bug.py",
+        "scripts/common.py",
+        "scripts/report_bugs.py",
+        "templates/BUG_REPORT_TEMPLATE.md"
+      ]
+    },
+    {
+      "id": "huangwb8/skills/awesome-code/agents/mirror-optimizer",
+      "name": "mirror-optimizer",
+      "description": "当用户明确要求\"优化镜像源\"、\"配置国内镜像\"、\"加速部署\"、\"切换镜像源\"或项目涉及 Docker/Python/Node.js/Go/Java/Ruby/Rust 等需要包管理器的场景时使用。自动检测项目使用的包管理器，生成适配的国内镜像源配置，确保在国内网络环境下快速部署。⚠️ 不适用：用户只是想了解镜像源概念（应直接说明）、项目已完成部署且无需优化（应直接告知无需操作）、用户明确要求使用官方源（应尊重用户选择）。",
+      "categories": ["Development", "DevOps", "Productivity"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "awesome-code/agents/mirror-optimizer",
+      "commitHash": "09d3e687fa5c",
+      "files": [
+        "SKILL.md",
+        "references/china-mirror-sources.md",
+        "references/dockerfile-mirror-templates.md",
+        "references/mirror-configuration-best-practices.md"
+      ]
+    },
+    {
+      "id": "huangwb8/skills/awesome-code/agents/documentation-specialist",
+      "name": "documentation-specialist",
+      "description": "文档专家。专注于技术文档编写、API 文档生成、README 优化和文档维护。提供清晰的文档结构、规范的格式和用户友好的内容。",
+      "categories": ["Writing", "Documents"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "awesome-code/agents/documentation-specialist",
+      "commitHash": "09d3e687fa5c",
+      "files": ["SKILL.md", "references/legacy-skill-full.md"]
+    },
+    {
+      "id": "huangwb8/skills/git-publish-release",
+      "name": "git-publish-release",
+      "description": "当用户明确要求\"发布项目到 GitHub\"、\"创建 GitHub Release\"或\"生成 Release Notes\"时使用。智能分析 tag 间历史变化，生成专业且吸引人的 Release Notes，自动创建 GitHub Release。支持首次发布、常规版本、预发布版本（alpha/beta/rc），自动识别 prerelease 标记。",
+      "categories": ["Data & Analytics"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "git-publish-release",
+      "commitHash": "09d3e687fa5c",
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "references/release-notes-strategy.md",
+        "references/release-templates.md",
+        "scripts/get-github-token.sh"
+      ]
+    },
+    {
+      "id": "huangwb8/skills/awesome-code/agents/code-reviewer",
+      "name": "code-reviewer",
+      "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements - reviews implementation against plan or requirements with severity分级（Critical/Important/Minor）. NO MERGE WITHOUT CODE REVIEW FIRST.",
+      "categories": ["Development", "Productivity", "Documents"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "awesome-code/agents/code-reviewer",
+      "commitHash": "09d3e687fa5c",
+      "files": ["SKILL.md", "references/legacy-skill-full.md"]
+    },
+    {
+      "id": "huangwb8/skills/awesome-code/agents/devops-specialist",
+      "name": "devops-specialist",
+      "description": "DevOps 与运维专家。精通 CI/CD、容器化、编排、基础设施即代码、监控告警和自动化部署。用于构建高效、可靠的软件交付流水线和运维系统。",
+      "categories": ["DevOps"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "awesome-code/agents/devops-specialist",
+      "commitHash": "09d3e687fa5c",
+      "files": ["SKILL.md", "references/legacy-skill-full.md"]
+    },
+    {
+      "id": "huangwb8/skills/awesome-code/agents/systematic-debugging",
+      "name": "systematic-debugging",
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes - four-phase framework (root cause investigation, pattern analysis, hypothesis testing, implementation). NO FIXES WITHOUT ROOT CAUSE INVESTIGATION FIRST.",
+      "categories": ["Development"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "awesome-code/agents/systematic-debugging",
+      "commitHash": "09d3e687fa5c",
+      "files": ["SKILL.md", "root-cause-tracing.md"]
+    },
+    {
+      "id": "huangwb8/skills/awesome-code/agents/multi-agent-coordinator",
+      "name": "multi-agent-coordinator",
+      "description": "Use when executing implementation plans with independent tasks - dispatches fresh subagent for each task with code review between tasks, enabling fast iteration with quality gates. Supports orchestrator, peer-to-peer, and pipeline coordination modes.",
+      "categories": ["Development", "Productivity", "AI & ML"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "awesome-code/agents/multi-agent-coordinator",
+      "commitHash": "09d3e687fa5c",
+      "files": ["SKILL.md", "references/legacy-skill-full.md"]
+    },
+    {
+      "id": "huangwb8/skills/git-pr-review",
+      "name": "git-pr-review",
+      "description": "当用户明确要求“review 某个 GitHub PR”“评估某个 pull request 是否值得 merge”“帮我判断这个 PR 怎么处理”时使用。基于用户提供的 GitHub 仓库地址、PR 编号/链接和补充说明，进行只读、证据驱动的 PR 审查：理解 PR 解决的问题、评估方案优劣与局限、默认优先使用内置“好 PR”标准并在必要时联网补充、识别恶意或高风险改动，并输出是否建议 merge 的 Markdown 决策报告。⚠️ 不适用：用户要你直接修改 PR 代码、直接 merge PR、或在本地执行 PR 分支中的不可信代码。",
+      "categories": ["Development", "Documents", "Research"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "git-pr-review",
+      "commitHash": "09d3e687fa5c",
+      "files": [
+        "CHANGELOG.md",
+        "README.md",
+        "SKILL.md",
+        "config.yaml",
+        "references/community-research-playbook.md",
+        "references/good-pr-standards.md",
+        "references/license-checklist.md",
+        "references/parallel-review-result-template.md",
+        "references/parallel-vibe-integration.md",
+        "references/report-template.md",
+        "references/security-checklist.md",
+        "scripts/aggregate_parallel_reviews.py",
+        "scripts/build_parallel_review_plan.py",
+        "scripts/common_config.py",
+        "scripts/prepare_review_job.py",
+        "scripts/validate_review_artifacts.py"
+      ]
+    },
+    {
+      "id": "huangwb8/skills/parallel-vibe",
+      "name": "parallel-vibe",
+      "description": "当用户明确要求\"并行执行同一条 Vibe Coding 指令 / 多线程并行尝试多种方案 / 在多个独立工作区里同时推进\"时使用。在用户当前工作目录创建 `.parallel_vibe/`，复制出多个独立工作区并按计划运行每个 thread 的 runner（默认串行、可选并行），最后在 `@main/summary.md` 汇总结果。⚠️ 不适用：用户只是想并行跑 shell 命令/单元测试/下载任务（应直接用并发工具或 CI）、没有明确\"多工作区并行尝试/多方案对比\"意图、要求强安全隔离或处理高度敏感数据（应使用容器/沙箱方案）。",
+      "categories": ["Development", "Writing"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "parallel-vibe",
+      "commitHash": "09d3e687fa5c",
+      "files": [
+        "CHANGELOG.md",
+        "README.md",
+        "SKILL.md",
+        "config.yaml",
+        "docs/工作区隔离机制.md",
+        "references/cli_prompt_usage.md",
+        "scripts/parallel_vibe.py"
+      ]
+    },
+    {
+      "id": "huangwb8/skills/write-skill-readme",
+      "name": "write-skill-readme",
+      "description": "当用户明确要求\"生成技能 README\"、\"编写用户指南\"或\"更新技能文档\"时使用。为 Agent Skills 编写符合最佳实践的 README.md 用户使用指南。自动分析技能结构（SKILL.md、config.yaml、scripts/），按模板生成小白友好的文档。",
+      "categories": ["Writing", "Productivity", "Data & Analytics", "AI & ML"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "write-skill-readme",
+      "commitHash": "09d3e687fa5c",
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "SKILL.yaml",
+        "references/README-templates.md",
+        "references/prompt-writing-guide.md",
+        "references/style-guidelines.md"
+      ]
+    },
+    {
+      "id": "huangwb8/skills/compact-bensz-skills",
+      "name": "compact-bensz-skills",
+      "description": "当用户明确要求“压缩/瘦身/精简某个 Agent Skill 的 Markdown 文档”“在不改变功能前提下降低 skill 上下文开销”时使用。先理解目标 skill 的真实能力与安全边界，再在忽略 `tests/`、`plans/` 以及目标 skill 的 `README.md`、`CHANGELOG.md` 的前提下，压缩 `SKILL.md`、`references/*.md` 等工作型 Markdown，并把中间产物隔离到 `.compact-bensz-skills/`。⚠️ 不适用：用户主要想新增功能、修复脚本逻辑、批量改代码、或只想压缩非 skill 文档。",
+      "categories": ["Development", "Writing", "Productivity", "Documents"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "compact-bensz-skills",
+      "commitHash": "09d3e687fa5c",
+      "files": [
+        "CHANGELOG.md",
+        "README.md",
+        "SKILL.md",
+        "config.yaml",
+        "references/compaction-playbook.md",
+        "references/preservation-checklist.md",
+        "references/validation-checklist.md",
+        "scripts/common.py",
+        "scripts/init_workspace.py",
+        "scripts/measure_markdown.py",
+        "scripts/validate_compaction.py"
+      ]
+    },
+    {
+      "id": "huangwb8/skills/awesome-code/agents/tdd-workflow",
+      "name": "tdd-workflow",
+      "description": "Use when implementing any feature or bugfix, before writing implementation code - write the test first, watch it fail, write minimal code to pass; ensures tests actually verify behavior by requiring failure first. Enforces RED-GREEN-REFACTOR cycle with iron-law compliance.",
+      "categories": ["Development", "Writing"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "awesome-code/agents/tdd-workflow",
+      "commitHash": "09d3e687fa5c",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "huangwb8/skills/awesome-code/agents/brainstorming",
+      "name": "brainstorming",
+      "description": "当用户明确要求\"使用 brainstorming\"或\"使用 awesome-code\"时使用。⚠️ 不适用：用户只是想优化/改进某个功能（应直接修改）、只是询问技能问题（应直接回答）、没有明确使用 brainstorming/awesome-code 的一般性开发。",
+      "categories": ["Development"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "awesome-code/agents/brainstorming",
+      "commitHash": "09d3e687fa5c",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "huangwb8/skills/awesome-code/agents/writing-plans",
+      "name": "writing-plans",
+      "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+      "categories": ["Productivity"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "awesome-code/agents/writing-plans",
+      "commitHash": "09d3e687fa5c",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "huangwb8/skills/awesome-code/agents/context-optimizer",
+      "name": "context-optimizer",
+      "description": "上下文优化专家。专注于长对话中的上下文管理、token 效率和性能优化。解决 lost-in-middle、context poisoning 等问题，提升 AI 代理在复杂任务中的表现。",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "awesome-code/agents/context-optimizer",
+      "commitHash": "09d3e687fa5c",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "huangwb8/skills/awesome-code/agents/backend-specialist",
+      "name": "backend-specialist",
+      "description": "后端开发专家。精通 Node.js/Python/Go/Rust 等后端技术栈，专注于 API 设计、数据库优化、认证授权、微服务架构和性能调优。用于后端服务开发、API 设计和系统架构。",
+      "categories": ["Development", "Data & Analytics"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "awesome-code/agents/backend-specialist",
+      "commitHash": "09d3e687fa5c",
+      "files": ["SKILL.md", "references/legacy-skill-full.md"]
+    },
+    {
+      "id": "huangwb8/skills/awesome-code/agents/security-specialist",
+      "name": "security-specialist",
+      "description": "安全专家。专注于应用安全、威胁建模、安全合规和数据保护。提供安全审查、漏洞扫描、安全配置和合规检查。用于构建安全可靠的应用系统。",
+      "categories": ["Security"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "awesome-code/agents/security-specialist",
+      "commitHash": "09d3e687fa5c",
+      "files": ["SKILL.md", "references/legacy-skill-full.md"]
+    },
+    {
+      "id": "huangwb8/skills/init-project",
+      "name": "init-project",
+      "description": "当用户明确要求\"初始化项目\"、\"创建项目指令文件\"或\"生成 AGENTS.md\"时使用。完全自动化：自动检测操作系统默认语言，分析项目目录结构（支持 Python/Web/Rust/Go/Java/数据科学/文档项目等），推断项目类型和用途，一键生成规范的项目指令文档。生成结果包括：AGENTS.md（跨平台通用项目指令，Single Source of Truth）、CLAUDE.md（Claude Code 特定适配，通过 @./AGENTS.md 引用）、README.md（项目介绍与使用方法）、CHANGELOG.md（项目变更记录）、.gitignore（Git 忽略规则，安全优先），并在完整初始化时自动补齐 `docs/` 与 `docs/plans/`。",
+      "categories": [
+        "Development",
+        "Writing",
+        "Productivity",
+        "Data & Analytics",
+        "Documents",
+        "Research",
+        "AI & ML"
+      ],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "init-project",
+      "commitHash": "09d3e687fa5c",
+      "files": [
+        "CHANGELOG.md",
+        "README.md",
+        "SKILL.md",
+        "config.yaml",
+        "scripts/generate.py",
+        "templates/AGENTS.md.template",
+        "templates/CHANGELOG.md.template",
+        "templates/CLAUDE.md.template",
+        "templates/README.md.template",
+        "templates/gitignore.yaml"
+      ]
+    },
+    {
+      "id": "huangwb8/skills/better-prompt",
+      "name": "better-prompt",
+      "description": "当用户明确要求\"优化 prompt\"、\"改进提示词\"、\"润色指令\"或\"将简陋 prompt 转换为最佳实践版本\"时使用。基于 OpenAI 和 Anthropic 官方最佳实践，对用户提供的简陋 prompt 进行结构化优化，输出符合社区标准的高质量版本。",
+      "categories": ["AI & ML"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "better-prompt",
+      "commitHash": "09d3e687fa5c",
+      "files": [
+        "CHANGELOG.md",
+        "README.md",
+        "SKILL.md",
+        "config.yaml",
+        "references/prompt-engineering-best-practices.md"
+      ]
+    },
+    {
+      "id": "huangwb8/skills/install-bensz-skills",
+      "name": "install-bensz-skills",
+      "description": "当需要把本仓库 pipelines/skills 下的所有 skills 安装到系统级（默认同时安装到 Codex: ~/.codex/skills 和 Claude Code: ~/.claude/skills），以便在任意项目/对话中可被发现与调用时使用。使用 MD5 哈希进行版本控制，仅安装有更新的 skills；支持强制覆盖安装、指定单一目标安装和远程安装模式（--remote --check/--auto）。",
+      "categories": ["AI & ML"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "install-bensz-skills",
+      "commitHash": "09d3e687fa5c",
+      "files": [
+        "CHANGELOG.md",
+        "README.md",
+        "SKILL.md",
+        "config.yaml",
+        "references/install-report-template.md",
+        "scripts/__init__.py",
+        "scripts/i18n.py",
+        "scripts/install.py",
+        "scripts/remove_legacy_skills.py"
+      ]
+    },
+    {
+      "id": "huangwb8/skills/auto-test-skill",
+      "name": "auto-test-skill",
+      "description": "当用户明确要求\"测试技能\"、\"运行 auto-test\"或\"进行批判性测试\"时使用。通过多轮 A 轮批判性测试 + B 轮质量原则检查，系统化发现、记录、修复问题，并沉淀可追溯的 `plans/` 与 `tests/` 文档。⚠️ 不适用：用户只是想优化功能（应直接修改）、只是询问技能问题（应直接回答）、没有明确\"测试\"意图。",
+      "categories": ["Development", "Productivity"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "auto-test-skill",
+      "commitHash": "09d3e687fa5c",
+      "files": [
+        "CHANGELOG.md",
+        "README.md",
+        "SKILL.md",
+        "config.yaml",
+        "references/ANTI_PATTERNS_LIBRARY.md",
+        "references/A_ROUND_PLAN_TEMPLATE.md",
+        "references/CONSTRUCTIVE_SUGGESTION_GUIDELINES.md",
+        "references/CRITICAL_THINKING_GUIDE.md",
+        "references/ISSUE_DISCOVERY_TECHNIQUES.md",
+        "references/TESTING_BEST_PRACTICES.md",
+        "scripts/create_test_session.py",
+        "scripts/verify_test_session.py",
+        "templates/BUG_REPORT_TEMPLATE.md",
+        "templates/B_ROUND_CHECK_TEMPLATE.md",
+        "templates/FINAL_SUMMARY_TEMPLATE.md",
+        "templates/OPTIMIZATION_PLAN_TEMPLATE.md",
+        "templates/TEST_PLAN_TEMPLATE.md",
+        "templates/TEST_REPORT_TEMPLATE.md"
+      ]
+    },
+    {
+      "id": "huangwb8/skills/auto-test-project",
+      "name": "auto-test-project",
+      "description": "当用户明确要求\"测试项目\"、\"运行 auto-test-project\"或\"进行项目级测试\"时使用。对完整项目进行多轮 A 轮批判性测试 + B 轮质量检查，系统化发现、记录、修复问题。⚠️ 不适用：用户只是想优化功能（应直接修改）、只是询问项目问题（应直接回答）、没有明确\"测试\"意图。",
+      "categories": ["Development"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "auto-test-project",
+      "commitHash": "09d3e687fa5c",
+      "files": [
+        "CHANGELOG.md",
+        "README.md",
+        "SKILL.md",
+        "config.yaml",
+        "references/ANTI_PATTERNS_LIBRARY.md",
+        "references/A_ROUND_PLAN_TEMPLATE.md",
+        "references/CONSTRUCTIVE_SUGGESTION_GUIDELINES.md",
+        "references/CRITICAL_THINKING_GUIDE.md",
+        "references/EXAMPLE_STRICT_MINIMAL.md",
+        "references/EXAMPLE_TEST_REPORT.md",
+        "references/FAQ.md",
+        "references/PROJECT_ISSUE_DISCOVERY_TECHNIQUES.md",
+        "references/PROJECT_TESTING_BEST_PRACTICES.md",
+        "scripts/create_test_session.py",
+        "scripts/verify_all_sessions.py",
+        "scripts/verify_skill.py",
+        "scripts/verify_test_session.py",
+        "templates/BUG_REPORT_TEMPLATE.md",
+        "templates/B_ROUND_CHECK_TEMPLATE.md",
+        "templates/FINAL_SUMMARY_TEMPLATE.md"
       ]
     },
     {
@@ -24316,487 +24767,6 @@
       "files": ["ORIGIN.md", "SKILL.md", "metadata.json"]
     },
     {
-      "id": "Ashutos1997/claude-design-auditor-skill",
-      "name": "design-auditor",
-      "description": "Audit designs against 19 rules across Figma files and code (HTML/CSS/React/Vue/Tailwind). Auto-detects framework and design system (MUI, Chakra, shadcn/ui, Ant Design, Radix, Bootstrap). Runs code superpowers across all 19 categories: aria, focus, contrast, tokens, responsive, motion, forms, navigation, spacing, states, microcopy, elevation, iconography/SVG. Flags color blindness risk. Audits dark patterns, ethical design, Nielsen's heuristics. Outputs before/after diffs, developer handoff reports, wireframe-to-spec. English and Korean. Triggers on: check my design, review my UI, audit my layout, is this accessible, design review, color contrast, WCAG, a11y, pixel perfect, Figma audit, CSS check, dark patterns, is this GDPR compliant, is this manipulative, is my form accessible, is my dark mode correct, wireframe to spec, heuristic review, Nielsen audit, usability heuristics, 디자인 검토, 접근성 확인, 색상 대비, 다크 패턴, 와이어프레임 스펙.",
-      "categories": [
-        "Development",
-        "Security",
-        "Design",
-        "Data & Analytics",
-        "Documents",
-        "Business",
-        "AI & ML"
-      ],
-      "author": "Ashutos1997",
-      "repo": "Ashutos1997/claude-design-auditor-skill",
-      "path": "",
-      "commitHash": "d97af7645d24",
-      "version": "1.2.11",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "huangwb8/skills/git-commit",
-      "name": "git-commit",
-      "description": "当用户明确要求\"提交 Git 改动\"、\"生成 commit 信息\"或\"创建 git commit\"时使用。仅用 Git 分析改动并自动生成 conventional commit 信息（可选 emoji）；必要时建议拆分提交，默认运行本地 Git 钩子（可 --no-verify 跳过），提交后默认自动 push（可 --no-push 跳过）。",
-      "categories": ["Development", "Data & Analytics"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "git-commit",
-      "commitHash": "d007d78fb7e6",
-      "files": ["CHANGELOG.md", "README.md", "SKILL.md", "config.yaml"]
-    },
-    {
-      "id": "huangwb8/skills/awesome-code",
-      "name": "awesome-code",
-      "description": "当用户明确要求\"使用 awesome-code / 多代理协作 / 并行协调开发\"时使用。通过脚本解析任务，输出 `required / preferred / optional` 三层子代理分派、`dispatch_gate` 门禁与可执行的下一步；当 required agent 缺失时必须阻塞继续执行。⚠️ 不适用：用户仅需单一角色的简单修改或咨询、用户未明确表达多代理协作意图、用户只是了解技能概念。",
-      "categories": ["Development"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "awesome-code",
-      "commitHash": "d007d78fb7e6",
-      "files": [
-        ".gitignore",
-        "CHANGELOG.md",
-        "README.md",
-        "ROADMAP.md",
-        "SKILL.md",
-        "agents/backend-specialist/SKILL.md",
-        "agents/backend-specialist/references/legacy-skill-full.md",
-        "agents/brainstorming/SKILL.md",
-        "agents/code-reviewer/SKILL.md",
-        "agents/code-reviewer/references/legacy-skill-full.md",
-        "agents/context-optimizer/SKILL.md",
-        "agents/devops-specialist/SKILL.md",
-        "agents/devops-specialist/references/legacy-skill-full.md",
-        "agents/documentation-specialist/SKILL.md",
-        "agents/documentation-specialist/references/legacy-skill-full.md",
-        "agents/frontend-specialist/SKILL.md",
-        "agents/git-workflow/SKILL.md",
-        "agents/mirror-optimizer/SKILL.md",
-        "agents/mirror-optimizer/references/china-mirror-sources.md",
-        "agents/mirror-optimizer/references/dockerfile-mirror-templates.md"
-      ]
-    },
-    {
-      "id": "huangwb8/skills/awesome-code/agents/git-workflow",
-      "name": "git-workflow",
-      "description": "Git 工作流专家。规范化版本控制，确保提交历史清晰可追溯。支持 Conventional Commits 规范、Pull Request 最佳实践、分支管理策略和自动化工作流。",
-      "categories": ["Development", "Productivity"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "awesome-code/agents/git-workflow",
-      "commitHash": "d007d78fb7e6",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "huangwb8/skills/awesome-code/agents/frontend-specialist",
-      "name": "frontend-specialist",
-      "description": "前端开发专家。精通 React/Vue/Next.js/Nuxt 等现代前端框架，专注于视觉系统、组件化开发、响应式设计、性能优化和用户体验。用于前端应用开发、UI 设计落地、设计系统实现和高质量界面交付。",
-      "categories": ["Development", "Design"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "awesome-code/agents/frontend-specialist",
-      "commitHash": "d007d78fb7e6",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "huangwb8/skills/bensz-collect-bugs",
-      "name": "bensz-collect-bugs",
-      "description": "当 Bensz 系列 skills 在真实用户环境中因 skill 设计缺陷而出现 bug，或用户明确说“我想 report bensz skills bugs”“帮我公开上报 bensz skills 的 bug”时使用。该 skill 负责把 bug 规范化记录到 `~/.bensz-skills/bugs/`，并在用户明确要求公开报告时通过本地 `gh` 轻量上传到 `huangwb8/bensz-bugs`，全程严禁修改用户本地 Claude Code/Codex 中已安装 skills 的源代码。",
-      "categories": ["Other"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "bensz-collect-bugs",
-      "commitHash": "d007d78fb7e6",
-      "files": [
-        "CHANGELOG.md",
-        "README.md",
-        "SKILL.md",
-        "config.yaml",
-        "qa/test_privacy_protection.py",
-        "references/DATA_MODEL.md",
-        "references/REPORTING_PROTOCOL.md",
-        "scripts/collect_bug.py",
-        "scripts/common.py",
-        "scripts/report_bugs.py",
-        "templates/BUG_REPORT_TEMPLATE.md"
-      ]
-    },
-    {
-      "id": "huangwb8/skills/awesome-code/agents/mirror-optimizer",
-      "name": "mirror-optimizer",
-      "description": "当用户明确要求\"优化镜像源\"、\"配置国内镜像\"、\"加速部署\"、\"切换镜像源\"或项目涉及 Docker/Python/Node.js/Go/Java/Ruby/Rust 等需要包管理器的场景时使用。自动检测项目使用的包管理器，生成适配的国内镜像源配置，确保在国内网络环境下快速部署。⚠️ 不适用：用户只是想了解镜像源概念（应直接说明）、项目已完成部署且无需优化（应直接告知无需操作）、用户明确要求使用官方源（应尊重用户选择）。",
-      "categories": ["Development", "DevOps", "Productivity"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "awesome-code/agents/mirror-optimizer",
-      "commitHash": "d007d78fb7e6",
-      "files": [
-        "SKILL.md",
-        "references/china-mirror-sources.md",
-        "references/dockerfile-mirror-templates.md",
-        "references/mirror-configuration-best-practices.md"
-      ]
-    },
-    {
-      "id": "huangwb8/skills/awesome-code/agents/documentation-specialist",
-      "name": "documentation-specialist",
-      "description": "文档专家。专注于技术文档编写、API 文档生成、README 优化和文档维护。提供清晰的文档结构、规范的格式和用户友好的内容。",
-      "categories": ["Writing", "Documents"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "awesome-code/agents/documentation-specialist",
-      "commitHash": "d007d78fb7e6",
-      "files": ["SKILL.md", "references/legacy-skill-full.md"]
-    },
-    {
-      "id": "huangwb8/skills/git-publish-release",
-      "name": "git-publish-release",
-      "description": "当用户明确要求\"发布项目到 GitHub\"、\"创建 GitHub Release\"或\"生成 Release Notes\"时使用。智能分析 tag 间历史变化，生成专业且吸引人的 Release Notes，自动创建 GitHub Release。支持首次发布、常规版本、预发布版本（alpha/beta/rc），自动识别 prerelease 标记。",
-      "categories": ["Data & Analytics"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "git-publish-release",
-      "commitHash": "d007d78fb7e6",
-      "files": [
-        "README.md",
-        "SKILL.md",
-        "references/release-notes-strategy.md",
-        "references/release-templates.md",
-        "scripts/get-github-token.sh"
-      ]
-    },
-    {
-      "id": "huangwb8/skills/awesome-code/agents/code-reviewer",
-      "name": "code-reviewer",
-      "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements - reviews implementation against plan or requirements with severity分级（Critical/Important/Minor）. NO MERGE WITHOUT CODE REVIEW FIRST.",
-      "categories": ["Development", "Productivity", "Documents"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "awesome-code/agents/code-reviewer",
-      "commitHash": "d007d78fb7e6",
-      "files": ["SKILL.md", "references/legacy-skill-full.md"]
-    },
-    {
-      "id": "huangwb8/skills/awesome-code/agents/devops-specialist",
-      "name": "devops-specialist",
-      "description": "DevOps 与运维专家。精通 CI/CD、容器化、编排、基础设施即代码、监控告警和自动化部署。用于构建高效、可靠的软件交付流水线和运维系统。",
-      "categories": ["DevOps"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "awesome-code/agents/devops-specialist",
-      "commitHash": "d007d78fb7e6",
-      "files": ["SKILL.md", "references/legacy-skill-full.md"]
-    },
-    {
-      "id": "huangwb8/skills/awesome-code/agents/systematic-debugging",
-      "name": "systematic-debugging",
-      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes - four-phase framework (root cause investigation, pattern analysis, hypothesis testing, implementation). NO FIXES WITHOUT ROOT CAUSE INVESTIGATION FIRST.",
-      "categories": ["Development"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "awesome-code/agents/systematic-debugging",
-      "commitHash": "d007d78fb7e6",
-      "files": ["SKILL.md", "root-cause-tracing.md"]
-    },
-    {
-      "id": "huangwb8/skills/awesome-code/agents/multi-agent-coordinator",
-      "name": "multi-agent-coordinator",
-      "description": "Use when executing implementation plans with independent tasks - dispatches fresh subagent for each task with code review between tasks, enabling fast iteration with quality gates. Supports orchestrator, peer-to-peer, and pipeline coordination modes.",
-      "categories": ["Development", "Productivity", "AI & ML"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "awesome-code/agents/multi-agent-coordinator",
-      "commitHash": "d007d78fb7e6",
-      "files": ["SKILL.md", "references/legacy-skill-full.md"]
-    },
-    {
-      "id": "huangwb8/skills/git-pr-review",
-      "name": "git-pr-review",
-      "description": "当用户明确要求“review 某个 GitHub PR”“评估某个 pull request 是否值得 merge”“帮我判断这个 PR 怎么处理”时使用。基于用户提供的 GitHub 仓库地址、PR 编号/链接和补充说明，进行只读、证据驱动的 PR 审查：理解 PR 解决的问题、评估方案优劣与局限、默认优先使用内置“好 PR”标准并在必要时联网补充、识别恶意或高风险改动，并输出是否建议 merge 的 Markdown 决策报告。⚠️ 不适用：用户要你直接修改 PR 代码、直接 merge PR、或在本地执行 PR 分支中的不可信代码。",
-      "categories": ["Development", "Documents", "Research"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "git-pr-review",
-      "commitHash": "d007d78fb7e6",
-      "files": [
-        "CHANGELOG.md",
-        "README.md",
-        "SKILL.md",
-        "config.yaml",
-        "references/community-research-playbook.md",
-        "references/good-pr-standards.md",
-        "references/license-checklist.md",
-        "references/parallel-review-result-template.md",
-        "references/parallel-vibe-integration.md",
-        "references/report-template.md",
-        "references/security-checklist.md",
-        "scripts/aggregate_parallel_reviews.py",
-        "scripts/build_parallel_review_plan.py",
-        "scripts/common_config.py",
-        "scripts/prepare_review_job.py",
-        "scripts/validate_review_artifacts.py"
-      ]
-    },
-    {
-      "id": "huangwb8/skills/parallel-vibe",
-      "name": "parallel-vibe",
-      "description": "当用户明确要求\"并行执行同一条 Vibe Coding 指令 / 多线程并行尝试多种方案 / 在多个独立工作区里同时推进\"时使用。在用户当前工作目录创建 `.parallel_vibe/`，复制出多个独立工作区并按计划运行每个 thread 的 runner（默认串行、可选并行），最后在 `@main/summary.md` 汇总结果。⚠️ 不适用：用户只是想并行跑 shell 命令/单元测试/下载任务（应直接用并发工具或 CI）、没有明确\"多工作区并行尝试/多方案对比\"意图、要求强安全隔离或处理高度敏感数据（应使用容器/沙箱方案）。",
-      "categories": ["Development", "Writing"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "parallel-vibe",
-      "commitHash": "d007d78fb7e6",
-      "files": [
-        "CHANGELOG.md",
-        "README.md",
-        "SKILL.md",
-        "config.yaml",
-        "docs/工作区隔离机制.md",
-        "references/cli_prompt_usage.md",
-        "scripts/parallel_vibe.py"
-      ]
-    },
-    {
-      "id": "huangwb8/skills/write-skill-readme",
-      "name": "write-skill-readme",
-      "description": "当用户明确要求\"生成技能 README\"、\"编写用户指南\"或\"更新技能文档\"时使用。为 Agent Skills 编写符合最佳实践的 README.md 用户使用指南。自动分析技能结构（SKILL.md、config.yaml、scripts/），按模板生成小白友好的文档。",
-      "categories": ["Writing", "Productivity", "Data & Analytics", "AI & ML"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "write-skill-readme",
-      "commitHash": "d007d78fb7e6",
-      "files": [
-        "README.md",
-        "SKILL.md",
-        "SKILL.yaml",
-        "references/README-templates.md",
-        "references/prompt-writing-guide.md",
-        "references/style-guidelines.md"
-      ]
-    },
-    {
-      "id": "huangwb8/skills/compact-bensz-skills",
-      "name": "compact-bensz-skills",
-      "description": "当用户明确要求“压缩/瘦身/精简某个 Agent Skill 的 Markdown 文档”“在不改变功能前提下降低 skill 上下文开销”时使用。先理解目标 skill 的真实能力与安全边界，再在忽略 `tests/`、`plans/` 以及目标 skill 的 `README.md`、`CHANGELOG.md` 的前提下，压缩 `SKILL.md`、`references/*.md` 等工作型 Markdown，并把中间产物隔离到 `.compact-bensz-skills/`。⚠️ 不适用：用户主要想新增功能、修复脚本逻辑、批量改代码、或只想压缩非 skill 文档。",
-      "categories": ["Development", "Writing", "Productivity", "Documents"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "compact-bensz-skills",
-      "commitHash": "d007d78fb7e6",
-      "files": [
-        "CHANGELOG.md",
-        "README.md",
-        "SKILL.md",
-        "config.yaml",
-        "references/compaction-playbook.md",
-        "references/preservation-checklist.md",
-        "references/validation-checklist.md",
-        "scripts/common.py",
-        "scripts/init_workspace.py",
-        "scripts/measure_markdown.py",
-        "scripts/validate_compaction.py"
-      ]
-    },
-    {
-      "id": "huangwb8/skills/awesome-code/agents/tdd-workflow",
-      "name": "tdd-workflow",
-      "description": "Use when implementing any feature or bugfix, before writing implementation code - write the test first, watch it fail, write minimal code to pass; ensures tests actually verify behavior by requiring failure first. Enforces RED-GREEN-REFACTOR cycle with iron-law compliance.",
-      "categories": ["Development", "Writing"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "awesome-code/agents/tdd-workflow",
-      "commitHash": "d007d78fb7e6",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "huangwb8/skills/awesome-code/agents/brainstorming",
-      "name": "brainstorming",
-      "description": "当用户明确要求\"使用 brainstorming\"或\"使用 awesome-code\"时使用。⚠️ 不适用：用户只是想优化/改进某个功能（应直接修改）、只是询问技能问题（应直接回答）、没有明确使用 brainstorming/awesome-code 的一般性开发。",
-      "categories": ["Development"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "awesome-code/agents/brainstorming",
-      "commitHash": "d007d78fb7e6",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "huangwb8/skills/awesome-code/agents/writing-plans",
-      "name": "writing-plans",
-      "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
-      "categories": ["Productivity"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "awesome-code/agents/writing-plans",
-      "commitHash": "d007d78fb7e6",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "huangwb8/skills/awesome-code/agents/context-optimizer",
-      "name": "context-optimizer",
-      "description": "上下文优化专家。专注于长对话中的上下文管理、token 效率和性能优化。解决 lost-in-middle、context poisoning 等问题，提升 AI 代理在复杂任务中的表现。",
-      "categories": ["Productivity", "AI & ML"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "awesome-code/agents/context-optimizer",
-      "commitHash": "d007d78fb7e6",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "huangwb8/skills/awesome-code/agents/backend-specialist",
-      "name": "backend-specialist",
-      "description": "后端开发专家。精通 Node.js/Python/Go/Rust 等后端技术栈，专注于 API 设计、数据库优化、认证授权、微服务架构和性能调优。用于后端服务开发、API 设计和系统架构。",
-      "categories": ["Development", "Data & Analytics"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "awesome-code/agents/backend-specialist",
-      "commitHash": "d007d78fb7e6",
-      "files": ["SKILL.md", "references/legacy-skill-full.md"]
-    },
-    {
-      "id": "huangwb8/skills/awesome-code/agents/security-specialist",
-      "name": "security-specialist",
-      "description": "安全专家。专注于应用安全、威胁建模、安全合规和数据保护。提供安全审查、漏洞扫描、安全配置和合规检查。用于构建安全可靠的应用系统。",
-      "categories": ["Security"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "awesome-code/agents/security-specialist",
-      "commitHash": "d007d78fb7e6",
-      "files": ["SKILL.md", "references/legacy-skill-full.md"]
-    },
-    {
-      "id": "huangwb8/skills/init-project",
-      "name": "init-project",
-      "description": "当用户明确要求\"初始化项目\"、\"创建项目指令文件\"或\"生成 AGENTS.md\"时使用。完全自动化：自动检测操作系统默认语言，分析项目目录结构（支持 Python/Web/Rust/Go/Java/数据科学/文档项目等），推断项目类型和用途，一键生成规范的项目指令文档。生成结果包括：AGENTS.md（跨平台通用项目指令，Single Source of Truth）、CLAUDE.md（Claude Code 特定适配，通过 @./AGENTS.md 引用）、README.md（项目介绍与使用方法）、CHANGELOG.md（项目变更记录）、.gitignore（Git 忽略规则，安全优先），并在完整初始化时自动补齐 `docs/` 与 `docs/plans/`。",
-      "categories": [
-        "Development",
-        "Writing",
-        "Productivity",
-        "Data & Analytics",
-        "Documents",
-        "Research",
-        "AI & ML"
-      ],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "init-project",
-      "commitHash": "d007d78fb7e6",
-      "files": [
-        "CHANGELOG.md",
-        "README.md",
-        "SKILL.md",
-        "config.yaml",
-        "scripts/generate.py",
-        "templates/AGENTS.md.template",
-        "templates/CHANGELOG.md.template",
-        "templates/CLAUDE.md.template",
-        "templates/README.md.template",
-        "templates/gitignore.yaml"
-      ]
-    },
-    {
-      "id": "huangwb8/skills/better-prompt",
-      "name": "better-prompt",
-      "description": "当用户明确要求\"优化 prompt\"、\"改进提示词\"、\"润色指令\"或\"将简陋 prompt 转换为最佳实践版本\"时使用。基于 OpenAI 和 Anthropic 官方最佳实践，对用户提供的简陋 prompt 进行结构化优化，输出符合社区标准的高质量版本。",
-      "categories": ["AI & ML"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "better-prompt",
-      "commitHash": "d007d78fb7e6",
-      "files": [
-        "CHANGELOG.md",
-        "README.md",
-        "SKILL.md",
-        "config.yaml",
-        "references/prompt-engineering-best-practices.md"
-      ]
-    },
-    {
-      "id": "huangwb8/skills/install-bensz-skills",
-      "name": "install-bensz-skills",
-      "description": "当需要把本仓库 pipelines/skills 下的所有 skills 安装到系统级（默认同时安装到 Codex: ~/.codex/skills 和 Claude Code: ~/.claude/skills），以便在任意项目/对话中可被发现与调用时使用。使用 MD5 哈希进行版本控制，仅安装有更新的 skills；支持强制覆盖安装、指定单一目标安装和远程安装模式（--remote --check/--auto）。",
-      "categories": ["AI & ML"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "install-bensz-skills",
-      "commitHash": "d007d78fb7e6",
-      "files": [
-        "CHANGELOG.md",
-        "README.md",
-        "SKILL.md",
-        "config.yaml",
-        "references/install-report-template.md",
-        "scripts/__init__.py",
-        "scripts/i18n.py",
-        "scripts/install.py",
-        "scripts/remove_legacy_skills.py"
-      ]
-    },
-    {
-      "id": "huangwb8/skills/auto-test-skill",
-      "name": "auto-test-skill",
-      "description": "当用户明确要求\"测试技能\"、\"运行 auto-test\"或\"进行批判性测试\"时使用。通过多轮 A 轮批判性测试 + B 轮质量原则检查，系统化发现、记录、修复问题，并沉淀可追溯的 `plans/` 与 `tests/` 文档。⚠️ 不适用：用户只是想优化功能（应直接修改）、只是询问技能问题（应直接回答）、没有明确\"测试\"意图。",
-      "categories": ["Development", "Productivity"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "auto-test-skill",
-      "commitHash": "d007d78fb7e6",
-      "files": [
-        "CHANGELOG.md",
-        "README.md",
-        "SKILL.md",
-        "config.yaml",
-        "references/ANTI_PATTERNS_LIBRARY.md",
-        "references/A_ROUND_PLAN_TEMPLATE.md",
-        "references/CONSTRUCTIVE_SUGGESTION_GUIDELINES.md",
-        "references/CRITICAL_THINKING_GUIDE.md",
-        "references/ISSUE_DISCOVERY_TECHNIQUES.md",
-        "references/TESTING_BEST_PRACTICES.md",
-        "scripts/create_test_session.py",
-        "scripts/verify_test_session.py",
-        "templates/BUG_REPORT_TEMPLATE.md",
-        "templates/B_ROUND_CHECK_TEMPLATE.md",
-        "templates/FINAL_SUMMARY_TEMPLATE.md",
-        "templates/OPTIMIZATION_PLAN_TEMPLATE.md",
-        "templates/TEST_PLAN_TEMPLATE.md",
-        "templates/TEST_REPORT_TEMPLATE.md"
-      ]
-    },
-    {
-      "id": "huangwb8/skills/auto-test-project",
-      "name": "auto-test-project",
-      "description": "当用户明确要求\"测试项目\"、\"运行 auto-test-project\"或\"进行项目级测试\"时使用。对完整项目进行多轮 A 轮批判性测试 + B 轮质量检查，系统化发现、记录、修复问题。⚠️ 不适用：用户只是想优化功能（应直接修改）、只是询问项目问题（应直接回答）、没有明确\"测试\"意图。",
-      "categories": ["Development"],
-      "author": "huangwb8",
-      "repo": "huangwb8/skills",
-      "path": "auto-test-project",
-      "commitHash": "d007d78fb7e6",
-      "files": [
-        "CHANGELOG.md",
-        "README.md",
-        "SKILL.md",
-        "config.yaml",
-        "references/ANTI_PATTERNS_LIBRARY.md",
-        "references/A_ROUND_PLAN_TEMPLATE.md",
-        "references/CONSTRUCTIVE_SUGGESTION_GUIDELINES.md",
-        "references/CRITICAL_THINKING_GUIDE.md",
-        "references/EXAMPLE_STRICT_MINIMAL.md",
-        "references/EXAMPLE_TEST_REPORT.md",
-        "references/FAQ.md",
-        "references/PROJECT_ISSUE_DISCOVERY_TECHNIQUES.md",
-        "references/PROJECT_TESTING_BEST_PRACTICES.md",
-        "scripts/create_test_session.py",
-        "scripts/verify_all_sessions.py",
-        "scripts/verify_skill.py",
-        "scripts/verify_test_session.py",
-        "templates/BUG_REPORT_TEMPLATE.md",
-        "templates/B_ROUND_CHECK_TEMPLATE.md",
-        "templates/FINAL_SUMMARY_TEMPLATE.md"
-      ]
-    },
-    {
       "id": "vwww-droid/Mira/skills/mira-case-capture",
       "name": "mira-case-capture",
       "description": "Capture one Mira detection case as a structured record. Use when Codex needs to turn a concrete finding, experiment, command output, or risk-environment clue into a reusable case with smells, key clues, judgment seeds, and next checks under the Mira knowledge pipeline.",
@@ -24904,6 +24874,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "adriannoes/awesome-vibe-coding/cursor-and-claude/skills/executing-plans",
+      "name": "executing-plans",
+      "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+      "categories": ["Productivity"],
+      "author": "adriannoes",
+      "repo": "adriannoes/awesome-vibe-coding",
+      "path": "cursor-and-claude/skills/executing-plans",
+      "commitHash": "1d504b547d86",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "adriannoes/awesome-vibe-coding/cursor-and-claude/skills/update-changelog",
       "name": "update-changelog",
       "description": "Read before updating changelogs — update CHANGELOG.md with notable changes since last release",
@@ -24946,6 +24927,17 @@
       "path": "cursor-and-claude/skills/receiving-code-review",
       "commitHash": "1d504b547d86",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "adriannoes/awesome-vibe-coding/cursor-and-claude/skills/requesting-code-review",
+      "name": "requesting-code-review",
+      "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+      "categories": ["Other"],
+      "author": "adriannoes",
+      "repo": "adriannoes/awesome-vibe-coding",
+      "path": "cursor-and-claude/skills/requesting-code-review",
+      "commitHash": "1d504b547d86",
+      "files": ["SKILL.md", "code-reviewer.md"]
     },
     {
       "id": "adriannoes/awesome-vibe-coding/cursor-and-claude/skills/business-automation/pdf-parser",
@@ -25764,7 +25756,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/page-cro",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -25775,7 +25767,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/last30days",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": [
         "README.md",
         "SKILL.md",
@@ -25800,6 +25792,17 @@
       ]
     },
     {
+      "id": "cleodin/antigravity-awesome-skills/skills/bash-linux",
+      "name": "bash-linux",
+      "description": "Bash/Linux terminal patterns. Critical commands, piping, error handling, scripting. Use when working on macOS or Linux systems.",
+      "categories": ["Other"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/bash-linux",
+      "commitHash": "e1e2a6260387",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "cleodin/antigravity-awesome-skills/skills/api-patterns",
       "name": "api-patterns",
       "description": "API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning, pagination.",
@@ -25807,7 +25810,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/api-patterns",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": [
         "SKILL.md",
         "api-style.md",
@@ -25824,6 +25827,17 @@
       ]
     },
     {
+      "id": "cleodin/antigravity-awesome-skills/skills/nosql-expert",
+      "name": "nosql-expert",
+      "description": "Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot partitions in high-scale systems.",
+      "categories": ["Design", "Data & Analytics"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/nosql-expert",
+      "commitHash": "e1e2a6260387",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "cleodin/antigravity-awesome-skills/skills/brainstorming",
       "name": "brainstorming",
       "description": "Use this skill before any creative or constructive work (features, components, architecture, behavior changes, or functionality). This skill transforms vague ideas into validated designs through disciplined, incremental reasoning and collaboration.\n",
@@ -25831,7 +25845,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/brainstorming",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -25842,7 +25856,18 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/file-organizer",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/parallel-agents",
+      "name": "parallel-agents",
+      "description": "Multi-agent orchestration patterns. Use when multiple independent tasks can run with different domain expertise or when comprehensive analysis requires multiple perspectives.",
+      "categories": ["AI & ML"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/parallel-agents",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -25853,7 +25878,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/bun-development",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -25864,7 +25889,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/referral-program",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -25875,7 +25900,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/concise-planning",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -25886,7 +25911,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/testing-patterns",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -25897,7 +25922,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/i18n-localization",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md", "scripts/i18n_checker.py"]
     },
     {
@@ -25908,7 +25933,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/busybox-on-windows",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -25919,7 +25944,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/agent-manager-skill",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -25930,7 +25955,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/nodejs-best-practices",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md", "skills-awesome-antigravity-v2.4.zip"]
     },
     {
@@ -25941,7 +25966,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/game-development/vr-ar",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -25952,7 +25977,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/cc-skill-backend-patterns",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "version": "1.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
@@ -25965,7 +25990,18 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/web-performance-optimization",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/popup-cro",
+      "name": "popup-cro",
+      "description": "Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user experience or brand trust.",
+      "categories": ["Development"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/popup-cro",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -25976,7 +26012,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/git-pushing",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md", "scripts/smart_commit.sh"]
     },
     {
@@ -25987,7 +26023,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/obsidian-clipper-template-creator",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": [
         "SKILL.md",
         "assets/clipping-template.json",
@@ -26016,7 +26052,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/ui-ux-pro-max",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": [
         "SKILL.md",
         "data/charts.csv",
@@ -26048,7 +26084,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/marketing-ideas",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26059,7 +26095,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/playwright-skill",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["API_REFERENCE.md", "SKILL.md", "lib/helpers.js", "package.json", "run.js"]
     },
     {
@@ -26070,7 +26106,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/agent-memory-mcp",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26081,7 +26117,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/daily-news-report",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md", "cache.json", "sources.json"]
     },
     {
@@ -26092,7 +26128,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/code-review-checklist",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26103,7 +26139,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/vulnerability-scanner",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md", "checklists.md", "scripts/security_scan.py"]
     },
     {
@@ -26114,7 +26150,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/receiving-code-review",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26125,7 +26161,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/app-builder/templates",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": [
         "SKILL.md",
         "astro-static/TEMPLATE.md",
@@ -26151,7 +26187,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/product-manager-toolkit",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": [
         "SKILL.md",
         "references/prd_templates.md",
@@ -26167,7 +26203,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/competitor-alternatives",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26178,7 +26214,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/autonomous-agent-patterns",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26189,7 +26225,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/game-development/pc-games",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26200,7 +26236,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/cc-skill-frontend-patterns",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "version": "1.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
@@ -26213,7 +26249,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/game-development/web-games",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26224,7 +26260,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/avalonia-zafiro-development",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": [
         "SKILL.md",
         "avalonia-reactive-rules.md",
@@ -26242,7 +26278,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/verification-before-completion",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26253,7 +26289,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/moodle-external-api-development",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26264,7 +26300,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/ai-product",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26275,7 +26311,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/tdd-workflow",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26286,7 +26322,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/copy-editing",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26297,7 +26333,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/cc-skill-project-guidelines-example",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "version": "1.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
@@ -26310,7 +26346,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/onboarding-cro",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26321,7 +26357,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/prompt-library",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26332,7 +26368,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/social-content",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26343,7 +26379,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/azure-functions",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26354,7 +26390,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/pricing-strategy",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26365,7 +26401,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/behavioral-modes",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26376,7 +26412,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/programmatic-seo",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26387,7 +26423,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/react-ui-patterns",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26398,7 +26434,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/ai-wrapper-product",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26409,7 +26445,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/browser-automation",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26420,7 +26456,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/stripe-integration",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26431,7 +26467,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/using-git-worktrees",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26442,7 +26478,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/paywall-upgrade-cro",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26453,7 +26489,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/zapier-make-patterns",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26464,7 +26500,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/nextjs-supabase-auth",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26475,7 +26511,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/software-architecture",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26486,7 +26522,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/twilio-communications",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26497,7 +26533,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/production-code-audit",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26508,7 +26544,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/nextjs-best-practices",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26519,7 +26555,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/documentation-templates",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26530,7 +26566,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/cc-skill-security-review",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "version": "1.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
@@ -26543,7 +26579,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/cc-skill-coding-standards",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "version": "1.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
@@ -26556,7 +26592,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/game-development/game-audio",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -26567,7 +26603,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/senior-fullstack",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": [
         "SKILL.md",
         "references/architecture_patterns.md",
@@ -26586,7 +26622,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/server-management",
-      "commitHash": "a9f43c316200",
+      "commitHash": "e1e2a6260387",
       "files": ["SKILL.md"]
     },
     {
@@ -27508,6 +27544,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "arvindrk/extract-design-system/skills/extract-design-system",
+      "name": "extract-design-system",
+      "description": "Extract design primitives from a public website and generate starter token files for your project.",
+      "categories": ["Design", "Productivity"],
+      "author": "arvindrk",
+      "repo": "arvindrk/extract-design-system",
+      "path": "skills/extract-design-system",
+      "commitHash": "67e925f52c48",
+      "files": ["SKILL.md", "references"]
+    },
+    {
       "id": "ssdeanx/AgentStack/.agent/skills/mastra",
       "name": "mastra",
       "description": "Comprehensive Mastra framework guide. Teaches how to find current documentation, verify API signatures, and build agents and workflows. Covers documentation lookup strategies (embedded docs, remote docs), core concepts (agents vs workflows, tools, memory, RAG), TypeScript requirements, and common patterns. Use this skill for all Mastra development to ensure you're using current APIs from the installed version or latest documentation.",
@@ -27676,17 +27723,6 @@
       "path": ".github/skills/test-cases",
       "commitHash": "0243bdbb7ffc",
       "files": ["SKILL.md", "references/testing-principles.md"]
-    },
-    {
-      "id": "arvindrk/extract-design-system/skills/extract-design-system",
-      "name": "extract-design-system",
-      "description": "Extract design primitives from a public website and generate starter token files for your project.",
-      "categories": ["Design", "Productivity"],
-      "author": "arvindrk",
-      "repo": "arvindrk/extract-design-system",
-      "path": "skills/extract-design-system",
-      "commitHash": "67e925f52c48",
-      "files": ["SKILL.md", "references"]
     },
     {
       "id": "akseolabs-seo/cinematic-ui",
@@ -28248,6 +28284,93 @@
       "repo": "VirtusLab-Open-Source/astro-strapi-loader",
       "path": ".ai/astro-strapi-loader",
       "commitHash": "b3e8ddc6b292",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "MohamedAbdallah-14/unslop/unslop",
+      "name": "unslop-file",
+      "description": "Humanize natural-language memory files (CLAUDE.md, todos, preferences, docs) by removing AI-isms and adding burstiness while preserving every code block, URL, path, command, and heading exactly. Two modes: --deterministic (fast, regex-based, no API) and LLM (default, calls Claude for rewrite). Humanized version overwrites the original file. Plain backup saved as FILE.original.md. Trigger: /unslop-file <filepath> or \"humanize memory file\"\n",
+      "categories": ["Development", "Writing", "AI & ML"],
+      "author": "MohamedAbdallah-14",
+      "repo": "MohamedAbdallah-14/unslop",
+      "path": "unslop",
+      "commitHash": "7b018177997a",
+      "files": [
+        "CHANGELOG.md",
+        "README.md",
+        "SECURITY.md",
+        "SKILL.md",
+        "pyproject.toml",
+        "scripts/__init__.py",
+        "scripts/__main__.py",
+        "scripts/benchmark.py",
+        "scripts/cli.py",
+        "scripts/detect.py",
+        "scripts/detector.py",
+        "scripts/fetch_detectors.py",
+        "scripts/humanize.py",
+        "scripts/lexical_targets.py",
+        "scripts/py.typed",
+        "scripts/reasoning.py",
+        "scripts/soul.py",
+        "scripts/structural.py",
+        "scripts/style_memory.py",
+        "scripts/stylometry.py"
+      ]
+    },
+    {
+      "id": "MohamedAbdallah-14/unslop/skills/unslop",
+      "name": "unslop",
+      "description": "Humanize LLM output so it reads like a careful human wrote it. Subtracts AI-isms (sycophancy, tricolons, em-dash overuse, \"delve\"/\"tapestry\"/\"testament\", hedging stacks, tidy five-paragraph shapes), engineers burstiness and calibrated uncertainty, and preserves technical accuracy. Supports intensity levels: subtle, balanced (default), full, voice-match, anti-detector. Use when user says \"humanize this\", \"make this sound human\", \"de-slop this\", \"rewrite without AI tone\", \"match my voice\", \"less robotic\", or invokes /unslop. Also auto-triggers when text-quality is requested.\n",
+      "categories": ["Writing", "AI & ML", "Media"],
+      "author": "MohamedAbdallah-14",
+      "repo": "MohamedAbdallah-14/unslop",
+      "path": "skills/unslop",
+      "commitHash": "7b018177997a",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "MohamedAbdallah-14/unslop/skills/unslop-commit",
+      "name": "unslop-commit",
+      "description": "Rewrites commit messages so they sound like a careful human engineer wrote them. Strips AI/marketing slop (\"comprehensive solution\", \"robust implementation\", \"leverage\", \"enhance\", \"seamlessly\", \"This commit...\"). Keeps Conventional Commits format. Subject ≤72 chars (aim ≤50), imperative mood. Body only when \"why\" isn't obvious from the subject. Use when user says \"humanize commit\", \"de-slop commit message\", \"make this commit sound human\", \"/unslop-commit\", \"/commit\", \"write a commit\", or pastes a draft commit to clean up. Auto-triggers when staging changes.\n",
+      "categories": ["Development", "DevOps", "Writing", "AI & ML"],
+      "author": "MohamedAbdallah-14",
+      "repo": "MohamedAbdallah-14/unslop",
+      "path": "skills/unslop-commit",
+      "commitHash": "7b018177997a",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "MohamedAbdallah-14/unslop/skills/unslop-reasoning",
+      "name": "unslop-reasoning",
+      "description": "Strip AI-slop patterns from reasoning traces (chain-of-thought, extended thinking, agent decomposition) — not final prose. Reasoning text has its own slop catalog that regular unslop doesn't target: over-explaining the question, over-hedging, over-decomposing trivial problems into 6-bullet substeps, infinite-loop rationalization. Trigger: /unslop-reasoning, \"clean up my reasoning\", \"fix this chain of thought\", \"this CoT sounds robotic\". Applies to reasoning output; does not override regular /unslop mode.\n",
+      "categories": ["AI & ML"],
+      "author": "MohamedAbdallah-14",
+      "repo": "MohamedAbdallah-14/unslop",
+      "path": "skills/unslop-reasoning",
+      "commitHash": "7b018177997a",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "MohamedAbdallah-14/unslop/skills/unslop-help",
+      "name": "unslop-help",
+      "description": "Quick-reference card for unslop modes, sub-skills, and slash commands. One-shot display, not a persistent mode. Trigger: /unslop-help, \"unslop help\", \"what unslop commands\", \"how do I use unslop\".\n",
+      "categories": ["Other"],
+      "author": "MohamedAbdallah-14",
+      "repo": "MohamedAbdallah-14/unslop",
+      "path": "skills/unslop-help",
+      "commitHash": "7b018177997a",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "MohamedAbdallah-14/unslop/skills/unslop-review",
+      "name": "unslop-review",
+      "description": "Rewrites code review comments so they read like a human teammate wrote them. Cuts corporate-AI throat-clearing (\"I noticed...\", \"I was wondering if perhaps...\", \"It might be worth considering...\"). Each comment is direct: location, the issue, a concrete fix. Use when user says \"humanize review\", \"de-slop PR comment\", \"make this feedback sound human\", \"review this PR\", \"code review\", \"/review\", \"/unslop-review\". Auto-triggers when reviewing PRs.\n",
+      "categories": ["Development"],
+      "author": "MohamedAbdallah-14",
+      "repo": "MohamedAbdallah-14/unslop",
+      "path": "skills/unslop-review",
+      "commitHash": "7b018177997a",
       "files": ["SKILL.md"]
     },
     {
@@ -30286,93 +30409,6 @@
       "files": ["SKILL.md", "knowledge", "skills"]
     },
     {
-      "id": "MohamedAbdallah-14/unslop/unslop",
-      "name": "unslop-file",
-      "description": "Humanize natural-language memory files (CLAUDE.md, todos, preferences, docs) by removing AI-isms and adding burstiness while preserving every code block, URL, path, command, and heading exactly. Two modes: --deterministic (fast, regex-based, no API) and LLM (default, calls Claude for rewrite). Humanized version overwrites the original file. Plain backup saved as FILE.original.md. Trigger: /unslop-file <filepath> or \"humanize memory file\"\n",
-      "categories": ["Development", "Writing", "AI & ML"],
-      "author": "MohamedAbdallah-14",
-      "repo": "MohamedAbdallah-14/unslop",
-      "path": "unslop",
-      "commitHash": "7b018177997a",
-      "files": [
-        "CHANGELOG.md",
-        "README.md",
-        "SECURITY.md",
-        "SKILL.md",
-        "pyproject.toml",
-        "scripts/__init__.py",
-        "scripts/__main__.py",
-        "scripts/benchmark.py",
-        "scripts/cli.py",
-        "scripts/detect.py",
-        "scripts/detector.py",
-        "scripts/fetch_detectors.py",
-        "scripts/humanize.py",
-        "scripts/lexical_targets.py",
-        "scripts/py.typed",
-        "scripts/reasoning.py",
-        "scripts/soul.py",
-        "scripts/structural.py",
-        "scripts/style_memory.py",
-        "scripts/stylometry.py"
-      ]
-    },
-    {
-      "id": "MohamedAbdallah-14/unslop/skills/unslop",
-      "name": "unslop",
-      "description": "Humanize LLM output so it reads like a careful human wrote it. Subtracts AI-isms (sycophancy, tricolons, em-dash overuse, \"delve\"/\"tapestry\"/\"testament\", hedging stacks, tidy five-paragraph shapes), engineers burstiness and calibrated uncertainty, and preserves technical accuracy. Supports intensity levels: subtle, balanced (default), full, voice-match, anti-detector. Use when user says \"humanize this\", \"make this sound human\", \"de-slop this\", \"rewrite without AI tone\", \"match my voice\", \"less robotic\", or invokes /unslop. Also auto-triggers when text-quality is requested.\n",
-      "categories": ["Writing", "AI & ML", "Media"],
-      "author": "MohamedAbdallah-14",
-      "repo": "MohamedAbdallah-14/unslop",
-      "path": "skills/unslop",
-      "commitHash": "7b018177997a",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "MohamedAbdallah-14/unslop/skills/unslop-commit",
-      "name": "unslop-commit",
-      "description": "Rewrites commit messages so they sound like a careful human engineer wrote them. Strips AI/marketing slop (\"comprehensive solution\", \"robust implementation\", \"leverage\", \"enhance\", \"seamlessly\", \"This commit...\"). Keeps Conventional Commits format. Subject ≤72 chars (aim ≤50), imperative mood. Body only when \"why\" isn't obvious from the subject. Use when user says \"humanize commit\", \"de-slop commit message\", \"make this commit sound human\", \"/unslop-commit\", \"/commit\", \"write a commit\", or pastes a draft commit to clean up. Auto-triggers when staging changes.\n",
-      "categories": ["Development", "DevOps", "Writing", "AI & ML"],
-      "author": "MohamedAbdallah-14",
-      "repo": "MohamedAbdallah-14/unslop",
-      "path": "skills/unslop-commit",
-      "commitHash": "7b018177997a",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "MohamedAbdallah-14/unslop/skills/unslop-reasoning",
-      "name": "unslop-reasoning",
-      "description": "Strip AI-slop patterns from reasoning traces (chain-of-thought, extended thinking, agent decomposition) — not final prose. Reasoning text has its own slop catalog that regular unslop doesn't target: over-explaining the question, over-hedging, over-decomposing trivial problems into 6-bullet substeps, infinite-loop rationalization. Trigger: /unslop-reasoning, \"clean up my reasoning\", \"fix this chain of thought\", \"this CoT sounds robotic\". Applies to reasoning output; does not override regular /unslop mode.\n",
-      "categories": ["AI & ML"],
-      "author": "MohamedAbdallah-14",
-      "repo": "MohamedAbdallah-14/unslop",
-      "path": "skills/unslop-reasoning",
-      "commitHash": "7b018177997a",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "MohamedAbdallah-14/unslop/skills/unslop-help",
-      "name": "unslop-help",
-      "description": "Quick-reference card for unslop modes, sub-skills, and slash commands. One-shot display, not a persistent mode. Trigger: /unslop-help, \"unslop help\", \"what unslop commands\", \"how do I use unslop\".\n",
-      "categories": ["Other"],
-      "author": "MohamedAbdallah-14",
-      "repo": "MohamedAbdallah-14/unslop",
-      "path": "skills/unslop-help",
-      "commitHash": "7b018177997a",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "MohamedAbdallah-14/unslop/skills/unslop-review",
-      "name": "unslop-review",
-      "description": "Rewrites code review comments so they read like a human teammate wrote them. Cuts corporate-AI throat-clearing (\"I noticed...\", \"I was wondering if perhaps...\", \"It might be worth considering...\"). Each comment is direct: location, the issue, a concrete fix. Use when user says \"humanize review\", \"de-slop PR comment\", \"make this feedback sound human\", \"review this PR\", \"code review\", \"/review\", \"/unslop-review\". Auto-triggers when reviewing PRs.\n",
-      "categories": ["Development"],
-      "author": "MohamedAbdallah-14",
-      "repo": "MohamedAbdallah-14/unslop",
-      "path": "skills/unslop-review",
-      "commitHash": "7b018177997a",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "kgeoffrey/postmodernist/postmodernist",
       "name": "postmodernist",
       "description": "Critique AI-generated strategy, marketing, and positioning prose. Use for framing-level rewrites that surface hidden assumptions and fake polish, not for factual QA, coding, or basic copyediting.",
@@ -31821,7 +31857,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/security-audit",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -31832,7 +31868,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/refactoring",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -31843,7 +31879,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-ranking",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -31854,7 +31890,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-visualization",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -31865,7 +31901,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/meeting-transcription",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -31876,7 +31912,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-deployment",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -31887,7 +31923,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-analysis",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -31898,7 +31934,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/content-strategy",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -31909,7 +31945,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/proofreading",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -31920,7 +31956,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/summarization",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -31931,7 +31967,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/report-generation",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -31942,7 +31978,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/fact-checking",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -31953,7 +31989,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/copywriting",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -31964,7 +32000,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/docker-compose-setup",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -31975,7 +32011,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-retrieval",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -31986,7 +32022,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-compression",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -31997,7 +32033,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/ml-pipeline-creation",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32008,7 +32044,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/keyword-research",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32019,7 +32055,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/graphql-api-design",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32030,7 +32066,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dynamic-application-security-testing",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32041,7 +32077,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-backup",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32052,7 +32088,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-cleaning",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32063,7 +32099,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/oauth-2-0-setup",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32074,7 +32110,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-injection",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32085,7 +32121,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/exploratory-data-analysis",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32096,7 +32132,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-optimization",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32107,7 +32143,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-seeding",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32118,7 +32154,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-design",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32129,7 +32165,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/ci-cd",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32140,7 +32176,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/threat-modeling",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32151,7 +32187,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/literature-review",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32162,7 +32198,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/chatbot-conversation-design",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32173,7 +32209,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/task-automation",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32184,7 +32220,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/cloud-monitoring",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32195,7 +32231,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/static-application-security-testing",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32206,7 +32242,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/code-documentation",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32217,7 +32253,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/query-optimization",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32228,7 +32264,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-schema-design",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32239,7 +32275,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/webhook-setup",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32250,7 +32286,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/seo-optimization",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32261,7 +32297,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/note-taking",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32272,7 +32308,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/blog-post-writing",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32283,7 +32319,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/hyperparameter-tuning",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32294,7 +32330,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/sql-query-generation",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32305,7 +32341,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dependency-scanning",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32316,7 +32352,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-training",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32327,7 +32363,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/version-control",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32338,7 +32374,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/technical-writing",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32349,7 +32385,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/social-media-posting",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32360,7 +32396,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/data-labeling",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32371,7 +32407,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/presentation-creation",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32382,7 +32418,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/analytics-reporting",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32393,7 +32429,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/translation",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32404,7 +32440,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/email-drafting",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32415,7 +32451,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-integration",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32426,7 +32462,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/knowledge-graph-creation",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32437,7 +32473,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/kubernetes-deployment",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32448,7 +32484,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/infrastructure-as-code",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32459,7 +32495,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-migration",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -32470,7 +32506,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/deep-research",
-      "commitHash": "9839540710a2",
+      "commitHash": "2b472eb24f5a",
       "files": ["SKILL.md"]
     },
     {
@@ -35052,61 +35088,6 @@
       "path": "skills/alphaear-logic-visualizer",
       "commitHash": "853f09b4d0ba",
       "files": ["SKILL.md", "references", "scripts", "tests"]
-    },
-    {
-      "id": "addyosmani/web-quality-skills/skills/accessibility",
-      "name": "accessibility",
-      "description": "Audit and improve web accessibility following WCAG 2.2 guidelines. Use when asked to \"improve accessibility\", \"a11y audit\", \"WCAG compliance\", \"screen reader support\", \"keyboard navigation\", or \"make accessible\".",
-      "categories": ["Security"],
-      "author": "addyosmani",
-      "repo": "addyosmani/web-quality-skills",
-      "path": "skills/accessibility",
-      "commitHash": "3f0fd0791dc7",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "addyosmani/web-quality-skills/skills/performance",
-      "name": "performance",
-      "description": "Optimize web performance for faster loading and better user experience. Use when asked to \"speed up my site\", \"optimize performance\", \"reduce load time\", \"fix slow loading\", \"improve page speed\", or \"performance audit\".",
-      "categories": ["Other"],
-      "author": "addyosmani",
-      "repo": "addyosmani/web-quality-skills",
-      "path": "skills/performance",
-      "commitHash": "2c8612260b21",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "addyosmani/web-quality-skills/skills/best-practices",
-      "name": "best-practices",
-      "description": "Apply modern web development best practices for security, compatibility, and code quality. Use when asked to \"apply best practices\", \"security audit\", \"modernize code\", \"code quality review\", or \"check for vulnerabilities\".",
-      "categories": ["Development", "Security"],
-      "author": "addyosmani",
-      "repo": "addyosmani/web-quality-skills",
-      "path": "skills/best-practices",
-      "commitHash": "2c8612260b21",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "addyosmani/web-quality-skills/skills/core-web-vitals",
-      "name": "core-web-vitals",
-      "description": "Optimize Core Web Vitals (LCP, INP, CLS) for better page experience and search ranking. Use when asked to \"improve Core Web Vitals\", \"fix LCP\", \"reduce CLS\", \"optimize INP\", \"page experience optimization\", or \"fix layout shifts\".",
-      "categories": ["Research"],
-      "author": "addyosmani",
-      "repo": "addyosmani/web-quality-skills",
-      "path": "skills/core-web-vitals",
-      "commitHash": "2c8612260b21",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "addyosmani/web-quality-skills/skills/web-quality-audit",
-      "name": "web-quality-audit",
-      "description": "Comprehensive web quality audit covering performance, accessibility, SEO, and best practices. Use when asked to \"audit my site\", \"review web quality\", \"run lighthouse audit\", \"check page quality\", or \"optimize my website\".",
-      "categories": ["Other"],
-      "author": "addyosmani",
-      "repo": "addyosmani/web-quality-skills",
-      "path": "skills/web-quality-audit",
-      "commitHash": "2c8612260b21",
-      "files": ["SKILL.md", "scripts"]
     },
     {
       "id": "softaworks/agent-toolkit/skills/mui",
