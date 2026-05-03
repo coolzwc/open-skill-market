@@ -28,13 +28,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "adithya-s-k/manim_skill": {
-      "url": "https://github.com/adithya-s-k/manim_skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "bevibing/tutor-skills": {
       "url": "https://github.com/bevibing/tutor-skills",
       "branch": "main",
@@ -44,6 +37,13 @@
     },
     "wondelai/skills": {
       "url": "https://github.com/wondelai/skills",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "adithya-s-k/manim_skill": {
+      "url": "https://github.com/adithya-s-k/manim_skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -217,16 +217,16 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "proflead/codex-skills-library": {
-      "url": "https://github.com/proflead/codex-skills-library",
-      "branch": "master",
+    "felixrieseberg/claude-coach": {
+      "url": "https://github.com/felixrieseberg/claude-coach",
+      "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "felixrieseberg/claude-coach": {
-      "url": "https://github.com/felixrieseberg/claude-coach",
-      "branch": "main",
+    "proflead/codex-skills-library": {
+      "url": "https://github.com/proflead/codex-skills-library",
+      "branch": "master",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
@@ -378,6 +378,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "brettdavies/crawl4ai-skill": {
+      "url": "https://github.com/brettdavies/crawl4ai-skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "proyecto26/sherlock-ai-plugin": {
       "url": "https://github.com/proyecto26/sherlock-ai-plugin",
       "branch": "main",
@@ -387,13 +394,6 @@
     },
     "ForteScarlet/codex-kkp": {
       "url": "https://github.com/ForteScarlet/codex-kkp",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "brettdavies/crawl4ai-skill": {
-      "url": "https://github.com/brettdavies/crawl4ai-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -900,39 +900,6 @@
       "path": "",
       "commitHash": "8dc9db43c9bf",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "adithya-s-k/manim_skill/skills/manim-composer",
-      "name": "manim-composer",
-      "description": "Trigger when: (1) User wants to create an educational/explainer video, (2) User has a vague concept they want visualized, (3) User mentions \"3b1b style\" or \"explain like 3Blue1Brown\", (4) User wants to plan a Manim video or animation sequence, (5) User asks to \"compose\" or \"plan\" a math/science visualization.\n\nTransforms vague video ideas into detailed scene-by-scene plans (scenes.md). Conducts research, asks clarifying questions about audience/scope/focus, and outputs comprehensive scene specifications ready for implementation with ManimCE or ManimGL.\n\nUse this BEFORE writing any Manim code. This skill plans the video; use manimce-best-practices or manimgl-best-practices for implementation.\n",
-      "categories": ["Design", "Data & Analytics", "Research", "Media"],
-      "author": "adithya-s-k",
-      "repo": "adithya-s-k/manim_skill",
-      "path": "skills/manim-composer",
-      "commitHash": "66686635fc49",
-      "files": ["SKILL.md", "references", "templates"]
-    },
-    {
-      "id": "adithya-s-k/manim_skill/skills/manimgl-best-practices",
-      "name": "manimgl-best-practices",
-      "description": "Trigger when: (1) User mentions \"manimgl\" or \"ManimGL\" or \"3b1b manim\", (2) Code contains `from manimlib import *`, (3) User runs `manimgl` CLI commands, (4) Working with InteractiveScene, self.frame, self.embed(), ShowCreation(), or ManimGL-specific patterns.\n\nBest practices for ManimGL (Grant Sanderson's 3Blue1Brown version) - OpenGL-based animation engine with interactive development. Covers InteractiveScene, Tex with t2c, camera frame control, interactive mode (-se flag), 3D rendering, and checkpoint_paste() workflow.\n\nNOT for Manim Community Edition (which uses `manim` imports and `manim` CLI).\n",
-      "categories": ["Development", "AI & ML", "Media"],
-      "author": "adithya-s-k",
-      "repo": "adithya-s-k/manim_skill",
-      "path": "skills/manimgl-best-practices",
-      "commitHash": "2375ac0272aa",
-      "files": ["LICENSE.txt", "SKILL.md", "examples", "references", "rules", "templates"]
-    },
-    {
-      "id": "adithya-s-k/manim_skill/skills/manimce-best-practices",
-      "name": "manimce-best-practices",
-      "description": "Trigger when: (1) User mentions \"manim\" or \"Manim Community\" or \"ManimCE\", (2) Code contains `from manim import *`, (3) User runs `manim` CLI commands, (4) Working with Scene, MathTex, Create(), or ManimCE-specific classes.\n\nBest practices for Manim Community Edition - the community-maintained Python animation engine. Covers Scene structure, animations, LaTeX/MathTex, 3D with ThreeDScene, camera control, styling, and CLI usage.\n\nNOT for ManimGL/3b1b version (which uses `manimlib` imports and `manimgl` CLI).\n",
-      "categories": ["Development", "Documents", "AI & ML", "Media"],
-      "author": "adithya-s-k",
-      "repo": "adithya-s-k/manim_skill",
-      "path": "skills/manimce-best-practices",
-      "commitHash": "66686635fc49",
-      "files": ["LICENSE.txt", "SKILL.md", "examples", "rules", "templates"]
     },
     {
       "id": "bevibing/tutor-skills/skills/tutor",
@@ -1780,6 +1747,39 @@
         "references/processing-learning.md",
         "references/question-patterns.md"
       ]
+    },
+    {
+      "id": "adithya-s-k/manim_skill/skills/manim-composer",
+      "name": "manim-composer",
+      "description": "Trigger when: (1) User wants to create an educational/explainer video, (2) User has a vague concept they want visualized, (3) User mentions \"3b1b style\" or \"explain like 3Blue1Brown\", (4) User wants to plan a Manim video or animation sequence, (5) User asks to \"compose\" or \"plan\" a math/science visualization.\n\nTransforms vague video ideas into detailed scene-by-scene plans (scenes.md). Conducts research, asks clarifying questions about audience/scope/focus, and outputs comprehensive scene specifications ready for implementation with ManimCE or ManimGL.\n\nUse this BEFORE writing any Manim code. This skill plans the video; use manimce-best-practices or manimgl-best-practices for implementation.\n",
+      "categories": ["Design", "Data & Analytics", "Research", "Media"],
+      "author": "adithya-s-k",
+      "repo": "adithya-s-k/manim_skill",
+      "path": "skills/manim-composer",
+      "commitHash": "66686635fc49",
+      "files": ["SKILL.md", "references", "templates"]
+    },
+    {
+      "id": "adithya-s-k/manim_skill/skills/manimgl-best-practices",
+      "name": "manimgl-best-practices",
+      "description": "Trigger when: (1) User mentions \"manimgl\" or \"ManimGL\" or \"3b1b manim\", (2) Code contains `from manimlib import *`, (3) User runs `manimgl` CLI commands, (4) Working with InteractiveScene, self.frame, self.embed(), ShowCreation(), or ManimGL-specific patterns.\n\nBest practices for ManimGL (Grant Sanderson's 3Blue1Brown version) - OpenGL-based animation engine with interactive development. Covers InteractiveScene, Tex with t2c, camera frame control, interactive mode (-se flag), 3D rendering, and checkpoint_paste() workflow.\n\nNOT for Manim Community Edition (which uses `manim` imports and `manim` CLI).\n",
+      "categories": ["Development", "AI & ML", "Media"],
+      "author": "adithya-s-k",
+      "repo": "adithya-s-k/manim_skill",
+      "path": "skills/manimgl-best-practices",
+      "commitHash": "2375ac0272aa",
+      "files": ["LICENSE.txt", "SKILL.md", "examples", "references", "rules", "templates"]
+    },
+    {
+      "id": "adithya-s-k/manim_skill/skills/manimce-best-practices",
+      "name": "manimce-best-practices",
+      "description": "Trigger when: (1) User mentions \"manim\" or \"Manim Community\" or \"ManimCE\", (2) Code contains `from manim import *`, (3) User runs `manim` CLI commands, (4) Working with Scene, MathTex, Create(), or ManimCE-specific classes.\n\nBest practices for Manim Community Edition - the community-maintained Python animation engine. Covers Scene structure, animations, LaTeX/MathTex, 3D with ThreeDScene, camera control, styling, and CLI usage.\n\nNOT for ManimGL/3b1b version (which uses `manimlib` imports and `manimgl` CLI).\n",
+      "categories": ["Development", "Documents", "AI & ML", "Media"],
+      "author": "adithya-s-k",
+      "repo": "adithya-s-k/manim_skill",
+      "path": "skills/manimce-best-practices",
+      "commitHash": "66686635fc49",
+      "files": ["LICENSE.txt", "SKILL.md", "examples", "rules", "templates"]
     },
     {
       "id": "alirezarezvani/claude-code-skill-factory/generated-skills/tdd-guide",
@@ -5690,6 +5690,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "felixrieseberg/claude-coach/skill",
+      "name": "coach",
+      "description": "Create personalized triathlon, marathon, and ultra-endurance training plans. Use when athletes ask for training plans, workout schedules, race preparation, or coaching advice. Can sync with Strava to analyze training history, or work from manually provided fitness data. Generates periodized plans with sport-specific workouts, zones, and race-day strategies.",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "felixrieseberg",
+      "repo": "felixrieseberg/claude-coach",
+      "path": "skill",
+      "commitHash": "c569b880837f",
+      "files": ["SKILL.md", "reference"]
+    },
+    {
       "id": "proflead/codex-skills-library/skills/docs/readme-polish",
       "name": "readme-polish",
       "description": "Improve a README for clarity and completeness. Use when a junior developer needs guidance on documenting setup and usage.",
@@ -6196,17 +6207,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "felixrieseberg/claude-coach/skill",
-      "name": "coach",
-      "description": "Create personalized triathlon, marathon, and ultra-endurance training plans. Use when athletes ask for training plans, workout schedules, race preparation, or coaching advice. Can sync with Strava to analyze training history, or work from manually provided fitness data. Generates periodized plans with sport-specific workouts, zones, and race-day strategies.",
-      "categories": ["Productivity", "AI & ML"],
-      "author": "felixrieseberg",
-      "repo": "felixrieseberg/claude-coach",
-      "path": "skill",
-      "commitHash": "c569b880837f",
-      "files": ["SKILL.md", "reference"]
-    },
-    {
       "id": "haddock-development/claude-reflect-system/reflect",
       "name": "reflect",
       "description": "Analyzes conversation transcripts to extract user corrections, patterns, and preferences, then proposes skill improvements. Use this skill when users provide corrections, express preferences about code style, or when patterns emerge from successful approaches. Can be triggered manually with /reflect or automatically at session end when enabled.\n",
@@ -6709,6 +6709,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "brettdavies/crawl4ai-skill/crawl4ai",
+      "name": "crawl4ai",
+      "description": "This skill should be used when users need to scrape websites, extract structured data, handle JavaScript-heavy pages, crawl multiple URLs, or build automated web data pipelines. Includes optimized extraction patterns with schema generation for efficient, LLM-free extraction.",
+      "categories": ["Development", "Data & Analytics", "Research", "AI & ML"],
+      "author": "brettdavies",
+      "repo": "brettdavies/crawl4ai-skill",
+      "path": "crawl4ai",
+      "commitHash": "2c595528f7d9",
+      "files": ["SKILL.md", "references", "scripts", "tests"]
+    },
+    {
       "id": "proyecto26/sherlock-ai-plugin/skills/paper2code",
       "name": "paper2code",
       "description": "Analyzes research papers (PDF/arXiv URL) and converts them into executable code.\nAutomatically activated upon requests for paper replication, algorithm implementation, or research reproduction.\nResponds to requests like \"Implement this paper\", \"paper2code\", \"Convert paper to code\".\n",
@@ -6813,17 +6824,6 @@
         "outputs.md",
         "sandbox-modes.md"
       ]
-    },
-    {
-      "id": "brettdavies/crawl4ai-skill/crawl4ai",
-      "name": "crawl4ai",
-      "description": "This skill should be used when users need to scrape websites, extract structured data, handle JavaScript-heavy pages, crawl multiple URLs, or build automated web data pipelines. Includes optimized extraction patterns with schema generation for efficient, LLM-free extraction.",
-      "categories": ["Development", "Data & Analytics", "Research", "AI & ML"],
-      "author": "brettdavies",
-      "repo": "brettdavies/crawl4ai-skill",
-      "path": "crawl4ai",
-      "commitHash": "2c595528f7d9",
-      "files": ["SKILL.md", "references", "scripts", "tests"]
     },
     {
       "id": "cjpatten/canadian-finance-planner-skill",
