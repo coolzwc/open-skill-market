@@ -35,15 +35,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "adithya-s-k/manim_skill": {
-      "url": "https://github.com/adithya-s-k/manim_skill",
+    "bevibing/tutor-skills": {
+      "url": "https://github.com/bevibing/tutor-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "bevibing/tutor-skills": {
-      "url": "https://github.com/bevibing/tutor-skills",
+    "adithya-s-k/manim_skill": {
+      "url": "https://github.com/adithya-s-k/manim_skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -1745,6 +1745,28 @@
       ]
     },
     {
+      "id": "bevibing/tutor-skills/skills/tutor",
+      "name": "tutor",
+      "description": "Interactive quiz tutor for Obsidian StudyVault learning. Use when the user wants to: (1) Take a diagnostic assessment of their knowledge, (2) Study or review specific sections/topics, (3) Drill weak areas identified in previous sessions, (4) Check their learning progress or dashboard, or says things like \"quiz me\", \"test me\", \"let's study\", \"/tutor\", \"학습\", \"퀴즈\", \"평가\".\n",
+      "categories": ["Research"],
+      "author": "bevibing",
+      "repo": "bevibing/tutor-skills",
+      "path": "skills/tutor",
+      "commitHash": "397110c9fefb",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "bevibing/tutor-skills/skills/tutor-setup",
+      "name": "tutor-setup",
+      "description": "Transforms knowledge sources into an Obsidian StudyVault. Two modes: (1) Document Mode — PDF/text/web sources → study notes with practice questions. (2) Codebase Mode — source code project → onboarding vault for new developers. Mode is auto-detected based on project markers in CWD.\n",
+      "categories": ["Development", "Productivity", "Documents", "Research"],
+      "author": "bevibing",
+      "repo": "bevibing/tutor-skills",
+      "path": "skills/tutor-setup",
+      "commitHash": "397110c9fefb",
+      "files": ["SKILL.md", "references"]
+    },
+    {
       "id": "adithya-s-k/manim_skill/skills/manim-composer",
       "name": "manim-composer",
       "description": "Trigger when: (1) User wants to create an educational/explainer video, (2) User has a vague concept they want visualized, (3) User mentions \"3b1b style\" or \"explain like 3Blue1Brown\", (4) User wants to plan a Manim video or animation sequence, (5) User asks to \"compose\" or \"plan\" a math/science visualization.\n\nTransforms vague video ideas into detailed scene-by-scene plans (scenes.md). Conducts research, asks clarifying questions about audience/scope/focus, and outputs comprehensive scene specifications ready for implementation with ManimCE or ManimGL.\n\nUse this BEFORE writing any Manim code. This skill plans the video; use manimce-best-practices or manimgl-best-practices for implementation.\n",
@@ -1776,28 +1798,6 @@
       "path": "skills/manimce-best-practices",
       "commitHash": "66686635fc49",
       "files": ["LICENSE.txt", "SKILL.md", "examples", "rules", "templates"]
-    },
-    {
-      "id": "bevibing/tutor-skills/skills/tutor",
-      "name": "tutor",
-      "description": "Interactive quiz tutor for Obsidian StudyVault learning. Use when the user wants to: (1) Take a diagnostic assessment of their knowledge, (2) Study or review specific sections/topics, (3) Drill weak areas identified in previous sessions, (4) Check their learning progress or dashboard, or says things like \"quiz me\", \"test me\", \"let's study\", \"/tutor\", \"학습\", \"퀴즈\", \"평가\".\n",
-      "categories": ["Research"],
-      "author": "bevibing",
-      "repo": "bevibing/tutor-skills",
-      "path": "skills/tutor",
-      "commitHash": "397110c9fefb",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "bevibing/tutor-skills/skills/tutor-setup",
-      "name": "tutor-setup",
-      "description": "Transforms knowledge sources into an Obsidian StudyVault. Two modes: (1) Document Mode — PDF/text/web sources → study notes with practice questions. (2) Codebase Mode — source code project → onboarding vault for new developers. Mode is auto-detected based on project markers in CWD.\n",
-      "categories": ["Development", "Productivity", "Documents", "Research"],
-      "author": "bevibing",
-      "repo": "bevibing/tutor-skills",
-      "path": "skills/tutor-setup",
-      "commitHash": "397110c9fefb",
-      "files": ["SKILL.md", "references"]
     },
     {
       "id": "alirezarezvani/claude-code-skill-factory/generated-skills/tdd-guide",
