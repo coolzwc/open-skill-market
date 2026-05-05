@@ -399,15 +399,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "Shelpuk-AI-Technology-Consulting/agent-skill-tdd": {
-      "url": "https://github.com/Shelpuk-AI-Technology-Consulting/agent-skill-tdd",
+    "Agents365-ai/semanticscholar-skill": {
+      "url": "https://github.com/Agents365-ai/semanticscholar-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "Agents365-ai/semanticscholar-skill": {
-      "url": "https://github.com/Agents365-ai/semanticscholar-skill",
+    "Shelpuk-AI-Technology-Consulting/agent-skill-tdd": {
+      "url": "https://github.com/Shelpuk-AI-Technology-Consulting/agent-skill-tdd",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -8543,17 +8543,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "Shelpuk-AI-Technology-Consulting/agent-skill-tdd/skills/tdd",
-      "name": "tdd",
-      "description": "Use for every coding task. Enforce strict TDD workflow: activate Serena, investigate first, clarify+confirm requirements, write per-task REQUIREMENTS.md in .requirements/<datetime>_<feature_name>/, verify APIs via web search, then implement in tiny test-verified steps.",
-      "categories": ["Development", "Productivity", "Research"],
-      "author": "Shelpuk-AI-Technology-Consulting",
-      "repo": "Shelpuk-AI-Technology-Consulting/agent-skill-tdd",
-      "path": "skills/tdd",
-      "commitHash": "af17db9ed0d3",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "Agents365-ai/semanticscholar-skill",
       "name": "semanticscholar-skill",
       "description": "Use when searching academic papers, looking up citations, finding authors, or getting paper recommendations using the Semantic Scholar API. Triggers on queries about research papers, academic search, citation analysis, or literature discovery.",
@@ -8562,6 +8551,17 @@
       "repo": "Agents365-ai/semanticscholar-skill",
       "path": "",
       "commitHash": "717511d9c69b",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Shelpuk-AI-Technology-Consulting/agent-skill-tdd/skills/tdd",
+      "name": "tdd",
+      "description": "Use for every coding task. Enforce strict TDD workflow: activate Serena, investigate first, clarify+confirm requirements, write per-task REQUIREMENTS.md in .requirements/<datetime>_<feature_name>/, verify APIs via web search, then implement in tiny test-verified steps.",
+      "categories": ["Development", "Productivity", "Research"],
+      "author": "Shelpuk-AI-Technology-Consulting",
+      "repo": "Shelpuk-AI-Technology-Consulting/agent-skill-tdd",
+      "path": "skills/tdd",
+      "commitHash": "af17db9ed0d3",
       "files": ["SKILL.md"]
     },
     {
