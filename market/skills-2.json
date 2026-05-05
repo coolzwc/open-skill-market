@@ -399,13 +399,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "Agents365-ai/semanticscholar-skill": {
-      "url": "https://github.com/Agents365-ai/semanticscholar-skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "Shelpuk-AI-Technology-Consulting/agent-skill-tdd": {
       "url": "https://github.com/Shelpuk-AI-Technology-Consulting/agent-skill-tdd",
       "branch": "main",
@@ -1886,6 +1879,17 @@
       "author": "softaworks",
       "repo": "softaworks/agent-toolkit",
       "path": "skills/codex",
+      "commitHash": "06825f04669d",
+      "files": ["README.md", "SKILL.md"]
+    },
+    {
+      "id": "softaworks/agent-toolkit/skills/gemini",
+      "name": "gemini",
+      "description": "Use when the user asks to run Gemini CLI for code review, plan review, or big context (>200k) processing. Ideal for comprehensive analysis requiring large context windows. Uses Gemini 3 Pro by default for state-of-the-art reasoning and coding.",
+      "categories": ["Development", "Design"],
+      "author": "softaworks",
+      "repo": "softaworks/agent-toolkit",
+      "path": "skills/gemini",
       "commitHash": "06825f04669d",
       "files": ["README.md", "SKILL.md"]
     },
@@ -4795,6 +4799,17 @@
       "path": "productivity-skills-plugin/skills/code-auditor",
       "commitHash": "71429f72e5c2",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "mhattingpete/claude-skills-marketplace/engineering-workflow-plugin/skills/git-pushing",
+      "name": "git-pushing",
+      "description": "Stage, commit, and push git changes with conventional commit messages. Use when user wants to commit and push changes, mentions pushing to remote, or asks to save and push their work. Also activates when user says \"push changes\", \"commit and push\", \"push this\", \"push to github\", or similar git workflow requests.",
+      "categories": ["Development"],
+      "author": "mhattingpete",
+      "repo": "mhattingpete/claude-skills-marketplace",
+      "path": "engineering-workflow-plugin/skills/git-pushing",
+      "commitHash": "71429f72e5c2",
+      "files": ["SKILL.md", "scripts"]
     },
     {
       "id": "mhattingpete/claude-skills-marketplace/visual-documentation-plugin/skills/timeline-creator",
@@ -8529,17 +8544,6 @@
       "repo": "echoVic/spec-flow",
       "path": "",
       "commitHash": "3ae2516ec921",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Agents365-ai/semanticscholar-skill",
-      "name": "semanticscholar-skill",
-      "description": "Use when searching academic papers, looking up citations, finding authors, or getting paper recommendations using the Semantic Scholar API. Triggers on queries about research papers, academic search, citation analysis, or literature discovery.",
-      "categories": ["Research"],
-      "author": "Agents365-ai",
-      "repo": "Agents365-ai/semanticscholar-skill",
-      "path": "",
-      "commitHash": "717511d9c69b",
       "files": ["SKILL.md"]
     },
     {
