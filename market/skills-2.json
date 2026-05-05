@@ -280,16 +280,16 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "anhvt52/jetpack-compose-skills": {
-      "url": "https://github.com/anhvt52/jetpack-compose-skills",
-      "branch": "master",
+    "madebyaris/advance-minimax-m2-cursor-rules": {
+      "url": "https://github.com/madebyaris/advance-minimax-m2-cursor-rules",
+      "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "madebyaris/advance-minimax-m2-cursor-rules": {
-      "url": "https://github.com/madebyaris/advance-minimax-m2-cursor-rules",
-      "branch": "main",
+    "anhvt52/jetpack-compose-skills": {
+      "url": "https://github.com/anhvt52/jetpack-compose-skills",
+      "branch": "master",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
@@ -1870,17 +1870,6 @@
       "path": "skills/jira",
       "commitHash": "507609844c9c",
       "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/codex",
-      "name": "codex",
-      "description": "Use when the user asks to run Codex CLI (codex exec, codex resume) or references OpenAI Codex for code analysis, refactoring, or automated editing. Uses GPT-5.2 by default for state-of-the-art software engineering.",
-      "categories": ["Development", "Writing", "AI & ML"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/codex",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md"]
     },
     {
       "id": "softaworks/agent-toolkit/skills/gemini",
@@ -8119,17 +8108,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "anhvt52/jetpack-compose-skills/modern-jetpack-compose",
-      "name": "modern-jetpack-compose",
-      "description": "Guides writing, reviewing, and reasoning about modern Android UI code using Jetpack Compose. Covers best practices for state management, side effects, recomposition, navigation, Material 3 design, accessibility, and performance. Use when reading, writing, or reviewing any Jetpack Compose project.\n",
-      "categories": ["Development", "Design", "Productivity"],
-      "author": "anhvt52",
-      "repo": "anhvt52/jetpack-compose-skills",
-      "path": "modern-jetpack-compose",
-      "commitHash": "12599cb38570",
-      "files": ["SKILL.md", "agents", "references"]
-    },
-    {
       "id": "madebyaris/advance-minimax-m2-cursor-rules/.cursor/skills/deep-research",
       "name": "deep-research",
       "description": "Conducts multi-step deep research on any topic using iterative search, reflection, and synthesis. Use when the user asks to research, investigate, survey, compare, analyze, deep-dive, or explore a topic in depth. Covers web research, codebase analysis, documentation review, and mixed-source investigation.",
@@ -8172,6 +8150,17 @@
       "path": ".cursor/skills/anti-slop-design",
       "commitHash": "f85c6a874b06",
       "files": ["SKILL.md", "reference.md"]
+    },
+    {
+      "id": "anhvt52/jetpack-compose-skills/modern-jetpack-compose",
+      "name": "modern-jetpack-compose",
+      "description": "Guides writing, reviewing, and reasoning about modern Android UI code using Jetpack Compose. Covers best practices for state management, side effects, recomposition, navigation, Material 3 design, accessibility, and performance. Use when reading, writing, or reviewing any Jetpack Compose project.\n",
+      "categories": ["Development", "Design", "Productivity"],
+      "author": "anhvt52",
+      "repo": "anhvt52/jetpack-compose-skills",
+      "path": "modern-jetpack-compose",
+      "commitHash": "12599cb38570",
+      "files": ["SKILL.md", "agents", "references"]
     },
     {
       "id": "YIKUAIBANZI/forge-skill/use-self",
