@@ -203,13 +203,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "PleasePrompto/google-ai-mode-skill": {
-      "url": "https://github.com/PleasePrompto/google-ai-mode-skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "bitwize-music-studio/claude-ai-music-skills": {
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
       "branch": "main",
@@ -217,8 +210,8 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "smnandre/symfony-ux-skills": {
-      "url": "https://github.com/smnandre/symfony-ux-skills",
+    "PleasePrompto/google-ai-mode-skill": {
+      "url": "https://github.com/PleasePrompto/google-ai-mode-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -226,6 +219,13 @@
     },
     "ckelsoe/prompt-architect": {
       "url": "https://github.com/ckelsoe/prompt-architect",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "smnandre/symfony-ux-skills": {
+      "url": "https://github.com/smnandre/symfony-ux-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -532,17 +532,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/prove",
-      "name": "prove",
-      "description": "Formal theorem proving with research, testing, and verification phases",
-      "categories": ["Development", "Research"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/prove",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/debug",
       "name": "debug",
       "description": "Debug issues by investigating logs, database state, and git history",
@@ -576,17 +565,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/explore",
-      "name": "explore",
-      "description": "Meta-skill for internal codebase exploration at varying depths (quick/deep/architecture)",
-      "categories": ["Development"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/explore",
-      "commitHash": "0854d473fbe4",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/security",
       "name": "security",
       "description": "Security audit workflow - vulnerability scan → verification",
@@ -595,6 +573,17 @@
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/security",
       "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/nia-docs",
+      "name": "nia-docs",
+      "description": "Search library documentation and code examples via Nia",
+      "categories": ["Development", "Writing"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/nia-docs",
+      "commitHash": "e13603363d21",
       "files": ["SKILL.md"]
     },
     {
@@ -631,28 +620,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/pint-compute",
-      "name": "pint-compute",
-      "description": "Unit-aware computation with Pint - convert units, dimensional analysis, unit arithmetic",
-      "categories": ["Other"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/pint-compute",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/agentica-sdk",
-      "name": "agentica-sdk",
-      "description": "Build Python agents with Agentica SDK - @agentic decorator, spawn(), persistence, MCP integration",
-      "categories": ["Development", "Integration", "AI & ML"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/agentica-sdk",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/tldr-overview",
       "name": "tldr-overview",
       "description": "Get a token-efficient overview of any project using the TLDR stack",
@@ -672,6 +639,17 @@
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/loogle-search",
       "commitHash": "21b569baa759",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/no-task-output",
+      "name": "no-task-output",
+      "description": "Never Use TaskOutput",
+      "categories": ["Other"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/no-task-output",
+      "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
     {
@@ -815,17 +793,6 @@
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/tldr-router",
       "commitHash": "21b569baa759",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/slash-commands",
-      "name": "slash-commands",
-      "description": "Create and use Claude Code slash commands - quick prompts, bash execution, file references",
-      "categories": ["AI & ML"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/slash-commands",
-      "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
     {
@@ -1258,6 +1225,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/review",
+      "name": "review",
+      "description": "Comprehensive code review workflow - parallel specialized reviews → synthesis",
+      "categories": ["Development"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/review",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/commit",
       "name": "commit",
       "description": "Create git commits with user approval and no Claude attribution",
@@ -1309,17 +1287,6 @@
       "author": "parcadei",
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/agentica-server",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/archive/search-tools",
-      "name": "search-tools",
-      "description": "Search Tool Hierarchy",
-      "categories": ["Other"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/archive/search-tools",
       "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
@@ -1469,28 +1436,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/math-help",
-      "name": "math-help",
-      "description": "Guide to the math cognitive stack - what tools exist and when to use each",
-      "categories": ["Other"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/math-help",
-      "commitHash": "f5a3b151b5ea",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/agentica-spawn",
-      "name": "agentica-spawn",
-      "description": "Spawn Agentica multi-agent patterns",
-      "categories": ["AI & ML"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/agentica-spawn",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/resume_handoff",
       "name": "resume-handoff",
       "description": "Resume work from handoff document with context analysis and validation",
@@ -1575,6 +1520,28 @@
       "author": "parcadei",
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/math/graph-number-theory/graph-algorithms",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/qlty-check",
+      "name": "qlty-check",
+      "description": "Code quality checks, formatting, and metrics via qlty CLI",
+      "categories": ["Development"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/qlty-check",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/debug-hooks",
+      "name": "debug-hooks",
+      "description": "Systematic hook debugging workflow. Use when hooks aren't firing, producing wrong output, or behaving unexpectedly.",
+      "categories": ["Development"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/debug-hooks",
       "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
@@ -1664,6 +1631,17 @@
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/math/category-theory/categories-functors",
       "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/search-router",
+      "name": "search-router",
+      "description": "Choose the right search tool for each query type",
+      "categories": ["Other"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/search-router",
+      "commitHash": "dd1e637eeb63",
       "files": ["SKILL.md"]
     },
     {
@@ -6831,17 +6809,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "PleasePrompto/google-ai-mode-skill",
-      "name": "google-ai-mode-skill",
-      "description": "Use this skill when the user requests current information, documentation, coding examples, or web research beyond the knowledge cutoff. Queries Google's AI Search mode to retrieve comprehensive AI-generated overviews with source citations from 100+ websites. Returns markdown with inline footnoted references [1][2][3]. You will receive a detailed Markdown file with references and information summarized directly from Google's AI search. Ideal for you to get new information and clues for further research.",
-      "categories": ["Development", "Writing", "Documents", "Research"],
-      "author": "PleasePrompto",
-      "repo": "PleasePrompto/google-ai-mode-skill",
-      "path": "",
-      "commitHash": "c10c13b296c7",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "bitwize-music-studio/claude-ai-music-skills/skills/help",
       "name": "help",
       "description": "Shows available skills, common workflows, and quick reference for the plugin. Use when the user asks for help, what skills are available, or how to do something.",
@@ -7421,6 +7388,28 @@
       "files": ["SKILL.md", "test-definitions.md"]
     },
     {
+      "id": "PleasePrompto/google-ai-mode-skill",
+      "name": "google-ai-mode-skill",
+      "description": "Use this skill when the user requests current information, documentation, coding examples, or web research beyond the knowledge cutoff. Queries Google's AI Search mode to retrieve comprehensive AI-generated overviews with source citations from 100+ websites. Returns markdown with inline footnoted references [1][2][3]. You will receive a detailed Markdown file with references and information summarized directly from Google's AI search. Ideal for you to get new information and clues for further research.",
+      "categories": ["Development", "Writing", "Documents", "Research"],
+      "author": "PleasePrompto",
+      "repo": "PleasePrompto/google-ai-mode-skill",
+      "path": "",
+      "commitHash": "c10c13b296c7",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ckelsoe/prompt-architect/skills/prompt-architect",
+      "name": "prompt-architect",
+      "description": "Analyzes and improves prompts using 27 research-backed frameworks across 7 intent categories. Use when a user wants to improve, rewrite, structure, or engineer a prompt — including requests like \"help me write a better prompt\", \"improve this prompt\", \"what framework should I use\", \"make this prompt more effective\", or any prompt engineering task. Recommends the right framework based on intent (create, transform, reason, critique, recover, clarify, agentic), asks targeted questions, and delivers a structured, high-quality result.",
+      "categories": ["Business", "Research", "AI & ML"],
+      "author": "ckelsoe",
+      "repo": "ckelsoe/prompt-architect",
+      "path": "skills/prompt-architect",
+      "commitHash": "6e12013eb782",
+      "files": ["SKILL.md", "assets", "references", "scripts"]
+    },
+    {
       "id": "smnandre/symfony-ux-skills/skills/turbo",
       "name": "turbo",
       "description": "Hotwire Turbo for Symfony UX -- SPA-like speed with zero JavaScript. Covers Drive (full-page navigation), Frames (partial page sections), and Streams (multi-target updates). Use when building ajax navigation, lazy-loaded page sections, inline editing, pagination without reload, modals loaded from the server, flash messages via streams, real-time updates via Mercure/SSE, or multi-section page updates. Code triggers: turbo-frame, turbo-stream, data-turbo-frame, data-turbo, data-turbo-action, turbo-stream-source, TurboStreamResponse, <twig:Turbo:Frame>, <twig:Turbo:Stream:Append>, <twig:Turbo:Stream:Replace>, turbo:before-fetch-request. Also trigger when the user asks \"how to update part of the page without reload\", \"how to make navigation feel like SPA\", \"how to lazy-load a section\", \"how to do inline editing\", \"how to push real-time updates from server\", \"how to use Mercure with Turbo\". Do NOT trigger for client-side JS behavior (use stimulus), server-rendered reactive components (use live-component), or reusable static UI (use twig-component).",
@@ -7508,17 +7497,6 @@
       "version": "1.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "ckelsoe/prompt-architect/skills/prompt-architect",
-      "name": "prompt-architect",
-      "description": "Analyzes and improves prompts using 27 research-backed frameworks across 7 intent categories. Use when a user wants to improve, rewrite, structure, or engineer a prompt — including requests like \"help me write a better prompt\", \"improve this prompt\", \"what framework should I use\", \"make this prompt more effective\", or any prompt engineering task. Recommends the right framework based on intent (create, transform, reason, critique, recover, clarify, agentic), asks targeted questions, and delivers a structured, high-quality result.",
-      "categories": ["Business", "Research", "AI & ML"],
-      "author": "ckelsoe",
-      "repo": "ckelsoe/prompt-architect",
-      "path": "skills/prompt-architect",
-      "commitHash": "6e12013eb782",
-      "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
       "id": "iamzifei/wechat-article-publisher-skill/skills/wechat-article-publisher",
