@@ -238,15 +238,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "axiaoge2/Apple-Hig-Designer": {
-      "url": "https://github.com/axiaoge2/Apple-Hig-Designer",
+    "madebyaris/advance-minimax-m2-cursor-rules": {
+      "url": "https://github.com/madebyaris/advance-minimax-m2-cursor-rules",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "madebyaris/advance-minimax-m2-cursor-rules": {
-      "url": "https://github.com/madebyaris/advance-minimax-m2-cursor-rules",
+    "axiaoge2/Apple-Hig-Designer": {
+      "url": "https://github.com/axiaoge2/Apple-Hig-Designer",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -532,6 +532,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/prove",
+      "name": "prove",
+      "description": "Formal theorem proving with research, testing, and verification phases",
+      "categories": ["Development", "Research"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/prove",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/debug",
       "name": "debug",
       "description": "Debug issues by investigating logs, database state, and git history",
@@ -565,6 +576,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/explore",
+      "name": "explore",
+      "description": "Meta-skill for internal codebase exploration at varying depths (quick/deep/architecture)",
+      "categories": ["Development"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/explore",
+      "commitHash": "0854d473fbe4",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/security",
       "name": "security",
       "description": "Security audit workflow - vulnerability scan → verification",
@@ -573,17 +595,6 @@
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/security",
       "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/nia-docs",
-      "name": "nia-docs",
-      "description": "Search library documentation and code examples via Nia",
-      "categories": ["Development", "Writing"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/nia-docs",
-      "commitHash": "e13603363d21",
       "files": ["SKILL.md"]
     },
     {
@@ -620,6 +631,28 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/pint-compute",
+      "name": "pint-compute",
+      "description": "Unit-aware computation with Pint - convert units, dimensional analysis, unit arithmetic",
+      "categories": ["Other"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/pint-compute",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/agentica-sdk",
+      "name": "agentica-sdk",
+      "description": "Build Python agents with Agentica SDK - @agentic decorator, spawn(), persistence, MCP integration",
+      "categories": ["Development", "Integration", "AI & ML"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/agentica-sdk",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/tldr-overview",
       "name": "tldr-overview",
       "description": "Get a token-efficient overview of any project using the TLDR stack",
@@ -639,17 +672,6 @@
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/loogle-search",
       "commitHash": "21b569baa759",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/no-task-output",
-      "name": "no-task-output",
-      "description": "Never Use TaskOutput",
-      "categories": ["Other"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/no-task-output",
-      "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
     {
@@ -793,6 +815,17 @@
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/tldr-router",
       "commitHash": "21b569baa759",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/slash-commands",
+      "name": "slash-commands",
+      "description": "Create and use Claude Code slash commands - quick prompts, bash execution, file references",
+      "categories": ["AI & ML"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/slash-commands",
+      "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
     {
@@ -1225,17 +1258,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/review",
-      "name": "review",
-      "description": "Comprehensive code review workflow - parallel specialized reviews → synthesis",
-      "categories": ["Development"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/review",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/commit",
       "name": "commit",
       "description": "Create git commits with user approval and no Claude attribution",
@@ -1287,6 +1309,17 @@
       "author": "parcadei",
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/agentica-server",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/archive/search-tools",
+      "name": "search-tools",
+      "description": "Search Tool Hierarchy",
+      "categories": ["Other"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/archive/search-tools",
       "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
@@ -1436,6 +1469,28 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/math-help",
+      "name": "math-help",
+      "description": "Guide to the math cognitive stack - what tools exist and when to use each",
+      "categories": ["Other"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/math-help",
+      "commitHash": "f5a3b151b5ea",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/agentica-spawn",
+      "name": "agentica-spawn",
+      "description": "Spawn Agentica multi-agent patterns",
+      "categories": ["AI & ML"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/agentica-spawn",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/resume_handoff",
       "name": "resume-handoff",
       "description": "Resume work from handoff document with context analysis and validation",
@@ -1520,28 +1575,6 @@
       "author": "parcadei",
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/math/graph-number-theory/graph-algorithms",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/qlty-check",
-      "name": "qlty-check",
-      "description": "Code quality checks, formatting, and metrics via qlty CLI",
-      "categories": ["Development"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/qlty-check",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/debug-hooks",
-      "name": "debug-hooks",
-      "description": "Systematic hook debugging workflow. Use when hooks aren't firing, producing wrong output, or behaving unexpectedly.",
-      "categories": ["Development"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/debug-hooks",
       "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
@@ -1631,17 +1664,6 @@
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/math/category-theory/categories-functors",
       "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/search-router",
-      "name": "search-router",
-      "description": "Choose the right search tool for each query type",
-      "categories": ["Other"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/search-router",
-      "commitHash": "dd1e637eeb63",
       "files": ["SKILL.md"]
     },
     {
@@ -7510,17 +7532,6 @@
       "files": ["SKILL.md", "scripts"]
     },
     {
-      "id": "axiaoge2/Apple-Hig-Designer",
-      "name": "apple-hig-designer",
-      "description": "Design Apple-style iOS/macOS interfaces following Human Interface Guidelines. Creates HIG-compliant components with SF Symbols, San Francisco typography, and proper accessibility. Supports optional modern effects. Use when designing Apple-style UI, iOS/macOS interfaces, HIG-compliant components, or implementing design system specifications.",
-      "categories": ["Design"],
-      "author": "axiaoge2",
-      "repo": "axiaoge2/Apple-Hig-Designer",
-      "path": "",
-      "commitHash": "ff17b91ff290",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "madebyaris/advance-minimax-m2-cursor-rules/.cursor/skills/deep-research",
       "name": "deep-research",
       "description": "Conducts multi-step deep research on any topic using iterative search, reflection, and synthesis. Use when the user asks to research, investigate, survey, compare, analyze, deep-dive, or explore a topic in depth. Covers web research, codebase analysis, documentation review, and mixed-source investigation.",
@@ -7563,6 +7574,17 @@
       "path": ".cursor/skills/anti-slop-design",
       "commitHash": "f85c6a874b06",
       "files": ["SKILL.md", "reference.md"]
+    },
+    {
+      "id": "axiaoge2/Apple-Hig-Designer",
+      "name": "apple-hig-designer",
+      "description": "Design Apple-style iOS/macOS interfaces following Human Interface Guidelines. Creates HIG-compliant components with SF Symbols, San Francisco typography, and proper accessibility. Supports optional modern effects. Use when designing Apple-style UI, iOS/macOS interfaces, HIG-compliant components, or implementing design system specifications.",
+      "categories": ["Design"],
+      "author": "axiaoge2",
+      "repo": "axiaoge2/Apple-Hig-Designer",
+      "path": "",
+      "commitHash": "ff17b91ff290",
+      "files": ["SKILL.md"]
     },
     {
       "id": "felixrieseberg/claude-coach/skill",
