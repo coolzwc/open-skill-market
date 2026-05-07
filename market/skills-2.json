@@ -84,16 +84,16 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "alirezarezvani/claude-code-skill-factory": {
-      "url": "https://github.com/alirezarezvani/claude-code-skill-factory",
-      "branch": "dev",
+    "a5c-ai/babysitter": {
+      "url": "https://github.com/a5c-ai/babysitter",
+      "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "a5c-ai/babysitter": {
-      "url": "https://github.com/a5c-ai/babysitter",
-      "branch": "main",
+    "alirezarezvani/claude-code-skill-factory": {
+      "url": "https://github.com/alirezarezvani/claude-code-skill-factory",
+      "branch": "dev",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
@@ -203,16 +203,16 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "adeze/raindrop-mcp": {
-      "url": "https://github.com/adeze/raindrop-mcp",
-      "branch": "master",
+    "bitwize-music-studio/claude-ai-music-skills": {
+      "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
+      "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "bitwize-music-studio/claude-ai-music-skills": {
-      "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
-      "branch": "main",
+    "adeze/raindrop-mcp": {
+      "url": "https://github.com/adeze/raindrop-mcp",
+      "branch": "master",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
@@ -406,6 +406,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "cjpatten/canadian-finance-planner-skill": {
+      "url": "https://github.com/cjpatten/canadian-finance-planner-skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "brettdavies/crawl4ai-skill": {
       "url": "https://github.com/brettdavies/crawl4ai-skill",
       "branch": "main",
@@ -422,13 +429,6 @@
     },
     "ForteScarlet/codex-kkp": {
       "url": "https://github.com/ForteScarlet/codex-kkp",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "cjpatten/canadian-finance-planner-skill": {
-      "url": "https://github.com/cjpatten/canadian-finance-planner-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -3624,305 +3624,6 @@
       "files": ["LICENSE.txt", "SKILL.md", "examples", "rules", "templates"]
     },
     {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/tdd-guide",
-      "name": "tdd-guide",
-      "description": "Comprehensive Test Driven Development guide for engineering subagents with multi-framework support, coverage analysis, and intelligent test generation",
-      "categories": ["Development", "AI & ML"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/tdd-guide",
-      "commitHash": "c3420bb0d704",
-      "files": [
-        "HOW_TO_USE.md",
-        "README.md",
-        "SKILL.md",
-        "coverage_analyzer.py",
-        "expected_output.json",
-        "fixture_generator.py",
-        "format_detector.py",
-        "framework_adapter.py",
-        "metrics_calculator.py",
-        "output_formatter.py",
-        "sample_coverage_report.lcov",
-        "sample_input_python.json",
-        "sample_input_typescript.json",
-        "tdd_workflow.py",
-        "test_generator.py"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/hook-factory",
-      "name": "hook-factory",
-      "description": "Generate production-ready Claude Code hooks with interactive Q&A, automated installation, and enhanced validation. Supports 10 templates across 7 event types for comprehensive workflow automation.",
-      "categories": ["Productivity"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/hook-factory",
-      "commitHash": "928705681ab7",
-      "version": "2.0.0",
-      "tags": [
-        "hooks",
-        "automation",
-        "code-generation",
-        "workflow",
-        "productivity",
-        "interactive",
-        "installer"
-      ],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "README.md",
-        "SKILL.md",
-        "examples",
-        "generator.py",
-        "hook_factory.py",
-        "install-hook.sh",
-        "installer.py",
-        "templates.json",
-        "validator.py"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/agent-factory",
-      "name": "agent-factory",
-      "description": "Claude Code agent generation system that creates custom agents and sub-agents with enhanced YAML frontmatter, tool access patterns, and MCP integration support following proven production patterns",
-      "categories": ["Development", "Integration", "AI & ML"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/agent-factory",
-      "commitHash": "60efb74283ee",
-      "files": [
-        "HOW_TO_USE.md",
-        "SKILL.md",
-        "agent_generator.py",
-        "expected_output.json",
-        "generated-agents",
-        "sample_input.json"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/prompt-factory",
-      "name": "prompt-factory",
-      "description": "World-class prompt powerhouse that generates production-ready mega-prompts for any role, industry, and task through intelligent 7-question flow, 69 comprehensive presets across 15 professional domains (technical, business, creative, legal, finance, HR, design, customer, executive, manufacturing, R&D, regulatory, specialized-technical, research, creative-media), multiple output formats (XML/Claude/ChatGPT/Gemini), quality validation gates, and contextual best practices from OpenAI/Anthropic/Google. Supports both core and advanced modes with testing scenarios and prompt variations.",
-      "categories": ["Development", "Design", "Productivity", "Research", "AI & ML"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/prompt-factory",
-      "commitHash": "b00515b36b5a",
-      "files": [
-        "CHANGELOG.md",
-        "HOW_TO_USE.md",
-        "README.md",
-        "SKILL.md",
-        "examples",
-        "outputs",
-        "references",
-        "requirements.txt",
-        "scripts",
-        "templates"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/codex-cli-bridge",
-      "name": "codex-cli-bridge",
-      "description": "Bridge between Claude Code and OpenAI Codex CLI - generates AGENTS.md from CLAUDE.md, provides Codex CLI execution helpers, and enables seamless interoperability between both tools",
-      "categories": ["AI & ML"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/codex-cli-bridge",
-      "commitHash": "e4afc5d1db47",
-      "files": [
-        "CHANGELOG.md",
-        "HOW_TO_USE.md",
-        "INSTALL.md",
-        "README.md",
-        "SKILL.md",
-        "agents_md_generator.py",
-        "bridge.py",
-        "claude_parser.py",
-        "codex_executor.py",
-        "expected_output.json",
-        "package.sh",
-        "project_analyzer.py",
-        "safety_mechanism.py",
-        "sample_input.json",
-        "skill_documenter.py"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/scrum-master-agent",
-      "name": "scrum-master-agent",
-      "description": "Comprehensive Scrum Master assistant for sprint planning, backlog grooming, retrospectives, capacity planning, and daily standups with intelligent context-aware reporting",
-      "categories": ["Business", "AI & ML"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/scrum-master-agent",
-      "commitHash": "c3420bb0d704",
-      "files": [
-        "HOW_TO_USE.md",
-        "README.md",
-        "SKILL.md",
-        "calculate_metrics.py",
-        "config.example.yaml",
-        "detect_context.py",
-        "expected_output.json",
-        "format_output.py",
-        "notify_channels.py",
-        "parse_input.py",
-        "prioritize_backlog.py",
-        "sample_input_csv.csv",
-        "sample_input_jira.json",
-        "sample_input_linear.json",
-        "tool_adapters.py"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/claude-md-enhancer",
-      "name": "claude-md-enhancer",
-      "description": "Analyzes, generates, and enhances CLAUDE.md files for any project type using best practices, modular architecture support, and tech stack customization. Use when setting up new projects, improving existing CLAUDE.md files, or establishing AI-assisted development standards.",
-      "categories": ["Development", "Productivity", "AI & ML"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/claude-md-enhancer",
-      "commitHash": "61135a053f00",
-      "files": [
-        "HOW_TO_USE.md",
-        "README.md",
-        "SKILL.md",
-        "analyzer.py",
-        "examples",
-        "expected_output.json",
-        "generator.py",
-        "sample_input.json",
-        "template_selector.py",
-        "validator.py",
-        "workflow.py"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/tech-stack-evaluator",
-      "name": "tech-stack-evaluator",
-      "description": "Comprehensive technology stack evaluation and comparison tool with TCO analysis, security assessment, and intelligent recommendations for engineering teams",
-      "categories": ["Other"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/tech-stack-evaluator",
-      "commitHash": "c3420bb0d704",
-      "files": [
-        "HOW_TO_USE.md",
-        "README.md",
-        "SKILL.md",
-        "ecosystem_analyzer.py",
-        "expected_output_comparison.json",
-        "format_detector.py",
-        "migration_analyzer.py",
-        "report_generator.py",
-        "sample_input_structured.json",
-        "sample_input_tco.json",
-        "sample_input_text.json",
-        "security_assessor.py",
-        "stack_comparator.py",
-        "tco_calculator.py"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/ms365-tenant-manager",
-      "name": "ms365-tenant-manager",
-      "description": "Comprehensive Microsoft 365 tenant administration skill for setup, configuration, user management, security policies, and organizational structure optimization for Global Administrators",
-      "categories": ["Productivity"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/ms365-tenant-manager",
-      "commitHash": "519262f93ee6",
-      "files": [
-        "HOW_TO_USE.md",
-        "SKILL.md",
-        "__pycache__",
-        "expected_output.json",
-        "powershell_generator.py",
-        "sample_input.json",
-        "tenant_setup.py",
-        "user_management.py"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/social-media-analyzer",
-      "name": "social-media-analyzer",
-      "description": "Analyzes social media campaign performance across platforms with engagement metrics, ROI calculations, and audience insights for data-driven marketing decisions",
-      "categories": ["Data & Analytics", "Marketing"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/social-media-analyzer",
-      "commitHash": "bd0c0e931b1a",
-      "files": [
-        "HOW_TO_USE.md",
-        "SKILL.md",
-        "analyze_performance.py",
-        "calculate_metrics.py",
-        "expected_output.json",
-        "sample_input.json"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/slash-command-factory",
-      "name": "slash-command-factory",
-      "description": "Generate custom Claude Code slash commands through intelligent 5-7 question flow. Creates powerful commands for business research, content analysis, healthcare compliance, API integration, documentation automation, and workflow optimization. Outputs organized commands to generated-commands/ with validation and installation guidance.",
-      "categories": ["Development", "Writing", "Productivity", "Research"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/slash-command-factory",
-      "commitHash": "440f81434c25",
-      "files": [
-        "HOW_TO_USE.md",
-        "SKILL.md",
-        "command_generator.py",
-        "expected_output.json",
-        "presets.json",
-        "sample_input.json",
-        "validator.py"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/aws-solution-architect",
-      "name": "aws-solution-architect",
-      "description": "Expert AWS solution architecture for startups focusing on serverless, scalable, and cost-effective cloud infrastructure with modern DevOps practices and infrastructure-as-code",
-      "categories": ["Development", "DevOps"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/aws-solution-architect",
-      "commitHash": "519262f93ee6",
-      "files": [
-        "HOW_TO_USE.md",
-        "SKILL.md",
-        "__pycache__",
-        "architecture_designer.py",
-        "cost_optimizer.py",
-        "expected_output.json",
-        "sample_input.json",
-        "serverless_stack.py"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/content-trend-researcher",
-      "name": "content-trend-researcher",
-      "description": "Advanced content and topic research skill that analyzes trends across Google Analytics, Google Trends, Substack, Medium, Reddit, LinkedIn, X, blogs, podcasts, and YouTube to generate data-driven article outlines based on user intent analysis",
-      "categories": ["Writing", "Data & Analytics", "Research", "Media"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/content-trend-researcher",
-      "commitHash": "f6af47207fef",
-      "files": [
-        "HOW_TO_USE.md",
-        "SKILL.md",
-        "expected_output.json",
-        "intent_analyzer.py",
-        "outline_generator.py",
-        "platform_insights.py",
-        "sample_input.json",
-        "trend_analyzer.py"
-      ]
-    },
-    {
       "id": "a5c-ai/babysitter/.claude/skills/process-builder",
       "name": "process-builder",
       "description": "Scaffold new babysitter process definitions following SDK patterns, proper structure, and best practices. Guides the 3-phase workflow from research to implementation.",
@@ -4726,6 +4427,305 @@
       "path": "library/methodologies/claudekit/skills/spec-execution",
       "commitHash": "d97a2e46a84c",
       "files": ["README.md", "SKILL.md"]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/tdd-guide",
+      "name": "tdd-guide",
+      "description": "Comprehensive Test Driven Development guide for engineering subagents with multi-framework support, coverage analysis, and intelligent test generation",
+      "categories": ["Development", "AI & ML"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/tdd-guide",
+      "commitHash": "c3420bb0d704",
+      "files": [
+        "HOW_TO_USE.md",
+        "README.md",
+        "SKILL.md",
+        "coverage_analyzer.py",
+        "expected_output.json",
+        "fixture_generator.py",
+        "format_detector.py",
+        "framework_adapter.py",
+        "metrics_calculator.py",
+        "output_formatter.py",
+        "sample_coverage_report.lcov",
+        "sample_input_python.json",
+        "sample_input_typescript.json",
+        "tdd_workflow.py",
+        "test_generator.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/hook-factory",
+      "name": "hook-factory",
+      "description": "Generate production-ready Claude Code hooks with interactive Q&A, automated installation, and enhanced validation. Supports 10 templates across 7 event types for comprehensive workflow automation.",
+      "categories": ["Productivity"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/hook-factory",
+      "commitHash": "928705681ab7",
+      "version": "2.0.0",
+      "tags": [
+        "hooks",
+        "automation",
+        "code-generation",
+        "workflow",
+        "productivity",
+        "interactive",
+        "installer"
+      ],
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "examples",
+        "generator.py",
+        "hook_factory.py",
+        "install-hook.sh",
+        "installer.py",
+        "templates.json",
+        "validator.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/agent-factory",
+      "name": "agent-factory",
+      "description": "Claude Code agent generation system that creates custom agents and sub-agents with enhanced YAML frontmatter, tool access patterns, and MCP integration support following proven production patterns",
+      "categories": ["Development", "Integration", "AI & ML"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/agent-factory",
+      "commitHash": "60efb74283ee",
+      "files": [
+        "HOW_TO_USE.md",
+        "SKILL.md",
+        "agent_generator.py",
+        "expected_output.json",
+        "generated-agents",
+        "sample_input.json"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/prompt-factory",
+      "name": "prompt-factory",
+      "description": "World-class prompt powerhouse that generates production-ready mega-prompts for any role, industry, and task through intelligent 7-question flow, 69 comprehensive presets across 15 professional domains (technical, business, creative, legal, finance, HR, design, customer, executive, manufacturing, R&D, regulatory, specialized-technical, research, creative-media), multiple output formats (XML/Claude/ChatGPT/Gemini), quality validation gates, and contextual best practices from OpenAI/Anthropic/Google. Supports both core and advanced modes with testing scenarios and prompt variations.",
+      "categories": ["Development", "Design", "Productivity", "Research", "AI & ML"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/prompt-factory",
+      "commitHash": "b00515b36b5a",
+      "files": [
+        "CHANGELOG.md",
+        "HOW_TO_USE.md",
+        "README.md",
+        "SKILL.md",
+        "examples",
+        "outputs",
+        "references",
+        "requirements.txt",
+        "scripts",
+        "templates"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/codex-cli-bridge",
+      "name": "codex-cli-bridge",
+      "description": "Bridge between Claude Code and OpenAI Codex CLI - generates AGENTS.md from CLAUDE.md, provides Codex CLI execution helpers, and enables seamless interoperability between both tools",
+      "categories": ["AI & ML"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/codex-cli-bridge",
+      "commitHash": "e4afc5d1db47",
+      "files": [
+        "CHANGELOG.md",
+        "HOW_TO_USE.md",
+        "INSTALL.md",
+        "README.md",
+        "SKILL.md",
+        "agents_md_generator.py",
+        "bridge.py",
+        "claude_parser.py",
+        "codex_executor.py",
+        "expected_output.json",
+        "package.sh",
+        "project_analyzer.py",
+        "safety_mechanism.py",
+        "sample_input.json",
+        "skill_documenter.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/scrum-master-agent",
+      "name": "scrum-master-agent",
+      "description": "Comprehensive Scrum Master assistant for sprint planning, backlog grooming, retrospectives, capacity planning, and daily standups with intelligent context-aware reporting",
+      "categories": ["Business", "AI & ML"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/scrum-master-agent",
+      "commitHash": "c3420bb0d704",
+      "files": [
+        "HOW_TO_USE.md",
+        "README.md",
+        "SKILL.md",
+        "calculate_metrics.py",
+        "config.example.yaml",
+        "detect_context.py",
+        "expected_output.json",
+        "format_output.py",
+        "notify_channels.py",
+        "parse_input.py",
+        "prioritize_backlog.py",
+        "sample_input_csv.csv",
+        "sample_input_jira.json",
+        "sample_input_linear.json",
+        "tool_adapters.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/claude-md-enhancer",
+      "name": "claude-md-enhancer",
+      "description": "Analyzes, generates, and enhances CLAUDE.md files for any project type using best practices, modular architecture support, and tech stack customization. Use when setting up new projects, improving existing CLAUDE.md files, or establishing AI-assisted development standards.",
+      "categories": ["Development", "Productivity", "AI & ML"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/claude-md-enhancer",
+      "commitHash": "61135a053f00",
+      "files": [
+        "HOW_TO_USE.md",
+        "README.md",
+        "SKILL.md",
+        "analyzer.py",
+        "examples",
+        "expected_output.json",
+        "generator.py",
+        "sample_input.json",
+        "template_selector.py",
+        "validator.py",
+        "workflow.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/tech-stack-evaluator",
+      "name": "tech-stack-evaluator",
+      "description": "Comprehensive technology stack evaluation and comparison tool with TCO analysis, security assessment, and intelligent recommendations for engineering teams",
+      "categories": ["Other"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/tech-stack-evaluator",
+      "commitHash": "c3420bb0d704",
+      "files": [
+        "HOW_TO_USE.md",
+        "README.md",
+        "SKILL.md",
+        "ecosystem_analyzer.py",
+        "expected_output_comparison.json",
+        "format_detector.py",
+        "migration_analyzer.py",
+        "report_generator.py",
+        "sample_input_structured.json",
+        "sample_input_tco.json",
+        "sample_input_text.json",
+        "security_assessor.py",
+        "stack_comparator.py",
+        "tco_calculator.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/ms365-tenant-manager",
+      "name": "ms365-tenant-manager",
+      "description": "Comprehensive Microsoft 365 tenant administration skill for setup, configuration, user management, security policies, and organizational structure optimization for Global Administrators",
+      "categories": ["Productivity"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/ms365-tenant-manager",
+      "commitHash": "519262f93ee6",
+      "files": [
+        "HOW_TO_USE.md",
+        "SKILL.md",
+        "__pycache__",
+        "expected_output.json",
+        "powershell_generator.py",
+        "sample_input.json",
+        "tenant_setup.py",
+        "user_management.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/social-media-analyzer",
+      "name": "social-media-analyzer",
+      "description": "Analyzes social media campaign performance across platforms with engagement metrics, ROI calculations, and audience insights for data-driven marketing decisions",
+      "categories": ["Data & Analytics", "Marketing"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/social-media-analyzer",
+      "commitHash": "bd0c0e931b1a",
+      "files": [
+        "HOW_TO_USE.md",
+        "SKILL.md",
+        "analyze_performance.py",
+        "calculate_metrics.py",
+        "expected_output.json",
+        "sample_input.json"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/slash-command-factory",
+      "name": "slash-command-factory",
+      "description": "Generate custom Claude Code slash commands through intelligent 5-7 question flow. Creates powerful commands for business research, content analysis, healthcare compliance, API integration, documentation automation, and workflow optimization. Outputs organized commands to generated-commands/ with validation and installation guidance.",
+      "categories": ["Development", "Writing", "Productivity", "Research"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/slash-command-factory",
+      "commitHash": "440f81434c25",
+      "files": [
+        "HOW_TO_USE.md",
+        "SKILL.md",
+        "command_generator.py",
+        "expected_output.json",
+        "presets.json",
+        "sample_input.json",
+        "validator.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/aws-solution-architect",
+      "name": "aws-solution-architect",
+      "description": "Expert AWS solution architecture for startups focusing on serverless, scalable, and cost-effective cloud infrastructure with modern DevOps practices and infrastructure-as-code",
+      "categories": ["Development", "DevOps"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/aws-solution-architect",
+      "commitHash": "519262f93ee6",
+      "files": [
+        "HOW_TO_USE.md",
+        "SKILL.md",
+        "__pycache__",
+        "architecture_designer.py",
+        "cost_optimizer.py",
+        "expected_output.json",
+        "sample_input.json",
+        "serverless_stack.py"
+      ]
+    },
+    {
+      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/content-trend-researcher",
+      "name": "content-trend-researcher",
+      "description": "Advanced content and topic research skill that analyzes trends across Google Analytics, Google Trends, Substack, Medium, Reddit, LinkedIn, X, blogs, podcasts, and YouTube to generate data-driven article outlines based on user intent analysis",
+      "categories": ["Writing", "Data & Analytics", "Research", "Media"],
+      "author": "alirezarezvani",
+      "repo": "alirezarezvani/claude-code-skill-factory",
+      "path": "generated-skills/content-trend-researcher",
+      "commitHash": "f6af47207fef",
+      "files": [
+        "HOW_TO_USE.md",
+        "SKILL.md",
+        "expected_output.json",
+        "intent_analyzer.py",
+        "outline_generator.py",
+        "platform_insights.py",
+        "sample_input.json",
+        "trend_analyzer.py"
+      ]
     },
     {
       "id": "zanwei/design-dna",
@@ -6765,72 +6765,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "adeze/raindrop-mcp/.github/skills/publishing",
-      "name": "publishing",
-      "description": "Publishing and release workflow with semantic-release and GitHub Actions",
-      "categories": ["Other"],
-      "author": "adeze",
-      "repo": "adeze/raindrop-mcp",
-      "path": ".github/skills/publishing",
-      "commitHash": "89bd203e647f",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "adeze/raindrop-mcp/.github/skills/mcp-testing",
-      "name": "mcp-testing",
-      "description": "MCP Testing Strategies with Vitest, Inspector, and Integration Tests",
-      "categories": ["Development", "Integration"],
-      "author": "adeze",
-      "repo": "adeze/raindrop-mcp",
-      "path": ".github/skills/mcp-testing",
-      "commitHash": "5ef7fb7fd5b6",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "adeze/raindrop-mcp/.github/skills/mcp-inspector",
-      "name": "mcp-inspector",
-      "description": "MCP Protocol Inspection and Debugging with Inspector CLI",
-      "categories": ["Development"],
-      "author": "adeze",
-      "repo": "adeze/raindrop-mcp",
-      "path": ".github/skills/mcp-inspector",
-      "commitHash": "80da0beed273",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "adeze/raindrop-mcp/.github/skills/dxt-packaging",
-      "name": "dxt-packaging",
-      "description": "MCPB (Model Context Protocol Bundle) Packaging and Distribution",
-      "categories": ["Other"],
-      "author": "adeze",
-      "repo": "adeze/raindrop-mcp",
-      "path": ".github/skills/dxt-packaging",
-      "commitHash": "13bbe0a57229",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "adeze/raindrop-mcp/.github/skills/mcp-development",
-      "name": "mcp-development",
-      "description": "MCP Server Development Patterns and Best Practices",
-      "categories": ["Development"],
-      "author": "adeze",
-      "repo": "adeze/raindrop-mcp",
-      "path": ".github/skills/mcp-development",
-      "commitHash": "80da0beed273",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "adeze/raindrop-mcp/.github/skills/mcp-refactoring",
-      "name": "mcp-refactoring",
-      "description": "Refactoring MCP Tools for Better LLM Integration and Usability",
-      "categories": ["Integration"],
-      "author": "adeze",
-      "repo": "adeze/raindrop-mcp",
-      "path": ".github/skills/mcp-refactoring",
-      "commitHash": "5ef7fb7fd5b6",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "bitwize-music-studio/claude-ai-music-skills/skills/help",
       "name": "help",
       "description": "Shows available skills, common workflows, and quick reference for the plugin. Use when the user asks for help, what skills are available, or how to do something.",
@@ -7408,6 +7342,72 @@
       "path": "skills/test",
       "commitHash": "7306bcaebf37",
       "files": ["SKILL.md", "test-definitions.md"]
+    },
+    {
+      "id": "adeze/raindrop-mcp/.github/skills/publishing",
+      "name": "publishing",
+      "description": "Publishing and release workflow with semantic-release and GitHub Actions",
+      "categories": ["Other"],
+      "author": "adeze",
+      "repo": "adeze/raindrop-mcp",
+      "path": ".github/skills/publishing",
+      "commitHash": "89bd203e647f",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "adeze/raindrop-mcp/.github/skills/mcp-testing",
+      "name": "mcp-testing",
+      "description": "MCP Testing Strategies with Vitest, Inspector, and Integration Tests",
+      "categories": ["Development", "Integration"],
+      "author": "adeze",
+      "repo": "adeze/raindrop-mcp",
+      "path": ".github/skills/mcp-testing",
+      "commitHash": "5ef7fb7fd5b6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "adeze/raindrop-mcp/.github/skills/mcp-inspector",
+      "name": "mcp-inspector",
+      "description": "MCP Protocol Inspection and Debugging with Inspector CLI",
+      "categories": ["Development"],
+      "author": "adeze",
+      "repo": "adeze/raindrop-mcp",
+      "path": ".github/skills/mcp-inspector",
+      "commitHash": "80da0beed273",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "adeze/raindrop-mcp/.github/skills/dxt-packaging",
+      "name": "dxt-packaging",
+      "description": "MCPB (Model Context Protocol Bundle) Packaging and Distribution",
+      "categories": ["Other"],
+      "author": "adeze",
+      "repo": "adeze/raindrop-mcp",
+      "path": ".github/skills/dxt-packaging",
+      "commitHash": "13bbe0a57229",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "adeze/raindrop-mcp/.github/skills/mcp-development",
+      "name": "mcp-development",
+      "description": "MCP Server Development Patterns and Best Practices",
+      "categories": ["Development"],
+      "author": "adeze",
+      "repo": "adeze/raindrop-mcp",
+      "path": ".github/skills/mcp-development",
+      "commitHash": "80da0beed273",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "adeze/raindrop-mcp/.github/skills/mcp-refactoring",
+      "name": "mcp-refactoring",
+      "description": "Refactoring MCP Tools for Better LLM Integration and Usability",
+      "categories": ["Integration"],
+      "author": "adeze",
+      "repo": "adeze/raindrop-mcp",
+      "path": ".github/skills/mcp-refactoring",
+      "commitHash": "5ef7fb7fd5b6",
+      "files": ["SKILL.md"]
     },
     {
       "id": "PleasePrompto/google-ai-mode-skill",
@@ -8551,6 +8551,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "cjpatten/canadian-finance-planner-skill",
+      "name": "financial-planner",
+      "description": "Your Personal Finance Manager for Canadians — an AI financial planning partner that conducts thorough financial interviews, builds complete plans, generates interactive dashboards, and provides ongoing coaching. Use this skill whenever someone asks about budgeting, saving, investing, debt strategy, retirement planning, tax optimization, government benefits, insurance, RRSPs, TFSAs, RESPs, CPP, OAS, or any aspect of personal finance in a Canadian context. Also triggers for \"should I buy this?\", \"can I afford this?\", financial check-ins, plan updates, life change impacts on finances, or any request to build or review a financial plan. Even if the user just says \"help me with my money\" or \"I need a budget\", this skill should activate. Canada-focused (v1).\n",
+      "categories": ["Design", "Productivity", "Business", "Finance"],
+      "author": "cjpatten",
+      "repo": "cjpatten/canadian-finance-planner-skill",
+      "path": "",
+      "commitHash": "51037ce9006e",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "brettdavies/crawl4ai-skill/crawl4ai",
       "name": "crawl4ai",
       "description": "This skill should be used when users need to scrape websites, extract structured data, handle JavaScript-heavy pages, crawl multiple URLs, or build automated web data pipelines. Includes optimized extraction patterns with schema generation for efficient, LLM-free extraction.",
@@ -8666,17 +8677,6 @@
         "outputs.md",
         "sandbox-modes.md"
       ]
-    },
-    {
-      "id": "cjpatten/canadian-finance-planner-skill",
-      "name": "financial-planner",
-      "description": "Your Personal Finance Manager for Canadians — an AI financial planning partner that conducts thorough financial interviews, builds complete plans, generates interactive dashboards, and provides ongoing coaching. Use this skill whenever someone asks about budgeting, saving, investing, debt strategy, retirement planning, tax optimization, government benefits, insurance, RRSPs, TFSAs, RESPs, CPP, OAS, or any aspect of personal finance in a Canadian context. Also triggers for \"should I buy this?\", \"can I afford this?\", financial check-ins, plan updates, life change impacts on finances, or any request to build or review a financial plan. Even if the user just says \"help me with my money\" or \"I need a budget\", this skill should activate. Canada-focused (v1).\n",
-      "categories": ["Design", "Productivity", "Business", "Finance"],
-      "author": "cjpatten",
-      "repo": "cjpatten/canadian-finance-planner-skill",
-      "path": "",
-      "commitHash": "51037ce9006e",
-      "files": ["SKILL.md"]
     },
     {
       "id": "lee-fuhr/claude-session-index/skills/session-index",
