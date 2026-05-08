@@ -1,5 +1,61 @@
 {
   "repositories": {
+    "alexander-danilenko/cortex-ai-skills": {
+      "url": "https://github.com/alexander-danilenko/cortex-ai-skills",
+      "branch": "main",
+      "stars": 12,
+      "forks": 0,
+      "lastUpdated": "2026-05-06T10:37:30Z"
+    },
+    "jvogan/symphony-linear-starter": {
+      "url": "https://github.com/jvogan/symphony-linear-starter",
+      "branch": "main",
+      "stars": 12,
+      "forks": 0,
+      "lastUpdated": "2026-04-28T17:44:07Z"
+    },
+    "drivly/auto-dev-skill": {
+      "url": "https://github.com/drivly/auto-dev-skill",
+      "branch": "main",
+      "stars": 12,
+      "forks": 4,
+      "lastUpdated": "2026-04-08T15:46:52Z"
+    },
+    "VirtusLab-Open-Source/astro-strapi-starter": {
+      "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-starter",
+      "branch": "main",
+      "stars": 11,
+      "forks": 1,
+      "lastUpdated": "2026-05-08T11:27:43Z"
+    },
+    "powersync-ja/agent-skills": {
+      "url": "https://github.com/powersync-ja/agent-skills",
+      "branch": "main",
+      "stars": 11,
+      "forks": 0,
+      "lastUpdated": "2026-05-07T12:48:23Z"
+    },
+    "th3vib3coder/vibe-science": {
+      "url": "https://github.com/th3vib3coder/vibe-science",
+      "branch": "main",
+      "stars": 11,
+      "forks": 0,
+      "lastUpdated": "2026-04-30T19:28:08Z"
+    },
+    "cucupac/shellbrain": {
+      "url": "https://github.com/cucupac/shellbrain",
+      "branch": "main",
+      "stars": 10,
+      "forks": 0,
+      "lastUpdated": "2026-05-08T08:57:55Z"
+    },
+    "yshishenya/stitchflow": {
+      "url": "https://github.com/yshishenya/stitchflow",
+      "branch": "main",
+      "stars": 10,
+      "forks": 1,
+      "lastUpdated": "2026-05-07T15:34:16Z"
+    },
     "googleworkspace/cli": {
       "url": "https://github.com/googleworkspace/cli",
       "branch": "main",
@@ -534,6 +590,547 @@
     }
   },
   "skills": [
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/react",
+      "name": "react",
+      "description": "Apply these opinionated React conventions when writing React 18+ or 19 components: hooks patterns, Server Components, Suspense boundaries, state management, performance memoization, React 19 features (use, form actions).",
+      "categories": ["Development"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/react",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/hooks-patterns.md",
+        "references/migration-class-to-modern.md",
+        "references/performance.md",
+        "references/react-19-features.md",
+        "references/server-components.md",
+        "references/state-management.md",
+        "references/testing-react.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/python",
+      "name": "python",
+      "description": "Apply these opinionated Python 3.11+ conventions when writing Python in this codebase: type hints with mypy, async/await, pytest fixtures, dataclasses, Poetry packaging, production patterns.",
+      "categories": ["Development"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/python",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/async-patterns.md",
+        "references/packaging.md",
+        "references/standard-library.md",
+        "references/testing.md",
+        "references/type-system.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/nestjs",
+      "name": "nestjs",
+      "description": "Apply these opinionated NestJS conventions when writing NestJS backends: module structure, dependency injection, controllers and services, DTOs with class-validator, guards/interceptors/pipes, JWT authentication, TypeORM/Prisma.",
+      "categories": ["Development", "Security"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/nestjs",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/authentication.md",
+        "references/controllers-routing.md",
+        "references/dtos-validation.md",
+        "references/migration-from-express.md",
+        "references/services-di.md",
+        "references/testing-patterns.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/csharp",
+      "name": "csharp",
+      "description": "Apply these opinionated C# conventions when writing C#/.NET 8+ code: modern C# 12 (records, primary constructors, pattern matching), ASP.NET Core minimal and controller APIs, Blazor, Entity Framework Core, async patterns, CQRS with MediatR.",
+      "categories": ["Development"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/csharp",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/aspnet-core.md",
+        "references/blazor.md",
+        "references/entity-framework.md",
+        "references/modern-csharp.md",
+        "references/performance.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/nextjs",
+      "name": "nextjs",
+      "description": "Apply these opinionated Next.js 14+ recipes when building App Router apps: Server Components, Server Actions, data fetching/caching/revalidation, image/font/bundle optimization, Metadata API for SEO, Vercel deployment.",
+      "categories": ["Development", "DevOps", "Design"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/nextjs",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/app-router.md",
+        "references/data-fetching.md",
+        "references/deployment.md",
+        "references/server-actions.md",
+        "references/server-components.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/testing",
+      "name": "testing",
+      "description": "Apply these opinionated testing conventions when writing tests or test strategies: three modes (functional, performance, security), unit/integration/E2E patterns, coverage analysis, automation frameworks, defect tracking, accessibility and usability.",
+      "categories": ["Development", "Data & Analytics", "Business"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/testing",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/automation-frameworks.md",
+        "references/e2e-testing.md",
+        "references/integration-testing.md",
+        "references/nestjs-jest-common.md",
+        "references/nestjs-jest-contract-tests.md",
+        "references/nestjs-jest-unit-tests.md",
+        "references/performance-testing.md",
+        "references/qa-methodology.md",
+        "references/security-testing.md",
+        "references/tdd-iron-laws.md",
+        "references/test-reports.md",
+        "references/testing-anti-patterns.md",
+        "references/unit-testing.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/javascript",
+      "name": "javascript",
+      "description": "Apply these opinionated JavaScript conventions when writing JS or Node in this codebase: ES2023+ features, async and Promise patterns, ESM/CJS modules, Web Workers, browser APIs, performance optimization, Node.js patterns.",
+      "categories": ["Development"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/javascript",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/async-patterns.md",
+        "references/browser-apis.md",
+        "references/modern-syntax.md",
+        "references/modules.md",
+        "references/node-essentials.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/typescript",
+      "name": "typescript",
+      "description": "Apply these opinionated TypeScript conventions when writing TS in this codebase: branded types, advanced generics, conditional and utility types, type guards, discriminated unions, strict tsconfig, tRPC, monorepo setup.",
+      "categories": ["Development"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/typescript",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/advanced-types.md",
+        "references/configuration.md",
+        "references/patterns.md",
+        "references/type-guards.md",
+        "references/utility-types.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/spec-mining",
+      "name": "spec-mining",
+      "description": "Apply this opinionated workflow when reverse-engineering legacy or undocumented systems: scope, explore with Glob/Grep/Read, trace data flows, document in EARS format, flag uncertainties. For code archaeology, onboarding, and requirements extraction.",
+      "categories": ["Development", "Documents"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/spec-mining",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/analysis-checklist.md",
+        "references/analysis-process.md",
+        "references/ears-format.md",
+        "references/specification-template.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/dotnet-core",
+      "name": "dotnet-core",
+      "description": "Apply these opinionated .NET 8 architecture recipes for backend services: clean architecture layering, CQRS with MediatR, minimal APIs, Entity Framework Core, JWT authentication, AOT compilation, cloud-native patterns.",
+      "categories": ["Development", "Security", "Business"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/dotnet-core",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/authentication.md",
+        "references/clean-architecture.md",
+        "references/cloud-native.md",
+        "references/entity-framework.md",
+        "references/minimal-apis.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/humanize-text",
+      "name": "humanize-text",
+      "description": "Remove signs of AI-generated writing from text. Use after drafting to make copy sound more natural and human-written. Based on Wikipedia's \"Signs of AI writing\" guide.",
+      "categories": ["Writing"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/humanize-text",
+      "commitHash": "3ae45e691e56",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/documentation",
+      "name": "documentation",
+      "description": "Apply these opinionated documentation conventions when adding docstrings, OpenAPI specs, or doc sites: Microsoft style (contract over implementation), language-specific docstrings (JSDoc, Google, NumPy), OpenAPI/Swagger, doc portals, tutorials, user guides.",
+      "categories": ["Design", "Writing"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/documentation",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/api-docs-fastapi-django.md",
+        "references/api-docs-nestjs-express.md",
+        "references/coverage-reports.md",
+        "references/documentation-systems.md",
+        "references/interactive-api-docs.md",
+        "references/python-docstrings.md",
+        "references/typescript-jsdoc.md",
+        "references/user-guides-tutorials.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/jira-report-comment",
+      "name": "jira-report-comment",
+      "description": "This skill should be used when the user asks to \"jira report\", \"post update to jira\", \"summarize commits for jira\", \"report to jira\", \"update the ticket\", \"comment on the ticket\", \"generate implementation report\", \"write a jira comment\", \"summarize my changes\", or wants to notify PM/QA about completed work on a Jira ticket. Generates a business-friendly implementation report from git commits and saves it as a local markdown report.",
+      "categories": ["Development", "Writing"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/jira-report-comment",
+      "commitHash": "3ae45e691e56",
+      "files": ["SKILL.md", "references/formatting-rules.md", "references/report-template.md"]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/legacy-modernization",
+      "name": "legacy-modernization",
+      "description": "Apply this opinionated workflow when modernizing legacy systems: strangler fig pattern, branch by abstraction, characterization tests, incremental monolith decomposition, framework upgrades, feature-flagged migration with rollback.",
+      "categories": ["Development"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/legacy-modernization",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/legacy-testing.md",
+        "references/migration-strategies.md",
+        "references/refactoring-patterns.md",
+        "references/strangler-fig-pattern.md",
+        "references/system-assessment.md"
+      ]
+    },
+    {
+      "id": "jvogan/symphony-linear-starter/skills/symphony-linear-orchestrator",
+      "name": "symphony-linear-orchestrator",
+      "description": "Bootstrap self-improving Symphony + Linear orchestration for a software repository. Use when Codex needs to inspect a repo, review or generate repo-local guidance, shape Linear issues, render a Symphony workflow, launch a high-leverage first execution wave, or run an orchestrator-led review, recovery, and learnings loop that makes future runs better.",
+      "categories": ["Development", "Productivity", "Research"],
+      "author": "jvogan",
+      "repo": "jvogan/symphony-linear-starter",
+      "path": "skills/symphony-linear-orchestrator",
+      "commitHash": "f7e932ec8dbc",
+      "files": ["SKILL.md", "agents", "assets", "references", "scripts"]
+    },
+    {
+      "id": "drivly/auto-dev-skill",
+      "name": "auto-dev",
+      "description": "Use when working with Auto.dev APIs, vehicle data, VIN decoding, car listings, vehicle photos, specs, recalls, payments, interest rates, taxes, OEM build data, plate-to-VIN, CLI commands, MCP tools, or SDK methods for any automotive data task",
+      "categories": ["Development", "Finance"],
+      "author": "drivly",
+      "repo": "drivly/auto-dev-skill",
+      "path": "",
+      "commitHash": "3245b4070aa1",
+      "version": "1.1.3",
+      "tags": [
+        "automotive",
+        "vehicle-data",
+        "vin",
+        "listings",
+        "api",
+        "auto-dev",
+        "car-search",
+        "recalls",
+        "mcp",
+        "sdk",
+        "cli"
+      ],
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "VirtusLab-Open-Source/astro-strapi-starter/.ai/astro-strapi-blocks",
+      "name": "astro-strapi-blocks",
+      "description": "@sensinum/astro-strapi-blocks: Strapi 5 Blocks field, StrapiBlocks, theme extend/overwrite, custom block overrides. Full instructions are maintained upstream; open the links below.",
+      "categories": ["Development"],
+      "author": "VirtusLab-Open-Source",
+      "repo": "VirtusLab-Open-Source/astro-strapi-starter",
+      "path": ".ai/astro-strapi-blocks",
+      "commitHash": "ea769be765df",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "VirtusLab-Open-Source/astro-strapi-starter/.ai/astro-strapi-loader",
+      "name": "astro-strapi-loader",
+      "description": "Use @sensinum/astro-strapi-loader with Astro Content Layer: Strapi REST query objects, generateCollections, populate, qs, locales, dynamic zones. Full instructions are maintained upstream; open the links below. Strapi 5, Astro 6+.",
+      "categories": ["Development"],
+      "author": "VirtusLab-Open-Source",
+      "repo": "VirtusLab-Open-Source/astro-strapi-starter",
+      "path": ".ai/astro-strapi-loader",
+      "commitHash": "ea769be765df",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "VirtusLab-Open-Source/astro-strapi-starter/.ai/astro-strapi-starter",
+      "name": "astro-strapi-starter",
+      "description": "Develop and extend the Astro + Strapi starter: content.config with @sensinum/astro-strapi-loader, Strapi 5 data in Astro pages, StrapiBlocks, BlockRenderer, Tailwind 4, shadcn. Covers onboarding (copy upstream skills), slug/CMS routes, Astro i18n, package upgrades, optional Vitest. Types in src/types/strapi/ with a barrel index.",
+      "categories": ["Development", "Design", "Writing", "Media"],
+      "author": "VirtusLab-Open-Source",
+      "repo": "VirtusLab-Open-Source/astro-strapi-starter",
+      "path": ".ai/astro-strapi-starter",
+      "commitHash": "ea769be765df",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "powersync-ja/agent-skills/skills/powersync",
+      "name": "powersync",
+      "description": "Guided onboarding and best practices for building applications with PowerSync — Cloud and self-hosted setup, sync configuration, client SDK usage, backend integration (Supabase, custom Postgres, MongoDB, MySQL, MSSQL), and debugging. Use this skill whenever the user mentions PowerSync, offline-first sync, local-first architecture, sync rules, sync streams, uploadData, fetchCredentials, real-time data replication, or wants to add offline-capable sync to a mobile or web app — even if they don't explicitly name PowerSync.",
+      "categories": ["Development", "Productivity", "Data & Analytics", "Integration"],
+      "author": "powersync-ja",
+      "repo": "powersync-ja/agent-skills",
+      "path": "skills/powersync",
+      "commitHash": "f39575592c0b",
+      "files": ["AGENTS.md", "CLAUDE.md", "SKILL.md", "references"]
+    },
+    {
+      "id": "th3vib3coder/vibe-science/.claude/skills/delivery-discipline",
+      "name": "delivery-discipline",
+      "description": "Use when preparing or writing any committable deliverable (phase closeout, status report, skill file, wave spec, README section, summary document, CHANGELOG entry, or any markdown file declaring completion or pass/fail status). Applies before the write happens, not after. Without this discipline, agents ship 60% deliverables and declare closure prematurely.",
+      "categories": ["Development", "Writing", "Documents", "AI & ML"],
+      "author": "th3vib3coder",
+      "repo": "th3vib3coder/vibe-science",
+      "path": ".claude/skills/delivery-discipline",
+      "commitHash": "e6e9667e3712",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "th3vib3coder/vibe-science",
+      "name": "vibe",
+      "description": "Scientific research engine with agentic tree search. Infinite loops until discovery, rigorous tracking, adversarial review, serendipity preserved.",
+      "categories": ["Research", "AI & ML"],
+      "author": "th3vib3coder",
+      "repo": "th3vib3coder/vibe-science",
+      "path": "",
+      "commitHash": "e6e9667e3712",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "th3vib3coder/vibe-science/archive/vibe-science-legacy-pre-v5.0/vibe",
+      "name": "vibe",
+      "description": "Scientific research in serendipity mode. Infinite loops until discovery, rigorous tracking, adversarial review.",
+      "categories": ["Research"],
+      "author": "th3vib3coder",
+      "repo": "th3vib3coder/vibe-science",
+      "path": "archive/vibe-science-legacy-pre-v5.0/vibe",
+      "commitHash": "e6e9667e3712",
+      "files": [
+        "PROJECT-MEMORY.md",
+        "README.md",
+        "SKILL.md",
+        "commands/init.md",
+        "commands/loop.md",
+        "commands/loop_v2.md",
+        "commands/reviewer2.md",
+        "commands/reviewer2_v2.md",
+        "commands/search.md",
+        "config/apis-espacenet.md",
+        "config/apis-jcr.md",
+        "config/apis-reaxys.md",
+        "config/apis-torrossa.md",
+        "config/apis-wos.md",
+        "config/apis.md",
+        "config/architecture.md",
+        "config/compaction.md",
+        "config/confidence_scoring.yaml",
+        "config/decision-framework.md",
+        "config/deviation-rules.md"
+      ]
+    },
+    {
+      "id": "th3vib3coder/vibe-science/archive/vibe-science-v5.0-codex",
+      "name": "vibe-science",
+      "description": "Scientific research engine with adversarial review, tree search, and serendipity detection. Use when: exploring hypotheses, validating findings against literature, running computational experiments with quality gates, or hunting for unexpected discoveries. Do NOT use for simple Q&A, code editing, or non-research tasks.",
+      "categories": ["Writing", "Research"],
+      "author": "th3vib3coder",
+      "repo": "th3vib3coder/vibe-science",
+      "path": "archive/vibe-science-v5.0-codex",
+      "commitHash": "e6e9667e3712",
+      "files": [
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "SKILL.md",
+        "agents/openai.yaml",
+        "assets/fault-taxonomy.yaml",
+        "assets/judge-rubric.yaml",
+        "assets/logo.svg",
+        "assets/metric-parser.md",
+        "assets/node-schema.md",
+        "assets/obs-normalizer.md",
+        "assets/schemas/brainstorm-quality.schema.json",
+        "assets/schemas/claim-promotion.schema.json",
+        "assets/schemas/review-completeness.schema.json",
+        "assets/schemas/rq-conclusion.schema.json",
+        "assets/schemas/serendipity-seed.schema.json",
+        "assets/schemas/source-validity.schema.json",
+        "assets/schemas/stage4-exit.schema.json",
+        "assets/schemas/stage5-exit.schema.json",
+        "assets/schemas/vigilance-check.schema.json"
+      ]
+    },
+    {
+      "id": "th3vib3coder/vibe-science/archive/vibe-science-v6.0-claude-code",
+      "name": "vibe-science",
+      "description": "Scientific research engine v6.0 NEXUS — adversarial review (Reviewer 2), 32 quality gates, tree search, serendipity tracking, confounder harness, cross-session learning. Use for ANY scientific analysis, hypothesis testing, data validation, literature review, or task where correctness > speed.",
+      "categories": ["Development", "Data & Analytics", "Research"],
+      "author": "th3vib3coder",
+      "repo": "th3vib3coder/vibe-science",
+      "path": "archive/vibe-science-v6.0-claude-code",
+      "commitHash": "e6e9667e3712",
+      "files": [
+        "AGENTS.md",
+        "SKILL.md",
+        "agents/claude-code.yaml",
+        "assets/domain-config-example.yaml",
+        "assets/fault-taxonomy.yaml",
+        "assets/judge-rubric.yaml",
+        "assets/metric-parser.md",
+        "assets/node-schema.md",
+        "assets/schemas/brainstorm-quality.schema.json",
+        "assets/schemas/claim-promotion.schema.json",
+        "assets/schemas/data-quality-gate.schema.json",
+        "assets/schemas/finding-validation.schema.json",
+        "assets/schemas/review-completeness.schema.json",
+        "assets/schemas/rq-conclusion.schema.json",
+        "assets/schemas/serendipity-seed.schema.json",
+        "assets/schemas/source-validity.schema.json",
+        "assets/schemas/spine-entry.schema.json",
+        "assets/schemas/stage4-exit.schema.json",
+        "assets/schemas/stage5-exit.schema.json",
+        "assets/schemas/vigilance-check.schema.json"
+      ]
+    },
+    {
+      "id": "th3vib3coder/vibe-science/skills/vibe",
+      "name": "vibe-science",
+      "description": "Scientific research engine for hypothesis testing, literature gap analysis, experimental validation, and data-driven discovery. Enforces adversarial review (Reviewer 2), 32 quality gates, tree search over hypotheses, confounder harness for quantitative claims, and serendipity detection. TRIGGER when: user asks to analyze scientific data, test hypotheses, validate findings, search for research gaps, design experiments, or investigate results. DO NOT TRIGGER when: pure code review, documentation writing, devops tasks, general conversation, or non-scientific data transformation.\n",
+      "categories": ["Development", "Writing", "Data & Analytics", "Documents", "Research"],
+      "author": "th3vib3coder",
+      "repo": "th3vib3coder/vibe-science",
+      "path": "skills/vibe",
+      "commitHash": "e6e9667e3712",
+      "files": [
+        "AGENTS.md",
+        "SKILL.md",
+        "agents/claude-code.yaml",
+        "assets/domain-config-example.yaml",
+        "assets/fault-taxonomy.yaml",
+        "assets/judge-rubric.yaml",
+        "assets/metric-parser.md",
+        "assets/node-schema.md",
+        "assets/schemas/brainstorm-quality.schema.json",
+        "assets/schemas/claim-promotion.schema.json",
+        "assets/schemas/data-quality-gate.schema.json",
+        "assets/schemas/delivery-attestation.schema.json",
+        "assets/schemas/finding-validation.schema.json",
+        "assets/schemas/review-completeness.schema.json",
+        "assets/schemas/rq-conclusion.schema.json",
+        "assets/schemas/serendipity-seed.schema.json",
+        "assets/schemas/source-validity.schema.json",
+        "assets/schemas/spine-entry.schema.json",
+        "assets/schemas/stage4-exit.schema.json",
+        "assets/schemas/stage5-exit.schema.json"
+      ]
+    },
+    {
+      "id": "cucupac/shellbrain/onboarding_assets/codex/shellbrain-session-start",
+      "name": "shellbrain-session-start",
+      "description": "Use when Codex should get up to speed in any repo with the installed shellbrain CLI, or when work shifts to a new surface, repeated failure suggests prior memory may help, a hypothesis changes, an evidence-bearing write is about to happen, or closeout should record durable learnings.",
+      "categories": ["Marketing"],
+      "author": "cucupac",
+      "repo": "cucupac/shellbrain",
+      "path": "onboarding_assets/codex/shellbrain-session-start",
+      "commitHash": "5dd3abc139bd",
+      "files": ["SKILL.md", "agents", "assets", "references"]
+    },
+    {
+      "id": "cucupac/shellbrain/onboarding_assets/codex/shellbrain-usage-review",
+      "name": "shellbrain-usage-review",
+      "description": "Use when a reviewer agent needs one fast cross-repo picture of how agents are using Shellbrain, where the product is working, where it is failing, and which expected capabilities are being skipped.",
+      "categories": ["AI & ML"],
+      "author": "cucupac",
+      "repo": "cucupac/shellbrain",
+      "path": "onboarding_assets/codex/shellbrain-usage-review",
+      "commitHash": "5dd3abc139bd",
+      "files": ["SKILL.md", "agents", "assets"]
+    },
+    {
+      "id": "cucupac/shellbrain/onboarding_assets/cursor/skills/shellbrain-session-start",
+      "name": "shellbrain-session-start",
+      "description": "Use when Cursor should get up to speed in any repo with the installed shellbrain CLI, or when work shifts to a new surface, repeated failure suggests prior memory may help, a hypothesis changes, an evidence-bearing write is about to happen, or closeout should record durable learnings.",
+      "categories": ["Marketing"],
+      "author": "cucupac",
+      "repo": "cucupac/shellbrain",
+      "path": "onboarding_assets/cursor/skills/shellbrain-session-start",
+      "commitHash": "5dd3abc139bd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "yshishenya/stitchflow/skills/stitchflow",
+      "name": "stitchflow",
+      "description": "Turn briefs, mockups, and product context into Stitch UI screens, design variants, Tailwind-friendly HTML, and screenshots. Use when the user wants to explore a new screen, edit an existing screen, compare visual directions, or save local design artifacts from natural-language input.",
+      "categories": ["Design", "Writing", "AI & ML"],
+      "author": "yshishenya",
+      "repo": "yshishenya/stitchflow",
+      "path": "skills/stitchflow",
+      "commitHash": "125ac8395406",
+      "version": "1.3.1",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents", "references", "workflows"]
+    },
+    {
+      "id": "yshishenya/stitchflow/skills/stitch-design-local",
+      "name": "stitch-design-local",
+      "description": "Legacy compatibility alias for StitchFlow. Use when a user explicitly references stitch-design-local, or when older prompts and setups still call that skill name.",
+      "categories": ["Other"],
+      "author": "yshishenya",
+      "repo": "yshishenya/stitchflow",
+      "path": "skills/stitch-design-local",
+      "commitHash": "125ac8395406",
+      "version": "1.3.1",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
     {
       "id": "googleworkspace/cli/skills/gws-docs",
       "name": "gws-docs",
@@ -5796,17 +6393,6 @@
       "path": "productivity-skills-plugin/skills/code-auditor",
       "commitHash": "71429f72e5c2",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "mhattingpete/claude-skills-marketplace/engineering-workflow-plugin/skills/git-pushing",
-      "name": "git-pushing",
-      "description": "Stage, commit, and push git changes with conventional commit messages. Use when user wants to commit and push changes, mentions pushing to remote, or asks to save and push their work. Also activates when user says \"push changes\", \"commit and push\", \"push this\", \"push to github\", or similar git workflow requests.",
-      "categories": ["Development"],
-      "author": "mhattingpete",
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "path": "engineering-workflow-plugin/skills/git-pushing",
-      "commitHash": "71429f72e5c2",
-      "files": ["SKILL.md", "scripts"]
     },
     {
       "id": "mhattingpete/claude-skills-marketplace/visual-documentation-plugin/skills/timeline-creator",
