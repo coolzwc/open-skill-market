@@ -455,15 +455,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "ITlearning/study-ios": {
-      "url": "https://github.com/ITlearning/study-ios",
+    "Yaroslavle/seo-content-writer-claude-skill": {
+      "url": "https://github.com/Yaroslavle/seo-content-writer-claude-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "Yaroslavle/seo-content-writer-claude-skill": {
-      "url": "https://github.com/Yaroslavle/seo-content-writer-claude-skill",
+    "ITlearning/study-ios": {
+      "url": "https://github.com/ITlearning/study-ios",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -8734,6 +8734,17 @@
       "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
+      "id": "Yaroslavle/seo-content-writer-claude-skill",
+      "name": "seo-content-writer",
+      "description": "Full AI-assisted workflow for long-form SEO content (2,000+ words). Covers JTBD strategy, E-E-A-T quality standards, and 5 production phases: research, outline, draft, editing, and SEO/publishing. Built for B2B marketing agency context. Use when: user wants to write or optimize an SEO article, mentions \"SEO content\", \"blog post\", \"GTM article\", \"long-form content\", or asks to create content with keyword strategy.\n",
+      "categories": ["Design", "Writing", "Documents", "Marketing", "Research"],
+      "author": "Yaroslavle",
+      "repo": "Yaroslavle/seo-content-writer-claude-skill",
+      "path": "",
+      "commitHash": "c07ae5f09db9",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "ITlearning/study-ios/.agents/skills/study-summary",
       "name": "study-summary",
       "description": "Saves learning notes from the current conversation. Classic mode makes concise notes, Mastery mode keeps detailed training artifacts.",
@@ -8764,17 +8775,6 @@
       "repo": "ITlearning/study-ios",
       "path": ".agents/skills/swift-study",
       "commitHash": "85d4c19a8bc0",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Yaroslavle/seo-content-writer-claude-skill",
-      "name": "seo-content-writer",
-      "description": "Full AI-assisted workflow for long-form SEO content (2,000+ words). Covers JTBD strategy, E-E-A-T quality standards, and 5 production phases: research, outline, draft, editing, and SEO/publishing. Built for B2B marketing agency context. Use when: user wants to write or optimize an SEO article, mentions \"SEO content\", \"blog post\", \"GTM article\", \"long-form content\", or asks to create content with keyword strategy.\n",
-      "categories": ["Design", "Writing", "Documents", "Marketing", "Research"],
-      "author": "Yaroslavle",
-      "repo": "Yaroslavle/seo-content-writer-claude-skill",
-      "path": "",
-      "commitHash": "c07ae5f09db9",
       "files": ["SKILL.md"]
     },
     {
