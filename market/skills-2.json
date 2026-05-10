@@ -49,13 +49,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "lackeyjb/playwright-skill": {
-      "url": "https://github.com/lackeyjb/playwright-skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "punitarani/fli": {
       "url": "https://github.com/punitarani/fli",
       "branch": "main",
@@ -838,22 +831,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "galyarderlabs/galyarder-framework/skills/obsidian-markdown",
-      "name": "obsidian-markdown",
-      "description": "Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes.",
-      "categories": ["Documents"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/obsidian-markdown",
-      "commitHash": "687a3620e84c",
-      "files": [
-        "SKILL.md",
-        "references/CALLOUTS.md",
-        "references/EMBEDS.md",
-        "references/PROPERTIES.md"
-      ]
-    },
-    {
       "id": "galyarderlabs/galyarder-framework/integrations/antigravity/legal-advisor",
       "name": "legal-advisor",
       "description": "Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements.",
@@ -1211,17 +1188,6 @@
         "references/example-company.md",
         "references/from-repo-guide.md"
       ]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/programmatic-seo",
-      "name": "programmatic-seo",
-      "description": "Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data.",
-      "categories": ["Marketing"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/programmatic-seo",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md", "references/playbooks.md"]
     },
     {
       "id": "galyarderlabs/galyarder-framework/integrations/windsurf/skills/board-update",
@@ -3648,17 +3614,6 @@
       "path": ".claude/skills/test",
       "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "lackeyjb/playwright-skill/skills/playwright-skill",
-      "name": "playwright-skill",
-      "description": "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing.",
-      "categories": ["Development", "Design", "Productivity"],
-      "author": "lackeyjb",
-      "repo": "lackeyjb/playwright-skill",
-      "path": "skills/playwright-skill",
-      "commitHash": "bb7e920d3760",
-      "files": ["API_REFERENCE.md", "SKILL.md", "lib", "package.json", "run.js"]
     },
     {
       "id": "punitarani/fli/skills/fli",
