@@ -1,26 +1,5 @@
 {
   "repositories": {
-    "galyarderlabs/galyarder-framework": {
-      "url": "https://github.com/galyarderlabs/galyarder-framework",
-      "branch": "main",
-      "stars": 10,
-      "forks": 0,
-      "lastUpdated": "2026-05-09T20:51:19Z"
-    },
-    "cucupac/shellbrain": {
-      "url": "https://github.com/cucupac/shellbrain",
-      "branch": "main",
-      "stars": 10,
-      "forks": 0,
-      "lastUpdated": "2026-05-09T02:30:56Z"
-    },
-    "yshishenya/stitchflow": {
-      "url": "https://github.com/yshishenya/stitchflow",
-      "branch": "main",
-      "stars": 10,
-      "forks": 1,
-      "lastUpdated": "2026-05-07T15:34:16Z"
-    },
     "googleworkspace/cli": {
       "url": "https://github.com/googleworkspace/cli",
       "branch": "main",
@@ -35,22 +14,8 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "htmlstreamofficial/preline": {
-      "url": "https://github.com/htmlstreamofficial/preline",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "parcadei/Continuous-Claude-v3": {
       "url": "https://github.com/parcadei/Continuous-Claude-v3",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "lackeyjb/playwright-skill": {
-      "url": "https://github.com/lackeyjb/playwright-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -441,15 +406,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "Shelpuk-AI-Technology-Consulting/agent-skill-tdd": {
-      "url": "https://github.com/Shelpuk-AI-Technology-Consulting/agent-skill-tdd",
+    "cjpatten/canadian-finance-planner-skill": {
+      "url": "https://github.com/cjpatten/canadian-finance-planner-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "cjpatten/canadian-finance-planner-skill": {
-      "url": "https://github.com/cjpatten/canadian-finance-planner-skill",
+    "Shelpuk-AI-Technology-Consulting/agent-skill-tdd": {
+      "url": "https://github.com/Shelpuk-AI-Technology-Consulting/agent-skill-tdd",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -511,13 +476,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "iamzifei/linkedin-article-publisher-skill": {
-      "url": "https://github.com/iamzifei/linkedin-article-publisher-skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "cmertdalli/polisci-review": {
       "url": "https://github.com/cmertdalli/polisci-review",
       "branch": "main",
@@ -548,920 +506,6 @@
     }
   },
   "skills": [
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/growth",
-      "name": "growth",
-      "description": "Consolidated Galyarder Framework Growth intelligence bundle.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/growth",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/release",
-      "name": "release",
-      "description": "Coordinate a full Galyarder Framework release across engineering verification, npm, GitHub, smoke testing, and announcement follow-up. Use when leadership asks to ship a release, not merely to discuss versioning.\n",
-      "categories": ["Development", "Business"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/release",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/prd-to-plan",
-      "name": "prd-to-plan",
-      "description": "Turn a PRD into a multi-phase implementation plan using tracer-bullet vertical slices, saved as a local Markdown file in ./plans/. Use when user wants to break down a PRD, create an implementation plan, plan phases from a PRD, or mentions \"tracer bullets\".",
-      "categories": ["Productivity", "Documents"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/prd-to-plan",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/legal-finance",
-      "name": "legal-finance",
-      "description": "Consolidated Galyarder Framework Legal-finance intelligence bundle.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/legal-finance",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/design-md-wise",
-      "name": "design-md-wise",
-      "description": "Design system reference for design md wise.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/design-md-wise",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/ui-ux-designer",
-      "name": "ui-ux-designer",
-      "description": "Use when user experience, visual flow, interaction quality, or interface coherence needs a dedicated design-oriented pass.",
-      "categories": ["Design"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/ui-ux-designer",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/windsurf/skills/schema-markup",
-      "name": "schema-markup",
-      "description": "Design, validate, and optimize schema.org structured data for eligibility, correctness, and measurable SEO impact.",
-      "categories": ["Data & Analytics"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/windsurf/skills/schema-markup",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md", "references/schema-examples.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/windsurf/skills/pricing-strategy",
-      "name": "pricing-strategy",
-      "description": "Use when pricing, packaging, plan structure, or monetization tradeoffs need to be evaluated against positioning, conversion, and margin.",
-      "categories": ["Business"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/windsurf/skills/pricing-strategy",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/accelerator-application",
-      "name": "accelerator-application",
-      "description": "Accelerator Application Specialist. Use to shortlist startup programs, draft applications, prepare founder videos, and rehearse accelerator interviews with a disciplined founder narrative.",
-      "categories": ["Writing", "Business"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/accelerator-application",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/perseus",
-      "name": "perseus",
-      "description": "Use when legacy prompts or older framework flows reference `perseus` and you need the modern runtime to resolve that capability cleanly.",
-      "categories": ["Business"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/perseus",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/design-md-posthog",
-      "name": "design-md-posthog",
-      "description": "Design system reference for design md posthog.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/design-md-posthog",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/windsurf/skills/galyarder-cmo",
-      "name": "galyarder-cmo",
-      "description": "Chief Marketing Officer. Professional behavioral engineering, autonomous acquisition swarms, and exponential distribution mechanics. Apex instance of the Humans 3.0 protocol.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/windsurf/skills/galyarder-cmo",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/recovering-from-ransomware-attack",
-      "name": "recovering-from-ransomware-attack",
-      "description": "Executes structured recovery from a ransomware incident following NIST and CISA frameworks, including environment isolation, forensic evidence preservation, clean infrastructure rebuild, prioritized system restoration from verified backups, credential reset, and validation against re-infection. Covers Active Directory recovery, database restoration, and application stack rebuild in dependency order. Activates for requests involving ransomware recovery, post-encryption restoration, or disaster recovery from ransomware.",
-      "categories": ["Development", "DevOps", "Security", "Data & Analytics", "Business"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/recovering-from-ransomware-attack",
-      "commitHash": "687a3620e84c",
-      "files": [
-        "SKILL.md",
-        "references/api-reference.md",
-        "references/standards.md",
-        "references/workflows.md",
-        "scripts/agent.py",
-        "scripts/process.py"
-      ]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/recovering-deleted-files-with-photorec",
-      "name": "recovering-deleted-files-with-photorec",
-      "description": "Recover deleted files from disk images and storage media using PhotoRec's file signature-based carving engine regardless of file system damage.",
-      "categories": ["AI & ML"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/recovering-deleted-files-with-photorec",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md", "references/api-reference.md", "scripts/agent.py"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/email-marketing-bible",
-      "name": "email-marketing-bible",
-      "description": "Comprehensive, data-backed email marketing knowledge base. 908 sources, 4,798 insights. Use when reviewing email setups, building automation flows, diagnosing deliverability, writing email copy, selecting platforms, or pulling Standards. Covers strategy, flows, deliverability, copywriting, segmentation, compliance, cold email, and 19 industry playbooks.\n",
-      "categories": ["Writing", "Productivity", "Business", "Research"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/email-marketing-bible",
-      "commitHash": "687a3620e84c",
-      "files": ["LICENSE", "README.md", "SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/page-cro",
-      "name": "page-cro",
-      "description": "Analyze and optimize individual pages for conversion performance.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/page-cro",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md", "references/experiments.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/design-md-uber",
-      "name": "design-md-uber",
-      "description": "Design system reference for design md uber.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/design-md-uber",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/design-md-ollama",
-      "name": "design-md-ollama",
-      "description": "Design system reference for design md ollama.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/design-md-ollama",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/design-md-airbnb",
-      "name": "design-md-airbnb",
-      "description": "Design system reference for design md airbnb.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/design-md-airbnb",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/design-md-stripe",
-      "name": "design-md-stripe",
-      "description": "Design system reference for design md stripe.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/design-md-stripe",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/design-md-kraken",
-      "name": "design-md-kraken",
-      "description": "Design system reference for design md kraken.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/design-md-kraken",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/content-strategy",
-      "name": "content-strategy",
-      "description": "Plan a content strategy, topic clusters, editorial roadmap, and content mix for traffic, authority, and lead generation. Use when deciding what to publish, what topics to prioritize, or how to structure a content program.",
-      "categories": ["Writing", "Business"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/content-strategy",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md", "evals/evals.json", "references/headless-cms.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/fundraising-email",
-      "name": "fundraising-email",
-      "description": "Investor Email Specialist. Use to write fundraising outreach, warm intro blurbs, follow-ups, investor updates, and close-the-loop emails with founder-grade brevity and specificity.",
-      "categories": ["Business"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/fundraising-email",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/design-md-spotify",
-      "name": "design-md-spotify",
-      "description": "Design system reference for design md spotify.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/design-md-spotify",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/investor-research",
-      "name": "investor-research",
-      "description": "Investor Targeting Specialist. Use to identify, qualify, and tier investors for a round based on stage, sector, geography, check size, and portfolio fit.",
-      "categories": ["Research"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/investor-research",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/obsidian-markdown",
-      "name": "obsidian-markdown",
-      "description": "Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. Use when working with .md files in Obsidian, or when the user mentions wikilinks, callouts, frontmatter, tags, embeds, or Obsidian notes.",
-      "categories": ["Documents"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/obsidian-markdown",
-      "commitHash": "687a3620e84c",
-      "files": [
-        "SKILL.md",
-        "references/CALLOUTS.md",
-        "references/EMBEDS.md",
-        "references/PROPERTIES.md"
-      ]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/legal-advisor",
-      "name": "legal-advisor",
-      "description": "Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements.",
-      "categories": ["Writing"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/legal-advisor",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/analytics-architect",
-      "name": "analytics-architect",
-      "description": "Use when the work needs analytics architecture, event planning, KPI design, attribution boundaries, or instrumentation review across product and growth.",
-      "categories": ["Business"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/analytics-architect",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/open-source-license",
-      "name": "open-source-license",
-      "description": "Open Source License guidance, selection, compliance review, and drafting. Use this skill when users ask about choosing open source licenses, checking license compatibility, reviewing projects for OSS compliance, generating LICENSE/NOTICE files, or understanding specific license terms. Triggers include questions about MIT, Apache, GPL, BSD, LGPL, AGPL, copyleft, permissive licenses, license compatibility, SPDX identifiers, or any OSS licensing topic.",
-      "categories": ["Writing", "Research"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/open-source-license",
-      "commitHash": "687a3620e84c",
-      "files": [
-        "SKILL.md",
-        "references/compliance/checklist.md",
-        "references/compliance/common-issues.md",
-        "references/compliance/compatibility.md",
-        "references/licenses/copyleft.md",
-        "references/licenses/permissive.md",
-        "references/licenses/specialty.md",
-        "references/selection/comparison-matrix.md",
-        "references/selection/decision-tree.md",
-        "references/templates/license-files.md",
-        "references/templates/notice-files.md",
-        "references/templates/source-headers.md"
-      ]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/conversion-engineer",
-      "name": "conversion-engineer",
-      "description": "Use when legacy prompts or older framework flows reference `conversion-engineer` and you need the modern runtime to resolve that capability cleanly.",
-      "categories": ["Development", "Business"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/conversion-engineer",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/design-md-superhuman",
-      "name": "design-md-superhuman",
-      "description": "Design system reference for design md superhuman.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/design-md-superhuman",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/iso-42001-ai-governance",
-      "name": "iso-42001-ai-governance",
-      "description": "AI governance audit using ISO 42001 standard. Ensures AI systems are developed and deployed responsibly with risk management, ethics, security, transparency, and compliance best practices.",
-      "categories": ["Security", "Business"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/iso-42001-ai-governance",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/monitoring-darkweb-sources",
-      "name": "monitoring-darkweb-sources",
-      "description": "Monitors dark web forums, marketplaces, paste sites, and ransomware leak sites for mentions of organizational assets, leaked credentials, threatened attacks, and threat actor communications to provide early warning intelligence. Use when establishing dark web monitoring coverage, investigating specific data breach claims, or enriching incident investigations with dark web context. Activates for requests involving dark web OSINT, leak site monitoring, credential exposure, Recorded Future dark web, or Tor hidden service intelligence.\n",
-      "categories": ["DevOps", "Security", "Research", "AI & ML"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/monitoring-darkweb-sources",
-      "commitHash": "687a3620e84c",
-      "version": "1.8.19",
-      "tags": [
-        "dark-web",
-        "OSINT",
-        "credential-monitoring",
-        "ransomware-leaks",
-        "Recorded-Future",
-        "SpiderFoot",
-        "CTI"
-      ],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["LICENSE", "SKILL.md", "references/api-reference.md", "scripts/agent.py"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/windsurf/skills/graph",
-      "name": "graph",
-      "description": "Rebuild the Galyarder Knowledge Graph and Obsidian World Map. Essential for structural RAG and multi-platform synchronization.",
-      "categories": ["AI & ML"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/windsurf/skills/graph",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/seo-audit",
-      "name": "seo-audit",
-      "description": "Diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance.",
-      "categories": ["Marketing"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/seo-audit",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md", "references/aeo-geo-patterns.md", "references/ai-writing-detection.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/pr-report",
-      "name": "pr-report",
-      "description": "Review a pull request or contribution deeply, explain it tutorial-style for a maintainer, and produce a polished report artifact such as HTML or Markdown. Use when asked to analyze a PR, explain a contributor's design decisions, compare it with similar systems, or prepare a merge recommendation.",
-      "categories": ["Design", "Documents", "Research", "AI & ML"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/pr-report",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md", "references/style-guide.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/build-fix",
-      "name": "build-fix",
-      "description": "Systematically investigate and fix build errors, TypeScript errors, or test failures with minimal diffs.",
-      "categories": ["Development"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/build-fix",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/dispatching-parallel-agents",
-      "name": "dispatching-parallel-agents",
-      "description": "Use when legacy prompts or older framework flows reference `dispatching-parallel-agents` and you need the modern runtime to resolve that capability cleanly.",
-      "categories": ["Business", "AI & ML"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/dispatching-parallel-agents",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/opencode/skills/linear",
-      "name": "linear",
-      "description": "Project Management specialist. Converts PRDs into actionable Linear Epics and Issues.",
-      "categories": ["Productivity", "Business"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/opencode/skills/linear",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/windsurf/skills/review",
-      "name": "review",
-      "description": "Review Playwright tests for quality. Use when user says \"review tests\", \"check test quality\", \"audit tests\", \"improve tests\", \"test code review\", or \"playwright best practices check\".",
-      "categories": ["Development"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/windsurf/skills/review",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/windsurf/skills/design-md-hashicorp",
-      "name": "design-md-hashicorp",
-      "description": "Design system reference for design md hashicorp.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/windsurf/skills/design-md-hashicorp",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/copywriting",
-      "name": "copywriting",
-      "description": "Write rigorous, conversion-focused marketing copy for landing pages and emails. Enforces brief confirmation and strict no-fabrication rules.",
-      "categories": ["Writing", "Marketing"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/copywriting",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md", "references/copy-frameworks.md", "references/natural-transitions.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/doc-updater",
-      "name": "doc-updater",
-      "description": "Use when documentation, READMEs, release notes, or operating docs have drifted from the current shipped behavior and need synchronized updates.",
-      "categories": ["Writing"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/doc-updater",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/copy-editing",
-      "name": "copy-editing",
-      "description": "Use when existing copy needs tightening for clarity, accuracy, tone consistency, or executive readability without changing the underlying message.",
-      "categories": ["Writing"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/copy-editing",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/opencode/skills/testrail",
-      "name": "testrail",
-      "description": "Sync tests with TestRail. Use when user mentions \"testrail\", \"test management\", \"test cases\", \"test run\", \"sync test cases\", \"push results to testrail\", or \"import from testrail\".",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/opencode/skills/testrail",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/support-lead",
-      "name": "support-lead",
-      "description": "Use when support operations, launch fallout, repeated customer issues, or triage ownership need a structured response layer.",
-      "categories": ["Business"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/support-lead",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/galyarder-cto",
-      "name": "galyarder-cto",
-      "description": "Chief Technology Officer. Technical guardian. AGI-Adjacent Architectural determinism, self-healing formal verification, and planetary computational leverage. Apex instance of the Humans 3.0 protocol.",
-      "categories": ["AI & ML"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/galyarder-cto",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/using-galyarder-agent-framework",
-      "name": "using-galyarder-agent-framework",
-      "description": "Use when legacy prompts or old framework sessions refer to the pre-rebrand Galyarder Agent Framework operating guide and need the modern equivalent behavior.",
-      "categories": ["Design", "AI & ML"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/using-galyarder-agent-framework",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/skills/mapping-mitre-attack-techniques",
-      "name": "mapping-mitre-attack-techniques",
-      "description": "Maps observed adversary behaviors, security alerts, and detection rules to MITRE ATT&CK techniques and sub-techniques to quantify detection coverage and guide control prioritization. Use when building an ATT&CK-based coverage heatmap, tagging SIEM alerts with technique IDs, aligning security controls to adversary playbooks, or reporting threat exposure to executives. Activates for requests involving ATT&CK Navigator, Sigma rules, MITRE D3FEND, or coverage gap analysis.\n",
-      "categories": ["Security", "Data & Analytics"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "skills/mapping-mitre-attack-techniques",
-      "commitHash": "687a3620e84c",
-      "version": "1.8.19",
-      "tags": [
-        "MITRE-ATT&CK",
-        "ATT&CK-Navigator",
-        "Sigma",
-        "D3FEND",
-        "TTP",
-        "detection-engineering",
-        "NIST-CSF"
-      ],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["LICENSE", "SKILL.md", "references/api-reference.md", "scripts/agent.py"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/prd-to-issues",
-      "name": "prd-to-issues",
-      "description": "Break a PRD into independently-grabbable GitHub issues using tracer-bullet vertical slices. Use when user wants to convert a PRD to issues, create implementation tickets, or break down a PRD into work items.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/prd-to-issues",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/cloud-security",
-      "name": "cloud-security",
-      "description": "Use when assessing cloud infrastructure for security misconfigurations, IAM privilege escalation paths, S3 public exposure, open security group rules, or IaC security gaps. Covers AWS, Azure, and GCP posture assessment with MITRE ATT&CK mapping.",
-      "categories": ["DevOps"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/cloud-security",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md", "references/cspm-checks.md", "scripts/cloud_posture_check.py"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/design-md-clay",
-      "name": "design-md-clay",
-      "description": "Design system reference for design md clay.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/design-md-clay",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/founder-context",
-      "name": "founder-context",
-      "description": "Founder Operating Context. Use to create or update the canonical founder/startup context document so every fundraising, growth, product, and recruiting workflow runs on concrete company facts instead of generic assumptions.",
-      "categories": ["Design", "Business"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/founder-context",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/design-md-figma",
-      "name": "design-md-figma",
-      "description": "Design system reference for design md figma.",
-      "categories": ["Design"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/design-md-figma",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/company-creator",
-      "name": "company-creator",
-      "description": "Create agent company packages conforming to the Agent Companies specification (agentcompanies/v1). Use when a user wants to create a new agent company from scratch, build a company around an existing git repo or skills collection, or scaffold a team/department of agents. Triggers on: \"create a company\", \"make me a company\", \"build a company from this repo\", \"set up an agent company\", \"create a team of agents\", \"hire some agents\", or when given a repo URL and asked to turn it into a company. Do NOT use for importing an existing company package (use the CLI import command instead) or for modifying a company that is already running in Galyarder Framework.",
-      "categories": ["Development", "Design", "Documents", "AI & ML"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/company-creator",
-      "commitHash": "687a3620e84c",
-      "files": [
-        "SKILL.md",
-        "references/companies-spec.md",
-        "references/example-company.md",
-        "references/from-repo-guide.md"
-      ]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/programmatic-seo",
-      "name": "programmatic-seo",
-      "description": "Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data.",
-      "categories": ["Marketing"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/programmatic-seo",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md", "references/playbooks.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/windsurf/skills/board-update",
-      "name": "board-update",
-      "description": "Investor And Board Communication Specialist. Use to draft monthly investor updates, quarterly board decks, and high-signal stakeholder communications that surface wins, misses, risks, and asks clearly.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/windsurf/skills/board-update",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/design-md-framer",
-      "name": "design-md-framer",
-      "description": "Design system reference for design md framer.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/design-md-framer",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/design-md-sentry",
-      "name": "design-md-sentry",
-      "description": "Design system reference for design md sentry.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/design-md-sentry",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/design-md-notion",
-      "name": "design-md-notion",
-      "description": "Design system reference for design md notion.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/design-md-notion",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/design-md-zapier",
-      "name": "design-md-zapier",
-      "description": "Design system reference for design md zapier.",
-      "categories": ["Development"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/design-md-zapier",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/design-md-resend",
-      "name": "design-md-resend",
-      "description": "Design system reference for design md resend.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/design-md-resend",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/opencode/skills/lead-scoring",
-      "name": "lead-scoring",
-      "description": "Lead Qualification And Scoring Specialist. Use to define ICP filters, score inbound and outbound leads, and improve pipeline focus for a founder-led sales motion.",
-      "categories": ["Marketing"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/opencode/skills/lead-scoring",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/revenue-architect",
-      "name": "revenue-architect",
-      "description": "Monetization and pricing strategy specialist. Use this agent to design revenue models, set price points based on value perception, and create viral referral loops. It focuses on the \"Cuan\" (Revenue) aspect of the 1-Man Army pipeline.",
-      "categories": ["Business", "Finance", "AI & ML"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/revenue-architect",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/design-md-minimax",
-      "name": "design-md-minimax",
-      "description": "Design system reference for design md minimax.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/design-md-minimax",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/runbook-generator",
-      "name": "runbook-generator",
-      "description": "Use when an operational workflow, release procedure, incident pattern, or support process needs to be captured as a repeatable runbook.",
-      "categories": ["Development", "Productivity"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/runbook-generator",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/opencode/skills/design-md-cal",
-      "name": "design-md-cal",
-      "description": "Design system reference for design md cal.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/opencode/skills/design-md-cal",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/windsurf/skills/cybersecurity",
-      "name": "cybersecurity",
-      "description": "Perform an advanced offensive security audit and attack simulation on the current features.",
-      "categories": ["Security"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/windsurf/skills/cybersecurity",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/security-reviewer",
-      "name": "security-reviewer",
-      "description": "Use when legacy prompts or older framework flows reference `security-reviewer` and you need the modern runtime to resolve that capability cleanly.",
-      "categories": ["Business", "Research"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/security-reviewer",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/windsurf/skills/design-md-bmw",
-      "name": "design-md-bmw",
-      "description": "Design system reference for design md bmw.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/windsurf/skills/design-md-bmw",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/design-md-mongodb",
-      "name": "design-md-mongodb",
-      "description": "Design system reference for design md mongodb.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/design-md-mongodb",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/antigravity/design-md-lovable",
-      "name": "design-md-lovable",
-      "description": "Design system reference for design md lovable.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/antigravity/design-md-lovable",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "galyarderlabs/galyarder-framework/integrations/windsurf/skills/design-md-warp",
-      "name": "design-md-warp",
-      "description": "Design system reference for design md warp.",
-      "categories": ["Other"],
-      "author": "galyarderlabs",
-      "repo": "galyarderlabs/galyarder-framework",
-      "path": "integrations/windsurf/skills/design-md-warp",
-      "commitHash": "687a3620e84c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cucupac/shellbrain/onboarding_assets/codex/shellbrain-session-start",
-      "name": "shellbrain-session-start",
-      "description": "Use when Codex should get up to speed in any repo with the installed shellbrain CLI, or when work shifts to a new surface, repeated failure suggests prior memory may help, a hypothesis changes, an evidence-bearing write is about to happen, or closeout should record durable learnings.",
-      "categories": ["Marketing"],
-      "author": "cucupac",
-      "repo": "cucupac/shellbrain",
-      "path": "onboarding_assets/codex/shellbrain-session-start",
-      "commitHash": "0f8bc5f822a5",
-      "files": ["SKILL.md", "agents", "assets", "references"]
-    },
-    {
-      "id": "cucupac/shellbrain/onboarding_assets/codex/shellbrain-usage-review",
-      "name": "shellbrain-usage-review",
-      "description": "Use when a reviewer agent needs one fast cross-repo picture of how agents are using Shellbrain, where the product is working, where it is failing, and which expected capabilities are being skipped.",
-      "categories": ["AI & ML"],
-      "author": "cucupac",
-      "repo": "cucupac/shellbrain",
-      "path": "onboarding_assets/codex/shellbrain-usage-review",
-      "commitHash": "0f8bc5f822a5",
-      "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
-      "id": "cucupac/shellbrain/onboarding_assets/cursor/skills/shellbrain-session-start",
-      "name": "shellbrain-session-start",
-      "description": "Use when Cursor should get up to speed in any repo with the installed shellbrain CLI, or when work shifts to a new surface, repeated failure suggests prior memory may help, a hypothesis changes, an evidence-bearing write is about to happen, or closeout should record durable learnings.",
-      "categories": ["Marketing"],
-      "author": "cucupac",
-      "repo": "cucupac/shellbrain",
-      "path": "onboarding_assets/cursor/skills/shellbrain-session-start",
-      "commitHash": "0f8bc5f822a5",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "yshishenya/stitchflow/skills/stitchflow",
-      "name": "stitchflow",
-      "description": "Turn briefs, mockups, and product context into Stitch UI screens, design variants, Tailwind-friendly HTML, and screenshots. Use when the user wants to explore a new screen, edit an existing screen, compare visual directions, or save local design artifacts from natural-language input.",
-      "categories": ["Design", "Writing", "AI & ML"],
-      "author": "yshishenya",
-      "repo": "yshishenya/stitchflow",
-      "path": "skills/stitchflow",
-      "commitHash": "125ac8395406",
-      "version": "1.3.1",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents", "references", "workflows"]
-    },
-    {
-      "id": "yshishenya/stitchflow/skills/stitch-design-local",
-      "name": "stitch-design-local",
-      "description": "Legacy compatibility alias for StitchFlow. Use when a user explicitly references stitch-design-local, or when older prompts and setups still call that skill name.",
-      "categories": ["Other"],
-      "author": "yshishenya",
-      "repo": "yshishenya/stitchflow",
-      "path": "skills/stitch-design-local",
-      "commitHash": "125ac8395406",
-      "version": "1.3.1",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
     {
       "id": "googleworkspace/cli/skills/gws-docs",
       "name": "gws-docs",
@@ -2442,17 +1486,6 @@
       "files": ["SKILL.md", "references"]
     },
     {
-      "id": "htmlstreamofficial/preline/skills/theme-generator",
-      "name": "preline-theme-generator",
-      "description": "Generates beautiful, consistent Preline Theme CSS files. Agent interprets user request, runs build script, delivers complete CSS.",
-      "categories": ["Development", "Design", "Productivity"],
-      "author": "htmlstreamofficial",
-      "repo": "htmlstreamofficial/preline",
-      "path": "skills/theme-generator",
-      "commitHash": "a89933f4a57b",
-      "files": ["SKILL.md", "docs", "examples.md", "output_template.md", "qa.md", "scripts"]
-    },
-    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/tour",
       "name": "tour",
       "description": "Friendly onboarding when users ask about capabilities",
@@ -2937,6 +1970,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/math/math-model-selector",
+      "name": "math-model-selector",
+      "description": "Routes problems to appropriate mathematical frameworks using expert heuristics",
+      "categories": ["Other"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/math/math-model-selector",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/archive/search-hierarchy",
       "name": "search-hierarchy",
       "description": "Search Tool Hierarchy",
@@ -3087,17 +2131,6 @@
       "author": "parcadei",
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/math/linear-algebra/vector-spaces",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/math/optimization/gradient-methods",
-      "name": "gradient-methods",
-      "description": "Problem-solving strategies for gradient methods in optimization",
-      "categories": ["Other"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/math/optimization/gradient-methods",
       "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
@@ -3641,17 +2674,6 @@
       "path": ".claude/skills/test",
       "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "lackeyjb/playwright-skill/skills/playwright-skill",
-      "name": "playwright-skill",
-      "description": "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing.",
-      "categories": ["Development", "Design", "Productivity"],
-      "author": "lackeyjb",
-      "repo": "lackeyjb/playwright-skill",
-      "path": "skills/playwright-skill",
-      "commitHash": "bb7e920d3760",
-      "files": ["API_REFERENCE.md", "SKILL.md", "lib", "package.json", "run.js"]
     },
     {
       "id": "punitarani/fli/skills/fli",
@@ -6724,6 +5746,17 @@
       "path": "productivity-skills-plugin/skills/code-auditor",
       "commitHash": "71429f72e5c2",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "mhattingpete/claude-skills-marketplace/engineering-workflow-plugin/skills/git-pushing",
+      "name": "git-pushing",
+      "description": "Stage, commit, and push git changes with conventional commit messages. Use when user wants to commit and push changes, mentions pushing to remote, or asks to save and push their work. Also activates when user says \"push changes\", \"commit and push\", \"push this\", \"push to github\", or similar git workflow requests.",
+      "categories": ["Development"],
+      "author": "mhattingpete",
+      "repo": "mhattingpete/claude-skills-marketplace",
+      "path": "engineering-workflow-plugin/skills/git-pushing",
+      "commitHash": "71429f72e5c2",
+      "files": ["SKILL.md", "scripts"]
     },
     {
       "id": "mhattingpete/claude-skills-marketplace/visual-documentation-plugin/skills/timeline-creator",
@@ -10461,17 +9494,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "Shelpuk-AI-Technology-Consulting/agent-skill-tdd/skills/tdd",
-      "name": "tdd",
-      "description": "Use for every coding task. Enforce strict TDD workflow: activate Serena, investigate first, clarify+confirm requirements, write per-task REQUIREMENTS.md in .requirements/<datetime>_<feature_name>/, verify APIs via web search, then implement in tiny test-verified steps.",
-      "categories": ["Development", "Productivity", "Research"],
-      "author": "Shelpuk-AI-Technology-Consulting",
-      "repo": "Shelpuk-AI-Technology-Consulting/agent-skill-tdd",
-      "path": "skills/tdd",
-      "commitHash": "af17db9ed0d3",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "cjpatten/canadian-finance-planner-skill",
       "name": "financial-planner",
       "description": "Your Personal Finance Manager for Canadians — an AI financial planning partner that conducts thorough financial interviews, builds complete plans, generates interactive dashboards, and provides ongoing coaching. Use this skill whenever someone asks about budgeting, saving, investing, debt strategy, retirement planning, tax optimization, government benefits, insurance, RRSPs, TFSAs, RESPs, CPP, OAS, or any aspect of personal finance in a Canadian context. Also triggers for \"should I buy this?\", \"can I afford this?\", financial check-ins, plan updates, life change impacts on finances, or any request to build or review a financial plan. Even if the user just says \"help me with my money\" or \"I need a budget\", this skill should activate. Canada-focused (v1).\n",
@@ -10480,6 +9502,17 @@
       "repo": "cjpatten/canadian-finance-planner-skill",
       "path": "",
       "commitHash": "51037ce9006e",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Shelpuk-AI-Technology-Consulting/agent-skill-tdd/skills/tdd",
+      "name": "tdd",
+      "description": "Use for every coding task. Enforce strict TDD workflow: activate Serena, investigate first, clarify+confirm requirements, write per-task REQUIREMENTS.md in .requirements/<datetime>_<feature_name>/, verify APIs via web search, then implement in tiny test-verified steps.",
+      "categories": ["Development", "Productivity", "Research"],
+      "author": "Shelpuk-AI-Technology-Consulting",
+      "repo": "Shelpuk-AI-Technology-Consulting/agent-skill-tdd",
+      "path": "skills/tdd",
+      "commitHash": "af17db9ed0d3",
       "files": ["SKILL.md"]
     },
     {
@@ -10715,17 +9748,6 @@
       "path": ".agents/skills/swift-study",
       "commitHash": "85d4c19a8bc0",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "iamzifei/linkedin-article-publisher-skill/skills/linkedin-article-publisher",
-      "name": "linkedin-article-publisher",
-      "description": "Publish Markdown articles to LinkedIn Articles editor with proper formatting. Use when user wants to publish a Markdown file/URL to LinkedIn Articles, or mentions \"publish to LinkedIn\", \"post article to LinkedIn\", \"LinkedIn article\", or wants help with LinkedIn article publishing. Handles cover image upload and converts Markdown to rich text automatically.",
-      "categories": ["Design", "Writing", "Documents"],
-      "author": "iamzifei",
-      "repo": "iamzifei/linkedin-article-publisher-skill",
-      "path": "skills/linkedin-article-publisher",
-      "commitHash": "a0745b0d9842",
-      "files": ["SKILL.md", "scripts"]
     },
     {
       "id": "cmertdalli/polisci-review/templates/codex-skill",
