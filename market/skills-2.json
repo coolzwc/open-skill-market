@@ -3517,6 +3517,44 @@
       ]
     },
     {
+      "id": "wondelai/skills/hooked-ux",
+      "name": "hooked-ux",
+      "description": "Design habit-forming product loops using the Hook Model (Trigger, Action, Variable Reward, Investment). Use when the user mentions \"users arent coming back\", \"engagement loops\", \"habit formation\", \"push notifications\", \"variable rewards\", \"daily active users\", \"habit zone\", or \"user retention loops\". Also trigger when designing notification strategies, building streaks or progress systems, or analyzing why users stop using a product after initial signup. Covers ethics evaluation and onboarding for habits. For friction reduction and B=MAP, see improve-retention. For viral sharing, see contagious.",
+      "categories": ["Development", "Design", "Business", "AI & ML"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "hooked-ux",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/case-studies.md",
+        "references/ethical-boundaries.md",
+        "references/habit-testing.md",
+        "references/neuroscience-foundations.md",
+        "references/product-applications.md",
+        "references/rewards.md",
+        "references/triggers.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/top-design",
+      "name": "top-design",
+      "description": "Create award-winning, immersive web experiences at the level of Awwwards-featured agencies. Use when the user mentions \"premium website\", \"portfolio site\", \"scroll animations\", \"Awwwards quality\", \"brand experience\", \"cinematic web design\", \"parallax storytelling\", or \"agency-quality site\". Also trigger when building landing pages that need to impress, designing creative portfolios, or elevating a standard website to a memorable digital experience. Covers dramatic typography, purposeful motion, scroll-based composition, and performance-optimized animation. For foundational UI, see refactoring-ui. For type selection, see web-typography.",
+      "categories": ["Development", "Design"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "top-design",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/animation-patterns.md",
+        "references/case-studies.md",
+        "references/layout-systems.md",
+        "references/technical-stack.md",
+        "references/typography.md"
+      ]
+    },
+    {
       "id": "wondelai/skills/negotiation",
       "name": "negotiation",
       "description": "Prepare and execute negotiations using tactical empathy, calibrated questions, and the Ackerman method. Use when the user mentions \"salary negotiation\", \"contract terms\", \"handling objections\", \"mirroring and labeling\", \"difficult conversation\", \"deal terms\", \"BATNA\", or \"anchoring\". Also trigger when preparing for vendor negotiations, resolving pricing disputes, or navigating high-stakes conversations where both parties need to feel heard. Covers accusation audits, Black Swan discovery, and the \"Thats Right\" technique. For persuasion in product/marketing, see influence-psychology.",
@@ -3526,6 +3564,50 @@
       "path": "negotiation",
       "commitHash": "7c71a845071e",
       "files": ["SKILL.md", "references/techniques.md"]
+    },
+    {
+      "id": "wondelai/skills/ios-hig-design",
+      "name": "ios-hig-design",
+      "description": "Design native iOS interfaces following Apple Human Interface Guidelines. Use when the user mentions \"iPhone app\", \"iPad layout\", \"SwiftUI\", \"UIKit\", \"Dynamic Island\", \"safe areas\", \"HIG compliance\", \"SF Symbols\", \"haptic feedback\", or \"iOS accessibility\". Also trigger when building tab bars, navigation stacks, sheets, or modals for iOS, implementing dark mode, or adapting layouts for different screen sizes. Covers navigation patterns, accessibility, SF Symbols, and platform conventions. For general UI polish, see refactoring-ui. For affordance design, see design-everyday-things.",
+      "categories": ["Development", "Design"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "ios-hig-design",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/accessibility.md",
+        "references/app-icons.md",
+        "references/colors-depth.md",
+        "references/components.md",
+        "references/gestures.md",
+        "references/keyboard-input.md",
+        "references/navigation.md",
+        "references/privacy-permissions.md",
+        "references/system-integration.md",
+        "references/typography.md",
+        "references/widgets-extensions.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/ux-heuristics",
+      "name": "ux-heuristics",
+      "description": "Evaluate and improve interface usability using heuristic analysis. Use when the user mentions \"usability audit\", \"UX review\", \"users are confused\", \"heuristic evaluation\", \"form usability\", \"navigation problems\", \"Nielsen heuristics\", \"cognitive walkthrough\", or \"usability testing\". Also trigger when reviewing a design for usability issues, improving form completion rates, or evaluating information architecture and navigation. Covers Nielsens 10 heuristics, severity ratings, and information architecture. For visual design fixes, see refactoring-ui. For conversion-focused audits, see cro-methodology.",
+      "categories": ["Development", "Design", "Research"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "ux-heuristics",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/audit-template.md",
+        "references/cultural-ux.md",
+        "references/dark-patterns.md",
+        "references/heuristic-conflicts.md",
+        "references/krug-principles.md",
+        "references/nielsen-heuristics.md",
+        "references/wcag-checklist.md"
+      ]
     },
     {
       "id": "wondelai/skills/jobs-to-be-done",
@@ -3581,6 +3663,24 @@
         "references/RESEARCH.md",
         "references/funnel-analysis.md",
         "references/testing-methodology.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/web-typography",
+      "name": "web-typography",
+      "description": "Select, pair, and implement typefaces for web projects. Use when the user mentions \"font pairing\", \"which typeface\", \"line height\", \"responsive typography\", \"web font loading\", \"type hierarchy\", \"variable fonts\", \"FOUT/FOIT\", or \"typographic scale\". Also trigger when choosing between system fonts and web fonts, optimizing font loading performance, or designing readable long-form content layouts. Covers readability evaluation, CSS implementation, and performance optimization. For overall UI design systems, see refactoring-ui. For dramatic typographic experiences, see top-design.",
+      "categories": ["Design"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "web-typography",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/css-implementation.md",
+        "references/evaluating-typefaces.md",
+        "references/pairing-strategies.md",
+        "references/responsive-typography.md",
+        "references/typeface-anatomy.md"
       ]
     },
     {
@@ -3645,6 +3745,24 @@
         "references/thursday.md",
         "references/tuesday.md",
         "references/wednesday.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/refactoring-ui",
+      "name": "refactoring-ui",
+      "description": "Audit and fix visual hierarchy, spacing, color, and depth in web UIs. Use when the user mentions \"my UI looks off\", \"fix the design\", \"Tailwind styling\", \"color palette\", \"visual hierarchy\", \"design system\", \"spacing scale\", or \"component styling\". Also trigger when building consistent design tokens, creating dark mode themes, improving data visualization clarity, or polishing UI details before launch. Covers grayscale-first workflow, constrained design scales, shadows, and component styling. For typeface selection, see web-typography. For usability audits, see ux-heuristics.",
+      "categories": ["Development", "Security", "Design", "Data & Analytics", "Business"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "refactoring-ui",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/accessibility-depth.md",
+        "references/advanced-patterns.md",
+        "references/animation-microinteractions.md",
+        "references/data-visualization.md",
+        "references/theming-dark-mode.md"
       ]
     },
     {
@@ -5446,6 +5564,17 @@
       "path": "productivity-skills-plugin/skills/code-auditor",
       "commitHash": "71429f72e5c2",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "mhattingpete/claude-skills-marketplace/engineering-workflow-plugin/skills/git-pushing",
+      "name": "git-pushing",
+      "description": "Stage, commit, and push git changes with conventional commit messages. Use when user wants to commit and push changes, mentions pushing to remote, or asks to save and push their work. Also activates when user says \"push changes\", \"commit and push\", \"push this\", \"push to github\", or similar git workflow requests.",
+      "categories": ["Development"],
+      "author": "mhattingpete",
+      "repo": "mhattingpete/claude-skills-marketplace",
+      "path": "engineering-workflow-plugin/skills/git-pushing",
+      "commitHash": "71429f72e5c2",
+      "files": ["SKILL.md", "scripts"]
     },
     {
       "id": "mhattingpete/claude-skills-marketplace/visual-documentation-plugin/skills/timeline-creator",
