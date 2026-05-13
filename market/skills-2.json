@@ -1491,17 +1491,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/onboard",
-      "name": "onboard",
-      "description": "Analyze brownfield codebase and create initial continuity ledger",
-      "categories": ["Other"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/onboard",
-      "commitHash": "3a1e9f5851e5",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/security",
       "name": "security",
       "description": "Security audit workflow - vulnerability scan → verification",
@@ -1510,17 +1499,6 @@
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/security",
       "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/nia-docs",
-      "name": "nia-docs",
-      "description": "Search library documentation and code examples via Nia",
-      "categories": ["Development", "Writing"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/nia-docs",
-      "commitHash": "e13603363d21",
       "files": ["SKILL.md"]
     },
     {
@@ -1722,6 +1700,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/tdd-migrate",
+      "name": "tdd-migrate",
+      "description": "TDD workflow for migrations - orchestrate agents, zero main context growth",
+      "categories": ["AI & ML"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/tdd-migrate",
+      "commitHash": "26d21a9fdc8c",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/tldr-router",
       "name": "tldr-router",
       "description": "Maps questions to the optimal tldr command. Use this to pick the right layer",
@@ -1730,6 +1719,50 @@
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/tldr-router",
       "commitHash": "21b569baa759",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/morph-search",
+      "name": "morph-search",
+      "description": "Fast codebase search via WarpGrep (20x faster than grep)",
+      "categories": ["Other"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/morph-search",
+      "commitHash": "e13603363d21",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/ast-grep-find",
+      "name": "ast-grep-find",
+      "description": "AST-based code search and refactoring via ast-grep MCP",
+      "categories": ["Development", "Research"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/ast-grep-find",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/research-agent",
+      "name": "research-agent",
+      "description": "Research agent for external documentation, best practices, and library APIs via MCP tools",
+      "categories": ["Development", "Integration", "Research"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/research-agent",
+      "commitHash": "e13603363d21",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/skill-upgrader",
+      "name": "skill-upgrader",
+      "description": "Upgrade any skill to v5 Hybrid format using decision theory + modal logic",
+      "categories": ["Other"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/skill-upgrader",
+      "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
     {
@@ -2162,14 +2195,14 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/review",
-      "name": "review",
-      "description": "Comprehensive code review workflow - parallel specialized reviews → synthesis",
-      "categories": ["Development"],
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/build",
+      "name": "build",
+      "description": "Workflow orchestrator that chains existing skills for feature development",
+      "categories": ["Other"],
       "author": "parcadei",
       "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/review",
-      "commitHash": "f8d7173d9e35",
+      "path": ".claude/skills/build",
+      "commitHash": "0854d473fbe4",
       "files": ["SKILL.md"]
     },
     {
@@ -2195,6 +2228,28 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/tldr-code",
+      "name": "tldr-code",
+      "description": "Token-efficient code analysis via 5-layer stack (AST, Call Graph, CFG, DFG, PDG). 95% token savings.",
+      "categories": ["Data & Analytics"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/tldr-code",
+      "commitHash": "e1ee3333b470",
+      "files": ["SKILL.md", "rules.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/workflow-router",
+      "name": "workflow-router",
+      "description": "Goal-based workflow orchestration - routes tasks to specialist agents based on user goals",
+      "categories": ["Productivity"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/workflow-router",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/math/math-progress-monitor",
       "name": "math-progress-monitor",
       "description": "Metacognitive check-ins during problem solving - detects when to pivot or persist",
@@ -2217,6 +2272,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/math-router",
+      "name": "math-router",
+      "description": "Deterministic router for math cognitive stack - maps user intent to exact CLI commands",
+      "categories": ["Other"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/math-router",
+      "commitHash": "f5a3b151b5ea",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/agentica-server",
       "name": "agentica-server",
       "description": "Agentica server + Claude proxy setup - architecture, startup sequence, debugging",
@@ -2224,6 +2290,17 @@
       "author": "parcadei",
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/agentica-server",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/archive/search-tools",
+      "name": "search-tools",
+      "description": "Search Tool Hierarchy",
+      "categories": ["Other"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/archive/search-tools",
       "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
@@ -2461,6 +2538,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/refactor",
+      "name": "refactor",
+      "description": "Code refactoring workflow - analyze → plan → implement → review → validate",
+      "categories": ["Development"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/refactor",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/qlty-check",
       "name": "qlty-check",
       "description": "Code quality checks, formatting, and metrics via qlty CLI",
@@ -2468,17 +2556,6 @@
       "author": "parcadei",
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/qlty-check",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/debug-hooks",
-      "name": "debug-hooks",
-      "description": "Systematic hook debugging workflow. Use when hooks aren't firing, producing wrong output, or behaving unexpectedly.",
-      "categories": ["Development"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/debug-hooks",
       "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
@@ -2527,17 +2604,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/modular-code",
-      "name": "modular-code",
-      "description": "Modular Code Organization",
-      "categories": ["Other"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/modular-code",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/no-polling-agents",
       "name": "no-polling-agents",
       "description": "No Polling for Background Agents",
@@ -2568,17 +2634,6 @@
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/math/category-theory/categories-functors",
       "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/search-router",
-      "name": "search-router",
-      "description": "Choose the right search tool for each query type",
-      "categories": ["Other"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/search-router",
-      "commitHash": "dd1e637eeb63",
       "files": ["SKILL.md"]
     },
     {
@@ -3462,44 +3517,6 @@
       ]
     },
     {
-      "id": "wondelai/skills/hooked-ux",
-      "name": "hooked-ux",
-      "description": "Design habit-forming product loops using the Hook Model (Trigger, Action, Variable Reward, Investment). Use when the user mentions \"users arent coming back\", \"engagement loops\", \"habit formation\", \"push notifications\", \"variable rewards\", \"daily active users\", \"habit zone\", or \"user retention loops\". Also trigger when designing notification strategies, building streaks or progress systems, or analyzing why users stop using a product after initial signup. Covers ethics evaluation and onboarding for habits. For friction reduction and B=MAP, see improve-retention. For viral sharing, see contagious.",
-      "categories": ["Development", "Design", "Business", "AI & ML"],
-      "author": "wondelai",
-      "repo": "wondelai/skills",
-      "path": "hooked-ux",
-      "commitHash": "7c71a845071e",
-      "files": [
-        "SKILL.md",
-        "references/case-studies.md",
-        "references/ethical-boundaries.md",
-        "references/habit-testing.md",
-        "references/neuroscience-foundations.md",
-        "references/product-applications.md",
-        "references/rewards.md",
-        "references/triggers.md"
-      ]
-    },
-    {
-      "id": "wondelai/skills/top-design",
-      "name": "top-design",
-      "description": "Create award-winning, immersive web experiences at the level of Awwwards-featured agencies. Use when the user mentions \"premium website\", \"portfolio site\", \"scroll animations\", \"Awwwards quality\", \"brand experience\", \"cinematic web design\", \"parallax storytelling\", or \"agency-quality site\". Also trigger when building landing pages that need to impress, designing creative portfolios, or elevating a standard website to a memorable digital experience. Covers dramatic typography, purposeful motion, scroll-based composition, and performance-optimized animation. For foundational UI, see refactoring-ui. For type selection, see web-typography.",
-      "categories": ["Development", "Design"],
-      "author": "wondelai",
-      "repo": "wondelai/skills",
-      "path": "top-design",
-      "commitHash": "7c71a845071e",
-      "files": [
-        "SKILL.md",
-        "references/animation-patterns.md",
-        "references/case-studies.md",
-        "references/layout-systems.md",
-        "references/technical-stack.md",
-        "references/typography.md"
-      ]
-    },
-    {
       "id": "wondelai/skills/negotiation",
       "name": "negotiation",
       "description": "Prepare and execute negotiations using tactical empathy, calibrated questions, and the Ackerman method. Use when the user mentions \"salary negotiation\", \"contract terms\", \"handling objections\", \"mirroring and labeling\", \"difficult conversation\", \"deal terms\", \"BATNA\", or \"anchoring\". Also trigger when preparing for vendor negotiations, resolving pricing disputes, or navigating high-stakes conversations where both parties need to feel heard. Covers accusation audits, Black Swan discovery, and the \"Thats Right\" technique. For persuasion in product/marketing, see influence-psychology.",
@@ -3509,50 +3526,6 @@
       "path": "negotiation",
       "commitHash": "7c71a845071e",
       "files": ["SKILL.md", "references/techniques.md"]
-    },
-    {
-      "id": "wondelai/skills/ios-hig-design",
-      "name": "ios-hig-design",
-      "description": "Design native iOS interfaces following Apple Human Interface Guidelines. Use when the user mentions \"iPhone app\", \"iPad layout\", \"SwiftUI\", \"UIKit\", \"Dynamic Island\", \"safe areas\", \"HIG compliance\", \"SF Symbols\", \"haptic feedback\", or \"iOS accessibility\". Also trigger when building tab bars, navigation stacks, sheets, or modals for iOS, implementing dark mode, or adapting layouts for different screen sizes. Covers navigation patterns, accessibility, SF Symbols, and platform conventions. For general UI polish, see refactoring-ui. For affordance design, see design-everyday-things.",
-      "categories": ["Development", "Design"],
-      "author": "wondelai",
-      "repo": "wondelai/skills",
-      "path": "ios-hig-design",
-      "commitHash": "7c71a845071e",
-      "files": [
-        "SKILL.md",
-        "references/accessibility.md",
-        "references/app-icons.md",
-        "references/colors-depth.md",
-        "references/components.md",
-        "references/gestures.md",
-        "references/keyboard-input.md",
-        "references/navigation.md",
-        "references/privacy-permissions.md",
-        "references/system-integration.md",
-        "references/typography.md",
-        "references/widgets-extensions.md"
-      ]
-    },
-    {
-      "id": "wondelai/skills/ux-heuristics",
-      "name": "ux-heuristics",
-      "description": "Evaluate and improve interface usability using heuristic analysis. Use when the user mentions \"usability audit\", \"UX review\", \"users are confused\", \"heuristic evaluation\", \"form usability\", \"navigation problems\", \"Nielsen heuristics\", \"cognitive walkthrough\", or \"usability testing\". Also trigger when reviewing a design for usability issues, improving form completion rates, or evaluating information architecture and navigation. Covers Nielsens 10 heuristics, severity ratings, and information architecture. For visual design fixes, see refactoring-ui. For conversion-focused audits, see cro-methodology.",
-      "categories": ["Development", "Design", "Research"],
-      "author": "wondelai",
-      "repo": "wondelai/skills",
-      "path": "ux-heuristics",
-      "commitHash": "7c71a845071e",
-      "files": [
-        "SKILL.md",
-        "references/audit-template.md",
-        "references/cultural-ux.md",
-        "references/dark-patterns.md",
-        "references/heuristic-conflicts.md",
-        "references/krug-principles.md",
-        "references/nielsen-heuristics.md",
-        "references/wcag-checklist.md"
-      ]
     },
     {
       "id": "wondelai/skills/jobs-to-be-done",
@@ -3608,24 +3581,6 @@
         "references/RESEARCH.md",
         "references/funnel-analysis.md",
         "references/testing-methodology.md"
-      ]
-    },
-    {
-      "id": "wondelai/skills/web-typography",
-      "name": "web-typography",
-      "description": "Select, pair, and implement typefaces for web projects. Use when the user mentions \"font pairing\", \"which typeface\", \"line height\", \"responsive typography\", \"web font loading\", \"type hierarchy\", \"variable fonts\", \"FOUT/FOIT\", or \"typographic scale\". Also trigger when choosing between system fonts and web fonts, optimizing font loading performance, or designing readable long-form content layouts. Covers readability evaluation, CSS implementation, and performance optimization. For overall UI design systems, see refactoring-ui. For dramatic typographic experiences, see top-design.",
-      "categories": ["Design"],
-      "author": "wondelai",
-      "repo": "wondelai/skills",
-      "path": "web-typography",
-      "commitHash": "7c71a845071e",
-      "files": [
-        "SKILL.md",
-        "references/css-implementation.md",
-        "references/evaluating-typefaces.md",
-        "references/pairing-strategies.md",
-        "references/responsive-typography.md",
-        "references/typeface-anatomy.md"
       ]
     },
     {
@@ -3690,24 +3645,6 @@
         "references/thursday.md",
         "references/tuesday.md",
         "references/wednesday.md"
-      ]
-    },
-    {
-      "id": "wondelai/skills/refactoring-ui",
-      "name": "refactoring-ui",
-      "description": "Audit and fix visual hierarchy, spacing, color, and depth in web UIs. Use when the user mentions \"my UI looks off\", \"fix the design\", \"Tailwind styling\", \"color palette\", \"visual hierarchy\", \"design system\", \"spacing scale\", or \"component styling\". Also trigger when building consistent design tokens, creating dark mode themes, improving data visualization clarity, or polishing UI details before launch. Covers grayscale-first workflow, constrained design scales, shadows, and component styling. For typeface selection, see web-typography. For usability audits, see ux-heuristics.",
-      "categories": ["Development", "Security", "Design", "Data & Analytics", "Business"],
-      "author": "wondelai",
-      "repo": "wondelai/skills",
-      "path": "refactoring-ui",
-      "commitHash": "7c71a845071e",
-      "files": [
-        "SKILL.md",
-        "references/accessibility-depth.md",
-        "references/advanced-patterns.md",
-        "references/animation-microinteractions.md",
-        "references/data-visualization.md",
-        "references/theming-dark-mode.md"
       ]
     },
     {
@@ -5509,17 +5446,6 @@
       "path": "productivity-skills-plugin/skills/code-auditor",
       "commitHash": "71429f72e5c2",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "mhattingpete/claude-skills-marketplace/engineering-workflow-plugin/skills/git-pushing",
-      "name": "git-pushing",
-      "description": "Stage, commit, and push git changes with conventional commit messages. Use when user wants to commit and push changes, mentions pushing to remote, or asks to save and push their work. Also activates when user says \"push changes\", \"commit and push\", \"push this\", \"push to github\", or similar git workflow requests.",
-      "categories": ["Development"],
-      "author": "mhattingpete",
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "path": "engineering-workflow-plugin/skills/git-pushing",
-      "commitHash": "71429f72e5c2",
-      "files": ["SKILL.md", "scripts"]
     },
     {
       "id": "mhattingpete/claude-skills-marketplace/visual-documentation-plugin/skills/timeline-creator",
