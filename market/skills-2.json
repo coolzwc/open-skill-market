@@ -21,6 +21,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "lackeyjb/playwright-skill": {
+      "url": "https://github.com/lackeyjb/playwright-skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "RKiding/Awesome-finance-skills": {
       "url": "https://github.com/RKiding/Awesome-finance-skills",
       "branch": "main",
@@ -2668,6 +2675,17 @@
       "path": ".claude/skills/test",
       "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "lackeyjb/playwright-skill/skills/playwright-skill",
+      "name": "playwright-skill",
+      "description": "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing.",
+      "categories": ["Development", "Design", "Productivity"],
+      "author": "lackeyjb",
+      "repo": "lackeyjb/playwright-skill",
+      "path": "skills/playwright-skill",
+      "commitHash": "bb7e920d3760",
+      "files": ["API_REFERENCE.md", "SKILL.md", "lib", "package.json", "run.js"]
     },
     {
       "id": "RKiding/Awesome-finance-skills/skills/alphaear-news",
