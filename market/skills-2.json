@@ -1469,6 +1469,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/prove",
+      "name": "prove",
+      "description": "Formal theorem proving with research, testing, and verification phases",
+      "categories": ["Development", "Research"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/prove",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/debug",
       "name": "debug",
       "description": "Debug issues by investigating logs, database state, and git history",
@@ -1488,6 +1499,28 @@
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/recall",
       "commitHash": "21b569baa759",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/onboard",
+      "name": "onboard",
+      "description": "Analyze brownfield codebase and create initial continuity ledger",
+      "categories": ["Other"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/onboard",
+      "commitHash": "3a1e9f5851e5",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/explore",
+      "name": "explore",
+      "description": "Meta-skill for internal codebase exploration at varying depths (quick/deep/architecture)",
+      "categories": ["Development"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/explore",
+      "commitHash": "0854d473fbe4",
       "files": ["SKILL.md"]
     },
     {
@@ -1535,6 +1568,28 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/pint-compute",
+      "name": "pint-compute",
+      "description": "Unit-aware computation with Pint - convert units, dimensional analysis, unit arithmetic",
+      "categories": ["Other"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/pint-compute",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/agentica-sdk",
+      "name": "agentica-sdk",
+      "description": "Build Python agents with Agentica SDK - @agentic decorator, spawn(), persistence, MCP integration",
+      "categories": ["Development", "Integration", "AI & ML"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/agentica-sdk",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/tldr-overview",
       "name": "tldr-overview",
       "description": "Get a token-efficient overview of any project using the TLDR stack",
@@ -1554,17 +1609,6 @@
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/loogle-search",
       "commitHash": "21b569baa759",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/no-task-output",
-      "name": "no-task-output",
-      "description": "Never Use TaskOutput",
-      "categories": ["Other"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/no-task-output",
-      "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
     {
@@ -1700,17 +1744,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/tdd-migrate",
-      "name": "tdd-migrate",
-      "description": "TDD workflow for migrations - orchestrate agents, zero main context growth",
-      "categories": ["AI & ML"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/tdd-migrate",
-      "commitHash": "26d21a9fdc8c",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/tldr-router",
       "name": "tldr-router",
       "description": "Maps questions to the optimal tldr command. Use this to pick the right layer",
@@ -1722,46 +1755,13 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/morph-search",
-      "name": "morph-search",
-      "description": "Fast codebase search via WarpGrep (20x faster than grep)",
-      "categories": ["Other"],
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/slash-commands",
+      "name": "slash-commands",
+      "description": "Create and use Claude Code slash commands - quick prompts, bash execution, file references",
+      "categories": ["AI & ML"],
       "author": "parcadei",
       "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/morph-search",
-      "commitHash": "e13603363d21",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/ast-grep-find",
-      "name": "ast-grep-find",
-      "description": "AST-based code search and refactoring via ast-grep MCP",
-      "categories": ["Development", "Research"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/ast-grep-find",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/research-agent",
-      "name": "research-agent",
-      "description": "Research agent for external documentation, best practices, and library APIs via MCP tools",
-      "categories": ["Development", "Integration", "Research"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/research-agent",
-      "commitHash": "e13603363d21",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/skill-upgrader",
-      "name": "skill-upgrader",
-      "description": "Upgrade any skill to v5 Hybrid format using decision theory + modal logic",
-      "categories": ["Other"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/skill-upgrader",
+      "path": ".claude/skills/slash-commands",
       "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
@@ -2195,17 +2195,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/build",
-      "name": "build",
-      "description": "Workflow orchestrator that chains existing skills for feature development",
-      "categories": ["Other"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/build",
-      "commitHash": "0854d473fbe4",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/commit",
       "name": "commit",
       "description": "Create git commits with user approval and no Claude attribution",
@@ -2228,28 +2217,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/tldr-code",
-      "name": "tldr-code",
-      "description": "Token-efficient code analysis via 5-layer stack (AST, Call Graph, CFG, DFG, PDG). 95% token savings.",
-      "categories": ["Data & Analytics"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/tldr-code",
-      "commitHash": "e1ee3333b470",
-      "files": ["SKILL.md", "rules.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/workflow-router",
-      "name": "workflow-router",
-      "description": "Goal-based workflow orchestration - routes tasks to specialist agents based on user goals",
-      "categories": ["Productivity"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/workflow-router",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/math/math-progress-monitor",
       "name": "math-progress-monitor",
       "description": "Metacognitive check-ins during problem solving - detects when to pivot or persist",
@@ -2269,17 +2236,6 @@
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/math/mathematical-logic/propositional-logic",
       "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/math-router",
-      "name": "math-router",
-      "description": "Deterministic router for math cognitive stack - maps user intent to exact CLI commands",
-      "categories": ["Other"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/math-router",
-      "commitHash": "f5a3b151b5ea",
       "files": ["SKILL.md"]
     },
     {
@@ -2450,6 +2406,28 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/math-help",
+      "name": "math-help",
+      "description": "Guide to the math cognitive stack - what tools exist and when to use each",
+      "categories": ["Other"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/math-help",
+      "commitHash": "f5a3b151b5ea",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/agentica-spawn",
+      "name": "agentica-spawn",
+      "description": "Spawn Agentica multi-agent patterns",
+      "categories": ["AI & ML"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/agentica-spawn",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/resume_handoff",
       "name": "resume-handoff",
       "description": "Resume work from handoff document with context analysis and validation",
@@ -2538,28 +2516,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/refactor",
-      "name": "refactor",
-      "description": "Code refactoring workflow - analyze → plan → implement → review → validate",
-      "categories": ["Development"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/refactor",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/qlty-check",
-      "name": "qlty-check",
-      "description": "Code quality checks, formatting, and metrics via qlty CLI",
-      "categories": ["Development"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/qlty-check",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/validate-agent",
       "name": "validate-agent",
       "description": "Validation agent that validates plan tech choices against current best practices",
@@ -2600,6 +2556,17 @@
       "author": "parcadei",
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/math/numerical-methods/numerical-integration",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/modular-code",
+      "name": "modular-code",
+      "description": "Modular Code Organization",
+      "categories": ["Other"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/modular-code",
       "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
@@ -5564,17 +5531,6 @@
       "path": "productivity-skills-plugin/skills/code-auditor",
       "commitHash": "71429f72e5c2",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "mhattingpete/claude-skills-marketplace/engineering-workflow-plugin/skills/git-pushing",
-      "name": "git-pushing",
-      "description": "Stage, commit, and push git changes with conventional commit messages. Use when user wants to commit and push changes, mentions pushing to remote, or asks to save and push their work. Also activates when user says \"push changes\", \"commit and push\", \"push this\", \"push to github\", or similar git workflow requests.",
-      "categories": ["Development"],
-      "author": "mhattingpete",
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "path": "engineering-workflow-plugin/skills/git-pushing",
-      "commitHash": "71429f72e5c2",
-      "files": ["SKILL.md", "scripts"]
     },
     {
       "id": "mhattingpete/claude-skills-marketplace/visual-documentation-plugin/skills/timeline-creator",
