@@ -1,12 +1,5 @@
 {
   "repositories": {
-    "th3vib3coder/vibe-science": {
-      "url": "https://github.com/th3vib3coder/vibe-science",
-      "branch": "main",
-      "stars": 11,
-      "forks": 0,
-      "lastUpdated": "2026-04-30T19:28:08Z"
-    },
     "composio-community/support-skills": {
       "url": "https://github.com/composio-community/support-skills",
       "branch": "main",
@@ -19,7 +12,7 @@
       "branch": "main",
       "stars": 10,
       "forks": 0,
-      "lastUpdated": "2026-05-12T04:33:31Z"
+      "lastUpdated": "2026-05-14T06:07:03Z"
     },
     "Bhanunamikaze/AI-Dataset-Generator": {
       "url": "https://github.com/Bhanunamikaze/AI-Dataset-Generator",
@@ -308,13 +301,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "hqhq1025/skill-optimizer": {
-      "url": "https://github.com/hqhq1025/skill-optimizer",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "YIKUAIBANZI/forge-skill": {
       "url": "https://github.com/YIKUAIBANZI/forge-skill",
       "branch": "main",
@@ -427,13 +413,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "brettdavies/crawl4ai-skill": {
-      "url": "https://github.com/brettdavies/crawl4ai-skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "proyecto26/sherlock-ai-plugin": {
       "url": "https://github.com/proyecto26/sherlock-ai-plugin",
       "branch": "main",
@@ -513,156 +492,6 @@
     }
   },
   "skills": [
-    {
-      "id": "th3vib3coder/vibe-science/.claude/skills/delivery-discipline",
-      "name": "delivery-discipline",
-      "description": "Use when preparing or writing any committable deliverable (phase closeout, status report, skill file, wave spec, README section, summary document, CHANGELOG entry, or any markdown file declaring completion or pass/fail status). Applies before the write happens, not after. Without this discipline, agents ship 60% deliverables and declare closure prematurely.",
-      "categories": ["Development", "Writing", "Documents", "AI & ML"],
-      "author": "th3vib3coder",
-      "repo": "th3vib3coder/vibe-science",
-      "path": ".claude/skills/delivery-discipline",
-      "commitHash": "e6e9667e3712",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "th3vib3coder/vibe-science",
-      "name": "vibe",
-      "description": "Scientific research engine with agentic tree search. Infinite loops until discovery, rigorous tracking, adversarial review, serendipity preserved.",
-      "categories": ["Research", "AI & ML"],
-      "author": "th3vib3coder",
-      "repo": "th3vib3coder/vibe-science",
-      "path": "",
-      "commitHash": "e6e9667e3712",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "th3vib3coder/vibe-science/archive/vibe-science-legacy-pre-v5.0/vibe",
-      "name": "vibe",
-      "description": "Scientific research in serendipity mode. Infinite loops until discovery, rigorous tracking, adversarial review.",
-      "categories": ["Research"],
-      "author": "th3vib3coder",
-      "repo": "th3vib3coder/vibe-science",
-      "path": "archive/vibe-science-legacy-pre-v5.0/vibe",
-      "commitHash": "e6e9667e3712",
-      "files": [
-        "PROJECT-MEMORY.md",
-        "README.md",
-        "SKILL.md",
-        "commands/init.md",
-        "commands/loop.md",
-        "commands/loop_v2.md",
-        "commands/reviewer2.md",
-        "commands/reviewer2_v2.md",
-        "commands/search.md",
-        "config/apis-espacenet.md",
-        "config/apis-jcr.md",
-        "config/apis-reaxys.md",
-        "config/apis-torrossa.md",
-        "config/apis-wos.md",
-        "config/apis.md",
-        "config/architecture.md",
-        "config/compaction.md",
-        "config/confidence_scoring.yaml",
-        "config/decision-framework.md",
-        "config/deviation-rules.md"
-      ]
-    },
-    {
-      "id": "th3vib3coder/vibe-science/archive/vibe-science-v5.0-codex",
-      "name": "vibe-science",
-      "description": "Scientific research engine with adversarial review, tree search, and serendipity detection. Use when: exploring hypotheses, validating findings against literature, running computational experiments with quality gates, or hunting for unexpected discoveries. Do NOT use for simple Q&A, code editing, or non-research tasks.",
-      "categories": ["Writing", "Research"],
-      "author": "th3vib3coder",
-      "repo": "th3vib3coder/vibe-science",
-      "path": "archive/vibe-science-v5.0-codex",
-      "commitHash": "e6e9667e3712",
-      "files": [
-        ".gitignore",
-        "LICENSE",
-        "README.md",
-        "SKILL.md",
-        "agents/openai.yaml",
-        "assets/fault-taxonomy.yaml",
-        "assets/judge-rubric.yaml",
-        "assets/logo.svg",
-        "assets/metric-parser.md",
-        "assets/node-schema.md",
-        "assets/obs-normalizer.md",
-        "assets/schemas/brainstorm-quality.schema.json",
-        "assets/schemas/claim-promotion.schema.json",
-        "assets/schemas/review-completeness.schema.json",
-        "assets/schemas/rq-conclusion.schema.json",
-        "assets/schemas/serendipity-seed.schema.json",
-        "assets/schemas/source-validity.schema.json",
-        "assets/schemas/stage4-exit.schema.json",
-        "assets/schemas/stage5-exit.schema.json",
-        "assets/schemas/vigilance-check.schema.json"
-      ]
-    },
-    {
-      "id": "th3vib3coder/vibe-science/archive/vibe-science-v6.0-claude-code",
-      "name": "vibe-science",
-      "description": "Scientific research engine v6.0 NEXUS — adversarial review (Reviewer 2), 32 quality gates, tree search, serendipity tracking, confounder harness, cross-session learning. Use for ANY scientific analysis, hypothesis testing, data validation, literature review, or task where correctness > speed.",
-      "categories": ["Development", "Data & Analytics", "Research"],
-      "author": "th3vib3coder",
-      "repo": "th3vib3coder/vibe-science",
-      "path": "archive/vibe-science-v6.0-claude-code",
-      "commitHash": "e6e9667e3712",
-      "files": [
-        "AGENTS.md",
-        "SKILL.md",
-        "agents/claude-code.yaml",
-        "assets/domain-config-example.yaml",
-        "assets/fault-taxonomy.yaml",
-        "assets/judge-rubric.yaml",
-        "assets/metric-parser.md",
-        "assets/node-schema.md",
-        "assets/schemas/brainstorm-quality.schema.json",
-        "assets/schemas/claim-promotion.schema.json",
-        "assets/schemas/data-quality-gate.schema.json",
-        "assets/schemas/finding-validation.schema.json",
-        "assets/schemas/review-completeness.schema.json",
-        "assets/schemas/rq-conclusion.schema.json",
-        "assets/schemas/serendipity-seed.schema.json",
-        "assets/schemas/source-validity.schema.json",
-        "assets/schemas/spine-entry.schema.json",
-        "assets/schemas/stage4-exit.schema.json",
-        "assets/schemas/stage5-exit.schema.json",
-        "assets/schemas/vigilance-check.schema.json"
-      ]
-    },
-    {
-      "id": "th3vib3coder/vibe-science/skills/vibe",
-      "name": "vibe-science",
-      "description": "Scientific research engine for hypothesis testing, literature gap analysis, experimental validation, and data-driven discovery. Enforces adversarial review (Reviewer 2), 32 quality gates, tree search over hypotheses, confounder harness for quantitative claims, and serendipity detection. TRIGGER when: user asks to analyze scientific data, test hypotheses, validate findings, search for research gaps, design experiments, or investigate results. DO NOT TRIGGER when: pure code review, documentation writing, devops tasks, general conversation, or non-scientific data transformation.\n",
-      "categories": ["Development", "Writing", "Data & Analytics", "Documents", "Research"],
-      "author": "th3vib3coder",
-      "repo": "th3vib3coder/vibe-science",
-      "path": "skills/vibe",
-      "commitHash": "e6e9667e3712",
-      "files": [
-        "AGENTS.md",
-        "SKILL.md",
-        "agents/claude-code.yaml",
-        "assets/domain-config-example.yaml",
-        "assets/fault-taxonomy.yaml",
-        "assets/judge-rubric.yaml",
-        "assets/metric-parser.md",
-        "assets/node-schema.md",
-        "assets/schemas/brainstorm-quality.schema.json",
-        "assets/schemas/claim-promotion.schema.json",
-        "assets/schemas/data-quality-gate.schema.json",
-        "assets/schemas/delivery-attestation.schema.json",
-        "assets/schemas/finding-validation.schema.json",
-        "assets/schemas/review-completeness.schema.json",
-        "assets/schemas/rq-conclusion.schema.json",
-        "assets/schemas/serendipity-seed.schema.json",
-        "assets/schemas/source-validity.schema.json",
-        "assets/schemas/spine-entry.schema.json",
-        "assets/schemas/stage4-exit.schema.json",
-        "assets/schemas/stage5-exit.schema.json"
-      ]
-    },
     {
       "id": "composio-community/support-skills/escalate",
       "name": "escalate",
@@ -1111,7 +940,7 @@
       "author": "cucupac",
       "repo": "cucupac/shellbrain",
       "path": "onboarding_assets/codex/shellbrain-session-start",
-      "commitHash": "b5b88ffa9404",
+      "commitHash": "38039d5a468b",
       "files": ["SKILL.md", "agents", "assets", "references"]
     },
     {
@@ -1122,7 +951,7 @@
       "author": "cucupac",
       "repo": "cucupac/shellbrain",
       "path": "onboarding_assets/codex/shellbrain-usage-review",
-      "commitHash": "b5b88ffa9404",
+      "commitHash": "38039d5a468b",
       "files": ["SKILL.md", "agents", "assets"]
     },
     {
@@ -1133,7 +962,7 @@
       "author": "cucupac",
       "repo": "cucupac/shellbrain",
       "path": "onboarding_assets/cursor/skills/shellbrain-session-start",
-      "commitHash": "b5b88ffa9404",
+      "commitHash": "38039d5a468b",
       "files": ["SKILL.md"]
     },
     {
@@ -8968,17 +8797,6 @@
       "files": ["SKILL.md", "agents", "references"]
     },
     {
-      "id": "hqhq1025/skill-optimizer/skills/skill-optimizer",
-      "name": "skill-optimizer",
-      "description": "Use when the user wants to analyze, audit, or improve their Agent Skills (SKILL.md files). Triggers on /optimize-skill, /skill-audit, 'optimize skills', 'analyze skills', 'check my skills', 'skill quality'. Also use proactively when the user mentions skills aren't triggering, skills feel broken, or asks why a skill didn't fire.",
-      "categories": ["Other"],
-      "author": "hqhq1025",
-      "repo": "hqhq1025/skill-optimizer",
-      "path": "skills/skill-optimizer",
-      "commitHash": "c48b4b5e22e1",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "YIKUAIBANZI/forge-skill/use-self",
       "name": "use-self",
       "description": "召唤你的数字替身进行决策辅助。多个版本的你同时分析一个决定，帮你看清局中看不清的自己。",
@@ -9361,17 +9179,6 @@
       "path": "skills/tdd",
       "commitHash": "af17db9ed0d3",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "brettdavies/crawl4ai-skill/crawl4ai",
-      "name": "crawl4ai",
-      "description": "This skill should be used when users need to scrape websites, extract structured data, handle JavaScript-heavy pages, crawl multiple URLs, or build automated web data pipelines. Includes optimized extraction patterns with schema generation for efficient, LLM-free extraction.",
-      "categories": ["Development", "Data & Analytics", "Research", "AI & ML"],
-      "author": "brettdavies",
-      "repo": "brettdavies/crawl4ai-skill",
-      "path": "crawl4ai",
-      "commitHash": "2c595528f7d9",
-      "files": ["SKILL.md", "references", "scripts", "tests"]
     },
     {
       "id": "proyecto26/sherlock-ai-plugin/skills/paper2code",
