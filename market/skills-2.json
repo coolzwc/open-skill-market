@@ -3,9 +3,51 @@
     "jianshuo/claude-skills": {
       "url": "https://github.com/jianshuo/claude-skills",
       "branch": "main",
+      "stars": 16,
+      "forks": 1,
+      "lastUpdated": "2026-05-14T10:30:45Z"
+    },
+    "chriskd/memex-kb": {
+      "url": "https://github.com/chriskd/memex-kb",
+      "branch": "main",
+      "stars": 15,
+      "forks": 2,
+      "lastUpdated": "2026-05-07T22:10:25Z"
+    },
+    "karad/seiro-mcp": {
+      "url": "https://github.com/karad/seiro-mcp",
+      "branch": "main",
+      "stars": 15,
+      "forks": 1,
+      "lastUpdated": "2026-04-14T08:42:53Z"
+    },
+    "alexander-danilenko/cortex-ai-skills": {
+      "url": "https://github.com/alexander-danilenko/cortex-ai-skills",
+      "branch": "main",
+      "stars": 13,
+      "forks": 0,
+      "lastUpdated": "2026-05-06T10:37:30Z"
+    },
+    "jvogan/symphony-linear-starter": {
+      "url": "https://github.com/jvogan/symphony-linear-starter",
+      "branch": "main",
+      "stars": 13,
+      "forks": 0,
+      "lastUpdated": "2026-04-28T17:44:07Z"
+    },
+    "VirtusLab-Open-Source/astro-strapi-starter": {
+      "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-starter",
+      "branch": "main",
+      "stars": 12,
+      "forks": 1,
+      "lastUpdated": "2026-05-13T17:09:48Z"
+    },
+    "powersync-ja/agent-skills": {
+      "url": "https://github.com/powersync-ja/agent-skills",
+      "branch": "main",
       "stars": 12,
       "forks": 0,
-      "lastUpdated": "2026-05-14T10:30:45Z"
+      "lastUpdated": "2026-05-13T09:29:33Z"
     },
     "drivly/auto-dev-skill": {
       "url": "https://github.com/drivly/auto-dev-skill",
@@ -14,13 +56,6 @@
       "forks": 4,
       "lastUpdated": "2026-04-08T15:46:52Z"
     },
-    "powersync-ja/agent-skills": {
-      "url": "https://github.com/powersync-ja/agent-skills",
-      "branch": "main",
-      "stars": 11,
-      "forks": 0,
-      "lastUpdated": "2026-05-13T09:29:33Z"
-    },
     "th3vib3coder/vibe-science": {
       "url": "https://github.com/th3vib3coder/vibe-science",
       "branch": "main",
@@ -28,12 +63,12 @@
       "forks": 0,
       "lastUpdated": "2026-04-30T19:28:08Z"
     },
-    "cucupac/shellbrain": {
-      "url": "https://github.com/cucupac/shellbrain",
+    "QZhang2111/Research-Pilot": {
+      "url": "https://github.com/QZhang2111/Research-Pilot",
       "branch": "main",
       "stars": 10,
-      "forks": 0,
-      "lastUpdated": "2026-05-14T06:07:03Z"
+      "forks": 1,
+      "lastUpdated": "2026-05-13T11:16:15Z"
     },
     "composio-community/support-skills": {
       "url": "https://github.com/composio-community/support-skills",
@@ -41,6 +76,13 @@
       "stars": 10,
       "forks": 0,
       "lastUpdated": "2026-04-21T18:18:53Z"
+    },
+    "cucupac/shellbrain": {
+      "url": "https://github.com/cucupac/shellbrain",
+      "branch": "main",
+      "stars": 10,
+      "forks": 0,
+      "lastUpdated": "2026-05-14T06:07:03Z"
     },
     "Bhanunamikaze/AI-Dataset-Generator": {
       "url": "https://github.com/Bhanunamikaze/AI-Dataset-Generator",
@@ -224,13 +266,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "BrianRWagner/ai-marketing-claude-code-skills": {
-      "url": "https://github.com/BrianRWagner/ai-marketing-claude-code-skills",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "assafelovic/skyll": {
       "url": "https://github.com/assafelovic/skyll",
       "branch": "main",
@@ -245,16 +280,16 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "adeze/raindrop-mcp": {
-      "url": "https://github.com/adeze/raindrop-mcp",
-      "branch": "master",
+    "ckelsoe/prompt-architect": {
+      "url": "https://github.com/ckelsoe/prompt-architect",
+      "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "ckelsoe/prompt-architect": {
-      "url": "https://github.com/ckelsoe/prompt-architect",
-      "branch": "main",
+    "adeze/raindrop-mcp": {
+      "url": "https://github.com/adeze/raindrop-mcp",
+      "branch": "master",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
@@ -535,7 +570,7 @@
       "author": "jianshuo",
       "repo": "jianshuo/claude-skills",
       "path": "wjs-dubbing-video",
-      "commitHash": "6f9aaf5233ef",
+      "commitHash": "b7c4fcb97340",
       "files": ["SKILL.md", "scripts/dub.py", "scripts/visual_diarize.py"]
     },
     {
@@ -546,7 +581,7 @@
       "author": "jianshuo",
       "repo": "jianshuo/claude-skills",
       "path": "wjs-uploading-video",
-      "commitHash": "6f9aaf5233ef",
+      "commitHash": "b7c4fcb97340",
       "files": ["SKILL.md", "references/credentials-setup.md", "scripts/upload_youtube.py"]
     },
     {
@@ -557,7 +592,7 @@
       "author": "jianshuo",
       "repo": "jianshuo/claude-skills",
       "path": "wjs-reframing-video",
-      "commitHash": "6f9aaf5233ef",
+      "commitHash": "b7c4fcb97340",
       "files": [
         "SKILL.md",
         "models/blaze_face_short_range.tflite",
@@ -573,7 +608,7 @@
       "author": "jianshuo",
       "repo": "jianshuo/claude-skills",
       "path": "wjs-localizing-video",
-      "commitHash": "6f9aaf5233ef",
+      "commitHash": "b7c4fcb97340",
       "files": [
         ".gitignore",
         ".publish-manifest.json",
@@ -591,7 +626,7 @@
       "author": "jianshuo",
       "repo": "jianshuo/claude-skills",
       "path": "wjs-segmenting-video",
-      "commitHash": "6f9aaf5233ef",
+      "commitHash": "b7c4fcb97340",
       "files": [
         "SKILL.md",
         "references/example_segments.json",
@@ -612,7 +647,7 @@
       "author": "jianshuo",
       "repo": "jianshuo/claude-skills",
       "path": "wjs-overlaying-video",
-      "commitHash": "6f9aaf5233ef",
+      "commitHash": "b7c4fcb97340",
       "files": [
         "SKILL.md",
         "references/build_hf_clips.py",
@@ -631,7 +666,7 @@
       "author": "jianshuo",
       "repo": "jianshuo/claude-skills",
       "path": "wjs-syncing-multicam",
-      "commitHash": "6f9aaf5233ef",
+      "commitHash": "b7c4fcb97340",
       "files": ["SKILL.md", "scripts/sync.py", "scripts/sync_partial.py", "scripts/verify.py"]
     },
     {
@@ -642,7 +677,7 @@
       "author": "jianshuo",
       "repo": "jianshuo/claude-skills",
       "path": "wjs-auditing-project",
-      "commitHash": "6f9aaf5233ef",
+      "commitHash": "b7c4fcb97340",
       "files": ["SKILL.md"]
     },
     {
@@ -653,7 +688,7 @@
       "author": "jianshuo",
       "repo": "jianshuo/claude-skills",
       "path": "wjs-editing-multicam",
-      "commitHash": "6f9aaf5233ef",
+      "commitHash": "b7c4fcb97340",
       "files": [
         "SKILL.md",
         "scripts/autoedit.py",
@@ -669,7 +704,7 @@
       "author": "jianshuo",
       "repo": "jianshuo/claude-skills",
       "path": "wjs-promoting-skills",
-      "commitHash": "6f9aaf5233ef",
+      "commitHash": "b7c4fcb97340",
       "files": [
         "SKILL.md",
         "com.jianshuo.wjs-promoting-skills.plist.template",
@@ -697,7 +732,7 @@
       "author": "jianshuo",
       "repo": "jianshuo/claude-skills",
       "path": "wjs-burning-subtitles",
-      "commitHash": "6f9aaf5233ef",
+      "commitHash": "b7c4fcb97340",
       "files": ["SKILL.md", "scripts/render.py"]
     },
     {
@@ -708,7 +743,7 @@
       "author": "jianshuo",
       "repo": "jianshuo/claude-skills",
       "path": "wjs-publishing-wechat",
-      "commitHash": "6f9aaf5233ef",
+      "commitHash": "b7c4fcb97340",
       "files": [
         ".gitignore",
         ".publish-manifest.json",
@@ -732,7 +767,7 @@
       "author": "jianshuo",
       "repo": "jianshuo/claude-skills",
       "path": "wjs-eating-and-growing",
-      "commitHash": "6f9aaf5233ef",
+      "commitHash": "b7c4fcb97340",
       "files": ["SKILL.md"]
     },
     {
@@ -743,7 +778,7 @@
       "author": "jianshuo",
       "repo": "jianshuo/claude-skills",
       "path": "wjs-transcribing-audio",
-      "commitHash": "6f9aaf5233ef",
+      "commitHash": "b7c4fcb97340",
       "files": ["SKILL.md"]
     },
     {
@@ -754,7 +789,7 @@
       "author": "jianshuo",
       "repo": "jianshuo/claude-skills",
       "path": "wangjianshuo-perspective",
-      "commitHash": "6f9aaf5233ef",
+      "commitHash": "b7c4fcb97340",
       "files": [
         "SKILL.md",
         "references/research/01-writings.md",
@@ -786,8 +821,336 @@
       "author": "jianshuo",
       "repo": "jianshuo/claude-skills",
       "path": "wjs-translating-subtitles",
-      "commitHash": "6f9aaf5233ef",
+      "commitHash": "b7c4fcb97340",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "chriskd/memex-kb/skills/memex-kb",
+      "name": "memex-kb",
+      "description": "Search, read, create, edit, and maintain knowledge in a Memex KB via the `mx` CLI. Use when the user asks to search the KB, find documentation, check project or organizational docs, add or update knowledge-base entries, audit KB quality, or when reusable knowledge should be captured for future agents.",
+      "categories": ["Writing", "Research", "AI & ML"],
+      "author": "chriskd",
+      "repo": "chriskd/memex-kb",
+      "path": "skills/memex-kb",
+      "commitHash": "7925738560fc",
+      "files": ["SKILL.md", "agents", "references"]
+    },
+    {
+      "id": "karad/seiro-mcp/skills/seiro-mcp-visionos-build-operator",
+      "name": "seiro-mcp-visionos-build-operator",
+      "description": "Build and diagnose visionOS projects with Seiro MCP. Use inspect_xcode_schemes (if needed) -> validate_sandbox_policy -> build_visionos_app -> inspect_build_diagnostics (on failure) -> fetch_build_output (on success), and avoid direct xcodebuild or swiftc unless the user explicitly asks for shell-level execution or MCP cannot handle the task.",
+      "categories": ["Development", "Productivity", "Business"],
+      "author": "karad",
+      "repo": "karad/seiro-mcp",
+      "path": "skills/seiro-mcp-visionos-build-operator",
+      "commitHash": "17a10db5af4d",
+      "files": ["SKILL.md", "agents", "assets"]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/react",
+      "name": "react",
+      "description": "Apply these opinionated React conventions when writing React 18+ or 19 components: hooks patterns, Server Components, Suspense boundaries, state management, performance memoization, React 19 features (use, form actions).",
+      "categories": ["Development"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/react",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/hooks-patterns.md",
+        "references/migration-class-to-modern.md",
+        "references/performance.md",
+        "references/react-19-features.md",
+        "references/server-components.md",
+        "references/state-management.md",
+        "references/testing-react.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/python",
+      "name": "python",
+      "description": "Apply these opinionated Python 3.11+ conventions when writing Python in this codebase: type hints with mypy, async/await, pytest fixtures, dataclasses, Poetry packaging, production patterns.",
+      "categories": ["Development"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/python",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/async-patterns.md",
+        "references/packaging.md",
+        "references/standard-library.md",
+        "references/testing.md",
+        "references/type-system.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/nestjs",
+      "name": "nestjs",
+      "description": "Apply these opinionated NestJS conventions when writing NestJS backends: module structure, dependency injection, controllers and services, DTOs with class-validator, guards/interceptors/pipes, JWT authentication, TypeORM/Prisma.",
+      "categories": ["Development", "Security"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/nestjs",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/authentication.md",
+        "references/controllers-routing.md",
+        "references/dtos-validation.md",
+        "references/migration-from-express.md",
+        "references/services-di.md",
+        "references/testing-patterns.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/csharp",
+      "name": "csharp",
+      "description": "Apply these opinionated C# conventions when writing C#/.NET 8+ code: modern C# 12 (records, primary constructors, pattern matching), ASP.NET Core minimal and controller APIs, Blazor, Entity Framework Core, async patterns, CQRS with MediatR.",
+      "categories": ["Development"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/csharp",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/aspnet-core.md",
+        "references/blazor.md",
+        "references/entity-framework.md",
+        "references/modern-csharp.md",
+        "references/performance.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/nextjs",
+      "name": "nextjs",
+      "description": "Apply these opinionated Next.js 14+ recipes when building App Router apps: Server Components, Server Actions, data fetching/caching/revalidation, image/font/bundle optimization, Metadata API for SEO, Vercel deployment.",
+      "categories": ["Development", "DevOps", "Design"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/nextjs",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/app-router.md",
+        "references/data-fetching.md",
+        "references/deployment.md",
+        "references/server-actions.md",
+        "references/server-components.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/testing",
+      "name": "testing",
+      "description": "Apply these opinionated testing conventions when writing tests or test strategies: three modes (functional, performance, security), unit/integration/E2E patterns, coverage analysis, automation frameworks, defect tracking, accessibility and usability.",
+      "categories": ["Development", "Data & Analytics", "Business"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/testing",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/automation-frameworks.md",
+        "references/e2e-testing.md",
+        "references/integration-testing.md",
+        "references/nestjs-jest-common.md",
+        "references/nestjs-jest-contract-tests.md",
+        "references/nestjs-jest-unit-tests.md",
+        "references/performance-testing.md",
+        "references/qa-methodology.md",
+        "references/security-testing.md",
+        "references/tdd-iron-laws.md",
+        "references/test-reports.md",
+        "references/testing-anti-patterns.md",
+        "references/unit-testing.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/javascript",
+      "name": "javascript",
+      "description": "Apply these opinionated JavaScript conventions when writing JS or Node in this codebase: ES2023+ features, async and Promise patterns, ESM/CJS modules, Web Workers, browser APIs, performance optimization, Node.js patterns.",
+      "categories": ["Development"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/javascript",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/async-patterns.md",
+        "references/browser-apis.md",
+        "references/modern-syntax.md",
+        "references/modules.md",
+        "references/node-essentials.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/typescript",
+      "name": "typescript",
+      "description": "Apply these opinionated TypeScript conventions when writing TS in this codebase: branded types, advanced generics, conditional and utility types, type guards, discriminated unions, strict tsconfig, tRPC, monorepo setup.",
+      "categories": ["Development"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/typescript",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/advanced-types.md",
+        "references/configuration.md",
+        "references/patterns.md",
+        "references/type-guards.md",
+        "references/utility-types.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/spec-mining",
+      "name": "spec-mining",
+      "description": "Apply this opinionated workflow when reverse-engineering legacy or undocumented systems: scope, explore with Glob/Grep/Read, trace data flows, document in EARS format, flag uncertainties. For code archaeology, onboarding, and requirements extraction.",
+      "categories": ["Development", "Documents"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/spec-mining",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/analysis-checklist.md",
+        "references/analysis-process.md",
+        "references/ears-format.md",
+        "references/specification-template.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/dotnet-core",
+      "name": "dotnet-core",
+      "description": "Apply these opinionated .NET 8 architecture recipes for backend services: clean architecture layering, CQRS with MediatR, minimal APIs, Entity Framework Core, JWT authentication, AOT compilation, cloud-native patterns.",
+      "categories": ["Development", "Security", "Business"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/dotnet-core",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/authentication.md",
+        "references/clean-architecture.md",
+        "references/cloud-native.md",
+        "references/entity-framework.md",
+        "references/minimal-apis.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/humanize-text",
+      "name": "humanize-text",
+      "description": "Remove signs of AI-generated writing from text. Use after drafting to make copy sound more natural and human-written. Based on Wikipedia's \"Signs of AI writing\" guide.",
+      "categories": ["Writing"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/humanize-text",
+      "commitHash": "3ae45e691e56",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/documentation",
+      "name": "documentation",
+      "description": "Apply these opinionated documentation conventions when adding docstrings, OpenAPI specs, or doc sites: Microsoft style (contract over implementation), language-specific docstrings (JSDoc, Google, NumPy), OpenAPI/Swagger, doc portals, tutorials, user guides.",
+      "categories": ["Design", "Writing"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/documentation",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/api-docs-fastapi-django.md",
+        "references/api-docs-nestjs-express.md",
+        "references/coverage-reports.md",
+        "references/documentation-systems.md",
+        "references/interactive-api-docs.md",
+        "references/python-docstrings.md",
+        "references/typescript-jsdoc.md",
+        "references/user-guides-tutorials.md"
+      ]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/jira-report-comment",
+      "name": "jira-report-comment",
+      "description": "This skill should be used when the user asks to \"jira report\", \"post update to jira\", \"summarize commits for jira\", \"report to jira\", \"update the ticket\", \"comment on the ticket\", \"generate implementation report\", \"write a jira comment\", \"summarize my changes\", or wants to notify PM/QA about completed work on a Jira ticket. Generates a business-friendly implementation report from git commits and saves it as a local markdown report.",
+      "categories": ["Development", "Writing"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/jira-report-comment",
+      "commitHash": "3ae45e691e56",
+      "files": ["SKILL.md", "references/formatting-rules.md", "references/report-template.md"]
+    },
+    {
+      "id": "alexander-danilenko/cortex-ai-skills/skills/legacy-modernization",
+      "name": "legacy-modernization",
+      "description": "Apply this opinionated workflow when modernizing legacy systems: strangler fig pattern, branch by abstraction, characterization tests, incremental monolith decomposition, framework upgrades, feature-flagged migration with rollback.",
+      "categories": ["Development"],
+      "author": "alexander-danilenko",
+      "repo": "alexander-danilenko/cortex-ai-skills",
+      "path": "skills/legacy-modernization",
+      "commitHash": "3ae45e691e56",
+      "files": [
+        "SKILL.md",
+        "references/legacy-testing.md",
+        "references/migration-strategies.md",
+        "references/refactoring-patterns.md",
+        "references/strangler-fig-pattern.md",
+        "references/system-assessment.md"
+      ]
+    },
+    {
+      "id": "jvogan/symphony-linear-starter/skills/symphony-linear-orchestrator",
+      "name": "symphony-linear-orchestrator",
+      "description": "Bootstrap self-improving Symphony + Linear orchestration for a software repository. Use when Codex needs to inspect a repo, review or generate repo-local guidance, shape Linear issues, render a Symphony workflow, launch a high-leverage first execution wave, or run an orchestrator-led review, recovery, and learnings loop that makes future runs better.",
+      "categories": ["Development", "Productivity", "Research"],
+      "author": "jvogan",
+      "repo": "jvogan/symphony-linear-starter",
+      "path": "skills/symphony-linear-orchestrator",
+      "commitHash": "f7e932ec8dbc",
+      "files": ["SKILL.md", "agents", "assets", "references", "scripts"]
+    },
+    {
+      "id": "VirtusLab-Open-Source/astro-strapi-starter/.ai/astro-strapi-blocks",
+      "name": "astro-strapi-blocks",
+      "description": "@sensinum/astro-strapi-blocks: Strapi 5 Blocks field, StrapiBlocks, theme extend/overwrite, custom block overrides. Full instructions are maintained upstream; open the links below.",
+      "categories": ["Development"],
+      "author": "VirtusLab-Open-Source",
+      "repo": "VirtusLab-Open-Source/astro-strapi-starter",
+      "path": ".ai/astro-strapi-blocks",
+      "commitHash": "ea769be765df",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "VirtusLab-Open-Source/astro-strapi-starter/.ai/astro-strapi-loader",
+      "name": "astro-strapi-loader",
+      "description": "Use @sensinum/astro-strapi-loader with Astro Content Layer: Strapi REST query objects, generateCollections, populate, qs, locales, dynamic zones. Full instructions are maintained upstream; open the links below. Strapi 5, Astro 6+.",
+      "categories": ["Development"],
+      "author": "VirtusLab-Open-Source",
+      "repo": "VirtusLab-Open-Source/astro-strapi-starter",
+      "path": ".ai/astro-strapi-loader",
+      "commitHash": "ea769be765df",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "VirtusLab-Open-Source/astro-strapi-starter/.ai/astro-strapi-starter",
+      "name": "astro-strapi-starter",
+      "description": "Develop and extend the Astro + Strapi starter: content.config with @sensinum/astro-strapi-loader, Strapi 5 data in Astro pages, StrapiBlocks, BlockRenderer, Tailwind 4, shadcn. Covers onboarding (copy upstream skills), slug/CMS routes, Astro i18n, package upgrades, optional Vitest. Types in src/types/strapi/ with a barrel index.",
+      "categories": ["Development", "Design", "Writing", "Media"],
+      "author": "VirtusLab-Open-Source",
+      "repo": "VirtusLab-Open-Source/astro-strapi-starter",
+      "path": ".ai/astro-strapi-starter",
+      "commitHash": "ea769be765df",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "powersync-ja/agent-skills/skills/powersync",
+      "name": "powersync",
+      "description": "Guided onboarding and best practices for building applications with PowerSync — Cloud and self-hosted setup, sync configuration, client SDK usage, backend integration (Supabase, custom Postgres, MongoDB, MySQL, MSSQL), and debugging. Use this skill whenever the user mentions PowerSync, offline-first sync, local-first architecture, sync rules, sync streams, uploadData, fetchCredentials, real-time data replication, or wants to add offline-capable sync to a mobile or web app — even if they don't explicitly name PowerSync.",
+      "categories": ["Development", "Productivity", "Data & Analytics", "Integration"],
+      "author": "powersync-ja",
+      "repo": "powersync-ja/agent-skills",
+      "path": "skills/powersync",
+      "commitHash": "c50e805ff8bd",
+      "files": ["AGENTS.md", "CLAUDE.md", "SKILL.md", "references"]
     },
     {
       "id": "drivly/auto-dev-skill",
@@ -814,17 +1177,6 @@
       ],
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "powersync-ja/agent-skills/skills/powersync",
-      "name": "powersync",
-      "description": "Guided onboarding and best practices for building applications with PowerSync — Cloud and self-hosted setup, sync configuration, client SDK usage, backend integration (Supabase, custom Postgres, MongoDB, MySQL, MSSQL), and debugging. Use this skill whenever the user mentions PowerSync, offline-first sync, local-first architecture, sync rules, sync streams, uploadData, fetchCredentials, real-time data replication, or wants to add offline-capable sync to a mobile or web app — even if they don't explicitly name PowerSync.",
-      "categories": ["Development", "Productivity", "Data & Analytics", "Integration"],
-      "author": "powersync-ja",
-      "repo": "powersync-ja/agent-skills",
-      "path": "skills/powersync",
-      "commitHash": "c50e805ff8bd",
-      "files": ["AGENTS.md", "CLAUDE.md", "SKILL.md", "references"]
     },
     {
       "id": "th3vib3coder/vibe-science/.claude/skills/delivery-discipline",
@@ -977,36 +1329,113 @@
       ]
     },
     {
-      "id": "cucupac/shellbrain/onboarding_assets/codex/shellbrain-session-start",
-      "name": "shellbrain-session-start",
-      "description": "Use when Codex should get up to speed in any repo with the installed shellbrain CLI, or when work shifts to a new surface, repeated failure suggests prior memory may help, a hypothesis changes, an evidence-bearing write is about to happen, or closeout should record durable learnings.",
-      "categories": ["Marketing"],
-      "author": "cucupac",
-      "repo": "cucupac/shellbrain",
-      "path": "onboarding_assets/codex/shellbrain-session-start",
-      "commitHash": "38039d5a468b",
-      "files": ["SKILL.md", "agents", "assets", "references"]
+      "id": "QZhang2111/Research-Pilot/skills/deep-read-to-delta",
+      "name": "deep-read-to-delta",
+      "description": "Use when a project-local paper dossier should produce graph delta JSON proposals and run through the human-gated delta loop.",
+      "categories": ["Data & Analytics"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/deep-read-to-delta",
+      "commitHash": "447b1a0fd021",
+      "files": ["SKILL.md"]
     },
     {
-      "id": "cucupac/shellbrain/onboarding_assets/codex/shellbrain-usage-review",
-      "name": "shellbrain-usage-review",
-      "description": "Use when a reviewer agent needs one fast cross-repo picture of how agents are using Shellbrain, where the product is working, where it is failing, and which expected capabilities are being skipped.",
-      "categories": ["AI & ML"],
-      "author": "cucupac",
-      "repo": "cucupac/shellbrain",
-      "path": "onboarding_assets/codex/shellbrain-usage-review",
-      "commitHash": "38039d5a468b",
-      "files": ["SKILL.md", "agents", "assets"]
+      "id": "QZhang2111/Research-Pilot/skills/delta-update-protocol",
+      "name": "delta-update-protocol",
+      "description": "Use when a Research Pilot project graph change must be previewed, registered, accepted, rejected, parked, or revised through human-gated D* deltas.",
+      "categories": ["Research"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/delta-update-protocol",
+      "commitHash": "447b1a0fd021",
+      "files": ["SKILL.md"]
     },
     {
-      "id": "cucupac/shellbrain/onboarding_assets/cursor/skills/shellbrain-session-start",
-      "name": "shellbrain-session-start",
-      "description": "Use when Cursor should get up to speed in any repo with the installed shellbrain CLI, or when work shifts to a new surface, repeated failure suggests prior memory may help, a hypothesis changes, an evidence-bearing write is about to happen, or closeout should record durable learnings.",
-      "categories": ["Marketing"],
-      "author": "cucupac",
-      "repo": "cucupac/shellbrain",
-      "path": "onboarding_assets/cursor/skills/shellbrain-session-start",
-      "commitHash": "38039d5a468b",
+      "id": "QZhang2111/Research-Pilot/skills/gap-driven-search",
+      "name": "gap-driven-search",
+      "description": "Use when a graph gap or Evidence Need should become a targeted paper-search contract or candidate lead list.",
+      "categories": ["Other"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/gap-driven-search",
+      "commitHash": "447b1a0fd021",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/paper-discovery-intake",
+      "name": "paper-discovery-intake",
+      "description": "Use when the user wants to add Zotero-first paper/source identity into a Research Pilot project.",
+      "categories": ["Research"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/paper-discovery-intake",
+      "commitHash": "447b1a0fd021",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/project-evidence-synthesis",
+      "name": "project-evidence-synthesis",
+      "description": "Use when a set of papers, dossiers, or graph records must be synthesized into project claims, evidence, limitations, warrants, project deltas, and next actions.",
+      "categories": ["Other"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/project-evidence-synthesis",
+      "commitHash": "447b1a0fd021",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/project-experiment-proposal",
+      "name": "project-experiment-proposal",
+      "description": "Use when a Research Pilot project needs an experiment proposal from a weak or bounded project claim.",
+      "categories": ["Research"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/project-experiment-proposal",
+      "commitHash": "447b1a0fd021",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/project-understanding-update",
+      "name": "project-understanding-update",
+      "description": "Use when a research project needs its current understanding updated from human intent, new questions, new claims, evidence pressure, paper synthesis, experiment results, or direction changes.",
+      "categories": ["Research"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/project-understanding-update",
+      "commitHash": "447b1a0fd021",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/research-pilot-first-run",
+      "name": "research-pilot-first-run",
+      "description": "Use when a new user wants to start Research Pilot from scratch, initialize or inspect a workspace, create the first project, or make the first human-gated project graph update.",
+      "categories": ["Research"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/research-pilot-first-run",
+      "commitHash": "447b1a0fd021",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/research-pilot",
+      "name": "research-pilot",
+      "description": "Use when the user wants to initialize, inspect, or operate a Research Pilot workspace for agent-operated research memory.",
+      "categories": ["Research"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/research-pilot",
+      "commitHash": "447b1a0fd021",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/single-paper-deep-read",
+      "name": "single-paper-deep-read",
+      "description": "Use when the user wants an agent to create or update a project-local paper dossier from one Zotero-managed paper or source identity.",
+      "categories": ["Productivity"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/single-paper-deep-read",
+      "commitHash": "447b1a0fd021",
       "files": ["SKILL.md"]
     },
     {
@@ -1447,6 +1876,39 @@
       "repo": "composio-community/support-skills",
       "path": "draft-reply",
       "commitHash": "83382c4b055f",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cucupac/shellbrain/onboarding_assets/codex/shellbrain-session-start",
+      "name": "shellbrain-session-start",
+      "description": "Use when Codex should get up to speed in any repo with the installed shellbrain CLI, or when work shifts to a new surface, repeated failure suggests prior memory may help, a hypothesis changes, an evidence-bearing write is about to happen, or closeout should record durable learnings.",
+      "categories": ["Marketing"],
+      "author": "cucupac",
+      "repo": "cucupac/shellbrain",
+      "path": "onboarding_assets/codex/shellbrain-session-start",
+      "commitHash": "38039d5a468b",
+      "files": ["SKILL.md", "agents", "assets", "references"]
+    },
+    {
+      "id": "cucupac/shellbrain/onboarding_assets/codex/shellbrain-usage-review",
+      "name": "shellbrain-usage-review",
+      "description": "Use when a reviewer agent needs one fast cross-repo picture of how agents are using Shellbrain, where the product is working, where it is failing, and which expected capabilities are being skipped.",
+      "categories": ["AI & ML"],
+      "author": "cucupac",
+      "repo": "cucupac/shellbrain",
+      "path": "onboarding_assets/codex/shellbrain-usage-review",
+      "commitHash": "38039d5a468b",
+      "files": ["SKILL.md", "agents", "assets"]
+    },
+    {
+      "id": "cucupac/shellbrain/onboarding_assets/cursor/skills/shellbrain-session-start",
+      "name": "shellbrain-session-start",
+      "description": "Use when Cursor should get up to speed in any repo with the installed shellbrain CLI, or when work shifts to a new surface, repeated failure suggests prior memory may help, a hypothesis changes, an evidence-bearing write is about to happen, or closeout should record durable learnings.",
+      "categories": ["Marketing"],
+      "author": "cucupac",
+      "repo": "cucupac/shellbrain",
+      "path": "onboarding_assets/cursor/skills/shellbrain-session-start",
+      "commitHash": "38039d5a468b",
       "files": ["SKILL.md"]
     },
     {
@@ -4466,6 +4928,24 @@
         "references/product-applications.md",
         "references/rewards.md",
         "references/triggers.md"
+      ]
+    },
+    {
+      "id": "wondelai/skills/top-design",
+      "name": "top-design",
+      "description": "Create award-winning, immersive web experiences at the level of Awwwards-featured agencies. Use when the user mentions \"premium website\", \"portfolio site\", \"scroll animations\", \"Awwwards quality\", \"brand experience\", \"cinematic web design\", \"parallax storytelling\", or \"agency-quality site\". Also trigger when building landing pages that need to impress, designing creative portfolios, or elevating a standard website to a memorable digital experience. Covers dramatic typography, purposeful motion, scroll-based composition, and performance-optimized animation. For foundational UI, see refactoring-ui. For type selection, see web-typography.",
+      "categories": ["Development", "Design"],
+      "author": "wondelai",
+      "repo": "wondelai/skills",
+      "path": "top-design",
+      "commitHash": "7c71a845071e",
+      "files": [
+        "SKILL.md",
+        "references/animation-patterns.md",
+        "references/case-studies.md",
+        "references/layout-systems.md",
+        "references/technical-stack.md",
+        "references/typography.md"
       ]
     },
     {
@@ -8113,311 +8593,6 @@
       "files": ["SKILL.md", "references"]
     },
     {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/go-mode",
-      "name": "go-mode",
-      "description": "Autonomous goal execution — give a goal, get a plan, confirm, execute, report. You steer, Claude drives.",
-      "categories": ["Other"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "go-mode",
-      "commitHash": "f36b34fc539a",
-      "version": "2.0.0",
-      "tags": ["autonomy", "planning", "execution", "goal-setting", "productivity"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["README.md", "SKILL-OC.md", "SKILL.md"]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/meeting-prep",
-      "name": "meeting-prep-cc",
-      "description": "Generate a pre-meeting prep brief in Claude Code. Researches participants, pulls vault context, builds agenda, surfaces sharp questions. Use when user says \"prep for this meeting,\" \"I have a call with,\" \"meeting tomorrow with,\" or \"prep brief for [name/company].\"",
-      "categories": ["Development", "Design", "Research"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "meeting-prep",
-      "commitHash": "f36b34fc539a",
-      "files": [
-        "SKILL-OC.md",
-        "SKILL.md",
-        "references/brief-template.md",
-        "references/meeting-types.md",
-        "references/question-banks.md"
-      ]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/social-card-gen",
-      "name": "social-card-gen",
-      "description": "Generate platform-specific social post variants (Twitter/X, LinkedIn, Reddit) from one source input. Works with or without Node.js script. Includes platform reasoning, quality review, and guardrails against cross-posting spam.",
-      "categories": ["Marketing", "Research"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "social-card-gen",
-      "commitHash": "f36b34fc539a",
-      "files": [
-        ".clawdhub/origin.json",
-        "README.md",
-        "SKILL-OC.md",
-        "SKILL.md",
-        "examples/input-example.md",
-        "examples/output-linkedin.txt",
-        "examples/output-reddit.txt",
-        "examples/output-twitter.txt",
-        "generate.js",
-        "package.json",
-        "templates.js"
-      ]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/positioning-basics",
-      "name": "positioning-basics",
-      "description": "Help founders and marketers nail their positioning. Use when someone mentions \"positioning,\" \"value proposition,\" \"who is this for,\" \"how do I describe my product,\" \"messaging,\" \"ICP,\" \"ideal customer,\" or is struggling to articulate what makes their product different.",
-      "categories": ["Other"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "positioning-basics",
-      "commitHash": "f36b34fc539a",
-      "files": ["SKILL-OC.md", "SKILL.md"]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/case-study-builder",
-      "name": "case-study-builder",
-      "description": "Turn client wins into formatted case studies for proposals, social proof, and sales conversations. Use when someone needs to document results, build credibility, or create reusable proof assets.",
-      "categories": ["Development", "Documents"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "case-study-builder",
-      "commitHash": "f36b34fc539a",
-      "files": ["SKILL-OC.md", "SKILL.md"]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/marketing-principles",
-      "name": "marketing-principles",
-      "description": "Apply timeless marketing and business principles to any problem. Use when someone needs strategic thinking, wants to evaluate a marketing decision, needs a framework for a tough choice, or mentions \"first principles,\" \"should I do X,\" \"what would work here,\" or wants to think through a marketing problem systematically.",
-      "categories": ["Business"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "marketing-principles",
-      "commitHash": "f36b34fc539a",
-      "files": ["SKILL-OC.md", "SKILL.md"]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/testimonial-collector",
-      "name": "testimonial-collector",
-      "description": "Systematically gather, score, and format client testimonials. Use when someone needs social proof, wants to collect feedback, needs to turn happy clients into public advocates, or asks for help requesting or drafting a testimonial.",
-      "categories": ["Development"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "testimonial-collector",
-      "commitHash": "f36b34fc539a",
-      "files": ["SKILL-OC.md", "SKILL.md"]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/vault-cleanup-auditor",
-      "name": "vault-cleanup-auditor",
-      "description": "Audit your Obsidian vault in Claude Code — finds stale drafts, empty folders, duplicate filenames, and incomplete files. Saves a dated report.",
-      "categories": ["Business"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "vault-cleanup-auditor",
-      "commitHash": "f36b34fc539a",
-      "files": ["SKILL-OC.md", "SKILL.md"]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/daily-briefing-builder",
-      "name": "daily-briefing-builder",
-      "description": "Generate a clean morning brief in Claude Code — pulls today's priorities, unposted content, and weather from your vault.",
-      "categories": ["Development", "Writing", "AI & ML"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "daily-briefing-builder",
-      "commitHash": "f36b34fc539a",
-      "files": ["SKILL-OC.md", "SKILL.md"]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/ai-discoverability-audit",
-      "name": "ai-discoverability-audit",
-      "description": "Audit how a brand appears in AI-powered search (ChatGPT, Perplexity, Claude, Gemini). Use when user mentions \"AI search,\" \"how do I show up in ChatGPT,\" \"AI discoverability,\" \"AEO,\" \"LLM visibility,\" or wants to understand their brand's AI presence.",
-      "categories": ["Research", "AI & ML"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "ai-discoverability-audit",
-      "commitHash": "f36b34fc539a",
-      "files": ["SKILL-OC.md", "SKILL.md", "references/query-bank.md"]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/linkedin-authority-builder",
-      "name": "linkedin-authority-builder",
-      "description": "Build a LinkedIn content system for thought leadership. Use when someone needs to establish authority, attract inbound leads, or build a consistent content presence. Covers positioning, content pillars, formats, and posting rhythm.",
-      "categories": ["Development", "Writing", "Marketing"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "linkedin-authority-builder",
-      "commitHash": "f36b34fc539a",
-      "files": ["SKILL-OC.md", "SKILL.md"]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/linkedin-profile-optimizer",
-      "name": "linkedin-profile-optimizer",
-      "description": "Audit and rewrite your LinkedIn profile to attract the right people. Scores each section, rewrites headline and about copy, and includes an AI visibility checklist so you show up in ChatGPT, Perplexity, and Claude search. Use when someone says \"optimize my LinkedIn,\" \"LinkedIn profile help,\" \"rewrite my about section,\" or \"how do I show up in AI search.\"",
-      "categories": ["Development", "Writing", "Business", "AI & ML"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "linkedin-profile-optimizer",
-      "commitHash": "f36b34fc539a",
-      "files": ["SKILL-OC.md", "SKILL.md"]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/newsletter-creation-curation",
-      "name": "newsletter-creation-curation",
-      "description": "Industry-adaptive B2B newsletter creation with stage, role, and geography-aware workflows",
-      "categories": ["Other"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "newsletter-creation-curation",
-      "commitHash": "f36b34fc539a",
-      "files": [
-        ".clawdhub/origin.json",
-        "PLAYBOOK.md",
-        "README.md",
-        "SKILL-OC.md",
-        "SKILL.md",
-        "examples/example-hr-tech-issue.md",
-        "examples/example-sales-tech-issue.md",
-        "templates/fintech-template.md",
-        "templates/hr-tech-template.md",
-        "templates/ops-tech-template.md",
-        "templates/sales-tech-template.md"
-      ]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/de-ai-ify",
-      "name": "de-ai-ify",
-      "description": "Remove AI-generated jargon and restore human voice to text. Built from analyzing 1,000+ AI vs human content pieces.",
-      "categories": ["Writing"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "de-ai-ify",
-      "commitHash": "f36b34fc539a",
-      "version": "2.0.0",
-      "tags": ["writing", "editing", "voice", "ai-detection", "content-quality"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["README.md", "SKILL-OC.md", "SKILL.md", "_meta.json"]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/last30days",
-      "name": "last30days",
-      "description": "Research any topic across Reddit, X, and web from the last 30 days. Get current trends, real community sentiment, and actionable insights in 7 minutes vs 2 hours manual research.",
-      "categories": ["Research"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "last30days",
-      "commitHash": "f36b34fc539a",
-      "version": "2.0.0",
-      "tags": ["research", "trends", "reddit", "twitter", "competitive-intel", "content-research"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["README.md", "SKILL-OC.md", "SKILL.md"]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/plan-my-day",
-      "name": "plan-my-day",
-      "description": "Generate an energy-optimized, time-blocked daily plan based on circadian rhythm research and GTD principles",
-      "categories": ["Productivity", "Research"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "plan-my-day",
-      "commitHash": "f36b34fc539a",
-      "version": "2.0.0",
-      "tags": ["productivity", "planning", "time-blocking", "energy-management", "gtd"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["README.md", "SKILL-OC.md", "SKILL.md", "_meta.json"]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/youtube-summarizer",
-      "name": "youtube-summarizer",
-      "description": "Automatically fetch YouTube video transcripts, generate structured summaries, and send full transcripts to messaging platforms. Detects YouTube URLs and provides metadata, key insights, and downloadable transcripts.",
-      "categories": ["Media"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "youtube-summarizer",
-      "commitHash": "f36b34fc539a",
-      "version": "2.0.0",
-      "tags": ["youtube", "transcription", "summarization", "video", "telegram"],
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "README.md",
-        "SKILL-OC.md",
-        "SKILL.md",
-        "_meta.json",
-        "examples/sample-output.md",
-        "package.json"
-      ]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/tweet-draft-reviewer",
-      "name": "tweet-draft-reviewer",
-      "description": "Review tweet drafts in Claude Code against 8 voice rules. Scores 1-10, breaks down every rule, and rewrites anything that scores below 7.",
-      "categories": ["Writing", "AI & ML"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "tweet-draft-reviewer",
-      "commitHash": "f36b34fc539a",
-      "files": ["SKILL-OC.md", "SKILL.md"]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/cold-outreach-sequence",
-      "name": "cold-outreach-sequence",
-      "description": "Build personalized cold outreach sequences for LinkedIn and email. Use when someone needs to reach prospects, warm up cold leads, or build a systematic outreach engine. Covers research, connection requests, follow-ups, and conversion.",
-      "categories": ["Development", "Integration", "Marketing", "Research"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "cold-outreach-sequence",
-      "commitHash": "f36b34fc539a",
-      "files": ["SKILL-OC.md", "SKILL.md"]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/content-idea-generator",
-      "name": "content-idea-generator",
-      "description": "Generate content ideas rooted in positioning. Use when someone needs \"content ideas,\" \"what should I post,\" \"blog topics,\" \"LinkedIn ideas,\" or is stuck on what to create.",
-      "categories": ["Writing", "Productivity"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "content-idea-generator",
-      "commitHash": "f36b34fc539a",
-      "files": ["SKILL-OC.md", "SKILL.md"]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/homepage-audit",
-      "name": "homepage-audit",
-      "description": "Full conversion audit for any homepage or landing page. Use when someone asks to \"review my homepage,\" \"audit my landing page,\" \"why isn't my page converting,\" \"check my website,\" or wants feedback on their marketing page. Requires URL or screenshot before proceeding.",
-      "categories": ["Marketing", "Research"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "homepage-audit",
-      "commitHash": "f36b34fc539a",
-      "files": ["SKILL-OC.md", "SKILL.md"]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/voice-extractor",
-      "name": "voice-extractor",
-      "description": "Extract and document someone's authentic writing voice from samples. Use when someone needs a \"voice guide,\" wants to capture their writing DNA, or needs to train AI to write in their style. Also useful for ghostwriting, brand voice documentation, or onboarding writers.",
-      "categories": ["Design", "Writing"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "voice-extractor",
-      "commitHash": "f36b34fc539a",
-      "files": ["SKILL-OC.md", "SKILL.md", "VOICE-GUIDE-TEMPLATE.md"]
-    },
-    {
-      "id": "BrianRWagner/ai-marketing-claude-code-skills/reddit-insights",
-      "name": "reddit-insights",
-      "description": "Search and analyze Reddit content using semantic AI search via reddit-insights.com MCP server.\nUse when you need to: (1) Find user pain points and frustrations for product ideas, (2) Discover niche markets or underserved needs, (3) Research what people really think about products/topics, (4) Find content inspiration from real discussions, (5) Analyze sentiment and trends on Reddit, (6) Validate business ideas with real user feedback.\nTriggers: reddit search, find pain points, market research, user feedback, what do people think about, reddit trends, niche discovery, product validation.\n",
-      "categories": ["Research"],
-      "author": "BrianRWagner",
-      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
-      "path": "reddit-insights",
-      "commitHash": "f36b34fc539a",
-      "files": [".clawdhub/origin.json", "README.md", "SKILL-OC.md", "SKILL.md"]
-    },
-    {
       "id": "assafelovic/skyll/skills/skyll",
       "name": "skyll",
       "description": "Search and retrieve agent skills at runtime. This skill should be used when the agent needs to find specialized capabilities, workflows, or domain knowledge to accomplish a task. Skyll aggregates skills from skills.sh and returns full SKILL.md content ready for context injection.",
@@ -8438,6 +8613,17 @@
       "path": "",
       "commitHash": "edfca5e36ceb",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "ckelsoe/prompt-architect/skills/prompt-architect",
+      "name": "prompt-architect",
+      "description": "Analyzes and improves prompts using 27 research-backed frameworks across 7 intent categories. Use when a user wants to improve, rewrite, structure, or engineer a prompt — including requests like \"help me write a better prompt\", \"improve this prompt\", \"what framework should I use\", \"make this prompt more effective\", or any prompt engineering task. Recommends the right framework based on intent (create, transform, reason, critique, recover, clarify, agentic), asks targeted questions, and delivers a structured, high-quality result.",
+      "categories": ["Business", "Research", "AI & ML"],
+      "author": "ckelsoe",
+      "repo": "ckelsoe/prompt-architect",
+      "path": "skills/prompt-architect",
+      "commitHash": "6e12013eb782",
+      "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
       "id": "adeze/raindrop-mcp/.github/skills/publishing",
@@ -8504,17 +8690,6 @@
       "path": ".github/skills/mcp-refactoring",
       "commitHash": "5ef7fb7fd5b6",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "ckelsoe/prompt-architect/skills/prompt-architect",
-      "name": "prompt-architect",
-      "description": "Analyzes and improves prompts using 27 research-backed frameworks across 7 intent categories. Use when a user wants to improve, rewrite, structure, or engineer a prompt — including requests like \"help me write a better prompt\", \"improve this prompt\", \"what framework should I use\", \"make this prompt more effective\", or any prompt engineering task. Recommends the right framework based on intent (create, transform, reason, critique, recover, clarify, agentic), asks targeted questions, and delivers a structured, high-quality result.",
-      "categories": ["Business", "Research", "AI & ML"],
-      "author": "ckelsoe",
-      "repo": "ckelsoe/prompt-architect",
-      "path": "skills/prompt-architect",
-      "commitHash": "6e12013eb782",
-      "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
       "id": "PleasePrompto/google-ai-mode-skill",
