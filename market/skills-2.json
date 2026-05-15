@@ -5,7 +5,7 @@
       "branch": "main",
       "stars": 16,
       "forks": 5,
-      "lastUpdated": "2026-05-14T21:30:01Z"
+      "lastUpdated": "2026-05-15T00:55:14Z"
     },
     "ChenXi-hub/tju-thesis-review-kit": {
       "url": "https://github.com/ChenXi-hub/tju-thesis-review-kit",
@@ -13,13 +13,6 @@
       "stars": 16,
       "forks": 2,
       "lastUpdated": "2026-05-08T07:40:56Z"
-    },
-    "jianshuo/claude-skills": {
-      "url": "https://github.com/jianshuo/claude-skills",
-      "branch": "main",
-      "stars": 16,
-      "forks": 1,
-      "lastUpdated": "2026-05-14T17:03:42Z"
     },
     "chriskd/memex-kb": {
       "url": "https://github.com/chriskd/memex-kb",
@@ -77,6 +70,20 @@
       "forks": 0,
       "lastUpdated": "2026-04-30T19:28:08Z"
     },
+    "Bhanunamikaze/AI-Dataset-Generator": {
+      "url": "https://github.com/Bhanunamikaze/AI-Dataset-Generator",
+      "branch": "main",
+      "stars": 11,
+      "forks": 2,
+      "lastUpdated": "2026-05-04T21:38:22Z"
+    },
+    "martysama0134/m2ui-skill": {
+      "url": "https://github.com/martysama0134/m2ui-skill",
+      "branch": "main",
+      "stars": 10,
+      "forks": 3,
+      "lastUpdated": "2026-05-11T17:59:53Z"
+    },
     "QZhang2111/Research-Pilot": {
       "url": "https://github.com/QZhang2111/Research-Pilot",
       "branch": "main",
@@ -84,26 +91,19 @@
       "forks": 1,
       "lastUpdated": "2026-05-13T11:16:15Z"
     },
-    "cucupac/shellbrain": {
-      "url": "https://github.com/cucupac/shellbrain",
-      "branch": "main",
-      "stars": 10,
-      "forks": 0,
-      "lastUpdated": "2026-05-14T06:07:03Z"
-    },
-    "Bhanunamikaze/AI-Dataset-Generator": {
-      "url": "https://github.com/Bhanunamikaze/AI-Dataset-Generator",
-      "branch": "main",
-      "stars": 10,
-      "forks": 2,
-      "lastUpdated": "2026-05-04T21:38:22Z"
-    },
     "composio-community/support-skills": {
       "url": "https://github.com/composio-community/support-skills",
       "branch": "main",
       "stars": 10,
       "forks": 0,
       "lastUpdated": "2026-04-21T18:18:53Z"
+    },
+    "cucupac/shellbrain": {
+      "url": "https://github.com/cucupac/shellbrain",
+      "branch": "main",
+      "stars": 10,
+      "forks": 0,
+      "lastUpdated": "2026-05-14T06:07:03Z"
     },
     "yshishenya/stitchflow": {
       "url": "https://github.com/yshishenya/stitchflow",
@@ -128,6 +128,13 @@
     },
     "parcadei/Continuous-Claude-v3": {
       "url": "https://github.com/parcadei/Continuous-Claude-v3",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "lackeyjb/playwright-skill": {
+      "url": "https://github.com/lackeyjb/playwright-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -584,7 +591,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/security-audit",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -595,7 +602,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/refactoring",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -606,7 +613,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-ranking",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -617,7 +624,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-visualization",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -628,7 +635,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/meeting-transcription",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -639,7 +646,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-deployment",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -650,7 +657,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-analysis",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -661,7 +668,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/content-strategy",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -672,7 +679,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/proofreading",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -683,7 +690,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/summarization",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -694,7 +701,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/report-generation",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -705,7 +712,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/fact-checking",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -716,7 +723,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/copywriting",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -727,7 +734,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/docker-compose-setup",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -738,7 +745,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-retrieval",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -749,7 +756,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-compression",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -760,7 +767,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/ml-pipeline-creation",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -771,7 +778,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/keyword-research",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -782,7 +789,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/graphql-api-design",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -793,7 +800,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dynamic-application-security-testing",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -804,7 +811,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-backup",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -815,7 +822,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-cleaning",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -826,7 +833,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/oauth-2-0-setup",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -837,7 +844,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-injection",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -848,7 +855,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/exploratory-data-analysis",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -859,7 +866,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-optimization",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -870,7 +877,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-seeding",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -881,7 +888,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-design",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -892,7 +899,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/ci-cd",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -903,7 +910,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/threat-modeling",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -914,7 +921,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/literature-review",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -925,7 +932,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/chatbot-conversation-design",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -936,7 +943,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/task-automation",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -947,7 +954,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/cloud-monitoring",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -958,7 +965,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/static-application-security-testing",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -969,7 +976,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/code-documentation",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -980,7 +987,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/query-optimization",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -991,7 +998,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-schema-design",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1002,7 +1009,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/webhook-setup",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1013,7 +1020,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/seo-optimization",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1024,7 +1031,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/note-taking",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1035,7 +1042,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/blog-post-writing",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1046,7 +1053,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/hyperparameter-tuning",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1057,7 +1064,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/sql-query-generation",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1068,7 +1075,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dependency-scanning",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1079,7 +1086,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-training",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1090,7 +1097,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/version-control",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1101,7 +1108,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/technical-writing",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1112,7 +1119,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/social-media-posting",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1123,7 +1130,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/data-labeling",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1134,7 +1141,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/presentation-creation",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1145,7 +1152,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/analytics-reporting",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1156,7 +1163,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/translation",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1167,7 +1174,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/email-drafting",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1178,7 +1185,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-integration",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1189,7 +1196,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/knowledge-graph-creation",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1200,7 +1207,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/kubernetes-deployment",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1211,7 +1218,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/infrastructure-as-code",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1222,7 +1229,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-migration",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1233,7 +1240,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/deep-research",
-      "commitHash": "c862abf03719",
+      "commitHash": "8c3746f48f56",
       "files": ["SKILL.md"]
     },
     {
@@ -1257,268 +1264,6 @@
       "path": ".cursor/skills/tju-thesis-reviewer",
       "commitHash": "b4aa0ea43e45",
       "files": ["SKILL.md", "examples.md", "review-checklist.md", "supervisor-requirements.md"]
-    },
-    {
-      "id": "jianshuo/claude-skills/wjs-dubbing-video",
-      "name": "wjs-dubbing-video",
-      "description": "Use when the user has a video + a target-language SRT and wants the video to actually speak that language — generates a time-aligned TTS voice dub. Routes by voice ID — Volcano (豆包) TTS for Chinese, edge-tts neural for any language. Defaults to one voice (single-speaker); opt-in multi-speaker via visual diarization. Outputs `*_<lang>_dub.mp4` with the dub audio in place of the original. Final mixing (audio bed + burn-in) is handed off to `/wjs-burning-subtitles`. Triggers — \"配音\", \"中文配音\", \"Chinese dub\", \"voice over this\", \"dub the video\", \"TTS this SRT\", \"different voice for each speaker\".",
-      "categories": ["Productivity", "Media"],
-      "author": "jianshuo",
-      "repo": "jianshuo/claude-skills",
-      "path": "wjs-dubbing-video",
-      "commitHash": "b7c4fcb97340",
-      "files": ["SKILL.md", "scripts/dub.py", "scripts/visual_diarize.py"]
-    },
-    {
-      "id": "jianshuo/claude-skills/wjs-uploading-video",
-      "name": "wjs-uploading-video",
-      "description": "Upload one or many videos to YouTube. Use when the user wants to \"上传到 YouTube\", \"发 YouTube\", \"批量上传\", \"upload to YouTube\", \"post videos to YouTube\", or to publish a finished `final/` directory of MP4s. Reads per-video metadata (title / description / tags) from a sibling `UPLOAD_META.md` file when present (the user's standard markdown format), or from command-line flags. Survives behind a SOCKS/HTTP proxy by using `requests` directly for the resumable upload (the stock `google-api-python-client` MediaFileUpload stalls under this user's proxy setup).",
-      "categories": ["Development", "Writing", "Documents", "Media"],
-      "author": "jianshuo",
-      "repo": "jianshuo/claude-skills",
-      "path": "wjs-uploading-video",
-      "commitHash": "b7c4fcb97340",
-      "files": ["SKILL.md", "references/credentials-setup.md", "scripts/upload_youtube.py"]
-    },
-    {
-      "id": "jianshuo/claude-skills/wjs-reframing-video",
-      "name": "wjs-reframing-video",
-      "description": "Use when the user wants to convert a video between horizontal and vertical orientations while preserving the inverted aspect ratio (16:9 ↔ 9:16, 4:3 ↔ 3:4, 21:9 ↔ 9:21). The skill crops a narrow band from the source and tracks the active speaker — the person whose mouth is moving — via MediaPipe face landmarks and mouth-aspect-ratio variance, so the talker stays in frame even when other people are visible. Triggers — \"横转竖\", \"竖转横\", \"做成竖屏发抖音/视频号/小红书\", \"16:9 to 9:16\", \"make this vertical for Reels / TikTok / YouTube Shorts\", \"crop to portrait\", \"convert to landscape\".",
-      "categories": ["Media"],
-      "author": "jianshuo",
-      "repo": "jianshuo/claude-skills",
-      "path": "wjs-reframing-video",
-      "commitHash": "b7c4fcb97340",
-      "files": [
-        "SKILL.md",
-        "models/blaze_face_short_range.tflite",
-        "models/face_landmarker.task",
-        "scripts/crop.py"
-      ]
-    },
-    {
-      "id": "jianshuo/claude-skills/wjs-localizing-video",
-      "name": "wjs-localizing-video",
-      "description": "Thin orchestrator for the end-to-end video localization pipeline. Routes to the four focused sub-skills — /wjs-transcribing-audio, /wjs-translating-subtitles, /wjs-dubbing-video, /wjs-burning-subtitles. Use when the user asks for full localization in one go (\"帮我把这个西班牙语视频做成中文字幕+配音\", \"translate and dub this video\", \"做完整的本地化\"). For any individual step (just transcribe, just translate, just dub, just burn), invoke the sub-skill directly — it's faster and the boundary is cleaner.",
-      "categories": ["Media"],
-      "author": "jianshuo",
-      "repo": "jianshuo/claude-skills",
-      "path": "wjs-localizing-video",
-      "commitHash": "b7c4fcb97340",
-      "files": [
-        ".gitignore",
-        ".publish-manifest.json",
-        "LICENSE",
-        "README.md",
-        "SKILL.md",
-        "test-prompts.json"
-      ]
-    },
-    {
-      "id": "jianshuo/claude-skills/wjs-segmenting-video",
-      "name": "wjs-segmenting-video",
-      "description": "Use when the user has a long-form video (interview / lecture / podcast / conversation) and a transcript SRT, and wants to extract 3–6 stand-alone topical short clips from it. This skill ONLY cuts and crops — it produces raw clips + per-clip SRTs as a hand-off package for downstream post-production (`/wjs-overlaying-video`). Triggers — \"切成几段\", \"分主题\", \"拆成短视频\", \"切片\", \"topic segments\", \"split into clips\".",
-      "categories": ["Documents", "Media"],
-      "author": "jianshuo",
-      "repo": "jianshuo/claude-skills",
-      "path": "wjs-segmenting-video",
-      "commitHash": "b7c4fcb97340",
-      "files": [
-        "SKILL.md",
-        "references/example_segments.json",
-        "references/platform_sizes.md",
-        "references/segments_schema.json",
-        "scripts/burn_subs.py",
-        "scripts/compose_cover.py",
-        "scripts/make_cover.py",
-        "scripts/prepend_intro.py",
-        "scripts/segment.py"
-      ]
-    },
-    {
-      "id": "jianshuo/claude-skills/wjs-overlaying-video",
-      "name": "wjs-overlaying-video",
-      "description": "Use when the user has one or more video clips and wants to add post-production on top — AI-generated cover as first frame, HTML/CSS captions synced to SRT, kinetic illustration overlays at hook moments, chapter chips, end-card CTA, or any other timed motion graphics. Most often used as the downstream of `/wjs-segmenting-video` — pick up where that skill stopped (raw cropped clip + per-clip SRT) and produce the upload-ready MP4. Backed by HyperFrames so everything compiles to ONE final encode — no cascade of re-encodes. Triggers — \"加封面\", \"加字幕\", \"加动画\", \"加 CTA\", \"做后期\", \"post-production\", \"title card\", \"kinetic captions\", \"end card\".",
-      "categories": ["Development", "Design", "Productivity", "AI & ML", "Media"],
-      "author": "jianshuo",
-      "repo": "jianshuo/claude-skills",
-      "path": "wjs-overlaying-video",
-      "commitHash": "b7c4fcb97340",
-      "files": [
-        "SKILL.md",
-        "references/build_hf_clips.py",
-        "references/custom_overlay_recipes.md",
-        "references/example_spec.json",
-        "references/illustration_patterns.md",
-        "references/illustrations.py",
-        "scripts/scaffold.py"
-      ]
-    },
-    {
-      "id": "jianshuo/claude-skills/wjs-syncing-multicam",
-      "name": "wjs-syncing-multicam",
-      "description": "Use when the user has 2+ video / audio recordings of the same event captured by different devices (cameras, phones, separate audio recorders) and wants them aligned to a single common timeline. Outputs only a lightweight `.sync.json` sidecar per input — original files are never re-encoded. Triggers — \"多机位同步\", \"对齐这几个机位\", \"match camera timelines\", \"sync these angles\", \"audio drift between cameras\", \"separate audio recorder\", \"Riverside / Zoom recording that needs to line up\".",
-      "categories": ["Integration", "Media"],
-      "author": "jianshuo",
-      "repo": "jianshuo/claude-skills",
-      "path": "wjs-syncing-multicam",
-      "commitHash": "b7c4fcb97340",
-      "files": ["SKILL.md", "scripts/sync.py", "scripts/sync_partial.py", "scripts/verify.py"]
-    },
-    {
-      "id": "jianshuo/claude-skills/wjs-auditing-project",
-      "name": "wjs-auditing-project",
-      "description": "Use when the user asks to audit what's wrong with a project, \"make it right\", \"看看项目出了什么问题\", \"为什么用户的需求还没上线\", \"为什么没提交App Store\", \"为什么没新build\", or wants a holistic state-of-the-project check covering unmerged branches, stalled PRs, failed GitHub Actions, stale builds, plan drift (TODOS.md / ROADMAP), unreleased commits, and log errors. Runs read-only investigation, presents a grouped checklist, fixes only after explicit user confirmation. Aware of the Cathier iOS app workflow (Xcode + fastlane + auto-merge @claude PRs from in-app feedback).",
-      "categories": ["Development", "Productivity", "Business", "AI & ML"],
-      "author": "jianshuo",
-      "repo": "jianshuo/claude-skills",
-      "path": "wjs-auditing-project",
-      "commitHash": "b7c4fcb97340",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "jianshuo/claude-skills/wjs-editing-multicam",
-      "name": "wjs-editing-multicam",
-      "description": "Use when the user has 2+ recordings of the same event (each with a `.sync.json` sidecar from wjs-syncing-multicam) and wants them combined into a single MP4 — auto-switching between cams second-by-second on audio energy, with optional picture-in-picture inset. Triggers — \"auto-edit multicam\", \"做个剪辑\", \"切几个机位\", \"把这几个视频合成一个\", \"combine these angles\", \"PiP overlay\".",
-      "categories": ["Writing", "Media"],
-      "author": "jianshuo",
-      "repo": "jianshuo/claude-skills",
-      "path": "wjs-editing-multicam",
-      "commitHash": "b7c4fcb97340",
-      "files": [
-        "SKILL.md",
-        "scripts/autoedit.py",
-        "scripts/render_cuts.py",
-        "scripts/render_pip.py"
-      ]
-    },
-    {
-      "id": "jianshuo/claude-skills/wjs-promoting-skills",
-      "name": "wjs-promoting-skills",
-      "description": "Use when the user wants to set up automated daily promotion / marketing for their Claude Code skills — researching how top skills are promoted on marketplaces (ClawHub / openclaw / SkillsMP / agentskills.io), generating a per-skill marketing plan, auto-posting to X (Twitter) via xurl, and drafting community discussion posts (Reddit / HN / Discord). Triggers — \"推广 skills\", \"营销 skills\", \"自动发推广\", \"每天自动推广\", \"skill marketing\", \"promote my skills\", \"/wjs-promoting-skills\".",
-      "categories": ["Writing", "Productivity", "Marketing", "Research", "AI & ML"],
-      "author": "jianshuo",
-      "repo": "jianshuo/claude-skills",
-      "path": "wjs-promoting-skills",
-      "commitHash": "b7c4fcb97340",
-      "files": [
-        "SKILL.md",
-        "com.jianshuo.wjs-promoting-skills.plist.template",
-        "daily.sh",
-        "list-skills.sh",
-        "make-plan.sh",
-        "outbox/.gitignore",
-        "pick-next-skill.sh",
-        "prompts/community-drafts.md",
-        "prompts/daily-post.md",
-        "prompts/make-plan.md",
-        "prompts/research-marketplaces.md",
-        "research-marketplaces.sh",
-        "setup.sh",
-        "state/.gitignore",
-        "state/README.md",
-        "uninstall.sh"
-      ]
-    },
-    {
-      "id": "jianshuo/claude-skills/wjs-burning-subtitles",
-      "name": "wjs-burning-subtitles",
-      "description": "Use when the user has a video + an SRT and wants the subtitles either burned into the pixels (libass, always-visible) or soft-muxed as a togglable track. Also handles the final composite step for the localization pipeline — burn subs, mix a dub track, and keep the original audio as a low-volume bed, all in ONE ffmpeg encode (no cascade). Verifies libass availability and auto-downloads a static evermeet ffmpeg build when Homebrew's stripped binary lacks it. Triggers — \"烧字幕\", \"硬字幕\", \"burn subtitles\", \"burn-in subs\", \"embed subtitle\", \"soft mux SRT\", \"把字幕烧进视频\", \"做最终合成\".",
-      "categories": ["Development", "Design", "Media"],
-      "author": "jianshuo",
-      "repo": "jianshuo/claude-skills",
-      "path": "wjs-burning-subtitles",
-      "commitHash": "b7c4fcb97340",
-      "files": ["SKILL.md", "scripts/render.py"]
-    },
-    {
-      "id": "jianshuo/claude-skills/wjs-publishing-wechat",
-      "name": "wjs-publishing-wechat",
-      "description": "Use when the user wants to write or publish a 微信公众号 (WeChat Official Account) article — they share rough thoughts, a draft, or notes and ask for help polishing, generating a cover image (题图) and explanation illustration (解释图), or preparing the article for upload to mp.weixin.qq.com. Triggers include \"写一篇微信文章\", \"公众号\", \"润色\", \"题图\", \"发公众号\", \"/wjs-publishing-wechat\".",
-      "categories": ["Design", "Writing", "Integration"],
-      "author": "jianshuo",
-      "repo": "jianshuo/claude-skills",
-      "path": "wjs-publishing-wechat",
-      "commitHash": "b7c4fcb97340",
-      "files": [
-        ".gitignore",
-        ".publish-manifest.json",
-        "LICENSE",
-        "README.md",
-        "SKILL.md",
-        "cover-prompt.md",
-        "gen-cover-ai.sh",
-        "gen-illustration.sh",
-        "illustration-prompt.md",
-        "publish.sh",
-        "test-prompts.json",
-        "upload-draft.sh"
-      ]
-    },
-    {
-      "id": "jianshuo/claude-skills/wjs-eating-and-growing",
-      "name": "wjs-eating-and-growing",
-      "description": "吃一堑长一智 — 走完 4 步交互式反思，让\"吃过的堑\"真的变成\"下次的一个小动作\"。Use when 王建硕 reflects on a personal setback, mistake, or recurring pattern (反思, 复盘, 回顾, 总结教训, 吃一堑, 长一智, \"这次又栽了\", \"怎么又这样\", \"为什么我总是…\", \"想开点都做不到\", \"知道道理但做不到\"). For the user as a human, not for Claude's task post-mortems.",
-      "categories": ["Writing"],
-      "author": "jianshuo",
-      "repo": "jianshuo/claude-skills",
-      "path": "wjs-eating-and-growing",
-      "commitHash": "b7c4fcb97340",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "jianshuo/claude-skills/wjs-transcribing-audio",
-      "name": "wjs-transcribing-audio",
-      "description": "Use when the user has audio or video and wants a timestamped transcript (SRT) in the source language. Routes by source language — Chinese defaults to Volcano (豆包) ASR; other languages (Spanish, English, Portuguese, French, Italian, Japanese, Korean, etc.) use OpenAI Whisper API with word-level timestamps and self-assembled cues. Outputs SRT with punctuation-bounded cues capped for on-screen reading. Triggers — \"转写\", \"转成字幕\", \"做 SRT\", \"transcribe\", \"make subtitles\", \"speech to text\", \"出字幕\".",
-      "categories": ["AI & ML", "Media"],
-      "author": "jianshuo",
-      "repo": "jianshuo/claude-skills",
-      "path": "wjs-transcribing-audio",
-      "commitHash": "b7c4fcb97340",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "jianshuo/claude-skills/wangjianshuo-perspective",
-      "name": "wangjianshuo-perspective",
-      "description": "王建硕的思维框架与表达方式。基于 7 份深度调研（约 100 万词英文博客 + 约 109 万字中文博客，\n2002–2022，全部一手）提炼出 7 个核心心智模型、10 条决策启发式和完整的双语表达 DNA。\n用途：以王建硕的身份和声音写作、回应、思考——他平实、诚恳、好奇，爱用家常比喻和自造词，\n在具体和抽象之间反复架梯子，从不写自己没亲身验证过的东西。\n当用户提到「用王建硕的视角」「王建硕会怎么看」「王建硕模式」「像王建硕一样写」\n「Jian Shuo Wang perspective」「切换到王建硕」时使用。\n即使用户只是说「帮我用王建硕的角度想想」「如果是王建硕会怎么写这篇」也应触发。\n一旦激活，本次对话后续所有回应都保持王建硕身份，直到用户明确说「退出」——\n不需要每轮重新点名。\n不适用：用户要的是关于王建硕本人的客观介绍 / 事实查询（「王建硕是谁」「他哪年创业的」），\n那种问题正常回答即可，不要进入角色扮演。\n",
-      "categories": ["Writing", "Business"],
-      "author": "jianshuo",
-      "repo": "jianshuo/claude-skills",
-      "path": "wangjianshuo-perspective",
-      "commitHash": "b7c4fcb97340",
-      "files": [
-        "SKILL.md",
-        "references/research/01-writings.md",
-        "references/research/02-conversations.md",
-        "references/research/03-expression-dna.md",
-        "references/research/04-external-views.md",
-        "references/research/05-decisions.md",
-        "references/research/06-timeline.md",
-        "references/research/07-chinese-expression.md",
-        "references/sources/articles/parsed/_index.tsv",
-        "references/sources/articles/parsed/_stats.txt",
-        "references/sources/articles/parsed/corpus_2002-2005.txt",
-        "references/sources/articles/parsed/corpus_2006-2009.txt",
-        "references/sources/articles/parsed/corpus_2010-2014.txt",
-        "references/sources/articles/parsed/corpus_2015-2019.txt",
-        "references/sources/articles/parsed/corpus_2020-2022.txt",
-        "references/sources/articles/parsed/corpus_longform.txt",
-        "references/sources/articles/parsed/sample_stratified.txt",
-        "references/sources/articles/parsed-zh/_index.tsv",
-        "references/sources/articles/parsed-zh/corpus_2002-2005.txt",
-        "references/sources/articles/parsed-zh/corpus_2006-2009.txt"
-      ]
-    },
-    {
-      "id": "jianshuo/claude-skills/wjs-translating-subtitles",
-      "name": "wjs-translating-subtitles",
-      "description": "Use when the user has an SRT (or transcript text) in one language and wants it translated to another, with punctuation-bounded re-segmentation so cues end at real sentence breaks. Simplified Chinese (zh-CN) and English (en) are first-class targets; other targets follow the same rules. Outputs a target-language SRT or bilingual SRT — no audio, no burn-in. Triggers — \"翻译字幕\", \"翻成中文\", \"translate this SRT\", \"中英双语字幕\", \"把这个 SRT 翻译成 X\", \"bilingual subtitles\".",
-      "categories": ["Writing", "Media"],
-      "author": "jianshuo",
-      "repo": "jianshuo/claude-skills",
-      "path": "wjs-translating-subtitles",
-      "commitHash": "b7c4fcb97340",
-      "files": ["SKILL.md"]
     },
     {
       "id": "chriskd/memex-kb/skills/memex-kb",
@@ -2025,149 +1770,6 @@
       ]
     },
     {
-      "id": "QZhang2111/Research-Pilot/skills/deep-read-to-delta",
-      "name": "deep-read-to-delta",
-      "description": "Use when a project-local paper dossier should produce graph delta JSON proposals and run through the human-gated delta loop.",
-      "categories": ["Data & Analytics"],
-      "author": "QZhang2111",
-      "repo": "QZhang2111/Research-Pilot",
-      "path": "skills/deep-read-to-delta",
-      "commitHash": "447b1a0fd021",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "QZhang2111/Research-Pilot/skills/delta-update-protocol",
-      "name": "delta-update-protocol",
-      "description": "Use when a Research Pilot project graph change must be previewed, registered, accepted, rejected, parked, or revised through human-gated D* deltas.",
-      "categories": ["Research"],
-      "author": "QZhang2111",
-      "repo": "QZhang2111/Research-Pilot",
-      "path": "skills/delta-update-protocol",
-      "commitHash": "447b1a0fd021",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "QZhang2111/Research-Pilot/skills/gap-driven-search",
-      "name": "gap-driven-search",
-      "description": "Use when a graph gap or Evidence Need should become a targeted paper-search contract or candidate lead list.",
-      "categories": ["Other"],
-      "author": "QZhang2111",
-      "repo": "QZhang2111/Research-Pilot",
-      "path": "skills/gap-driven-search",
-      "commitHash": "447b1a0fd021",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "QZhang2111/Research-Pilot/skills/paper-discovery-intake",
-      "name": "paper-discovery-intake",
-      "description": "Use when the user wants to add Zotero-first paper/source identity into a Research Pilot project.",
-      "categories": ["Research"],
-      "author": "QZhang2111",
-      "repo": "QZhang2111/Research-Pilot",
-      "path": "skills/paper-discovery-intake",
-      "commitHash": "447b1a0fd021",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "QZhang2111/Research-Pilot/skills/project-evidence-synthesis",
-      "name": "project-evidence-synthesis",
-      "description": "Use when a set of papers, dossiers, or graph records must be synthesized into project claims, evidence, limitations, warrants, project deltas, and next actions.",
-      "categories": ["Other"],
-      "author": "QZhang2111",
-      "repo": "QZhang2111/Research-Pilot",
-      "path": "skills/project-evidence-synthesis",
-      "commitHash": "447b1a0fd021",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "QZhang2111/Research-Pilot/skills/project-experiment-proposal",
-      "name": "project-experiment-proposal",
-      "description": "Use when a Research Pilot project needs an experiment proposal from a weak or bounded project claim.",
-      "categories": ["Research"],
-      "author": "QZhang2111",
-      "repo": "QZhang2111/Research-Pilot",
-      "path": "skills/project-experiment-proposal",
-      "commitHash": "447b1a0fd021",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "QZhang2111/Research-Pilot/skills/project-understanding-update",
-      "name": "project-understanding-update",
-      "description": "Use when a research project needs its current understanding updated from human intent, new questions, new claims, evidence pressure, paper synthesis, experiment results, or direction changes.",
-      "categories": ["Research"],
-      "author": "QZhang2111",
-      "repo": "QZhang2111/Research-Pilot",
-      "path": "skills/project-understanding-update",
-      "commitHash": "447b1a0fd021",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "QZhang2111/Research-Pilot/skills/research-pilot-first-run",
-      "name": "research-pilot-first-run",
-      "description": "Use when a new user wants to start Research Pilot from scratch, initialize or inspect a workspace, create the first project, or make the first human-gated project graph update.",
-      "categories": ["Research"],
-      "author": "QZhang2111",
-      "repo": "QZhang2111/Research-Pilot",
-      "path": "skills/research-pilot-first-run",
-      "commitHash": "447b1a0fd021",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "QZhang2111/Research-Pilot/skills/research-pilot",
-      "name": "research-pilot",
-      "description": "Use when the user wants to initialize, inspect, or operate a Research Pilot workspace for agent-operated research memory.",
-      "categories": ["Research"],
-      "author": "QZhang2111",
-      "repo": "QZhang2111/Research-Pilot",
-      "path": "skills/research-pilot",
-      "commitHash": "447b1a0fd021",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "QZhang2111/Research-Pilot/skills/single-paper-deep-read",
-      "name": "single-paper-deep-read",
-      "description": "Use when the user wants an agent to create or update a project-local paper dossier from one Zotero-managed paper or source identity.",
-      "categories": ["Productivity"],
-      "author": "QZhang2111",
-      "repo": "QZhang2111/Research-Pilot",
-      "path": "skills/single-paper-deep-read",
-      "commitHash": "447b1a0fd021",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cucupac/shellbrain/onboarding_assets/codex/shellbrain-session-start",
-      "name": "shellbrain-session-start",
-      "description": "Use when Codex should get up to speed in any repo with the installed shellbrain CLI, or when work shifts to a new surface, repeated failure suggests prior memory may help, a hypothesis changes, an evidence-bearing write is about to happen, or closeout should record durable learnings.",
-      "categories": ["Marketing"],
-      "author": "cucupac",
-      "repo": "cucupac/shellbrain",
-      "path": "onboarding_assets/codex/shellbrain-session-start",
-      "commitHash": "38039d5a468b",
-      "files": ["SKILL.md", "agents", "assets", "references"]
-    },
-    {
-      "id": "cucupac/shellbrain/onboarding_assets/codex/shellbrain-usage-review",
-      "name": "shellbrain-usage-review",
-      "description": "Use when a reviewer agent needs one fast cross-repo picture of how agents are using Shellbrain, where the product is working, where it is failing, and which expected capabilities are being skipped.",
-      "categories": ["AI & ML"],
-      "author": "cucupac",
-      "repo": "cucupac/shellbrain",
-      "path": "onboarding_assets/codex/shellbrain-usage-review",
-      "commitHash": "38039d5a468b",
-      "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
-      "id": "cucupac/shellbrain/onboarding_assets/cursor/skills/shellbrain-session-start",
-      "name": "shellbrain-session-start",
-      "description": "Use when Cursor should get up to speed in any repo with the installed shellbrain CLI, or when work shifts to a new surface, repeated failure suggests prior memory may help, a hypothesis changes, an evidence-bearing write is about to happen, or closeout should record durable learnings.",
-      "categories": ["Marketing"],
-      "author": "cucupac",
-      "repo": "cucupac/shellbrain",
-      "path": "onboarding_assets/cursor/skills/shellbrain-session-start",
-      "commitHash": "38039d5a468b",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "Bhanunamikaze/AI-Dataset-Generator",
       "name": "dataset-generator",
       "description": "Use this when the user wants to generate, normalize, verify, deduplicate, or export training datasets for Codex, Antigravity, or Claude Code from topics, URLs, reference material, web research, or existing JSONL/CSV files. Supports SFT and DPO workflows, custom export schemas, and deterministic local pipeline scripts.",
@@ -2183,6 +1785,138 @@
       "repo": "Bhanunamikaze/AI-Dataset-Generator",
       "path": "",
       "commitHash": "53be78f887a8",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "martysama0134/m2ui-skill/skills/m2ui",
+      "name": "m2ui",
+      "description": "Generate and modify Metin2 client UI code from screenshots, natural language, or existing scripts. Creates uiscript dicts, root ui*.py classes, and locale entries. Use when: user says \"/m2ui\", \"create UI\", \"make a window\", \"modify UI\", \"add button to\", \"screenshot to UI\", \"check UI for bugs\", \"diagnose\". Supports four modes: screenshot (from image), talk (from description), script (modify existing), diagnose (audit for anti-patterns).\n",
+      "categories": ["Development", "Design"],
+      "author": "martysama0134",
+      "repo": "martysama0134/m2ui-skill",
+      "path": "skills/m2ui",
+      "commitHash": "2d1762ad4f28",
+      "files": ["SKILL.md", "modes", "reference"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/deep-read-to-delta",
+      "name": "deep-read-to-delta",
+      "description": "Use when a project-local paper dossier should produce graph delta JSON proposals and run through the human-gated delta loop.",
+      "categories": ["Data & Analytics"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/deep-read-to-delta",
+      "commitHash": "ecce7248fcd0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/delta-update-protocol",
+      "name": "delta-update-protocol",
+      "description": "Use when a Research Pilot project graph change must be previewed, registered, accepted, rejected, parked, or revised through human-gated D* deltas.",
+      "categories": ["Research"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/delta-update-protocol",
+      "commitHash": "ecce7248fcd0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/gap-driven-search",
+      "name": "gap-driven-search",
+      "description": "Use when a graph gap or Evidence Need should become a targeted paper-search contract or candidate lead list.",
+      "categories": ["Other"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/gap-driven-search",
+      "commitHash": "ecce7248fcd0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/paper-discovery-intake",
+      "name": "paper-discovery-intake",
+      "description": "Use when the user wants to add Zotero-first paper/source identity into a Research Pilot project.",
+      "categories": ["Research"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/paper-discovery-intake",
+      "commitHash": "ecce7248fcd0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/project-evidence-synthesis",
+      "name": "project-evidence-synthesis",
+      "description": "Use when a set of papers, dossiers, or graph records must be synthesized into project claims, evidence, limitations, warrants, project deltas, and next actions.",
+      "categories": ["Other"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/project-evidence-synthesis",
+      "commitHash": "ecce7248fcd0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/project-experiment-proposal",
+      "name": "project-experiment-proposal",
+      "description": "Use when a Research Pilot project needs an experiment proposal from a weak or bounded project claim.",
+      "categories": ["Research"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/project-experiment-proposal",
+      "commitHash": "ecce7248fcd0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/project-understanding-update",
+      "name": "project-understanding-update",
+      "description": "Use when a research project needs its current understanding updated from human intent, new questions, new claims, evidence pressure, paper synthesis, experiment results, or direction changes.",
+      "categories": ["Research"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/project-understanding-update",
+      "commitHash": "ecce7248fcd0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/related-work-lineage",
+      "name": "related-work-lineage",
+      "description": "Use when the user wants a related-work survey, technical lineage, task timeline, or paper-map around a baseline paper, research task, benchmark, or project direction.",
+      "categories": ["Productivity", "Research"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/related-work-lineage",
+      "commitHash": "ecce7248fcd0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/research-pilot-first-run",
+      "name": "research-pilot-first-run",
+      "description": "Use when a new user wants to start Research Pilot from scratch, initialize or inspect a workspace, create the first project, or make the first human-gated project graph update.",
+      "categories": ["Research"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/research-pilot-first-run",
+      "commitHash": "ecce7248fcd0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/research-pilot",
+      "name": "research-pilot",
+      "description": "Use when the user wants to initialize, inspect, or operate a Research Pilot workspace for agent-operated research memory.",
+      "categories": ["Research"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/research-pilot",
+      "commitHash": "ecce7248fcd0",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/single-paper-deep-read",
+      "name": "single-paper-deep-read",
+      "description": "Use when the user wants an agent to create or update a project-local paper dossier from one Zotero-managed paper or source identity.",
+      "categories": ["Productivity"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/single-paper-deep-read",
+      "commitHash": "ecce7248fcd0",
       "files": ["SKILL.md"]
     },
     {
@@ -2623,6 +2357,39 @@
       "repo": "composio-community/support-skills",
       "path": "draft-reply",
       "commitHash": "83382c4b055f",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cucupac/shellbrain/onboarding_assets/codex/shellbrain-session-start",
+      "name": "shellbrain-session-start",
+      "description": "Use when Codex should get up to speed in any repo with the installed shellbrain CLI, or when work shifts to a new surface, repeated failure suggests prior memory may help, a hypothesis changes, an evidence-bearing write is about to happen, or closeout should record durable learnings.",
+      "categories": ["Marketing"],
+      "author": "cucupac",
+      "repo": "cucupac/shellbrain",
+      "path": "onboarding_assets/codex/shellbrain-session-start",
+      "commitHash": "38039d5a468b",
+      "files": ["SKILL.md", "agents", "assets", "references"]
+    },
+    {
+      "id": "cucupac/shellbrain/onboarding_assets/codex/shellbrain-usage-review",
+      "name": "shellbrain-usage-review",
+      "description": "Use when a reviewer agent needs one fast cross-repo picture of how agents are using Shellbrain, where the product is working, where it is failing, and which expected capabilities are being skipped.",
+      "categories": ["AI & ML"],
+      "author": "cucupac",
+      "repo": "cucupac/shellbrain",
+      "path": "onboarding_assets/codex/shellbrain-usage-review",
+      "commitHash": "38039d5a468b",
+      "files": ["SKILL.md", "agents", "assets"]
+    },
+    {
+      "id": "cucupac/shellbrain/onboarding_assets/cursor/skills/shellbrain-session-start",
+      "name": "shellbrain-session-start",
+      "description": "Use when Cursor should get up to speed in any repo with the installed shellbrain CLI, or when work shifts to a new surface, repeated failure suggests prior memory may help, a hypothesis changes, an evidence-bearing write is about to happen, or closeout should record durable learnings.",
+      "categories": ["Marketing"],
+      "author": "cucupac",
+      "repo": "cucupac/shellbrain",
+      "path": "onboarding_assets/cursor/skills/shellbrain-session-start",
+      "commitHash": "38039d5a468b",
       "files": ["SKILL.md"]
     },
     {
@@ -4841,6 +4608,17 @@
       "path": ".claude/skills/test",
       "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "lackeyjb/playwright-skill/skills/playwright-skill",
+      "name": "playwright-skill",
+      "description": "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing.",
+      "categories": ["Development", "Design", "Productivity"],
+      "author": "lackeyjb",
+      "repo": "lackeyjb/playwright-skill",
+      "path": "skills/playwright-skill",
+      "commitHash": "bb7e920d3760",
+      "files": ["API_REFERENCE.md", "SKILL.md", "lib", "package.json", "run.js"]
     },
     {
       "id": "RKiding/Awesome-finance-skills/skills/alphaear-news",
@@ -7654,6 +7432,17 @@
       "path": "productivity-skills-plugin/skills/code-auditor",
       "commitHash": "71429f72e5c2",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "mhattingpete/claude-skills-marketplace/engineering-workflow-plugin/skills/git-pushing",
+      "name": "git-pushing",
+      "description": "Stage, commit, and push git changes with conventional commit messages. Use when user wants to commit and push changes, mentions pushing to remote, or asks to save and push their work. Also activates when user says \"push changes\", \"commit and push\", \"push this\", \"push to github\", or similar git workflow requests.",
+      "categories": ["Development"],
+      "author": "mhattingpete",
+      "repo": "mhattingpete/claude-skills-marketplace",
+      "path": "engineering-workflow-plugin/skills/git-pushing",
+      "commitHash": "71429f72e5c2",
+      "files": ["SKILL.md", "scripts"]
     },
     {
       "id": "mhattingpete/claude-skills-marketplace/visual-documentation-plugin/skills/timeline-creator",
