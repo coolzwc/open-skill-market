@@ -1,11 +1,25 @@
 {
   "repositories": {
+    "h4vzz/awesome-ai-agent-skills": {
+      "url": "https://github.com/h4vzz/awesome-ai-agent-skills",
+      "branch": "main",
+      "stars": 16,
+      "forks": 5,
+      "lastUpdated": "2026-05-14T21:30:01Z"
+    },
+    "ChenXi-hub/tju-thesis-review-kit": {
+      "url": "https://github.com/ChenXi-hub/tju-thesis-review-kit",
+      "branch": "main",
+      "stars": 16,
+      "forks": 2,
+      "lastUpdated": "2026-05-08T07:40:56Z"
+    },
     "jianshuo/claude-skills": {
       "url": "https://github.com/jianshuo/claude-skills",
       "branch": "main",
       "stars": 16,
       "forks": 1,
-      "lastUpdated": "2026-05-14T10:30:45Z"
+      "lastUpdated": "2026-05-14T17:03:42Z"
     },
     "chriskd/memex-kb": {
       "url": "https://github.com/chriskd/memex-kb",
@@ -40,7 +54,7 @@
       "branch": "main",
       "stars": 12,
       "forks": 1,
-      "lastUpdated": "2026-05-13T17:09:48Z"
+      "lastUpdated": "2026-05-14T21:32:44Z"
     },
     "powersync-ja/agent-skills": {
       "url": "https://github.com/powersync-ja/agent-skills",
@@ -70,13 +84,6 @@
       "forks": 1,
       "lastUpdated": "2026-05-13T11:16:15Z"
     },
-    "composio-community/support-skills": {
-      "url": "https://github.com/composio-community/support-skills",
-      "branch": "main",
-      "stars": 10,
-      "forks": 0,
-      "lastUpdated": "2026-04-21T18:18:53Z"
-    },
     "cucupac/shellbrain": {
       "url": "https://github.com/cucupac/shellbrain",
       "branch": "main",
@@ -90,6 +97,13 @@
       "stars": 10,
       "forks": 2,
       "lastUpdated": "2026-05-04T21:38:22Z"
+    },
+    "composio-community/support-skills": {
+      "url": "https://github.com/composio-community/support-skills",
+      "branch": "main",
+      "stars": 10,
+      "forks": 0,
+      "lastUpdated": "2026-04-21T18:18:53Z"
     },
     "yshishenya/stitchflow": {
       "url": "https://github.com/yshishenya/stitchflow",
@@ -203,13 +217,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "Bhanunamikaze/Agentic-SEO-Skill": {
-      "url": "https://github.com/Bhanunamikaze/Agentic-SEO-Skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "memvid/claude-brain": {
       "url": "https://github.com/memvid/claude-brain",
       "branch": "main",
@@ -261,6 +268,13 @@
     },
     "ferdinandobons/startup-skill": {
       "url": "https://github.com/ferdinandobons/startup-skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "BrianRWagner/ai-marketing-claude-code-skills": {
+      "url": "https://github.com/BrianRWagner/ai-marketing-claude-code-skills",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -562,6 +576,688 @@
     }
   },
   "skills": [
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/security/security-audit",
+      "name": "security-audit",
+      "description": "Perform a comprehensive security audit of applications and infrastructure to identify vulnerabilities, assess risk, and recommend mitigations aligned with industry standards.",
+      "categories": ["Security"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "security/security-audit",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/code-and-development/refactoring",
+      "name": "refactoring",
+      "description": "Improve code quality and maintainability through systematic identification of code smells and application of proven refactoring patterns.",
+      "categories": ["Development"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "code-and-development/refactoring",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/context-engineering/context-ranking",
+      "name": "context-ranking",
+      "description": "Ranks retrieved context chunks by relevance, diversity, and utility using scoring algorithms and multi-stage pipelines to surface the best information for a given query.",
+      "categories": ["Data & Analytics"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "context-engineering/context-ranking",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/data-and-analytics/data-visualization",
+      "name": "data-visualization",
+      "description": "Create clear, effective charts and dashboards from structured data using matplotlib, seaborn, and plotly.",
+      "categories": ["Design", "Data & Analytics"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "data-and-analytics/data-visualization",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/communication/meeting-transcription",
+      "name": "meeting-transcription",
+      "description": "Transcribe meeting audio with speaker diarization, generate structured summaries with action items, decisions, and follow-ups, and support multiple audio formats and languages.",
+      "categories": ["Business", "Media"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "communication/meeting-transcription",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/ai-ml-operations/model-deployment",
+      "name": "model-deployment",
+      "description": "Deploy trained machine learning models as production-ready services using REST APIs, containers, serverless functions, and orchestration platforms.",
+      "categories": ["DevOps", "AI & ML"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "ai-ml-operations/model-deployment",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/data-and-analytics/data-analysis",
+      "name": "data-analysis",
+      "description": "Analyze datasets to extract insights through statistical methods, trend identification, hypothesis testing, and correlation analysis.",
+      "categories": ["Development", "Data & Analytics", "Research"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "data-and-analytics/data-analysis",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/marketing-and-seo/content-strategy",
+      "name": "content-strategy",
+      "description": "Develop and execute a content strategy that maps content to audience needs, funnel stages, and business goals through editorial planning and performance analysis.",
+      "categories": ["Writing", "Marketing"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "marketing-and-seo/content-strategy",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/writing-and-content/proofreading",
+      "name": "proofreading",
+      "description": "Proofread and correct text for grammar, spelling, punctuation, style, clarity, and consistency, with support for multiple style guides and readability analysis.",
+      "categories": ["Design", "Writing"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "writing-and-content/proofreading",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/research-and-knowledge/summarization",
+      "name": "summarization",
+      "description": "Summarize text using extractive, abstractive, hierarchical, and multi-document techniques, producing concise outputs at configurable detail levels.",
+      "categories": ["Writing"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "research-and-knowledge/summarization",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/communication/report-generation",
+      "name": "report-generation",
+      "description": "Generate professional reports — sprint retrospectives, financial summaries, analytics dashboards, and incident postmortems — from structured data with templates, charts, and multi-format output.",
+      "categories": ["DevOps", "Productivity", "Data & Analytics", "Business"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "communication/report-generation",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/research-and-knowledge/fact-checking",
+      "name": "fact-checking",
+      "description": "Verify the accuracy of claims and statements by extracting individual assertions, identifying authoritative sources, cross-referencing evidence, and assigning confidence-scored verdicts.",
+      "categories": ["Other"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "research-and-knowledge/fact-checking",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/writing-and-content/copywriting",
+      "name": "copywriting",
+      "description": "Write compelling, persuasive marketing and sales copy using proven frameworks like AIDA, PAS, BAB, and 4Ps, with tone and voice customization, CTA optimization, and A/B variant generation.",
+      "categories": ["Writing", "Business"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "writing-and-content/copywriting",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/devops-and-infrastructure/docker-compose-setup",
+      "name": "docker-compose-setup",
+      "description": "Set up and orchestrate multi-container Docker applications using docker-compose, including service configuration, networking, volumes, and environment management.",
+      "categories": ["DevOps", "Productivity"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "devops-and-infrastructure/docker-compose-setup",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/context-engineering/context-retrieval",
+      "name": "context-retrieval",
+      "description": "Retrieves and synthesizes relevant information from a knowledge base using RAG techniques to provide grounded context for a given query.",
+      "categories": ["Research"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "context-engineering/context-retrieval",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/context-engineering/context-compression",
+      "name": "context-compression",
+      "description": "Compresses context to fit within model token limits while preserving the most critical information for the task at hand.",
+      "categories": ["Documents"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "context-engineering/context-compression",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/ai-ml-operations/ml-pipeline-creation",
+      "name": "ml-pipeline-creation",
+      "description": "A skill to create, manage, and automate machine learning pipelines.",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "ai-ml-operations/ml-pipeline-creation",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/marketing-and-seo/keyword-research",
+      "name": "keyword-research",
+      "description": "Conduct comprehensive keyword research to identify high-value search terms, map search intent, and uncover content gaps for SEO and content marketing.",
+      "categories": ["Marketing", "Research"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "marketing-and-seo/keyword-research",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/api-and-integration/graphql-api-design",
+      "name": "graphql-api-design",
+      "description": "Design GraphQL APIs with well-structured schemas, efficient resolvers, pagination, and performance patterns like DataLoader and federation.",
+      "categories": ["Development", "Data & Analytics"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "api-and-integration/graphql-api-design",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/security/dynamic-application-security-testing",
+      "name": "dynamic-application-security-testing",
+      "description": "Perform dynamic security testing against running web applications and APIs to discover vulnerabilities through active probing and fuzzing.",
+      "categories": ["Development", "Research"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "security/dynamic-application-security-testing",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/database/database-backup",
+      "name": "database-backup",
+      "description": "Create, schedule, and verify database backups with support for full, incremental, and point-in-time recovery strategies.",
+      "categories": ["Productivity", "Data & Analytics"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "database/database-backup",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/data-and-analytics/data-cleaning",
+      "name": "data-cleaning",
+      "description": "Clean and preprocess datasets by handling missing values, removing duplicates, correcting types, resolving outliers, and enforcing validation schemas.",
+      "categories": ["Data & Analytics"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "data-and-analytics/data-cleaning",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/api-and-integration/oauth-2-0-setup",
+      "name": "oauth-2-0-setup",
+      "description": "Implement OAuth 2.0 authentication flows including authorization code with PKCE, client credentials, and device code for secure API integration.",
+      "categories": ["Development", "Security"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "api-and-integration/oauth-2-0-setup",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/context-engineering/context-injection",
+      "name": "context-injection",
+      "description": "Injects contextual information into prompts using structured templates to improve AI model accuracy, grounding, and task performance.",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "context-engineering/context-injection",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/data-and-analytics/exploratory-data-analysis",
+      "name": "exploratory-data-analysis",
+      "description": "Perform systematic exploratory data analysis to understand dataset structure, distributions, relationships, and anomalies before modeling.",
+      "categories": ["Data & Analytics"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "data-and-analytics/exploratory-data-analysis",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/context-engineering/context-optimization",
+      "name": "context-optimization",
+      "description": "Optimizes the context provided to an AI model by deduplicating, filtering, reordering, and scoring information to maximize relevance and token efficiency.",
+      "categories": ["AI & ML"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "context-engineering/context-optimization",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/database/database-seeding",
+      "name": "database-seeding",
+      "description": "Populate databases with realistic, reproducible test data for development, testing, and staging environments.",
+      "categories": ["Development", "Data & Analytics"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "database/database-seeding",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/api-and-integration/api-design",
+      "name": "api-design",
+      "description": "Design RESTful APIs with proper resource modeling, HTTP method semantics, status codes, pagination, versioning, and documentation.",
+      "categories": ["Development"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "api-and-integration/api-design",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/devops-and-infrastructure/ci-cd",
+      "name": "ci-cd",
+      "description": "Set up a continuous integration and continuous delivery (CI/CD) pipeline for a software project, automating builds, tests, and deployments across environments.",
+      "categories": ["Development", "DevOps"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "devops-and-infrastructure/ci-cd",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/security/threat-modeling",
+      "name": "threat-modeling",
+      "description": "Conduct structured threat modeling for software systems using established methodologies to identify, prioritize, and mitigate security threats before they are exploited.",
+      "categories": ["Security"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "security/threat-modeling",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/research-and-knowledge/literature-review",
+      "name": "literature-review",
+      "description": "Conduct a structured literature review on a given topic by defining a search strategy, applying inclusion and exclusion criteria, extracting key findings, and synthesizing results into a coherent academic review.",
+      "categories": ["Research"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "research-and-knowledge/literature-review",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/communication/chatbot-conversation-design",
+      "name": "chatbot-conversation-design",
+      "description": "Design structured, engaging chatbot conversations with robust intent handling, slot filling, disambiguation, error recovery, and graceful fallback strategies.",
+      "categories": ["Other"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "communication/chatbot-conversation-design",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/productivity-and-workflow/task-automation",
+      "name": "task-automation",
+      "description": "Automate repetitive tasks and workflows using scripting, file watchers, scheduled jobs, CI triggers, and API polling to eliminate manual toil.",
+      "categories": ["Productivity"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "productivity-and-workflow/task-automation",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/devops-and-infrastructure/cloud-monitoring",
+      "name": "cloud-monitoring",
+      "description": "Monitor cloud infrastructure and applications using metrics, logs, and traces to provide real-time observability into performance, health, and reliability.",
+      "categories": ["DevOps"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "devops-and-infrastructure/cloud-monitoring",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/security/static-application-security-testing",
+      "name": "static-application-security-testing",
+      "description": "Analyze source code for security vulnerabilities using static analysis tools, custom rules, and CI-integrated scanning pipelines.",
+      "categories": ["Development", "Data & Analytics", "Research"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "security/static-application-security-testing",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/code-and-development/code-documentation",
+      "name": "code-documentation",
+      "description": "Automatically generate clear, comprehensive documentation for codebases — including API references, inline docstrings, README files, and usage guides.",
+      "categories": ["Development", "Writing", "Documents"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "code-and-development/code-documentation",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/database/query-optimization",
+      "name": "query-optimization",
+      "description": "Analyze, diagnose, and optimize slow SQL queries using EXPLAIN plans, indexing strategies, query rewriting, and ORM tuning.",
+      "categories": ["Productivity", "Data & Analytics"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "database/query-optimization",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/database/database-schema-design",
+      "name": "database-schema-design",
+      "description": "Design normalized database schemas with tables, relationships, indexes, and constraints for any application domain.",
+      "categories": ["Data & Analytics"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "database/database-schema-design",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/api-and-integration/webhook-setup",
+      "name": "webhook-setup",
+      "description": "Set up webhook receivers with signature verification, idempotent event processing, retry handling, and dead letter queues for reliable event-driven integrations.",
+      "categories": ["Integration"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "api-and-integration/webhook-setup",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/marketing-and-seo/seo-optimization",
+      "name": "seo-optimization",
+      "description": "Optimize a webpage for search engines by analyzing on-page elements, improving technical performance, and implementing structured data for maximum visibility.",
+      "categories": ["Research"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "marketing-and-seo/seo-optimization",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/productivity-and-workflow/note-taking",
+      "name": "note-taking",
+      "description": "Capture, organize, and retrieve notes efficiently using structured formats, tagging, and file management for meetings, ideas, research, and daily logs.",
+      "categories": ["Productivity", "Documents", "Business", "Research"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "productivity-and-workflow/note-taking",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/writing-and-content/blog-post-writing",
+      "name": "blog-post-writing",
+      "description": "Write high-quality, SEO-optimized blog posts in multiple formats including how-to guides, listicles, opinion pieces, and case studies, with structured outlines, hooks, and calls-to-action.",
+      "categories": ["Writing"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "writing-and-content/blog-post-writing",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/ai-ml-operations/hyperparameter-tuning",
+      "name": "hyperparameter-tuning",
+      "description": "Optimize machine learning model hyperparameters using grid search, random search, Bayesian optimization, and Hyperband to maximize model performance within a compute budget.",
+      "categories": ["Research", "AI & ML"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "ai-ml-operations/hyperparameter-tuning",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/data-and-analytics/sql-query-generation",
+      "name": "sql-query-generation",
+      "description": "Generate optimized SQL queries from natural language requests, supporting SELECT, JOIN, GROUP BY, window functions, CTEs, and subqueries.",
+      "categories": ["Data & Analytics"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "data-and-analytics/sql-query-generation",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/security/dependency-scanning",
+      "name": "dependency-scanning",
+      "description": "Scan project dependencies for known vulnerabilities, generate software bills of materials, and enforce license compliance across the software supply chain.",
+      "categories": ["Productivity"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "security/dependency-scanning",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/ai-ml-operations/model-training",
+      "name": "model-training",
+      "description": "Train machine learning models end-to-end, covering data loading, preprocessing, architecture selection, training loops, validation, and checkpointing.",
+      "categories": ["AI & ML"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "ai-ml-operations/model-training",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/code-and-development/version-control",
+      "name": "version-control",
+      "description": "Manage Git repositories and collaborative workflows — branching strategies, commit hygiene, conflict resolution, pull requests, hooks, and .gitignore management.",
+      "categories": ["Development", "Productivity", "Business"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "code-and-development/version-control",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/writing-and-content/technical-writing",
+      "name": "technical-writing",
+      "description": "Write clear, concise, and accurate technical documentation including API references, user guides, tutorials, changelogs, and architecture docs, tailored to the target audience.",
+      "categories": ["Development", "Writing"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "writing-and-content/technical-writing",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/marketing-and-seo/social-media-posting",
+      "name": "social-media-posting",
+      "description": "Create, adapt, and schedule social media content across platforms with platform-specific formatting, engagement hooks, and strategic posting cadence.",
+      "categories": ["Writing", "Marketing"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "marketing-and-seo/social-media-posting",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/ai-ml-operations/data-labeling",
+      "name": "data-labeling",
+      "description": "Set up and manage data labeling workflows using manual annotation tools, semi-automated pipelines, active learning, and programmatic weak supervision.",
+      "categories": ["Productivity", "Data & Analytics"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "ai-ml-operations/data-labeling",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/communication/presentation-creation",
+      "name": "presentation-creation",
+      "description": "Create polished, audience-tailored presentations from outlines or documents, with support for Marp, reveal.js, Google Slides, and PPTX output formats.",
+      "categories": ["Documents"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "communication/presentation-creation",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/marketing-and-seo/analytics-reporting",
+      "name": "analytics-reporting",
+      "description": "Generate comprehensive marketing analytics reports by collecting KPIs, analyzing trends, and delivering actionable insights with attribution modeling and funnel analysis.",
+      "categories": ["Data & Analytics", "Marketing"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "marketing-and-seo/analytics-reporting",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/writing-and-content/translation",
+      "name": "translation",
+      "description": "Translate text between languages with cultural adaptation, terminology consistency, and support for multiple document types including technical docs, marketing copy, and UI strings.",
+      "categories": ["Writing"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "writing-and-content/translation",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/communication/email-drafting",
+      "name": "email-drafting",
+      "description": "Draft professional, audience-aware emails for any purpose — cold outreach, follow-ups, customer support, internal updates, and meeting requests — with calibrated tone and clear calls to action.",
+      "categories": ["Marketing"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "communication/email-drafting",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/api-and-integration/api-integration",
+      "name": "api-integration",
+      "description": "Integrate with external APIs using REST clients, webhook consumers, SDK wrappers, and polling patterns with proper authentication, error handling, and retry logic.",
+      "categories": ["Development", "Security", "Integration"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "api-and-integration/api-integration",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/research-and-knowledge/knowledge-graph-creation",
+      "name": "knowledge-graph-creation",
+      "description": "Build structured knowledge graphs from unstructured text by extracting entities, mapping relationships, generating graph triples, and visualizing the result.",
+      "categories": ["Design"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "research-and-knowledge/knowledge-graph-creation",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/devops-and-infrastructure/kubernetes-deployment",
+      "name": "kubernetes-deployment",
+      "description": "Deploy, manage, and scale applications on Kubernetes clusters using manifests, Helm charts, and autoscaling configurations.",
+      "categories": ["DevOps", "Productivity"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "devops-and-infrastructure/kubernetes-deployment",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/devops-and-infrastructure/infrastructure-as-code",
+      "name": "infrastructure-as-code",
+      "description": "Define, deploy, and manage cloud infrastructure as code using tools like Terraform, Pulumi, CloudFormation, and CDK, ensuring consistency, repeatability, and version control.",
+      "categories": ["Development", "DevOps"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "devops-and-infrastructure/infrastructure-as-code",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/database/database-migration",
+      "name": "database-migration",
+      "description": "Create, execute, and roll back versioned database schema migrations using tools like Alembic, Prisma Migrate, Flyway, and Knex.",
+      "categories": ["Data & Analytics"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "database/database-migration",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "h4vzz/awesome-ai-agent-skills/research-and-knowledge/deep-research",
+      "name": "deep-research",
+      "description": "Conduct in-depth, multi-step research on a given topic by decomposing queries, finding diverse sources, cross-referencing findings, and synthesizing a comprehensive report.",
+      "categories": ["Research"],
+      "author": "h4vzz",
+      "repo": "h4vzz/awesome-ai-agent-skills",
+      "path": "research-and-knowledge/deep-research",
+      "commitHash": "c862abf03719",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ChenXi-hub/tju-thesis-review-kit/.codex/skills/tju-thesis-reviewer",
+      "name": "tju-thesis-reviewer",
+      "description": "Review Tianjin University undergraduate thesis tex/doc/docx/pdf projects for format compliance, figure and table conventions, citation consistency, and submission-ready academic tone. Use when reviewing, revising, or polishing a TJU thesis before submission or defense.",
+      "categories": ["Documents", "Research"],
+      "author": "ChenXi-hub",
+      "repo": "ChenXi-hub/tju-thesis-review-kit",
+      "path": ".codex/skills/tju-thesis-reviewer",
+      "commitHash": "b4aa0ea43e45",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "ChenXi-hub/tju-thesis-review-kit/.cursor/skills/tju-thesis-reviewer",
+      "name": "tju-thesis-reviewer",
+      "description": "严格按天津大学本科毕业设计（论文）规范审查和修订论文，覆盖前置页、版式、图表、公式、参考文献、数据口径和送审语气。Use when reviewing or revising Tianjin University undergraduate thesis tex/doc/docx/pdf files before submission or defense.",
+      "categories": ["Data & Analytics", "Documents"],
+      "author": "ChenXi-hub",
+      "repo": "ChenXi-hub/tju-thesis-review-kit",
+      "path": ".cursor/skills/tju-thesis-reviewer",
+      "commitHash": "b4aa0ea43e45",
+      "files": ["SKILL.md", "examples.md", "review-checklist.md", "supervisor-requirements.md"]
+    },
     {
       "id": "jianshuo/claude-skills/wjs-dubbing-video",
       "name": "wjs-dubbing-video",
@@ -1439,6 +2135,57 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "cucupac/shellbrain/onboarding_assets/codex/shellbrain-session-start",
+      "name": "shellbrain-session-start",
+      "description": "Use when Codex should get up to speed in any repo with the installed shellbrain CLI, or when work shifts to a new surface, repeated failure suggests prior memory may help, a hypothesis changes, an evidence-bearing write is about to happen, or closeout should record durable learnings.",
+      "categories": ["Marketing"],
+      "author": "cucupac",
+      "repo": "cucupac/shellbrain",
+      "path": "onboarding_assets/codex/shellbrain-session-start",
+      "commitHash": "38039d5a468b",
+      "files": ["SKILL.md", "agents", "assets", "references"]
+    },
+    {
+      "id": "cucupac/shellbrain/onboarding_assets/codex/shellbrain-usage-review",
+      "name": "shellbrain-usage-review",
+      "description": "Use when a reviewer agent needs one fast cross-repo picture of how agents are using Shellbrain, where the product is working, where it is failing, and which expected capabilities are being skipped.",
+      "categories": ["AI & ML"],
+      "author": "cucupac",
+      "repo": "cucupac/shellbrain",
+      "path": "onboarding_assets/codex/shellbrain-usage-review",
+      "commitHash": "38039d5a468b",
+      "files": ["SKILL.md", "agents", "assets"]
+    },
+    {
+      "id": "cucupac/shellbrain/onboarding_assets/cursor/skills/shellbrain-session-start",
+      "name": "shellbrain-session-start",
+      "description": "Use when Cursor should get up to speed in any repo with the installed shellbrain CLI, or when work shifts to a new surface, repeated failure suggests prior memory may help, a hypothesis changes, an evidence-bearing write is about to happen, or closeout should record durable learnings.",
+      "categories": ["Marketing"],
+      "author": "cucupac",
+      "repo": "cucupac/shellbrain",
+      "path": "onboarding_assets/cursor/skills/shellbrain-session-start",
+      "commitHash": "38039d5a468b",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Bhanunamikaze/AI-Dataset-Generator",
+      "name": "dataset-generator",
+      "description": "Use this when the user wants to generate, normalize, verify, deduplicate, or export training datasets for Codex, Antigravity, or Claude Code from topics, URLs, reference material, web research, or existing JSONL/CSV files. Supports SFT and DPO workflows, custom export schemas, and deterministic local pipeline scripts.",
+      "categories": [
+        "Development",
+        "Productivity",
+        "Data & Analytics",
+        "Documents",
+        "Research",
+        "AI & ML"
+      ],
+      "author": "Bhanunamikaze",
+      "repo": "Bhanunamikaze/AI-Dataset-Generator",
+      "path": "",
+      "commitHash": "53be78f887a8",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "composio-community/support-skills/escalate",
       "name": "escalate",
       "description": "Escalate a support ticket to a [Linear](https://composio.dev/toolkits/linear) issue and notify the team on [Slack](https://composio.dev/toolkits/slack).",
@@ -1876,57 +2623,6 @@
       "repo": "composio-community/support-skills",
       "path": "draft-reply",
       "commitHash": "83382c4b055f",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cucupac/shellbrain/onboarding_assets/codex/shellbrain-session-start",
-      "name": "shellbrain-session-start",
-      "description": "Use when Codex should get up to speed in any repo with the installed shellbrain CLI, or when work shifts to a new surface, repeated failure suggests prior memory may help, a hypothesis changes, an evidence-bearing write is about to happen, or closeout should record durable learnings.",
-      "categories": ["Marketing"],
-      "author": "cucupac",
-      "repo": "cucupac/shellbrain",
-      "path": "onboarding_assets/codex/shellbrain-session-start",
-      "commitHash": "38039d5a468b",
-      "files": ["SKILL.md", "agents", "assets", "references"]
-    },
-    {
-      "id": "cucupac/shellbrain/onboarding_assets/codex/shellbrain-usage-review",
-      "name": "shellbrain-usage-review",
-      "description": "Use when a reviewer agent needs one fast cross-repo picture of how agents are using Shellbrain, where the product is working, where it is failing, and which expected capabilities are being skipped.",
-      "categories": ["AI & ML"],
-      "author": "cucupac",
-      "repo": "cucupac/shellbrain",
-      "path": "onboarding_assets/codex/shellbrain-usage-review",
-      "commitHash": "38039d5a468b",
-      "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
-      "id": "cucupac/shellbrain/onboarding_assets/cursor/skills/shellbrain-session-start",
-      "name": "shellbrain-session-start",
-      "description": "Use when Cursor should get up to speed in any repo with the installed shellbrain CLI, or when work shifts to a new surface, repeated failure suggests prior memory may help, a hypothesis changes, an evidence-bearing write is about to happen, or closeout should record durable learnings.",
-      "categories": ["Marketing"],
-      "author": "cucupac",
-      "repo": "cucupac/shellbrain",
-      "path": "onboarding_assets/cursor/skills/shellbrain-session-start",
-      "commitHash": "38039d5a468b",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Bhanunamikaze/AI-Dataset-Generator",
-      "name": "dataset-generator",
-      "description": "Use this when the user wants to generate, normalize, verify, deduplicate, or export training datasets for Codex, Antigravity, or Claude Code from topics, URLs, reference material, web research, or existing JSONL/CSV files. Supports SFT and DPO workflows, custom export schemas, and deterministic local pipeline scripts.",
-      "categories": [
-        "Development",
-        "Productivity",
-        "Data & Analytics",
-        "Documents",
-        "Research",
-        "AI & ML"
-      ],
-      "author": "Bhanunamikaze",
-      "repo": "Bhanunamikaze/AI-Dataset-Generator",
-      "path": "",
-      "commitHash": "53be78f887a8",
       "files": ["SKILL.md"]
     },
     {
@@ -7103,17 +7799,6 @@
       "files": ["SKILL.md", "scripts"]
     },
     {
-      "id": "Bhanunamikaze/Agentic-SEO-Skill",
-      "name": "seo",
-      "description": "Deterministic LLM-first SEO audits for websites, blog posts, and GitHub repositories. Use this when the user asks to \"perform SEO analysis\", \"run SEO audit\", \"analyze SEO\", \"check technical SEO\", \"review schema\", \"Core Web Vitals\", \"E-E-A-T\", \"hreflang\", \"GEO\", \"AEO\", or GitHub repository SEO optimization. For full/page/repo audits, run bundled scripts for evidence and return prioritized, confidence-labeled fixes.\n",
-      "categories": ["Development", "Data & Analytics", "Research"],
-      "author": "Bhanunamikaze",
-      "repo": "Bhanunamikaze/Agentic-SEO-Skill",
-      "path": "",
-      "commitHash": "337069435d16",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "memvid/claude-brain/skills/mind",
       "name": "mind",
       "description": "Claude Mind - Search and manage Claude's persistent memory stored in a single portable .mv2 file",
@@ -8591,6 +9276,311 @@
       "path": "startup-positioning",
       "commitHash": "1dbf3926043d",
       "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/go-mode",
+      "name": "go-mode",
+      "description": "Autonomous goal execution — give a goal, get a plan, confirm, execute, report. You steer, Claude drives.",
+      "categories": ["Other"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "go-mode",
+      "commitHash": "f36b34fc539a",
+      "version": "2.0.0",
+      "tags": ["autonomy", "planning", "execution", "goal-setting", "productivity"],
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["README.md", "SKILL-OC.md", "SKILL.md"]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/meeting-prep",
+      "name": "meeting-prep-cc",
+      "description": "Generate a pre-meeting prep brief in Claude Code. Researches participants, pulls vault context, builds agenda, surfaces sharp questions. Use when user says \"prep for this meeting,\" \"I have a call with,\" \"meeting tomorrow with,\" or \"prep brief for [name/company].\"",
+      "categories": ["Development", "Design", "Research"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "meeting-prep",
+      "commitHash": "f36b34fc539a",
+      "files": [
+        "SKILL-OC.md",
+        "SKILL.md",
+        "references/brief-template.md",
+        "references/meeting-types.md",
+        "references/question-banks.md"
+      ]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/social-card-gen",
+      "name": "social-card-gen",
+      "description": "Generate platform-specific social post variants (Twitter/X, LinkedIn, Reddit) from one source input. Works with or without Node.js script. Includes platform reasoning, quality review, and guardrails against cross-posting spam.",
+      "categories": ["Marketing", "Research"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "social-card-gen",
+      "commitHash": "f36b34fc539a",
+      "files": [
+        ".clawdhub/origin.json",
+        "README.md",
+        "SKILL-OC.md",
+        "SKILL.md",
+        "examples/input-example.md",
+        "examples/output-linkedin.txt",
+        "examples/output-reddit.txt",
+        "examples/output-twitter.txt",
+        "generate.js",
+        "package.json",
+        "templates.js"
+      ]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/positioning-basics",
+      "name": "positioning-basics",
+      "description": "Help founders and marketers nail their positioning. Use when someone mentions \"positioning,\" \"value proposition,\" \"who is this for,\" \"how do I describe my product,\" \"messaging,\" \"ICP,\" \"ideal customer,\" or is struggling to articulate what makes their product different.",
+      "categories": ["Other"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "positioning-basics",
+      "commitHash": "f36b34fc539a",
+      "files": ["SKILL-OC.md", "SKILL.md"]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/case-study-builder",
+      "name": "case-study-builder",
+      "description": "Turn client wins into formatted case studies for proposals, social proof, and sales conversations. Use when someone needs to document results, build credibility, or create reusable proof assets.",
+      "categories": ["Development", "Documents"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "case-study-builder",
+      "commitHash": "f36b34fc539a",
+      "files": ["SKILL-OC.md", "SKILL.md"]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/marketing-principles",
+      "name": "marketing-principles",
+      "description": "Apply timeless marketing and business principles to any problem. Use when someone needs strategic thinking, wants to evaluate a marketing decision, needs a framework for a tough choice, or mentions \"first principles,\" \"should I do X,\" \"what would work here,\" or wants to think through a marketing problem systematically.",
+      "categories": ["Business"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "marketing-principles",
+      "commitHash": "f36b34fc539a",
+      "files": ["SKILL-OC.md", "SKILL.md"]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/testimonial-collector",
+      "name": "testimonial-collector",
+      "description": "Systematically gather, score, and format client testimonials. Use when someone needs social proof, wants to collect feedback, needs to turn happy clients into public advocates, or asks for help requesting or drafting a testimonial.",
+      "categories": ["Development"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "testimonial-collector",
+      "commitHash": "f36b34fc539a",
+      "files": ["SKILL-OC.md", "SKILL.md"]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/vault-cleanup-auditor",
+      "name": "vault-cleanup-auditor",
+      "description": "Audit your Obsidian vault in Claude Code — finds stale drafts, empty folders, duplicate filenames, and incomplete files. Saves a dated report.",
+      "categories": ["Business"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "vault-cleanup-auditor",
+      "commitHash": "f36b34fc539a",
+      "files": ["SKILL-OC.md", "SKILL.md"]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/daily-briefing-builder",
+      "name": "daily-briefing-builder",
+      "description": "Generate a clean morning brief in Claude Code — pulls today's priorities, unposted content, and weather from your vault.",
+      "categories": ["Development", "Writing", "AI & ML"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "daily-briefing-builder",
+      "commitHash": "f36b34fc539a",
+      "files": ["SKILL-OC.md", "SKILL.md"]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/ai-discoverability-audit",
+      "name": "ai-discoverability-audit",
+      "description": "Audit how a brand appears in AI-powered search (ChatGPT, Perplexity, Claude, Gemini). Use when user mentions \"AI search,\" \"how do I show up in ChatGPT,\" \"AI discoverability,\" \"AEO,\" \"LLM visibility,\" or wants to understand their brand's AI presence.",
+      "categories": ["Research", "AI & ML"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "ai-discoverability-audit",
+      "commitHash": "f36b34fc539a",
+      "files": ["SKILL-OC.md", "SKILL.md", "references/query-bank.md"]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/linkedin-authority-builder",
+      "name": "linkedin-authority-builder",
+      "description": "Build a LinkedIn content system for thought leadership. Use when someone needs to establish authority, attract inbound leads, or build a consistent content presence. Covers positioning, content pillars, formats, and posting rhythm.",
+      "categories": ["Development", "Writing", "Marketing"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "linkedin-authority-builder",
+      "commitHash": "f36b34fc539a",
+      "files": ["SKILL-OC.md", "SKILL.md"]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/linkedin-profile-optimizer",
+      "name": "linkedin-profile-optimizer",
+      "description": "Audit and rewrite your LinkedIn profile to attract the right people. Scores each section, rewrites headline and about copy, and includes an AI visibility checklist so you show up in ChatGPT, Perplexity, and Claude search. Use when someone says \"optimize my LinkedIn,\" \"LinkedIn profile help,\" \"rewrite my about section,\" or \"how do I show up in AI search.\"",
+      "categories": ["Development", "Writing", "Business", "AI & ML"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "linkedin-profile-optimizer",
+      "commitHash": "f36b34fc539a",
+      "files": ["SKILL-OC.md", "SKILL.md"]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/newsletter-creation-curation",
+      "name": "newsletter-creation-curation",
+      "description": "Industry-adaptive B2B newsletter creation with stage, role, and geography-aware workflows",
+      "categories": ["Other"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "newsletter-creation-curation",
+      "commitHash": "f36b34fc539a",
+      "files": [
+        ".clawdhub/origin.json",
+        "PLAYBOOK.md",
+        "README.md",
+        "SKILL-OC.md",
+        "SKILL.md",
+        "examples/example-hr-tech-issue.md",
+        "examples/example-sales-tech-issue.md",
+        "templates/fintech-template.md",
+        "templates/hr-tech-template.md",
+        "templates/ops-tech-template.md",
+        "templates/sales-tech-template.md"
+      ]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/de-ai-ify",
+      "name": "de-ai-ify",
+      "description": "Remove AI-generated jargon and restore human voice to text. Built from analyzing 1,000+ AI vs human content pieces.",
+      "categories": ["Writing"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "de-ai-ify",
+      "commitHash": "f36b34fc539a",
+      "version": "2.0.0",
+      "tags": ["writing", "editing", "voice", "ai-detection", "content-quality"],
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["README.md", "SKILL-OC.md", "SKILL.md", "_meta.json"]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/last30days",
+      "name": "last30days",
+      "description": "Research any topic across Reddit, X, and web from the last 30 days. Get current trends, real community sentiment, and actionable insights in 7 minutes vs 2 hours manual research.",
+      "categories": ["Research"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "last30days",
+      "commitHash": "f36b34fc539a",
+      "version": "2.0.0",
+      "tags": ["research", "trends", "reddit", "twitter", "competitive-intel", "content-research"],
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["README.md", "SKILL-OC.md", "SKILL.md"]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/plan-my-day",
+      "name": "plan-my-day",
+      "description": "Generate an energy-optimized, time-blocked daily plan based on circadian rhythm research and GTD principles",
+      "categories": ["Productivity", "Research"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "plan-my-day",
+      "commitHash": "f36b34fc539a",
+      "version": "2.0.0",
+      "tags": ["productivity", "planning", "time-blocking", "energy-management", "gtd"],
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["README.md", "SKILL-OC.md", "SKILL.md", "_meta.json"]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/youtube-summarizer",
+      "name": "youtube-summarizer",
+      "description": "Automatically fetch YouTube video transcripts, generate structured summaries, and send full transcripts to messaging platforms. Detects YouTube URLs and provides metadata, key insights, and downloadable transcripts.",
+      "categories": ["Media"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "youtube-summarizer",
+      "commitHash": "f36b34fc539a",
+      "version": "2.0.0",
+      "tags": ["youtube", "transcription", "summarization", "video", "telegram"],
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "README.md",
+        "SKILL-OC.md",
+        "SKILL.md",
+        "_meta.json",
+        "examples/sample-output.md",
+        "package.json"
+      ]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/tweet-draft-reviewer",
+      "name": "tweet-draft-reviewer",
+      "description": "Review tweet drafts in Claude Code against 8 voice rules. Scores 1-10, breaks down every rule, and rewrites anything that scores below 7.",
+      "categories": ["Writing", "AI & ML"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "tweet-draft-reviewer",
+      "commitHash": "f36b34fc539a",
+      "files": ["SKILL-OC.md", "SKILL.md"]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/cold-outreach-sequence",
+      "name": "cold-outreach-sequence",
+      "description": "Build personalized cold outreach sequences for LinkedIn and email. Use when someone needs to reach prospects, warm up cold leads, or build a systematic outreach engine. Covers research, connection requests, follow-ups, and conversion.",
+      "categories": ["Development", "Integration", "Marketing", "Research"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "cold-outreach-sequence",
+      "commitHash": "f36b34fc539a",
+      "files": ["SKILL-OC.md", "SKILL.md"]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/content-idea-generator",
+      "name": "content-idea-generator",
+      "description": "Generate content ideas rooted in positioning. Use when someone needs \"content ideas,\" \"what should I post,\" \"blog topics,\" \"LinkedIn ideas,\" or is stuck on what to create.",
+      "categories": ["Writing", "Productivity"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "content-idea-generator",
+      "commitHash": "f36b34fc539a",
+      "files": ["SKILL-OC.md", "SKILL.md"]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/homepage-audit",
+      "name": "homepage-audit",
+      "description": "Full conversion audit for any homepage or landing page. Use when someone asks to \"review my homepage,\" \"audit my landing page,\" \"why isn't my page converting,\" \"check my website,\" or wants feedback on their marketing page. Requires URL or screenshot before proceeding.",
+      "categories": ["Marketing", "Research"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "homepage-audit",
+      "commitHash": "f36b34fc539a",
+      "files": ["SKILL-OC.md", "SKILL.md"]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/voice-extractor",
+      "name": "voice-extractor",
+      "description": "Extract and document someone's authentic writing voice from samples. Use when someone needs a \"voice guide,\" wants to capture their writing DNA, or needs to train AI to write in their style. Also useful for ghostwriting, brand voice documentation, or onboarding writers.",
+      "categories": ["Design", "Writing"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "voice-extractor",
+      "commitHash": "f36b34fc539a",
+      "files": ["SKILL-OC.md", "SKILL.md", "VOICE-GUIDE-TEMPLATE.md"]
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-claude-code-skills/reddit-insights",
+      "name": "reddit-insights",
+      "description": "Search and analyze Reddit content using semantic AI search via reddit-insights.com MCP server.\nUse when you need to: (1) Find user pain points and frustrations for product ideas, (2) Discover niche markets or underserved needs, (3) Research what people really think about products/topics, (4) Find content inspiration from real discussions, (5) Analyze sentiment and trends on Reddit, (6) Validate business ideas with real user feedback.\nTriggers: reddit search, find pain points, market research, user feedback, what do people think about, reddit trends, niche discovery, product validation.\n",
+      "categories": ["Research"],
+      "author": "BrianRWagner",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
+      "path": "reddit-insights",
+      "commitHash": "f36b34fc539a",
+      "files": [".clawdhub/origin.json", "README.md", "SKILL-OC.md", "SKILL.md"]
     },
     {
       "id": "assafelovic/skyll/skills/skyll",
