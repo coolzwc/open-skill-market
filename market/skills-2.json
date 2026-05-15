@@ -1,11 +1,53 @@
 {
   "repositories": {
+    "girijashankarj/cursor-handbook": {
+      "url": "https://github.com/girijashankarj/cursor-handbook",
+      "branch": "main",
+      "stars": 19,
+      "forks": 3,
+      "lastUpdated": "2026-04-25T14:49:59Z"
+    },
+    "meshy-dev/meshy-3d-agent": {
+      "url": "https://github.com/meshy-dev/meshy-3d-agent",
+      "branch": "main",
+      "stars": 19,
+      "forks": 5,
+      "lastUpdated": "2026-05-09T03:16:20Z"
+    },
+    "VirtusLab-Open-Source/astro-strapi-blocks": {
+      "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-blocks",
+      "branch": "main",
+      "stars": 19,
+      "forks": 2,
+      "lastUpdated": "2026-05-13T20:33:36Z"
+    },
+    "zouchenzhen/docx-template-translator-skill": {
+      "url": "https://github.com/zouchenzhen/docx-template-translator-skill",
+      "branch": "main",
+      "stars": 19,
+      "forks": 2,
+      "lastUpdated": "2026-05-12T17:32:07Z"
+    },
+    "motherduckdb/agent-skills": {
+      "url": "https://github.com/motherduckdb/agent-skills",
+      "branch": "main",
+      "stars": 19,
+      "forks": 4,
+      "lastUpdated": "2026-05-13T18:06:44Z"
+    },
+    "VirtusLab-Open-Source/astro-strapi-loader": {
+      "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-loader",
+      "branch": "main",
+      "stars": 17,
+      "forks": 2,
+      "lastUpdated": "2026-05-14T21:34:16Z"
+    },
     "h4vzz/awesome-ai-agent-skills": {
       "url": "https://github.com/h4vzz/awesome-ai-agent-skills",
       "branch": "main",
       "stars": 16,
       "forks": 5,
-      "lastUpdated": "2026-05-15T00:55:14Z"
+      "lastUpdated": "2026-05-15T07:02:34Z"
     },
     "ChenXi-hub/tju-thesis-review-kit": {
       "url": "https://github.com/ChenXi-hub/tju-thesis-review-kit",
@@ -77,6 +119,13 @@
       "forks": 2,
       "lastUpdated": "2026-05-04T21:38:22Z"
     },
+    "yshishenya/stitchflow": {
+      "url": "https://github.com/yshishenya/stitchflow",
+      "branch": "main",
+      "stars": 11,
+      "forks": 1,
+      "lastUpdated": "2026-05-07T15:34:16Z"
+    },
     "martysama0134/m2ui-skill": {
       "url": "https://github.com/martysama0134/m2ui-skill",
       "branch": "main",
@@ -89,7 +138,7 @@
       "branch": "main",
       "stars": 10,
       "forks": 1,
-      "lastUpdated": "2026-05-13T11:16:15Z"
+      "lastUpdated": "2026-05-15T06:56:28Z"
     },
     "composio-community/support-skills": {
       "url": "https://github.com/composio-community/support-skills",
@@ -104,13 +153,6 @@
       "stars": 10,
       "forks": 0,
       "lastUpdated": "2026-05-14T06:07:03Z"
-    },
-    "yshishenya/stitchflow": {
-      "url": "https://github.com/yshishenya/stitchflow",
-      "branch": "main",
-      "stars": 10,
-      "forks": 1,
-      "lastUpdated": "2026-05-07T15:34:16Z"
     },
     "googleworkspace/cli": {
       "url": "https://github.com/googleworkspace/cli",
@@ -497,13 +539,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "brettdavies/crawl4ai-skill": {
-      "url": "https://github.com/brettdavies/crawl4ai-skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "proyecto26/sherlock-ai-plugin": {
       "url": "https://github.com/proyecto26/sherlock-ai-plugin",
       "branch": "main",
@@ -534,13 +569,6 @@
     },
     "IJONIS/geo-lint": {
       "url": "https://github.com/IJONIS/geo-lint",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "Yaroslavle/seo-content-writer-claude-skill": {
-      "url": "https://github.com/Yaroslavle/seo-content-writer-claude-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -584,6 +612,869 @@
   },
   "skills": [
     {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/ci-cd",
+      "name": "ci-cd",
+      "description": "Workflow for creating a complete CI/CD pipeline. Use when the user needs to set up or modify CI/CD pipelines.",
+      "categories": ["DevOps"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/devops/ci-cd",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/cloud/opensearch",
+      "name": "opensearch",
+      "description": "Workflow for OpenSearch (or Elasticsearch) usage: indexing, search, mappings, and tuning. Use when the user asks about OpenSearch/Elasticsearch.",
+      "categories": ["Other"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/cloud/opensearch",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/monitoring",
+      "name": "monitoring",
+      "description": "Workflow for implementing comprehensive monitoring and alerting. Use when the user needs to set up or improve service monitoring.",
+      "categories": ["Other"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/devops/monitoring",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/database/migration",
+      "name": "migration",
+      "description": "Safe workflow for creating and applying database schema changes. Use when the user needs to modify the database schema.",
+      "categories": ["Data & Analytics"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/database/migration",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/task-master",
+      "name": "task-master",
+      "description": "Break a high-level request into ordered, actionable tasks. Use when the user asks to break down into tasks, create a plan, or list steps.",
+      "categories": ["Productivity"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/devops/task-master",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/doc-redactor",
+      "name": "doc-redactor",
+      "description": "Scan and redact sensitive information (secrets, PII, internal URLs, credentials) from documents, configs, logs, and code. Use when the user asks to sanitize files, redact secrets, or prepare content for sharing.",
+      "categories": ["Development", "Documents"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/devops/doc-redactor",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/backend/debug-issue",
+      "name": "debug-issue",
+      "description": "Structured workflow for debugging a reported or reproduced issue. Use when the user asks to debug a bug, find root cause, or fix a failing scenario.",
+      "categories": ["Development"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/backend/debug-issue",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/cursor-setup",
+      "name": "cursor-setup",
+      "description": "Set up cursor-handbook in a new project by cloning, configuring, and validating the .cursor directory. Use when the user asks to install cursor-handbook, set up a new project, or bootstrap Cursor configuration.",
+      "categories": ["Productivity"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/devops/cursor-setup",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md", "scripts/setup-cursor.sh"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/backend/code-review",
+      "name": "code-review",
+      "description": "Structured workflow for conducting thorough code reviews. Use when the user asks to review code, a PR, or specific files.",
+      "categories": ["Development"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/backend/code-review",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/cloud/infrastructure",
+      "name": "infrastructure",
+      "description": "Workflow for provisioning cloud infrastructure using IaC. Use when the user needs to create or modify cloud resources.",
+      "categories": ["DevOps"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/cloud/infrastructure",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/token-counter",
+      "name": "token-counter",
+      "description": "Estimate LLM token counts for files or directories using a word-based heuristic. Use when the user asks how many tokens a file uses, wants to check context size, or needs to estimate token cost.",
+      "categories": ["Documents"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/devops/token-counter",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md", "scripts/count-tokens.sh"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/backend/create-handler",
+      "name": "create-handler",
+      "description": "Create a new API handler following the handler pattern. Use when the user asks to create an endpoint, handler, or route.",
+      "categories": ["Development"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/backend/create-handler",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md", "scripts/scaffold-handler-dirs.sh"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/release-manager",
+      "name": "release-manager",
+      "description": "Manage the full release lifecycle — version bump, changelog, tag, and release notes. Use when the user asks to prepare, create, or publish a release.",
+      "categories": ["Development"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/devops/release-manager",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/documentation/api-docs",
+      "name": "api-docs",
+      "description": "Workflow for creating comprehensive API documentation. Use when the user needs to document API endpoints.",
+      "categories": ["Writing"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/documentation/api-docs",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/component-search",
+      "name": "component-search",
+      "description": "Search across cursor-handbook rules, agents, commands, and skills for a specific term or topic. Use when the user asks to find a component, search for a keyword, or locate where something is defined.",
+      "categories": ["Research", "AI & ML"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/devops/component-search",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md", "scripts/search-components.sh"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/setup-monitoring",
+      "name": "setup-monitoring",
+      "description": "Guide for setting up or extending monitoring (metrics, logs, alerts) for a service. Use when the user asks to set up monitoring or add alerts.",
+      "categories": ["Other"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/devops/setup-monitoring",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/documentation/websearch",
+      "name": "websearch",
+      "description": "Use web search to find current documentation, best practices, or version-specific information. Use when the user asks about library versions or recent API changes.",
+      "categories": ["Development", "Documents", "Research"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/documentation/websearch",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/backend/api-mock-server",
+      "name": "api-mock-server",
+      "description": "Generate a mock API server from OpenAPI specs, TypeScript interfaces, or endpoint descriptions for frontend development and testing. Use when the user asks to create a mock server, fake API, or stub endpoints.",
+      "categories": ["Development"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/backend/api-mock-server",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/automation-helper",
+      "name": "automation-helper",
+      "description": "Design and create automation workflows — shell scripts, Cursor hooks, GitHub Actions, cron jobs, and task runners. Use when the user asks to automate a process, create a script, or set up a workflow.",
+      "categories": ["Productivity"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/devops/automation-helper",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/cloud/aws-cost-estimator",
+      "name": "aws-cost-estimator",
+      "description": "Estimate or review cost for proposed AWS resources (compute, storage, data transfer). Use when the user asks for cost estimate or cost optimization.",
+      "categories": ["Research"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/cloud/aws-cost-estimator",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/backend/dependency-graph",
+      "name": "dependency-graph",
+      "description": "Map and visualize module dependencies, detect circular imports, and identify coupling hotspots. Use when the user asks to analyze dependencies, find circular imports, or understand module relationships.",
+      "categories": ["Research"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/backend/dependency-graph",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/handbook-validator",
+      "name": "handbook-validator",
+      "description": "Validate cursor-handbook structure, config, and component integrity. Use when the user asks to validate the setup, check for issues, or verify the handbook installation.",
+      "categories": ["Development"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/devops/handbook-validator",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md", "scripts/validate.sh"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/env-file-generator",
+      "name": "env-file-generator",
+      "description": "Scan codebase for environment variable references and generate a complete .env.example file with safe placeholders. Use when the user asks to create or update .env.example or audit env var usage.",
+      "categories": ["Development", "Productivity"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/devops/env-file-generator",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/database/create-migration",
+      "name": "create-migration",
+      "description": "Create a new database migration following project naming and safety rules. Use when the user asks to add a migration or create a migration for a schema change.",
+      "categories": ["Data & Analytics"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/database/create-migration",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/frontend/state-management",
+      "name": "state-management",
+      "description": "Workflow for choosing and implementing the right state management approach. Use when the user needs to manage state for a new feature or refactor.",
+      "categories": ["Productivity"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/frontend/state-management",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/jira-ticket-creator",
+      "name": "jira-ticket-creator",
+      "description": "Generate well-structured JIRA tickets (stories, bugs, tasks, epics) with acceptance criteria, estimates, and labels. Use when the user asks to create a JIRA ticket, write a story, or document a bug report.",
+      "categories": ["Productivity"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/devops/jira-ticket-creator",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/cloud/opensearch-dashboard",
+      "name": "opensearch-dashboard",
+      "description": "Generate OpenSearch Dashboards (Kibana) saved objects — index patterns, visualizations, and dashboards as JSON. Use when the user asks to create dashboards, charts, or visualizations for OpenSearch/Elasticsearch/Kibana.",
+      "categories": ["Design", "Data & Analytics"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/cloud/opensearch-dashboard",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/changelog-generator",
+      "name": "changelog-generator",
+      "description": "Generate a CHANGELOG.md from Conventional Commit history with grouped sections and version headers. Use when the user asks to create or update a changelog.",
+      "categories": ["Development", "Productivity"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/devops/changelog-generator",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md", "scripts/generate-changelog.sh"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/documentation/adr-generator",
+      "name": "adr-generator",
+      "description": "Generate Architecture Decision Records (ADRs) documenting significant technical decisions with context, options, and consequences. Use when the user asks to document an architecture decision, design choice, or technical trade-off.",
+      "categories": ["Development", "Productivity"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/documentation/adr-generator",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/documentation/regex-builder",
+      "name": "regex-builder",
+      "description": "Build, explain, and test regular expressions step-by-step with plain-English breakdowns. Use when the user asks to create, debug, or explain a regex pattern.",
+      "categories": ["Development"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/documentation/regex-builder",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/frontend/component-creation",
+      "name": "component-creation",
+      "description": "Step-by-step workflow for creating accessible, tested UI components. Use when the user asks to create a new UI component.",
+      "categories": ["Development"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/frontend/component-creation",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/database/query-optimization",
+      "name": "query-optimization",
+      "description": "Workflow for identifying and fixing slow database queries. Use when a query is slow or the user asks to optimize database performance.",
+      "categories": ["Data & Analytics"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/database/query-optimization",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/backend/feature-flag-manager",
+      "name": "feature-flag-manager",
+      "description": "Create, manage, and clean up feature flags for gradual rollouts and safe deployments. Use when the user asks to add a feature flag, toggle, or manage feature gating.",
+      "categories": ["DevOps"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/backend/feature-flag-manager",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/testing/coverage-improvement",
+      "name": "coverage-improvement",
+      "description": "Systematic workflow for identifying coverage gaps and writing missing tests. Use when coverage is below target or the user asks to improve coverage.",
+      "categories": ["AI & ML"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/testing/coverage-improvement",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/git-conflict-resolver",
+      "name": "git-conflict-resolver",
+      "description": "Systematic workflow for understanding and resolving git merge conflicts safely. Use when the user has merge conflicts or asks for help resolving conflicts.",
+      "categories": ["Other"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/devops/git-conflict-resolver",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/backend/optimize-performance",
+      "name": "optimize-performance",
+      "description": "Workflow for identifying and applying backend performance improvements. Use when the user asks to optimize, speed up, or reduce latency.",
+      "categories": ["Other"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/backend/optimize-performance",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/dependency-remediation",
+      "name": "dependency-remediation",
+      "description": "Step-by-step workflow to fix npm/pnpm/yarn vulnerabilities and review Dependabot PRs with semver and CI safety.",
+      "categories": ["Other"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/devops/dependency-remediation",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/cloud/docker-compose-generator",
+      "name": "docker-compose-generator",
+      "description": "Generate docker-compose.yml files for local development with application services, databases, caches, and queues. Use when the user asks to set up a local dev environment or create docker-compose configuration.",
+      "categories": ["Productivity", "Data & Analytics"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/cloud/docker-compose-generator",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/incident-runbook-creator",
+      "name": "incident-runbook-creator",
+      "description": "Generate operational runbooks for services covering common failure scenarios, diagnostics, and recovery steps. Use when the user asks to create a runbook, document incident response, or prepare on-call guides.",
+      "categories": ["Other"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/devops/incident-runbook-creator",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/documentation/openapi-generator",
+      "name": "openapi-generator",
+      "description": "Generate OpenAPI 3.x specifications from code, requirements, or existing APIs. Use when the user asks to create an API spec, Swagger doc, or OpenAPI definition.",
+      "categories": ["Development", "Productivity"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/documentation/openapi-generator",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/commit-message-generator",
+      "name": "commit-message-generator",
+      "description": "Generate structured Conventional Commit messages from staged changes, diffs, or descriptions. Use when the user asks to write a commit message or needs help with commit formatting.",
+      "categories": ["Development", "Productivity"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/devops/commit-message-generator",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/documentation/architecture-docs",
+      "name": "architecture-docs",
+      "description": "Workflow for creating and maintaining architecture documentation. Use when the user needs to document system architecture or make ADRs.",
+      "categories": ["Writing"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/documentation/architecture-docs",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/backend/error-handler-generator",
+      "name": "error-handler-generator",
+      "description": "Generate typed error classes, error handling middleware, and HTTP error mapping following project conventions. Use when the user asks to set up error handling, create error classes, or implement error middleware.",
+      "categories": ["Productivity"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/backend/error-handler-generator",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/pr-description-generator",
+      "name": "pr-description-generator",
+      "description": "Generate comprehensive PR titles and descriptions with summary, test plan, risks, and linked issues. Use when the user asks to write or improve a pull request description.",
+      "categories": ["Development", "Writing", "Productivity"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/devops/pr-description-generator",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/documentation/prompt-engineering",
+      "name": "prompt-engineering",
+      "description": "Craft effective prompts and instructions for AI coding assistants. Use when creating rules, agents, skills, or system prompts for Cursor or other LLM-based tools.",
+      "categories": ["AI & ML"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/documentation/prompt-engineering",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/documentation/postman-collection-generator",
+      "name": "postman-collection-generator",
+      "description": "Generate Postman or Insomnia collections from OpenAPI specs, code, or endpoint descriptions. Use when the user asks to create an API collection, export endpoints for testing, or set up Postman/Insomnia.",
+      "categories": ["Development", "Productivity"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/documentation/postman-collection-generator",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/testing/fix-tests",
+      "name": "fix-tests",
+      "description": "Systematic workflow for diagnosing and fixing failing tests. Use when the user reports failing tests or asks to fix test failures.",
+      "categories": ["Other"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/testing/fix-tests",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/testing/flaky-test",
+      "name": "flaky-test",
+      "description": "Diagnose and fix flaky tests. Use when a test passes sometimes and fails other times.",
+      "categories": ["Other"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/testing/flaky-test",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/testing/test-data-factory",
+      "name": "test-data-factory",
+      "description": "Generate type-safe test data factories and fixtures for unit and integration tests. Use when the user asks to create mock data, test fixtures, or data factories.",
+      "categories": ["Other"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/testing/test-data-factory",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "girijashankarj/cursor-handbook/.cursor/skills/testing/load-test-generator",
+      "name": "load-test-generator",
+      "description": "Generate load test scripts using k6, Artillery, or Locust from API endpoints or OpenAPI specs. Use when the user asks to create load tests, stress tests, or performance benchmarks.",
+      "categories": ["Development", "Productivity"],
+      "author": "girijashankarj",
+      "repo": "girijashankarj/cursor-handbook",
+      "path": ".cursor/skills/testing/load-test-generator",
+      "commitHash": "81cb59ed0026",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "meshy-dev/meshy-3d-agent/skills/meshy-openclaw",
+      "name": "meshy-3d-agent",
+      "description": "Generate 3D models, textures, images, rig characters, animate them, and prepare for 3D printing using the Meshy AI API. Handles API key detection, task creation, polling, downloading, and full 3D print pipeline with slicer integration. Use when the user asks to create 3D models, convert text/images to 3D, texture models, rig or animate characters, 3D print a model, or interact with the Meshy API.",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "meshy-dev",
+      "repo": "meshy-dev/meshy-3d-agent",
+      "path": "skills/meshy-openclaw",
+      "commitHash": "c77de150b6c9",
+      "files": ["SKILL.md", "reference.md"]
+    },
+    {
+      "id": "meshy-dev/meshy-3d-agent/skills/meshy-3d-printing",
+      "name": "meshy-3d-printing",
+      "description": "3D print models generated with Meshy AI. Handles slicer detection, white model printing, multi-color printing via API, and print-optimized download workflows. Use when the user mentions 3D printing, slicing, Bambu, OrcaSlicer, Prusa, Cura, Creality Print, Elegoo, Anycubic, multicolor, multi-color, 3mf, or wants to print a figurine, miniature, or physical model.",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "meshy-dev",
+      "repo": "meshy-dev/meshy-3d-agent",
+      "path": "skills/meshy-3d-printing",
+      "commitHash": "c77de150b6c9",
+      "files": ["SKILL.md", "reference.md"]
+    },
+    {
+      "id": "meshy-dev/meshy-3d-agent/skills/meshy-3d-generation",
+      "name": "meshy-3d-generation",
+      "description": "Generate 3D models, textures, images, rig characters, and animate them using the Meshy AI API. Handles API key detection, setup, and all generation workflows via direct HTTP calls. Use when the user asks to create 3D models, convert text/images to 3D, texture models, rig or animate characters, or interact with the Meshy API.",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "meshy-dev",
+      "repo": "meshy-dev/meshy-3d-agent",
+      "path": "skills/meshy-3d-generation",
+      "commitHash": "c77de150b6c9",
+      "files": ["SKILL.md", "reference.md"]
+    },
+    {
+      "id": "VirtusLab-Open-Source/astro-strapi-blocks/.ai/astro-strapi-blocks",
+      "name": "astro-strapi-blocks",
+      "description": "Integrates @sensinum/astro-strapi-blocks with Strapi 5 Blocks fields in Astro: wiring `data` from API responses, theming with `extend` and `overwrite`, and custom block components. Use when adding or editing Strapi block rendering, rich text zones, or `StrapiBlocks` / theme configuration.",
+      "categories": ["Development", "Writing"],
+      "author": "VirtusLab-Open-Source",
+      "repo": "VirtusLab-Open-Source/astro-strapi-blocks",
+      "path": ".ai/astro-strapi-blocks",
+      "commitHash": "5a063d07abf0",
+      "files": ["SKILL.md", "reference.md"]
+    },
+    {
+      "id": "zouchenzhen/docx-template-translator-skill/skills/docx-template-translator",
+      "name": "docx-template-translator",
+      "description": "Adaptive conversion of LaTeX, PDF, or Markdown sources into a complete Word .docx that follows a user-supplied .docx template. Use when pandoc --reference-doc alone is not enough — for thesis, dissertation, report, or institutional Word formatting that needs cover pages, declarations, TOC, heading numbering, captions, three-line tables, equations, citations, and visual verification.",
+      "categories": ["Development", "Documents", "Research"],
+      "author": "zouchenzhen",
+      "repo": "zouchenzhen/docx-template-translator-skill",
+      "path": "skills/docx-template-translator",
+      "commitHash": "4510fcaa784c",
+      "files": ["SKILL.md", "agents", "presets", "references", "scripts"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-query",
+      "name": "motherduck-query",
+      "description": "Execute DuckDB SQL queries against MotherDuck databases. Use when running analytics, aggregations, transformations, or any SQL operation. Covers query best practices, CTEs, window functions, QUALIFY, and performance optimization.",
+      "categories": ["Development", "Data & Analytics"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-query",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/QUERY_PLAYBOOK.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-explore",
+      "name": "motherduck-explore",
+      "description": "Discover and explore databases, tables, columns, and data shares in MotherDuck. Use when you need to understand what data is available, preview table contents, or search the data catalog.",
+      "categories": ["Data & Analytics", "Research"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-explore",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/EXPLORATION_PLAYBOOK.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-connect",
+      "name": "motherduck-connect",
+      "description": "Connect to MotherDuck from any application. Use when setting up database connectivity via the Postgres endpoint (recommended), pg_duckdb, native DuckDB API, or JDBC. Covers connection strings, authentication, SSL, and environment variable configuration.",
+      "categories": ["Security", "Data & Analytics"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-connect",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/CONNECTION_GUIDE.md", "references/RUNTIME_SELECTION.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-rest-api",
+      "name": "motherduck-rest-api",
+      "description": "Use when automating or advising on MotherDuck REST API control-plane workflows for service-account provisioning, supported access-token lifecycle operations, Duckling instance configuration, active account inspection, or Dive embed sessions. Do not use for SQL or data-plane query work.",
+      "categories": ["Productivity", "Data & Analytics", "Business"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-rest-api",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/REST_API_GUIDE.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-ducklake",
+      "name": "motherduck-ducklake",
+      "description": "Decide when DuckLake is the right MotherDuck storage pattern. Use when evaluating fully managed DuckLake, BYOB, own-compute DuckLake access, data inlining, object-storage layout, or file-aware maintenance instead of native MotherDuck storage.",
+      "categories": ["AI & ML"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-ducklake",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/DUCKLAKE_PLAYBOOK.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-load-data",
+      "name": "motherduck-load-data",
+      "description": "Load data into MotherDuck from local files, object storage, HTTPS, dataframes, or external databases. Use when choosing a MotherDuck-specific ingestion path, especially CTAS and INSERT...SELECT, bulk loading, secrets, and Postgres-endpoint versus DuckDB-client tradeoffs.",
+      "categories": ["Data & Analytics"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-load-data",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/INGESTION_PATTERNS.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-duckdb-sql",
+      "name": "motherduck-duckdb-sql",
+      "description": "DuckDB SQL reference for MotherDuck. Use when you need exact DuckDB syntax, function behavior, supported MotherDuck SQL features, or to resolve whether PostgreSQL-oriented SQL will fail on MotherDuck.",
+      "categories": ["Data & Analytics"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-duckdb-sql",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/SYNTAX_REFERENCE.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-model-data",
+      "name": "motherduck-model-data",
+      "description": "Design and build database schemas and data models in MotherDuck. Produces a file-based project scaffold. Use when creating tables, choosing data types, defining relationships, or restructuring data for analytics workloads.",
+      "categories": ["Design", "Productivity", "Data & Analytics", "Documents"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-model-data",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/MODELING_PLAYBOOK.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-share-data",
+      "name": "motherduck-share-data",
+      "description": "Create and manage MotherDuck data shares for zero-copy data distribution. Use when sharing databases with team members, other organizations, or making data publicly available.",
+      "categories": ["Data & Analytics"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-share-data",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/SHARE_PLAYBOOK.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-create-dive",
+      "name": "motherduck-create-dive",
+      "description": "Create, edit, manage, share, or embed MotherDuck Dives. Use when the work involves Dive authoring, live React + SQL components, MCP get_dive_guide, useSQLQuery, local preview, version history, Dives-as-code, required resources, team sharing, or embedded Dive sessions.",
+      "categories": ["Development", "Writing", "Data & Analytics", "Research"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-create-dive",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/DIVE_DESIGN_GUIDE.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-pricing-roi",
+      "name": "motherduck-pricing-roi",
+      "description": "Explain MotherDuck pricing and ROI tradeoffs. Use when an economic_buyer, technical_owner, or analytics_lead is asking about spend, budget guardrails, workload cost drivers, plan fit, or whether MotherDuck is worth adopting.",
+      "categories": ["Business"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-pricing-roi",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/PRICING_ROI_PLAYBOOK.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-build-cfa-app",
+      "name": "motherduck-build-cfa-app",
+      "description": "Design a MotherDuck-backed customer-facing analytics app. Use when building embedded or product analytics for external users and the decision depends on per-customer isolation, backend routing, service-account boundaries, read scaling, or Hypertenancy-style patterns.",
+      "categories": ["Development", "Design", "Integration"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-build-cfa-app",
+      "commitHash": "508eef4756fc",
+      "files": [
+        "SKILL.md",
+        "artifacts/customer_routing_example.py",
+        "artifacts/customer_routing_example.ts",
+        "references/CFA_ARCHITECTURE.md",
+        "references/CFA_IMPLEMENTATION_GUIDE.md"
+      ]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-build-dashboard",
+      "name": "motherduck-build-dashboard",
+      "description": "Build a live MotherDuck dashboard as a Dive. Use when composing one shareable KPI, trend, and breakdown story over existing MotherDuck data, especially when the result should stay a saved workspace artifact rather than a full application.",
+      "categories": ["Design"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-build-dashboard",
+      "commitHash": "508eef4756fc",
+      "files": [
+        "SKILL.md",
+        "artifacts/dashboard_story_example.py",
+        "artifacts/dashboard_story_example.ts",
+        "references/DASHBOARD_IMPLEMENTATION_GUIDE.md",
+        "references/DASHBOARD_PATTERNS.md"
+      ]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-partner-delivery",
+      "name": "motherduck-partner-delivery",
+      "description": "Deliver repeatable MotherDuck architectures across multiple clients. Use when standardizing isolation, provisioning, regional deployment, sharing boundaries, and client-specific exceptions for a consultancy or partner delivery model.",
+      "categories": ["DevOps"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-partner-delivery",
+      "commitHash": "508eef4756fc",
+      "files": [
+        "SKILL.md",
+        "artifacts/client_delivery_example.py",
+        "artifacts/client_delivery_example.ts",
+        "references/PARTNER_DELIVERY_GUIDE.md"
+      ]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-build-data-pipeline",
+      "name": "motherduck-build-data-pipeline",
+      "description": "Design an end-to-end MotherDuck pipeline. Use when choosing raw, staging, and analytics boundaries, bulk ingestion paths, transformation sequencing, publication targets, or whether DuckLake is actually required.",
+      "categories": ["Development", "DevOps", "Design", "Data & Analytics"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-build-data-pipeline",
+      "commitHash": "508eef4756fc",
+      "files": [
+        "SKILL.md",
+        "artifacts/pipeline_stage_example.py",
+        "artifacts/pipeline_stage_example.ts",
+        "references/PIPELINE_IMPLEMENTATION_GUIDE.md",
+        "references/dlt-dbt-motherduck-project/.env.example",
+        "references/dlt-dbt-motherduck-project/.gitignore",
+        "references/dlt-dbt-motherduck-project/.user.yml",
+        "references/dlt-dbt-motherduck-project/README.md",
+        "references/dlt-dbt-motherduck-project/data/customers.jsonl",
+        "references/dlt-dbt-motherduck-project/data/orders.jsonl",
+        "references/dlt-dbt-motherduck-project/dbt_project.yml",
+        "references/dlt-dbt-motherduck-project/macros/generate_schema_name.sql",
+        "references/dlt-dbt-motherduck-project/models/marts/fct_customer_revenue.sql",
+        "references/dlt-dbt-motherduck-project/models/marts/marts.yml",
+        "references/dlt-dbt-motherduck-project/models/staging/sources.yml",
+        "references/dlt-dbt-motherduck-project/models/staging/staging.yml",
+        "references/dlt-dbt-motherduck-project/models/staging/stg_customers.sql",
+        "references/dlt-dbt-motherduck-project/models/staging/stg_orders.sql",
+        "references/dlt-dbt-motherduck-project/pipeline/__init__.py",
+        "references/dlt-dbt-motherduck-project/pipeline/bootstrap.py"
+      ]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-security-governance",
+      "name": "motherduck-security-governance",
+      "description": "Explain MotherDuck security, governance, and access-control patterns. Use when a security_compliance_owner, technical_owner, or application_builder is asking about residency, access boundaries, service accounts, isolation, sharing, or governance posture.",
+      "categories": ["Development", "Security"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-security-governance",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/SECURITY_GOVERNANCE_PLAYBOOK.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-migrate-to-motherduck",
+      "name": "motherduck-migrate-to-motherduck",
+      "description": "Plan a migration onto MotherDuck. Use when moving from Snowflake, Redshift, PostgreSQL, dbt-heavy stacks, or lakehouse tooling and the key decisions are target pattern, cutover slices, validation, rollback, and native-versus-DuckLake posture.",
+      "categories": ["Data & Analytics"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-migrate-to-motherduck",
+      "commitHash": "508eef4756fc",
+      "files": [
+        "SKILL.md",
+        "artifacts/migration_validation_example.py",
+        "artifacts/migration_validation_example.ts",
+        "references/MIGRATION_PLAYBOOK.md",
+        "references/MIGRATION_VALIDATION.md"
+      ]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-enable-self-serve-analytics",
+      "name": "motherduck-enable-self-serve-analytics",
+      "description": "Roll out self-serve analytics on MotherDuck for internal teams. Use when deciding the first governed dataset, the first Dive or share, ownership boundaries, and the rollout path from one audience to broader adoption.",
+      "categories": ["Data & Analytics"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-enable-self-serve-analytics",
+      "commitHash": "508eef4756fc",
+      "files": [
+        "SKILL.md",
+        "artifacts/self_serve_rollout_example.py",
+        "artifacts/self_serve_rollout_example.ts",
+        "references/SELF_SERVE_ROLLOUT_GUIDE.md"
+      ]
+    },
+    {
+      "id": "VirtusLab-Open-Source/astro-strapi-loader/.ai/astro-strapi-loader",
+      "name": "astro-strapi-loader",
+      "description": "Use @sensinum/astro-strapi-loader with Astro Content Layer: build Strapi REST query objects (object and object-array populate per REST parameters), let qs.stringify serialize—never inline query strings. Composable query fragments, dynamic zone \"on\", locale strategies, generateCollections, getCollection / getEntry. Strapi 5, Astro 6+.",
+      "categories": ["Development"],
+      "author": "VirtusLab-Open-Source",
+      "repo": "VirtusLab-Open-Source/astro-strapi-loader",
+      "path": ".ai/astro-strapi-loader",
+      "commitHash": "b3e8ddc6b292",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "h4vzz/awesome-ai-agent-skills/security/security-audit",
       "name": "security-audit",
       "description": "Perform a comprehensive security audit of applications and infrastructure to identify vulnerabilities, assess risk, and recommend mitigations aligned with industry standards.",
@@ -591,7 +1482,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/security-audit",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -602,7 +1493,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/refactoring",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -613,7 +1504,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-ranking",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -624,7 +1515,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-visualization",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -635,7 +1526,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/meeting-transcription",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -646,7 +1537,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-deployment",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -657,7 +1548,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-analysis",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -668,7 +1559,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/content-strategy",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -679,7 +1570,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/proofreading",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -690,7 +1581,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/summarization",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -701,7 +1592,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/report-generation",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -712,7 +1603,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/fact-checking",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -723,7 +1614,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/copywriting",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -734,7 +1625,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/docker-compose-setup",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -745,7 +1636,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-retrieval",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -756,7 +1647,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-compression",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -767,7 +1658,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/ml-pipeline-creation",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -778,7 +1669,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/keyword-research",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -789,7 +1680,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/graphql-api-design",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -800,7 +1691,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dynamic-application-security-testing",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -811,7 +1702,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-backup",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -822,7 +1713,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-cleaning",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -833,7 +1724,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/oauth-2-0-setup",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -844,7 +1735,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-injection",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -855,7 +1746,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/exploratory-data-analysis",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -866,7 +1757,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-optimization",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -877,7 +1768,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-seeding",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -888,7 +1779,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-design",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -899,7 +1790,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/ci-cd",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -910,7 +1801,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/threat-modeling",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -921,7 +1812,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/literature-review",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -932,7 +1823,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/chatbot-conversation-design",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -943,7 +1834,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/task-automation",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -954,7 +1845,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/cloud-monitoring",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -965,7 +1856,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/static-application-security-testing",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -976,7 +1867,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/code-documentation",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -987,7 +1878,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/query-optimization",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -998,7 +1889,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-schema-design",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1009,7 +1900,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/webhook-setup",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1020,7 +1911,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/seo-optimization",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1031,7 +1922,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/note-taking",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1042,7 +1933,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/blog-post-writing",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1053,7 +1944,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/hyperparameter-tuning",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1064,7 +1955,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/sql-query-generation",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1075,7 +1966,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dependency-scanning",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1086,7 +1977,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-training",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1097,7 +1988,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/version-control",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1108,7 +1999,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/technical-writing",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1119,7 +2010,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/social-media-posting",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1130,7 +2021,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/data-labeling",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1141,7 +2032,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/presentation-creation",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1152,7 +2043,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/analytics-reporting",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1163,7 +2054,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/translation",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1174,7 +2065,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/email-drafting",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1185,7 +2076,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-integration",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1196,7 +2087,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/knowledge-graph-creation",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1207,7 +2098,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/kubernetes-deployment",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1218,7 +2109,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/infrastructure-as-code",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1229,7 +2120,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-migration",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1240,7 +2131,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/deep-research",
-      "commitHash": "8c3746f48f56",
+      "commitHash": "b0dc55f3ce8d",
       "files": ["SKILL.md"]
     },
     {
@@ -1785,6 +2676,32 @@
       "repo": "Bhanunamikaze/AI-Dataset-Generator",
       "path": "",
       "commitHash": "53be78f887a8",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "yshishenya/stitchflow/skills/stitchflow",
+      "name": "stitchflow",
+      "description": "Turn briefs, mockups, and product context into Stitch UI screens, design variants, Tailwind-friendly HTML, and screenshots. Use when the user wants to explore a new screen, edit an existing screen, compare visual directions, or save local design artifacts from natural-language input.",
+      "categories": ["Design", "Writing", "AI & ML"],
+      "author": "yshishenya",
+      "repo": "yshishenya/stitchflow",
+      "path": "skills/stitchflow",
+      "commitHash": "125ac8395406",
+      "version": "1.3.1",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents", "references", "workflows"]
+    },
+    {
+      "id": "yshishenya/stitchflow/skills/stitch-design-local",
+      "name": "stitch-design-local",
+      "description": "Legacy compatibility alias for StitchFlow. Use when a user explicitly references stitch-design-local, or when older prompts and setups still call that skill name.",
+      "categories": ["Other"],
+      "author": "yshishenya",
+      "repo": "yshishenya/stitchflow",
+      "path": "skills/stitch-design-local",
+      "commitHash": "125ac8395406",
+      "version": "1.3.1",
+      "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
     },
     {
@@ -2367,7 +3284,7 @@
       "author": "cucupac",
       "repo": "cucupac/shellbrain",
       "path": "onboarding_assets/codex/shellbrain-session-start",
-      "commitHash": "38039d5a468b",
+      "commitHash": "a5bf7c62b23a",
       "files": ["SKILL.md", "agents", "assets", "references"]
     },
     {
@@ -2378,7 +3295,7 @@
       "author": "cucupac",
       "repo": "cucupac/shellbrain",
       "path": "onboarding_assets/codex/shellbrain-usage-review",
-      "commitHash": "38039d5a468b",
+      "commitHash": "a5bf7c62b23a",
       "files": ["SKILL.md", "agents", "assets"]
     },
     {
@@ -2389,33 +3306,7 @@
       "author": "cucupac",
       "repo": "cucupac/shellbrain",
       "path": "onboarding_assets/cursor/skills/shellbrain-session-start",
-      "commitHash": "38039d5a468b",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "yshishenya/stitchflow/skills/stitchflow",
-      "name": "stitchflow",
-      "description": "Turn briefs, mockups, and product context into Stitch UI screens, design variants, Tailwind-friendly HTML, and screenshots. Use when the user wants to explore a new screen, edit an existing screen, compare visual directions, or save local design artifacts from natural-language input.",
-      "categories": ["Design", "Writing", "AI & ML"],
-      "author": "yshishenya",
-      "repo": "yshishenya/stitchflow",
-      "path": "skills/stitchflow",
-      "commitHash": "125ac8395406",
-      "version": "1.3.1",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents", "references", "workflows"]
-    },
-    {
-      "id": "yshishenya/stitchflow/skills/stitch-design-local",
-      "name": "stitch-design-local",
-      "description": "Legacy compatibility alias for StitchFlow. Use when a user explicitly references stitch-design-local, or when older prompts and setups still call that skill name.",
-      "categories": ["Other"],
-      "author": "yshishenya",
-      "repo": "yshishenya/stitchflow",
-      "path": "skills/stitch-design-local",
-      "commitHash": "125ac8395406",
-      "version": "1.3.1",
-      "compatibility": { "minAgentVersion": "0.1.0" },
+      "commitHash": "a5bf7c62b23a",
       "files": ["SKILL.md"]
     },
     {
@@ -10601,17 +11492,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "brettdavies/crawl4ai-skill/crawl4ai",
-      "name": "crawl4ai",
-      "description": "This skill should be used when users need to scrape websites, extract structured data, handle JavaScript-heavy pages, crawl multiple URLs, or build automated web data pipelines. Includes optimized extraction patterns with schema generation for efficient, LLM-free extraction.",
-      "categories": ["Development", "Data & Analytics", "Research", "AI & ML"],
-      "author": "brettdavies",
-      "repo": "brettdavies/crawl4ai-skill",
-      "path": "crawl4ai",
-      "commitHash": "2c595528f7d9",
-      "files": ["SKILL.md", "references", "scripts", "tests"]
-    },
-    {
       "id": "proyecto26/sherlock-ai-plugin/skills/paper2code",
       "name": "paper2code",
       "description": "Analyzes research papers (PDF/arXiv URL) and converts them into executable code.\nAutomatically activated upon requests for paper replication, algorithm implementation, or research reproduction.\nResponds to requests like \"Implement this paper\", \"paper2code\", \"Convert paper to code\".\n",
@@ -10789,17 +11669,6 @@
       "path": "skills/content-creator",
       "commitHash": "b2d79319d1d0",
       "files": ["SKILL.md", "assets", "references", "scripts"]
-    },
-    {
-      "id": "Yaroslavle/seo-content-writer-claude-skill",
-      "name": "seo-content-writer",
-      "description": "Full AI-assisted workflow for long-form SEO content (2,000+ words). Covers JTBD strategy, E-E-A-T quality standards, and 5 production phases: research, outline, draft, editing, and SEO/publishing. Built for B2B marketing agency context. Use when: user wants to write or optimize an SEO article, mentions \"SEO content\", \"blog post\", \"GTM article\", \"long-form content\", or asks to create content with keyword strategy.\n",
-      "categories": ["Design", "Writing", "Documents", "Marketing", "Research"],
-      "author": "Yaroslavle",
-      "repo": "Yaroslavle/seo-content-writer-claude-skill",
-      "path": "",
-      "commitHash": "c07ae5f09db9",
-      "files": ["SKILL.md"]
     },
     {
       "id": "ITlearning/study-ios/.agents/skills/study-summary",
