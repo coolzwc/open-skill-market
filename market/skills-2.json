@@ -1,5 +1,12 @@
 {
   "repositories": {
+    "motherduckdb/agent-skills": {
+      "url": "https://github.com/motherduckdb/agent-skills",
+      "branch": "main",
+      "stars": 20,
+      "forks": 4,
+      "lastUpdated": "2026-05-13T18:06:44Z"
+    },
     "girijashankarj/cursor-handbook": {
       "url": "https://github.com/girijashankarj/cursor-handbook",
       "branch": "main",
@@ -21,26 +28,19 @@
       "forks": 2,
       "lastUpdated": "2026-05-13T20:33:36Z"
     },
+    "Aboudjem/humanizer-skill": {
+      "url": "https://github.com/Aboudjem/humanizer-skill",
+      "branch": "main",
+      "stars": 19,
+      "forks": 3,
+      "lastUpdated": "2026-05-13T09:04:47Z"
+    },
     "zouchenzhen/docx-template-translator-skill": {
       "url": "https://github.com/zouchenzhen/docx-template-translator-skill",
       "branch": "main",
       "stars": 19,
       "forks": 2,
       "lastUpdated": "2026-05-12T17:32:07Z"
-    },
-    "Farenhytee/database-sentinel": {
-      "url": "https://github.com/Farenhytee/database-sentinel",
-      "branch": "main",
-      "stars": 19,
-      "forks": 3,
-      "lastUpdated": "2026-04-30T08:42:55Z"
-    },
-    "motherduckdb/agent-skills": {
-      "url": "https://github.com/motherduckdb/agent-skills",
-      "branch": "main",
-      "stars": 19,
-      "forks": 4,
-      "lastUpdated": "2026-05-13T18:06:44Z"
     },
     "VirtusLab-Open-Source/astro-strapi-loader": {
       "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-loader",
@@ -54,7 +54,7 @@
       "branch": "main",
       "stars": 16,
       "forks": 5,
-      "lastUpdated": "2026-05-15T13:46:01Z"
+      "lastUpdated": "2026-05-15T18:09:49Z"
     },
     "ChenXi-hub/tju-thesis-review-kit": {
       "url": "https://github.com/ChenXi-hub/tju-thesis-review-kit",
@@ -82,7 +82,7 @@
       "branch": "main",
       "stars": 14,
       "forks": 8,
-      "lastUpdated": "2026-03-22T17:04:33Z"
+      "lastUpdated": "2026-05-15T15:10:48Z"
     },
     "alexander-danilenko/cortex-ai-skills": {
       "url": "https://github.com/alexander-danilenko/cortex-ai-skills",
@@ -126,6 +126,13 @@
       "forks": 0,
       "lastUpdated": "2026-04-30T19:28:08Z"
     },
+    "QZhang2111/Research-Pilot": {
+      "url": "https://github.com/QZhang2111/Research-Pilot",
+      "branch": "main",
+      "stars": 11,
+      "forks": 1,
+      "lastUpdated": "2026-05-15T06:56:28Z"
+    },
     "Bhanunamikaze/AI-Dataset-Generator": {
       "url": "https://github.com/Bhanunamikaze/AI-Dataset-Generator",
       "branch": "main",
@@ -147,13 +154,6 @@
       "forks": 3,
       "lastUpdated": "2026-05-11T17:59:53Z"
     },
-    "QZhang2111/Research-Pilot": {
-      "url": "https://github.com/QZhang2111/Research-Pilot",
-      "branch": "main",
-      "stars": 10,
-      "forks": 1,
-      "lastUpdated": "2026-05-15T06:56:28Z"
-    },
     "composio-community/support-skills": {
       "url": "https://github.com/composio-community/support-skills",
       "branch": "main",
@@ -167,6 +167,13 @@
       "stars": 10,
       "forks": 0,
       "lastUpdated": "2026-05-15T09:31:17Z"
+    },
+    "jrswab/slipbot": {
+      "url": "https://github.com/jrswab/slipbot",
+      "branch": "master",
+      "stars": 10,
+      "forks": 0,
+      "lastUpdated": "2026-02-12T02:48:05Z"
     },
     "googleworkspace/cli": {
       "url": "https://github.com/googleworkspace/cli",
@@ -343,16 +350,16 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "ckelsoe/prompt-architect": {
-      "url": "https://github.com/ckelsoe/prompt-architect",
-      "branch": "main",
+    "adeze/raindrop-mcp": {
+      "url": "https://github.com/adeze/raindrop-mcp",
+      "branch": "master",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "adeze/raindrop-mcp": {
-      "url": "https://github.com/adeze/raindrop-mcp",
-      "branch": "master",
+    "ckelsoe/prompt-architect": {
+      "url": "https://github.com/ckelsoe/prompt-architect",
+      "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
@@ -476,15 +483,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "chrisvoncsefalvay/autostar": {
-      "url": "https://github.com/chrisvoncsefalvay/autostar",
+    "a-pavithraa/springboot-skills-marketplace": {
+      "url": "https://github.com/a-pavithraa/springboot-skills-marketplace",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "a-pavithraa/springboot-skills-marketplace": {
-      "url": "https://github.com/a-pavithraa/springboot-skills-marketplace",
+    "chrisvoncsefalvay/autostar": {
+      "url": "https://github.com/chrisvoncsefalvay/autostar",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -604,6 +611,253 @@
     }
   },
   "skills": [
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-query",
+      "name": "motherduck-query",
+      "description": "Execute DuckDB SQL queries against MotherDuck databases. Use when running analytics, aggregations, transformations, or any SQL operation. Covers query best practices, CTEs, window functions, QUALIFY, and performance optimization.",
+      "categories": ["Development", "Data & Analytics"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-query",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/QUERY_PLAYBOOK.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-explore",
+      "name": "motherduck-explore",
+      "description": "Discover and explore databases, tables, columns, and data shares in MotherDuck. Use when you need to understand what data is available, preview table contents, or search the data catalog.",
+      "categories": ["Data & Analytics", "Research"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-explore",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/EXPLORATION_PLAYBOOK.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-connect",
+      "name": "motherduck-connect",
+      "description": "Connect to MotherDuck from any application. Use when setting up database connectivity via the Postgres endpoint (recommended), pg_duckdb, native DuckDB API, or JDBC. Covers connection strings, authentication, SSL, and environment variable configuration.",
+      "categories": ["Security", "Data & Analytics"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-connect",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/CONNECTION_GUIDE.md", "references/RUNTIME_SELECTION.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-rest-api",
+      "name": "motherduck-rest-api",
+      "description": "Use when automating or advising on MotherDuck REST API control-plane workflows for service-account provisioning, supported access-token lifecycle operations, Duckling instance configuration, active account inspection, or Dive embed sessions. Do not use for SQL or data-plane query work.",
+      "categories": ["Productivity", "Data & Analytics", "Business"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-rest-api",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/REST_API_GUIDE.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-ducklake",
+      "name": "motherduck-ducklake",
+      "description": "Decide when DuckLake is the right MotherDuck storage pattern. Use when evaluating fully managed DuckLake, BYOB, own-compute DuckLake access, data inlining, object-storage layout, or file-aware maintenance instead of native MotherDuck storage.",
+      "categories": ["AI & ML"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-ducklake",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/DUCKLAKE_PLAYBOOK.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-load-data",
+      "name": "motherduck-load-data",
+      "description": "Load data into MotherDuck from local files, object storage, HTTPS, dataframes, or external databases. Use when choosing a MotherDuck-specific ingestion path, especially CTAS and INSERT...SELECT, bulk loading, secrets, and Postgres-endpoint versus DuckDB-client tradeoffs.",
+      "categories": ["Data & Analytics"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-load-data",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/INGESTION_PATTERNS.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-duckdb-sql",
+      "name": "motherduck-duckdb-sql",
+      "description": "DuckDB SQL reference for MotherDuck. Use when you need exact DuckDB syntax, function behavior, supported MotherDuck SQL features, or to resolve whether PostgreSQL-oriented SQL will fail on MotherDuck.",
+      "categories": ["Data & Analytics"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-duckdb-sql",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/SYNTAX_REFERENCE.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-model-data",
+      "name": "motherduck-model-data",
+      "description": "Design and build database schemas and data models in MotherDuck. Produces a file-based project scaffold. Use when creating tables, choosing data types, defining relationships, or restructuring data for analytics workloads.",
+      "categories": ["Design", "Productivity", "Data & Analytics", "Documents"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-model-data",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/MODELING_PLAYBOOK.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-share-data",
+      "name": "motherduck-share-data",
+      "description": "Create and manage MotherDuck data shares for zero-copy data distribution. Use when sharing databases with team members, other organizations, or making data publicly available.",
+      "categories": ["Data & Analytics"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-share-data",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/SHARE_PLAYBOOK.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-create-dive",
+      "name": "motherduck-create-dive",
+      "description": "Create, edit, manage, share, or embed MotherDuck Dives. Use when the work involves Dive authoring, live React + SQL components, MCP get_dive_guide, useSQLQuery, local preview, version history, Dives-as-code, required resources, team sharing, or embedded Dive sessions.",
+      "categories": ["Development", "Writing", "Data & Analytics", "Research"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-create-dive",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/DIVE_DESIGN_GUIDE.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-pricing-roi",
+      "name": "motherduck-pricing-roi",
+      "description": "Explain MotherDuck pricing and ROI tradeoffs. Use when an economic_buyer, technical_owner, or analytics_lead is asking about spend, budget guardrails, workload cost drivers, plan fit, or whether MotherDuck is worth adopting.",
+      "categories": ["Business"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-pricing-roi",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/PRICING_ROI_PLAYBOOK.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-build-cfa-app",
+      "name": "motherduck-build-cfa-app",
+      "description": "Design a MotherDuck-backed customer-facing analytics app. Use when building embedded or product analytics for external users and the decision depends on per-customer isolation, backend routing, service-account boundaries, read scaling, or Hypertenancy-style patterns.",
+      "categories": ["Development", "Design", "Integration"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-build-cfa-app",
+      "commitHash": "508eef4756fc",
+      "files": [
+        "SKILL.md",
+        "artifacts/customer_routing_example.py",
+        "artifacts/customer_routing_example.ts",
+        "references/CFA_ARCHITECTURE.md",
+        "references/CFA_IMPLEMENTATION_GUIDE.md"
+      ]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-build-dashboard",
+      "name": "motherduck-build-dashboard",
+      "description": "Build a live MotherDuck dashboard as a Dive. Use when composing one shareable KPI, trend, and breakdown story over existing MotherDuck data, especially when the result should stay a saved workspace artifact rather than a full application.",
+      "categories": ["Design"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-build-dashboard",
+      "commitHash": "508eef4756fc",
+      "files": [
+        "SKILL.md",
+        "artifacts/dashboard_story_example.py",
+        "artifacts/dashboard_story_example.ts",
+        "references/DASHBOARD_IMPLEMENTATION_GUIDE.md",
+        "references/DASHBOARD_PATTERNS.md"
+      ]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-partner-delivery",
+      "name": "motherduck-partner-delivery",
+      "description": "Deliver repeatable MotherDuck architectures across multiple clients. Use when standardizing isolation, provisioning, regional deployment, sharing boundaries, and client-specific exceptions for a consultancy or partner delivery model.",
+      "categories": ["DevOps"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-partner-delivery",
+      "commitHash": "508eef4756fc",
+      "files": [
+        "SKILL.md",
+        "artifacts/client_delivery_example.py",
+        "artifacts/client_delivery_example.ts",
+        "references/PARTNER_DELIVERY_GUIDE.md"
+      ]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-build-data-pipeline",
+      "name": "motherduck-build-data-pipeline",
+      "description": "Design an end-to-end MotherDuck pipeline. Use when choosing raw, staging, and analytics boundaries, bulk ingestion paths, transformation sequencing, publication targets, or whether DuckLake is actually required.",
+      "categories": ["Development", "DevOps", "Design", "Data & Analytics"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-build-data-pipeline",
+      "commitHash": "508eef4756fc",
+      "files": [
+        "SKILL.md",
+        "artifacts/pipeline_stage_example.py",
+        "artifacts/pipeline_stage_example.ts",
+        "references/PIPELINE_IMPLEMENTATION_GUIDE.md",
+        "references/dlt-dbt-motherduck-project/.env.example",
+        "references/dlt-dbt-motherduck-project/.gitignore",
+        "references/dlt-dbt-motherduck-project/.user.yml",
+        "references/dlt-dbt-motherduck-project/README.md",
+        "references/dlt-dbt-motherduck-project/data/customers.jsonl",
+        "references/dlt-dbt-motherduck-project/data/orders.jsonl",
+        "references/dlt-dbt-motherduck-project/dbt_project.yml",
+        "references/dlt-dbt-motherduck-project/macros/generate_schema_name.sql",
+        "references/dlt-dbt-motherduck-project/models/marts/fct_customer_revenue.sql",
+        "references/dlt-dbt-motherduck-project/models/marts/marts.yml",
+        "references/dlt-dbt-motherduck-project/models/staging/sources.yml",
+        "references/dlt-dbt-motherduck-project/models/staging/staging.yml",
+        "references/dlt-dbt-motherduck-project/models/staging/stg_customers.sql",
+        "references/dlt-dbt-motherduck-project/models/staging/stg_orders.sql",
+        "references/dlt-dbt-motherduck-project/pipeline/__init__.py",
+        "references/dlt-dbt-motherduck-project/pipeline/bootstrap.py"
+      ]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-security-governance",
+      "name": "motherduck-security-governance",
+      "description": "Explain MotherDuck security, governance, and access-control patterns. Use when a security_compliance_owner, technical_owner, or application_builder is asking about residency, access boundaries, service accounts, isolation, sharing, or governance posture.",
+      "categories": ["Development", "Security"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-security-governance",
+      "commitHash": "508eef4756fc",
+      "files": ["SKILL.md", "references/SECURITY_GOVERNANCE_PLAYBOOK.md"]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-migrate-to-motherduck",
+      "name": "motherduck-migrate-to-motherduck",
+      "description": "Plan a migration onto MotherDuck. Use when moving from Snowflake, Redshift, PostgreSQL, dbt-heavy stacks, or lakehouse tooling and the key decisions are target pattern, cutover slices, validation, rollback, and native-versus-DuckLake posture.",
+      "categories": ["Data & Analytics"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-migrate-to-motherduck",
+      "commitHash": "508eef4756fc",
+      "files": [
+        "SKILL.md",
+        "artifacts/migration_validation_example.py",
+        "artifacts/migration_validation_example.ts",
+        "references/MIGRATION_PLAYBOOK.md",
+        "references/MIGRATION_VALIDATION.md"
+      ]
+    },
+    {
+      "id": "motherduckdb/agent-skills/skills/motherduck-enable-self-serve-analytics",
+      "name": "motherduck-enable-self-serve-analytics",
+      "description": "Roll out self-serve analytics on MotherDuck for internal teams. Use when deciding the first governed dataset, the first Dive or share, ownership boundaries, and the rollout path from one audience to broader adoption.",
+      "categories": ["Data & Analytics"],
+      "author": "motherduckdb",
+      "repo": "motherduckdb/agent-skills",
+      "path": "skills/motherduck-enable-self-serve-analytics",
+      "commitHash": "508eef4756fc",
+      "files": [
+        "SKILL.md",
+        "artifacts/self_serve_rollout_example.py",
+        "artifacts/self_serve_rollout_example.ts",
+        "references/SELF_SERVE_ROLLOUT_GUIDE.md"
+      ]
+    },
     {
       "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/ci-cd",
       "name": "ci-cd",
@@ -1199,6 +1453,17 @@
       "files": ["SKILL.md", "reference.md"]
     },
     {
+      "id": "Aboudjem/humanizer-skill/skills/humanizer",
+      "name": "humanizer",
+      "description": "Detects 43 AI writing patterns and rewrites text in 5 voice profiles. Use when (1) AI text reads like a chatbot, (2) preparing content for publication, (3) auditing prose for AI tells, (4) editing a file in place. Outputs a 0-100 AI-tell score on demand. Pure Markdown, zero dependencies, no network calls.",
+      "categories": ["Writing", "Documents", "AI & ML"],
+      "author": "Aboudjem",
+      "repo": "Aboudjem/humanizer-skill",
+      "path": "skills/humanizer",
+      "commitHash": "004db86aac6a",
+      "files": ["README.md", "SKILL.md"]
+    },
+    {
       "id": "zouchenzhen/docx-template-translator-skill/skills/docx-template-translator",
       "name": "docx-template-translator",
       "description": "Adaptive conversion of LaTeX, PDF, or Markdown sources into a complete Word .docx that follows a user-supplied .docx template. Use when pandoc --reference-doc alone is not enough — for thesis, dissertation, report, or institutional Word formatting that needs cover pages, declarations, TOC, heading numbering, captions, three-line tables, equations, citations, and visual verification.",
@@ -1208,282 +1473,6 @@
       "path": "skills/docx-template-translator",
       "commitHash": "4510fcaa784c",
       "files": ["SKILL.md", "agents", "presets", "references", "scripts"]
-    },
-    {
-      "id": "Farenhytee/database-sentinel",
-      "name": "database-sentinel",
-      "description": "Multi-backend database security auditor. Audits Supabase, Firebase (Firestore/RTDB/Storage/Functions/Remote Config), MongoDB (self-hosted + Atlas), self-hosted PostgreSQL, and self-hosted MySQL for RLS/rules misconfigurations, exposed credentials, auth bypasses, MongoBleed (CVE-2025-14847), pgBouncer CVE-2025-12819, mysql_native_password drift, ghost auth, and storage exposures. Use this skill whenever the user mentions database security, RLS or rule audits, security review, penetration testing a vibe-coded app, checking if their DB is exposed, hardening a backend, fixing security rules, or auditing apps built with Lovable/Bolt/Replit/Cursor/Claude Code on any of these backends. Trigger on phrases like 'is my app secure', 'check my database', 'audit my Firebase', 'audit my MongoDB', 'audit my Postgres', 'audit my Supabase', 'is my DB exposed', or any cross-backend variant ('audit my full stack').",
-      "categories": ["Development", "Security", "Data & Analytics", "AI & ML"],
-      "author": "Farenhytee",
-      "repo": "Farenhytee/database-sentinel",
-      "path": "",
-      "commitHash": "3efafb9c87a2",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Farenhytee/database-sentinel/compat/supabase-sentinel",
-      "name": "supabase-sentinel",
-      "description": "Audit any Supabase project for security vulnerabilities, RLS misconfigurations, exposed API keys, auth bypasses, and storage issues. Use this skill whenever the user mentions Supabase security, RLS policies, database security audit, security review, penetration testing a Supabase app, checking if their database is exposed, hardening their Supabase project, fixing RLS, or anything related to securing a Supabase or vibe-coded application. Also trigger when the user asks about securing apps built with Lovable, Bolt, Replit, Cursor, or any AI coding tool that uses Supabase as a backend. Even if the user just says 'is my app secure' or 'check my database' and their project uses Supabase, use this skill. (DEPRECATED: this skill is a backwards-compat shim. Prefer the multi-backend `database-sentinel` skill, which covers Supabase plus Firebase, MongoDB, self-hosted Postgres, and self-hosted MySQL.)",
-      "categories": [
-        "Development",
-        "Security",
-        "Productivity",
-        "Data & Analytics",
-        "Business",
-        "AI & ML"
-      ],
-      "author": "Farenhytee",
-      "repo": "Farenhytee/database-sentinel",
-      "path": "compat/supabase-sentinel",
-      "commitHash": "3efafb9c87a2",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "motherduckdb/agent-skills/skills/motherduck-query",
-      "name": "motherduck-query",
-      "description": "Execute DuckDB SQL queries against MotherDuck databases. Use when running analytics, aggregations, transformations, or any SQL operation. Covers query best practices, CTEs, window functions, QUALIFY, and performance optimization.",
-      "categories": ["Development", "Data & Analytics"],
-      "author": "motherduckdb",
-      "repo": "motherduckdb/agent-skills",
-      "path": "skills/motherduck-query",
-      "commitHash": "508eef4756fc",
-      "files": ["SKILL.md", "references/QUERY_PLAYBOOK.md"]
-    },
-    {
-      "id": "motherduckdb/agent-skills/skills/motherduck-explore",
-      "name": "motherduck-explore",
-      "description": "Discover and explore databases, tables, columns, and data shares in MotherDuck. Use when you need to understand what data is available, preview table contents, or search the data catalog.",
-      "categories": ["Data & Analytics", "Research"],
-      "author": "motherduckdb",
-      "repo": "motherduckdb/agent-skills",
-      "path": "skills/motherduck-explore",
-      "commitHash": "508eef4756fc",
-      "files": ["SKILL.md", "references/EXPLORATION_PLAYBOOK.md"]
-    },
-    {
-      "id": "motherduckdb/agent-skills/skills/motherduck-connect",
-      "name": "motherduck-connect",
-      "description": "Connect to MotherDuck from any application. Use when setting up database connectivity via the Postgres endpoint (recommended), pg_duckdb, native DuckDB API, or JDBC. Covers connection strings, authentication, SSL, and environment variable configuration.",
-      "categories": ["Security", "Data & Analytics"],
-      "author": "motherduckdb",
-      "repo": "motherduckdb/agent-skills",
-      "path": "skills/motherduck-connect",
-      "commitHash": "508eef4756fc",
-      "files": ["SKILL.md", "references/CONNECTION_GUIDE.md", "references/RUNTIME_SELECTION.md"]
-    },
-    {
-      "id": "motherduckdb/agent-skills/skills/motherduck-rest-api",
-      "name": "motherduck-rest-api",
-      "description": "Use when automating or advising on MotherDuck REST API control-plane workflows for service-account provisioning, supported access-token lifecycle operations, Duckling instance configuration, active account inspection, or Dive embed sessions. Do not use for SQL or data-plane query work.",
-      "categories": ["Productivity", "Data & Analytics", "Business"],
-      "author": "motherduckdb",
-      "repo": "motherduckdb/agent-skills",
-      "path": "skills/motherduck-rest-api",
-      "commitHash": "508eef4756fc",
-      "files": ["SKILL.md", "references/REST_API_GUIDE.md"]
-    },
-    {
-      "id": "motherduckdb/agent-skills/skills/motherduck-ducklake",
-      "name": "motherduck-ducklake",
-      "description": "Decide when DuckLake is the right MotherDuck storage pattern. Use when evaluating fully managed DuckLake, BYOB, own-compute DuckLake access, data inlining, object-storage layout, or file-aware maintenance instead of native MotherDuck storage.",
-      "categories": ["AI & ML"],
-      "author": "motherduckdb",
-      "repo": "motherduckdb/agent-skills",
-      "path": "skills/motherduck-ducklake",
-      "commitHash": "508eef4756fc",
-      "files": ["SKILL.md", "references/DUCKLAKE_PLAYBOOK.md"]
-    },
-    {
-      "id": "motherduckdb/agent-skills/skills/motherduck-load-data",
-      "name": "motherduck-load-data",
-      "description": "Load data into MotherDuck from local files, object storage, HTTPS, dataframes, or external databases. Use when choosing a MotherDuck-specific ingestion path, especially CTAS and INSERT...SELECT, bulk loading, secrets, and Postgres-endpoint versus DuckDB-client tradeoffs.",
-      "categories": ["Data & Analytics"],
-      "author": "motherduckdb",
-      "repo": "motherduckdb/agent-skills",
-      "path": "skills/motherduck-load-data",
-      "commitHash": "508eef4756fc",
-      "files": ["SKILL.md", "references/INGESTION_PATTERNS.md"]
-    },
-    {
-      "id": "motherduckdb/agent-skills/skills/motherduck-duckdb-sql",
-      "name": "motherduck-duckdb-sql",
-      "description": "DuckDB SQL reference for MotherDuck. Use when you need exact DuckDB syntax, function behavior, supported MotherDuck SQL features, or to resolve whether PostgreSQL-oriented SQL will fail on MotherDuck.",
-      "categories": ["Data & Analytics"],
-      "author": "motherduckdb",
-      "repo": "motherduckdb/agent-skills",
-      "path": "skills/motherduck-duckdb-sql",
-      "commitHash": "508eef4756fc",
-      "files": ["SKILL.md", "references/SYNTAX_REFERENCE.md"]
-    },
-    {
-      "id": "motherduckdb/agent-skills/skills/motherduck-model-data",
-      "name": "motherduck-model-data",
-      "description": "Design and build database schemas and data models in MotherDuck. Produces a file-based project scaffold. Use when creating tables, choosing data types, defining relationships, or restructuring data for analytics workloads.",
-      "categories": ["Design", "Productivity", "Data & Analytics", "Documents"],
-      "author": "motherduckdb",
-      "repo": "motherduckdb/agent-skills",
-      "path": "skills/motherduck-model-data",
-      "commitHash": "508eef4756fc",
-      "files": ["SKILL.md", "references/MODELING_PLAYBOOK.md"]
-    },
-    {
-      "id": "motherduckdb/agent-skills/skills/motherduck-share-data",
-      "name": "motherduck-share-data",
-      "description": "Create and manage MotherDuck data shares for zero-copy data distribution. Use when sharing databases with team members, other organizations, or making data publicly available.",
-      "categories": ["Data & Analytics"],
-      "author": "motherduckdb",
-      "repo": "motherduckdb/agent-skills",
-      "path": "skills/motherduck-share-data",
-      "commitHash": "508eef4756fc",
-      "files": ["SKILL.md", "references/SHARE_PLAYBOOK.md"]
-    },
-    {
-      "id": "motherduckdb/agent-skills/skills/motherduck-create-dive",
-      "name": "motherduck-create-dive",
-      "description": "Create, edit, manage, share, or embed MotherDuck Dives. Use when the work involves Dive authoring, live React + SQL components, MCP get_dive_guide, useSQLQuery, local preview, version history, Dives-as-code, required resources, team sharing, or embedded Dive sessions.",
-      "categories": ["Development", "Writing", "Data & Analytics", "Research"],
-      "author": "motherduckdb",
-      "repo": "motherduckdb/agent-skills",
-      "path": "skills/motherduck-create-dive",
-      "commitHash": "508eef4756fc",
-      "files": ["SKILL.md", "references/DIVE_DESIGN_GUIDE.md"]
-    },
-    {
-      "id": "motherduckdb/agent-skills/skills/motherduck-pricing-roi",
-      "name": "motherduck-pricing-roi",
-      "description": "Explain MotherDuck pricing and ROI tradeoffs. Use when an economic_buyer, technical_owner, or analytics_lead is asking about spend, budget guardrails, workload cost drivers, plan fit, or whether MotherDuck is worth adopting.",
-      "categories": ["Business"],
-      "author": "motherduckdb",
-      "repo": "motherduckdb/agent-skills",
-      "path": "skills/motherduck-pricing-roi",
-      "commitHash": "508eef4756fc",
-      "files": ["SKILL.md", "references/PRICING_ROI_PLAYBOOK.md"]
-    },
-    {
-      "id": "motherduckdb/agent-skills/skills/motherduck-build-cfa-app",
-      "name": "motherduck-build-cfa-app",
-      "description": "Design a MotherDuck-backed customer-facing analytics app. Use when building embedded or product analytics for external users and the decision depends on per-customer isolation, backend routing, service-account boundaries, read scaling, or Hypertenancy-style patterns.",
-      "categories": ["Development", "Design", "Integration"],
-      "author": "motherduckdb",
-      "repo": "motherduckdb/agent-skills",
-      "path": "skills/motherduck-build-cfa-app",
-      "commitHash": "508eef4756fc",
-      "files": [
-        "SKILL.md",
-        "artifacts/customer_routing_example.py",
-        "artifacts/customer_routing_example.ts",
-        "references/CFA_ARCHITECTURE.md",
-        "references/CFA_IMPLEMENTATION_GUIDE.md"
-      ]
-    },
-    {
-      "id": "motherduckdb/agent-skills/skills/motherduck-build-dashboard",
-      "name": "motherduck-build-dashboard",
-      "description": "Build a live MotherDuck dashboard as a Dive. Use when composing one shareable KPI, trend, and breakdown story over existing MotherDuck data, especially when the result should stay a saved workspace artifact rather than a full application.",
-      "categories": ["Design"],
-      "author": "motherduckdb",
-      "repo": "motherduckdb/agent-skills",
-      "path": "skills/motherduck-build-dashboard",
-      "commitHash": "508eef4756fc",
-      "files": [
-        "SKILL.md",
-        "artifacts/dashboard_story_example.py",
-        "artifacts/dashboard_story_example.ts",
-        "references/DASHBOARD_IMPLEMENTATION_GUIDE.md",
-        "references/DASHBOARD_PATTERNS.md"
-      ]
-    },
-    {
-      "id": "motherduckdb/agent-skills/skills/motherduck-partner-delivery",
-      "name": "motherduck-partner-delivery",
-      "description": "Deliver repeatable MotherDuck architectures across multiple clients. Use when standardizing isolation, provisioning, regional deployment, sharing boundaries, and client-specific exceptions for a consultancy or partner delivery model.",
-      "categories": ["DevOps"],
-      "author": "motherduckdb",
-      "repo": "motherduckdb/agent-skills",
-      "path": "skills/motherduck-partner-delivery",
-      "commitHash": "508eef4756fc",
-      "files": [
-        "SKILL.md",
-        "artifacts/client_delivery_example.py",
-        "artifacts/client_delivery_example.ts",
-        "references/PARTNER_DELIVERY_GUIDE.md"
-      ]
-    },
-    {
-      "id": "motherduckdb/agent-skills/skills/motherduck-build-data-pipeline",
-      "name": "motherduck-build-data-pipeline",
-      "description": "Design an end-to-end MotherDuck pipeline. Use when choosing raw, staging, and analytics boundaries, bulk ingestion paths, transformation sequencing, publication targets, or whether DuckLake is actually required.",
-      "categories": ["Development", "DevOps", "Design", "Data & Analytics"],
-      "author": "motherduckdb",
-      "repo": "motherduckdb/agent-skills",
-      "path": "skills/motherduck-build-data-pipeline",
-      "commitHash": "508eef4756fc",
-      "files": [
-        "SKILL.md",
-        "artifacts/pipeline_stage_example.py",
-        "artifacts/pipeline_stage_example.ts",
-        "references/PIPELINE_IMPLEMENTATION_GUIDE.md",
-        "references/dlt-dbt-motherduck-project/.env.example",
-        "references/dlt-dbt-motherduck-project/.gitignore",
-        "references/dlt-dbt-motherduck-project/.user.yml",
-        "references/dlt-dbt-motherduck-project/README.md",
-        "references/dlt-dbt-motherduck-project/data/customers.jsonl",
-        "references/dlt-dbt-motherduck-project/data/orders.jsonl",
-        "references/dlt-dbt-motherduck-project/dbt_project.yml",
-        "references/dlt-dbt-motherduck-project/macros/generate_schema_name.sql",
-        "references/dlt-dbt-motherduck-project/models/marts/fct_customer_revenue.sql",
-        "references/dlt-dbt-motherduck-project/models/marts/marts.yml",
-        "references/dlt-dbt-motherduck-project/models/staging/sources.yml",
-        "references/dlt-dbt-motherduck-project/models/staging/staging.yml",
-        "references/dlt-dbt-motherduck-project/models/staging/stg_customers.sql",
-        "references/dlt-dbt-motherduck-project/models/staging/stg_orders.sql",
-        "references/dlt-dbt-motherduck-project/pipeline/__init__.py",
-        "references/dlt-dbt-motherduck-project/pipeline/bootstrap.py"
-      ]
-    },
-    {
-      "id": "motherduckdb/agent-skills/skills/motherduck-security-governance",
-      "name": "motherduck-security-governance",
-      "description": "Explain MotherDuck security, governance, and access-control patterns. Use when a security_compliance_owner, technical_owner, or application_builder is asking about residency, access boundaries, service accounts, isolation, sharing, or governance posture.",
-      "categories": ["Development", "Security"],
-      "author": "motherduckdb",
-      "repo": "motherduckdb/agent-skills",
-      "path": "skills/motherduck-security-governance",
-      "commitHash": "508eef4756fc",
-      "files": ["SKILL.md", "references/SECURITY_GOVERNANCE_PLAYBOOK.md"]
-    },
-    {
-      "id": "motherduckdb/agent-skills/skills/motherduck-migrate-to-motherduck",
-      "name": "motherduck-migrate-to-motherduck",
-      "description": "Plan a migration onto MotherDuck. Use when moving from Snowflake, Redshift, PostgreSQL, dbt-heavy stacks, or lakehouse tooling and the key decisions are target pattern, cutover slices, validation, rollback, and native-versus-DuckLake posture.",
-      "categories": ["Data & Analytics"],
-      "author": "motherduckdb",
-      "repo": "motherduckdb/agent-skills",
-      "path": "skills/motherduck-migrate-to-motherduck",
-      "commitHash": "508eef4756fc",
-      "files": [
-        "SKILL.md",
-        "artifacts/migration_validation_example.py",
-        "artifacts/migration_validation_example.ts",
-        "references/MIGRATION_PLAYBOOK.md",
-        "references/MIGRATION_VALIDATION.md"
-      ]
-    },
-    {
-      "id": "motherduckdb/agent-skills/skills/motherduck-enable-self-serve-analytics",
-      "name": "motherduck-enable-self-serve-analytics",
-      "description": "Roll out self-serve analytics on MotherDuck for internal teams. Use when deciding the first governed dataset, the first Dive or share, ownership boundaries, and the rollout path from one audience to broader adoption.",
-      "categories": ["Data & Analytics"],
-      "author": "motherduckdb",
-      "repo": "motherduckdb/agent-skills",
-      "path": "skills/motherduck-enable-self-serve-analytics",
-      "commitHash": "508eef4756fc",
-      "files": [
-        "SKILL.md",
-        "artifacts/self_serve_rollout_example.py",
-        "artifacts/self_serve_rollout_example.ts",
-        "references/SELF_SERVE_ROLLOUT_GUIDE.md"
-      ]
     },
     {
       "id": "VirtusLab-Open-Source/astro-strapi-loader/.ai/astro-strapi-loader",
@@ -1504,7 +1493,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/security-audit",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1515,7 +1504,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/refactoring",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1526,7 +1515,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-ranking",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1537,7 +1526,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-visualization",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1548,7 +1537,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/meeting-transcription",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1559,7 +1548,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-deployment",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1570,7 +1559,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-analysis",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1581,7 +1570,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/content-strategy",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1592,7 +1581,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/proofreading",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1603,7 +1592,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/summarization",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1614,7 +1603,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/report-generation",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1625,7 +1614,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/fact-checking",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1636,7 +1625,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/copywriting",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1647,7 +1636,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/docker-compose-setup",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1658,7 +1647,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-retrieval",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1669,7 +1658,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-compression",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1680,7 +1669,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/ml-pipeline-creation",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1691,7 +1680,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/keyword-research",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1702,7 +1691,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/graphql-api-design",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1713,7 +1702,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dynamic-application-security-testing",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1724,7 +1713,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-backup",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1735,7 +1724,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-cleaning",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1746,7 +1735,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/oauth-2-0-setup",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1757,7 +1746,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-injection",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1768,7 +1757,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/exploratory-data-analysis",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1779,7 +1768,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-optimization",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1790,7 +1779,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-seeding",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1801,7 +1790,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-design",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1812,7 +1801,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/ci-cd",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1823,7 +1812,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/threat-modeling",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1834,7 +1823,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/literature-review",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1845,7 +1834,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/chatbot-conversation-design",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1856,7 +1845,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/task-automation",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1867,7 +1856,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/cloud-monitoring",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1878,7 +1867,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/static-application-security-testing",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1889,7 +1878,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/code-documentation",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1900,7 +1889,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/query-optimization",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1911,7 +1900,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-schema-design",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1922,7 +1911,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/webhook-setup",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1933,7 +1922,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/seo-optimization",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1944,7 +1933,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/note-taking",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1955,7 +1944,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/blog-post-writing",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1966,7 +1955,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/hyperparameter-tuning",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1977,7 +1966,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/sql-query-generation",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1988,7 +1977,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dependency-scanning",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -1999,7 +1988,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-training",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -2010,7 +1999,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/version-control",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -2021,7 +2010,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/technical-writing",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -2032,7 +2021,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/social-media-posting",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -2043,7 +2032,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/data-labeling",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -2054,7 +2043,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/presentation-creation",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -2065,7 +2054,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/analytics-reporting",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -2076,7 +2065,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/translation",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -2087,7 +2076,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/email-drafting",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -2098,7 +2087,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-integration",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -2109,7 +2098,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/knowledge-graph-creation",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -2120,7 +2109,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/kubernetes-deployment",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -2131,7 +2120,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/infrastructure-as-code",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -2142,7 +2131,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-migration",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -2153,7 +2142,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/deep-research",
-      "commitHash": "83cf9cdea4c2",
+      "commitHash": "2cba18cb1f49",
       "files": ["SKILL.md"]
     },
     {
@@ -2283,19 +2272,6 @@
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-mcp-onboarding",
-      "name": "codexkit-mcp-onboarding",
-      "description": "Evaluate and phase MCP adoption with a bias toward the smallest set of integrations that materially improve engineering work.",
-      "categories": ["Integration"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-mcp-onboarding",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
       "id": "hoavdc/CodexKit/skills/codexkit-email-composer",
       "name": "codexkit-email-composer",
       "description": "Draft clear, professional business emails from rough notes, context, or instructions. Handles cold outreach, internal updates, client responses, and escalation drafts. Use when the work is routine email writing with known context and audience. Do not use for sensitive legal notices, formal regulatory correspondence, or board-level communication without review.",
@@ -2315,32 +2291,91 @@
       ]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-process-mapper",
-      "name": "codexkit-process-mapper",
-      "description": "Map existing business processes using BPMN 2.0 notation or simplified swimlane diagrams. Identify waste, handoffs, decision points, and improvement opportunities using Lean principles (8 Wastes). Use when documenting workflows for SOP creation, automation assessment, or process improvement. Do not use for software architecture diagrams — use architecture tools instead.",
+      "id": "hoavdc/CodexKit/skills/codexkit-mcp-onboarding",
+      "name": "codexkit-mcp-onboarding",
+      "description": "Evaluate and phase MCP adoption with a bias toward the smallest set of integrations that materially improve engineering work.",
+      "categories": ["Integration"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-mcp-onboarding",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-skill-template",
+      "name": "codexkit-skill-template",
+      "description": "Reference implementation of a v2 CodexKit skill. Copy this folder as a starting point for new skills. Demonstrates all 10 required sections, 4C verification, and the tier-2 folder structure.",
+      "categories": ["Design"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-skill-template",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "CHANGELOG.md",
+        "SKILL.md",
+        "agents/openai.yaml",
+        "examples/common-mistakes.md",
+        "examples/good-output.md",
+        "verification/checklist.md"
+      ]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-survey-analyzer",
+      "name": "codexkit-survey-analyzer",
+      "description": "Analyze survey and feedback data with statistical distributions, cross-tabulations, significance testing, and open-ended theme extraction. Produces executive-ready survey reports with segment comparisons and action recommendations. Use when processing NPS, CSAT, employee engagement, or market research surveys.",
+      "categories": ["Development", "Data & Analytics", "Business", "Research"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-survey-analyzer",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "examples/common-mistakes.md",
+        "examples/good-output.md",
+        "verification/checklist.md"
+      ]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-cx-qbr-preparer",
+      "name": "codexkit-cx-qbr-preparer",
+      "description": "Prepare customer or executive business reviews with outcome tracking, adoption health, ROI narrative, risks, commitments, and next-quarter plan using customer success and CX frameworks. Use when teams need QBRs, success plans, churn-risk conversations, or executive account reviews. Do not use for generic slide beautification or cold outreach prospecting.",
       "categories": ["Development", "Productivity", "Business"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-process-mapper",
+      "path": "skills/codexkit-cx-qbr-preparer",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "SKILL.md",
-        "agents/openai.yaml",
-        "examples/common-mistakes.md",
-        "examples/good-output.md",
-        "verification/checklist.md"
-      ]
+      "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-repo-onboarding",
-      "name": "codexkit-repo-onboarding",
-      "description": "Rapidly map a new codebase, identify the runtime model, risk zones, and first high-value next steps.",
-      "categories": ["Development"],
+      "id": "hoavdc/CodexKit/skills/codexkit-ops-kpi-packager",
+      "name": "codexkit-ops-kpi-packager",
+      "description": "Format recurring KPI snapshots, exception flags, and owner follow-ups for weekly operations reviews. Use when the work is routine packaging of operational metrics and exceptions. Do not use for root cause analysis, process redesign, or full performance diagnosis.",
+      "categories": ["Development", "Data & Analytics", "Business", "Research"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-repo-onboarding",
+      "path": "skills/codexkit-ops-kpi-packager",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-report-summarizer",
+      "name": "codexkit-report-summarizer",
+      "description": "Condense long reports, documents, or data exports into structured summaries with key findings, implications, and recommended actions. Use when the work is distilling dense content for busy readers. Do not use for original analysis, strategy formulation, or when the source material needs expert interpretation beyond summarization.",
+      "categories": ["Writing", "Data & Analytics", "Documents", "Research"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-report-summarizer",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
@@ -2353,13 +2388,110 @@
       ]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-backlog-refiner",
-      "name": "codexkit-backlog-refiner",
-      "description": "Refine Product Backlog Items to meet INVEST criteria. Write User Stories with Acceptance Criteria in Given/When/Then format, estimate with Story Points, and flag dependencies. Use before sprint planning when backlog items need grooming. Do not use to prioritize the backlog — that is the Product Owner's decision.",
+      "id": "hoavdc/CodexKit/skills/codexkit-scrum-retrospective",
+      "name": "codexkit-scrum-retrospective",
+      "description": "Facilitate and document Sprint Retrospectives per Scrum Guide 2020. Choose format by team maturity, structure the session, capture action items, and track improvement across sprints. Use after every sprint. Do not use for individual performance reviews, blame sessions, or annual assessments.",
+      "categories": ["Development", "Documents", "Business"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-scrum-retrospective",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-pmbok8-earned-value",
+      "name": "codexkit-pmbok8-earned-value",
+      "description": "Calculate and interpret Earned Value Management (EVM) metrics per PMBOK 8 Measurement Performance Domain. Compute SPI, CPI, EAC, ETC, TCPI, and generate variance narratives with corrective action recommendations. Use during project execution to assess schedule and cost performance.",
+      "categories": ["Productivity"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-pmbok8-earned-value",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-kanban-flow-analyzer",
+      "name": "codexkit-kanban-flow-analyzer",
+      "description": "Analyze Kanban flow metrics to identify bottlenecks and improve team throughput. Covers Cycle Time, Throughput, WIP, and Flow Efficiency using Little's Law and Theory of Constraints. Use when a team wants to optimize delivery flow or improve predictability. Do not use for sprint-based Scrum planning — use sprint-planning-assistant instead.",
+      "categories": ["Productivity", "Business", "AI & ML"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-kanban-flow-analyzer",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-procurement-rfp-writer",
+      "name": "codexkit-procurement-rfp-writer",
+      "description": "Write structured Requests for Proposal (RFP) or Requests for Quotation (RFQ) aligned with ISO 20400 sustainable procurement principles. Cover scope, technical requirements, evaluation methodology, and commercial terms. Use when sourcing vendors, services, or equipment.",
+      "categories": ["Other"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-procurement-rfp-writer",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-customer-journey-mapper",
+      "name": "codexkit-customer-journey-mapper",
+      "description": "Map the end-to-end customer journey across awareness, consideration, purchase, onboarding, adoption, retention, and advocacy stages. Identify touchpoints, pain points, emotions, and Moments of Truth per stage. Use when designing or improving customer experience. Do not use for internal employee process mapping — use process-mapper instead.",
+      "categories": ["Business"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-customer-journey-mapper",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "examples/common-mistakes.md",
+        "examples/good-output.md",
+        "verification/checklist.md"
+      ]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-talent-review-calibrator",
+      "name": "codexkit-talent-review-calibrator",
+      "description": "Facilitate talent review and people decisions with a structured view of performance, potential, readiness, risks, and development actions using talent calibration and 9-box logic. Use when preparing talent review, succession planning, promotion readiness, or performance calibration sessions. Do not use for payroll administration, HRIS updates, or generic praise notes.",
+      "categories": ["Other"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-talent-review-calibrator",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-strategy-scorecard-builder",
+      "name": "codexkit-strategy-scorecard-builder",
+      "description": "Translate strategy into a balanced scorecard, strategy map, OKR bridge, and executive initiative portfolio with clear measures, targets, and owners. Use when leadership needs strategic alignment, portfolio prioritization, or a management dashboard tied to outcomes. Do not use for ad-hoc brainstorming with no strategic horizon.",
       "categories": ["Development", "Business"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-backlog-refiner",
+      "path": "skills/codexkit-strategy-scorecard-builder",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-sop-writer",
+      "name": "codexkit-sop-writer",
+      "description": "Draft standard operating procedures with scope, roles, steps, controls, exceptions, and review cadence. Use when a recurring business process needs clear repeatable instructions.",
+      "categories": ["Writing"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-sop-writer",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
@@ -2379,58 +2511,26 @@
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-root-cause-analyzer",
-      "name": "codexkit-root-cause-analyzer",
-      "description": "Conduct structured root cause analysis using Ishikawa (Fishbone), 5 Whys, and Pareto methods. Suitable for production incidents, quality defects, customer complaints, and recurring operational problems. Use when problems recur or when initial fixes do not resolve the issue. Do not use for one-time, obvious fixes or strategic decision-making.",
-      "categories": ["DevOps", "Research"],
+      "id": "hoavdc/CodexKit/skills/codexkit-churn-risk-analyzer",
+      "name": "codexkit-churn-risk-analyzer",
+      "description": "Build customer health scores and churn risk models using leading indicators. Define health dimensions (Usage, Engagement, Support, Sentiment, Contract), weight and score customers, segment into Healthy / At-Risk / Red, and generate intervention playbooks. Use during QBR prep, customer success reviews, or when churn spikes.",
+      "categories": ["Development", "Productivity", "Marketing", "Research"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-root-cause-analyzer",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "SKILL.md",
-        "agents/openai.yaml",
-        "examples/common-mistakes.md",
-        "examples/good-output.md",
-        "verification/checklist.md"
-      ]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-api-design-reviewer",
-      "name": "codexkit-api-design-reviewer",
-      "description": "Review REST and GraphQL API designs for consistency, usability, and best practices. Covers naming conventions, versioning strategy, error format, pagination, authentication patterns, and breaking change detection. Use when reviewing API specs, designing new APIs, or auditing existing endpoints.",
-      "categories": ["Development", "Security", "Business"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-api-design-reviewer",
+      "path": "skills/codexkit-churn-risk-analyzer",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-workshop-facilitator",
-      "name": "codexkit-workshop-facilitator",
-      "description": "Design and facilitate structured workshops using Design Thinking and Liberating Structures. Produces detailed agendas with time blocks, facilitation notes, participant materials, and retrospective templates. Use when running ideation sessions, retrospectives, planning workshops, or collaborative problem-solving.",
-      "categories": ["Design", "Productivity", "Business"],
+      "id": "hoavdc/CodexKit/skills/codexkit-inbox-priority-triage",
+      "name": "codexkit-inbox-priority-triage",
+      "description": "Triage email, Slack, ticket, or shared request backlogs into priority buckets, owners, and next actions. Use when the work is repetitive queue handling, intake cleanup, or response sorting. Do not use for strategic decisions, policy interpretation, or substantive contract review.",
+      "categories": ["Integration", "Business"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-workshop-facilitator",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-meeting-action-router",
-      "name": "codexkit-meeting-action-router",
-      "description": "Turn meeting notes, transcripts, or rough bullets into decisions, action items, owners, due dates, and follow-up queues. Use when the work is repetitive meeting cleanup or recap writing. Do not use for negotiation strategy, legal advice, or executive decision framing.",
-      "categories": ["Business"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-meeting-action-router",
+      "path": "skills/codexkit-inbox-priority-triage",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
@@ -2457,128 +2557,6 @@
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
       "path": "skills/codexkit-job-description-writer",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-training-needs-analyzer",
-      "name": "codexkit-training-needs-analyzer",
-      "description": "Assess organizational training needs using ADDIE methodology and Kirkpatrick's 4-Level evaluation framework. Maps performance gaps to learning objectives using Bloom's taxonomy. Use when planning L&D budgets, designing training programs, or evaluating training effectiveness.",
-      "categories": ["Development", "Business", "Research", "AI & ML"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-training-needs-analyzer",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-performance-review-writer",
-      "name": "codexkit-performance-review-writer",
-      "description": "Write balanced, evidence-based performance reviews for employees. Covers achievements, development areas, and goal setting using the SBI (Situation-Behavior-Impact) feedback model. Produces reviews that are fair, legally defensible, and growth-oriented. Use during annual or semi-annual review cycles. Do not use for disciplinary actions, PIPs, or compensation calculations.",
-      "categories": ["AI & ML"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-performance-review-writer",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "SKILL.md",
-        "agents/openai.yaml",
-        "examples/common-mistakes.md",
-        "examples/good-output.md",
-        "verification/checklist.md"
-      ]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-cloud-delegation",
-      "name": "codexkit-cloud-delegation",
-      "description": "Break complex work into bounded Codex delegation tasks with clear ownership, expected outputs, and integration checkpoints.",
-      "categories": ["Other"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-cloud-delegation",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-data-story-builder",
-      "name": "codexkit-data-story-builder",
-      "description": "Turn business data, KPI movement, or experiment results into a clear narrative using the what-so what-now what structure, audience calibration, and action-oriented insight. Use when leaders need a data-backed brief, dashboard storyline, or metric interpretation. Do not use for raw statistical modeling with no communication deliverable.",
-      "categories": ["Development", "Marketing"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-data-story-builder",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "SKILL.md",
-        "agents/openai.yaml",
-        "examples/common-mistakes.md",
-        "examples/good-output.md",
-        "verification/checklist.md"
-      ]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-incident-postmortem",
-      "name": "codexkit-incident-postmortem",
-      "description": "Write blameless incident postmortems following Google SRE methodology. Covers timeline reconstruction, root cause analysis (5 Whys), impact assessment, and action items with owners. Use after production incidents, outages, or significant bugs to prevent recurrence.",
-      "categories": ["DevOps", "Writing"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-incident-postmortem",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "SKILL.md",
-        "agents/openai.yaml",
-        "examples/common-mistakes.md",
-        "examples/good-output.md",
-        "verification/checklist.md"
-      ]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-change-management-plan",
-      "name": "codexkit-change-management-plan",
-      "description": "Build change management plans using ADKAR and Kotter's 8-Step framework. Covers stakeholder readiness, communication plans, training schedules, resistance management, and adoption metrics. Use when rolling out new systems, reorganizations, or process changes that affect people.",
-      "categories": ["Development", "Productivity", "Business", "AI & ML"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-change-management-plan",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-follow-up-draft-builder",
-      "name": "codexkit-follow-up-draft-builder",
-      "description": "Draft concise follow-up messages, nudges, reminders, and recap emails from open decisions, stale requests, or recent meetings. Use when the work is repetitive business writing with known context. Do not use for sensitive legal language, high-stakes negotiation, or board-level communication without review.",
-      "categories": ["Development", "Writing", "Business"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-follow-up-draft-builder",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-brand-positioning-canvas",
-      "name": "codexkit-brand-positioning-canvas",
-      "description": "Build or refine brand positioning with audience, category, differentiators, proof, tone, JTBD signals, and competitive context. Use when marketing, founders, or GTM teams need a positioning canvas, messaging pillars, or campaign foundation. Do not use for isolated ad copy tweaks with no strategy question.",
-      "categories": ["Development", "Design", "Writing", "Marketing", "Business"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-brand-positioning-canvas",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
@@ -2617,91 +2595,13 @@
       ]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-dmaic-improvement-charter",
-      "name": "codexkit-dmaic-improvement-charter",
-      "description": "Define a Lean Six Sigma improvement project using DMAIC, problem framing, baseline measures, root-cause hypotheses, CTQs, and control planning. Use when an existing process is underperforming and the team needs a charter, SIPOC, baseline, and improvement path. Do not use for brand-new process design or vague complaints with no process boundary.",
-      "categories": ["Design", "Productivity"],
+      "id": "hoavdc/CodexKit/skills/codexkit-performance-review-writer",
+      "name": "codexkit-performance-review-writer",
+      "description": "Write balanced, evidence-based performance reviews for employees. Covers achievements, development areas, and goal setting using the SBI (Situation-Behavior-Impact) feedback model. Produces reviews that are fair, legally defensible, and growth-oriented. Use during annual or semi-annual review cycles. Do not use for disciplinary actions, PIPs, or compensation calculations.",
+      "categories": ["AI & ML"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-dmaic-improvement-charter",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-finance-close-coordinator",
-      "name": "codexkit-finance-close-coordinator",
-      "description": "Organize month-end or quarter-end close blockers, reconciliations, owners, and evidence gaps into a routine control pack. Use when the work is finance close coordination and issue tracking. Do not use for accounting judgment, policy interpretation, or final technical accounting conclusions.",
-      "categories": ["Productivity", "Data & Analytics", "Finance"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-finance-close-coordinator",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-strategy-scorecard-builder",
-      "name": "codexkit-strategy-scorecard-builder",
-      "description": "Translate strategy into a balanced scorecard, strategy map, OKR bridge, and executive initiative portfolio with clear measures, targets, and owners. Use when leadership needs strategic alignment, portfolio prioritization, or a management dashboard tied to outcomes. Do not use for ad-hoc brainstorming with no strategic horizon.",
-      "categories": ["Development", "Business"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-strategy-scorecard-builder",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-sandop-facilitator",
-      "name": "codexkit-sandop-facilitator",
-      "description": "Facilitate monthly S&OP or integrated business planning cycles by aligning demand, supply, inventory, capacity, and executive decisions with a standard meeting rhythm and decision log. Use when operations teams need a demand review, supply review, pre-S&OP reconciliation, or executive S&OP pack. Do not use for single-SKU replenishment math only.",
-      "categories": ["Data & Analytics", "Business"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-sandop-facilitator",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-scrum-retrospective",
-      "name": "codexkit-scrum-retrospective",
-      "description": "Facilitate and document Sprint Retrospectives per Scrum Guide 2020. Choose format by team maturity, structure the session, capture action items, and track improvement across sprints. Use after every sprint. Do not use for individual performance reviews, blame sessions, or annual assessments.",
-      "categories": ["Development", "Documents", "Business"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-scrum-retrospective",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-pmbok8-earned-value",
-      "name": "codexkit-pmbok8-earned-value",
-      "description": "Calculate and interpret Earned Value Management (EVM) metrics per PMBOK 8 Measurement Performance Domain. Compute SPI, CPI, EAC, ETC, TCPI, and generate variance narratives with corrective action recommendations. Use during project execution to assess schedule and cost performance.",
-      "categories": ["Productivity"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-pmbok8-earned-value",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-contract-risk-review",
-      "name": "codexkit-contract-risk-review",
-      "description": "Review commercial contracts, NDAs, MSAs, SOWs, and vendor agreements for obligation clarity, risk allocation, termination, data handling, and negotiation red flags. Use when a user needs a structured contract summary, red flag list, fallback positions, or clause-by-clause review. Do not use as jurisdiction-specific legal advice, litigation strategy, or final legal sign-off.",
-      "categories": ["Business"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-contract-risk-review",
+      "path": "skills/codexkit-performance-review-writer",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
@@ -2714,26 +2614,237 @@
       ]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-fpa-scenario-modeling",
-      "name": "codexkit-fpa-scenario-modeling",
-      "description": "Build structured 3-scenario financial models (Base / Bull / Bear) for business planning or investment decisions. Sensitize revenue and cost drivers across scenarios, produce P&L summaries, cash flow bridges, and executive narratives. Aligns with FP&A 2.0 and CIMA Management Accounting standards. Use when leadership needs to understand the financial impact range of a decision. Do not use for statutory financial reporting or audit-ready financials.",
-      "categories": ["Development", "Productivity", "Business", "Finance"],
+      "id": "hoavdc/CodexKit/skills/codexkit-support-ticket-summarizer",
+      "name": "codexkit-support-ticket-summarizer",
+      "description": "Summarize support tickets, chats, and customer threads into issue, impact, status, owner, and next response. Use for customer service handoffs, escalation triage, and support backlog review.",
+      "categories": ["Other"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-fpa-scenario-modeling",
+      "path": "skills/codexkit-support-ticket-summarizer",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-inbox-priority-triage",
-      "name": "codexkit-inbox-priority-triage",
-      "description": "Triage email, Slack, ticket, or shared request backlogs into priority buckets, owners, and next actions. Use when the work is repetitive queue handling, intake cleanup, or response sorting. Do not use for strategic decisions, policy interpretation, or substantive contract review.",
-      "categories": ["Integration", "Business"],
+      "id": "hoavdc/CodexKit/skills/codexkit-pmbok8-stakeholder-register",
+      "name": "codexkit-pmbok8-stakeholder-register",
+      "description": "Build and maintain a Stakeholder Register per PMBOK 8 Stakeholder Performance Domain. Identify stakeholders, analyze using Power/Interest grid, plan engagement strategies, and define communication cadence. Use at project initiation and whenever stakeholder landscape changes.",
+      "categories": ["Development", "Productivity", "Business"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-inbox-priority-triage",
+      "path": "skills/codexkit-pmbok8-stakeholder-register",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-financial-statement-analyzer",
+      "name": "codexkit-financial-statement-analyzer",
+      "description": "Read and interpret financial statements — Income Statement, Balance Sheet, and Cash Flow Statement. Calculate key ratios, identify trends, and produce an analysis narrative. Use when reviewing company performance, preparing for investor meetings, or conducting due diligence. Do not use for preparing or auditing financial statements — this is an analysis tool only.",
+      "categories": ["Business", "Research"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-financial-statement-analyzer",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "examples/common-mistakes.md",
+        "examples/good-output.md",
+        "verification/checklist.md"
+      ]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-architecture-decision-writer",
+      "name": "codexkit-architecture-decision-writer",
+      "description": "Write Architecture Decision Records (ADRs) following the Michael Nygard format. Captures context, options considered, decision rationale, and consequences. Use when making technology choices, framework selections, or any architectural decision that future developers need to understand.",
+      "categories": ["Development", "Writing", "Business"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-architecture-decision-writer",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-repo-onboarding",
+      "name": "codexkit-repo-onboarding",
+      "description": "Rapidly map a new codebase, identify the runtime model, risk zones, and first high-value next steps.",
+      "categories": ["Development"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-repo-onboarding",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "examples/common-mistakes.md",
+        "examples/good-output.md",
+        "verification/checklist.md"
+      ]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-data-story-builder",
+      "name": "codexkit-data-story-builder",
+      "description": "Turn business data, KPI movement, or experiment results into a clear narrative using the what-so what-now what structure, audience calibration, and action-oriented insight. Use when leaders need a data-backed brief, dashboard storyline, or metric interpretation. Do not use for raw statistical modeling with no communication deliverable.",
+      "categories": ["Development", "Marketing"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-data-story-builder",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "examples/common-mistakes.md",
+        "examples/good-output.md",
+        "verification/checklist.md"
+      ]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-root-cause-analyzer",
+      "name": "codexkit-root-cause-analyzer",
+      "description": "Conduct structured root cause analysis using Ishikawa (Fishbone), 5 Whys, and Pareto methods. Suitable for production incidents, quality defects, customer complaints, and recurring operational problems. Use when problems recur or when initial fixes do not resolve the issue. Do not use for one-time, obvious fixes or strategic decision-making.",
+      "categories": ["DevOps", "Research"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-root-cause-analyzer",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "examples/common-mistakes.md",
+        "examples/good-output.md",
+        "verification/checklist.md"
+      ]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-incident-postmortem",
+      "name": "codexkit-incident-postmortem",
+      "description": "Write blameless incident postmortems following Google SRE methodology. Covers timeline reconstruction, root cause analysis (5 Whys), impact assessment, and action items with owners. Use after production incidents, outages, or significant bugs to prevent recurrence.",
+      "categories": ["DevOps", "Writing"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-incident-postmortem",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "examples/common-mistakes.md",
+        "examples/good-output.md",
+        "verification/checklist.md"
+      ]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-api-design-reviewer",
+      "name": "codexkit-api-design-reviewer",
+      "description": "Review REST and GraphQL API designs for consistency, usability, and best practices. Covers naming conventions, versioning strategy, error format, pagination, authentication patterns, and breaking change detection. Use when reviewing API specs, designing new APIs, or auditing existing endpoints.",
+      "categories": ["Development", "Security", "Business"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-api-design-reviewer",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-document-summarizer",
+      "name": "codexkit-document-summarizer",
+      "description": "Summarize document-heavy inputs such as memos, policies, PDFs, research notes, proposals, and multi-document packets. Use when users need key points, obligations, questions, and action implications from documents.",
+      "categories": ["Documents", "Research"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-document-summarizer",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-workshop-facilitator",
+      "name": "codexkit-workshop-facilitator",
+      "description": "Design and facilitate structured workshops using Design Thinking and Liberating Structures. Produces detailed agendas with time blocks, facilitation notes, participant materials, and retrospective templates. Use when running ideation sessions, retrospectives, planning workshops, or collaborative problem-solving.",
+      "categories": ["Design", "Productivity", "Business"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-workshop-facilitator",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-go-to-market-planner",
+      "name": "codexkit-go-to-market-planner",
+      "description": "Build a Go-to-Market (GTM) plan for new product launches, market entries, or feature rollouts. Covers market sizing (TAM/SAM/SOM), positioning, messaging, channel strategy, pricing approach, and launch timeline. Use when preparing to bring something new to market. Do not use for ongoing marketing operations or campaign execution.",
+      "categories": ["Development", "Productivity", "Marketing", "Business"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-go-to-market-planner",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "examples/common-mistakes.md",
+        "examples/good-output.md",
+        "verification/checklist.md"
+      ]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-crisis-communication",
+      "name": "codexkit-crisis-communication",
+      "description": "Draft crisis communication packages including holding statements, stakeholder updates, Q&A documents, and internal briefs. Follows ICS (Incident Command System) communication principles. Use during PR crises, data breaches, product recalls, or any event requiring rapid coordinated messaging.",
+      "categories": ["Development"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-crisis-communication",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-campaign-brief-writer",
+      "name": "codexkit-campaign-brief-writer",
+      "description": "Write agency-standard creative briefs for marketing campaigns. Structure Background, Objective (SMART), Target Audience persona, Key Message, Mandatories, KPIs, Timeline, and Budget Allocation. Use when briefing agencies, creative teams, or internal marketing on a new campaign.",
+      "categories": ["Design", "Marketing", "Business"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-campaign-brief-writer",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "examples/common-mistakes.md",
+        "examples/good-output.md",
+        "verification/checklist.md"
+      ]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-change-management-plan",
+      "name": "codexkit-change-management-plan",
+      "description": "Build change management plans using ADKAR and Kotter's 8-Step framework. Covers stakeholder readiness, communication plans, training schedules, resistance management, and adoption metrics. Use when rolling out new systems, reorganizations, or process changes that affect people.",
+      "categories": ["Development", "Productivity", "Business", "AI & ML"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-change-management-plan",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
@@ -2759,59 +2870,65 @@
       ]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-competitor-intelligence",
-      "name": "codexkit-competitor-intelligence",
-      "description": "Build competitive intelligence briefs following the CI cycle — Plan, Collect, Analyze, Disseminate. Profile competitors, create feature comparison matrices, analyze pricing, build positioning maps, and identify win/loss patterns. Use when preparing for product launches, sales enablement, or strategic reviews.",
+      "id": "hoavdc/CodexKit/skills/codexkit-hiring-ops-coordinator",
+      "name": "codexkit-hiring-ops-coordinator",
+      "description": "Package interview loops, schedules, feedback follow-ups, and candidate next steps for recruiting operations. Use when the work is routine hiring coordination and recap packaging. Do not use for final hiring decisions, compensation judgment, or sensitive people-policy advice.",
+      "categories": ["Productivity", "Business"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-hiring-ops-coordinator",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-vendor-comparison-matrix",
+      "name": "codexkit-vendor-comparison-matrix",
+      "description": "Build structured vendor/tool evaluation matrices with weighted scoring, TCO analysis, and recommendation memos. Covers criteria definition, deal-breaker identification, and negotiation points. Use when selecting SaaS tools, evaluating technology vendors, or making build-vs-buy decisions.",
       "categories": ["Development", "Business", "Research"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-competitor-intelligence",
+      "path": "skills/codexkit-vendor-comparison-matrix",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-skill-template",
-      "name": "codexkit-skill-template",
-      "description": "Reference implementation of a v2 CodexKit skill. Copy this folder as a starting point for new skills. Demonstrates all 10 required sections, 4C verification, and the tier-2 folder structure.",
-      "categories": ["Design"],
+      "id": "hoavdc/CodexKit/skills/codexkit-dmaic-improvement-charter",
+      "name": "codexkit-dmaic-improvement-charter",
+      "description": "Define a Lean Six Sigma improvement project using DMAIC, problem framing, baseline measures, root-cause hypotheses, CTQs, and control planning. Use when an existing process is underperforming and the team needs a charter, SIPOC, baseline, and improvement path. Do not use for brand-new process design or vague complaints with no process boundary.",
+      "categories": ["Design", "Productivity"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-skill-template",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "CHANGELOG.md",
-        "SKILL.md",
-        "agents/openai.yaml",
-        "examples/common-mistakes.md",
-        "examples/good-output.md",
-        "verification/checklist.md"
-      ]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-ops-kpi-packager",
-      "name": "codexkit-ops-kpi-packager",
-      "description": "Format recurring KPI snapshots, exception flags, and owner follow-ups for weekly operations reviews. Use when the work is routine packaging of operational metrics and exceptions. Do not use for root cause analysis, process redesign, or full performance diagnosis.",
-      "categories": ["Development", "Data & Analytics", "Business", "Research"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-ops-kpi-packager",
+      "path": "skills/codexkit-dmaic-improvement-charter",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-report-summarizer",
-      "name": "codexkit-report-summarizer",
-      "description": "Condense long reports, documents, or data exports into structured summaries with key findings, implications, and recommended actions. Use when the work is distilling dense content for busy readers. Do not use for original analysis, strategy formulation, or when the source material needs expert interpretation beyond summarization.",
-      "categories": ["Writing", "Data & Analytics", "Documents", "Research"],
+      "id": "hoavdc/CodexKit/skills/codexkit-meeting-summary-generator",
+      "name": "codexkit-meeting-summary-generator",
+      "description": "Summarize meeting notes or transcripts into decisions, action items, owners, risks, and follow-up messages. Use after meetings when raw notes need a clean recap.",
+      "categories": ["Development", "Writing", "Business"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-report-summarizer",
+      "path": "skills/codexkit-meeting-summary-generator",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-process-mapper",
+      "name": "codexkit-process-mapper",
+      "description": "Map existing business processes using BPMN 2.0 notation or simplified swimlane diagrams. Identify waste, handoffs, decision points, and improvement opportunities using Lean principles (8 Wastes). Use when documenting workflows for SOP creation, automation assessment, or process improvement. Do not use for software architecture diagrams — use architecture tools instead.",
+      "categories": ["Development", "Productivity", "Business"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-process-mapper",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
@@ -2824,24 +2941,209 @@
       ]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-execution-planner",
-      "name": "codexkit-execution-planner",
-      "description": "Turn ambiguous requests into an executable implementation plan with assumptions, sequence, acceptance checks, and rollback thinking.",
+      "id": "hoavdc/CodexKit/skills/codexkit-cloud-delegation",
+      "name": "codexkit-cloud-delegation",
+      "description": "Break complex work into bounded Codex delegation tasks with clear ownership, expected outputs, and integration checkpoints.",
       "categories": ["Other"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-execution-planner",
+      "path": "skills/codexkit-cloud-delegation",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-sandop-facilitator",
+      "name": "codexkit-sandop-facilitator",
+      "description": "Facilitate monthly S&OP or integrated business planning cycles by aligning demand, supply, inventory, capacity, and executive decisions with a standard meeting rhythm and decision log. Use when operations teams need a demand review, supply review, pre-S&OP reconciliation, or executive S&OP pack. Do not use for single-SKU replenishment math only.",
+      "categories": ["Data & Analytics", "Business"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-sandop-facilitator",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-automation-designer",
+      "name": "codexkit-automation-designer",
+      "description": "Design safe recurring Codex automations with clear prompts, outputs, schedules, and gating rules.",
+      "categories": ["Productivity"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-automation-designer",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": [
         "SKILL.md",
         "agents/openai.yaml",
-        "examples/common-mistakes.md",
-        "examples/good-output.md",
-        "references/plan-template.md",
-        "verification/checklist.md"
+        "references/automation-template.md",
+        "templates/automation-spec.md"
       ]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-portfolio-risk-radar",
+      "name": "codexkit-portfolio-risk-radar",
+      "description": "Build multi-project RAID and RAG views for portfolios, programs, or cross-functional workstreams. Use when PMOs, program managers, or leaders need a real status picture across milestones, dependencies, owners, and escalations. Do not use for a single standup note, one issue ticket, or generic meeting minutes.",
+      "categories": ["Development", "Productivity", "AI & ML"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-portfolio-risk-radar",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-presentation-outliner",
+      "name": "codexkit-presentation-outliner",
+      "description": "Structure presentations, pitch decks, and internal slide decks from rough ideas into clear outlines with slide-by-slide content guidance, key messages, and data callouts. Use when the work is organizing thoughts into a presentation structure. Do not use for visual design, slide layout, or graphic creation.",
+      "categories": ["Design", "Data & Analytics", "Documents"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-presentation-outliner",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-meeting-action-router",
+      "name": "codexkit-meeting-action-router",
+      "description": "Turn meeting notes, transcripts, or rough bullets into decisions, action items, owners, due dates, and follow-up queues. Use when the work is repetitive meeting cleanup or recap writing. Do not use for negotiation strategy, legal advice, or executive decision framing.",
+      "categories": ["Business"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-meeting-action-router",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-daily-brief-generator",
+      "name": "codexkit-daily-brief-generator",
+      "description": "Create a concise daily briefing from calendar items, tasks, messages, and open decisions. Use at the start of a workday to identify priorities, risks, preparation needs, and follow-ups.",
+      "categories": ["Development", "Productivity"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-daily-brief-generator",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-finance-variance-story",
+      "name": "codexkit-finance-variance-story",
+      "description": "Analyze budget-versus-actual or forecast-versus-actual performance and turn finance data into a management-ready narrative using variance logic, drivers, cash impact, and forward actions. Use when finance, FP&A, or business leaders need commentary, management accounts, or performance explanation. Do not use for bookkeeping entries, tax filing preparation, or legal accounting sign-off.",
+      "categories": ["Productivity", "Business", "Finance"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-finance-variance-story",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-contract-intake-router",
+      "name": "codexkit-contract-intake-router",
+      "description": "Standardize incoming legal or commercial contract requests into request type, missing information, priority, and review queue. Use when the work is intake routing and request cleanup. Do not use for clause interpretation, negotiation strategy, or legal advice on the agreement itself.",
+      "categories": ["Development", "Business", "Research"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-contract-intake-router",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-audit-readiness-checker",
+      "name": "codexkit-audit-readiness-checker",
+      "description": "Assess organizational readiness for financial audits (internal or external). Map assertions to account balances, check evidence completeness, score readiness using a Red/Amber/Green framework, and generate a remediation timeline. Aligned with SOX, IFRS, and GAAP audit standards. Use before scheduled audits or when preparing for first-time compliance.",
+      "categories": ["Development", "Security", "Productivity", "Business"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-audit-readiness-checker",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-csat-sentiment-analyzer",
+      "name": "codexkit-csat-sentiment-analyzer",
+      "description": "Analyze CSAT, NPS comments, reviews, and support feedback for sentiment, recurring themes, customer pain, and service improvement actions. Use for customer support and CX feedback reviews.",
+      "categories": ["Research"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-csat-sentiment-analyzer",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-project-governance-pilot",
+      "name": "codexkit-project-governance-pilot",
+      "description": "Stand up or reset project governance for new, complex, or troubled initiatives using PMBOK 8 value delivery, OKR alignment, and Scrum or SAFe cadence choices where relevant. Use when a project needs a charter, decision rights, stakeholder map, RAID logic, escalation path, or reporting rhythm. Do not use for simple task lists, isolated sprint notes, or code implementation planning.",
+      "categories": ["Productivity", "Data & Analytics", "Business"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-project-governance-pilot",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "templates/charter-template.md",
+        "templates/raci-template.md"
+      ]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-finance-close-coordinator",
+      "name": "codexkit-finance-close-coordinator",
+      "description": "Organize month-end or quarter-end close blockers, reconciliations, owners, and evidence gaps into a routine control pack. Use when the work is finance close coordination and issue tracking. Do not use for accounting judgment, policy interpretation, or final technical accounting conclusions.",
+      "categories": ["Productivity", "Data & Analytics", "Finance"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-finance-close-coordinator",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-backlog-refiner",
+      "name": "codexkit-backlog-refiner",
+      "description": "Refine Product Backlog Items to meet INVEST criteria. Write User Stories with Acceptance Criteria in Given/When/Then format, estimate with Story Points, and flag dependencies. Use before sprint planning when backlog items need grooming. Do not use to prioritize the backlog — that is the Product Owner's decision.",
+      "categories": ["Development", "Business"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-backlog-refiner",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-contract-drafter",
+      "name": "codexkit-contract-drafter",
+      "description": "Draft commercial contracts from scratch by contract type — NDAs, service agreements, vendor contracts, employment agreements, and licensing deals. Follow a clause library approach with risk-balanced terms. Use when creating new contracts. Do not replace legal counsel sign-off on finalized agreements. For reviewing existing contracts, use contract-risk-review instead.",
+      "categories": ["Development"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-contract-drafter",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
       "id": "hoavdc/CodexKit/skills/codexkit-sql-query-builder",
@@ -2897,37 +3199,6 @@
       ]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-automation-designer",
-      "name": "codexkit-automation-designer",
-      "description": "Design safe recurring Codex automations with clear prompts, outputs, schedules, and gating rules.",
-      "categories": ["Productivity"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-automation-designer",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "SKILL.md",
-        "agents/openai.yaml",
-        "references/automation-template.md",
-        "templates/automation-spec.md"
-      ]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-churn-risk-analyzer",
-      "name": "codexkit-churn-risk-analyzer",
-      "description": "Build customer health scores and churn risk models using leading indicators. Define health dimensions (Usage, Engagement, Support, Sentiment, Contract), weight and score customers, segment into Healthy / At-Risk / Red, and generate intervention playbooks. Use during QBR prep, customer success reviews, or when churn spikes.",
-      "categories": ["Development", "Productivity", "Marketing", "Research"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-churn-risk-analyzer",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
       "id": "hoavdc/CodexKit/skills/codexkit-supplier-evaluation",
       "name": "codexkit-supplier-evaluation",
       "description": "Evaluate and tier suppliers using a weighted scorecard per SCOR DS Supplier Management practices. Score Quality, Delivery, Cost, Responsiveness, and Sustainability. Classify suppliers as Strategic, Preferred, Approved, or Conditional. Use during vendor reviews or procurement decisions.",
@@ -2941,26 +3212,13 @@
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-portfolio-risk-radar",
-      "name": "codexkit-portfolio-risk-radar",
-      "description": "Build multi-project RAID and RAG views for portfolios, programs, or cross-functional workstreams. Use when PMOs, program managers, or leaders need a real status picture across milestones, dependencies, owners, and escalations. Do not use for a single standup note, one issue ticket, or generic meeting minutes.",
-      "categories": ["Development", "Productivity", "AI & ML"],
+      "id": "hoavdc/CodexKit/skills/codexkit-contract-risk-review",
+      "name": "codexkit-contract-risk-review",
+      "description": "Review commercial contracts, NDAs, MSAs, SOWs, and vendor agreements for obligation clarity, risk allocation, termination, data handling, and negotiation red flags. Use when a user needs a structured contract summary, red flag list, fallback positions, or clause-by-clause review. Do not use as jurisdiction-specific legal advice, litigation strategy, or final legal sign-off.",
+      "categories": ["Business"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-portfolio-risk-radar",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-data-quality-auditor",
-      "name": "codexkit-data-quality-auditor",
-      "description": "Audit data quality across six DAMA DMBOK dimensions — Completeness, Accuracy, Consistency, Timeliness, Validity, Uniqueness. Produces a scored data quality report with issue log and remediation plan. Use when profiling datasets, onboarding new data sources, or building data quality gates.",
-      "categories": ["Development", "Productivity", "Data & Analytics", "Business"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-data-quality-auditor",
+      "path": "skills/codexkit-contract-risk-review",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
@@ -2973,32 +3231,13 @@
       ]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-campaign-brief-writer",
-      "name": "codexkit-campaign-brief-writer",
-      "description": "Write agency-standard creative briefs for marketing campaigns. Structure Background, Objective (SMART), Target Audience persona, Key Message, Mandatories, KPIs, Timeline, and Budget Allocation. Use when briefing agencies, creative teams, or internal marketing on a new campaign.",
-      "categories": ["Design", "Marketing", "Business"],
+      "id": "hoavdc/CodexKit/skills/codexkit-fpa-scenario-modeling",
+      "name": "codexkit-fpa-scenario-modeling",
+      "description": "Build structured 3-scenario financial models (Base / Bull / Bear) for business planning or investment decisions. Sensitize revenue and cost drivers across scenarios, produce P&L summaries, cash flow bridges, and executive narratives. Aligns with FP&A 2.0 and CIMA Management Accounting standards. Use when leadership needs to understand the financial impact range of a decision. Do not use for statutory financial reporting or audit-ready financials.",
+      "categories": ["Development", "Productivity", "Business", "Finance"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-campaign-brief-writer",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "SKILL.md",
-        "agents/openai.yaml",
-        "examples/common-mistakes.md",
-        "examples/good-output.md",
-        "verification/checklist.md"
-      ]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-presentation-outliner",
-      "name": "codexkit-presentation-outliner",
-      "description": "Structure presentations, pitch decks, and internal slide decks from rough ideas into clear outlines with slide-by-slide content guidance, key messages, and data callouts. Use when the work is organizing thoughts into a presentation structure. Do not use for visual design, slide layout, or graphic creation.",
-      "categories": ["Design", "Data & Analytics", "Documents"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-presentation-outliner",
+      "path": "skills/codexkit-fpa-scenario-modeling",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
@@ -3018,147 +3257,153 @@
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-finance-variance-story",
-      "name": "codexkit-finance-variance-story",
-      "description": "Analyze budget-versus-actual or forecast-versus-actual performance and turn finance data into a management-ready narrative using variance logic, drivers, cash impact, and forward actions. Use when finance, FP&A, or business leaders need commentary, management accounts, or performance explanation. Do not use for bookkeeping entries, tax filing preparation, or legal accounting sign-off.",
-      "categories": ["Productivity", "Business", "Finance"],
+      "id": "hoavdc/CodexKit/skills/codexkit-training-needs-analyzer",
+      "name": "codexkit-training-needs-analyzer",
+      "description": "Assess organizational training needs using ADDIE methodology and Kirkpatrick's 4-Level evaluation framework. Maps performance gaps to learning objectives using Bloom's taxonomy. Use when planning L&D budgets, designing training programs, or evaluating training effectiveness.",
+      "categories": ["Development", "Business", "Research", "AI & ML"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-finance-variance-story",
+      "path": "skills/codexkit-training-needs-analyzer",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-contract-intake-router",
-      "name": "codexkit-contract-intake-router",
-      "description": "Standardize incoming legal or commercial contract requests into request type, missing information, priority, and review queue. Use when the work is intake routing and request cleanup. Do not use for clause interpretation, negotiation strategy, or legal advice on the agreement itself.",
-      "categories": ["Development", "Business", "Research"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-contract-intake-router",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-executive-brief-writer",
-      "name": "codexkit-executive-brief-writer",
-      "description": "Write one-page executive briefs and decision memos that turn messy inputs into a concise recommendation, options, risks, decision ask, and next steps. Use when leaders need a fast read before approving budget, policy, vendor, headcount, or strategy changes. Do not use for long-form reports, slide design, or generic summarization without a decision.",
-      "categories": ["Documents", "Business"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-executive-brief-writer",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-talent-review-calibrator",
-      "name": "codexkit-talent-review-calibrator",
-      "description": "Facilitate talent review and people decisions with a structured view of performance, potential, readiness, risks, and development actions using talent calibration and 9-box logic. Use when preparing talent review, succession planning, promotion readiness, or performance calibration sessions. Do not use for payroll administration, HRIS updates, or generic praise notes.",
-      "categories": ["Other"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-talent-review-calibrator",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-vendor-comparison-matrix",
-      "name": "codexkit-vendor-comparison-matrix",
-      "description": "Build structured vendor/tool evaluation matrices with weighted scoring, TCO analysis, and recommendation memos. Covers criteria definition, deal-breaker identification, and negotiation points. Use when selecting SaaS tools, evaluating technology vendors, or making build-vs-buy decisions.",
-      "categories": ["Development", "Business", "Research"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-vendor-comparison-matrix",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-content-calendar-assembler",
-      "name": "codexkit-content-calendar-assembler",
-      "description": "Turn launch dates, campaign inputs, and asset requests into a structured content calendar and workback plan. Use when the work is recurring marketing coordination and schedule packaging. Do not use for brand strategy, positioning design, or deep performance interpretation.",
-      "categories": ["Design", "Productivity", "Marketing", "Business"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-content-calendar-assembler",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-cx-qbr-preparer",
-      "name": "codexkit-cx-qbr-preparer",
-      "description": "Prepare customer or executive business reviews with outcome tracking, adoption health, ROI narrative, risks, commitments, and next-quarter plan using customer success and CX frameworks. Use when teams need QBRs, success plans, churn-risk conversations, or executive account reviews. Do not use for generic slide beautification or cold outreach prospecting.",
+      "id": "hoavdc/CodexKit/skills/codexkit-onboarding-plan-creator",
+      "name": "codexkit-onboarding-plan-creator",
+      "description": "Create structured employee onboarding plans using the 30-60-90 day framework aligned with SHRM best practices. Cover pre-boarding, Day 1, Week 1, and monthly milestones with task owners, success criteria, and buddy assignments. Use when hiring new employees or revamping the onboarding process.",
       "categories": ["Development", "Productivity", "Business"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-cx-qbr-preparer",
+      "path": "skills/codexkit-onboarding-plan-creator",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "examples/common-mistakes.md",
+        "examples/good-output.md",
+        "verification/checklist.md"
+      ]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-interview-guide-builder",
+      "name": "codexkit-interview-guide-builder",
+      "description": "Build structured behavioral interview guides using the STAR method. Map job competencies to interview questions, provide scoring rubrics (1–5), and include follow-up probes and red/green flag indicators. Use when preparing for hiring interviews or standardizing interview practices.",
+      "categories": ["Development", "Business"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-interview-guide-builder",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-contract-drafter",
-      "name": "codexkit-contract-drafter",
-      "description": "Draft commercial contracts from scratch by contract type — NDAs, service agreements, vendor contracts, employment agreements, and licensing deals. Follow a clause library approach with risk-balanced terms. Use when creating new contracts. Do not replace legal counsel sign-off on finalized agreements. For reviewing existing contracts, use contract-risk-review instead.",
-      "categories": ["Development"],
+      "id": "hoavdc/CodexKit/skills/codexkit-sales-forecast-analyzer",
+      "name": "codexkit-sales-forecast-analyzer",
+      "description": "Analyze sales pipeline, historical revenue, conversion rates, and assumptions to produce forecast scenarios. Use for sales reviews, RevOps planning, and founder revenue forecasting.",
+      "categories": ["Development", "Business", "Research"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-contract-drafter",
+      "path": "skills/codexkit-sales-forecast-analyzer",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-legal-due-diligence",
-      "name": "codexkit-legal-due-diligence",
-      "description": "Conduct structured legal due diligence for M&A, joint ventures, or investment transactions. Cover all 9 workstreams — Corporate, Contracts, IP, Litigation, Regulatory, Employment, Tax, Environmental, and Data Privacy. Produce a risk matrix with deal-breaker flags and closing conditions. Use when evaluating a target or counterparty.",
-      "categories": ["Finance"],
+      "id": "hoavdc/CodexKit/skills/codexkit-follow-up-draft-builder",
+      "name": "codexkit-follow-up-draft-builder",
+      "description": "Draft concise follow-up messages, nudges, reminders, and recap emails from open decisions, stale requests, or recent meetings. Use when the work is repetitive business writing with known context. Do not use for sensitive legal language, high-stakes negotiation, or board-level communication without review.",
+      "categories": ["Development", "Writing", "Business"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-legal-due-diligence",
+      "path": "skills/codexkit-follow-up-draft-builder",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-kanban-flow-analyzer",
-      "name": "codexkit-kanban-flow-analyzer",
-      "description": "Analyze Kanban flow metrics to identify bottlenecks and improve team throughput. Covers Cycle Time, Throughput, WIP, and Flow Efficiency using Little's Law and Theory of Constraints. Use when a team wants to optimize delivery flow or improve predictability. Do not use for sprint-based Scrum planning — use sprint-planning-assistant instead.",
-      "categories": ["Productivity", "Business", "AI & ML"],
+      "id": "hoavdc/CodexKit/skills/codexkit-brand-positioning-canvas",
+      "name": "codexkit-brand-positioning-canvas",
+      "description": "Build or refine brand positioning with audience, category, differentiators, proof, tone, JTBD signals, and competitive context. Use when marketing, founders, or GTM teams need a positioning canvas, messaging pillars, or campaign foundation. Do not use for isolated ad copy tweaks with no strategy question.",
+      "categories": ["Development", "Design", "Writing", "Marketing", "Business"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-kanban-flow-analyzer",
+      "path": "skills/codexkit-brand-positioning-canvas",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-crisis-communication",
-      "name": "codexkit-crisis-communication",
-      "description": "Draft crisis communication packages including holding statements, stakeholder updates, Q&A documents, and internal briefs. Follows ICS (Incident Command System) communication principles. Use during PR crises, data breaches, product recalls, or any event requiring rapid coordinated messaging.",
-      "categories": ["Development"],
+      "id": "hoavdc/CodexKit/skills/codexkit-strategic-analysis-porter",
+      "name": "codexkit-strategic-analysis-porter",
+      "description": "Conduct strategic analysis using Porter's Five Forces, PESTEL, and SWOT frameworks. Assess competitive dynamics, macro environment, and internal capabilities. Synthesize into strategic implications with ranked options. Use when entering new markets, evaluating competitive position, or strategic planning.",
+      "categories": ["Development", "Business"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-crisis-communication",
+      "path": "skills/codexkit-strategic-analysis-porter",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-onboarding-checklist-creator",
+      "name": "codexkit-onboarding-checklist-creator",
+      "description": "Create practical role-specific onboarding checklists with owners, timing, access needs, and first-week milestones. Use for new hire, contractor, client, or team onboarding.",
+      "categories": ["Development", "Business"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-onboarding-checklist-creator",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents/openai.yaml"]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-execution-planner",
+      "name": "codexkit-execution-planner",
+      "description": "Turn ambiguous requests into an executable implementation plan with assumptions, sequence, acceptance checks, and rollback thinking.",
+      "categories": ["Other"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-execution-planner",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "examples/common-mistakes.md",
+        "examples/good-output.md",
+        "references/plan-template.md",
+        "verification/checklist.md"
+      ]
+    },
+    {
+      "id": "hoavdc/CodexKit/skills/codexkit-data-quality-auditor",
+      "name": "codexkit-data-quality-auditor",
+      "description": "Audit data quality across six DAMA DMBOK dimensions — Completeness, Accuracy, Consistency, Timeliness, Validity, Uniqueness. Produces a scored data quality report with issue log and remediation plan. Use when profiling datasets, onboarding new data sources, or building data quality gates.",
+      "categories": ["Development", "Productivity", "Data & Analytics", "Business"],
+      "author": "hoavdc",
+      "repo": "hoavdc/CodexKit",
+      "path": "skills/codexkit-data-quality-auditor",
+      "commitHash": "3d82db1e7527",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "examples/common-mistakes.md",
+        "examples/good-output.md",
+        "verification/checklist.md"
+      ]
     },
     {
       "id": "hoavdc/CodexKit/skills/codexkit-fpa-rolling-forecast",
@@ -3193,132 +3438,30 @@
       ]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-procurement-rfp-writer",
-      "name": "codexkit-procurement-rfp-writer",
-      "description": "Write structured Requests for Proposal (RFP) or Requests for Quotation (RFQ) aligned with ISO 20400 sustainable procurement principles. Cover scope, technical requirements, evaluation methodology, and commercial terms. Use when sourcing vendors, services, or equipment.",
-      "categories": ["Other"],
+      "id": "hoavdc/CodexKit/skills/codexkit-competitor-intelligence",
+      "name": "codexkit-competitor-intelligence",
+      "description": "Build competitive intelligence briefs following the CI cycle — Plan, Collect, Analyze, Disseminate. Profile competitors, create feature comparison matrices, analyze pricing, build positioning maps, and identify win/loss patterns. Use when preparing for product launches, sales enablement, or strategic reviews.",
+      "categories": ["Development", "Business", "Research"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-procurement-rfp-writer",
+      "path": "skills/codexkit-competitor-intelligence",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-audit-readiness-checker",
-      "name": "codexkit-audit-readiness-checker",
-      "description": "Assess organizational readiness for financial audits (internal or external). Map assertions to account balances, check evidence completeness, score readiness using a Red/Amber/Green framework, and generate a remediation timeline. Aligned with SOX, IFRS, and GAAP audit standards. Use before scheduled audits or when preparing for first-time compliance.",
-      "categories": ["Development", "Security", "Productivity", "Business"],
+      "id": "hoavdc/CodexKit/skills/codexkit-legal-due-diligence",
+      "name": "codexkit-legal-due-diligence",
+      "description": "Conduct structured legal due diligence for M&A, joint ventures, or investment transactions. Cover all 9 workstreams — Corporate, Contracts, IP, Litigation, Regulatory, Employment, Tax, Environmental, and Data Privacy. Produce a risk matrix with deal-breaker flags and closing conditions. Use when evaluating a target or counterparty.",
+      "categories": ["Finance"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-audit-readiness-checker",
+      "path": "skills/codexkit-legal-due-diligence",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-customer-journey-mapper",
-      "name": "codexkit-customer-journey-mapper",
-      "description": "Map the end-to-end customer journey across awareness, consideration, purchase, onboarding, adoption, retention, and advocacy stages. Identify touchpoints, pain points, emotions, and Moments of Truth per stage. Use when designing or improving customer experience. Do not use for internal employee process mapping — use process-mapper instead.",
-      "categories": ["Business"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-customer-journey-mapper",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "SKILL.md",
-        "agents/openai.yaml",
-        "examples/common-mistakes.md",
-        "examples/good-output.md",
-        "verification/checklist.md"
-      ]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-interview-guide-builder",
-      "name": "codexkit-interview-guide-builder",
-      "description": "Build structured behavioral interview guides using the STAR method. Map job competencies to interview questions, provide scoring rubrics (1–5), and include follow-up probes and red/green flag indicators. Use when preparing for hiring interviews or standardizing interview practices.",
-      "categories": ["Development", "Business"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-interview-guide-builder",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-pmbok8-stakeholder-register",
-      "name": "codexkit-pmbok8-stakeholder-register",
-      "description": "Build and maintain a Stakeholder Register per PMBOK 8 Stakeholder Performance Domain. Identify stakeholders, analyze using Power/Interest grid, plan engagement strategies, and define communication cadence. Use at project initiation and whenever stakeholder landscape changes.",
-      "categories": ["Development", "Productivity", "Business"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-pmbok8-stakeholder-register",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-financial-statement-analyzer",
-      "name": "codexkit-financial-statement-analyzer",
-      "description": "Read and interpret financial statements — Income Statement, Balance Sheet, and Cash Flow Statement. Calculate key ratios, identify trends, and produce an analysis narrative. Use when reviewing company performance, preparing for investor meetings, or conducting due diligence. Do not use for preparing or auditing financial statements — this is an analysis tool only.",
-      "categories": ["Business", "Research"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-financial-statement-analyzer",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "SKILL.md",
-        "agents/openai.yaml",
-        "examples/common-mistakes.md",
-        "examples/good-output.md",
-        "verification/checklist.md"
-      ]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-survey-analyzer",
-      "name": "codexkit-survey-analyzer",
-      "description": "Analyze survey and feedback data with statistical distributions, cross-tabulations, significance testing, and open-ended theme extraction. Produces executive-ready survey reports with segment comparisons and action recommendations. Use when processing NPS, CSAT, employee engagement, or market research surveys.",
-      "categories": ["Development", "Data & Analytics", "Business", "Research"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-survey-analyzer",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "SKILL.md",
-        "agents/openai.yaml",
-        "examples/common-mistakes.md",
-        "examples/good-output.md",
-        "verification/checklist.md"
-      ]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-go-to-market-planner",
-      "name": "codexkit-go-to-market-planner",
-      "description": "Build a Go-to-Market (GTM) plan for new product launches, market entries, or feature rollouts. Covers market sizing (TAM/SAM/SOM), positioning, messaging, channel strategy, pricing approach, and launch timeline. Use when preparing to bring something new to market. Do not use for ongoing marketing operations or campaign execution.",
-      "categories": ["Development", "Productivity", "Marketing", "Business"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-go-to-market-planner",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "SKILL.md",
-        "agents/openai.yaml",
-        "examples/common-mistakes.md",
-        "examples/good-output.md",
-        "verification/checklist.md"
-      ]
     },
     {
       "id": "hoavdc/CodexKit/skills/codexkit-compliance-gap-review",
@@ -3334,76 +3477,26 @@
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-onboarding-plan-creator",
-      "name": "codexkit-onboarding-plan-creator",
-      "description": "Create structured employee onboarding plans using the 30-60-90 day framework aligned with SHRM best practices. Cover pre-boarding, Day 1, Week 1, and monthly milestones with task owners, success criteria, and buddy assignments. Use when hiring new employees or revamping the onboarding process.",
-      "categories": ["Development", "Productivity", "Business"],
+      "id": "hoavdc/CodexKit/skills/codexkit-executive-brief-writer",
+      "name": "codexkit-executive-brief-writer",
+      "description": "Write one-page executive briefs and decision memos that turn messy inputs into a concise recommendation, options, risks, decision ask, and next steps. Use when leaders need a fast read before approving budget, policy, vendor, headcount, or strategy changes. Do not use for long-form reports, slide design, or generic summarization without a decision.",
+      "categories": ["Documents", "Business"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-onboarding-plan-creator",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "SKILL.md",
-        "agents/openai.yaml",
-        "examples/common-mistakes.md",
-        "examples/good-output.md",
-        "verification/checklist.md"
-      ]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-project-governance-pilot",
-      "name": "codexkit-project-governance-pilot",
-      "description": "Stand up or reset project governance for new, complex, or troubled initiatives using PMBOK 8 value delivery, OKR alignment, and Scrum or SAFe cadence choices where relevant. Use when a project needs a charter, decision rights, stakeholder map, RAID logic, escalation path, or reporting rhythm. Do not use for simple task lists, isolated sprint notes, or code implementation planning.",
-      "categories": ["Productivity", "Data & Analytics", "Business"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-project-governance-pilot",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "SKILL.md",
-        "agents/openai.yaml",
-        "templates/charter-template.md",
-        "templates/raci-template.md"
-      ]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-architecture-decision-writer",
-      "name": "codexkit-architecture-decision-writer",
-      "description": "Write Architecture Decision Records (ADRs) following the Michael Nygard format. Captures context, options considered, decision rationale, and consequences. Use when making technology choices, framework selections, or any architectural decision that future developers need to understand.",
-      "categories": ["Development", "Writing", "Business"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-architecture-decision-writer",
+      "path": "skills/codexkit-executive-brief-writer",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
-      "id": "hoavdc/CodexKit/skills/codexkit-hiring-ops-coordinator",
-      "name": "codexkit-hiring-ops-coordinator",
-      "description": "Package interview loops, schedules, feedback follow-ups, and candidate next steps for recruiting operations. Use when the work is routine hiring coordination and recap packaging. Do not use for final hiring decisions, compensation judgment, or sensitive people-policy advice.",
-      "categories": ["Productivity", "Business"],
+      "id": "hoavdc/CodexKit/skills/codexkit-content-calendar-assembler",
+      "name": "codexkit-content-calendar-assembler",
+      "description": "Turn launch dates, campaign inputs, and asset requests into a structured content calendar and workback plan. Use when the work is recurring marketing coordination and schedule packaging. Do not use for brand strategy, positioning design, or deep performance interpretation.",
+      "categories": ["Design", "Productivity", "Marketing", "Business"],
       "author": "hoavdc",
       "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-hiring-ops-coordinator",
-      "commitHash": "3d82db1e7527",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents/openai.yaml"]
-    },
-    {
-      "id": "hoavdc/CodexKit/skills/codexkit-strategic-analysis-porter",
-      "name": "codexkit-strategic-analysis-porter",
-      "description": "Conduct strategic analysis using Porter's Five Forces, PESTEL, and SWOT frameworks. Assess competitive dynamics, macro environment, and internal capabilities. Synthesize into strategic implications with ranked options. Use when entering new markets, evaluating competitive position, or strategic planning.",
-      "categories": ["Development", "Business"],
-      "author": "hoavdc",
-      "repo": "hoavdc/CodexKit",
-      "path": "skills/codexkit-strategic-analysis-porter",
+      "path": "skills/codexkit-content-calendar-assembler",
       "commitHash": "3d82db1e7527",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
@@ -3924,61 +4017,6 @@
       ]
     },
     {
-      "id": "Bhanunamikaze/AI-Dataset-Generator",
-      "name": "dataset-generator",
-      "description": "Use this when the user wants to generate, normalize, verify, deduplicate, or export training datasets for Codex, Antigravity, or Claude Code from topics, URLs, reference material, web research, or existing JSONL/CSV files. Supports SFT and DPO workflows, custom export schemas, and deterministic local pipeline scripts.",
-      "categories": [
-        "Development",
-        "Productivity",
-        "Data & Analytics",
-        "Documents",
-        "Research",
-        "AI & ML"
-      ],
-      "author": "Bhanunamikaze",
-      "repo": "Bhanunamikaze/AI-Dataset-Generator",
-      "path": "",
-      "commitHash": "53be78f887a8",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "yshishenya/stitchflow/skills/stitchflow",
-      "name": "stitchflow",
-      "description": "Turn briefs, mockups, and product context into Stitch UI screens, design variants, Tailwind-friendly HTML, and screenshots. Use when the user wants to explore a new screen, edit an existing screen, compare visual directions, or save local design artifacts from natural-language input.",
-      "categories": ["Design", "Writing", "AI & ML"],
-      "author": "yshishenya",
-      "repo": "yshishenya/stitchflow",
-      "path": "skills/stitchflow",
-      "commitHash": "125ac8395406",
-      "version": "1.3.1",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents", "references", "workflows"]
-    },
-    {
-      "id": "yshishenya/stitchflow/skills/stitch-design-local",
-      "name": "stitch-design-local",
-      "description": "Legacy compatibility alias for StitchFlow. Use when a user explicitly references stitch-design-local, or when older prompts and setups still call that skill name.",
-      "categories": ["Other"],
-      "author": "yshishenya",
-      "repo": "yshishenya/stitchflow",
-      "path": "skills/stitch-design-local",
-      "commitHash": "125ac8395406",
-      "version": "1.3.1",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "martysama0134/m2ui-skill/skills/m2ui",
-      "name": "m2ui",
-      "description": "Generate and modify Metin2 client UI code from screenshots, natural language, or existing scripts. Creates uiscript dicts, root ui*.py classes, and locale entries. Use when: user says \"/m2ui\", \"create UI\", \"make a window\", \"modify UI\", \"add button to\", \"screenshot to UI\", \"check UI for bugs\", \"diagnose\". Supports four modes: screenshot (from image), talk (from description), script (modify existing), diagnose (audit for anti-patterns).\n",
-      "categories": ["Development", "Design"],
-      "author": "martysama0134",
-      "repo": "martysama0134/m2ui-skill",
-      "path": "skills/m2ui",
-      "commitHash": "2d1762ad4f28",
-      "files": ["SKILL.md", "modes", "reference"]
-    },
-    {
       "id": "QZhang2111/Research-Pilot/skills/deep-read-to-delta",
       "name": "deep-read-to-delta",
       "description": "Use when a project-local paper dossier should produce graph delta JSON proposals and run through the human-gated delta loop.",
@@ -4098,6 +4136,61 @@
       "path": "skills/single-paper-deep-read",
       "commitHash": "ecce7248fcd0",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "Bhanunamikaze/AI-Dataset-Generator",
+      "name": "dataset-generator",
+      "description": "Use this when the user wants to generate, normalize, verify, deduplicate, or export training datasets for Codex, Antigravity, or Claude Code from topics, URLs, reference material, web research, or existing JSONL/CSV files. Supports SFT and DPO workflows, custom export schemas, and deterministic local pipeline scripts.",
+      "categories": [
+        "Development",
+        "Productivity",
+        "Data & Analytics",
+        "Documents",
+        "Research",
+        "AI & ML"
+      ],
+      "author": "Bhanunamikaze",
+      "repo": "Bhanunamikaze/AI-Dataset-Generator",
+      "path": "",
+      "commitHash": "53be78f887a8",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "yshishenya/stitchflow/skills/stitchflow",
+      "name": "stitchflow",
+      "description": "Turn briefs, mockups, and product context into Stitch UI screens, design variants, Tailwind-friendly HTML, and screenshots. Use when the user wants to explore a new screen, edit an existing screen, compare visual directions, or save local design artifacts from natural-language input.",
+      "categories": ["Design", "Writing", "AI & ML"],
+      "author": "yshishenya",
+      "repo": "yshishenya/stitchflow",
+      "path": "skills/stitchflow",
+      "commitHash": "125ac8395406",
+      "version": "1.3.1",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "agents", "references", "workflows"]
+    },
+    {
+      "id": "yshishenya/stitchflow/skills/stitch-design-local",
+      "name": "stitch-design-local",
+      "description": "Legacy compatibility alias for StitchFlow. Use when a user explicitly references stitch-design-local, or when older prompts and setups still call that skill name.",
+      "categories": ["Other"],
+      "author": "yshishenya",
+      "repo": "yshishenya/stitchflow",
+      "path": "skills/stitch-design-local",
+      "commitHash": "125ac8395406",
+      "version": "1.3.1",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "martysama0134/m2ui-skill/skills/m2ui",
+      "name": "m2ui",
+      "description": "Generate and modify Metin2 client UI code from screenshots, natural language, or existing scripts. Creates uiscript dicts, root ui*.py classes, and locale entries. Use when: user says \"/m2ui\", \"create UI\", \"make a window\", \"modify UI\", \"add button to\", \"screenshot to UI\", \"check UI for bugs\", \"diagnose\". Supports four modes: screenshot (from image), talk (from description), script (modify existing), diagnose (audit for anti-patterns).\n",
+      "categories": ["Development", "Design"],
+      "author": "martysama0134",
+      "repo": "martysama0134/m2ui-skill",
+      "path": "skills/m2ui",
+      "commitHash": "2d1762ad4f28",
+      "files": ["SKILL.md", "modes", "reference"]
     },
     {
       "id": "composio-community/support-skills/escalate",
@@ -4570,6 +4663,39 @@
       "repo": "cucupac/shellbrain",
       "path": "onboarding_assets/cursor/skills/shellbrain-session-start",
       "commitHash": "a5bf7c62b23a",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jrswab/slipbot/skills/kindle-importer",
+      "name": "kindle-import",
+      "description": "Import reading notes from Kindle HTML exports into the slipbox. Use when user sends a Kindle notebook export file (HTML/XHTML). Parses book title and author, extracts only user's Notes (skips Highlights), then runs slipbot for each.",
+      "categories": ["Documents"],
+      "author": "jrswab",
+      "repo": "jrswab/slipbot",
+      "path": "skills/kindle-importer",
+      "commitHash": "ad6b6007bbfc",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jrswab/slipbot/skills/logseq-importer",
+      "name": "logseq-import",
+      "description": "Import notes from Logseq pages into the slipbox. Use when user pastes a Logseq page with properties and bulleted notes. Parses page-level properties, extracts each bullet as an individual note, handles nested bullets by adding parent context, then runs slipbot for each.",
+      "categories": ["Other"],
+      "author": "jrswab",
+      "repo": "jrswab/slipbot",
+      "path": "skills/logseq-importer",
+      "commitHash": "ad6b6007bbfc",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "jrswab/slipbot/skills/instapaper-importer",
+      "name": "instapaper-import",
+      "description": "Import reading notes from Instapaper exports into the slipbox. Use when user pastes an Instapaper highlight export with article title and notes. Parses title/URL from header, extracts user's own notes (plain text lines), skips original highlights (> lines), then runs slipbot for each.",
+      "categories": ["Writing", "Documents"],
+      "author": "jrswab",
+      "repo": "jrswab/slipbot",
+      "path": "skills/instapaper-importer",
+      "commitHash": "ad6b6007bbfc",
       "files": ["SKILL.md"]
     },
     {
@@ -10694,17 +10820,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "ckelsoe/prompt-architect/skills/prompt-architect",
-      "name": "prompt-architect",
-      "description": "Analyzes and improves prompts using 27 research-backed frameworks across 7 intent categories. Use when a user wants to improve, rewrite, structure, or engineer a prompt — including requests like \"help me write a better prompt\", \"improve this prompt\", \"what framework should I use\", \"make this prompt more effective\", or any prompt engineering task. Recommends the right framework based on intent (create, transform, reason, critique, recover, clarify, agentic), asks targeted questions, and delivers a structured, high-quality result.",
-      "categories": ["Business", "Research", "AI & ML"],
-      "author": "ckelsoe",
-      "repo": "ckelsoe/prompt-architect",
-      "path": "skills/prompt-architect",
-      "commitHash": "6e12013eb782",
-      "files": ["SKILL.md", "assets", "references", "scripts"]
-    },
-    {
       "id": "adeze/raindrop-mcp/.github/skills/publishing",
       "name": "publishing",
       "description": "Publishing and release workflow with semantic-release and GitHub Actions",
@@ -10769,6 +10884,17 @@
       "path": ".github/skills/mcp-refactoring",
       "commitHash": "5ef7fb7fd5b6",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "ckelsoe/prompt-architect/skills/prompt-architect",
+      "name": "prompt-architect",
+      "description": "Analyzes and improves prompts using 27 research-backed frameworks across 7 intent categories. Use when a user wants to improve, rewrite, structure, or engineer a prompt — including requests like \"help me write a better prompt\", \"improve this prompt\", \"what framework should I use\", \"make this prompt more effective\", or any prompt engineering task. Recommends the right framework based on intent (create, transform, reason, critique, recover, clarify, agentic), asks targeted questions, and delivers a structured, high-quality result.",
+      "categories": ["Business", "Research", "AI & ML"],
+      "author": "ckelsoe",
+      "repo": "ckelsoe/prompt-architect",
+      "path": "skills/prompt-architect",
+      "commitHash": "6e12013eb782",
+      "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
       "id": "PleasePrompto/google-ai-mode-skill",
@@ -11736,28 +11862,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "chrisvoncsefalvay/autostar/autostar-skill",
-      "name": "autostar",
-      "description": "Generalised autonomous optimisation loop — soft RLVR for any artifact a user can measure. Use this skill whenever a user wants to iteratively improve an artifact — code, prompts, documents, configs, designs, content — by running structured experiments, evaluating results against a multi-dimensional rubric, and learning from each attempt. Triggers include: \"optimise this\", \"keep improving until it's good\", \"run experiments on\", \"autoresearch\", \"iterate on this overnight\", \"try different approaches and pick the best\", or any request implying repeated evaluate-and-improve cycles. Also use when the user wants to improve a system prompt, a data pipeline, a writing style, or any artifact where quality can be decomposed into measurable tracks. For inference optimisation tasks (model latency, throughput, quantization, GPU deployment), a* delegates the low-level tuning to AITune while maintaining quality tracking and learning.\n",
-      "categories": ["DevOps", "Design", "Writing", "Data & Analytics", "Research", "AI & ML"],
-      "author": "chrisvoncsefalvay",
-      "repo": "chrisvoncsefalvay/autostar",
-      "path": "autostar-skill",
-      "commitHash": "1f4a2f62e773",
-      "files": ["SKILL.md", "assets", "references", "runtime-profiles", "scripts"]
-    },
-    {
-      "id": "chrisvoncsefalvay/autostar/autostar-claude-ai-skill",
-      "name": "autostar-web",
-      "description": "Generalised autonomous optimisation loop — soft RLVR for any artifact a user can measure. Web runtime package: uses memory in this order: connector-backed, project-pack, none. Never assumes subprocess access or unrestricted local files. Use this skill whenever a user wants to iteratively improve an artifact — code, prompts, documents, configs, designs, content — by running structured experiments, evaluating results against a multi-dimensional rubric, and learning from each attempt. Triggers include: \"optimise this\", \"keep improving until it's good\", \"run experiments on\", \"autoresearch\", \"iterate on this overnight\", \"try different approaches and pick the best\", or any request implying repeated evaluate-and-improve cycles.\n",
-      "categories": ["Design", "Productivity", "Documents", "Research", "AI & ML"],
-      "author": "chrisvoncsefalvay",
-      "repo": "chrisvoncsefalvay/autostar",
-      "path": "autostar-claude-ai-skill",
-      "commitHash": "1f4a2f62e773",
-      "files": ["SKILL.md", "references", "runtime-profiles"]
-    },
-    {
       "id": "a-pavithraa/springboot-skills-marketplace/plugins/springboot-architecture/skills/code-reviewer",
       "name": "code-reviewer",
       "description": "Reviews Java 25 and Spring Boot 4 codebases, pull requests, files, and modules for migration risks, architecture boundary violations, JSpecify null-safety issues, security flaws, performance regressions, and Spring Data pitfalls. Use when the task is a concrete Java or Spring code review with code context. Do not use for Kotlin-only code, non-Spring frameworks, or generic review advice without files or diffs.",
@@ -11800,6 +11904,28 @@
       "path": "plugins/springboot-architecture/skills/creating-springboot-projects",
       "commitHash": "efa55466f755",
       "files": ["SKILL.md", "assets", "references"]
+    },
+    {
+      "id": "chrisvoncsefalvay/autostar/autostar-skill",
+      "name": "autostar",
+      "description": "Generalised autonomous optimisation loop — soft RLVR for any artifact a user can measure. Use this skill whenever a user wants to iteratively improve an artifact — code, prompts, documents, configs, designs, content — by running structured experiments, evaluating results against a multi-dimensional rubric, and learning from each attempt. Triggers include: \"optimise this\", \"keep improving until it's good\", \"run experiments on\", \"autoresearch\", \"iterate on this overnight\", \"try different approaches and pick the best\", or any request implying repeated evaluate-and-improve cycles. Also use when the user wants to improve a system prompt, a data pipeline, a writing style, or any artifact where quality can be decomposed into measurable tracks. For inference optimisation tasks (model latency, throughput, quantization, GPU deployment), a* delegates the low-level tuning to AITune while maintaining quality tracking and learning.\n",
+      "categories": ["DevOps", "Design", "Writing", "Data & Analytics", "Research", "AI & ML"],
+      "author": "chrisvoncsefalvay",
+      "repo": "chrisvoncsefalvay/autostar",
+      "path": "autostar-skill",
+      "commitHash": "1f4a2f62e773",
+      "files": ["SKILL.md", "assets", "references", "runtime-profiles", "scripts"]
+    },
+    {
+      "id": "chrisvoncsefalvay/autostar/autostar-claude-ai-skill",
+      "name": "autostar-web",
+      "description": "Generalised autonomous optimisation loop — soft RLVR for any artifact a user can measure. Web runtime package: uses memory in this order: connector-backed, project-pack, none. Never assumes subprocess access or unrestricted local files. Use this skill whenever a user wants to iteratively improve an artifact — code, prompts, documents, configs, designs, content — by running structured experiments, evaluating results against a multi-dimensional rubric, and learning from each attempt. Triggers include: \"optimise this\", \"keep improving until it's good\", \"run experiments on\", \"autoresearch\", \"iterate on this overnight\", \"try different approaches and pick the best\", or any request implying repeated evaluate-and-improve cycles.\n",
+      "categories": ["Design", "Productivity", "Documents", "Research", "AI & ML"],
+      "author": "chrisvoncsefalvay",
+      "repo": "chrisvoncsefalvay/autostar",
+      "path": "autostar-claude-ai-skill",
+      "commitHash": "1f4a2f62e773",
+      "files": ["SKILL.md", "references", "runtime-profiles"]
     },
     {
       "id": "scoobynko/claude-code-design-skills/figma-to-code",
