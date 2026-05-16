@@ -1,5 +1,26 @@
 {
   "repositories": {
+    "Farenhytee/database-sentinel": {
+      "url": "https://github.com/Farenhytee/database-sentinel",
+      "branch": "main",
+      "stars": 20,
+      "forks": 3,
+      "lastUpdated": "2026-04-30T08:42:55Z"
+    },
+    "greenstevester/fastlane-skill": {
+      "url": "https://github.com/greenstevester/fastlane-skill",
+      "branch": "main",
+      "stars": 20,
+      "forks": 3,
+      "lastUpdated": "2026-05-10T13:06:11Z"
+    },
+    "AndyShaman/premortem": {
+      "url": "https://github.com/AndyShaman/premortem",
+      "branch": "main",
+      "stars": 20,
+      "forks": 3,
+      "lastUpdated": "2026-05-09T09:24:06Z"
+    },
     "motherduckdb/agent-skills": {
       "url": "https://github.com/motherduckdb/agent-skills",
       "branch": "main",
@@ -14,33 +35,12 @@
       "forks": 3,
       "lastUpdated": "2026-04-25T14:49:59Z"
     },
-    "meshy-dev/meshy-3d-agent": {
-      "url": "https://github.com/meshy-dev/meshy-3d-agent",
-      "branch": "main",
-      "stars": 19,
-      "forks": 5,
-      "lastUpdated": "2026-05-09T03:16:20Z"
-    },
     "VirtusLab-Open-Source/astro-strapi-blocks": {
       "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-blocks",
       "branch": "main",
       "stars": 19,
       "forks": 2,
       "lastUpdated": "2026-05-13T20:33:36Z"
-    },
-    "Aboudjem/humanizer-skill": {
-      "url": "https://github.com/Aboudjem/humanizer-skill",
-      "branch": "main",
-      "stars": 19,
-      "forks": 3,
-      "lastUpdated": "2026-05-13T09:04:47Z"
-    },
-    "zouchenzhen/docx-template-translator-skill": {
-      "url": "https://github.com/zouchenzhen/docx-template-translator-skill",
-      "branch": "main",
-      "stars": 19,
-      "forks": 2,
-      "lastUpdated": "2026-05-12T17:32:07Z"
     },
     "VirtusLab-Open-Source/astro-strapi-loader": {
       "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-loader",
@@ -54,7 +54,7 @@
       "branch": "main",
       "stars": 16,
       "forks": 5,
-      "lastUpdated": "2026-05-15T18:09:49Z"
+      "lastUpdated": "2026-05-15T21:06:13Z"
     },
     "ChenXi-hub/tju-thesis-review-kit": {
       "url": "https://github.com/ChenXi-hub/tju-thesis-review-kit",
@@ -462,15 +462,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "snakeying/Textum": {
-      "url": "https://github.com/snakeying/Textum",
+    "mykpono/ultimate-seo-geo": {
+      "url": "https://github.com/mykpono/ultimate-seo-geo",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "mykpono/ultimate-seo-geo": {
-      "url": "https://github.com/mykpono/ultimate-seo-geo",
+    "snakeying/Textum": {
+      "url": "https://github.com/snakeying/Textum",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -567,15 +567,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "stevembarclay/pencilplaybook": {
-      "url": "https://github.com/stevembarclay/pencilplaybook",
+    "IJONIS/geo-lint": {
+      "url": "https://github.com/IJONIS/geo-lint",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "IJONIS/geo-lint": {
-      "url": "https://github.com/IJONIS/geo-lint",
+    "stevembarclay/pencilplaybook": {
+      "url": "https://github.com/stevembarclay/pencilplaybook",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -611,6 +611,110 @@
     }
   },
   "skills": [
+    {
+      "id": "Farenhytee/database-sentinel",
+      "name": "database-sentinel",
+      "description": "Multi-backend database security auditor. Audits Supabase, Firebase (Firestore/RTDB/Storage/Functions/Remote Config), MongoDB (self-hosted + Atlas), self-hosted PostgreSQL, and self-hosted MySQL for RLS/rules misconfigurations, exposed credentials, auth bypasses, MongoBleed (CVE-2025-14847), pgBouncer CVE-2025-12819, mysql_native_password drift, ghost auth, and storage exposures. Use this skill whenever the user mentions database security, RLS or rule audits, security review, penetration testing a vibe-coded app, checking if their DB is exposed, hardening a backend, fixing security rules, or auditing apps built with Lovable/Bolt/Replit/Cursor/Claude Code on any of these backends. Trigger on phrases like 'is my app secure', 'check my database', 'audit my Firebase', 'audit my MongoDB', 'audit my Postgres', 'audit my Supabase', 'is my DB exposed', or any cross-backend variant ('audit my full stack').",
+      "categories": ["Development", "Security", "Data & Analytics", "AI & ML"],
+      "author": "Farenhytee",
+      "repo": "Farenhytee/database-sentinel",
+      "path": "",
+      "commitHash": "3efafb9c87a2",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Farenhytee/database-sentinel/compat/supabase-sentinel",
+      "name": "supabase-sentinel",
+      "description": "Audit any Supabase project for security vulnerabilities, RLS misconfigurations, exposed API keys, auth bypasses, and storage issues. Use this skill whenever the user mentions Supabase security, RLS policies, database security audit, security review, penetration testing a Supabase app, checking if their database is exposed, hardening their Supabase project, fixing RLS, or anything related to securing a Supabase or vibe-coded application. Also trigger when the user asks about securing apps built with Lovable, Bolt, Replit, Cursor, or any AI coding tool that uses Supabase as a backend. Even if the user just says 'is my app secure' or 'check my database' and their project uses Supabase, use this skill. (DEPRECATED: this skill is a backwards-compat shim. Prefer the multi-backend `database-sentinel` skill, which covers Supabase plus Firebase, MongoDB, self-hosted Postgres, and self-hosted MySQL.)",
+      "categories": [
+        "Development",
+        "Security",
+        "Productivity",
+        "Data & Analytics",
+        "Business",
+        "AI & ML"
+      ],
+      "author": "Farenhytee",
+      "repo": "Farenhytee/database-sentinel",
+      "path": "compat/supabase-sentinel",
+      "commitHash": "3efafb9c87a2",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "greenstevester/fastlane-skill/skills/beta",
+      "name": "beta",
+      "description": "Build and upload iOS app to TestFlight",
+      "categories": ["Development"],
+      "author": "greenstevester",
+      "repo": "greenstevester/fastlane-skill",
+      "path": "skills/beta",
+      "commitHash": "44ae40050e1b",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "greenstevester/fastlane-skill/skills/match",
+      "name": "match",
+      "description": "Set up Match for iOS code signing certificate management",
+      "categories": ["Other"],
+      "author": "greenstevester",
+      "repo": "greenstevester/fastlane-skill",
+      "path": "skills/match",
+      "commitHash": "44ae40050e1b",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "greenstevester/fastlane-skill/skills/snapshot",
+      "name": "snapshot",
+      "description": "Automate App Store screenshot capture across devices and languages",
+      "categories": ["Other"],
+      "author": "greenstevester",
+      "repo": "greenstevester/fastlane-skill",
+      "path": "skills/snapshot",
+      "commitHash": "44ae40050e1b",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "greenstevester/fastlane-skill/skills/setup-fastlane",
+      "name": "setup-fastlane",
+      "description": "Set up Fastlane for iOS/macOS app automation",
+      "categories": ["Productivity"],
+      "author": "greenstevester",
+      "repo": "greenstevester/fastlane-skill",
+      "path": "skills/setup-fastlane",
+      "commitHash": "44ae40050e1b",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "greenstevester/fastlane-skill/skills/release",
+      "name": "release",
+      "description": "Submit iOS app to App Store for review",
+      "categories": ["Other"],
+      "author": "greenstevester",
+      "repo": "greenstevester/fastlane-skill",
+      "path": "skills/release",
+      "commitHash": "44ae40050e1b",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "AndyShaman/premortem/premortem",
+      "name": "premortem",
+      "description": "Лёгкий советник «раздвигающий шторки» — premortem-сессия которая находит дыры в плане с разных углов, предлагает варианты решений по каждой и помогает юзеру быстро принять осознанные решения. История запусков сохраняется в ./docs/premortem/. Use when user types «премортем», «premortem», «найди дыры в плане», «посмотри со стороны на план», «what could kill this plan». Do NOT use for: vague ideas without a concrete plan; one-right-answer questions; creative editing of a draft; already-irreversible decisions.\n",
+      "categories": ["Writing"],
+      "author": "AndyShaman",
+      "repo": "AndyShaman/premortem",
+      "path": "premortem",
+      "commitHash": "1ded0f139404",
+      "files": [
+        "Makefile",
+        "SKILL.md",
+        "assets",
+        "evals",
+        "pytest.ini",
+        "references",
+        "scripts",
+        "tests"
+      ]
+    },
     {
       "id": "motherduckdb/agent-skills/skills/motherduck-query",
       "name": "motherduck-query",
@@ -1409,39 +1513,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "meshy-dev/meshy-3d-agent/skills/meshy-openclaw",
-      "name": "meshy-3d-agent",
-      "description": "Generate 3D models, textures, images, rig characters, animate them, and prepare for 3D printing using the Meshy AI API. Handles API key detection, task creation, polling, downloading, and full 3D print pipeline with slicer integration. Use when the user asks to create 3D models, convert text/images to 3D, texture models, rig or animate characters, 3D print a model, or interact with the Meshy API.",
-      "categories": ["Productivity", "AI & ML"],
-      "author": "meshy-dev",
-      "repo": "meshy-dev/meshy-3d-agent",
-      "path": "skills/meshy-openclaw",
-      "commitHash": "c77de150b6c9",
-      "files": ["SKILL.md", "reference.md"]
-    },
-    {
-      "id": "meshy-dev/meshy-3d-agent/skills/meshy-3d-printing",
-      "name": "meshy-3d-printing",
-      "description": "3D print models generated with Meshy AI. Handles slicer detection, white model printing, multi-color printing via API, and print-optimized download workflows. Use when the user mentions 3D printing, slicing, Bambu, OrcaSlicer, Prusa, Cura, Creality Print, Elegoo, Anycubic, multicolor, multi-color, 3mf, or wants to print a figurine, miniature, or physical model.",
-      "categories": ["Productivity", "AI & ML"],
-      "author": "meshy-dev",
-      "repo": "meshy-dev/meshy-3d-agent",
-      "path": "skills/meshy-3d-printing",
-      "commitHash": "c77de150b6c9",
-      "files": ["SKILL.md", "reference.md"]
-    },
-    {
-      "id": "meshy-dev/meshy-3d-agent/skills/meshy-3d-generation",
-      "name": "meshy-3d-generation",
-      "description": "Generate 3D models, textures, images, rig characters, and animate them using the Meshy AI API. Handles API key detection, setup, and all generation workflows via direct HTTP calls. Use when the user asks to create 3D models, convert text/images to 3D, texture models, rig or animate characters, or interact with the Meshy API.",
-      "categories": ["Productivity", "AI & ML"],
-      "author": "meshy-dev",
-      "repo": "meshy-dev/meshy-3d-agent",
-      "path": "skills/meshy-3d-generation",
-      "commitHash": "c77de150b6c9",
-      "files": ["SKILL.md", "reference.md"]
-    },
-    {
       "id": "VirtusLab-Open-Source/astro-strapi-blocks/.ai/astro-strapi-blocks",
       "name": "astro-strapi-blocks",
       "description": "Integrates @sensinum/astro-strapi-blocks with Strapi 5 Blocks fields in Astro: wiring `data` from API responses, theming with `extend` and `overwrite`, and custom block components. Use when adding or editing Strapi block rendering, rich text zones, or `StrapiBlocks` / theme configuration.",
@@ -1451,28 +1522,6 @@
       "path": ".ai/astro-strapi-blocks",
       "commitHash": "5a063d07abf0",
       "files": ["SKILL.md", "reference.md"]
-    },
-    {
-      "id": "Aboudjem/humanizer-skill/skills/humanizer",
-      "name": "humanizer",
-      "description": "Detects 43 AI writing patterns and rewrites text in 5 voice profiles. Use when (1) AI text reads like a chatbot, (2) preparing content for publication, (3) auditing prose for AI tells, (4) editing a file in place. Outputs a 0-100 AI-tell score on demand. Pure Markdown, zero dependencies, no network calls.",
-      "categories": ["Writing", "Documents", "AI & ML"],
-      "author": "Aboudjem",
-      "repo": "Aboudjem/humanizer-skill",
-      "path": "skills/humanizer",
-      "commitHash": "004db86aac6a",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "zouchenzhen/docx-template-translator-skill/skills/docx-template-translator",
-      "name": "docx-template-translator",
-      "description": "Adaptive conversion of LaTeX, PDF, or Markdown sources into a complete Word .docx that follows a user-supplied .docx template. Use when pandoc --reference-doc alone is not enough — for thesis, dissertation, report, or institutional Word formatting that needs cover pages, declarations, TOC, heading numbering, captions, three-line tables, equations, citations, and visual verification.",
-      "categories": ["Development", "Documents", "Research"],
-      "author": "zouchenzhen",
-      "repo": "zouchenzhen/docx-template-translator-skill",
-      "path": "skills/docx-template-translator",
-      "commitHash": "4510fcaa784c",
-      "files": ["SKILL.md", "agents", "presets", "references", "scripts"]
     },
     {
       "id": "VirtusLab-Open-Source/astro-strapi-loader/.ai/astro-strapi-loader",
@@ -1493,7 +1542,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/security-audit",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1504,7 +1553,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/refactoring",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1515,7 +1564,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-ranking",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1526,7 +1575,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-visualization",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1537,7 +1586,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/meeting-transcription",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1548,7 +1597,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-deployment",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1559,7 +1608,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-analysis",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1570,7 +1619,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/content-strategy",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1581,7 +1630,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/proofreading",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1592,7 +1641,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/summarization",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1603,7 +1652,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/report-generation",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1614,7 +1663,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/fact-checking",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1625,7 +1674,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/copywriting",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1636,7 +1685,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/docker-compose-setup",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1647,7 +1696,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-retrieval",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1658,7 +1707,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-compression",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1669,7 +1718,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/ml-pipeline-creation",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1680,7 +1729,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/keyword-research",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1691,7 +1740,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/graphql-api-design",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1702,7 +1751,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dynamic-application-security-testing",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1713,7 +1762,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-backup",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1724,7 +1773,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-cleaning",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1735,7 +1784,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/oauth-2-0-setup",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1746,7 +1795,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-injection",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1757,7 +1806,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/exploratory-data-analysis",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1768,7 +1817,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-optimization",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1779,7 +1828,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-seeding",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1790,7 +1839,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-design",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1801,7 +1850,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/ci-cd",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1812,7 +1861,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/threat-modeling",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1823,7 +1872,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/literature-review",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1834,7 +1883,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/chatbot-conversation-design",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1845,7 +1894,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/task-automation",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1856,7 +1905,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/cloud-monitoring",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1867,7 +1916,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/static-application-security-testing",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1878,7 +1927,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/code-documentation",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1889,7 +1938,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/query-optimization",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1900,7 +1949,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-schema-design",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1911,7 +1960,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/webhook-setup",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1922,7 +1971,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/seo-optimization",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1933,7 +1982,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/note-taking",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1944,7 +1993,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/blog-post-writing",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1955,7 +2004,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/hyperparameter-tuning",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1966,7 +2015,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/sql-query-generation",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1977,7 +2026,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dependency-scanning",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1988,7 +2037,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-training",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -1999,7 +2048,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/version-control",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -2010,7 +2059,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/technical-writing",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -2021,7 +2070,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/social-media-posting",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -2032,7 +2081,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/data-labeling",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -2043,7 +2092,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/presentation-creation",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -2054,7 +2103,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/analytics-reporting",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -2065,7 +2114,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/translation",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -2076,7 +2125,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/email-drafting",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -2087,7 +2136,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-integration",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -2098,7 +2147,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/knowledge-graph-creation",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -2109,7 +2158,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/kubernetes-deployment",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -2120,7 +2169,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/infrastructure-as-code",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -2131,7 +2180,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-migration",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -2142,7 +2191,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/deep-research",
-      "commitHash": "2cba18cb1f49",
+      "commitHash": "c423db82c44b",
       "files": ["SKILL.md"]
     },
     {
@@ -4640,7 +4689,7 @@
       "author": "cucupac",
       "repo": "cucupac/shellbrain",
       "path": "onboarding_assets/codex/shellbrain-session-start",
-      "commitHash": "a5bf7c62b23a",
+      "commitHash": "b8b37249ec2b",
       "files": ["SKILL.md", "agents", "assets", "references"]
     },
     {
@@ -4651,7 +4700,7 @@
       "author": "cucupac",
       "repo": "cucupac/shellbrain",
       "path": "onboarding_assets/codex/shellbrain-usage-review",
-      "commitHash": "a5bf7c62b23a",
+      "commitHash": "b8b37249ec2b",
       "files": ["SKILL.md", "agents", "assets"]
     },
     {
@@ -4662,7 +4711,7 @@
       "author": "cucupac",
       "repo": "cucupac/shellbrain",
       "path": "onboarding_assets/cursor/skills/shellbrain-session-start",
-      "commitHash": "a5bf7c62b23a",
+      "commitHash": "b8b37249ec2b",
       "files": ["SKILL.md"]
     },
     {
@@ -5689,6 +5738,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/prove",
+      "name": "prove",
+      "description": "Formal theorem proving with research, testing, and verification phases",
+      "categories": ["Development", "Research"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/prove",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/debug",
       "name": "debug",
       "description": "Debug issues by investigating logs, database state, and git history",
@@ -5711,14 +5771,14 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/release",
-      "name": "release",
-      "description": "Release preparation workflow - security audit → E2E tests → review → changelog → docs",
-      "categories": ["Development", "Security"],
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/onboard",
+      "name": "onboard",
+      "description": "Analyze brownfield codebase and create initial continuity ledger",
+      "categories": ["Other"],
       "author": "parcadei",
       "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/release",
-      "commitHash": "f8d7173d9e35",
+      "path": ".claude/skills/onboard",
+      "commitHash": "3a1e9f5851e5",
       "files": ["SKILL.md"]
     },
     {
@@ -5774,6 +5834,17 @@
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/describe_pr",
       "commitHash": "21b569baa759",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/pint-compute",
+      "name": "pint-compute",
+      "description": "Unit-aware computation with Pint - convert units, dimensional analysis, unit arithmetic",
+      "categories": ["Other"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/pint-compute",
+      "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
     {
@@ -5942,17 +6013,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/tdd-migrate",
-      "name": "tdd-migrate",
-      "description": "TDD workflow for migrations - orchestrate agents, zero main context growth",
-      "categories": ["AI & ML"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/tdd-migrate",
-      "commitHash": "26d21a9fdc8c",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/tldr-router",
       "name": "tldr-router",
       "description": "Maps questions to the optimal tldr command. Use this to pick the right layer",
@@ -5964,24 +6024,13 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/ast-grep-find",
-      "name": "ast-grep-find",
-      "description": "AST-based code search and refactoring via ast-grep MCP",
-      "categories": ["Development", "Research"],
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/slash-commands",
+      "name": "slash-commands",
+      "description": "Create and use Claude Code slash commands - quick prompts, bash execution, file references",
+      "categories": ["AI & ML"],
       "author": "parcadei",
       "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/ast-grep-find",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/skill-upgrader",
-      "name": "skill-upgrader",
-      "description": "Upgrade any skill to v5 Hybrid format using decision theory + modal logic",
-      "categories": ["Other"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/skill-upgrader",
+      "path": ".claude/skills/slash-commands",
       "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
@@ -6415,28 +6464,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/build",
-      "name": "build",
-      "description": "Workflow orchestrator that chains existing skills for feature development",
-      "categories": ["Other"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/build",
-      "commitHash": "0854d473fbe4",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/review",
-      "name": "review",
-      "description": "Comprehensive code review workflow - parallel specialized reviews → synthesis",
-      "categories": ["Development"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/review",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/commit",
       "name": "commit",
       "description": "Create git commits with user approval and no Claude attribution",
@@ -6488,6 +6515,17 @@
       "author": "parcadei",
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/agentica-server",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/archive/search-tools",
+      "name": "search-tools",
+      "description": "Search Tool Hierarchy",
+      "categories": ["Other"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/archive/search-tools",
       "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
@@ -11742,17 +11780,6 @@
       "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
-      "id": "snakeying/Textum/.claude/skills/textum",
-      "name": "textum",
-      "description": "Textum PRD→Scaffold→Story workflow for Codex with low-noise outputs and gate checks.",
-      "categories": ["Productivity"],
-      "author": "snakeying",
-      "repo": "snakeying/Textum",
-      "path": ".claude/skills/textum",
-      "commitHash": "0ae858ecba60",
-      "files": ["SKILL.md", "assets", "references", "scripts"]
-    },
-    {
       "id": "mykpono/ultimate-seo-geo",
       "name": "ultimate-seo-geo",
       "description": "Audits and optimizes websites for search engine visibility (SEO) and AI search citation (GEO), covering technical health, E-E-A-T content scoring, domain authority, structured data, rich results, and entity signals. Use when running SEO audits, diagnosing traffic drops or ranking losses, generating Schema.org JSON-LD, checking Core Web Vitals, crawlability, robots.txt, sitemaps, hreflang, backlinks, planning content strategy or site migrations, fixing indexing issues, or optimizing for AI Overviews, ChatGPT, and Perplexity. NOT for paid ads (PPC/SEM), social media strategy, email marketing, or general web development unrelated to search.",
@@ -11772,6 +11799,17 @@
       "version": "1.8.5",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "snakeying/Textum/.claude/skills/textum",
+      "name": "textum",
+      "description": "Textum PRD→Scaffold→Story workflow for Codex with low-noise outputs and gate checks.",
+      "categories": ["Productivity"],
+      "author": "snakeying",
+      "repo": "snakeying/Textum",
+      "path": ".claude/skills/textum",
+      "commitHash": "0ae858ecba60",
+      "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
       "id": "VapiAI/skills/create-tool",
@@ -12147,6 +12185,28 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "IJONIS/geo-lint/skills/geo-lint",
+      "name": "geo-lint",
+      "description": "SEO & GEO content linter — validates Markdown/MDX files for AI search visibility using 92 deterministic rules (35 GEO, 32 SEO, 14 content quality, 8 technical, 3 i18n). Runs an autonomous lint-fix loop: scan content, read structured violations, fix them, re-lint until clean. Use when optimizing content for AI citations, auditing SEO compliance, checking GEO readiness, or running pre-publish content validation. Triggers on: \"geo-lint\", \"lint content\", \"SEO audit\", \"GEO\", \"content optimization\", \"AI search\", \"citation readiness\".\n",
+      "categories": ["Security", "Writing", "Documents", "Business", "Research"],
+      "author": "IJONIS",
+      "repo": "IJONIS/geo-lint",
+      "path": "skills/geo-lint",
+      "commitHash": "b2d79319d1d0",
+      "files": ["SKILL.md", "reference.md"]
+    },
+    {
+      "id": "IJONIS/geo-lint/skills/content-creator",
+      "name": "content-creator",
+      "description": "Self-configuring content creation pipeline with geo-lint validation. On first use, scans your project to learn its framework, content schema, categories, and authors, then creates SEO & GEO-optimized content matched to your brand voice. Validates every piece with geo-lint's 92 rules until zero violations. Triggers on: \"content-creator\", \"create content\", \"write blog\", \"new post\", \"content calendar\", \"brand voice\", \"content strategy\".\n",
+      "categories": ["Development", "Writing", "Productivity", "Data & Analytics", "Business"],
+      "author": "IJONIS",
+      "repo": "IJONIS/geo-lint",
+      "path": "skills/content-creator",
+      "commitHash": "b2d79319d1d0",
+      "files": ["SKILL.md", "assets", "references", "scripts"]
+    },
+    {
       "id": "stevembarclay/pencilplaybook",
       "name": "pencilplaybook",
       "description": "PencilPlaybook is the UI Skills / Taste-Skill for Pencil.dev + Claude Code — a design playbook that gives Claude real perceptual psychology and senior-level guardrails so it stops producing averaged-out AI slop.",
@@ -12182,28 +12242,6 @@
       "version": "1.1.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "IJONIS/geo-lint/skills/geo-lint",
-      "name": "geo-lint",
-      "description": "SEO & GEO content linter — validates Markdown/MDX files for AI search visibility using 92 deterministic rules (35 GEO, 32 SEO, 14 content quality, 8 technical, 3 i18n). Runs an autonomous lint-fix loop: scan content, read structured violations, fix them, re-lint until clean. Use when optimizing content for AI citations, auditing SEO compliance, checking GEO readiness, or running pre-publish content validation. Triggers on: \"geo-lint\", \"lint content\", \"SEO audit\", \"GEO\", \"content optimization\", \"AI search\", \"citation readiness\".\n",
-      "categories": ["Security", "Writing", "Documents", "Business", "Research"],
-      "author": "IJONIS",
-      "repo": "IJONIS/geo-lint",
-      "path": "skills/geo-lint",
-      "commitHash": "b2d79319d1d0",
-      "files": ["SKILL.md", "reference.md"]
-    },
-    {
-      "id": "IJONIS/geo-lint/skills/content-creator",
-      "name": "content-creator",
-      "description": "Self-configuring content creation pipeline with geo-lint validation. On first use, scans your project to learn its framework, content schema, categories, and authors, then creates SEO & GEO-optimized content matched to your brand voice. Validates every piece with geo-lint's 92 rules until zero violations. Triggers on: \"content-creator\", \"create content\", \"write blog\", \"new post\", \"content calendar\", \"brand voice\", \"content strategy\".\n",
-      "categories": ["Development", "Writing", "Productivity", "Data & Analytics", "Business"],
-      "author": "IJONIS",
-      "repo": "IJONIS/geo-lint",
-      "path": "skills/content-creator",
-      "commitHash": "b2d79319d1d0",
-      "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
       "id": "ITlearning/study-ios/.agents/skills/study-summary",
