@@ -1,5 +1,26 @@
 {
   "repositories": {
+    "rediumvex/ai-video-generator-claude": {
+      "url": "https://github.com/rediumvex/ai-video-generator-claude",
+      "branch": "main",
+      "stars": 33,
+      "forks": 1,
+      "lastUpdated": "2026-04-13T15:12:03Z"
+    },
+    "smucclaw/l4-ide": {
+      "url": "https://github.com/smucclaw/l4-ide",
+      "branch": "main",
+      "stars": 33,
+      "forks": 7,
+      "lastUpdated": "2026-04-22T12:35:54Z"
+    },
+    "recomby-ai/wrap-skill": {
+      "url": "https://github.com/recomby-ai/wrap-skill",
+      "branch": "main",
+      "stars": 32,
+      "forks": 3,
+      "lastUpdated": "2026-05-17T05:11:25Z"
+    },
     "ssdeanx/AgentStack": {
       "url": "https://github.com/ssdeanx/AgentStack",
       "branch": "main",
@@ -13,13 +34,6 @@
       "stars": 32,
       "forks": 1,
       "lastUpdated": "2026-05-07T07:21:09Z"
-    },
-    "recomby-ai/wrap-skill": {
-      "url": "https://github.com/recomby-ai/wrap-skill",
-      "branch": "main",
-      "stars": 31,
-      "forks": 3,
-      "lastUpdated": "2026-05-17T05:11:25Z"
     },
     "akseolabs-seo/cinematic-ui": {
       "url": "https://github.com/akseolabs-seo/cinematic-ui",
@@ -77,6 +91,13 @@
       "forks": 6,
       "lastUpdated": "2026-05-09T12:30:25Z"
     },
+    "powerofjinbo/phdtaketaketake": {
+      "url": "https://github.com/powerofjinbo/phdtaketaketake",
+      "branch": "main",
+      "stars": 24,
+      "forks": 3,
+      "lastUpdated": "2026-05-09T08:39:24Z"
+    },
     "ahacker-1/cre-agent-skills": {
       "url": "https://github.com/ahacker-1/cre-agent-skills",
       "branch": "main",
@@ -90,13 +111,6 @@
       "stars": 23,
       "forks": 3,
       "lastUpdated": "2026-05-13T09:04:47Z"
-    },
-    "powerofjinbo/phdtaketaketake": {
-      "url": "https://github.com/powerofjinbo/phdtaketaketake",
-      "branch": "main",
-      "stars": 23,
-      "forks": 2,
-      "lastUpdated": "2026-05-09T08:39:24Z"
     },
     "inngest/inngest-skills": {
       "url": "https://github.com/inngest/inngest-skills",
@@ -168,19 +182,19 @@
       "forks": 3,
       "lastUpdated": "2026-05-16T09:44:23Z"
     },
-    "greenstevester/fastlane-skill": {
-      "url": "https://github.com/greenstevester/fastlane-skill",
-      "branch": "main",
-      "stars": 20,
-      "forks": 3,
-      "lastUpdated": "2026-05-10T13:06:11Z"
-    },
     "zouchenzhen/docx-template-translator-skill": {
       "url": "https://github.com/zouchenzhen/docx-template-translator-skill",
       "branch": "main",
       "stars": 20,
       "forks": 3,
       "lastUpdated": "2026-05-12T17:32:07Z"
+    },
+    "greenstevester/fastlane-skill": {
+      "url": "https://github.com/greenstevester/fastlane-skill",
+      "branch": "main",
+      "stars": 20,
+      "forks": 3,
+      "lastUpdated": "2026-05-10T13:06:11Z"
     },
     "Farenhytee/database-sentinel": {
       "url": "https://github.com/Farenhytee/database-sentinel",
@@ -201,7 +215,7 @@
       "branch": "main",
       "stars": 17,
       "forks": 5,
-      "lastUpdated": "2026-05-17T09:10:47Z"
+      "lastUpdated": "2026-05-17T17:27:17Z"
     },
     "VirtusLab-Open-Source/astro-strapi-loader": {
       "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-loader",
@@ -490,13 +504,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "ferdinandobons/startup-skill": {
-      "url": "https://github.com/ferdinandobons/startup-skill",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "assafelovic/skyll": {
       "url": "https://github.com/assafelovic/skyll",
       "branch": "main",
@@ -766,6 +773,138 @@
   },
   "skills": [
     {
+      "id": "rediumvex/ai-video-generator-claude/skills/09-ai-avatar",
+      "name": "seedance-ai-avatar",
+      "description": "Generate AI avatar and digital persona video prompts for Seedance 2.0 on Higgsfield. Use for virtual spokesperson content, digital twin videos, AI presenter clips, avatar-based marketing, virtual influencer content, or any video featuring a digital/AI-generated character as the main subject. Triggers on avatar, digital persona, virtual presenter, AI character, digital twin, virtual influencer, synthetic media, animated spokesperson.",
+      "categories": ["Marketing", "AI & ML"],
+      "author": "rediumvex",
+      "repo": "rediumvex/ai-video-generator-claude",
+      "path": "skills/09-ai-avatar",
+      "commitHash": "0eab224237bd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "rediumvex/ai-video-generator-claude/skills/01-viral-hook",
+      "name": "seedance-viral-hook",
+      "description": "Generate scroll-stopping viral hook video prompts for Seedance 2.0 on Higgsfield. Use whenever the user wants viral content, TikTok hooks, Instagram Reels openers, YouTube Shorts, attention-grabbing video, scroll-stopper, pattern interrupt, or any short-form video designed to maximize retention and views. Triggers on any mention of viral, hook, scroll-stop, retention, views, engagement, short-form, TikTok, Reels, Shorts.",
+      "categories": ["Marketing", "Media"],
+      "author": "rediumvex",
+      "repo": "rediumvex/ai-video-generator-claude",
+      "path": "skills/01-viral-hook",
+      "commitHash": "0eab224237bd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "rediumvex/ai-video-generator-claude/skills/02-saas-launch",
+      "name": "seedance-saas-launch",
+      "description": "Generate SaaS product launch and software demo video prompts for Seedance 2.0 on Higgsfield. Use whenever the user wants a product launch video, app demo, software walkthrough, feature showcase, startup promo, tech product reveal, or any SaaS/software marketing video. Triggers on SaaS, app, software, product launch, demo, feature, startup, tech, UI, dashboard, landing page video.",
+      "categories": ["Design", "Business"],
+      "author": "rediumvex",
+      "repo": "rediumvex/ai-video-generator-claude",
+      "path": "skills/02-saas-launch",
+      "commitHash": "0eab224237bd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "rediumvex/ai-video-generator-claude/skills/07-before-after",
+      "name": "seedance-before-after",
+      "description": "Generate before-and-after transformation video prompts for Seedance 2.0 on Higgsfield. Use for transformation reveals, glow-ups, makeovers, renovation reveals, fitness transformations, design before-after, business growth visuals, or any content showing dramatic change. Triggers on before after, transformation, reveal, glow up, makeover, renovation, redesign, progress, results.",
+      "categories": ["Design"],
+      "author": "rediumvex",
+      "repo": "rediumvex/ai-video-generator-claude",
+      "path": "skills/07-before-after",
+      "commitHash": "0eab224237bd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "rediumvex/ai-video-generator-claude/skills/04-course-promo",
+      "name": "seedance-course-promo",
+      "description": "Generate online course and coaching program promotional video prompts for Seedance 2.0 on Higgsfield. Use for course trailers, coaching ads, educational content promos, masterclass teasers, webinar promotions, or any educational product video. Triggers on course, coaching, masterclass, webinar, tutorial, education, teaching, training, class, program, academy.",
+      "categories": ["AI & ML"],
+      "author": "rediumvex",
+      "repo": "rediumvex/ai-video-generator-claude",
+      "path": "skills/04-course-promo",
+      "commitHash": "0eab224237bd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "rediumvex/ai-video-generator-claude/skills/10-podcast-visual",
+      "name": "seedance-podcast-visual",
+      "description": "Generate podcast clip visualization video prompts for Seedance 2.0 on Higgsfield. Use for podcast clip videos, audio-to-visual content, audiogram alternatives, podcast highlight reels, interview clip visuals, or any video that transforms audio content into engaging visual format. Triggers on podcast, audio clip, audiogram, interview clip, sound bite, audio visual, podcast video, episode highlight, podcast clip.",
+      "categories": ["Data & Analytics", "Media"],
+      "author": "rediumvex",
+      "repo": "rediumvex/ai-video-generator-claude",
+      "path": "skills/10-podcast-visual",
+      "commitHash": "0eab224237bd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "rediumvex/ai-video-generator-claude/skills/03-personal-brand",
+      "name": "seedance-personal-brand",
+      "description": "Generate personal brand and founder story video prompts for Seedance 2.0 on Higgsfield. Use for authority content, day-in-the-life, founder story, personal brand building, thought leadership, creator content, lifestyle videos, behind-the-scenes, or any video meant to build a personal brand presence. Triggers on personal brand, founder, creator, authority, lifestyle, behind the scenes, day in the life, thought leader.",
+      "categories": ["Design", "Writing", "Business"],
+      "author": "rediumvex",
+      "repo": "rediumvex/ai-video-generator-claude",
+      "path": "skills/03-personal-brand",
+      "commitHash": "0eab224237bd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "rediumvex/ai-video-generator-claude/skills/05-faceless-channel",
+      "name": "seedance-faceless-channel",
+      "description": "Generate faceless content video prompts for Seedance 2.0 on Higgsfield. Use for faceless YouTube channels, TikTok content without showing face, anonymous creator content, narration-driven videos, stock-footage-style AI content, or any video where the creator doesn't appear on camera. Triggers on faceless, no face, anonymous, narration, stock footage, b-roll, background video, voiceover video.",
+      "categories": ["AI & ML", "Media"],
+      "author": "rediumvex",
+      "repo": "rediumvex/ai-video-generator-claude",
+      "path": "skills/05-faceless-channel",
+      "commitHash": "0eab224237bd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "rediumvex/ai-video-generator-claude/skills/06-luxury-aesthetic",
+      "name": "seedance-luxury-aesthetic",
+      "description": "Generate luxury and premium aesthetic video prompts for Seedance 2.0 on Higgsfield. Use for luxury brand content, premium product showcases, high-end lifestyle, minimalist aesthetic, elegant brand videos, or any content requiring sophisticated visual treatment. Triggers on luxury, premium, high-end, elegant, minimalist, sophisticated, exclusive, refined, designer, couture, bespoke.",
+      "categories": ["Design"],
+      "author": "rediumvex",
+      "repo": "rediumvex/ai-video-generator-claude",
+      "path": "skills/06-luxury-aesthetic",
+      "commitHash": "0eab224237bd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "rediumvex/ai-video-generator-claude/skills/08-testimonial-story",
+      "name": "seedance-testimonial-story",
+      "description": "Generate customer testimonial and social proof video prompts for Seedance 2.0 on Higgsfield. Use for customer stories, case study videos, review showcases, social proof content, success story videos, or any content featuring customer results and experiences. Triggers on testimonial, review, case study, social proof, customer story, success story, results, feedback, client.",
+      "categories": ["Research"],
+      "author": "rediumvex",
+      "repo": "rediumvex/ai-video-generator-claude",
+      "path": "skills/08-testimonial-story",
+      "commitHash": "0eab224237bd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "smucclaw/l4-ide/.claude/skills/writing-l4-rules",
+      "name": "writing-l4-rules",
+      "description": "Writes, validates, and deploys L4 — a typed functional language for computational law — encoding contracts, regulations, and policy logic as executable rules with type-checked decisions and formally-modeled obligations. Use when the user asks to formalise legal text, draft rules with deadlines and reparations, mark functions for deployment with `@export`/`@desc`, run the `l4` CLI (`l4 run`, `l4 check`), or deploy to `jl4-service`/Legalese Cloud.",
+      "categories": ["DevOps", "Writing", "Documents", "Business"],
+      "author": "smucclaw",
+      "repo": "smucclaw/l4-ide",
+      "path": ".claude/skills/writing-l4-rules",
+      "commitHash": "f6760d9cce28",
+      "files": ["SKILL.md", "assets", "references", "scripts"]
+    },
+    {
+      "id": "recomby-ai/wrap-skill/plugins/wrap/skills/wrap",
+      "name": "wrap",
+      "description": "Session wrap-up: consolidates every descriptive markdown file (README.md, AGENTS.md, HANDOFF.md, docs/*) into ONE canonical CLAUDE.md, then reconciles it against the current code state so a fresh session or new teammate can pick up immediately. CLAUDE.md keeps a mandatory PROGRESS block at the top answering two questions: where are we now and what's the next concrete action. Trigger when the user says: \"wrap\", \"wrap up\", \"/wrap\", \"tidy docs\", \"sync docs\", \"update docs\", \"archive\", \"this phase is done\", or the Chinese equivalents \"收尾\", \"同步文档\", \"整理文档\", \"整理一下\", \"更新文档\", \"存档\", \"梳理一下\", \"这阶段做完了\". A bare \"tidy\" / \"整理\" with prior dev context counts. Do not under-trigger.\n",
+      "categories": ["Writing", "Documents", "Integration", "AI & ML"],
+      "author": "recomby-ai",
+      "repo": "recomby-ai/wrap-skill",
+      "path": "plugins/wrap/skills/wrap",
+      "commitHash": "64a95bce950e",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "ssdeanx/AgentStack/.agent/skills/mastra",
       "name": "mastra",
       "description": "Comprehensive Mastra framework guide. Teaches how to find current documentation, verify API signatures, and build agents and workflows. Covers documentation lookup strategies (embedded docs, remote docs), core concepts (agents vs workflows, tools, memory, RAG), TypeScript requirements, and common patterns. Use this skill for all Mastra development to ensure you're using current APIs from the installed version or latest documentation.",
@@ -944,17 +1083,6 @@
       "repo": "Prismer-AI/signet",
       "path": "plugins/claude-code/skills/signet",
       "commitHash": "25bd82dd098a",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "recomby-ai/wrap-skill/plugins/wrap/skills/wrap",
-      "name": "wrap",
-      "description": "Session wrap-up: consolidates every descriptive markdown file (README.md, AGENTS.md, HANDOFF.md, docs/*) into ONE canonical CLAUDE.md, then reconciles it against the current code state so a fresh session or new teammate can pick up immediately. CLAUDE.md keeps a mandatory PROGRESS block at the top answering two questions: where are we now and what's the next concrete action. Trigger when the user says: \"wrap\", \"wrap up\", \"/wrap\", \"tidy docs\", \"sync docs\", \"update docs\", \"archive\", \"this phase is done\", or the Chinese equivalents \"收尾\", \"同步文档\", \"整理文档\", \"整理一下\", \"更新文档\", \"存档\", \"梳理一下\", \"这阶段做完了\". A bare \"tidy\" / \"整理\" with prior dev context counts. Do not under-trigger.\n",
-      "categories": ["Writing", "Documents", "Integration", "AI & ML"],
-      "author": "recomby-ai",
-      "repo": "recomby-ai/wrap-skill",
-      "path": "plugins/wrap/skills/wrap",
-      "commitHash": "64a95bce950e",
       "files": ["SKILL.md"]
     },
     {
@@ -1450,6 +1578,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "powerofjinbo/phdtaketaketake",
+      "name": "phdtaketaketake",
+      "description": "Score a PhD applicant's profile and rank candidate advisors using a connection-first 4.0-scale scoring system. Best-supported for physics / HEP and materials science (MSE), with the scoring engine extensible to chemistry, biology, CS, math, EE, ChemE, earth science (each with field-specific caveats — see references/journal_tiers.md). Use when the user wants to evaluate their PhD application chances, find matching advisors at top US programs, score a CV for graduate school, or compare candidate professors. Also triggers when the user mentions phdtaketaketake or its connection-first philosophy of valuing advisor network over h-index.",
+      "categories": ["Design", "Business", "Research"],
+      "author": "powerofjinbo",
+      "repo": "powerofjinbo/phdtaketaketake",
+      "path": "",
+      "commitHash": "be742e673e65",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "ahacker-1/cre-agent-skills/claude-code-plugins/cre-legal",
       "name": "cre-legal",
       "description": "CRE Legal review suite — 6 specialist skills for PSA review, title & survey analysis, estoppel tracking, loan document review, insurance coordination, and transfer document preparation for multifamily acquisitions.",
@@ -1558,17 +1697,6 @@
       "path": "skills/humanizer",
       "commitHash": "004db86aac6a",
       "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "powerofjinbo/phdtaketaketake",
-      "name": "phdtaketaketake",
-      "description": "Score a PhD applicant's profile and rank candidate advisors using a connection-first 4.0-scale scoring system. Best-supported for physics / HEP and materials science (MSE), with the scoring engine extensible to chemistry, biology, CS, math, EE, ChemE, earth science (each with field-specific caveats — see references/journal_tiers.md). Use when the user wants to evaluate their PhD application chances, find matching advisors at top US programs, score a CV for graduate school, or compare candidate professors. Also triggers when the user mentions phdtaketaketake or its connection-first philosophy of valuing advisor network over h-index.",
-      "categories": ["Design", "Business", "Research"],
-      "author": "powerofjinbo",
-      "repo": "powerofjinbo/phdtaketaketake",
-      "path": "",
-      "commitHash": "be742e673e65",
-      "files": ["SKILL.md"]
     },
     {
       "id": "inngest/inngest-skills/skills/inngest-steps",
@@ -2562,6 +2690,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "zouchenzhen/docx-template-translator-skill/skills/docx-template-translator",
+      "name": "docx-template-translator",
+      "description": "Adaptive conversion of LaTeX, PDF, or Markdown sources into a complete Word .docx that follows a user-supplied .docx template. Use when pandoc --reference-doc alone is not enough — for thesis, dissertation, report, or institutional Word formatting that needs cover pages, declarations, TOC, heading numbering, captions, three-line tables, equations, citations, and visual verification.",
+      "categories": ["Development", "Documents", "Research"],
+      "author": "zouchenzhen",
+      "repo": "zouchenzhen/docx-template-translator-skill",
+      "path": "skills/docx-template-translator",
+      "commitHash": "4510fcaa784c",
+      "files": ["SKILL.md", "agents", "presets", "references", "scripts"]
+    },
+    {
       "id": "greenstevester/fastlane-skill/skills/beta",
       "name": "beta",
       "description": "Build and upload iOS app to TestFlight",
@@ -2617,17 +2756,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "zouchenzhen/docx-template-translator-skill/skills/docx-template-translator",
-      "name": "docx-template-translator",
-      "description": "Adaptive conversion of LaTeX, PDF, or Markdown sources into a complete Word .docx that follows a user-supplied .docx template. Use when pandoc --reference-doc alone is not enough — for thesis, dissertation, report, or institutional Word formatting that needs cover pages, declarations, TOC, heading numbering, captions, three-line tables, equations, citations, and visual verification.",
-      "categories": ["Development", "Documents", "Research"],
-      "author": "zouchenzhen",
-      "repo": "zouchenzhen/docx-template-translator-skill",
-      "path": "skills/docx-template-translator",
-      "commitHash": "4510fcaa784c",
-      "files": ["SKILL.md", "agents", "presets", "references", "scripts"]
-    },
-    {
       "id": "Farenhytee/database-sentinel",
       "name": "database-sentinel",
       "description": "Multi-backend database security auditor. Audits Supabase, Firebase (Firestore/RTDB/Storage/Functions/Remote Config), MongoDB (self-hosted + Atlas), self-hosted PostgreSQL, and self-hosted MySQL for RLS/rules misconfigurations, exposed credentials, auth bypasses, MongoBleed (CVE-2025-14847), pgBouncer CVE-2025-12819, mysql_native_password drift, ghost auth, and storage exposures. Use this skill whenever the user mentions database security, RLS or rule audits, security review, penetration testing a vibe-coded app, checking if their DB is exposed, hardening a backend, fixing security rules, or auditing apps built with Lovable/Bolt/Replit/Cursor/Claude Code on any of these backends. Trigger on phrases like 'is my app secure', 'check my database', 'audit my Firebase', 'audit my MongoDB', 'audit my Postgres', 'audit my Supabase', 'is my DB exposed', or any cross-backend variant ('audit my full stack').",
@@ -2675,7 +2803,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/security-audit",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2686,7 +2814,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/refactoring",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2697,7 +2825,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-ranking",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2708,7 +2836,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-visualization",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2719,7 +2847,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/meeting-transcription",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2730,7 +2858,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-deployment",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2741,7 +2869,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-analysis",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2752,7 +2880,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/content-strategy",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2763,7 +2891,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/proofreading",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2774,7 +2902,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/summarization",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2785,7 +2913,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/report-generation",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2796,7 +2924,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/fact-checking",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2807,7 +2935,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/copywriting",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2818,7 +2946,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/docker-compose-setup",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2829,7 +2957,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-retrieval",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2840,7 +2968,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-compression",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2851,7 +2979,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/ml-pipeline-creation",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2862,7 +2990,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/keyword-research",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2873,7 +3001,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/graphql-api-design",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2884,7 +3012,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dynamic-application-security-testing",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2895,7 +3023,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-backup",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2906,7 +3034,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-cleaning",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2917,7 +3045,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/oauth-2-0-setup",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2928,7 +3056,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-injection",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2939,7 +3067,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/exploratory-data-analysis",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2950,7 +3078,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-optimization",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2961,7 +3089,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-seeding",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2972,7 +3100,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-design",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2983,7 +3111,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/ci-cd",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -2994,7 +3122,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/threat-modeling",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3005,7 +3133,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/literature-review",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3016,7 +3144,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/chatbot-conversation-design",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3027,7 +3155,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/task-automation",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3038,7 +3166,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/cloud-monitoring",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3049,7 +3177,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/static-application-security-testing",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3060,7 +3188,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/code-documentation",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3071,7 +3199,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/query-optimization",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3082,7 +3210,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-schema-design",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3093,7 +3221,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/webhook-setup",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3104,7 +3232,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/seo-optimization",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3115,7 +3243,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/note-taking",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3126,7 +3254,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/blog-post-writing",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3137,7 +3265,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/hyperparameter-tuning",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3148,7 +3276,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/sql-query-generation",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3159,7 +3287,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dependency-scanning",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3170,7 +3298,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-training",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3181,7 +3309,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/version-control",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3192,7 +3320,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/technical-writing",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3203,7 +3331,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/social-media-posting",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3214,7 +3342,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/data-labeling",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3225,7 +3353,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/presentation-creation",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3236,7 +3364,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/analytics-reporting",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3247,7 +3375,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/translation",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3258,7 +3386,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/email-drafting",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3269,7 +3397,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-integration",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3280,7 +3408,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/knowledge-graph-creation",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3291,7 +3419,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/kubernetes-deployment",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3302,7 +3430,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/infrastructure-as-code",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3313,7 +3441,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-migration",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -3324,7 +3452,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/deep-research",
-      "commitHash": "e57227bc84fc",
+      "commitHash": "328677da7d64",
       "files": ["SKILL.md"]
     },
     {
@@ -12486,50 +12614,6 @@
         "references/goal-detection-patterns.md",
         "references/mock-quality-checks.md"
       ]
-    },
-    {
-      "id": "ferdinandobons/startup-skill/startup-pitch",
-      "name": "startup-pitch",
-      "description": "Build investor-ready pitch scripts in multiple formats (10-min, 5-min, 2-min, 1-min elevator, investor email). Produces pitch narratives, Q&A preparation, pitch scoring rubric, and optional investor roleplay practice. Use when the user wants to create a pitch, prepare for investor meetings, craft a startup pitch, write a fundraising narrative, or practice their pitch. Triggers for \"pitch deck\", \"investor pitch\", \"pitch my startup\", \"fundraising deck\", \"seed deck\", \"how to pitch\", \"investor meeting\", \"demo day\", \"prepare pitch\", \"pitch script\", \"elevator pitch for investors\", \"pitch practice\", \"practice my pitch\", \"investor roleplay\", or any request to present a startup to investors, accelerators, or partners. Works standalone — no prior startup-design session needed, but leverages its output if available.",
-      "categories": ["Development", "Design", "Writing", "Business", "AI & ML"],
-      "author": "ferdinandobons",
-      "repo": "ferdinandobons/startup-skill",
-      "path": "startup-pitch",
-      "commitHash": "1dbf3926043d",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "ferdinandobons/startup-skill/startup-design",
-      "name": "startup-design",
-      "description": "Design, validate, and plan a startup from scratch. Covers market research, competitive analysis, business model, brand identity, product definition, financial projections, and validation experiments. Trigger when the user has a startup idea to explore, wants to validate a business concept, needs a business plan or lean canvas, asks for market sizing or competitive landscape, wants brand positioning or go-to-market strategy, or says anything like \"I have an idea for...\" or \"is this idea worth pursuing\". Also handles resuming from a previous checkpoint.",
-      "categories": ["Design", "Productivity", "Business", "Research", "Finance"],
-      "author": "ferdinandobons",
-      "repo": "ferdinandobons/startup-skill",
-      "path": "startup-design",
-      "commitHash": "1dbf3926043d",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "ferdinandobons/startup-skill/startup-competitors",
-      "name": "startup-competitors",
-      "description": "Deep competitive intelligence for any market. Analyzes competitors' products, pricing, customer sentiment, GTM strategy, and growth signals using real web data. Produces battle cards, pricing landscape, and feature matrix. Use when the user wants to understand their competitive landscape, analyze competitors, compare products in a market, or research who they're competing against. Triggers for \"who are my competitors\", \"competitive analysis\", \"competitor research\", \"battle cards\", \"pricing comparison\", \"competitor pricing\", \"market players\", \"competitive intelligence\", \"competitive landscape\", \"who else is in this space\", \"competitive moat\", or any request to profile, compare, or map competitors in a category. Works standalone — no prior startup-design session needed.",
-      "categories": ["Design", "Data & Analytics", "Business", "Research"],
-      "author": "ferdinandobons",
-      "repo": "ferdinandobons/startup-skill",
-      "path": "startup-competitors",
-      "commitHash": "1dbf3926043d",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "ferdinandobons/startup-skill/startup-positioning",
-      "name": "startup-positioning",
-      "description": "Market positioning strategy using the April Dunford framework, enriched with JTBD discovery, Moore positioning statement, and Neumeier's Onliness Test. Produces a complete positioning document, positioning statement, competitive alternatives map, and market category analysis. Use when the user wants to define or refine their market positioning, find their unique position, differentiate from competitors, craft a positioning statement, choose a market category, or figure out \"how should we position this product.\" Triggers for \"positioning\", \"how to position\", \"market position\", \"differentiation strategy\", \"positioning statement\", \"competitive positioning\", \"category strategy\", \"where do we fit in the market\", \"how are we different\", \"unique value proposition\", or any request to define, sharpen, or rethink positioning. Works standalone — no prior startup-design or startup-competitors session needed, but leverages their output if available.",
-      "categories": ["Development", "Design", "Business", "Research", "Finance", "AI & ML"],
-      "author": "ferdinandobons",
-      "repo": "ferdinandobons/startup-skill",
-      "path": "startup-positioning",
-      "commitHash": "1dbf3926043d",
-      "files": ["SKILL.md", "references"]
     },
     {
       "id": "assafelovic/skyll/skills/skyll",
