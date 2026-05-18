@@ -1,103 +1,5 @@
 {
   "repositories": {
-    "rediumvex/ai-video-generator-claude": {
-      "url": "https://github.com/rediumvex/ai-video-generator-claude",
-      "branch": "main",
-      "stars": 33,
-      "forks": 1,
-      "lastUpdated": "2026-04-13T15:12:03Z"
-    },
-    "smucclaw/l4-ide": {
-      "url": "https://github.com/smucclaw/l4-ide",
-      "branch": "main",
-      "stars": 33,
-      "forks": 7,
-      "lastUpdated": "2026-04-22T12:35:54Z"
-    },
-    "recomby-ai/wrap-skill": {
-      "url": "https://github.com/recomby-ai/wrap-skill",
-      "branch": "main",
-      "stars": 32,
-      "forks": 3,
-      "lastUpdated": "2026-05-17T05:11:25Z"
-    },
-    "ssdeanx/AgentStack": {
-      "url": "https://github.com/ssdeanx/AgentStack",
-      "branch": "main",
-      "stars": 32,
-      "forks": 6,
-      "lastUpdated": "2026-04-21T11:17:04Z"
-    },
-    "Prismer-AI/signet": {
-      "url": "https://github.com/Prismer-AI/signet",
-      "branch": "main",
-      "stars": 32,
-      "forks": 1,
-      "lastUpdated": "2026-05-07T07:21:09Z"
-    },
-    "akseolabs-seo/cinematic-ui": {
-      "url": "https://github.com/akseolabs-seo/cinematic-ui",
-      "branch": "master",
-      "stars": 30,
-      "forks": 11,
-      "lastUpdated": "2026-04-08T07:24:23Z"
-    },
-    "SimonTheSalesBooster/ClaudeSkills-SprintClub": {
-      "url": "https://github.com/SimonTheSalesBooster/ClaudeSkills-SprintClub",
-      "branch": "main",
-      "stars": 29,
-      "forks": 7,
-      "lastUpdated": "2026-04-22T10:08:09Z"
-    },
-    "abualif120/manusiawi": {
-      "url": "https://github.com/abualif120/manusiawi",
-      "branch": "main",
-      "stars": 27,
-      "forks": 5,
-      "lastUpdated": "2026-04-16T15:04:26Z"
-    },
-    "prismatic-io/prismatic-skills": {
-      "url": "https://github.com/prismatic-io/prismatic-skills",
-      "branch": "main",
-      "stars": 27,
-      "forks": 0,
-      "lastUpdated": "2026-05-12T18:02:34Z"
-    },
-    "cyber-immortal/cyber-figures": {
-      "url": "https://github.com/cyber-immortal/cyber-figures",
-      "branch": "aoye",
-      "stars": 27,
-      "forks": 3,
-      "lastUpdated": "2026-04-10T07:20:53Z"
-    },
-    "omixam/pensamiento-critico": {
-      "url": "https://github.com/omixam/pensamiento-critico",
-      "branch": "main",
-      "stars": 26,
-      "forks": 4,
-      "lastUpdated": "2026-05-09T04:46:44Z"
-    },
-    "apurvrdx1/tagore": {
-      "url": "https://github.com/apurvrdx1/tagore",
-      "branch": "main",
-      "stars": 25,
-      "forks": 0,
-      "lastUpdated": "2026-05-05T14:01:46Z"
-    },
-    "respira-press/agent-skills-wordpress": {
-      "url": "https://github.com/respira-press/agent-skills-wordpress",
-      "branch": "main",
-      "stars": 24,
-      "forks": 6,
-      "lastUpdated": "2026-05-09T12:30:25Z"
-    },
-    "powerofjinbo/phdtaketaketake": {
-      "url": "https://github.com/powerofjinbo/phdtaketaketake",
-      "branch": "main",
-      "stars": 24,
-      "forks": 3,
-      "lastUpdated": "2026-05-09T08:39:24Z"
-    },
     "ahacker-1/cre-agent-skills": {
       "url": "https://github.com/ahacker-1/cre-agent-skills",
       "branch": "main",
@@ -215,7 +117,7 @@
       "branch": "main",
       "stars": 17,
       "forks": 5,
-      "lastUpdated": "2026-05-17T17:27:17Z"
+      "lastUpdated": "2026-05-17T20:20:28Z"
     },
     "VirtusLab-Open-Source/astro-strapi-loader": {
       "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-loader",
@@ -299,7 +201,7 @@
       "branch": "main",
       "stars": 11,
       "forks": 2,
-      "lastUpdated": "2026-05-16T21:12:23Z"
+      "lastUpdated": "2026-05-17T20:44:45Z"
     },
     "th3vib3coder/vibe-science": {
       "url": "https://github.com/th3vib3coder/vibe-science",
@@ -499,6 +401,13 @@
     },
     "tzachbon/smart-ralph": {
       "url": "https://github.com/tzachbon/smart-ralph",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "ferdinandobons/startup-skill": {
+      "url": "https://github.com/ferdinandobons/startup-skill",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -772,822 +681,6 @@
     }
   },
   "skills": [
-    {
-      "id": "rediumvex/ai-video-generator-claude/skills/09-ai-avatar",
-      "name": "seedance-ai-avatar",
-      "description": "Generate AI avatar and digital persona video prompts for Seedance 2.0 on Higgsfield. Use for virtual spokesperson content, digital twin videos, AI presenter clips, avatar-based marketing, virtual influencer content, or any video featuring a digital/AI-generated character as the main subject. Triggers on avatar, digital persona, virtual presenter, AI character, digital twin, virtual influencer, synthetic media, animated spokesperson.",
-      "categories": ["Marketing", "AI & ML"],
-      "author": "rediumvex",
-      "repo": "rediumvex/ai-video-generator-claude",
-      "path": "skills/09-ai-avatar",
-      "commitHash": "0eab224237bd",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rediumvex/ai-video-generator-claude/skills/01-viral-hook",
-      "name": "seedance-viral-hook",
-      "description": "Generate scroll-stopping viral hook video prompts for Seedance 2.0 on Higgsfield. Use whenever the user wants viral content, TikTok hooks, Instagram Reels openers, YouTube Shorts, attention-grabbing video, scroll-stopper, pattern interrupt, or any short-form video designed to maximize retention and views. Triggers on any mention of viral, hook, scroll-stop, retention, views, engagement, short-form, TikTok, Reels, Shorts.",
-      "categories": ["Marketing", "Media"],
-      "author": "rediumvex",
-      "repo": "rediumvex/ai-video-generator-claude",
-      "path": "skills/01-viral-hook",
-      "commitHash": "0eab224237bd",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rediumvex/ai-video-generator-claude/skills/02-saas-launch",
-      "name": "seedance-saas-launch",
-      "description": "Generate SaaS product launch and software demo video prompts for Seedance 2.0 on Higgsfield. Use whenever the user wants a product launch video, app demo, software walkthrough, feature showcase, startup promo, tech product reveal, or any SaaS/software marketing video. Triggers on SaaS, app, software, product launch, demo, feature, startup, tech, UI, dashboard, landing page video.",
-      "categories": ["Design", "Business"],
-      "author": "rediumvex",
-      "repo": "rediumvex/ai-video-generator-claude",
-      "path": "skills/02-saas-launch",
-      "commitHash": "0eab224237bd",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rediumvex/ai-video-generator-claude/skills/07-before-after",
-      "name": "seedance-before-after",
-      "description": "Generate before-and-after transformation video prompts for Seedance 2.0 on Higgsfield. Use for transformation reveals, glow-ups, makeovers, renovation reveals, fitness transformations, design before-after, business growth visuals, or any content showing dramatic change. Triggers on before after, transformation, reveal, glow up, makeover, renovation, redesign, progress, results.",
-      "categories": ["Design"],
-      "author": "rediumvex",
-      "repo": "rediumvex/ai-video-generator-claude",
-      "path": "skills/07-before-after",
-      "commitHash": "0eab224237bd",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rediumvex/ai-video-generator-claude/skills/04-course-promo",
-      "name": "seedance-course-promo",
-      "description": "Generate online course and coaching program promotional video prompts for Seedance 2.0 on Higgsfield. Use for course trailers, coaching ads, educational content promos, masterclass teasers, webinar promotions, or any educational product video. Triggers on course, coaching, masterclass, webinar, tutorial, education, teaching, training, class, program, academy.",
-      "categories": ["AI & ML"],
-      "author": "rediumvex",
-      "repo": "rediumvex/ai-video-generator-claude",
-      "path": "skills/04-course-promo",
-      "commitHash": "0eab224237bd",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rediumvex/ai-video-generator-claude/skills/10-podcast-visual",
-      "name": "seedance-podcast-visual",
-      "description": "Generate podcast clip visualization video prompts for Seedance 2.0 on Higgsfield. Use for podcast clip videos, audio-to-visual content, audiogram alternatives, podcast highlight reels, interview clip visuals, or any video that transforms audio content into engaging visual format. Triggers on podcast, audio clip, audiogram, interview clip, sound bite, audio visual, podcast video, episode highlight, podcast clip.",
-      "categories": ["Data & Analytics", "Media"],
-      "author": "rediumvex",
-      "repo": "rediumvex/ai-video-generator-claude",
-      "path": "skills/10-podcast-visual",
-      "commitHash": "0eab224237bd",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rediumvex/ai-video-generator-claude/skills/03-personal-brand",
-      "name": "seedance-personal-brand",
-      "description": "Generate personal brand and founder story video prompts for Seedance 2.0 on Higgsfield. Use for authority content, day-in-the-life, founder story, personal brand building, thought leadership, creator content, lifestyle videos, behind-the-scenes, or any video meant to build a personal brand presence. Triggers on personal brand, founder, creator, authority, lifestyle, behind the scenes, day in the life, thought leader.",
-      "categories": ["Design", "Writing", "Business"],
-      "author": "rediumvex",
-      "repo": "rediumvex/ai-video-generator-claude",
-      "path": "skills/03-personal-brand",
-      "commitHash": "0eab224237bd",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rediumvex/ai-video-generator-claude/skills/05-faceless-channel",
-      "name": "seedance-faceless-channel",
-      "description": "Generate faceless content video prompts for Seedance 2.0 on Higgsfield. Use for faceless YouTube channels, TikTok content without showing face, anonymous creator content, narration-driven videos, stock-footage-style AI content, or any video where the creator doesn't appear on camera. Triggers on faceless, no face, anonymous, narration, stock footage, b-roll, background video, voiceover video.",
-      "categories": ["AI & ML", "Media"],
-      "author": "rediumvex",
-      "repo": "rediumvex/ai-video-generator-claude",
-      "path": "skills/05-faceless-channel",
-      "commitHash": "0eab224237bd",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rediumvex/ai-video-generator-claude/skills/06-luxury-aesthetic",
-      "name": "seedance-luxury-aesthetic",
-      "description": "Generate luxury and premium aesthetic video prompts for Seedance 2.0 on Higgsfield. Use for luxury brand content, premium product showcases, high-end lifestyle, minimalist aesthetic, elegant brand videos, or any content requiring sophisticated visual treatment. Triggers on luxury, premium, high-end, elegant, minimalist, sophisticated, exclusive, refined, designer, couture, bespoke.",
-      "categories": ["Design"],
-      "author": "rediumvex",
-      "repo": "rediumvex/ai-video-generator-claude",
-      "path": "skills/06-luxury-aesthetic",
-      "commitHash": "0eab224237bd",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "rediumvex/ai-video-generator-claude/skills/08-testimonial-story",
-      "name": "seedance-testimonial-story",
-      "description": "Generate customer testimonial and social proof video prompts for Seedance 2.0 on Higgsfield. Use for customer stories, case study videos, review showcases, social proof content, success story videos, or any content featuring customer results and experiences. Triggers on testimonial, review, case study, social proof, customer story, success story, results, feedback, client.",
-      "categories": ["Research"],
-      "author": "rediumvex",
-      "repo": "rediumvex/ai-video-generator-claude",
-      "path": "skills/08-testimonial-story",
-      "commitHash": "0eab224237bd",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "smucclaw/l4-ide/.claude/skills/writing-l4-rules",
-      "name": "writing-l4-rules",
-      "description": "Writes, validates, and deploys L4 — a typed functional language for computational law — encoding contracts, regulations, and policy logic as executable rules with type-checked decisions and formally-modeled obligations. Use when the user asks to formalise legal text, draft rules with deadlines and reparations, mark functions for deployment with `@export`/`@desc`, run the `l4` CLI (`l4 run`, `l4 check`), or deploy to `jl4-service`/Legalese Cloud.",
-      "categories": ["DevOps", "Writing", "Documents", "Business"],
-      "author": "smucclaw",
-      "repo": "smucclaw/l4-ide",
-      "path": ".claude/skills/writing-l4-rules",
-      "commitHash": "f6760d9cce28",
-      "files": ["SKILL.md", "assets", "references", "scripts"]
-    },
-    {
-      "id": "recomby-ai/wrap-skill/plugins/wrap/skills/wrap",
-      "name": "wrap",
-      "description": "Session wrap-up: consolidates every descriptive markdown file (README.md, AGENTS.md, HANDOFF.md, docs/*) into ONE canonical CLAUDE.md, then reconciles it against the current code state so a fresh session or new teammate can pick up immediately. CLAUDE.md keeps a mandatory PROGRESS block at the top answering two questions: where are we now and what's the next concrete action. Trigger when the user says: \"wrap\", \"wrap up\", \"/wrap\", \"tidy docs\", \"sync docs\", \"update docs\", \"archive\", \"this phase is done\", or the Chinese equivalents \"收尾\", \"同步文档\", \"整理文档\", \"整理一下\", \"更新文档\", \"存档\", \"梳理一下\", \"这阶段做完了\". A bare \"tidy\" / \"整理\" with prior dev context counts. Do not under-trigger.\n",
-      "categories": ["Writing", "Documents", "Integration", "AI & ML"],
-      "author": "recomby-ai",
-      "repo": "recomby-ai/wrap-skill",
-      "path": "plugins/wrap/skills/wrap",
-      "commitHash": "64a95bce950e",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ssdeanx/AgentStack/.agent/skills/mastra",
-      "name": "mastra",
-      "description": "Comprehensive Mastra framework guide. Teaches how to find current documentation, verify API signatures, and build agents and workflows. Covers documentation lookup strategies (embedded docs, remote docs), core concepts (agents vs workflows, tools, memory, RAG), TypeScript requirements, and common patterns. Use this skill for all Mastra development to ensure you're using current APIs from the installed version or latest documentation.",
-      "categories": ["Development", "Writing", "Business", "AI & ML"],
-      "author": "ssdeanx",
-      "repo": "ssdeanx/AgentStack",
-      "path": ".agent/skills/mastra",
-      "commitHash": "0243bdbb7ffc",
-      "files": [
-        "SKILL.md",
-        "references/common-errors.md",
-        "references/create-mastra.md",
-        "references/embedded-docs.md",
-        "references/migration-guide.md",
-        "references/remote-docs.md"
-      ]
-    },
-    {
-      "id": "ssdeanx/AgentStack/src/mastra/public/workspace/skills/next-best-practices",
-      "name": "next-best-practices",
-      "description": "Next.js best practices - file conventions, RSC boundaries, data patterns, async APIs, metadata, error handling, route handlers, image/font optimization, bundling",
-      "categories": ["Development", "Design"],
-      "author": "ssdeanx",
-      "repo": "ssdeanx/AgentStack",
-      "path": "src/mastra/public/workspace/skills/next-best-practices",
-      "commitHash": "0243bdbb7ffc",
-      "files": [
-        "SKILL.md",
-        "async-patterns.md",
-        "bundling.md",
-        "data-patterns.md",
-        "debug-tricks.md",
-        "directives.md",
-        "error-handling.md",
-        "file-conventions.md",
-        "font.md",
-        "functions.md",
-        "hydration-error.md",
-        "image.md",
-        "metadata.md",
-        "parallel-routes.md",
-        "route-handlers.md",
-        "rsc-boundaries.md",
-        "runtime-selection.md",
-        "scripts.md",
-        "self-hosting.md",
-        "suspense-boundaries.md"
-      ]
-    },
-    {
-      "id": "ssdeanx/AgentStack/.github/skills/better-auth-security-best-practices",
-      "name": "better-auth-security-best-practices",
-      "description": "Configure rate limiting, manage auth secrets, set up CSRF protection, define trusted origins, secure sessions and cookies, encrypt OAuth tokens, track IP addresses, and implement audit logging for Better Auth. Use when users need to secure their auth setup, prevent brute force attacks, or harden a Better Auth deployment.",
-      "categories": ["DevOps", "Security", "Productivity", "Finance"],
-      "author": "ssdeanx",
-      "repo": "ssdeanx/AgentStack",
-      "path": ".github/skills/better-auth-security-best-practices",
-      "commitHash": "0243bdbb7ffc",
-      "files": ["SKILL.MD"]
-    },
-    {
-      "id": "ssdeanx/AgentStack/.github/skills/gemini",
-      "name": "gemini",
-      "description": "Execute Gemini CLI for AI-powered code analysis and generation. Use when you need to leverage Google's Gemini models for complex reasoning tasks.",
-      "categories": ["AI & ML"],
-      "author": "ssdeanx",
-      "repo": "ssdeanx/AgentStack",
-      "path": ".github/skills/gemini",
-      "commitHash": "0243bdbb7ffc",
-      "files": ["SKILL.md", "scripts/gemini.py"]
-    },
-    {
-      "id": "ssdeanx/AgentStack/.github/skills/browser",
-      "name": "browser",
-      "description": "This skill should be used for browser automation tasks using Chrome DevTools Protocol (CDP). Triggers when users need to launch Chrome with remote debugging, navigate pages, execute JavaScript in browser context, capture screenshots, or interactively select DOM elements. No MCP server required.",
-      "categories": ["Development", "Productivity"],
-      "author": "ssdeanx",
-      "repo": "ssdeanx/AgentStack",
-      "path": ".github/skills/browser",
-      "commitHash": "0243bdbb7ffc",
-      "files": [
-        "SKILL.md",
-        "browser.zip",
-        "package-lock.json",
-        "package.json",
-        "scripts/eval.cjs",
-        "scripts/nav.cjs",
-        "scripts/pick.cjs",
-        "scripts/screenshot.cjs",
-        "scripts/start.cjs"
-      ]
-    },
-    {
-      "id": "ssdeanx/AgentStack/.github/skills/better-auth-best-practices",
-      "name": "better-auth-best-practices",
-      "description": "Configure Better Auth server and client, set up database adapters, manage sessions, add plugins, and handle environment variables. Use when users mention Better Auth, betterauth, auth.ts, or need to set up TypeScript authentication with email/password, OAuth, or plugin configuration.",
-      "categories": ["Security", "Productivity", "Data & Analytics"],
-      "author": "ssdeanx",
-      "repo": "ssdeanx/AgentStack",
-      "path": ".github/skills/better-auth-best-practices",
-      "commitHash": "0243bdbb7ffc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ssdeanx/AgentStack/.github/skills/product-requirements",
-      "name": "product-requirements",
-      "description": "Interactive Product Owner skill for requirements gathering, analysis, and PRD generation. Triggers when users request product requirements, feature specification, PRD creation, or need help understanding and documenting project requirements. Uses quality scoring and iterative dialogue to ensure comprehensive requirements before generating professional PRD documents.",
-      "categories": ["Other"],
-      "author": "ssdeanx",
-      "repo": "ssdeanx/AgentStack",
-      "path": ".github/skills/product-requirements",
-      "commitHash": "0243bdbb7ffc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ssdeanx/AgentStack/.github/skills/organization-best-practices",
-      "name": "organization-best-practices",
-      "description": "Configure multi-tenant organizations, manage members and invitations, define custom roles and permissions, set up teams, and implement RBAC using Better Auth's organization plugin. Use when users need org setup, team management, member roles, access control, or the Better Auth organization plugin.",
-      "categories": ["Productivity"],
-      "author": "ssdeanx",
-      "repo": "ssdeanx/AgentStack",
-      "path": ".github/skills/organization-best-practices",
-      "commitHash": "0243bdbb7ffc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ssdeanx/AgentStack/.github/skills/email-and-password-best-practices",
-      "name": "email-and-password-best-practices",
-      "description": "Configure email verification, implement password reset flows, set password policies, and customise hashing algorithms for Better Auth email/password authentication. Use when users need to set up login, sign-in, sign-up, credential authentication, or password security with Better Auth.",
-      "categories": ["Security"],
-      "author": "ssdeanx",
-      "repo": "ssdeanx/AgentStack",
-      "path": ".github/skills/email-and-password-best-practices",
-      "commitHash": "0243bdbb7ffc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ssdeanx/AgentStack/.github/skills/two-factor-authentication-best-practices",
-      "name": "two-factor-authentication-best-practices",
-      "description": "Configure TOTP authenticator apps, send OTP codes via email/SMS, manage backup codes, handle trusted devices, and implement 2FA sign-in flows using Better Auth's twoFactor plugin. Use when users need MFA, multi-factor authentication, authenticator setup, or login security with Better Auth.",
-      "categories": ["Development", "Security", "Productivity"],
-      "author": "ssdeanx",
-      "repo": "ssdeanx/AgentStack",
-      "path": ".github/skills/two-factor-authentication-best-practices",
-      "commitHash": "0243bdbb7ffc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ssdeanx/AgentStack/.github/skills/create-auth-skill",
-      "name": "create-auth-skill",
-      "description": "Scaffold and implement authentication in TypeScript/JavaScript apps using Better Auth. Detect frameworks, configure database adapters, set up route handlers, add OAuth providers, and create auth UI pages. Use when users want to add login, sign-up, or authentication to a new or existing project with Better Auth.",
-      "categories": ["Development", "Security", "Productivity", "Data & Analytics", "Business"],
-      "author": "ssdeanx",
-      "repo": "ssdeanx/AgentStack",
-      "path": ".github/skills/create-auth-skill",
-      "commitHash": "0243bdbb7ffc",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ssdeanx/AgentStack/.github/skills/test-cases",
-      "name": "test-cases",
-      "description": "This skill should be used when generating comprehensive test cases from PRD documents or user requirements. Triggers when users request test case generation, QA planning, test scenario creation, or need structured test documentation. Produces detailed test cases covering functional, edge case, error handling, and state transition scenarios.",
-      "categories": ["Other"],
-      "author": "ssdeanx",
-      "repo": "ssdeanx/AgentStack",
-      "path": ".github/skills/test-cases",
-      "commitHash": "0243bdbb7ffc",
-      "files": ["SKILL.md", "references/testing-principles.md"]
-    },
-    {
-      "id": "Prismer-AI/signet/plugins/claude-code/skills/signet",
-      "name": "signet",
-      "description": "Cryptographic signing for every tool call with Ed25519 audit trail",
-      "categories": ["Other"],
-      "author": "Prismer-AI",
-      "repo": "Prismer-AI/signet",
-      "path": "plugins/claude-code/skills/signet",
-      "commitHash": "25bd82dd098a",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "akseolabs-seo/cinematic-ui",
-      "name": "cinematic-ui",
-      "description": "Design and build websites with film-inspired visual systems, director-driven art direction, storyboard-first layout planning, and cinematic motion. Use when the user asks for a cinematic site, movie-style landing page, director-inspired UI, film-noir, sci-fi, romance, thriller, action, animation, or a movie-like website aesthetic, including requests phrased in Chinese. Do not use for generic web design unless the user explicitly wants a film or director reference.",
-      "categories": ["Design", "Research"],
-      "author": "akseolabs-seo",
-      "repo": "akseolabs-seo/cinematic-ui",
-      "path": "",
-      "commitHash": "24a66c1d6140",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "SimonTheSalesBooster/ClaudeSkills-SprintClub/sales-closer",
-      "name": "sales-closer",
-      "description": "Use when the user needs to finalize a deal, handle tough objections, or create a \"Mutual Action Plan\" to close a sale.",
-      "categories": ["Other"],
-      "author": "SimonTheSalesBooster",
-      "repo": "SimonTheSalesBooster/ClaudeSkills-SprintClub",
-      "path": "sales-closer",
-      "commitHash": "fa921b6d3e2a",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "abualif120/manusiawi",
-      "name": "manusiawi",
-      "description": "Buang corak penulisan AI daripada teks Bahasa Melayu (Malaysia). Humanizer BM-first yang mengesan 'intrusion' Bahasa Indonesia. Strips AI writing patterns from Malaysian Bahasa Melayu text with active Indonesian vocabulary detection. Trigger on 'manusiawi', 'humanize BM', 'humanize Malay', 'betulkan BM', 'terlalu AI', 'remove AI pattern', 'tulis macam manusia', 'sound natural', 'nampak AI', 'bunyi AI', 'terlalu formal', 'bahasa pekeliling'. Detects 32 Malaysian BM patterns (era globalisasi openers, holistik/komprehensif vocabulary, telah di- passive overuse, adalah before adjectives, di mana as conjunction) and flags Indonesian intrusions (kantor/mobil/uang/kamu/banget/gue/dong). Preserves meaning and named entities. Based on Wikipedia's 'Signs of AI writing' and adapted from github.com/blader/humanizer. 24 English patterns for mixed BM-EN content.",
-      "categories": ["Development", "Writing"],
-      "author": "abualif120",
-      "repo": "abualif120/manusiawi",
-      "path": "",
-      "commitHash": "4cf334eb3741",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "prismatic-io/prismatic-skills/plugin/skills/prismatic-api",
-      "name": "prismatic-api",
-      "description": "Prismatic API access patterns and GraphQL reference. Covers the two-tier access hierarchy (MCP tools → Prism CLI), CLI usage rules, GraphQL query patterns, pagination, authentication, and managing platform resources programmatically.",
-      "categories": ["Development", "Security", "Data & Analytics", "Research"],
-      "author": "prismatic-io",
-      "repo": "prismatic-io/prismatic-skills",
-      "path": "plugin/skills/prismatic-api",
-      "commitHash": "b02b84d5b5b9",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "prismatic-io/prismatic-skills/plugin/skills/boomi-migration",
-      "name": "boomi-migration",
-      "description": "This skill should be used when the user needs to analyze a Dell Boomi export, parse Boomi Component XML files, migrate from Boomi to Prismatic, convert Boomi processes to CNI flows, map Boomi shapes to Prismatic equivalents, or interpret Boomi connector settings, transform maps, and process properties. Relevant when the user says \"analyze this Boomi export\", \"migrate from Boomi\", \"parse Boomi XML\", \"convert Boomi process to Prismatic\", or \"what does this Boomi shape map to\".\n",
-      "categories": ["Data & Analytics", "Documents"],
-      "author": "prismatic-io",
-      "repo": "prismatic-io/prismatic-skills",
-      "path": "plugin/skills/boomi-migration",
-      "commitHash": "b02b84d5b5b9",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "prismatic-io/prismatic-skills/plugin/skills/cyclr-migration",
-      "name": "cyclr-migration",
-      "description": "This skill should be used when the user needs to analyze a Cyclr export, parse Cyclr JSON files, migrate from Cyclr to Prismatic, convert Cyclr cycles to CNI flows, map Cyclr steps to Prismatic equivalents, or interpret Cyclr connector settings, field mappings, and cycle parameters. Relevant when the user says \"analyze Cyclr export\", \"migrate from Cyclr\", \"parse Cyclr JSON\", \"convert Cyclr cycle to Prismatic\", or \"what does this Cyclr step map to\".\n",
-      "categories": ["Data & Analytics", "Documents"],
-      "author": "prismatic-io",
-      "repo": "prismatic-io/prismatic-skills",
-      "path": "plugin/skills/cyclr-migration",
-      "commitHash": "b02b84d5b5b9",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "prismatic-io/prismatic-skills/plugin/skills/component-patterns",
-      "name": "component-patterns",
-      "description": "Architecture patterns, code generation guides, and reference documentation for building Prismatic custom components.",
-      "categories": ["Development"],
-      "author": "prismatic-io",
-      "repo": "prismatic-io/prismatic-skills",
-      "path": "plugin/skills/component-patterns",
-      "commitHash": "b02b84d5b5b9",
-      "version": "2.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "prismatic-io/prismatic-skills/plugin/skills/prismatic-docs",
-      "name": "prismatic-docs",
-      "description": "This skill should be used when the user asks \"How do I...\", \"What is...\", \"How does X work in Prismatic?\", \"What's the best practice for...\", wants to understand Prismatic concepts, features, or architecture, or needs guidance on marketplace deployment, customer connections, embedded UI, config pages, triggers, or other Prismatic product features. Search and retrieve documentation from prismatic.io/docs and reference examples from github.com/prismatic-io/examples.",
-      "categories": ["Development", "DevOps", "Writing", "Integration", "Research"],
-      "author": "prismatic-io",
-      "repo": "prismatic-io/prismatic-skills",
-      "path": "plugin/skills/prismatic-docs",
-      "commitHash": "b02b84d5b5b9",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "prismatic-io/prismatic-skills/plugin/skills/embedded-patterns",
-      "name": "embedded-patterns",
-      "description": "Reference documentation for embedding Prismatic's integration marketplace and workflow builder in a web application. Covers JWT authentication, the embedded SDK, marketplace and workflow embedding, theming, i18n, additional screens, and custom marketplace UI. Use when the user asks about embedding Prismatic, JWT tokens for embedded apps, marketplace iframes, workflow builder integration, custom marketplace UI, or frontend SDK setup.",
-      "categories": ["Development", "Security", "Productivity", "Research", "Finance"],
-      "author": "prismatic-io",
-      "repo": "prismatic-io/prismatic-skills",
-      "path": "plugin/skills/embedded-patterns",
-      "commitHash": "b02b84d5b5b9",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "prismatic-io/prismatic-skills/plugin/skills/integration-patterns",
-      "name": "integration-patterns",
-      "description": "Architecture patterns, manifest usage, code generation guides, and reference documentation for building Prismatic Code Native Integrations.",
-      "categories": ["Development"],
-      "author": "prismatic-io",
-      "repo": "prismatic-io/prismatic-skills",
-      "path": "plugin/skills/integration-patterns",
-      "commitHash": "b02b84d5b5b9",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "prismatic-io/prismatic-skills/plugin/skills/migration-framework",
-      "name": "migration-framework",
-      "description": "Core knowledge for migrating integrations from other platforms (Boomi, Cyclr) to Prismatic Code Native Integrations. Provides the standard integration schema, schema-to-spec mapping, confidence scoring, and migration-aware code generation patterns. Use when the user says \"migrate\", \"convert from Boomi/Cyclr\", \"parse this export\".\n",
-      "categories": ["Development", "Data & Analytics", "Documents"],
-      "author": "prismatic-io",
-      "repo": "prismatic-io/prismatic-skills",
-      "path": "plugin/skills/migration-framework",
-      "commitHash": "b02b84d5b5b9",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "cyber-immortal/cyber-figures/aoye",
-      "name": "aoye-perspective",
-      "description": "月老鳌烨的婚恋咨询互动体验。基于409个视频、69万字语料深度蒸馏，\n提炼完整的连麦互动流程引擎、7条核心公理、6套方法论和精确的表达DNA。\n用途：以鳌烨的身份与用户做连麦式婚恋咨询，完成从信息采集到方案推荐的完整闭环。\n当用户提到「鳌烨」「月老」「连麦」「婚恋分析」「帮我看看条件」「打个分」时使用。\n即使用户只是说「用鳌烨的方式聊聊」「月老模式」「鳌烨上线」也应触发。\n",
-      "categories": ["Data & Analytics"],
-      "author": "cyber-immortal",
-      "repo": "cyber-immortal/cyber-figures",
-      "path": "aoye",
-      "commitHash": "3c2bd0c84470",
-      "files": [
-        "SKILL.md",
-        "character-deep-补充.md",
-        "deep-analysis.md",
-        "distillation-report.md",
-        "full-portrait.md",
-        "linguistic-dna.md",
-        "missed-quotes.md",
-        "raw",
-        "scoring-reactions.md",
-        "signature-phrases.md",
-        "title-analysis.md",
-        "topic-distribution.md"
-      ]
-    },
-    {
-      "id": "omixam/pensamiento-critico/skills/pensamiento-critico",
-      "name": "pensamiento-critico",
-      "description": "Analiza textos aplicando pensamiento crítico — el marco de los 8 elementos del pensamiento y los estándares intelectuales universales de Richard Paul y Linda Elder — y detecta las falacias lógicas graves presentes. Úsala siempre que el usuario comparta un texto (pegado o en un archivo) y pida analizarlo críticamente, detectar falacias, evaluar argumentos, identificar sesgos, o preguntas como \"¿qué problemas tiene este argumento?\", \"¿es sólido este razonamiento?\", \"analiza esto\", \"dame una crítica\". También actívala cuando el usuario comparta un artículo de opinión, un post, un discurso, un ensayo o cualquier texto argumentativo y quiera evaluar su calidad argumentativa.",
-      "categories": ["Design", "Writing"],
-      "author": "omixam",
-      "repo": "omixam/pensamiento-critico",
-      "path": "skills/pensamiento-critico",
-      "commitHash": "0d93c7698be2",
-      "files": ["SKILL.md", "doc", "references"]
-    },
-    {
-      "id": "apurvrdx1/tagore",
-      "name": "tagore",
-      "description": "Write or rewrite prose so it sounds like a human wrote it — not a frontier\nmodel. Named in homage to Rabindranath Tagore, whose prose carried what\nfrontier models reach for and miss: a point of view, specificity over\nabstraction, and restraint over puffery. Merges two complementary approaches:\na 29-pattern catalog of AI tells (from humanizer) plus an 8-rule operating\nsystem with an 8-dimension scoring gate (extending stop-slop). Use when\ndrafting, editing, or reviewing any prose: essays, posts, docs, reports,\nemails. Detects and removes inflated symbolism, promotional language,\nsuperficial -ing analyses, vague attributions, em dash overuse, rule of\nthree, AI vocabulary, passive voice, negative parallelisms, filler phrases,\ninanimate-verb constructions, narrator-from-a-distance voice, and metronomic\nrhythm. Adds back the things AI writing usually lacks: point of view, stakes,\nspecificity, restraint, varied rhythm, and trust in the reader.\n",
-      "categories": ["Development", "Writing", "AI & ML", "Media"],
-      "author": "apurvrdx1",
-      "repo": "apurvrdx1/tagore",
-      "path": "",
-      "commitHash": "8e60af38dfc9",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/wordpress-mcp-dev",
-      "name": "wordpress-mcp-dev",
-      "description": "Build and maintain modern WordPress plugins and MCP servers, including hybrid WordPress+MCP products. Use when implementing plugin architecture (PHP, REST API, Gutenberg/admin/page-builder integrations), MCP tooling (TypeScript/Python, stdio/HTTP transport), security hardening, licensing/updates, and delivery workflows from scaffold to distribution.",
-      "categories": ["Development", "Productivity", "Integration"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "wordpress-mcp-dev",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md", "agents/openai.yaml", "references/full-guide.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/site-onboarding",
-      "name": "site-onboarding",
-      "description": "First-run onboarding for Respira MCP connections. Verifies connectivity, discovers site architecture, maps all available MCP tools, and produces a site briefing so the AI understands what it can do. Use when user says \"get started\", \"connect to my site\", \"what can you do\", or \"onboard\".",
-      "categories": ["Integration"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/site-onboarding",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/seo-aeo-amplifier",
-      "name": "seo-aeo-amplifier",
-      "description": "Comprehensive on-page SEO and Answer Engine Optimization audit with automated duplicate creation and intelligent schema markup generation. Scans all content, detects issues (missing titles, weak meta, poor headings, missing alt text), generates schema (Article, FAQ, HowTo, Product, etc), creates optimized duplicates. Use when user says \"amplify my seo and aeo\", \"optimize for search engines\", \"run seo audit\", \"improve search visibility\", or \"scan for seo opportunities\".",
-      "categories": ["Writing", "Productivity"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/seo-aeo-amplifier",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md", "references/technical-details.md", "references/workflow-details.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/wordpress-site-dna",
-      "name": "wordpress-site-dna",
-      "description": "Archaeological analysis of WordPress sites. Detects all page builders, audits plugins (active vs dead weight), maps content structure, finds orphaned shortcodes, measures performance, and assesses security posture. Use when user says \"analyze my wordpress site\", \"wordpress site audit\", \"site dna\", or \"check my wordpress health\".",
-      "categories": ["Development", "Security", "Writing", "Documents", "Research"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/wordpress-site-dna",
-      "commitHash": "b4221f722499",
-      "files": [
-        "SKILL.md",
-        "references/example-output.md",
-        "references/mcp-tools.md",
-        "tests/benchmark.json",
-        "tests/regression.json",
-        "tests/trigger.json"
-      ]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/content-portability",
-      "name": "content-portability",
-      "description": "Export WordPress pages, posts, and custom posts to portable local packages with builder data, media, and human-readable markdown. Import to another site with smart ID remapping. Auto-backup before AI edits. Use when user says \"export my site\", \"backup my pages\", \"migrate content\", \"download my content\", or \"content portability\".",
-      "categories": ["Design", "Writing", "Documents"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/content-portability",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/technical-debt-audit",
-      "name": "technical-debt-audit",
-      "description": "Identifies technical debt in WordPress sites - orphaned shortcodes from deleted plugins, unused plugins, database bloat, unused media, builder data from inactive builders. Use when user says \"analyze technical debt\", \"scan for orphaned shortcodes\", \"check for unused plugins\", or \"find database bloat\".",
-      "categories": ["Development", "Data & Analytics", "Research"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/technical-debt-audit",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md", "references/example-output.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/internal-link-builder",
-      "name": "internal-link-builder",
-      "description": "Strategic internal link building for WordPress sites. Analyzes all published content, maps topic relationships, identifies high-value linking opportunities, and presents a clear plan for approval before making any changes. Use when user says \"build internal links\", \"fix orphaned pages\", \"improve internal linking\", \"topic clusters\", \"pillar pages\", or \"improve site interlinking for SEO\".",
-      "categories": ["Writing"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/internal-link-builder",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/migrate-divi-to-bricks",
-      "name": "migrate-divi-to-bricks",
-      "description": "Converts Divi-built WordPress pages to Bricks Builder. Parses Divi's shortcode tree from post_content, maps each module to its Bricks element equivalent, generates a migration plan for approval, and writes clean Bricks JSON to the target pages. Use when user says \"migrate Divi to Bricks\", \"replace Divi with Bricks\", \"switch from Divi to Bricks\", or \"rebuild Divi pages in Bricks\".",
-      "categories": ["Development", "Writing", "Productivity", "Data & Analytics", "Documents"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/migrate-divi-to-bricks",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/respira-setup-assistant",
-      "name": "respira-setup-assistant",
-      "description": "Diagnoses Respira MCP connections, walks through first-time setup, and resolves the most common errors (timeouts, 401s, 403s, version mismatches, missing API keys, plugin not installed). Use when user says \"set up respira\", \"connect respira\", \"respira not working\", \"respira connection failed\", or \"fix respira\".",
-      "categories": ["Development", "Productivity", "Integration", "AI & ML"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/respira-setup-assistant",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md", "metadata.json"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/woocommerce-health-check",
-      "name": "woocommerce-health-check",
-      "description": "WooCommerce configuration diagnostics - identifies checkout problems, cart errors, AJAX mismatches, caching issues, payment gateway setup, SSL enforcement. Revenue-impacting diagnostics. Requires WooCommerce add-on. Use when user says \"check my woocommerce health\", \"audit woocommerce store\", \"diagnose checkout issues\", or \"scan my store for problems\".",
-      "categories": ["Design", "Productivity", "Business", "Finance"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/woocommerce-health-check",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md", "references/example-output.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/migrate-oxygen-to-bricks",
-      "name": "migrate-oxygen-to-bricks",
-      "description": "Full-site migration from Oxygen Builder to Bricks (both modern, developer-oriented, near 1:1 mental model). Audits every Oxygen page, maps components to Bricks equivalents, builds a migration plan for approval, and converts pages to Bricks JSON via duplicates so the live site stays untouched. Use when user says \"migrate Oxygen to Bricks\", \"switch from Oxygen to Bricks\", or \"replace Oxygen with Bricks Builder\".",
-      "categories": ["Development", "Data & Analytics"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/migrate-oxygen-to-bricks",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/mobile-experience-report",
-      "name": "mobile-experience-report",
-      "description": "Mobile layout diagnostics - identifies responsive breakpoint problems, text sizing issues, column stacking failures, element visibility issues, navigation menu behavior. Device-by-device breakdown. Use when user says \"check my mobile experience\", \"audit mobile responsiveness\", \"scan for mobile layout issues\", or \"mobile experience report\".",
-      "categories": ["Design"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/mobile-experience-report",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md", "references/example-output.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/migrate-divi-to-gutenberg",
-      "name": "migrate-divi-to-gutenberg",
-      "description": "Converts Divi-built WordPress pages to native Gutenberg blocks. Parses Divi's shortcode tree from post_content, maps each module to its closest core block equivalent, generates a migration plan for approval, and writes clean block markup to the target pages. Use when user says \"migrate Divi to Gutenberg\", \"switch from Divi to native blocks\", \"remove Divi dependency\", or \"rebuild Divi pages in the block editor\".",
-      "categories": ["Development", "Writing", "Productivity", "Documents"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/migrate-divi-to-gutenberg",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/migrate-brizy-to-gutenberg",
-      "name": "migrate-brizy-to-gutenberg",
-      "description": "Full-site migration from Brizy Builder to the WordPress block editor (Gutenberg). Audits every Brizy-built page, maps components to native block equivalents, builds a migration plan for approval, and converts pages to native block markup via duplicates so the live site stays untouched. Use when user says \"migrate Brizy to Gutenberg\", \"switch from Brizy to blocks\", \"convert Brizy pages to the block editor\", or \"move from Brizy to native WordPress\".",
-      "categories": ["Development", "Documents"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/migrate-brizy-to-gutenberg",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/migrate-divi-to-breakdance",
-      "name": "migrate-divi-to-breakdance",
-      "description": "Converts Divi-built WordPress pages to Breakdance Builder. Parses Divi's shortcode tree from post_content, maps each module to its Breakdance element equivalent, generates a migration plan for approval, and writes Breakdance content to the target pages. Use when user says \"migrate Divi to Breakdance\", \"switch from Divi to Breakdance\", or \"rebuild Divi pages in Breakdance\".",
-      "categories": ["Development", "Writing", "Productivity", "Documents"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/migrate-divi-to-breakdance",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/migrate-wpbakery-to-bricks",
-      "name": "migrate-wpbakery-to-bricks",
-      "description": "Converts WPBakery Page Builder pages (the legacy ThemeForest-bundled vc_* shortcode format) to Bricks Builder. Parses WPBakery shortcodes from post_content, maps each element to its Bricks equivalent, generates a migration plan for approval, and writes clean Bricks JSON to the target pages. Use when user says \"migrate WPBakery to Bricks\", \"modernize a WPBakery site with Bricks\", or \"switch from WPBakery to Bricks\".",
-      "categories": [
-        "Development",
-        "Design",
-        "Writing",
-        "Productivity",
-        "Data & Analytics",
-        "Documents"
-      ],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/migrate-wpbakery-to-bricks",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/migrate-elementor-to-oxygen",
-      "name": "migrate-elementor-to-oxygen",
-      "description": "Converts Elementor-built WordPress pages to Oxygen Builder. Reads Elementor's JSON widget tree from post meta, maps each widget to its Oxygen component equivalent, generates a migration plan for approval, and writes Oxygen content to the target pages. Use when user says \"migrate Elementor to Oxygen\", \"switch from Elementor to Oxygen\", or \"rebuild Elementor pages in Oxygen's developer-oriented builder\".",
-      "categories": ["Development", "Writing", "Productivity", "Data & Analytics", "Documents"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/migrate-elementor-to-oxygen",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/migrate-elementor-to-bricks",
-      "name": "migrate-elementor-to-bricks",
-      "description": "Converts Elementor-built WordPress pages to Bricks Builder. Reads Elementor's JSON widget tree from post meta, maps each widget to its closest Bricks element equivalent, generates a migration plan for approval, and writes clean Bricks JSON to the target pages. Use when user says \"migrate Elementor to Bricks\", \"switch from Elementor to Bricks\", or \"rebuild Elementor pages in Bricks\".",
-      "categories": ["Writing", "Productivity", "Data & Analytics", "Documents"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/migrate-elementor-to-bricks",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/migrate-oxygen-to-breakdance",
-      "name": "migrate-oxygen-to-breakdance",
-      "description": "Full-site migration from Oxygen Builder to Breakdance (same Soflyy lineage, smoothest possible builder swap). Audits every Oxygen page, maps components to Breakdance equivalents, builds a migration plan for approval, and converts pages via duplicates so the live site stays untouched. Use when user says \"migrate Oxygen to Breakdance\", \"switch from Oxygen to Breakdance\", or \"replace Oxygen with Breakdance\".",
-      "categories": ["Development"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/migrate-oxygen-to-breakdance",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/wordpress-ai-image-optimizer",
-      "name": "wordpress-ai-image-optimizer",
-      "description": "AI-powered image optimization that downloads images from WordPress, processes locally (compress, WebP conversion, resize, rename), uploads optimized versions, and updates all content references. Handles hundreds of images automatically in AI code editor. Use when user says \"optimize my wordpress images with ai\", \"run ai image optimization\", \"compress and optimize all images\", or \"improve image performance\".",
-      "categories": ["Development", "Writing", "Documents", "Marketing", "Research"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/wordpress-ai-image-optimizer",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md", "references/example-output.md", "references/processing-workflow.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/migrate-wpbakery-to-gutenberg",
-      "name": "migrate-wpbakery-to-gutenberg",
-      "description": "Converts WPBakery Page Builder (formerly Visual Composer) pages to native Gutenberg blocks. Parses WPBakery shortcodes from post_content, maps each element to its closest core block equivalent, generates a migration plan for approval, and writes clean block markup to the target pages. Use when user says \"migrate WPBakery to Gutenberg\", \"drop WPBakery for native blocks\", or \"modernize a legacy WPBakery WordPress site\".",
-      "categories": ["Development", "Design", "Writing", "Productivity", "Documents"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/migrate-wpbakery-to-gutenberg",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/migrate-elementor-to-gutenberg",
-      "name": "migrate-elementor-to-gutenberg",
-      "description": "Converts Elementor-built WordPress pages to native Gutenberg blocks. Reads Elementor's JSON widget tree from post meta, maps each widget to its closest core block equivalent, generates a migration plan for approval, and writes clean block markup to the target pages. Use when user says \"migrate Elementor to Gutenberg\", \"drop Elementor\", \"switch to native blocks\", or \"rebuild Elementor pages in the block editor\".",
-      "categories": ["Writing", "Productivity", "Data & Analytics", "Documents"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/migrate-elementor-to-gutenberg",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/migrate-elementor-to-breakdance",
-      "name": "migrate-elementor-to-breakdance",
-      "description": "Converts Elementor-built WordPress pages to Breakdance Builder. Reads Elementor's JSON widget tree from post meta, maps each widget to its Breakdance element equivalent, generates a migration plan for approval, and writes Breakdance content to the target pages. Use when user says \"migrate Elementor to Breakdance\", \"switch from Elementor to Breakdance\", or \"rebuild Elementor pages in Breakdance\".",
-      "categories": ["Writing", "Productivity", "Data & Analytics", "Documents"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/migrate-elementor-to-breakdance",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/migrate-beaver-builder-to-bricks",
-      "name": "migrate-beaver-builder-to-bricks",
-      "description": "Full-site migration from Beaver Builder to Bricks Builder. Audits every Beaver Builder page, maps modules to Bricks equivalents, builds a migration plan for approval, and converts pages to Bricks JSON via duplicates so the live site stays untouched. Use when user says \"migrate Beaver Builder to Bricks\", \"switch from BB to Bricks\", \"convert Beaver Builder pages to Bricks\", or \"replace Beaver Builder with Bricks\".",
-      "categories": ["Data & Analytics"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/migrate-beaver-builder-to-bricks",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/migrate-beaver-builder-to-gutenberg",
-      "name": "migrate-beaver-builder-to-gutenberg",
-      "description": "Full-site migration from Beaver Builder to the WordPress block editor (Gutenberg). Audits every Beaver Builder page, maps modules to native block equivalents, builds a migration plan for approval, and converts pages to native block markup via duplicates so the live site stays untouched. Use when user says \"migrate Beaver Builder to Gutenberg\", \"switch from Beaver Builder to blocks\", \"convert Beaver Builder pages to the block editor\", or \"move from Beaver Builder to native WordPress\".",
-      "categories": ["Documents"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/migrate-beaver-builder-to-gutenberg",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/migrate-visual-composer-to-gutenberg",
-      "name": "migrate-visual-composer-to-gutenberg",
-      "description": "Full-site migration from Visual Composer Website Builder (the modern VCV format) to the WordPress block editor (Gutenberg). Audits every VCV page, maps elements to native block equivalents, builds a migration plan for approval, and converts pages to native block markup via duplicates so the live site stays untouched. Use when user says \"migrate Visual Composer to Gutenberg\", \"switch from VCV to blocks\", or \"convert Visual Composer pages to the block editor\".",
-      "categories": ["Development", "Design", "Documents"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/migrate-visual-composer-to-gutenberg",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "respira-press/agent-skills-wordpress/skills/migrate-thrive-architect-to-gutenberg",
-      "name": "migrate-thrive-architect-to-gutenberg",
-      "description": "Full-site migration from Thrive Architect to the WordPress block editor (Gutenberg). Audits every Thrive page, maps elements to native block equivalents, builds a migration plan for approval, and converts pages to native block markup via duplicates so the live site stays untouched. Marketing-only Thrive components (Thrive Leads, Ultimatum, Quiz) are flagged for separate replacement. Use when user says \"migrate Thrive Architect to Gutenberg\", \"switch from Thrive to blocks\", or \"move from Thrive Architect to native WordPress\".",
-      "categories": ["Development", "Documents", "Marketing"],
-      "author": "respira-press",
-      "repo": "respira-press/agent-skills-wordpress",
-      "path": "skills/migrate-thrive-architect-to-gutenberg",
-      "commitHash": "b4221f722499",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "powerofjinbo/phdtaketaketake",
-      "name": "phdtaketaketake",
-      "description": "Score a PhD applicant's profile and rank candidate advisors using a connection-first 4.0-scale scoring system. Best-supported for physics / HEP and materials science (MSE), with the scoring engine extensible to chemistry, biology, CS, math, EE, ChemE, earth science (each with field-specific caveats — see references/journal_tiers.md). Use when the user wants to evaluate their PhD application chances, find matching advisors at top US programs, score a CV for graduate school, or compare candidate professors. Also triggers when the user mentions phdtaketaketake or its connection-first philosophy of valuing advisor network over h-index.",
-      "categories": ["Design", "Business", "Research"],
-      "author": "powerofjinbo",
-      "repo": "powerofjinbo/phdtaketaketake",
-      "path": "",
-      "commitHash": "be742e673e65",
-      "files": ["SKILL.md"]
-    },
     {
       "id": "ahacker-1/cre-agent-skills/claude-code-plugins/cre-legal",
       "name": "cre-legal",
@@ -2803,7 +1896,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/security-audit",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -2814,7 +1907,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/refactoring",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -2825,7 +1918,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-ranking",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -2836,7 +1929,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-visualization",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -2847,7 +1940,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/meeting-transcription",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -2858,7 +1951,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-deployment",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -2869,7 +1962,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-analysis",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -2880,7 +1973,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/content-strategy",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -2891,7 +1984,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/proofreading",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -2902,7 +1995,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/summarization",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -2913,7 +2006,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/report-generation",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -2924,7 +2017,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/fact-checking",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -2935,7 +2028,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/copywriting",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -2946,7 +2039,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/docker-compose-setup",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -2957,7 +2050,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-retrieval",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -2968,7 +2061,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-compression",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -2979,7 +2072,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/ml-pipeline-creation",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -2990,7 +2083,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/keyword-research",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3001,7 +2094,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/graphql-api-design",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3012,7 +2105,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dynamic-application-security-testing",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3023,7 +2116,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-backup",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3034,7 +2127,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-cleaning",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3045,7 +2138,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/oauth-2-0-setup",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3056,7 +2149,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-injection",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3067,7 +2160,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/exploratory-data-analysis",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3078,7 +2171,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-optimization",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3089,7 +2182,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-seeding",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3100,7 +2193,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-design",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3111,7 +2204,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/ci-cd",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3122,7 +2215,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/threat-modeling",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3133,7 +2226,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/literature-review",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3144,7 +2237,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/chatbot-conversation-design",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3155,7 +2248,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/task-automation",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3166,7 +2259,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/cloud-monitoring",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3177,7 +2270,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/static-application-security-testing",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3188,7 +2281,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/code-documentation",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3199,7 +2292,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/query-optimization",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3210,7 +2303,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-schema-design",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3221,7 +2314,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/webhook-setup",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3232,7 +2325,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/seo-optimization",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3243,7 +2336,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/note-taking",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3254,7 +2347,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/blog-post-writing",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3265,7 +2358,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/hyperparameter-tuning",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3276,7 +2369,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/sql-query-generation",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3287,7 +2380,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dependency-scanning",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3298,7 +2391,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-training",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3309,7 +2402,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/version-control",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3320,7 +2413,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/technical-writing",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3331,7 +2424,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/social-media-posting",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3342,7 +2435,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/data-labeling",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3353,7 +2446,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/presentation-creation",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3364,7 +2457,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/analytics-reporting",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3375,7 +2468,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/translation",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3386,7 +2479,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/email-drafting",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3397,7 +2490,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-integration",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3408,7 +2501,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/knowledge-graph-creation",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3419,7 +2512,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/kubernetes-deployment",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3430,7 +2523,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/infrastructure-as-code",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3441,7 +2534,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-migration",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -3452,7 +2545,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/deep-research",
-      "commitHash": "328677da7d64",
+      "commitHash": "0afd68409fe7",
       "files": ["SKILL.md"]
     },
     {
@@ -7856,17 +6949,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/prove",
-      "name": "prove",
-      "description": "Formal theorem proving with research, testing, and verification phases",
-      "categories": ["Development", "Research"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/prove",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/debug",
       "name": "debug",
       "description": "Debug issues by investigating logs, database state, and git history",
@@ -7900,17 +6982,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/explore",
-      "name": "explore",
-      "description": "Meta-skill for internal codebase exploration at varying depths (quick/deep/architecture)",
-      "categories": ["Development"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/explore",
-      "commitHash": "0854d473fbe4",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/security",
       "name": "security",
       "description": "Security audit workflow - vulnerability scan → verification",
@@ -7919,6 +6990,17 @@
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/security",
       "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/nia-docs",
+      "name": "nia-docs",
+      "description": "Search library documentation and code examples via Nia",
+      "categories": ["Development", "Writing"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/nia-docs",
+      "commitHash": "e13603363d21",
       "files": ["SKILL.md"]
     },
     {
@@ -7955,28 +7037,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/pint-compute",
-      "name": "pint-compute",
-      "description": "Unit-aware computation with Pint - convert units, dimensional analysis, unit arithmetic",
-      "categories": ["Other"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/pint-compute",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/agentica-sdk",
-      "name": "agentica-sdk",
-      "description": "Build Python agents with Agentica SDK - @agentic decorator, spawn(), persistence, MCP integration",
-      "categories": ["Development", "Integration", "AI & ML"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/agentica-sdk",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/tldr-overview",
       "name": "tldr-overview",
       "description": "Get a token-efficient overview of any project using the TLDR stack",
@@ -7996,6 +7056,17 @@
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/loogle-search",
       "commitHash": "21b569baa759",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/no-task-output",
+      "name": "no-task-output",
+      "description": "Never Use TaskOutput",
+      "categories": ["Other"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/no-task-output",
+      "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
     {
@@ -8139,17 +7210,6 @@
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/tldr-router",
       "commitHash": "21b569baa759",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/slash-commands",
-      "name": "slash-commands",
-      "description": "Create and use Claude Code slash commands - quick prompts, bash execution, file references",
-      "categories": ["AI & ML"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/slash-commands",
-      "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
     {
@@ -8582,6 +7642,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/review",
+      "name": "review",
+      "description": "Comprehensive code review workflow - parallel specialized reviews → synthesis",
+      "categories": ["Development"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/review",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/commit",
       "name": "commit",
       "description": "Create git commits with user approval and no Claude attribution",
@@ -8633,17 +7704,6 @@
       "author": "parcadei",
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/agentica-server",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/archive/search-tools",
-      "name": "search-tools",
-      "description": "Search Tool Hierarchy",
-      "categories": ["Other"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/archive/search-tools",
       "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
@@ -8793,28 +7853,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/math-help",
-      "name": "math-help",
-      "description": "Guide to the math cognitive stack - what tools exist and when to use each",
-      "categories": ["Other"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/math-help",
-      "commitHash": "f5a3b151b5ea",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "parcadei/Continuous-Claude-v3/.claude/skills/agentica-spawn",
-      "name": "agentica-spawn",
-      "description": "Spawn Agentica multi-agent patterns",
-      "categories": ["AI & ML"],
-      "author": "parcadei",
-      "repo": "parcadei/Continuous-Claude-v3",
-      "path": ".claude/skills/agentica-spawn",
-      "commitHash": "f8d7173d9e35",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "parcadei/Continuous-Claude-v3/.claude/skills/resume_handoff",
       "name": "resume-handoff",
       "description": "Resume work from handoff document with context analysis and validation",
@@ -8899,6 +7937,28 @@
       "author": "parcadei",
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/math/graph-number-theory/graph-algorithms",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/qlty-check",
+      "name": "qlty-check",
+      "description": "Code quality checks, formatting, and metrics via qlty CLI",
+      "categories": ["Development"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/qlty-check",
+      "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/debug-hooks",
+      "name": "debug-hooks",
+      "description": "Systematic hook debugging workflow. Use when hooks aren't firing, producing wrong output, or behaving unexpectedly.",
+      "categories": ["Development"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/debug-hooks",
       "commitHash": "f8d7173d9e35",
       "files": ["SKILL.md"]
     },
@@ -8988,6 +8048,17 @@
       "repo": "parcadei/Continuous-Claude-v3",
       "path": ".claude/skills/math/category-theory/categories-functors",
       "commitHash": "f8d7173d9e35",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "parcadei/Continuous-Claude-v3/.claude/skills/search-router",
+      "name": "search-router",
+      "description": "Choose the right search tool for each query type",
+      "categories": ["Other"],
+      "author": "parcadei",
+      "repo": "parcadei/Continuous-Claude-v3",
+      "path": ".claude/skills/search-router",
+      "commitHash": "dd1e637eeb63",
       "files": ["SKILL.md"]
     },
     {
@@ -12614,6 +11685,50 @@
         "references/goal-detection-patterns.md",
         "references/mock-quality-checks.md"
       ]
+    },
+    {
+      "id": "ferdinandobons/startup-skill/startup-pitch",
+      "name": "startup-pitch",
+      "description": "Build investor-ready pitch scripts in multiple formats (10-min, 5-min, 2-min, 1-min elevator, investor email). Produces pitch narratives, Q&A preparation, pitch scoring rubric, and optional investor roleplay practice. Use when the user wants to create a pitch, prepare for investor meetings, craft a startup pitch, write a fundraising narrative, or practice their pitch. Triggers for \"pitch deck\", \"investor pitch\", \"pitch my startup\", \"fundraising deck\", \"seed deck\", \"how to pitch\", \"investor meeting\", \"demo day\", \"prepare pitch\", \"pitch script\", \"elevator pitch for investors\", \"pitch practice\", \"practice my pitch\", \"investor roleplay\", or any request to present a startup to investors, accelerators, or partners. Works standalone — no prior startup-design session needed, but leverages its output if available.",
+      "categories": ["Development", "Design", "Writing", "Business", "AI & ML"],
+      "author": "ferdinandobons",
+      "repo": "ferdinandobons/startup-skill",
+      "path": "startup-pitch",
+      "commitHash": "1dbf3926043d",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "ferdinandobons/startup-skill/startup-design",
+      "name": "startup-design",
+      "description": "Design, validate, and plan a startup from scratch. Covers market research, competitive analysis, business model, brand identity, product definition, financial projections, and validation experiments. Trigger when the user has a startup idea to explore, wants to validate a business concept, needs a business plan or lean canvas, asks for market sizing or competitive landscape, wants brand positioning or go-to-market strategy, or says anything like \"I have an idea for...\" or \"is this idea worth pursuing\". Also handles resuming from a previous checkpoint.",
+      "categories": ["Design", "Productivity", "Business", "Research", "Finance"],
+      "author": "ferdinandobons",
+      "repo": "ferdinandobons/startup-skill",
+      "path": "startup-design",
+      "commitHash": "1dbf3926043d",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "ferdinandobons/startup-skill/startup-competitors",
+      "name": "startup-competitors",
+      "description": "Deep competitive intelligence for any market. Analyzes competitors' products, pricing, customer sentiment, GTM strategy, and growth signals using real web data. Produces battle cards, pricing landscape, and feature matrix. Use when the user wants to understand their competitive landscape, analyze competitors, compare products in a market, or research who they're competing against. Triggers for \"who are my competitors\", \"competitive analysis\", \"competitor research\", \"battle cards\", \"pricing comparison\", \"competitor pricing\", \"market players\", \"competitive intelligence\", \"competitive landscape\", \"who else is in this space\", \"competitive moat\", or any request to profile, compare, or map competitors in a category. Works standalone — no prior startup-design session needed.",
+      "categories": ["Design", "Data & Analytics", "Business", "Research"],
+      "author": "ferdinandobons",
+      "repo": "ferdinandobons/startup-skill",
+      "path": "startup-competitors",
+      "commitHash": "1dbf3926043d",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "ferdinandobons/startup-skill/startup-positioning",
+      "name": "startup-positioning",
+      "description": "Market positioning strategy using the April Dunford framework, enriched with JTBD discovery, Moore positioning statement, and Neumeier's Onliness Test. Produces a complete positioning document, positioning statement, competitive alternatives map, and market category analysis. Use when the user wants to define or refine their market positioning, find their unique position, differentiate from competitors, craft a positioning statement, choose a market category, or figure out \"how should we position this product.\" Triggers for \"positioning\", \"how to position\", \"market position\", \"differentiation strategy\", \"positioning statement\", \"competitive positioning\", \"category strategy\", \"where do we fit in the market\", \"how are we different\", \"unique value proposition\", or any request to define, sharpen, or rethink positioning. Works standalone — no prior startup-design or startup-competitors session needed, but leverages their output if available.",
+      "categories": ["Development", "Design", "Business", "Research", "Finance", "AI & ML"],
+      "author": "ferdinandobons",
+      "repo": "ferdinandobons/startup-skill",
+      "path": "startup-positioning",
+      "commitHash": "1dbf3926043d",
+      "files": ["SKILL.md", "references"]
     },
     {
       "id": "assafelovic/skyll/skills/skyll",
