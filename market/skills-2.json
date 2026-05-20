@@ -1,18 +1,123 @@
 {
   "repositories": {
-    "ahacker-1/cre-agent-skills": {
-      "url": "https://github.com/ahacker-1/cre-agent-skills",
+    "ssdeanx/AgentStack": {
+      "url": "https://github.com/ssdeanx/AgentStack",
       "branch": "main",
-      "stars": 23,
-      "forks": 4,
-      "lastUpdated": "2026-04-24T19:22:15Z"
+      "stars": 32,
+      "forks": 6,
+      "lastUpdated": "2026-04-21T11:17:04Z"
+    },
+    "Prismer-AI/signet": {
+      "url": "https://github.com/Prismer-AI/signet",
+      "branch": "main",
+      "stars": 32,
+      "forks": 1,
+      "lastUpdated": "2026-05-18T08:59:12Z"
+    },
+    "SimonTheSalesBooster/ClaudeSkills-SprintClub": {
+      "url": "https://github.com/SimonTheSalesBooster/ClaudeSkills-SprintClub",
+      "branch": "main",
+      "stars": 30,
+      "forks": 7,
+      "lastUpdated": "2026-04-22T10:08:09Z"
+    },
+    "akseolabs-seo/cinematic-ui": {
+      "url": "https://github.com/akseolabs-seo/cinematic-ui",
+      "branch": "master",
+      "stars": 30,
+      "forks": 11,
+      "lastUpdated": "2026-04-08T07:24:23Z"
     },
     "Aboudjem/humanizer-skill": {
       "url": "https://github.com/Aboudjem/humanizer-skill",
       "branch": "main",
-      "stars": 23,
-      "forks": 3,
+      "stars": 28,
+      "forks": 2,
       "lastUpdated": "2026-05-13T09:04:47Z"
+    },
+    "abualif120/manusiawi": {
+      "url": "https://github.com/abualif120/manusiawi",
+      "branch": "main",
+      "stars": 27,
+      "forks": 5,
+      "lastUpdated": "2026-04-16T15:04:26Z"
+    },
+    "prismatic-io/prismatic-skills": {
+      "url": "https://github.com/prismatic-io/prismatic-skills",
+      "branch": "main",
+      "stars": 27,
+      "forks": 0,
+      "lastUpdated": "2026-05-19T18:04:01Z"
+    },
+    "zouchenzhen/docx-template-translator-skill": {
+      "url": "https://github.com/zouchenzhen/docx-template-translator-skill",
+      "branch": "main",
+      "stars": 27,
+      "forks": 3,
+      "lastUpdated": "2026-05-12T17:32:07Z"
+    },
+    "cyber-immortal/cyber-figures": {
+      "url": "https://github.com/cyber-immortal/cyber-figures",
+      "branch": "aoye",
+      "stars": 27,
+      "forks": 3,
+      "lastUpdated": "2026-04-10T07:20:53Z"
+    },
+    "respira-press/agent-skills-wordpress": {
+      "url": "https://github.com/respira-press/agent-skills-wordpress",
+      "branch": "main",
+      "stars": 26,
+      "forks": 6,
+      "lastUpdated": "2026-05-18T19:26:36Z"
+    },
+    "powerofjinbo/phdtaketaketake": {
+      "url": "https://github.com/powerofjinbo/phdtaketaketake",
+      "branch": "main",
+      "stars": 26,
+      "forks": 3,
+      "lastUpdated": "2026-05-09T08:39:24Z"
+    },
+    "omixam/pensamiento-critico": {
+      "url": "https://github.com/omixam/pensamiento-critico",
+      "branch": "main",
+      "stars": 26,
+      "forks": 4,
+      "lastUpdated": "2026-05-09T04:46:44Z"
+    },
+    "apurvrdx1/tagore": {
+      "url": "https://github.com/apurvrdx1/tagore",
+      "branch": "main",
+      "stars": 26,
+      "forks": 0,
+      "lastUpdated": "2026-05-05T14:01:46Z"
+    },
+    "ahacker-1/cre-agent-skills": {
+      "url": "https://github.com/ahacker-1/cre-agent-skills",
+      "branch": "main",
+      "stars": 25,
+      "forks": 5,
+      "lastUpdated": "2026-04-24T19:22:15Z"
+    },
+    "motherduckdb/agent-skills": {
+      "url": "https://github.com/motherduckdb/agent-skills",
+      "branch": "main",
+      "stars": 25,
+      "forks": 4,
+      "lastUpdated": "2026-05-19T23:45:18Z"
+    },
+    "MaxForAI/Tokenless": {
+      "url": "https://github.com/MaxForAI/Tokenless",
+      "branch": "main",
+      "stars": 24,
+      "forks": 1,
+      "lastUpdated": "2026-05-19T10:09:50Z"
+    },
+    "AndyShaman/premortem": {
+      "url": "https://github.com/AndyShaman/premortem",
+      "branch": "main",
+      "stars": 24,
+      "forks": 3,
+      "lastUpdated": "2026-05-09T09:24:06Z"
     },
     "inngest/inngest-skills": {
       "url": "https://github.com/inngest/inngest-skills",
@@ -28,6 +133,13 @@
       "forks": 4,
       "lastUpdated": "2026-04-22T07:43:52Z"
     },
+    "floodsung/floodsung-skill": {
+      "url": "https://github.com/floodsung/floodsung-skill",
+      "branch": "main",
+      "stars": 22,
+      "forks": 0,
+      "lastUpdated": "2026-04-21T13:56:37Z"
+    },
     "Bomx/qwoted-seo-backlinks-skill": {
       "url": "https://github.com/Bomx/qwoted-seo-backlinks-skill",
       "branch": "main",
@@ -35,33 +147,12 @@
       "forks": 4,
       "lastUpdated": "2026-05-02T11:05:28Z"
     },
-    "AndyShaman/premortem": {
-      "url": "https://github.com/AndyShaman/premortem",
-      "branch": "main",
-      "stars": 22,
-      "forks": 3,
-      "lastUpdated": "2026-05-09T09:24:06Z"
-    },
-    "motherduckdb/agent-skills": {
-      "url": "https://github.com/motherduckdb/agent-skills",
-      "branch": "main",
-      "stars": 22,
-      "forks": 4,
-      "lastUpdated": "2026-05-13T18:06:44Z"
-    },
-    "rhysha/claude-security-research-skill": {
-      "url": "https://github.com/rhysha/claude-security-research-skill",
-      "branch": "master",
-      "stars": 21,
-      "forks": 2,
-      "lastUpdated": "2026-04-08T18:36:38Z"
-    },
-    "floodsung/floodsung-skill": {
-      "url": "https://github.com/floodsung/floodsung-skill",
+    "meshy-dev/meshy-3d-agent": {
+      "url": "https://github.com/meshy-dev/meshy-3d-agent",
       "branch": "main",
       "stars": 21,
-      "forks": 0,
-      "lastUpdated": "2026-04-21T13:56:37Z"
+      "forks": 6,
+      "lastUpdated": "2026-05-09T03:16:20Z"
     },
     "girijashankarj/cursor-handbook": {
       "url": "https://github.com/girijashankarj/cursor-handbook",
@@ -70,67 +161,39 @@
       "forks": 3,
       "lastUpdated": "2026-04-25T14:49:59Z"
     },
-    "meshy-dev/meshy-3d-agent": {
-      "url": "https://github.com/meshy-dev/meshy-3d-agent",
-      "branch": "main",
-      "stars": 20,
-      "forks": 6,
-      "lastUpdated": "2026-05-09T03:16:20Z"
-    },
     "LessUp/cursor-rules": {
       "url": "https://github.com/LessUp/cursor-rules",
       "branch": "master",
       "stars": 20,
       "forks": 3,
-      "lastUpdated": "2026-05-16T09:44:23Z"
-    },
-    "zouchenzhen/docx-template-translator-skill": {
-      "url": "https://github.com/zouchenzhen/docx-template-translator-skill",
-      "branch": "main",
-      "stars": 20,
-      "forks": 3,
-      "lastUpdated": "2026-05-12T17:32:07Z"
-    },
-    "greenstevester/fastlane-skill": {
-      "url": "https://github.com/greenstevester/fastlane-skill",
-      "branch": "main",
-      "stars": 20,
-      "forks": 3,
-      "lastUpdated": "2026-05-10T13:06:11Z"
-    },
-    "Farenhytee/database-sentinel": {
-      "url": "https://github.com/Farenhytee/database-sentinel",
-      "branch": "main",
-      "stars": 20,
-      "forks": 3,
-      "lastUpdated": "2026-04-30T08:42:55Z"
+      "lastUpdated": "2026-05-19T02:10:22Z"
     },
     "VirtusLab-Open-Source/astro-strapi-blocks": {
       "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-blocks",
       "branch": "main",
       "stars": 19,
       "forks": 2,
-      "lastUpdated": "2026-05-13T20:33:36Z"
+      "lastUpdated": "2026-05-18T17:13:27Z"
     },
     "h4vzz/awesome-ai-agent-skills": {
       "url": "https://github.com/h4vzz/awesome-ai-agent-skills",
       "branch": "main",
       "stars": 17,
       "forks": 5,
-      "lastUpdated": "2026-05-17T20:20:28Z"
+      "lastUpdated": "2026-05-20T01:19:21Z"
     },
     "VirtusLab-Open-Source/astro-strapi-loader": {
       "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-loader",
       "branch": "main",
       "stars": 17,
       "forks": 2,
-      "lastUpdated": "2026-05-14T21:34:16Z"
+      "lastUpdated": "2026-05-18T17:12:24Z"
     },
     "hoavdc/CodexKit": {
       "url": "https://github.com/hoavdc/CodexKit",
       "branch": "main",
       "stars": 17,
-      "forks": 9,
+      "forks": 10,
       "lastUpdated": "2026-05-15T15:10:48Z"
     },
     "ChenXi-hub/tju-thesis-review-kit": {
@@ -139,6 +202,13 @@
       "stars": 16,
       "forks": 2,
       "lastUpdated": "2026-05-08T07:40:56Z"
+    },
+    "QZhang2111/Research-Pilot": {
+      "url": "https://github.com/QZhang2111/Research-Pilot",
+      "branch": "main",
+      "stars": 16,
+      "forks": 1,
+      "lastUpdated": "2026-05-15T06:56:28Z"
     },
     "chriskd/memex-kb": {
       "url": "https://github.com/chriskd/memex-kb",
@@ -154,19 +224,12 @@
       "forks": 1,
       "lastUpdated": "2026-04-14T08:42:53Z"
     },
-    "QZhang2111/Research-Pilot": {
-      "url": "https://github.com/QZhang2111/Research-Pilot",
-      "branch": "main",
-      "stars": 14,
-      "forks": 1,
-      "lastUpdated": "2026-05-15T06:56:28Z"
-    },
     "alexander-danilenko/cortex-ai-skills": {
       "url": "https://github.com/alexander-danilenko/cortex-ai-skills",
       "branch": "main",
       "stars": 13,
       "forks": 0,
-      "lastUpdated": "2026-05-06T10:37:30Z"
+      "lastUpdated": "2026-05-19T11:27:31Z"
     },
     "VirtusLab-Open-Source/astro-strapi-starter": {
       "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-starter",
@@ -196,12 +259,26 @@
       "forks": 4,
       "lastUpdated": "2026-04-08T15:46:52Z"
     },
+    "antonbabenko/agent-plugins": {
+      "url": "https://github.com/antonbabenko/agent-plugins",
+      "branch": "master",
+      "stars": 12,
+      "forks": 0,
+      "lastUpdated": "2026-05-19T17:47:19Z"
+    },
     "galyarderlabs/galyarder-framework": {
       "url": "https://github.com/galyarderlabs/galyarder-framework",
       "branch": "main",
       "stars": 11,
       "forks": 2,
-      "lastUpdated": "2026-05-17T20:44:45Z"
+      "lastUpdated": "2026-05-19T20:52:57Z"
+    },
+    "Dkm0315/frappe-agent": {
+      "url": "https://github.com/Dkm0315/frappe-agent",
+      "branch": "main",
+      "stars": 11,
+      "forks": 1,
+      "lastUpdated": "2026-05-17T12:20:19Z"
     },
     "th3vib3coder/vibe-science": {
       "url": "https://github.com/th3vib3coder/vibe-science",
@@ -222,14 +299,21 @@
       "branch": "main",
       "stars": 11,
       "forks": 1,
-      "lastUpdated": "2026-05-07T15:34:16Z"
+      "lastUpdated": "2026-05-19T20:50:20Z"
     },
     "martysama0134/m2ui-skill": {
       "url": "https://github.com/martysama0134/m2ui-skill",
       "branch": "main",
       "stars": 10,
-      "forks": 3,
+      "forks": 4,
       "lastUpdated": "2026-05-11T17:59:53Z"
+    },
+    "agentkit-seo/agentkit-seo": {
+      "url": "https://github.com/agentkit-seo/agentkit-seo",
+      "branch": "main",
+      "stars": 10,
+      "forks": 0,
+      "lastUpdated": "2026-05-19T14:57:36Z"
     },
     "composio-community/support-skills": {
       "url": "https://github.com/composio-community/support-skills",
@@ -243,7 +327,7 @@
       "branch": "main",
       "stars": 10,
       "forks": 0,
-      "lastUpdated": "2026-05-16T02:33:03Z"
+      "lastUpdated": "2026-05-20T01:07:55Z"
     },
     "jrswab/slipbot": {
       "url": "https://github.com/jrswab/slipbot",
@@ -469,15 +553,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "madebyaris/advance-minimax-m2-cursor-rules": {
-      "url": "https://github.com/madebyaris/advance-minimax-m2-cursor-rules",
+    "axiaoge2/Apple-Hig-Designer": {
+      "url": "https://github.com/axiaoge2/Apple-Hig-Designer",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "axiaoge2/Apple-Hig-Designer": {
-      "url": "https://github.com/axiaoge2/Apple-Hig-Designer",
+    "madebyaris/advance-minimax-m2-cursor-rules": {
+      "url": "https://github.com/madebyaris/advance-minimax-m2-cursor-rules",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -546,13 +630,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "snakeying/Textum": {
-      "url": "https://github.com/snakeying/Textum",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "a-pavithraa/springboot-skills-marketplace": {
       "url": "https://github.com/a-pavithraa/springboot-skills-marketplace",
       "branch": "main",
@@ -560,8 +637,8 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "chrisvoncsefalvay/autostar": {
-      "url": "https://github.com/chrisvoncsefalvay/autostar",
+    "snakeying/Textum": {
+      "url": "https://github.com/snakeying/Textum",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -569,6 +646,13 @@
     },
     "VapiAI/skills": {
       "url": "https://github.com/VapiAI/skills",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
+    "chrisvoncsefalvay/autostar": {
+      "url": "https://github.com/chrisvoncsefalvay/autostar",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -609,6 +693,13 @@
       "forks": 0,
       "lastUpdated": null
     },
+    "brettdavies/crawl4ai-skill": {
+      "url": "https://github.com/brettdavies/crawl4ai-skill",
+      "branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": null
+    },
     "Shelpuk-AI-Technology-Consulting/agent-skill-tdd": {
       "url": "https://github.com/Shelpuk-AI-Technology-Consulting/agent-skill-tdd",
       "branch": "main",
@@ -637,20 +728,6 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "stevembarclay/pencilplaybook": {
-      "url": "https://github.com/stevembarclay/pencilplaybook",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
-    "IJONIS/geo-lint": {
-      "url": "https://github.com/IJONIS/geo-lint",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
-    },
     "ITlearning/study-ios": {
       "url": "https://github.com/ITlearning/study-ios",
       "branch": "main",
@@ -671,16 +748,620 @@
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
-    },
-    "sacredvoid/skillkit": {
-      "url": "https://github.com/sacredvoid/skillkit",
-      "branch": "main",
-      "stars": 0,
-      "forks": 0,
-      "lastUpdated": null
     }
   },
   "skills": [
+    {
+      "id": "ssdeanx/AgentStack/.agent/skills/mastra",
+      "name": "mastra",
+      "description": "Comprehensive Mastra framework guide. Teaches how to find current documentation, verify API signatures, and build agents and workflows. Covers documentation lookup strategies (embedded docs, remote docs), core concepts (agents vs workflows, tools, memory, RAG), TypeScript requirements, and common patterns. Use this skill for all Mastra development to ensure you're using current APIs from the installed version or latest documentation.",
+      "categories": ["Development", "Writing", "Business", "AI & ML"],
+      "author": "ssdeanx",
+      "repo": "ssdeanx/AgentStack",
+      "path": ".agent/skills/mastra",
+      "commitHash": "0243bdbb7ffc",
+      "files": [
+        "SKILL.md",
+        "references/common-errors.md",
+        "references/create-mastra.md",
+        "references/embedded-docs.md",
+        "references/migration-guide.md",
+        "references/remote-docs.md"
+      ]
+    },
+    {
+      "id": "ssdeanx/AgentStack/src/mastra/public/workspace/skills/next-best-practices",
+      "name": "next-best-practices",
+      "description": "Next.js best practices - file conventions, RSC boundaries, data patterns, async APIs, metadata, error handling, route handlers, image/font optimization, bundling",
+      "categories": ["Development", "Design"],
+      "author": "ssdeanx",
+      "repo": "ssdeanx/AgentStack",
+      "path": "src/mastra/public/workspace/skills/next-best-practices",
+      "commitHash": "0243bdbb7ffc",
+      "files": [
+        "SKILL.md",
+        "async-patterns.md",
+        "bundling.md",
+        "data-patterns.md",
+        "debug-tricks.md",
+        "directives.md",
+        "error-handling.md",
+        "file-conventions.md",
+        "font.md",
+        "functions.md",
+        "hydration-error.md",
+        "image.md",
+        "metadata.md",
+        "parallel-routes.md",
+        "route-handlers.md",
+        "rsc-boundaries.md",
+        "runtime-selection.md",
+        "scripts.md",
+        "self-hosting.md",
+        "suspense-boundaries.md"
+      ]
+    },
+    {
+      "id": "ssdeanx/AgentStack/.github/skills/better-auth-security-best-practices",
+      "name": "better-auth-security-best-practices",
+      "description": "Configure rate limiting, manage auth secrets, set up CSRF protection, define trusted origins, secure sessions and cookies, encrypt OAuth tokens, track IP addresses, and implement audit logging for Better Auth. Use when users need to secure their auth setup, prevent brute force attacks, or harden a Better Auth deployment.",
+      "categories": ["DevOps", "Security", "Productivity", "Finance"],
+      "author": "ssdeanx",
+      "repo": "ssdeanx/AgentStack",
+      "path": ".github/skills/better-auth-security-best-practices",
+      "commitHash": "0243bdbb7ffc",
+      "files": ["SKILL.MD"]
+    },
+    {
+      "id": "ssdeanx/AgentStack/.github/skills/gemini",
+      "name": "gemini",
+      "description": "Execute Gemini CLI for AI-powered code analysis and generation. Use when you need to leverage Google's Gemini models for complex reasoning tasks.",
+      "categories": ["AI & ML"],
+      "author": "ssdeanx",
+      "repo": "ssdeanx/AgentStack",
+      "path": ".github/skills/gemini",
+      "commitHash": "0243bdbb7ffc",
+      "files": ["SKILL.md", "scripts/gemini.py"]
+    },
+    {
+      "id": "ssdeanx/AgentStack/.github/skills/browser",
+      "name": "browser",
+      "description": "This skill should be used for browser automation tasks using Chrome DevTools Protocol (CDP). Triggers when users need to launch Chrome with remote debugging, navigate pages, execute JavaScript in browser context, capture screenshots, or interactively select DOM elements. No MCP server required.",
+      "categories": ["Development", "Productivity"],
+      "author": "ssdeanx",
+      "repo": "ssdeanx/AgentStack",
+      "path": ".github/skills/browser",
+      "commitHash": "0243bdbb7ffc",
+      "files": [
+        "SKILL.md",
+        "browser.zip",
+        "package-lock.json",
+        "package.json",
+        "scripts/eval.cjs",
+        "scripts/nav.cjs",
+        "scripts/pick.cjs",
+        "scripts/screenshot.cjs",
+        "scripts/start.cjs"
+      ]
+    },
+    {
+      "id": "ssdeanx/AgentStack/.github/skills/better-auth-best-practices",
+      "name": "better-auth-best-practices",
+      "description": "Configure Better Auth server and client, set up database adapters, manage sessions, add plugins, and handle environment variables. Use when users mention Better Auth, betterauth, auth.ts, or need to set up TypeScript authentication with email/password, OAuth, or plugin configuration.",
+      "categories": ["Security", "Productivity", "Data & Analytics"],
+      "author": "ssdeanx",
+      "repo": "ssdeanx/AgentStack",
+      "path": ".github/skills/better-auth-best-practices",
+      "commitHash": "0243bdbb7ffc",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ssdeanx/AgentStack/.github/skills/product-requirements",
+      "name": "product-requirements",
+      "description": "Interactive Product Owner skill for requirements gathering, analysis, and PRD generation. Triggers when users request product requirements, feature specification, PRD creation, or need help understanding and documenting project requirements. Uses quality scoring and iterative dialogue to ensure comprehensive requirements before generating professional PRD documents.",
+      "categories": ["Other"],
+      "author": "ssdeanx",
+      "repo": "ssdeanx/AgentStack",
+      "path": ".github/skills/product-requirements",
+      "commitHash": "0243bdbb7ffc",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ssdeanx/AgentStack/.github/skills/organization-best-practices",
+      "name": "organization-best-practices",
+      "description": "Configure multi-tenant organizations, manage members and invitations, define custom roles and permissions, set up teams, and implement RBAC using Better Auth's organization plugin. Use when users need org setup, team management, member roles, access control, or the Better Auth organization plugin.",
+      "categories": ["Productivity"],
+      "author": "ssdeanx",
+      "repo": "ssdeanx/AgentStack",
+      "path": ".github/skills/organization-best-practices",
+      "commitHash": "0243bdbb7ffc",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ssdeanx/AgentStack/.github/skills/email-and-password-best-practices",
+      "name": "email-and-password-best-practices",
+      "description": "Configure email verification, implement password reset flows, set password policies, and customise hashing algorithms for Better Auth email/password authentication. Use when users need to set up login, sign-in, sign-up, credential authentication, or password security with Better Auth.",
+      "categories": ["Security"],
+      "author": "ssdeanx",
+      "repo": "ssdeanx/AgentStack",
+      "path": ".github/skills/email-and-password-best-practices",
+      "commitHash": "0243bdbb7ffc",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ssdeanx/AgentStack/.github/skills/two-factor-authentication-best-practices",
+      "name": "two-factor-authentication-best-practices",
+      "description": "Configure TOTP authenticator apps, send OTP codes via email/SMS, manage backup codes, handle trusted devices, and implement 2FA sign-in flows using Better Auth's twoFactor plugin. Use when users need MFA, multi-factor authentication, authenticator setup, or login security with Better Auth.",
+      "categories": ["Development", "Security", "Productivity"],
+      "author": "ssdeanx",
+      "repo": "ssdeanx/AgentStack",
+      "path": ".github/skills/two-factor-authentication-best-practices",
+      "commitHash": "0243bdbb7ffc",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ssdeanx/AgentStack/.github/skills/create-auth-skill",
+      "name": "create-auth-skill",
+      "description": "Scaffold and implement authentication in TypeScript/JavaScript apps using Better Auth. Detect frameworks, configure database adapters, set up route handlers, add OAuth providers, and create auth UI pages. Use when users want to add login, sign-up, or authentication to a new or existing project with Better Auth.",
+      "categories": ["Development", "Security", "Productivity", "Data & Analytics", "Business"],
+      "author": "ssdeanx",
+      "repo": "ssdeanx/AgentStack",
+      "path": ".github/skills/create-auth-skill",
+      "commitHash": "0243bdbb7ffc",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ssdeanx/AgentStack/.github/skills/test-cases",
+      "name": "test-cases",
+      "description": "This skill should be used when generating comprehensive test cases from PRD documents or user requirements. Triggers when users request test case generation, QA planning, test scenario creation, or need structured test documentation. Produces detailed test cases covering functional, edge case, error handling, and state transition scenarios.",
+      "categories": ["Other"],
+      "author": "ssdeanx",
+      "repo": "ssdeanx/AgentStack",
+      "path": ".github/skills/test-cases",
+      "commitHash": "0243bdbb7ffc",
+      "files": ["SKILL.md", "references/testing-principles.md"]
+    },
+    {
+      "id": "Prismer-AI/signet/plugins/claude-code/skills/signet",
+      "name": "signet",
+      "description": "Cryptographic signing for every tool call with Ed25519 audit trail",
+      "categories": ["Other"],
+      "author": "Prismer-AI",
+      "repo": "Prismer-AI/signet",
+      "path": "plugins/claude-code/skills/signet",
+      "commitHash": "1e3b34f218dd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "SimonTheSalesBooster/ClaudeSkills-SprintClub/sales-closer",
+      "name": "sales-closer",
+      "description": "Use when the user needs to finalize a deal, handle tough objections, or create a \"Mutual Action Plan\" to close a sale.",
+      "categories": ["Other"],
+      "author": "SimonTheSalesBooster",
+      "repo": "SimonTheSalesBooster/ClaudeSkills-SprintClub",
+      "path": "sales-closer",
+      "commitHash": "fa921b6d3e2a",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "akseolabs-seo/cinematic-ui",
+      "name": "cinematic-ui",
+      "description": "Design and build websites with film-inspired visual systems, director-driven art direction, storyboard-first layout planning, and cinematic motion. Use when the user asks for a cinematic site, movie-style landing page, director-inspired UI, film-noir, sci-fi, romance, thriller, action, animation, or a movie-like website aesthetic, including requests phrased in Chinese. Do not use for generic web design unless the user explicitly wants a film or director reference.",
+      "categories": ["Design", "Research"],
+      "author": "akseolabs-seo",
+      "repo": "akseolabs-seo/cinematic-ui",
+      "path": "",
+      "commitHash": "24a66c1d6140",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Aboudjem/humanizer-skill/skills/humanizer",
+      "name": "humanizer",
+      "description": "Detects 43 AI writing patterns and rewrites text in 5 voice profiles. Use when (1) AI text reads like a chatbot, (2) preparing content for publication, (3) auditing prose for AI tells, (4) editing a file in place. Outputs a 0-100 AI-tell score on demand. Pure Markdown, zero dependencies, no network calls.",
+      "categories": ["Writing", "Documents", "AI & ML"],
+      "author": "Aboudjem",
+      "repo": "Aboudjem/humanizer-skill",
+      "path": "skills/humanizer",
+      "commitHash": "004db86aac6a",
+      "files": ["README.md", "SKILL.md"]
+    },
+    {
+      "id": "abualif120/manusiawi",
+      "name": "manusiawi",
+      "description": "Buang corak penulisan AI daripada teks Bahasa Melayu (Malaysia). Humanizer BM-first yang mengesan 'intrusion' Bahasa Indonesia. Strips AI writing patterns from Malaysian Bahasa Melayu text with active Indonesian vocabulary detection. Trigger on 'manusiawi', 'humanize BM', 'humanize Malay', 'betulkan BM', 'terlalu AI', 'remove AI pattern', 'tulis macam manusia', 'sound natural', 'nampak AI', 'bunyi AI', 'terlalu formal', 'bahasa pekeliling'. Detects 32 Malaysian BM patterns (era globalisasi openers, holistik/komprehensif vocabulary, telah di- passive overuse, adalah before adjectives, di mana as conjunction) and flags Indonesian intrusions (kantor/mobil/uang/kamu/banget/gue/dong). Preserves meaning and named entities. Based on Wikipedia's 'Signs of AI writing' and adapted from github.com/blader/humanizer. 24 English patterns for mixed BM-EN content.",
+      "categories": ["Development", "Writing"],
+      "author": "abualif120",
+      "repo": "abualif120/manusiawi",
+      "path": "",
+      "commitHash": "4cf334eb3741",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "prismatic-io/prismatic-skills/plugin/skills/prismatic-api",
+      "name": "prismatic-api",
+      "description": "Prismatic API access patterns and GraphQL reference. Covers the two-tier access hierarchy (MCP tools → Prism CLI), CLI usage rules, GraphQL query patterns, pagination, authentication, and managing platform resources programmatically.",
+      "categories": ["Development", "Security", "Data & Analytics", "Research"],
+      "author": "prismatic-io",
+      "repo": "prismatic-io/prismatic-skills",
+      "path": "plugin/skills/prismatic-api",
+      "commitHash": "b602370a9858",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "prismatic-io/prismatic-skills/plugin/skills/boomi-migration",
+      "name": "boomi-migration",
+      "description": "This skill should be used when the user needs to analyze a Dell Boomi export, parse Boomi Component XML files, migrate from Boomi to Prismatic, convert Boomi processes to CNI flows, map Boomi shapes to Prismatic equivalents, or interpret Boomi connector settings, transform maps, and process properties. Relevant when the user says \"analyze this Boomi export\", \"migrate from Boomi\", \"parse Boomi XML\", \"convert Boomi process to Prismatic\", or \"what does this Boomi shape map to\".\n",
+      "categories": ["Data & Analytics", "Documents"],
+      "author": "prismatic-io",
+      "repo": "prismatic-io/prismatic-skills",
+      "path": "plugin/skills/boomi-migration",
+      "commitHash": "b602370a9858",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "prismatic-io/prismatic-skills/plugin/skills/cyclr-migration",
+      "name": "cyclr-migration",
+      "description": "This skill should be used when the user needs to analyze a Cyclr export, parse Cyclr JSON files, migrate from Cyclr to Prismatic, convert Cyclr cycles to CNI flows, map Cyclr steps to Prismatic equivalents, or interpret Cyclr connector settings, field mappings, and cycle parameters. Relevant when the user says \"analyze Cyclr export\", \"migrate from Cyclr\", \"parse Cyclr JSON\", \"convert Cyclr cycle to Prismatic\", or \"what does this Cyclr step map to\".\n",
+      "categories": ["Data & Analytics", "Documents"],
+      "author": "prismatic-io",
+      "repo": "prismatic-io/prismatic-skills",
+      "path": "plugin/skills/cyclr-migration",
+      "commitHash": "b602370a9858",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "prismatic-io/prismatic-skills/plugin/skills/component-patterns",
+      "name": "component-patterns",
+      "description": "Architecture patterns, code generation guides, and reference documentation for building Prismatic custom components.",
+      "categories": ["Development"],
+      "author": "prismatic-io",
+      "repo": "prismatic-io/prismatic-skills",
+      "path": "plugin/skills/component-patterns",
+      "commitHash": "b602370a9858",
+      "version": "2.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "prismatic-io/prismatic-skills/plugin/skills/prismatic-docs",
+      "name": "prismatic-docs",
+      "description": "This skill should be used when the user asks \"How do I...\", \"What is...\", \"How does X work in Prismatic?\", \"What's the best practice for...\", wants to understand Prismatic concepts, features, or architecture, or needs guidance on marketplace deployment, customer connections, embedded UI, config pages, triggers, or other Prismatic product features. Search and retrieve documentation from prismatic.io/docs and reference examples from github.com/prismatic-io/examples.",
+      "categories": ["Development", "DevOps", "Writing", "Integration", "Research"],
+      "author": "prismatic-io",
+      "repo": "prismatic-io/prismatic-skills",
+      "path": "plugin/skills/prismatic-docs",
+      "commitHash": "b602370a9858",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "prismatic-io/prismatic-skills/plugin/skills/embedded-patterns",
+      "name": "embedded-patterns",
+      "description": "Reference documentation for embedding Prismatic's integration marketplace and workflow builder in a web application. Covers JWT authentication, the embedded SDK, marketplace and workflow embedding, theming, i18n, additional screens, and custom marketplace UI. Use when the user asks about embedding Prismatic, JWT tokens for embedded apps, marketplace iframes, workflow builder integration, custom marketplace UI, or frontend SDK setup.",
+      "categories": ["Development", "Security", "Productivity", "Research", "Finance"],
+      "author": "prismatic-io",
+      "repo": "prismatic-io/prismatic-skills",
+      "path": "plugin/skills/embedded-patterns",
+      "commitHash": "b602370a9858",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "prismatic-io/prismatic-skills/plugin/skills/integration-patterns",
+      "name": "integration-patterns",
+      "description": "Architecture patterns, manifest usage, code generation guides, and reference documentation for building Prismatic Code Native Integrations.",
+      "categories": ["Development"],
+      "author": "prismatic-io",
+      "repo": "prismatic-io/prismatic-skills",
+      "path": "plugin/skills/integration-patterns",
+      "commitHash": "b602370a9858",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "prismatic-io/prismatic-skills/plugin/skills/migration-framework",
+      "name": "migration-framework",
+      "description": "Core knowledge for migrating integrations from other platforms (Boomi, Cyclr) to Prismatic Code Native Integrations. Provides the standard integration schema, schema-to-spec mapping, confidence scoring, and migration-aware code generation patterns. Use when the user says \"migrate\", \"convert from Boomi/Cyclr\", \"parse this export\".\n",
+      "categories": ["Development", "Data & Analytics", "Documents"],
+      "author": "prismatic-io",
+      "repo": "prismatic-io/prismatic-skills",
+      "path": "plugin/skills/migration-framework",
+      "commitHash": "b602370a9858",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "zouchenzhen/docx-template-translator-skill/skills/docx-template-translator",
+      "name": "docx-template-translator",
+      "description": "Adaptive conversion of LaTeX, PDF, or Markdown sources into a complete Word .docx that follows a user-supplied .docx template. Use when pandoc --reference-doc alone is not enough — for thesis, dissertation, report, or institutional Word formatting that needs cover pages, declarations, TOC, heading numbering, captions, three-line tables, equations, citations, and visual verification.",
+      "categories": ["Development", "Documents", "Research"],
+      "author": "zouchenzhen",
+      "repo": "zouchenzhen/docx-template-translator-skill",
+      "path": "skills/docx-template-translator",
+      "commitHash": "4510fcaa784c",
+      "files": ["SKILL.md", "agents", "presets", "references", "scripts"]
+    },
+    {
+      "id": "cyber-immortal/cyber-figures/aoye",
+      "name": "aoye-perspective",
+      "description": "月老鳌烨的婚恋咨询互动体验。基于409个视频、69万字语料深度蒸馏，\n提炼完整的连麦互动流程引擎、7条核心公理、6套方法论和精确的表达DNA。\n用途：以鳌烨的身份与用户做连麦式婚恋咨询，完成从信息采集到方案推荐的完整闭环。\n当用户提到「鳌烨」「月老」「连麦」「婚恋分析」「帮我看看条件」「打个分」时使用。\n即使用户只是说「用鳌烨的方式聊聊」「月老模式」「鳌烨上线」也应触发。\n",
+      "categories": ["Data & Analytics"],
+      "author": "cyber-immortal",
+      "repo": "cyber-immortal/cyber-figures",
+      "path": "aoye",
+      "commitHash": "3c2bd0c84470",
+      "files": [
+        "SKILL.md",
+        "character-deep-补充.md",
+        "deep-analysis.md",
+        "distillation-report.md",
+        "full-portrait.md",
+        "linguistic-dna.md",
+        "missed-quotes.md",
+        "raw",
+        "scoring-reactions.md",
+        "signature-phrases.md",
+        "title-analysis.md",
+        "topic-distribution.md"
+      ]
+    },
+    {
+      "id": "respira-press/agent-skills-wordpress/wordpress-mcp-dev",
+      "name": "wordpress-mcp-dev",
+      "description": "Build and maintain modern WordPress plugins and MCP servers, including hybrid WordPress+MCP products. Use when implementing plugin architecture (PHP, REST API, Gutenberg/admin/page-builder integrations), MCP tooling (TypeScript/Python, stdio/HTTP transport), security hardening, licensing/updates, and delivery workflows from scaffold to distribution.",
+      "categories": ["Development", "Productivity", "Integration"],
+      "author": "respira-press",
+      "repo": "respira-press/agent-skills-wordpress",
+      "path": "wordpress-mcp-dev",
+      "commitHash": "6c410f0ccbb3",
+      "files": ["SKILL.md", "agents/openai.yaml", "references/full-guide.md"]
+    },
+    {
+      "id": "respira-press/agent-skills-wordpress/skills/site-onboarding",
+      "name": "site-onboarding",
+      "description": "First-run onboarding for Respira MCP connections. Verifies connectivity, discovers site architecture, maps all available MCP tools, and produces a site briefing so the AI understands what it can do. Use when user says \"get started\", \"connect to my site\", \"what can you do\", or \"onboard\".",
+      "categories": ["Integration"],
+      "author": "respira-press",
+      "repo": "respira-press/agent-skills-wordpress",
+      "path": "skills/site-onboarding",
+      "commitHash": "6c410f0ccbb3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "respira-press/agent-skills-wordpress/skills/migrate-brizy-to-gutenberg",
+      "name": "migrate-brizy-to-gutenberg",
+      "description": "Full-site migration from Brizy Builder to the WordPress block editor (Gutenberg). Audits every Brizy-built page, maps components to native block equivalents, builds a migration plan for approval, and converts pages to native block markup via duplicates so the live site stays untouched. Use when user says \"migrate Brizy to Gutenberg\", \"switch from Brizy to blocks\", \"convert Brizy pages to the block editor\", or \"move from Brizy to native WordPress\".",
+      "categories": ["Development", "Documents"],
+      "author": "respira-press",
+      "repo": "respira-press/agent-skills-wordpress",
+      "path": "skills/migrate-brizy-to-gutenberg",
+      "commitHash": "6c410f0ccbb3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "respira-press/agent-skills-wordpress/skills/migrate-thrive-architect-to-gutenberg",
+      "name": "migrate-thrive-architect-to-gutenberg",
+      "description": "Full-site migration from Thrive Architect to the WordPress block editor (Gutenberg). Audits every Thrive page, maps elements to native block equivalents, builds a migration plan for approval, and converts pages to native block markup via duplicates so the live site stays untouched. Marketing-only Thrive components (Thrive Leads, Ultimatum, Quiz) are flagged for separate replacement. Use when user says \"migrate Thrive Architect to Gutenberg\", \"switch from Thrive to blocks\", or \"move from Thrive Architect to native WordPress\".",
+      "categories": ["Development", "Documents", "Marketing"],
+      "author": "respira-press",
+      "repo": "respira-press/agent-skills-wordpress",
+      "path": "skills/migrate-thrive-architect-to-gutenberg",
+      "commitHash": "6c410f0ccbb3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "respira-press/agent-skills-wordpress/skills/migrate-elementor-to-oxygen",
+      "name": "migrate-elementor-to-oxygen",
+      "description": "Converts Elementor-built WordPress pages to Oxygen Builder. Reads Elementor's JSON widget tree from post meta, maps each widget to its Oxygen component equivalent, generates a migration plan for approval, and writes Oxygen content to the target pages. Use when user says \"migrate Elementor to Oxygen\", \"switch from Elementor to Oxygen\", or \"rebuild Elementor pages in Oxygen's developer-oriented builder\".",
+      "categories": ["Development", "Writing", "Productivity", "Data & Analytics", "Documents"],
+      "author": "respira-press",
+      "repo": "respira-press/agent-skills-wordpress",
+      "path": "skills/migrate-elementor-to-oxygen",
+      "commitHash": "6c410f0ccbb3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "respira-press/agent-skills-wordpress/skills/migrate-elementor-to-breakdance",
+      "name": "migrate-elementor-to-breakdance",
+      "description": "Converts Elementor-built WordPress pages to Breakdance Builder. Reads Elementor's JSON widget tree from post meta, maps each widget to its Breakdance element equivalent, generates a migration plan for approval, and writes Breakdance content to the target pages. Use when user says \"migrate Elementor to Breakdance\", \"switch from Elementor to Breakdance\", or \"rebuild Elementor pages in Breakdance\".",
+      "categories": ["Writing", "Productivity", "Data & Analytics", "Documents"],
+      "author": "respira-press",
+      "repo": "respira-press/agent-skills-wordpress",
+      "path": "skills/migrate-elementor-to-breakdance",
+      "commitHash": "6c410f0ccbb3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "respira-press/agent-skills-wordpress/skills/migrate-oxygen-to-breakdance",
+      "name": "migrate-oxygen-to-breakdance",
+      "description": "Full-site migration from Oxygen Builder to Breakdance (same Soflyy lineage, smoothest possible builder swap). Audits every Oxygen page, maps components to Breakdance equivalents, builds a migration plan for approval, and converts pages via duplicates so the live site stays untouched. Use when user says \"migrate Oxygen to Breakdance\", \"switch from Oxygen to Breakdance\", or \"replace Oxygen with Breakdance\".",
+      "categories": ["Development"],
+      "author": "respira-press",
+      "repo": "respira-press/agent-skills-wordpress",
+      "path": "skills/migrate-oxygen-to-breakdance",
+      "commitHash": "6c410f0ccbb3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "respira-press/agent-skills-wordpress/skills/migrate-beaver-builder-to-bricks",
+      "name": "migrate-beaver-builder-to-bricks",
+      "description": "Full-site migration from Beaver Builder to Bricks Builder. Audits every Beaver Builder page, maps modules to Bricks equivalents, builds a migration plan for approval, and converts pages to Bricks JSON via duplicates so the live site stays untouched. Use when user says \"migrate Beaver Builder to Bricks\", \"switch from BB to Bricks\", \"convert Beaver Builder pages to Bricks\", or \"replace Beaver Builder with Bricks\".",
+      "categories": ["Data & Analytics"],
+      "author": "respira-press",
+      "repo": "respira-press/agent-skills-wordpress",
+      "path": "skills/migrate-beaver-builder-to-bricks",
+      "commitHash": "6c410f0ccbb3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "respira-press/agent-skills-wordpress/skills/migrate-elementor-to-bricks",
+      "name": "migrate-elementor-to-bricks",
+      "description": "Converts Elementor-built WordPress pages to Bricks Builder. Reads Elementor's JSON widget tree from post meta, maps each widget to its closest Bricks element equivalent, generates a migration plan for approval, and writes clean Bricks JSON to the target pages. Use when user says \"migrate Elementor to Bricks\", \"switch from Elementor to Bricks\", or \"rebuild Elementor pages in Bricks\".",
+      "categories": ["Writing", "Productivity", "Data & Analytics", "Documents"],
+      "author": "respira-press",
+      "repo": "respira-press/agent-skills-wordpress",
+      "path": "skills/migrate-elementor-to-bricks",
+      "commitHash": "6c410f0ccbb3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "respira-press/agent-skills-wordpress/skills/migrate-wpbakery-to-gutenberg",
+      "name": "migrate-wpbakery-to-gutenberg",
+      "description": "Converts WPBakery Page Builder (formerly Visual Composer) pages to native Gutenberg blocks. Parses WPBakery shortcodes from post_content, maps each element to its closest core block equivalent, generates a migration plan for approval, and writes clean block markup to the target pages. Use when user says \"migrate WPBakery to Gutenberg\", \"drop WPBakery for native blocks\", or \"modernize a legacy WPBakery WordPress site\".",
+      "categories": ["Development", "Design", "Writing", "Productivity", "Documents"],
+      "author": "respira-press",
+      "repo": "respira-press/agent-skills-wordpress",
+      "path": "skills/migrate-wpbakery-to-gutenberg",
+      "commitHash": "6c410f0ccbb3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "respira-press/agent-skills-wordpress/skills/content-portability",
+      "name": "content-portability",
+      "description": "Export WordPress pages, posts, and custom posts to portable local packages with builder data, media, and human-readable markdown. Import to another site with smart ID remapping. Auto-backup before AI edits. Use when user says \"export my site\", \"backup my pages\", \"migrate content\", \"download my content\", or \"content portability\".",
+      "categories": ["Design", "Writing", "Documents"],
+      "author": "respira-press",
+      "repo": "respira-press/agent-skills-wordpress",
+      "path": "skills/content-portability",
+      "commitHash": "6c410f0ccbb3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "respira-press/agent-skills-wordpress/skills/migrate-beaver-builder-to-gutenberg",
+      "name": "migrate-beaver-builder-to-gutenberg",
+      "description": "Full-site migration from Beaver Builder to the WordPress block editor (Gutenberg). Audits every Beaver Builder page, maps modules to native block equivalents, builds a migration plan for approval, and converts pages to native block markup via duplicates so the live site stays untouched. Use when user says \"migrate Beaver Builder to Gutenberg\", \"switch from Beaver Builder to blocks\", \"convert Beaver Builder pages to the block editor\", or \"move from Beaver Builder to native WordPress\".",
+      "categories": ["Documents"],
+      "author": "respira-press",
+      "repo": "respira-press/agent-skills-wordpress",
+      "path": "skills/migrate-beaver-builder-to-gutenberg",
+      "commitHash": "6c410f0ccbb3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "respira-press/agent-skills-wordpress/skills/migrate-visual-composer-to-gutenberg",
+      "name": "migrate-visual-composer-to-gutenberg",
+      "description": "Full-site migration from Visual Composer Website Builder (the modern VCV format) to the WordPress block editor (Gutenberg). Audits every VCV page, maps elements to native block equivalents, builds a migration plan for approval, and converts pages to native block markup via duplicates so the live site stays untouched. Use when user says \"migrate Visual Composer to Gutenberg\", \"switch from VCV to blocks\", or \"convert Visual Composer pages to the block editor\".",
+      "categories": ["Development", "Design", "Documents"],
+      "author": "respira-press",
+      "repo": "respira-press/agent-skills-wordpress",
+      "path": "skills/migrate-visual-composer-to-gutenberg",
+      "commitHash": "6c410f0ccbb3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "respira-press/agent-skills-wordpress/skills/migrate-oxygen-to-bricks",
+      "name": "migrate-oxygen-to-bricks",
+      "description": "Full-site migration from Oxygen Builder to Bricks (both modern, developer-oriented, near 1:1 mental model). Audits every Oxygen page, maps components to Bricks equivalents, builds a migration plan for approval, and converts pages to Bricks JSON via duplicates so the live site stays untouched. Use when user says \"migrate Oxygen to Bricks\", \"switch from Oxygen to Bricks\", or \"replace Oxygen with Bricks Builder\".",
+      "categories": ["Development", "Data & Analytics"],
+      "author": "respira-press",
+      "repo": "respira-press/agent-skills-wordpress",
+      "path": "skills/migrate-oxygen-to-bricks",
+      "commitHash": "6c410f0ccbb3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "respira-press/agent-skills-wordpress/skills/migrate-divi-to-gutenberg",
+      "name": "migrate-divi-to-gutenberg",
+      "description": "Converts Divi-built WordPress pages to native Gutenberg blocks. Parses Divi's shortcode tree from post_content, maps each module to its closest core block equivalent, generates a migration plan for approval, and writes clean block markup to the target pages. Use when user says \"migrate Divi to Gutenberg\", \"switch from Divi to native blocks\", \"remove Divi dependency\", or \"rebuild Divi pages in the block editor\".",
+      "categories": ["Development", "Writing", "Productivity", "Documents"],
+      "author": "respira-press",
+      "repo": "respira-press/agent-skills-wordpress",
+      "path": "skills/migrate-divi-to-gutenberg",
+      "commitHash": "6c410f0ccbb3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "respira-press/agent-skills-wordpress/skills/migrate-elementor-to-gutenberg",
+      "name": "migrate-elementor-to-gutenberg",
+      "description": "Converts Elementor-built WordPress pages to native Gutenberg blocks. Reads Elementor's JSON widget tree from post meta, maps each widget to its closest core block equivalent, generates a migration plan for approval, and writes clean block markup to the target pages. Use when user says \"migrate Elementor to Gutenberg\", \"drop Elementor\", \"switch to native blocks\", or \"rebuild Elementor pages in the block editor\".",
+      "categories": ["Writing", "Productivity", "Data & Analytics", "Documents"],
+      "author": "respira-press",
+      "repo": "respira-press/agent-skills-wordpress",
+      "path": "skills/migrate-elementor-to-gutenberg",
+      "commitHash": "6c410f0ccbb3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "respira-press/agent-skills-wordpress/skills/migrate-divi-to-breakdance",
+      "name": "migrate-divi-to-breakdance",
+      "description": "Converts Divi-built WordPress pages to Breakdance Builder. Parses Divi's shortcode tree from post_content, maps each module to its Breakdance element equivalent, generates a migration plan for approval, and writes Breakdance content to the target pages. Use when user says \"migrate Divi to Breakdance\", \"switch from Divi to Breakdance\", or \"rebuild Divi pages in Breakdance\".",
+      "categories": ["Development", "Writing", "Productivity", "Documents"],
+      "author": "respira-press",
+      "repo": "respira-press/agent-skills-wordpress",
+      "path": "skills/migrate-divi-to-breakdance",
+      "commitHash": "6c410f0ccbb3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "respira-press/agent-skills-wordpress/skills/migrate-divi-to-bricks",
+      "name": "migrate-divi-to-bricks",
+      "description": "Converts Divi-built WordPress pages to Bricks Builder. Parses Divi's shortcode tree from post_content, maps each module to its Bricks element equivalent, generates a migration plan for approval, and writes clean Bricks JSON to the target pages. Use when user says \"migrate Divi to Bricks\", \"replace Divi with Bricks\", \"switch from Divi to Bricks\", or \"rebuild Divi pages in Bricks\".",
+      "categories": ["Development", "Writing", "Productivity", "Data & Analytics", "Documents"],
+      "author": "respira-press",
+      "repo": "respira-press/agent-skills-wordpress",
+      "path": "skills/migrate-divi-to-bricks",
+      "commitHash": "6c410f0ccbb3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "respira-press/agent-skills-wordpress/skills/migrate-wpbakery-to-bricks",
+      "name": "migrate-wpbakery-to-bricks",
+      "description": "Converts WPBakery Page Builder pages (the legacy ThemeForest-bundled vc_* shortcode format) to Bricks Builder. Parses WPBakery shortcodes from post_content, maps each element to its Bricks equivalent, generates a migration plan for approval, and writes clean Bricks JSON to the target pages. Use when user says \"migrate WPBakery to Bricks\", \"modernize a WPBakery site with Bricks\", or \"switch from WPBakery to Bricks\".",
+      "categories": [
+        "Development",
+        "Design",
+        "Writing",
+        "Productivity",
+        "Data & Analytics",
+        "Documents"
+      ],
+      "author": "respira-press",
+      "repo": "respira-press/agent-skills-wordpress",
+      "path": "skills/migrate-wpbakery-to-bricks",
+      "commitHash": "6c410f0ccbb3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "powerofjinbo/phdtaketaketake",
+      "name": "phdtaketaketake",
+      "description": "Score a PhD applicant's profile and rank candidate advisors using a connection-first 4.0-scale scoring system. Best-supported for physics / HEP and materials science (MSE), with the scoring engine extensible to chemistry, biology, CS, math, EE, ChemE, earth science (each with field-specific caveats — see references/journal_tiers.md). Use when the user wants to evaluate their PhD application chances, find matching advisors at top US programs, score a CV for graduate school, or compare candidate professors. Also triggers when the user mentions phdtaketaketake or its connection-first philosophy of valuing advisor network over h-index.",
+      "categories": ["Design", "Business", "Research"],
+      "author": "powerofjinbo",
+      "repo": "powerofjinbo/phdtaketaketake",
+      "path": "",
+      "commitHash": "be742e673e65",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "omixam/pensamiento-critico/skills/pensamiento-critico",
+      "name": "pensamiento-critico",
+      "description": "Analiza textos aplicando pensamiento crítico — el marco de los 8 elementos del pensamiento y los estándares intelectuales universales de Richard Paul y Linda Elder — y detecta las falacias lógicas graves presentes. Úsala siempre que el usuario comparta un texto (pegado o en un archivo) y pida analizarlo críticamente, detectar falacias, evaluar argumentos, identificar sesgos, o preguntas como \"¿qué problemas tiene este argumento?\", \"¿es sólido este razonamiento?\", \"analiza esto\", \"dame una crítica\". También actívala cuando el usuario comparta un artículo de opinión, un post, un discurso, un ensayo o cualquier texto argumentativo y quiera evaluar su calidad argumentativa.",
+      "categories": ["Design", "Writing"],
+      "author": "omixam",
+      "repo": "omixam/pensamiento-critico",
+      "path": "skills/pensamiento-critico",
+      "commitHash": "0d93c7698be2",
+      "files": ["SKILL.md", "doc", "references"]
+    },
+    {
+      "id": "apurvrdx1/tagore",
+      "name": "tagore",
+      "description": "Write or rewrite prose so it sounds like a human wrote it — not a frontier\nmodel. Named in homage to Rabindranath Tagore, whose prose carried what\nfrontier models reach for and miss: a point of view, specificity over\nabstraction, and restraint over puffery. Merges two complementary approaches:\na 29-pattern catalog of AI tells (from humanizer) plus an 8-rule operating\nsystem with an 8-dimension scoring gate (extending stop-slop). Use when\ndrafting, editing, or reviewing any prose: essays, posts, docs, reports,\nemails. Detects and removes inflated symbolism, promotional language,\nsuperficial -ing analyses, vague attributions, em dash overuse, rule of\nthree, AI vocabulary, passive voice, negative parallelisms, filler phrases,\ninanimate-verb constructions, narrator-from-a-distance voice, and metronomic\nrhythm. Adds back the things AI writing usually lacks: point of view, stakes,\nspecificity, restraint, varied rhythm, and trust in the reader.\n",
+      "categories": ["Development", "Writing", "AI & ML", "Media"],
+      "author": "apurvrdx1",
+      "repo": "apurvrdx1/tagore",
+      "path": "",
+      "commitHash": "8e60af38dfc9",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
     {
       "id": "ahacker-1/cre-agent-skills/claude-code-plugins/cre-legal",
       "name": "cre-legal",
@@ -779,145 +1460,6 @@
       "path": "claude-code-plugins/cre-closing",
       "commitHash": "4df7a7b76001",
       "files": ["SKILL.md", "knowledge", "skills"]
-    },
-    {
-      "id": "Aboudjem/humanizer-skill/skills/humanizer",
-      "name": "humanizer",
-      "description": "Detects 43 AI writing patterns and rewrites text in 5 voice profiles. Use when (1) AI text reads like a chatbot, (2) preparing content for publication, (3) auditing prose for AI tells, (4) editing a file in place. Outputs a 0-100 AI-tell score on demand. Pure Markdown, zero dependencies, no network calls.",
-      "categories": ["Writing", "Documents", "AI & ML"],
-      "author": "Aboudjem",
-      "repo": "Aboudjem/humanizer-skill",
-      "path": "skills/humanizer",
-      "commitHash": "004db86aac6a",
-      "files": ["README.md", "SKILL.md"]
-    },
-    {
-      "id": "inngest/inngest-skills/skills/inngest-steps",
-      "name": "inngest-steps",
-      "description": "Use when implementing delays that must survive process restarts (e.g., 24-hour cart abandonment, scheduled follow-ups), waiting for human approval or external events with timeouts (review gates, webhook callbacks, async API completion), polling external services without losing state on crashes, calling other functions and awaiting their results, memoizing expensive operations so they don't re-run on retry, or running async work in parallel inside a workflow. Covers Inngest step methods: step.run, step.sleep, step.waitForEvent, step.waitForSignal, step.sendEvent, step.invoke, step.ai, plus patterns for loops and parallel execution.",
-      "categories": ["Development", "Productivity", "Integration", "Research"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-steps",
-      "commitHash": "c1996f94a1c3",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "inngest/inngest-skills/skills/inngest-setup",
-      "name": "inngest-setup",
-      "description": "Use when adding durable execution to a TypeScript project — building retry-safe webhook handlers, background jobs that survive crashes, scheduled tasks, or long-running workflows that outlive a single request. Covers Inngest SDK installation, client config, environment variables, serve endpoints (Next.js, Express, Hono, Fastify), connect-as-worker mode, and the local dev server.",
-      "categories": ["Development", "Productivity", "Integration"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-setup",
-      "commitHash": "c1996f94a1c3",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "inngest/inngest-skills/skills/inngest-events",
-      "name": "inngest-events",
-      "description": "Use when designing event-driven workflows, decoupling services, implementing fan-out patterns (one trigger, many downstream handlers), implementing idempotent event handling with IDs (24-hour dedupe window), or handling at-least-once delivery from external sources like Stripe webhooks. Covers Inngest event schema, payload format, naming conventions, IDs for idempotency, the ts param, fan-out patterns, and system events like inngest/function.failed.",
-      "categories": ["Development", "Integration", "Research"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-events",
-      "commitHash": "c1996f94a1c3",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "inngest/inngest-skills/skills/inngest-realtime",
-      "name": "inngest-realtime",
-      "description": "Use when streaming durable workflow updates to a UI in real time — live order status pages that animate as steps complete, AI agent token streaming from a function to the browser, log tailing for long-running jobs, or human-in-the-loop approval flows that publish a prompt and wait for a user reply. Covers Inngest v4 native realtime: defining typed channels, publishing from inside step.run, minting subscription tokens via server actions, and consuming the stream from React/Next.js client components.",
-      "categories": ["Development", "Productivity", "Finance", "AI & ML"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-realtime",
-      "commitHash": "c1996f94a1c3",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "inngest/inngest-skills/skills/inngest-middleware",
-      "name": "inngest-middleware",
-      "description": "Use when adding cross-cutting concerns to durable functions — structured logging or tracing across all functions, error tracking with Sentry, payload encryption for sensitive data, dependency injection of clients (DB, Stripe, etc.) into function handlers, custom telemetry, or behavior that should apply uniformly across many functions. Covers Inngest middleware lifecycle, creating custom middleware, dependencyInjectionMiddleware, @inngest/middleware-encryption, @inngest/middleware-sentry, and custom middleware patterns.",
-      "categories": ["Security", "Data & Analytics"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-middleware",
-      "commitHash": "c1996f94a1c3",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "inngest/inngest-skills/skills/inngest-flow-control",
-      "name": "inngest-flow-control",
-      "description": "Use when handling external API rate limits (e.g., OpenAI 429s, HubSpot or Stripe rate limits), preventing duplicate work from rapid event bursts (debouncing user actions), spreading load over time, ensuring per-tenant fairness, processing events in batches, limiting concurrent runs of the same operation, or assigning priority to important runs. Covers Inngest flow control: concurrency limits with keys, throttling, rate limiting, debounce, priority, singleton, and event batching.",
-      "categories": ["Integration", "AI & ML"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-flow-control",
-      "commitHash": "c1996f94a1c3",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "inngest/inngest-skills/skills/inngest-durable-functions",
-      "name": "inngest-durable-functions",
-      "description": "Use when building functions that must survive process crashes, retry automatically on failure, run on a schedule, react to events, or maintain state across infrastructure failures — e.g., webhook handlers that drop events, flaky cron jobs, background jobs that fail mid-execution, or workflows that need to resume where they left off. Covers Inngest function configuration, triggers (events, cron, invoke), step execution and memoization, idempotency, cancellation, error handling, retries, logging, and observability.",
-      "categories": ["Development", "DevOps", "Productivity"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-durable-functions",
-      "commitHash": "c1996f94a1c3",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "tomwong001/qingsheng-skill/skill",
-      "name": "qingsheng",
-      "description": "情圣 — 中文男性社交与恋爱私教（中文恋爱 AI · 恋爱话术生成器 · 微信聊天助手 · 高情商回复 · 情感咨询替代）。帮兄弟读懂女生发的消息、看懂聊天/朋友圈截图、判断对方是不是对自己有意思、想清楚下一步该回什么 / 该不该回 / 该怎么约。覆盖微信、探探、Soul、Bumble、青藤之恋、陌陌、Tinder 等平台，提供开场话术、暧昧期推进、约会邀约、冷启动挽回、朋友圈展示面诊断、PUA 课程替代方案、恋爱阶段判断、多目标档案管理。当用户问「她这话什么意思」「我该怎么回」「帮我看看这段聊天」「这截图你给我分析一下」「她对我有意思吗」「该约她了吗」「冷场了怎么破」「这条要不要回」「被已读不回怎么办」「朋友圈怎么评论」之类的问题时，务必使用本 skill。即使用户没明说「教练」「分析」也应触发——只要话题是和某个具体女生的互动就用。",
-      "categories": ["Data & Analytics"],
-      "author": "tomwong001",
-      "repo": "tomwong001/qingsheng-skill",
-      "path": "skill",
-      "commitHash": "ea23b10376b1",
-      "files": [
-        "SKILL.md",
-        "qingsheng-upgrade.md",
-        "references",
-        "展示面.md",
-        "急.md",
-        "挽回.md",
-        "换一个.md",
-        "自动.md"
-      ]
-    },
-    {
-      "id": "Bomx/qwoted-seo-backlinks-skill",
-      "name": "qwoted-seo-backlinks",
-      "description": "Automate Qwoted (HARO-style PR platform) end-to-end and earn high-DR\nbacklinks at scale: log in, set up the user's \"expert\" Source persona\n(bio + employer + contacts), search the Algolia-backed opportunity\nindex, RESEARCH and BUILD a sourced statistics page on the user's\ntopic (the linkable asset journalists love to cite), draft pitches\nas the user that link to that page, and submit them to journalists.\nUse this skill whenever the user asks for \"PR opportunities\",\n\"Qwoted opportunities\", \"press mentions\", \"journalist requests\",\n\"HARO replies\", \"media pitches\", \"podcast guesting\", \"expert quotes\",\n\"stats page for SEO\", \"research page for journalists\", or\n\"backlinks from journalists\".\n",
-      "categories": ["Design", "Research"],
-      "author": "Bomx",
-      "repo": "Bomx/qwoted-seo-backlinks-skill",
-      "path": "",
-      "commitHash": "3ef97c52e9f1",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "AndyShaman/premortem/premortem",
-      "name": "premortem",
-      "description": "Лёгкий советник «раздвигающий шторки» — premortem-сессия которая находит дыры в плане с разных углов, предлагает варианты решений по каждой и помогает юзеру быстро принять осознанные решения. История запусков сохраняется в ./docs/premortem/. Use when user types «премортем», «premortem», «найди дыры в плане», «посмотри со стороны на план», «what could kill this plan». Do NOT use for: vague ideas without a concrete plan; one-right-answer questions; creative editing of a draft; already-irreversible decisions.\n",
-      "categories": ["Writing"],
-      "author": "AndyShaman",
-      "repo": "AndyShaman/premortem",
-      "path": "premortem",
-      "commitHash": "1ded0f139404",
-      "files": [
-        "Makefile",
-        "SKILL.md",
-        "assets",
-        "evals",
-        "pytest.ini",
-        "references",
-        "scripts",
-        "tests"
-      ]
     },
     {
       "id": "motherduckdb/agent-skills/skills/motherduck-query",
@@ -1167,15 +1709,132 @@
       ]
     },
     {
-      "id": "rhysha/claude-security-research-skill",
-      "name": "security-research",
-      "description": "Full-spectrum security research skill for web servers, REST APIs, web applications, and network/port enumeration. Triggers whenever the user wants to: find vulnerabilities, run a security assessment, scan a target, test an API for security issues, enumerate ports or services, check for OWASP Top 10 vulnerabilities, audit auth/secrets, fuzz endpoints, run recon on a domain or IP, or use tools like nmap, nikto, nuclei, ZAP, sqlmap, ffuf, dalfox, subfinder, hydra, or trufflehog. Use this skill even if the user says \"just a quick scan\" or phrases it casually. Covers full engagement workflow: recon → enumeration → vuln scanning → vulnerability validation → reporting.\n",
-      "categories": ["Development", "Security", "Data & Analytics", "Research"],
-      "author": "rhysha",
-      "repo": "rhysha/claude-security-research-skill",
-      "path": "",
-      "commitHash": "ff3bc09a5e95",
+      "id": "MaxForAI/Tokenless/plugins/claude-code/skills/context-compression",
+      "name": "context-compression",
+      "description": "Use Tokenless for large files and noisy tool outputs before they enter context. Must be used when commands, Read output, diffs, logs, or search results are large.",
+      "categories": ["Documents"],
+      "author": "MaxForAI",
+      "repo": "MaxForAI/Tokenless",
+      "path": "plugins/claude-code/skills/context-compression",
+      "commitHash": "470fd29b8741",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "AndyShaman/premortem/premortem",
+      "name": "premortem",
+      "description": "Лёгкий советник «раздвигающий шторки» — premortem-сессия которая находит дыры в плане с разных углов, предлагает варианты решений по каждой и помогает юзеру быстро принять осознанные решения. История запусков сохраняется в ./docs/premortem/. Use when user types «премортем», «premortem», «найди дыры в плане», «посмотри со стороны на план», «what could kill this plan». Do NOT use for: vague ideas without a concrete plan; one-right-answer questions; creative editing of a draft; already-irreversible decisions.\n",
+      "categories": ["Writing"],
+      "author": "AndyShaman",
+      "repo": "AndyShaman/premortem",
+      "path": "premortem",
+      "commitHash": "1ded0f139404",
+      "files": [
+        "Makefile",
+        "SKILL.md",
+        "assets",
+        "evals",
+        "pytest.ini",
+        "references",
+        "scripts",
+        "tests"
+      ]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-steps",
+      "name": "inngest-steps",
+      "description": "Use when implementing delays that must survive process restarts (e.g., 24-hour cart abandonment, scheduled follow-ups), waiting for human approval or external events with timeouts (review gates, webhook callbacks, async API completion), polling external services without losing state on crashes, calling other functions and awaiting their results, memoizing expensive operations so they don't re-run on retry, or running async work in parallel inside a workflow. Covers Inngest step methods: step.run, step.sleep, step.waitForEvent, step.waitForSignal, step.sendEvent, step.invoke, step.ai, plus patterns for loops and parallel execution.",
+      "categories": ["Development", "Productivity", "Integration", "Research"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-steps",
+      "commitHash": "c1996f94a1c3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-setup",
+      "name": "inngest-setup",
+      "description": "Use when adding durable execution to a TypeScript project — building retry-safe webhook handlers, background jobs that survive crashes, scheduled tasks, or long-running workflows that outlive a single request. Covers Inngest SDK installation, client config, environment variables, serve endpoints (Next.js, Express, Hono, Fastify), connect-as-worker mode, and the local dev server.",
+      "categories": ["Development", "Productivity", "Integration"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-setup",
+      "commitHash": "c1996f94a1c3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-events",
+      "name": "inngest-events",
+      "description": "Use when designing event-driven workflows, decoupling services, implementing fan-out patterns (one trigger, many downstream handlers), implementing idempotent event handling with IDs (24-hour dedupe window), or handling at-least-once delivery from external sources like Stripe webhooks. Covers Inngest event schema, payload format, naming conventions, IDs for idempotency, the ts param, fan-out patterns, and system events like inngest/function.failed.",
+      "categories": ["Development", "Integration", "Research"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-events",
+      "commitHash": "c1996f94a1c3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-realtime",
+      "name": "inngest-realtime",
+      "description": "Use when streaming durable workflow updates to a UI in real time — live order status pages that animate as steps complete, AI agent token streaming from a function to the browser, log tailing for long-running jobs, or human-in-the-loop approval flows that publish a prompt and wait for a user reply. Covers Inngest v4 native realtime: defining typed channels, publishing from inside step.run, minting subscription tokens via server actions, and consuming the stream from React/Next.js client components.",
+      "categories": ["Development", "Productivity", "Finance", "AI & ML"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-realtime",
+      "commitHash": "c1996f94a1c3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-middleware",
+      "name": "inngest-middleware",
+      "description": "Use when adding cross-cutting concerns to durable functions — structured logging or tracing across all functions, error tracking with Sentry, payload encryption for sensitive data, dependency injection of clients (DB, Stripe, etc.) into function handlers, custom telemetry, or behavior that should apply uniformly across many functions. Covers Inngest middleware lifecycle, creating custom middleware, dependencyInjectionMiddleware, @inngest/middleware-encryption, @inngest/middleware-sentry, and custom middleware patterns.",
+      "categories": ["Security", "Data & Analytics"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-middleware",
+      "commitHash": "c1996f94a1c3",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-flow-control",
+      "name": "inngest-flow-control",
+      "description": "Use when handling external API rate limits (e.g., OpenAI 429s, HubSpot or Stripe rate limits), preventing duplicate work from rapid event bursts (debouncing user actions), spreading load over time, ensuring per-tenant fairness, processing events in batches, limiting concurrent runs of the same operation, or assigning priority to important runs. Covers Inngest flow control: concurrency limits with keys, throttling, rate limiting, debounce, priority, singleton, and event batching.",
+      "categories": ["Integration", "AI & ML"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-flow-control",
+      "commitHash": "c1996f94a1c3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-durable-functions",
+      "name": "inngest-durable-functions",
+      "description": "Use when building functions that must survive process crashes, retry automatically on failure, run on a schedule, react to events, or maintain state across infrastructure failures — e.g., webhook handlers that drop events, flaky cron jobs, background jobs that fail mid-execution, or workflows that need to resume where they left off. Covers Inngest function configuration, triggers (events, cron, invoke), step execution and memoization, idempotency, cancellation, error handling, retries, logging, and observability.",
+      "categories": ["Development", "DevOps", "Productivity"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-durable-functions",
+      "commitHash": "c1996f94a1c3",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "tomwong001/qingsheng-skill/skill",
+      "name": "qingsheng",
+      "description": "情圣 — 中文男性社交与恋爱私教（中文恋爱 AI · 恋爱话术生成器 · 微信聊天助手 · 高情商回复 · 情感咨询替代）。帮兄弟读懂女生发的消息、看懂聊天/朋友圈截图、判断对方是不是对自己有意思、想清楚下一步该回什么 / 该不该回 / 该怎么约。覆盖微信、探探、Soul、Bumble、青藤之恋、陌陌、Tinder 等平台，提供开场话术、暧昧期推进、约会邀约、冷启动挽回、朋友圈展示面诊断、PUA 课程替代方案、恋爱阶段判断、多目标档案管理。当用户问「她这话什么意思」「我该怎么回」「帮我看看这段聊天」「这截图你给我分析一下」「她对我有意思吗」「该约她了吗」「冷场了怎么破」「这条要不要回」「被已读不回怎么办」「朋友圈怎么评论」之类的问题时，务必使用本 skill。即使用户没明说「教练」「分析」也应触发——只要话题是和某个具体女生的互动就用。",
+      "categories": ["Data & Analytics"],
+      "author": "tomwong001",
+      "repo": "tomwong001/qingsheng-skill",
+      "path": "skill",
+      "commitHash": "ea23b10376b1",
+      "files": [
+        "SKILL.md",
+        "qingsheng-upgrade.md",
+        "references",
+        "展示面.md",
+        "急.md",
+        "挽回.md",
+        "换一个.md",
+        "自动.md"
+      ]
     },
     {
       "id": "floodsung/floodsung-skill",
@@ -1187,6 +1846,50 @@
       "path": "",
       "commitHash": "15b71c776926",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "Bomx/qwoted-seo-backlinks-skill",
+      "name": "qwoted-seo-backlinks",
+      "description": "Automate Qwoted (HARO-style PR platform) end-to-end and earn high-DR\nbacklinks at scale: log in, set up the user's \"expert\" Source persona\n(bio + employer + contacts), search the Algolia-backed opportunity\nindex, RESEARCH and BUILD a sourced statistics page on the user's\ntopic (the linkable asset journalists love to cite), draft pitches\nas the user that link to that page, and submit them to journalists.\nUse this skill whenever the user asks for \"PR opportunities\",\n\"Qwoted opportunities\", \"press mentions\", \"journalist requests\",\n\"HARO replies\", \"media pitches\", \"podcast guesting\", \"expert quotes\",\n\"stats page for SEO\", \"research page for journalists\", or\n\"backlinks from journalists\".\n",
+      "categories": ["Design", "Research"],
+      "author": "Bomx",
+      "repo": "Bomx/qwoted-seo-backlinks-skill",
+      "path": "",
+      "commitHash": "3ef97c52e9f1",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "meshy-dev/meshy-3d-agent/skills/meshy-openclaw",
+      "name": "meshy-3d-agent",
+      "description": "Generate 3D models, textures, images, rig characters, animate them, and prepare for 3D printing using the Meshy AI API. Handles API key detection, task creation, polling, downloading, and full 3D print pipeline with slicer integration. Use when the user asks to create 3D models, convert text/images to 3D, texture models, rig or animate characters, 3D print a model, or interact with the Meshy API.",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "meshy-dev",
+      "repo": "meshy-dev/meshy-3d-agent",
+      "path": "skills/meshy-openclaw",
+      "commitHash": "c77de150b6c9",
+      "files": ["SKILL.md", "reference.md"]
+    },
+    {
+      "id": "meshy-dev/meshy-3d-agent/skills/meshy-3d-printing",
+      "name": "meshy-3d-printing",
+      "description": "3D print models generated with Meshy AI. Handles slicer detection, white model printing, multi-color printing via API, and print-optimized download workflows. Use when the user mentions 3D printing, slicing, Bambu, OrcaSlicer, Prusa, Cura, Creality Print, Elegoo, Anycubic, multicolor, multi-color, 3mf, or wants to print a figurine, miniature, or physical model.",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "meshy-dev",
+      "repo": "meshy-dev/meshy-3d-agent",
+      "path": "skills/meshy-3d-printing",
+      "commitHash": "c77de150b6c9",
+      "files": ["SKILL.md", "reference.md"]
+    },
+    {
+      "id": "meshy-dev/meshy-3d-agent/skills/meshy-3d-generation",
+      "name": "meshy-3d-generation",
+      "description": "Generate 3D models, textures, images, rig characters, and animate them using the Meshy AI API. Handles API key detection, setup, and all generation workflows via direct HTTP calls. Use when the user asks to create 3D models, convert text/images to 3D, texture models, rig or animate characters, or interact with the Meshy API.",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "meshy-dev",
+      "repo": "meshy-dev/meshy-3d-agent",
+      "path": "skills/meshy-3d-generation",
+      "commitHash": "c77de150b6c9",
+      "files": ["SKILL.md", "reference.md"]
     },
     {
       "id": "girijashankarj/cursor-handbook/.cursor/skills/devops/ci-cd",
@@ -1739,39 +2442,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "meshy-dev/meshy-3d-agent/skills/meshy-openclaw",
-      "name": "meshy-3d-agent",
-      "description": "Generate 3D models, textures, images, rig characters, animate them, and prepare for 3D printing using the Meshy AI API. Handles API key detection, task creation, polling, downloading, and full 3D print pipeline with slicer integration. Use when the user asks to create 3D models, convert text/images to 3D, texture models, rig or animate characters, 3D print a model, or interact with the Meshy API.",
-      "categories": ["Productivity", "AI & ML"],
-      "author": "meshy-dev",
-      "repo": "meshy-dev/meshy-3d-agent",
-      "path": "skills/meshy-openclaw",
-      "commitHash": "c77de150b6c9",
-      "files": ["SKILL.md", "reference.md"]
-    },
-    {
-      "id": "meshy-dev/meshy-3d-agent/skills/meshy-3d-printing",
-      "name": "meshy-3d-printing",
-      "description": "3D print models generated with Meshy AI. Handles slicer detection, white model printing, multi-color printing via API, and print-optimized download workflows. Use when the user mentions 3D printing, slicing, Bambu, OrcaSlicer, Prusa, Cura, Creality Print, Elegoo, Anycubic, multicolor, multi-color, 3mf, or wants to print a figurine, miniature, or physical model.",
-      "categories": ["Productivity", "AI & ML"],
-      "author": "meshy-dev",
-      "repo": "meshy-dev/meshy-3d-agent",
-      "path": "skills/meshy-3d-printing",
-      "commitHash": "c77de150b6c9",
-      "files": ["SKILL.md", "reference.md"]
-    },
-    {
-      "id": "meshy-dev/meshy-3d-agent/skills/meshy-3d-generation",
-      "name": "meshy-3d-generation",
-      "description": "Generate 3D models, textures, images, rig characters, and animate them using the Meshy AI API. Handles API key detection, setup, and all generation workflows via direct HTTP calls. Use when the user asks to create 3D models, convert text/images to 3D, texture models, rig or animate characters, or interact with the Meshy API.",
-      "categories": ["Productivity", "AI & ML"],
-      "author": "meshy-dev",
-      "repo": "meshy-dev/meshy-3d-agent",
-      "path": "skills/meshy-3d-generation",
-      "commitHash": "c77de150b6c9",
-      "files": ["SKILL.md", "reference.md"]
-    },
-    {
       "id": "LessUp/cursor-rules/.claude/skills/rule-curation",
       "name": "rule-curation",
       "description": "Review or edit an MDC rule without drifting from the repository contract",
@@ -1779,102 +2449,7 @@
       "author": "LessUp",
       "repo": "LessUp/cursor-rules",
       "path": ".claude/skills/rule-curation",
-      "commitHash": "66b190a115a3",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "zouchenzhen/docx-template-translator-skill/skills/docx-template-translator",
-      "name": "docx-template-translator",
-      "description": "Adaptive conversion of LaTeX, PDF, or Markdown sources into a complete Word .docx that follows a user-supplied .docx template. Use when pandoc --reference-doc alone is not enough — for thesis, dissertation, report, or institutional Word formatting that needs cover pages, declarations, TOC, heading numbering, captions, three-line tables, equations, citations, and visual verification.",
-      "categories": ["Development", "Documents", "Research"],
-      "author": "zouchenzhen",
-      "repo": "zouchenzhen/docx-template-translator-skill",
-      "path": "skills/docx-template-translator",
-      "commitHash": "4510fcaa784c",
-      "files": ["SKILL.md", "agents", "presets", "references", "scripts"]
-    },
-    {
-      "id": "greenstevester/fastlane-skill/skills/beta",
-      "name": "beta",
-      "description": "Build and upload iOS app to TestFlight",
-      "categories": ["Development"],
-      "author": "greenstevester",
-      "repo": "greenstevester/fastlane-skill",
-      "path": "skills/beta",
-      "commitHash": "44ae40050e1b",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "greenstevester/fastlane-skill/skills/match",
-      "name": "match",
-      "description": "Set up Match for iOS code signing certificate management",
-      "categories": ["Other"],
-      "author": "greenstevester",
-      "repo": "greenstevester/fastlane-skill",
-      "path": "skills/match",
-      "commitHash": "44ae40050e1b",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "greenstevester/fastlane-skill/skills/snapshot",
-      "name": "snapshot",
-      "description": "Automate App Store screenshot capture across devices and languages",
-      "categories": ["Other"],
-      "author": "greenstevester",
-      "repo": "greenstevester/fastlane-skill",
-      "path": "skills/snapshot",
-      "commitHash": "44ae40050e1b",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "greenstevester/fastlane-skill/skills/setup-fastlane",
-      "name": "setup-fastlane",
-      "description": "Set up Fastlane for iOS/macOS app automation",
-      "categories": ["Productivity"],
-      "author": "greenstevester",
-      "repo": "greenstevester/fastlane-skill",
-      "path": "skills/setup-fastlane",
-      "commitHash": "44ae40050e1b",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "greenstevester/fastlane-skill/skills/release",
-      "name": "release",
-      "description": "Submit iOS app to App Store for review",
-      "categories": ["Other"],
-      "author": "greenstevester",
-      "repo": "greenstevester/fastlane-skill",
-      "path": "skills/release",
-      "commitHash": "44ae40050e1b",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Farenhytee/database-sentinel",
-      "name": "database-sentinel",
-      "description": "Multi-backend database security auditor. Audits Supabase, Firebase (Firestore/RTDB/Storage/Functions/Remote Config), MongoDB (self-hosted + Atlas), self-hosted PostgreSQL, and self-hosted MySQL for RLS/rules misconfigurations, exposed credentials, auth bypasses, MongoBleed (CVE-2025-14847), pgBouncer CVE-2025-12819, mysql_native_password drift, ghost auth, and storage exposures. Use this skill whenever the user mentions database security, RLS or rule audits, security review, penetration testing a vibe-coded app, checking if their DB is exposed, hardening a backend, fixing security rules, or auditing apps built with Lovable/Bolt/Replit/Cursor/Claude Code on any of these backends. Trigger on phrases like 'is my app secure', 'check my database', 'audit my Firebase', 'audit my MongoDB', 'audit my Postgres', 'audit my Supabase', 'is my DB exposed', or any cross-backend variant ('audit my full stack').",
-      "categories": ["Development", "Security", "Data & Analytics", "AI & ML"],
-      "author": "Farenhytee",
-      "repo": "Farenhytee/database-sentinel",
-      "path": "",
-      "commitHash": "3efafb9c87a2",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Farenhytee/database-sentinel/compat/supabase-sentinel",
-      "name": "supabase-sentinel",
-      "description": "Audit any Supabase project for security vulnerabilities, RLS misconfigurations, exposed API keys, auth bypasses, and storage issues. Use this skill whenever the user mentions Supabase security, RLS policies, database security audit, security review, penetration testing a Supabase app, checking if their database is exposed, hardening their Supabase project, fixing RLS, or anything related to securing a Supabase or vibe-coded application. Also trigger when the user asks about securing apps built with Lovable, Bolt, Replit, Cursor, or any AI coding tool that uses Supabase as a backend. Even if the user just says 'is my app secure' or 'check my database' and their project uses Supabase, use this skill. (DEPRECATED: this skill is a backwards-compat shim. Prefer the multi-backend `database-sentinel` skill, which covers Supabase plus Firebase, MongoDB, self-hosted Postgres, and self-hosted MySQL.)",
-      "categories": [
-        "Development",
-        "Security",
-        "Productivity",
-        "Data & Analytics",
-        "Business",
-        "AI & ML"
-      ],
-      "author": "Farenhytee",
-      "repo": "Farenhytee/database-sentinel",
-      "path": "compat/supabase-sentinel",
-      "commitHash": "3efafb9c87a2",
+      "commitHash": "5c64d3ea54ec",
       "files": ["SKILL.md"]
     },
     {
@@ -1896,7 +2471,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/security-audit",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -1907,7 +2482,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/refactoring",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -1918,7 +2493,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-ranking",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -1929,7 +2504,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-visualization",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -1940,7 +2515,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/meeting-transcription",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -1951,7 +2526,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-deployment",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -1962,7 +2537,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-analysis",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -1973,7 +2548,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/content-strategy",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -1984,7 +2559,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/proofreading",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -1995,7 +2570,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/summarization",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2006,7 +2581,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/report-generation",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2017,7 +2592,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/fact-checking",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2028,7 +2603,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/copywriting",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2039,7 +2614,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/docker-compose-setup",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2050,7 +2625,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-retrieval",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2061,7 +2636,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-compression",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2072,7 +2647,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/ml-pipeline-creation",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2083,7 +2658,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/keyword-research",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2094,7 +2669,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/graphql-api-design",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2105,7 +2680,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dynamic-application-security-testing",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2116,7 +2691,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-backup",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2127,7 +2702,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-cleaning",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2138,7 +2713,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/oauth-2-0-setup",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2149,7 +2724,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-injection",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2160,7 +2735,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/exploratory-data-analysis",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2171,7 +2746,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-optimization",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2182,7 +2757,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-seeding",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2193,7 +2768,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-design",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2204,7 +2779,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/ci-cd",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2215,7 +2790,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/threat-modeling",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2226,7 +2801,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/literature-review",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2237,7 +2812,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/chatbot-conversation-design",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2248,7 +2823,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/task-automation",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2259,7 +2834,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/cloud-monitoring",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2270,7 +2845,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/static-application-security-testing",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2281,7 +2856,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/code-documentation",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2292,7 +2867,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/query-optimization",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2303,7 +2878,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-schema-design",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2314,7 +2889,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/webhook-setup",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2325,7 +2900,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/seo-optimization",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2336,7 +2911,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/note-taking",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2347,7 +2922,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/blog-post-writing",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2358,7 +2933,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/hyperparameter-tuning",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2369,7 +2944,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/sql-query-generation",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2380,7 +2955,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dependency-scanning",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2391,7 +2966,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-training",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2402,7 +2977,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/version-control",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2413,7 +2988,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/technical-writing",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2424,7 +2999,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/social-media-posting",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2435,7 +3010,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/data-labeling",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2446,7 +3021,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/presentation-creation",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2457,7 +3032,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/analytics-reporting",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2468,7 +3043,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/translation",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2479,7 +3054,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/email-drafting",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2490,7 +3065,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-integration",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2501,7 +3076,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/knowledge-graph-creation",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2512,7 +3087,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/kubernetes-deployment",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2523,7 +3098,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/infrastructure-as-code",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2534,7 +3109,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-migration",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -2545,7 +3120,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/deep-research",
-      "commitHash": "0afd68409fe7",
+      "commitHash": "969f027872c0",
       "files": ["SKILL.md"]
     },
     {
@@ -3927,28 +4502,6 @@
       "files": ["SKILL.md", "examples.md", "review-checklist.md", "supervisor-requirements.md"]
     },
     {
-      "id": "chriskd/memex-kb/skills/memex-kb",
-      "name": "memex-kb",
-      "description": "Search, read, create, edit, and maintain knowledge in a Memex KB via the `mx` CLI. Use when the user asks to search the KB, find documentation, check project or organizational docs, add or update knowledge-base entries, audit KB quality, or when reusable knowledge should be captured for future agents.",
-      "categories": ["Writing", "Research", "AI & ML"],
-      "author": "chriskd",
-      "repo": "chriskd/memex-kb",
-      "path": "skills/memex-kb",
-      "commitHash": "7925738560fc",
-      "files": ["SKILL.md", "agents", "references"]
-    },
-    {
-      "id": "karad/seiro-mcp/skills/seiro-mcp-visionos-build-operator",
-      "name": "seiro-mcp-visionos-build-operator",
-      "description": "Build and diagnose visionOS projects with Seiro MCP. Use inspect_xcode_schemes (if needed) -> validate_sandbox_policy -> build_visionos_app -> inspect_build_diagnostics (on failure) -> fetch_build_output (on success), and avoid direct xcodebuild or swiftc unless the user explicitly asks for shell-level execution or MCP cannot handle the task.",
-      "categories": ["Development", "Productivity", "Business"],
-      "author": "karad",
-      "repo": "karad/seiro-mcp",
-      "path": "skills/seiro-mcp-visionos-build-operator",
-      "commitHash": "17a10db5af4d",
-      "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
       "id": "QZhang2111/Research-Pilot/skills/deep-read-to-delta",
       "name": "deep-read-to-delta",
       "description": "Use when a project-local paper dossier should produce graph delta JSON proposals and run through the human-gated delta loop.",
@@ -4070,6 +4623,28 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "chriskd/memex-kb/skills/memex-kb",
+      "name": "memex-kb",
+      "description": "Search, read, create, edit, and maintain knowledge in a Memex KB via the `mx` CLI. Use when the user asks to search the KB, find documentation, check project or organizational docs, add or update knowledge-base entries, audit KB quality, or when reusable knowledge should be captured for future agents.",
+      "categories": ["Writing", "Research", "AI & ML"],
+      "author": "chriskd",
+      "repo": "chriskd/memex-kb",
+      "path": "skills/memex-kb",
+      "commitHash": "7925738560fc",
+      "files": ["SKILL.md", "agents", "references"]
+    },
+    {
+      "id": "karad/seiro-mcp/skills/seiro-mcp-visionos-build-operator",
+      "name": "seiro-mcp-visionos-build-operator",
+      "description": "Build and diagnose visionOS projects with Seiro MCP. Use inspect_xcode_schemes (if needed) -> validate_sandbox_policy -> build_visionos_app -> inspect_build_diagnostics (on failure) -> fetch_build_output (on success), and avoid direct xcodebuild or swiftc unless the user explicitly asks for shell-level execution or MCP cannot handle the task.",
+      "categories": ["Development", "Productivity", "Business"],
+      "author": "karad",
+      "repo": "karad/seiro-mcp",
+      "path": "skills/seiro-mcp-visionos-build-operator",
+      "commitHash": "17a10db5af4d",
+      "files": ["SKILL.md", "agents", "assets"]
+    },
+    {
       "id": "alexander-danilenko/cortex-ai-skills/skills/react",
       "name": "react",
       "description": "Apply these opinionated React conventions when writing React 18+ or 19 components: hooks patterns, Server Components, Suspense boundaries, state management, performance memoization, React 19 features (use, form actions).",
@@ -4077,7 +4652,7 @@
       "author": "alexander-danilenko",
       "repo": "alexander-danilenko/cortex-ai-skills",
       "path": "skills/react",
-      "commitHash": "3ae45e691e56",
+      "commitHash": "f94a22a33883",
       "files": [
         "SKILL.md",
         "references/hooks-patterns.md",
@@ -4097,7 +4672,7 @@
       "author": "alexander-danilenko",
       "repo": "alexander-danilenko/cortex-ai-skills",
       "path": "skills/python",
-      "commitHash": "3ae45e691e56",
+      "commitHash": "f94a22a33883",
       "files": [
         "SKILL.md",
         "references/async-patterns.md",
@@ -4115,7 +4690,7 @@
       "author": "alexander-danilenko",
       "repo": "alexander-danilenko/cortex-ai-skills",
       "path": "skills/nestjs",
-      "commitHash": "3ae45e691e56",
+      "commitHash": "f94a22a33883",
       "files": [
         "SKILL.md",
         "references/authentication.md",
@@ -4134,7 +4709,7 @@
       "author": "alexander-danilenko",
       "repo": "alexander-danilenko/cortex-ai-skills",
       "path": "skills/csharp",
-      "commitHash": "3ae45e691e56",
+      "commitHash": "f94a22a33883",
       "files": [
         "SKILL.md",
         "references/aspnet-core.md",
@@ -4152,7 +4727,7 @@
       "author": "alexander-danilenko",
       "repo": "alexander-danilenko/cortex-ai-skills",
       "path": "skills/nextjs",
-      "commitHash": "3ae45e691e56",
+      "commitHash": "f94a22a33883",
       "files": [
         "SKILL.md",
         "references/app-router.md",
@@ -4170,7 +4745,7 @@
       "author": "alexander-danilenko",
       "repo": "alexander-danilenko/cortex-ai-skills",
       "path": "skills/testing",
-      "commitHash": "3ae45e691e56",
+      "commitHash": "f94a22a33883",
       "files": [
         "SKILL.md",
         "references/automation-frameworks.md",
@@ -4196,7 +4771,7 @@
       "author": "alexander-danilenko",
       "repo": "alexander-danilenko/cortex-ai-skills",
       "path": "skills/javascript",
-      "commitHash": "3ae45e691e56",
+      "commitHash": "f94a22a33883",
       "files": [
         "SKILL.md",
         "references/async-patterns.md",
@@ -4214,7 +4789,7 @@
       "author": "alexander-danilenko",
       "repo": "alexander-danilenko/cortex-ai-skills",
       "path": "skills/typescript",
-      "commitHash": "3ae45e691e56",
+      "commitHash": "f94a22a33883",
       "files": [
         "SKILL.md",
         "references/advanced-types.md",
@@ -4232,7 +4807,7 @@
       "author": "alexander-danilenko",
       "repo": "alexander-danilenko/cortex-ai-skills",
       "path": "skills/spec-mining",
-      "commitHash": "3ae45e691e56",
+      "commitHash": "f94a22a33883",
       "files": [
         "SKILL.md",
         "references/analysis-checklist.md",
@@ -4249,7 +4824,7 @@
       "author": "alexander-danilenko",
       "repo": "alexander-danilenko/cortex-ai-skills",
       "path": "skills/dotnet-core",
-      "commitHash": "3ae45e691e56",
+      "commitHash": "f94a22a33883",
       "files": [
         "SKILL.md",
         "references/authentication.md",
@@ -4267,7 +4842,7 @@
       "author": "alexander-danilenko",
       "repo": "alexander-danilenko/cortex-ai-skills",
       "path": "skills/humanize-text",
-      "commitHash": "3ae45e691e56",
+      "commitHash": "f94a22a33883",
       "files": ["SKILL.md"]
     },
     {
@@ -4278,7 +4853,7 @@
       "author": "alexander-danilenko",
       "repo": "alexander-danilenko/cortex-ai-skills",
       "path": "skills/documentation",
-      "commitHash": "3ae45e691e56",
+      "commitHash": "f94a22a33883",
       "files": [
         "SKILL.md",
         "references/api-docs-fastapi-django.md",
@@ -4299,7 +4874,7 @@
       "author": "alexander-danilenko",
       "repo": "alexander-danilenko/cortex-ai-skills",
       "path": "skills/jira-report-comment",
-      "commitHash": "3ae45e691e56",
+      "commitHash": "f94a22a33883",
       "files": ["SKILL.md", "references/formatting-rules.md", "references/report-template.md"]
     },
     {
@@ -4310,7 +4885,7 @@
       "author": "alexander-danilenko",
       "repo": "alexander-danilenko/cortex-ai-skills",
       "path": "skills/legacy-modernization",
-      "commitHash": "3ae45e691e56",
+      "commitHash": "f94a22a33883",
       "files": [
         "SKILL.md",
         "references/legacy-testing.md",
@@ -4402,6 +4977,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "antonbabenko/agent-plugins/plugins/code-intelligence/skills/code-intelligence",
+      "name": "code-intelligence",
+      "description": "Use when navigating or refactoring code with a language server - choosing between semantic (LSP), exact-text (rg), and fuzzy/semantic search; anchoring LSP calls by position; gating degraded results; and disclosing tool substitutions, in any language.",
+      "categories": ["Development"],
+      "author": "antonbabenko",
+      "repo": "antonbabenko/agent-plugins",
+      "path": "plugins/code-intelligence/skills/code-intelligence",
+      "commitHash": "2596ab68c34c",
+      "files": ["SKILL.md", "references"]
+    },
+    {
       "id": "galyarderlabs/galyarder-framework/skills/growth",
       "name": "growth",
       "description": "Consolidated Galyarder Framework Growth intelligence bundle.",
@@ -4411,6 +4997,17 @@
       "path": "skills/growth",
       "commitHash": "687a3620e84c",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "galyarderlabs/galyarder-framework/skills/json-canvas",
+      "name": "json-canvas",
+      "description": "Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.",
+      "categories": ["Design", "Data & Analytics"],
+      "author": "galyarderlabs",
+      "repo": "galyarderlabs/galyarder-framework",
+      "path": "skills/json-canvas",
+      "commitHash": "687a3620e84c",
+      "files": ["SKILL.md", "references/EXAMPLES.md"]
     },
     {
       "id": "galyarderlabs/galyarder-framework/skills/design-md-uber",
@@ -5248,6 +5845,105 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "Dkm0315/frappe-agent/skills/frappe-sql",
+      "name": "frappe-sql",
+      "description": "Frappe-native SQL and ORM guidance for `frappe.db`, Query Builder, `tab{DocType}` tables, permission-sensitive queries, and raw SQL review. Use when writing or reviewing database access in Frappe.",
+      "categories": ["Data & Analytics"],
+      "author": "Dkm0315",
+      "repo": "Dkm0315/frappe-agent",
+      "path": "skills/frappe-sql",
+      "commitHash": "bde1c55951c7",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Dkm0315/frappe-agent/skills/frappe-bench",
+      "name": "frappe-bench",
+      "description": "Bench-aware Frappe operations guidance for app installs, branch switching, updates, migrations, site inspection, ports, and process state. Use when a task involves bench commands or local environment operations.",
+      "categories": ["Other"],
+      "author": "Dkm0315",
+      "repo": "Dkm0315/frappe-agent",
+      "path": "skills/frappe-bench",
+      "commitHash": "bde1c55951c7",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Dkm0315/frappe-agent/skills/frappe-search",
+      "name": "frappe-search",
+      "description": "Frappe-specific search and discovery guidance for finding benches, apps, remotes, sites, ports, hooks, DocTypes, builder DocTypes, and frontend surfaces quickly. Use when the task starts with locating or classifying Frappe context.",
+      "categories": ["Development", "Design", "Research"],
+      "author": "Dkm0315",
+      "repo": "Dkm0315/frappe-agent",
+      "path": "skills/frappe-search",
+      "commitHash": "bde1c55951c7",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Dkm0315/frappe-agent/skills/frappe-backend",
+      "name": "frappe-backend",
+      "description": "Frappe backend guidance for Python and backend-adjacent JavaScript surfaces such as client interaction patterns, hooks, APIs, patches, scheduler logic, reports, and server-side review. Use when implementing or reviewing Frappe backend behavior.",
+      "categories": ["Development"],
+      "author": "Dkm0315",
+      "repo": "Dkm0315/frappe-agent",
+      "path": "skills/frappe-backend",
+      "commitHash": "bde1c55951c7",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Dkm0315/frappe-agent/skills/frappe-erpnext",
+      "name": "frappe-erpnext",
+      "description": "ERPNext-aware reasoning for module customization, workflows, reports, dashboards, workspaces, and choosing between configuration, metadata, and code changes. Use when a task affects ERPNext module behavior.",
+      "categories": ["Productivity", "Data & Analytics"],
+      "author": "Dkm0315",
+      "repo": "Dkm0315/frappe-agent",
+      "path": "skills/frappe-erpnext",
+      "commitHash": "bde1c55951c7",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Dkm0315/frappe-agent/skills/frappe-frontend",
+      "name": "frappe-frontend",
+      "description": "Frappe frontend guidance for Vue and React, including desk pages, `www` pages, `frappe-ui`, Doppio-style frontends, client scripts, and external SPA integrations. Use when building or reviewing Frappe UI work.",
+      "categories": ["Development", "Design", "Integration"],
+      "author": "Dkm0315",
+      "repo": "Dkm0315/frappe-agent",
+      "path": "skills/frappe-frontend",
+      "commitHash": "bde1c55951c7",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Dkm0315/frappe-agent/skills/frappe-fullstack",
+      "name": "frappe-fullstack",
+      "description": "End-to-end Frappe and ERPNext implementation guidance spanning backend Python, backend JavaScript surfaces, Vue or React frontends, customizations, and bench-aware delivery. Use when the task crosses multiple Frappe layers.",
+      "categories": ["Development"],
+      "author": "Dkm0315",
+      "repo": "Dkm0315/frappe-agent",
+      "path": "skills/frappe-fullstack",
+      "commitHash": "bde1c55951c7",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Dkm0315/frappe-agent/skills/frappe-customization",
+      "name": "frappe-customization",
+      "description": "Frappe customization-surface guidance covering Custom Field, Property Setter, Client Script, Server Script, Workspace, Web Page, Page, Print Format, Report, Dashboard, Workflow, Role, Notification, Webhook, and related builder/admin DocTypes. Use when choosing or changing Frappe customization layers.",
+      "categories": ["Development"],
+      "author": "Dkm0315",
+      "repo": "Dkm0315/frappe-agent",
+      "path": "skills/frappe-customization",
+      "commitHash": "bde1c55951c7",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Dkm0315/frappe-agent/skills/frappe-doctype-design",
+      "name": "frappe-doctype-design",
+      "description": "Frappe DocType creation and form UX guidance. Use when creating, reviewing, or redesigning DocTypes, including field choice, tabs, sections, columns, required fields, naming, child tables, and form usability.",
+      "categories": ["Design", "Documents"],
+      "author": "Dkm0315",
+      "repo": "Dkm0315/frappe-agent",
+      "path": "skills/frappe-doctype-design",
+      "commitHash": "bde1c55951c7",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "th3vib3coder/vibe-science/.claude/skills/delivery-discipline",
       "name": "delivery-discipline",
       "description": "Use when preparing or writing any committable deliverable (phase closeout, status report, skill file, wave spec, README section, summary document, CHANGELOG entry, or any markdown file declaring completion or pass/fail status). Applies before the write happens, not after. Without this discipline, agents ship 60% deliverables and declare closure prematurely.",
@@ -5418,15 +6114,15 @@
     {
       "id": "yshishenya/stitchflow/skills/stitchflow",
       "name": "stitchflow",
-      "description": "Turn briefs, mockups, and product context into Stitch UI screens, design variants, Tailwind-friendly HTML, and screenshots. Use when the user wants to explore a new screen, edit an existing screen, compare visual directions, or save local design artifacts from natural-language input.",
-      "categories": ["Design", "Writing", "AI & ML"],
+      "description": "Turn briefs, mockups, and product context into Stitch UI screens, design systems, variants, prototypes, Tailwind-friendly HTML, and screenshots. Use when the user wants to explore a screen, edit an existing Stitch project, compare visual directions, build a multi-screen prototype, or save local design/code-export artifacts from natural-language input.",
+      "categories": ["Development", "Design", "Writing", "AI & ML"],
       "author": "yshishenya",
       "repo": "yshishenya/stitchflow",
       "path": "skills/stitchflow",
-      "commitHash": "125ac8395406",
-      "version": "1.3.1",
+      "commitHash": "643256d66284",
+      "version": "1.4.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "agents", "references", "workflows"]
+      "files": ["SKILL.md", "agents", "references", "templates", "workflows"]
     },
     {
       "id": "yshishenya/stitchflow/skills/stitch-design-local",
@@ -5436,8 +6132,8 @@
       "author": "yshishenya",
       "repo": "yshishenya/stitchflow",
       "path": "skills/stitch-design-local",
-      "commitHash": "125ac8395406",
-      "version": "1.3.1",
+      "commitHash": "643256d66284",
+      "version": "1.4.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
     },
@@ -5451,6 +6147,130 @@
       "path": "skills/m2ui",
       "commitHash": "2d1762ad4f28",
       "files": ["SKILL.md", "modes", "reference"]
+    },
+    {
+      "id": "agentkit-seo/agentkit-seo/skills/agentkit-seo",
+      "name": "agentkit-seo",
+      "description": "Route broad or ambiguous AgentKit SEO work to the right module while keeping context scoped. Use when a request spans multiple surfaces, asks for overall digital-presence strategy, involves provider or install architecture, needs agent-context planning, or the correct platform skill is unclear.",
+      "categories": ["Development"],
+      "author": "agentkit-seo",
+      "repo": "agentkit-seo/agentkit-seo",
+      "path": "skills/agentkit-seo",
+      "commitHash": "0931ea3c6281",
+      "files": [
+        "SKILL.md",
+        "references/installation-strategy.md",
+        "references/module-routing.md",
+        "references/provider-matrix.md"
+      ]
+    },
+    {
+      "id": "agentkit-seo/agentkit-seo/skills/agentkit-seo-github",
+      "name": "agentkit-seo-github",
+      "description": "Optimize GitHub profile and repository discoverability, clarity, and trust signals using documented search, metadata, and repository-structure guidance. Use when the user asks about profile README content, pinned repos, repository README structure, topics, descriptions, social preview, code search visibility, or GitHub-facing portfolio positioning.",
+      "categories": ["Development", "Writing", "Documents", "Research"],
+      "author": "agentkit-seo",
+      "repo": "agentkit-seo/agentkit-seo",
+      "path": "skills/agentkit-seo-github",
+      "commitHash": "0931ea3c6281",
+      "files": [
+        "SKILL.md",
+        "references/copilot-and-agent-readiness.md",
+        "references/profile-and-repo-audit.md",
+        "references/profile-and-repo-structure.md",
+        "references/search-indexing-and-linguist.md",
+        "references/section-recipes.md"
+      ]
+    },
+    {
+      "id": "agentkit-seo/agentkit-seo/skills/agentkit-seo-cv-ats",
+      "name": "agentkit-seo-cv-ats",
+      "description": "Optimize CV and resume content for recruiter readability and parser-safe ATS handling without making unsupported claims about exact vendor scoring. Use when the user asks about resumes, CVs, ATS formatting, keyword strategy, bullets, section order, achievement metrics, or job-targeted resume tailoring.",
+      "categories": ["Documents", "AI & ML"],
+      "author": "agentkit-seo",
+      "repo": "agentkit-seo/agentkit-seo",
+      "path": "skills/agentkit-seo-cv-ats",
+      "commitHash": "0931ea3c6281",
+      "files": [
+        "SKILL.md",
+        "references/cv-audit-and-maintenance.md",
+        "references/keywords-and-bullets.md",
+        "references/parser-risks-and-agent-workflow.md",
+        "references/section-recipes.md",
+        "references/structure-and-formatting.md"
+      ]
+    },
+    {
+      "id": "agentkit-seo/agentkit-seo/skills/agentkit-seo-linkedin",
+      "name": "agentkit-seo-linkedin",
+      "description": "Optimize LinkedIn profile structure and discoverability for headline, about, featured, experience, skills, and AI-readable positioning. Use when the user asks to improve a LinkedIn profile, headline, about section, featured section, experience entry, skills list, creator visibility, or LinkedIn search and feed discoverability.",
+      "categories": ["Marketing", "Research", "AI & ML"],
+      "author": "agentkit-seo",
+      "repo": "agentkit-seo/agentkit-seo",
+      "path": "skills/agentkit-seo-linkedin",
+      "commitHash": "0931ea3c6281",
+      "files": [
+        "SKILL.md",
+        "references/algorithm-confidence.md",
+        "references/discoverability-and-activity.md",
+        "references/positioning-and-structure.md",
+        "references/profile-audit-and-maintenance.md",
+        "references/section-recipes.md"
+      ]
+    },
+    {
+      "id": "agentkit-seo/agentkit-seo/skills/agentkit-seo-x-twitter",
+      "name": "agentkit-seo-x-twitter",
+      "description": "Optimize X and Twitter profile positioning, pinned post strategy, posting structure, and discoverability using conservative platform guidance. Use when the user asks about X or Twitter bio copy, pinned posts, content cadence, profile optimization, engagement strategy, premium tactics, or feed/search discoverability.",
+      "categories": ["Writing", "Documents", "Marketing", "Research"],
+      "author": "agentkit-seo",
+      "repo": "agentkit-seo/agentkit-seo",
+      "path": "skills/agentkit-seo-x-twitter",
+      "commitHash": "0931ea3c6281",
+      "files": [
+        "SKILL.md",
+        "references/account-audit-and-maintenance.md",
+        "references/engagement-and-ranking.md",
+        "references/premium-and-confidence.md",
+        "references/profile-and-posts.md",
+        "references/section-recipes.md"
+      ]
+    },
+    {
+      "id": "agentkit-seo/agentkit-seo/skills/agentkit-seo-web-portfolio",
+      "name": "agentkit-seo-web-portfolio",
+      "description": "Optimize personal website and web portfolio discoverability, crawlability, metadata, structured data, content usefulness, and AI-readable signals. Use when the user asks about portfolio pages, titles, meta descriptions, canonical tags, snippets, indexability, JavaScript SEO, structured data, performance, llms.txt, or web-based personal branding.",
+      "categories": ["Development", "Marketing", "Research", "AI & ML"],
+      "author": "agentkit-seo",
+      "repo": "agentkit-seo/agentkit-seo",
+      "path": "skills/agentkit-seo-web-portfolio",
+      "commitHash": "0931ea3c6281",
+      "files": [
+        "SKILL.md",
+        "references/content-performance-and-aeo.md",
+        "references/indexing-and-architecture.md",
+        "references/metadata-structured-data-and-js.md",
+        "references/portfolio-audit-and-maintenance.md",
+        "references/section-recipes.md"
+      ]
+    },
+    {
+      "id": "agentkit-seo/agentkit-seo/skills/agentkit-seo-agent-context-optimization",
+      "name": "agentkit-seo-agent-context-optimization",
+      "description": "Build, normalize, and maintain the user's personal professional source-of-truth context so downstream platform outputs stay factual and consistent. Use when the user wants to consolidate CV data, LinkedIn exports, GitHub history, project summaries, bio facts, achievements, or positioning into a single agent-readable context file before editing platform-specific assets.",
+      "categories": ["Development", "Writing", "Documents", "Marketing", "AI & ML"],
+      "author": "agentkit-seo",
+      "repo": "agentkit-seo/agentkit-seo",
+      "path": "skills/agentkit-seo-agent-context-optimization",
+      "commitHash": "0931ea3c6281",
+      "files": [
+        "SKILL.md",
+        "references/drafting-template.md",
+        "references/maintenance-and-validation.md",
+        "references/operating-workflow.md",
+        "references/spec-and-structure.md",
+        "references/why-and-when.md"
+      ]
     },
     {
       "id": "composio-community/support-skills/escalate",
@@ -5893,15 +6713,37 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "cucupac/shellbrain/onboarding_assets/codex/shellbrain-session-start",
-      "name": "shellbrain-session-start",
-      "description": "Use when Codex should get up to speed in any repo with the installed shellbrain CLI, or when work shifts to a new surface, repeated failure suggests prior memory may help, a hypothesis changes, an evidence-bearing write is about to happen, or closeout should record durable learnings.",
-      "categories": ["Marketing"],
+      "id": "cucupac/shellbrain/onboarding_assets/claude/skills/shellbrain",
+      "name": "shellbrain",
+      "description": "Use when an agent should remember to ask Shellbrain for targeted recall at task start, subproblem changes, repeated failures, hypothesis changes, or closeout.",
+      "categories": ["AI & ML"],
       "author": "cucupac",
       "repo": "cucupac/shellbrain",
-      "path": "onboarding_assets/codex/shellbrain-session-start",
-      "commitHash": "b8b37249ec2b",
-      "files": ["SKILL.md", "agents", "assets", "references"]
+      "path": "onboarding_assets/claude/skills/shellbrain",
+      "commitHash": "3dc02c21abe2",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cucupac/shellbrain/onboarding_assets/codex/clean-architecture",
+      "name": "clean-architecture",
+      "description": "Define and enforce the owner's language-agnostic clean-core architecture for new software projects and refactors. Use when deciding responsibility placement, dependency direction, structural stage, safe refactor moves, semantic types, pure policies, entrypoints, startup wiring, adapters, and dependency boundaries.",
+      "categories": ["Development", "Business"],
+      "author": "cucupac",
+      "repo": "cucupac/shellbrain",
+      "path": "onboarding_assets/codex/clean-architecture",
+      "commitHash": "3dc02c21abe2",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cucupac/shellbrain/onboarding_assets/codex/clean-code",
+      "name": "clean-code",
+      "description": "Clean existing code by enforcing semantic integrity, reader clarity, and local efficiency without changing architecture. Use when auditing or improving code that has fake optionality, silent fallbacks, stale compatibility, permissive parsing, unclear names, dead wrappers, redundant work, or over-abstraction. Prefer required typed state, explicit errors, fail-fast validation, deletion of obsolete branches, clear names, simple functions, and focused tests.",
+      "categories": ["Development", "Business"],
+      "author": "cucupac",
+      "repo": "cucupac/shellbrain",
+      "path": "onboarding_assets/codex/clean-code",
+      "commitHash": "3dc02c21abe2",
+      "files": ["SKILL.md"]
     },
     {
       "id": "cucupac/shellbrain/onboarding_assets/codex/shellbrain-usage-review",
@@ -5911,19 +6753,8 @@
       "author": "cucupac",
       "repo": "cucupac/shellbrain",
       "path": "onboarding_assets/codex/shellbrain-usage-review",
-      "commitHash": "b8b37249ec2b",
+      "commitHash": "3dc02c21abe2",
       "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
-      "id": "cucupac/shellbrain/onboarding_assets/cursor/skills/shellbrain-session-start",
-      "name": "shellbrain-session-start",
-      "description": "Use when Cursor should get up to speed in any repo with the installed shellbrain CLI, or when work shifts to a new surface, repeated failure suggests prior memory may help, a hypothesis changes, an evidence-bearing write is about to happen, or closeout should record durable learnings.",
-      "categories": ["Marketing"],
-      "author": "cucupac",
-      "repo": "cucupac/shellbrain",
-      "path": "onboarding_assets/cursor/skills/shellbrain-session-start",
-      "commitHash": "b8b37249ec2b",
-      "files": ["SKILL.md"]
     },
     {
       "id": "jrswab/slipbot/skills/kindle-importer",
@@ -6736,17 +7567,6 @@
       "author": "googleworkspace",
       "repo": "googleworkspace/cli",
       "path": "skills/gws-tasks",
-      "commitHash": "a3768d0e82ad",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "googleworkspace/cli/skills/gws-forms",
-      "name": "gws-forms",
-      "description": "Read and write Google Forms.",
-      "categories": ["Other"],
-      "author": "googleworkspace",
-      "repo": "googleworkspace/cli",
-      "path": "skills/gws-forms",
       "commitHash": "a3768d0e82ad",
       "files": ["SKILL.md"]
     },
@@ -8269,17 +9089,6 @@
       "path": "skills/jira",
       "commitHash": "507609844c9c",
       "files": ["README.md", "SKILL.md", "references"]
-    },
-    {
-      "id": "softaworks/agent-toolkit/skills/codex",
-      "name": "codex",
-      "description": "Use when the user asks to run Codex CLI (codex exec, codex resume) or references OpenAI Codex for code analysis, refactoring, or automated editing. Uses GPT-5.2 by default for state-of-the-art software engineering.",
-      "categories": ["Development", "Writing", "AI & ML"],
-      "author": "softaworks",
-      "repo": "softaworks/agent-toolkit",
-      "path": "skills/codex",
-      "commitHash": "06825f04669d",
-      "files": ["README.md", "SKILL.md"]
     },
     {
       "id": "softaworks/agent-toolkit/skills/gemini",
@@ -9894,29 +10703,6 @@
         "sample_input_jira.json",
         "sample_input_linear.json",
         "tool_adapters.py"
-      ]
-    },
-    {
-      "id": "alirezarezvani/claude-code-skill-factory/generated-skills/claude-md-enhancer",
-      "name": "claude-md-enhancer",
-      "description": "Analyzes, generates, and enhances CLAUDE.md files for any project type using best practices, modular architecture support, and tech stack customization. Use when setting up new projects, improving existing CLAUDE.md files, or establishing AI-assisted development standards.",
-      "categories": ["Development", "Productivity", "AI & ML"],
-      "author": "alirezarezvani",
-      "repo": "alirezarezvani/claude-code-skill-factory",
-      "path": "generated-skills/claude-md-enhancer",
-      "commitHash": "61135a053f00",
-      "files": [
-        "HOW_TO_USE.md",
-        "README.md",
-        "SKILL.md",
-        "analyzer.py",
-        "examples",
-        "expected_output.json",
-        "generator.py",
-        "sample_input.json",
-        "template_selector.py",
-        "validator.py",
-        "workflow.py"
       ]
     },
     {
@@ -11952,6 +12738,17 @@
       "files": ["SKILL.md", "reference"]
     },
     {
+      "id": "axiaoge2/Apple-Hig-Designer",
+      "name": "apple-hig-designer",
+      "description": "Design Apple-style iOS/macOS interfaces following Human Interface Guidelines. Creates HIG-compliant components with SF Symbols, San Francisco typography, and proper accessibility. Supports optional modern effects. Use when designing Apple-style UI, iOS/macOS interfaces, HIG-compliant components, or implementing design system specifications.",
+      "categories": ["Design"],
+      "author": "axiaoge2",
+      "repo": "axiaoge2/Apple-Hig-Designer",
+      "path": "",
+      "commitHash": "ff17b91ff290",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "madebyaris/advance-minimax-m2-cursor-rules/.cursor/skills/deep-research",
       "name": "deep-research",
       "description": "Conducts multi-step deep research on any topic using iterative search, reflection, and synthesis. Use when the user asks to research, investigate, survey, compare, analyze, deep-dive, or explore a topic in depth. Covers web research, codebase analysis, documentation review, and mixed-source investigation.",
@@ -11994,17 +12791,6 @@
       "path": ".cursor/skills/anti-slop-design",
       "commitHash": "f85c6a874b06",
       "files": ["SKILL.md", "reference.md"]
-    },
-    {
-      "id": "axiaoge2/Apple-Hig-Designer",
-      "name": "apple-hig-designer",
-      "description": "Design Apple-style iOS/macOS interfaces following Human Interface Guidelines. Creates HIG-compliant components with SF Symbols, San Francisco typography, and proper accessibility. Supports optional modern effects. Use when designing Apple-style UI, iOS/macOS interfaces, HIG-compliant components, or implementing design system specifications.",
-      "categories": ["Design"],
-      "author": "axiaoge2",
-      "repo": "axiaoge2/Apple-Hig-Designer",
-      "path": "",
-      "commitHash": "ff17b91ff290",
-      "files": ["SKILL.md"]
     },
     {
       "id": "proflead/codex-skills-library/skills/docs/readme-polish",
@@ -12696,17 +13482,6 @@
       "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
-      "id": "snakeying/Textum/.claude/skills/textum",
-      "name": "textum",
-      "description": "Textum PRD→Scaffold→Story workflow for Codex with low-noise outputs and gate checks.",
-      "categories": ["Productivity"],
-      "author": "snakeying",
-      "repo": "snakeying/Textum",
-      "path": ".claude/skills/textum",
-      "commitHash": "0ae858ecba60",
-      "files": ["SKILL.md", "assets", "references", "scripts"]
-    },
-    {
       "id": "a-pavithraa/springboot-skills-marketplace/plugins/springboot-architecture/skills/code-reviewer",
       "name": "code-reviewer",
       "description": "Reviews Java 25 and Spring Boot 4 codebases, pull requests, files, and modules for migration risks, architecture boundary violations, JSpecify null-safety issues, security flaws, performance regressions, and Spring Data pitfalls. Use when the task is a concrete Java or Spring code review with code context. Do not use for Kotlin-only code, non-Spring frameworks, or generic review advice without files or diffs.",
@@ -12751,26 +13526,15 @@
       "files": ["SKILL.md", "assets", "references"]
     },
     {
-      "id": "chrisvoncsefalvay/autostar/autostar-skill",
-      "name": "autostar",
-      "description": "Generalised autonomous optimisation loop — soft RLVR for any artifact a user can measure. Use this skill whenever a user wants to iteratively improve an artifact — code, prompts, documents, configs, designs, content — by running structured experiments, evaluating results against a multi-dimensional rubric, and learning from each attempt. Triggers include: \"optimise this\", \"keep improving until it's good\", \"run experiments on\", \"autoresearch\", \"iterate on this overnight\", \"try different approaches and pick the best\", or any request implying repeated evaluate-and-improve cycles. Also use when the user wants to improve a system prompt, a data pipeline, a writing style, or any artifact where quality can be decomposed into measurable tracks. For inference optimisation tasks (model latency, throughput, quantization, GPU deployment), a* delegates the low-level tuning to AITune while maintaining quality tracking and learning.\n",
-      "categories": ["DevOps", "Design", "Writing", "Data & Analytics", "Research", "AI & ML"],
-      "author": "chrisvoncsefalvay",
-      "repo": "chrisvoncsefalvay/autostar",
-      "path": "autostar-skill",
-      "commitHash": "1f4a2f62e773",
-      "files": ["SKILL.md", "assets", "references", "runtime-profiles", "scripts"]
-    },
-    {
-      "id": "chrisvoncsefalvay/autostar/autostar-claude-ai-skill",
-      "name": "autostar-web",
-      "description": "Generalised autonomous optimisation loop — soft RLVR for any artifact a user can measure. Web runtime package: uses memory in this order: connector-backed, project-pack, none. Never assumes subprocess access or unrestricted local files. Use this skill whenever a user wants to iteratively improve an artifact — code, prompts, documents, configs, designs, content — by running structured experiments, evaluating results against a multi-dimensional rubric, and learning from each attempt. Triggers include: \"optimise this\", \"keep improving until it's good\", \"run experiments on\", \"autoresearch\", \"iterate on this overnight\", \"try different approaches and pick the best\", or any request implying repeated evaluate-and-improve cycles.\n",
-      "categories": ["Design", "Productivity", "Documents", "Research", "AI & ML"],
-      "author": "chrisvoncsefalvay",
-      "repo": "chrisvoncsefalvay/autostar",
-      "path": "autostar-claude-ai-skill",
-      "commitHash": "1f4a2f62e773",
-      "files": ["SKILL.md", "references", "runtime-profiles"]
+      "id": "snakeying/Textum/.claude/skills/textum",
+      "name": "textum",
+      "description": "Textum PRD→Scaffold→Story workflow for Codex with low-noise outputs and gate checks.",
+      "categories": ["Productivity"],
+      "author": "snakeying",
+      "repo": "snakeying/Textum",
+      "path": ".claude/skills/textum",
+      "commitHash": "0ae858ecba60",
+      "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
       "id": "VapiAI/skills/create-tool",
@@ -12861,6 +13625,28 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "chrisvoncsefalvay/autostar/autostar-skill",
+      "name": "autostar",
+      "description": "Generalised autonomous optimisation loop — soft RLVR for any artifact a user can measure. Use this skill whenever a user wants to iteratively improve an artifact — code, prompts, documents, configs, designs, content — by running structured experiments, evaluating results against a multi-dimensional rubric, and learning from each attempt. Triggers include: \"optimise this\", \"keep improving until it's good\", \"run experiments on\", \"autoresearch\", \"iterate on this overnight\", \"try different approaches and pick the best\", or any request implying repeated evaluate-and-improve cycles. Also use when the user wants to improve a system prompt, a data pipeline, a writing style, or any artifact where quality can be decomposed into measurable tracks. For inference optimisation tasks (model latency, throughput, quantization, GPU deployment), a* delegates the low-level tuning to AITune while maintaining quality tracking and learning.\n",
+      "categories": ["DevOps", "Design", "Writing", "Data & Analytics", "Research", "AI & ML"],
+      "author": "chrisvoncsefalvay",
+      "repo": "chrisvoncsefalvay/autostar",
+      "path": "autostar-skill",
+      "commitHash": "1f4a2f62e773",
+      "files": ["SKILL.md", "assets", "references", "runtime-profiles", "scripts"]
+    },
+    {
+      "id": "chrisvoncsefalvay/autostar/autostar-claude-ai-skill",
+      "name": "autostar-web",
+      "description": "Generalised autonomous optimisation loop — soft RLVR for any artifact a user can measure. Web runtime package: uses memory in this order: connector-backed, project-pack, none. Never assumes subprocess access or unrestricted local files. Use this skill whenever a user wants to iteratively improve an artifact — code, prompts, documents, configs, designs, content — by running structured experiments, evaluating results against a multi-dimensional rubric, and learning from each attempt. Triggers include: \"optimise this\", \"keep improving until it's good\", \"run experiments on\", \"autoresearch\", \"iterate on this overnight\", \"try different approaches and pick the best\", or any request implying repeated evaluate-and-improve cycles.\n",
+      "categories": ["Design", "Productivity", "Documents", "Research", "AI & ML"],
+      "author": "chrisvoncsefalvay",
+      "repo": "chrisvoncsefalvay/autostar",
+      "path": "autostar-claude-ai-skill",
+      "commitHash": "1f4a2f62e773",
+      "files": ["SKILL.md", "references", "runtime-profiles"]
+    },
+    {
       "id": "scoobynko/claude-code-design-skills/figma-to-code",
       "name": "figma-to-code",
       "description": "Generate production-ready React/Next.js code from Figma designs. Instructs proper Figma MCP tool usage, component reuse strategies, and variant mapping. **CRITICAL: ALWAYS use this skill when user provides a Figma link or mentions implementing/redesigning from Figma design.** Never attempt manual implementation without invoking this skill first.",
@@ -12914,6 +13700,17 @@
       "path": "",
       "commitHash": "51037ce9006e",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "brettdavies/crawl4ai-skill/crawl4ai",
+      "name": "crawl4ai",
+      "description": "This skill should be used when users need to scrape websites, extract structured data, handle JavaScript-heavy pages, crawl multiple URLs, or build automated web data pipelines. Includes optimized extraction patterns with schema generation for efficient, LLM-free extraction.",
+      "categories": ["Development", "Data & Analytics", "Research", "AI & ML"],
+      "author": "brettdavies",
+      "repo": "brettdavies/crawl4ai-skill",
+      "path": "crawl4ai",
+      "commitHash": "2c595528f7d9",
+      "files": ["SKILL.md", "references", "scripts", "tests"]
     },
     {
       "id": "Shelpuk-AI-Technology-Consulting/agent-skill-tdd/skills/tdd",
@@ -13047,65 +13844,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "stevembarclay/pencilplaybook",
-      "name": "pencilplaybook",
-      "description": "PencilPlaybook is the UI Skills / Taste-Skill for Pencil.dev + Claude Code — a design playbook that gives Claude real perceptual psychology and senior-level guardrails so it stops producing averaged-out AI slop.",
-      "categories": ["Design", "AI & ML"],
-      "author": "stevembarclay",
-      "repo": "stevembarclay/pencilplaybook",
-      "path": "",
-      "commitHash": "b7324295d73d",
-      "version": "1.1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "stevembarclay/pencilplaybook/.claude/skills/best-in-world-research",
-      "name": "best-in-world-research",
-      "description": "World-class practice research. This skill should be used when the user asks what the best in the world does about a specific problem, technique, or situation — covering product, engineering, design, marketing, compliance, operations, org design, and any other domain. Use when the goal is to understand elite-tier practice, not to make a strategic decision. Distinct from best-in-world-strategy, which is for choosing between options.",
-      "categories": ["Business", "Research"],
-      "author": "stevembarclay",
-      "repo": "stevembarclay/pencilplaybook",
-      "path": ".claude/skills/best-in-world-research",
-      "commitHash": "b7324295d73d",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "stevembarclay/pencilplaybook/.claude/skills/best-in-world-strategy",
-      "name": "best-in-world-strategy",
-      "description": "Excellence-first strategic decision support. This skill should be used when users need to choose between options, pressure-test a plan, evaluate risk, or make a specific decision — across security, product, growth, operations, org design, and finance. Use when there is a decision with tradeoffs to score and a recommendation to make. For pure research (\"what does the best in the world do about X?\"), use best-in-world-research instead.",
-      "categories": ["Business", "Research"],
-      "author": "stevembarclay",
-      "repo": "stevembarclay/pencilplaybook",
-      "path": ".claude/skills/best-in-world-strategy",
-      "commitHash": "b7324295d73d",
-      "version": "1.1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "IJONIS/geo-lint/skills/geo-lint",
-      "name": "geo-lint",
-      "description": "SEO & GEO content linter — validates Markdown/MDX files for AI search visibility using 92 deterministic rules (35 GEO, 32 SEO, 14 content quality, 8 technical, 3 i18n). Runs an autonomous lint-fix loop: scan content, read structured violations, fix them, re-lint until clean. Use when optimizing content for AI citations, auditing SEO compliance, checking GEO readiness, or running pre-publish content validation. Triggers on: \"geo-lint\", \"lint content\", \"SEO audit\", \"GEO\", \"content optimization\", \"AI search\", \"citation readiness\".\n",
-      "categories": ["Security", "Writing", "Documents", "Business", "Research"],
-      "author": "IJONIS",
-      "repo": "IJONIS/geo-lint",
-      "path": "skills/geo-lint",
-      "commitHash": "b2d79319d1d0",
-      "files": ["SKILL.md", "reference.md"]
-    },
-    {
-      "id": "IJONIS/geo-lint/skills/content-creator",
-      "name": "content-creator",
-      "description": "Self-configuring content creation pipeline with geo-lint validation. On first use, scans your project to learn its framework, content schema, categories, and authors, then creates SEO & GEO-optimized content matched to your brand voice. Validates every piece with geo-lint's 92 rules until zero violations. Triggers on: \"content-creator\", \"create content\", \"write blog\", \"new post\", \"content calendar\", \"brand voice\", \"content strategy\".\n",
-      "categories": ["Development", "Writing", "Productivity", "Data & Analytics", "Business"],
-      "author": "IJONIS",
-      "repo": "IJONIS/geo-lint",
-      "path": "skills/content-creator",
-      "commitHash": "b2d79319d1d0",
-      "files": ["SKILL.md", "assets", "references", "scripts"]
-    },
-    {
       "id": "ITlearning/study-ios/.agents/skills/study-summary",
       "name": "study-summary",
       "description": "Saves learning notes from the current conversation. Classic mode makes concise notes, Mastery mode keeps detailed training artifacts.",
@@ -13225,107 +13963,6 @@
       "path": "plugins/vulhunt/skills/code-pattern-matching",
       "commitHash": "52a1443464bd",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "sacredvoid/skillkit/skills/icons8",
-      "name": "icons8",
-      "description": "Fetch icons, illustrations, and photos from Icons8. Search 1.5M+ icons across 116 styles, vector illustrations, and 500K+ stock photos. Supports API (with key) and free CDN fallback (no key needed).",
-      "categories": ["Design"],
-      "author": "sacredvoid",
-      "repo": "sacredvoid/skillkit",
-      "path": "skills/icons8",
-      "commitHash": "6c7f0ffec77e",
-      "files": ["SKILL.md", "config.json"]
-    },
-    {
-      "id": "sacredvoid/skillkit/skills/creative-code-lab",
-      "name": "creative-code-lab",
-      "description": "Use when user asks to create generative art, creative coding sketches, visual experiments, particle systems, shader effects, procedural graphics, interactive canvases, or any code-as-art project. Use when building animated backgrounds, flow fields, fractals, L-systems, noise-based visuals, text effects, fluid simulations, or interactive 3D scenes. Triggers on words like \"generative\", \"sketch\", \"particles\", \"shader\", \"creative coding\", \"visual experiment\", \"procedural\", \"noise\", \"flow field\".",
-      "categories": ["Development", "Design", "Writing"],
-      "author": "sacredvoid",
-      "repo": "sacredvoid/skillkit",
-      "path": "skills/creative-code-lab",
-      "commitHash": "6c7f0ffec77e",
-      "files": ["SKILL.md", "leisure-lab-catalog.md"]
-    },
-    {
-      "id": "sacredvoid/skillkit/skills/premium-hero-builder",
-      "name": "premium-hero-builder",
-      "description": "Build premium, dark-themed hero sections and landing pages with cinematic video backgrounds,\nliquid glass morphism, editorial typography, and pixel-perfect specifications. Based on the\nViktor Oddy methodology of detailed design prompts that produce agency-quality results from\nAI code generation. Use when building hero sections, landing pages, or any premium dark UI.\n",
-      "categories": ["Development", "Design", "AI & ML"],
-      "author": "sacredvoid",
-      "repo": "sacredvoid/skillkit",
-      "path": "skills/premium-hero-builder",
-      "commitHash": "6c7f0ffec77e",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "sacredvoid/skillkit/skills/logo-generator",
-      "name": "logo-generator",
-      "description": "Generate custom logos with adaptive brainstorming and full brand kit export. Scans project context (README, package.json, CSS, existing assets) to inform design. Outputs favicons (16-512 + ICO), social images (OG, Twitter), dark/light/mono SVG variants, and an HTML preview.",
-      "categories": ["Design", "Writing", "Productivity", "Documents", "AI & ML"],
-      "author": "sacredvoid",
-      "repo": "sacredvoid/skillkit",
-      "path": "skills/logo-generator",
-      "commitHash": "6c7f0ffec77e",
-      "files": ["SKILL.md", "scripts"]
-    },
-    {
-      "id": "sacredvoid/skillkit/skills/local-image-gen",
-      "name": "local-image-gen",
-      "description": "Generate custom images locally using Stable Diffusion. Auto-detects your hardware (Apple Silicon, NVIDIA, AMD, CPU) and picks the best model and settings. Supports single and batch modes. Cross-platform: macOS, Linux, Windows.",
-      "categories": ["Design", "Documents", "AI & ML"],
-      "author": "sacredvoid",
-      "repo": "sacredvoid/skillkit",
-      "path": "skills/local-image-gen",
-      "commitHash": "6c7f0ffec77e",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "sacredvoid/skillkit/skills/presentation-chef",
-      "name": "presentation-chef",
-      "description": "Convert any content into a stunning Apple Keynote-style HTML presentation. Takes markdown, text descriptions, or structured data and generates a single self-contained .html file with cinematic animations, glassmorphism, and premium design. Inspired by ChronicleHQ.",
-      "categories": ["Design", "Writing", "Documents", "AI & ML"],
-      "author": "sacredvoid",
-      "repo": "sacredvoid/skillkit",
-      "path": "skills/presentation-chef",
-      "commitHash": "6c7f0ffec77e",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "sacredvoid/skillkit/skills/raycast-automator",
-      "name": "raycast-automator",
-      "description": "Use when the user asks to automate a task with Raycast, build a Raycast extension,\ncreate a Raycast script command, or mentions Raycast in the context of building\nsomething. Triggers on: \"automate X with Raycast\", \"build a Raycast extension\",\n\"create a raycast script\", \"make a raycast command\", or any task where Raycast\nis the target platform.\n",
-      "categories": ["Productivity"],
-      "author": "sacredvoid",
-      "repo": "sacredvoid/skillkit",
-      "path": "skills/raycast-automator",
-      "commitHash": "6c7f0ffec77e",
-      "files": ["SKILL.md", "reference"]
-    },
-    {
-      "id": "sacredvoid/skillkit/skills/video-audio-processor",
-      "name": "video-audio-processor",
-      "description": "Process video/audio recordings (Zoom, meetings, etc.) by transcribing audio with Whisper and extracting visual frames with ffmpeg. Auto-detects your hardware (Apple Silicon, NVIDIA, AMD, CPU) and picks the best transcription model. Cross-platform: macOS, Linux, Windows.",
-      "categories": ["Design", "Media"],
-      "author": "sacredvoid",
-      "repo": "sacredvoid/skillkit",
-      "path": "skills/video-audio-processor",
-      "commitHash": "6c7f0ffec77e",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "sacredvoid/skillkit/skills/image-fetcher",
-      "name": "image-fetcher",
-      "description": "Fetch relevant, high-quality, free-to-use images from the web. Accepts a description/query, or scans the current directory for context. Sources from Unsplash, Pexels, and Pixabay APIs (if keys configured) with a zero-config WebSearch fallback.",
-      "categories": ["Research"],
-      "author": "sacredvoid",
-      "repo": "sacredvoid/skillkit",
-      "path": "skills/image-fetcher",
-      "commitHash": "6c7f0ffec77e",
-      "files": ["SKILL.md", "config.json"]
     }
   ]
 }
