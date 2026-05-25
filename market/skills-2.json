@@ -7,19 +7,12 @@
       "forks": 5,
       "lastUpdated": "2026-05-06T23:46:29Z"
     },
-    "MaxForAI/Tokenless": {
-      "url": "https://github.com/MaxForAI/Tokenless",
-      "branch": "main",
-      "stars": 36,
-      "forks": 2,
-      "lastUpdated": "2026-05-19T10:09:50Z"
-    },
     "cleodin/antigravity-awesome-skills": {
       "url": "https://github.com/cleodin/antigravity-awesome-skills",
       "branch": "main",
       "stars": 36,
       "forks": 4,
-      "lastUpdated": "2026-05-25T00:33:08Z"
+      "lastUpdated": "2026-05-25T06:54:01Z"
     },
     "backblaze-labs/claude-skill-b2-cloud-storage": {
       "url": "https://github.com/backblaze-labs/claude-skill-b2-cloud-storage",
@@ -42,6 +35,13 @@
       "forks": 3,
       "lastUpdated": "2026-05-13T09:04:47Z"
     },
+    "Hao0321/ai-media-generator": {
+      "url": "https://github.com/Hao0321/ai-media-generator",
+      "branch": "main",
+      "stars": 33,
+      "forks": 7,
+      "lastUpdated": "2026-05-19T14:53:18Z"
+    },
     "akseolabs-seo/cinematic-ui": {
       "url": "https://github.com/akseolabs-seo/cinematic-ui",
       "branch": "master",
@@ -62,13 +62,6 @@
       "stars": 33,
       "forks": 1,
       "lastUpdated": "2026-05-18T08:59:12Z"
-    },
-    "Hao0321/ai-media-generator": {
-      "url": "https://github.com/Hao0321/ai-media-generator",
-      "branch": "main",
-      "stars": 32,
-      "forks": 7,
-      "lastUpdated": "2026-05-19T14:53:18Z"
     },
     "ssdeanx/AgentStack": {
       "url": "https://github.com/ssdeanx/AgentStack",
@@ -151,7 +144,7 @@
       "url": "https://github.com/Bomx/qwoted-seo-backlinks-skill",
       "branch": "main",
       "stars": 27,
-      "forks": 4,
+      "forks": 5,
       "lastUpdated": "2026-05-02T11:05:28Z"
     },
     "motherduckdb/agent-skills": {
@@ -175,6 +168,13 @@
       "forks": 5,
       "lastUpdated": "2026-04-22T07:43:52Z"
     },
+    "meshy-dev/meshy-3d-agent": {
+      "url": "https://github.com/meshy-dev/meshy-3d-agent",
+      "branch": "main",
+      "stars": 23,
+      "forks": 6,
+      "lastUpdated": "2026-05-09T03:16:20Z"
+    },
     "haidrrrry/compose-kotlin-agent-skills": {
       "url": "https://github.com/haidrrrry/compose-kotlin-agent-skills",
       "branch": "main",
@@ -188,13 +188,6 @@
       "stars": 22,
       "forks": 3,
       "lastUpdated": "2026-04-25T14:49:59Z"
-    },
-    "meshy-dev/meshy-3d-agent": {
-      "url": "https://github.com/meshy-dev/meshy-3d-agent",
-      "branch": "main",
-      "stars": 22,
-      "forks": 6,
-      "lastUpdated": "2026-05-09T03:16:20Z"
     },
     "inngest/inngest-skills": {
       "url": "https://github.com/inngest/inngest-skills",
@@ -222,7 +215,7 @@
       "branch": "main",
       "stars": 19,
       "forks": 5,
-      "lastUpdated": "2026-05-25T00:49:05Z"
+      "lastUpdated": "2026-05-25T07:12:27Z"
     },
     "VirtusLab-Open-Source/astro-strapi-blocks": {
       "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-blocks",
@@ -276,7 +269,7 @@
     "Dkm0315/frappe-agent": {
       "url": "https://github.com/Dkm0315/frappe-agent",
       "branch": "main",
-      "stars": 14,
+      "stars": 15,
       "forks": 1,
       "lastUpdated": "2026-05-17T12:20:19Z"
     },
@@ -320,7 +313,7 @@
       "branch": "master",
       "stars": 12,
       "forks": 1,
-      "lastUpdated": "2026-05-24T12:47:16Z"
+      "lastUpdated": "2026-05-25T08:42:26Z"
     },
     "martysama0134/m2ui-skill": {
       "url": "https://github.com/martysama0134/m2ui-skill",
@@ -371,19 +364,19 @@
       "forks": 0,
       "lastUpdated": "2026-05-21T06:48:52Z"
     },
-    "cucupac/shellbrain": {
-      "url": "https://github.com/cucupac/shellbrain",
-      "branch": "main",
-      "stars": 10,
-      "forks": 0,
-      "lastUpdated": "2026-05-24T00:43:33Z"
-    },
     "composio-community/support-skills": {
       "url": "https://github.com/composio-community/support-skills",
       "branch": "main",
       "stars": 10,
       "forks": 1,
       "lastUpdated": "2026-04-21T18:18:53Z"
+    },
+    "cucupac/shellbrain": {
+      "url": "https://github.com/cucupac/shellbrain",
+      "branch": "main",
+      "stars": 10,
+      "forks": 0,
+      "lastUpdated": "2026-05-24T00:43:33Z"
     },
     "Bhanunamikaze/AI-Dataset-Generator": {
       "url": "https://github.com/Bhanunamikaze/AI-Dataset-Generator",
@@ -845,6 +838,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "adriannoes/awesome-vibe-coding/cursor-and-claude/skills/executing-plans",
+      "name": "executing-plans",
+      "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+      "categories": ["Productivity"],
+      "author": "adriannoes",
+      "repo": "adriannoes/awesome-vibe-coding",
+      "path": "cursor-and-claude/skills/executing-plans",
+      "commitHash": "32831a9c4f53",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "adriannoes/awesome-vibe-coding/cursor-and-claude/skills/update-changelog",
       "name": "update-changelog",
       "description": "Read before updating changelogs — update CHANGELOG.md with notable changes since last release",
@@ -887,6 +891,17 @@
       "path": "cursor-and-claude/skills/receiving-code-review",
       "commitHash": "32831a9c4f53",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "adriannoes/awesome-vibe-coding/cursor-and-claude/skills/requesting-code-review",
+      "name": "requesting-code-review",
+      "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+      "categories": ["Other"],
+      "author": "adriannoes",
+      "repo": "adriannoes/awesome-vibe-coding",
+      "path": "cursor-and-claude/skills/requesting-code-review",
+      "commitHash": "32831a9c4f53",
+      "files": ["SKILL.md", "code-reviewer.md"]
     },
     {
       "id": "adriannoes/awesome-vibe-coding/cursor-and-claude/skills/matt-pocock/engineering/tdd",
@@ -991,6 +1006,19 @@
       "author": "adriannoes",
       "repo": "adriannoes/awesome-vibe-coding",
       "path": "cursor-and-claude/skills/visual-content/svg-icon-generator",
+      "commitHash": "32831a9c4f53",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "adriannoes/awesome-vibe-coding/cursor-and-claude/skills/business-automation/csv-processor",
+      "name": "csv-processor",
+      "description": "Process csv processor operations. Auto-activating skill for Business Automation.\nTriggers on: csv processor, csv processor\nPart of the Business Automation skill category. Use when working with csv processor functionality. Trigger with phrases like \"csv processor\", \"csv processor\", \"csv\".\n",
+      "categories": ["Other"],
+      "author": "adriannoes",
+      "repo": "adriannoes/awesome-vibe-coding",
+      "path": "cursor-and-claude/skills/business-automation/csv-processor",
       "commitHash": "32831a9c4f53",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
@@ -1292,19 +1320,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "adriannoes/awesome-vibe-coding/cursor-and-claude/skills/business-automation/discord-bot-generator",
-      "name": "discord-bot-generator",
-      "description": "Generate discord bot generator operations. Auto-activating skill for Business Automation.\nTriggers on: discord bot generator, discord bot generator\nPart of the Business Automation skill category. Use when working with discord bot generator functionality. Trigger with phrases like \"discord bot generator\", \"discord generator\", \"discord\".\n",
-      "categories": ["Productivity"],
-      "author": "adriannoes",
-      "repo": "adriannoes/awesome-vibe-coding",
-      "path": "cursor-and-claude/skills/business-automation/discord-bot-generator",
-      "commitHash": "32831a9c4f53",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "adriannoes/awesome-vibe-coding/cursor-and-claude/skills/visual-content/plantuml-diagram-generator",
       "name": "plantuml-diagram-generator",
       "description": "Generate plantuml diagram generator operations. Auto-activating skill for Visual Content.\nTriggers on: plantuml diagram generator, plantuml diagram generator\nPart of the Visual Content skill category. Use when working with plantuml diagram generator functionality. Trigger with phrases like \"plantuml diagram generator\", \"plantuml generator\", \"plantuml\".\n",
@@ -1364,6 +1379,19 @@
       "author": "adriannoes",
       "repo": "adriannoes/awesome-vibe-coding",
       "path": "cursor-and-claude/skills/business-automation/n8n-workflow-generator",
+      "commitHash": "32831a9c4f53",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "adriannoes/awesome-vibe-coding/cursor-and-claude/skills/visual-content/infographic-outline-creator",
+      "name": "infographic-outline-creator",
+      "description": "Create infographic outline creator operations. Auto-activating skill for Visual Content.\nTriggers on: infographic outline creator, infographic outline creator\nPart of the Visual Content skill category. Use when working with infographic outline creator functionality. Trigger with phrases like \"infographic outline creator\", \"infographic creator\", \"infographic\".\n",
+      "categories": ["Design"],
+      "author": "adriannoes",
+      "repo": "adriannoes/awesome-vibe-coding",
+      "path": "cursor-and-claude/skills/visual-content/infographic-outline-creator",
       "commitHash": "32831a9c4f53",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
@@ -1666,17 +1694,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "MaxForAI/Tokenless/plugins/claude-code/skills/context-compression",
-      "name": "context-compression",
-      "description": "Use Tokenless for large files and noisy tool outputs before they enter context. Must be used when commands, Read output, diffs, logs, or search results are large.",
-      "categories": ["Documents"],
-      "author": "MaxForAI",
-      "repo": "MaxForAI/Tokenless",
-      "path": "plugins/claude-code/skills/context-compression",
-      "commitHash": "470fd29b8741",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "cleodin/antigravity-awesome-skills/skills/crewai",
       "name": "crewai",
       "description": "Expert in CrewAI - the leading role-based multi-agent framework used by 60% of Fortune 500 companies. Covers agent design with roles and goals, task definition, crew orchestration, process types (sequential, hierarchical, parallel), memory systems, and flows for complex workflows. Essential for building collaborative AI agent teams. Use when: crewai, multi-agent team, agent roles, crew of agents, role-based agents.",
@@ -1684,7 +1701,18 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/crewai",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/kaizen",
+      "name": "kaizen",
+      "description": "Guide for continuous improvement, error proofing, and standardization. Use this skill when the user wants to improve code quality, refactor, or discuss process improvements.",
+      "categories": ["Development"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/kaizen",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -1695,7 +1723,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/page-cro",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -1706,7 +1734,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/clean-code",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "version": 2,
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
@@ -1719,7 +1747,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/form-cro",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -1730,7 +1758,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/docker-expert",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -1741,7 +1769,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/seo-audit",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -1752,7 +1780,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/popup-cro",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -1763,7 +1791,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/senior-fullstack",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": [
         "SKILL.md",
         "references/architecture_patterns.md",
@@ -1782,7 +1810,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/exa-search",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -1793,7 +1821,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/app-builder",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": [
         "SKILL.md",
         "agent-coordination.md",
@@ -1825,7 +1853,18 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/tdd-workflow",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/game-development/game-audio",
+      "name": "game-audio",
+      "description": "Game audio principles. Sound design, music integration, adaptive audio systems.",
+      "categories": ["Media"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/game-development/game-audio",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -1836,7 +1875,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/architecture",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": [
         "SKILL.md",
         "context-discovery.md",
@@ -1863,7 +1902,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/ui-ux-pro-max",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": [
         "SKILL.md",
         "data/charts.csv",
@@ -1895,7 +1934,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/social-content",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -1906,7 +1945,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/geo-fundamentals",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md", "scripts/geo_checker.py"]
     },
     {
@@ -1917,7 +1956,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/seo-fundamentals",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md", "scripts/seo_checker.py"]
     },
     {
@@ -1928,7 +1967,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/llm-app-patterns",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -1939,7 +1978,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/scroll-experience",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -1950,7 +1989,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/busybox-on-windows",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -1961,8 +2000,34 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/marketing-psychology",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/app-builder/templates",
+      "name": "templates",
+      "description": "Project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.",
+      "categories": ["Productivity"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/app-builder/templates",
+      "commitHash": "83c89851a880",
+      "files": [
+        "SKILL.md",
+        "astro-static/TEMPLATE.md",
+        "chrome-extension/TEMPLATE.md",
+        "cli-tool/TEMPLATE.md",
+        "electron-desktop/TEMPLATE.md",
+        "express-api/TEMPLATE.md",
+        "flutter-app/TEMPLATE.md",
+        "monorepo-turborepo/TEMPLATE.md",
+        "nextjs-fullstack/TEMPLATE.md",
+        "nextjs-saas/TEMPLATE.md",
+        "nextjs-static/TEMPLATE.md",
+        "nuxt-app/TEMPLATE.md",
+        "python-fastapi/TEMPLATE.md",
+        "react-native-app/TEMPLATE.md"
+      ]
     },
     {
       "id": "cleodin/antigravity-awesome-skills/skills/game-development/2d-games",
@@ -1972,7 +2037,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/game-development/2d-games",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -1983,7 +2048,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/cc-skill-coding-standards",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "version": "1.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
@@ -1996,7 +2061,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/github-workflow-automation",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2007,7 +2072,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/cc-skill-frontend-patterns",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "version": "1.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
@@ -2020,7 +2085,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/obsidian-clipper-template-creator",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": [
         "SKILL.md",
         "assets/clipping-template.json",
@@ -2040,7 +2105,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/cc-skill-project-guidelines-example",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "version": "1.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
@@ -2053,7 +2118,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/nextjs-best-practices",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2064,7 +2129,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/playwright-skill",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["API_REFERENCE.md", "SKILL.md", "lib/helpers.js", "package.json", "run.js"]
     },
     {
@@ -2075,18 +2140,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/software-architecture",
-      "commitHash": "81725855b7cb",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/api-documentation-generator",
-      "name": "api-documentation-generator",
-      "description": "Generate comprehensive, developer-friendly API documentation from code, including endpoints, parameters, examples, and best practices",
-      "categories": ["Development", "Productivity"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/api-documentation-generator",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2097,7 +2151,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/game-development/mobile-games",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2108,7 +2162,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/notebooklm",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": [
         ".gitignore",
         "AUTHENTICATION.md",
@@ -2140,7 +2194,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/prisma-expert",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2151,7 +2205,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/onboarding-cro",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2162,7 +2216,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/prompt-library",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2173,7 +2227,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/nestjs-expert",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2184,7 +2238,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/launch-strategy",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2195,7 +2249,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/behavioral-modes",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2206,18 +2260,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/agent-memory-mcp",
-      "commitHash": "81725855b7cb",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/react-ui-patterns",
-      "name": "react-ui-patterns",
-      "description": "Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.",
-      "categories": ["Development"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/react-ui-patterns",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2228,7 +2271,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/powershell-windows",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2239,7 +2282,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/shopify-development",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": [
         "README.md",
         "SKILL.md",
@@ -2261,7 +2304,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/planning-with-files",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "version": "2.1.2",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": [
@@ -2283,7 +2326,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/paywall-upgrade-cro",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2294,7 +2337,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/performance-profiling",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md", "scripts/lighthouse_audit.py"]
     },
     {
@@ -2305,7 +2348,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/frontend-dev-guidelines",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": [
         "SKILL.md",
         "resources/common-patterns.md",
@@ -2328,7 +2371,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/product-manager-toolkit",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": [
         "SKILL.md",
         "references/prd_templates.md",
@@ -2344,7 +2387,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/environment-setup-guide",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2355,7 +2398,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/autonomous-agent-patterns",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2366,7 +2409,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/avalonia-viewmodels-zafiro",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": [
         "SKILL.md",
         "composition.md",
@@ -2383,7 +2426,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/game-development/web-games",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2394,7 +2437,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/web-performance-optimization",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2405,7 +2448,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/paid-ads",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2416,7 +2459,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/finishing-a-development-branch",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2427,7 +2470,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/moodle-external-api-development",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2438,7 +2481,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/clerk-auth",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2449,7 +2492,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/upstash-qstash",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2460,7 +2503,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/core-components",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2471,7 +2514,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/bun-development",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2482,7 +2525,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/autonomous-agents",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2493,7 +2536,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/ai-wrapper-product",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2504,7 +2547,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/free-tool-strategy",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2515,7 +2558,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/zapier-make-patterns",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2526,7 +2569,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/design-orchestration",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
     },
     {
@@ -2537,8 +2580,19 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/voice-ai-development",
-      "commitHash": "81725855b7cb",
+      "commitHash": "83c89851a880",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/nodejs-best-practices",
+      "name": "nodejs-best-practices",
+      "description": "Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying.",
+      "categories": ["Development", "Business"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/nodejs-best-practices",
+      "commitHash": "83c89851a880",
+      "files": ["SKILL.md", "skills-awesome-antigravity-v2.4.zip"]
     },
     {
       "id": "backblaze-labs/claude-skill-b2-cloud-storage/b2-cloud-storage",
@@ -3042,6 +3096,17 @@
       "files": ["README.md", "SKILL.md"]
     },
     {
+      "id": "Hao0321/ai-media-generator",
+      "name": "ai-media-generator",
+      "description": "為使用者產生高品質的 AI 生圖、生影片、生音樂提示詞，並在需要時透過瀏覽器自動化實際送到目標平台。涵蓋 OiiOii、Kling 2.1/2.6/3.0、Seedance 1.0 / 2.0 pro、Suno v5、Seedream 4.0/4.5/5、Vidu Q2/Q3、Midjourney v7、Flux 1.1 Pro / Kontext、Runway Gen-4 / Aleph、Google Veo 3.1、OpenAI Sora 2、Ideogram 3、Nano Banana Pro、Stable Diffusion 3.5。只要使用者提到「AI 生圖」「AI 影片」「AI 音樂」「做 MV」「做 storyboard」「寫 prompt 給 XXX」「我想用 Kling/Suno/Midjourney/Runway/Veo/Sora...」「幫我操作 OiiOii / 即夢 / 可靈」「txt2img / img2video / 文生圖 / 文生影片 / 圖生影片」「角色一致性」「多鏡頭分鏡」「運鏡」，或任何跟上述平台或影像/影片/音樂生成工作流相關的任務，都要用這個 skill。即使他們沒講明平台，只要任務是要餵給某個生成模型的 prompt，就用這個 skill 幫他們選對的平台、寫對的格式。",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "Hao0321",
+      "repo": "Hao0321/ai-media-generator",
+      "path": "",
+      "commitHash": "e6150232810e",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "akseolabs-seo/cinematic-ui",
       "name": "cinematic-ui",
       "description": "Design and build websites with film-inspired visual systems, director-driven art direction, storyboard-first layout planning, and cinematic motion. Use when the user asks for a cinematic site, movie-style landing page, director-inspired UI, film-noir, sci-fi, romance, thriller, action, animation, or a movie-like website aesthetic, including requests phrased in Chinese. Do not use for generic web design unless the user explicitly wants a film or director reference.",
@@ -3072,17 +3137,6 @@
       "repo": "Prismer-AI/signet",
       "path": "plugins/claude-code/skills/signet",
       "commitHash": "1e3b34f218dd",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Hao0321/ai-media-generator",
-      "name": "ai-media-generator",
-      "description": "為使用者產生高品質的 AI 生圖、生影片、生音樂提示詞，並在需要時透過瀏覽器自動化實際送到目標平台。涵蓋 OiiOii、Kling 2.1/2.6/3.0、Seedance 1.0 / 2.0 pro、Suno v5、Seedream 4.0/4.5/5、Vidu Q2/Q3、Midjourney v7、Flux 1.1 Pro / Kontext、Runway Gen-4 / Aleph、Google Veo 3.1、OpenAI Sora 2、Ideogram 3、Nano Banana Pro、Stable Diffusion 3.5。只要使用者提到「AI 生圖」「AI 影片」「AI 音樂」「做 MV」「做 storyboard」「寫 prompt 給 XXX」「我想用 Kling/Suno/Midjourney/Runway/Veo/Sora...」「幫我操作 OiiOii / 即夢 / 可靈」「txt2img / img2video / 文生圖 / 文生影片 / 圖生影片」「角色一致性」「多鏡頭分鏡」「運鏡」，或任何跟上述平台或影像/影片/音樂生成工作流相關的任務，都要用這個 skill。即使他們沒講明平台，只要任務是要餵給某個生成模型的 prompt，就用這個 skill 幫他們選對的平台、寫對的格式。",
-      "categories": ["Productivity", "AI & ML"],
-      "author": "Hao0321",
-      "repo": "Hao0321/ai-media-generator",
-      "path": "",
-      "commitHash": "e6150232810e",
       "files": ["SKILL.md"]
     },
     {
@@ -4070,6 +4124,39 @@
       ]
     },
     {
+      "id": "meshy-dev/meshy-3d-agent/skills/meshy-openclaw",
+      "name": "meshy-3d-agent",
+      "description": "Generate 3D models, textures, images, rig characters, animate them, and prepare for 3D printing using the Meshy AI API. Handles API key detection, task creation, polling, downloading, and full 3D print pipeline with slicer integration. Use when the user asks to create 3D models, convert text/images to 3D, texture models, rig or animate characters, 3D print a model, or interact with the Meshy API.",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "meshy-dev",
+      "repo": "meshy-dev/meshy-3d-agent",
+      "path": "skills/meshy-openclaw",
+      "commitHash": "c77de150b6c9",
+      "files": ["SKILL.md", "reference.md"]
+    },
+    {
+      "id": "meshy-dev/meshy-3d-agent/skills/meshy-3d-printing",
+      "name": "meshy-3d-printing",
+      "description": "3D print models generated with Meshy AI. Handles slicer detection, white model printing, multi-color printing via API, and print-optimized download workflows. Use when the user mentions 3D printing, slicing, Bambu, OrcaSlicer, Prusa, Cura, Creality Print, Elegoo, Anycubic, multicolor, multi-color, 3mf, or wants to print a figurine, miniature, or physical model.",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "meshy-dev",
+      "repo": "meshy-dev/meshy-3d-agent",
+      "path": "skills/meshy-3d-printing",
+      "commitHash": "c77de150b6c9",
+      "files": ["SKILL.md", "reference.md"]
+    },
+    {
+      "id": "meshy-dev/meshy-3d-agent/skills/meshy-3d-generation",
+      "name": "meshy-3d-generation",
+      "description": "Generate 3D models, textures, images, rig characters, and animate them using the Meshy AI API. Handles API key detection, setup, and all generation workflows via direct HTTP calls. Use when the user asks to create 3D models, convert text/images to 3D, texture models, rig or animate characters, or interact with the Meshy API.",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "meshy-dev",
+      "repo": "meshy-dev/meshy-3d-agent",
+      "path": "skills/meshy-3d-generation",
+      "commitHash": "c77de150b6c9",
+      "files": ["SKILL.md", "reference.md"]
+    },
+    {
       "id": "haidrrrry/compose-kotlin-agent-skills",
       "name": "compose-kotlin-agent-skills",
       "description": "Enterprise Android/Kotlin skill for 2026 — Kotlin 2.x K2 compiler, AGP 9, Navigation 3, edge-to-edge Compose, strict MVI with atomic _state.update, banned AI antipatterns. Jetpack Compose, Hilt, Room, KMP, CameraX/ML Kit, performance, testing. Use when writing Kotlin for Android, building Compose UI, MVVM/MVI architecture, debugging recomposition, Room DAOs, Navigation 3, coroutines, or asking \"structure Android app\", \"ViewModel UiState\", \"collectAsStateWithLifecycle\", \"edge to edge\", \"AGP 9\", \"K2 compiler\", \"Play Store release\".\n",
@@ -4664,39 +4751,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "meshy-dev/meshy-3d-agent/skills/meshy-openclaw",
-      "name": "meshy-3d-agent",
-      "description": "Generate 3D models, textures, images, rig characters, animate them, and prepare for 3D printing using the Meshy AI API. Handles API key detection, task creation, polling, downloading, and full 3D print pipeline with slicer integration. Use when the user asks to create 3D models, convert text/images to 3D, texture models, rig or animate characters, 3D print a model, or interact with the Meshy API.",
-      "categories": ["Productivity", "AI & ML"],
-      "author": "meshy-dev",
-      "repo": "meshy-dev/meshy-3d-agent",
-      "path": "skills/meshy-openclaw",
-      "commitHash": "c77de150b6c9",
-      "files": ["SKILL.md", "reference.md"]
-    },
-    {
-      "id": "meshy-dev/meshy-3d-agent/skills/meshy-3d-printing",
-      "name": "meshy-3d-printing",
-      "description": "3D print models generated with Meshy AI. Handles slicer detection, white model printing, multi-color printing via API, and print-optimized download workflows. Use when the user mentions 3D printing, slicing, Bambu, OrcaSlicer, Prusa, Cura, Creality Print, Elegoo, Anycubic, multicolor, multi-color, 3mf, or wants to print a figurine, miniature, or physical model.",
-      "categories": ["Productivity", "AI & ML"],
-      "author": "meshy-dev",
-      "repo": "meshy-dev/meshy-3d-agent",
-      "path": "skills/meshy-3d-printing",
-      "commitHash": "c77de150b6c9",
-      "files": ["SKILL.md", "reference.md"]
-    },
-    {
-      "id": "meshy-dev/meshy-3d-agent/skills/meshy-3d-generation",
-      "name": "meshy-3d-generation",
-      "description": "Generate 3D models, textures, images, rig characters, and animate them using the Meshy AI API. Handles API key detection, setup, and all generation workflows via direct HTTP calls. Use when the user asks to create 3D models, convert text/images to 3D, texture models, rig or animate characters, or interact with the Meshy API.",
-      "categories": ["Productivity", "AI & ML"],
-      "author": "meshy-dev",
-      "repo": "meshy-dev/meshy-3d-agent",
-      "path": "skills/meshy-3d-generation",
-      "commitHash": "c77de150b6c9",
-      "files": ["SKILL.md", "reference.md"]
-    },
-    {
       "id": "inngest/inngest-skills/skills/inngest-steps",
       "name": "inngest-steps",
       "description": "Use when implementing delays that must survive process restarts (e.g., 24-hour cart abandonment, scheduled follow-ups), waiting for human approval or external events with timeouts (review gates, webhook callbacks, async API completion), polling external services without losing state on crashes, calling other functions and awaiting their results, memoizing expensive operations so they don't re-run on retry, or running async work in parallel inside a workflow. Covers Inngest step methods: step.run, step.sleep, step.waitForEvent, step.waitForSignal, step.sendEvent, step.invoke, step.ai, plus patterns for loops and parallel execution.",
@@ -4792,7 +4846,7 @@
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/deep-read-to-delta",
-      "commitHash": "ecce7248fcd0",
+      "commitHash": "5442554d072c",
       "files": ["SKILL.md"]
     },
     {
@@ -4803,7 +4857,7 @@
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/delta-update-protocol",
-      "commitHash": "ecce7248fcd0",
+      "commitHash": "5442554d072c",
       "files": ["SKILL.md"]
     },
     {
@@ -4814,7 +4868,7 @@
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/gap-driven-search",
-      "commitHash": "ecce7248fcd0",
+      "commitHash": "5442554d072c",
       "files": ["SKILL.md"]
     },
     {
@@ -4825,7 +4879,7 @@
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/paper-discovery-intake",
-      "commitHash": "ecce7248fcd0",
+      "commitHash": "5442554d072c",
       "files": ["SKILL.md"]
     },
     {
@@ -4836,7 +4890,7 @@
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/project-evidence-synthesis",
-      "commitHash": "ecce7248fcd0",
+      "commitHash": "5442554d072c",
       "files": ["SKILL.md"]
     },
     {
@@ -4847,7 +4901,40 @@
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/project-experiment-proposal",
-      "commitHash": "ecce7248fcd0",
+      "commitHash": "5442554d072c",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/project-gap-analysis",
+      "name": "project-gap-analysis",
+      "description": "Use when a Research Pilot project needs read-only gap detection or Evidence Need extraction from the Project Understanding Graph.",
+      "categories": ["Data & Analytics", "Research"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/project-gap-analysis",
+      "commitHash": "5442554d072c",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/project-gap-discovery",
+      "name": "project-gap-discovery",
+      "description": "Use when the user wants papers to consider for a graph gap or missing evidence need.",
+      "categories": ["Other"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/project-gap-discovery",
+      "commitHash": "5442554d072c",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "QZhang2111/Research-Pilot/skills/project-next-action",
+      "name": "project-next-action",
+      "description": "Use when a Research Pilot project needs a read-only recommendation for the next workflow action.",
+      "categories": ["Productivity", "Research"],
+      "author": "QZhang2111",
+      "repo": "QZhang2111/Research-Pilot",
+      "path": "skills/project-next-action",
+      "commitHash": "5442554d072c",
       "files": ["SKILL.md"]
     },
     {
@@ -4858,7 +4945,7 @@
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/project-understanding-update",
-      "commitHash": "ecce7248fcd0",
+      "commitHash": "5442554d072c",
       "files": ["SKILL.md"]
     },
     {
@@ -4869,7 +4956,7 @@
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/related-work-lineage",
-      "commitHash": "ecce7248fcd0",
+      "commitHash": "5442554d072c",
       "files": ["SKILL.md"]
     },
     {
@@ -4880,7 +4967,7 @@
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/research-pilot-first-run",
-      "commitHash": "ecce7248fcd0",
+      "commitHash": "5442554d072c",
       "files": ["SKILL.md"]
     },
     {
@@ -4891,7 +4978,7 @@
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/research-pilot",
-      "commitHash": "ecce7248fcd0",
+      "commitHash": "5442554d072c",
       "files": ["SKILL.md"]
     },
     {
@@ -4902,7 +4989,7 @@
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/single-paper-deep-read",
-      "commitHash": "ecce7248fcd0",
+      "commitHash": "5442554d072c",
       "files": ["SKILL.md"]
     },
     {
@@ -4913,7 +5000,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/security-audit",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -4924,7 +5011,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/refactoring",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -4935,7 +5022,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-ranking",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -4946,7 +5033,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-visualization",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -4957,7 +5044,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/meeting-transcription",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -4968,7 +5055,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-deployment",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -4979,7 +5066,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-analysis",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -4990,7 +5077,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/content-strategy",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5001,7 +5088,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/proofreading",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5012,7 +5099,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/summarization",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5023,7 +5110,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/report-generation",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5034,7 +5121,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/fact-checking",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5045,7 +5132,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/copywriting",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5056,7 +5143,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/docker-compose-setup",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5067,7 +5154,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-retrieval",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5078,7 +5165,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-compression",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5089,7 +5176,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/ml-pipeline-creation",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5100,7 +5187,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/keyword-research",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5111,7 +5198,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/graphql-api-design",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5122,7 +5209,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dynamic-application-security-testing",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5133,7 +5220,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-backup",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5144,7 +5231,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-cleaning",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5155,7 +5242,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/oauth-2-0-setup",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5166,7 +5253,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-injection",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5177,7 +5264,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/exploratory-data-analysis",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5188,7 +5275,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-optimization",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5199,7 +5286,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-seeding",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5210,7 +5297,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-design",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5221,7 +5308,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/ci-cd",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5232,7 +5319,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/threat-modeling",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5243,7 +5330,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/literature-review",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5254,7 +5341,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/chatbot-conversation-design",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5265,7 +5352,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/task-automation",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5276,7 +5363,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/cloud-monitoring",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5287,7 +5374,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/static-application-security-testing",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5298,7 +5385,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/code-documentation",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5309,7 +5396,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/query-optimization",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5320,7 +5407,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-schema-design",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5331,7 +5418,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/webhook-setup",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5342,7 +5429,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/seo-optimization",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5353,7 +5440,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/note-taking",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5364,7 +5451,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/blog-post-writing",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5375,7 +5462,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/hyperparameter-tuning",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5386,7 +5473,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/sql-query-generation",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5397,7 +5484,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dependency-scanning",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5408,7 +5495,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-training",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5419,7 +5506,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/version-control",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5430,7 +5517,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/technical-writing",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5441,7 +5528,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/social-media-posting",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5452,7 +5539,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/data-labeling",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5463,7 +5550,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/presentation-creation",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5474,7 +5561,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/analytics-reporting",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5485,7 +5572,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/translation",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5496,7 +5583,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/email-drafting",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5507,7 +5594,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-integration",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5518,7 +5605,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/knowledge-graph-creation",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5529,7 +5616,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/kubernetes-deployment",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5540,7 +5627,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/infrastructure-as-code",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5551,7 +5638,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-migration",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -5562,7 +5649,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/deep-research",
-      "commitHash": "226971bdfcda",
+      "commitHash": "be63d46e555a",
       "files": ["SKILL.md"]
     },
     {
@@ -9197,6 +9284,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "galyarderlabs/galyarder-framework/skills/json-canvas",
+      "name": "json-canvas",
+      "description": "Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.",
+      "categories": ["Design", "Data & Analytics"],
+      "author": "galyarderlabs",
+      "repo": "galyarderlabs/galyarder-framework",
+      "path": "skills/json-canvas",
+      "commitHash": "687a3620e84c",
+      "files": ["SKILL.md", "references/EXAMPLES.md"]
+    },
+    {
       "id": "galyarderlabs/galyarder-framework/skills/design-md-uber",
       "name": "design-md-uber",
       "description": "Design system reference for design md uber.",
@@ -10769,50 +10867,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "cucupac/shellbrain/onboarding_assets/claude/skills/shellbrain",
-      "name": "shellbrain",
-      "description": "Use when an agent should remember to ask Shellbrain for targeted recall at task start, subproblem changes, repeated failures, hypothesis changes, or closeout.",
-      "categories": ["AI & ML"],
-      "author": "cucupac",
-      "repo": "cucupac/shellbrain",
-      "path": "onboarding_assets/claude/skills/shellbrain",
-      "commitHash": "c9c40064e921",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cucupac/shellbrain/onboarding_assets/codex/clean-architecture",
-      "name": "clean-architecture",
-      "description": "Define and enforce the owner's language-agnostic clean-core architecture for new software projects and refactors. Use when deciding responsibility placement, dependency direction, structural stage, safe refactor moves, semantic types, pure policies, entrypoints, startup wiring, adapters, and dependency boundaries.",
-      "categories": ["Development", "Business"],
-      "author": "cucupac",
-      "repo": "cucupac/shellbrain",
-      "path": "onboarding_assets/codex/clean-architecture",
-      "commitHash": "c9c40064e921",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cucupac/shellbrain/onboarding_assets/codex/clean-code",
-      "name": "clean-code",
-      "description": "Clean existing code by enforcing semantic integrity, reader clarity, and local efficiency without changing architecture. Use when auditing or improving code that has fake optionality, silent fallbacks, stale compatibility, permissive parsing, unclear names, dead wrappers, redundant work, or over-abstraction. Prefer required typed state, explicit errors, fail-fast validation, deletion of obsolete branches, clear names, simple functions, and focused tests.",
-      "categories": ["Development", "Business"],
-      "author": "cucupac",
-      "repo": "cucupac/shellbrain",
-      "path": "onboarding_assets/codex/clean-code",
-      "commitHash": "c9c40064e921",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cucupac/shellbrain/onboarding_assets/codex/shellbrain-usage-review",
-      "name": "shellbrain-usage-review",
-      "description": "Use when a reviewer agent needs one fast cross-repo picture of how agents are using Shellbrain, where the product is working, where it is failing, and which expected capabilities are being skipped.",
-      "categories": ["AI & ML"],
-      "author": "cucupac",
-      "repo": "cucupac/shellbrain",
-      "path": "onboarding_assets/codex/shellbrain-usage-review",
-      "commitHash": "c9c40064e921",
-      "files": ["SKILL.md", "agents", "assets"]
-    },
-    {
       "id": "composio-community/support-skills/escalate",
       "name": "escalate",
       "description": "Escalate a support ticket to a [Linear](https://composio.dev/toolkits/linear) issue and notify the team on [Slack](https://composio.dev/toolkits/slack).",
@@ -11251,6 +11305,50 @@
       "path": "draft-reply",
       "commitHash": "83382c4b055f",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "cucupac/shellbrain/onboarding_assets/claude/skills/shellbrain",
+      "name": "shellbrain",
+      "description": "Use when an agent should remember to ask Shellbrain for targeted recall at task start, subproblem changes, repeated failures, hypothesis changes, or closeout.",
+      "categories": ["AI & ML"],
+      "author": "cucupac",
+      "repo": "cucupac/shellbrain",
+      "path": "onboarding_assets/claude/skills/shellbrain",
+      "commitHash": "75a9487f1a9e",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cucupac/shellbrain/onboarding_assets/codex/clean-architecture",
+      "name": "clean-architecture",
+      "description": "Define and enforce the owner's language-agnostic clean-core architecture for new software projects and refactors. Use when deciding responsibility placement, dependency direction, structural stage, safe refactor moves, semantic types, pure policies, entrypoints, startup wiring, adapters, and dependency boundaries.",
+      "categories": ["Development", "Business"],
+      "author": "cucupac",
+      "repo": "cucupac/shellbrain",
+      "path": "onboarding_assets/codex/clean-architecture",
+      "commitHash": "75a9487f1a9e",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cucupac/shellbrain/onboarding_assets/codex/clean-code",
+      "name": "clean-code",
+      "description": "Clean existing code by enforcing semantic integrity, reader clarity, and local efficiency without changing architecture. Use when auditing or improving code that has fake optionality, silent fallbacks, stale compatibility, permissive parsing, unclear names, dead wrappers, redundant work, or over-abstraction. Prefer required typed state, explicit errors, fail-fast validation, deletion of obsolete branches, clear names, simple functions, and focused tests.",
+      "categories": ["Development", "Business"],
+      "author": "cucupac",
+      "repo": "cucupac/shellbrain",
+      "path": "onboarding_assets/codex/clean-code",
+      "commitHash": "75a9487f1a9e",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cucupac/shellbrain/onboarding_assets/codex/shellbrain-usage-review",
+      "name": "shellbrain-usage-review",
+      "description": "Use when a reviewer agent needs one fast cross-repo picture of how agents are using Shellbrain, where the product is working, where it is failing, and which expected capabilities are being skipped.",
+      "categories": ["AI & ML"],
+      "author": "cucupac",
+      "repo": "cucupac/shellbrain",
+      "path": "onboarding_assets/codex/shellbrain-usage-review",
+      "commitHash": "75a9487f1a9e",
+      "files": ["SKILL.md", "agents", "assets"]
     },
     {
       "id": "Bhanunamikaze/AI-Dataset-Generator",
