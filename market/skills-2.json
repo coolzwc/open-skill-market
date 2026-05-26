@@ -7,6 +7,13 @@
       "forks": 25,
       "lastUpdated": "2026-04-16T18:53:59Z"
     },
+    "Aboudjem/humanizer-skill": {
+      "url": "https://github.com/Aboudjem/humanizer-skill",
+      "branch": "main",
+      "stars": 38,
+      "forks": 4,
+      "lastUpdated": "2026-05-13T09:04:47Z"
+    },
     "heal-dev/heal-playwright-tracer": {
       "url": "https://github.com/heal-dev/heal-playwright-tracer",
       "branch": "main",
@@ -28,13 +35,6 @@
       "forks": 2,
       "lastUpdated": "2026-05-19T10:09:50Z"
     },
-    "Aboudjem/humanizer-skill": {
-      "url": "https://github.com/Aboudjem/humanizer-skill",
-      "branch": "main",
-      "stars": 37,
-      "forks": 3,
-      "lastUpdated": "2026-05-13T09:04:47Z"
-    },
     "adriannoes/awesome-vibe-coding": {
       "url": "https://github.com/adriannoes/awesome-vibe-coding",
       "branch": "main",
@@ -47,7 +47,7 @@
       "branch": "main",
       "stars": 36,
       "forks": 4,
-      "lastUpdated": "2026-05-25T19:14:41Z"
+      "lastUpdated": "2026-05-25T23:17:04Z"
     },
     "backblaze-labs/claude-skill-b2-cloud-storage": {
       "url": "https://github.com/backblaze-labs/claude-skill-b2-cloud-storage",
@@ -189,6 +189,13 @@
       "forks": 5,
       "lastUpdated": "2026-04-22T07:43:52Z"
     },
+    "Hainrixz/all-deploy": {
+      "url": "https://github.com/Hainrixz/all-deploy",
+      "branch": "main",
+      "stars": 25,
+      "forks": 9,
+      "lastUpdated": "2026-04-19T03:03:32Z"
+    },
     "meshy-dev/meshy-3d-agent": {
       "url": "https://github.com/meshy-dev/meshy-3d-agent",
       "branch": "main",
@@ -236,7 +243,7 @@
       "branch": "main",
       "stars": 19,
       "forks": 5,
-      "lastUpdated": "2026-05-25T19:33:22Z"
+      "lastUpdated": "2026-05-25T23:34:28Z"
     },
     "VirtusLab-Open-Source/astro-strapi-blocks": {
       "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-blocks",
@@ -376,7 +383,7 @@
       "branch": "main",
       "stars": 11,
       "forks": 2,
-      "lastUpdated": "2026-05-24T21:08:10Z"
+      "lastUpdated": "2026-05-25T22:39:14Z"
     },
     "dembrandt/dembrandt-skills": {
       "url": "https://github.com/dembrandt/dembrandt-skills",
@@ -425,7 +432,7 @@
       "branch": "main",
       "stars": 10,
       "forks": 0,
-      "lastUpdated": "2026-05-25T11:25:55Z"
+      "lastUpdated": "2026-05-25T23:56:15Z"
     },
     "jrswab/slipbot": {
       "url": "https://github.com/jrswab/slipbot",
@@ -1681,6 +1688,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "Aboudjem/humanizer-skill/skills/humanizer",
+      "name": "humanizer",
+      "description": "Detects 43 AI writing patterns and rewrites text in 5 voice profiles. Use when (1) AI text reads like a chatbot, (2) preparing content for publication, (3) auditing prose for AI tells, (4) editing a file in place. Outputs a 0-100 AI-tell score on demand. Pure Markdown, zero dependencies, no network calls.",
+      "categories": ["Writing", "Documents", "AI & ML"],
+      "author": "Aboudjem",
+      "repo": "Aboudjem/humanizer-skill",
+      "path": "skills/humanizer",
+      "commitHash": "004db86aac6a",
+      "files": ["README.md", "SKILL.md"]
+    },
+    {
       "id": "heal-dev/heal-playwright-tracer/docs",
       "name": "playwright-test-diagnosis",
       "description": "Analyze playwright test results",
@@ -1721,17 +1739,6 @@
       "path": "plugins/claude-code/skills/context-compression",
       "commitHash": "470fd29b8741",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "Aboudjem/humanizer-skill/skills/humanizer",
-      "name": "humanizer",
-      "description": "Detects 43 AI writing patterns and rewrites text in 5 voice profiles. Use when (1) AI text reads like a chatbot, (2) preparing content for publication, (3) auditing prose for AI tells, (4) editing a file in place. Outputs a 0-100 AI-tell score on demand. Pure Markdown, zero dependencies, no network calls.",
-      "categories": ["Writing", "Documents", "AI & ML"],
-      "author": "Aboudjem",
-      "repo": "Aboudjem/humanizer-skill",
-      "path": "skills/humanizer",
-      "commitHash": "004db86aac6a",
-      "files": ["README.md", "SKILL.md"]
     },
     {
       "id": "adriannoes/awesome-vibe-coding/cursor-and-claude/skills/harness",
@@ -2675,7 +2682,18 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/crewai",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/kaizen",
+      "name": "kaizen",
+      "description": "Guide for continuous improvement, error proofing, and standardization. Use this skill when the user wants to improve code quality, refactor, or discuss process improvements.",
+      "categories": ["Development"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/kaizen",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
@@ -2686,7 +2704,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/page-cro",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
@@ -2697,7 +2715,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/clean-code",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
       "version": 2,
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
@@ -2710,7 +2728,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/form-cro",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
@@ -2721,7 +2739,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/docker-expert",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
@@ -2732,7 +2750,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/seo-audit",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
@@ -2743,27 +2761,8 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/popup-cro",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/senior-fullstack",
-      "name": "senior-fullstack",
-      "description": "Comprehensive fullstack development skill for building complete web applications with React, Next.js, Node.js, GraphQL, and PostgreSQL. Includes project scaffolding, code quality analysis, architecture patterns, and complete tech stack guidance. Use when building new projects, analyzing code quality, implementing design patterns, or setting up development workflows.",
-      "categories": ["Development", "Design", "Productivity", "Data & Analytics", "Research"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/senior-fullstack",
-      "commitHash": "c7a918589fdf",
-      "files": [
-        "SKILL.md",
-        "references/architecture_patterns.md",
-        "references/development_workflows.md",
-        "references/tech_stack_guide.md",
-        "scripts/code_quality_analyzer.py",
-        "scripts/fullstack_scaffolder.py",
-        "scripts/project_scaffolder.py"
-      ]
     },
     {
       "id": "cleodin/antigravity-awesome-skills/skills/exa-search",
@@ -2773,7 +2772,29 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/exa-search",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/prompt-engineering",
+      "name": "prompt-engineering",
+      "description": "Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to improve prompts, learn prompting strategies, or debug agent behavior.",
+      "categories": ["Development", "AI & ML"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/prompt-engineering",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/copywriting",
+      "name": "copywriting",
+      "description": "Use this skill when writing, rewriting, or improving marketing copy for any page (homepage, landing page, pricing, feature, product, or about page). This skill produces clear, compelling, and testable copy while enforcing alignment, honesty, and conversion best practices.\n",
+      "categories": ["Development", "Writing", "Marketing"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/copywriting",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
@@ -2784,18 +2805,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/tdd-workflow",
-      "commitHash": "c7a918589fdf",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/game-development/game-audio",
-      "name": "game-audio",
-      "description": "Game audio principles. Sound design, music integration, adaptive audio systems.",
-      "categories": ["Media"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/game-development/game-audio",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
@@ -2806,7 +2816,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/architecture",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
       "files": [
         "SKILL.md",
         "context-discovery.md",
@@ -2817,184 +2827,138 @@
       ]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/ui-ux-pro-max",
-      "name": "ui-ux-pro-max",
-      "description": "UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. Integrations: shadcn/ui MCP for component search and examples.",
-      "categories": [
-        "Development",
-        "Design",
-        "Productivity",
-        "Data & Analytics",
-        "Documents",
-        "Integration",
-        "Research",
-        "AI & ML"
-      ],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/ui-ux-pro-max",
-      "commitHash": "c7a918589fdf",
-      "files": [
-        "SKILL.md",
-        "data/charts.csv",
-        "data/colors.csv",
-        "data/icons.csv",
-        "data/landing.csv",
-        "data/products.csv",
-        "data/prompts.csv",
-        "data/react-performance.csv",
-        "data/stacks/flutter.csv",
-        "data/stacks/html-tailwind.csv",
-        "data/stacks/nextjs.csv",
-        "data/stacks/nuxt-ui.csv",
-        "data/stacks/nuxtjs.csv",
-        "data/stacks/react-native.csv",
-        "data/stacks/react.csv",
-        "data/stacks/shadcn.csv",
-        "data/stacks/svelte.csv",
-        "data/stacks/swiftui.csv",
-        "data/stacks/vue.csv",
-        "data/styles.csv"
-      ]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/social-content",
-      "name": "social-content",
-      "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or 'viral content.' This skill covers content creation, repurposing, and platform-specific strategies.",
-      "categories": ["Writing", "Marketing"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/social-content",
-      "commitHash": "c7a918589fdf",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/geo-fundamentals",
-      "name": "geo-fundamentals",
-      "description": "Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity).",
-      "categories": ["AI & ML"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/geo-fundamentals",
-      "commitHash": "c7a918589fdf",
-      "files": ["SKILL.md", "scripts/geo_checker.py"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/seo-fundamentals",
-      "name": "seo-fundamentals",
-      "description": "Core principles of SEO including E-E-A-T, Core Web Vitals, technical foundations, content quality, and how modern search engines evaluate pages. This skill explains *why* SEO works, not how to execute specific optimizations.\n",
-      "categories": ["Research"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/seo-fundamentals",
-      "commitHash": "c7a918589fdf",
-      "files": ["SKILL.md", "scripts/seo_checker.py"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/llm-app-patterns",
-      "name": "llm-app-patterns",
-      "description": "Production-ready patterns for building LLM applications. Covers RAG pipelines, agent architectures, prompt IDEs, and LLMOps monitoring. Use when designing AI applications, implementing RAG, building agents, or setting up LLM observability.",
-      "categories": ["Development", "DevOps", "Design", "AI & ML"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/llm-app-patterns",
-      "commitHash": "c7a918589fdf",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/scroll-experience",
-      "name": "scroll-experience",
-      "description": "Expert in building immersive scroll-driven experiences - parallax storytelling, scroll animations, interactive narratives, and cinematic web experiences. Like NY Times interactives, Apple product pages, and award-winning web experiences. Makes websites feel like experiences, not just pages. Use when: scroll animation, parallax, scroll storytelling, interactive story, cinematic website.",
-      "categories": ["Design", "Writing"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/scroll-experience",
-      "commitHash": "c7a918589fdf",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/busybox-on-windows",
-      "name": "busybox-on-windows",
-      "description": "How to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows.",
+      "id": "cleodin/antigravity-awesome-skills/skills/bash-linux",
+      "name": "bash-linux",
+      "description": "Bash/Linux terminal patterns. Critical commands, piping, error handling, scripting. Use when working on macOS or Linux systems.",
       "categories": ["Other"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/busybox-on-windows",
-      "commitHash": "c7a918589fdf",
+      "path": "skills/bash-linux",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/marketing-psychology",
-      "name": "marketing-psychology",
-      "description": "Apply behavioral science and mental models to marketing decisions, prioritized using a psychological leverage and feasibility scoring system.",
-      "categories": ["Business", "AI & ML"],
+      "id": "cleodin/antigravity-awesome-skills/skills/launch-strategy",
+      "name": "launch-strategy",
+      "description": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' or 'product update.' This skill covers phased launches, channel strategy, and ongoing launch momentum.",
+      "categories": ["Business"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/marketing-psychology",
-      "commitHash": "c7a918589fdf",
+      "path": "skills/launch-strategy",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/app-builder/templates",
-      "name": "templates",
-      "description": "Project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.",
-      "categories": ["Productivity"],
+      "id": "cleodin/antigravity-awesome-skills/skills/pricing-strategy",
+      "name": "pricing-strategy",
+      "description": "Design pricing, packaging, and monetization strategies based on value, customer willingness to pay, and growth objectives.",
+      "categories": ["Business"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/app-builder/templates",
-      "commitHash": "c7a918589fdf",
+      "path": "skills/pricing-strategy",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/playwright-skill",
+      "name": "playwright-skill",
+      "description": "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing.",
+      "categories": ["Development", "Design", "Productivity"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/playwright-skill",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["API_REFERENCE.md", "SKILL.md", "lib/helpers.js", "package.json", "run.js"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/behavioral-modes",
+      "name": "behavioral-modes",
+      "description": "AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type.",
+      "categories": ["Other"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/behavioral-modes",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/programmatic-seo",
+      "name": "programmatic-seo",
+      "description": "Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data. Use when the user mentions programmatic SEO, pages at scale, template pages, directory pages, location pages, comparison pages, integration pages, or keyword-pattern page generation. This skill focuses on feasibility, strategy, and page system design—not execution unless explicitly requested.\n",
+      "categories": ["Business", "Research"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/programmatic-seo",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/game-development",
+      "name": "game-development",
+      "description": "Game development orchestrator. Routes to platform-specific skills based on project needs.",
+      "categories": ["Other"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/game-development",
+      "commitHash": "99bdeb8e0eaa",
       "files": [
+        "2d-games/SKILL.md",
+        "3d-games/SKILL.md",
         "SKILL.md",
-        "astro-static/TEMPLATE.md",
-        "chrome-extension/TEMPLATE.md",
-        "cli-tool/TEMPLATE.md",
-        "electron-desktop/TEMPLATE.md",
-        "express-api/TEMPLATE.md",
-        "flutter-app/TEMPLATE.md",
-        "monorepo-turborepo/TEMPLATE.md",
-        "nextjs-fullstack/TEMPLATE.md",
-        "nextjs-saas/TEMPLATE.md",
-        "nextjs-static/TEMPLATE.md",
-        "nuxt-app/TEMPLATE.md",
-        "python-fastapi/TEMPLATE.md",
-        "react-native-app/TEMPLATE.md"
+        "game-art/SKILL.md",
+        "game-audio/SKILL.md",
+        "game-design/SKILL.md",
+        "mobile-games/SKILL.md",
+        "multiplayer/SKILL.md",
+        "pc-games/SKILL.md",
+        "vr-ar/SKILL.md",
+        "web-games/SKILL.md"
       ]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/cc-skill-coding-standards",
-      "name": "coding-standards",
-      "description": "Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.",
-      "categories": ["Development"],
+      "id": "cleodin/antigravity-awesome-skills/skills/design-orchestration",
+      "name": "design-orchestration",
+      "description": "Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order. Prevents premature implementation, skipped validation, and unreviewed high-risk designs.\n",
+      "categories": ["AI & ML"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/cc-skill-coding-standards",
-      "commitHash": "c7a918589fdf",
+      "path": "skills/design-orchestration",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/game-development/vr-ar",
+      "name": "vr-ar",
+      "description": "VR/AR development principles. Comfort, interaction, performance requirements.",
+      "categories": ["Other"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/game-development/vr-ar",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/cc-skill-backend-patterns",
+      "name": "backend-patterns",
+      "description": "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.",
+      "categories": ["Development", "Data & Analytics"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/cc-skill-backend-patterns",
+      "commitHash": "99bdeb8e0eaa",
       "version": "1.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/github-workflow-automation",
-      "name": "github-workflow-automation",
-      "description": "Automate GitHub workflows with AI assistance. Includes PR reviews, issue triage, CI/CD integration, and Git operations. Use when automating GitHub workflows, setting up PR review automation, creating GitHub Actions, or triaging issues.",
-      "categories": ["Productivity", "Integration"],
+      "id": "cleodin/antigravity-awesome-skills/skills/game-development/3d-games",
+      "name": "3d-games",
+      "description": "3D game development principles. Rendering, shaders, physics, cameras.",
+      "categories": ["Media"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/github-workflow-automation",
-      "commitHash": "c7a918589fdf",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/cc-skill-frontend-patterns",
-      "name": "frontend-patterns",
-      "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.",
-      "categories": ["Development"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/cc-skill-frontend-patterns",
-      "commitHash": "c7a918589fdf",
-      "version": "1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
+      "path": "skills/game-development/3d-games",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
@@ -3005,7 +2969,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/obsidian-clipper-template-creator",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
       "files": [
         "SKILL.md",
         "assets/clipping-template.json",
@@ -3018,61 +2982,61 @@
       ]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/cc-skill-project-guidelines-example",
-      "name": "cc-skill-project-guidelines-example",
-      "description": "Project Guidelines Skill (Example)",
+      "id": "cleodin/antigravity-awesome-skills/skills/game-development/game-audio",
+      "name": "game-audio",
+      "description": "Game audio principles. Sound design, music integration, adaptive audio systems.",
+      "categories": ["Media"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/game-development/game-audio",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/game-development/multiplayer",
+      "name": "multiplayer",
+      "description": "Multiplayer game development principles. Architecture, networking, synchronization.",
       "categories": ["Other"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/cc-skill-project-guidelines-example",
-      "commitHash": "c7a918589fdf",
-      "version": "1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
+      "path": "skills/game-development/multiplayer",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/nextjs-best-practices",
-      "name": "nextjs-best-practices",
-      "description": "Next.js App Router principles. Server Components, data fetching, routing patterns.",
-      "categories": ["Development"],
+      "id": "cleodin/antigravity-awesome-skills/skills/prompt-engineer",
+      "name": "prompt-engineer",
+      "description": "Expert in designing effective prompts for LLM-powered applications. Masters prompt structure, context management, output formatting, and prompt evaluation. Use when: prompt engineering, system prompt, few-shot, chain of thought, prompt design.",
+      "categories": ["AI & ML"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/nextjs-best-practices",
-      "commitHash": "c7a918589fdf",
+      "path": "skills/prompt-engineer",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/playwright-skill",
-      "name": "playwright-skill",
-      "description": "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing.",
-      "categories": ["Development", "Design", "Productivity"],
+      "id": "cleodin/antigravity-awesome-skills/skills/backend-dev-guidelines",
+      "name": "backend-dev-guidelines",
+      "description": "Opinionated backend development standards for Node.js + Express + TypeScript microservices. Covers layered architecture, BaseController pattern, dependency injection, Prisma repositories, Zod validation, unifiedConfig, Sentry error tracking, async safety, and testing discipline.",
+      "categories": ["Development", "Data & Analytics", "Integration"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/playwright-skill",
-      "commitHash": "c7a918589fdf",
-      "files": ["API_REFERENCE.md", "SKILL.md", "lib/helpers.js", "package.json", "run.js"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/software-architecture",
-      "name": "software-architecture",
-      "description": "Guide for quality focused software architecture. This skill should be used when users want to write code, design architecture, analyze code, in any case that relates to software development.",
-      "categories": ["Development", "Design"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/software-architecture",
-      "commitHash": "c7a918589fdf",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/api-documentation-generator",
-      "name": "api-documentation-generator",
-      "description": "Generate comprehensive, developer-friendly API documentation from code, including endpoints, parameters, examples, and best practices",
-      "categories": ["Development", "Productivity"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/api-documentation-generator",
-      "commitHash": "c7a918589fdf",
-      "files": ["SKILL.md"]
+      "path": "skills/backend-dev-guidelines",
+      "commitHash": "99bdeb8e0eaa",
+      "files": [
+        "SKILL.md",
+        "resources/architecture-overview.md",
+        "resources/async-and-errors.md",
+        "resources/complete-examples.md",
+        "resources/configuration.md",
+        "resources/database-patterns.md",
+        "resources/middleware-guide.md",
+        "resources/routing-and-controllers.md",
+        "resources/sentry-and-monitoring.md",
+        "resources/services-and-repositories.md",
+        "resources/testing-guide.md",
+        "resources/validation-patterns.md"
+      ]
     },
     {
       "id": "cleodin/antigravity-awesome-skills/skills/game-development/mobile-games",
@@ -3082,7 +3046,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/game-development/mobile-games",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
@@ -3093,7 +3057,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/notebooklm",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
       "files": [
         ".gitignore",
         "AUTHENTICATION.md",
@@ -3118,15 +3082,45 @@
       ]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/prisma-expert",
-      "name": "prisma-expert",
-      "description": "Prisma ORM expert for schema design, migrations, query optimization, relations modeling, and database operations. Use PROACTIVELY for Prisma schema issues, migration problems, query performance, relation design, or database connection issues.",
-      "categories": ["Data & Analytics"],
+      "id": "cleodin/antigravity-awesome-skills/skills/ui-ux-pro-max",
+      "name": "ui-ux-pro-max",
+      "description": "UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. Integrations: shadcn/ui MCP for component search and examples.",
+      "categories": [
+        "Development",
+        "Design",
+        "Productivity",
+        "Data & Analytics",
+        "Documents",
+        "Integration",
+        "Research",
+        "AI & ML"
+      ],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/prisma-expert",
-      "commitHash": "c7a918589fdf",
-      "files": ["SKILL.md"]
+      "path": "skills/ui-ux-pro-max",
+      "commitHash": "99bdeb8e0eaa",
+      "files": [
+        "SKILL.md",
+        "data/charts.csv",
+        "data/colors.csv",
+        "data/icons.csv",
+        "data/landing.csv",
+        "data/products.csv",
+        "data/prompts.csv",
+        "data/react-performance.csv",
+        "data/stacks/flutter.csv",
+        "data/stacks/html-tailwind.csv",
+        "data/stacks/nextjs.csv",
+        "data/stacks/nuxt-ui.csv",
+        "data/stacks/nuxtjs.csv",
+        "data/stacks/react-native.csv",
+        "data/stacks/react.csv",
+        "data/stacks/shadcn.csv",
+        "data/stacks/svelte.csv",
+        "data/stacks/swiftui.csv",
+        "data/stacks/vue.csv",
+        "data/styles.csv"
+      ]
     },
     {
       "id": "cleodin/antigravity-awesome-skills/skills/onboarding-cro",
@@ -3136,7 +3130,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/onboarding-cro",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
@@ -3147,73 +3141,62 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/prompt-library",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/nestjs-expert",
-      "name": "nestjs-expert",
-      "description": "Nest.js framework expert specializing in module architecture, dependency injection, middleware, guards, interceptors, testing with Jest/Supertest, TypeORM/Mongoose integration, and Passport.js authentication. Use PROACTIVELY for any Nest.js application issues including architecture decisions, testing strategies, performance optimization, or debugging complex dependency injection problems. If a specialized expert is a better fit, I will recommend switching and stop.",
-      "categories": ["Development", "Security", "Business"],
+      "id": "cleodin/antigravity-awesome-skills/skills/social-content",
+      "name": "social-content",
+      "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or 'viral content.' This skill covers content creation, repurposing, and platform-specific strategies.",
+      "categories": ["Writing", "Marketing"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/nestjs-expert",
-      "commitHash": "c7a918589fdf",
+      "path": "skills/social-content",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/launch-strategy",
-      "name": "launch-strategy",
-      "description": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' or 'product update.' This skill covers phased launches, channel strategy, and ongoing launch momentum.",
-      "categories": ["Business"],
+      "id": "cleodin/antigravity-awesome-skills/skills/referral-program",
+      "name": "referral-program",
+      "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' or 'partner program.' This skill covers program design, incentive structure, and growth optimization.",
+      "categories": ["Design"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/launch-strategy",
-      "commitHash": "c7a918589fdf",
+      "path": "skills/referral-program",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/behavioral-modes",
-      "name": "behavioral-modes",
-      "description": "AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type.",
-      "categories": ["Other"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/behavioral-modes",
-      "commitHash": "c7a918589fdf",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/agent-memory-mcp",
-      "name": "agent-memory-mcp",
-      "description": "A hybrid memory system that provides persistent, searchable knowledge management for AI agents (Architecture, Patterns, Decisions).",
-      "categories": ["Development", "Business", "Research", "AI & ML"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/agent-memory-mcp",
-      "commitHash": "c7a918589fdf",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/react-ui-patterns",
-      "name": "react-ui-patterns",
-      "description": "Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.",
+      "id": "cleodin/antigravity-awesome-skills/skills/testing-patterns",
+      "name": "testing-patterns",
+      "description": "Jest testing patterns, factory functions, mocking strategies, and TDD workflow. Use when writing unit tests, creating test factories, or following TDD red-green-refactor cycle.",
       "categories": ["Development"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/react-ui-patterns",
-      "commitHash": "c7a918589fdf",
+      "path": "skills/testing-patterns",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/powershell-windows",
-      "name": "powershell-windows",
-      "description": "PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling.",
-      "categories": ["Other"],
+      "id": "cleodin/antigravity-awesome-skills/skills/scroll-experience",
+      "name": "scroll-experience",
+      "description": "Expert in building immersive scroll-driven experiences - parallax storytelling, scroll animations, interactive narratives, and cinematic web experiences. Like NY Times interactives, Apple product pages, and award-winning web experiences. Makes websites feel like experiences, not just pages. Use when: scroll animation, parallax, scroll storytelling, interactive story, cinematic website.",
+      "categories": ["Design", "Writing"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/powershell-windows",
-      "commitHash": "c7a918589fdf",
+      "path": "skills/scroll-experience",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/free-tool-strategy",
+      "name": "free-tool-strategy",
+      "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" or \"free resource.\" This skill bridges engineering and marketing — useful for founders and technical marketers.",
+      "categories": ["Development", "Design", "Productivity", "Marketing", "Business", "Research"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/free-tool-strategy",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
@@ -3224,7 +3207,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/shopify-development",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
       "files": [
         "README.md",
         "SKILL.md",
@@ -3239,26 +3222,15 @@
       ]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/planning-with-files",
-      "name": "planning-with-files",
-      "description": "Implements Manus-style file-based planning for complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when starting complex multi-step tasks, research projects, or any task requiring >5 tool calls.",
-      "categories": ["Design", "Productivity", "Research"],
+      "id": "cleodin/antigravity-awesome-skills/skills/hubspot-integration",
+      "name": "hubspot-integration",
+      "description": "Expert patterns for HubSpot CRM integration including OAuth authentication, CRM objects, associations, batch operations, webhooks, and custom objects. Covers Node.js and Python SDKs. Use when: hubspot, hubspot api, hubspot crm, hubspot integration, contacts api.",
+      "categories": ["Development", "Security", "Integration"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/planning-with-files",
-      "commitHash": "c7a918589fdf",
-      "version": "2.1.2",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "SKILL.md",
-        "examples.md",
-        "reference.md",
-        "scripts/check-complete.sh",
-        "scripts/init-session.sh",
-        "templates/findings.md",
-        "templates/progress.md",
-        "templates/task_plan.md"
-      ]
+      "path": "skills/hubspot-integration",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["SKILL.md"]
     },
     {
       "id": "cleodin/antigravity-awesome-skills/skills/paywall-upgrade-cro",
@@ -3268,42 +3240,96 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/paywall-upgrade-cro",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/performance-profiling",
-      "name": "performance-profiling",
-      "description": "Performance profiling principles. Measurement, analysis, and optimization techniques.",
-      "categories": ["Other"],
+      "id": "cleodin/antigravity-awesome-skills/skills/agent-manager-skill",
+      "name": "agent-manager-skill",
+      "description": "Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling.",
+      "categories": ["Design", "AI & ML"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/performance-profiling",
-      "commitHash": "c7a918589fdf",
-      "files": ["SKILL.md", "scripts/lighthouse_audit.py"]
+      "path": "skills/agent-manager-skill",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/frontend-dev-guidelines",
-      "name": "frontend-dev-guidelines",
-      "description": "Opinionated frontend development standards for modern React + TypeScript applications. Covers Suspense-first data fetching, lazy loading, feature-based architecture, MUI v7 styling, TanStack Router, performance optimization, and strict TypeScript practices.",
+      "id": "cleodin/antigravity-awesome-skills/skills/marketing-psychology",
+      "name": "marketing-psychology",
+      "description": "Apply behavioral science and mental models to marketing decisions, prioritized using a psychological leverage and feasibility scoring system.",
+      "categories": ["Business", "AI & ML"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/marketing-psychology",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/receiving-code-review",
+      "name": "receiving-code-review",
+      "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
       "categories": ["Development"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/frontend-dev-guidelines",
-      "commitHash": "c7a918589fdf",
+      "path": "skills/receiving-code-review",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/app-builder/templates",
+      "name": "templates",
+      "description": "Project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.",
+      "categories": ["Productivity"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/app-builder/templates",
+      "commitHash": "99bdeb8e0eaa",
       "files": [
         "SKILL.md",
-        "resources/common-patterns.md",
-        "resources/complete-examples.md",
-        "resources/component-patterns.md",
-        "resources/data-fetching.md",
-        "resources/file-organization.md",
-        "resources/loading-and-error-states.md",
-        "resources/performance.md",
-        "resources/routing-guide.md",
-        "resources/styling-guide.md",
-        "resources/typescript-standards.md"
+        "astro-static/TEMPLATE.md",
+        "chrome-extension/TEMPLATE.md",
+        "cli-tool/TEMPLATE.md",
+        "electron-desktop/TEMPLATE.md",
+        "express-api/TEMPLATE.md",
+        "flutter-app/TEMPLATE.md",
+        "monorepo-turborepo/TEMPLATE.md",
+        "nextjs-fullstack/TEMPLATE.md",
+        "nextjs-saas/TEMPLATE.md",
+        "nextjs-static/TEMPLATE.md",
+        "nuxt-app/TEMPLATE.md",
+        "python-fastapi/TEMPLATE.md",
+        "react-native-app/TEMPLATE.md"
       ]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/avalonia-layout-zafiro",
+      "name": "avalonia-layout-zafiro",
+      "description": "Guidelines for modern Avalonia UI layout using Zafiro.Avalonia, emphasizing shared styles, generic components, and avoiding XAML redundancy.",
+      "categories": ["Design"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/avalonia-layout-zafiro",
+      "commitHash": "99bdeb8e0eaa",
+      "files": [
+        "SKILL.md",
+        "behaviors.md",
+        "components.md",
+        "containers.md",
+        "icons.md",
+        "themes.md"
+      ]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/context7-auto-research",
+      "name": "context7-auto-research",
+      "description": "Automatically fetch latest library/framework documentation for Claude Code via Context7 API",
+      "categories": ["Development", "Writing", "Research"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/context7-auto-research",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["SKILL.md"]
     },
     {
       "id": "cleodin/antigravity-awesome-skills/skills/product-manager-toolkit",
@@ -3313,7 +3339,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/product-manager-toolkit",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
       "files": [
         "SKILL.md",
         "references/prd_templates.md",
@@ -3329,57 +3355,71 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/environment-setup-guide",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/autonomous-agent-patterns",
-      "name": "autonomous-agent-patterns",
-      "description": "Design patterns for building autonomous coding agents. Covers tool integration, permission systems, browser automation, and human-in-the-loop workflows. Use when building AI agents, designing tool APIs, implementing permission systems, or creating autonomous coding assistants.",
-      "categories": ["Development", "Design", "Productivity", "AI & ML"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/autonomous-agent-patterns",
-      "commitHash": "c7a918589fdf",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/avalonia-viewmodels-zafiro",
-      "name": "avalonia-viewmodels-zafiro",
-      "description": "Optimal ViewModel and Wizard creation patterns for Avalonia using Zafiro and ReactiveUI.",
+      "id": "cleodin/antigravity-awesome-skills/skills/cc-skill-frontend-patterns",
+      "name": "frontend-patterns",
+      "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.",
       "categories": ["Development"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/avalonia-viewmodels-zafiro",
-      "commitHash": "c7a918589fdf",
-      "files": [
-        "SKILL.md",
-        "composition.md",
-        "navigation_sections.md",
-        "viewmodels.md",
-        "wizards.md"
-      ]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/game-development/web-games",
-      "name": "web-games",
-      "description": "Web browser game development principles. Framework selection, WebGPU, optimization, PWA.",
-      "categories": ["Development"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/game-development/web-games",
-      "commitHash": "c7a918589fdf",
+      "path": "skills/cc-skill-frontend-patterns",
+      "commitHash": "99bdeb8e0eaa",
+      "version": "1.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/web-performance-optimization",
-      "name": "web-performance-optimization",
-      "description": "Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance",
+      "id": "cleodin/antigravity-awesome-skills/skills/avalonia-zafiro-development",
+      "name": "avalonia-zafiro-development",
+      "description": "Mandatory skills, conventions, and behavioral rules for Avalonia UI development using the Zafiro toolkit.",
       "categories": ["Other"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/web-performance-optimization",
-      "commitHash": "c7a918589fdf",
+      "path": "skills/avalonia-zafiro-development",
+      "commitHash": "99bdeb8e0eaa",
+      "files": [
+        "SKILL.md",
+        "avalonia-reactive-rules.md",
+        "core-technical-skills.md",
+        "naming-standards.md",
+        "patterns.md",
+        "zafiro-shortcuts.md"
+      ]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/api-security-best-practices",
+      "name": "api-security-best-practices",
+      "description": "Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities",
+      "categories": ["Development", "Security"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/api-security-best-practices",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/api-documentation-generator",
+      "name": "api-documentation-generator",
+      "description": "Generate comprehensive, developer-friendly API documentation from code, including endpoints, parameters, examples, and best practices",
+      "categories": ["Development", "Productivity"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/api-documentation-generator",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/langfuse",
+      "name": "langfuse",
+      "description": "Expert in Langfuse - the open-source LLM observability platform. Covers tracing, prompt management, evaluation, datasets, and integration with LangChain, LlamaIndex, and OpenAI. Essential for debugging, monitoring, and improving LLM applications in production. Use when: langfuse, llm observability, llm tracing, prompt management, llm evaluation.",
+      "categories": ["Development", "DevOps", "AI & ML"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/langfuse",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
@@ -3390,40 +3430,53 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/paid-ads",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/finishing-a-development-branch",
-      "name": "finishing-a-development-branch",
-      "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+      "id": "cleodin/antigravity-awesome-skills/skills/tavily-web",
+      "name": "tavily-web",
+      "description": "Web search, content extraction, crawling, and research capabilities using Tavily API",
+      "categories": ["Research"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/tavily-web",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/file-uploads",
+      "name": "file-uploads",
+      "description": "Expert at handling file uploads and cloud storage. Covers S3, Cloudflare R2, presigned URLs, multipart uploads, and image optimization. Knows how to handle large files without blocking. Use when: file upload, S3, R2, presigned URL, multipart.",
+      "categories": ["Design"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/file-uploads",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/gcp-cloud-run",
+      "name": "gcp-cloud-run",
+      "description": "Specialized skill for building production-ready serverless applications on GCP. Covers Cloud Run services (containerized), Cloud Run Functions (event-driven), cold start optimization, and event-driven architecture with Pub/Sub.",
+      "categories": ["Development", "DevOps", "Design"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/gcp-cloud-run",
+      "commitHash": "99bdeb8e0eaa",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/cc-skill-project-guidelines-example",
+      "name": "cc-skill-project-guidelines-example",
+      "description": "Project Guidelines Skill (Example)",
       "categories": ["Other"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/finishing-a-development-branch",
-      "commitHash": "c7a918589fdf",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/moodle-external-api-development",
-      "name": "moodle-external-api-development",
-      "description": "Create custom external web service APIs for Moodle LMS. Use when implementing web services for course management, user tracking, quiz operations, or custom plugin functionality. Covers parameter validation, database operations, error handling, service registration, and Moodle coding standards.",
-      "categories": ["Development", "Data & Analytics", "Integration", "Business"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/moodle-external-api-development",
-      "commitHash": "c7a918589fdf",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/clerk-auth",
-      "name": "clerk-auth",
-      "description": "Expert patterns for Clerk auth implementation, middleware, organizations, webhooks, and user sync Use when: adding authentication, clerk auth, user authentication, sign in, sign up.",
-      "categories": ["Security", "Integration"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/clerk-auth",
-      "commitHash": "c7a918589fdf",
+      "path": "skills/cc-skill-project-guidelines-example",
+      "commitHash": "99bdeb8e0eaa",
+      "version": "1.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
     },
     {
@@ -3434,107 +3487,85 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/upstash-qstash",
-      "commitHash": "c7a918589fdf",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/core-components",
-      "name": "core-components",
-      "description": "Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library.",
-      "categories": ["Development", "Design"],
+      "id": "cleodin/antigravity-awesome-skills/skills/algolia-search",
+      "name": "algolia-search",
+      "description": "Expert patterns for Algolia search implementation, indexing strategies, React InstantSearch, and relevance tuning Use when: adding search to, algolia, instantsearch, search api, search functionality.",
+      "categories": ["Development"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/core-components",
-      "commitHash": "c7a918589fdf",
+      "path": "skills/algolia-search",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/bun-development",
-      "name": "bun-development",
-      "description": "Modern JavaScript/TypeScript development with Bun runtime. Covers package management, bundling, testing, and migration from Node.js. Use when working with Bun, optimizing JS/TS development speed, or migrating from Node.js to Bun.",
-      "categories": ["Development", "Productivity"],
+      "id": "cleodin/antigravity-awesome-skills/skills/nestjs-expert",
+      "name": "nestjs-expert",
+      "description": "Nest.js framework expert specializing in module architecture, dependency injection, middleware, guards, interceptors, testing with Jest/Supertest, TypeORM/Mongoose integration, and Passport.js authentication. Use PROACTIVELY for any Nest.js application issues including architecture decisions, testing strategies, performance optimization, or debugging complex dependency injection problems. If a specialized expert is a better fit, I will recommend switching and stop.",
+      "categories": ["Development", "Security", "Business"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/bun-development",
-      "commitHash": "c7a918589fdf",
+      "path": "skills/nestjs-expert",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/autonomous-agents",
-      "name": "autonomous-agents",
-      "description": "Autonomous agents are AI systems that can independently decompose goals, plan actions, execute tools, and self-correct without constant human guidance. The challenge isn't making them capable - it's making them reliable. Every extra decision multiplies failure probability.  This skill covers agent loops (ReAct, Plan-Execute), goal decomposition, reflection patterns, and production reliability. Key insight: compounding error rates kill autonomous agents. A 95% success rate per step drops to 60% b",
-      "categories": ["Development", "AI & ML"],
+      "id": "cleodin/antigravity-awesome-skills/skills/react-patterns",
+      "name": "react-patterns",
+      "description": "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices.",
+      "categories": ["Development"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/autonomous-agents",
-      "commitHash": "c7a918589fdf",
+      "path": "skills/react-patterns",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/ai-wrapper-product",
-      "name": "ai-wrapper-product",
-      "description": "Expert in building products that wrap AI APIs (OpenAI, Anthropic, etc.) into focused tools people will pay for. Not just 'ChatGPT but different' - products that solve specific problems with AI. Covers prompt engineering for products, cost management, rate limiting, and building defensible AI businesses. Use when: AI wrapper, GPT product, AI tool, wrap AI, AI SaaS.",
-      "categories": ["Development", "AI & ML"],
+      "id": "cleodin/antigravity-awesome-skills/skills/agent-evaluation",
+      "name": "agent-evaluation",
+      "description": "Testing and benchmarking LLM agents including behavioral testing, capability assessment, reliability metrics, and production monitoring—where even top agents achieve less than 50% on real-world benchmarks Use when: agent testing, agent evaluation, benchmark agents, agent reliability, test agent.",
+      "categories": ["Development", "DevOps", "AI & ML"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/ai-wrapper-product",
-      "commitHash": "c7a918589fdf",
+      "path": "skills/agent-evaluation",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/free-tool-strategy",
-      "name": "free-tool-strategy",
-      "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" or \"free resource.\" This skill bridges engineering and marketing — useful for founders and technical marketers.",
-      "categories": ["Development", "Design", "Productivity", "Marketing", "Business", "Research"],
+      "id": "cleodin/antigravity-awesome-skills/skills/server-management",
+      "name": "server-management",
+      "description": "Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands.",
+      "categories": ["DevOps", "Business"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/free-tool-strategy",
-      "commitHash": "c7a918589fdf",
+      "path": "skills/server-management",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/zapier-make-patterns",
-      "name": "zapier-make-patterns",
-      "description": "No-code automation democratizes workflow building. Zapier and Make (formerly Integromat) let non-developers automate business processes without writing code. But no-code doesn't mean no-complexity - these platforms have their own patterns, pitfalls, and breaking points.  This skill covers when to use which platform, how to build reliable automations, and when to graduate to code-based solutions. Key insight: Zapier optimizes for simplicity and integrations (7000+ apps), Make optimizes for power ",
-      "categories": ["Development", "Productivity", "Integration"],
+      "id": "cleodin/antigravity-awesome-skills/skills/browser-automation",
+      "name": "browser-automation",
+      "description": "Browser automation powers web testing, scraping, and AI agent interactions. The difference between a flaky script and a reliable system comes down to understanding selectors, waiting strategies, and anti-detection patterns.  This skill covers Playwright (recommended) and Puppeteer, with patterns for testing, scraping, and agentic browser control. Key insight: Playwright won the framework war. Unless you need Puppeteer's stealth ecosystem or are Chrome-only, Playwright is the better choice in 202",
+      "categories": ["Development", "Business", "AI & ML"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/zapier-make-patterns",
-      "commitHash": "c7a918589fdf",
+      "path": "skills/browser-automation",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/design-orchestration",
-      "name": "design-orchestration",
-      "description": "Orchestrates design workflows by routing work through brainstorming, multi-agent review, and execution readiness in the correct order. Prevents premature implementation, skipped validation, and unreviewed high-risk designs.\n",
-      "categories": ["AI & ML"],
+      "id": "cleodin/antigravity-awesome-skills/skills/javascript-mastery",
+      "name": "javascript-mastery",
+      "description": "Comprehensive JavaScript reference covering 33+ essential concepts every developer should know. From fundamentals like primitives and closures to advanced patterns like async/await and functional programming. Use when explaining JS concepts, debugging JavaScript issues, or teaching JavaScript fundamentals.",
+      "categories": ["Development"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/design-orchestration",
-      "commitHash": "c7a918589fdf",
+      "path": "skills/javascript-mastery",
+      "commitHash": "99bdeb8e0eaa",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/voice-ai-development",
-      "name": "voice-ai-development",
-      "description": "Expert in building voice AI applications - from real-time voice agents to voice-enabled apps. Covers OpenAI Realtime API, Vapi for voice agents, Deepgram for transcription, ElevenLabs for synthesis, LiveKit for real-time infrastructure, and WebRTC fundamentals. Knows how to build low-latency, production-ready voice experiences. Use when: voice ai, voice agent, speech to text, text to speech, realtime voice.",
-      "categories": ["Development", "DevOps", "AI & ML", "Media"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/voice-ai-development",
-      "commitHash": "c7a918589fdf",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/nodejs-best-practices",
-      "name": "nodejs-best-practices",
-      "description": "Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying.",
-      "categories": ["Development", "Business"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/nodejs-best-practices",
-      "commitHash": "c7a918589fdf",
-      "files": ["SKILL.md", "skills-awesome-antigravity-v2.4.zip"]
     },
     {
       "id": "backblaze-labs/claude-skill-b2-cloud-storage/b2-cloud-storage",
@@ -4885,6 +4916,17 @@
       ]
     },
     {
+      "id": "Hainrixz/all-deploy",
+      "name": "all-deploy",
+      "description": "Deploys any web app, API, or agent to the internet with a strict pre-deploy audit and a preview → health-check → prod flow. Detects Next, Vite, Astro, Remix, Nuxt, SvelteKit, FastAPI, Flask, Express, MCP server, Claude Agent SDK script, Python worker, Dockerized, and static projects; routes to Vercel, Railway, Docker+SSH VPS, or cloudflared tunnel. Also supports a first-class \"run locally\" mode. At the start of each cloud deploy the skill asks the user whether to run full-auto (audit → preview → prod in one sequence) or step-by-step (confirm each phase); the user can skip that question by saying \"auto\" or \"step by step\" up front. Use when the user says \"/all-deploy\", \"/deploy\", \"/despliega\", \"deploy this\", \"ship this\", \"push to prod\", \"get this online\", \"deploy my agent\", \"deploy my FastAPI\", \"run it locally\", \"corre esto localmente\", \"deploy auto\", \"deploy step by step\", \"paso a paso\", \"how do I put this on the internet\", or otherwise asks to publish a project to a URL or run it locally.\n",
+      "categories": ["Development", "DevOps", "Design", "Research", "AI & ML"],
+      "author": "Hainrixz",
+      "repo": "Hainrixz/all-deploy",
+      "path": "",
+      "commitHash": "0e07b9161fe2",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "meshy-dev/meshy-3d-agent/skills/meshy-openclaw",
       "name": "meshy-3d-agent",
       "description": "Generate 3D models, textures, images, rig characters, animate them, and prepare for 3D printing using the Meshy AI API. Handles API key detection, task creation, polling, downloading, and full 3D print pipeline with slicer integration. Use when the user asks to create 3D models, convert text/images to 3D, texture models, rig or animate characters, 3D print a model, or interact with the Meshy API.",
@@ -5596,7 +5638,7 @@
       "author": "LessUp",
       "repo": "LessUp/cursor-rules",
       "path": ".claude/skills/rule-curation",
-      "commitHash": "7bbb4950a254",
+      "commitHash": "d6ba1845ab84",
       "files": ["SKILL.md"]
     },
     {
@@ -5607,7 +5649,7 @@
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/deep-read-to-delta",
-      "commitHash": "5442554d072c",
+      "commitHash": "a9ed00754d0f",
       "files": ["SKILL.md"]
     },
     {
@@ -5618,7 +5660,7 @@
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/delta-update-protocol",
-      "commitHash": "5442554d072c",
+      "commitHash": "a9ed00754d0f",
       "files": ["SKILL.md"]
     },
     {
@@ -5629,29 +5671,29 @@
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/gap-driven-search",
-      "commitHash": "5442554d072c",
+      "commitHash": "a9ed00754d0f",
       "files": ["SKILL.md"]
     },
     {
       "id": "QZhang2111/Research-Pilot/skills/paper-discovery-intake",
       "name": "paper-discovery-intake",
-      "description": "Use when the user wants to add Zotero-first paper/source identity into a Research Pilot project.",
+      "description": "Use when the user wants to add source identity from PDF, URL, arXiv, DOI, note, experiment result, manual reference, or Zotero item into a Research Pilot project.",
       "categories": ["Research"],
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/paper-discovery-intake",
-      "commitHash": "5442554d072c",
+      "commitHash": "a9ed00754d0f",
       "files": ["SKILL.md"]
     },
     {
       "id": "QZhang2111/Research-Pilot/skills/project-evidence-synthesis",
       "name": "project-evidence-synthesis",
-      "description": "Use when a set of papers, dossiers, or graph records must be synthesized into project claims, evidence, limitations, warrants, project deltas, and next actions.",
-      "categories": ["Other"],
+      "description": "Use when a set of sources, dossiers, graph records, or experiment notes must be synthesized into project understanding, evidence pressure, uncertainty, and optional strict-review graph proposals.",
+      "categories": ["Research"],
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/project-evidence-synthesis",
-      "commitHash": "5442554d072c",
+      "commitHash": "a9ed00754d0f",
       "files": ["SKILL.md"]
     },
     {
@@ -5662,7 +5704,7 @@
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/project-experiment-proposal",
-      "commitHash": "5442554d072c",
+      "commitHash": "a9ed00754d0f",
       "files": ["SKILL.md"]
     },
     {
@@ -5673,7 +5715,7 @@
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/project-gap-analysis",
-      "commitHash": "5442554d072c",
+      "commitHash": "a9ed00754d0f",
       "files": ["SKILL.md"]
     },
     {
@@ -5684,7 +5726,7 @@
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/project-gap-discovery",
-      "commitHash": "5442554d072c",
+      "commitHash": "a9ed00754d0f",
       "files": ["SKILL.md"]
     },
     {
@@ -5695,18 +5737,18 @@
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/project-next-action",
-      "commitHash": "5442554d072c",
+      "commitHash": "a9ed00754d0f",
       "files": ["SKILL.md"]
     },
     {
       "id": "QZhang2111/Research-Pilot/skills/project-understanding-update",
       "name": "project-understanding-update",
-      "description": "Use when a research project needs its current understanding updated from human intent, new questions, new claims, evidence pressure, paper synthesis, experiment results, or direction changes.",
+      "description": "Use when a research project needs normal project memory updated from human intent, sources, evidence pressure, experiment results, or direction changes; strict graph review is optional advanced mode.",
       "categories": ["Research"],
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/project-understanding-update",
-      "commitHash": "5442554d072c",
+      "commitHash": "a9ed00754d0f",
       "files": ["SKILL.md"]
     },
     {
@@ -5717,40 +5759,40 @@
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/related-work-lineage",
-      "commitHash": "5442554d072c",
+      "commitHash": "a9ed00754d0f",
       "files": ["SKILL.md"]
     },
     {
       "id": "QZhang2111/Research-Pilot/skills/research-pilot-first-run",
       "name": "research-pilot-first-run",
-      "description": "Use when a new user wants to start Research Pilot from scratch, initialize or inspect a workspace, create the first project, or make the first human-gated project graph update.",
+      "description": "Use when a new user wants an agent to start Research Pilot from scratch, create or inspect a local workspace, create the first project, or begin project tracking.",
       "categories": ["Research"],
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/research-pilot-first-run",
-      "commitHash": "5442554d072c",
+      "commitHash": "a9ed00754d0f",
       "files": ["SKILL.md"]
     },
     {
       "id": "QZhang2111/Research-Pilot/skills/research-pilot",
       "name": "research-pilot",
-      "description": "Use when the user wants to initialize, inspect, or operate a Research Pilot workspace for agent-operated research memory.",
+      "description": "Use when the user wants an agent to track, inspect, or operate Research Pilot project memory through natural chat.",
       "categories": ["Research"],
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/research-pilot",
-      "commitHash": "5442554d072c",
+      "commitHash": "a9ed00754d0f",
       "files": ["SKILL.md"]
     },
     {
       "id": "QZhang2111/Research-Pilot/skills/single-paper-deep-read",
       "name": "single-paper-deep-read",
-      "description": "Use when the user wants an agent to create or update a project-local paper dossier from one Zotero-managed paper or source identity.",
-      "categories": ["Productivity"],
+      "description": "Use when the user wants an agent to create or update a project-local source/paper note from a PDF, URL, arXiv, DOI, manual source, or Zotero item.",
+      "categories": ["Other"],
       "author": "QZhang2111",
       "repo": "QZhang2111/Research-Pilot",
       "path": "skills/single-paper-deep-read",
-      "commitHash": "5442554d072c",
+      "commitHash": "a9ed00754d0f",
       "files": ["SKILL.md"]
     },
     {
@@ -5761,7 +5803,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/security-audit",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5772,7 +5814,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/refactoring",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5783,7 +5825,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-ranking",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5794,7 +5836,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-visualization",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5805,7 +5847,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/meeting-transcription",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5816,7 +5858,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-deployment",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5827,7 +5869,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-analysis",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5838,7 +5880,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/content-strategy",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5849,7 +5891,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/proofreading",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5860,7 +5902,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/summarization",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5871,7 +5913,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/report-generation",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5882,7 +5924,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/fact-checking",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5893,7 +5935,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/copywriting",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5904,7 +5946,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/docker-compose-setup",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5915,7 +5957,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-retrieval",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5926,7 +5968,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-compression",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5937,7 +5979,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/ml-pipeline-creation",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5948,7 +5990,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/keyword-research",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5959,7 +6001,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/graphql-api-design",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5970,7 +6012,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dynamic-application-security-testing",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5981,7 +6023,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-backup",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -5992,7 +6034,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-cleaning",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6003,7 +6045,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/oauth-2-0-setup",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6014,7 +6056,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-injection",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6025,7 +6067,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/exploratory-data-analysis",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6036,7 +6078,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-optimization",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6047,7 +6089,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-seeding",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6058,7 +6100,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-design",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6069,7 +6111,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/ci-cd",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6080,7 +6122,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/threat-modeling",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6091,7 +6133,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/literature-review",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6102,7 +6144,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/chatbot-conversation-design",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6113,7 +6155,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/task-automation",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6124,7 +6166,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/cloud-monitoring",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6135,7 +6177,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/static-application-security-testing",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6146,7 +6188,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/code-documentation",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6157,7 +6199,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/query-optimization",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6168,7 +6210,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-schema-design",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6179,7 +6221,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/webhook-setup",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6190,7 +6232,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/seo-optimization",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6201,7 +6243,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/note-taking",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6212,7 +6254,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/blog-post-writing",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6223,7 +6265,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/hyperparameter-tuning",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6234,7 +6276,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/sql-query-generation",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6245,7 +6287,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dependency-scanning",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6256,7 +6298,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-training",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6267,7 +6309,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/version-control",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6278,7 +6320,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/technical-writing",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6289,7 +6331,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/social-media-posting",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6300,7 +6342,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/data-labeling",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6311,7 +6353,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/presentation-creation",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6322,7 +6364,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/analytics-reporting",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6333,7 +6375,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/translation",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6344,7 +6386,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/email-drafting",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6355,7 +6397,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-integration",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6366,7 +6408,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/knowledge-graph-creation",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6377,7 +6419,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/kubernetes-deployment",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6388,7 +6430,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/infrastructure-as-code",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6399,7 +6441,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-migration",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -6410,7 +6452,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/deep-research",
-      "commitHash": "f03159c893c9",
+      "commitHash": "c59a8daf00e9",
       "files": ["SKILL.md"]
     },
     {
@@ -13940,7 +13982,7 @@
       "author": "cucupac",
       "repo": "cucupac/shellbrain",
       "path": "onboarding_assets/claude/skills/shellbrain",
-      "commitHash": "15746e49790b",
+      "commitHash": "aaa86daa18fb",
       "files": ["SKILL.md"]
     },
     {
@@ -13951,7 +13993,7 @@
       "author": "cucupac",
       "repo": "cucupac/shellbrain",
       "path": "onboarding_assets/codex/clean-architecture",
-      "commitHash": "15746e49790b",
+      "commitHash": "aaa86daa18fb",
       "files": ["SKILL.md"]
     },
     {
@@ -13962,7 +14004,7 @@
       "author": "cucupac",
       "repo": "cucupac/shellbrain",
       "path": "onboarding_assets/codex/clean-code",
-      "commitHash": "15746e49790b",
+      "commitHash": "aaa86daa18fb",
       "files": ["SKILL.md"]
     },
     {
@@ -13973,7 +14015,7 @@
       "author": "cucupac",
       "repo": "cucupac/shellbrain",
       "path": "onboarding_assets/codex/shellbrain-usage-review",
-      "commitHash": "15746e49790b",
+      "commitHash": "aaa86daa18fb",
       "files": ["SKILL.md", "agents", "assets"]
     },
     {
@@ -16276,6 +16318,17 @@
       "path": "skills/jira",
       "commitHash": "507609844c9c",
       "files": ["README.md", "SKILL.md", "references"]
+    },
+    {
+      "id": "softaworks/agent-toolkit/skills/gemini",
+      "name": "gemini",
+      "description": "Use when the user asks to run Gemini CLI for code review, plan review, or big context (>200k) processing. Ideal for comprehensive analysis requiring large context windows. Uses Gemini 3 Pro by default for state-of-the-art reasoning and coding.",
+      "categories": ["Development", "Design"],
+      "author": "softaworks",
+      "repo": "softaworks/agent-toolkit",
+      "path": "skills/gemini",
+      "commitHash": "06825f04669d",
+      "files": ["README.md", "SKILL.md"]
     },
     {
       "id": "softaworks/agent-toolkit/skills/gepetto",
