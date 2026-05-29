@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generatedAt": "2026-05-29T18:03:14.551Z",
-    "totalSkills": 6704,
+    "generatedAt": "2026-05-29T23:18:43.573Z",
+    "totalSkills": 6634,
     "localSkills": 0,
     "prioritySkills": 91,
-    "remoteSkills": 6613,
+    "remoteSkills": 6543,
     "apiVersion": "1.1",
     "rateLimited": false,
     "timedOut": true,
     "zipTimedOut": true,
-    "executionTimeMs": 19047496,
+    "executionTimeMs": 18901446,
     "compact": true,
     "chunks": ["skills-1.json", "skills-2.json"]
   },
@@ -17,23 +17,23 @@
     "anthropics/skills": {
       "url": "https://github.com/anthropics/skills",
       "branch": "main",
-      "stars": 143365,
-      "forks": 16924,
+      "stars": 143509,
+      "forks": 16932,
       "lastUpdated": "2026-05-29T02:02:28Z"
     },
     "vercel-labs/agent-skills": {
       "url": "https://github.com/vercel-labs/agent-skills",
       "branch": "main",
-      "stars": 27291,
-      "forks": 2467,
-      "lastUpdated": "2026-05-27T01:44:19Z"
+      "stars": 27298,
+      "forks": 2469,
+      "lastUpdated": "2026-05-29T13:20:55Z"
     },
     "openai/skills": {
       "url": "https://github.com/openai/skills",
       "branch": "main",
-      "stars": 20794,
-      "forks": 1388,
-      "lastUpdated": "2026-05-21T18:13:40Z"
+      "stars": 20819,
+      "forks": 1392,
+      "lastUpdated": "2026-05-29T16:20:41Z"
     },
     "huggingface/skills": {
       "url": "https://github.com/huggingface/skills",
@@ -52,184 +52,184 @@
     "n8n-io/n8n": {
       "url": "https://github.com/n8n-io/n8n",
       "branch": "master",
-      "stars": 190196,
-      "forks": 58123,
-      "lastUpdated": "2026-05-29T12:44:20Z"
+      "stars": 190238,
+      "forks": 58126,
+      "lastUpdated": "2026-05-29T17:56:56Z"
     },
     "google-gemini/gemini-cli": {
       "url": "https://github.com/google-gemini/gemini-cli",
       "branch": "main",
-      "stars": 104706,
-      "forks": 13928,
-      "lastUpdated": "2026-05-29T01:36:41Z"
+      "stars": 104712,
+      "forks": 13932,
+      "lastUpdated": "2026-05-29T17:00:18Z"
     },
     "thedotmack/claude-mem": {
       "url": "https://github.com/thedotmack/claude-mem",
       "branch": "main",
-      "stars": 79527,
-      "forks": 6832,
-      "lastUpdated": "2026-05-29T02:01:20Z"
+      "stars": 79577,
+      "forks": 6844,
+      "lastUpdated": "2026-05-29T17:55:56Z"
     },
     "ComposioHQ/awesome-claude-skills": {
       "url": "https://github.com/ComposioHQ/awesome-claude-skills",
       "branch": "master",
-      "stars": 62385,
-      "forks": 6832,
+      "stars": 62404,
+      "forks": 6833,
       "lastUpdated": "2026-05-22T03:17:49Z"
     },
     "code-yeongyu/oh-my-openagent": {
       "url": "https://github.com/code-yeongyu/oh-my-openagent",
       "branch": "dev",
-      "stars": 60081,
-      "forks": 4884,
+      "stars": 60126,
+      "forks": 4886,
       "lastUpdated": "2026-05-29T10:09:23Z"
     },
     "upstash/context7": {
       "url": "https://github.com/upstash/context7",
       "branch": "master",
-      "stars": 56359,
-      "forks": 2664,
+      "stars": 56374,
+      "forks": 2665,
       "lastUpdated": "2026-05-26T08:53:21Z"
     },
     "ruvnet/ruflo": {
       "url": "https://github.com/ruvnet/ruflo",
       "branch": "main",
-      "stars": 56281,
-      "forks": 6405,
-      "lastUpdated": "2026-05-29T12:43:25Z"
+      "stars": 56354,
+      "forks": 6410,
+      "lastUpdated": "2026-05-29T17:37:40Z"
     },
     "nexu-io/open-design": {
       "url": "https://github.com/nexu-io/open-design",
       "branch": "main",
-      "stars": 55226,
-      "forks": 6254,
-      "lastUpdated": "2026-05-29T12:43:04Z"
+      "stars": 55363,
+      "forks": 6268,
+      "lastUpdated": "2026-05-29T14:23:25Z"
     },
     "D4Vinci/Scrapling": {
       "url": "https://github.com/D4Vinci/Scrapling",
       "branch": "main",
-      "stars": 54820,
-      "forks": 5285,
+      "stars": 54936,
+      "forks": 5299,
       "lastUpdated": "2026-05-27T21:53:59Z"
     },
     "addyosmani/agent-skills": {
       "url": "https://github.com/addyosmani/agent-skills",
       "branch": "main",
-      "stars": 46809,
-      "forks": 5188,
+      "stars": 46856,
+      "forks": 5190,
       "lastUpdated": "2026-05-28T06:47:30Z"
     },
     "CherryHQ/cherry-studio": {
       "url": "https://github.com/CherryHQ/cherry-studio",
       "branch": "main",
-      "stars": 46552,
-      "forks": 4420,
-      "lastUpdated": "2026-05-29T12:42:16Z"
+      "stars": 46567,
+      "forks": 4422,
+      "lastUpdated": "2026-05-29T18:04:17Z"
     },
     "Lum1104/Understand-Anything": {
       "url": "https://github.com/Lum1104/Understand-Anything",
       "branch": "main",
-      "stars": 43914,
-      "forks": 3506,
+      "stars": 44239,
+      "forks": 3535,
       "lastUpdated": "2026-05-26T05:09:57Z"
     },
     "ChromeDevTools/chrome-devtools-mcp": {
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "branch": "main",
-      "stars": 42228,
-      "forks": 2699,
+      "stars": 42251,
+      "forks": 2700,
       "lastUpdated": "2026-05-28T17:20:10Z"
     },
     "sickn33/antigravity-awesome-skills": {
       "url": "https://github.com/sickn33/antigravity-awesome-skills",
       "branch": "main",
-      "stars": 39082,
-      "forks": 6358,
+      "stars": 39113,
+      "forks": 6360,
       "lastUpdated": "2026-05-29T07:22:27Z"
     },
     "wshobson/agents": {
       "url": "https://github.com/wshobson/agents",
       "branch": "main",
-      "stars": 36115,
+      "stars": 36126,
       "forks": 3919,
-      "lastUpdated": "2026-05-26T15:30:34Z"
+      "lastUpdated": "2026-05-29T17:22:17Z"
     },
     "github/awesome-copilot": {
       "url": "https://github.com/github/awesome-copilot",
       "branch": "main",
-      "stars": 34093,
+      "stars": 34104,
       "forks": 4166,
-      "lastUpdated": "2026-05-29T04:10:25Z"
+      "lastUpdated": "2026-05-29T17:58:59Z"
     },
     "nanocoai/nanoclaw": {
       "url": "https://github.com/nanocoai/nanoclaw",
       "branch": "main",
-      "stars": 29523,
-      "forks": 12883,
+      "stars": 29526,
+      "forks": 12884,
       "lastUpdated": "2026-05-28T19:41:37Z"
     },
     "assafelovic/gpt-researcher": {
       "url": "https://github.com/assafelovic/gpt-researcher",
       "branch": "main",
-      "stars": 27378,
-      "forks": 3684,
+      "stars": 27380,
+      "forks": 3685,
       "lastUpdated": "2026-05-28T07:41:25Z"
     },
     "K-Dense-AI/scientific-agent-skills": {
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "branch": "main",
-      "stars": 26512,
+      "stars": 26533,
       "forks": 2742,
       "lastUpdated": "2026-05-28T22:52:15Z"
     },
     "PrefectHQ/fastmcp": {
       "url": "https://github.com/PrefectHQ/fastmcp",
       "branch": "main",
-      "stars": 25382,
+      "stars": 25385,
       "forks": 2042,
       "lastUpdated": "2026-05-27T23:46:04Z"
     },
     "activepieces/activepieces": {
       "url": "https://github.com/activepieces/activepieces",
       "branch": "main",
-      "stars": 22468,
-      "forks": 3717,
-      "lastUpdated": "2026-05-29T11:18:44Z"
+      "stars": 22472,
+      "forks": 3716,
+      "lastUpdated": "2026-05-29T17:34:39Z"
     },
     "OthmanAdi/planning-with-files": {
       "url": "https://github.com/OthmanAdi/planning-with-files",
       "branch": "master",
-      "stars": 22308,
+      "stars": 22322,
       "forks": 1981,
       "lastUpdated": "2026-05-26T09:29:04Z"
     },
     "czlonkowski/n8n-mcp": {
       "url": "https://github.com/czlonkowski/n8n-mcp",
       "branch": "main",
-      "stars": 21346,
+      "stars": 21355,
       "forks": 3464,
       "lastUpdated": "2026-05-23T22:17:30Z"
     },
     "JimLiu/baoyu-skills": {
       "url": "https://github.com/JimLiu/baoyu-skills",
       "branch": "main",
-      "stars": 19845,
-      "forks": 2315,
+      "stars": 19861,
+      "forks": 2319,
       "lastUpdated": "2026-05-28T04:26:49Z"
     },
     "zarazhangrui/frontend-slides": {
       "url": "https://github.com/zarazhangrui/frontend-slides",
       "branch": "main",
-      "stars": 19551,
-      "forks": 1608,
+      "stars": 19578,
+      "forks": 1609,
       "lastUpdated": "2026-05-26T18:17:56Z"
     },
     "nukeop/nuclear": {
       "url": "https://github.com/nukeop/nuclear",
       "branch": "master",
-      "stars": 17692,
+      "stars": 17694,
       "forks": 1286,
-      "lastUpdated": "2026-05-29T10:57:32Z"
+      "lastUpdated": "2026-05-29T14:45:49Z"
     },
     "kubesphere/kubesphere": {
       "url": "https://github.com/kubesphere/kubesphere",
@@ -241,142 +241,142 @@
     "alirezarezvani/claude-skills": {
       "url": "https://github.com/alirezarezvani/claude-skills",
       "branch": "main",
-      "stars": 16498,
-      "forks": 2272,
-      "lastUpdated": "2026-05-29T05:09:23Z"
+      "stars": 16516,
+      "forks": 2274,
+      "lastUpdated": "2026-05-29T15:33:08Z"
     },
     "mksglu/context-mode": {
       "url": "https://github.com/mksglu/context-mode",
       "branch": "main",
-      "stars": 15961,
+      "stars": 15970,
       "forks": 1146,
-      "lastUpdated": "2026-05-29T07:15:36Z"
+      "lastUpdated": "2026-05-29T16:30:45Z"
     },
     "teng-lin/notebooklm-py": {
       "url": "https://github.com/teng-lin/notebooklm-py",
       "branch": "main",
-      "stars": 15461,
-      "forks": 2116,
-      "lastUpdated": "2026-05-29T11:05:03Z"
+      "stars": 15489,
+      "forks": 2120,
+      "lastUpdated": "2026-05-29T15:05:29Z"
     },
     "triggerdotdev/trigger.dev": {
       "url": "https://github.com/triggerdotdev/trigger.dev",
       "branch": "main",
-      "stars": 15140,
+      "stars": 15147,
       "forks": 1273,
-      "lastUpdated": "2026-05-29T08:05:32Z"
+      "lastUpdated": "2026-05-29T17:57:08Z"
     },
     "eigent-ai/eigent": {
       "url": "https://github.com/eigent-ai/eigent",
       "branch": "main",
-      "stars": 14147,
+      "stars": 14150,
       "forks": 1672,
-      "lastUpdated": "2026-05-29T08:19:48Z"
+      "lastUpdated": "2026-05-29T12:54:53Z"
     },
     "open-metadata/OpenMetadata": {
       "url": "https://github.com/open-metadata/OpenMetadata",
       "branch": "main",
-      "stars": 14054,
+      "stars": 14055,
       "forks": 2125,
-      "lastUpdated": "2026-05-29T12:45:54Z"
+      "lastUpdated": "2026-05-29T17:57:58Z"
     },
     "xpzouying/xiaohongshu-mcp": {
       "url": "https://github.com/xpzouying/xiaohongshu-mcp",
       "branch": "main",
-      "stars": 13860,
-      "forks": 2098,
-      "lastUpdated": "2026-05-28T09:02:36Z"
+      "stars": 13864,
+      "forks": 2099,
+      "lastUpdated": "2026-05-29T12:50:29Z"
     },
     "yusufkaraaslan/Skill_Seekers": {
       "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
       "branch": "development",
-      "stars": 13807,
-      "forks": 1427,
+      "stars": 13811,
+      "forks": 1430,
       "lastUpdated": "2026-05-25T20:37:20Z"
     },
     "Yuan1z0825/nature-skills": {
       "url": "https://github.com/Yuan1z0825/nature-skills",
       "branch": "main",
-      "stars": 13681,
-      "forks": 849,
-      "lastUpdated": "2026-05-29T11:27:00Z"
+      "stars": 13755,
+      "forks": 853,
+      "lastUpdated": "2026-05-29T17:28:13Z"
     },
     "ComposioHQ/awesome-codex-skills": {
       "url": "https://github.com/ComposioHQ/awesome-codex-skills",
       "branch": "master",
-      "stars": 12405,
-      "forks": 1187,
+      "stars": 12439,
+      "forks": 1190,
       "lastUpdated": "2026-05-15T06:24:47Z"
     },
     "phuryn/pm-skills": {
       "url": "https://github.com/phuryn/pm-skills",
       "branch": "main",
-      "stars": 11725,
-      "forks": 1385,
+      "stars": 11731,
+      "forks": 1387,
       "lastUpdated": "2026-05-20T18:36:36Z"
     },
     "wanshuiyin/Auto-claude-code-research-in-sleep": {
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
       "branch": "main",
-      "stars": 10977,
-      "forks": 1035,
+      "stars": 10988,
+      "forks": 1036,
       "lastUpdated": "2026-05-29T07:49:05Z"
     },
     "aden-hive/hive": {
       "url": "https://github.com/aden-hive/hive",
       "branch": "main",
       "stars": 10452,
-      "forks": 5664,
+      "forks": 5663,
       "lastUpdated": "2026-05-22T19:18:56Z"
     },
     "mcp-use/mcp-use": {
       "url": "https://github.com/mcp-use/mcp-use",
       "branch": "main",
       "stars": 10012,
-      "forks": 1306,
-      "lastUpdated": "2026-05-29T10:57:26Z"
+      "forks": 1307,
+      "lastUpdated": "2026-05-29T15:51:18Z"
     },
     "Jeffallan/claude-skills": {
       "url": "https://github.com/Jeffallan/claude-skills",
       "branch": "main",
-      "stars": 9478,
+      "stars": 9480,
       "forks": 806,
       "lastUpdated": "2026-05-20T13:35:05Z"
     },
     "awslabs/mcp": {
       "url": "https://github.com/awslabs/mcp",
       "branch": "main",
-      "stars": 9151,
+      "stars": 9152,
       "forks": 1549,
       "lastUpdated": "2026-05-29T07:43:14Z"
     },
     "Orchestra-Research/AI-Research-SKILLs": {
       "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
       "branch": "main",
-      "stars": 9069,
+      "stars": 9077,
       "forks": 693,
       "lastUpdated": "2026-04-28T05:09:27Z"
     },
     "mrexodia/ida-pro-mcp": {
       "url": "https://github.com/mrexodia/ida-pro-mcp",
       "branch": "main",
-      "stars": 8965,
+      "stars": 8972,
       "forks": 1068,
       "lastUpdated": "2026-05-29T12:23:58Z"
     },
     "nidhinjs/prompt-master": {
       "url": "https://github.com/nidhinjs/prompt-master",
       "branch": "main",
-      "stars": 8493,
-      "forks": 977,
+      "stars": 8504,
+      "forks": 978,
       "lastUpdated": "2026-05-03T16:39:19Z"
     },
     "brokermr810/QuantDinger": {
       "url": "https://github.com/brokermr810/QuantDinger",
       "branch": "main",
-      "stars": 6898,
-      "forks": 1491,
-      "lastUpdated": "2026-05-28T15:36:33Z"
+      "stars": 6916,
+      "forks": 1496,
+      "lastUpdated": "2026-05-29T14:04:24Z"
     },
     "htmlstreamofficial/preline": {
       "url": "https://github.com/htmlstreamofficial/preline",
@@ -388,14 +388,14 @@
     "ThinkInAIXYZ/deepchat": {
       "url": "https://github.com/ThinkInAIXYZ/deepchat",
       "branch": "dev",
-      "stars": 5851,
+      "stars": 5850,
       "forks": 668,
-      "lastUpdated": "2026-05-29T05:45:47Z"
+      "lastUpdated": "2026-05-29T16:08:44Z"
     },
     "getsentry/XcodeBuildMCP": {
       "url": "https://github.com/getsentry/XcodeBuildMCP",
       "branch": "main",
-      "stars": 5771,
+      "stars": 5776,
       "forks": 285,
       "lastUpdated": "2026-05-29T10:38:40Z"
     },
@@ -409,30 +409,30 @@
     "AgriciDaniel/claude-obsidian": {
       "url": "https://github.com/AgriciDaniel/claude-obsidian",
       "branch": "main",
-      "stars": 5717,
-      "forks": 658,
+      "stars": 5733,
+      "forks": 661,
       "lastUpdated": "2026-05-28T00:42:43Z"
     },
     "trailofbits/skills": {
       "url": "https://github.com/trailofbits/skills",
       "branch": "main",
-      "stars": 5465,
+      "stars": 5468,
       "forks": 483,
       "lastUpdated": "2026-05-27T20:58:55Z"
     },
     "nexu-io/html-anything": {
       "url": "https://github.com/nexu-io/html-anything",
       "branch": "main",
-      "stars": 5350,
+      "stars": 5361,
       "forks": 534,
       "lastUpdated": "2026-05-29T03:01:48Z"
     },
     "maximhq/bifrost": {
       "url": "https://github.com/maximhq/bifrost",
       "branch": "dev",
-      "stars": 5329,
-      "forks": 657,
-      "lastUpdated": "2026-05-29T12:41:49Z"
+      "stars": 5334,
+      "forks": 659,
+      "lastUpdated": "2026-05-29T17:32:32Z"
     },
     "CCOSTAN/Home-AssistantConfig": {
       "url": "https://github.com/CCOSTAN/Home-AssistantConfig",
@@ -451,14 +451,14 @@
     "breaking-brake/cc-wf-studio": {
       "url": "https://github.com/breaking-brake/cc-wf-studio",
       "branch": "main",
-      "stars": 5071,
+      "stars": 5070,
       "forks": 553,
       "lastUpdated": "2026-05-26T01:30:01Z"
     },
     "deanpeters/Product-Manager-Skills": {
       "url": "https://github.com/deanpeters/Product-Manager-Skills",
       "branch": "main",
-      "stars": 4610,
+      "stars": 4616,
       "forks": 589,
       "lastUpdated": "2026-05-20T12:25:44Z"
     },
@@ -466,27 +466,27 @@
       "url": "https://github.com/exa-labs/exa-mcp-server",
       "branch": "main",
       "stars": 4497,
-      "forks": 341,
+      "forks": 343,
       "lastUpdated": "2026-05-22T19:09:28Z"
     },
     "modelcontextprotocol/csharp-sdk": {
       "url": "https://github.com/modelcontextprotocol/csharp-sdk",
       "branch": "main",
       "stars": 4296,
-      "forks": 709,
+      "forks": 710,
       "lastUpdated": "2026-05-28T20:57:03Z"
     },
     "jnMetaCode/superpowers-zh": {
       "url": "https://github.com/jnMetaCode/superpowers-zh",
       "branch": "main",
-      "stars": 4242,
-      "forks": 414,
+      "stars": 4252,
+      "forks": 416,
       "lastUpdated": "2026-05-24T09:32:55Z"
     },
     "gosom/google-maps-scraper": {
       "url": "https://github.com/gosom/google-maps-scraper",
       "branch": "main",
-      "stars": 4187,
+      "stars": 4190,
       "forks": 626,
       "lastUpdated": "2026-05-01T04:33:35Z"
     },
@@ -500,9 +500,9 @@
     "archestra-ai/archestra": {
       "url": "https://github.com/archestra-ai/archestra",
       "branch": "main",
-      "stars": 3753,
+      "stars": 3754,
       "forks": 915,
-      "lastUpdated": "2026-05-29T12:46:05Z"
+      "lastUpdated": "2026-05-29T18:00:29Z"
     },
     "glitternetwork/pinme": {
       "url": "https://github.com/glitternetwork/pinme",
@@ -514,9 +514,9 @@
     "dagucloud/dagu": {
       "url": "https://github.com/dagucloud/dagu",
       "branch": "main",
-      "stars": 3432,
+      "stars": 3433,
       "forks": 273,
-      "lastUpdated": "2026-05-29T09:36:50Z"
+      "lastUpdated": "2026-05-29T16:13:52Z"
     },
     "gotalab/cc-sdd": {
       "url": "https://github.com/gotalab/cc-sdd",
@@ -528,49 +528,49 @@
     "huangjunsen0406/py-xiaozhi": {
       "url": "https://github.com/huangjunsen0406/py-xiaozhi",
       "branch": "main",
-      "stars": 3329,
+      "stars": 3331,
       "forks": 696,
       "lastUpdated": "2026-05-25T09:38:37Z"
     },
     "dotnet/skills": {
       "url": "https://github.com/dotnet/skills",
       "branch": "main",
-      "stars": 3177,
-      "forks": 234,
-      "lastUpdated": "2026-05-29T09:08:17Z"
+      "stars": 3181,
+      "forks": 235,
+      "lastUpdated": "2026-05-29T16:17:26Z"
     },
     "davepoon/buildwithclaude": {
       "url": "https://github.com/davepoon/buildwithclaude",
       "branch": "main",
-      "stars": 2982,
-      "forks": 360,
+      "stars": 2984,
+      "forks": 361,
       "lastUpdated": "2026-05-26T11:47:19Z"
     },
     "Manavarya09/design-extract": {
       "url": "https://github.com/Manavarya09/design-extract",
       "branch": "main",
-      "stars": 2965,
-      "forks": 266,
+      "stars": 2967,
+      "forks": 267,
       "lastUpdated": "2026-05-28T06:13:31Z"
     },
     "IvanMurzak/Unity-MCP": {
       "url": "https://github.com/IvanMurzak/Unity-MCP",
       "branch": "main",
-      "stars": 2936,
-      "forks": 272,
+      "stars": 2940,
+      "forks": 273,
       "lastUpdated": "2026-05-28T10:20:09Z"
     },
     "atilaahmettaner/tradingview-mcp": {
       "url": "https://github.com/atilaahmettaner/tradingview-mcp",
       "branch": "main",
-      "stars": 2880,
+      "stars": 2886,
       "forks": 618,
-      "lastUpdated": "2026-05-26T15:04:32Z"
+      "lastUpdated": "2026-05-29T13:08:01Z"
     },
     "bytebase/dbhub": {
       "url": "https://github.com/bytebase/dbhub",
       "branch": "main",
-      "stars": 2857,
+      "stars": 2858,
       "forks": 239,
       "lastUpdated": "2026-04-21T10:55:33Z"
     },
@@ -584,8 +584,8 @@
     "OpenSenseNova/SenseNova-Skills": {
       "url": "https://github.com/OpenSenseNova/SenseNova-Skills",
       "branch": "main",
-      "stars": 2763,
-      "forks": 205,
+      "stars": 2784,
+      "forks": 206,
       "lastUpdated": "2026-05-27T02:22:12Z"
     },
     "punitarani/fli": {
@@ -598,28 +598,28 @@
     "nowork-studio/NotFair": {
       "url": "https://github.com/nowork-studio/NotFair",
       "branch": "main",
-      "stars": 2696,
-      "forks": 330,
+      "stars": 2699,
+      "forks": 331,
       "lastUpdated": "2026-05-29T05:59:06Z"
     },
     "deedy5/ddgs": {
       "url": "https://github.com/deedy5/ddgs",
       "branch": "main",
-      "stars": 2682,
+      "stars": 2683,
       "forks": 257,
       "lastUpdated": "2026-05-23T21:32:02Z"
     },
     "rusq/slackdump": {
       "url": "https://github.com/rusq/slackdump",
       "branch": "master",
-      "stars": 2610,
+      "stars": 2611,
       "forks": 142,
       "lastUpdated": "2026-05-23T11:14:28Z"
     },
     "geekjourneyx/md2wechat-skill": {
       "url": "https://github.com/geekjourneyx/md2wechat-skill",
       "branch": "main",
-      "stars": 2599,
+      "stars": 2605,
       "forks": 309,
       "lastUpdated": "2026-05-28T14:58:31Z"
     },
@@ -633,21 +633,21 @@
     "taylorwilsdon/google_workspace_mcp": {
       "url": "https://github.com/taylorwilsdon/google_workspace_mcp",
       "branch": "main",
-      "stars": 2506,
-      "forks": 768,
-      "lastUpdated": "2026-05-21T23:14:36Z"
+      "stars": 2507,
+      "forks": 769,
+      "lastUpdated": "2026-05-29T14:07:49Z"
     },
     "wuyoscar/GPT-Image2-Skill": {
       "url": "https://github.com/wuyoscar/GPT-Image2-Skill",
       "branch": "main",
-      "stars": 2490,
+      "stars": 2495,
       "forks": 233,
       "lastUpdated": "2026-05-23T09:30:10Z"
     },
     "0x0funky/agent-sprite-forge": {
       "url": "https://github.com/0x0funky/agent-sprite-forge",
       "branch": "main",
-      "stars": 2442,
+      "stars": 2447,
       "forks": 246,
       "lastUpdated": "2026-05-05T17:53:33Z"
     },
@@ -661,9 +661,9 @@
     "microsoft/skills": {
       "url": "https://github.com/microsoft/skills",
       "branch": "main",
-      "stars": 2409,
+      "stars": 2410,
       "forks": 270,
-      "lastUpdated": "2026-05-29T12:05:16Z"
+      "lastUpdated": "2026-05-29T17:26:58Z"
     },
     "heshengtao/super-agent-party": {
       "url": "https://github.com/heshengtao/super-agent-party",
@@ -675,28 +675,28 @@
     "yvgude/lean-ctx": {
       "url": "https://github.com/yvgude/lean-ctx",
       "branch": "main",
-      "stars": 2263,
+      "stars": 2266,
       "forks": 237,
-      "lastUpdated": "2026-05-29T09:17:43Z"
+      "lastUpdated": "2026-05-29T15:51:41Z"
     },
     "jeremylongshore/claude-code-plugins-plus-skills": {
       "url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills",
       "branch": "main",
-      "stars": 2257,
+      "stars": 2259,
       "forks": 313,
       "lastUpdated": "2026-05-29T05:04:38Z"
     },
     "rohitg00/pro-workflow": {
       "url": "https://github.com/rohitg00/pro-workflow",
       "branch": "main",
-      "stars": 2246,
+      "stars": 2247,
       "forks": 216,
       "lastUpdated": "2026-05-27T18:26:48Z"
     },
     "ljagiello/ctf-skills": {
       "url": "https://github.com/ljagiello/ctf-skills",
       "branch": "main",
-      "stars": 2213,
+      "stars": 2219,
       "forks": 276,
       "lastUpdated": "2026-05-01T23:53:33Z"
     },
@@ -712,7 +712,7 @@
       "branch": "master",
       "stars": 2151,
       "forks": 229,
-      "lastUpdated": "2026-05-29T10:46:54Z"
+      "lastUpdated": "2026-05-29T16:00:38Z"
     },
     "addyosmani/web-quality-skills": {
       "url": "https://github.com/addyosmani/web-quality-skills",
@@ -726,12 +726,12 @@
       "branch": "main",
       "stars": 2119,
       "forks": 279,
-      "lastUpdated": "2026-05-29T12:44:27Z"
+      "lastUpdated": "2026-05-29T15:38:48Z"
     },
     "glincker/thesvg": {
       "url": "https://github.com/glincker/thesvg",
       "branch": "main",
-      "stars": 2095,
+      "stars": 2094,
       "forks": 162,
       "lastUpdated": "2026-05-27T17:16:52Z"
     },
@@ -745,35 +745,35 @@
     "stickerdaniel/linkedin-mcp-server": {
       "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
       "branch": "main",
-      "stars": 2050,
-      "forks": 368,
+      "stars": 2054,
+      "forks": 370,
       "lastUpdated": "2026-05-29T06:12:32Z"
     },
     "runkids/skillshare": {
       "url": "https://github.com/runkids/skillshare",
       "branch": "main",
-      "stars": 2027,
+      "stars": 2032,
       "forks": 127,
-      "lastUpdated": "2026-05-29T08:41:34Z"
+      "lastUpdated": "2026-05-29T15:12:58Z"
     },
     "romainsimon/paperasse": {
       "url": "https://github.com/romainsimon/paperasse",
       "branch": "master",
-      "stars": 1999,
-      "forks": 126,
+      "stars": 2005,
+      "forks": 127,
       "lastUpdated": "2026-05-13T15:42:08Z"
     },
     "MCPJam/inspector": {
       "url": "https://github.com/MCPJam/inspector",
       "branch": "main",
-      "stars": 1975,
+      "stars": 1977,
       "forks": 232,
       "lastUpdated": "2026-05-29T03:59:37Z"
     },
     "Agents365-ai/drawio-skill": {
       "url": "https://github.com/Agents365-ai/drawio-skill",
       "branch": "main",
-      "stars": 1966,
+      "stars": 1970,
       "forks": 119,
       "lastUpdated": "2026-05-19T06:33:35Z"
     },
@@ -787,21 +787,21 @@
     "doobidoo/mcp-memory-service": {
       "url": "https://github.com/doobidoo/mcp-memory-service",
       "branch": "main",
-      "stars": 1911,
-      "forks": 297,
-      "lastUpdated": "2026-05-29T07:34:36Z"
+      "stars": 1910,
+      "forks": 298,
+      "lastUpdated": "2026-05-29T14:00:11Z"
     },
     "aaron-he-zhu/seo-geo-claude-skills": {
       "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
       "branch": "main",
-      "stars": 1878,
+      "stars": 1882,
       "forks": 259,
       "lastUpdated": "2026-05-14T08:11:30Z"
     },
     "samber/cc-skills-golang": {
       "url": "https://github.com/samber/cc-skills-golang",
       "branch": "main",
-      "stars": 1872,
+      "stars": 1874,
       "forks": 121,
       "lastUpdated": "2026-05-29T06:16:11Z"
     },
@@ -810,13 +810,13 @@
       "branch": "main",
       "stars": 1834,
       "forks": 221,
-      "lastUpdated": "2026-05-29T12:42:02Z"
+      "lastUpdated": "2026-05-29T16:28:08Z"
     },
     "WenyuChiou/awesome-agentic-ai-zh": {
       "url": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
       "branch": "main",
       "stars": 1803,
-      "forks": 204,
+      "forks": 206,
       "lastUpdated": "2026-05-27T00:17:15Z"
     },
     "timescale/pg-aiguide": {
@@ -829,8 +829,8 @@
     "ComposioHQ/awesome-claude-plugins": {
       "url": "https://github.com/ComposioHQ/awesome-claude-plugins",
       "branch": "master",
-      "stars": 1698,
-      "forks": 404,
+      "stars": 1699,
+      "forks": 405,
       "lastUpdated": "2026-05-01T07:08:01Z"
     }
   },
@@ -1331,7 +1331,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/pdf",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": ["LICENSE.txt", "SKILL.md", "agents/openai.yaml", "assets/pdf.png"]
     },
     {
@@ -1342,7 +1342,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/yeet",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1359,7 +1359,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/figma",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1379,13 +1379,30 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/sentry",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
         "agents/openai.yaml",
         "assets/sentry-small.svg",
         "assets/sentry.png"
+      ]
+    },
+    {
+      "id": "openai/skills/skills/.system/plugin-creator",
+      "name": "plugin-creator",
+      "description": "Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, and baseline placeholders you can edit before publishing or testing. Use when Codex needs to create a new local plugin, add optional plugin structure, or generate or update repo-root `.agents/plugins/marketplace.json` entries for plugin ordering and availability metadata.",
+      "categories": ["Development", "Writing", "Productivity", "Data & Analytics", "AI & ML"],
+      "author": "openai",
+      "repo": "openai/skills",
+      "path": "skills/.system/plugin-creator",
+      "commitHash": "a8924c2a35cf",
+      "files": [
+        "LICENSE.txt",
+        "SKILL.md",
+        "agents/openai.yaml",
+        "references/plugin-json-spec.md",
+        "scripts/create_basic_plugin.py"
       ]
     },
     {
@@ -1396,7 +1413,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/linear",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1413,7 +1430,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/speech",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1441,7 +1458,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.system/imagegen",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1464,7 +1481,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/gh-fix-ci",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1482,7 +1499,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/hatch-pet",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1508,7 +1525,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/figma-use",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.TXT",
         "SKILL.md",
@@ -1540,7 +1557,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/winui-app",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1572,7 +1589,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/playwright",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "NOTICE.txt",
@@ -1593,7 +1610,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/transcribe",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1607,12 +1624,12 @@
     {
       "id": "openai/skills/skills/.system/openai-docs",
       "name": "openai-docs",
-      "description": "Use when the user asks how to build with OpenAI products or APIs and needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade and prompt-upgrade guidance; prioritize OpenAI docs MCP tools, use bundled references only as helper context, and restrict any fallback browsing to official OpenAI domains.",
+      "description": "Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade and prompt-upgrade guidance; use OpenAI docs MCP tools for non-Codex docs questions, use the Codex manual helper first for broad Codex self-knowledge, and restrict fallback browsing to official OpenAI domains.",
       "categories": ["Development", "Writing", "Research", "AI & ML"],
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.system/openai-docs",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1622,6 +1639,7 @@
         "references/latest-model.md",
         "references/prompting-guide.md",
         "references/upgrade-guide.md",
+        "scripts/fetch-codex-manual.mjs",
         "scripts/resolve-latest-model-info.js"
       ]
     },
@@ -1633,7 +1651,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/screenshot",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1649,35 +1667,6 @@
       ]
     },
     {
-      "id": "openai/skills/skills/.curated/aspnet-core",
-      "name": "aspnet-core",
-      "description": "Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development. Use when working on Blazor Web Apps, Razor Pages, MVC, Minimal APIs, controller-based Web APIs, SignalR, gRPC, middleware, dependency injection, configuration, authentication, authorization, testing, performance, deployment, or ASP.NET Core upgrades.",
-      "categories": ["Development", "DevOps", "Security", "Research"],
-      "author": "openai",
-      "repo": "openai/skills",
-      "path": "skills/.curated/aspnet-core",
-      "commitHash": "b0401f07213a",
-      "files": [
-        "LICENSE.txt",
-        "SKILL.md",
-        "agents/openai.yaml",
-        "assets/dotnet-logo.png",
-        "references/_sections.md",
-        "references/apis-minimal-and-controllers.md",
-        "references/data-state-and-services.md",
-        "references/program-and-pipeline.md",
-        "references/realtime-grpc-and-background-work.md",
-        "references/security-and-identity.md",
-        "references/source-map.md",
-        "references/stack-selection.md",
-        "references/testing-performance-and-operations.md",
-        "references/ui-blazor.md",
-        "references/ui-mvc.md",
-        "references/ui-razor-pages.md",
-        "references/versioning-and-upgrades.md"
-      ]
-    },
-    {
       "id": "openai/skills/skills/.curated/define-goal",
       "name": "define-goal",
       "description": "Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goal tool, create a goal, set an objective, clarify success criteria, or turn a fuzzy intention into a quantitative outcome. Use this skill for goal creation and goal refinement only; it does not manage durable snapshots, decision logs, or long-running execution artifacts.",
@@ -1685,7 +1674,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/define-goal",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": ["LICENSE.txt", "SKILL.md", "agents/openai.yaml"]
     },
     {
@@ -1696,7 +1685,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/cli-creator",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": ["LICENSE.txt", "SKILL.md", "agents/openai.yaml", "references/agent-cli-patterns.md"]
     },
     {
@@ -1707,7 +1696,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.system/skill-creator",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1726,7 +1715,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/chatgpt-apps",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1749,7 +1738,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/vercel-deploy",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1767,7 +1756,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/render-deploy",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1792,23 +1781,6 @@
       ]
     },
     {
-      "id": "openai/skills/skills/.system/plugin-creator",
-      "name": "plugin-creator",
-      "description": "Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, and baseline placeholders you can edit before publishing or testing. Use when Codex needs to create a new local plugin, add optional plugin structure, or generate or update repo-root `.agents/plugins/marketplace.json` entries for plugin ordering and availability metadata.",
-      "categories": ["Development", "Writing", "Productivity", "Data & Analytics", "AI & ML"],
-      "author": "openai",
-      "repo": "openai/skills",
-      "path": "skills/.system/plugin-creator",
-      "commitHash": "b0401f07213a",
-      "files": [
-        "LICENSE.txt",
-        "SKILL.md",
-        "agents/openai.yaml",
-        "references/plugin-json-spec.md",
-        "scripts/create_basic_plugin.py"
-      ]
-    },
-    {
       "id": "openai/skills/skills/.system/skill-installer",
       "name": "skill-installer",
       "description": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",
@@ -1816,7 +1788,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.system/skill-installer",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1836,7 +1808,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/netlify-deploy",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1856,7 +1828,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/jupyter-notebook",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1880,7 +1852,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/migrate-to-codex",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1911,7 +1883,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/cloudflare-deploy",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1943,7 +1915,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/gh-address-comments",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1961,7 +1933,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/figma-generate-design",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.TXT",
         "SKILL.md",
@@ -1980,7 +1952,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/security-threat-model",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -1997,7 +1969,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/figma-create-new-file",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.TXT",
         "SKILL.md",
@@ -2016,7 +1988,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/figma-implement-design",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -2034,7 +2006,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/playwright-interactive",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "NOTICE.txt",
@@ -2052,7 +2024,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/figma-generate-library",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.TXT",
         "SKILL.md",
@@ -2084,7 +2056,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/security-ownership-map",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -2104,7 +2076,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/security-best-practices",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -2129,7 +2101,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/notion-knowledge-capture",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -2159,7 +2131,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/notion-meeting-intelligence",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -2190,7 +2162,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/notion-spec-to-implementation",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -2221,7 +2193,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/figma-code-connect-components",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.TXT",
         "SKILL.md",
@@ -2241,7 +2213,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/notion-research-documentation",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -2273,7 +2245,7 @@
       "author": "openai",
       "repo": "openai/skills",
       "path": "skills/.curated/figma-create-design-system-rules",
-      "commitHash": "b0401f07213a",
+      "commitHash": "a8924c2a35cf",
       "files": [
         "LICENSE.TXT",
         "SKILL.md",
@@ -2283,6 +2255,35 @@
         "assets/icon.svg",
         "references/rule-template.md",
         "scripts/check_agents_md.sh"
+      ]
+    },
+    {
+      "id": "openai/skills/skills/.curated/aspnet-core",
+      "name": "aspnet-core",
+      "description": "Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development. Use when working on Blazor Web Apps, Razor Pages, MVC, Minimal APIs, controller-based Web APIs, SignalR, gRPC, middleware, dependency injection, configuration, authentication, authorization, testing, performance, deployment, or ASP.NET Core upgrades.",
+      "categories": ["Development", "DevOps", "Security", "Research"],
+      "author": "openai",
+      "repo": "openai/skills",
+      "path": "skills/.curated/aspnet-core",
+      "commitHash": "a8924c2a35cf",
+      "files": [
+        "LICENSE.txt",
+        "SKILL.md",
+        "agents/openai.yaml",
+        "assets/dotnet-logo.png",
+        "references/_sections.md",
+        "references/apis-minimal-and-controllers.md",
+        "references/data-state-and-services.md",
+        "references/program-and-pipeline.md",
+        "references/realtime-grpc-and-background-work.md",
+        "references/security-and-identity.md",
+        "references/source-map.md",
+        "references/stack-selection.md",
+        "references/testing-performance-and-operations.md",
+        "references/ui-blazor.md",
+        "references/ui-mvc.md",
+        "references/ui-razor-pages.md",
+        "references/versioning-and-upgrades.md"
       ]
     },
     {
@@ -2674,7 +2675,7 @@
       "author": "n8n-io",
       "repo": "n8n-io/n8n",
       "path": "packages/@n8n/cli/skills/n8n-cli",
-      "commitHash": "439d2601815a",
+      "commitHash": "8debcef0cff0",
       "files": ["SKILL.md"]
     },
     {
@@ -2685,7 +2686,7 @@
       "author": "n8n-io",
       "repo": "n8n-io/n8n",
       "path": ".claude/plugins/n8n/skills/experiments",
-      "commitHash": "439d2601815a",
+      "commitHash": "8debcef0cff0",
       "files": ["SKILL.md", "reference.md"]
     },
     {
@@ -2696,7 +2697,7 @@
       "author": "n8n-io",
       "repo": "n8n-io/n8n",
       "path": "packages/@n8n/instance-ai/skills/data-table-manager",
-      "commitHash": "439d2601815a",
+      "commitHash": "8debcef0cff0",
       "files": ["SKILL.md", "references"]
     },
     {
@@ -2707,7 +2708,7 @@
       "author": "n8n-io",
       "repo": "n8n-io/n8n",
       "path": "packages/@n8n/instance-ai/skills/credential-setup-with-computer-use",
-      "commitHash": "439d2601815a",
+      "commitHash": "8debcef0cff0",
       "files": ["SKILL.md"]
     },
     {
@@ -2940,7 +2941,7 @@
       "author": "thedotmack",
       "repo": "thedotmack/claude-mem",
       "path": "plugin/skills/do",
-      "commitHash": "c3d2af7c144b",
+      "commitHash": "832ccce5b938",
       "files": ["SKILL.md"]
     },
     {
@@ -2951,7 +2952,7 @@
       "author": "thedotmack",
       "repo": "thedotmack/claude-mem",
       "path": "plugin/skills/babysit",
-      "commitHash": "c3d2af7c144b",
+      "commitHash": "832ccce5b938",
       "files": ["SKILL.md"]
     },
     {
@@ -2962,7 +2963,7 @@
       "author": "thedotmack",
       "repo": "thedotmack/claude-mem",
       "path": "plugin/skills/make-plan",
-      "commitHash": "c3d2af7c144b",
+      "commitHash": "832ccce5b938",
       "files": ["SKILL.md"]
     },
     {
@@ -2973,7 +2974,7 @@
       "author": "thedotmack",
       "repo": "thedotmack/claude-mem",
       "path": "plugin/skills/design-is",
-      "commitHash": "c3d2af7c144b",
+      "commitHash": "832ccce5b938",
       "files": ["SKILL.md"]
     },
     {
@@ -2984,7 +2985,7 @@
       "author": "thedotmack",
       "repo": "thedotmack/claude-mem",
       "path": "plugin/skills/wowerpoint",
-      "commitHash": "c3d2af7c144b",
+      "commitHash": "832ccce5b938",
       "files": ["SKILL.md"]
     },
     {
@@ -2995,7 +2996,7 @@
       "author": "thedotmack",
       "repo": "thedotmack/claude-mem",
       "path": "plugin/skills/pathfinder",
-      "commitHash": "c3d2af7c144b",
+      "commitHash": "832ccce5b938",
       "files": ["SKILL.md"]
     },
     {
@@ -3006,7 +3007,7 @@
       "author": "thedotmack",
       "repo": "thedotmack/claude-mem",
       "path": "plugin/skills/mem-search",
-      "commitHash": "c3d2af7c144b",
+      "commitHash": "832ccce5b938",
       "files": ["SKILL.md"]
     },
     {
@@ -3017,7 +3018,7 @@
       "author": "thedotmack",
       "repo": "thedotmack/claude-mem",
       "path": "plugin/skills/version-bump",
-      "commitHash": "c3d2af7c144b",
+      "commitHash": "832ccce5b938",
       "files": ["SKILL.md", "scripts"]
     },
     {
@@ -3028,7 +3029,7 @@
       "author": "thedotmack",
       "repo": "thedotmack/claude-mem",
       "path": "plugin/skills/how-it-works",
-      "commitHash": "c3d2af7c144b",
+      "commitHash": "832ccce5b938",
       "files": ["SKILL.md", "onboarding-explainer.md"]
     },
     {
@@ -3039,7 +3040,7 @@
       "author": "thedotmack",
       "repo": "thedotmack/claude-mem",
       "path": "plugin/skills/oh-my-issues",
-      "commitHash": "c3d2af7c144b",
+      "commitHash": "832ccce5b938",
       "files": ["SKILL.md"]
     },
     {
@@ -3050,7 +3051,7 @@
       "author": "thedotmack",
       "repo": "thedotmack/claude-mem",
       "path": "plugin/skills/smart-explore",
-      "commitHash": "c3d2af7c144b",
+      "commitHash": "832ccce5b938",
       "files": ["SKILL.md"]
     },
     {
@@ -3061,7 +3062,7 @@
       "author": "thedotmack",
       "repo": "thedotmack/claude-mem",
       "path": "plugin/skills/weekly-digests",
-      "commitHash": "c3d2af7c144b",
+      "commitHash": "832ccce5b938",
       "files": ["SKILL.md"]
     },
     {
@@ -3072,7 +3073,7 @@
       "author": "thedotmack",
       "repo": "thedotmack/claude-mem",
       "path": "plugin/skills/learn-codebase",
-      "commitHash": "c3d2af7c144b",
+      "commitHash": "832ccce5b938",
       "files": ["SKILL.md"]
     },
     {
@@ -3083,7 +3084,7 @@
       "author": "thedotmack",
       "repo": "thedotmack/claude-mem",
       "path": "plugin/skills/timeline-report",
-      "commitHash": "c3d2af7c144b",
+      "commitHash": "832ccce5b938",
       "files": ["SKILL.md"]
     },
     {
@@ -3094,7 +3095,7 @@
       "author": "thedotmack",
       "repo": "thedotmack/claude-mem",
       "path": "plugin/skills/knowledge-agent",
-      "commitHash": "c3d2af7c144b",
+      "commitHash": "832ccce5b938",
       "files": ["SKILL.md"]
     },
     {
@@ -4094,7 +4095,7 @@
       "author": "code-yeongyu",
       "repo": "code-yeongyu/oh-my-openagent",
       "path": ".agents/skills/omomomo",
-      "commitHash": "0691779d2efd",
+      "commitHash": "88982ec9ae64",
       "files": ["SKILL.md"]
     },
     {
@@ -4105,7 +4106,7 @@
       "author": "code-yeongyu",
       "repo": "code-yeongyu/oh-my-openagent",
       "path": ".agents/skills/publish",
-      "commitHash": "0691779d2efd",
+      "commitHash": "88982ec9ae64",
       "files": ["SKILL.md"]
     },
     {
@@ -4116,7 +4117,7 @@
       "author": "code-yeongyu",
       "repo": "code-yeongyu/oh-my-openagent",
       "path": ".agents/skills/hyperplan",
-      "commitHash": "0691779d2efd",
+      "commitHash": "88982ec9ae64",
       "files": ["SKILL.md"]
     },
     {
@@ -4127,7 +4128,7 @@
       "author": "code-yeongyu",
       "repo": "code-yeongyu/oh-my-openagent",
       "path": ".agents/skills/work-with-pr",
-      "commitHash": "0691779d2efd",
+      "commitHash": "88982ec9ae64",
       "files": ["SKILL.md"]
     },
     {
@@ -4138,7 +4139,7 @@
       "author": "code-yeongyu",
       "repo": "code-yeongyu/oh-my-openagent",
       "path": ".agents/skills/github-triage",
-      "commitHash": "0691779d2efd",
+      "commitHash": "88982ec9ae64",
       "files": ["SKILL.md", "scripts/gh_fetch.py"]
     },
     {
@@ -4149,7 +4150,7 @@
       "author": "code-yeongyu",
       "repo": "code-yeongyu/oh-my-openagent",
       "path": ".agents/skills/remove-deadcode",
-      "commitHash": "0691779d2efd",
+      "commitHash": "88982ec9ae64",
       "files": ["SKILL.md"]
     },
     {
@@ -4160,7 +4161,7 @@
       "author": "code-yeongyu",
       "repo": "code-yeongyu/oh-my-openagent",
       "path": ".agents/skills/security-research",
-      "commitHash": "0691779d2efd",
+      "commitHash": "88982ec9ae64",
       "files": ["SKILL.md"]
     },
     {
@@ -4171,7 +4172,7 @@
       "author": "code-yeongyu",
       "repo": "code-yeongyu/oh-my-openagent",
       "path": ".agents/skills/pre-publish-review",
-      "commitHash": "0691779d2efd",
+      "commitHash": "88982ec9ae64",
       "files": ["SKILL.md"]
     },
     {
@@ -4182,7 +4183,7 @@
       "author": "code-yeongyu",
       "repo": "code-yeongyu/oh-my-openagent",
       "path": ".agents/skills/get-unpublished-changes",
-      "commitHash": "0691779d2efd",
+      "commitHash": "88982ec9ae64",
       "files": ["SKILL.md"]
     },
     {
@@ -4193,7 +4194,7 @@
       "author": "code-yeongyu",
       "repo": "code-yeongyu/oh-my-openagent",
       "path": "src/features/builtin-skills/git-master",
-      "commitHash": "0691779d2efd",
+      "commitHash": "88982ec9ae64",
       "files": ["SKILL.md"]
     },
     {
@@ -4204,7 +4205,7 @@
       "author": "code-yeongyu",
       "repo": "code-yeongyu/oh-my-openagent",
       "path": "src/features/builtin-skills/dev-browser",
-      "commitHash": "0691779d2efd",
+      "commitHash": "88982ec9ae64",
       "files": ["SKILL.md", "references/installation.md", "references/scraping.md"]
     },
     {
@@ -4215,7 +4216,7 @@
       "author": "code-yeongyu",
       "repo": "code-yeongyu/oh-my-openagent",
       "path": "src/features/builtin-skills/agent-browser",
-      "commitHash": "0691779d2efd",
+      "commitHash": "88982ec9ae64",
       "files": ["SKILL.md"]
     },
     {
@@ -4226,7 +4227,7 @@
       "author": "code-yeongyu",
       "repo": "code-yeongyu/oh-my-openagent",
       "path": "src/features/builtin-skills/frontend-ui-ux",
-      "commitHash": "0691779d2efd",
+      "commitHash": "88982ec9ae64",
       "files": ["SKILL.md"]
     },
     {
@@ -4295,7 +4296,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/claims",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4306,7 +4307,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".claude/skills/browser",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
@@ -4319,7 +4320,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-swarm",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4330,7 +4331,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-agent",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4341,7 +4342,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/stream-chain",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "version": "1.0.0",
       "tags": ["streaming", "pipeline", "chaining", "multi-agent", "workflow"],
       "compatibility": { "minAgentVersion": "0.1.0" },
@@ -4355,7 +4356,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-tester",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4366,7 +4367,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-planner",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4377,7 +4378,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-sandbox",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4388,7 +4389,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/swarm-advanced",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "version": "2.0.0",
       "tags": [
         "swarm",
@@ -4410,7 +4411,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-swarm-pr",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4421,7 +4422,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-workflow",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4432,7 +4433,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-reviewer",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4443,7 +4444,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-payments",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4454,7 +4455,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agentic-jujutsu",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "version": "2.3.2",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
@@ -4467,7 +4468,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".claude/skills/flow-nexus-swarm",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4478,7 +4479,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-challenges",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4489,7 +4490,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".claude/skills/flow-nexus-neural",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4500,7 +4501,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".claude/skills/sparc-methodology",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4511,7 +4512,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".claude/skills/worker-benchmarks",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4522,7 +4523,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/github-multi-repo",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "version": "1.0.0",
       "tags": ["multi-repo", "synchronization", "architecture", "coordination", "github"],
       "compatibility": { "minAgentVersion": "0.1.0" },
@@ -4536,7 +4537,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/github-code-review",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "version": "1.0.0",
       "tags": ["code-review", "github", "swarm", "pr-management", "automation"],
       "compatibility": { "minAgentVersion": "0.1.0" },
@@ -4550,7 +4551,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-architecture",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4561,7 +4562,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": "plugins/ruflo-docs/skills/doc-gen",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4572,7 +4573,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": "plugins/ruflo-core/skills/witness",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4583,7 +4584,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": "plugins/ruflo-docs/skills/api-docs",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4594,7 +4595,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": "plugins/ruflo-adr/skills/adr-index",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4605,7 +4606,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/flow-nexus-platform",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "version": "1.0.0",
       "tags": ["authentication", "sandboxes", "deployment", "payments", "gamification", "cloud"],
       "compatibility": { "minAgentVersion": "0.1.0" },
@@ -4619,7 +4620,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": "plugins/ruflo-daa/skills/daa-agent",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4630,7 +4631,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-data-ml-model",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4641,7 +4642,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".claude/skills/performance-analysis",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4652,7 +4653,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-neural-network",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4663,7 +4664,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-scout-explorer",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4674,7 +4675,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-migration-plan",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4685,7 +4686,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": "plugins/ruflo-adr/skills/adr-verify",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4696,7 +4697,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": "plugins/ruflo-rvf/skills/rvf-manage",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4707,7 +4708,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": "plugins/ruflo-goals/skills/goal-plan",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4718,7 +4719,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-dev-backend-api",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4729,7 +4730,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": "plugins/ruflo-ddd/skills/ddd-context",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4740,7 +4741,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-mesh-coordinator",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4751,7 +4752,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-tdd-london-swarm",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4762,7 +4763,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": "plugins/ruflo-agent/skills/wasm-agent",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4773,7 +4774,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-agentic-payments",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4784,7 +4785,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-matrix-optimizer",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4795,7 +4796,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-security-manager",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4806,7 +4807,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-multi-repo-swarm",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4817,7 +4818,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": "plugins/ruflo-sparc/skills/sparc-spec",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4828,7 +4829,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": "plugins/ruflo-swarm/skills/swarm-init",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4839,7 +4840,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-sync-coordinator",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4850,7 +4851,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": "plugins/ruflo-ddd/skills/ddd-validate",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4861,7 +4862,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-queen-coordinator",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4872,7 +4873,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-sparc-coordinator",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4883,7 +4884,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-trading-predictor",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4894,7 +4895,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-crdt-synchronizer",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4905,7 +4906,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-code-review-swarm",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4916,7 +4917,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-orchestrator-task",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4927,7 +4928,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-worker-specialist",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4938,7 +4939,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-pagerank-analyzer",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4949,7 +4950,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": "plugins/ruflo-ruvllm/skills/llm-config",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4960,7 +4961,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": "plugins/ruflo-ruvllm/skills/chat-format",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4971,7 +4972,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-resource-allocator",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4982,7 +4983,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-memory-coordinator",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -4993,7 +4994,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": "plugins/ruflo-sparc/skills/sparc-refine",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -5004,7 +5005,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-arch-system-design",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -5015,7 +5016,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-topology-optimizer",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -5026,7 +5027,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-gossip-coordinator",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -5037,7 +5038,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-performance-monitor",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -5048,7 +5049,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-workflow-automation",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -5059,7 +5060,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/github-release-management",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "version": "2.0.0",
       "tags": [
         "release",
@@ -5081,7 +5082,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/github-project-management",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "version": "2.0.0",
       "tags": [
         "github",
@@ -5103,7 +5104,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": "plugins/ruflo-agent/skills/managed-agent",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -5114,7 +5115,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": "plugins/ruflo-rvf/skills/session-persist",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -5125,7 +5126,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": "plugins/ruflo-goals/skills/horizon-track",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -5136,7 +5137,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": "plugins/ruflo-goals/skills/deep-research",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -5147,7 +5148,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/agent-production-validator",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "files": ["SKILL.md"]
     },
     {
@@ -5158,7 +5159,7 @@
       "author": "ruvnet",
       "repo": "ruvnet/ruflo",
       "path": ".agents/skills/github-workflow-automation",
-      "commitHash": "bb34896656b5",
+      "commitHash": "6198abfab749",
       "version": "1.0.0",
       "tags": [
         "github",
@@ -5180,7 +5181,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/pdf",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -5191,7 +5192,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/social-spotify-card",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "tags": ["spotify", "music", "now-playing", "card", "overlay"],
       "files": ["SKILL.md", "example.html", "example.md"]
     },
@@ -5203,7 +5204,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "plugins/spec/examples/create-prototype-dashboard",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": [
         "README.md",
         "SKILL.md",
@@ -5222,7 +5223,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/swiftui-design",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -5233,7 +5234,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/fal-upscale",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -5244,7 +5245,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/mobile-app",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "assets", "example.html", "references"]
     },
     {
@@ -5255,7 +5256,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/html-ppt-zhangzara-mat",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["LICENSE", "SKILL.md", "example.html", "template.json"]
     },
     {
@@ -5266,7 +5267,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "docs/examples/saas-landing-skill",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -5277,7 +5278,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/swiss-creative-mode-template",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "assets", "example.html", "references"]
     },
     {
@@ -5288,7 +5289,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/social-x-post-card",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "tags": ["twitter", "x", "social", "card", "overlay"],
       "files": ["SKILL.md", "example.html", "example.md"]
     },
@@ -5300,7 +5301,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "plugins/_official/examples/ib-pitch-book",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "assets", "example.html", "open-design.json", "references"]
     },
     {
@@ -5311,7 +5312,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "plugins/_official/examples/digital-eguide",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "example.html", "open-design.json"]
     },
     {
@@ -5322,26 +5323,19 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/design-brief",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
-      "id": "nexu-io/open-design/design-templates/flowai-live-dashboard-template",
-      "name": "flowai-live-dashboard-template",
-      "description": "Team-management dashboard skill in the FlowAI aesthetic — three tabs\n(Team Members, Team Details, Activity Log), KPI stat row, member table,\nrole distribution bar chart, online presence and activity sparklines,\nand a top-contributors panel, all in a single self-contained HTML file\nwith light/dark theming, hoverable chart tooltips, click-to-zoom panels,\nand CSV export. Use when the brief asks for a team / workspace admin\ndashboard, an interactive admin dashboard with charts, or names FlowAI.\n",
-      "categories": [
-        "Design",
-        "Productivity",
-        "Data & Analytics",
-        "Documents",
-        "Business",
-        "AI & ML"
-      ],
+      "id": "nexu-io/open-design/plugins/_official/atoms/discovery-question-form",
+      "name": "discovery-question-form",
+      "description": "Turn-1 discovery question form for ambiguous briefs.",
+      "categories": ["Other"],
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
-      "path": "design-templates/flowai-live-dashboard-template",
-      "commitHash": "6f532ca35cc7",
-      "files": ["SKILL.md", "assets", "example.html", "references"]
+      "path": "plugins/_official/atoms/discovery-question-form",
+      "commitHash": "51963cff78cf",
+      "files": ["SKILL.md", "open-design.json"]
     },
     {
       "id": "nexu-io/open-design/skills/doc",
@@ -5351,7 +5345,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/doc",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -5362,7 +5356,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/swiss-user-research-video-template",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "assets", "example.html", "references"]
     },
     {
@@ -5373,7 +5367,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/frontend-slides",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -5384,7 +5378,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/video-downloader",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -5395,7 +5389,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/frame-liquid-bg-hero",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "tags": ["liquid", "fluid", "background", "hero", "html-in-canvas", "vfx"],
       "files": ["SKILL.md", "example.html", "example.md"]
     },
@@ -5407,7 +5401,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/gamified-app",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "example.html"]
     },
     {
@@ -5418,7 +5412,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/brainstorming",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -5429,7 +5423,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/html-ppt-zhangzara-biennale-yellow",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["LICENSE", "SKILL.md", "example.html", "template.json"]
     },
     {
@@ -5440,7 +5434,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/docs-page",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "example.html"]
     },
     {
@@ -5451,7 +5445,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/fal-train",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -5462,7 +5456,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "plugins/_official/examples/orbit-gmail",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "example.html", "open-design.json"]
     },
     {
@@ -5473,7 +5467,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "plugins/_official/examples/waitlist-page",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "assets", "example.html", "open-design.json", "references"]
     },
     {
@@ -5484,7 +5478,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/html-ppt-zhangzara-stencil-tablet",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["LICENSE", "SKILL.md", "assets", "example.html", "template.json"]
     },
     {
@@ -5495,7 +5489,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "plugins/_official/examples/tweaks",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "assets", "example.html", "open-design.json"]
     },
     {
@@ -5506,7 +5500,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/html-ppt-zhangzara-8-bit-orbit",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["LICENSE", "SKILL.md", "example.html", "template.json"]
     },
     {
@@ -5517,19 +5511,19 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/html-ppt-zhangzara-scatterbrain",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["LICENSE", "SKILL.md", "example.html", "template.json"]
     },
     {
-      "id": "nexu-io/open-design/skills/domain-name-brainstormer",
-      "name": "domain-name-brainstormer",
-      "description": "Generate creative domain name ideas and check availability across multiple TLDs including .com, .io, .dev, and .ai.\n",
-      "categories": ["Other"],
+      "id": "nexu-io/open-design/plugins/_official/atoms/handoff",
+      "name": "handoff",
+      "description": "Push the run's accepted artifact to a downstream collaboration surface (cli, other code agents, cloud, desktop) and stamp the artifact manifest with the export target.",
+      "categories": ["AI & ML"],
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
-      "path": "skills/domain-name-brainstormer",
-      "commitHash": "6f532ca35cc7",
-      "files": ["SKILL.md"]
+      "path": "plugins/_official/atoms/handoff",
+      "commitHash": "51963cff78cf",
+      "files": ["SKILL.md", "open-design.json"]
     },
     {
       "id": "nexu-io/open-design/plugins/_official/examples/mobile-onboarding",
@@ -5539,7 +5533,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "plugins/_official/examples/mobile-onboarding",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "example.html", "open-design.json"]
     },
     {
@@ -5557,7 +5551,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "plugins/_official/examples/orbit-general",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "example.html", "open-design.json"]
     },
     {
@@ -5568,7 +5562,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/minimax-docx",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -5579,19 +5573,19 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/audio-jingle",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "example.html"]
     },
     {
-      "id": "nexu-io/open-design/plugins/_official/examples/magazine-poster",
-      "name": "magazine-poster",
-      "description": "An editorial-style poster — newsprint paper, dateline, oversized serif\nheadline with a struck-through word and italic accent, a 2-column body\nblock, and 6 numbered sections with annotated pull-quote captions.\nReads like a Sunday-paper full-page essay or a thoughtful launch poster.\nUse when the brief asks for \"magazine poster\", \"editorial poster\",\n\"newsprint\", \"essay layout\", or \"manifesto\".\n",
-      "categories": ["Design", "Writing", "Business"],
+      "id": "nexu-io/open-design/skills/fal-video-edit",
+      "name": "fal-video-edit",
+      "description": "Edit existing videos using AI — remix style, upscale, remove background, and add audio via fal.ai's hosted video models.\n",
+      "categories": ["AI & ML", "Media"],
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
-      "path": "plugins/_official/examples/magazine-poster",
-      "commitHash": "6f532ca35cc7",
-      "files": ["SKILL.md", "example.html", "open-design.json"]
+      "path": "skills/fal-video-edit",
+      "commitHash": "51963cff78cf",
+      "files": ["SKILL.md"]
     },
     {
       "id": "nexu-io/open-design/skills/frontend-skill",
@@ -5601,29 +5595,18 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/frontend-skill",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
-      "id": "nexu-io/open-design/skills/pixelbin-media",
-      "name": "pixelbin-media",
-      "description": "Generate and edit images and videos with an 85+ API portfolio and build visually appealing website pages via Pixelbin.\n",
-      "categories": ["Development", "Design"],
+      "id": "nexu-io/open-design/skills/image-enhancer",
+      "name": "image-enhancer",
+      "description": "Improve image and screenshot quality by enhancing resolution, sharpness, and clarity for professional presentations and documentation.\n",
+      "categories": ["Documents"],
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
-      "path": "skills/pixelbin-media",
-      "commitHash": "6f532ca35cc7",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "nexu-io/open-design/skills/nanobanana-ppt",
-      "name": "nanobanana-ppt",
-      "description": "AI-powered PPT generation with document analysis and styled images via the NanoBanana stack. Combines image generation with structured deck output.\n",
-      "categories": ["Design", "Documents"],
-      "author": "nexu-io",
-      "repo": "nexu-io/open-design",
-      "path": "skills/nanobanana-ppt",
-      "commitHash": "6f532ca35cc7",
+      "path": "skills/image-enhancer",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -5634,7 +5617,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/html-ppt-zhangzara-capsule",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["LICENSE", "SKILL.md", "example.html", "template.json"]
     },
     {
@@ -5645,7 +5628,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/html-ppt-zhangzara-retro-zine",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["LICENSE", "SKILL.md", "example.html", "template.json"]
     },
     {
@@ -5656,7 +5639,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/deck-open-slide-canvas",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "tags": ["canvas", "open-slide", "freeform", "1920", "react"],
       "files": ["SKILL.md", "example.html", "example.md"]
     },
@@ -5668,7 +5651,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "plugins/_official/scenarios/od-default",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "open-design.json"]
     },
     {
@@ -5679,18 +5662,18 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/html-ppt-zhangzara-playful",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["LICENSE", "SKILL.md", "example.html", "template.json"]
     },
     {
-      "id": "nexu-io/open-design/skills/gif-sticker-maker",
-      "name": "gif-sticker-maker",
-      "description": "Convert photos into animated GIF stickers in Funko Pop / Pop Mart style via the MiniMax API. Useful for personalized chat stickers and avatar packs.\n",
-      "categories": ["Design"],
+      "id": "nexu-io/open-design/skills/creative-director",
+      "name": "creative-director",
+      "description": "AI creative director with recursive self-assessment: 20+ methodologies (SIT, TRIZ, Bisociation, SCAMPER, Synectics), 3-axis evaluation calibrated against Cannes/D&AD/HumanKind, 5-phase process from brief to presentation.\n",
+      "categories": ["Other"],
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
-      "path": "skills/gif-sticker-maker",
-      "commitHash": "6f532ca35cc7",
+      "path": "skills/creative-director",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -5701,7 +5684,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/html-ppt",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": [
         ".clawscan-allow",
         "LICENSE",
@@ -5725,7 +5708,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/html-ppt-presenter-mode-reveal",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "example.html"]
     },
     {
@@ -5736,19 +5719,8 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "plugins/_official/atoms/code-import",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "open-design.json"]
-    },
-    {
-      "id": "nexu-io/open-design/plugins/_official/scenarios/od-new-generation",
-      "name": "od-new-generation",
-      "description": "Default reference pipeline for the new-generation taskKind — discovery → plan → generate → critique with a critique-theater devloop.",
-      "categories": ["Productivity", "Research"],
-      "author": "nexu-io",
-      "repo": "nexu-io/open-design",
-      "path": "plugins/_official/scenarios/od-new-generation",
-      "commitHash": "6f532ca35cc7",
-      "files": ["SKILL.md", "examples", "open-design.json"]
     },
     {
       "id": "nexu-io/open-design/design-templates/html-ppt-zhangzara-broadside",
@@ -5758,8 +5730,19 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/html-ppt-zhangzara-broadside",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["LICENSE", "SKILL.md", "example.html", "template.json"]
+    },
+    {
+      "id": "nexu-io/open-design/design-templates/html-ppt-dir-key-nav-minimal",
+      "name": "html-ppt-dir-key-nav-minimal",
+      "description": "8 页极简方向键 keynote — 每页一个独立单色背景（靛 / 奶 / 绛 / 翠 / 灰 / 紫 / 白 / 炭），各自配色，160px display 标题 + 4px 短粗 accent 线分隔、箭头 → 前缀的 Mono 列表、左下 ← → kbd 提示 + 右下页码、巨大呼吸留白。适合\"有话要说但没什么可看\"的 keynote、launch、公开演讲。",
+      "categories": ["Other"],
+      "author": "nexu-io",
+      "repo": "nexu-io/open-design",
+      "path": "design-templates/html-ppt-dir-key-nav-minimal",
+      "commitHash": "51963cff78cf",
+      "files": ["SKILL.md", "example.html"]
     },
     {
       "id": "nexu-io/open-design/plugins/spec/examples/create-live-artifact-ops",
@@ -5769,7 +5752,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "plugins/spec/examples/create-live-artifact-ops",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "example.html", "open-design.json"]
     },
     {
@@ -5780,7 +5763,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/deck-guizang-editorial",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "tags": ["editorial", "e-ink", "magazine", "narrative", "guizang"],
       "files": ["SKILL.md", "example.html", "example.md"]
     },
@@ -5792,7 +5775,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/gsap-scrolltrigger",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -5803,7 +5786,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/critique",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "example.html"]
     },
     {
@@ -5814,7 +5797,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/fal-image-edit",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -5825,7 +5808,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/pptx-generator",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -5836,7 +5819,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/live-artifact",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "assets", "examples", "references"]
     },
     {
@@ -5847,7 +5830,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/plan-design-review",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -5858,20 +5841,27 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/doc-kami-parchment",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "tags": ["kami", "parchment", "serif", "editorial", "report", "letter", "one-pager"],
       "files": ["SKILL.md", "example.html", "example.md"]
     },
     {
-      "id": "nexu-io/open-design/plugins/_official/atoms/discovery-question-form",
-      "name": "discovery-question-form",
-      "description": "Turn-1 discovery question form for ambiguous briefs.",
-      "categories": ["Other"],
+      "id": "nexu-io/open-design/design-templates/flowai-live-dashboard-template",
+      "name": "flowai-live-dashboard-template",
+      "description": "Team-management dashboard skill in the FlowAI aesthetic — three tabs\n(Team Members, Team Details, Activity Log), KPI stat row, member table,\nrole distribution bar chart, online presence and activity sparklines,\nand a top-contributors panel, all in a single self-contained HTML file\nwith light/dark theming, hoverable chart tooltips, click-to-zoom panels,\nand CSV export. Use when the brief asks for a team / workspace admin\ndashboard, an interactive admin dashboard with charts, or names FlowAI.\n",
+      "categories": [
+        "Design",
+        "Productivity",
+        "Data & Analytics",
+        "Documents",
+        "Business",
+        "AI & ML"
+      ],
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
-      "path": "plugins/_official/atoms/discovery-question-form",
-      "commitHash": "6f532ca35cc7",
-      "files": ["SKILL.md", "open-design.json"]
+      "path": "design-templates/flowai-live-dashboard-template",
+      "commitHash": "51963cff78cf",
+      "files": ["SKILL.md", "assets", "example.html", "references"]
     },
     {
       "id": "nexu-io/open-design/design-templates/kami-deck",
@@ -5881,7 +5871,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/kami-deck",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["README.md", "SKILL.md", "example.html"]
     },
     {
@@ -5892,7 +5882,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/blog-post",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "example.html"]
     },
     {
@@ -5903,7 +5893,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/trading-analysis-dashboard-template",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "assets", "example.html", "references"]
     },
     {
@@ -5914,7 +5904,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/copywriting",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -5925,7 +5915,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/threejs",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -5936,7 +5926,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/email-marketing",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "example.html"]
     },
     {
@@ -5947,7 +5937,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/web-prototype-taste-soft",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "example.html"]
     },
     {
@@ -5958,7 +5948,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/html-ppt-zhangzara-grove",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["LICENSE", "SKILL.md", "example.html", "template.json"]
     },
     {
@@ -5969,7 +5959,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "plugins/_official/atoms/design-extract",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "open-design.json"]
     },
     {
@@ -5980,7 +5970,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/html-ppt-hermes-cyber-terminal",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "example.html"]
     },
     {
@@ -5991,7 +5981,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/minimax-pdf",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -6002,7 +5992,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/stitch-loop",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -6013,7 +6003,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/taste-skill",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -6024,7 +6014,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/ad-creative",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -6035,7 +6025,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/live-dashboard",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "assets", "example.html", "references"]
     },
     {
@@ -6046,7 +6036,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "plugins/_official/atoms/critique-theater",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "open-design.json"]
     },
     {
@@ -6057,7 +6047,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/color-expert",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -6068,7 +6058,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/fal-realtime",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -6079,7 +6069,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/fal-generate",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -6090,7 +6080,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/venice-video",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -6101,25 +6091,18 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/sora",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
-      "id": "nexu-io/open-design/plugins/_official/scenarios/od-code-migration",
-      "name": "od-code-migration",
-      "description": "Default reference pipeline for the code-migration taskKind — code-import → design-extract → token-map → rewrite-plan → patch-edit ↔ build-test devloop → diff-review → handoff.",
-      "categories": [
-        "Development",
-        "Design",
-        "Writing",
-        "Productivity",
-        "Data & Analytics",
-        "Research"
-      ],
+      "id": "nexu-io/open-design/plugins/_official/scenarios/od-new-generation",
+      "name": "od-new-generation",
+      "description": "Default reference pipeline for the new-generation taskKind — discovery → plan → generate → critique with a critique-theater devloop.",
+      "categories": ["Productivity", "Research"],
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
-      "path": "plugins/_official/scenarios/od-code-migration",
-      "commitHash": "6f532ca35cc7",
+      "path": "plugins/_official/scenarios/od-new-generation",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "examples", "open-design.json"]
     },
     {
@@ -6130,7 +6113,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "plugins/_official/atoms/patch-edit",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "open-design.json"]
     },
     {
@@ -6141,8 +6124,20 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "plugins/_official/examples/html-ppt-testing-safety-alert",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "example.html", "open-design.json"]
+    },
+    {
+      "id": "nexu-io/open-design/skills/frame-logo-outro",
+      "name": "frame-logo-outro",
+      "description": "Segmented logo assembly, glow bloom, and tagline reveal for video outros or brand closing frames.",
+      "categories": ["Design"],
+      "author": "nexu-io",
+      "repo": "nexu-io/open-design",
+      "path": "skills/frame-logo-outro",
+      "commitHash": "51963cff78cf",
+      "tags": ["logo", "outro", "branding", "end-card", "frame"],
+      "files": ["SKILL.md", "example.html", "example.md"]
     },
     {
       "id": "nexu-io/open-design/design-templates/html-ppt-pitch-deck",
@@ -6152,7 +6147,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/html-ppt-pitch-deck",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "example.html"]
     },
     {
@@ -6163,7 +6158,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/imagegen",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -6174,7 +6169,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/editorial-burgundy-principles-template",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "assets", "example.html", "references"]
     },
     {
@@ -6185,7 +6180,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "skills/artifacts-builder",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md"]
     },
     {
@@ -6196,7 +6191,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "plugins/spec/examples/create-slides-pitch",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["SKILL.md", "example.html", "open-design.json"]
     },
     {
@@ -6207,7 +6202,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/html-ppt-zhangzara-editorial-tri-tone",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["LICENSE", "SKILL.md", "assets", "example.html", "template.json"]
     },
     {
@@ -6218,7 +6213,7 @@
       "author": "nexu-io",
       "repo": "nexu-io/open-design",
       "path": "design-templates/html-ppt-zhangzara-daisy-days",
-      "commitHash": "6f532ca35cc7",
+      "commitHash": "51963cff78cf",
       "files": ["LICENSE", "SKILL.md", "example.html", "template.json"]
     },
     {
@@ -7209,14 +7204,15 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "sickn33/antigravity-awesome-skills/skills/zod-validation-expert",
-      "name": "zod-validation-expert",
-      "description": "Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js, and tRPC.",
-      "categories": ["Development"],
+      "id": "sickn33/antigravity-awesome-skills/skills/design-taste-frontend",
+      "name": "design-taste-frontend",
+      "description": "Use when building high-agency frontend interfaces with strict design taste, calibrated color, responsive layout, and motion rules.",
+      "categories": ["Development", "Design"],
       "author": "sickn33",
       "repo": "sickn33/antigravity-awesome-skills",
-      "path": "skills/zod-validation-expert",
+      "path": "skills/design-taste-frontend",
       "commitHash": "bbfe09c18ead",
+      "tags": ["frontend", "design", "ui", "react"],
       "files": ["SKILL.md"]
     },
     {
@@ -7531,13 +7527,13 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "sickn33/antigravity-awesome-skills/skills/explain-like-socrates",
-      "name": "explain-like-socrates",
-      "description": "Explains concepts using Socratic-style dialogue. Use when the user asks to explain, teach or help understand a concept like socrates.\n",
-      "categories": ["Other"],
+      "id": "sickn33/antigravity-awesome-skills/skills/nextjs-best-practices",
+      "name": "nextjs-best-practices",
+      "description": "Next.js App Router principles. Server Components, data fetching, routing patterns.",
+      "categories": ["Development"],
       "author": "sickn33",
       "repo": "sickn33/antigravity-awesome-skills",
-      "path": "skills/explain-like-socrates",
+      "path": "skills/nextjs-best-practices",
       "commitHash": "bbfe09c18ead",
       "files": ["SKILL.md"]
     },
@@ -7881,26 +7877,27 @@
       "files": ["SKILL.md", "references/fontes.md"]
     },
     {
-      "id": "sickn33/antigravity-awesome-skills/skills/nextjs-best-practices",
-      "name": "nextjs-best-practices",
-      "description": "Next.js App Router principles. Server Components, data fetching, routing patterns.",
+      "id": "sickn33/antigravity-awesome-skills/skills/receiving-code-review",
+      "name": "receiving-code-review",
+      "description": "Code review requires technical evaluation, not emotional performance.",
       "categories": ["Development"],
       "author": "sickn33",
       "repo": "sickn33/antigravity-awesome-skills",
-      "path": "skills/nextjs-best-practices",
+      "path": "skills/receiving-code-review",
       "commitHash": "bbfe09c18ead",
       "files": ["SKILL.md"]
     },
     {
-      "id": "sickn33/antigravity-awesome-skills/skills/screen-reader-testing",
-      "name": "screen-reader-testing",
-      "description": "Practical guide to testing web applications with screen readers for comprehensive accessibility validation.",
-      "categories": ["Development"],
+      "id": "sickn33/antigravity-awesome-skills/skills/options-flow-analyzer",
+      "name": "options-flow-analyzer",
+      "description": "Real vs lottery call separation for options P/C ratio analysis — prevents signal inversion from deep OTM noise",
+      "categories": ["Research"],
       "author": "sickn33",
       "repo": "sickn33/antigravity-awesome-skills",
-      "path": "skills/screen-reader-testing",
+      "path": "skills/options-flow-analyzer",
       "commitHash": "bbfe09c18ead",
-      "files": ["SKILL.md", "resources/implementation-playbook.md"]
+      "tags": ["options", "sentiment-analysis", "trading", "polygon", "market-analysis"],
+      "files": ["SKILL.md"]
     },
     {
       "id": "sickn33/antigravity-awesome-skills/skills/speed",
@@ -9277,17 +9274,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "github/awesome-copilot/skills/react19-source-patterns",
-      "name": "react19-source-patterns",
-      "description": "Reference for React 19 source-file migration patterns, including API changes, ref handling, and context updates.",
-      "categories": ["Development", "Research"],
-      "author": "github",
-      "repo": "github/awesome-copilot",
-      "path": "skills/react19-source-patterns",
-      "commitHash": "9b74459b5ae5",
-      "files": ["SKILL.md", "references/api-migrations.md"]
-    },
-    {
       "id": "github/awesome-copilot/skills/mcp-cli",
       "name": "mcp-cli",
       "description": "Interface for MCP (Model Context Protocol) servers via CLI. Use when you need to interact with external tools, APIs, or data sources through MCP servers, list available MCP servers/tools, or call MCP tools from command line.",
@@ -9426,42 +9412,37 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "github/awesome-copilot/skills/md-to-docx",
-      "name": "md-to-docx",
-      "description": "Convert Markdown files to professionally formatted Word (.docx) documents with embedded PNG images — pure JavaScript, no external tools required",
-      "categories": ["Development", "Design", "Documents"],
+      "id": "github/awesome-copilot/skills/java-junit",
+      "name": "java-junit",
+      "description": "Get best practices for JUnit 5 unit testing, including data-driven tests",
+      "categories": ["Development"],
       "author": "github",
       "repo": "github/awesome-copilot",
-      "path": "skills/md-to-docx",
-      "commitHash": "9b74459b5ae5",
-      "files": ["SKILL.md", "scripts/md-to-docx.mjs", "scripts/package.json"]
-    },
-    {
-      "id": "github/awesome-copilot/skills/exam-ready",
-      "name": "exam-ready",
-      "description": "Activate this skill when a student provides study material (PDF or pasted notes) and a syllabus, and wants to prepare for an exam. Extracts key definitions, points, keywords, diagrams, exam-ready sentences, and practice questions strictly from the provided material.\n",
-      "categories": ["Documents"],
-      "author": "github",
-      "repo": "github/awesome-copilot",
-      "path": "skills/exam-ready",
+      "path": "skills/java-junit",
       "commitHash": "9b74459b5ae5",
       "files": ["SKILL.md"]
     },
     {
-      "id": "github/awesome-copilot/skills/dependabot",
-      "name": "dependabot",
-      "description": "Comprehensive guide for configuring and managing GitHub Dependabot. Use this skill when users ask about creating or optimizing dependabot.yml files, managing Dependabot pull requests, configuring dependency update strategies, setting up grouped updates, monorepo patterns, multi-ecosystem groups, security update configuration, auto-triage rules, or any GitHub Advanced Security (GHAS) supply chain security topic related to Dependabot. For pre-commit dependency vulnerability scanning in AI coding agents via the GitHub MCP Server, this skill references the Advanced Security plugin (`advanced-security@copilot-plugins`). Use this skill when an agent needs to scan dependencies for known vulnerabilities before committing.",
-      "categories": ["Development", "Security", "Integration", "AI & ML"],
+      "id": "github/awesome-copilot/skills/arize-link",
+      "name": "arize-link",
+      "description": "Generates deep links to the Arize UI for traces, spans, sessions, datasets, labeling queues, evaluators, and annotation configs. Produces clickable URLs for sharing Arize resources with team members. Use when the user wants to link to or open a trace, span, session, dataset, evaluator, or annotation config in the Arize UI.",
+      "categories": ["Other"],
       "author": "github",
       "repo": "github/awesome-copilot",
-      "path": "skills/dependabot",
+      "path": "skills/arize-link",
       "commitHash": "9b74459b5ae5",
-      "files": [
-        "SKILL.md",
-        "references/dependabot-yml-reference.md",
-        "references/example-configs.md",
-        "references/pr-commands.md"
-      ]
+      "files": ["SKILL.md", "references/EXAMPLES.md"]
+    },
+    {
+      "id": "github/awesome-copilot/skills/brag-sheet",
+      "name": "brag-sheet",
+      "description": "Turn vague \"what did I do?\" into evidence-backed impact statements for performance reviews, self-reviews, promotion packets, and weekly updates. Uniquely mines Copilot CLI session logs to reconstruct forgotten work, plus git commits and GitHub PRs. Enforces a 3-part impact contract (action → result → evidence). Works standalone with zero dependencies. Trigger for: \"brag\", \"log work\", \"what did I do\", \"backfill my work history\", \"performance review\", \"self-review\", \"self assessment\", \"write impact statement\", \"review prep\", \"promo packet\", \"promotion case\", \"weekly update\", \"status report\", \"accomplishments\", \"what did I ship\", \"I forgot to log my work\", \"summarize my work\", \"track my wins\", \"what should I highlight\", \"end of half\", \"career growth\", \"work journal\", or any request to document, summarize, or organize work accomplishments.\n",
+      "categories": ["Development", "Writing", "Documents", "AI & ML"],
+      "author": "github",
+      "repo": "github/awesome-copilot",
+      "path": "skills/brag-sheet",
+      "commitHash": "9b74459b5ae5",
+      "files": ["SKILL.md"]
     },
     {
       "id": "github/awesome-copilot/skills/create-llms",
@@ -9475,13 +9456,13 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "github/awesome-copilot/skills/context-map",
-      "name": "context-map",
-      "description": "Generate a map of all files relevant to a task before making changes",
-      "categories": ["Productivity"],
+      "id": "github/awesome-copilot/skills/tldr-prompt",
+      "name": "tldr-prompt",
+      "description": "Create tldr summaries for GitHub Copilot files (prompts, agents, instructions, collections), MCP servers, or documentation from URLs and queries.",
+      "categories": ["Documents", "Integration", "AI & ML"],
       "author": "github",
       "repo": "github/awesome-copilot",
-      "path": "skills/context-map",
+      "path": "skills/tldr-prompt",
       "commitHash": "9b74459b5ae5",
       "files": ["SKILL.md"]
     },
@@ -9617,13 +9598,13 @@
       "files": ["SKILL.md", "assets/verification-report-template.md"]
     },
     {
-      "id": "github/awesome-copilot/skills/editorconfig",
-      "name": "editorconfig",
-      "description": "Generates a comprehensive and best-practice-oriented .editorconfig file based on project analysis and user preferences.",
-      "categories": ["Productivity", "Research"],
+      "id": "github/awesome-copilot/skills/boost-prompt",
+      "name": "boost-prompt",
+      "description": "Interactive prompt refinement workflow: interrogates scope, deliverables, constraints; copies final markdown to clipboard; never writes code. Requires the Joyride extension.",
+      "categories": ["AI & ML"],
       "author": "github",
       "repo": "github/awesome-copilot",
-      "path": "skills/editorconfig",
+      "path": "skills/boost-prompt",
       "commitHash": "9b74459b5ae5",
       "files": ["SKILL.md"]
     },
@@ -9668,22 +9649,15 @@
       ]
     },
     {
-      "id": "github/awesome-copilot/skills/mvvm-toolkit",
-      "name": "mvvm-toolkit",
-      "description": "CommunityToolkit.Mvvm (the MVVM Toolkit) core: source generators ([ObservableProperty], [RelayCommand], [NotifyPropertyChangedFor], [NotifyCanExecuteChangedFor], [NotifyDataErrorInfo]), base classes (ObservableObject / ObservableValidator / ObservableRecipient), commands (RelayCommand / AsyncRelayCommand), and validation. Companion skills: mvvm-toolkit-messenger for pub/sub, mvvm-toolkit-di for Microsoft.Extensions.DependencyInjection wiring. Works across WPF, WinUI 3, MAUI, Uno, and Avalonia.",
+      "id": "github/awesome-copilot/skills/csharp-async",
+      "name": "csharp-async",
+      "description": "Get best practices for C# async programming",
       "categories": ["Development"],
       "author": "github",
       "repo": "github/awesome-copilot",
-      "path": "skills/mvvm-toolkit",
+      "path": "skills/csharp-async",
       "commitHash": "9b74459b5ae5",
-      "files": [
-        "SKILL.md",
-        "references/end-to-end-walkthrough.md",
-        "references/relaycommand-cookbook.md",
-        "references/source-generators.md",
-        "references/troubleshooting.md",
-        "references/validation.md"
-      ]
+      "files": ["SKILL.md"]
     },
     {
       "id": "github/awesome-copilot/skills/pr-dashboard",
@@ -9746,15 +9720,36 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "github/awesome-copilot/skills/roundup-setup",
-      "name": "roundup-setup",
-      "description": "Interactive onboarding that learns your communication style, audiences, and data sources to configure personalized status briefings. Paste in examples of updates you already write, answer a few questions, and roundup calibrates itself to your workflow.",
-      "categories": ["Productivity", "Research"],
+      "id": "github/awesome-copilot/skills/phoenix-evals",
+      "name": "phoenix-evals",
+      "description": "Build and run evaluators for AI/LLM applications using Phoenix.",
+      "categories": ["AI & ML"],
       "author": "github",
       "repo": "github/awesome-copilot",
-      "path": "skills/roundup-setup",
+      "path": "skills/phoenix-evals",
       "commitHash": "9b74459b5ae5",
-      "files": ["SKILL.md", "references/config-template.md"]
+      "files": [
+        "SKILL.md",
+        "references/axial-coding.md",
+        "references/common-mistakes-python.md",
+        "references/error-analysis-multi-turn.md",
+        "references/error-analysis.md",
+        "references/evaluate-dataframe-python.md",
+        "references/evaluators-code-python.md",
+        "references/evaluators-code-typescript.md",
+        "references/evaluators-custom-templates.md",
+        "references/evaluators-llm-python.md",
+        "references/evaluators-llm-typescript.md",
+        "references/evaluators-overview.md",
+        "references/evaluators-pre-built.md",
+        "references/evaluators-rag.md",
+        "references/experiments-datasets-python.md",
+        "references/experiments-datasets-typescript.md",
+        "references/experiments-overview.md",
+        "references/experiments-running-python.md",
+        "references/experiments-running-typescript.md",
+        "references/experiments-synthetic-python.md"
+      ]
     },
     {
       "id": "github/awesome-copilot/skills/geofeed-tuner",
@@ -9901,34 +9896,24 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "github/awesome-copilot/skills/qdrant-scaling",
-      "name": "qdrant-scaling",
-      "description": "Guides Qdrant scaling decisions. Use when someone asks 'how many nodes do I need', 'data doesn't fit on one node', 'need more throughput', 'cluster is slow', 'too many tenants', 'vertical or horizontal', 'how to shard', or 'need to add capacity'.",
-      "categories": ["Other"],
+      "id": "github/awesome-copilot/skills/breakdown-plan",
+      "name": "breakdown-plan",
+      "description": "Issue Planning and Automation prompt that generates comprehensive project plans with Epic > Feature > Story/Enabler > Test hierarchy, dependencies, priorities, and automated tracking.",
+      "categories": ["Productivity"],
       "author": "github",
       "repo": "github/awesome-copilot",
-      "path": "skills/qdrant-scaling",
+      "path": "skills/breakdown-plan",
       "commitHash": "9b74459b5ae5",
-      "files": [
-        "SKILL.md",
-        "minimize-latency/SKILL.md",
-        "scaling-data-volume/SKILL.md",
-        "scaling-data-volume/horizontal-scaling/SKILL.md",
-        "scaling-data-volume/sliding-time-window/SKILL.md",
-        "scaling-data-volume/tenant-scaling/SKILL.md",
-        "scaling-data-volume/vertical-scaling/SKILL.md",
-        "scaling-qps/SKILL.md",
-        "scaling-query-volume/SKILL.md"
-      ]
+      "files": ["SKILL.md"]
     },
     {
-      "id": "github/awesome-copilot/skills/copilot-spaces",
-      "name": "copilot-spaces",
-      "description": "Use Copilot Spaces to provide project-specific context to conversations. Use this skill when users mention a \"Copilot space\", want to load context from a shared knowledge base, discover available spaces, or ask questions grounded in curated project documentation, code, and instructions.",
-      "categories": ["Writing", "Research", "AI & ML"],
+      "id": "github/awesome-copilot/skills/sponsor-finder",
+      "name": "sponsor-finder",
+      "description": "Find which of a GitHub repository's dependencies are sponsorable via GitHub Sponsors. Uses deps.dev API for dependency resolution across npm, PyPI, Cargo, Go, RubyGems, Maven, and NuGet. Checks npm funding metadata, FUNDING.yml files, and web search. Verifies every link. Shows direct and transitive dependencies with OSSF Scorecard health data. Invoke with /sponsor followed by a GitHub owner/repo (e.g. \"/sponsor expressjs/express\").",
+      "categories": ["Development", "Research"],
       "author": "github",
       "repo": "github/awesome-copilot",
-      "path": "skills/copilot-spaces",
+      "path": "skills/sponsor-finder",
       "commitHash": "9b74459b5ae5",
       "files": ["SKILL.md"]
     },
@@ -10006,15 +9991,15 @@
       ]
     },
     {
-      "id": "github/awesome-copilot/skills/dotnet-timezone",
-      "name": "dotnet-timezone",
-      "description": ".NET timezone handling guidance for C# applications. Use when working with TimeZoneInfo, DateTimeOffset, NodaTime, UTC conversion, daylight saving time, scheduling across timezones, cross-platform Windows/IANA timezone IDs, or when a .NET user needs the timezone for a city, address, region, or country and copy-paste-ready C# code.",
-      "categories": ["Development"],
+      "id": "github/awesome-copilot/skills/create-agentsmd",
+      "name": "create-agentsmd",
+      "description": "Prompt for generating an AGENTS.md file for a repository",
+      "categories": ["AI & ML"],
       "author": "github",
       "repo": "github/awesome-copilot",
-      "path": "skills/dotnet-timezone",
+      "path": "skills/create-agentsmd",
       "commitHash": "9b74459b5ae5",
-      "files": ["SKILL.md", "references/code-patterns.md", "references/timezone-index.md"]
+      "files": ["SKILL.md"]
     },
     {
       "id": "github/awesome-copilot/skills/phoenix-tracing",
@@ -10088,21 +10073,19 @@
       ]
     },
     {
-      "id": "github/awesome-copilot/skills/security-review",
-      "name": "security-review",
-      "description": "AI-powered codebase security scanner that reasons about code like a security researcher — tracing data flows, understanding component interactions, and catching vulnerabilities that pattern-matching tools miss. Use this skill when asked to scan code for security vulnerabilities, find bugs, check for SQL injection, XSS, command injection, exposed API keys, hardcoded secrets, insecure dependencies, access control issues, or any request like \"is my code secure?\", \"review for security issues\", \"audit this codebase\", or \"check for vulnerabilities\". Covers injection flaws, authentication and access control bugs, secrets exposure, weak cryptography, insecure dependencies, and business logic issues across JavaScript, TypeScript, Python, Java, PHP, Go, Ruby, and Rust.",
-      "categories": ["Development", "Security", "Data & Analytics", "Research"],
+      "id": "github/awesome-copilot/skills/secret-scanning",
+      "name": "secret-scanning",
+      "description": "Guide for configuring and managing GitHub secret scanning, push protection, custom patterns, and secret alert remediation. For pre-commit secret scanning in AI coding agents via the GitHub MCP Server, this skill references the Advanced Security plugin (`advanced-security@copilot-plugins`). Use this skill when enabling secret scanning, setting up push protection, defining custom patterns, triaging alerts, resolving blocked pushes, or when an agent needs to scan code for secrets before committing.",
+      "categories": ["Development", "Integration", "AI & ML"],
       "author": "github",
       "repo": "github/awesome-copilot",
-      "path": "skills/security-review",
+      "path": "skills/secret-scanning",
       "commitHash": "9b74459b5ae5",
       "files": [
         "SKILL.md",
-        "references/language-patterns.md",
-        "references/report-format.md",
-        "references/secret-patterns.md",
-        "references/vuln-categories.md",
-        "references/vulnerable-packages.md"
+        "references/alerts-and-remediation.md",
+        "references/custom-patterns.md",
+        "references/push-protection.md"
       ]
     },
     {
@@ -10167,24 +10150,15 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "github/awesome-copilot/skills/audit-integrity",
-      "name": "audit-integrity",
-      "description": "Shared audit integrity framework for all AppSec agents — enforces output quality, intellectual honesty, and continuous improvement through anti-rationalization guards, self-critique loops, retry protocols, non-negotiable behaviors, self-reflection quality gates (1-10 scoring, ≥8 threshold), and a self-learning system with lesson/memory governance for security analysis agents.",
-      "categories": ["Development", "Security", "Business", "Research", "AI & ML"],
+      "id": "github/awesome-copilot/skills/semantic-kernel",
+      "name": "semantic-kernel",
+      "description": "Create, update, refactor, explain, or review Semantic Kernel solutions using shared guidance plus language-specific references for .NET and Python.",
+      "categories": ["Development", "Research"],
       "author": "github",
       "repo": "github/awesome-copilot",
-      "path": "skills/audit-integrity",
+      "path": "skills/semantic-kernel",
       "commitHash": "9b74459b5ae5",
-      "files": [
-        "SKILL.md",
-        "references/anti-rationalization-guard.md",
-        "references/clarification-protocol.md",
-        "references/non-negotiable-behaviors.md",
-        "references/retry-protocol.md",
-        "references/self-critique-loop.md",
-        "references/self-learning-system.md",
-        "references/self-reflection-quality-gate.md"
-      ]
+      "files": ["SKILL.md", "references/dotnet.md", "references/python.md"]
     },
     {
       "id": "github/awesome-copilot/skills/arize-evaluator",
@@ -10209,13 +10183,13 @@
       "files": ["SKILL.md", "references/dependency-injection.md"]
     },
     {
-      "id": "github/awesome-copilot/skills/az-cost-optimize",
-      "name": "az-cost-optimize",
-      "description": "Analyze Azure resources used in the app (IaC files and/or resources in a target rg) and optimize costs - creating GitHub issues for identified optimizations.",
-      "categories": ["Research"],
+      "id": "github/awesome-copilot/skills/create-tldr-page",
+      "name": "create-tldr-page",
+      "description": "Create a tldr page from documentation URLs and command examples, requiring both URL and command name.",
+      "categories": ["Other"],
       "author": "github",
       "repo": "github/awesome-copilot",
-      "path": "skills/az-cost-optimize",
+      "path": "skills/create-tldr-page",
       "commitHash": "9b74459b5ae5",
       "files": ["SKILL.md"]
     },
@@ -10251,31 +10225,40 @@
       ]
     },
     {
-      "id": "github/awesome-copilot/skills/agent-governance",
-      "name": "agent-governance",
-      "description": "Patterns and techniques for adding governance, safety, and trust controls to AI agent systems. Use this skill when:\n- Building AI agents that call external tools (APIs, databases, file systems)\n- Implementing policy-based access controls for agent tool usage\n- Adding semantic intent classification to detect dangerous prompts\n- Creating trust scoring systems for multi-agent workflows\n- Building audit trails for agent actions and decisions\n- Enforcing rate limits, content filters, or tool restrictions on agents\n- Working with any agent framework (PydanticAI, CrewAI, OpenAI Agents, LangChain, AutoGen)\n",
-      "categories": ["Development", "Data & Analytics", "Business", "AI & ML"],
+      "id": "github/awesome-copilot/skills/powerbi-modeling",
+      "name": "powerbi-modeling",
+      "description": "Power BI semantic modeling assistant for building optimized data models. Use when working with Power BI semantic models, creating measures, designing star schemas, configuring relationships, implementing RLS, or optimizing model performance. Triggers on queries about DAX calculations, table relationships, dimension/fact table design, naming conventions, model documentation, cardinality, cross-filter direction, calculation groups, and data model best practices. Always connects to the active model first using power-bi-modeling MCP tools to understand the data structure before providing guidance.",
+      "categories": [
+        "Development",
+        "Design",
+        "Data & Analytics",
+        "Documents",
+        "Integration",
+        "AI & ML"
+      ],
       "author": "github",
       "repo": "github/awesome-copilot",
-      "path": "skills/agent-governance",
-      "commitHash": "9b74459b5ae5",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "github/awesome-copilot/skills/publish-to-pages",
-      "name": "publish-to-pages",
-      "description": "Publish presentations and web content to GitHub Pages. Converts PPTX, PDF, HTML, or Google Slides to a live GitHub Pages URL. Handles repo creation, file conversion, Pages enablement, and returns the live URL. Use when the user wants to publish, deploy, or share a presentation or HTML file via GitHub Pages.",
-      "categories": ["Development", "Writing", "Documents"],
-      "author": "github",
-      "repo": "github/awesome-copilot",
-      "path": "skills/publish-to-pages",
+      "path": "skills/powerbi-modeling",
       "commitHash": "9b74459b5ae5",
       "files": [
         "SKILL.md",
-        "scripts/convert-pdf.py",
-        "scripts/convert-pptx.py",
-        "scripts/publish.sh"
+        "references/MEASURES-DAX.md",
+        "references/PERFORMANCE.md",
+        "references/RELATIONSHIPS.md",
+        "references/RLS.md",
+        "references/STAR-SCHEMA.md"
       ]
+    },
+    {
+      "id": "github/awesome-copilot/skills/screen-recording",
+      "name": "screen-recording",
+      "description": "Create annotated animated GIF demos and screen recordings for pull requests and documentation. Covers frame capture, timing, imageio-based GIF creation, and per-frame annotation workflows.",
+      "categories": ["Other"],
+      "author": "github",
+      "repo": "github/awesome-copilot",
+      "path": "skills/screen-recording",
+      "commitHash": "9b74459b5ae5",
+      "files": ["SKILL.md"]
     },
     {
       "id": "github/awesome-copilot/skills/winmd-api-search",
@@ -10310,32 +10293,15 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "github/awesome-copilot/skills/markdown-to-html",
-      "name": "markdown-to-html",
-      "description": "Convert Markdown files to HTML similar to `marked.js`, `pandoc`, `gomarkdown/markdown`, or similar tools; or writing custom script to convert markdown to html and/or working on web template systems like `jekyll/jekyll`, `gohugoio/hugo`, or similar web templating systems that utilize markdown documents, converting them to html. Use when asked to \"convert markdown to html\", \"transform md to html\", \"render markdown\", \"generate html from markdown\", or when working with .md files and/or web a templating system that converts markdown to HTML output. Supports CLI and Node.js workflows with GFM, CommonMark, and standard Markdown flavors.",
-      "categories": ["Productivity", "Documents"],
+      "id": "github/awesome-copilot/skills/arize-experiment",
+      "name": "arize-experiment",
+      "description": "Creates, runs, and analyzes Arize experiments for evaluating and comparing model performance. Covers experiment CRUD, exporting runs, comparing results, and evaluation workflows using the ax CLI. Use when the user mentions create experiment, run experiment, compare models, model performance, evaluate AI, experiment results, benchmark, A/B test models, or measure accuracy.",
+      "categories": ["Documents", "Research", "AI & ML"],
       "author": "github",
       "repo": "github/awesome-copilot",
-      "path": "skills/markdown-to-html",
+      "path": "skills/arize-experiment",
       "commitHash": "9b74459b5ae5",
-      "files": [
-        "SKILL.md",
-        "references/basic-markdown-to-html.md",
-        "references/basic-markdown.md",
-        "references/code-blocks-to-html.md",
-        "references/code-blocks.md",
-        "references/collapsed-sections-to-html.md",
-        "references/collapsed-sections.md",
-        "references/gomarkdown.md",
-        "references/hugo.md",
-        "references/jekyll.md",
-        "references/marked.md",
-        "references/pandoc.md",
-        "references/tables-to-html.md",
-        "references/tables.md",
-        "references/writing-mathematical-expressions-to-html.md",
-        "references/writing-mathematical-expressions.md"
-      ]
+      "files": ["SKILL.md", "references/ax-profiles.md", "references/ax-setup.md"]
     },
     {
       "id": "github/awesome-copilot/skills/fabric-lakehouse",
@@ -10360,15 +10326,36 @@
       "files": ["SKILL.md", "references/ax-profiles.md", "references/ax-setup.md"]
     },
     {
-      "id": "github/awesome-copilot/skills/sql-optimization",
-      "name": "sql-optimization",
-      "description": "Universal SQL performance optimization assistant for comprehensive query tuning, indexing strategies, and database performance analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Provides execution plan analysis, pagination optimization, batch operations, and performance monitoring guidance.",
-      "categories": ["DevOps", "Data & Analytics", "Business"],
+      "id": "github/awesome-copilot/skills/quality-playbook",
+      "name": "quality-playbook",
+      "description": "Run a complete quality engineering audit on any codebase. Derives behavioral requirements from the code, generates spec-traced functional tests, runs a three-pass code review with regression tests, executes a multi-model spec audit (Council of Three), and produces a consolidated bug report with TDD-verified patches. Finds the 35% of real defects that structural code review alone cannot catch. Works with any language. Trigger on 'quality playbook', 'spec audit', 'Council of Three', 'fitness-to-purpose', or 'coverage theater'.",
+      "categories": ["Development", "Research", "AI & ML"],
       "author": "github",
       "repo": "github/awesome-copilot",
-      "path": "skills/sql-optimization",
+      "path": "skills/quality-playbook",
       "commitHash": "9b74459b5ae5",
-      "files": ["SKILL.md"]
+      "files": [
+        "LICENSE.txt",
+        "SKILL.md",
+        "agents/calibration_orchestrator.md",
+        "agents/quality-playbook-claude.agent.md",
+        "agents/quality-playbook.agent.md",
+        "phase_prompts/README.md",
+        "phase_prompts/iteration.md",
+        "phase_prompts/phase1.md",
+        "phase_prompts/phase2.md",
+        "phase_prompts/phase3.md",
+        "phase_prompts/phase4.md",
+        "phase_prompts/phase5.md",
+        "phase_prompts/phase6.md",
+        "phase_prompts/single_pass.md",
+        "quality_gate.py",
+        "references/challenge_gate.md",
+        "references/code-only-mode.md",
+        "references/constitution.md",
+        "references/defensive_patterns.md",
+        "references/exploration_patterns.md"
+      ]
     },
     {
       "id": "github/awesome-copilot/skills/entra-agent-user",
@@ -10492,21 +10479,26 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "github/awesome-copilot/skills/penpot-uiux-design",
-      "name": "penpot-uiux-design",
-      "description": "Comprehensive guide for creating professional UI/UX designs in Penpot using MCP tools. Use this skill when: (1) Creating new UI/UX designs for web, mobile, or desktop applications, (2) Building design systems with components and tokens, (3) Designing dashboards, forms, navigation, or landing pages, (4) Applying accessibility standards and best practices, (5) Following platform guidelines (iOS, Android, Material Design), (6) Reviewing or improving existing Penpot designs for usability. Triggers: \"design a UI\", \"create interface\", \"build layout\", \"design dashboard\", \"create form\", \"design landing page\", \"make it accessible\", \"design system\", \"component library\".",
-      "categories": ["Development", "Design", "Research"],
+      "id": "github/awesome-copilot/skills/acreadiness-policy",
+      "name": "acreadiness-policy",
+      "description": "Help the user pick, write, or apply an AgentRC policy. Policies customise readiness scoring by disabling irrelevant checks, overriding impact/level, setting pass-rate thresholds, or chaining org baselines with team overrides. Use when the user asks about strict mode, AI-only scoring, custom weights, CI gating, or wants org-wide standardisation.",
+      "categories": ["Business", "AI & ML"],
       "author": "github",
       "repo": "github/awesome-copilot",
-      "path": "skills/penpot-uiux-design",
+      "path": "skills/acreadiness-policy",
       "commitHash": "9b74459b5ae5",
-      "files": [
-        "SKILL.md",
-        "references/accessibility.md",
-        "references/component-patterns.md",
-        "references/platform-guidelines.md",
-        "references/setup-troubleshooting.md"
-      ]
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "github/awesome-copilot/skills/acreadiness-assess",
+      "name": "acreadiness-assess",
+      "description": "Run the AgentRC readiness assessment on the current repository and produce a static HTML dashboard at reports/index.html. Wraps `npx github:microsoft/agentrc readiness` and hands off rendering to the @ai-readiness-reporter custom agent. Supports policies (--policy) for org-specific scoring. Use when asked to assess, audit, or score the AI readiness of a repo.",
+      "categories": ["Development", "Business", "AI & ML"],
+      "author": "github",
+      "repo": "github/awesome-copilot",
+      "path": "skills/acreadiness-assess",
+      "commitHash": "9b74459b5ae5",
+      "files": ["SKILL.md", "report-template.html"]
     },
     {
       "id": "nanocoai/nanoclaw/.claude/skills/claw",
@@ -14178,7 +14170,7 @@
       "author": "nukeop",
       "repo": "nukeop/nuclear",
       "path": ".agents/skills/host-pattern",
-      "commitHash": "c7faec679225",
+      "commitHash": "4ba0ac1b4303",
       "files": ["SKILL.md"]
     },
     {
@@ -14189,7 +14181,7 @@
       "author": "nukeop",
       "repo": "nukeop/nuclear",
       "path": ".agents/skills/writing-docs",
-      "commitHash": "c7faec679225",
+      "commitHash": "4ba0ac1b4303",
       "files": ["SKILL.md"]
     },
     {
@@ -14200,7 +14192,7 @@
       "author": "nukeop",
       "repo": "nukeop/nuclear",
       "path": ".agents/skills/writing-plugins",
-      "commitHash": "c7faec679225",
+      "commitHash": "4ba0ac1b4303",
       "files": ["SKILL.md"]
     },
     {
@@ -14211,7 +14203,7 @@
       "author": "nukeop",
       "repo": "nukeop/nuclear",
       "path": ".agents/skills/creating-components",
-      "commitHash": "c7faec679225",
+      "commitHash": "4ba0ac1b4303",
       "files": ["SKILL.md"]
     },
     {
@@ -14662,7 +14654,7 @@
       "author": "teng-lin",
       "repo": "teng-lin/notebooklm-py",
       "path": "",
-      "commitHash": "7e00442ad4c7",
+      "commitHash": "8dae641dea04",
       "files": ["SKILL.md"]
     },
     {
@@ -14746,7 +14738,7 @@
       "author": "open-metadata",
       "repo": "open-metadata/OpenMetadata",
       "path": "skills/tdd",
-      "commitHash": "fb619406f6cc",
+      "commitHash": "757f3d88ec7b",
       "files": ["SKILL.md"]
     },
     {
@@ -14757,7 +14749,7 @@
       "author": "open-metadata",
       "repo": "open-metadata/OpenMetadata",
       "path": "skills/connector-audit",
-      "commitHash": "fb619406f6cc",
+      "commitHash": "757f3d88ec7b",
       "files": ["SKILL.md", "prompts", "templates"]
     },
     {
@@ -14768,7 +14760,7 @@
       "author": "open-metadata",
       "repo": "open-metadata/OpenMetadata",
       "path": ".claude/skills/playwright-validation",
-      "commitHash": "fb619406f6cc",
+      "commitHash": "757f3d88ec7b",
       "files": ["SKILL.md"]
     },
     {
@@ -14779,7 +14771,7 @@
       "author": "open-metadata",
       "repo": "open-metadata/OpenMetadata",
       "path": ".agents/skills/java-checkstyle",
-      "commitHash": "fb619406f6cc",
+      "commitHash": "757f3d88ec7b",
       "files": ["SKILL.md"]
     },
     {
@@ -14790,7 +14782,7 @@
       "author": "open-metadata",
       "repo": "open-metadata/OpenMetadata",
       "path": "skills/openmetadata-workflow",
-      "commitHash": "fb619406f6cc",
+      "commitHash": "757f3d88ec7b",
       "files": ["SKILL.md"]
     },
     {
@@ -14801,7 +14793,7 @@
       "author": "open-metadata",
       "repo": "open-metadata/OpenMetadata",
       "path": "skills/systematic-debugging",
-      "commitHash": "fb619406f6cc",
+      "commitHash": "757f3d88ec7b",
       "files": ["SKILL.md"]
     },
     {
@@ -14812,7 +14804,7 @@
       "author": "open-metadata",
       "repo": "open-metadata/OpenMetadata",
       "path": "skills/connector-review",
-      "commitHash": "fb619406f6cc",
+      "commitHash": "757f3d88ec7b",
       "files": ["SKILL.md", "scripts", "templates"]
     },
     {
@@ -14823,7 +14815,7 @@
       "author": "open-metadata",
       "repo": "open-metadata/OpenMetadata",
       "path": "skills/planning",
-      "commitHash": "fb619406f6cc",
+      "commitHash": "757f3d88ec7b",
       "files": ["SKILL.md"]
     },
     {
@@ -14834,7 +14826,7 @@
       "author": "open-metadata",
       "repo": "open-metadata/OpenMetadata",
       "path": ".claude/skills/java-checkstyle",
-      "commitHash": "fb619406f6cc",
+      "commitHash": "757f3d88ec7b",
       "files": ["SKILL.md"]
     },
     {
@@ -14845,7 +14837,7 @@
       "author": "open-metadata",
       "repo": "open-metadata/OpenMetadata",
       "path": "skills/code-review",
-      "commitHash": "fb619406f6cc",
+      "commitHash": "757f3d88ec7b",
       "files": ["SKILL.md"]
     },
     {
@@ -14856,7 +14848,7 @@
       "author": "open-metadata",
       "repo": "open-metadata/OpenMetadata",
       "path": "skills/connector-building",
-      "commitHash": "fb619406f6cc",
+      "commitHash": "757f3d88ec7b",
       "files": ["GUIDE.md", "SKILL.md", "connector-profile.schema.json", "examples", "references"]
     },
     {
@@ -14867,7 +14859,7 @@
       "author": "open-metadata",
       "repo": "open-metadata/OpenMetadata",
       "path": ".agents/skills/ui-checkstyle",
-      "commitHash": "fb619406f6cc",
+      "commitHash": "757f3d88ec7b",
       "files": ["SKILL.md"]
     },
     {
@@ -14878,7 +14870,7 @@
       "author": "open-metadata",
       "repo": "open-metadata/OpenMetadata",
       "path": "skills/pr-checklist",
-      "commitHash": "fb619406f6cc",
+      "commitHash": "757f3d88ec7b",
       "files": ["SKILL.md"]
     },
     {
@@ -14889,7 +14881,7 @@
       "author": "open-metadata",
       "repo": "open-metadata/OpenMetadata",
       "path": "skills/verification",
-      "commitHash": "fb619406f6cc",
+      "commitHash": "757f3d88ec7b",
       "files": ["SKILL.md"]
     },
     {
@@ -14900,7 +14892,7 @@
       "author": "open-metadata",
       "repo": "open-metadata/OpenMetadata",
       "path": ".claude/skills/playwright",
-      "commitHash": "fb619406f6cc",
+      "commitHash": "757f3d88ec7b",
       "files": ["SKILL.md"]
     },
     {
@@ -14911,7 +14903,7 @@
       "author": "open-metadata",
       "repo": "open-metadata/OpenMetadata",
       "path": "skills/connector-standards",
-      "commitHash": "fb619406f6cc",
+      "commitHash": "757f3d88ec7b",
       "files": ["SKILL.md"]
     },
     {
@@ -14922,7 +14914,7 @@
       "author": "open-metadata",
       "repo": "open-metadata/OpenMetadata",
       "path": ".claude/skills/ui-checkstyle",
-      "commitHash": "fb619406f6cc",
+      "commitHash": "757f3d88ec7b",
       "files": ["SKILL.md"]
     },
     {
@@ -14933,7 +14925,7 @@
       "author": "open-metadata",
       "repo": "open-metadata/OpenMetadata",
       "path": ".claude/skills/writing-playwright-tests",
-      "commitHash": "fb619406f6cc",
+      "commitHash": "757f3d88ec7b",
       "files": ["SKILL.md"]
     },
     {
@@ -14944,7 +14936,7 @@
       "author": "open-metadata",
       "repo": "open-metadata/OpenMetadata",
       "path": "skills/test-enforcement",
-      "commitHash": "fb619406f6cc",
+      "commitHash": "757f3d88ec7b",
       "files": ["SKILL.md"]
     },
     {
@@ -14955,7 +14947,7 @@
       "author": "open-metadata",
       "repo": "open-metadata/OpenMetadata",
       "path": "skills/test-locally",
-      "commitHash": "fb619406f6cc",
+      "commitHash": "757f3d88ec7b",
       "files": ["SKILL.md"]
     },
     {
@@ -14977,7 +14969,7 @@
       "author": "yusufkaraaslan",
       "repo": "yusufkaraaslan/Skill_Seekers",
       "path": "skills/skill-seekers",
-      "commitHash": "f4b20fe8968c",
+      "commitHash": "cab7586e5670",
       "files": ["SKILL.md"]
     },
     {
@@ -14988,7 +14980,7 @@
       "author": "Yuan1z0825",
       "repo": "Yuan1z0825/nature-skills",
       "path": "skills/nature-data",
-      "commitHash": "3628729c2900",
+      "commitHash": "82c5d0e68679",
       "files": [
         "README.md",
         "SKILL.md",
@@ -15009,7 +15001,7 @@
       "author": "Yuan1z0825",
       "repo": "Yuan1z0825/nature-skills",
       "path": "skills/nature-reader",
-      "commitHash": "3628729c2900",
+      "commitHash": "82c5d0e68679",
       "files": [
         "README.md",
         "SKILL.md",
@@ -15026,7 +15018,7 @@
       "author": "Yuan1z0825",
       "repo": "Yuan1z0825/nature-skills",
       "path": "skills/nature-writing",
-      "commitHash": "3628729c2900",
+      "commitHash": "82c5d0e68679",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": [
@@ -15060,7 +15052,7 @@
       "author": "Yuan1z0825",
       "repo": "Yuan1z0825/nature-skills",
       "path": "skills/nature-polishing",
-      "commitHash": "3628729c2900",
+      "commitHash": "82c5d0e68679",
       "version": "6.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": [
@@ -15094,7 +15086,7 @@
       "author": "Yuan1z0825",
       "repo": "Yuan1z0825/nature-skills",
       "path": "skills/nature-academic-search",
-      "commitHash": "3628729c2900",
+      "commitHash": "82c5d0e68679",
       "files": [
         "README.md",
         "SKILL.md",
@@ -15126,7 +15118,7 @@
       "author": "Yuan1z0825",
       "repo": "Yuan1z0825/nature-skills",
       "path": "skills/nature-figure",
-      "commitHash": "3628729c2900",
+      "commitHash": "82c5d0e68679",
       "files": [
         ".gitignore",
         "README.md",
@@ -15158,7 +15150,7 @@
       "author": "Yuan1z0825",
       "repo": "Yuan1z0825/nature-skills",
       "path": "skills/nature-citation",
-      "commitHash": "3628729c2900",
+      "commitHash": "82c5d0e68679",
       "files": [
         "README.md",
         "SKILL.md",
@@ -15177,7 +15169,7 @@
       "author": "Yuan1z0825",
       "repo": "Yuan1z0825/nature-skills",
       "path": "skills/nature-paper2ppt",
-      "commitHash": "3628729c2900",
+      "commitHash": "82c5d0e68679",
       "files": ["README.md", "SKILL.md"]
     },
     {
@@ -15188,7 +15180,7 @@
       "author": "Yuan1z0825",
       "repo": "Yuan1z0825/nature-skills",
       "path": "plugins/nature-skills/skills/nature-writing",
-      "commitHash": "3628729c2900",
+      "commitHash": "82c5d0e68679",
       "version": "0.2.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": [
@@ -15222,7 +15214,7 @@
       "author": "Yuan1z0825",
       "repo": "Yuan1z0825/nature-skills",
       "path": "skills/nature-response",
-      "commitHash": "3628729c2900",
+      "commitHash": "82c5d0e68679",
       "version": "0.1.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": [
@@ -18598,7 +18590,7 @@
       "author": "awslabs",
       "repo": "awslabs/mcp",
       "path": "src/aurora-dsql-mcp-server/skills/dsql-skill",
-      "commitHash": "c21483ebeea5",
+      "commitHash": "0c1f9953412f",
       "files": ["SKILL.md", "mcp", "references", "scripts"]
     },
     {
@@ -18609,7 +18601,7 @@
       "author": "awslabs",
       "repo": "awslabs/mcp",
       "path": "src/cloudwatch-mcp-server/skills/agentcore-investigation",
-      "commitHash": "c21483ebeea5",
+      "commitHash": "0c1f9953412f",
       "files": ["SKILL.md", "kiro-skill-setup.md", "mcp", "references"]
     },
     {
@@ -23213,7 +23205,7 @@
       "author": "maximhq",
       "repo": "maximhq/bifrost",
       "path": ".claude/skills/docs-writer",
-      "commitHash": "96f597d04e49",
+      "commitHash": "67e57ddf1af6",
       "files": ["SKILL.md"]
     },
     {
@@ -23224,7 +23216,7 @@
       "author": "maximhq",
       "repo": "maximhq/bifrost",
       "path": ".claude/skills/api-validator",
-      "commitHash": "96f597d04e49",
+      "commitHash": "67e57ddf1af6",
       "files": ["SKILL.md"]
     },
     {
@@ -23235,7 +23227,7 @@
       "author": "maximhq",
       "repo": "maximhq/bifrost",
       "path": ".claude/skills/changelog-writer",
-      "commitHash": "96f597d04e49",
+      "commitHash": "67e57ddf1af6",
       "files": ["SKILL.md"]
     },
     {
@@ -23246,7 +23238,7 @@
       "author": "maximhq",
       "repo": "maximhq/bifrost",
       "path": ".claude/skills/release-checklist",
-      "commitHash": "96f597d04e49",
+      "commitHash": "67e57ddf1af6",
       "files": ["SKILL.md"]
     },
     {
@@ -23257,7 +23249,7 @@
       "author": "maximhq",
       "repo": "maximhq/bifrost",
       "path": ".claude/skills/investigate-issue",
-      "commitHash": "96f597d04e49",
+      "commitHash": "67e57ddf1af6",
       "files": ["SKILL.md"]
     },
     {
@@ -24664,7 +24656,7 @@
       "author": "archestra-ai",
       "repo": "archestra-ai/archestra",
       "path": ".claude/skills/resolve-conflicts",
-      "commitHash": "0c63591826ca",
+      "commitHash": "762dca82f153",
       "files": ["SKILL.md"]
     },
     {
@@ -24730,7 +24722,7 @@
       "author": "dagucloud",
       "repo": "dagucloud/dagu",
       "path": "skills/dagu",
-      "commitHash": "133b9335feff",
+      "commitHash": "d52778f96761",
       "files": ["SKILL.md", "references"]
     },
     {
@@ -29623,7 +29615,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/skills/kql",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/advanced-patterns.md",
@@ -29640,7 +29632,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/skills/copilot-sdk",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -29651,7 +29643,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/skills/mcp-builder",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "reference/evaluation.md",
@@ -29673,7 +29665,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/skills/skill-creator",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/azure-sdk-patterns.md",
@@ -29692,7 +29684,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/skills/entra-agent-id",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/known-limitations.md",
@@ -29708,7 +29700,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/skills/microsoft-docs",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -29719,7 +29711,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/skills/podcast-generation",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/architecture.md",
@@ -29735,7 +29727,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/skills/continual-learning",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -29746,7 +29738,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/skills/github-issue-creator",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -29757,7 +29749,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/deep-wiki/skills/wiki-qa",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -29775,7 +29767,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/azure-cost",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "cost-forecast/error-handling.md",
@@ -29807,7 +29799,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/azure-diagnostics",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/app-service/README.md",
@@ -29839,7 +29831,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/azure-kusto",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -29850,7 +29842,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/deep-wiki/skills/wiki-architect",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -29861,7 +29853,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/deep-wiki/skills/wiki-agents-md",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -29872,7 +29864,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-python/skills/azure-ai-voicelive-py",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/api-reference.md",
@@ -29888,7 +29880,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/microsoft-foundry/finetuning",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/agentic-rft.md",
@@ -29920,7 +29912,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-java/skills/azure-messaging-webpubsub-java",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md", "references/examples.md"]
     },
     {
@@ -29931,7 +29923,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/azure-deploy",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/auth-best-practices.md",
@@ -29963,7 +29955,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/deep-wiki/skills/wiki-page-writer",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -29974,7 +29966,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/deep-wiki/skills/wiki-ado-convert",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -29985,7 +29977,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/azure-resource-lookup",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md", "references/azure-resource-graph.md"]
     },
     {
@@ -29996,7 +29988,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-python/skills/azure-mgmt-fabric-py",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30007,7 +29999,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-java/skills/azure-compute-batch-java",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md", "references/examples.md"]
     },
     {
@@ -30018,7 +30010,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/azure-upgrade",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/global-rules.md",
@@ -30050,7 +30042,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/azure-validate",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/aspire-functions-secrets.md",
@@ -30079,7 +30071,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/entra-app-registration",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/BICEP-EXAMPLE.bicep",
@@ -30108,7 +30100,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-typescript/skills/zustand-store-ts",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md", "assets/template.ts"]
     },
     {
@@ -30119,7 +30111,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-java/skills/azure-data-tables-java",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md", "references/examples.md"]
     },
     {
@@ -30130,7 +30122,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-typescript/skills/frontend-ui-dark-ts",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "assets/Segoe UI Bold Italic.ttf",
@@ -30152,7 +30144,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-typescript/skills/azure-web-pubsub-ts",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30163,7 +30155,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-java/skills/azure-ai-contentsafety-java",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md", "references/examples.md"]
     },
     {
@@ -30174,7 +30166,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-typescript/skills/azure-ai-translation-ts",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30185,7 +30177,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-typescript/skills/azure-ai-contentsafety-ts",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30196,7 +30188,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-typescript/skills/azure-appconfiguration-ts",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30207,7 +30199,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-typescript/skills/azure-ai-document-intelligence-ts",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30218,7 +30210,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-postgresql-dotnet",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30229,7 +30221,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/microsoft-foundry/models/deploy-model/customize",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "EXAMPLES.md",
         "SKILL.md",
@@ -30245,7 +30237,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/skills/azure-identity-rust",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30256,7 +30248,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/skills/azure-keyvault-keys-rust",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30267,7 +30259,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/skills/applicationinsights-web-ts",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/agent-traces.md",
@@ -30283,7 +30275,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/skills/azure-keyvault-certificates-rust",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30294,7 +30286,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/deep-wiki/skills/wiki-onboarding",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30305,7 +30297,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/deep-wiki/skills/wiki-researcher",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30316,7 +30308,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/azure-compute",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/retail-prices-api.md",
@@ -30348,7 +30340,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/azure-prepare",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/analyze.md",
@@ -30380,7 +30372,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/azure-storage",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/auth-best-practices.md",
@@ -30399,47 +30391,42 @@
       ]
     },
     {
-      "id": "microsoft/skills/.github/plugins/azure-skills/skills/azure-aigateway",
-      "name": "azure-aigateway",
-      "description": "Configure Azure API Management as an AI Gateway for AI models, MCP tools, and agents. WHEN: semantic caching, token limit, content safety, load balancing, AI model governance, MCP rate limiting, jailbreak detection, add Azure OpenAI backend, add AI Foundry model, test AI gateway, LLM policies, configure AI backend, token metrics, AI cost control, convert API to MCP, import OpenAPI to gateway.",
-      "categories": ["Development", "Documents", "Business", "AI & ML"],
+      "id": "microsoft/skills/.github/plugins/azure-skills/skills/azure-messaging",
+      "name": "azure-messaging",
+      "description": "Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection failures, authentication errors, message processing issues, and SDK configuration problems. WHEN: event hub SDK error, service bus SDK issue, messaging connection failure, AMQP error, event processor host issue, message lock lost, message lock expired, lock renewal, lock renewal batch, send timeout, receiver disconnected, SDK troubleshooting, azure messaging SDK, event hub consumer, service bus queue issue, topic subscription error, enable logging event hub, service bus logging, eventhub python, servicebus java, eventhub javascript, servicebus dotnet, event hub checkpoint, event hub not receiving messages, service bus dead letter, batch processing lock, session lock expired, idle timeout, connection inactive, link detach, slow reconnect, session error, duplicate events, offset reset, receive batch.",
+      "categories": ["Development", "Security", "Productivity", "Integration"],
       "author": "microsoft",
       "repo": "microsoft/skills",
-      "path": ".github/plugins/azure-skills/skills/azure-aigateway",
-      "commitHash": "858117a89d7e",
+      "path": ".github/plugins/azure-skills/skills/azure-messaging",
+      "commitHash": "684313b5263c",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "microsoft/skills/.github/plugins/azure-skills/skills/azure-compliance",
+      "name": "azure-compliance",
+      "description": "Run Azure compliance and security audits with azqr plus Key Vault expiration checks. Covers best-practice assessment, resource review, policy/compliance validation, and security posture checks. WHEN: compliance scan, security audit, BEFORE running azqr (compliance cli tool), Azure best practices, Key Vault expiration check, expired certificates, expiring secrets, orphaned resources, compliance assessment.",
+      "categories": ["DevOps", "Security", "Business", "Research"],
+      "author": "microsoft",
+      "repo": "microsoft/skills",
+      "path": ".github/plugins/azure-skills/skills/azure-compliance",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/auth-best-practices.md",
-        "references/patterns.md",
-        "references/policies.md",
-        "references/sdk/azure-ai-contentsafety-py.md",
-        "references/sdk/azure-ai-contentsafety-ts.md",
-        "references/sdk/azure-mgmt-apimanagement-dotnet.md",
-        "references/sdk/azure-mgmt-apimanagement-py.md",
-        "references/troubleshooting.md"
-      ]
-    },
-    {
-      "id": "microsoft/skills/.github/plugins/azure-skills/skills/azure-kubernetes",
-      "name": "azure-kubernetes",
-      "description": "Plan, create, and configure production-ready Azure Kubernetes Service (AKS) clusters. Covers Day-0 checklist, SKU selection (Automatic vs Standard), networking options (private API server, Azure CNI Overlay, egress configuration), security, and operations (autoscaling, upgrade strategy, cost analysis). WHEN: create AKS environment, provision AKS environment, enable AKS observability, design AKS networking, choose AKS SKU, secure AKS, optimize AKS, rightsize AKS pod, AKS spot nodes, AKS cluster-autoscaler.",
-      "categories": ["Development", "DevOps", "Security", "Productivity", "Business"],
-      "author": "microsoft",
-      "repo": "microsoft/skills",
-      "path": ".github/plugins/azure-skills/skills/azure-kubernetes",
-      "commitHash": "858117a89d7e",
-      "files": [
-        "SKILL.md",
-        "azure-kubernetes-automatic-readiness/SKILL.md",
-        "azure-kubernetes-automatic-readiness/references/common-fixes.md",
-        "azure-kubernetes-automatic-readiness/references/constraint-spec-v1.yaml",
-        "azure-kubernetes-automatic-readiness/references/mcp-integration.md",
-        "azure-kubernetes-automatic-readiness/references/migration-guide-summary.md",
-        "references/azure-aks-autoscaler.md",
-        "references/azure-aks-rightsizing.md",
-        "references/azure-aks-spot.md",
-        "references/azure-aks-vpa.md",
-        "references/cli-reference.md"
+        "references/azqr-recommendations.md",
+        "references/azqr-remediation-patterns.md",
+        "references/azure-keyvault-expiration-audit.md",
+        "references/azure-quick-review.md",
+        "references/azure-resource-graph.md",
+        "references/sdk/azure-keyvault-certificates-rust.md",
+        "references/sdk/azure-keyvault-keys-rust.md",
+        "references/sdk/azure-keyvault-keys-ts.md",
+        "references/sdk/azure-keyvault-py.md",
+        "references/sdk/azure-keyvault-secrets-rust.md",
+        "references/sdk/azure-keyvault-secrets-ts.md",
+        "references/sdk/azure-security-keyvault-keys-dotnet.md",
+        "references/sdk/azure-security-keyvault-keys-java.md",
+        "references/sdk/azure-security-keyvault-secrets-java.md"
       ]
     },
     {
@@ -30450,7 +30437,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/microsoft-foundry",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         ".gitignore",
         "SKILL.md",
@@ -30482,7 +30469,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/azure-reliability",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/configure-health-probes.md",
@@ -30507,7 +30494,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-rust/skills/azure-cosmos-rust",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30518,7 +30505,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-java/skills/azure-identity-java",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md", "references/examples.md"]
     },
     {
@@ -30529,7 +30516,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-java/skills/azure-eventhub-java",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md", "references/examples.md"]
     },
     {
@@ -30540,7 +30527,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-python/skills/azure-identity-py",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30551,7 +30538,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-python/skills/fastapi-router-py",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md", "assets/template.py"]
     },
     {
@@ -30562,7 +30549,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-python/skills/azure-cosmos-db-py",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "assets/conftest_template.py",
@@ -30583,7 +30570,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-typescript/skills/azure-eventhub-ts",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md", "references/checkpointing.md", "references/event-processing.md"]
     },
     {
@@ -30594,7 +30581,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-dotnet/skills/azure-ai-openai-dotnet",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30605,7 +30592,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-python/skills/azure-mgmt-botservice-py",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30616,7 +30603,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-python/skills/azure-monitor-ingestion-py",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30627,7 +30614,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-python/skills/agent-framework-azure-ai-py",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/advanced.md",
@@ -30644,7 +30631,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-java/skills/azure-ai-agents-persistent-java",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md", "references/examples.md"]
     },
     {
@@ -30655,7 +30642,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-typescript/skills/azure-storage-file-share-ts",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30666,7 +30653,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/skills/azure-eventhub-rust",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30677,7 +30664,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/azure-quotas",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/advanced-commands.md",
@@ -30687,15 +30674,25 @@
       ]
     },
     {
-      "id": "microsoft/skills/.github/plugins/azure-skills/skills/azure-messaging",
-      "name": "azure-messaging",
-      "description": "Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection failures, authentication errors, message processing issues, and SDK configuration problems. WHEN: event hub SDK error, service bus SDK issue, messaging connection failure, AMQP error, event processor host issue, message lock lost, message lock expired, lock renewal, lock renewal batch, send timeout, receiver disconnected, SDK troubleshooting, azure messaging SDK, event hub consumer, service bus queue issue, topic subscription error, enable logging event hub, service bus logging, eventhub python, servicebus java, eventhub javascript, servicebus dotnet, event hub checkpoint, event hub not receiving messages, service bus dead letter, batch processing lock, session lock expired, idle timeout, connection inactive, link detach, slow reconnect, session error, duplicate events, offset reset, receive batch.",
-      "categories": ["Development", "Security", "Productivity", "Integration"],
+      "id": "microsoft/skills/.github/plugins/azure-skills/skills/azure-aigateway",
+      "name": "azure-aigateway",
+      "description": "Configure Azure API Management as an AI Gateway for AI models, MCP tools, and agents. WHEN: semantic caching, token limit, content safety, load balancing, AI model governance, MCP rate limiting, jailbreak detection, add Azure OpenAI backend, add AI Foundry model, test AI gateway, LLM policies, configure AI backend, token metrics, AI cost control, convert API to MCP, import OpenAPI to gateway.",
+      "categories": ["Development", "Documents", "Business", "AI & ML"],
       "author": "microsoft",
       "repo": "microsoft/skills",
-      "path": ".github/plugins/azure-skills/skills/azure-messaging",
-      "commitHash": "858117a89d7e",
-      "files": ["SKILL.md"]
+      "path": ".github/plugins/azure-skills/skills/azure-aigateway",
+      "commitHash": "684313b5263c",
+      "files": [
+        "SKILL.md",
+        "references/auth-best-practices.md",
+        "references/patterns.md",
+        "references/policies.md",
+        "references/sdk/azure-ai-contentsafety-py.md",
+        "references/sdk/azure-ai-contentsafety-ts.md",
+        "references/sdk/azure-mgmt-apimanagement-dotnet.md",
+        "references/sdk/azure-mgmt-apimanagement-py.md",
+        "references/troubleshooting.md"
+      ]
     },
     {
       "id": "microsoft/skills/.github/plugins/azure-sdk-python/skills/azure-ai-ml-py",
@@ -30705,7 +30702,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-python/skills/azure-ai-ml-py",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30716,7 +30713,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/azure-cloud-migrate",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/services/app-service/app-engine-to-app-service.md",
@@ -30748,7 +30745,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-python/skills/pydantic-models-py",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md", "assets/template.py"]
     },
     {
@@ -30759,7 +30756,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-python/skills/azure-data-tables-py",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30770,7 +30767,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-java/skills/azure-storage-blob-java",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md", "references/examples.md"]
     },
     {
@@ -30781,7 +30778,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-typescript/skills/azure-identity-ts",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md", "references/browser-auth.md", "references/credential-types.md"]
     },
     {
@@ -30792,7 +30789,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/appinsights-instrumentation",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -30817,7 +30814,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-dotnet/skills/azure-ai-projects-dotnet",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30828,7 +30825,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-dotnet/skills/azure-maps-search-dotnet",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30839,7 +30836,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-fabric-dotnet",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30850,7 +30847,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-typescript/skills/azure-keyvault-keys-ts",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md", "references/keys.md", "references/secrets.md"]
     },
     {
@@ -30861,7 +30858,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/azure-enterprise-infra-planner",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/bicep-generation.md",
@@ -30893,7 +30890,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-botservice-dotnet",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30904,7 +30901,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-python/skills/azure-storage-file-datalake-py",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30915,7 +30912,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-python/skills/azure-ai-language-conversations-py",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30926,7 +30923,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-typescript/skills/azure-monitor-opentelemetry-ts",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30937,7 +30934,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-applicationinsights-dotnet",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30948,7 +30945,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-java/skills/azure-communication-callautomation-java",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md", "references/examples.md"]
     },
     {
@@ -30959,7 +30956,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-playwright-dotnet",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -30978,7 +30975,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/skills/frontend-design-review",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/pattern-examples.md",
@@ -30995,7 +30992,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/azure-ai",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/auth-best-practices.md",
@@ -31023,7 +31020,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/entra-agent-id",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/known-limitations.md",
@@ -31042,7 +31039,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-java/skills/azure-monitor-query-java",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md", "references/examples.md"]
     },
     {
@@ -31053,7 +31050,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/airunway-aks-setup",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/gpu-profiles.md",
@@ -31076,7 +31073,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-python/skills/azure-eventgrid-py",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md"]
     },
     {
@@ -31087,7 +31084,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-python/skills/azure-servicebus-py",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/dead-letter.md",
@@ -31103,7 +31100,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-java/skills/azure-ai-projects-java",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": ["SKILL.md", "references/examples.md"]
     },
     {
@@ -31114,7 +31111,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-sdk-python/skills/azure-ai-projects-py",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/agents.md",
@@ -31138,7 +31135,7 @@
       "author": "microsoft",
       "repo": "microsoft/skills",
       "path": ".github/plugins/azure-skills/skills/azure-hosted-copilot-sdk",
-      "commitHash": "858117a89d7e",
+      "commitHash": "684313b5263c",
       "files": [
         "SKILL.md",
         "references/auth-best-practices.md",
@@ -31167,7 +31164,7 @@
       "author": "yvgude",
       "repo": "yvgude/lean-ctx",
       "path": "skills/lean-ctx",
-      "commitHash": "ba7777b75624",
+      "commitHash": "abc2c6690cf6",
       "files": ["SKILL.md", "scripts"]
     },
     {
@@ -34236,7 +34233,7 @@
       "author": "dstackai",
       "repo": "dstackai/dstack",
       "path": "skills/dstack",
-      "commitHash": "ec55ab23dcec",
+      "commitHash": "e6495693d594",
       "files": ["SKILL.md"]
     },
     {
@@ -34619,7 +34616,7 @@
       "author": "doobidoo",
       "repo": "doobidoo/mcp-memory-service",
       "path": ".claude/skills/gitnexus/debugging",
-      "commitHash": "1e6dee9f3662",
+      "commitHash": "d2463558165f",
       "files": ["SKILL.md"]
     },
     {
@@ -34630,7 +34627,7 @@
       "author": "doobidoo",
       "repo": "doobidoo/mcp-memory-service",
       "path": ".claude/skills/gitnexus/exploring",
-      "commitHash": "1e6dee9f3662",
+      "commitHash": "d2463558165f",
       "files": ["SKILL.md"]
     },
     {
@@ -34641,7 +34638,7 @@
       "author": "doobidoo",
       "repo": "doobidoo/mcp-memory-service",
       "path": ".claude/skills/gitnexus/refactoring",
-      "commitHash": "1e6dee9f3662",
+      "commitHash": "d2463558165f",
       "files": ["SKILL.md"]
     },
     {
@@ -34652,7 +34649,7 @@
       "author": "doobidoo",
       "repo": "doobidoo/mcp-memory-service",
       "path": ".claude/skills/gitnexus/impact-analysis",
-      "commitHash": "1e6dee9f3662",
+      "commitHash": "d2463558165f",
       "files": ["SKILL.md"]
     },
     {
