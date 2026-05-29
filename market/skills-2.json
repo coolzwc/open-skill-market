@@ -1,5 +1,12 @@
 {
   "repositories": {
+    "rediumvex/ai-video-generator-claude": {
+      "url": "https://github.com/rediumvex/ai-video-generator-claude",
+      "branch": "main",
+      "stars": 40,
+      "forks": 1,
+      "lastUpdated": "2026-04-13T15:12:03Z"
+    },
     "Productfculty-aipm/PM-Copilot-by-Product-Faculty": {
       "url": "https://github.com/Productfculty-aipm/PM-Copilot-by-Product-Faculty",
       "branch": "main",
@@ -61,7 +68,7 @@
       "branch": "main",
       "stars": 36,
       "forks": 4,
-      "lastUpdated": "2026-05-29T01:00:15Z"
+      "lastUpdated": "2026-05-29T07:00:30Z"
     },
     "backblaze-labs/claude-skill-b2-cloud-storage": {
       "url": "https://github.com/backblaze-labs/claude-skill-b2-cloud-storage",
@@ -91,6 +98,13 @@
       "forks": 1,
       "lastUpdated": "2026-05-28T10:31:10Z"
     },
+    "maioio/genesis-architect": {
+      "url": "https://github.com/maioio/genesis-architect",
+      "branch": "main",
+      "stars": 33,
+      "forks": 5,
+      "lastUpdated": "2026-05-28T18:23:27Z"
+    },
     "smucclaw/l4-ide": {
       "url": "https://github.com/smucclaw/l4-ide",
       "branch": "main",
@@ -98,12 +112,19 @@
       "forks": 7,
       "lastUpdated": "2026-04-22T12:35:54Z"
     },
-    "maioio/genesis-architect": {
-      "url": "https://github.com/maioio/genesis-architect",
+    "swaylq/master-skill": {
+      "url": "https://github.com/swaylq/master-skill",
       "branch": "main",
-      "stars": 32,
-      "forks": 5,
-      "lastUpdated": "2026-05-28T18:23:27Z"
+      "stars": 31,
+      "forks": 3,
+      "lastUpdated": "2026-05-27T23:16:42Z"
+    },
+    "deeflect/mies": {
+      "url": "https://github.com/deeflect/mies",
+      "branch": "main",
+      "stars": 31,
+      "forks": 0,
+      "lastUpdated": "2026-05-28T19:44:31Z"
     },
     "SimonTheSalesBooster/ClaudeSkills-SprintClub": {
       "url": "https://github.com/SimonTheSalesBooster/ClaudeSkills-SprintClub",
@@ -118,20 +139,6 @@
       "stars": 30,
       "forks": 4,
       "lastUpdated": "2026-04-10T07:20:53Z"
-    },
-    "swaylq/master-skill": {
-      "url": "https://github.com/swaylq/master-skill",
-      "branch": "main",
-      "stars": 30,
-      "forks": 3,
-      "lastUpdated": "2026-05-27T23:16:42Z"
-    },
-    "deeflect/mies": {
-      "url": "https://github.com/deeflect/mies",
-      "branch": "main",
-      "stars": 30,
-      "forks": 0,
-      "lastUpdated": "2026-05-28T19:44:31Z"
     },
     "respira-press/agent-skills-wordpress": {
       "url": "https://github.com/respira-press/agent-skills-wordpress",
@@ -194,7 +201,7 @@
       "branch": "main",
       "stars": 19,
       "forks": 5,
-      "lastUpdated": "2026-05-29T01:15:39Z"
+      "lastUpdated": "2026-05-29T07:16:58Z"
     },
     "VirtusLab-Open-Source/astro-strapi-blocks": {
       "url": "https://github.com/VirtusLab-Open-Source/astro-strapi-blocks",
@@ -322,13 +329,6 @@
       "forks": 4,
       "lastUpdated": "2026-05-28T20:53:45Z"
     },
-    "mikeprasad/aria-knowledge": {
-      "url": "https://github.com/mikeprasad/aria-knowledge",
-      "branch": "main",
-      "stars": 12,
-      "forks": 2,
-      "lastUpdated": "2026-05-28T13:37:23Z"
-    },
     "martysama0134/m2ui-skill": {
       "url": "https://github.com/martysama0134/m2ui-skill",
       "branch": "main",
@@ -336,12 +336,26 @@
       "forks": 4,
       "lastUpdated": "2026-05-11T17:59:53Z"
     },
+    "mikeprasad/aria-knowledge": {
+      "url": "https://github.com/mikeprasad/aria-knowledge",
+      "branch": "main",
+      "stars": 12,
+      "forks": 2,
+      "lastUpdated": "2026-05-28T13:37:23Z"
+    },
     "powersync-ja/agent-skills": {
       "url": "https://github.com/powersync-ja/agent-skills",
       "branch": "main",
       "stars": 12,
       "forks": 0,
       "lastUpdated": "2026-05-28T10:16:51Z"
+    },
+    "zxzin/codex-academic-delivery-skills": {
+      "url": "https://github.com/zxzin/codex-academic-delivery-skills",
+      "branch": "main",
+      "stars": 12,
+      "forks": 0,
+      "lastUpdated": "2026-05-21T08:27:16Z"
     },
     "Bhanunamikaze/AI-Dataset-Generator": {
       "url": "https://github.com/Bhanunamikaze/AI-Dataset-Generator",
@@ -370,13 +384,6 @@
       "stars": 11,
       "forks": 0,
       "lastUpdated": "2026-05-26T12:23:24Z"
-    },
-    "zxzin/codex-academic-delivery-skills": {
-      "url": "https://github.com/zxzin/codex-academic-delivery-skills",
-      "branch": "main",
-      "stars": 11,
-      "forks": 0,
-      "lastUpdated": "2026-05-21T08:27:16Z"
     },
     "th3vib3coder/vibe-science": {
       "url": "https://github.com/th3vib3coder/vibe-science",
@@ -756,15 +763,15 @@
       "forks": 0,
       "lastUpdated": null
     },
-    "proyecto26/sherlock-ai-plugin": {
-      "url": "https://github.com/proyecto26/sherlock-ai-plugin",
+    "Shelpuk-AI-Technology-Consulting/agent-skill-tdd": {
+      "url": "https://github.com/Shelpuk-AI-Technology-Consulting/agent-skill-tdd",
       "branch": "main",
       "stars": 0,
       "forks": 0,
       "lastUpdated": null
     },
-    "Shelpuk-AI-Technology-Consulting/agent-skill-tdd": {
-      "url": "https://github.com/Shelpuk-AI-Technology-Consulting/agent-skill-tdd",
+    "proyecto26/sherlock-ai-plugin": {
+      "url": "https://github.com/proyecto26/sherlock-ai-plugin",
       "branch": "main",
       "stars": 0,
       "forks": 0,
@@ -807,6 +814,116 @@
     }
   },
   "skills": [
+    {
+      "id": "rediumvex/ai-video-generator-claude/skills/09-ai-avatar",
+      "name": "seedance-ai-avatar",
+      "description": "Generate AI avatar and digital persona video prompts for Seedance 2.0 on Higgsfield. Use for virtual spokesperson content, digital twin videos, AI presenter clips, avatar-based marketing, virtual influencer content, or any video featuring a digital/AI-generated character as the main subject. Triggers on avatar, digital persona, virtual presenter, AI character, digital twin, virtual influencer, synthetic media, animated spokesperson.",
+      "categories": ["Marketing", "AI & ML"],
+      "author": "rediumvex",
+      "repo": "rediumvex/ai-video-generator-claude",
+      "path": "skills/09-ai-avatar",
+      "commitHash": "0eab224237bd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "rediumvex/ai-video-generator-claude/skills/01-viral-hook",
+      "name": "seedance-viral-hook",
+      "description": "Generate scroll-stopping viral hook video prompts for Seedance 2.0 on Higgsfield. Use whenever the user wants viral content, TikTok hooks, Instagram Reels openers, YouTube Shorts, attention-grabbing video, scroll-stopper, pattern interrupt, or any short-form video designed to maximize retention and views. Triggers on any mention of viral, hook, scroll-stop, retention, views, engagement, short-form, TikTok, Reels, Shorts.",
+      "categories": ["Marketing", "Media"],
+      "author": "rediumvex",
+      "repo": "rediumvex/ai-video-generator-claude",
+      "path": "skills/01-viral-hook",
+      "commitHash": "0eab224237bd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "rediumvex/ai-video-generator-claude/skills/02-saas-launch",
+      "name": "seedance-saas-launch",
+      "description": "Generate SaaS product launch and software demo video prompts for Seedance 2.0 on Higgsfield. Use whenever the user wants a product launch video, app demo, software walkthrough, feature showcase, startup promo, tech product reveal, or any SaaS/software marketing video. Triggers on SaaS, app, software, product launch, demo, feature, startup, tech, UI, dashboard, landing page video.",
+      "categories": ["Design", "Business"],
+      "author": "rediumvex",
+      "repo": "rediumvex/ai-video-generator-claude",
+      "path": "skills/02-saas-launch",
+      "commitHash": "0eab224237bd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "rediumvex/ai-video-generator-claude/skills/07-before-after",
+      "name": "seedance-before-after",
+      "description": "Generate before-and-after transformation video prompts for Seedance 2.0 on Higgsfield. Use for transformation reveals, glow-ups, makeovers, renovation reveals, fitness transformations, design before-after, business growth visuals, or any content showing dramatic change. Triggers on before after, transformation, reveal, glow up, makeover, renovation, redesign, progress, results.",
+      "categories": ["Design"],
+      "author": "rediumvex",
+      "repo": "rediumvex/ai-video-generator-claude",
+      "path": "skills/07-before-after",
+      "commitHash": "0eab224237bd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "rediumvex/ai-video-generator-claude/skills/04-course-promo",
+      "name": "seedance-course-promo",
+      "description": "Generate online course and coaching program promotional video prompts for Seedance 2.0 on Higgsfield. Use for course trailers, coaching ads, educational content promos, masterclass teasers, webinar promotions, or any educational product video. Triggers on course, coaching, masterclass, webinar, tutorial, education, teaching, training, class, program, academy.",
+      "categories": ["AI & ML"],
+      "author": "rediumvex",
+      "repo": "rediumvex/ai-video-generator-claude",
+      "path": "skills/04-course-promo",
+      "commitHash": "0eab224237bd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "rediumvex/ai-video-generator-claude/skills/10-podcast-visual",
+      "name": "seedance-podcast-visual",
+      "description": "Generate podcast clip visualization video prompts for Seedance 2.0 on Higgsfield. Use for podcast clip videos, audio-to-visual content, audiogram alternatives, podcast highlight reels, interview clip visuals, or any video that transforms audio content into engaging visual format. Triggers on podcast, audio clip, audiogram, interview clip, sound bite, audio visual, podcast video, episode highlight, podcast clip.",
+      "categories": ["Data & Analytics", "Media"],
+      "author": "rediumvex",
+      "repo": "rediumvex/ai-video-generator-claude",
+      "path": "skills/10-podcast-visual",
+      "commitHash": "0eab224237bd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "rediumvex/ai-video-generator-claude/skills/03-personal-brand",
+      "name": "seedance-personal-brand",
+      "description": "Generate personal brand and founder story video prompts for Seedance 2.0 on Higgsfield. Use for authority content, day-in-the-life, founder story, personal brand building, thought leadership, creator content, lifestyle videos, behind-the-scenes, or any video meant to build a personal brand presence. Triggers on personal brand, founder, creator, authority, lifestyle, behind the scenes, day in the life, thought leader.",
+      "categories": ["Design", "Writing", "Business"],
+      "author": "rediumvex",
+      "repo": "rediumvex/ai-video-generator-claude",
+      "path": "skills/03-personal-brand",
+      "commitHash": "0eab224237bd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "rediumvex/ai-video-generator-claude/skills/05-faceless-channel",
+      "name": "seedance-faceless-channel",
+      "description": "Generate faceless content video prompts for Seedance 2.0 on Higgsfield. Use for faceless YouTube channels, TikTok content without showing face, anonymous creator content, narration-driven videos, stock-footage-style AI content, or any video where the creator doesn't appear on camera. Triggers on faceless, no face, anonymous, narration, stock footage, b-roll, background video, voiceover video.",
+      "categories": ["AI & ML", "Media"],
+      "author": "rediumvex",
+      "repo": "rediumvex/ai-video-generator-claude",
+      "path": "skills/05-faceless-channel",
+      "commitHash": "0eab224237bd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "rediumvex/ai-video-generator-claude/skills/06-luxury-aesthetic",
+      "name": "seedance-luxury-aesthetic",
+      "description": "Generate luxury and premium aesthetic video prompts for Seedance 2.0 on Higgsfield. Use for luxury brand content, premium product showcases, high-end lifestyle, minimalist aesthetic, elegant brand videos, or any content requiring sophisticated visual treatment. Triggers on luxury, premium, high-end, elegant, minimalist, sophisticated, exclusive, refined, designer, couture, bespoke.",
+      "categories": ["Design"],
+      "author": "rediumvex",
+      "repo": "rediumvex/ai-video-generator-claude",
+      "path": "skills/06-luxury-aesthetic",
+      "commitHash": "0eab224237bd",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "rediumvex/ai-video-generator-claude/skills/08-testimonial-story",
+      "name": "seedance-testimonial-story",
+      "description": "Generate customer testimonial and social proof video prompts for Seedance 2.0 on Higgsfield. Use for customer stories, case study videos, review showcases, social proof content, success story videos, or any content featuring customer results and experiences. Triggers on testimonial, review, case study, social proof, customer story, success story, results, feedback, client.",
+      "categories": ["Research"],
+      "author": "rediumvex",
+      "repo": "rediumvex/ai-video-generator-claude",
+      "path": "skills/08-testimonial-story",
+      "commitHash": "0eab224237bd",
+      "files": ["SKILL.md"]
+    },
     {
       "id": "Productfculty-aipm/PM-Copilot-by-Product-Faculty/skills/gossip",
       "name": "gossip",
@@ -1747,6 +1864,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "adriannoes/awesome-vibe-coding/cursor-and-claude/skills/executing-plans",
+      "name": "executing-plans",
+      "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+      "categories": ["Productivity"],
+      "author": "adriannoes",
+      "repo": "adriannoes/awesome-vibe-coding",
+      "path": "cursor-and-claude/skills/executing-plans",
+      "commitHash": "32831a9c4f53",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "adriannoes/awesome-vibe-coding/cursor-and-claude/skills/update-changelog",
       "name": "update-changelog",
       "description": "Read before updating changelogs — update CHANGELOG.md with notable changes since last release",
@@ -1756,17 +1884,6 @@
       "path": "cursor-and-claude/skills/update-changelog",
       "commitHash": "32831a9c4f53",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "adriannoes/awesome-vibe-coding/cursor-and-claude/skills/using-superpowers",
-      "name": "using-superpowers",
-      "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
-      "categories": ["Design"],
-      "author": "adriannoes",
-      "repo": "adriannoes/awesome-vibe-coding",
-      "path": "cursor-and-claude/skills/using-superpowers",
-      "commitHash": "32831a9c4f53",
-      "files": ["SKILL.md", "references"]
     },
     {
       "id": "adriannoes/awesome-vibe-coding/cursor-and-claude/skills/using-git-worktrees",
@@ -2646,6 +2763,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "cleodin/antigravity-awesome-skills/skills/kaizen",
+      "name": "kaizen",
+      "description": "Guide for continuous improvement, error proofing, and standardization. Use this skill when the user wants to improve code quality, refactor, or discuss process improvements.",
+      "categories": ["Development"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/kaizen",
+      "commitHash": "5508fda1c776",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "cleodin/antigravity-awesome-skills/skills/page-cro",
       "name": "page-cro",
       "description": "Analyze and optimize individual pages for conversion performance. Use when the user wants to improve conversion rates, diagnose why a page is underperforming, or increase the effectiveness of marketing pages (homepage, landing pages, pricing, feature pages, or blog posts). This skill focuses on diagnosis, prioritization, and testable recommendations— not blind optimization.\n",
@@ -2653,7 +2781,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/page-cro",
-      "commitHash": "ff933b98cdd7",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
@@ -2664,7 +2792,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/clean-code",
-      "commitHash": "ff933b98cdd7",
+      "commitHash": "5508fda1c776",
       "version": 2,
       "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
@@ -2677,40 +2805,18 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/form-cro",
-      "commitHash": "ff933b98cdd7",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/docker-expert",
-      "name": "docker-expert",
-      "description": "Docker containerization expert with deep knowledge of multi-stage builds, image optimization, container security, Docker Compose orchestration, and production deployment patterns. Use PROACTIVELY for Dockerfile optimization, container issues, image size problems, security hardening, networking, and orchestration challenges.",
-      "categories": ["Development", "DevOps", "Design"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/docker-expert",
-      "commitHash": "ff933b98cdd7",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/seo-audit",
-      "name": "seo-audit",
-      "description": "Diagnose and audit SEO issues affecting crawlability, indexation, rankings, and organic performance. Use when the user asks for an SEO audit, technical SEO review, ranking diagnosis, on-page SEO review, meta tag audit, or SEO health check. This skill identifies issues and prioritizes actions but does not execute changes. For large-scale page creation, use programmatic-seo. For structured data, use schema-markup.\n",
-      "categories": ["Data & Analytics", "Business", "Research"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/seo-audit",
-      "commitHash": "ff933b98cdd7",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/popup-cro",
-      "name": "popup-cro",
-      "description": "Create and optimize popups, modals, overlays, slide-ins, and banners to increase conversions without harming user experience or brand trust.",
+      "id": "cleodin/antigravity-awesome-skills/skills/react-patterns",
+      "name": "react-patterns",
+      "description": "Modern React patterns and principles. Hooks, composition, performance, TypeScript best practices.",
       "categories": ["Development"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/popup-cro",
-      "commitHash": "ff933b98cdd7",
+      "path": "skills/react-patterns",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
@@ -2721,7 +2827,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/last30days",
-      "commitHash": "ff933b98cdd7",
+      "commitHash": "5508fda1c776",
       "files": [
         "README.md",
         "SKILL.md",
@@ -2746,6 +2852,17 @@
       ]
     },
     {
+      "id": "cleodin/antigravity-awesome-skills/skills/playwright-skill",
+      "name": "playwright-skill",
+      "description": "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing.",
+      "categories": ["Development", "Design", "Productivity"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/playwright-skill",
+      "commitHash": "5508fda1c776",
+      "files": ["API_REFERENCE.md", "SKILL.md", "lib/helpers.js", "package.json", "run.js"]
+    },
+    {
       "id": "cleodin/antigravity-awesome-skills/skills/exa-search",
       "name": "exa-search",
       "description": "Semantic search, similar content discovery, and structured research using Exa API",
@@ -2753,53 +2870,61 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/exa-search",
-      "commitHash": "ff933b98cdd7",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/tavily-web",
-      "name": "tavily-web",
-      "description": "Web search, content extraction, crawling, and research capabilities using Tavily API",
-      "categories": ["Research"],
+      "id": "cleodin/antigravity-awesome-skills/skills/app-builder",
+      "name": "app-builder",
+      "description": "Main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordinates agents.",
+      "categories": ["Development", "AI & ML"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/tavily-web",
-      "commitHash": "ff933b98cdd7",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/api-patterns",
-      "name": "api-patterns",
-      "description": "API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning, pagination.",
-      "categories": ["Development"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/api-patterns",
-      "commitHash": "ff933b98cdd7",
+      "path": "skills/app-builder",
+      "commitHash": "5508fda1c776",
       "files": [
         "SKILL.md",
-        "api-style.md",
-        "auth.md",
-        "documentation.md",
-        "graphql.md",
-        "rate-limiting.md",
-        "response.md",
-        "rest.md",
-        "scripts/api_validator.py",
-        "security-testing.md",
-        "trpc.md",
-        "versioning.md"
+        "agent-coordination.md",
+        "feature-building.md",
+        "project-detection.md",
+        "scaffolding.md",
+        "tech-stack.md",
+        "templates/SKILL.md",
+        "templates/astro-static/TEMPLATE.md",
+        "templates/chrome-extension/TEMPLATE.md",
+        "templates/cli-tool/TEMPLATE.md",
+        "templates/electron-desktop/TEMPLATE.md",
+        "templates/express-api/TEMPLATE.md",
+        "templates/flutter-app/TEMPLATE.md",
+        "templates/monorepo-turborepo/TEMPLATE.md",
+        "templates/nextjs-fullstack/TEMPLATE.md",
+        "templates/nextjs-saas/TEMPLATE.md",
+        "templates/nextjs-static/TEMPLATE.md",
+        "templates/nuxt-app/TEMPLATE.md",
+        "templates/python-fastapi/TEMPLATE.md",
+        "templates/react-native-app/TEMPLATE.md"
       ]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/codex-review",
-      "name": "codex-review",
-      "description": "Professional code review with auto CHANGELOG generation, integrated with Codex AI",
-      "categories": ["Development"],
+      "id": "cleodin/antigravity-awesome-skills/skills/plan-writing",
+      "name": "plan-writing",
+      "description": "Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work.",
+      "categories": ["Productivity"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/codex-review",
-      "commitHash": "ff933b98cdd7",
+      "path": "skills/plan-writing",
+      "commitHash": "5508fda1c776",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/nosql-expert",
+      "name": "nosql-expert",
+      "description": "Expert guidance for distributed NoSQL databases (Cassandra, DynamoDB). Focuses on mental models, query-first modeling, single-table design, and avoiding hot partitions in high-scale systems.",
+      "categories": ["Design", "Data & Analytics"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/nosql-expert",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
@@ -2810,7 +2935,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/architecture",
-      "commitHash": "ff933b98cdd7",
+      "commitHash": "5508fda1c776",
       "files": [
         "SKILL.md",
         "context-discovery.md",
@@ -2821,17 +2946,6 @@
       ]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/playwright-skill",
-      "name": "playwright-skill",
-      "description": "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing.",
-      "categories": ["Development", "Design", "Productivity"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/playwright-skill",
-      "commitHash": "ff933b98cdd7",
-      "files": ["API_REFERENCE.md", "SKILL.md", "lib/helpers.js", "package.json", "run.js"]
-    },
-    {
       "id": "cleodin/antigravity-awesome-skills/skills/brainstorming",
       "name": "brainstorming",
       "description": "Use this skill before any creative or constructive work (features, components, architecture, behavior changes, or functionality). This skill transforms vague ideas into validated designs through disciplined, incremental reasoning and collaboration.\n",
@@ -2839,18 +2953,18 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/brainstorming",
-      "commitHash": "ff933b98cdd7",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/prisma-expert",
-      "name": "prisma-expert",
-      "description": "Prisma ORM expert for schema design, migrations, query optimization, relations modeling, and database operations. Use PROACTIVELY for Prisma schema issues, migration problems, query performance, relation design, or database connection issues.",
-      "categories": ["Data & Analytics"],
+      "id": "cleodin/antigravity-awesome-skills/skills/onboarding-cro",
+      "name": "onboarding-cro",
+      "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" or \"new user experience.\" For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.",
+      "categories": ["Business"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/prisma-expert",
-      "commitHash": "ff933b98cdd7",
+      "path": "skills/onboarding-cro",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
@@ -2861,7 +2975,18 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/social-content",
-      "commitHash": "ff933b98cdd7",
+      "commitHash": "5508fda1c776",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/file-organizer",
+      "name": "file-organizer",
+      "description": "Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better organizational structures. Use when user wants to clean up directories, organize downloads, remove duplicates, or restructure projects.",
+      "categories": ["Productivity"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/file-organizer",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
@@ -2872,28 +2997,19 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/marketing-ideas",
-      "commitHash": "ff933b98cdd7",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/database-design",
-      "name": "database-design",
-      "description": "Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases.",
-      "categories": ["Data & Analytics", "Business"],
+      "id": "cleodin/antigravity-awesome-skills/skills/red-team-tactics",
+      "name": "red-team-tactics",
+      "description": "Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting.",
+      "categories": ["Other"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/database-design",
-      "commitHash": "ff933b98cdd7",
-      "files": [
-        "SKILL.md",
-        "database-selection.md",
-        "indexing.md",
-        "migrations.md",
-        "optimization.md",
-        "orm-selection.md",
-        "schema-design.md",
-        "scripts/schema_validator.py"
-      ]
+      "path": "skills/red-team-tactics",
+      "commitHash": "5508fda1c776",
+      "files": ["SKILL.md"]
     },
     {
       "id": "cleodin/antigravity-awesome-skills/skills/geo-fundamentals",
@@ -2903,7 +3019,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/geo-fundamentals",
-      "commitHash": "ff933b98cdd7",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md", "scripts/geo_checker.py"]
     },
     {
@@ -2914,166 +3030,87 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/agent-memory-mcp",
-      "commitHash": "ff933b98cdd7",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/game-development",
-      "name": "game-development",
-      "description": "Game development orchestrator. Routes to platform-specific skills based on project needs.",
-      "categories": ["Other"],
+      "id": "cleodin/antigravity-awesome-skills/skills/programmatic-seo",
+      "name": "programmatic-seo",
+      "description": "Design and evaluate programmatic SEO strategies for creating SEO-driven pages at scale using templates and structured data. Use when the user mentions programmatic SEO, pages at scale, template pages, directory pages, location pages, comparison pages, integration pages, or keyword-pattern page generation. This skill focuses on feasibility, strategy, and page system design—not execution unless explicitly requested.\n",
+      "categories": ["Business", "Research"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/game-development",
-      "commitHash": "ff933b98cdd7",
+      "path": "skills/programmatic-seo",
+      "commitHash": "5508fda1c776",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/server-management",
+      "name": "server-management",
+      "description": "Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands.",
+      "categories": ["DevOps", "Business"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/server-management",
+      "commitHash": "5508fda1c776",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/analytics-tracking",
+      "name": "analytics-tracking",
+      "description": "Design, audit, and improve analytics tracking systems that produce reliable, decision-ready data. Use when the user wants to set up, fix, or evaluate analytics tracking (GA4, GTM, product analytics, events, conversions, UTMs). This skill focuses on measurement strategy, signal quality, and validation— not just firing events.\n",
+      "categories": ["Data & Analytics", "Business"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/analytics-tracking",
+      "commitHash": "5508fda1c776",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/backend-dev-guidelines",
+      "name": "backend-dev-guidelines",
+      "description": "Opinionated backend development standards for Node.js + Express + TypeScript microservices. Covers layered architecture, BaseController pattern, dependency injection, Prisma repositories, Zod validation, unifiedConfig, Sentry error tracking, async safety, and testing discipline.",
+      "categories": ["Development", "Data & Analytics", "Integration"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/backend-dev-guidelines",
+      "commitHash": "5508fda1c776",
       "files": [
-        "2d-games/SKILL.md",
-        "3d-games/SKILL.md",
         "SKILL.md",
-        "game-art/SKILL.md",
-        "game-audio/SKILL.md",
-        "game-design/SKILL.md",
-        "mobile-games/SKILL.md",
-        "multiplayer/SKILL.md",
-        "pc-games/SKILL.md",
-        "vr-ar/SKILL.md",
-        "web-games/SKILL.md"
+        "resources/architecture-overview.md",
+        "resources/async-and-errors.md",
+        "resources/complete-examples.md",
+        "resources/configuration.md",
+        "resources/database-patterns.md",
+        "resources/middleware-guide.md",
+        "resources/routing-and-controllers.md",
+        "resources/sentry-and-monitoring.md",
+        "resources/services-and-repositories.md",
+        "resources/testing-guide.md",
+        "resources/validation-patterns.md"
       ]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/software-architecture",
-      "name": "software-architecture",
-      "description": "Guide for quality focused software architecture. This skill should be used when users want to write code, design architecture, analyze code, in any case that relates to software development.",
-      "categories": ["Development", "Design"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/software-architecture",
-      "commitHash": "ff933b98cdd7",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/receiving-code-review",
-      "name": "receiving-code-review",
-      "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
-      "categories": ["Development"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/receiving-code-review",
-      "commitHash": "ff933b98cdd7",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/app-builder/templates",
-      "name": "templates",
-      "description": "Project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.",
-      "categories": ["Productivity"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/app-builder/templates",
-      "commitHash": "ff933b98cdd7",
-      "files": [
-        "SKILL.md",
-        "astro-static/TEMPLATE.md",
-        "chrome-extension/TEMPLATE.md",
-        "cli-tool/TEMPLATE.md",
-        "electron-desktop/TEMPLATE.md",
-        "express-api/TEMPLATE.md",
-        "flutter-app/TEMPLATE.md",
-        "monorepo-turborepo/TEMPLATE.md",
-        "nextjs-fullstack/TEMPLATE.md",
-        "nextjs-saas/TEMPLATE.md",
-        "nextjs-static/TEMPLATE.md",
-        "nuxt-app/TEMPLATE.md",
-        "python-fastapi/TEMPLATE.md",
-        "react-native-app/TEMPLATE.md"
-      ]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/cc-skill-security-review",
-      "name": "security-review",
-      "description": "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.",
-      "categories": ["Development", "Security"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/cc-skill-security-review",
-      "commitHash": "ff933b98cdd7",
-      "version": "1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/game-development/2d-games",
-      "name": "2d-games",
-      "description": "2D game development principles. Sprites, tilemaps, physics, camera.",
+      "id": "cleodin/antigravity-awesome-skills/skills/game-development/3d-games",
+      "name": "3d-games",
+      "description": "3D game development principles. Rendering, shaders, physics, cameras.",
       "categories": ["Media"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/game-development/2d-games",
-      "commitHash": "ff933b98cdd7",
+      "path": "skills/game-development/3d-games",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/cc-skill-coding-standards",
-      "name": "coding-standards",
-      "description": "Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.",
-      "categories": ["Development"],
+      "id": "cleodin/antigravity-awesome-skills/skills/finishing-a-development-branch",
+      "name": "finishing-a-development-branch",
+      "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+      "categories": ["Other"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/cc-skill-coding-standards",
-      "commitHash": "ff933b98cdd7",
-      "version": "1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
+      "path": "skills/finishing-a-development-branch",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/avalonia-viewmodels-zafiro",
-      "name": "avalonia-viewmodels-zafiro",
-      "description": "Optimal ViewModel and Wizard creation patterns for Avalonia using Zafiro and ReactiveUI.",
-      "categories": ["Development"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/avalonia-viewmodels-zafiro",
-      "commitHash": "ff933b98cdd7",
-      "files": [
-        "SKILL.md",
-        "composition.md",
-        "navigation_sections.md",
-        "viewmodels.md",
-        "wizards.md"
-      ]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/moodle-external-api-development",
-      "name": "moodle-external-api-development",
-      "description": "Create custom external web service APIs for Moodle LMS. Use when implementing web services for course management, user tracking, quiz operations, or custom plugin functionality. Covers parameter validation, database operations, error handling, service registration, and Moodle coding standards.",
-      "categories": ["Development", "Data & Analytics", "Integration", "Business"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/moodle-external-api-development",
-      "commitHash": "ff933b98cdd7",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/react-ui-patterns",
-      "name": "react-ui-patterns",
-      "description": "Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.",
-      "categories": ["Development"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/react-ui-patterns",
-      "commitHash": "ff933b98cdd7",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/nodejs-best-practices",
-      "name": "nodejs-best-practices",
-      "description": "Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying.",
-      "categories": ["Development", "Business"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/nodejs-best-practices",
-      "commitHash": "ff933b98cdd7",
-      "files": ["SKILL.md", "skills-awesome-antigravity-v2.4.zip"]
     },
     {
       "id": "cleodin/antigravity-awesome-skills/skills/nextjs-best-practices",
@@ -3083,40 +3120,115 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/nextjs-best-practices",
-      "commitHash": "ff933b98cdd7",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/nestjs-expert",
-      "name": "nestjs-expert",
-      "description": "Nest.js framework expert specializing in module architecture, dependency injection, middleware, guards, interceptors, testing with Jest/Supertest, TypeORM/Mongoose integration, and Passport.js authentication. Use PROACTIVELY for any Nest.js application issues including architecture decisions, testing strategies, performance optimization, or debugging complex dependency injection problems. If a specialized expert is a better fit, I will recommend switching and stop.",
-      "categories": ["Development", "Security", "Business"],
+      "id": "cleodin/antigravity-awesome-skills/skills/frontend-dev-guidelines",
+      "name": "frontend-dev-guidelines",
+      "description": "Opinionated frontend development standards for modern React + TypeScript applications. Covers Suspense-first data fetching, lazy loading, feature-based architecture, MUI v7 styling, TanStack Router, performance optimization, and strict TypeScript practices.",
+      "categories": ["Development"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/nestjs-expert",
-      "commitHash": "ff933b98cdd7",
+      "path": "skills/frontend-dev-guidelines",
+      "commitHash": "5508fda1c776",
+      "files": [
+        "SKILL.md",
+        "resources/common-patterns.md",
+        "resources/complete-examples.md",
+        "resources/component-patterns.md",
+        "resources/data-fetching.md",
+        "resources/file-organization.md",
+        "resources/loading-and-error-states.md",
+        "resources/performance.md",
+        "resources/routing-guide.md",
+        "resources/styling-guide.md",
+        "resources/typescript-standards.md"
+      ]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/langgraph",
+      "name": "langgraph",
+      "description": "Expert in LangGraph - the production-grade framework for building stateful, multi-actor AI applications. Covers graph construction, state management, cycles and branches, persistence with checkpointers, human-in-the-loop patterns, and the ReAct agent pattern. Used in production at LinkedIn, Uber, and 400+ companies. This is LangChain's recommended approach for building agents. Use when: langgraph, langchain agent, stateful agent, agent graph, react agent.",
+      "categories": ["Development", "Business", "AI & ML"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/langgraph",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/free-tool-strategy",
-      "name": "free-tool-strategy",
-      "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" or \"free resource.\" This skill bridges engineering and marketing — useful for founders and technical marketers.",
-      "categories": ["Development", "Design", "Productivity", "Marketing", "Business", "Research"],
+      "id": "cleodin/antigravity-awesome-skills/skills/docker-expert",
+      "name": "docker-expert",
+      "description": "Docker containerization expert with deep knowledge of multi-stage builds, image optimization, container security, Docker Compose orchestration, and production deployment patterns. Use PROACTIVELY for Dockerfile optimization, container issues, image size problems, security hardening, networking, and orchestration challenges.",
+      "categories": ["Development", "DevOps", "Design"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/free-tool-strategy",
-      "commitHash": "ff933b98cdd7",
+      "path": "skills/docker-expert",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/agent-manager-skill",
-      "name": "agent-manager-skill",
-      "description": "Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling.",
-      "categories": ["Design", "AI & ML"],
+      "id": "cleodin/antigravity-awesome-skills/skills/prompt-engineer",
+      "name": "prompt-engineer",
+      "description": "Expert in designing effective prompts for LLM-powered applications. Masters prompt structure, context management, output formatting, and prompt evaluation. Use when: prompt engineering, system prompt, few-shot, chain of thought, prompt design.",
+      "categories": ["AI & ML"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/agent-manager-skill",
-      "commitHash": "ff933b98cdd7",
+      "path": "skills/prompt-engineer",
+      "commitHash": "5508fda1c776",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/copy-editing",
+      "name": "copy-editing",
+      "description": "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' or 'copy sweep.' This skill provides a systematic approach to editing marketing copy through multiple focused passes.",
+      "categories": ["Writing"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/copy-editing",
+      "commitHash": "5508fda1c776",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/skill-developer",
+      "name": "skill-developer",
+      "description": "Create and manage Claude Code skills following Anthropic best practices. Use when creating new skills, modifying skill-rules.json, understanding trigger patterns, working with hooks, debugging skill activation, or implementing progressive disclosure. Covers skill structure, YAML frontmatter, trigger types (keywords, intent patterns, file paths, content patterns), enforcement levels (block, suggest, warn), hook mechanisms (UserPromptSubmit, PreToolUse), session tracking, and the 500-line rule.",
+      "categories": ["Development", "Data & Analytics", "Documents", "AI & ML"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/skill-developer",
+      "commitHash": "5508fda1c776",
+      "files": [
+        "ADVANCED.md",
+        "HOOK_MECHANISMS.md",
+        "PATTERNS_LIBRARY.md",
+        "SKILL.md",
+        "SKILL_RULES_REFERENCE.md",
+        "TRIGGER_TYPES.md",
+        "TROUBLESHOOTING.md"
+      ]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/react-ui-patterns",
+      "name": "react-ui-patterns",
+      "description": "Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.",
+      "categories": ["Development"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/react-ui-patterns",
+      "commitHash": "5508fda1c776",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/tdd-workflow",
+      "name": "tdd-workflow",
+      "description": "Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle.",
+      "categories": ["Development"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/tdd-workflow",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
@@ -3127,7 +3239,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/mobile-design",
-      "commitHash": "ff933b98cdd7",
+      "commitHash": "5508fda1c776",
       "files": [
         "SKILL.md",
         "decision-trees.md",
@@ -3146,79 +3258,25 @@
       ]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/cc-skill-project-guidelines-example",
-      "name": "cc-skill-project-guidelines-example",
-      "description": "Project Guidelines Skill (Example)",
-      "categories": ["Other"],
+      "id": "cleodin/antigravity-awesome-skills/skills/seo-fundamentals",
+      "name": "seo-fundamentals",
+      "description": "Core principles of SEO including E-E-A-T, Core Web Vitals, technical foundations, content quality, and how modern search engines evaluate pages. This skill explains *why* SEO works, not how to execute specific optimizations.\n",
+      "categories": ["Research"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/cc-skill-project-guidelines-example",
-      "commitHash": "ff933b98cdd7",
-      "version": "1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
+      "path": "skills/seo-fundamentals",
+      "commitHash": "5508fda1c776",
+      "files": ["SKILL.md", "scripts/seo_checker.py"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/frontend-design",
-      "name": "frontend-design",
-      "description": "Create distinctive, production-grade frontend interfaces with intentional aesthetics, high craft, and non-generic visual identity. Use when building or styling web UIs, components, pages, dashboards, or frontend applications.",
-      "categories": ["Development", "Design"],
+      "id": "cleodin/antigravity-awesome-skills/skills/concise-planning",
+      "name": "concise-planning",
+      "description": "Use when a user asks for a plan for a coding task, to generate a clear, actionable, and atomic checklist.",
+      "categories": ["Development", "Productivity"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/frontend-design",
-      "commitHash": "ff933b98cdd7",
-      "files": ["LICENSE.txt", "SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/skill-developer",
-      "name": "skill-developer",
-      "description": "Create and manage Claude Code skills following Anthropic best practices. Use when creating new skills, modifying skill-rules.json, understanding trigger patterns, working with hooks, debugging skill activation, or implementing progressive disclosure. Covers skill structure, YAML frontmatter, trigger types (keywords, intent patterns, file paths, content patterns), enforcement levels (block, suggest, warn), hook mechanisms (UserPromptSubmit, PreToolUse), session tracking, and the 500-line rule.",
-      "categories": ["Development", "Data & Analytics", "Documents", "AI & ML"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/skill-developer",
-      "commitHash": "ff933b98cdd7",
-      "files": [
-        "ADVANCED.md",
-        "HOOK_MECHANISMS.md",
-        "PATTERNS_LIBRARY.md",
-        "SKILL.md",
-        "SKILL_RULES_REFERENCE.md",
-        "TRIGGER_TYPES.md",
-        "TROUBLESHOOTING.md"
-      ]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/referral-program",
-      "name": "referral-program",
-      "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' or 'partner program.' This skill covers program design, incentive structure, and growth optimization.",
-      "categories": ["Design"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/referral-program",
-      "commitHash": "ff933b98cdd7",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/pricing-strategy",
-      "name": "pricing-strategy",
-      "description": "Design pricing, packaging, and monetization strategies based on value, customer willingness to pay, and growth objectives.",
-      "categories": ["Business"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/pricing-strategy",
-      "commitHash": "ff933b98cdd7",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/behavioral-modes",
-      "name": "behavioral-modes",
-      "description": "AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type.",
-      "categories": ["Other"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/behavioral-modes",
-      "commitHash": "ff933b98cdd7",
+      "path": "skills/concise-planning",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
@@ -3229,7 +3287,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/senior-fullstack",
-      "commitHash": "ff933b98cdd7",
+      "commitHash": "5508fda1c776",
       "files": [
         "SKILL.md",
         "references/architecture_patterns.md",
@@ -3241,58 +3299,55 @@
       ]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/firecrawl-scraper",
-      "name": "firecrawl-scraper",
-      "description": "Deep web scraping, screenshots, PDF parsing, and website crawling using Firecrawl API",
+      "id": "cleodin/antigravity-awesome-skills/skills/senior-architect",
+      "name": "senior-architect",
+      "description": "Comprehensive software architecture skill for designing scalable, maintainable systems using ReactJS, NextJS, NodeJS, Express, React Native, Swift, Kotlin, Flutter, Postgres, GraphQL, Go, Python. Includes architecture diagram generation, system design patterns, tech stack decision frameworks, and dependency analysis. Use when designing system architecture, making technical decisions, creating architecture diagrams, evaluating trade-offs, or defining integration patterns.",
+      "categories": ["Development", "Data & Analytics", "Business"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/senior-architect",
+      "commitHash": "5508fda1c776",
+      "files": [
+        "SKILL.md",
+        "references/architecture_patterns.md",
+        "references/system_design_workflows.md",
+        "references/tech_decision_guide.md",
+        "scripts/architecture_diagram_generator.py",
+        "scripts/dependency_analyzer.py",
+        "scripts/project_architect.py"
+      ]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/daily-news-report",
+      "name": "daily-news-report",
+      "description": "基于预设 URL 列表抓取内容，筛选高质量技术信息并生成每日 Markdown 报告。",
+      "categories": ["Other"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/daily-news-report",
+      "commitHash": "5508fda1c776",
+      "files": ["SKILL.md", "cache.json", "sources.json"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/research-engineer",
+      "name": "research-engineer",
+      "description": "An uncompromising Academic Research Engineer. Operates with absolute scientific rigor, objective criticism, and zero flair. Focuses on theoretical correctness, formal verification, and optimal implementation across any required technology.",
       "categories": ["Research"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/firecrawl-scraper",
-      "commitHash": "ff933b98cdd7",
+      "path": "skills/research-engineer",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/server-management",
-      "name": "server-management",
-      "description": "Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands.",
-      "categories": ["DevOps", "Business"],
+      "id": "cleodin/antigravity-awesome-skills/skills/free-tool-strategy",
+      "name": "free-tool-strategy",
+      "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" or \"free resource.\" This skill bridges engineering and marketing — useful for founders and technical marketers.",
+      "categories": ["Development", "Design", "Productivity", "Marketing", "Business", "Research"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/server-management",
-      "commitHash": "ff933b98cdd7",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/lint-and-validate",
-      "name": "lint-and-validate",
-      "description": "Automatic quality control, linting, and static analysis procedures. Use after every code modification to ensure syntax correctness and project standards. Triggers onKeywords: lint, format, check, validate, types, static analysis.",
-      "categories": ["Development", "Productivity", "Data & Analytics", "Documents"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/lint-and-validate",
-      "commitHash": "ff933b98cdd7",
-      "files": ["SKILL.md", "scripts/lint_runner.py", "scripts/type_coverage.py"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/javascript-mastery",
-      "name": "javascript-mastery",
-      "description": "Comprehensive JavaScript reference covering 33+ essential concepts every developer should know. From fundamentals like primitives and closures to advanced patterns like async/await and functional programming. Use when explaining JS concepts, debugging JavaScript issues, or teaching JavaScript fundamentals.",
-      "categories": ["Development"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/javascript-mastery",
-      "commitHash": "ff933b98cdd7",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/prompt-engineering",
-      "name": "prompt-engineering",
-      "description": "Expert guide on prompt engineering patterns, best practices, and optimization techniques. Use when user wants to improve prompts, learn prompting strategies, or debug agent behavior.",
-      "categories": ["Development", "AI & ML"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/prompt-engineering",
-      "commitHash": "ff933b98cdd7",
+      "path": "skills/free-tool-strategy",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
@@ -3303,19 +3358,30 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/powershell-windows",
-      "commitHash": "ff933b98cdd7",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/using-git-worktrees",
-      "name": "using-git-worktrees",
-      "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification",
-      "categories": ["Productivity"],
+      "id": "cleodin/antigravity-awesome-skills/skills/planning-with-files",
+      "name": "planning-with-files",
+      "description": "Implements Manus-style file-based planning for complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when starting complex multi-step tasks, research projects, or any task requiring >5 tool calls.",
+      "categories": ["Design", "Productivity", "Research"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/using-git-worktrees",
-      "commitHash": "ff933b98cdd7",
-      "files": ["SKILL.md"]
+      "path": "skills/planning-with-files",
+      "commitHash": "5508fda1c776",
+      "version": "2.1.2",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "SKILL.md",
+        "examples.md",
+        "reference.md",
+        "scripts/check-complete.sh",
+        "scripts/init-session.sh",
+        "templates/findings.md",
+        "templates/progress.md",
+        "templates/task_plan.md"
+      ]
     },
     {
       "id": "cleodin/antigravity-awesome-skills/skills/paywall-upgrade-cro",
@@ -3325,7 +3391,7 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/paywall-upgrade-cro",
-      "commitHash": "ff933b98cdd7",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
@@ -3336,37 +3402,35 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/marketing-psychology",
-      "commitHash": "ff933b98cdd7",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/avalonia-layout-zafiro",
-      "name": "avalonia-layout-zafiro",
-      "description": "Guidelines for modern Avalonia UI layout using Zafiro.Avalonia, emphasizing shared styles, generic components, and avoiding XAML redundancy.",
-      "categories": ["Design"],
+      "id": "cleodin/antigravity-awesome-skills/skills/context7-auto-research",
+      "name": "context7-auto-research",
+      "description": "Automatically fetch latest library/framework documentation for Claude Code via Context7 API",
+      "categories": ["Development", "Writing", "Research"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/avalonia-layout-zafiro",
-      "commitHash": "ff933b98cdd7",
+      "path": "skills/context7-auto-research",
+      "commitHash": "5508fda1c776",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/product-manager-toolkit",
+      "name": "product-manager-toolkit",
+      "description": "Comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, discovery frameworks, and go-to-market strategies. Use for feature prioritization, user research synthesis, requirement documentation, and product strategy development.",
+      "categories": ["Productivity", "Business", "Research"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/product-manager-toolkit",
+      "commitHash": "5508fda1c776",
       "files": [
         "SKILL.md",
-        "behaviors.md",
-        "components.md",
-        "containers.md",
-        "icons.md",
-        "themes.md"
+        "references/prd_templates.md",
+        "scripts/customer_interview_analyzer.py",
+        "scripts/rice_prioritizer.py"
       ]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/competitor-alternatives",
-      "name": "competitor-alternatives",
-      "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' or 'competitive landing pages.' Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. Emphasizes deep research, modular content architecture, and varied section types beyond feature tables.",
-      "categories": ["Development", "Documents", "Research"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/competitor-alternatives",
-      "commitHash": "ff933b98cdd7",
-      "files": ["SKILL.md"]
     },
     {
       "id": "cleodin/antigravity-awesome-skills/skills/environment-setup-guide",
@@ -3376,150 +3440,178 @@
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
       "path": "skills/environment-setup-guide",
-      "commitHash": "ff933b98cdd7",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/cc-skill-backend-patterns",
-      "name": "backend-patterns",
-      "description": "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.",
-      "categories": ["Development", "Data & Analytics"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/cc-skill-backend-patterns",
-      "commitHash": "ff933b98cdd7",
-      "version": "1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/github-workflow-automation",
-      "name": "github-workflow-automation",
-      "description": "Automate GitHub workflows with AI assistance. Includes PR reviews, issue triage, CI/CD integration, and Git operations. Use when automating GitHub workflows, setting up PR review automation, creating GitHub Actions, or triaging issues.",
-      "categories": ["Productivity", "Integration"],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/github-workflow-automation",
-      "commitHash": "ff933b98cdd7",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/cc-skill-frontend-patterns",
-      "name": "frontend-patterns",
-      "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.",
+      "id": "cleodin/antigravity-awesome-skills/skills/address-github-comments",
+      "name": "address-github-comments",
+      "description": "Use when you need to address review or issue comments on an open GitHub Pull Request using the gh CLI.",
       "categories": ["Development"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/cc-skill-frontend-patterns",
-      "commitHash": "ff933b98cdd7",
-      "version": "1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
+      "path": "skills/address-github-comments",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/blockrun",
-      "name": "blockrun",
-      "description": "Use when user needs capabilities Claude lacks (image generation, real-time X/Twitter data) or explicitly requests external models (\"blockrun\", \"use grok\", \"use gpt\", \"dall-e\", \"deepseek\")",
-      "categories": ["AI & ML"],
+      "id": "cleodin/antigravity-awesome-skills/skills/multi-agent-brainstorming",
+      "name": "multi-agent-brainstorming",
+      "description": "Use this skill when a design or idea requires higher confidence, risk reduction, or formal review. This skill orchestrates a structured, sequential multi-agent design review where each agent has a strict, non-overlapping role. It prevents blind spots, false confidence, and premature convergence.\n",
+      "categories": ["Design", "AI & ML"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/blockrun",
-      "commitHash": "ff933b98cdd7",
+      "path": "skills/multi-agent-brainstorming",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/verification-before-completion",
-      "name": "verification-before-completion",
-      "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+      "id": "cleodin/antigravity-awesome-skills/skills/nestjs-expert",
+      "name": "nestjs-expert",
+      "description": "Nest.js framework expert specializing in module architecture, dependency injection, middleware, guards, interceptors, testing with Jest/Supertest, TypeORM/Mongoose integration, and Passport.js authentication. Use PROACTIVELY for any Nest.js application issues including architecture decisions, testing strategies, performance optimization, or debugging complex dependency injection problems. If a specialized expert is a better fit, I will recommend switching and stop.",
+      "categories": ["Development", "Security", "Business"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/nestjs-expert",
+      "commitHash": "5508fda1c776",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/avalonia-zafiro-development",
+      "name": "avalonia-zafiro-development",
+      "description": "Mandatory skills, conventions, and behavioral rules for Avalonia UI development using the Zafiro toolkit.",
       "categories": ["Other"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/verification-before-completion",
-      "commitHash": "ff933b98cdd7",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cleodin/antigravity-awesome-skills/skills/loki-mode",
-      "name": "loki-mode",
-      "description": "Multi-agent autonomous startup system for Claude Code. Triggers on \"Loki Mode\". Orchestrates 100+ specialized agents across engineering, QA, DevOps, security, data/ML, business operations, marketing, HR, and customer success. Takes PRD to fully deployed, revenue-generating product with zero human intervention. Features Task tool for subagent dispatch, parallel code review with 3 specialized reviewers, severity-based issue triage, distributed task queue with dead letter handling, automatic deployment to cloud providers, A/B testing, customer feedback loops, incident response, circuit breakers, and self-healing. Handles rate limits via distributed state checkpoints and auto-resume with exponential backoff. Requires --dangerously-skip-permissions flag.",
-      "categories": [
-        "Development",
-        "DevOps",
-        "Security",
-        "Design",
-        "Business",
-        "Finance",
-        "AI & ML"
-      ],
-      "author": "cleodin",
-      "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/loki-mode",
-      "commitHash": "ff933b98cdd7",
+      "path": "skills/avalonia-zafiro-development",
+      "commitHash": "5508fda1c776",
       "files": [
-        ".gitignore",
-        "ACKNOWLEDGEMENTS.md",
-        "CHANGELOG.md",
-        "CLAUDE.md",
-        "CONTEXT-EXPORT.md",
-        "INSTALLATION.md",
-        "LICENSE",
-        "README.md",
         "SKILL.md",
-        "VERSION",
-        "autonomy/.loki/dashboard/index.html",
-        "autonomy/CONSTITUTION.md",
-        "autonomy/README.md",
-        "autonomy/run.sh",
-        "benchmarks/datasets/humaneval.jsonl",
-        "benchmarks/datasets/swebench-lite.json",
-        "benchmarks/prepare-submission.sh",
-        "benchmarks/results/2026-01-05-00-23-56/SUMMARY.md",
-        "benchmarks/results/2026-01-05-00-23-56/humaneval-results.json",
-        "benchmarks/results/2026-01-05-00-23-56/swebench-results.json"
+        "avalonia-reactive-rules.md",
+        "core-technical-skills.md",
+        "naming-standards.md",
+        "patterns.md",
+        "zafiro-shortcuts.md"
       ]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/clerk-auth",
-      "name": "clerk-auth",
-      "description": "Expert patterns for Clerk auth implementation, middleware, organizations, webhooks, and user sync Use when: adding authentication, clerk auth, user authentication, sign in, sign up.",
-      "categories": ["Security", "Integration"],
+      "id": "cleodin/antigravity-awesome-skills/skills/api-security-best-practices",
+      "name": "api-security-best-practices",
+      "description": "Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities",
+      "categories": ["Development", "Security"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/clerk-auth",
-      "commitHash": "ff933b98cdd7",
+      "path": "skills/api-security-best-practices",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/tdd-workflow",
-      "name": "tdd-workflow",
-      "description": "Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle.",
+      "id": "cleodin/antigravity-awesome-skills/skills/notebooklm",
+      "name": "notebooklm",
+      "description": "Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Drastically reduced hallucinations through document-only responses.",
+      "categories": ["Development", "Productivity", "Research", "AI & ML"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/notebooklm",
+      "commitHash": "5508fda1c776",
+      "files": [
+        ".gitignore",
+        "AUTHENTICATION.md",
+        "CHANGELOG.md",
+        "LICENSE",
+        "README.md",
+        "SKILL.md",
+        "images/example_notebookchat.png",
+        "references/api_reference.md",
+        "references/troubleshooting.md",
+        "references/usage_patterns.md",
+        "requirements.txt",
+        "scripts/__init__.py",
+        "scripts/ask_question.py",
+        "scripts/auth_manager.py",
+        "scripts/browser_session.py",
+        "scripts/browser_utils.py",
+        "scripts/cleanup_manager.py",
+        "scripts/config.py",
+        "scripts/notebook_manager.py",
+        "scripts/run.py"
+      ]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/obsidian-clipper-template-creator",
+      "name": "obsidian-clipper-template-creator",
+      "description": "Guide for creating templates for the Obsidian Web Clipper. Use when you want to create a new clipping template, understand available variables, or format clipped content.",
+      "categories": ["Other"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/obsidian-clipper-template-creator",
+      "commitHash": "5508fda1c776",
+      "files": [
+        "SKILL.md",
+        "assets/clipping-template.json",
+        "assets/recipe-template.json",
+        "references/analysis-workflow.md",
+        "references/bases-workflow.md",
+        "references/filters.md",
+        "references/json-schema.md",
+        "references/variables.md"
+      ]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/api-patterns",
+      "name": "api-patterns",
+      "description": "API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning, pagination.",
       "categories": ["Development"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/tdd-workflow",
-      "commitHash": "ff933b98cdd7",
+      "path": "skills/api-patterns",
+      "commitHash": "5508fda1c776",
+      "files": [
+        "SKILL.md",
+        "api-style.md",
+        "auth.md",
+        "documentation.md",
+        "graphql.md",
+        "rate-limiting.md",
+        "response.md",
+        "rest.md",
+        "scripts/api_validator.py",
+        "security-testing.md",
+        "trpc.md",
+        "versioning.md"
+      ]
+    },
+    {
+      "id": "cleodin/antigravity-awesome-skills/skills/prisma-expert",
+      "name": "prisma-expert",
+      "description": "Prisma ORM expert for schema design, migrations, query optimization, relations modeling, and database operations. Use PROACTIVELY for Prisma schema issues, migration problems, query performance, relation design, or database connection issues.",
+      "categories": ["Data & Analytics"],
+      "author": "cleodin",
+      "repo": "cleodin/antigravity-awesome-skills",
+      "path": "skills/prisma-expert",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/parallel-agents",
-      "name": "parallel-agents",
-      "description": "Multi-agent orchestration patterns. Use when multiple independent tasks can run with different domain expertise or when comprehensive analysis requires multiple perspectives.",
-      "categories": ["AI & ML"],
+      "id": "cleodin/antigravity-awesome-skills/skills/signup-flow-cro",
+      "name": "signup-flow-cro",
+      "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" or \"account creation flow.\" For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.",
+      "categories": ["Marketing"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/parallel-agents",
-      "commitHash": "ff933b98cdd7",
+      "path": "skills/signup-flow-cro",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
-      "id": "cleodin/antigravity-awesome-skills/skills/core-components",
-      "name": "core-components",
-      "description": "Core component library and design system patterns. Use when building UI, using design tokens, or working with the component library.",
-      "categories": ["Development", "Design"],
+      "id": "cleodin/antigravity-awesome-skills/skills/llm-app-patterns",
+      "name": "llm-app-patterns",
+      "description": "Production-ready patterns for building LLM applications. Covers RAG pipelines, agent architectures, prompt IDEs, and LLMOps monitoring. Use when designing AI applications, implementing RAG, building agents, or setting up LLM observability.",
+      "categories": ["Development", "DevOps", "Design", "AI & ML"],
       "author": "cleodin",
       "repo": "cleodin/antigravity-awesome-skills",
-      "path": "skills/core-components",
-      "commitHash": "ff933b98cdd7",
+      "path": "skills/llm-app-patterns",
+      "commitHash": "5508fda1c776",
       "files": ["SKILL.md"]
     },
     {
@@ -4035,17 +4127,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "smucclaw/l4-ide/.claude/skills/writing-l4-rules",
-      "name": "writing-l4-rules",
-      "description": "Writes, validates, and deploys L4 — a typed functional language for computational law — encoding contracts, regulations, and policy logic as executable rules with type-checked decisions and formally-modeled obligations. Use when the user asks to formalise legal text, draft rules with deadlines and reparations, mark functions for deployment with `@export`/`@desc`, run the `l4` CLI (`l4 run`, `l4 check`), or deploy to `jl4-service`/Legalese Cloud.",
-      "categories": ["DevOps", "Writing", "Documents", "Business"],
-      "author": "smucclaw",
-      "repo": "smucclaw/l4-ide",
-      "path": ".claude/skills/writing-l4-rules",
-      "commitHash": "f6760d9cce28",
-      "files": ["SKILL.md", "assets", "references", "scripts"]
-    },
-    {
       "id": "maioio/genesis-architect",
       "name": "genesis-architect",
       "description": "Use when starting a new project - scans 15-20 real GitHub repos and mines their Issues for pitfalls before writing a single file. No other scaffolding tool does this automatically. Identifies real architecture regrets from production codebases, then builds a working scaffold with tests, CI/CD, security defaults, and an ADR explaining every decision. After scaffolding, stays active as a research companion. Triggers on: \"genesis init [vision]\", \"I want to build X\", \"scaffold\", \"new project\", \"set up project\", \"start building\", \"create a tool\", \"make a CLI\", \"bootstrap\", \"בנה פרויקט\", \"צור פרויקט\", \"התחל פרויקט\".\n",
@@ -4057,39 +4138,15 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "SimonTheSalesBooster/ClaudeSkills-SprintClub/sales-closer",
-      "name": "sales-closer",
-      "description": "Use when the user needs to finalize a deal, handle tough objections, or create a \"Mutual Action Plan\" to close a sale.",
-      "categories": ["Other"],
-      "author": "SimonTheSalesBooster",
-      "repo": "SimonTheSalesBooster/ClaudeSkills-SprintClub",
-      "path": "sales-closer",
-      "commitHash": "fa921b6d3e2a",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "cyber-immortal/cyber-figures/aoye",
-      "name": "aoye-perspective",
-      "description": "月老鳌烨的婚恋咨询互动体验。基于409个视频、69万字语料深度蒸馏，\n提炼完整的连麦互动流程引擎、7条核心公理、6套方法论和精确的表达DNA。\n用途：以鳌烨的身份与用户做连麦式婚恋咨询，完成从信息采集到方案推荐的完整闭环。\n当用户提到「鳌烨」「月老」「连麦」「婚恋分析」「帮我看看条件」「打个分」时使用。\n即使用户只是说「用鳌烨的方式聊聊」「月老模式」「鳌烨上线」也应触发。\n",
-      "categories": ["Data & Analytics"],
-      "author": "cyber-immortal",
-      "repo": "cyber-immortal/cyber-figures",
-      "path": "aoye",
-      "commitHash": "3c2bd0c84470",
-      "files": [
-        "SKILL.md",
-        "character-deep-补充.md",
-        "deep-analysis.md",
-        "distillation-report.md",
-        "full-portrait.md",
-        "linguistic-dna.md",
-        "missed-quotes.md",
-        "raw",
-        "scoring-reactions.md",
-        "signature-phrases.md",
-        "title-analysis.md",
-        "topic-distribution.md"
-      ]
+      "id": "smucclaw/l4-ide/.claude/skills/writing-l4-rules",
+      "name": "writing-l4-rules",
+      "description": "Writes, validates, and deploys L4 — a typed functional language for computational law — encoding contracts, regulations, and policy logic as executable rules with type-checked decisions and formally-modeled obligations. Use when the user asks to formalise legal text, draft rules with deadlines and reparations, mark functions for deployment with `@export`/`@desc`, run the `l4` CLI (`l4 run`, `l4 check`), or deploy to `jl4-service`/Legalese Cloud.",
+      "categories": ["DevOps", "Writing", "Documents", "Business"],
+      "author": "smucclaw",
+      "repo": "smucclaw/l4-ide",
+      "path": ".claude/skills/writing-l4-rules",
+      "commitHash": "f6760d9cce28",
+      "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
       "id": "swaylq/master-skill",
@@ -5811,6 +5868,41 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "SimonTheSalesBooster/ClaudeSkills-SprintClub/sales-closer",
+      "name": "sales-closer",
+      "description": "Use when the user needs to finalize a deal, handle tough objections, or create a \"Mutual Action Plan\" to close a sale.",
+      "categories": ["Other"],
+      "author": "SimonTheSalesBooster",
+      "repo": "SimonTheSalesBooster/ClaudeSkills-SprintClub",
+      "path": "sales-closer",
+      "commitHash": "fa921b6d3e2a",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "cyber-immortal/cyber-figures/aoye",
+      "name": "aoye-perspective",
+      "description": "月老鳌烨的婚恋咨询互动体验。基于409个视频、69万字语料深度蒸馏，\n提炼完整的连麦互动流程引擎、7条核心公理、6套方法论和精确的表达DNA。\n用途：以鳌烨的身份与用户做连麦式婚恋咨询，完成从信息采集到方案推荐的完整闭环。\n当用户提到「鳌烨」「月老」「连麦」「婚恋分析」「帮我看看条件」「打个分」时使用。\n即使用户只是说「用鳌烨的方式聊聊」「月老模式」「鳌烨上线」也应触发。\n",
+      "categories": ["Data & Analytics"],
+      "author": "cyber-immortal",
+      "repo": "cyber-immortal/cyber-figures",
+      "path": "aoye",
+      "commitHash": "3c2bd0c84470",
+      "files": [
+        "SKILL.md",
+        "character-deep-补充.md",
+        "deep-analysis.md",
+        "distillation-report.md",
+        "full-portrait.md",
+        "linguistic-dna.md",
+        "missed-quotes.md",
+        "raw",
+        "scoring-reactions.md",
+        "signature-phrases.md",
+        "title-analysis.md",
+        "topic-distribution.md"
+      ]
+    },
+    {
       "id": "respira-press/agent-skills-wordpress/wordpress-mcp-dev",
       "name": "wordpress-mcp-dev",
       "description": "Build and maintain modern WordPress plugins and MCP servers, including hybrid WordPress+MCP products. Use when implementing plugin architecture (PHP, REST API, Gutenberg/admin/page-builder integrations), MCP tooling (TypeScript/Python, stdio/HTTP transport), security hardening, licensing/updates, and delivery workflows from scaffold to distribution.",
@@ -7055,17 +7147,6 @@
       "files": ["SKILL.md", "references"]
     },
     {
-      "id": "inngest/inngest-skills/skills/inngest-flow-control",
-      "name": "inngest-flow-control",
-      "description": "Use when handling external API rate limits (e.g., OpenAI 429s, HubSpot or Stripe rate limits), preventing duplicate work from rapid event bursts (debouncing user actions), spreading load over time, ensuring per-tenant fairness, processing events in batches, limiting concurrent runs of the same operation, or assigning priority to important runs. Covers Inngest flow control: concurrency limits with keys, throttling, rate limiting, debounce, priority, singleton, and event batching.",
-      "categories": ["Integration", "AI & ML"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-flow-control",
-      "commitHash": "c1996f94a1c3",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "inngest/inngest-skills/skills/inngest-durable-functions",
       "name": "inngest-durable-functions",
       "description": "Use when building functions that must survive process crashes, retry automatically on failure, run on a schedule, react to events, or maintain state across infrastructure failures — e.g., webhook handlers that drop events, flaky cron jobs, background jobs that fail mid-execution, or workflows that need to resume where they left off. Covers Inngest function configuration, triggers (events, cron, invoke), step execution and memoization, idempotency, cancellation, error handling, retries, logging, and observability.",
@@ -7075,6 +7156,17 @@
       "path": "skills/inngest-durable-functions",
       "commitHash": "c1996f94a1c3",
       "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-flow-control",
+      "name": "inngest-flow-control",
+      "description": "Use when handling external API rate limits (e.g., OpenAI 429s, HubSpot or Stripe rate limits), preventing duplicate work from rapid event bursts (debouncing user actions), spreading load over time, ensuring per-tenant fairness, processing events in batches, limiting concurrent runs of the same operation, or assigning priority to important runs. Covers Inngest flow control: concurrency limits with keys, throttling, rate limiting, debounce, priority, singleton, and event batching.",
+      "categories": ["Integration", "AI & ML"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-flow-control",
+      "commitHash": "c1996f94a1c3",
+      "files": ["SKILL.md"]
     },
     {
       "id": "LessUp/cursor-rules/.claude/skills/rule-curation",
@@ -7095,7 +7187,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/security-audit",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7106,7 +7198,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/refactoring",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7117,7 +7209,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-ranking",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7128,7 +7220,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-visualization",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7139,7 +7231,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/meeting-transcription",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7150,7 +7242,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-deployment",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7161,7 +7253,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-analysis",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7172,7 +7264,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/content-strategy",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7183,7 +7275,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/proofreading",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7194,7 +7286,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/summarization",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7205,7 +7297,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/report-generation",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7216,7 +7308,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/fact-checking",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7227,7 +7319,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/copywriting",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7238,7 +7330,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/docker-compose-setup",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7249,7 +7341,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-retrieval",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7260,7 +7352,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-compression",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7271,7 +7363,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/ml-pipeline-creation",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7282,7 +7374,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/keyword-research",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7293,7 +7385,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/graphql-api-design",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7304,7 +7396,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dynamic-application-security-testing",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7315,7 +7407,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-backup",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7326,7 +7418,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-cleaning",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7337,7 +7429,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/oauth-2-0-setup",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7348,7 +7440,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-injection",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7359,7 +7451,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/exploratory-data-analysis",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7370,7 +7462,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-optimization",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7381,7 +7473,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-seeding",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7392,7 +7484,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-design",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7403,7 +7495,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/ci-cd",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7414,7 +7506,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/threat-modeling",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7425,7 +7517,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/literature-review",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7436,7 +7528,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/chatbot-conversation-design",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7447,7 +7539,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/task-automation",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7458,7 +7550,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/cloud-monitoring",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7469,7 +7561,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/static-application-security-testing",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7480,7 +7572,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/code-documentation",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7491,7 +7583,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/query-optimization",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7502,7 +7594,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-schema-design",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7513,7 +7605,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/webhook-setup",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7524,7 +7616,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/seo-optimization",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7535,7 +7627,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/note-taking",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7546,7 +7638,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/blog-post-writing",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7557,7 +7649,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/hyperparameter-tuning",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7568,7 +7660,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/sql-query-generation",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7579,7 +7671,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dependency-scanning",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7590,7 +7682,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-training",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7601,7 +7693,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/version-control",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7612,7 +7704,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/technical-writing",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7623,7 +7715,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/social-media-posting",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7634,7 +7726,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/data-labeling",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7645,7 +7737,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/presentation-creation",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7656,7 +7748,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/analytics-reporting",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7667,7 +7759,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/translation",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7678,7 +7770,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/email-drafting",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7689,7 +7781,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-integration",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7700,7 +7792,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/knowledge-graph-creation",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7711,7 +7803,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/kubernetes-deployment",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7722,7 +7814,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/infrastructure-as-code",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7733,7 +7825,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-migration",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -7744,7 +7836,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/deep-research",
-      "commitHash": "252d0f26c8ac",
+      "commitHash": "4961b137eea4",
       "files": ["SKILL.md"]
     },
     {
@@ -9287,7 +9379,7 @@
       "author": "antonbabenko",
       "repo": "antonbabenko/agent-plugins",
       "path": "plugins/code-intelligence/skills/code-intelligence",
-      "commitHash": "183d3707f7a7",
+      "commitHash": "3b8e67e0963e",
       "files": ["SKILL.md", "references"]
     },
     {
@@ -12470,7 +12562,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/dembrandt",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12481,7 +12573,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/ui-density",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12492,7 +12584,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/wcag-accessibility",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12503,7 +12595,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/form-design",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12514,7 +12606,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/component-family-consistency",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12525,7 +12617,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/nielsen-usability-heuristics",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12536,7 +12628,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/generate-ui-from-brand",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12547,7 +12639,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/real-world-metaphors",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12558,7 +12650,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/visual-emphasis-and-hierarchy",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12569,7 +12661,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/modular-scale-typography",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12580,7 +12672,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/elevation-and-depth",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12591,7 +12683,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/global-toolbar-controls",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12602,7 +12694,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/semantic-html-and-seo",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12613,7 +12705,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/status-colors-and-errors",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12624,7 +12716,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/performance-and-web-vitals",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12635,7 +12727,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/brand-visual-language",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12646,7 +12738,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/notifications-and-recovery",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12657,7 +12749,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/button-states",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12668,7 +12760,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/extract-design",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12679,7 +12771,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/micro-interactions",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12690,7 +12782,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/ui-context-and-scope",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12701,7 +12793,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/information-architecture",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12712,7 +12804,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/algorithmic-color-palette",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12723,7 +12815,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/motion-and-storytelling",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12734,7 +12826,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/gestalt-ui-organisation",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12745,7 +12837,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/loading-states-and-perceived-performance",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12756,7 +12848,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/responsive-paradigms",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12767,7 +12859,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/sticky-and-fixed-elements",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12778,7 +12870,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/data-display-and-selection",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12789,7 +12881,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/user-flows-and-guided-paths",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12800,7 +12892,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/scroll-areas",
-      "commitHash": "45cbed15c6d7",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -12811,447 +12903,7 @@
       "author": "dembrandt",
       "repo": "dembrandt/dembrandt-skills",
       "path": "skills/color-mode-and-theme",
-      "commitHash": "45cbed15c6d7",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/help",
-      "name": "help",
-      "description": "Show the ARIA command reference and model guidance for this Codex port. Trigger on /help, aria help, what commands are available, or what can ARIA do.",
-      "categories": ["AI & ML"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-openai-codex/skills/help",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/clip",
-      "name": "clip",
-      "description": "Save a URL or text snippet to the knowledge intake for later review. Use when user says \"/aria-cowork:clip\", \"/aria-cowork:save\", \"clip this\", \"save this link\", \"save this snippet\", \"capture this URL\". Quick capture without leaving the session — clipped items are reviewed at the next /aria-cowork:audit-knowledge run. (Cowork variant — namespaced-only.)",
-      "categories": ["Research"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/clip",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/digest",
-      "name": "digest",
-      "description": "Build a cross-tool digest from connected chat, email, project tracker, and docs MCPs, with graceful fallback when connectors are missing. Trigger on /digest or weekly digest.",
-      "categories": ["Integration"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-openai-codex/skills/digest",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/intake",
-      "name": "intake",
-      "description": "Bulk import knowledge from files, directories, URLs, or pasted content into the intake backlogs, OR capture a single doc with structured 5-section template (doc mode). Use when user says \"/aria-cowork:intake\", \"/aria-cowork:intake doc\", \"intake from\", \"import knowledge from\", \"scan this file for knowledge\", \"extract from these docs\", \"onboard this. (Cowork variant — namespaced-only.)",
-      "categories": ["Writing", "Documents"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/intake",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/codemap",
-      "name": "codemap",
-      "description": "Create or update CODEMAP.md for a repository, mapping files, features, flows, and change hotspots for future exploration. Trigger on /codemap or map this codebase.",
-      "categories": ["Development"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-openai-codex/skills/codemap",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/context",
-      "name": "context",
-      "description": "Load relevant knowledge by topic. Queries the tag index and presents matching promoted files for selective loading into context. Use when user says \"/aria-cowork:context stripe\", \"/aria-cowork:context api pagination\", \"/aria-cowork:context architecture\", \"load knowledge about...\", \"what do we know about...\". (Cowork variant — namespaced-only.)",
-      "categories": ["Development"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/context",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/snapshot",
-      "name": "snapshot",
-      "description": "Save the current Codex or shared ARIA session transcript snapshot to the knowledge intake for later audit. Trigger on /snapshot, snapshot the session, or save this conversation.",
-      "categories": ["Other"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-openai-codex/skills/snapshot",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/extract-doc",
-      "name": "extract-doc",
-      "description": "Extract reusable insights from a single external doc or page into ARIA intake entries. Trigger on /extract-doc or extract insights from this Notion, Google Doc, or Confluence page.",
-      "categories": ["Integration"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-openai-codex/skills/extract-doc",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/clip-thread",
-      "name": "clip-thread",
-      "description": "Capture a chat or email thread from connected MCP tools into ARIA clippings for later audit. Trigger on /clip-thread, clip this thread, save Slack thread, or archive email chain.",
-      "categories": ["Integration"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-openai-codex/skills/clip-thread",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/share-audit",
-      "name": "share-audit",
-      "description": "Alias for /audit-share. Use when the user invokes /share-audit or asks to audit shareable knowledge using the inverted command phrasing.",
-      "categories": ["Other"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-openai-codex/skills/share-audit",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/meeting-notes",
-      "name": "meeting-notes",
-      "description": "Turn meeting notes, transcripts, or connected docs into structured ARIA intake records. Trigger on /meeting-notes, capture meeting notes, process standup, or fold this transcript.",
-      "categories": ["Other"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-openai-codex/skills/meeting-notes",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/config-audit",
-      "name": "config-audit",
-      "description": "Alias for /audit-config. Invoked by \"/aria-cowork:config-audit\". Same behavior as /aria-cowork:audit-config — just an alternative phrasing. (Cowork alias — namespaced-only.)",
-      "categories": ["Other"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/config-audit",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/sync-decisions",
-      "name": "sync-decisions",
-      "description": "Mirror approved decisions from the knowledge folder out to a connected ~~docs MCP (Notion, Confluence, Google Docs). Use when user says \"/aria-cowork:sync-decisions\", \"mirror decisions to Notion\", \"push decisions to wiki\", \"sync ADRs to Confluence\", \"export decisions externally\". WRITE-side skill — embeds Rule 22 advisory. (Cowork variant — namespaced-only.)",
-      "categories": ["Writing", "Integration"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/sync-decisions",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/knowledge-audit",
-      "name": "knowledge-audit",
-      "description": "Alias for /audit-knowledge. Invoked by \"/aria-cowork:knowledge-audit\". Same behavior as /aria-cowork:audit-knowledge — just an alternative phrasing. (Cowork alias — namespaced-only.)",
-      "categories": ["Other"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/knowledge-audit",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/clip",
-      "name": "clip",
-      "description": "Save a URL, snippet, or pasted note into ARIA clippings for later audit. Trigger on /clip, /save, clip this, save this link, or capture this snippet.",
-      "categories": ["Other"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-openai-codex/skills/clip",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/help",
-      "name": "help",
-      "description": "Show available aria-cowork commands. Use when user says \"/aria-cowork:help\", \"aria help\", \"what commands are available\", \"list commands\", \"what can aria-cowork do\". (Cowork variant — namespaced-only.)",
-      "categories": ["Other"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/help",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/distill",
-      "name": "distill",
-      "description": "Shape messy task input into an implementation-ready task spec with scope, criteria, risks, dependencies, and execution plan. Trigger on /distill or turn this into a task spec.",
-      "categories": ["Productivity"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-openai-codex/skills/distill",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/extract",
-      "name": "extract",
-      "description": "Extract uncaptured knowledge from the current conversation before it is lost to compaction. Use after completing a task, before switching context, before large exploratory work (multi-file reads, codebase scans), or when the user signals session end. Trigger: \"/aria-cowork:extract\", \"extract knowledge\", \"capture session knowledge\". Also. (Cowork variant — namespaced-only.)",
-      "categories": ["Other"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/extract",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/prospect",
-      "name": "prospect",
-      "description": "Run a structured pre-mortem on a plan or approach BEFORE execution. Per-step risk enforcement, active evidence-sourcing pass (autonomous lookups + targeted user-asks for anything that could become objective), simpler-alternative discipline, plan-formation diagnosis, action verdicts (PROCEED/SHRINK/SPLIT/DEFER/KILL), and a growing failure-mode. (Cowork variant — namespaced-only.)",
-      "categories": ["Documents"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/prospect",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/audit-config",
-      "name": "audit-config",
-      "description": "Audit ARIA configuration and project documentation for drift, stale references, broken links, and setup issues. Trigger on /audit-config, config audit, docs audit, or check setup.",
-      "categories": ["Writing", "Productivity"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-openai-codex/skills/audit-config",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/clip-thread",
-      "name": "clip-thread",
-      "description": "Capture a chat or email thread from a connected MCP to the knowledge intake. Use when user says \"/aria-cowork:clip-thread\", \"clip this thread\", \"save this Slack thread\", \"capture this email chain\", \"archive this conversation\". Pulls thread content from ~~chat (Slack, Teams) or ~~email (Gmail, MS365) MCP, composes a clipping with. (Cowork variant — namespaced-only.)",
-      "categories": ["Integration"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/clip-thread",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/audit-config",
-      "name": "audit-config",
-      "description": "Audit project configuration and documentation for drift, staleness, and broken references. Use when user says \"/aria-cowork:audit-config\", \"/aria-cowork:config-audit\", \"config audit\", \"docs audit\", \"check setup\", \"audit configs\", \"review CLAUDE.md files\", or at the first aria-cowork skill invocation when audit cadence is exceeded. (Cowork variant — namespaced-only.)",
-      "categories": ["Writing", "Productivity", "Documents", "Research"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/audit-config",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/audit-knowledge",
-      "name": "audit-knowledge",
-      "description": "Scan the attached knowledge folder for extractable items, run idea-routing dispositions, archive cleared content per the cohort conventions, and rebuild the index. Use when user says \"/aria-cowork:audit-knowledge\", \"/aria-cowork:knowledge-audit\", \"audit knowledge\", \"knowledge audit\", \"check for extractable knowledge\", \"scan intake\", or at. (Cowork variant — namespaced-only.)",
-      "categories": ["Documents"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/audit-knowledge",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/probe/skills/aria-probe",
-      "name": "aria-probe",
-      "description": "Run a 4-step validation probe for the aria-cowork spec. Tests whether this Cowork plugin can verify cwd, write to the user-attached knowledge folder, read a file pre-placed by aria-knowledge in Code, and capture or fall back gracefully on the transcript surface. Outputs structured results both to the conversation and to a probe-results file. Use when validating the aria-cowork spec before Phase 1 build. Triggers: \"/aria-probe\", \"run aria probe\", \"validate aria-cowork\", \"test cowork filesystem\".\n",
-      "categories": ["Development"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/probe/skills/aria-probe",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/rules",
-      "name": "rules",
-      "description": "Quick lookup into working rules. Use when user says \"/aria-cowork:rules\", \"/aria-cowork:rules 22\", \"/aria-cowork:rules dependencies\", \"look up rule about...\", \"what rule covers...\", or references a specific rule number. (Cowork variant — namespaced-only.)",
-      "categories": ["Other"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/rules",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/wrapup",
-      "name": "wrapup",
-      "description": "Close out cleanly when work is done — no passoff intended. updates PROGRESS / CLAUDE / memory in the attached knowledge folder, emits a commit message for you to run, runs \"/aria-cowork:extract\". For passoff (future-you or coworker), use \"/aria-cowork:handoff\" instead. Triggers — \"/aria-cowork:wrapup\", \"/aria-cowork:wrapup auto\", \"wrap up\", \"I am done\", \"close out\", \"end session\". Auto mode skips per-step gates. (Cowork variant — namespaced-only.)",
-      "categories": ["Other"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/wrapup",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/backlog",
-      "name": "backlog",
-      "description": "View and manage pending backlog items. Use when user says \"/aria-cowork:backlog\", \"/aria-cowork:backlog insights\", \"/aria-cowork:backlog clear\", \"what is pending\", \"show backlogs\", \"check backlog status\". (Cowork variant — namespaced-only.)",
-      "categories": ["Other"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/backlog",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/sync-decisions",
-      "name": "sync-decisions",
-      "description": "Mirror approved ARIA decisions from the knowledge folder to connected docs MCP destinations with explicit external-write review. Trigger on /sync-decisions or sync ADRs to docs.",
-      "categories": ["Writing", "Integration", "Research"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-openai-codex/skills/sync-decisions",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/knowledge-audit",
-      "name": "knowledge-audit",
-      "description": "Alias for /audit-knowledge. Use when the user invokes /knowledge-audit or asks for a knowledge audit using the inverted command phrasing.",
-      "categories": ["Other"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-openai-codex/skills/knowledge-audit",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/index",
-      "name": "index",
-      "description": "Rebuild the knowledge tag index. Scans promoted files, normalizes tags, flags untagged files, suggests freeform-to-known promotions, detects stale files, and regenerates index.md. Use when user says \"/aria-cowork:index\", \"rebuild index\", \"update index\", \"reindex knowledge\". (Cowork variant — namespaced-only.)",
-      "categories": ["Documents"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/index",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/stats",
-      "name": "stats",
-      "description": "Show knowledge base health metrics — file counts, backlog depth, audit status, tag stats, and coverage gaps. Use when user says \"/aria-cowork:stats\", \"knowledge stats\", \"how is my knowledge base\", \"show stats\", \"knowledge health\", \"dashboard\". (Cowork variant — namespaced-only.)",
-      "categories": ["Business"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/stats",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/handoff",
-      "name": "handoff",
-      "description": "Generate a handoff package for the next session or a coworker: status, continuity notes, optional commit, and extraction. Trigger on /handoff, hand it off, context is full, or pass off.",
-      "categories": ["Other"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-openai-codex/skills/handoff",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/digest",
-      "name": "digest",
-      "description": "Cross-tool rollup of what is pending, what shipped, and what is blocked across chat / email / project tracker / docs. Use when user says \"/aria-cowork:digest\", \"weekly digest\", \"cross-tool rollup\", \"what is pending across my tools\", \"summarize this week\", \"standup digest\". Probes all 4 ~~categories and degrades gracefully — produces a. (Cowork variant — namespaced-only.)",
-      "categories": ["Writing"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/digest",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/extract",
-      "name": "extract",
-      "description": "Extract session learnings, decisions, ideas, feedback, and project context into ARIA intake backlogs. Trigger on /extract, capture learnings, or save session knowledge.",
-      "categories": ["Business", "Research"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-openai-codex/skills/extract",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/handoff",
-      "name": "handoff",
-      "description": "Generate a passoff package — for future-you (context is high, need to restart) or a coworker (via brief mode). Default + auto emit a paste-ready next-session opener plus PROGRESS/CLAUDE/memory updates, a commit message, and \"/aria-cowork:extract\"; brief mode emits an 80-150 word coworker prose brief only. For done-with-no-passoff, use \"/aria-cowork:wrapup\". Triggers — \"/aria-cowork:handoff\", \"/aria-cowork:handoff auto\", \"/aria-cowork:handoff brief\", \"hand it off\", \"pass off to next session\", \"brief a coworker on this\". (Cowork variant — namespaced-only.)",
-      "categories": ["Other"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/handoff",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/snapshot",
-      "name": "snapshot",
-      "description": "Save a snapshot of the current Cowork conversation to the knowledge intake on demand. Use when user says \"/aria-cowork:snapshot\", \"snapshot the session\", \"save this conversation\", \"capture the transcript\", \"archive this session\". Schema-identical to aria-knowledge's /snapshot output, but with cowork-specific source acquisition (no. (Cowork variant — namespaced-only.)",
-      "categories": ["Research"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/snapshot",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/retrospect",
-      "name": "retrospect",
-      "description": "Run a structured retrospective on a commit, range, PR, release, deployment, or session after execution. Trigger on /retrospect, postmortem, release review, or what went wrong.",
-      "categories": ["DevOps"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-openai-codex/skills/retrospect",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/config-audit",
-      "name": "config-audit",
-      "description": "Alias for /audit-config. Use when the user invokes /config-audit or asks for a config audit using the inverted command phrasing.",
-      "categories": ["Other"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-openai-codex/skills/config-audit",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/meeting-notes",
-      "name": "meeting-notes",
-      "description": "Fold a meeting transcript or notes into structured intake. Use when user says \"/aria-cowork:meeting-notes\", \"capture meeting notes\", \"fold this meeting transcript\", \"process this Granola export\", \"archive this standup\". Accepts a ~~docs URL (Notion meeting page, Confluence) OR pasted transcript text — unique among MCP-consuming. (Cowork variant — namespaced-only.)",
-      "categories": ["Writing", "Documents", "Integration"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-claude-cowork/skills/meeting-notes",
-      "commitHash": "de3203cdfc03",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/rules",
-      "name": "rules",
-      "description": "Load and apply ARIA working rules, user rules, examples, and the change decision framework. Trigger on /rules, show rule N, working rules, or decision framework.",
-      "categories": ["Business"],
-      "author": "mikeprasad",
-      "repo": "mikeprasad/aria-knowledge",
-      "path": "plugin-openai-codex/skills/rules",
-      "commitHash": "de3203cdfc03",
+      "commitHash": "09c93f7f4bd0",
       "files": ["SKILL.md"]
     },
     {
@@ -13266,6 +12918,446 @@
       "files": ["SKILL.md", "modes", "reference"]
     },
     {
+      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/help",
+      "name": "help",
+      "description": "Show the ARIA command reference and model guidance for this Codex port. Trigger on /help, aria help, what commands are available, or what can ARIA do.",
+      "categories": ["AI & ML"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-openai-codex/skills/help",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/clip",
+      "name": "clip",
+      "description": "Save a URL or text snippet to the knowledge intake for later review. Use when user says \"/aria-cowork:clip\", \"/aria-cowork:save\", \"clip this\", \"save this link\", \"save this snippet\", \"capture this URL\". Quick capture without leaving the session — clipped items are reviewed at the next /aria-cowork:audit-knowledge run. (Cowork variant — namespaced-only.)",
+      "categories": ["Research"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/clip",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/digest",
+      "name": "digest",
+      "description": "Build a cross-tool digest from connected chat, email, project tracker, and docs MCPs, with graceful fallback when connectors are missing. Trigger on /digest or weekly digest.",
+      "categories": ["Integration"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-openai-codex/skills/digest",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/intake",
+      "name": "intake",
+      "description": "Bulk import knowledge from files, directories, URLs, or pasted content into the intake backlogs, OR capture a single doc with structured 5-section template (doc mode). Use when user says \"/aria-cowork:intake\", \"/aria-cowork:intake doc\", \"intake from\", \"import knowledge from\", \"scan this file for knowledge\", \"extract from these docs\", \"onboard this. (Cowork variant — namespaced-only.)",
+      "categories": ["Writing", "Documents"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/intake",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/codemap",
+      "name": "codemap",
+      "description": "Create or update CODEMAP.md for a repository, mapping files, features, flows, and change hotspots for future exploration. Trigger on /codemap or map this codebase.",
+      "categories": ["Development"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-openai-codex/skills/codemap",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/context",
+      "name": "context",
+      "description": "Load relevant knowledge by topic. Queries the tag index and presents matching promoted files for selective loading into context. Use when user says \"/aria-cowork:context stripe\", \"/aria-cowork:context api pagination\", \"/aria-cowork:context architecture\", \"load knowledge about...\", \"what do we know about...\". (Cowork variant — namespaced-only.)",
+      "categories": ["Development"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/context",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/snapshot",
+      "name": "snapshot",
+      "description": "Save the current Codex or shared ARIA session transcript snapshot to the knowledge intake for later audit. Trigger on /snapshot, snapshot the session, or save this conversation.",
+      "categories": ["Other"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-openai-codex/skills/snapshot",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/extract-doc",
+      "name": "extract-doc",
+      "description": "Extract reusable insights from a single external doc or page into ARIA intake entries. Trigger on /extract-doc or extract insights from this Notion, Google Doc, or Confluence page.",
+      "categories": ["Integration"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-openai-codex/skills/extract-doc",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/clip-thread",
+      "name": "clip-thread",
+      "description": "Capture a chat or email thread from connected MCP tools into ARIA clippings for later audit. Trigger on /clip-thread, clip this thread, save Slack thread, or archive email chain.",
+      "categories": ["Integration"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-openai-codex/skills/clip-thread",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/share-audit",
+      "name": "share-audit",
+      "description": "Alias for /audit-share. Use when the user invokes /share-audit or asks to audit shareable knowledge using the inverted command phrasing.",
+      "categories": ["Other"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-openai-codex/skills/share-audit",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/meeting-notes",
+      "name": "meeting-notes",
+      "description": "Turn meeting notes, transcripts, or connected docs into structured ARIA intake records. Trigger on /meeting-notes, capture meeting notes, process standup, or fold this transcript.",
+      "categories": ["Other"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-openai-codex/skills/meeting-notes",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/config-audit",
+      "name": "config-audit",
+      "description": "Alias for /audit-config. Invoked by \"/aria-cowork:config-audit\". Same behavior as /aria-cowork:audit-config — just an alternative phrasing. (Cowork alias — namespaced-only.)",
+      "categories": ["Other"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/config-audit",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/sync-decisions",
+      "name": "sync-decisions",
+      "description": "Mirror approved decisions from the knowledge folder out to a connected ~~docs MCP (Notion, Confluence, Google Docs). Use when user says \"/aria-cowork:sync-decisions\", \"mirror decisions to Notion\", \"push decisions to wiki\", \"sync ADRs to Confluence\", \"export decisions externally\". WRITE-side skill — embeds Rule 22 advisory. (Cowork variant — namespaced-only.)",
+      "categories": ["Writing", "Integration"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/sync-decisions",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/knowledge-audit",
+      "name": "knowledge-audit",
+      "description": "Alias for /audit-knowledge. Invoked by \"/aria-cowork:knowledge-audit\". Same behavior as /aria-cowork:audit-knowledge — just an alternative phrasing. (Cowork alias — namespaced-only.)",
+      "categories": ["Other"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/knowledge-audit",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/clip",
+      "name": "clip",
+      "description": "Save a URL, snippet, or pasted note into ARIA clippings for later audit. Trigger on /clip, /save, clip this, save this link, or capture this snippet.",
+      "categories": ["Other"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-openai-codex/skills/clip",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/help",
+      "name": "help",
+      "description": "Show available aria-cowork commands. Use when user says \"/aria-cowork:help\", \"aria help\", \"what commands are available\", \"list commands\", \"what can aria-cowork do\". (Cowork variant — namespaced-only.)",
+      "categories": ["Other"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/help",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/distill",
+      "name": "distill",
+      "description": "Shape messy task input into an implementation-ready task spec with scope, criteria, risks, dependencies, and execution plan. Trigger on /distill or turn this into a task spec.",
+      "categories": ["Productivity"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-openai-codex/skills/distill",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/extract",
+      "name": "extract",
+      "description": "Extract uncaptured knowledge from the current conversation before it is lost to compaction. Use after completing a task, before switching context, before large exploratory work (multi-file reads, codebase scans), or when the user signals session end. Trigger: \"/aria-cowork:extract\", \"extract knowledge\", \"capture session knowledge\". Also. (Cowork variant — namespaced-only.)",
+      "categories": ["Other"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/extract",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/prospect",
+      "name": "prospect",
+      "description": "Run a structured pre-mortem on a plan or approach BEFORE execution. Per-step risk enforcement, active evidence-sourcing pass (autonomous lookups + targeted user-asks for anything that could become objective), simpler-alternative discipline, plan-formation diagnosis, action verdicts (PROCEED/SHRINK/SPLIT/DEFER/KILL), and a growing failure-mode. (Cowork variant — namespaced-only.)",
+      "categories": ["Documents"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/prospect",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/audit-config",
+      "name": "audit-config",
+      "description": "Audit ARIA configuration and project documentation for drift, stale references, broken links, and setup issues. Trigger on /audit-config, config audit, docs audit, or check setup.",
+      "categories": ["Writing", "Productivity"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-openai-codex/skills/audit-config",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/clip-thread",
+      "name": "clip-thread",
+      "description": "Capture a chat or email thread from a connected MCP to the knowledge intake. Use when user says \"/aria-cowork:clip-thread\", \"clip this thread\", \"save this Slack thread\", \"capture this email chain\", \"archive this conversation\". Pulls thread content from ~~chat (Slack, Teams) or ~~email (Gmail, MS365) MCP, composes a clipping with. (Cowork variant — namespaced-only.)",
+      "categories": ["Integration"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/clip-thread",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/audit-config",
+      "name": "audit-config",
+      "description": "Audit project configuration and documentation for drift, staleness, and broken references. Use when user says \"/aria-cowork:audit-config\", \"/aria-cowork:config-audit\", \"config audit\", \"docs audit\", \"check setup\", \"audit configs\", \"review CLAUDE.md files\", or at the first aria-cowork skill invocation when audit cadence is exceeded. (Cowork variant — namespaced-only.)",
+      "categories": ["Writing", "Productivity", "Documents", "Research"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/audit-config",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/audit-knowledge",
+      "name": "audit-knowledge",
+      "description": "Scan the attached knowledge folder for extractable items, run idea-routing dispositions, archive cleared content per the cohort conventions, and rebuild the index. Use when user says \"/aria-cowork:audit-knowledge\", \"/aria-cowork:knowledge-audit\", \"audit knowledge\", \"knowledge audit\", \"check for extractable knowledge\", \"scan intake\", or at. (Cowork variant — namespaced-only.)",
+      "categories": ["Documents"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/audit-knowledge",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/probe/skills/aria-probe",
+      "name": "aria-probe",
+      "description": "Run a 4-step validation probe for the aria-cowork spec. Tests whether this Cowork plugin can verify cwd, write to the user-attached knowledge folder, read a file pre-placed by aria-knowledge in Code, and capture or fall back gracefully on the transcript surface. Outputs structured results both to the conversation and to a probe-results file. Use when validating the aria-cowork spec before Phase 1 build. Triggers: \"/aria-probe\", \"run aria probe\", \"validate aria-cowork\", \"test cowork filesystem\".\n",
+      "categories": ["Development"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/probe/skills/aria-probe",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/rules",
+      "name": "rules",
+      "description": "Quick lookup into working rules. Use when user says \"/aria-cowork:rules\", \"/aria-cowork:rules 22\", \"/aria-cowork:rules dependencies\", \"look up rule about...\", \"what rule covers...\", or references a specific rule number. (Cowork variant — namespaced-only.)",
+      "categories": ["Other"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/rules",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/wrapup",
+      "name": "wrapup",
+      "description": "Close out cleanly when work is done — no passoff intended. updates PROGRESS / CLAUDE / memory in the attached knowledge folder, emits a commit message for you to run, runs \"/aria-cowork:extract\". For passoff (future-you or coworker), use \"/aria-cowork:handoff\" instead. Triggers — \"/aria-cowork:wrapup\", \"/aria-cowork:wrapup auto\", \"wrap up\", \"I am done\", \"close out\", \"end session\". Auto mode skips per-step gates. (Cowork variant — namespaced-only.)",
+      "categories": ["Other"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/wrapup",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/backlog",
+      "name": "backlog",
+      "description": "View and manage pending backlog items. Use when user says \"/aria-cowork:backlog\", \"/aria-cowork:backlog insights\", \"/aria-cowork:backlog clear\", \"what is pending\", \"show backlogs\", \"check backlog status\". (Cowork variant — namespaced-only.)",
+      "categories": ["Other"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/backlog",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/sync-decisions",
+      "name": "sync-decisions",
+      "description": "Mirror approved ARIA decisions from the knowledge folder to connected docs MCP destinations with explicit external-write review. Trigger on /sync-decisions or sync ADRs to docs.",
+      "categories": ["Writing", "Integration", "Research"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-openai-codex/skills/sync-decisions",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/knowledge-audit",
+      "name": "knowledge-audit",
+      "description": "Alias for /audit-knowledge. Use when the user invokes /knowledge-audit or asks for a knowledge audit using the inverted command phrasing.",
+      "categories": ["Other"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-openai-codex/skills/knowledge-audit",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/index",
+      "name": "index",
+      "description": "Rebuild the knowledge tag index. Scans promoted files, normalizes tags, flags untagged files, suggests freeform-to-known promotions, detects stale files, and regenerates index.md. Use when user says \"/aria-cowork:index\", \"rebuild index\", \"update index\", \"reindex knowledge\". (Cowork variant — namespaced-only.)",
+      "categories": ["Documents"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/index",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/stats",
+      "name": "stats",
+      "description": "Show knowledge base health metrics — file counts, backlog depth, audit status, tag stats, and coverage gaps. Use when user says \"/aria-cowork:stats\", \"knowledge stats\", \"how is my knowledge base\", \"show stats\", \"knowledge health\", \"dashboard\". (Cowork variant — namespaced-only.)",
+      "categories": ["Business"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/stats",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/handoff",
+      "name": "handoff",
+      "description": "Generate a handoff package for the next session or a coworker: status, continuity notes, optional commit, and extraction. Trigger on /handoff, hand it off, context is full, or pass off.",
+      "categories": ["Other"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-openai-codex/skills/handoff",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/digest",
+      "name": "digest",
+      "description": "Cross-tool rollup of what is pending, what shipped, and what is blocked across chat / email / project tracker / docs. Use when user says \"/aria-cowork:digest\", \"weekly digest\", \"cross-tool rollup\", \"what is pending across my tools\", \"summarize this week\", \"standup digest\". Probes all 4 ~~categories and degrades gracefully — produces a. (Cowork variant — namespaced-only.)",
+      "categories": ["Writing"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/digest",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/extract",
+      "name": "extract",
+      "description": "Extract session learnings, decisions, ideas, feedback, and project context into ARIA intake backlogs. Trigger on /extract, capture learnings, or save session knowledge.",
+      "categories": ["Business", "Research"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-openai-codex/skills/extract",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/handoff",
+      "name": "handoff",
+      "description": "Generate a passoff package — for future-you (context is high, need to restart) or a coworker (via brief mode). Default + auto emit a paste-ready next-session opener plus PROGRESS/CLAUDE/memory updates, a commit message, and \"/aria-cowork:extract\"; brief mode emits an 80-150 word coworker prose brief only. For done-with-no-passoff, use \"/aria-cowork:wrapup\". Triggers — \"/aria-cowork:handoff\", \"/aria-cowork:handoff auto\", \"/aria-cowork:handoff brief\", \"hand it off\", \"pass off to next session\", \"brief a coworker on this\". (Cowork variant — namespaced-only.)",
+      "categories": ["Other"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/handoff",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/snapshot",
+      "name": "snapshot",
+      "description": "Save a snapshot of the current Cowork conversation to the knowledge intake on demand. Use when user says \"/aria-cowork:snapshot\", \"snapshot the session\", \"save this conversation\", \"capture the transcript\", \"archive this session\". Schema-identical to aria-knowledge's /snapshot output, but with cowork-specific source acquisition (no. (Cowork variant — namespaced-only.)",
+      "categories": ["Research"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/snapshot",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/retrospect",
+      "name": "retrospect",
+      "description": "Run a structured retrospective on a commit, range, PR, release, deployment, or session after execution. Trigger on /retrospect, postmortem, release review, or what went wrong.",
+      "categories": ["DevOps"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-openai-codex/skills/retrospect",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/config-audit",
+      "name": "config-audit",
+      "description": "Alias for /audit-config. Use when the user invokes /config-audit or asks for a config audit using the inverted command phrasing.",
+      "categories": ["Other"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-openai-codex/skills/config-audit",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-claude-cowork/skills/meeting-notes",
+      "name": "meeting-notes",
+      "description": "Fold a meeting transcript or notes into structured intake. Use when user says \"/aria-cowork:meeting-notes\", \"capture meeting notes\", \"fold this meeting transcript\", \"process this Granola export\", \"archive this standup\". Accepts a ~~docs URL (Notion meeting page, Confluence) OR pasted transcript text — unique among MCP-consuming. (Cowork variant — namespaced-only.)",
+      "categories": ["Writing", "Documents", "Integration"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-claude-cowork/skills/meeting-notes",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "mikeprasad/aria-knowledge/plugin-openai-codex/skills/rules",
+      "name": "rules",
+      "description": "Load and apply ARIA working rules, user rules, examples, and the change decision framework. Trigger on /rules, show rule N, working rules, or decision framework.",
+      "categories": ["Business"],
+      "author": "mikeprasad",
+      "repo": "mikeprasad/aria-knowledge",
+      "path": "plugin-openai-codex/skills/rules",
+      "commitHash": "bc759833e486",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "powersync-ja/agent-skills/skills/powersync",
       "name": "powersync",
       "description": "Guided onboarding and best practices for building applications with PowerSync — Cloud and self-hosted setup, sync configuration, client SDK usage, backend integration (Supabase, custom Postgres, MongoDB, MySQL, MSSQL), and debugging. Use this skill whenever the user mentions PowerSync, offline-first sync, local-first architecture, sync rules, sync streams, uploadData, fetchCredentials, real-time data replication, or wants to add offline-capable sync to a mobile or web app — even if they don't explicitly name PowerSync.",
@@ -13275,6 +13367,72 @@
       "path": "skills/powersync",
       "commitHash": "8fbb096c9efa",
       "files": ["AGENTS.md", "CLAUDE.md", "SKILL.md", "references"]
+    },
+    {
+      "id": "zxzin/codex-academic-delivery-skills/skills/checkpro",
+      "name": "checkpro",
+      "description": "Audit essays, reports, literature reviews, dissertations, proposals, and source-backed assignments for high-score academic quality. Use when the user asks whether a paper can get a high grade, wants teacher/rubric feedback addressed, needs a pre-submission review, or needs checks for strict rubric compliance, academic standards, prompt/rubric alignment, argument quality, comparative analysis, evidence hierarchy, table/figure integration, citation specificity, conclusion strength, academic language, source-claim integrity, or evidence boundaries.",
+      "categories": ["Security", "Data & Analytics", "Business", "Research", "AI & ML"],
+      "author": "zxzin",
+      "repo": "zxzin/codex-academic-delivery-skills",
+      "path": "skills/checkpro",
+      "commitHash": "c8c419a13e2c",
+      "files": ["SKILL.md", "agents"]
+    },
+    {
+      "id": "zxzin/codex-academic-delivery-skills/skills/final-delivery-clean",
+      "name": "final-delivery-clean",
+      "description": "Strip workflow notes, engineering meta text, status remarks, workspace references, and other process-facing language from any final deliverable such as a PPT, DOCX, PDF, report, manuscript, or submission package. Use when preparing a final export, submission-ready artifact, or client-facing handoff.",
+      "categories": ["Documents"],
+      "author": "zxzin",
+      "repo": "zxzin/codex-academic-delivery-skills",
+      "path": "skills/final-delivery-clean",
+      "commitHash": "c8c419a13e2c",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "zxzin/codex-academic-delivery-skills/skills/minimal-revision",
+      "name": "minimal-revision",
+      "description": "Revise an already accepted article, essay, paper, statement, or manuscript under strict minimal-change constraints while still satisfying reviewer comments, supervisor feedback, or requested edits. Use when the user asks for minimal edits, smallest necessary changes, preserve the current voice, keep the existing style, avoid broad rewriting, or implement requested revisions without unnecessary polishing.",
+      "categories": ["Design", "Writing"],
+      "author": "zxzin",
+      "repo": "zxzin/codex-academic-delivery-skills",
+      "path": "skills/minimal-revision",
+      "commitHash": "c8c419a13e2c",
+      "files": ["SKILL.md", "agents"]
+    },
+    {
+      "id": "zxzin/codex-academic-delivery-skills/skills/pptpro",
+      "name": "pptpro",
+      "description": "Create visually polished, editable PPT/PPTX presentations in a clean PPTPRO style. Use when the user asks for a beautiful, designed, non-generic PowerPoint deck, especially course presentations, reading applications, source-backed slides, scripts matched to slide pages, or requests to avoid AI-looking beige/card templates and repeatedly check visual quality.",
+      "categories": ["Design", "Documents"],
+      "author": "zxzin",
+      "repo": "zxzin/codex-academic-delivery-skills",
+      "path": "skills/pptpro",
+      "commitHash": "c8c419a13e2c",
+      "files": ["SKILL.md", "agents", "references", "scripts"]
+    },
+    {
+      "id": "zxzin/codex-academic-delivery-skills/skills/replacewords",
+      "name": "replacewords",
+      "description": "Replace sentence-by-sentence revised or paraphrased text back into an original paper or document while preserving the original formatting, typography, paragraph settings, citation layout, and document conventions as the source of truth. Use when the user provides revised text that maps back to original sentences, paragraphs, sections, or the whole document, but may also contain clear local sentence merges or splits, and asks to replace it back into the source, keep the original formatting, do sentence-by-sentence replacement, preserve original formatting, or only swap wording without rewriting the document. Only allow minimal edits to the rewritten text when fixing citation formatting, restoring protected original content, restoring the original person reference, or minimally splitting/merging text back into original sentence slots; otherwise do not improve grammar, style, logic, or wording.",
+      "categories": ["Design", "Writing", "Documents", "Research", "AI & ML"],
+      "author": "zxzin",
+      "repo": "zxzin/codex-academic-delivery-skills",
+      "path": "skills/replacewords",
+      "commitHash": "c8c419a13e2c",
+      "files": ["SKILL.md", "agents"]
+    },
+    {
+      "id": "zxzin/codex-academic-delivery-skills/skills/runpro",
+      "name": "runpro",
+      "description": "Execute a project from a folder of raw materials. Use when the user drops messages, screenshots, documents, drafts, and references into a project directory and wants Codex to identify the real goal, build a plan, do the work, drive the project to a submission-ready state, verify completion, and return a clear final summary of what was required, what was completed, and how it was done.",
+      "categories": ["Development", "Writing", "Productivity"],
+      "author": "zxzin",
+      "repo": "zxzin/codex-academic-delivery-skills",
+      "path": "skills/runpro",
+      "commitHash": "c8c419a13e2c",
+      "files": ["SKILL.md", "agents", "references", "scripts"]
     },
     {
       "id": "Bhanunamikaze/AI-Dataset-Generator",
@@ -14078,6 +14236,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "galyarderlabs/galyarder-framework/skills/verification-before-completion",
+      "name": "verification-before-completion",
+      "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+      "categories": ["Other"],
+      "author": "galyarderlabs",
+      "repo": "galyarderlabs/galyarder-framework",
+      "path": "skills/verification-before-completion",
+      "commitHash": "687a3620e84c",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "galyarderlabs/galyarder-framework/integrations/codex/skills/browserstack",
       "name": "browserstack",
       "description": "Run tests on BrowserStack. Use when user mentions \"browserstack\", \"cross-browser\", \"cloud testing\", \"browser matrix\", \"test on safari\", \"test on firefox\", or \"browser compatibility\".",
@@ -14484,6 +14653,17 @@
       "files": ["SKILL.md", "assets/html-report-starter.html", "references/style-guide.md"]
     },
     {
+      "id": "galyarderlabs/galyarder-framework/skills/copywriting",
+      "name": "copywriting",
+      "description": "Write rigorous, conversion-focused marketing copy for landing pages and emails. Enforces brief confirmation and strict no-fabrication rules.",
+      "categories": ["Writing", "Marketing"],
+      "author": "galyarderlabs",
+      "repo": "galyarderlabs/galyarder-framework",
+      "path": "skills/copywriting",
+      "commitHash": "687a3620e84c",
+      "files": ["SKILL.md", "references/copy-frameworks.md", "references/natural-transitions.md"]
+    },
+    {
       "id": "galyarderlabs/galyarder-framework/integrations/windsurf/skills/design-md-zapier",
       "name": "design-md-zapier",
       "description": "Design system reference for design md zapier.",
@@ -14810,7 +14990,7 @@
       "author": "Smithbox-ai",
       "repo": "Smithbox-ai/ControlFlow",
       "path": "plugins/controlflow-codex/skills/controlflow-spec",
-      "commitHash": "358eedb9e4ec",
+      "commitHash": "8b19d13c7895",
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
@@ -14821,7 +15001,7 @@
       "author": "Smithbox-ai",
       "repo": "Smithbox-ai/ControlFlow",
       "path": "plugins/controlflow-codex/skills/controlflow-review",
-      "commitHash": "358eedb9e4ec",
+      "commitHash": "8b19d13c7895",
       "files": [
         "SKILL.md",
         "agents/openai.yaml",
@@ -14839,7 +15019,7 @@
       "author": "Smithbox-ai",
       "repo": "Smithbox-ai/ControlFlow",
       "path": "plugins/controlflow-codex/skills/controlflow-router",
-      "commitHash": "358eedb9e4ec",
+      "commitHash": "8b19d13c7895",
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
@@ -14850,7 +15030,7 @@
       "author": "Smithbox-ai",
       "repo": "Smithbox-ai/ControlFlow",
       "path": "plugins/controlflow-codex/skills/controlflow-planning",
-      "commitHash": "358eedb9e4ec",
+      "commitHash": "8b19d13c7895",
       "files": [
         "SKILL.md",
         "agents/openai.yaml",
@@ -14870,7 +15050,7 @@
       "author": "Smithbox-ai",
       "repo": "Smithbox-ai/ControlFlow",
       "path": "plugins/controlflow-codex/skills/controlflow-plan-audit",
-      "commitHash": "358eedb9e4ec",
+      "commitHash": "8b19d13c7895",
       "files": ["SKILL.md", "agents/openai.yaml", "references/audit-checklist.md"]
     },
     {
@@ -14881,7 +15061,7 @@
       "author": "Smithbox-ai",
       "repo": "Smithbox-ai/ControlFlow",
       "path": "plugins/controlflow-claude-code/skills/controlflow-router",
-      "commitHash": "358eedb9e4ec",
+      "commitHash": "8b19d13c7895",
       "files": ["SKILL.md"]
     },
     {
@@ -14892,7 +15072,7 @@
       "author": "Smithbox-ai",
       "repo": "Smithbox-ai/ControlFlow",
       "path": "plugins/controlflow-codex/skills/controlflow-memory-hygiene",
-      "commitHash": "358eedb9e4ec",
+      "commitHash": "8b19d13c7895",
       "files": [
         "SKILL.md",
         "agents/openai.yaml",
@@ -14909,7 +15089,7 @@
       "author": "Smithbox-ai",
       "repo": "Smithbox-ai/ControlFlow",
       "path": "plugins/controlflow-codex/skills/controlflow-strict-workflow",
-      "commitHash": "358eedb9e4ec",
+      "commitHash": "8b19d13c7895",
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
@@ -14920,7 +15100,7 @@
       "author": "Smithbox-ai",
       "repo": "Smithbox-ai/ControlFlow",
       "path": "plugins/controlflow-claude-code/skills/controlflow-orchestration",
-      "commitHash": "358eedb9e4ec",
+      "commitHash": "8b19d13c7895",
       "files": [
         "SKILL.md",
         "references/failure-taxonomy.md",
@@ -14937,7 +15117,7 @@
       "author": "Smithbox-ai",
       "repo": "Smithbox-ai/ControlFlow",
       "path": "plugins/controlflow-codex/skills/controlflow-assumption-verifier",
-      "commitHash": "358eedb9e4ec",
+      "commitHash": "8b19d13c7895",
       "files": ["SKILL.md", "agents/openai.yaml", "references/mirage-patterns.md"]
     },
     {
@@ -14948,7 +15128,7 @@
       "author": "Smithbox-ai",
       "repo": "Smithbox-ai/ControlFlow",
       "path": "plugins/controlflow-codex/skills/controlflow-executability-verifier",
-      "commitHash": "358eedb9e4ec",
+      "commitHash": "8b19d13c7895",
       "files": ["SKILL.md", "agents/openai.yaml", "references/executability-checklist.md"]
     },
     {
@@ -14959,7 +15139,7 @@
       "author": "Smithbox-ai",
       "repo": "Smithbox-ai/ControlFlow",
       "path": "plugins/controlflow-claude-code/skills/controlflow-spec",
-      "commitHash": "358eedb9e4ec",
+      "commitHash": "8b19d13c7895",
       "files": ["SKILL.md"]
     },
     {
@@ -14970,7 +15150,7 @@
       "author": "Smithbox-ai",
       "repo": "Smithbox-ai/ControlFlow",
       "path": "plugins/controlflow-claude-code/skills/controlflow-strict-workflow",
-      "commitHash": "358eedb9e4ec",
+      "commitHash": "8b19d13c7895",
       "files": ["SKILL.md"]
     },
     {
@@ -14981,7 +15161,7 @@
       "author": "Smithbox-ai",
       "repo": "Smithbox-ai/ControlFlow",
       "path": "plugins/controlflow-codex/skills/controlflow-orchestration",
-      "commitHash": "358eedb9e4ec",
+      "commitHash": "8b19d13c7895",
       "files": [
         "SKILL.md",
         "agents/openai.yaml",
@@ -14990,72 +15170,6 @@
         "references/runtime-policy.json",
         "references/tdd-patterns.md"
       ]
-    },
-    {
-      "id": "zxzin/codex-academic-delivery-skills/skills/checkpro",
-      "name": "checkpro",
-      "description": "Audit essays, reports, literature reviews, dissertations, proposals, and source-backed assignments for high-score academic quality. Use when the user asks whether a paper can get a high grade, wants teacher/rubric feedback addressed, needs a pre-submission review, or needs checks for strict rubric compliance, academic standards, prompt/rubric alignment, argument quality, comparative analysis, evidence hierarchy, table/figure integration, citation specificity, conclusion strength, academic language, source-claim integrity, or evidence boundaries.",
-      "categories": ["Security", "Data & Analytics", "Business", "Research", "AI & ML"],
-      "author": "zxzin",
-      "repo": "zxzin/codex-academic-delivery-skills",
-      "path": "skills/checkpro",
-      "commitHash": "c8c419a13e2c",
-      "files": ["SKILL.md", "agents"]
-    },
-    {
-      "id": "zxzin/codex-academic-delivery-skills/skills/final-delivery-clean",
-      "name": "final-delivery-clean",
-      "description": "Strip workflow notes, engineering meta text, status remarks, workspace references, and other process-facing language from any final deliverable such as a PPT, DOCX, PDF, report, manuscript, or submission package. Use when preparing a final export, submission-ready artifact, or client-facing handoff.",
-      "categories": ["Documents"],
-      "author": "zxzin",
-      "repo": "zxzin/codex-academic-delivery-skills",
-      "path": "skills/final-delivery-clean",
-      "commitHash": "c8c419a13e2c",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "zxzin/codex-academic-delivery-skills/skills/minimal-revision",
-      "name": "minimal-revision",
-      "description": "Revise an already accepted article, essay, paper, statement, or manuscript under strict minimal-change constraints while still satisfying reviewer comments, supervisor feedback, or requested edits. Use when the user asks for minimal edits, smallest necessary changes, preserve the current voice, keep the existing style, avoid broad rewriting, or implement requested revisions without unnecessary polishing.",
-      "categories": ["Design", "Writing"],
-      "author": "zxzin",
-      "repo": "zxzin/codex-academic-delivery-skills",
-      "path": "skills/minimal-revision",
-      "commitHash": "c8c419a13e2c",
-      "files": ["SKILL.md", "agents"]
-    },
-    {
-      "id": "zxzin/codex-academic-delivery-skills/skills/pptpro",
-      "name": "pptpro",
-      "description": "Create visually polished, editable PPT/PPTX presentations in a clean PPTPRO style. Use when the user asks for a beautiful, designed, non-generic PowerPoint deck, especially course presentations, reading applications, source-backed slides, scripts matched to slide pages, or requests to avoid AI-looking beige/card templates and repeatedly check visual quality.",
-      "categories": ["Design", "Documents"],
-      "author": "zxzin",
-      "repo": "zxzin/codex-academic-delivery-skills",
-      "path": "skills/pptpro",
-      "commitHash": "c8c419a13e2c",
-      "files": ["SKILL.md", "agents", "references", "scripts"]
-    },
-    {
-      "id": "zxzin/codex-academic-delivery-skills/skills/replacewords",
-      "name": "replacewords",
-      "description": "Replace sentence-by-sentence revised or paraphrased text back into an original paper or document while preserving the original formatting, typography, paragraph settings, citation layout, and document conventions as the source of truth. Use when the user provides revised text that maps back to original sentences, paragraphs, sections, or the whole document, but may also contain clear local sentence merges or splits, and asks to replace it back into the source, keep the original formatting, do sentence-by-sentence replacement, preserve original formatting, or only swap wording without rewriting the document. Only allow minimal edits to the rewritten text when fixing citation formatting, restoring protected original content, restoring the original person reference, or minimally splitting/merging text back into original sentence slots; otherwise do not improve grammar, style, logic, or wording.",
-      "categories": ["Design", "Writing", "Documents", "Research", "AI & ML"],
-      "author": "zxzin",
-      "repo": "zxzin/codex-academic-delivery-skills",
-      "path": "skills/replacewords",
-      "commitHash": "c8c419a13e2c",
-      "files": ["SKILL.md", "agents"]
-    },
-    {
-      "id": "zxzin/codex-academic-delivery-skills/skills/runpro",
-      "name": "runpro",
-      "description": "Execute a project from a folder of raw materials. Use when the user drops messages, screenshots, documents, drafts, and references into a project directory and wants Codex to identify the real goal, build a plan, do the work, drive the project to a submission-ready state, verify completion, and return a clear final summary of what was required, what was completed, and how it was done.",
-      "categories": ["Development", "Writing", "Productivity"],
-      "author": "zxzin",
-      "repo": "zxzin/codex-academic-delivery-skills",
-      "path": "skills/runpro",
-      "commitHash": "c8c419a13e2c",
-      "files": ["SKILL.md", "agents", "references", "scripts"]
     },
     {
       "id": "th3vib3coder/vibe-science/.claude/skills/delivery-discipline",
@@ -15215,7 +15329,7 @@
       "author": "cucupac",
       "repo": "cucupac/shellbrain",
       "path": "onboarding_assets/claude/skills/shellbrain",
-      "commitHash": "323bebcb49cf",
+      "commitHash": "bfc14ec11970",
       "files": ["SKILL.md"]
     },
     {
@@ -15226,7 +15340,7 @@
       "author": "cucupac",
       "repo": "cucupac/shellbrain",
       "path": "onboarding_assets/codex/clean-architecture",
-      "commitHash": "323bebcb49cf",
+      "commitHash": "bfc14ec11970",
       "files": ["SKILL.md"]
     },
     {
@@ -15237,7 +15351,7 @@
       "author": "cucupac",
       "repo": "cucupac/shellbrain",
       "path": "onboarding_assets/codex/clean-code",
-      "commitHash": "323bebcb49cf",
+      "commitHash": "bfc14ec11970",
       "files": ["SKILL.md"]
     },
     {
@@ -15248,7 +15362,7 @@
       "author": "cucupac",
       "repo": "cucupac/shellbrain",
       "path": "onboarding_assets/codex/shellbrain-usage-review",
-      "commitHash": "323bebcb49cf",
+      "commitHash": "bfc14ec11970",
       "files": ["SKILL.md", "agents", "assets"]
     },
     {
@@ -22719,6 +22833,17 @@
       "files": ["SKILL.md", "references", "scripts", "tests"]
     },
     {
+      "id": "Shelpuk-AI-Technology-Consulting/agent-skill-tdd/skills/tdd",
+      "name": "tdd",
+      "description": "Use for every coding task. Enforce strict TDD workflow: activate Serena, investigate first, clarify+confirm requirements, write per-task REQUIREMENTS.md in .requirements/<datetime>_<feature_name>/, verify APIs via web search, then implement in tiny test-verified steps.",
+      "categories": ["Development", "Productivity", "Research"],
+      "author": "Shelpuk-AI-Technology-Consulting",
+      "repo": "Shelpuk-AI-Technology-Consulting/agent-skill-tdd",
+      "path": "skills/tdd",
+      "commitHash": "af17db9ed0d3",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "proyecto26/sherlock-ai-plugin/skills/paper2code",
       "name": "paper2code",
       "description": "Analyzes research papers (PDF/arXiv URL) and converts them into executable code.\nAutomatically activated upon requests for paper replication, algorithm implementation, or research reproduction.\nResponds to requests like \"Implement this paper\", \"paper2code\", \"Convert paper to code\".\n",
@@ -22806,17 +22931,6 @@
       "path": "skills/deep-research",
       "commitHash": "0be95c939a12",
       "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "Shelpuk-AI-Technology-Consulting/agent-skill-tdd/skills/tdd",
-      "name": "tdd",
-      "description": "Use for every coding task. Enforce strict TDD workflow: activate Serena, investigate first, clarify+confirm requirements, write per-task REQUIREMENTS.md in .requirements/<datetime>_<feature_name>/, verify APIs via web search, then implement in tiny test-verified steps.",
-      "categories": ["Development", "Productivity", "Research"],
-      "author": "Shelpuk-AI-Technology-Consulting",
-      "repo": "Shelpuk-AI-Technology-Consulting/agent-skill-tdd",
-      "path": "skills/tdd",
-      "commitHash": "af17db9ed0d3",
-      "files": ["SKILL.md"]
     },
     {
       "id": "ITlearning/study-ios/.agents/skills/study-summary",
