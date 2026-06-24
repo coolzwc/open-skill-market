@@ -54,19 +54,19 @@
       "branch": "main",
       "stars": 250,
       "forks": 31,
-      "lastUpdated": "2026-06-24T06:04:15Z"
+      "lastUpdated": "2026-06-24T12:24:19Z"
     },
     "irenerachel/visual-style-ppt-skill": {
       "url": "https://github.com/irenerachel/visual-style-ppt-skill",
       "branch": "main",
-      "stars": 237,
-      "forks": 21,
+      "stars": 241,
+      "forks": 22,
       "lastUpdated": "2026-04-30T04:26:54Z"
     },
     "JamesShi96/project-butler": {
       "url": "https://github.com/JamesShi96/project-butler",
       "branch": "main",
-      "stars": 235,
+      "stars": 240,
       "forks": 11,
       "lastUpdated": "2026-06-22T07:58:30Z"
     },
@@ -75,26 +75,26 @@
       "branch": "main",
       "stars": 221,
       "forks": 22,
-      "lastUpdated": "2026-06-23T17:53:52Z"
-    },
-    "ckelsoe/prompt-architect": {
-      "url": "https://github.com/ckelsoe/prompt-architect",
-      "branch": "main",
-      "stars": 217,
-      "forks": 25,
-      "lastUpdated": "2026-06-04T12:23:11Z"
+      "lastUpdated": "2026-06-24T10:02:52Z"
     },
     "zexuanw958-svg/travel-plan-viz": {
       "url": "https://github.com/zexuanw958-svg/travel-plan-viz",
       "branch": "main",
-      "stars": 215,
+      "stars": 219,
       "forks": 8,
       "lastUpdated": "2026-06-18T17:15:13Z"
+    },
+    "ckelsoe/prompt-architect": {
+      "url": "https://github.com/ckelsoe/prompt-architect",
+      "branch": "main",
+      "stars": 218,
+      "forks": 26,
+      "lastUpdated": "2026-06-04T12:23:11Z"
     },
     "jnMetaCode/ai-shortfilm-prompts": {
       "url": "https://github.com/jnMetaCode/ai-shortfilm-prompts",
       "branch": "main",
-      "stars": 205,
+      "stars": 206,
       "forks": 32,
       "lastUpdated": "2026-06-24T02:29:58Z"
     },
@@ -115,7 +115,7 @@
     "zouchenzhen/thesis-defense-pptx-skill": {
       "url": "https://github.com/zouchenzhen/thesis-defense-pptx-skill",
       "branch": "main",
-      "stars": 185,
+      "stars": 184,
       "forks": 12,
       "lastUpdated": "2026-06-05T05:51:03Z"
     },
@@ -129,9 +129,16 @@
     "Li-Evan/Bloom": {
       "url": "https://github.com/Li-Evan/Bloom",
       "branch": "main",
-      "stars": 174,
+      "stars": 175,
       "forks": 25,
       "lastUpdated": "2026-06-23T14:08:21Z"
+    },
+    "rediumvex/ai-video-generator-claude": {
+      "url": "https://github.com/rediumvex/ai-video-generator-claude",
+      "branch": "main",
+      "stars": 168,
+      "forks": 22,
+      "lastUpdated": "2026-06-11T11:17:12Z"
     },
     "moshuying/pitchcraft": {
       "url": "https://github.com/moshuying/pitchcraft",
@@ -139,13 +146,6 @@
       "stars": 167,
       "forks": 16,
       "lastUpdated": "2026-06-04T00:22:31Z"
-    },
-    "rediumvex/ai-video-generator-claude": {
-      "url": "https://github.com/rediumvex/ai-video-generator-claude",
-      "branch": "main",
-      "stars": 165,
-      "forks": 21,
-      "lastUpdated": "2026-06-11T11:17:12Z"
     },
     "smnandre/symfony-ux-skills": {
       "url": "https://github.com/smnandre/symfony-ux-skills",
@@ -164,7 +164,7 @@
     "OSideMedia/higgsfield-ai-prompt-skill": {
       "url": "https://github.com/OSideMedia/higgsfield-ai-prompt-skill",
       "branch": "main",
-      "stars": 153,
+      "stars": 154,
       "forks": 34,
       "lastUpdated": "2026-06-23T04:22:54Z"
     },
@@ -175,11 +175,18 @@
       "forks": 8,
       "lastUpdated": "2026-06-10T03:13:42Z"
     },
+    "agentenatalie/get-job.skill": {
+      "url": "https://github.com/agentenatalie/get-job.skill",
+      "branch": "main",
+      "stars": 140,
+      "forks": 2,
+      "lastUpdated": "2026-06-23T10:48:46Z"
+    },
     "techygarg/lattice": {
       "url": "https://github.com/techygarg/lattice",
       "branch": "main",
       "stars": 140,
-      "forks": 11,
+      "forks": 12,
       "lastUpdated": "2026-06-18T07:28:28Z"
     },
     "Hao0321/ai-media-generator": {
@@ -188,13 +195,6 @@
       "stars": 138,
       "forks": 36,
       "lastUpdated": "2026-06-11T15:04:19Z"
-    },
-    "agentenatalie/get-job.skill": {
-      "url": "https://github.com/agentenatalie/get-job.skill",
-      "branch": "main",
-      "stars": 138,
-      "forks": 2,
-      "lastUpdated": "2026-06-23T10:48:46Z"
     },
     "stacklok/toolhive-studio": {
       "url": "https://github.com/stacklok/toolhive-studio",
@@ -231,19 +231,19 @@
       "forks": 12,
       "lastUpdated": "2026-06-16T05:29:24Z"
     },
+    "rrezartprebreza/spring-boot-skills": {
+      "url": "https://github.com/rrezartprebreza/spring-boot-skills",
+      "branch": "main",
+      "stars": 118,
+      "forks": 25,
+      "lastUpdated": "2026-06-22T13:11:35Z"
+    },
     "Mark393295827/third-brain-v5-skills": {
       "url": "https://github.com/Mark393295827/third-brain-v5-skills",
       "branch": "main",
       "stars": 117,
       "forks": 18,
       "lastUpdated": "2026-06-21T00:25:13Z"
-    },
-    "rrezartprebreza/spring-boot-skills": {
-      "url": "https://github.com/rrezartprebreza/spring-boot-skills",
-      "branch": "main",
-      "stars": 117,
-      "forks": 25,
-      "lastUpdated": "2026-06-22T13:11:35Z"
     },
     "ltczding-gif/ref-downloader": {
       "url": "https://github.com/ltczding-gif/ref-downloader",
@@ -315,19 +315,26 @@
       "forks": 10,
       "lastUpdated": "2026-05-19T12:21:37Z"
     },
-    "dososo/blcaptain-style-skill": {
-      "url": "https://github.com/dososo/blcaptain-style-skill",
-      "branch": "main",
-      "stars": 95,
-      "forks": 12,
-      "lastUpdated": "2026-06-15T04:15:15Z"
-    },
     "ilyautov/humanizer-ru": {
       "url": "https://github.com/ilyautov/humanizer-ru",
       "branch": "main",
-      "stars": 95,
+      "stars": 97,
       "forks": 6,
       "lastUpdated": "2026-06-24T00:01:23Z"
+    },
+    "dososo/blcaptain-style-skill": {
+      "url": "https://github.com/dososo/blcaptain-style-skill",
+      "branch": "main",
+      "stars": 96,
+      "forks": 12,
+      "lastUpdated": "2026-06-15T04:15:15Z"
+    },
+    "Aboudjem/humanizer-skill": {
+      "url": "https://github.com/Aboudjem/humanizer-skill",
+      "branch": "main",
+      "stars": 95,
+      "forks": 16,
+      "lastUpdated": "2026-05-30T08:10:23Z"
     },
     "0xE1337/thesis-figure-skill": {
       "url": "https://github.com/0xE1337/thesis-figure-skill",
@@ -336,13 +343,6 @@
       "forks": 6,
       "lastUpdated": "2026-06-07T06:56:41Z"
     },
-    "Aboudjem/humanizer-skill": {
-      "url": "https://github.com/Aboudjem/humanizer-skill",
-      "branch": "main",
-      "stars": 94,
-      "forks": 16,
-      "lastUpdated": "2026-05-30T08:10:23Z"
-    },
     "zy-zmc/tianming-skill": {
       "url": "https://github.com/zy-zmc/tianming-skill",
       "branch": "main",
@@ -350,19 +350,19 @@
       "forks": 22,
       "lastUpdated": "2026-06-06T07:57:12Z"
     },
+    "A-cat-with-carrots/OnlyShot": {
+      "url": "https://github.com/A-cat-with-carrots/OnlyShot",
+      "branch": "main",
+      "stars": 92,
+      "forks": 7,
+      "lastUpdated": "2026-05-16T15:23:56Z"
+    },
     "vwww-droid/Mira": {
       "url": "https://github.com/vwww-droid/Mira",
       "branch": "main",
       "stars": 92,
       "forks": 32,
       "lastUpdated": "2026-06-22T13:41:35Z"
-    },
-    "A-cat-with-carrots/OnlyShot": {
-      "url": "https://github.com/A-cat-with-carrots/OnlyShot",
-      "branch": "main",
-      "stars": 90,
-      "forks": 7,
-      "lastUpdated": "2026-05-16T15:23:56Z"
     },
     "tonylofgren/aurora-smart-home": {
       "url": "https://github.com/tonylofgren/aurora-smart-home",
@@ -378,19 +378,19 @@
       "forks": 13,
       "lastUpdated": "2026-06-22T06:11:32Z"
     },
+    "jianshuo/claude-skills": {
+      "url": "https://github.com/jianshuo/claude-skills",
+      "branch": "main",
+      "stars": 89,
+      "forks": 11,
+      "lastUpdated": "2026-06-21T17:07:01Z"
+    },
     "CesiumGS/cesiumjs-skills": {
       "url": "https://github.com/CesiumGS/cesiumjs-skills",
       "branch": "main",
       "stars": 89,
       "forks": 12,
       "lastUpdated": "2026-06-16T22:42:16Z"
-    },
-    "jianshuo/claude-skills": {
-      "url": "https://github.com/jianshuo/claude-skills",
-      "branch": "main",
-      "stars": 88,
-      "forks": 11,
-      "lastUpdated": "2026-06-21T17:07:01Z"
     },
     "monte-carlo-data/mc-agent-toolkit": {
       "url": "https://github.com/monte-carlo-data/mc-agent-toolkit",
@@ -413,6 +413,13 @@
       "forks": 9,
       "lastUpdated": "2026-06-20T20:43:20Z"
     },
+    "swaylq/master-skill": {
+      "url": "https://github.com/swaylq/master-skill",
+      "branch": "main",
+      "stars": 81,
+      "forks": 5,
+      "lastUpdated": "2026-06-22T09:49:57Z"
+    },
     "lanfuli/aleabito-serenity-skills": {
       "url": "https://github.com/lanfuli/aleabito-serenity-skills",
       "branch": "main",
@@ -420,19 +427,19 @@
       "forks": 12,
       "lastUpdated": "2026-06-07T22:37:57Z"
     },
-    "swaylq/master-skill": {
-      "url": "https://github.com/swaylq/master-skill",
-      "branch": "main",
-      "stars": 79,
-      "forks": 5,
-      "lastUpdated": "2026-06-22T09:49:57Z"
-    },
     "arvindrk/extract-design-system": {
       "url": "https://github.com/arvindrk/extract-design-system",
       "branch": "main",
-      "stars": 78,
+      "stars": 79,
       "forks": 12,
       "lastUpdated": "2026-06-20T00:22:52Z"
+    },
+    "smixs/creative-director-skill": {
+      "url": "https://github.com/smixs/creative-director-skill",
+      "branch": "main",
+      "stars": 77,
+      "forks": 23,
+      "lastUpdated": "2026-05-01T01:20:52Z"
     },
     "DheerG/swarms": {
       "url": "https://github.com/DheerG/swarms",
@@ -447,13 +454,6 @@
       "stars": 76,
       "forks": 27,
       "lastUpdated": "2026-06-19T16:57:32Z"
-    },
-    "smixs/creative-director-skill": {
-      "url": "https://github.com/smixs/creative-director-skill",
-      "branch": "main",
-      "stars": 76,
-      "forks": 23,
-      "lastUpdated": "2026-05-01T01:20:52Z"
     },
     "rediumvex/social-media-caption-generator-claude": {
       "url": "https://github.com/rediumvex/social-media-caption-generator-claude",
@@ -479,7 +479,7 @@
     "zhouwei713/fpv-immersive-video-prompting": {
       "url": "https://github.com/zhouwei713/fpv-immersive-video-prompting",
       "branch": "main",
-      "stars": 71,
+      "stars": 72,
       "forks": 21,
       "lastUpdated": "2026-06-10T14:11:06Z"
     },
@@ -581,19 +581,19 @@
       "forks": 4,
       "lastUpdated": "2026-06-16T12:57:39Z"
     },
+    "mturac/simulacra": {
+      "url": "https://github.com/mturac/simulacra",
+      "branch": "main",
+      "stars": 57,
+      "forks": 0,
+      "lastUpdated": "2026-05-28T12:45:12Z"
+    },
     "kawasima/evolutionary-naming": {
       "url": "https://github.com/kawasima/evolutionary-naming",
       "branch": "master",
       "stars": 57,
       "forks": 2,
       "lastUpdated": "2026-06-02T13:45:12Z"
-    },
-    "mturac/simulacra": {
-      "url": "https://github.com/mturac/simulacra",
-      "branch": "main",
-      "stars": 56,
-      "forks": 0,
-      "lastUpdated": "2026-05-28T12:45:12Z"
     },
     "VideoZero/skills": {
       "url": "https://github.com/VideoZero/skills",
@@ -630,6 +630,13 @@
       "forks": 10,
       "lastUpdated": "2026-05-28T18:10:34Z"
     },
+    "KyaniteLabs/mcp-video": {
+      "url": "https://github.com/KyaniteLabs/mcp-video",
+      "branch": "master",
+      "stars": 52,
+      "forks": 14,
+      "lastUpdated": "2026-06-22T14:05:31Z"
+    },
     "rnett/gradle-mcp": {
       "url": "https://github.com/rnett/gradle-mcp",
       "branch": "main",
@@ -643,13 +650,6 @@
       "stars": 51,
       "forks": 5,
       "lastUpdated": "2026-06-05T16:24:03Z"
-    },
-    "KyaniteLabs/mcp-video": {
-      "url": "https://github.com/KyaniteLabs/mcp-video",
-      "branch": "master",
-      "stars": 51,
-      "forks": 14,
-      "lastUpdated": "2026-06-22T14:05:31Z"
     },
     "irenerachel/skill-interview-builder": {
       "url": "https://github.com/irenerachel/skill-interview-builder",
@@ -693,12 +693,26 @@
       "forks": 5,
       "lastUpdated": "2026-06-09T14:08:34Z"
     },
+    "tomwong001/qingsheng-skill": {
+      "url": "https://github.com/tomwong001/qingsheng-skill",
+      "branch": "main",
+      "stars": 45,
+      "forks": 6,
+      "lastUpdated": "2026-04-22T07:43:52Z"
+    },
     "maioio/genesis-architect": {
       "url": "https://github.com/maioio/genesis-architect",
       "branch": "main",
       "stars": 45,
       "forks": 6,
-      "lastUpdated": "2026-06-24T07:17:03Z"
+      "lastUpdated": "2026-06-24T11:43:44Z"
+    },
+    "li599198347-svg/aham-ppt": {
+      "url": "https://github.com/li599198347-svg/aham-ppt",
+      "branch": "main",
+      "stars": 45,
+      "forks": 4,
+      "lastUpdated": "2026-06-22T07:32:20Z"
     },
     "kimlawtech/korean-contracts": {
       "url": "https://github.com/kimlawtech/korean-contracts",
@@ -713,13 +727,6 @@
       "stars": 44,
       "forks": 4,
       "lastUpdated": "2026-06-23T12:33:13Z"
-    },
-    "tomwong001/qingsheng-skill": {
-      "url": "https://github.com/tomwong001/qingsheng-skill",
-      "branch": "main",
-      "stars": 44,
-      "forks": 6,
-      "lastUpdated": "2026-04-22T07:43:52Z"
     },
     "motherduckdb/agent-skills": {
       "url": "https://github.com/motherduckdb/agent-skills",
@@ -775,7 +782,7 @@
       "branch": "main",
       "stars": 40,
       "forks": 7,
-      "lastUpdated": "2026-06-02T03:51:30Z"
+      "lastUpdated": "2026-06-24T09:44:49Z"
     },
     "Jiaranbb/report-helper": {
       "url": "https://github.com/Jiaranbb/report-helper",
@@ -801,14 +808,14 @@
     "KbWen/agentic-os": {
       "url": "https://github.com/KbWen/agentic-os",
       "branch": "main",
-      "stars": 29,
+      "stars": 30,
       "forks": 12,
-      "lastUpdated": "2026-06-23T08:10:52Z"
+      "lastUpdated": "2026-06-24T10:45:24Z"
     },
     "haidrrrry/compose-kotlin-agent-skills": {
       "url": "https://github.com/haidrrrry/compose-kotlin-agent-skills",
       "branch": "main",
-      "stars": 28,
+      "stars": 29,
       "forks": 5,
       "lastUpdated": "2026-06-01T09:49:01Z"
     },
@@ -817,7 +824,7 @@
       "branch": "main",
       "stars": 27,
       "forks": 9,
-      "lastUpdated": "2026-06-24T05:58:30Z"
+      "lastUpdated": "2026-06-24T11:01:07Z"
     },
     "LEON-gittech/Skill2Poster": {
       "url": "https://github.com/LEON-gittech/Skill2Poster",
@@ -840,26 +847,26 @@
       "forks": 3,
       "lastUpdated": "2026-04-25T14:49:59Z"
     },
-    "inngest/inngest-skills": {
-      "url": "https://github.com/inngest/inngest-skills",
-      "branch": "main",
-      "stars": 25,
-      "forks": 4,
-      "lastUpdated": "2026-06-11T05:25:39Z"
-    },
     "agentkit-seo/agentkit-seo": {
       "url": "https://github.com/agentkit-seo/agentkit-seo",
       "branch": "main",
       "stars": 25,
       "forks": 1,
-      "lastUpdated": "2026-06-21T11:03:36Z"
+      "lastUpdated": "2026-06-24T11:23:37Z"
     },
     "antonbabenko/agent-plugins": {
       "url": "https://github.com/antonbabenko/agent-plugins",
       "branch": "master",
-      "stars": 24,
+      "stars": 25,
       "forks": 2,
       "lastUpdated": "2026-06-23T17:04:40Z"
+    },
+    "inngest/inngest-skills": {
+      "url": "https://github.com/inngest/inngest-skills",
+      "branch": "main",
+      "stars": 24,
+      "forks": 4,
+      "lastUpdated": "2026-06-11T05:25:39Z"
     },
     "dyngai/handoffkit": {
       "url": "https://github.com/dyngai/handoffkit",
@@ -872,7 +879,7 @@
       "url": "https://github.com/syzkillall/comprehensive-thinking-skill",
       "branch": "main",
       "stars": 22,
-      "forks": 2,
+      "forks": 3,
       "lastUpdated": "2026-06-06T12:55:54Z"
     },
     "LessUp/cursor-rules": {
@@ -1064,19 +1071,19 @@
       "forks": 1,
       "lastUpdated": "2026-06-22T22:44:55Z"
     },
-    "kunitoki/sonic-skills": {
-      "url": "https://github.com/kunitoki/sonic-skills",
-      "branch": "main",
-      "stars": 14,
-      "forks": 1,
-      "lastUpdated": "2026-05-21T06:48:52Z"
-    },
     "jvogan/symphony-linear-starter": {
       "url": "https://github.com/jvogan/symphony-linear-starter",
       "branch": "main",
       "stars": 14,
       "forks": 0,
       "lastUpdated": "2026-06-21T01:43:22Z"
+    },
+    "kunitoki/sonic-skills": {
+      "url": "https://github.com/kunitoki/sonic-skills",
+      "branch": "main",
+      "stars": 14,
+      "forks": 1,
+      "lastUpdated": "2026-05-21T06:48:52Z"
     },
     "frankxai/claude-skills-library": {
       "url": "https://github.com/frankxai/claude-skills-library",
@@ -1097,7 +1104,7 @@
       "branch": "master",
       "stars": 13,
       "forks": 0,
-      "lastUpdated": "2026-06-18T18:37:18Z"
+      "lastUpdated": "2026-06-24T08:46:52Z"
     },
     "drivly/auto-dev-skill": {
       "url": "https://github.com/drivly/auto-dev-skill",
@@ -3504,7 +3511,7 @@
       "author": "speakeasy-api",
       "repo": "speakeasy-api/gram",
       "path": ".agents/skills/glint",
-      "commitHash": "0e789b0f52f5",
+      "commitHash": "7c6b4926b3b6",
       "files": ["SKILL.md"]
     },
     {
@@ -3515,7 +3522,7 @@
       "author": "speakeasy-api",
       "repo": "speakeasy-api/gram",
       "path": ".agents/skills/jaeger",
-      "commitHash": "0e789b0f52f5",
+      "commitHash": "7c6b4926b3b6",
       "files": ["SKILL.md"]
     },
     {
@@ -3526,7 +3533,7 @@
       "author": "speakeasy-api",
       "repo": "speakeasy-api/gram",
       "path": ".agents/skills/datadog",
-      "commitHash": "0e789b0f52f5",
+      "commitHash": "7c6b4926b3b6",
       "files": ["SKILL.md"]
     },
     {
@@ -3537,7 +3544,7 @@
       "author": "speakeasy-api",
       "repo": "speakeasy-api/gram",
       "path": ".agents/skills/clickhouse",
-      "commitHash": "0e789b0f52f5",
+      "commitHash": "7c6b4926b3b6",
       "files": ["SKILL.md"]
     },
     {
@@ -3548,7 +3555,7 @@
       "author": "speakeasy-api",
       "repo": "speakeasy-api/gram",
       "path": ".agents/skills/feature-flag",
-      "commitHash": "0e789b0f52f5",
+      "commitHash": "7c6b4926b3b6",
       "files": ["SKILL.md"]
     },
     {
@@ -3559,7 +3566,7 @@
       "author": "speakeasy-api",
       "repo": "speakeasy-api/gram",
       "path": ".claude/skills/datadog-insights",
-      "commitHash": "0e789b0f52f5",
+      "commitHash": "7c6b4926b3b6",
       "files": ["SKILL.md"]
     },
     {
@@ -3570,7 +3577,7 @@
       "author": "speakeasy-api",
       "repo": "speakeasy-api/gram",
       "path": ".agents/skills/gram-telemetry-query-dimensions",
-      "commitHash": "0e789b0f52f5",
+      "commitHash": "7c6b4926b3b6",
       "files": ["SKILL.md"]
     },
     {
@@ -3581,7 +3588,7 @@
       "author": "speakeasy-api",
       "repo": "speakeasy-api/gram",
       "path": ".agents/skills/mise-tasks",
-      "commitHash": "0e789b0f52f5",
+      "commitHash": "7c6b4926b3b6",
       "files": ["SKILL.md"]
     },
     {
@@ -3592,7 +3599,7 @@
       "author": "speakeasy-api",
       "repo": "speakeasy-api/gram",
       "path": ".agents/skills/gram-pubsub",
-      "commitHash": "0e789b0f52f5",
+      "commitHash": "7c6b4926b3b6",
       "files": ["SKILL.md"]
     },
     {
@@ -3603,7 +3610,7 @@
       "author": "speakeasy-api",
       "repo": "speakeasy-api/gram",
       "path": ".agents/skills/gram-management-api",
-      "commitHash": "0e789b0f52f5",
+      "commitHash": "7c6b4926b3b6",
       "files": ["SKILL.md"]
     },
     {
@@ -3614,7 +3621,7 @@
       "author": "speakeasy-api",
       "repo": "speakeasy-api/gram",
       "path": ".agents/skills/gram-functions",
-      "commitHash": "0e789b0f52f5",
+      "commitHash": "7c6b4926b3b6",
       "files": ["SKILL.md"]
     },
     {
@@ -3625,7 +3632,7 @@
       "author": "speakeasy-api",
       "repo": "speakeasy-api/gram",
       "path": ".agents/skills/gram-pubsub-python",
-      "commitHash": "0e789b0f52f5",
+      "commitHash": "7c6b4926b3b6",
       "files": ["SKILL.md"]
     },
     {
@@ -3636,7 +3643,7 @@
       "author": "speakeasy-api",
       "repo": "speakeasy-api/gram",
       "path": ".agents/skills/postgresql",
-      "commitHash": "0e789b0f52f5",
+      "commitHash": "7c6b4926b3b6",
       "files": ["SKILL.md"]
     },
     {
@@ -3647,7 +3654,7 @@
       "author": "speakeasy-api",
       "repo": "speakeasy-api/gram",
       "path": ".agents/skills/gram-audit-logging",
-      "commitHash": "0e789b0f52f5",
+      "commitHash": "7c6b4926b3b6",
       "files": ["SKILL.md"]
     },
     {
@@ -3658,7 +3665,7 @@
       "author": "speakeasy-api",
       "repo": "speakeasy-api/gram",
       "path": ".agents/skills/gram-rbac",
-      "commitHash": "0e789b0f52f5",
+      "commitHash": "7c6b4926b3b6",
       "files": ["SKILL.md"]
     },
     {
@@ -3669,7 +3676,7 @@
       "author": "speakeasy-api",
       "repo": "speakeasy-api/gram",
       "path": ".agents/skills/golang",
-      "commitHash": "0e789b0f52f5",
+      "commitHash": "7c6b4926b3b6",
       "files": ["SKILL.md"]
     },
     {
@@ -3680,7 +3687,7 @@
       "author": "speakeasy-api",
       "repo": "speakeasy-api/gram",
       "path": ".agents/skills/frontend",
-      "commitHash": "0e789b0f52f5",
+      "commitHash": "7c6b4926b3b6",
       "files": ["SKILL.md"]
     },
     {
@@ -3691,7 +3698,7 @@
       "author": "speakeasy-api",
       "repo": "speakeasy-api/gram",
       "path": ".agents/skills/page-toolbar",
-      "commitHash": "0e789b0f52f5",
+      "commitHash": "7c6b4926b3b6",
       "files": ["SKILL.md"]
     },
     {
@@ -4288,22 +4295,38 @@
       "files": ["SKILL.md", "reference/caching.md", "reference/postgresql.md", "reference/redis.md"]
     },
     {
-      "id": "majiayu000/spellbook/skills/devops-excellence",
-      "name": "devops-excellence",
-      "description": "DevOps and CI/CD expert. Use when setting up pipelines, containerizing applications, deploying to Kubernetes, or implementing release strategies. Covers GitHub Actions, Docker, K8s, Terraform, and GitOps.",
-      "categories": ["DevOps", "Data & Analytics", "Documents"],
+      "id": "majiayu000/spellbook/skills/agentsmd-scaffold",
+      "name": "agentsmd-scaffold",
+      "description": "Generate or update repository-specific AGENTS.md instruction files from real repo evidence. Use when asked to create, design, scaffold, split, or improve root or scoped AGENTS.md files for Codex/Claude/agent workflows, especially when a repo needs directory-specific rules, validation commands, generated-file boundaries, or a short agent onboarding router.",
+      "categories": ["Development", "Productivity", "Documents", "AI & ML"],
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
-      "path": "skills/devops-excellence",
+      "path": "skills/agentsmd-scaffold",
       "commitHash": "5ba135ecee94",
       "files": [
         "SKILL.md",
-        "reference/cicd.md",
-        "reference/containers.md",
+        "evals/evals.json",
+        "references/scaffold-agents.md",
+        "scripts/scan_repo_context.py"
+      ]
+    },
+    {
+      "id": "majiayu000/spellbook/skills/observability-sre",
+      "name": "observability-sre",
+      "description": "Observability and SRE expert. Use when setting up monitoring, logging, tracing, defining SLOs, or managing incidents. Covers Prometheus, Grafana, OpenTelemetry, and incident response best practices.",
+      "categories": ["DevOps"],
+      "author": "majiayu000",
+      "repo": "majiayu000/spellbook",
+      "path": "skills/observability-sre",
+      "commitHash": "5ba135ecee94",
+      "files": [
+        "SKILL.md",
         "reference/extended.md",
-        "reference/release-strategies.md",
-        "templates/Dockerfile",
-        "templates/github-actions.yaml"
+        "reference/incident-response.md",
+        "reference/logging.md",
+        "reference/monitoring.md",
+        "reference/tracing.md",
+        "templates/slo-template.md"
       ]
     },
     {
@@ -4335,13 +4358,13 @@
       ]
     },
     {
-      "id": "majiayu000/spellbook/skills/elegant-architecture",
-      "name": "elegant-architecture",
-      "description": "Guides clean architecture design with strict 200-line file limits. Use when starting new features, refactoring large files, or planning module structure. Enforces modular design and real testing.",
-      "categories": ["Development", "Design"],
+      "id": "majiayu000/spellbook/skills/systematic-debugging",
+      "name": "systematic-debugging",
+      "description": "Four-phase debugging framework for any technical issue. Use when encountering bugs, errors, or unexpected behavior. Prevents random fix attempts.",
+      "categories": ["Development"],
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
-      "path": "skills/elegant-architecture",
+      "path": "skills/systematic-debugging",
       "commitHash": "5ba135ecee94",
       "files": ["SKILL.md"]
     },
@@ -4370,15 +4393,15 @@
       ]
     },
     {
-      "id": "majiayu000/spellbook/skills/web-artifacts-builder",
-      "name": "web-artifacts-builder",
-      "description": "Use when creating elaborate, multi-component claude.ai HTML artifacts with React, Tailwind CSS, shadcn/ui, state management, routing, or complex frontend structure; not for simple single-file HTML/JSX artifacts.",
-      "categories": ["Development", "Design", "AI & ML"],
+      "id": "majiayu000/spellbook/skills/comprehensive-testing",
+      "name": "comprehensive-testing",
+      "description": "Complete testing strategy covering TDD workflow, test pyramid, unit/integration/E2E/property testing, framework best practices (Jest, Vitest, pytest), mock strategies, and CI integration. Use when writing tests, reviewing test quality, or establishing testing standards.",
+      "categories": ["Development", "Business"],
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
-      "path": "skills/web-artifacts-builder",
+      "path": "skills/comprehensive-testing",
       "commitHash": "5ba135ecee94",
-      "files": ["SKILL.md", "scripts/bundle-artifact.sh", "scripts/init-artifact.sh"]
+      "files": ["SKILL.md", "reference/extended.md"]
     },
     {
       "id": "majiayu000/spellbook/skills/product-manager-toolkit",
@@ -4482,24 +4505,15 @@
       ]
     },
     {
-      "id": "majiayu000/spellbook/skills/api-design",
-      "name": "api-design",
-      "description": "REST/GraphQL/gRPC API design best practices. Use when designing APIs, defining contracts, handling versioning. Covers OpenAPI 3.2, GraphQL Federation, gRPC streaming.",
-      "categories": ["Development"],
+      "id": "majiayu000/spellbook/skills/ask-opencli",
+      "name": "ask-opencli",
+      "description": "Ask Grok or Gemini via opencli (browser-session based, no API cost). Use when the user says \"问 grok\", \"问 gemini\", \"ask grok\", \"ask gemini\", \"用 grok 查\", \"grok 怎么看\", \"让 gemini 分析\", or wants a second opinion from Grok/Gemini without paying API tokens. Routes to opencli which drives the already-logged-in Chrome session.",
+      "categories": ["Data & Analytics"],
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
-      "path": "skills/api-design",
+      "path": "skills/ask-opencli",
       "commitHash": "5ba135ecee94",
-      "files": [
-        "SKILL.md",
-        "reference/comparison.md",
-        "reference/graphql.md",
-        "reference/grpc.md",
-        "reference/rest.md",
-        "templates/graphql/schema.graphql",
-        "templates/grpc/service.proto",
-        "templates/openapi/openapi.yaml"
-      ]
+      "files": ["SKILL.md"]
     },
     {
       "id": "majiayu000/spellbook/skills/skill-audit",
@@ -4566,13 +4580,13 @@
       ]
     },
     {
-      "id": "majiayu000/spellbook/skills/server-deploy",
-      "name": "server-deploy",
-      "description": "通用项目部署到远程服务器。自动识别项目类型（Node.js/Python/Rust/Go/静态站），SSH 配置、环境安装、项目上传、进程管理、Nginx 反向代理、Cloudflare SSL、安全加固。当用户需要部署项目、上线服务、配置域名时使用",
-      "categories": ["Development", "DevOps"],
+      "id": "majiayu000/spellbook/skills/figma-to-react",
+      "name": "figma-to-react",
+      "description": "Use when the user wants to extract Figma designs into production-ready React or Next.js components with TypeScript, Tailwind CSS, and pixel-perfect accuracy.",
+      "categories": ["Development", "Design"],
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
-      "path": "skills/server-deploy",
+      "path": "skills/figma-to-react",
       "commitHash": "5ba135ecee94",
       "files": ["SKILL.md", "reference/extended.md"]
     },
@@ -4588,20 +4602,22 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "majiayu000/spellbook/skills/product-ux-expert",
-      "name": "product-ux-expert",
-      "description": "Product interaction and UX expert. Use when reviewing UI/UX, conducting heuristic evaluations, designing user journeys, applying cognitive psychology principles, or ensuring WCAG 2.2 accessibility compliance.",
-      "categories": ["Design"],
+      "id": "majiayu000/spellbook/skills/devops-excellence",
+      "name": "devops-excellence",
+      "description": "DevOps and CI/CD expert. Use when setting up pipelines, containerizing applications, deploying to Kubernetes, or implementing release strategies. Covers GitHub Actions, Docker, K8s, Terraform, and GitOps.",
+      "categories": ["DevOps", "Data & Analytics", "Documents"],
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
-      "path": "skills/product-ux-expert",
+      "path": "skills/devops-excellence",
       "commitHash": "5ba135ecee94",
       "files": [
         "SKILL.md",
-        "reference/accessibility.md",
-        "reference/heuristics.md",
-        "reference/journey-mapping.md",
-        "reference/psychology.md"
+        "reference/cicd.md",
+        "reference/containers.md",
+        "reference/extended.md",
+        "reference/release-strategies.md",
+        "templates/Dockerfile",
+        "templates/github-actions.yaml"
       ]
     },
     {
@@ -4684,6 +4700,17 @@
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
+      "id": "majiayu000/spellbook/skills/elegant-architecture",
+      "name": "elegant-architecture",
+      "description": "Guides clean architecture design with strict 200-line file limits. Use when starting new features, refactoring large files, or planning module structure. Enforces modular design and real testing.",
+      "categories": ["Development", "Design"],
+      "author": "majiayu000",
+      "repo": "majiayu000/spellbook",
+      "path": "skills/elegant-architecture",
+      "commitHash": "5ba135ecee94",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "majiayu000/spellbook/skills/react-best-practices",
       "name": "react-best-practices",
       "description": "React and Next.js performance playbook distilled from Vercel Engineering guidance. Use when building, reviewing, or refactoring React/Next.js code for waterfalls, bundle size, rendering cost, and client/server data flow.",
@@ -4695,26 +4722,15 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "majiayu000/spellbook/skills/systematic-debugging",
-      "name": "systematic-debugging",
-      "description": "Four-phase debugging framework for any technical issue. Use when encountering bugs, errors, or unexpected behavior. Prevents random fix attempts.",
-      "categories": ["Development"],
+      "id": "majiayu000/spellbook/skills/web-artifacts-builder",
+      "name": "web-artifacts-builder",
+      "description": "Use when creating elaborate, multi-component claude.ai HTML artifacts with React, Tailwind CSS, shadcn/ui, state management, routing, or complex frontend structure; not for simple single-file HTML/JSX artifacts.",
+      "categories": ["Development", "Design", "AI & ML"],
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
-      "path": "skills/systematic-debugging",
+      "path": "skills/web-artifacts-builder",
       "commitHash": "5ba135ecee94",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "majiayu000/spellbook/skills/comprehensive-testing",
-      "name": "comprehensive-testing",
-      "description": "Complete testing strategy covering TDD workflow, test pyramid, unit/integration/E2E/property testing, framework best practices (Jest, Vitest, pytest), mock strategies, and CI integration. Use when writing tests, reviewing test quality, or establishing testing standards.",
-      "categories": ["Development", "Business"],
-      "author": "majiayu000",
-      "repo": "majiayu000/spellbook",
-      "path": "skills/comprehensive-testing",
-      "commitHash": "5ba135ecee94",
-      "files": ["SKILL.md", "reference/extended.md"]
+      "files": ["SKILL.md", "scripts/bundle-artifact.sh", "scripts/init-artifact.sh"]
     },
     {
       "id": "majiayu000/spellbook/skills/project-health-auditor",
@@ -4811,15 +4827,24 @@
       ]
     },
     {
-      "id": "majiayu000/spellbook/skills/ask-opencli",
-      "name": "ask-opencli",
-      "description": "Ask Grok or Gemini via opencli (browser-session based, no API cost). Use when the user says \"问 grok\", \"问 gemini\", \"ask grok\", \"ask gemini\", \"用 grok 查\", \"grok 怎么看\", \"让 gemini 分析\", or wants a second opinion from Grok/Gemini without paying API tokens. Routes to opencli which drives the already-logged-in Chrome session.",
-      "categories": ["Data & Analytics"],
+      "id": "majiayu000/spellbook/skills/api-design",
+      "name": "api-design",
+      "description": "REST/GraphQL/gRPC API design best practices. Use when designing APIs, defining contracts, handling versioning. Covers OpenAPI 3.2, GraphQL Federation, gRPC streaming.",
+      "categories": ["Development"],
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
-      "path": "skills/ask-opencli",
+      "path": "skills/api-design",
       "commitHash": "5ba135ecee94",
-      "files": ["SKILL.md"]
+      "files": [
+        "SKILL.md",
+        "reference/comparison.md",
+        "reference/graphql.md",
+        "reference/grpc.md",
+        "reference/rest.md",
+        "templates/graphql/schema.graphql",
+        "templates/grpc/service.proto",
+        "templates/openapi/openapi.yaml"
+      ]
     },
     {
       "id": "majiayu000/spellbook/skills/xiaohongshu",
@@ -4930,6 +4955,17 @@
       "files": ["SKILL.md", "references/full-guide.md"]
     },
     {
+      "id": "majiayu000/spellbook/skills/server-deploy",
+      "name": "server-deploy",
+      "description": "通用项目部署到远程服务器。自动识别项目类型（Node.js/Python/Rust/Go/静态站），SSH 配置、环境安装、项目上传、进程管理、Nginx 反向代理、Cloudflare SSL、安全加固。当用户需要部署项目、上线服务、配置域名时使用",
+      "categories": ["Development", "DevOps"],
+      "author": "majiayu000",
+      "repo": "majiayu000/spellbook",
+      "path": "skills/server-deploy",
+      "commitHash": "5ba135ecee94",
+      "files": ["SKILL.md", "reference/extended.md"]
+    },
+    {
       "id": "majiayu000/spellbook/skills/system-doctor",
       "name": "system-doctor",
       "description": "系统性能诊断。当用户说电脑卡、系统慢、查看进程、CPU占用高、内存不够等性能问题时使用",
@@ -4939,17 +4975,6 @@
       "path": "skills/system-doctor",
       "commitHash": "5ba135ecee94",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "majiayu000/spellbook/skills/figma-to-react",
-      "name": "figma-to-react",
-      "description": "Use when the user wants to extract Figma designs into production-ready React or Next.js components with TypeScript, Tailwind CSS, and pixel-perfect accuracy.",
-      "categories": ["Development", "Design"],
-      "author": "majiayu000",
-      "repo": "majiayu000/spellbook",
-      "path": "skills/figma-to-react",
-      "commitHash": "5ba135ecee94",
-      "files": ["SKILL.md", "reference/extended.md"]
     },
     {
       "id": "majiayu000/spellbook/skills/technical-spec",
@@ -5029,6 +5054,23 @@
       "files": ["SKILL.md", "evals/evals.json", "scripts/macos_network_snapshot.sh"]
     },
     {
+      "id": "majiayu000/spellbook/skills/product-ux-expert",
+      "name": "product-ux-expert",
+      "description": "Product interaction and UX expert. Use when reviewing UI/UX, conducting heuristic evaluations, designing user journeys, applying cognitive psychology principles, or ensuring WCAG 2.2 accessibility compliance.",
+      "categories": ["Design"],
+      "author": "majiayu000",
+      "repo": "majiayu000/spellbook",
+      "path": "skills/product-ux-expert",
+      "commitHash": "5ba135ecee94",
+      "files": [
+        "SKILL.md",
+        "reference/accessibility.md",
+        "reference/heuristics.md",
+        "reference/journey-mapping.md",
+        "reference/psychology.md"
+      ]
+    },
+    {
       "id": "majiayu000/spellbook/skills/product-analytics",
       "name": "product-analytics",
       "description": "Product analytics and growth expert. Use when designing event tracking, defining metrics, running A/B tests, or analyzing retention. Covers AARRR framework, funnel analysis, cohort analysis, and experimentation.",
@@ -5045,25 +5087,6 @@
         "reference/metrics-framework.md",
         "reference/retention.md",
         "templates/tracking-plan.md"
-      ]
-    },
-    {
-      "id": "majiayu000/spellbook/skills/observability-sre",
-      "name": "observability-sre",
-      "description": "Observability and SRE expert. Use when setting up monitoring, logging, tracing, defining SLOs, or managing incidents. Covers Prometheus, Grafana, OpenTelemetry, and incident response best practices.",
-      "categories": ["DevOps"],
-      "author": "majiayu000",
-      "repo": "majiayu000/spellbook",
-      "path": "skills/observability-sre",
-      "commitHash": "5ba135ecee94",
-      "files": [
-        "SKILL.md",
-        "reference/extended.md",
-        "reference/incident-response.md",
-        "reference/logging.md",
-        "reference/monitoring.md",
-        "reference/tracing.md",
-        "templates/slo-template.md"
       ]
     },
     {
@@ -5108,17 +5131,6 @@
       "files": ["SKILL.md", "references/full-guide.md"]
     },
     {
-      "id": "ckelsoe/prompt-architect/skills/prompt-architect",
-      "name": "prompt-architect",
-      "description": "Analyzes and improves prompts using 27 research-backed frameworks across 7 intent categories. Use when a user wants to improve, rewrite, structure, or engineer a prompt — including requests like \"help me write a better prompt\", \"improve this prompt\", \"what framework should I use\", \"make this prompt more effective\", or any prompt engineering task. Recommends the right framework based on intent (create, transform, reason, critique, recover, clarify, agentic), asks targeted questions, and delivers a structured, high-quality result.",
-      "categories": ["Business", "Research", "AI & ML"],
-      "author": "ckelsoe",
-      "repo": "ckelsoe/prompt-architect",
-      "path": "skills/prompt-architect",
-      "commitHash": "1d963f8249cb",
-      "files": ["SKILL.md", "assets", "references", "scripts"]
-    },
-    {
       "id": "zexuanw958-svg/travel-plan-viz/travel-plan-viz",
       "name": "travel-plan-viz",
       "description": "把旅行行程做成美观、可离线、手机优先的单文件 HTML（交互地图+每日时间轴+出发前订票提醒）。两种用法——只给目的地和天数让它帮你规划，或丢一份现成计划让它直接出页面。触发：旅行计划可视化、做旅行攻略网页、行程 HTML、travel plan visualization。",
@@ -5128,6 +5140,17 @@
       "path": "travel-plan-viz",
       "commitHash": "af6cb1e836a9",
       "files": ["SKILL.md", "assets", "references"]
+    },
+    {
+      "id": "ckelsoe/prompt-architect/skills/prompt-architect",
+      "name": "prompt-architect",
+      "description": "Analyzes and improves prompts using 27 research-backed frameworks across 7 intent categories. Use when a user wants to improve, rewrite, structure, or engineer a prompt — including requests like \"help me write a better prompt\", \"improve this prompt\", \"what framework should I use\", \"make this prompt more effective\", or any prompt engineering task. Recommends the right framework based on intent (create, transform, reason, critique, recover, clarify, agentic), asks targeted questions, and delivers a structured, high-quality result.",
+      "categories": ["Business", "Research", "AI & ML"],
+      "author": "ckelsoe",
+      "repo": "ckelsoe/prompt-architect",
+      "path": "skills/prompt-architect",
+      "commitHash": "1d963f8249cb",
+      "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
       "id": "jnMetaCode/ai-shortfilm-prompts/skills/shortfilm-prompt",
@@ -5271,17 +5294,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "moshuying/pitchcraft/.claude/skills/pitchcraft",
-      "name": "pitchcraft",
-      "description": "Structured persuasion for tech leads, PMs, and founders—not activity logs. Five scenarios (kickoff, status update, wrap-up, investor pitch, solution selling) on one 5-part framework (Hook→Context→Proposal→Evidence→Ask). AI prompts for missing materials and audience context; pre-submit checklist. Claude Code plugin; Cursor, Codex, and chat via prompts.",
-      "categories": ["Development", "Marketing", "Business", "AI & ML"],
-      "author": "moshuying",
-      "repo": "moshuying/pitchcraft",
-      "path": ".claude/skills/pitchcraft",
-      "commitHash": "e872d5e8fd5d",
-      "files": ["SKILL.md", "SKILL.zh-CN.md"]
-    },
-    {
       "id": "rediumvex/ai-video-generator-claude/skills/09-ai-avatar",
       "name": "seedance-ai-avatar",
       "description": "Generate AI avatar and digital persona video prompts for Seedance 2.0 on Higgsfield. Use for virtual spokesperson content, digital twin videos, AI presenter clips, avatar-based marketing, virtual influencer content, or any video featuring a digital/AI-generated character as the main subject. Triggers on avatar, digital persona, virtual presenter, AI character, digital twin, virtual influencer, synthetic media, animated spokesperson.",
@@ -5390,6 +5402,17 @@
       "path": "skills/08-testimonial-story",
       "commitHash": "51b480b89e85",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "moshuying/pitchcraft/.claude/skills/pitchcraft",
+      "name": "pitchcraft",
+      "description": "Structured persuasion for tech leads, PMs, and founders—not activity logs. Five scenarios (kickoff, status update, wrap-up, investor pitch, solution selling) on one 5-part framework (Hook→Context→Proposal→Evidence→Ask). AI prompts for missing materials and audience context; pre-submit checklist. Claude Code plugin; Cursor, Codex, and chat via prompts.",
+      "categories": ["Development", "Marketing", "Business", "AI & ML"],
+      "author": "moshuying",
+      "repo": "moshuying/pitchcraft",
+      "path": ".claude/skills/pitchcraft",
+      "commitHash": "e872d5e8fd5d",
+      "files": ["SKILL.md", "SKILL.zh-CN.md"]
     },
     {
       "id": "smnandre/symfony-ux-skills/skills/turbo",
@@ -5842,6 +5865,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "agentenatalie/get-job.skill",
+      "name": "get-job",
+      "description": "实习.skill / get-job.skill：从调研岗位、改简历到拿 offer 的全流程求职 skill。\n三段链路：① 用 WebSearch 调研目标岗位到底要什么 → ② 把简历按岗位反向定位、把不对口的经历翻译成岗位语言 → ③ 按轮次拆面试 + 简历逐 bullet 深挖 + 表达训练 + 证据化审计拆雷；交付前必须跑质量闸门和覆盖矩阵。\n适用于实习/校招/社招的任何岗位和任何背景跨度。产出三类交付物：岗位调研、改后简历(docx)、面试准备文件夹。\n触发词：「帮我投 X 岗」「改简历」「按目标岗位优化简历」「调研这个岗位」「准备面试」「按我简历准备面试」「模拟面试」「转行/跨专业求职」「校招/秋招/暑期实习准备」「我背景不对口怎么办」。\n",
+      "categories": ["Documents", "Research"],
+      "author": "agentenatalie",
+      "repo": "agentenatalie/get-job.skill",
+      "path": "",
+      "commitHash": "d60161842fe3",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "techygarg/lattice/dev-skills/skill-forge",
       "name": "skill-forge",
       "description": "Create a new Lattice skill — atom, molecule, or refiner — following all framework conventions. Writing skill files manually almost always produces convention violations: wrong section order, missing confirmation gates, defaults.md without the right structure. This skill knows all of that and guides you through it. Use whenever adding any new atom, molecule, or refiner to Lattice, or when the user says 'create a new skill', 'add an atom', 'add a molecule', 'add a refiner', 'build X for Lattice', 'new lattice skill', or 'skill forge'. Does not validate, align docs, or deploy — those are separate skills you run after.",
@@ -6203,17 +6237,6 @@
       "repo": "Hao0321/ai-media-generator",
       "path": "",
       "commitHash": "fdb63315f851",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "agentenatalie/get-job.skill",
-      "name": "get-job",
-      "description": "实习.skill / get-job.skill：从调研岗位、改简历到拿 offer 的全流程求职 skill。\n三段链路：① 用 WebSearch 调研目标岗位到底要什么 → ② 把简历按岗位反向定位、把不对口的经历翻译成岗位语言 → ③ 按轮次拆面试 + 简历逐 bullet 深挖 + 表达训练 + 证据化审计拆雷；交付前必须跑质量闸门和覆盖矩阵。\n适用于实习/校招/社招的任何岗位和任何背景跨度。产出三类交付物：岗位调研、改后简历(docx)、面试准备文件夹。\n触发词：「帮我投 X 岗」「改简历」「按目标岗位优化简历」「调研这个岗位」「准备面试」「按我简历准备面试」「模拟面试」「转行/跨专业求职」「校招/秋招/暑期实习准备」「我背景不对口怎么办」。\n",
-      "categories": ["Documents", "Research"],
-      "author": "agentenatalie",
-      "repo": "agentenatalie/get-job.skill",
-      "path": "",
-      "commitHash": "d60161842fe3",
       "files": ["SKILL.md"]
     },
     {
@@ -7787,251 +7810,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "Mark393295827/third-brain-v5-skills/skills/daily-okr",
-      "name": "daily-okr",
-      "description": "Execute a daily knowledge compound closed loop — 7 Key Results from input to feedback with scoring. Use when the user wants to do a daily review, plan their day, or run a knowledge workflow.",
-      "categories": ["Productivity", "Research"],
-      "author": "Mark393295827",
-      "repo": "Mark393295827/third-brain-v5-skills",
-      "path": "skills/daily-okr",
-      "commitHash": "7b8ccb44b505",
-      "version": "1.1",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Mark393295827/third-brain-v5-skills/skills/wiki-lint",
-      "name": "wiki-lint",
-      "description": "Health-check the knowledge wiki — find orphans, broken links, missing frontmatter, contradictions, stale content, and statistical drift. Use when the user says \"lint the wiki\", \"health check\", or periodically for maintenance.",
-      "categories": ["Research"],
-      "author": "Mark393295827",
-      "repo": "Mark393295827/third-brain-v5-skills",
-      "path": "skills/wiki-lint",
-      "commitHash": "7b8ccb44b505",
-      "version": "1.3",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Mark393295827/third-brain-v5-skills/skills/anthropic-os",
-      "name": "anthropic-os",
-      "description": "Improve a personal or team operating system with self-evolving loops, CASH allocation, 3B creativity, predictive coding, and diagnostics. Use when the user wants to redesign a work method, learning loop, or cognitive operating system.",
-      "categories": ["Other"],
-      "author": "Mark393295827",
-      "repo": "Mark393295827/third-brain-v5-skills",
-      "path": "skills/anthropic-os",
-      "commitHash": "7b8ccb44b505",
-      "version": "1.2",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Mark393295827/third-brain-v5-skills/skills/knowledge-ops",
-      "name": "knowledge-ops",
-      "description": "Manage a multi-layered knowledge system — ingest, organize, deduplicate, vectorize, sync, and retrieve across wiki files, vector DB, memory, and external stores. Use when the user wants to save, organize, sync, search, or scale their knowledge base.",
-      "categories": ["Productivity", "Integration", "Research"],
-      "author": "Mark393295827",
-      "repo": "Mark393295827/third-brain-v5-skills",
-      "path": "skills/knowledge-ops",
-      "commitHash": "7b8ccb44b505",
-      "version": "1.3",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Mark393295827/third-brain-v5-skills/skills/startup-evaluation",
-      "name": "startup-evaluation",
-      "description": "Evaluate startup health using entrepreneurship, VC, and execution frameworks. Use when assessing a startup idea, company, pitch, due diligence target, fundraising readiness, or business model health.",
-      "categories": ["Business", "AI & ML"],
-      "author": "Mark393295827",
-      "repo": "Mark393295827/third-brain-v5-skills",
-      "path": "skills/startup-evaluation",
-      "commitHash": "7b8ccb44b505",
-      "version": "1.2",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Mark393295827/third-brain-v5-skills/skills/agent-teams-command",
-      "name": "agent-teams-command",
-      "description": "Command multi-agent work with bounded roles, ownership, integration gates, and verification loops. Use when the user needs Claude Code Agent Teams, parallel agents, delegation strategy, or multi-agent orchestration.",
-      "categories": ["Business", "AI & ML"],
-      "author": "Mark393295827",
-      "repo": "Mark393295827/third-brain-v5-skills",
-      "path": "skills/agent-teams-command",
-      "commitHash": "7b8ccb44b505",
-      "version": "1.5",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references/classic-campaigns.md"]
-    },
-    {
-      "id": "Mark393295827/third-brain-v5-skills/skills/ai-six-sigma-property-os",
-      "name": "ai-six-sigma-property-os",
-      "description": "Design an AI Six Sigma Black Belt operating model for property service, maintenance dispatch, environmental testing, quote generation, CRM follow-up, and workflow quality dashboards. Use when the user needs a Property Agent OS, AI + Ontology + DMAIC management system, CTQ metrics, agent-team roles, work-order states, or MVP roadmap for operations quality.",
-      "categories": ["Development", "Productivity", "Business", "AI & ML"],
-      "author": "Mark393295827",
-      "repo": "Mark393295827/third-brain-v5-skills",
-      "path": "skills/ai-six-sigma-property-os",
-      "commitHash": "7b8ccb44b505",
-      "version": "1.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Mark393295827/third-brain-v5-skills/skills/agentic-engineering",
-      "name": "agentic-engineering",
-      "description": "Design or refactor agent skills, workflows, and operating loops for model-native Agentic Engineering. Use when making skills more autonomous, concise, verifiable, long-horizon capable, token-efficient, and lower-friction for human-LLM collaboration.",
-      "categories": ["AI & ML"],
-      "author": "Mark393295827",
-      "repo": "Mark393295827/third-brain-v5-skills",
-      "path": "skills/agentic-engineering",
-      "commitHash": "7b8ccb44b505",
-      "version": "1.4",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Mark393295827/third-brain-v5-skills/skills/context-manager",
-      "name": "context-manager",
-      "description": "Manage the LLM's context window — token budgeting, prompt assembly, truncation strategies. Use when approaching context limits or optimizing prompt costs.",
-      "categories": ["Business", "AI & ML"],
-      "author": "Mark393295827",
-      "repo": "Mark393295827/third-brain-v5-skills",
-      "path": "skills/context-manager",
-      "commitHash": "7b8ccb44b505",
-      "version": "1.2",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Mark393295827/third-brain-v5-skills/skills/session-learn",
-      "name": "session-learn",
-      "description": "Extract reusable knowledge from a work session and save concepts, entities, corrections, patterns, ideas, decisions, and gaps to the wiki. Use when ending a session or when the user says to extract knowledge.",
-      "categories": ["Research"],
-      "author": "Mark393295827",
-      "repo": "Mark393295827/third-brain-v5-skills",
-      "path": "skills/session-learn",
-      "commitHash": "7b8ccb44b505",
-      "version": "1.1",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Mark393295827/third-brain-v5-skills/skills/creativity-engine",
-      "name": "creativity-engine",
-      "description": "Generate, validate, and output new ideas based on existing knowledge. Combines combinatorial creativity, cross-domain analogy, and minimum experiments. Use when the user wants fresh ideas, new product concepts, or creative solutions.",
-      "categories": ["Other"],
-      "author": "Mark393295827",
-      "repo": "Mark393295827/third-brain-v5-skills",
-      "path": "skills/creativity-engine",
-      "commitHash": "7b8ccb44b505",
-      "version": "1.2",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Mark393295827/third-brain-v5-skills/skills/harness-engineering",
-      "name": "harness-engineering",
-      "description": "Design runtime infrastructure around AI agents — permissions, tools, feedback loops, observability. Use when deploying agents to production or designing multi-agent systems.",
-      "categories": ["DevOps", "AI & ML"],
-      "author": "Mark393295827",
-      "repo": "Mark393295827/third-brain-v5-skills",
-      "path": "skills/harness-engineering",
-      "commitHash": "7b8ccb44b505",
-      "version": "1.4",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Mark393295827/third-brain-v5-skills/skills/deep-research",
-      "name": "deep-research",
-      "description": "Multi-source deep research — search, synthesize, and deliver cited reports. Use when the user wants thorough research on any topic with evidence and citations.",
-      "categories": ["Research"],
-      "author": "Mark393295827",
-      "repo": "Mark393295827/third-brain-v5-skills",
-      "path": "skills/deep-research",
-      "commitHash": "7b8ccb44b505",
-      "version": "1.3",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Mark393295827/third-brain-v5-skills/skills/project-flow-ops",
-      "name": "project-flow-ops",
-      "description": "Operate execution flow — triage tasks, manage priorities, keep progress structured. Use when the user needs backlog control, task planning, or workflow coordination across projects.",
-      "categories": ["Productivity"],
-      "author": "Mark393295827",
-      "repo": "Mark393295827/third-brain-v5-skills",
-      "path": "skills/project-flow-ops",
-      "commitHash": "7b8ccb44b505",
-      "version": "1.1",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Mark393295827/third-brain-v5-skills/skills/cognitive-compile",
-      "name": "cognitive-compile",
-      "description": "Deep learning compile framework — transforms raw information into actionable judgment. Use when the user wants to deeply understand a topic, not just capture it.",
-      "categories": ["Development", "Research"],
-      "author": "Mark393295827",
-      "repo": "Mark393295827/third-brain-v5-skills",
-      "path": "skills/cognitive-compile",
-      "commitHash": "7b8ccb44b505",
-      "version": "1.2",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Mark393295827/third-brain-v5-skills/skills/wiki-ingest",
-      "name": "wiki-ingest",
-      "description": "Ingest articles, PDFs, videos, transcripts, and notes into a persistent interlinked knowledge wiki. Use when the user wants source notes, entity pages, concept pages, navigation updates, or STOW processing.",
-      "categories": ["Research", "Media"],
-      "author": "Mark393295827",
-      "repo": "Mark393295827/third-brain-v5-skills",
-      "path": "skills/wiki-ingest",
-      "commitHash": "7b8ccb44b505",
-      "version": "1.4",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Mark393295827/third-brain-v5-skills/skills/loop-engineering",
-      "name": "loop-engineering",
-      "description": "Turn a repeatable task into a bounded, evidence-driven agent loop. Use when Codex needs to decide whether a task merits looping, define a loop contract, choose single-agent versus maker-checker versus manager-workers topology, prevent runaway iteration, or repair a loop that stalls, self-grades, exceeds budget, or writes without verified evidence.",
-      "categories": ["Productivity", "AI & ML"],
-      "author": "Mark393295827",
-      "repo": "Mark393295827/third-brain-v5-skills",
-      "path": "skills/loop-engineering",
-      "commitHash": "7b8ccb44b505",
-      "files": ["SKILL.md", "agents/openai.yaml", "scripts/validate_loop_contract.py"]
-    },
-    {
-      "id": "Mark393295827/third-brain-v5-skills/skills/verify-before-claim",
-      "name": "verify-before-claim",
-      "description": "Iron rule — no completion claims without fresh verification evidence. Use whenever about to claim work is done, fixed, working, or passing. Run verification commands and show output before making any success statement.",
-      "categories": ["Other"],
-      "author": "Mark393295827",
-      "repo": "Mark393295827/third-brain-v5-skills",
-      "path": "skills/verify-before-claim",
-      "commitHash": "7b8ccb44b505",
-      "version": "1.2",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "Mark393295827/third-brain-v5-skills/skills/behavior-design",
-      "name": "behavior-design",
-      "description": "Design a behavior change system — decompose a goal into minimum habits, define triggers, build SOPs, and set up review cycles. Use when the user wants to build a habit, change behavior, or achieve a personal goal.",
-      "categories": ["Design"],
-      "author": "Mark393295827",
-      "repo": "Mark393295827/third-brain-v5-skills",
-      "path": "skills/behavior-design",
-      "commitHash": "7b8ccb44b505",
-      "version": "1.1",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "rrezartprebreza/spring-boot-skills/skills/hateoas",
       "name": "hateoas",
       "description": "Use when adding hypermedia links to REST responses, building self-describing APIs, or implementing Spring HATEOAS. Use when you see EntityModel, CollectionModel, or RepresentationModel in the project.\n",
@@ -8331,6 +8109,251 @@
         "templates/DomainException.java",
         "templates/ProblemDetailExceptionHandler.java"
       ]
+    },
+    {
+      "id": "Mark393295827/third-brain-v5-skills/skills/daily-okr",
+      "name": "daily-okr",
+      "description": "Execute a daily knowledge compound closed loop — 7 Key Results from input to feedback with scoring. Use when the user wants to do a daily review, plan their day, or run a knowledge workflow.",
+      "categories": ["Productivity", "Research"],
+      "author": "Mark393295827",
+      "repo": "Mark393295827/third-brain-v5-skills",
+      "path": "skills/daily-okr",
+      "commitHash": "7b8ccb44b505",
+      "version": "1.1",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Mark393295827/third-brain-v5-skills/skills/wiki-lint",
+      "name": "wiki-lint",
+      "description": "Health-check the knowledge wiki — find orphans, broken links, missing frontmatter, contradictions, stale content, and statistical drift. Use when the user says \"lint the wiki\", \"health check\", or periodically for maintenance.",
+      "categories": ["Research"],
+      "author": "Mark393295827",
+      "repo": "Mark393295827/third-brain-v5-skills",
+      "path": "skills/wiki-lint",
+      "commitHash": "7b8ccb44b505",
+      "version": "1.3",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Mark393295827/third-brain-v5-skills/skills/anthropic-os",
+      "name": "anthropic-os",
+      "description": "Improve a personal or team operating system with self-evolving loops, CASH allocation, 3B creativity, predictive coding, and diagnostics. Use when the user wants to redesign a work method, learning loop, or cognitive operating system.",
+      "categories": ["Other"],
+      "author": "Mark393295827",
+      "repo": "Mark393295827/third-brain-v5-skills",
+      "path": "skills/anthropic-os",
+      "commitHash": "7b8ccb44b505",
+      "version": "1.2",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Mark393295827/third-brain-v5-skills/skills/knowledge-ops",
+      "name": "knowledge-ops",
+      "description": "Manage a multi-layered knowledge system — ingest, organize, deduplicate, vectorize, sync, and retrieve across wiki files, vector DB, memory, and external stores. Use when the user wants to save, organize, sync, search, or scale their knowledge base.",
+      "categories": ["Productivity", "Integration", "Research"],
+      "author": "Mark393295827",
+      "repo": "Mark393295827/third-brain-v5-skills",
+      "path": "skills/knowledge-ops",
+      "commitHash": "7b8ccb44b505",
+      "version": "1.3",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Mark393295827/third-brain-v5-skills/skills/startup-evaluation",
+      "name": "startup-evaluation",
+      "description": "Evaluate startup health using entrepreneurship, VC, and execution frameworks. Use when assessing a startup idea, company, pitch, due diligence target, fundraising readiness, or business model health.",
+      "categories": ["Business", "AI & ML"],
+      "author": "Mark393295827",
+      "repo": "Mark393295827/third-brain-v5-skills",
+      "path": "skills/startup-evaluation",
+      "commitHash": "7b8ccb44b505",
+      "version": "1.2",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Mark393295827/third-brain-v5-skills/skills/agent-teams-command",
+      "name": "agent-teams-command",
+      "description": "Command multi-agent work with bounded roles, ownership, integration gates, and verification loops. Use when the user needs Claude Code Agent Teams, parallel agents, delegation strategy, or multi-agent orchestration.",
+      "categories": ["Business", "AI & ML"],
+      "author": "Mark393295827",
+      "repo": "Mark393295827/third-brain-v5-skills",
+      "path": "skills/agent-teams-command",
+      "commitHash": "7b8ccb44b505",
+      "version": "1.5",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references/classic-campaigns.md"]
+    },
+    {
+      "id": "Mark393295827/third-brain-v5-skills/skills/ai-six-sigma-property-os",
+      "name": "ai-six-sigma-property-os",
+      "description": "Design an AI Six Sigma Black Belt operating model for property service, maintenance dispatch, environmental testing, quote generation, CRM follow-up, and workflow quality dashboards. Use when the user needs a Property Agent OS, AI + Ontology + DMAIC management system, CTQ metrics, agent-team roles, work-order states, or MVP roadmap for operations quality.",
+      "categories": ["Development", "Productivity", "Business", "AI & ML"],
+      "author": "Mark393295827",
+      "repo": "Mark393295827/third-brain-v5-skills",
+      "path": "skills/ai-six-sigma-property-os",
+      "commitHash": "7b8ccb44b505",
+      "version": "1.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Mark393295827/third-brain-v5-skills/skills/agentic-engineering",
+      "name": "agentic-engineering",
+      "description": "Design or refactor agent skills, workflows, and operating loops for model-native Agentic Engineering. Use when making skills more autonomous, concise, verifiable, long-horizon capable, token-efficient, and lower-friction for human-LLM collaboration.",
+      "categories": ["AI & ML"],
+      "author": "Mark393295827",
+      "repo": "Mark393295827/third-brain-v5-skills",
+      "path": "skills/agentic-engineering",
+      "commitHash": "7b8ccb44b505",
+      "version": "1.4",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Mark393295827/third-brain-v5-skills/skills/context-manager",
+      "name": "context-manager",
+      "description": "Manage the LLM's context window — token budgeting, prompt assembly, truncation strategies. Use when approaching context limits or optimizing prompt costs.",
+      "categories": ["Business", "AI & ML"],
+      "author": "Mark393295827",
+      "repo": "Mark393295827/third-brain-v5-skills",
+      "path": "skills/context-manager",
+      "commitHash": "7b8ccb44b505",
+      "version": "1.2",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Mark393295827/third-brain-v5-skills/skills/session-learn",
+      "name": "session-learn",
+      "description": "Extract reusable knowledge from a work session and save concepts, entities, corrections, patterns, ideas, decisions, and gaps to the wiki. Use when ending a session or when the user says to extract knowledge.",
+      "categories": ["Research"],
+      "author": "Mark393295827",
+      "repo": "Mark393295827/third-brain-v5-skills",
+      "path": "skills/session-learn",
+      "commitHash": "7b8ccb44b505",
+      "version": "1.1",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Mark393295827/third-brain-v5-skills/skills/creativity-engine",
+      "name": "creativity-engine",
+      "description": "Generate, validate, and output new ideas based on existing knowledge. Combines combinatorial creativity, cross-domain analogy, and minimum experiments. Use when the user wants fresh ideas, new product concepts, or creative solutions.",
+      "categories": ["Other"],
+      "author": "Mark393295827",
+      "repo": "Mark393295827/third-brain-v5-skills",
+      "path": "skills/creativity-engine",
+      "commitHash": "7b8ccb44b505",
+      "version": "1.2",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Mark393295827/third-brain-v5-skills/skills/harness-engineering",
+      "name": "harness-engineering",
+      "description": "Design runtime infrastructure around AI agents — permissions, tools, feedback loops, observability. Use when deploying agents to production or designing multi-agent systems.",
+      "categories": ["DevOps", "AI & ML"],
+      "author": "Mark393295827",
+      "repo": "Mark393295827/third-brain-v5-skills",
+      "path": "skills/harness-engineering",
+      "commitHash": "7b8ccb44b505",
+      "version": "1.4",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Mark393295827/third-brain-v5-skills/skills/deep-research",
+      "name": "deep-research",
+      "description": "Multi-source deep research — search, synthesize, and deliver cited reports. Use when the user wants thorough research on any topic with evidence and citations.",
+      "categories": ["Research"],
+      "author": "Mark393295827",
+      "repo": "Mark393295827/third-brain-v5-skills",
+      "path": "skills/deep-research",
+      "commitHash": "7b8ccb44b505",
+      "version": "1.3",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Mark393295827/third-brain-v5-skills/skills/project-flow-ops",
+      "name": "project-flow-ops",
+      "description": "Operate execution flow — triage tasks, manage priorities, keep progress structured. Use when the user needs backlog control, task planning, or workflow coordination across projects.",
+      "categories": ["Productivity"],
+      "author": "Mark393295827",
+      "repo": "Mark393295827/third-brain-v5-skills",
+      "path": "skills/project-flow-ops",
+      "commitHash": "7b8ccb44b505",
+      "version": "1.1",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Mark393295827/third-brain-v5-skills/skills/cognitive-compile",
+      "name": "cognitive-compile",
+      "description": "Deep learning compile framework — transforms raw information into actionable judgment. Use when the user wants to deeply understand a topic, not just capture it.",
+      "categories": ["Development", "Research"],
+      "author": "Mark393295827",
+      "repo": "Mark393295827/third-brain-v5-skills",
+      "path": "skills/cognitive-compile",
+      "commitHash": "7b8ccb44b505",
+      "version": "1.2",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Mark393295827/third-brain-v5-skills/skills/wiki-ingest",
+      "name": "wiki-ingest",
+      "description": "Ingest articles, PDFs, videos, transcripts, and notes into a persistent interlinked knowledge wiki. Use when the user wants source notes, entity pages, concept pages, navigation updates, or STOW processing.",
+      "categories": ["Research", "Media"],
+      "author": "Mark393295827",
+      "repo": "Mark393295827/third-brain-v5-skills",
+      "path": "skills/wiki-ingest",
+      "commitHash": "7b8ccb44b505",
+      "version": "1.4",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Mark393295827/third-brain-v5-skills/skills/loop-engineering",
+      "name": "loop-engineering",
+      "description": "Turn a repeatable task into a bounded, evidence-driven agent loop. Use when Codex needs to decide whether a task merits looping, define a loop contract, choose single-agent versus maker-checker versus manager-workers topology, prevent runaway iteration, or repair a loop that stalls, self-grades, exceeds budget, or writes without verified evidence.",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "Mark393295827",
+      "repo": "Mark393295827/third-brain-v5-skills",
+      "path": "skills/loop-engineering",
+      "commitHash": "7b8ccb44b505",
+      "files": ["SKILL.md", "agents/openai.yaml", "scripts/validate_loop_contract.py"]
+    },
+    {
+      "id": "Mark393295827/third-brain-v5-skills/skills/verify-before-claim",
+      "name": "verify-before-claim",
+      "description": "Iron rule — no completion claims without fresh verification evidence. Use whenever about to claim work is done, fixed, working, or passing. Run verification commands and show output before making any success statement.",
+      "categories": ["Other"],
+      "author": "Mark393295827",
+      "repo": "Mark393295827/third-brain-v5-skills",
+      "path": "skills/verify-before-claim",
+      "commitHash": "7b8ccb44b505",
+      "version": "1.2",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "Mark393295827/third-brain-v5-skills/skills/behavior-design",
+      "name": "behavior-design",
+      "description": "Design a behavior change system — decompose a goal into minimum habits, define triggers, build SOPs, and set up review cycles. Use when the user wants to build a habit, change behavior, or achieve a personal goal.",
+      "categories": ["Design"],
+      "author": "Mark393295827",
+      "repo": "Mark393295827/third-brain-v5-skills",
+      "path": "skills/behavior-design",
+      "commitHash": "7b8ccb44b505",
+      "version": "1.1",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
     },
     {
       "id": "ltczding-gif/ref-downloader/skills/ref-downloader",
@@ -8990,17 +9013,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "dososo/blcaptain-style-skill",
-      "name": "blcaptain-style-skill",
-      "description": "当用户需要把内容（文章、笔记、截图、数据、产品说明）做成中文图文卡片组图时使用——小红书 / Rednote 3:4 竖图、公众号封面、社交卡。提供三套独家视觉语言（静纸 Still Paper本手记 / Signal Proof 证据层 / Bridge Canvas 跨平台桥），由 Claude 读懂内容、自己撰写 brief.json，交给确定性引擎渲染出第一眼惊艳、一眼可辨、国内开箱即用的图文组图。",
-      "categories": ["Design", "Data & Analytics", "Integration", "AI & ML"],
-      "author": "dososo",
-      "repo": "dososo/blcaptain-style-skill",
-      "path": "",
-      "commitHash": "b0a89b0dc7fd",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "ilyautov/humanizer-ru",
       "name": "humanizer-ru",
       "description": "Скилл для очеловечивания русскоязычного текста. Убирает признаки AI-генерации, делает текст живым. Используй ВСЕГДА, когда пользователь просит: очеловечить текст, убрать следы нейросети, сделать текст живым/естественным, переписать как человек, humanize на русском, убрать канцелярит, убрать водянистость, сделать текст менее формальным. Также используй если пользователь вставляет русскоязычный текст и говорит что-то вроде 'перепиши', 'сделай лучше', 'звучит как робот', 'слишком искусственно'. Работает ТОЛЬКО с русским языком. Для английского используй оригинальный humanizer. НЕ используй для: перевод, написание с нуля, грамматика, код.",
@@ -9012,15 +9024,15 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "0xE1337/thesis-figure-skill/skills/thesis-figure-skill",
-      "name": "thesis-figure-skill",
-      "description": "生成学术论文配图：LaTeX/TikZ 代码（结构化图表，直接嵌入论文）或 draw.io XML\n（技术路线图、汇报配图）。自动按论文领域风格设计，编译验证后交付。\nUse when the user asks for: 论文配图、画架构图、画流程图、TikZ 图、draw.io 学术图、复刻论文图、tikz/latex diagram。\n",
-      "categories": ["Other"],
-      "author": "0xE1337",
-      "repo": "0xE1337/thesis-figure-skill",
-      "path": "skills/thesis-figure-skill",
-      "commitHash": "3845170faeee",
-      "files": ["SKILL.md", "references"]
+      "id": "dososo/blcaptain-style-skill",
+      "name": "blcaptain-style-skill",
+      "description": "当用户需要把内容（文章、笔记、截图、数据、产品说明）做成中文图文卡片组图时使用——小红书 / Rednote 3:4 竖图、公众号封面、社交卡。提供三套独家视觉语言（静纸 Still Paper本手记 / Signal Proof 证据层 / Bridge Canvas 跨平台桥），由 Claude 读懂内容、自己撰写 brief.json，交给确定性引擎渲染出第一眼惊艳、一眼可辨、国内开箱即用的图文组图。",
+      "categories": ["Design", "Data & Analytics", "Integration", "AI & ML"],
+      "author": "dososo",
+      "repo": "dososo/blcaptain-style-skill",
+      "path": "",
+      "commitHash": "b0a89b0dc7fd",
+      "files": ["SKILL.md"]
     },
     {
       "id": "Aboudjem/humanizer-skill/skills/humanizer",
@@ -9034,6 +9046,17 @@
       "files": ["README.md", "SKILL.md"]
     },
     {
+      "id": "0xE1337/thesis-figure-skill/skills/thesis-figure-skill",
+      "name": "thesis-figure-skill",
+      "description": "生成学术论文配图：LaTeX/TikZ 代码（结构化图表，直接嵌入论文）或 draw.io XML\n（技术路线图、汇报配图）。自动按论文领域风格设计，编译验证后交付。\nUse when the user asks for: 论文配图、画架构图、画流程图、TikZ 图、draw.io 学术图、复刻论文图、tikz/latex diagram。\n",
+      "categories": ["Other"],
+      "author": "0xE1337",
+      "repo": "0xE1337/thesis-figure-skill",
+      "path": "skills/thesis-figure-skill",
+      "commitHash": "3845170faeee",
+      "files": ["SKILL.md", "references"]
+    },
+    {
       "id": "zy-zmc/tianming-skill",
       "name": "tianming-novel-system",
       "description": "「天命」长篇小说协同创作系统。当用户使用「天命：大纲」「天命：规划」「天命：目录」\n「天命：草案」「天命：正文」「天命：体检」「天命：存档」等指令进行多卷长篇小说写作，\n或需要保证跨章节的世界观一致性、伏笔回收、节奏控制、文风稳定时使用本 Skill。\n本系统依赖外部知识库：《世界基石.md》《世界观规则.md》《角色档案.md》《档案事件.md》《文风样本.md》。\n",
@@ -9044,6 +9067,17 @@
       "commitHash": "b5ef6e30817e",
       "version": "2.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "A-cat-with-carrots/OnlyShot",
+      "name": "ai-short-drama",
+      "description": "精细化 AI 短剧 IP 创作技能（v0.6.0）。三阶段架构：Phase 1 创作（剧本+ref图，反复迭代）→ Phase 1.5 分镜图（每 grid 1-4 张候选静态图 = 视频首帧，工业级核心层）→ Phase 2 出片（按集解锁，4 模自动选）。v0.6.0 关键升级：① ref 库工艺偏置铁律（现代摩天楼易拟物，古建筑必出 chibi 人体，前期 IP 设计阶段就要避坑）② 即梦 5.0 失败模式 + 敏感词清单（3 类 fail 区分 / prompt 1500 字硬上限 / 反派词替换表 / 暧昧词清单）③ 分镜图 8 段 prompt 模板（CHARACTER/BACKGROUND/ACTION/SCENE/CAMERA/LIGHT/TEXT/STYLE）+ NOT humans 子句必加。沿用 v0.3.0 升级：Phase 1.5 分镜图层、4 模视频、ref 5-8 最优。v0.2.0：bash → Python subprocess、36 grid × 4-10s 变奏、红果必爆 7 招、工业级 ref 库 80-150 张、单 prompt 300-500 字。务必触发：用户提到短剧、微短剧、竖屏剧、AI 短剧、AI 漫剧、剧本创作、分镜、即梦/Seedance 出片、红果/番茄/抖音 IP 改编、爽剧、重生、穿越、赘婿、追妻、神医相师、AI 漫剧奇观、或\"帮我做一部短剧\"类请求。",
+      "categories": ["Design", "AI & ML", "Media"],
+      "author": "A-cat-with-carrots",
+      "repo": "A-cat-with-carrots/OnlyShot",
+      "path": "",
+      "commitHash": "32a3ff8fbd98",
       "files": ["SKILL.md"]
     },
     {
@@ -9089,17 +9123,6 @@
       "path": "skills/mira-detection-distill",
       "commitHash": "65ff6870e92c",
       "files": ["SKILL.md", "agents"]
-    },
-    {
-      "id": "A-cat-with-carrots/OnlyShot",
-      "name": "ai-short-drama",
-      "description": "精细化 AI 短剧 IP 创作技能（v0.6.0）。三阶段架构：Phase 1 创作（剧本+ref图，反复迭代）→ Phase 1.5 分镜图（每 grid 1-4 张候选静态图 = 视频首帧，工业级核心层）→ Phase 2 出片（按集解锁，4 模自动选）。v0.6.0 关键升级：① ref 库工艺偏置铁律（现代摩天楼易拟物，古建筑必出 chibi 人体，前期 IP 设计阶段就要避坑）② 即梦 5.0 失败模式 + 敏感词清单（3 类 fail 区分 / prompt 1500 字硬上限 / 反派词替换表 / 暧昧词清单）③ 分镜图 8 段 prompt 模板（CHARACTER/BACKGROUND/ACTION/SCENE/CAMERA/LIGHT/TEXT/STYLE）+ NOT humans 子句必加。沿用 v0.3.0 升级：Phase 1.5 分镜图层、4 模视频、ref 5-8 最优。v0.2.0：bash → Python subprocess、36 grid × 4-10s 变奏、红果必爆 7 招、工业级 ref 库 80-150 张、单 prompt 300-500 字。务必触发：用户提到短剧、微短剧、竖屏剧、AI 短剧、AI 漫剧、剧本创作、分镜、即梦/Seedance 出片、红果/番茄/抖音 IP 改编、爽剧、重生、穿越、赘婿、追妻、神医相师、AI 漫剧奇观、或\"帮我做一部短剧\"类请求。",
-      "categories": ["Design", "AI & ML", "Media"],
-      "author": "A-cat-with-carrots",
-      "repo": "A-cat-with-carrots/OnlyShot",
-      "path": "",
-      "commitHash": "32a3ff8fbd98",
-      "files": ["SKILL.md"]
     },
     {
       "id": "tonylofgren/aurora-smart-home/aurora",
@@ -9154,183 +9177,6 @@
       "repo": "nikolai-vysotskyi/trace-mcp",
       "path": "skills/trace-mcp-refactoring",
       "commitHash": "85ce6666701e",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-camera",
-      "name": "cesiumjs-camera",
-      "description": "CesiumJS camera control - Camera, flyTo, lookAt, setView, ScreenSpaceCameraController, CameraEventAggregator, flight animation. Use when positioning the camera, creating flyTo animations, constraining user navigation, tracking entities, or converting between screen and world coordinates.",
-      "categories": ["AI & ML", "Media"],
-      "author": "CesiumGS",
-      "repo": "CesiumGS/cesiumjs-skills",
-      "path": "skills/cesiumjs-camera",
-      "commitHash": "df881cf46f52",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-imagery",
-      "name": "cesiumjs-imagery",
-      "description": "CesiumJS imagery layers - ImageryProvider, ImageryLayer, ImageryLayerCollection, WMS, WMTS, Bing, OpenStreetMap, ArcGIS, Mapbox, tile discard policies. Use when adding or swapping base map layers, configuring imagery providers, layering multiple map sources, or creating split-screen imagery comparisons.",
-      "categories": ["Research"],
-      "author": "CesiumGS",
-      "repo": "CesiumGS/cesiumjs-skills",
-      "path": "skills/cesiumjs-imagery",
-      "commitHash": "df881cf46f52",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-3d-tiles",
-      "name": "cesiumjs-3d-tiles",
-      "description": "CesiumJS 3D Tiles - Cesium3DTileset, MVTDataProvider, styling, metadata, feature picking, voxels, point clouds, I3S, Gaussian splats, clipping planes and polygons. Use when loading 3D Tiles tilesets or Mapbox Vector Tiles as runtime 3D Tiles, styling building/vector features, querying metadata properties, working with voxels or point clouds, or clipping spatial data.",
-      "categories": ["Productivity", "Data & Analytics"],
-      "author": "CesiumGS",
-      "repo": "CesiumGS/cesiumjs-skills",
-      "path": "skills/cesiumjs-3d-tiles",
-      "commitHash": "df881cf46f52",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-entities",
-      "name": "cesiumjs-entities",
-      "description": "CesiumJS entities and data sources - Entity, EntityCollection, DataSource, GeoJsonDataSource, KmlDataSource, CzmlDataSource, Graphics types, Visualizers. Use when adding points, labels, models, polygons, or polylines to the map, loading GeoJSON/KML/CZML/GPX data, or working with the high-level Entity API.",
-      "categories": ["Design", "Data & Analytics", "AI & ML"],
-      "author": "CesiumGS",
-      "repo": "CesiumGS/cesiumjs-skills",
-      "path": "skills/cesiumjs-entities",
-      "commitHash": "df881cf46f52",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-primitives",
-      "name": "cesiumjs-primitives",
-      "description": "CesiumJS primitives and geometry - Primitive, GeometryInstance, Appearance, BufferPrimitive collections, GeoJsonPrimitive, Billboard/Label/PointPrimitive collections, built-in geometry shapes, ground primitives, classification. Use when rendering performance-critical static or vector geometry, loading GeoJSON without entities, creating custom shapes, batching draw calls, or using low-level collections.",
-      "categories": ["Other"],
-      "author": "CesiumGS",
-      "repo": "CesiumGS/cesiumjs-skills",
-      "path": "skills/cesiumjs-primitives",
-      "commitHash": "df881cf46f52",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-interaction",
-      "name": "cesiumjs-interaction",
-      "description": "CesiumJS interaction and picking - ScreenSpaceEventHandler, multi-key KeyboardEventModifier input actions, Scene.pick, Scene.drillPick, Scene.pickPosition, mouse and touch events. Use when handling user clicks on the globe, selecting entities or 3D Tiles features, registering modifier-key shortcuts, implementing hover effects, or building drag-based interactions.",
-      "categories": ["AI & ML"],
-      "author": "CesiumGS",
-      "repo": "CesiumGS/cesiumjs-skills",
-      "path": "skills/cesiumjs-interaction",
-      "commitHash": "df881cf46f52",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-spatial-math",
-      "name": "cesiumjs-spatial-math",
-      "description": "CesiumJS spatial math - Cartesian3, Cartographic, Matrix4, Quaternion, Transforms, Ellipsoid, BoundingSphere, projections, coordinate conversions. Use when converting between coordinate systems, computing positions on the ellipsoid, performing spatial intersection tests, building model matrices, or working with geographic projections.",
-      "categories": ["Development", "Design", "Data & Analytics", "Documents"],
-      "author": "CesiumGS",
-      "repo": "CesiumGS/cesiumjs-skills",
-      "path": "skills/cesiumjs-spatial-math",
-      "commitHash": "df881cf46f52",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-viewer-setup",
-      "name": "cesiumjs-viewer-setup",
-      "description": "CesiumJS viewer setup - Viewer, CesiumWidget, widgets, Ion token, Scene configuration, SceneMode, factory helpers, geocoders, platform services. Use when initializing a CesiumJS application, configuring viewer widgets, setting Ion access tokens, creating default terrain or imagery, or bootstrapping a 3D globe.",
-      "categories": ["Productivity"],
-      "author": "CesiumGS",
-      "repo": "CesiumGS/cesiumjs-skills",
-      "path": "skills/cesiumjs-viewer-setup",
-      "commitHash": "df881cf46f52",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CesiumGS/cesiumjs-skills/skills/using-cesiumjs-skills",
-      "name": "using-cesiumjs-skills",
-      "description": "Use when starting any conversation involving CesiumJS development - provides orientation on available domain skills and how they activate",
-      "categories": ["Other"],
-      "author": "CesiumGS",
-      "repo": "CesiumGS/cesiumjs-skills",
-      "path": "skills/using-cesiumjs-skills",
-      "commitHash": "df881cf46f52",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-custom-shader",
-      "name": "cesiumjs-custom-shader",
-      "description": "CustomShader authoring — vertexShaderText and fragmentShaderText against VertexInput, FragmentInput, FeatureIds, Metadata, czm_modelMaterial. Use when reading EXT_mesh_features or EXT_structural_metadata property textures/tables, vertex displacement, or shading VoxelPrimitive.",
-      "categories": ["Writing", "AI & ML"],
-      "author": "CesiumGS",
-      "repo": "CesiumGS/cesiumjs-skills",
-      "path": "skills/cesiumjs-custom-shader",
-      "commitHash": "df881cf46f52",
-      "files": [
-        "REFERENCE.md",
-        "SKILL.md",
-        "examples/01-diffuse-tint.js",
-        "examples/02-texture-swap.js",
-        "examples/03-feature-id-tileset.js",
-        "examples/04-translucent-override.js",
-        "examples/05-vertex-displacement.js",
-        "examples/06-metadata-ramp.js",
-        "examples/07-voxel-shader.js",
-        "examples/README.md",
-        "examples/_sandcastle-template.html"
-      ]
-    },
-    {
-      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-core-utilities",
-      "name": "cesiumjs-core-utilities",
-      "description": "CesiumJS core utilities and networking - Resource, Color, Event, Request, RequestScheduler, error handling, helper functions, feature detection. Use when fetching remote data, managing HTTP requests, working with colors, handling events, debugging errors, or using utility functions like defined, clone, or buildModuleUrl.",
-      "categories": ["Development", "Design"],
-      "author": "CesiumGS",
-      "repo": "CesiumGS/cesiumjs-skills",
-      "path": "skills/cesiumjs-core-utilities",
-      "commitHash": "df881cf46f52",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-time-properties",
-      "name": "cesiumjs-time-properties",
-      "description": "CesiumJS time, properties, and animation - Clock, JulianDate, TimeInterval, Property, SampledProperty, CallbackProperty, interpolation, splines, CZML temporal data. Use when making entity attributes time-dynamic, configuring the simulation clock, interpolating positions over time, or working with sampled or callback properties.",
-      "categories": ["Other"],
-      "author": "CesiumGS",
-      "repo": "CesiumGS/cesiumjs-skills",
-      "path": "skills/cesiumjs-time-properties",
-      "commitHash": "df881cf46f52",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-models-particles",
-      "name": "cesiumjs-models-particles",
-      "description": "CesiumJS models, glTF, and particle effects - Model, EdgeDisplayMode, ModelAnimation, ModelNode, ParticleSystem, emitters, GPM extensions. Use when loading glTF/GLB 3D models, controlling edge rendering, playing model animations, positioning particle effects like fire or smoke, or working with geospatial positioning metadata.",
-      "categories": ["Design", "Media"],
-      "author": "CesiumGS",
-      "repo": "CesiumGS/cesiumjs-skills",
-      "path": "skills/cesiumjs-models-particles",
-      "commitHash": "df881cf46f52",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-materials-shaders",
-      "name": "cesiumjs-materials-shaders",
-      "description": "CesiumJS materials and post-processing — Material, Fabric JSON, MaterialAppearance, ImageBasedLighting, PostProcessStage, PostProcessStageLibrary, bloom, depth of field, ambient occlusion, FXAA, tonemapping, BlendingState. Use when defining Fabric materials for entities or primitives, configuring PBR image-based lighting, or adding screen-space post-processing effects.",
-      "categories": ["Other"],
-      "author": "CesiumGS",
-      "repo": "CesiumGS/cesiumjs-skills",
-      "path": "skills/cesiumjs-materials-shaders",
-      "commitHash": "df881cf46f52",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-terrain-environment",
-      "name": "cesiumjs-terrain-environment",
-      "description": "CesiumJS terrain, globe, and environment - TerrainProvider, Globe, sampleTerrain, atmosphere, sky, fog, lighting, shadows, panoramas. Use when configuring terrain providers, querying terrain heights, customizing atmosphere or sky rendering, adding panoramas, or adjusting scene lighting and shadows.",
-      "categories": ["Other"],
-      "author": "CesiumGS",
-      "repo": "CesiumGS/cesiumjs-skills",
-      "path": "skills/cesiumjs-terrain-environment",
-      "commitHash": "df881cf46f52",
       "files": ["SKILL.md"]
     },
     {
@@ -9901,6 +9747,183 @@
         "scripts/synth-sfx.sh",
         "scripts/tts.py"
       ]
+    },
+    {
+      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-camera",
+      "name": "cesiumjs-camera",
+      "description": "CesiumJS camera control - Camera, flyTo, lookAt, setView, ScreenSpaceCameraController, CameraEventAggregator, flight animation. Use when positioning the camera, creating flyTo animations, constraining user navigation, tracking entities, or converting between screen and world coordinates.",
+      "categories": ["AI & ML", "Media"],
+      "author": "CesiumGS",
+      "repo": "CesiumGS/cesiumjs-skills",
+      "path": "skills/cesiumjs-camera",
+      "commitHash": "df881cf46f52",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-imagery",
+      "name": "cesiumjs-imagery",
+      "description": "CesiumJS imagery layers - ImageryProvider, ImageryLayer, ImageryLayerCollection, WMS, WMTS, Bing, OpenStreetMap, ArcGIS, Mapbox, tile discard policies. Use when adding or swapping base map layers, configuring imagery providers, layering multiple map sources, or creating split-screen imagery comparisons.",
+      "categories": ["Research"],
+      "author": "CesiumGS",
+      "repo": "CesiumGS/cesiumjs-skills",
+      "path": "skills/cesiumjs-imagery",
+      "commitHash": "df881cf46f52",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-3d-tiles",
+      "name": "cesiumjs-3d-tiles",
+      "description": "CesiumJS 3D Tiles - Cesium3DTileset, MVTDataProvider, styling, metadata, feature picking, voxels, point clouds, I3S, Gaussian splats, clipping planes and polygons. Use when loading 3D Tiles tilesets or Mapbox Vector Tiles as runtime 3D Tiles, styling building/vector features, querying metadata properties, working with voxels or point clouds, or clipping spatial data.",
+      "categories": ["Productivity", "Data & Analytics"],
+      "author": "CesiumGS",
+      "repo": "CesiumGS/cesiumjs-skills",
+      "path": "skills/cesiumjs-3d-tiles",
+      "commitHash": "df881cf46f52",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-entities",
+      "name": "cesiumjs-entities",
+      "description": "CesiumJS entities and data sources - Entity, EntityCollection, DataSource, GeoJsonDataSource, KmlDataSource, CzmlDataSource, Graphics types, Visualizers. Use when adding points, labels, models, polygons, or polylines to the map, loading GeoJSON/KML/CZML/GPX data, or working with the high-level Entity API.",
+      "categories": ["Design", "Data & Analytics", "AI & ML"],
+      "author": "CesiumGS",
+      "repo": "CesiumGS/cesiumjs-skills",
+      "path": "skills/cesiumjs-entities",
+      "commitHash": "df881cf46f52",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-primitives",
+      "name": "cesiumjs-primitives",
+      "description": "CesiumJS primitives and geometry - Primitive, GeometryInstance, Appearance, BufferPrimitive collections, GeoJsonPrimitive, Billboard/Label/PointPrimitive collections, built-in geometry shapes, ground primitives, classification. Use when rendering performance-critical static or vector geometry, loading GeoJSON without entities, creating custom shapes, batching draw calls, or using low-level collections.",
+      "categories": ["Other"],
+      "author": "CesiumGS",
+      "repo": "CesiumGS/cesiumjs-skills",
+      "path": "skills/cesiumjs-primitives",
+      "commitHash": "df881cf46f52",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-interaction",
+      "name": "cesiumjs-interaction",
+      "description": "CesiumJS interaction and picking - ScreenSpaceEventHandler, multi-key KeyboardEventModifier input actions, Scene.pick, Scene.drillPick, Scene.pickPosition, mouse and touch events. Use when handling user clicks on the globe, selecting entities or 3D Tiles features, registering modifier-key shortcuts, implementing hover effects, or building drag-based interactions.",
+      "categories": ["AI & ML"],
+      "author": "CesiumGS",
+      "repo": "CesiumGS/cesiumjs-skills",
+      "path": "skills/cesiumjs-interaction",
+      "commitHash": "df881cf46f52",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-spatial-math",
+      "name": "cesiumjs-spatial-math",
+      "description": "CesiumJS spatial math - Cartesian3, Cartographic, Matrix4, Quaternion, Transforms, Ellipsoid, BoundingSphere, projections, coordinate conversions. Use when converting between coordinate systems, computing positions on the ellipsoid, performing spatial intersection tests, building model matrices, or working with geographic projections.",
+      "categories": ["Development", "Design", "Data & Analytics", "Documents"],
+      "author": "CesiumGS",
+      "repo": "CesiumGS/cesiumjs-skills",
+      "path": "skills/cesiumjs-spatial-math",
+      "commitHash": "df881cf46f52",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-viewer-setup",
+      "name": "cesiumjs-viewer-setup",
+      "description": "CesiumJS viewer setup - Viewer, CesiumWidget, widgets, Ion token, Scene configuration, SceneMode, factory helpers, geocoders, platform services. Use when initializing a CesiumJS application, configuring viewer widgets, setting Ion access tokens, creating default terrain or imagery, or bootstrapping a 3D globe.",
+      "categories": ["Productivity"],
+      "author": "CesiumGS",
+      "repo": "CesiumGS/cesiumjs-skills",
+      "path": "skills/cesiumjs-viewer-setup",
+      "commitHash": "df881cf46f52",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CesiumGS/cesiumjs-skills/skills/using-cesiumjs-skills",
+      "name": "using-cesiumjs-skills",
+      "description": "Use when starting any conversation involving CesiumJS development - provides orientation on available domain skills and how they activate",
+      "categories": ["Other"],
+      "author": "CesiumGS",
+      "repo": "CesiumGS/cesiumjs-skills",
+      "path": "skills/using-cesiumjs-skills",
+      "commitHash": "df881cf46f52",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-custom-shader",
+      "name": "cesiumjs-custom-shader",
+      "description": "CustomShader authoring — vertexShaderText and fragmentShaderText against VertexInput, FragmentInput, FeatureIds, Metadata, czm_modelMaterial. Use when reading EXT_mesh_features or EXT_structural_metadata property textures/tables, vertex displacement, or shading VoxelPrimitive.",
+      "categories": ["Writing", "AI & ML"],
+      "author": "CesiumGS",
+      "repo": "CesiumGS/cesiumjs-skills",
+      "path": "skills/cesiumjs-custom-shader",
+      "commitHash": "df881cf46f52",
+      "files": [
+        "REFERENCE.md",
+        "SKILL.md",
+        "examples/01-diffuse-tint.js",
+        "examples/02-texture-swap.js",
+        "examples/03-feature-id-tileset.js",
+        "examples/04-translucent-override.js",
+        "examples/05-vertex-displacement.js",
+        "examples/06-metadata-ramp.js",
+        "examples/07-voxel-shader.js",
+        "examples/README.md",
+        "examples/_sandcastle-template.html"
+      ]
+    },
+    {
+      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-core-utilities",
+      "name": "cesiumjs-core-utilities",
+      "description": "CesiumJS core utilities and networking - Resource, Color, Event, Request, RequestScheduler, error handling, helper functions, feature detection. Use when fetching remote data, managing HTTP requests, working with colors, handling events, debugging errors, or using utility functions like defined, clone, or buildModuleUrl.",
+      "categories": ["Development", "Design"],
+      "author": "CesiumGS",
+      "repo": "CesiumGS/cesiumjs-skills",
+      "path": "skills/cesiumjs-core-utilities",
+      "commitHash": "df881cf46f52",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-time-properties",
+      "name": "cesiumjs-time-properties",
+      "description": "CesiumJS time, properties, and animation - Clock, JulianDate, TimeInterval, Property, SampledProperty, CallbackProperty, interpolation, splines, CZML temporal data. Use when making entity attributes time-dynamic, configuring the simulation clock, interpolating positions over time, or working with sampled or callback properties.",
+      "categories": ["Other"],
+      "author": "CesiumGS",
+      "repo": "CesiumGS/cesiumjs-skills",
+      "path": "skills/cesiumjs-time-properties",
+      "commitHash": "df881cf46f52",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-models-particles",
+      "name": "cesiumjs-models-particles",
+      "description": "CesiumJS models, glTF, and particle effects - Model, EdgeDisplayMode, ModelAnimation, ModelNode, ParticleSystem, emitters, GPM extensions. Use when loading glTF/GLB 3D models, controlling edge rendering, playing model animations, positioning particle effects like fire or smoke, or working with geospatial positioning metadata.",
+      "categories": ["Design", "Media"],
+      "author": "CesiumGS",
+      "repo": "CesiumGS/cesiumjs-skills",
+      "path": "skills/cesiumjs-models-particles",
+      "commitHash": "df881cf46f52",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-materials-shaders",
+      "name": "cesiumjs-materials-shaders",
+      "description": "CesiumJS materials and post-processing — Material, Fabric JSON, MaterialAppearance, ImageBasedLighting, PostProcessStage, PostProcessStageLibrary, bloom, depth of field, ambient occlusion, FXAA, tonemapping, BlendingState. Use when defining Fabric materials for entities or primitives, configuring PBR image-based lighting, or adding screen-space post-processing effects.",
+      "categories": ["Other"],
+      "author": "CesiumGS",
+      "repo": "CesiumGS/cesiumjs-skills",
+      "path": "skills/cesiumjs-materials-shaders",
+      "commitHash": "df881cf46f52",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "CesiumGS/cesiumjs-skills/skills/cesiumjs-terrain-environment",
+      "name": "cesiumjs-terrain-environment",
+      "description": "CesiumJS terrain, globe, and environment - TerrainProvider, Globe, sampleTerrain, atmosphere, sky, fog, lighting, shadows, panoramas. Use when configuring terrain providers, querying terrain heights, customizing atmosphere or sky rendering, adding panoramas, or adjusting scene lighting and shadows.",
+      "categories": ["Other"],
+      "author": "CesiumGS",
+      "repo": "CesiumGS/cesiumjs-skills",
+      "path": "skills/cesiumjs-terrain-environment",
+      "commitHash": "df881cf46f52",
+      "files": ["SKILL.md"]
     },
     {
       "id": "monte-carlo-data/mc-agent-toolkit/skills/prevent",
@@ -10965,39 +10988,6 @@
         "references/popovers.md",
         "references/sheets.md"
       ]
-    },
-    {
-      "id": "lanfuli/aleabito-serenity-skills/skills/serenity-radar",
-      "name": "serenity-radar",
-      "description": "Use @aleabitoreddit (\"Serenity\")'s full mention archive (built by the follow-aleabito skill) to anticipate where her attention is moving and generate candidate ideas in her style. Two modes — (1) RADAR reads the live mention data for attention momentum (which tickers she is heating up on, new entrants, conviction core, theme rotation) via scripts/radar.js; (2) GENERATOR applies her empirically-mined patterns (theme-rotation logic, selection signature, catalyst playbook) to propose her likely next focus. Every candidate is gated through the serenity-method checklist. This is a CANDIDATE GENERATOR + CHECKLIST, never an oracle or buy/sell signal. Trigger on \"what is Serenity ramping on / her next pick / aleabito radar / predict her next move / generate ideas like her / 她下一个可能看什么\".",
-      "categories": ["Development", "Design", "Productivity", "Business"],
-      "author": "lanfuli",
-      "repo": "lanfuli/aleabito-serenity-skills",
-      "path": "skills/serenity-radar",
-      "commitHash": "bb71df12a752",
-      "files": ["SKILL.md", "references", "scripts"]
-    },
-    {
-      "id": "lanfuli/aleabito-serenity-skills/skills/follow-aleabito",
-      "name": "follow-aleabito",
-      "description": "Track Serenity / @aleabitoreddit on X and turn the feed into (1) a beginner-friendly Chinese iMessage digest with first-principles + Buffett-style judgement, (2) cumulative 60-day ticker mention analytics CSVs for a website, (3) a Xiaohongshu writing brief, and (4) a durable private research map. Trigger on requests like \"follow aleabitoreddit / AleaBito / Serenity\", \"daily Chinese updates from that X account\", \"60-day mention analytics\", \"ticker mention count\", \"写小红书 aleabito\", \"aleabito 研究地图 / research map\", or any request for Chinese commentary derived from @aleabitoreddit posts.",
-      "categories": ["Writing", "Data & Analytics", "Research"],
-      "author": "lanfuli",
-      "repo": "lanfuli/aleabito-serenity-skills",
-      "path": "skills/follow-aleabito",
-      "commitHash": "bb71df12a752",
-      "files": ["SKILL.md", "agents", "references", "scripts"]
-    },
-    {
-      "id": "lanfuli/aleabito-serenity-skills/skills/serenity-method",
-      "name": "serenity-method",
-      "description": "Apply @aleabitoreddit (\"Serenity\")'s distilled stock-analysis method to ANY ticker, sector, or situation — critical-chokepoint / supply-chain-OSINT idea discovery, first-principles value-chain decomposition, a Buffett-style quality gate (moat / profitability / customer-replacement risk, all default unverified), and narrative-vs-fundamentals hygiene. Produces a beginner-friendly Chinese analysis (她的观点 / 小白解释 / 第一性原理 / Buffett 直接判断 / 当前结论) that classifies an idea as 研究地图 vs 可投资结论. Trigger on \"analyze like Serenity / 用 aleabito 的方法分析 / 用 Serenity 框架 / critical chokepoint 分析 / 第一性原理 + Buffett 判断这只股 / supply-chain bottleneck thesis\". Never emits buy/sell calls.",
-      "categories": ["Data & Analytics", "Research", "Finance"],
-      "author": "lanfuli",
-      "repo": "lanfuli/aleabito-serenity-skills",
-      "path": "skills/serenity-method",
-      "commitHash": "bb71df12a752",
-      "files": ["SKILL.md", "references"]
     },
     {
       "id": "swaylq/master-skill",
@@ -13086,6 +13076,39 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "lanfuli/aleabito-serenity-skills/skills/serenity-radar",
+      "name": "serenity-radar",
+      "description": "Use @aleabitoreddit (\"Serenity\")'s full mention archive (built by the follow-aleabito skill) to anticipate where her attention is moving and generate candidate ideas in her style. Two modes — (1) RADAR reads the live mention data for attention momentum (which tickers she is heating up on, new entrants, conviction core, theme rotation) via scripts/radar.js; (2) GENERATOR applies her empirically-mined patterns (theme-rotation logic, selection signature, catalyst playbook) to propose her likely next focus. Every candidate is gated through the serenity-method checklist. This is a CANDIDATE GENERATOR + CHECKLIST, never an oracle or buy/sell signal. Trigger on \"what is Serenity ramping on / her next pick / aleabito radar / predict her next move / generate ideas like her / 她下一个可能看什么\".",
+      "categories": ["Development", "Design", "Productivity", "Business"],
+      "author": "lanfuli",
+      "repo": "lanfuli/aleabito-serenity-skills",
+      "path": "skills/serenity-radar",
+      "commitHash": "bb71df12a752",
+      "files": ["SKILL.md", "references", "scripts"]
+    },
+    {
+      "id": "lanfuli/aleabito-serenity-skills/skills/follow-aleabito",
+      "name": "follow-aleabito",
+      "description": "Track Serenity / @aleabitoreddit on X and turn the feed into (1) a beginner-friendly Chinese iMessage digest with first-principles + Buffett-style judgement, (2) cumulative 60-day ticker mention analytics CSVs for a website, (3) a Xiaohongshu writing brief, and (4) a durable private research map. Trigger on requests like \"follow aleabitoreddit / AleaBito / Serenity\", \"daily Chinese updates from that X account\", \"60-day mention analytics\", \"ticker mention count\", \"写小红书 aleabito\", \"aleabito 研究地图 / research map\", or any request for Chinese commentary derived from @aleabitoreddit posts.",
+      "categories": ["Writing", "Data & Analytics", "Research"],
+      "author": "lanfuli",
+      "repo": "lanfuli/aleabito-serenity-skills",
+      "path": "skills/follow-aleabito",
+      "commitHash": "bb71df12a752",
+      "files": ["SKILL.md", "agents", "references", "scripts"]
+    },
+    {
+      "id": "lanfuli/aleabito-serenity-skills/skills/serenity-method",
+      "name": "serenity-method",
+      "description": "Apply @aleabitoreddit (\"Serenity\")'s distilled stock-analysis method to ANY ticker, sector, or situation — critical-chokepoint / supply-chain-OSINT idea discovery, first-principles value-chain decomposition, a Buffett-style quality gate (moat / profitability / customer-replacement risk, all default unverified), and narrative-vs-fundamentals hygiene. Produces a beginner-friendly Chinese analysis (她的观点 / 小白解释 / 第一性原理 / Buffett 直接判断 / 当前结论) that classifies an idea as 研究地图 vs 可投资结论. Trigger on \"analyze like Serenity / 用 aleabito 的方法分析 / 用 Serenity 框架 / critical chokepoint 分析 / 第一性原理 + Buffett 判断这只股 / supply-chain bottleneck thesis\". Never emits buy/sell calls.",
+      "categories": ["Data & Analytics", "Research", "Finance"],
+      "author": "lanfuli",
+      "repo": "lanfuli/aleabito-serenity-skills",
+      "path": "skills/serenity-method",
+      "commitHash": "bb71df12a752",
+      "files": ["SKILL.md", "references"]
+    },
+    {
       "id": "arvindrk/extract-design-system/skills/extract-design-system",
       "name": "extract-design-system",
       "description": "Extract design primitives from a public website and generate starter token files for your project.",
@@ -13095,6 +13118,26 @@
       "path": "skills/extract-design-system",
       "commitHash": "1873741ba8de",
       "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "smixs/creative-director-skill/creative-director",
+      "name": "creative-director",
+      "description": "AI creative director with recursive self-assessment. Generates concepts using world-class methodologies (SIT, TRIZ, Lateral Thinking, bisociation), scores against 6 weighted criteria with Cannes/D&AD/HumanKind calibration, and recursively refines until the 9+ threshold is reached. Accepts briefs in any format — text, voice transcript, PDF, or raw notes. Use when the user asks to generate creative concepts, brainstorm campaign ideas, develop a Big Idea or campaign platform, evaluate or critique existing creative work, find consumer insights, or shares a brief for ideation — including activations, PR-stunts, brand utility, experiential, and non-advertising ideas. Calibrates against a library of 569 legendary campaigns (P01-P18 pattern map) to detect saturation and ensure originality. Do not use for media planning, production budgeting, brand identity/logo design, copywriting final drafts, or market research data collection.\n",
+      "categories": [
+        "Development",
+        "Design",
+        "Writing",
+        "Productivity",
+        "Documents",
+        "Marketing",
+        "Research",
+        "Media"
+      ],
+      "author": "smixs",
+      "repo": "smixs/creative-director-skill",
+      "path": "creative-director",
+      "commitHash": "62b3e827e546",
+      "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
       "id": "DheerG/swarms/skills/code-mode",
@@ -13279,26 +13322,6 @@
       "path": "skills/observing-agentforce",
       "commitHash": "772aaa20ebdd",
       "files": ["SKILL.md", "apex", "references"]
-    },
-    {
-      "id": "smixs/creative-director-skill/creative-director",
-      "name": "creative-director",
-      "description": "AI creative director with recursive self-assessment. Generates concepts using world-class methodologies (SIT, TRIZ, Lateral Thinking, bisociation), scores against 6 weighted criteria with Cannes/D&AD/HumanKind calibration, and recursively refines until the 9+ threshold is reached. Accepts briefs in any format — text, voice transcript, PDF, or raw notes. Use when the user asks to generate creative concepts, brainstorm campaign ideas, develop a Big Idea or campaign platform, evaluate or critique existing creative work, find consumer insights, or shares a brief for ideation — including activations, PR-stunts, brand utility, experiential, and non-advertising ideas. Calibrates against a library of 569 legendary campaigns (P01-P18 pattern map) to detect saturation and ensure originality. Do not use for media planning, production budgeting, brand identity/logo design, copywriting final drafts, or market research data collection.\n",
-      "categories": [
-        "Development",
-        "Design",
-        "Writing",
-        "Productivity",
-        "Documents",
-        "Marketing",
-        "Research",
-        "Media"
-      ],
-      "author": "smixs",
-      "repo": "smixs/creative-director-skill",
-      "path": "creative-director",
-      "commitHash": "62b3e827e546",
-      "files": ["SKILL.md", "assets", "references", "scripts"]
     },
     {
       "id": "rediumvex/social-media-caption-generator-claude",
@@ -16057,17 +16080,6 @@
       "files": ["SKILL.md", "references", "resources", "scripts"]
     },
     {
-      "id": "kawasima/evolutionary-naming/skills/evolutionary-naming",
-      "name": "evolutionary-naming",
-      "description": "Use when refactoring code with poor names, when asked to improve naming, or when a user struggles to name a class/method/variable. Symptoms include -Manager/-Util suffixes, single-letter variables, process/handle/do verbs, primitive obsession, god methods with multiple responsibilities. Two modes — audit (broad scan, list opportunities) and improve (walk one specific identifier through the process).",
-      "categories": ["Development"],
-      "author": "kawasima",
-      "repo": "kawasima/evolutionary-naming",
-      "path": "skills/evolutionary-naming",
-      "commitHash": "dcd3e0133114",
-      "files": ["SKILL.md", "audit-mode.md", "improve-mode.md", "reference.md"]
-    },
-    {
       "id": "mturac/simulacra/skills/simulacra",
       "name": "simulacra",
       "description": "Interactive code simulation engine that spawns ghost personas to review your\ncode before it ships. Each ghost walks through your code line-by-line from a\ndifferent failure perspective: The Adversary (race conditions, double-submit,\nidempotency), The Enterprise Edge (business logic gaps, multi-currency, B2B\ntax exemptions, locale), Chaos Monkey (timeouts, partial failures, network\npartitions, OOM). Produces a chaos timeline, structured bug report with\nseverity ratings, and three resolution tiers (quick fix, robust architecture,\ngenerated test suite). Use this skill whenever the user mentions code review,\nPR review, \"find bugs\", \"what could go wrong\", \"will this break\", \"is this\nsafe\", \"stress test\", \"edge cases\", design review, pre-merge check, dry run,\nchaos test, or wants a second opinion on any code — even if they don't\nexplicitly ask for \"ghost personas\" or \"simulation\". Also trigger when someone\npastes a code snippet with any question about its correctness or safety.\n",
@@ -16088,6 +16100,17 @@
       "path": "skills/skill-scorer",
       "commitHash": "074654181872",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "kawasima/evolutionary-naming/skills/evolutionary-naming",
+      "name": "evolutionary-naming",
+      "description": "Use when refactoring code with poor names, when asked to improve naming, or when a user struggles to name a class/method/variable. Symptoms include -Manager/-Util suffixes, single-letter variables, process/handle/do verbs, primitive obsession, god methods with multiple responsibilities. Two modes — audit (broad scan, list opportunities) and improve (walk one specific identifier through the process).",
+      "categories": ["Development"],
+      "author": "kawasima",
+      "repo": "kawasima/evolutionary-naming",
+      "path": "skills/evolutionary-naming",
+      "commitHash": "dcd3e0133114",
+      "files": ["SKILL.md", "audit-mode.md", "improve-mode.md", "reference.md"]
     },
     {
       "id": "VideoZero/skills/motion-canvas",
@@ -16422,6 +16445,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "KyaniteLabs/mcp-video/skills/mcp-video",
+      "name": "mcp-video",
+      "description": "Use mcp-video for guarded video editing, FFmpeg operations, media analysis, subtitles, audio workflows, Hyperframes rendering, repurposing packages, and release checkpoints through an MCP server, Python client, or CLI. Trigger when an agent needs to inspect, edit, render, validate, or package local media safely.",
+      "categories": ["Writing", "Media"],
+      "author": "KyaniteLabs",
+      "repo": "KyaniteLabs/mcp-video",
+      "path": "skills/mcp-video",
+      "commitHash": "e871769ab996",
+      "files": ["SKILL.md", "agents"]
+    },
+    {
       "id": "rnett/gradle-mcp/src/main/skills/gradle",
       "name": "gradle",
       "description": "Provides authoritative guidance for ALL Gradle operations: executing builds, running tests with surgical filtering, introspecting project structure, creating modules, and diagnosing failures; ALWAYS use instead of raw shell `./gradlew` for build execution, test runs, task introspection, module creation, performance audits, and documentation research. Do NOT use for dependency graph auditing/updates (use `managing_gradle_dependencies`) or dependency/plugin/Gradle source exploration (use `exploring_dependency_sources`).\n",
@@ -16450,17 +16484,6 @@
       "path": "skills/docx-template-translator",
       "commitHash": "a967bcd9a35b",
       "files": ["SKILL.md", "agents", "presets", "references", "scripts"]
-    },
-    {
-      "id": "KyaniteLabs/mcp-video/skills/mcp-video",
-      "name": "mcp-video",
-      "description": "Use mcp-video for guarded video editing, FFmpeg operations, media analysis, subtitles, audio workflows, Hyperframes rendering, repurposing packages, and release checkpoints through an MCP server, Python client, or CLI. Trigger when an agent needs to inspect, edit, render, validate, or package local media safely.",
-      "categories": ["Writing", "Media"],
-      "author": "KyaniteLabs",
-      "repo": "KyaniteLabs/mcp-video",
-      "path": "skills/mcp-video",
-      "commitHash": "e871769ab996",
-      "files": ["SKILL.md", "agents"]
     },
     {
       "id": "irenerachel/skill-interview-builder",
@@ -16758,6 +16781,26 @@
       ]
     },
     {
+      "id": "tomwong001/qingsheng-skill/skill",
+      "name": "qingsheng",
+      "description": "情圣 — 中文男性社交与恋爱私教（中文恋爱 AI · 恋爱话术生成器 · 微信聊天助手 · 高情商回复 · 情感咨询替代）。帮兄弟读懂女生发的消息、看懂聊天/朋友圈截图、判断对方是不是对自己有意思、想清楚下一步该回什么 / 该不该回 / 该怎么约。覆盖微信、探探、Soul、Bumble、青藤之恋、陌陌、Tinder 等平台，提供开场话术、暧昧期推进、约会邀约、冷启动挽回、朋友圈展示面诊断、PUA 课程替代方案、恋爱阶段判断、多目标档案管理。当用户问「她这话什么意思」「我该怎么回」「帮我看看这段聊天」「这截图你给我分析一下」「她对我有意思吗」「该约她了吗」「冷场了怎么破」「这条要不要回」「被已读不回怎么办」「朋友圈怎么评论」之类的问题时，务必使用本 skill。即使用户没明说「教练」「分析」也应触发——只要话题是和某个具体女生的互动就用。",
+      "categories": ["Data & Analytics"],
+      "author": "tomwong001",
+      "repo": "tomwong001/qingsheng-skill",
+      "path": "skill",
+      "commitHash": "ea23b10376b1",
+      "files": [
+        "SKILL.md",
+        "qingsheng-upgrade.md",
+        "references",
+        "展示面.md",
+        "急.md",
+        "挽回.md",
+        "换一个.md",
+        "自动.md"
+      ]
+    },
+    {
       "id": "maioio/genesis-architect",
       "name": "genesis-architect",
       "description": "Use when starting a new project. Genesis finds real production failures from similar GitHub repos, then builds a working MVP immediately - not just documents. Two modes: fast-mvp (5 min research cap, builds right after) and deep-research (full analysis). Success = user can run the project. Triggers on: \"genesis init [vision]\", \"I want to build X\", \"scaffold\", \"new project\", \"set up project\", \"start building\", \"create a tool\", \"make a CLI\", \"bootstrap\", \"בנה פרויקט\", \"צור פרויקט\", \"התחל פרויקט\".\n",
@@ -16766,6 +16809,17 @@
       "repo": "maioio/genesis-architect",
       "path": "",
       "commitHash": "534f3c9351d6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "li599198347-svg/aham-ppt",
+      "name": "aham-ppt",
+      "description": "全流程AI制作PPT演示文稿技能，对标麦肯锡/德勤顶级咨询公司标准（Aham UI v6.1 · Office 轨 · PPT）。 当用户说\"帮我做PPT\"\"做演示文稿\"\"做一个汇报\"\"根据这份资料做PPT\" \"做客户方案PPT\"\"制作幻灯片\"时立即触发。即使只有一句话需求也触发。 八阶段模块化流程：规范加载→材料解析→论点提炼→叙事骨架→大纲版式→样稿确认→逐页设计→质检交付。 内置能力自适应教练机制，无论用户专业水平高低，均引导至及格以上输出。 注意：本技能用于 PowerPoint / pptx 输出；SVG/HTML 版本见 ppt-svg 技能。\n",
+      "categories": ["Design", "Documents", "AI & ML"],
+      "author": "li599198347-svg",
+      "repo": "li599198347-svg/aham-ppt",
+      "path": "",
+      "commitHash": "eecb68688ef9",
       "files": ["SKILL.md"]
     },
     {
@@ -16895,26 +16949,6 @@
       "path": "",
       "commitHash": "5cb3a0dec9b5",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "tomwong001/qingsheng-skill/skill",
-      "name": "qingsheng",
-      "description": "情圣 — 中文男性社交与恋爱私教（中文恋爱 AI · 恋爱话术生成器 · 微信聊天助手 · 高情商回复 · 情感咨询替代）。帮兄弟读懂女生发的消息、看懂聊天/朋友圈截图、判断对方是不是对自己有意思、想清楚下一步该回什么 / 该不该回 / 该怎么约。覆盖微信、探探、Soul、Bumble、青藤之恋、陌陌、Tinder 等平台，提供开场话术、暧昧期推进、约会邀约、冷启动挽回、朋友圈展示面诊断、PUA 课程替代方案、恋爱阶段判断、多目标档案管理。当用户问「她这话什么意思」「我该怎么回」「帮我看看这段聊天」「这截图你给我分析一下」「她对我有意思吗」「该约她了吗」「冷场了怎么破」「这条要不要回」「被已读不回怎么办」「朋友圈怎么评论」之类的问题时，务必使用本 skill。即使用户没明说「教练」「分析」也应触发——只要话题是和某个具体女生的互动就用。",
-      "categories": ["Data & Analytics"],
-      "author": "tomwong001",
-      "repo": "tomwong001/qingsheng-skill",
-      "path": "skill",
-      "commitHash": "ea23b10376b1",
-      "files": [
-        "SKILL.md",
-        "qingsheng-upgrade.md",
-        "references",
-        "展示面.md",
-        "急.md",
-        "挽回.md",
-        "换一个.md",
-        "自动.md"
-      ]
     },
     {
       "id": "motherduckdb/agent-skills/skills/motherduck-query",
@@ -19073,17 +19107,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "adriannoes/awesome-vibe-coding/cursor-claude-codex/skills/taste-skills/skills/stitch-skill",
-      "name": "stitch-design-taste",
-      "description": "Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.",
-      "categories": ["Design", "Documents"],
-      "author": "adriannoes",
-      "repo": "adriannoes/awesome-vibe-coding",
-      "path": "cursor-claude-codex/skills/taste-skills/skills/stitch-skill",
-      "commitHash": "6c714661d1e6",
-      "files": ["DESIGN.md", "SKILL.md"]
-    },
-    {
       "id": "adriannoes/awesome-vibe-coding/cursor-claude-codex/skills/matt-pocock/productivity/caveman",
       "name": "caveman",
       "description": "Ultra-compressed communication mode. Cuts token usage ~75% by dropping filler, articles, and pleasantries while keeping full technical accuracy. Use when user says \"caveman mode\", \"talk like caveman\", \"use caveman\", \"less tokens\", \"be brief\", or invokes /caveman.\n",
@@ -19091,6 +19114,17 @@
       "author": "adriannoes",
       "repo": "adriannoes/awesome-vibe-coding",
       "path": "cursor-claude-codex/skills/matt-pocock/productivity/caveman",
+      "commitHash": "6c714661d1e6",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "adriannoes/awesome-vibe-coding/cursor-claude-codex/skills/taste-skills/skills/output-skill",
+      "name": "full-output-enforcement",
+      "description": "Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output.",
+      "categories": ["Development"],
+      "author": "adriannoes",
+      "repo": "adriannoes/awesome-vibe-coding",
+      "path": "cursor-claude-codex/skills/taste-skills/skills/output-skill",
       "commitHash": "6c714661d1e6",
       "files": ["SKILL.md"]
     },
@@ -20317,7 +20351,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/security-audit",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20328,7 +20362,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/refactoring",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20339,7 +20373,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-ranking",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20350,7 +20384,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-optimization",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20361,7 +20395,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-injection",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20372,7 +20406,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/version-control",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20383,7 +20417,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-deployment",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20394,7 +20428,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/translation",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20405,7 +20439,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-schema-design",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20416,7 +20450,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-design",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20427,7 +20461,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-migration",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20438,7 +20472,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/meeting-transcription",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20449,7 +20483,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/chatbot-conversation-design",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20460,7 +20494,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/cloud-monitoring",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20471,7 +20505,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/content-strategy",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20482,7 +20516,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/email-drafting",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20493,7 +20527,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-analysis",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20504,7 +20538,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-visualization",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20515,7 +20549,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/keyword-research",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20526,7 +20560,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/task-automation",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20537,7 +20571,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/threat-modeling",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20548,7 +20582,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/hyperparameter-tuning",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20559,7 +20593,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/literature-review",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20570,7 +20604,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/seo-optimization",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20581,7 +20615,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/note-taking",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20592,7 +20626,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-training",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20603,7 +20637,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/proofreading",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20614,7 +20648,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/webhook-setup",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20625,7 +20659,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-retrieval",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20636,7 +20670,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/technical-writing",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20647,7 +20681,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/blog-post-writing",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20658,7 +20692,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/analytics-reporting",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20669,7 +20703,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/sql-query-generation",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20680,7 +20714,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/code-documentation",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20691,7 +20725,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/copywriting",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20702,7 +20736,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/static-application-security-testing",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20713,7 +20747,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/ml-pipeline-creation",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20724,7 +20758,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dependency-scanning",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20735,7 +20769,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-backup",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20746,7 +20780,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/ci-cd",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20757,7 +20791,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/report-generation",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20768,7 +20802,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-integration",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20779,7 +20813,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/summarization",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20790,7 +20824,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-seeding",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20801,7 +20835,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/social-media-posting",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20812,7 +20846,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/data-labeling",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20823,7 +20857,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/presentation-creation",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20834,7 +20868,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/deep-research",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20845,7 +20879,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/query-optimization",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20856,7 +20890,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/oauth-2-0-setup",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20867,7 +20901,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/fact-checking",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20878,7 +20912,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/graphql-api-design",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20889,7 +20923,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-compression",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20900,7 +20934,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/exploratory-data-analysis",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20911,7 +20945,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dynamic-application-security-testing",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20922,7 +20956,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/docker-compose-setup",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20933,7 +20967,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/knowledge-graph-creation",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20944,7 +20978,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/kubernetes-deployment",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20955,7 +20989,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/infrastructure-as-code",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -20966,7 +21000,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-cleaning",
-      "commitHash": "fb0b734ab93d",
+      "commitHash": "178489473b13",
       "files": ["SKILL.md"]
     },
     {
@@ -21553,159 +21587,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "inngest/inngest-skills/skills/inngest-cli",
-      "name": "inngest-cli",
-      "description": "Use when installing or running the Inngest CLI and Dev Server for local development, local testing, serve endpoint debugging, Docker or Docker Compose setup, MCP configuration, self-hosted `inngest start`, or deployment workflow checks. Covers `inngest dev`, `inngest start`, auto-discovery, config files, environment variables, `@inngest/test`, local event sending, platform gotchas, and production/self-hosted server flags.",
-      "categories": ["Development", "DevOps", "Productivity", "Documents"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-cli",
-      "commitHash": "d695620ab4a3",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "inngest/inngest-skills/skills/inngest-api",
-      "name": "inngest-api",
-      "description": "Use when the user explicitly asks for the Inngest REST API v2, raw HTTP, OpenAPI, API docs, API authentication, or an endpoint that the Inngest CLI does not expose. Covers api-docs.inngest.com, llms.txt, the OpenAPI v2 spec, Bearer authentication with API keys or signing keys, production and local base URLs, raw curl/fetch requests, request-shape discovery, pagination, secret redaction, and when to prefer the `inngest-api-cli` skill instead.",
-      "categories": ["Security"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-api",
-      "commitHash": "d695620ab4a3",
-      "files": ["SKILL.md", "references/rest-api-v2.md"]
-    },
-    {
-      "id": "inngest/inngest-skills/skills/inngest-steps",
-      "name": "inngest-steps",
-      "description": "Use when implementing delays that must survive process restarts (e.g., 24-hour cart abandonment, scheduled follow-ups), waiting for human approval or external events with timeouts (review gates, webhook callbacks, async API completion), polling external services without losing state on crashes, calling other functions and awaiting their results, memoizing expensive operations so they don't re-run on retry, or running async work in parallel inside a workflow. Covers Inngest step methods: step.run, step.sleep, step.waitForEvent, step.waitForSignal, step.sendEvent, step.invoke, step.ai, plus patterns for loops and parallel execution.",
-      "categories": ["Development", "Productivity", "Integration", "Research"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-steps",
-      "commitHash": "d695620ab4a3",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "inngest/inngest-skills/skills/inngest-setup",
-      "name": "inngest-setup",
-      "description": "Use when adding durable execution to a TypeScript project — building retry-safe webhook handlers, background jobs that survive crashes, scheduled tasks, or long-running workflows that outlive a single request. Covers Inngest SDK installation, client config, environment variables, serve endpoints (Next.js, Express, Hono, Fastify), connect-as-worker mode, and the local dev server.",
-      "categories": ["Development", "Productivity", "Integration"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-setup",
-      "commitHash": "d695620ab4a3",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "inngest/inngest-skills/skills/inngest-agents",
-      "name": "inngest-agents",
-      "description": "Use when building durable AI agents or agentic workflows with Inngest and AgentKit, including model calls, tool calls, multi-agent networks, human approval, realtime progress, provider rate limits, and crash-safe execution. Covers AgentKit, `step.ai`, `step.run`, `step.waitForEvent`, native realtime, and when to use lower-level Inngest primitives instead of an in-memory agent loop.",
-      "categories": ["Productivity", "AI & ML"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-agents",
-      "commitHash": "d695620ab4a3",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "inngest/inngest-skills/skills/inngest-events",
-      "name": "inngest-events",
-      "description": "Use when designing event-driven workflows, decoupling services, implementing fan-out patterns (one trigger, many downstream handlers), implementing idempotent event handling with IDs (24-hour dedupe window), or handling at-least-once delivery from external sources like Stripe webhooks. Covers Inngest event schema, payload format, naming conventions, IDs for idempotency, the ts param, fan-out patterns, and system events like inngest/function.failed.",
-      "categories": ["Development", "Integration", "Research"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-events",
-      "commitHash": "d695620ab4a3",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "inngest/inngest-skills/skills/inngest-realtime",
-      "name": "inngest-realtime",
-      "description": "Use when streaming durable workflow updates to a UI in real time — live order status pages that animate as steps complete, AI agent token streaming from a function to the browser, log tailing for long-running jobs, or human-in-the-loop approval flows that publish a prompt and wait for a user reply. Covers Inngest v4 native realtime: defining typed channels, publishing from inside step.run, minting subscription tokens via server actions, and consuming the stream from React/Next.js client components.",
-      "categories": ["Development", "Productivity", "Finance", "AI & ML"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-realtime",
-      "commitHash": "d695620ab4a3",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "inngest/inngest-skills/skills/inngest-middleware",
-      "name": "inngest-middleware",
-      "description": "Use when adding cross-cutting concerns to durable functions — structured logging or tracing across all functions, error tracking with Sentry, payload encryption for sensitive data, dependency injection of clients (DB, Stripe, etc.) into function handlers, custom telemetry, or behavior that should apply uniformly across many functions. Covers Inngest middleware lifecycle, creating custom middleware, dependencyInjectionMiddleware, @inngest/middleware-encryption, @inngest/middleware-sentry, and custom middleware patterns.",
-      "categories": ["Security", "Data & Analytics"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-middleware",
-      "commitHash": "d695620ab4a3",
-      "files": [
-        "SKILL.md",
-        "references/built-in-middleware.md",
-        "references/dependency-injection.md"
-      ]
-    },
-    {
-      "id": "inngest/inngest-skills/skills/inngest-flow-control",
-      "name": "inngest-flow-control",
-      "description": "Use when handling external API rate limits (e.g., OpenAI 429s, HubSpot or Stripe rate limits), preventing duplicate work from rapid event bursts (debouncing user actions), spreading load over time, ensuring per-tenant fairness, processing events in batches, limiting concurrent runs of the same operation, or assigning priority to important runs. Covers Inngest flow control: concurrency limits with keys, throttling, rate limiting, debounce, priority, singleton, and event batching.",
-      "categories": ["Integration", "AI & ML"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-flow-control",
-      "commitHash": "d695620ab4a3",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "inngest/inngest-skills/skills/inngest-v3-v4-migration",
-      "name": "inngest-v3-v4-migration",
-      "description": "Use when upgrading an existing TypeScript codebase from Inngest SDK v3 to v4, or when fixing mixed v3/v4 API usage. Covers detecting current SDK usage, moving triggers into createFunction options, replacing EventSchemas with eventType/staticSchema, moving serve options to the client, updating realtime imports, rewriting step.invoke string IDs, checkpointing/serverless runtime settings, Connect option changes, and verification.",
-      "categories": ["Development", "Data & Analytics"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-v3-v4-migration",
-      "commitHash": "d695620ab4a3",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "inngest/inngest-skills/skills/inngest-brownfield-audit",
-      "name": "inngest-brownfield-audit",
-      "description": "Use when analyzing an existing TypeScript or JavaScript codebase to decide where and how to introduce Inngest. Covers repository discovery, framework and package detection, finding durability gaps in HTTP handlers, webhooks, cron jobs, queues, long-running jobs, AI agents, polling loops, and side-effect-heavy code, then producing and implementing an incremental integration plan.",
-      "categories": ["Development", "Integration", "Business", "Research", "AI & ML"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-brownfield-audit",
-      "commitHash": "d695620ab4a3",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "inngest/inngest-skills/skills/inngest-durable-functions",
-      "name": "inngest-durable-functions",
-      "description": "Use when building functions that must survive process crashes, retry automatically on failure, run on a schedule, react to events, or maintain state across infrastructure failures — e.g., webhook handlers that drop events, flaky cron jobs, background jobs that fail mid-execution, or workflows that need to resume where they left off. Covers Inngest function configuration, triggers (events, cron, invoke), step execution and memoization, idempotency, cancellation, error handling, retries, logging, and observability.",
-      "categories": ["Development", "DevOps", "Productivity"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-durable-functions",
-      "commitHash": "d695620ab4a3",
-      "files": [
-        "SKILL.md",
-        "references/checkpointing.md",
-        "references/error-handling.md",
-        "references/observability.md",
-        "references/step-execution.md"
-      ]
-    },
-    {
-      "id": "inngest/inngest-skills/skills/inngest-api-cli",
-      "name": "inngest-api-cli",
-      "description": "Use when operating Inngest API resources from the terminal with `npx inngest-cli@latest api`: Cloud/local run debugging, event-run lookup, function traces, function invocation, app syncs, webhooks, environments, keys, account checks, and Insights queries. Provides prescriptive command routing for agents: which CLI command to run for a run ID, event ID, app ID, function ID, Cloud environment, API key, missing ID, or potentially mutating operation. Use `inngest-cli` for dev server setup/general CLI workflows and `inngest-api` only when raw REST API v2 docs or OpenAPI fallback are needed.",
-      "categories": ["Development", "DevOps", "Productivity", "Integration", "Research", "AI & ML"],
-      "author": "inngest",
-      "repo": "inngest/inngest-skills",
-      "path": "skills/inngest-api-cli",
-      "commitHash": "d695620ab4a3",
-      "files": ["SKILL.md", "references/cli-commands.md"]
-    },
-    {
       "id": "agentkit-seo/agentkit-seo/skills/agentkit-seo",
       "name": "agentkit-seo",
       "description": "Route broad or ambiguous AgentKit SEO work to the right module while keeping context scoped. Use when a request spans multiple surfaces, asks for overall digital-presence strategy, involves provider or install architecture, needs agent-context planning, or the correct platform skill is unclear.",
@@ -21868,6 +21749,159 @@
       "path": "plugins/code-intelligence/skills/code-intelligence",
       "commitHash": "1b1f88a264af",
       "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-cli",
+      "name": "inngest-cli",
+      "description": "Use when installing or running the Inngest CLI and Dev Server for local development, local testing, serve endpoint debugging, Docker or Docker Compose setup, MCP configuration, self-hosted `inngest start`, or deployment workflow checks. Covers `inngest dev`, `inngest start`, auto-discovery, config files, environment variables, `@inngest/test`, local event sending, platform gotchas, and production/self-hosted server flags.",
+      "categories": ["Development", "DevOps", "Productivity", "Documents"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-cli",
+      "commitHash": "d695620ab4a3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-api",
+      "name": "inngest-api",
+      "description": "Use when the user explicitly asks for the Inngest REST API v2, raw HTTP, OpenAPI, API docs, API authentication, or an endpoint that the Inngest CLI does not expose. Covers api-docs.inngest.com, llms.txt, the OpenAPI v2 spec, Bearer authentication with API keys or signing keys, production and local base URLs, raw curl/fetch requests, request-shape discovery, pagination, secret redaction, and when to prefer the `inngest-api-cli` skill instead.",
+      "categories": ["Security"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-api",
+      "commitHash": "d695620ab4a3",
+      "files": ["SKILL.md", "references/rest-api-v2.md"]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-steps",
+      "name": "inngest-steps",
+      "description": "Use when implementing delays that must survive process restarts (e.g., 24-hour cart abandonment, scheduled follow-ups), waiting for human approval or external events with timeouts (review gates, webhook callbacks, async API completion), polling external services without losing state on crashes, calling other functions and awaiting their results, memoizing expensive operations so they don't re-run on retry, or running async work in parallel inside a workflow. Covers Inngest step methods: step.run, step.sleep, step.waitForEvent, step.waitForSignal, step.sendEvent, step.invoke, step.ai, plus patterns for loops and parallel execution.",
+      "categories": ["Development", "Productivity", "Integration", "Research"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-steps",
+      "commitHash": "d695620ab4a3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-setup",
+      "name": "inngest-setup",
+      "description": "Use when adding durable execution to a TypeScript project — building retry-safe webhook handlers, background jobs that survive crashes, scheduled tasks, or long-running workflows that outlive a single request. Covers Inngest SDK installation, client config, environment variables, serve endpoints (Next.js, Express, Hono, Fastify), connect-as-worker mode, and the local dev server.",
+      "categories": ["Development", "Productivity", "Integration"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-setup",
+      "commitHash": "d695620ab4a3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-agents",
+      "name": "inngest-agents",
+      "description": "Use when building durable AI agents or agentic workflows with Inngest and AgentKit, including model calls, tool calls, multi-agent networks, human approval, realtime progress, provider rate limits, and crash-safe execution. Covers AgentKit, `step.ai`, `step.run`, `step.waitForEvent`, native realtime, and when to use lower-level Inngest primitives instead of an in-memory agent loop.",
+      "categories": ["Productivity", "AI & ML"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-agents",
+      "commitHash": "d695620ab4a3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-events",
+      "name": "inngest-events",
+      "description": "Use when designing event-driven workflows, decoupling services, implementing fan-out patterns (one trigger, many downstream handlers), implementing idempotent event handling with IDs (24-hour dedupe window), or handling at-least-once delivery from external sources like Stripe webhooks. Covers Inngest event schema, payload format, naming conventions, IDs for idempotency, the ts param, fan-out patterns, and system events like inngest/function.failed.",
+      "categories": ["Development", "Integration", "Research"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-events",
+      "commitHash": "d695620ab4a3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-realtime",
+      "name": "inngest-realtime",
+      "description": "Use when streaming durable workflow updates to a UI in real time — live order status pages that animate as steps complete, AI agent token streaming from a function to the browser, log tailing for long-running jobs, or human-in-the-loop approval flows that publish a prompt and wait for a user reply. Covers Inngest v4 native realtime: defining typed channels, publishing from inside step.run, minting subscription tokens via server actions, and consuming the stream from React/Next.js client components.",
+      "categories": ["Development", "Productivity", "Finance", "AI & ML"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-realtime",
+      "commitHash": "d695620ab4a3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-middleware",
+      "name": "inngest-middleware",
+      "description": "Use when adding cross-cutting concerns to durable functions — structured logging or tracing across all functions, error tracking with Sentry, payload encryption for sensitive data, dependency injection of clients (DB, Stripe, etc.) into function handlers, custom telemetry, or behavior that should apply uniformly across many functions. Covers Inngest middleware lifecycle, creating custom middleware, dependencyInjectionMiddleware, @inngest/middleware-encryption, @inngest/middleware-sentry, and custom middleware patterns.",
+      "categories": ["Security", "Data & Analytics"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-middleware",
+      "commitHash": "d695620ab4a3",
+      "files": [
+        "SKILL.md",
+        "references/built-in-middleware.md",
+        "references/dependency-injection.md"
+      ]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-flow-control",
+      "name": "inngest-flow-control",
+      "description": "Use when handling external API rate limits (e.g., OpenAI 429s, HubSpot or Stripe rate limits), preventing duplicate work from rapid event bursts (debouncing user actions), spreading load over time, ensuring per-tenant fairness, processing events in batches, limiting concurrent runs of the same operation, or assigning priority to important runs. Covers Inngest flow control: concurrency limits with keys, throttling, rate limiting, debounce, priority, singleton, and event batching.",
+      "categories": ["Integration", "AI & ML"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-flow-control",
+      "commitHash": "d695620ab4a3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-v3-v4-migration",
+      "name": "inngest-v3-v4-migration",
+      "description": "Use when upgrading an existing TypeScript codebase from Inngest SDK v3 to v4, or when fixing mixed v3/v4 API usage. Covers detecting current SDK usage, moving triggers into createFunction options, replacing EventSchemas with eventType/staticSchema, moving serve options to the client, updating realtime imports, rewriting step.invoke string IDs, checkpointing/serverless runtime settings, Connect option changes, and verification.",
+      "categories": ["Development", "Data & Analytics"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-v3-v4-migration",
+      "commitHash": "d695620ab4a3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-brownfield-audit",
+      "name": "inngest-brownfield-audit",
+      "description": "Use when analyzing an existing TypeScript or JavaScript codebase to decide where and how to introduce Inngest. Covers repository discovery, framework and package detection, finding durability gaps in HTTP handlers, webhooks, cron jobs, queues, long-running jobs, AI agents, polling loops, and side-effect-heavy code, then producing and implementing an incremental integration plan.",
+      "categories": ["Development", "Integration", "Business", "Research", "AI & ML"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-brownfield-audit",
+      "commitHash": "d695620ab4a3",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-durable-functions",
+      "name": "inngest-durable-functions",
+      "description": "Use when building functions that must survive process crashes, retry automatically on failure, run on a schedule, react to events, or maintain state across infrastructure failures — e.g., webhook handlers that drop events, flaky cron jobs, background jobs that fail mid-execution, or workflows that need to resume where they left off. Covers Inngest function configuration, triggers (events, cron, invoke), step execution and memoization, idempotency, cancellation, error handling, retries, logging, and observability.",
+      "categories": ["Development", "DevOps", "Productivity"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-durable-functions",
+      "commitHash": "d695620ab4a3",
+      "files": [
+        "SKILL.md",
+        "references/checkpointing.md",
+        "references/error-handling.md",
+        "references/observability.md",
+        "references/step-execution.md"
+      ]
+    },
+    {
+      "id": "inngest/inngest-skills/skills/inngest-api-cli",
+      "name": "inngest-api-cli",
+      "description": "Use when operating Inngest API resources from the terminal with `npx inngest-cli@latest api`: Cloud/local run debugging, event-run lookup, function traces, function invocation, app syncs, webhooks, environments, keys, account checks, and Insights queries. Provides prescriptive command routing for agents: which CLI command to run for a run ID, event ID, app ID, function ID, Cloud environment, API key, missing ID, or potentially mutating operation. Use `inngest-cli` for dev server setup/general CLI workflows and `inngest-api` only when raw REST API v2 docs or OpenAPI fallback are needed.",
+      "categories": ["Development", "DevOps", "Productivity", "Integration", "Research", "AI & ML"],
+      "author": "inngest",
+      "repo": "inngest/inngest-skills",
+      "path": "skills/inngest-api-cli",
+      "commitHash": "d695620ab4a3",
+      "files": ["SKILL.md", "references/cli-commands.md"]
     },
     {
       "id": "dyngai/handoffkit/plugins/handoffkit/skills/handoffkit",
@@ -27230,6 +27264,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "jvogan/symphony-linear-starter/skills/symphony-linear-orchestrator",
+      "name": "symphony-linear-orchestrator",
+      "description": "Bootstrap self-improving Symphony + Linear orchestration for a software repository. Use when Codex needs to inspect a repo, review or generate repo-local guidance, shape Linear issues, render a Symphony workflow, launch a high-leverage first execution wave, or run an orchestrator-led review, recovery, and learnings loop that makes future runs better.",
+      "categories": ["Development", "Productivity", "Research"],
+      "author": "jvogan",
+      "repo": "jvogan/symphony-linear-starter",
+      "path": "skills/symphony-linear-orchestrator",
+      "commitHash": "87df70ce2412",
+      "files": ["SKILL.md", "agents", "assets", "references", "scripts"]
+    },
+    {
       "id": "kunitoki/sonic-skills/skills/yup-guide",
       "name": "yup-guide",
       "description": "Step-by-step guide for building a YUP audio plugin from scratch. Use when the user asks \"how do I create a YUP plugin\", \"set up a YUP project\", \"add parameters to my YUP plugin\", \"package my CLAP or VST3\", or \"how do I wire up AudioParameterHandle\". Trigger on phrases like \"create a YUP plugin\", \"YUP CMake setup\", \"yup_audio_plugin\", \"AudioParameterBuilder\", \"AudioParameterHandle\", or \"createPluginProcessor\".\n",
@@ -27426,17 +27471,6 @@
       "path": "skills/audio-signal-flow-explainer",
       "commitHash": "8b6dcfe89030",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "jvogan/symphony-linear-starter/skills/symphony-linear-orchestrator",
-      "name": "symphony-linear-orchestrator",
-      "description": "Bootstrap self-improving Symphony + Linear orchestration for a software repository. Use when Codex needs to inspect a repo, review or generate repo-local guidance, shape Linear issues, render a Symphony workflow, launch a high-leverage first execution wave, or run an orchestrator-led review, recovery, and learnings loop that makes future runs better.",
-      "categories": ["Development", "Productivity", "Research"],
-      "author": "jvogan",
-      "repo": "jvogan/symphony-linear-starter",
-      "path": "skills/symphony-linear-orchestrator",
-      "commitHash": "87df70ce2412",
-      "files": ["SKILL.md", "agents", "assets", "references", "scripts"]
     },
     {
       "id": "frankxai/claude-skills-library/template",
@@ -28681,13 +28715,13 @@
       "files": ["SKILL.md", "references"]
     },
     {
-      "id": "Smithbox-ai/ControlFlow/plugins/controlflow-claude-code/skills/controlflow-plan",
+      "id": "Smithbox-ai/ControlFlow/plugins/controlflow-codex/skills/controlflow-plan",
       "name": "controlflow-plan",
       "description": "Use when a repository task needs a high-quality ControlFlow plan before coding — small, medium, or large scope, cross-file edits, risky migrations, architectural uncertainty, or any work that should produce a saved Markdown plan artifact in plans/. Single-sources the plan format from schemas/planner.plan.schema.json and the plan template.",
       "categories": ["Development", "Productivity", "Data & Analytics", "Documents"],
       "author": "Smithbox-ai",
       "repo": "Smithbox-ai/ControlFlow",
-      "path": "plugins/controlflow-claude-code/skills/controlflow-plan",
+      "path": "plugins/controlflow-codex/skills/controlflow-plan",
       "commitHash": "66156ebdcaaf",
       "files": [
         "SKILL.md",
@@ -28698,16 +28732,17 @@
       ]
     },
     {
-      "id": "Smithbox-ai/ControlFlow/plugins/controlflow-shared-source/skills/controlflow-review",
+      "id": "Smithbox-ai/ControlFlow/plugins/controlflow-codex/skills/controlflow-review",
       "name": "controlflow-review",
       "description": "Use after implementation to review a diff or completed phase. A thin ControlFlow layer over native Copilot code review: adds plan-vs-implementation scope-drift comparison, evidence discipline, and proactive vulnerability/error search. Does not duplicate native review — delegates mechanical/style review to native Copilot code review.",
       "categories": ["Development", "Research"],
       "author": "Smithbox-ai",
       "repo": "Smithbox-ai/ControlFlow",
-      "path": "plugins/controlflow-shared-source/skills/controlflow-review",
+      "path": "plugins/controlflow-codex/skills/controlflow-review",
       "commitHash": "66156ebdcaaf",
       "files": [
         "SKILL.md",
+        "agents/openai.yaml",
         "references/evidence-discipline.md",
         "references/review-checklist.md",
         "references/security-review-discipline.md",
@@ -28715,13 +28750,13 @@
       ]
     },
     {
-      "id": "Smithbox-ai/ControlFlow/plugins/controlflow-claude-code/skills/controlflow-verify",
+      "id": "Smithbox-ai/ControlFlow/plugins/controlflow-codex/skills/controlflow-verify",
       "name": "controlflow-verify",
-      "description": "Use after /controlflow-claude-code:controlflow-plan produces a plan, before implementation. Runs adversarial pre-execution verification inline in the main context (zero subagents): structural audit, assumption/mirage detection, and executability cold-start simulation. Emits APPROVED / NEEDS_REVISION / REJECTED with evidence.",
+      "description": "Use after /controlflow-plan produces a plan, before implementation. Runs adversarial pre-execution verification inline in the main context (zero subagents): structural audit, assumption/mirage detection, and executability cold-start simulation. Emits APPROVED / NEEDS_REVISION / REJECTED with evidence.",
       "categories": ["Business", "AI & ML"],
       "author": "Smithbox-ai",
       "repo": "Smithbox-ai/ControlFlow",
-      "path": "plugins/controlflow-claude-code/skills/controlflow-verify",
+      "path": "plugins/controlflow-codex/skills/controlflow-verify",
       "commitHash": "66156ebdcaaf",
       "files": [
         "SKILL.md",
@@ -28745,6 +28780,22 @@
         "references/review-checklist.md",
         "references/security-review-discipline.md",
         "references/validation-status.md"
+      ]
+    },
+    {
+      "id": "Smithbox-ai/ControlFlow/plugins/controlflow-claude-code/skills/controlflow-verify",
+      "name": "controlflow-verify",
+      "description": "Use after /controlflow-claude-code:controlflow-plan produces a plan, before implementation. Runs adversarial pre-execution verification inline in the main context (zero subagents): structural audit, assumption/mirage detection, and executability cold-start simulation. Emits APPROVED / NEEDS_REVISION / REJECTED with evidence.",
+      "categories": ["Business", "AI & ML"],
+      "author": "Smithbox-ai",
+      "repo": "Smithbox-ai/ControlFlow",
+      "path": "plugins/controlflow-claude-code/skills/controlflow-verify",
+      "commitHash": "66156ebdcaaf",
+      "files": [
+        "SKILL.md",
+        "references/adversarial-framing.md",
+        "references/mirage-patterns.md",
+        "references/verify-phases.md"
       ]
     },
     {
