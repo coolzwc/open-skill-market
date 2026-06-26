@@ -12,7 +12,7 @@
       "branch": "main",
       "stars": 334,
       "forks": 37,
-      "lastUpdated": "2026-06-26T01:34:00Z"
+      "lastUpdated": "2026-06-26T03:36:41Z"
     },
     "AgriciDaniel/codex-seo": {
       "url": "https://github.com/AgriciDaniel/codex-seo",
@@ -26,7 +26,7 @@
       "branch": "main",
       "stars": 302,
       "forks": 62,
-      "lastUpdated": "2026-06-25T21:58:29Z"
+      "lastUpdated": "2026-06-26T02:54:29Z"
     },
     "testdino-hq/playwright-skill": {
       "url": "https://github.com/testdino-hq/playwright-skill",
@@ -52,14 +52,14 @@
     "JamesShi96/project-butler": {
       "url": "https://github.com/JamesShi96/project-butler",
       "branch": "main",
-      "stars": 254,
+      "stars": 256,
       "forks": 11,
       "lastUpdated": "2026-06-22T07:58:30Z"
     },
     "irenerachel/visual-style-ppt-skill": {
       "url": "https://github.com/irenerachel/visual-style-ppt-skill",
       "branch": "main",
-      "stars": 251,
+      "stars": 253,
       "forks": 24,
       "lastUpdated": "2026-04-30T04:26:54Z"
     },
@@ -68,7 +68,7 @@
       "branch": "main",
       "stars": 250,
       "forks": 31,
-      "lastUpdated": "2026-06-26T01:17:12Z"
+      "lastUpdated": "2026-06-26T07:14:36Z"
     },
     "zexuanw958-svg/travel-plan-viz": {
       "url": "https://github.com/zexuanw958-svg/travel-plan-viz",
@@ -81,7 +81,7 @@
       "url": "https://github.com/majiayu000/spellbook",
       "branch": "main",
       "stars": 227,
-      "forks": 22,
+      "forks": 21,
       "lastUpdated": "2026-06-25T15:49:44Z"
     },
     "ckelsoe/prompt-architect": {
@@ -94,7 +94,7 @@
     "jnMetaCode/ai-shortfilm-prompts": {
       "url": "https://github.com/jnMetaCode/ai-shortfilm-prompts",
       "branch": "main",
-      "stars": 213,
+      "stars": 214,
       "forks": 34,
       "lastUpdated": "2026-06-24T02:29:58Z"
     },
@@ -105,6 +105,13 @@
       "forks": 29,
       "lastUpdated": "2026-05-10T14:36:15Z"
     },
+    "rediumvex/ai-video-generator-claude": {
+      "url": "https://github.com/rediumvex/ai-video-generator-claude",
+      "branch": "main",
+      "stars": 190,
+      "forks": 25,
+      "lastUpdated": "2026-06-11T11:17:12Z"
+    },
     "yoloshii/ClawMem": {
       "url": "https://github.com/yoloshii/ClawMem",
       "branch": "main",
@@ -112,17 +119,10 @@
       "forks": 30,
       "lastUpdated": "2026-06-25T20:12:14Z"
     },
-    "rediumvex/ai-video-generator-claude": {
-      "url": "https://github.com/rediumvex/ai-video-generator-claude",
-      "branch": "main",
-      "stars": 186,
-      "forks": 25,
-      "lastUpdated": "2026-06-11T11:17:12Z"
-    },
     "zouchenzhen/thesis-defense-pptx-skill": {
       "url": "https://github.com/zouchenzhen/thesis-defense-pptx-skill",
       "branch": "main",
-      "stars": 184,
+      "stars": 185,
       "forks": 12,
       "lastUpdated": "2026-06-05T05:51:03Z"
     },
@@ -147,19 +147,19 @@
       "forks": 16,
       "lastUpdated": "2026-06-04T00:22:31Z"
     },
+    "OSideMedia/higgsfield-ai-prompt-skill": {
+      "url": "https://github.com/OSideMedia/higgsfield-ai-prompt-skill",
+      "branch": "main",
+      "stars": 160,
+      "forks": 35,
+      "lastUpdated": "2026-06-23T04:22:54Z"
+    },
     "smnandre/symfony-ux-skills": {
       "url": "https://github.com/smnandre/symfony-ux-skills",
       "branch": "main",
       "stars": 160,
       "forks": 11,
       "lastUpdated": "2026-06-14T19:41:02Z"
-    },
-    "OSideMedia/higgsfield-ai-prompt-skill": {
-      "url": "https://github.com/OSideMedia/higgsfield-ai-prompt-skill",
-      "branch": "main",
-      "stars": 159,
-      "forks": 35,
-      "lastUpdated": "2026-06-23T04:22:54Z"
     },
     "gapmiss/obsidian-plugin-skill": {
       "url": "https://github.com/gapmiss/obsidian-plugin-skill",
@@ -171,29 +171,29 @@
     "agentenatalie/get-job.skill": {
       "url": "https://github.com/agentenatalie/get-job.skill",
       "branch": "main",
-      "stars": 145,
+      "stars": 148,
       "forks": 2,
       "lastUpdated": "2026-06-23T10:48:46Z"
     },
     "study8677/Readme.skill": {
       "url": "https://github.com/study8677/Readme.skill",
       "branch": "main",
-      "stars": 144,
+      "stars": 145,
       "forks": 8,
       "lastUpdated": "2026-06-10T03:13:42Z"
     },
     "techygarg/lattice": {
       "url": "https://github.com/techygarg/lattice",
       "branch": "main",
-      "stars": 142,
+      "stars": 143,
       "forks": 12,
       "lastUpdated": "2026-06-18T07:28:28Z"
     },
     "Hao0321/ai-media-generator": {
       "url": "https://github.com/Hao0321/ai-media-generator",
       "branch": "main",
-      "stars": 140,
-      "forks": 36,
+      "stars": 141,
+      "forks": 37,
       "lastUpdated": "2026-06-11T15:04:19Z"
     },
     "stacklok/toolhive-studio": {
@@ -238,6 +238,13 @@
       "forks": 26,
       "lastUpdated": "2026-06-22T13:11:35Z"
     },
+    "uxKero/anydesign": {
+      "url": "https://github.com/uxKero/anydesign",
+      "branch": "main",
+      "stars": 119,
+      "forks": 6,
+      "lastUpdated": "2026-06-11T13:43:26Z"
+    },
     "Mark393295827/third-brain-v5-skills": {
       "url": "https://github.com/Mark393295827/third-brain-v5-skills",
       "branch": "main",
@@ -263,15 +270,8 @@
       "url": "https://github.com/hqhq1025/skill-optimizer",
       "branch": "main",
       "stars": 116,
-      "forks": 4,
+      "forks": 5,
       "lastUpdated": "2026-05-14T07:25:31Z"
-    },
-    "uxKero/anydesign": {
-      "url": "https://github.com/uxKero/anydesign",
-      "branch": "main",
-      "stars": 115,
-      "forks": 6,
-      "lastUpdated": "2026-06-11T13:43:26Z"
     },
     "Adancurusul/embedded-debugger-mcp": {
       "url": "https://github.com/Adancurusul/embedded-debugger-mcp",
@@ -311,9 +311,16 @@
     "A-cat-with-carrots/OnlyShot": {
       "url": "https://github.com/A-cat-with-carrots/OnlyShot",
       "branch": "main",
-      "stars": 103,
+      "stars": 105,
       "forks": 7,
       "lastUpdated": "2026-05-16T15:23:56Z"
+    },
+    "Lupynow/math-modeling-skills": {
+      "url": "https://github.com/Lupynow/math-modeling-skills",
+      "branch": "main",
+      "stars": 103,
+      "forks": 4,
+      "lastUpdated": "2026-06-14T14:33:41Z"
     },
     "pattern-ai-labs/agentcall": {
       "url": "https://github.com/pattern-ai-labs/agentcall",
@@ -329,17 +336,10 @@
       "forks": 6,
       "lastUpdated": "2026-06-24T00:01:23Z"
     },
-    "Lupynow/math-modeling-skills": {
-      "url": "https://github.com/Lupynow/math-modeling-skills",
-      "branch": "main",
-      "stars": 102,
-      "forks": 4,
-      "lastUpdated": "2026-06-14T14:33:41Z"
-    },
     "dososo/blcaptain-style-skill": {
       "url": "https://github.com/dososo/blcaptain-style-skill",
       "branch": "main",
-      "stars": 97,
+      "stars": 98,
       "forks": 12,
       "lastUpdated": "2026-06-15T04:15:15Z"
     },
@@ -399,19 +399,19 @@
       "forks": 13,
       "lastUpdated": "2026-06-16T22:42:16Z"
     },
+    "swaylq/master-skill": {
+      "url": "https://github.com/swaylq/master-skill",
+      "branch": "main",
+      "stars": 87,
+      "forks": 6,
+      "lastUpdated": "2026-06-22T09:49:57Z"
+    },
     "monte-carlo-data/mc-agent-toolkit": {
       "url": "https://github.com/monte-carlo-data/mc-agent-toolkit",
       "branch": "main",
       "stars": 87,
       "forks": 7,
       "lastUpdated": "2026-06-25T00:26:58Z"
-    },
-    "swaylq/master-skill": {
-      "url": "https://github.com/swaylq/master-skill",
-      "branch": "main",
-      "stars": 85,
-      "forks": 6,
-      "lastUpdated": "2026-06-22T09:49:57Z"
     },
     "arvindrk/extract-design-system": {
       "url": "https://github.com/arvindrk/extract-design-system",
@@ -574,6 +574,13 @@
       "forks": 14,
       "lastUpdated": "2026-06-12T22:40:06Z"
     },
+    "csthink/dashmotion": {
+      "url": "https://github.com/csthink/dashmotion",
+      "branch": "main",
+      "stars": 59,
+      "forks": 4,
+      "lastUpdated": "2026-06-16T12:57:39Z"
+    },
     "Ashutos1997/claude-design-auditor-skill": {
       "url": "https://github.com/Ashutos1997/claude-design-auditor-skill",
       "branch": "main",
@@ -587,13 +594,6 @@
       "stars": 58,
       "forks": 0,
       "lastUpdated": "2026-05-28T12:45:12Z"
-    },
-    "csthink/dashmotion": {
-      "url": "https://github.com/csthink/dashmotion",
-      "branch": "main",
-      "stars": 58,
-      "forks": 4,
-      "lastUpdated": "2026-06-16T12:57:39Z"
     },
     "kawasima/evolutionary-naming": {
       "url": "https://github.com/kawasima/evolutionary-naming",
@@ -649,7 +649,7 @@
       "branch": "main",
       "stars": 52,
       "forks": 3,
-      "lastUpdated": "2026-06-25T21:10:07Z"
+      "lastUpdated": "2026-06-26T07:02:38Z"
     },
     "zouchenzhen/docx-template-translator-skill": {
       "url": "https://github.com/zouchenzhen/docx-template-translator-skill",
@@ -684,7 +684,7 @@
       "branch": "main",
       "stars": 48,
       "forks": 4,
-      "lastUpdated": "2026-06-22T07:32:20Z"
+      "lastUpdated": "2026-06-26T03:35:01Z"
     },
     "tomwong001/qingsheng-skill": {
       "url": "https://github.com/tomwong001/qingsheng-skill",
@@ -692,6 +692,13 @@
       "stars": 48,
       "forks": 6,
       "lastUpdated": "2026-04-22T07:43:52Z"
+    },
+    "genli-ai/market-research-skills": {
+      "url": "https://github.com/genli-ai/market-research-skills",
+      "branch": "main",
+      "stars": 47,
+      "forks": 5,
+      "lastUpdated": "2026-06-09T14:08:34Z"
     },
     "apurvrdx1/tagore": {
       "url": "https://github.com/apurvrdx1/tagore",
@@ -707,17 +714,10 @@
       "forks": 13,
       "lastUpdated": "2026-04-28T15:26:25Z"
     },
-    "genli-ai/market-research-skills": {
-      "url": "https://github.com/genli-ai/market-research-skills",
-      "branch": "main",
-      "stars": 46,
-      "forks": 5,
-      "lastUpdated": "2026-06-09T14:08:34Z"
-    },
     "kimlawtech/korean-contracts": {
       "url": "https://github.com/kimlawtech/korean-contracts",
       "branch": "main",
-      "stars": 45,
+      "stars": 46,
       "forks": 9,
       "lastUpdated": "2026-04-22T12:59:57Z"
     },
@@ -753,7 +753,7 @@
       "url": "https://github.com/jomeswang/agnes-ai-skill",
       "branch": "main",
       "stars": 42,
-      "forks": 1,
+      "forks": 2,
       "lastUpdated": "2026-06-13T11:26:26Z"
     },
     "Productfculty-aipm/PM-Copilot-by-Product-Faculty": {
@@ -831,7 +831,7 @@
       "branch": "main",
       "stars": 27,
       "forks": 9,
-      "lastUpdated": "2026-06-26T02:21:40Z"
+      "lastUpdated": "2026-06-26T04:39:38Z"
     },
     "LEON-gittech/Skill2Poster": {
       "url": "https://github.com/LEON-gittech/Skill2Poster",
@@ -959,6 +959,13 @@
       "forks": 2,
       "lastUpdated": "2026-05-23T12:42:59Z"
     },
+    "YurunChen/repo-docs-skills": {
+      "url": "https://github.com/YurunChen/repo-docs-skills",
+      "branch": "main",
+      "stars": 17,
+      "forks": 0,
+      "lastUpdated": "2026-06-25T07:16:34Z"
+    },
     "MnemeHQ/mneme": {
       "url": "https://github.com/MnemeHQ/mneme",
       "branch": "main",
@@ -992,7 +999,7 @@
       "branch": "main",
       "stars": 16,
       "forks": 1,
-      "lastUpdated": "2026-04-14T08:42:53Z"
+      "lastUpdated": "2026-06-26T02:55:33Z"
     },
     "LiAngsong98/frontier-tracker": {
       "url": "https://github.com/LiAngsong98/frontier-tracker",
@@ -1071,6 +1078,13 @@
       "forks": 4,
       "lastUpdated": "2026-06-25T21:29:41Z"
     },
+    "HuangRunHua/LatteCam": {
+      "url": "https://github.com/HuangRunHua/LatteCam",
+      "branch": "main",
+      "stars": 14,
+      "forks": 0,
+      "lastUpdated": "2026-06-25T02:15:54Z"
+    },
     "lguz/humanize-writing-skill": {
       "url": "https://github.com/lguz/humanize-writing-skill",
       "branch": "main",
@@ -1113,12 +1127,12 @@
       "forks": 4,
       "lastUpdated": "2026-06-22T20:21:25Z"
     },
-    "HuangRunHua/LatteCam": {
-      "url": "https://github.com/HuangRunHua/LatteCam",
-      "branch": "main",
+    "heymegabyte/claude-skills": {
+      "url": "https://github.com/heymegabyte/claude-skills",
+      "branch": "master",
       "stars": 13,
-      "forks": 0,
-      "lastUpdated": "2026-06-25T02:15:54Z"
+      "forks": 2,
+      "lastUpdated": "2026-06-25T17:16:11Z"
     },
     "Smithbox-ai/ControlFlow": {
       "url": "https://github.com/Smithbox-ai/ControlFlow",
@@ -1126,13 +1140,6 @@
       "stars": 13,
       "forks": 0,
       "lastUpdated": "2026-06-25T17:10:38Z"
-    },
-    "YurunChen/repo-docs-skills": {
-      "url": "https://github.com/YurunChen/repo-docs-skills",
-      "branch": "main",
-      "stars": 13,
-      "forks": 0,
-      "lastUpdated": "2026-06-25T07:16:34Z"
     },
     "th3vib3coder/vibe-science": {
       "url": "https://github.com/th3vib3coder/vibe-science",
@@ -1154,13 +1161,6 @@
       "stars": 12,
       "forks": 2,
       "lastUpdated": "2026-04-01T12:29:56Z"
-    },
-    "heymegabyte/claude-skills": {
-      "url": "https://github.com/heymegabyte/claude-skills",
-      "branch": "master",
-      "stars": 12,
-      "forks": 2,
-      "lastUpdated": "2026-06-25T17:16:11Z"
     },
     "rijkvanzanten/rolling-wave-engineering": {
       "url": "https://github.com/rijkvanzanten/rolling-wave-engineering",
@@ -2570,17 +2570,6 @@
       "files": ["SKILL.md", "references/marketplace-endpoints.md"]
     },
     {
-      "id": "AgriciDaniel/codex-seo/skills/seo-content",
-      "name": "seo-content",
-      "description": "Content quality and E-E-A-T analysis with AI citation readiness assessment. Use when user says \"content quality\", \"E-E-A-T\", \"content analysis\", \"readability check\", \"thin content\", or \"content audit\".\n",
-      "categories": ["Research"],
-      "author": "AgriciDaniel",
-      "repo": "AgriciDaniel/codex-seo",
-      "path": "skills/seo-content",
-      "commitHash": "97c59bcdac3c",
-      "files": ["LICENSE.txt", "SKILL.md"]
-    },
-    {
       "id": "AgriciDaniel/codex-seo/skills/seo-hreflang",
       "name": "seo-hreflang",
       "description": "Hreflang and international SEO audit, validation, and generation. Detects common mistakes, validates language/region codes, and generates correct hreflang implementations. Use when user says \"hreflang\", \"i18n SEO\", \"international SEO\", \"multi-language\", \"multi-region\", or \"language tags\".\n",
@@ -3763,7 +3752,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/codex",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["README.md", "SKILL.md"]
     },
     {
@@ -3774,7 +3763,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "AGENTS.md",
         "agentsmd-scaffold/SKILL.md",
@@ -3806,7 +3795,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "AGENTS.md",
         "agentsmd-scaffold/SKILL.md",
@@ -3838,7 +3827,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "AGENTS.md",
         "agentsmd-scaffold/SKILL.md",
@@ -3870,7 +3859,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "plugins/rust-dev/skills",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["rust-best-practices.SKILL.md"]
     },
     {
@@ -3881,7 +3870,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/slides",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "reference/extended.md"]
     },
     {
@@ -3892,7 +3881,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/optflow",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "references/bdd-guide.md", "references/delivery-base.md"]
     },
     {
@@ -3903,7 +3892,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/gpu-use",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md"]
     },
     {
@@ -3914,7 +3903,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/fixflow",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "references/bdd-guide.md", "references/delivery-base.md"]
     },
     {
@@ -3925,12 +3914,14 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/threads",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "agents/openai.yaml",
+        "evals/evals.json",
         "references/prompt-patterns.md",
         "references/run-log.md",
+        "scripts/analyze_run_log.py",
         "scripts/append_run_log.py"
       ]
     },
@@ -3942,7 +3933,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/flowguard",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "agents/openai.yaml",
@@ -3958,7 +3949,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/humanizer",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["README.md", "SKILL.md", "WARP.md", "references/full-guide.md"]
     },
     {
@@ -3969,7 +3960,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/plan-flow",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "references/analysis-playbook.md",
@@ -3989,7 +3980,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/css-debug",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md"]
     },
     {
@@ -4000,7 +3991,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/prd-master",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "reference/acceptance-criteria.md",
@@ -4018,7 +4009,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/zig-project",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "reference/architecture.md",
@@ -4039,7 +4030,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/contributor",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md"]
     },
     {
@@ -4050,7 +4041,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/rust-project",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "reference/architecture.md",
@@ -4082,7 +4073,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "AGENTS.md",
         "agentsmd-scaffold/SKILL.md",
@@ -4114,7 +4105,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/clash-doctor",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "references/full-guide.md"]
     },
     {
@@ -4125,7 +4116,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/clash-routes",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md"]
     },
     {
@@ -4136,7 +4127,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/auth-security",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "reference/attacks.md",
@@ -4153,7 +4144,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/vscode-doctor",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "evals/README.md",
@@ -4169,7 +4160,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/figma-to-code",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "reference/extended.md"]
     },
     {
@@ -4180,7 +4171,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/skill-creator",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "LICENSE.txt",
         "SKILL.md",
@@ -4212,7 +4203,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/harmonyos-app",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "reference/arkts.md",
@@ -4231,7 +4222,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/python-project",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "reference/architecture.md",
@@ -4263,7 +4254,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/github-trending",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "reference/extended.md",
@@ -4279,7 +4270,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/server-security",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "references/full-guide.md"]
     },
     {
@@ -4290,7 +4281,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/openclaw-deploy",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "reference/extended.md"]
     },
     {
@@ -4301,7 +4292,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/git-commit-smart",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md"]
     },
     {
@@ -4312,7 +4303,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/ui-design-system",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "scripts/design_token_generator.py"]
     },
     {
@@ -4323,7 +4314,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/database-patterns",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "reference/caching.md", "reference/postgresql.md", "reference/redis.md"]
     },
     {
@@ -4334,7 +4325,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/agentsmd-scaffold",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "evals/evals.json",
@@ -4350,7 +4341,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/observability-sre",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "reference/extended.md",
@@ -4369,7 +4360,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/structured-logging",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "reference/extended.md"]
     },
     {
@@ -4380,7 +4371,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/codex-retrospective",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "references/agents-md-update-rules.md",
@@ -4397,7 +4388,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/systematic-debugging",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md"]
     },
     {
@@ -4408,7 +4399,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/cliproxy-newapi-stack",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "agents/openai.yaml",
@@ -4432,7 +4423,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/comprehensive-testing",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "reference/extended.md"]
     },
     {
@@ -4443,7 +4434,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/product-manager-toolkit",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "references/prd_templates.md",
@@ -4459,7 +4450,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/multi-model-orchestrator",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "LICENSE",
         "README.md",
@@ -4482,7 +4473,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/personal-arsenal-lifecycle-doctor",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "evals/evals.json",
@@ -4498,7 +4489,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/vibeguard",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "references/review-template.md",
@@ -4514,7 +4505,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/golang-web",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "reference/architecture.md",
@@ -4544,7 +4535,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/ask-opencli",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md"]
     },
     {
@@ -4555,7 +4546,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/skill-audit",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "assets/skill-brief-template.md",
@@ -4571,7 +4562,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/disk-cleaner",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md"]
     },
     {
@@ -4582,7 +4573,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/app-ui-design",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "reference/accessibility.md",
@@ -4601,7 +4592,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/auto-optimize",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "rules/go.md",
@@ -4619,7 +4610,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/figma-to-react",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "reference/extended.md"]
     },
     {
@@ -4630,7 +4621,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/cliproxy-deploy",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md"]
     },
     {
@@ -4641,7 +4632,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/devops-excellence",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "reference/cicd.md",
@@ -4660,7 +4651,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/strategic-compact",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md"]
     },
     {
@@ -4671,7 +4662,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/typescript-project",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "reference/architecture.md",
@@ -4700,7 +4691,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/rust-best-practices",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "references/advanced.md"]
     },
     {
@@ -4711,7 +4702,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/web-asset-generator",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "reference/extended.md",
@@ -4728,7 +4719,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/gemma4-local-deploy",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
@@ -4739,7 +4730,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/elegant-architecture",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md"]
     },
     {
@@ -4750,7 +4741,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/react-best-practices",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md"]
     },
     {
@@ -4761,7 +4752,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/web-artifacts-builder",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "scripts/bundle-artifact.sh", "scripts/init-artifact.sh"]
     },
     {
@@ -4772,7 +4763,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/project-health-auditor",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md"]
     },
     {
@@ -4783,7 +4774,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/contribution-architect",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md"]
     },
     {
@@ -4794,7 +4785,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/architecture-foundation",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "agents/openai.yaml",
@@ -4811,7 +4802,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/structured-logging-lite",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "references/full-guide.md"]
     },
     {
@@ -4822,7 +4813,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/repo-agent-context-audit",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "references/standards.md",
@@ -4838,7 +4829,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/react-hooks-best-practices",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "reference/extended.md"]
     },
     {
@@ -4849,7 +4840,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/xiaohongshu-netfeel-guardian",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "evals/evals.json",
@@ -4866,7 +4857,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/api-design",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "reference/comparison.md",
@@ -4886,7 +4877,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/xiaohongshu",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         ".env.example",
         "SKILL.md",
@@ -4912,7 +4903,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/codex-agent",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "README.md",
         "SKILL.md",
@@ -4931,7 +4922,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/ui-designer",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "assets/app-overview-generator.md",
@@ -4947,7 +4938,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/trip-planner",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md"]
     },
     {
@@ -4958,7 +4949,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/codex-fluent",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "references/examples/handoff-quality-example.md",
@@ -4983,7 +4974,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/ui-ux-pro-max",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "references/full-guide.md"]
     },
     {
@@ -4994,7 +4985,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/server-deploy",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "reference/extended.md"]
     },
     {
@@ -5005,7 +4996,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/system-doctor",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md"]
     },
     {
@@ -5016,7 +5007,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/technical-spec",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "reference/adr.md",
@@ -5044,7 +5035,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/codebase-audit",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "evals/evals.json",
@@ -5060,7 +5051,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/rustdesk-doctor",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md"]
     },
     {
@@ -5071,7 +5062,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/codex-log-guard",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "agents/openai.yaml"]
     },
     {
@@ -5082,7 +5073,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/optimize-network",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "evals/evals.json", "scripts/macos_network_snapshot.sh"]
     },
     {
@@ -5093,7 +5084,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/product-ux-expert",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "reference/accessibility.md",
@@ -5110,7 +5101,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/product-analytics",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "reference/event-tracking.md",
@@ -5129,7 +5120,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/product-discovery",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": [
         "SKILL.md",
         "reference/competitive-analysis.md",
@@ -5148,7 +5139,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/multi-ai-research",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "reference/extended.md"]
     },
     {
@@ -5159,7 +5150,7 @@
       "author": "majiayu000",
       "repo": "majiayu000/spellbook",
       "path": "skills/playwright-automation",
-      "commitHash": "5ba135ecee94",
+      "commitHash": "97a677e642ba",
       "files": ["SKILL.md", "references/full-guide.md"]
     },
     {
@@ -5202,17 +5193,6 @@
       "repo": "likaku/Mck-ppt-design-skill",
       "path": "",
       "commitHash": "e190e083b715",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "yoloshii/ClawMem",
-      "name": "clawmem",
-      "description": "ClawMem agent reference — detailed operational guidance for the on-device hybrid memory system. Use when: setting up collections/indexing/embedding, troubleshooting retrieval, tuning query optimization (4 levers), understanding pipeline behavior, managing memory lifecycle (pin/snooze/forget), building graphs, or any ClawMem operation beyond basic tool routing.\n",
-      "categories": ["Data & Analytics", "AI & ML"],
-      "author": "yoloshii",
-      "repo": "yoloshii/ClawMem",
-      "path": "",
-      "commitHash": "cccc66f1dad5",
       "files": ["SKILL.md"]
     },
     {
@@ -5326,6 +5306,17 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "yoloshii/ClawMem",
+      "name": "clawmem",
+      "description": "ClawMem agent reference — detailed operational guidance for the on-device hybrid memory system. Use when: setting up collections/indexing/embedding, troubleshooting retrieval, tuning query optimization (4 levers), understanding pipeline behavior, managing memory lifecycle (pin/snooze/forget), building graphs, or any ClawMem operation beyond basic tool routing.\n",
+      "categories": ["Data & Analytics", "AI & ML"],
+      "author": "yoloshii",
+      "repo": "yoloshii/ClawMem",
+      "path": "",
+      "commitHash": "cccc66f1dad5",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "zouchenzhen/thesis-defense-pptx-skill/skills/thesis-defense-pptx",
       "name": "thesis-defense-pptx",
       "description": "Create, polish, and quality-check editable undergraduate or graduate thesis defense PowerPoint decks from a local thesis PDF/LaTeX project and an existing PPTX template. Use when the user asks for a formal defense PPT, thesis presentation, academic答辩PPT, template-matched PPTX, or local PowerPoint deck generation with visual inspection.",
@@ -5434,83 +5425,6 @@
       "path": ".claude/skills/pitchcraft",
       "commitHash": "e872d5e8fd5d",
       "files": ["SKILL.md", "SKILL.zh-CN.md"]
-    },
-    {
-      "id": "smnandre/symfony-ux-skills/skills/turbo",
-      "name": "turbo",
-      "description": "Hotwire Turbo for Symfony UX -- SPA-like speed with zero JavaScript. Covers Drive (navigation), Frames (partial page sections), and Streams (multi-target updates). Use when building ajax navigation, lazy-loaded sections, inline editing, pagination without reload, modals from the server, flash messages via streams, or real-time updates via Mercure/SSE. Code triggers: turbo-frame, turbo-stream, data-turbo-frame, data-turbo, data-turbo-action, turbo-stream-source, TurboStreamResponse, <twig:Turbo:Frame>, <twig:Turbo:Stream:Append>, <twig:Turbo:Stream:Replace>, turbo:before-fetch-request. Also trigger when the user asks \"how to update part of the page without reload\", \"how to make navigation feel like SPA\", \"how to lazy-load a section\", \"how to do inline editing\", \"how to push real-time updates from server\", \"how to use Mercure with Turbo\". Do NOT trigger for client-side JS behavior (use stimulus), server-rendered reactive components (use live-component), or reusable static UI (use twig-component).",
-      "categories": ["Development", "Design", "Writing", "Media"],
-      "author": "smnandre",
-      "repo": "smnandre/symfony-ux-skills",
-      "path": "skills/turbo",
-      "commitHash": "1e99301a6255",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "smnandre/symfony-ux-skills/skills/ux-map",
-      "name": "ux-map",
-      "description": "Symfony UX Map for interactive maps with Leaflet or Google Maps in Symfony. Covers markers, polygons, polylines, circles, info windows, and LiveComponent integration. Use when displaying maps, placing markers, drawing shapes or routes, handling map events, building store locators, using custom tile layers, or making maps reactive with LiveComponent. Code triggers: <twig:ux:map />, Map(), Point(), Marker(), Polygon(), Polyline(), Circle(), InfoWindow(), MapOptionsInterface, ComponentWithMapTrait, fitBoundsToMarkers, ux:map:marker:before-create, ux:map:connect, SYMFONY_UX_MAP_DSN. Also trigger when the user asks \"how to display a map\", \"how to add markers\", \"how to draw a polygon on a map\", \"how to handle map click events\", \"how to make a reactive map\", \"how to use Leaflet in Symfony\", \"how to use Google Maps in Symfony\", \"map not showing\", \"map has zero height\". Do NOT trigger for SVG icons (use ux-icons) or general frontend interactivity (use stimulus).",
-      "categories": ["Development", "Design", "Integration"],
-      "author": "smnandre",
-      "repo": "smnandre/symfony-ux-skills",
-      "path": "skills/ux-map",
-      "commitHash": "1e99301a6255",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "smnandre/symfony-ux-skills/skills/stimulus",
-      "name": "stimulus",
-      "description": "Stimulus JS framework for Symfony UX -- client-side behavior via HTML data attributes, zero server round-trips. Use when creating controllers for DOM manipulation, handling click/input/submit events, managing targets and values, wiring outlets between controllers, wrapping third-party JS libraries, or building toggles, dropdowns, modals, tabs, clipboard interactions. Code triggers: data-controller, data-action, data-target, data-*-value, data-*-class, data-*-outlet, stimulusFetch lazy, connect(), disconnect(), static targets, static values. Also trigger when the user asks \"how do I add a click handler\", \"how to toggle a class\", \"how to build a dropdown/modal/tabs\", \"how to wrap a JS library in Symfony\", \"add keyboard shortcuts\", \"lazy-load a controller\", \"listen to global events\", \"communicate between controllers\". Do NOT trigger for partial page updates without JS (use turbo), server-rendered reactivity (use live-component), or reusable Twig templates (use twig-component).",
-      "categories": ["Development", "Design", "Productivity", "Integration"],
-      "author": "smnandre",
-      "repo": "smnandre/symfony-ux-skills",
-      "path": "skills/stimulus",
-      "commitHash": "1e99301a6255",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "smnandre/symfony-ux-skills/skills/ux-icons",
-      "name": "ux-icons",
-      "description": "Symfony UX Icons for rendering SVG icons in Twig templates. Supports 200,000+ Iconify icons (Lucide, Heroicons, Tabler, Material Design, etc.), local SVG files, and custom icon sets with aliases. Use when displaying icons, configuring icon defaults, importing or locking on-demand icons, creating icon aliases, or styling SVG icons with CSS. Code triggers: <twig:ux:icon />, ux_icon(), UX_ICONS_DEFAULT_ICON_ATTRIBUTES, icon.yaml, icons/, iconify:, lucide:, heroicons:, tabler:, mdi:, bin/console ux:icons:lock, bin/console ux:icons:import. Also trigger when the user asks \"how to add an icon\", \"how to use Lucide/Heroicons/Tabler icons\", \"how to render an SVG icon in Twig\", \"how to lock icons for production\", \"how to create icon aliases\", \"how to style an icon\", \"icon not found\", \"icon not rendering\". Do NOT trigger for interactive maps (use ux-map) or general Twig components (use twig-component).",
-      "categories": ["Development", "Design", "Documents"],
-      "author": "smnandre",
-      "repo": "smnandre/symfony-ux-skills",
-      "path": "skills/ux-icons",
-      "commitHash": "1e99301a6255",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "smnandre/symfony-ux-skills/skills/symfony-ux",
-      "name": "symfony-ux",
-      "description": "Symfony UX frontend stack -- decision tree and orchestrator for choosing between Stimulus, Turbo, TwigComponent, LiveComponent, UX Icons, and UX Map. Use when the user is unsure which tool fits, wants to combine multiple UX packages, or asks a general frontend architecture question in Symfony. Also trigger when the user asks \"which UX package should I use\", \"how to make this interactive\", \"should I use Stimulus or LiveComponent\", \"how to structure my Symfony frontend\", \"what is the difference between Turbo and LiveComponent\", \"should this be a Frame or a LiveComponent\", \"how do these UX packages work together\", \"what is the Symfony way to do frontend\". Do NOT trigger when the user clearly names a specific tool (stimulus, turbo, twig-component, live-component, ux-icons, ux-map) -- defer to the specialized skill instead.",
-      "categories": ["Development", "Design"],
-      "author": "smnandre",
-      "repo": "smnandre/symfony-ux-skills",
-      "path": "skills/symfony-ux",
-      "commitHash": "1e99301a6255",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "smnandre/symfony-ux-skills/skills/live-component",
-      "name": "live-component",
-      "description": "Symfony UX LiveComponent for reactive server-rendered UI -- components that re-render via AJAX on user interaction, zero JavaScript required. Use when building live search, real-time filtering, dynamic forms, inline validation, dependent selects, auto-save, polling, deferred/lazy rendering, or any UI that updates itself based on user input. Code triggers: AsLiveComponent, LiveProp, LiveAction, data-model, data-loading, data-live-action-url, ComponentWithFormTrait, LiveListener, emit, defer, lazy, polling. Also trigger when the user asks \"how to build a search that filters as I type\", \"how to validate a form in real-time\", \"how to make a reactive component in PHP\", \"how to build dependent selects\", \"how to defer component rendering\", \"how to communicate between components via emit\", \"how to bind a form to a LiveComponent\". Do NOT trigger for static reusable UI without reactivity (use twig-component), pure client-side JS behavior (use stimulus), or page-level navigation (use turbo).",
-      "categories": ["Development", "Design", "AI & ML"],
-      "author": "smnandre",
-      "repo": "smnandre/symfony-ux-skills",
-      "path": "skills/live-component",
-      "commitHash": "1e99301a6255",
-      "files": ["SKILL.md", "references"]
-    },
-    {
-      "id": "smnandre/symfony-ux-skills/skills/twig-component",
-      "name": "twig-component",
-      "description": "Symfony UX TwigComponent for reusable UI building blocks -- server-rendered components with PHP classes and Twig templates. Use when creating buttons, cards, alerts, badges, navbars, or any reusable UI element with props, blocks/slots, computed properties, or anonymous (template-only) components. Code triggers: AsTwigComponent, #[AsTwigComponent], ExposeInTemplate, PreMount, PostMount, <twig:Alert />, <twig:Button>, component(), computed properties, anonymous component, HTML syntax. Also trigger when the user asks \"how to create a reusable component\", \"how to make a component library\", \"how to pass props to a component\", \"how to use slots/blocks in a component\", \"how to build a design system in Symfony\", \"what is the HTML syntax for components\", \"how to create a component without a PHP class\". Do NOT trigger for components that re-render dynamically on user input (use live-component), for JS behavior (use stimulus), or for page navigation (use turbo).",
-      "categories": ["Development", "Design"],
-      "author": "smnandre",
-      "repo": "smnandre/symfony-ux-skills",
-      "path": "skills/twig-component",
-      "commitHash": "1e99301a6255",
-      "files": ["SKILL.md", "references"]
     },
     {
       "id": "OSideMedia/higgsfield-ai-prompt-skill",
@@ -5862,6 +5776,83 @@
       "path": "skills/higgsfield-seedance",
       "commitHash": "edbbaad49fdd",
       "files": ["ENGINE-RULES.md", "FAILURE-MODES.md", "SKILL.md"]
+    },
+    {
+      "id": "smnandre/symfony-ux-skills/skills/turbo",
+      "name": "turbo",
+      "description": "Hotwire Turbo for Symfony UX -- SPA-like speed with zero JavaScript. Covers Drive (navigation), Frames (partial page sections), and Streams (multi-target updates). Use when building ajax navigation, lazy-loaded sections, inline editing, pagination without reload, modals from the server, flash messages via streams, or real-time updates via Mercure/SSE. Code triggers: turbo-frame, turbo-stream, data-turbo-frame, data-turbo, data-turbo-action, turbo-stream-source, TurboStreamResponse, <twig:Turbo:Frame>, <twig:Turbo:Stream:Append>, <twig:Turbo:Stream:Replace>, turbo:before-fetch-request. Also trigger when the user asks \"how to update part of the page without reload\", \"how to make navigation feel like SPA\", \"how to lazy-load a section\", \"how to do inline editing\", \"how to push real-time updates from server\", \"how to use Mercure with Turbo\". Do NOT trigger for client-side JS behavior (use stimulus), server-rendered reactive components (use live-component), or reusable static UI (use twig-component).",
+      "categories": ["Development", "Design", "Writing", "Media"],
+      "author": "smnandre",
+      "repo": "smnandre/symfony-ux-skills",
+      "path": "skills/turbo",
+      "commitHash": "1e99301a6255",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "smnandre/symfony-ux-skills/skills/ux-map",
+      "name": "ux-map",
+      "description": "Symfony UX Map for interactive maps with Leaflet or Google Maps in Symfony. Covers markers, polygons, polylines, circles, info windows, and LiveComponent integration. Use when displaying maps, placing markers, drawing shapes or routes, handling map events, building store locators, using custom tile layers, or making maps reactive with LiveComponent. Code triggers: <twig:ux:map />, Map(), Point(), Marker(), Polygon(), Polyline(), Circle(), InfoWindow(), MapOptionsInterface, ComponentWithMapTrait, fitBoundsToMarkers, ux:map:marker:before-create, ux:map:connect, SYMFONY_UX_MAP_DSN. Also trigger when the user asks \"how to display a map\", \"how to add markers\", \"how to draw a polygon on a map\", \"how to handle map click events\", \"how to make a reactive map\", \"how to use Leaflet in Symfony\", \"how to use Google Maps in Symfony\", \"map not showing\", \"map has zero height\". Do NOT trigger for SVG icons (use ux-icons) or general frontend interactivity (use stimulus).",
+      "categories": ["Development", "Design", "Integration"],
+      "author": "smnandre",
+      "repo": "smnandre/symfony-ux-skills",
+      "path": "skills/ux-map",
+      "commitHash": "1e99301a6255",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "smnandre/symfony-ux-skills/skills/stimulus",
+      "name": "stimulus",
+      "description": "Stimulus JS framework for Symfony UX -- client-side behavior via HTML data attributes, zero server round-trips. Use when creating controllers for DOM manipulation, handling click/input/submit events, managing targets and values, wiring outlets between controllers, wrapping third-party JS libraries, or building toggles, dropdowns, modals, tabs, clipboard interactions. Code triggers: data-controller, data-action, data-target, data-*-value, data-*-class, data-*-outlet, stimulusFetch lazy, connect(), disconnect(), static targets, static values. Also trigger when the user asks \"how do I add a click handler\", \"how to toggle a class\", \"how to build a dropdown/modal/tabs\", \"how to wrap a JS library in Symfony\", \"add keyboard shortcuts\", \"lazy-load a controller\", \"listen to global events\", \"communicate between controllers\". Do NOT trigger for partial page updates without JS (use turbo), server-rendered reactivity (use live-component), or reusable Twig templates (use twig-component).",
+      "categories": ["Development", "Design", "Productivity", "Integration"],
+      "author": "smnandre",
+      "repo": "smnandre/symfony-ux-skills",
+      "path": "skills/stimulus",
+      "commitHash": "1e99301a6255",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "smnandre/symfony-ux-skills/skills/ux-icons",
+      "name": "ux-icons",
+      "description": "Symfony UX Icons for rendering SVG icons in Twig templates. Supports 200,000+ Iconify icons (Lucide, Heroicons, Tabler, Material Design, etc.), local SVG files, and custom icon sets with aliases. Use when displaying icons, configuring icon defaults, importing or locking on-demand icons, creating icon aliases, or styling SVG icons with CSS. Code triggers: <twig:ux:icon />, ux_icon(), UX_ICONS_DEFAULT_ICON_ATTRIBUTES, icon.yaml, icons/, iconify:, lucide:, heroicons:, tabler:, mdi:, bin/console ux:icons:lock, bin/console ux:icons:import. Also trigger when the user asks \"how to add an icon\", \"how to use Lucide/Heroicons/Tabler icons\", \"how to render an SVG icon in Twig\", \"how to lock icons for production\", \"how to create icon aliases\", \"how to style an icon\", \"icon not found\", \"icon not rendering\". Do NOT trigger for interactive maps (use ux-map) or general Twig components (use twig-component).",
+      "categories": ["Development", "Design", "Documents"],
+      "author": "smnandre",
+      "repo": "smnandre/symfony-ux-skills",
+      "path": "skills/ux-icons",
+      "commitHash": "1e99301a6255",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "smnandre/symfony-ux-skills/skills/symfony-ux",
+      "name": "symfony-ux",
+      "description": "Symfony UX frontend stack -- decision tree and orchestrator for choosing between Stimulus, Turbo, TwigComponent, LiveComponent, UX Icons, and UX Map. Use when the user is unsure which tool fits, wants to combine multiple UX packages, or asks a general frontend architecture question in Symfony. Also trigger when the user asks \"which UX package should I use\", \"how to make this interactive\", \"should I use Stimulus or LiveComponent\", \"how to structure my Symfony frontend\", \"what is the difference between Turbo and LiveComponent\", \"should this be a Frame or a LiveComponent\", \"how do these UX packages work together\", \"what is the Symfony way to do frontend\". Do NOT trigger when the user clearly names a specific tool (stimulus, turbo, twig-component, live-component, ux-icons, ux-map) -- defer to the specialized skill instead.",
+      "categories": ["Development", "Design"],
+      "author": "smnandre",
+      "repo": "smnandre/symfony-ux-skills",
+      "path": "skills/symfony-ux",
+      "commitHash": "1e99301a6255",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "smnandre/symfony-ux-skills/skills/live-component",
+      "name": "live-component",
+      "description": "Symfony UX LiveComponent for reactive server-rendered UI -- components that re-render via AJAX on user interaction, zero JavaScript required. Use when building live search, real-time filtering, dynamic forms, inline validation, dependent selects, auto-save, polling, deferred/lazy rendering, or any UI that updates itself based on user input. Code triggers: AsLiveComponent, LiveProp, LiveAction, data-model, data-loading, data-live-action-url, ComponentWithFormTrait, LiveListener, emit, defer, lazy, polling. Also trigger when the user asks \"how to build a search that filters as I type\", \"how to validate a form in real-time\", \"how to make a reactive component in PHP\", \"how to build dependent selects\", \"how to defer component rendering\", \"how to communicate between components via emit\", \"how to bind a form to a LiveComponent\". Do NOT trigger for static reusable UI without reactivity (use twig-component), pure client-side JS behavior (use stimulus), or page-level navigation (use turbo).",
+      "categories": ["Development", "Design", "AI & ML"],
+      "author": "smnandre",
+      "repo": "smnandre/symfony-ux-skills",
+      "path": "skills/live-component",
+      "commitHash": "1e99301a6255",
+      "files": ["SKILL.md", "references"]
+    },
+    {
+      "id": "smnandre/symfony-ux-skills/skills/twig-component",
+      "name": "twig-component",
+      "description": "Symfony UX TwigComponent for reusable UI building blocks -- server-rendered components with PHP classes and Twig templates. Use when creating buttons, cards, alerts, badges, navbars, or any reusable UI element with props, blocks/slots, computed properties, or anonymous (template-only) components. Code triggers: AsTwigComponent, #[AsTwigComponent], ExposeInTemplate, PreMount, PostMount, <twig:Alert />, <twig:Button>, component(), computed properties, anonymous component, HTML syntax. Also trigger when the user asks \"how to create a reusable component\", \"how to make a component library\", \"how to pass props to a component\", \"how to use slots/blocks in a component\", \"how to build a design system in Symfony\", \"what is the HTML syntax for components\", \"how to create a component without a PHP class\". Do NOT trigger for components that re-render dynamically on user input (use live-component), for JS behavior (use stimulus), or for page navigation (use turbo).",
+      "categories": ["Development", "Design"],
+      "author": "smnandre",
+      "repo": "smnandre/symfony-ux-skills",
+      "path": "skills/twig-component",
+      "commitHash": "1e99301a6255",
+      "files": ["SKILL.md", "references"]
     },
     {
       "id": "gapmiss/obsidian-plugin-skill/.agents/skills/obsidian",
@@ -8163,6 +8154,17 @@
       ]
     },
     {
+      "id": "uxKero/anydesign",
+      "name": "anydesign",
+      "description": "Analyze images, websites, and Figma files to extract their design and generate a `design.md` with token system, component inventory, and reconstruction notes. Use this skill whenever the user wants to understand, document, replicate, or audit the design of something visual: a screenshot, a URL, a Figma link, a Pinterest reference, a mockup, a competitor's site, a component, a dashboard, a landing page. Also when they ask 'extract the design system from X', 'document the style of Y', 'analyze this visually', 'convert this image into tokens', 'help me replicate this design', 'what palette does this site use', 'how is this built'. Also for single elements: 'copy this navbar', 'recreate this illustration', 'give me a prompt to regenerate this graphic' — element mode outputs a focused element.md, with token-grounded image-model prompts when the element is visual art. If the user brings any visual source and wants to understand it at a design level — this skill should activate.",
+      "categories": ["Security", "Design", "Data & Analytics", "Documents", "Research", "AI & ML"],
+      "author": "uxKero",
+      "repo": "uxKero/anydesign",
+      "path": "",
+      "commitHash": "1b478809c3cc",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "Mark393295827/third-brain-v5-skills/skills/daily-okr",
       "name": "daily-okr",
       "description": "Execute a daily knowledge compound closed loop — 7 Key Results from input to feedback with scoring. Use when the user wants to do a daily review, plan their day, or run a knowledge workflow.",
@@ -8466,17 +8468,6 @@
       "path": "skills/skill-personalizer",
       "commitHash": "b9ffd1513e84",
       "files": ["SKILL.md", "agents", "references"]
-    },
-    {
-      "id": "uxKero/anydesign",
-      "name": "anydesign",
-      "description": "Analyze images, websites, and Figma files to extract their design and generate a `design.md` with token system, component inventory, and reconstruction notes. Use this skill whenever the user wants to understand, document, replicate, or audit the design of something visual: a screenshot, a URL, a Figma link, a Pinterest reference, a mockup, a competitor's site, a component, a dashboard, a landing page. Also when they ask 'extract the design system from X', 'document the style of Y', 'analyze this visually', 'convert this image into tokens', 'help me replicate this design', 'what palette does this site use', 'how is this built'. Also for single elements: 'copy this navbar', 'recreate this illustration', 'give me a prompt to regenerate this graphic' — element mode outputs a focused element.md, with token-grounded image-model prompts when the element is visual art. If the user brings any visual source and wants to understand it at a design level — this skill should activate.",
-      "categories": ["Security", "Design", "Data & Analytics", "Documents", "Research", "AI & ML"],
-      "author": "uxKero",
-      "repo": "uxKero/anydesign",
-      "path": "",
-      "commitHash": "1b478809c3cc",
-      "files": ["SKILL.md"]
     },
     {
       "id": "Adancurusul/embedded-debugger-mcp/skills/embedded-debugger",
@@ -9059,28 +9050,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "pattern-ai-labs/agentcall",
-      "name": "join-meeting",
-      "description": "AgentCall (agentcall.dev) — Join a video meeting (Google Meet, Teams, Zoom) as an AI bot with voice and visual presence. Supports audio-only mode with voice intelligence (barge-in, interruptions), text-to-speech mode, and webpage modes for custom UI. Use when asked to join a call, attend a meeting, or participate in a video conference.\n",
-      "categories": ["Design", "AI & ML", "Media"],
-      "author": "pattern-ai-labs",
-      "repo": "pattern-ai-labs/agentcall",
-      "path": "",
-      "commitHash": "633ea7c57806",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "ilyautov/humanizer-ru",
-      "name": "humanizer-ru",
-      "description": "Скилл для очеловечивания русскоязычного текста. Убирает признаки AI-генерации, делает текст живым. Используй ВСЕГДА, когда пользователь просит: очеловечить текст, убрать следы нейросети, сделать текст живым/естественным, переписать как человек, humanize на русском, убрать канцелярит, убрать водянистость, сделать текст менее формальным. Также используй если пользователь вставляет русскоязычный текст и говорит что-то вроде 'перепиши', 'сделай лучше', 'звучит как робот', 'слишком искусственно'. Работает ТОЛЬКО с русским языком. Для английского используй оригинальный humanizer. НЕ используй для: перевод, написание с нуля, грамматика, код.",
-      "categories": ["Other"],
-      "author": "ilyautov",
-      "repo": "ilyautov/humanizer-ru",
-      "path": "",
-      "commitHash": "68924d6575d0",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "Lupynow/math-modeling-skills/skills/math-modeling-paper",
       "name": "math-modeling-paper",
       "description": "数学建模竞赛论文写作全流程指导。覆盖国赛(CUMCM)和美赛(MCM/ICM)，从论文结构规划、各章节撰写、模型检验、参考文献规范到最终格式检查。与math-modeling-solver形成\"解题→写作\"配对——可接收solver输出的论文草稿片段直接展开写作。当用户提及数学建模论文写作、建模比赛、国赛/美赛/电工杯/亚太杯/深圳杯/华为杯论文、CUMCM、MCM/ICM、数模论文结构、摘要写作、模型检验、灵敏度分析、latex建模模板、word建模排版、Memo/Letter写作、模型命名、Our Work流程图，或需要写/修改/优化/检查建模论文的任何部分时，都必须使用此 skill。",
@@ -9101,6 +9070,28 @@
       "path": "skills/math-modeling-solver",
       "commitHash": "43ae12a77d0e",
       "files": ["LICENSE", "README.md", "SKILL.md", "references"]
+    },
+    {
+      "id": "pattern-ai-labs/agentcall",
+      "name": "join-meeting",
+      "description": "AgentCall (agentcall.dev) — Join a video meeting (Google Meet, Teams, Zoom) as an AI bot with voice and visual presence. Supports audio-only mode with voice intelligence (barge-in, interruptions), text-to-speech mode, and webpage modes for custom UI. Use when asked to join a call, attend a meeting, or participate in a video conference.\n",
+      "categories": ["Design", "AI & ML", "Media"],
+      "author": "pattern-ai-labs",
+      "repo": "pattern-ai-labs/agentcall",
+      "path": "",
+      "commitHash": "633ea7c57806",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "ilyautov/humanizer-ru",
+      "name": "humanizer-ru",
+      "description": "Скилл для очеловечивания русскоязычного текста. Убирает признаки AI-генерации, делает текст живым. Используй ВСЕГДА, когда пользователь просит: очеловечить текст, убрать следы нейросети, сделать текст живым/естественным, переписать как человек, humanize на русском, убрать канцелярит, убрать водянистость, сделать текст менее формальным. Также используй если пользователь вставляет русскоязычный текст и говорит что-то вроде 'перепиши', 'сделай лучше', 'звучит как робот', 'слишком искусственно'. Работает ТОЛЬКО с русским языком. Для английского используй оригинальный humanizer. НЕ используй для: перевод, написание с нуля, грамматика, код.",
+      "categories": ["Other"],
+      "author": "ilyautov",
+      "repo": "ilyautov/humanizer-ru",
+      "path": "",
+      "commitHash": "68924d6575d0",
+      "files": ["SKILL.md"]
     },
     {
       "id": "dososo/blcaptain-style-skill",
@@ -9991,354 +9982,6 @@
       "repo": "CesiumGS/cesiumjs-skills",
       "path": "skills/cesiumjs-terrain-environment",
       "commitHash": "df881cf46f52",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "monte-carlo-data/mc-agent-toolkit/skills/prevent",
-      "name": "monte-carlo-prevent",
-      "description": "Shift-left safety net for dbt/SQL model edits. Runs change impact assessment before edits, generates SQL validation queries after, and executes them via `/mc-validate run`. Delegates health and monitor creation to peer skills.",
-      "categories": ["Other"],
-      "author": "monte-carlo-data",
-      "repo": "monte-carlo-data/mc-agent-toolkit",
-      "path": "skills/prevent",
-      "commitHash": "3a3d3454f3ad",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "README.md",
-        "SKILL.md",
-        "references/TROUBLESHOOTING.md",
-        "references/parameters.md",
-        "references/workflows.md",
-        "scripts/sandbox/classify_sandbox.py",
-        "scripts/sandbox/detect_hardcoded_db.py",
-        "scripts/sandbox/parse_profiles.py",
-        "scripts/sandbox/readonly_check.py",
-        "scripts/sandbox/substitute_placeholders.py",
-        "scripts/sandbox/tests/conftest.py",
-        "scripts/sandbox/tests/test_classify_sandbox.py",
-        "scripts/sandbox/tests/test_detect_hardcoded_db.py",
-        "scripts/sandbox/tests/test_integration_smoke.py",
-        "scripts/sandbox/tests/test_parse_profiles.py",
-        "scripts/sandbox/tests/test_readonly_check.py",
-        "scripts/sandbox/tests/test_substitute_placeholders.py"
-      ]
-    },
-    {
-      "id": "monte-carlo-data/mc-agent-toolkit/skills/remediation",
-      "name": "monte-carlo-remediation",
-      "description": "Investigate and remediate data quality alerts using Monte Carlo MCP tools. Runs root cause analysis, assesses blast radius, discovers available tools (MCP/CLI/API), proposes and executes fixes, or escalates with full context when uncertain.",
-      "categories": ["Data & Analytics", "Research"],
-      "author": "monte-carlo-data",
-      "repo": "monte-carlo-data/mc-agent-toolkit",
-      "path": "skills/remediation",
-      "commitHash": "3a3d3454f3ad",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "README.md",
-        "SKILL.md",
-        "references/patterns.md",
-        "references/safety.md",
-        "references/tool-discovery.md"
-      ]
-    },
-    {
-      "id": "monte-carlo-data/mc-agent-toolkit/skills/asset-health",
-      "name": "monte-carlo-asset-health",
-      "description": "Check the health of a data table/asset using Monte Carlo. Activates on \"how is table X\", \"check health of X\", \"is X healthy\", \"status of X\", \"check on X table\", or any health/status question about a data asset.",
-      "categories": ["Other"],
-      "author": "monte-carlo-data",
-      "repo": "monte-carlo-data/mc-agent-toolkit",
-      "path": "skills/asset-health",
-      "commitHash": "3a3d3454f3ad",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["README.md", "SKILL.md", "references/parameters.md", "references/workflows.md"]
-    },
-    {
-      "id": "monte-carlo-data/mc-agent-toolkit/skills/monitoring-advisor",
-      "name": "monte-carlo-monitoring-advisor",
-      "description": "Analyze data coverage, create monitors for warehouse tables and AI agents. Covers coverage gaps, use-case analysis, data monitor creation, and agent observability.",
-      "categories": ["DevOps", "Data & Analytics", "Research", "AI & ML"],
-      "author": "monte-carlo-data",
-      "repo": "monte-carlo-data/mc-agent-toolkit",
-      "path": "skills/monitoring-advisor",
-      "commitHash": "3a3d3454f3ad",
-      "version": "2.1.1",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "README.md",
-        "SKILL.md",
-        "references/agent-evaluation-monitor.md",
-        "references/agent-metric-monitor.md",
-        "references/agent-monitor-creation.md",
-        "references/agent-span-fields.md",
-        "references/agent-trajectory-monitor.md",
-        "references/agent-validation-monitor.md",
-        "references/data-comparison-monitor.md",
-        "references/data-custom-sql-monitor.md",
-        "references/data-metric-monitor.md",
-        "references/data-monitor-creation.md",
-        "references/data-table-monitor.md",
-        "references/data-validation-monitor.md"
-      ]
-    },
-    {
-      "id": "monte-carlo-data/mc-agent-toolkit/skills/analyze-root-cause",
-      "name": "monte-carlo-analyze-root-cause",
-      "description": "Investigate data incidents and find root causes using Monte Carlo's\nobservability data. Guides the agent through systematic investigation:\nalert lookup, lineage tracing, ETL checks, query analysis, and data\nprofiling. Activates when a user asks about data issues, incidents,\nalerts, or why data looks wrong.\n",
-      "categories": ["DevOps", "Data & Analytics", "Research"],
-      "author": "monte-carlo-data",
-      "repo": "monte-carlo-data/mc-agent-toolkit",
-      "path": "skills/analyze-root-cause",
-      "commitHash": "3a3d3454f3ad",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "README.md",
-        "SKILL.md",
-        "references/common-root-causes.md",
-        "references/data-exploration.md",
-        "references/etl-failure-investigation.md",
-        "references/field-anomaly-investigation.md",
-        "references/freshness-investigation.md",
-        "references/intake-no-incident.md",
-        "references/query-change-investigation.md",
-        "references/schema-investigation.md",
-        "references/volume-investigation.md"
-      ]
-    },
-    {
-      "id": "monte-carlo-data/mc-agent-toolkit/skills/tune-monitor",
-      "name": "tune-monitor",
-      "description": "Analyze a Monte Carlo monitor and recommend config changes to reduce alert noise. Supports metric, custom SQL, validation, and table monitors. Fetches the report, identifies patterns, and suggests tuning.",
-      "categories": ["Data & Analytics"],
-      "author": "monte-carlo-data",
-      "repo": "monte-carlo-data/mc-agent-toolkit",
-      "path": "skills/tune-monitor",
-      "commitHash": "3a3d3454f3ad",
-      "version": "1.1.1",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "SKILL.md",
-        "references/custom-sql-monitor.md",
-        "references/metric-monitor.md",
-        "references/table-monitor.md",
-        "references/validation-monitor.md"
-      ]
-    },
-    {
-      "id": "monte-carlo-data/mc-agent-toolkit/skills/storage-cost-analysis",
-      "name": "monte-carlo-storage-cost-analysis",
-      "description": "Analyze a warehouse for stale, unused, or redundant tables via the analyze_storage_costs MCP tool. Classifies waste patterns and table categories, computes safety tiers, and handles category drill-downs and lineage follow-ups.",
-      "categories": ["Research"],
-      "author": "monte-carlo-data",
-      "repo": "monte-carlo-data/mc-agent-toolkit",
-      "path": "skills/storage-cost-analysis",
-      "commitHash": "3a3d3454f3ad",
-      "version": "2.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["README.md", "SKILL.md", "references/output-structure.md"]
-    },
-    {
-      "id": "monte-carlo-data/mc-agent-toolkit/skills/instrument-agent",
-      "name": "monte-carlo-instrument-agent",
-      "description": "Instrument a new AI agent in a Python codebase for Monte Carlo Agent Observability. Detects AI libraries, installs the Monte Carlo OpenTelemetry SDK, and proposes tracing setup and decorator placements as diffs. Asks before editing any file.",
-      "categories": ["Development", "Writing", "AI & ML"],
-      "author": "monte-carlo-data",
-      "repo": "monte-carlo-data/mc-agent-toolkit",
-      "path": "skills/instrument-agent",
-      "commitHash": "3a3d3454f3ad",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "SKILL.md",
-        "references/decorator-placement.md",
-        "references/library-detection.md",
-        "references/redaction.md",
-        "references/setup-template.md",
-        "references/troubleshooting.md",
-        "references/verify-traces.md",
-        "references/workflow.md",
-        "scripts/detect_libraries.py",
-        "scripts/fetch_sdk_docs.py",
-        "tests/fixtures/boto3-only/requirements.txt",
-        "tests/fixtures/existing-setup/requirements.txt",
-        "tests/fixtures/existing-setup/src/tracing.py",
-        "tests/fixtures/existing-setup/src/tracing_alias.py",
-        "tests/fixtures/existing-setup/src/tracing_direct.py",
-        "tests/fixtures/mixed-requirements-pyproject/pyproject.toml",
-        "tests/fixtures/mixed-requirements-pyproject/requirements.txt",
-        "tests/fixtures/no-deps/README.md",
-        "tests/fixtures/pep621-pyproject/pyproject.toml",
-        "tests/fixtures/pipfile/Pipfile"
-      ]
-    },
-    {
-      "id": "monte-carlo-data/mc-agent-toolkit/skills/push-ingestion",
-      "name": "push-ingestion",
-      "description": "Expert guide for Monte Carlo's push ingestion model. Use this skill whenever a customer or engineer mentions: pushing data to Monte Carlo, the IngestionService, pycarlo push APIs, build me a collection script, push metadata/lineage/query logs, invocation_id tracing, custom lineage nodes or edges, deleting push tables, or any question about why pushed data is not showing up. Also trigger when they ask to generate code that collects metadata, table schema, row counts, freshness, lineage, or query history from any data warehouse or data source and sends it to Monte Carlo. If the user mentions any warehouse, database, or data platform alongside any Monte Carlo topic, this skill is almost certainly relevant.\n",
-      "categories": ["Development", "Data & Analytics", "Documents", "AI & ML"],
-      "author": "monte-carlo-data",
-      "repo": "monte-carlo-data/mc-agent-toolkit",
-      "path": "skills/push-ingestion",
-      "commitHash": "3a3d3454f3ad",
-      "files": [
-        "README.md",
-        "SKILL.md",
-        "references/anomaly-detection.md",
-        "references/custom-lineage.md",
-        "references/direct-http-api.md",
-        "references/prerequisites.md",
-        "references/push-lineage.md",
-        "references/push-metadata.md",
-        "references/push-query-logs.md",
-        "references/validation.md",
-        "scripts/sample_verify.py",
-        "scripts/templates/bigquery/collect_and_push_lineage.py",
-        "scripts/templates/bigquery/collect_and_push_metadata.py",
-        "scripts/templates/bigquery/collect_and_push_query_logs.py",
-        "scripts/templates/bigquery/collect_lineage.py",
-        "scripts/templates/bigquery/collect_metadata.py",
-        "scripts/templates/bigquery/collect_query_logs.py",
-        "scripts/templates/bigquery/push_lineage.py",
-        "scripts/templates/bigquery/push_metadata.py",
-        "scripts/templates/bigquery/push_query_logs.py"
-      ]
-    },
-    {
-      "id": "monte-carlo-data/mc-agent-toolkit/skills/performance-diagnosis",
-      "name": "monte-carlo-performance-diagnosis",
-      "description": "Diagnoses pipeline performance issues -- slow jobs, expensive queries,\nlatency trends -- using Monte Carlo's cross-platform observability.\nUses a tiered investigation approach: discover problems, bridge to\naffected tables, then drill into root causes. Activates when a user\nasks about slow pipelines, expensive queries, or performance regressions.\n",
-      "categories": ["DevOps", "Documents"],
-      "author": "monte-carlo-data",
-      "repo": "monte-carlo-data/mc-agent-toolkit",
-      "path": "skills/performance-diagnosis",
-      "commitHash": "3a3d3454f3ad",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": [
-        "README.md",
-        "SKILL.md",
-        "references/investigation-tiers.md",
-        "references/query-analysis.md"
-      ]
-    },
-    {
-      "id": "monte-carlo-data/mc-agent-toolkit/skills/automated-triage",
-      "name": "automated-triage",
-      "description": "Triage Monte Carlo alerts interactively or build an automated workflow. Fetch, score, and troubleshoot alerts using MCP tools now, or design a reusable workflow that runs on a schedule.",
-      "categories": ["Design", "Productivity"],
-      "author": "monte-carlo-data",
-      "repo": "monte-carlo-data/mc-agent-toolkit",
-      "path": "skills/automated-triage",
-      "commitHash": "3a3d3454f3ad",
-      "version": "1.1.1",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references/triage-example.md", "references/triage-stages.md"]
-    },
-    {
-      "id": "monte-carlo-data/mc-agent-toolkit/skills/incident-response",
-      "name": "monte-carlo-incident-response",
-      "description": "Orchestrate incident response — triage, root cause, remediate, prevent recurrence. USE WHEN active alerts, data broken, stale, pipeline failure, or investigate and fix a data incident.",
-      "categories": ["DevOps", "Security", "Data & Analytics"],
-      "author": "monte-carlo-data",
-      "repo": "monte-carlo-data/mc-agent-toolkit",
-      "path": "skills/incident-response",
-      "commitHash": "3a3d3454f3ad",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "monte-carlo-data/mc-agent-toolkit/.claude/skills/toolkit-skill-author",
-      "name": "toolkit-skill-author",
-      "description": "Authors or extends a skill in mc-agent-toolkit. Gates for forbidden buckets and name collisions, applies CONTRIBUTING's extend-or-split rules, then edits a peer skill or hands off to Anthropic's skill-creator and walks the registration checklist.",
-      "categories": ["Writing"],
-      "author": "monte-carlo-data",
-      "repo": "monte-carlo-data/mc-agent-toolkit",
-      "path": ".claude/skills/toolkit-skill-author",
-      "commitHash": "3a3d3454f3ad",
-      "files": [
-        "README.md",
-        "SKILL.md",
-        "references/decision-rules.md",
-        "references/handoff-preamble.md",
-        "references/registration-checklist.md",
-        "scripts/find-peers.sh",
-        "scripts/lint-skill.py",
-        "scripts/tests/find-peers.bats",
-        "scripts/tests/lint-skill.bats",
-        "scripts/tests/smoke-test.sh"
-      ]
-    },
-    {
-      "id": "monte-carlo-data/mc-agent-toolkit/skills/context-detection",
-      "name": "monte-carlo-context-detection",
-      "description": "Route data-related requests to the right Monte Carlo skill or workflow. USE WHEN alerts, incidents, data broken, stale, coverage gaps, data quality, or any ambiguous data observability request.",
-      "categories": ["DevOps"],
-      "author": "monte-carlo-data",
-      "repo": "monte-carlo-data/mc-agent-toolkit",
-      "path": "skills/context-detection",
-      "commitHash": "3a3d3454f3ad",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references/signal-definitions.md"]
-    },
-    {
-      "id": "monte-carlo-data/mc-agent-toolkit/skills/manage-mac",
-      "name": "monte-carlo-manage-mac",
-      "description": "Create, edit, validate, and import Monitors-as-Code YAML files. CLI-first; falls back to MC MCP tools, then manual validation.",
-      "categories": ["Documents"],
-      "author": "monte-carlo-data",
-      "repo": "monte-carlo-data/mc-agent-toolkit",
-      "path": "skills/manage-mac",
-      "commitHash": "3a3d3454f3ad",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "monte-carlo-data/mc-agent-toolkit/skills/connection-auth-rules",
-      "name": "connection-auth-rules",
-      "description": "Build a Connection Auth Rules for a Monte Carlo connection type. Fetches live connector schemas and transform steps from the apollo-agent repo.",
-      "categories": ["Data & Analytics"],
-      "author": "monte-carlo-data",
-      "repo": "monte-carlo-data/mc-agent-toolkit",
-      "path": "skills/connection-auth-rules",
-      "commitHash": "3a3d3454f3ad",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "fetch_schema.py"]
-    },
-    {
-      "id": "monte-carlo-data/mc-agent-toolkit/skills/generate-validation-notebook",
-      "name": "generate-validation-notebook",
-      "description": "Generate SQL validation notebooks for dbt changes. Pass a GitHub PR URL or local dbt repo path.",
-      "categories": ["Other"],
-      "author": "monte-carlo-data",
-      "repo": "monte-carlo-data/mc-agent-toolkit",
-      "path": "skills/generate-validation-notebook",
-      "commitHash": "3a3d3454f3ad",
-      "files": [
-        "README.md",
-        "SKILL.md",
-        "scripts/generate_notebook_url.py",
-        "scripts/resolve_dbt_schema.py"
-      ]
-    },
-    {
-      "id": "monte-carlo-data/mc-agent-toolkit/skills/proactive-monitoring",
-      "name": "monte-carlo-proactive-monitoring",
-      "description": "Guide users from coverage analysis to monitor creation. USE WHEN user asks what should I monitor, where are my gaps, improve coverage, or wants a systematic approach to monitoring across their data estate.",
-      "categories": ["Data & Analytics"],
-      "author": "monte-carlo-data",
-      "repo": "monte-carlo-data/mc-agent-toolkit",
-      "path": "skills/proactive-monitoring",
-      "commitHash": "3a3d3454f3ad",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
     },
     {
@@ -12425,6 +12068,354 @@
       "repo": "swaylq/master-skill",
       "path": "prototypes/xiaohongshu-ops-master/sub-skills/qiangua-data-driven",
       "commitHash": "e0b9eb89a8ea",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "monte-carlo-data/mc-agent-toolkit/skills/prevent",
+      "name": "monte-carlo-prevent",
+      "description": "Shift-left safety net for dbt/SQL model edits. Runs change impact assessment before edits, generates SQL validation queries after, and executes them via `/mc-validate run`. Delegates health and monitor creation to peer skills.",
+      "categories": ["Other"],
+      "author": "monte-carlo-data",
+      "repo": "monte-carlo-data/mc-agent-toolkit",
+      "path": "skills/prevent",
+      "commitHash": "3a3d3454f3ad",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "references/TROUBLESHOOTING.md",
+        "references/parameters.md",
+        "references/workflows.md",
+        "scripts/sandbox/classify_sandbox.py",
+        "scripts/sandbox/detect_hardcoded_db.py",
+        "scripts/sandbox/parse_profiles.py",
+        "scripts/sandbox/readonly_check.py",
+        "scripts/sandbox/substitute_placeholders.py",
+        "scripts/sandbox/tests/conftest.py",
+        "scripts/sandbox/tests/test_classify_sandbox.py",
+        "scripts/sandbox/tests/test_detect_hardcoded_db.py",
+        "scripts/sandbox/tests/test_integration_smoke.py",
+        "scripts/sandbox/tests/test_parse_profiles.py",
+        "scripts/sandbox/tests/test_readonly_check.py",
+        "scripts/sandbox/tests/test_substitute_placeholders.py"
+      ]
+    },
+    {
+      "id": "monte-carlo-data/mc-agent-toolkit/skills/remediation",
+      "name": "monte-carlo-remediation",
+      "description": "Investigate and remediate data quality alerts using Monte Carlo MCP tools. Runs root cause analysis, assesses blast radius, discovers available tools (MCP/CLI/API), proposes and executes fixes, or escalates with full context when uncertain.",
+      "categories": ["Data & Analytics", "Research"],
+      "author": "monte-carlo-data",
+      "repo": "monte-carlo-data/mc-agent-toolkit",
+      "path": "skills/remediation",
+      "commitHash": "3a3d3454f3ad",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "references/patterns.md",
+        "references/safety.md",
+        "references/tool-discovery.md"
+      ]
+    },
+    {
+      "id": "monte-carlo-data/mc-agent-toolkit/skills/asset-health",
+      "name": "monte-carlo-asset-health",
+      "description": "Check the health of a data table/asset using Monte Carlo. Activates on \"how is table X\", \"check health of X\", \"is X healthy\", \"status of X\", \"check on X table\", or any health/status question about a data asset.",
+      "categories": ["Other"],
+      "author": "monte-carlo-data",
+      "repo": "monte-carlo-data/mc-agent-toolkit",
+      "path": "skills/asset-health",
+      "commitHash": "3a3d3454f3ad",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["README.md", "SKILL.md", "references/parameters.md", "references/workflows.md"]
+    },
+    {
+      "id": "monte-carlo-data/mc-agent-toolkit/skills/monitoring-advisor",
+      "name": "monte-carlo-monitoring-advisor",
+      "description": "Analyze data coverage, create monitors for warehouse tables and AI agents. Covers coverage gaps, use-case analysis, data monitor creation, and agent observability.",
+      "categories": ["DevOps", "Data & Analytics", "Research", "AI & ML"],
+      "author": "monte-carlo-data",
+      "repo": "monte-carlo-data/mc-agent-toolkit",
+      "path": "skills/monitoring-advisor",
+      "commitHash": "3a3d3454f3ad",
+      "version": "2.1.1",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "references/agent-evaluation-monitor.md",
+        "references/agent-metric-monitor.md",
+        "references/agent-monitor-creation.md",
+        "references/agent-span-fields.md",
+        "references/agent-trajectory-monitor.md",
+        "references/agent-validation-monitor.md",
+        "references/data-comparison-monitor.md",
+        "references/data-custom-sql-monitor.md",
+        "references/data-metric-monitor.md",
+        "references/data-monitor-creation.md",
+        "references/data-table-monitor.md",
+        "references/data-validation-monitor.md"
+      ]
+    },
+    {
+      "id": "monte-carlo-data/mc-agent-toolkit/skills/analyze-root-cause",
+      "name": "monte-carlo-analyze-root-cause",
+      "description": "Investigate data incidents and find root causes using Monte Carlo's\nobservability data. Guides the agent through systematic investigation:\nalert lookup, lineage tracing, ETL checks, query analysis, and data\nprofiling. Activates when a user asks about data issues, incidents,\nalerts, or why data looks wrong.\n",
+      "categories": ["DevOps", "Data & Analytics", "Research"],
+      "author": "monte-carlo-data",
+      "repo": "monte-carlo-data/mc-agent-toolkit",
+      "path": "skills/analyze-root-cause",
+      "commitHash": "3a3d3454f3ad",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "references/common-root-causes.md",
+        "references/data-exploration.md",
+        "references/etl-failure-investigation.md",
+        "references/field-anomaly-investigation.md",
+        "references/freshness-investigation.md",
+        "references/intake-no-incident.md",
+        "references/query-change-investigation.md",
+        "references/schema-investigation.md",
+        "references/volume-investigation.md"
+      ]
+    },
+    {
+      "id": "monte-carlo-data/mc-agent-toolkit/skills/tune-monitor",
+      "name": "tune-monitor",
+      "description": "Analyze a Monte Carlo monitor and recommend config changes to reduce alert noise. Supports metric, custom SQL, validation, and table monitors. Fetches the report, identifies patterns, and suggests tuning.",
+      "categories": ["Data & Analytics"],
+      "author": "monte-carlo-data",
+      "repo": "monte-carlo-data/mc-agent-toolkit",
+      "path": "skills/tune-monitor",
+      "commitHash": "3a3d3454f3ad",
+      "version": "1.1.1",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "SKILL.md",
+        "references/custom-sql-monitor.md",
+        "references/metric-monitor.md",
+        "references/table-monitor.md",
+        "references/validation-monitor.md"
+      ]
+    },
+    {
+      "id": "monte-carlo-data/mc-agent-toolkit/skills/storage-cost-analysis",
+      "name": "monte-carlo-storage-cost-analysis",
+      "description": "Analyze a warehouse for stale, unused, or redundant tables via the analyze_storage_costs MCP tool. Classifies waste patterns and table categories, computes safety tiers, and handles category drill-downs and lineage follow-ups.",
+      "categories": ["Research"],
+      "author": "monte-carlo-data",
+      "repo": "monte-carlo-data/mc-agent-toolkit",
+      "path": "skills/storage-cost-analysis",
+      "commitHash": "3a3d3454f3ad",
+      "version": "2.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["README.md", "SKILL.md", "references/output-structure.md"]
+    },
+    {
+      "id": "monte-carlo-data/mc-agent-toolkit/skills/instrument-agent",
+      "name": "monte-carlo-instrument-agent",
+      "description": "Instrument a new AI agent in a Python codebase for Monte Carlo Agent Observability. Detects AI libraries, installs the Monte Carlo OpenTelemetry SDK, and proposes tracing setup and decorator placements as diffs. Asks before editing any file.",
+      "categories": ["Development", "Writing", "AI & ML"],
+      "author": "monte-carlo-data",
+      "repo": "monte-carlo-data/mc-agent-toolkit",
+      "path": "skills/instrument-agent",
+      "commitHash": "3a3d3454f3ad",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "SKILL.md",
+        "references/decorator-placement.md",
+        "references/library-detection.md",
+        "references/redaction.md",
+        "references/setup-template.md",
+        "references/troubleshooting.md",
+        "references/verify-traces.md",
+        "references/workflow.md",
+        "scripts/detect_libraries.py",
+        "scripts/fetch_sdk_docs.py",
+        "tests/fixtures/boto3-only/requirements.txt",
+        "tests/fixtures/existing-setup/requirements.txt",
+        "tests/fixtures/existing-setup/src/tracing.py",
+        "tests/fixtures/existing-setup/src/tracing_alias.py",
+        "tests/fixtures/existing-setup/src/tracing_direct.py",
+        "tests/fixtures/mixed-requirements-pyproject/pyproject.toml",
+        "tests/fixtures/mixed-requirements-pyproject/requirements.txt",
+        "tests/fixtures/no-deps/README.md",
+        "tests/fixtures/pep621-pyproject/pyproject.toml",
+        "tests/fixtures/pipfile/Pipfile"
+      ]
+    },
+    {
+      "id": "monte-carlo-data/mc-agent-toolkit/skills/push-ingestion",
+      "name": "push-ingestion",
+      "description": "Expert guide for Monte Carlo's push ingestion model. Use this skill whenever a customer or engineer mentions: pushing data to Monte Carlo, the IngestionService, pycarlo push APIs, build me a collection script, push metadata/lineage/query logs, invocation_id tracing, custom lineage nodes or edges, deleting push tables, or any question about why pushed data is not showing up. Also trigger when they ask to generate code that collects metadata, table schema, row counts, freshness, lineage, or query history from any data warehouse or data source and sends it to Monte Carlo. If the user mentions any warehouse, database, or data platform alongside any Monte Carlo topic, this skill is almost certainly relevant.\n",
+      "categories": ["Development", "Data & Analytics", "Documents", "AI & ML"],
+      "author": "monte-carlo-data",
+      "repo": "monte-carlo-data/mc-agent-toolkit",
+      "path": "skills/push-ingestion",
+      "commitHash": "3a3d3454f3ad",
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "references/anomaly-detection.md",
+        "references/custom-lineage.md",
+        "references/direct-http-api.md",
+        "references/prerequisites.md",
+        "references/push-lineage.md",
+        "references/push-metadata.md",
+        "references/push-query-logs.md",
+        "references/validation.md",
+        "scripts/sample_verify.py",
+        "scripts/templates/bigquery/collect_and_push_lineage.py",
+        "scripts/templates/bigquery/collect_and_push_metadata.py",
+        "scripts/templates/bigquery/collect_and_push_query_logs.py",
+        "scripts/templates/bigquery/collect_lineage.py",
+        "scripts/templates/bigquery/collect_metadata.py",
+        "scripts/templates/bigquery/collect_query_logs.py",
+        "scripts/templates/bigquery/push_lineage.py",
+        "scripts/templates/bigquery/push_metadata.py",
+        "scripts/templates/bigquery/push_query_logs.py"
+      ]
+    },
+    {
+      "id": "monte-carlo-data/mc-agent-toolkit/skills/performance-diagnosis",
+      "name": "monte-carlo-performance-diagnosis",
+      "description": "Diagnoses pipeline performance issues -- slow jobs, expensive queries,\nlatency trends -- using Monte Carlo's cross-platform observability.\nUses a tiered investigation approach: discover problems, bridge to\naffected tables, then drill into root causes. Activates when a user\nasks about slow pipelines, expensive queries, or performance regressions.\n",
+      "categories": ["DevOps", "Documents"],
+      "author": "monte-carlo-data",
+      "repo": "monte-carlo-data/mc-agent-toolkit",
+      "path": "skills/performance-diagnosis",
+      "commitHash": "3a3d3454f3ad",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "references/investigation-tiers.md",
+        "references/query-analysis.md"
+      ]
+    },
+    {
+      "id": "monte-carlo-data/mc-agent-toolkit/skills/automated-triage",
+      "name": "automated-triage",
+      "description": "Triage Monte Carlo alerts interactively or build an automated workflow. Fetch, score, and troubleshoot alerts using MCP tools now, or design a reusable workflow that runs on a schedule.",
+      "categories": ["Design", "Productivity"],
+      "author": "monte-carlo-data",
+      "repo": "monte-carlo-data/mc-agent-toolkit",
+      "path": "skills/automated-triage",
+      "commitHash": "3a3d3454f3ad",
+      "version": "1.1.1",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references/triage-example.md", "references/triage-stages.md"]
+    },
+    {
+      "id": "monte-carlo-data/mc-agent-toolkit/skills/incident-response",
+      "name": "monte-carlo-incident-response",
+      "description": "Orchestrate incident response — triage, root cause, remediate, prevent recurrence. USE WHEN active alerts, data broken, stale, pipeline failure, or investigate and fix a data incident.",
+      "categories": ["DevOps", "Security", "Data & Analytics"],
+      "author": "monte-carlo-data",
+      "repo": "monte-carlo-data/mc-agent-toolkit",
+      "path": "skills/incident-response",
+      "commitHash": "3a3d3454f3ad",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "monte-carlo-data/mc-agent-toolkit/.claude/skills/toolkit-skill-author",
+      "name": "toolkit-skill-author",
+      "description": "Authors or extends a skill in mc-agent-toolkit. Gates for forbidden buckets and name collisions, applies CONTRIBUTING's extend-or-split rules, then edits a peer skill or hands off to Anthropic's skill-creator and walks the registration checklist.",
+      "categories": ["Writing"],
+      "author": "monte-carlo-data",
+      "repo": "monte-carlo-data/mc-agent-toolkit",
+      "path": ".claude/skills/toolkit-skill-author",
+      "commitHash": "3a3d3454f3ad",
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "references/decision-rules.md",
+        "references/handoff-preamble.md",
+        "references/registration-checklist.md",
+        "scripts/find-peers.sh",
+        "scripts/lint-skill.py",
+        "scripts/tests/find-peers.bats",
+        "scripts/tests/lint-skill.bats",
+        "scripts/tests/smoke-test.sh"
+      ]
+    },
+    {
+      "id": "monte-carlo-data/mc-agent-toolkit/skills/context-detection",
+      "name": "monte-carlo-context-detection",
+      "description": "Route data-related requests to the right Monte Carlo skill or workflow. USE WHEN alerts, incidents, data broken, stale, coverage gaps, data quality, or any ambiguous data observability request.",
+      "categories": ["DevOps"],
+      "author": "monte-carlo-data",
+      "repo": "monte-carlo-data/mc-agent-toolkit",
+      "path": "skills/context-detection",
+      "commitHash": "3a3d3454f3ad",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references/signal-definitions.md"]
+    },
+    {
+      "id": "monte-carlo-data/mc-agent-toolkit/skills/manage-mac",
+      "name": "monte-carlo-manage-mac",
+      "description": "Create, edit, validate, and import Monitors-as-Code YAML files. CLI-first; falls back to MC MCP tools, then manual validation.",
+      "categories": ["Documents"],
+      "author": "monte-carlo-data",
+      "repo": "monte-carlo-data/mc-agent-toolkit",
+      "path": "skills/manage-mac",
+      "commitHash": "3a3d3454f3ad",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "monte-carlo-data/mc-agent-toolkit/skills/connection-auth-rules",
+      "name": "connection-auth-rules",
+      "description": "Build a Connection Auth Rules for a Monte Carlo connection type. Fetches live connector schemas and transform steps from the apollo-agent repo.",
+      "categories": ["Data & Analytics"],
+      "author": "monte-carlo-data",
+      "repo": "monte-carlo-data/mc-agent-toolkit",
+      "path": "skills/connection-auth-rules",
+      "commitHash": "3a3d3454f3ad",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "fetch_schema.py"]
+    },
+    {
+      "id": "monte-carlo-data/mc-agent-toolkit/skills/generate-validation-notebook",
+      "name": "generate-validation-notebook",
+      "description": "Generate SQL validation notebooks for dbt changes. Pass a GitHub PR URL or local dbt repo path.",
+      "categories": ["Other"],
+      "author": "monte-carlo-data",
+      "repo": "monte-carlo-data/mc-agent-toolkit",
+      "path": "skills/generate-validation-notebook",
+      "commitHash": "3a3d3454f3ad",
+      "files": [
+        "README.md",
+        "SKILL.md",
+        "scripts/generate_notebook_url.py",
+        "scripts/resolve_dbt_schema.py"
+      ]
+    },
+    {
+      "id": "monte-carlo-data/mc-agent-toolkit/skills/proactive-monitoring",
+      "name": "monte-carlo-proactive-monitoring",
+      "description": "Guide users from coverage analysis to monitor creation. USE WHEN user asks what should I monitor, where are my gaps, improve coverage, or wants a systematic approach to monitoring across their data estate.",
+      "categories": ["Data & Analytics"],
+      "author": "monte-carlo-data",
+      "repo": "monte-carlo-data/mc-agent-toolkit",
+      "path": "skills/proactive-monitoring",
+      "commitHash": "3a3d3454f3ad",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
       "files": ["SKILL.md"]
     },
     {
@@ -16105,6 +16096,28 @@
       "files": ["ORIGIN.md", "SKILL.md", "metadata.json"]
     },
     {
+      "id": "csthink/dashmotion/skills/dashmotion",
+      "name": "dashmotion",
+      "description": "Create dark-themed, animated technical diagrams as self-contained HTML+SVG files — flowcharts whose connectors visibly flow, and architecture diagrams where requests travel as light dots through the system (Diagrid/Temporal landing-page style). Use this skill whenever the user asks for a flowchart, workflow, pipeline, process diagram, state machine, system architecture, infrastructure, cloud, microservices, or network topology diagram — and especially when they mention \"animated\", \"flowing\", \"dynamic\", \"alive\", \"GIF-like\", or want a diagram for a landing page, README, docs, or product demo. Also use it to convert Mermaid source (a mermaid code block or .mmd file) into an animated diagram — \"animate this mermaid\", \"make this flowchart move\". Prefer this over static diagram output whenever the diagram represents anything that moves: requests, events, data, jobs, messages, or control flow.",
+      "categories": [
+        "Development",
+        "DevOps",
+        "Design",
+        "Writing",
+        "Data & Analytics",
+        "Documents",
+        "Integration",
+        "AI & ML"
+      ],
+      "author": "csthink",
+      "repo": "csthink/dashmotion",
+      "path": "skills/dashmotion",
+      "commitHash": "ae2fe4f28c60",
+      "version": "2.2.4",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md", "references", "resources", "scripts"]
+    },
+    {
       "id": "Ashutos1997/claude-design-auditor-skill",
       "name": "design-auditor",
       "description": "Audit designs against 19 rules across Figma files and code (HTML/CSS/React/Vue/Tailwind). Auto-detects framework and design system (MUI, Chakra, shadcn/ui, Ant Design, Radix, Bootstrap). Runs code superpowers across all 19 categories: aria, focus, contrast, tokens, responsive, motion, forms, navigation, spacing, states, microcopy, elevation, iconography/SVG. Flags color blindness risk. Audits dark patterns, ethical design, Nielsen's heuristics. Outputs before/after diffs, developer handoff reports, wireframe-to-spec. English and Korean. Triggers on: check my design, review my UI, audit my layout, is this accessible, design review, color contrast, WCAG, a11y, pixel perfect, Figma audit, CSS check, dark patterns, is this GDPR compliant, is this manipulative, is my form accessible, is my dark mode correct, wireframe to spec, heuristic review, Nielsen audit, usability heuristics, 디자인 검토, 접근성 확인, 색상 대비, 다크 패턴, 와이어프레임 스펙.",
@@ -16146,28 +16159,6 @@
       "path": "skills/skill-scorer",
       "commitHash": "074654181872",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "csthink/dashmotion/skills/dashmotion",
-      "name": "dashmotion",
-      "description": "Create dark-themed, animated technical diagrams as self-contained HTML+SVG files — flowcharts whose connectors visibly flow, and architecture diagrams where requests travel as light dots through the system (Diagrid/Temporal landing-page style). Use this skill whenever the user asks for a flowchart, workflow, pipeline, process diagram, state machine, system architecture, infrastructure, cloud, microservices, or network topology diagram — and especially when they mention \"animated\", \"flowing\", \"dynamic\", \"alive\", \"GIF-like\", or want a diagram for a landing page, README, docs, or product demo. Also use it to convert Mermaid source (a mermaid code block or .mmd file) into an animated diagram — \"animate this mermaid\", \"make this flowchart move\". Prefer this over static diagram output whenever the diagram represents anything that moves: requests, events, data, jobs, messages, or control flow.",
-      "categories": [
-        "Development",
-        "DevOps",
-        "Design",
-        "Writing",
-        "Data & Analytics",
-        "Documents",
-        "Integration",
-        "AI & ML"
-      ],
-      "author": "csthink",
-      "repo": "csthink/dashmotion",
-      "path": "skills/dashmotion",
-      "commitHash": "ae2fe4f28c60",
-      "version": "2.2.4",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md", "references", "resources", "scripts"]
     },
     {
       "id": "kawasima/evolutionary-naming/skills/evolutionary-naming",
@@ -16539,7 +16530,7 @@
       "author": "rnett",
       "repo": "rnett/gradle-mcp",
       "path": "src/main/skills/gradle",
-      "commitHash": "8a7a85c3fcd9",
+      "commitHash": "77b7f1aec01c",
       "files": ["SKILL.md", "references"]
     },
     {
@@ -16755,7 +16746,7 @@
       "author": "li599198347-svg",
       "repo": "li599198347-svg/aham-ppt",
       "path": "",
-      "commitHash": "c89871414591",
+      "commitHash": "36dad35acd39",
       "files": ["SKILL.md"]
     },
     {
@@ -16777,30 +16768,6 @@
         "换一个.md",
         "自动.md"
       ]
-    },
-    {
-      "id": "apurvrdx1/tagore",
-      "name": "tagore",
-      "description": "Write or rewrite prose so it sounds like a human wrote it — not a frontier\nmodel. Named in homage to Rabindranath Tagore, whose prose carried what\nfrontier models reach for and miss: a point of view, specificity over\nabstraction, and restraint over puffery. Merges two complementary approaches:\na 29-pattern catalog of AI tells (from humanizer) plus an 8-rule operating\nsystem with an 8-dimension scoring gate (extending stop-slop). Use when\ndrafting, editing, or reviewing any prose: essays, posts, docs, reports,\nemails. Detects and removes inflated symbolism, promotional language,\nsuperficial -ing analyses, vague attributions, em dash overuse, rule of\nthree, AI vocabulary, passive voice, negative parallelisms, filler phrases,\ninanimate-verb constructions, narrator-from-a-distance voice, and metronomic\nrhythm. Adds back the things AI writing usually lacks: point of view, stakes,\nspecificity, restraint, varied rhythm, and trust in the reader.\n",
-      "categories": ["Development", "Writing", "AI & ML", "Media"],
-      "author": "apurvrdx1",
-      "repo": "apurvrdx1/tagore",
-      "path": "",
-      "commitHash": "1238743725cb",
-      "version": "1.0.0",
-      "compatibility": { "minAgentVersion": "0.1.0" },
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "huhx0015/HXAudioPlayer/claude/skills/hxaudio-player",
-      "name": "hxaudio-player",
-      "description": "HX Audio Player for music and sound playback. Use when implementing music playback, sound effects, HXMusic, HXSound, or audio in HXAudioPlayer. Library is in the hxaudio module.",
-      "categories": ["Media"],
-      "author": "huhx0015",
-      "repo": "huhx0015/HXAudioPlayer",
-      "path": "claude/skills/hxaudio-player",
-      "commitHash": "e242f10cbbf8",
-      "files": ["SKILL.md"]
     },
     {
       "id": "genli-ai/market-research-skills/skills/verifying",
@@ -16878,6 +16845,30 @@
         "references",
         "scripts"
       ]
+    },
+    {
+      "id": "apurvrdx1/tagore",
+      "name": "tagore",
+      "description": "Write or rewrite prose so it sounds like a human wrote it — not a frontier\nmodel. Named in homage to Rabindranath Tagore, whose prose carried what\nfrontier models reach for and miss: a point of view, specificity over\nabstraction, and restraint over puffery. Merges two complementary approaches:\na 29-pattern catalog of AI tells (from humanizer) plus an 8-rule operating\nsystem with an 8-dimension scoring gate (extending stop-slop). Use when\ndrafting, editing, or reviewing any prose: essays, posts, docs, reports,\nemails. Detects and removes inflated symbolism, promotional language,\nsuperficial -ing analyses, vague attributions, em dash overuse, rule of\nthree, AI vocabulary, passive voice, negative parallelisms, filler phrases,\ninanimate-verb constructions, narrator-from-a-distance voice, and metronomic\nrhythm. Adds back the things AI writing usually lacks: point of view, stakes,\nspecificity, restraint, varied rhythm, and trust in the reader.\n",
+      "categories": ["Development", "Writing", "AI & ML", "Media"],
+      "author": "apurvrdx1",
+      "repo": "apurvrdx1/tagore",
+      "path": "",
+      "commitHash": "1238743725cb",
+      "version": "1.0.0",
+      "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "huhx0015/HXAudioPlayer/claude/skills/hxaudio-player",
+      "name": "hxaudio-player",
+      "description": "HX Audio Player for music and sound playback. Use when implementing music playback, sound effects, HXMusic, HXSound, or audio in HXAudioPlayer. Library is in the hxaudio module.",
+      "categories": ["Media"],
+      "author": "huhx0015",
+      "repo": "huhx0015/HXAudioPlayer",
+      "path": "claude/skills/hxaudio-player",
+      "commitHash": "e242f10cbbf8",
+      "files": ["SKILL.md"]
     },
     {
       "id": "kimlawtech/korean-contracts/salary-renewal",
@@ -17673,6 +17664,17 @@
       "path": "awesome-code/agents/code-reviewer",
       "commitHash": "fc1c2db3efc0",
       "files": ["SKILL.md", "references/legacy-skill-full.md"]
+    },
+    {
+      "id": "huangwb8/skills/awesome-code/agents/writing-plans",
+      "name": "writing-plans",
+      "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+      "categories": ["Productivity"],
+      "author": "huangwb8",
+      "repo": "huangwb8/skills",
+      "path": "awesome-code/agents/writing-plans",
+      "commitHash": "fc1c2db3efc0",
+      "files": ["SKILL.md"]
     },
     {
       "id": "huangwb8/skills/awesome-code/agents/mirror-optimizer",
@@ -19188,17 +19190,6 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "adriannoes/awesome-vibe-coding/cursor-claude-codex/skills/taste-skills/skills/stitch-skill",
-      "name": "stitch-design-taste",
-      "description": "Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.",
-      "categories": ["Design", "Documents"],
-      "author": "adriannoes",
-      "repo": "adriannoes/awesome-vibe-coding",
-      "path": "cursor-claude-codex/skills/taste-skills/skills/stitch-skill",
-      "commitHash": "8b1ee64fb1d0",
-      "files": ["DESIGN.md", "SKILL.md"]
-    },
-    {
       "id": "adriannoes/awesome-vibe-coding/cursor-claude-codex/skills/taste-skills/skills/output-skill",
       "name": "full-output-enforcement",
       "description": "Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output.",
@@ -19317,17 +19308,6 @@
       "files": ["LOGIC.md", "SKILL.md", "UI.md"]
     },
     {
-      "id": "adriannoes/awesome-vibe-coding/cursor-claude-codex/skills/taste-skills/skills/redesign-skill",
-      "name": "redesign-existing-projects",
-      "description": "Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS framework or vanilla CSS.",
-      "categories": ["Development", "Design", "Business"],
-      "author": "adriannoes",
-      "repo": "adriannoes/awesome-vibe-coding",
-      "path": "cursor-claude-codex/skills/taste-skills/skills/redesign-skill",
-      "commitHash": "8b1ee64fb1d0",
-      "files": ["SKILL.md"]
-    },
-    {
       "id": "adriannoes/awesome-vibe-coding/cursor-claude-codex/skills/bug-hunter/skills/hunt-auth-bypass",
       "name": "hunt-auth-bypass",
       "description": "Hunting skill for auth bypass vulnerabilities. Built from 4 public bug bounty reports. Use when hunting auth bypass on any target.",
@@ -19349,6 +19329,17 @@
       "commitHash": "8b1ee64fb1d0",
       "version": "1.0.0",
       "compatibility": { "minAgentVersion": "0.1.0" },
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "adriannoes/awesome-vibe-coding/cursor-claude-codex/skills/taste-skills/skills/gpt-tasteskill",
+      "name": "gpt-taste",
+      "description": "Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless bento grids, strict GSAP ScrollTriggers (pinning, stacking, scrubbing), inline micro-images, and massive section spacing.",
+      "categories": ["Design", "AI & ML"],
+      "author": "adriannoes",
+      "repo": "adriannoes/awesome-vibe-coding",
+      "path": "cursor-claude-codex/skills/taste-skills/skills/gpt-tasteskill",
+      "commitHash": "8b1ee64fb1d0",
       "files": ["SKILL.md"]
     },
     {
@@ -20379,7 +20370,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/security-audit",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20390,7 +20381,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/refactoring",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20401,7 +20392,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-ranking",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20412,7 +20403,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-optimization",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20423,7 +20414,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-injection",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20434,7 +20425,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/version-control",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20445,7 +20436,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-deployment",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20456,7 +20447,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/translation",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20467,7 +20458,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-schema-design",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20478,7 +20469,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-design",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20489,7 +20480,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-migration",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20500,7 +20491,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/meeting-transcription",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20511,7 +20502,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/chatbot-conversation-design",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20522,7 +20513,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/cloud-monitoring",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20533,7 +20524,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/content-strategy",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20544,7 +20535,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/email-drafting",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20555,7 +20546,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-analysis",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20566,7 +20557,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-visualization",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20577,7 +20568,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/keyword-research",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20588,7 +20579,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/task-automation",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20599,7 +20590,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/threat-modeling",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20610,7 +20601,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/hyperparameter-tuning",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20621,7 +20612,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/literature-review",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20632,7 +20623,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/seo-optimization",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20643,7 +20634,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "productivity-and-workflow/note-taking",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20654,7 +20645,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/model-training",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20665,7 +20656,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/proofreading",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20676,7 +20667,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/webhook-setup",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20687,7 +20678,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-retrieval",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20698,7 +20689,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/technical-writing",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20709,7 +20700,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/blog-post-writing",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20720,7 +20711,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/analytics-reporting",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20731,7 +20722,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/sql-query-generation",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20742,7 +20733,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "code-and-development/code-documentation",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20753,7 +20744,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "writing-and-content/copywriting",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20764,7 +20755,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/static-application-security-testing",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20775,7 +20766,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/ml-pipeline-creation",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20786,7 +20777,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dependency-scanning",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20797,7 +20788,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-backup",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20808,7 +20799,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/ci-cd",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20819,7 +20810,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/report-generation",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20830,7 +20821,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/api-integration",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20841,7 +20832,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/summarization",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20852,7 +20843,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/database-seeding",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20863,7 +20854,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "marketing-and-seo/social-media-posting",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20874,7 +20865,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "ai-ml-operations/data-labeling",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20885,7 +20876,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "communication/presentation-creation",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20896,7 +20887,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/deep-research",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20907,7 +20898,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "database/query-optimization",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20918,7 +20909,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/oauth-2-0-setup",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20929,7 +20920,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/fact-checking",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20940,7 +20931,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "api-and-integration/graphql-api-design",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20951,7 +20942,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "context-engineering/context-compression",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20962,7 +20953,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/exploratory-data-analysis",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20973,7 +20964,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "security/dynamic-application-security-testing",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20984,7 +20975,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/docker-compose-setup",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -20995,7 +20986,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "research-and-knowledge/knowledge-graph-creation",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -21006,7 +20997,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/kubernetes-deployment",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -21017,7 +21008,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "devops-and-infrastructure/infrastructure-as-code",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -21028,7 +21019,7 @@
       "author": "h4vzz",
       "repo": "h4vzz/awesome-ai-agent-skills",
       "path": "data-and-analytics/data-cleaning",
-      "commitHash": "8a6fe2600fe6",
+      "commitHash": "52b8240aa0ee",
       "files": ["SKILL.md"]
     },
     {
@@ -24888,6 +24879,28 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "YurunChen/repo-docs-skills",
+      "name": "repo-docs",
+      "description": "Build and maintain a Markdown guide that helps humans understand a repository through real behavior, concepts, and evidence. Use when a user asks to understand a repo, generate or update repo-docs, answer repo-architecture/onboarding questions, seed docs for a new project, sync docs after code changes, or delete generated repo docs.",
+      "categories": ["Development", "Productivity"],
+      "author": "YurunChen",
+      "repo": "YurunChen/repo-docs-skills",
+      "path": "",
+      "commitHash": "932fa43235c5",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "YurunChen/repo-docs-skills/repo-docs-zh",
+      "name": "repo-docs-zh",
+      "description": "Generate and maintain repo-docs with Chinese as the primary reader language while preserving source identifiers for lookup. Use when the user asks for Chinese repo docs, mentions repo-docs-zh, wants repo documentation in Chinese, or wants an existing repo-docs package localized for Chinese readers.",
+      "categories": ["Writing"],
+      "author": "YurunChen",
+      "repo": "YurunChen/repo-docs-skills",
+      "path": "repo-docs-zh",
+      "commitHash": "932fa43235c5",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "MnemeHQ/mneme/mneme-project-memory/integrations/claude-code/skills/mneme",
       "name": "mneme",
       "description": "Architectural governance for this project. Use this skill when the user\nasks about project decisions, architectural constraints, or wants to\nenforce / record / review decisions. Also use whenever Claude Code is\nabout to make a non-trivial edit and the project has a `.mneme/`\ndirectory — check relevant decisions first.\n",
@@ -27226,6 +27239,50 @@
       "files": ["SKILL.md"]
     },
     {
+      "id": "HuangRunHua/LatteCam/.cursor/skills/lattecam-bootstrap",
+      "name": "lattecam-bootstrap",
+      "description": "Use when setting up LatteCam, MediaMTX, Scrypted, or HomeKit from this repository.",
+      "categories": ["Other"],
+      "author": "HuangRunHua",
+      "repo": "HuangRunHua/LatteCam",
+      "path": ".cursor/skills/lattecam-bootstrap",
+      "commitHash": "54d764757d24",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "HuangRunHua/LatteCam/.cursor/skills/lattecam-release-sanitizer",
+      "name": "lattecam-release-sanitizer",
+      "description": "Use before committing, releasing, or publishing LatteCam to GitHub.",
+      "categories": ["Development"],
+      "author": "HuangRunHua",
+      "repo": "HuangRunHua/LatteCam",
+      "path": ".cursor/skills/lattecam-release-sanitizer",
+      "commitHash": "54d764757d24",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "HuangRunHua/LatteCam/.cursor/skills/lattecam-security-hardening",
+      "name": "lattecam-security-hardening",
+      "description": "Use when the user asks about LatteCam security, RTMPS, certificates, firewall, or safe publishing.",
+      "categories": ["Security"],
+      "author": "HuangRunHua",
+      "repo": "HuangRunHua/LatteCam",
+      "path": ".cursor/skills/lattecam-security-hardening",
+      "commitHash": "54d764757d24",
+      "files": ["SKILL.md"]
+    },
+    {
+      "id": "HuangRunHua/LatteCam/.cursor/skills/lattecam-troubleshooting",
+      "name": "lattecam-troubleshooting",
+      "description": "Use when LatteCam reconnects, Scrypted has no video, RTSP is 404, RTMPS TLS fails, or HomeKit pairing times out.",
+      "categories": ["Other"],
+      "author": "HuangRunHua",
+      "repo": "HuangRunHua/LatteCam",
+      "path": ".cursor/skills/lattecam-troubleshooting",
+      "commitHash": "54d764757d24",
+      "files": ["SKILL.md"]
+    },
+    {
       "id": "lguz/humanize-writing-skill/skills/humanize-writing",
       "name": "humanize-writing",
       "description": "Use when the user wants text to sound more human, says writing sounds \"too AI\" or \"too ChatGPT,\" asks to humanize or rewrite a draft to feel natural, or shares content wanting it to feel authentic and less robotic. Also applies to LinkedIn posts, blog drafts, or emails where the user wants a more genuine voice.\n",
@@ -28805,48 +28862,405 @@
       "files": ["SKILL.md"]
     },
     {
-      "id": "HuangRunHua/LatteCam/.cursor/skills/lattecam-bootstrap",
-      "name": "lattecam-bootstrap",
-      "description": "Use when setting up LatteCam, MediaMTX, Scrypted, or HomeKit from this repository.",
-      "categories": ["Other"],
-      "author": "HuangRunHua",
-      "repo": "HuangRunHua/LatteCam",
-      "path": ".cursor/skills/lattecam-bootstrap",
-      "commitHash": "54d764757d24",
+      "id": "heymegabyte/claude-skills/.devin/skills/emdash",
+      "name": "emdash-skills",
+      "description": "14-category product-building OS. CF Workers+Hono, Angular, D1, Drizzle, Clerk, Stripe. 94 reference docs, 18 agents.",
+      "categories": ["Development", "AI & ML"],
+      "author": "heymegabyte",
+      "repo": "heymegabyte/claude-skills",
+      "path": ".devin/skills/emdash",
+      "commitHash": "e5992d7d81c7",
       "files": ["SKILL.md"]
     },
     {
-      "id": "HuangRunHua/LatteCam/.cursor/skills/lattecam-release-sanitizer",
-      "name": "lattecam-release-sanitizer",
-      "description": "Use before committing, releasing, or publishing LatteCam to GitHub.",
-      "categories": ["Development"],
-      "author": "HuangRunHua",
-      "repo": "HuangRunHua/LatteCam",
-      "path": ".cursor/skills/lattecam-release-sanitizer",
-      "commitHash": "54d764757d24",
+      "id": "heymegabyte/claude-skills/01-operating-system",
+      "name": "operating-system",
+      "description": "Supreme policy layer governing all Claude Code behavior. Autonomy, one-line prompt interpretation, speed standards, emphasis signal processing, cross-skill coordination, done definitions, conflict resolution. Loaded every prompt.",
+      "categories": ["AI & ML"],
+      "author": "heymegabyte",
+      "repo": "heymegabyte/claude-skills",
+      "path": "01-operating-system",
+      "commitHash": "e5992d7d81c7",
+      "files": [
+        "SKILL.md",
+        "ai-native-coding.md",
+        "architecture-thought-loop.md",
+        "autonomous-orchestrator.md",
+        "context-engineering.md",
+        "one-line-saas.md",
+        "output-compression.md"
+      ]
+    },
+    {
+      "id": "heymegabyte/claude-skills/02-goal-and-brief",
+      "name": "goal-and-brief",
+      "description": "Establish project thesis before first code. Infer product type from domain/folder/README. Identify users, business model, pSEO strategy, AI-native dev approach. Maintain PROJECT_BRIEF.md as source of truth.",
+      "categories": ["AI & ML"],
+      "author": "heymegabyte",
+      "repo": "heymegabyte/claude-skills",
+      "path": "02-goal-and-brief",
+      "commitHash": "e5992d7d81c7",
       "files": ["SKILL.md"]
     },
     {
-      "id": "HuangRunHua/LatteCam/.cursor/skills/lattecam-security-hardening",
-      "name": "lattecam-security-hardening",
-      "description": "Use when the user asks about LatteCam security, RTMPS, certificates, firewall, or safe publishing.",
-      "categories": ["Security"],
-      "author": "HuangRunHua",
-      "repo": "HuangRunHua/LatteCam",
-      "path": ".cursor/skills/lattecam-security-hardening",
-      "commitHash": "54d764757d24",
+      "id": "heymegabyte/claude-skills/03-planning-and-research",
+      "name": "planning-and-research",
+      "description": "Deep web research, competitor scanning, technology evaluation, and implementation planning. Decomposes work into vertical slices, identifies parallel workstreams, tracks assumptions with confidence levels, and designs the critical path for minimum wall-clock time.",
+      "categories": ["Productivity", "Research"],
+      "author": "heymegabyte",
+      "repo": "heymegabyte/claude-skills",
+      "path": "03-planning-and-research",
+      "commitHash": "e5992d7d81c7",
+      "files": ["SKILL.md", "build-breaking-rules.md", "competitive-analysis.md"]
+    },
+    {
+      "id": "heymegabyte/claude-skills/04-preference-and-memory",
+      "name": "preference-and-memory",
+      "description": "Captures and evolves user preferences with confidence levels. Maintains Voice of the Customer model with exact language, dissatisfaction and aspiration signals. Handles promotion/demotion, global vs project scoping, auto memory system, and Omi wearable data integration.",
+      "categories": ["AI & ML"],
+      "author": "heymegabyte",
+      "repo": "heymegabyte/claude-skills",
+      "path": "04-preference-and-memory",
+      "commitHash": "e5992d7d81c7",
+      "files": [
+        "SKILL.md",
+        "brian-decision-model.md",
+        "brian-voc-data.md",
+        "wisdom-and-human-psychology.md"
+      ]
+    },
+    {
+      "id": "heymegabyte/claude-skills/05-architecture-and-stack",
+      "name": "architecture-and-stack",
+      "description": "Cloudflare-first platform selection. Decision trees for Workers, D1, R2, KV, DO, Queues, Vectorize, Containers, Sandboxes, Flagship, Agent Memory, Workflows v2. Default stack, override conditions, auth, data patterns, reliability.",
+      "categories": ["Development", "DevOps", "AI & ML"],
+      "author": "heymegabyte",
+      "repo": "heymegabyte/claude-skills",
+      "path": "05-architecture-and-stack",
+      "commitHash": "e5992d7d81c7",
+      "files": [
+        "SKILL.md",
+        "ai-technology-integration.md",
+        "api-design-and-documentation.md",
+        "auth-and-session-management.md",
+        "auth0-token-vault.md",
+        "background-jobs-and-workflows.md",
+        "cf-2026-updates.md",
+        "cf-agents-do-pattern.md",
+        "cf-auto-provision.md",
+        "cf-browser-rendering.md",
+        "cf-do-rate-limiter.md",
+        "cf-hyperdrive.md",
+        "cf-rag-vectorize-pattern.md",
+        "cf-saas-template-stack.md",
+        "cf-websocket-do-pattern.md",
+        "cf-workflows-pattern.md",
+        "cf-zero-trust-access.md",
+        "coolify-docker-proxmox.md",
+        "drizzle-orm-and-migrations.md",
+        "dynamic-sitemap-from-d1.md"
+      ]
+    },
+    {
+      "id": "heymegabyte/claude-skills/06-build-and-slice-loop",
+      "name": "build-and-slice-loop",
+      "description": "Implements features in vertical slices, always starting with homepage. Enforces anti-placeholder rules — no lorem ipsum, no TODO stubs, no gray boxes. Real content, real images, real interactions. TypeScript strict mode, Zod validation, and structured file organization.",
+      "categories": ["Development", "Design"],
+      "author": "heymegabyte",
+      "repo": "heymegabyte/claude-skills",
+      "path": "06-build-and-slice-loop",
+      "commitHash": "e5992d7d81c7",
+      "files": [
+        "SKILL.md",
+        "admin-dashboard.md",
+        "ai-chat-widget.md",
+        "blog-and-content-engine.md",
+        "build-breaking-rules.md",
+        "chat-native-dashboard.md",
+        "contact-forms-and-endpoints.md",
+        "copilot-and-ai-features.md",
+        "custom-error-pages.md",
+        "data-tables.md",
+        "domain-provisioning.md",
+        "easter-eggs.md",
+        "empty-states-and-loading.md",
+        "file-uploads-and-storage.md",
+        "internationalization.md",
+        "keyboard-shortcuts-and-command-palette.md",
+        "microcopy-library.md",
+        "notification-center.md",
+        "notification-system.md",
+        "onboarding-and-first-run.md"
+      ]
+    },
+    {
+      "id": "heymegabyte/claude-skills/07-quality-and-verification",
+      "name": "quality-and-verification",
+      "description": "5-level verification pyramid: static→unit→Playwright E2E (homepage-first, 6bp)→AI visual→post-deploy. 8-check quality gate. Multi-agent testing (functional/security/a11y/performance). Playwright v1.59+ AI agents (Planner/Generator/Healer). WCAG 2.2 AA via axe-core v4.11. Percy+Chromatic visual regression. ADA Title II 2027/2028 deadlines.",
+      "categories": ["Development", "Productivity", "AI & ML"],
+      "author": "heymegabyte",
+      "repo": "heymegabyte/claude-skills",
+      "path": "07-quality-and-verification",
+      "commitHash": "e5992d7d81c7",
+      "files": [
+        "SKILL.md",
+        "accessibility-gate.md",
+        "adversarial-testing.md",
+        "agentic-security.md",
+        "audio-video-sync.md",
+        "build-breaking-rules.md",
+        "chrome-and-browser-workflows.md",
+        "completeness-verification.md",
+        "computer-use-automation.md",
+        "contract-testing.md",
+        "e2e-accumulation.md",
+        "eval-driven-development.md",
+        "evidence-collection.md",
+        "llm-evals.md",
+        "performance-optimization.md",
+        "picovoice-eagle-biometric.md",
+        "security-hardening.md",
+        "semgrep-codebase-rules.md",
+        "slop-detection.md",
+        "spec-driven-development.md"
+      ]
+    },
+    {
+      "id": "heymegabyte/claude-skills/08-deploy-and-runtime-verification",
+      "name": "deploy-and-runtime-verification",
+      "description": "MANDATORY deploy after every code change. Typecheck → deploy → purge CDN → E2E on production → visual verify → fix-forward loop. Workers Builds native CI/CD, D1 Time Travel PIT recovery, D1→R2 long-term backups, wrangler rollback, wrangler secrets management, structured observability, cross-browser smoke tests, rollback procedures, and GitHub auto-configuration.",
+      "categories": ["Development", "DevOps", "Design", "Productivity"],
+      "author": "heymegabyte",
+      "repo": "heymegabyte/claude-skills",
+      "path": "08-deploy-and-runtime-verification",
+      "commitHash": "e5992d7d81c7",
+      "files": [
+        "SKILL.md",
+        "backup-and-disaster-recovery.md",
+        "changelog-and-releases.md",
+        "ci-cd-pipeline.md",
+        "critical-css.md",
+        "font-subsetting.md",
+        "gh-fix-ci.md",
+        "launch-day-sequence.md",
+        "pipeline-health-check.md",
+        "r2-lifecycle.md",
+        "service-worker.md",
+        "uptime-and-health.md"
+      ]
+    },
+    {
+      "id": "heymegabyte/claude-skills/09-brand-and-content-system",
+      "name": "brand-and-content-system",
+      "description": "Extract real brands (Wayback for rebuilds). Copy system, headline/CTA rules, trust surfaces, legal pages, SEO+structured data, anti-AI-slop, microcopy, DESIGN.md, W3C DTCG tokens, pSEO 5 types, GEO/AI search.",
+      "categories": ["Development", "Design", "Writing"],
+      "author": "heymegabyte",
+      "repo": "heymegabyte/claude-skills",
+      "path": "09-brand-and-content-system",
+      "commitHash": "e5992d7d81c7",
+      "files": [
+        "SKILL.md",
+        "ai-search-geo.md",
+        "build-breaking-rules.md",
+        "documentation-and-codebase-hygiene.md",
+        "email-templates.md",
+        "grammar-audit.md",
+        "per-route-metadata.md",
+        "seo-and-keywords.md",
+        "social-automation.md"
+      ]
+    },
+    {
+      "id": "heymegabyte/claude-skills/10-experience-and-design-system",
+      "name": "experience-and-design-system",
+      "description": "Anti-AI-slop design system for distinctive, premium interfaces. Bold typography, dark-first #060610, fluid clamp() type, cascade layers + native nesting + container queries, OKLCH color, @starting-style, View Transitions API, DTCG tokens.",
+      "categories": ["Design"],
+      "author": "heymegabyte",
+      "repo": "heymegabyte/claude-skills",
+      "path": "10-experience-and-design-system",
+      "commitHash": "e5992d7d81c7",
+      "files": ["SKILL.md", "build-breaking-rules.md", "cinematic-doctrine.md", "design-tokens.md"]
+    },
+    {
+      "id": "heymegabyte/claude-skills/11-motion-and-interaction-system",
+      "name": "motion-and-interaction-system",
+      "description": "Meaning-first animation with 3-tier hierarchy. CSS scroll-driven (animation-timeline: scroll()), View Transitions API, @starting-style DOM-insert, container scroll-state queries, prefers-reduced-motion mandatory on all animations.",
+      "categories": ["Design"],
+      "author": "heymegabyte",
+      "repo": "heymegabyte/claude-skills",
+      "path": "11-motion-and-interaction-system",
+      "commitHash": "e5992d7d81c7",
+      "files": ["SKILL.md", "build-breaking-rules.md"]
+    },
+    {
+      "id": "heymegabyte/claude-skills/12-media-orchestration",
+      "name": "media-orchestration",
+      "description": "Section-by-section media planning and generation. Image generation (GPT Image 1.5 primary, built-in fallback), logo/icon generation (Ideogram v3 → favicon set), video generation (Sora), social preview images (OG 1200x630 + AI search optimization), stock photo curation (Pexels, Pixabay), critique/remix loops (max 3 rounds), asset compression pipeline, and media performance budgets.",
+      "categories": ["Design", "Documents", "Research", "AI & ML", "Media"],
+      "author": "heymegabyte",
+      "repo": "heymegabyte/claude-skills",
+      "path": "12-media-orchestration",
+      "commitHash": "e5992d7d81c7",
+      "files": [
+        "30-ideogram-methods.md",
+        "SKILL.md",
+        "build-breaking-rules.md",
+        "compression-pipeline.md",
+        "image-optimization.md",
+        "image-profiling.md",
+        "lightbox-classifier.md",
+        "media-prompts.md",
+        "notebooklm-pipeline.md",
+        "og-card-pipeline.md",
+        "og-image-generation.md",
+        "social-brand-hex.md",
+        "technical-diagramming.md",
+        "templates/PROMPTS.md"
+      ]
+    },
+    {
+      "id": "heymegabyte/claude-skills/13-observability-and-growth",
+      "name": "observability-and-growth",
+      "description": "Full instrumentation from day one. PostHog consolidates product analytics + feature flags + error tracking (one platform, one bill). GA4 via GTM (14-step automation, custom dimensions over events, server-side tagging). Sentry (deep error tracking + performance). Stripe (webhook-first with idempotent processing). Listmonk on Coolify (newsletters via Amazon SES SMTP relay). PLG 7-layer framework. Programmatic SEO (5 page types). Incident auto-remediation via Sentry→Inngest pipeline. AI search (GEO) awareness. Local business conversions (phone_click, direction_click, form_submit, booking_click) with CRO patterns for both SaaS and local.",
+      "categories": [
+        "Development",
+        "DevOps",
+        "Writing",
+        "Data & Analytics",
+        "Integration",
+        "Marketing",
+        "Research"
+      ],
+      "author": "heymegabyte",
+      "repo": "heymegabyte/claude-skills",
+      "path": "13-observability-and-growth",
+      "commitHash": "e5992d7d81c7",
+      "files": [
+        "SKILL.md",
+        "activation-funnel.md",
+        "analytics-configuration.md",
+        "conversion-optimization.md",
+        "email-marketing-and-listmonk.md",
+        "feature-flags-and-experiments.md",
+        "mcp-server-registry.md",
+        "sentry-alert-rules.md",
+        "square-payments.md",
+        "stripe-billing.md",
+        "user-feedback-collection.md",
+        "workers-tracing-otlp.md"
+      ]
+    },
+    {
+      "id": "heymegabyte/claude-skills/14-independent-idea-engine",
+      "name": "independent-idea-engine",
+      "description": "Fierce autonomous internal co-founder. Bounded web research for evidence-backed improvements. Structured idea formulation with self-critique filter that rejects ideas not serving the goal. Auto-implements high-confidence aligned improvements, proposes medium-confidence ideas for approval. Evaluates viral coefficient, AI search visibility (GEO), and solo SaaS economics. Considers higher pursuits: employing disabled people, spiritual tech investigation, 99% wealth donation ethos.",
+      "categories": ["Research"],
+      "author": "heymegabyte",
+      "repo": "heymegabyte/claude-skills",
+      "path": "14-independent-idea-engine",
+      "commitHash": "e5992d7d81c7",
       "files": ["SKILL.md"]
     },
     {
-      "id": "HuangRunHua/LatteCam/.cursor/skills/lattecam-troubleshooting",
-      "name": "lattecam-troubleshooting",
-      "description": "Use when LatteCam reconnects, Scrypted has no video, RTSP is 404, RTMPS TLS fails, or HomeKit pairing times out.",
-      "categories": ["Other"],
-      "author": "HuangRunHua",
-      "repo": "HuangRunHua/LatteCam",
-      "path": ".cursor/skills/lattecam-troubleshooting",
-      "commitHash": "54d764757d24",
+      "id": "heymegabyte/claude-skills/15-site-generation",
+      "name": "site-generation",
+      "description": "End-to-end AI website generation pipeline. Claude Opus 4.8 emits Bolt-style <boltArtifact> envelopes (multi-file, plan-first) that customize Vite+React+Tailwind templates from pre-researched business data. Pre-research via APIs, media acquisition, brand extraction, visual inspection via GPT Image 2 vision, R2 upload (per-file content-type by extension), D1 status updates. Supports all business types: SaaS, portfolio, non-profit, restaurant, salon, medical, legal, retail, tech.",
+      "categories": [
+        "Development",
+        "Design",
+        "Productivity",
+        "Data & Analytics",
+        "Research",
+        "Finance",
+        "AI & ML"
+      ],
+      "author": "heymegabyte",
+      "repo": "heymegabyte/claude-skills",
+      "path": "15-site-generation",
+      "commitHash": "e5992d7d81c7",
+      "files": [
+        "SKILL.md",
+        "_real-ua.mjs",
+        "blog-import.mjs",
+        "bolt-artifact-protocol.md",
+        "build-breaking-rules.md",
+        "build-image-redirects.mjs",
+        "build-prompts.md",
+        "check-routes.sh",
+        "domain-features.md",
+        "enhance-blog-posts.mjs",
+        "homepage-block-library.md",
+        "local-seo.md",
+        "media-acquisition.md",
+        "non-technical-owner-onboarding.md",
+        "page-set-expansion.md",
+        "pseo-templates.md",
+        "quality-gates.md",
+        "research-pipeline.md",
+        "scan-assets.mjs",
+        "small-business-mode.md"
+      ]
+    },
+    {
+      "id": "heymegabyte/claude-skills/16-cinematic-website-prime-directive",
+      "name": "cinematic-website-prime-directive",
+      "description": "One-line-prompt → cinematic, gorgeous, functional, well-tested, deployed website. Pre-hydrated SPA + full PWA kit + JSON-LD rich snippets + third-party integrations. React 19+Vite default (Angular optional). 100 concrete improvements grouped into 10 categories that EVERY single-prompt site build must satisfy before being marked done. Trigger whenever the user says 'make a website for X', 'build a site for X', 'rebuild X.com', or any equivalent one-liner.",
+      "categories": ["Development", "Design", "Integration"],
+      "author": "heymegabyte",
+      "repo": "heymegabyte/claude-skills",
+      "path": "16-cinematic-website-prime-directive",
+      "commitHash": "e5992d7d81c7",
       "files": ["SKILL.md"]
+    },
+    {
+      "id": "heymegabyte/claude-skills/17-non-engineering-verticals",
+      "name": "non-engineering-verticals",
+      "description": "C-suite personas, compliance OS, PM domain, and finance domain skills for enterprise client work. Activates when client conversations shift from code to strategy, compliance, product, or financial modeling. Source: alirezarezvani/claude-skills C-suite + compliance tier.",
+      "categories": ["Business", "Finance", "AI & ML"],
+      "author": "heymegabyte",
+      "repo": "heymegabyte/claude-skills",
+      "path": "17-non-engineering-verticals",
+      "commitHash": "e5992d7d81c7",
+      "files": [
+        "SKILL.md",
+        "c-suite-personas.md",
+        "compliance-os.md",
+        "finance-domain.md",
+        "pm-domain.md"
+      ]
+    },
+    {
+      "id": "heymegabyte/claude-skills/18-document-processing",
+      "name": "document-processing",
+      "description": "PDF/DOCX/XLSX/PPTX generation and parsing on Cloudflare Workers. Covers CF Browser Rendering → PDF, pdf-lib Worker-native generation, docx/exceljs output, pptxgenjs slides, and RAG-ready text extraction. Use cases: donor annual reports, SaaS invoices, tax receipts, financial reports, grant applications. Source: anthropics/skills pdf/docx/pptx/xlsx patterns.",
+      "categories": ["Data & Analytics", "Documents", "Finance", "Media"],
+      "author": "heymegabyte",
+      "repo": "heymegabyte/claude-skills",
+      "path": "18-document-processing",
+      "commitHash": "e5992d7d81c7",
+      "files": [
+        "SKILL.md",
+        "docx-xlsx.md",
+        "pdf-generation.md",
+        "pdf-parsing.md",
+        "pptx-generation.md"
+      ]
+    },
+    {
+      "id": "heymegabyte/claude-skills/19-mcp-authoring",
+      "name": "mcp-authoring",
+      "description": "When to author an MCP server, architecture overview (tools/resources/prompts), stdio vs HTTP+SSE transport tradeoffs, registration in .claude.json. Sub-modules: stdio-server-template.md (full TS code), http-server-on-workers.md (Hono + SSE on CF Workers), forge-mcp-from-openapi.md (extend forge script with --target=mcp-server). Fires when user asks to 'build an MCP server', 'expose X as an MCP tool', or 'add MCP to my Worker'.",
+      "categories": ["Development", "AI & ML"],
+      "author": "heymegabyte",
+      "repo": "heymegabyte/claude-skills",
+      "path": "19-mcp-authoring",
+      "commitHash": "e5992d7d81c7",
+      "files": [
+        "SKILL.md",
+        "forge-mcp-from-openapi.md",
+        "http-server-on-workers.md",
+        "stdio-server-template.md"
+      ]
     },
     {
       "id": "Smithbox-ai/ControlFlow/.cursor/skills/controlflow-spec",
@@ -29082,28 +29496,6 @@
         "references/mirage-patterns.md",
         "references/verify-phases.md"
       ]
-    },
-    {
-      "id": "YurunChen/repo-docs-skills",
-      "name": "repo-docs",
-      "description": "Build and maintain a Markdown guide that helps humans understand a repository through real behavior, concepts, and evidence. Use when a user asks to understand a repo, generate or update repo-docs, answer repo-architecture/onboarding questions, seed docs for a new project, sync docs after code changes, or delete generated repo docs.",
-      "categories": ["Development", "Productivity"],
-      "author": "YurunChen",
-      "repo": "YurunChen/repo-docs-skills",
-      "path": "",
-      "commitHash": "932fa43235c5",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "YurunChen/repo-docs-skills/repo-docs-zh",
-      "name": "repo-docs-zh",
-      "description": "Generate and maintain repo-docs with Chinese as the primary reader language while preserving source identifiers for lookup. Use when the user asks for Chinese repo docs, mentions repo-docs-zh, wants repo documentation in Chinese, or wants an existing repo-docs package localized for Chinese readers.",
-      "categories": ["Writing"],
-      "author": "YurunChen",
-      "repo": "YurunChen/repo-docs-skills",
-      "path": "repo-docs-zh",
-      "commitHash": "932fa43235c5",
-      "files": ["SKILL.md"]
     },
     {
       "id": "th3vib3coder/vibe-science/.claude/skills/delivery-discipline",
@@ -30223,407 +30615,6 @@
       "path": "skills/test-env-setup",
       "commitHash": "b9e85e817b20",
       "files": ["SKILL.md"]
-    },
-    {
-      "id": "heymegabyte/claude-skills/.devin/skills/emdash",
-      "name": "emdash-skills",
-      "description": "14-category product-building OS. CF Workers+Hono, Angular, D1, Drizzle, Clerk, Stripe. 94 reference docs, 18 agents.",
-      "categories": ["Development", "AI & ML"],
-      "author": "heymegabyte",
-      "repo": "heymegabyte/claude-skills",
-      "path": ".devin/skills/emdash",
-      "commitHash": "e5992d7d81c7",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "heymegabyte/claude-skills/01-operating-system",
-      "name": "operating-system",
-      "description": "Supreme policy layer governing all Claude Code behavior. Autonomy, one-line prompt interpretation, speed standards, emphasis signal processing, cross-skill coordination, done definitions, conflict resolution. Loaded every prompt.",
-      "categories": ["AI & ML"],
-      "author": "heymegabyte",
-      "repo": "heymegabyte/claude-skills",
-      "path": "01-operating-system",
-      "commitHash": "e5992d7d81c7",
-      "files": [
-        "SKILL.md",
-        "ai-native-coding.md",
-        "architecture-thought-loop.md",
-        "autonomous-orchestrator.md",
-        "context-engineering.md",
-        "one-line-saas.md",
-        "output-compression.md"
-      ]
-    },
-    {
-      "id": "heymegabyte/claude-skills/02-goal-and-brief",
-      "name": "goal-and-brief",
-      "description": "Establish project thesis before first code. Infer product type from domain/folder/README. Identify users, business model, pSEO strategy, AI-native dev approach. Maintain PROJECT_BRIEF.md as source of truth.",
-      "categories": ["AI & ML"],
-      "author": "heymegabyte",
-      "repo": "heymegabyte/claude-skills",
-      "path": "02-goal-and-brief",
-      "commitHash": "e5992d7d81c7",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "heymegabyte/claude-skills/03-planning-and-research",
-      "name": "planning-and-research",
-      "description": "Deep web research, competitor scanning, technology evaluation, and implementation planning. Decomposes work into vertical slices, identifies parallel workstreams, tracks assumptions with confidence levels, and designs the critical path for minimum wall-clock time.",
-      "categories": ["Productivity", "Research"],
-      "author": "heymegabyte",
-      "repo": "heymegabyte/claude-skills",
-      "path": "03-planning-and-research",
-      "commitHash": "e5992d7d81c7",
-      "files": ["SKILL.md", "build-breaking-rules.md", "competitive-analysis.md"]
-    },
-    {
-      "id": "heymegabyte/claude-skills/04-preference-and-memory",
-      "name": "preference-and-memory",
-      "description": "Captures and evolves user preferences with confidence levels. Maintains Voice of the Customer model with exact language, dissatisfaction and aspiration signals. Handles promotion/demotion, global vs project scoping, auto memory system, and Omi wearable data integration.",
-      "categories": ["AI & ML"],
-      "author": "heymegabyte",
-      "repo": "heymegabyte/claude-skills",
-      "path": "04-preference-and-memory",
-      "commitHash": "e5992d7d81c7",
-      "files": [
-        "SKILL.md",
-        "brian-decision-model.md",
-        "brian-voc-data.md",
-        "wisdom-and-human-psychology.md"
-      ]
-    },
-    {
-      "id": "heymegabyte/claude-skills/05-architecture-and-stack",
-      "name": "architecture-and-stack",
-      "description": "Cloudflare-first platform selection. Decision trees for Workers, D1, R2, KV, DO, Queues, Vectorize, Containers, Sandboxes, Flagship, Agent Memory, Workflows v2. Default stack, override conditions, auth, data patterns, reliability.",
-      "categories": ["Development", "DevOps", "AI & ML"],
-      "author": "heymegabyte",
-      "repo": "heymegabyte/claude-skills",
-      "path": "05-architecture-and-stack",
-      "commitHash": "e5992d7d81c7",
-      "files": [
-        "SKILL.md",
-        "ai-technology-integration.md",
-        "api-design-and-documentation.md",
-        "auth-and-session-management.md",
-        "auth0-token-vault.md",
-        "background-jobs-and-workflows.md",
-        "cf-2026-updates.md",
-        "cf-agents-do-pattern.md",
-        "cf-auto-provision.md",
-        "cf-browser-rendering.md",
-        "cf-do-rate-limiter.md",
-        "cf-hyperdrive.md",
-        "cf-rag-vectorize-pattern.md",
-        "cf-saas-template-stack.md",
-        "cf-websocket-do-pattern.md",
-        "cf-workflows-pattern.md",
-        "cf-zero-trust-access.md",
-        "coolify-docker-proxmox.md",
-        "drizzle-orm-and-migrations.md",
-        "dynamic-sitemap-from-d1.md"
-      ]
-    },
-    {
-      "id": "heymegabyte/claude-skills/06-build-and-slice-loop",
-      "name": "build-and-slice-loop",
-      "description": "Implements features in vertical slices, always starting with homepage. Enforces anti-placeholder rules — no lorem ipsum, no TODO stubs, no gray boxes. Real content, real images, real interactions. TypeScript strict mode, Zod validation, and structured file organization.",
-      "categories": ["Development", "Design"],
-      "author": "heymegabyte",
-      "repo": "heymegabyte/claude-skills",
-      "path": "06-build-and-slice-loop",
-      "commitHash": "e5992d7d81c7",
-      "files": [
-        "SKILL.md",
-        "admin-dashboard.md",
-        "ai-chat-widget.md",
-        "blog-and-content-engine.md",
-        "build-breaking-rules.md",
-        "chat-native-dashboard.md",
-        "contact-forms-and-endpoints.md",
-        "copilot-and-ai-features.md",
-        "custom-error-pages.md",
-        "data-tables.md",
-        "domain-provisioning.md",
-        "easter-eggs.md",
-        "empty-states-and-loading.md",
-        "file-uploads-and-storage.md",
-        "internationalization.md",
-        "keyboard-shortcuts-and-command-palette.md",
-        "microcopy-library.md",
-        "notification-center.md",
-        "notification-system.md",
-        "onboarding-and-first-run.md"
-      ]
-    },
-    {
-      "id": "heymegabyte/claude-skills/07-quality-and-verification",
-      "name": "quality-and-verification",
-      "description": "5-level verification pyramid: static→unit→Playwright E2E (homepage-first, 6bp)→AI visual→post-deploy. 8-check quality gate. Multi-agent testing (functional/security/a11y/performance). Playwright v1.59+ AI agents (Planner/Generator/Healer). WCAG 2.2 AA via axe-core v4.11. Percy+Chromatic visual regression. ADA Title II 2027/2028 deadlines.",
-      "categories": ["Development", "Productivity", "AI & ML"],
-      "author": "heymegabyte",
-      "repo": "heymegabyte/claude-skills",
-      "path": "07-quality-and-verification",
-      "commitHash": "e5992d7d81c7",
-      "files": [
-        "SKILL.md",
-        "accessibility-gate.md",
-        "adversarial-testing.md",
-        "agentic-security.md",
-        "audio-video-sync.md",
-        "build-breaking-rules.md",
-        "chrome-and-browser-workflows.md",
-        "completeness-verification.md",
-        "computer-use-automation.md",
-        "contract-testing.md",
-        "e2e-accumulation.md",
-        "eval-driven-development.md",
-        "evidence-collection.md",
-        "llm-evals.md",
-        "performance-optimization.md",
-        "picovoice-eagle-biometric.md",
-        "security-hardening.md",
-        "semgrep-codebase-rules.md",
-        "slop-detection.md",
-        "spec-driven-development.md"
-      ]
-    },
-    {
-      "id": "heymegabyte/claude-skills/08-deploy-and-runtime-verification",
-      "name": "deploy-and-runtime-verification",
-      "description": "MANDATORY deploy after every code change. Typecheck → deploy → purge CDN → E2E on production → visual verify → fix-forward loop. Workers Builds native CI/CD, D1 Time Travel PIT recovery, D1→R2 long-term backups, wrangler rollback, wrangler secrets management, structured observability, cross-browser smoke tests, rollback procedures, and GitHub auto-configuration.",
-      "categories": ["Development", "DevOps", "Design", "Productivity"],
-      "author": "heymegabyte",
-      "repo": "heymegabyte/claude-skills",
-      "path": "08-deploy-and-runtime-verification",
-      "commitHash": "e5992d7d81c7",
-      "files": [
-        "SKILL.md",
-        "backup-and-disaster-recovery.md",
-        "changelog-and-releases.md",
-        "ci-cd-pipeline.md",
-        "critical-css.md",
-        "font-subsetting.md",
-        "gh-fix-ci.md",
-        "launch-day-sequence.md",
-        "pipeline-health-check.md",
-        "r2-lifecycle.md",
-        "service-worker.md",
-        "uptime-and-health.md"
-      ]
-    },
-    {
-      "id": "heymegabyte/claude-skills/09-brand-and-content-system",
-      "name": "brand-and-content-system",
-      "description": "Extract real brands (Wayback for rebuilds). Copy system, headline/CTA rules, trust surfaces, legal pages, SEO+structured data, anti-AI-slop, microcopy, DESIGN.md, W3C DTCG tokens, pSEO 5 types, GEO/AI search.",
-      "categories": ["Development", "Design", "Writing"],
-      "author": "heymegabyte",
-      "repo": "heymegabyte/claude-skills",
-      "path": "09-brand-and-content-system",
-      "commitHash": "e5992d7d81c7",
-      "files": [
-        "SKILL.md",
-        "ai-search-geo.md",
-        "build-breaking-rules.md",
-        "documentation-and-codebase-hygiene.md",
-        "email-templates.md",
-        "grammar-audit.md",
-        "per-route-metadata.md",
-        "seo-and-keywords.md",
-        "social-automation.md"
-      ]
-    },
-    {
-      "id": "heymegabyte/claude-skills/10-experience-and-design-system",
-      "name": "experience-and-design-system",
-      "description": "Anti-AI-slop design system for distinctive, premium interfaces. Bold typography, dark-first #060610, fluid clamp() type, cascade layers + native nesting + container queries, OKLCH color, @starting-style, View Transitions API, DTCG tokens.",
-      "categories": ["Design"],
-      "author": "heymegabyte",
-      "repo": "heymegabyte/claude-skills",
-      "path": "10-experience-and-design-system",
-      "commitHash": "e5992d7d81c7",
-      "files": ["SKILL.md", "build-breaking-rules.md", "cinematic-doctrine.md", "design-tokens.md"]
-    },
-    {
-      "id": "heymegabyte/claude-skills/11-motion-and-interaction-system",
-      "name": "motion-and-interaction-system",
-      "description": "Meaning-first animation with 3-tier hierarchy. CSS scroll-driven (animation-timeline: scroll()), View Transitions API, @starting-style DOM-insert, container scroll-state queries, prefers-reduced-motion mandatory on all animations.",
-      "categories": ["Design"],
-      "author": "heymegabyte",
-      "repo": "heymegabyte/claude-skills",
-      "path": "11-motion-and-interaction-system",
-      "commitHash": "e5992d7d81c7",
-      "files": ["SKILL.md", "build-breaking-rules.md"]
-    },
-    {
-      "id": "heymegabyte/claude-skills/12-media-orchestration",
-      "name": "media-orchestration",
-      "description": "Section-by-section media planning and generation. Image generation (GPT Image 1.5 primary, built-in fallback), logo/icon generation (Ideogram v3 → favicon set), video generation (Sora), social preview images (OG 1200x630 + AI search optimization), stock photo curation (Pexels, Pixabay), critique/remix loops (max 3 rounds), asset compression pipeline, and media performance budgets.",
-      "categories": ["Design", "Documents", "Research", "AI & ML", "Media"],
-      "author": "heymegabyte",
-      "repo": "heymegabyte/claude-skills",
-      "path": "12-media-orchestration",
-      "commitHash": "e5992d7d81c7",
-      "files": [
-        "30-ideogram-methods.md",
-        "SKILL.md",
-        "build-breaking-rules.md",
-        "compression-pipeline.md",
-        "image-optimization.md",
-        "image-profiling.md",
-        "lightbox-classifier.md",
-        "media-prompts.md",
-        "notebooklm-pipeline.md",
-        "og-card-pipeline.md",
-        "og-image-generation.md",
-        "social-brand-hex.md",
-        "technical-diagramming.md",
-        "templates/PROMPTS.md"
-      ]
-    },
-    {
-      "id": "heymegabyte/claude-skills/13-observability-and-growth",
-      "name": "observability-and-growth",
-      "description": "Full instrumentation from day one. PostHog consolidates product analytics + feature flags + error tracking (one platform, one bill). GA4 via GTM (14-step automation, custom dimensions over events, server-side tagging). Sentry (deep error tracking + performance). Stripe (webhook-first with idempotent processing). Listmonk on Coolify (newsletters via Amazon SES SMTP relay). PLG 7-layer framework. Programmatic SEO (5 page types). Incident auto-remediation via Sentry→Inngest pipeline. AI search (GEO) awareness. Local business conversions (phone_click, direction_click, form_submit, booking_click) with CRO patterns for both SaaS and local.",
-      "categories": [
-        "Development",
-        "DevOps",
-        "Writing",
-        "Data & Analytics",
-        "Integration",
-        "Marketing",
-        "Research"
-      ],
-      "author": "heymegabyte",
-      "repo": "heymegabyte/claude-skills",
-      "path": "13-observability-and-growth",
-      "commitHash": "e5992d7d81c7",
-      "files": [
-        "SKILL.md",
-        "activation-funnel.md",
-        "analytics-configuration.md",
-        "conversion-optimization.md",
-        "email-marketing-and-listmonk.md",
-        "feature-flags-and-experiments.md",
-        "mcp-server-registry.md",
-        "sentry-alert-rules.md",
-        "square-payments.md",
-        "stripe-billing.md",
-        "user-feedback-collection.md",
-        "workers-tracing-otlp.md"
-      ]
-    },
-    {
-      "id": "heymegabyte/claude-skills/14-independent-idea-engine",
-      "name": "independent-idea-engine",
-      "description": "Fierce autonomous internal co-founder. Bounded web research for evidence-backed improvements. Structured idea formulation with self-critique filter that rejects ideas not serving the goal. Auto-implements high-confidence aligned improvements, proposes medium-confidence ideas for approval. Evaluates viral coefficient, AI search visibility (GEO), and solo SaaS economics. Considers higher pursuits: employing disabled people, spiritual tech investigation, 99% wealth donation ethos.",
-      "categories": ["Research"],
-      "author": "heymegabyte",
-      "repo": "heymegabyte/claude-skills",
-      "path": "14-independent-idea-engine",
-      "commitHash": "e5992d7d81c7",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "heymegabyte/claude-skills/15-site-generation",
-      "name": "site-generation",
-      "description": "End-to-end AI website generation pipeline. Claude Opus 4.8 emits Bolt-style <boltArtifact> envelopes (multi-file, plan-first) that customize Vite+React+Tailwind templates from pre-researched business data. Pre-research via APIs, media acquisition, brand extraction, visual inspection via GPT Image 2 vision, R2 upload (per-file content-type by extension), D1 status updates. Supports all business types: SaaS, portfolio, non-profit, restaurant, salon, medical, legal, retail, tech.",
-      "categories": [
-        "Development",
-        "Design",
-        "Productivity",
-        "Data & Analytics",
-        "Research",
-        "Finance",
-        "AI & ML"
-      ],
-      "author": "heymegabyte",
-      "repo": "heymegabyte/claude-skills",
-      "path": "15-site-generation",
-      "commitHash": "e5992d7d81c7",
-      "files": [
-        "SKILL.md",
-        "_real-ua.mjs",
-        "blog-import.mjs",
-        "bolt-artifact-protocol.md",
-        "build-breaking-rules.md",
-        "build-image-redirects.mjs",
-        "build-prompts.md",
-        "check-routes.sh",
-        "domain-features.md",
-        "enhance-blog-posts.mjs",
-        "homepage-block-library.md",
-        "local-seo.md",
-        "media-acquisition.md",
-        "non-technical-owner-onboarding.md",
-        "page-set-expansion.md",
-        "pseo-templates.md",
-        "quality-gates.md",
-        "research-pipeline.md",
-        "scan-assets.mjs",
-        "small-business-mode.md"
-      ]
-    },
-    {
-      "id": "heymegabyte/claude-skills/16-cinematic-website-prime-directive",
-      "name": "cinematic-website-prime-directive",
-      "description": "One-line-prompt → cinematic, gorgeous, functional, well-tested, deployed website. Pre-hydrated SPA + full PWA kit + JSON-LD rich snippets + third-party integrations. React 19+Vite default (Angular optional). 100 concrete improvements grouped into 10 categories that EVERY single-prompt site build must satisfy before being marked done. Trigger whenever the user says 'make a website for X', 'build a site for X', 'rebuild X.com', or any equivalent one-liner.",
-      "categories": ["Development", "Design", "Integration"],
-      "author": "heymegabyte",
-      "repo": "heymegabyte/claude-skills",
-      "path": "16-cinematic-website-prime-directive",
-      "commitHash": "e5992d7d81c7",
-      "files": ["SKILL.md"]
-    },
-    {
-      "id": "heymegabyte/claude-skills/17-non-engineering-verticals",
-      "name": "non-engineering-verticals",
-      "description": "C-suite personas, compliance OS, PM domain, and finance domain skills for enterprise client work. Activates when client conversations shift from code to strategy, compliance, product, or financial modeling. Source: alirezarezvani/claude-skills C-suite + compliance tier.",
-      "categories": ["Business", "Finance", "AI & ML"],
-      "author": "heymegabyte",
-      "repo": "heymegabyte/claude-skills",
-      "path": "17-non-engineering-verticals",
-      "commitHash": "e5992d7d81c7",
-      "files": [
-        "SKILL.md",
-        "c-suite-personas.md",
-        "compliance-os.md",
-        "finance-domain.md",
-        "pm-domain.md"
-      ]
-    },
-    {
-      "id": "heymegabyte/claude-skills/18-document-processing",
-      "name": "document-processing",
-      "description": "PDF/DOCX/XLSX/PPTX generation and parsing on Cloudflare Workers. Covers CF Browser Rendering → PDF, pdf-lib Worker-native generation, docx/exceljs output, pptxgenjs slides, and RAG-ready text extraction. Use cases: donor annual reports, SaaS invoices, tax receipts, financial reports, grant applications. Source: anthropics/skills pdf/docx/pptx/xlsx patterns.",
-      "categories": ["Data & Analytics", "Documents", "Finance", "Media"],
-      "author": "heymegabyte",
-      "repo": "heymegabyte/claude-skills",
-      "path": "18-document-processing",
-      "commitHash": "e5992d7d81c7",
-      "files": [
-        "SKILL.md",
-        "docx-xlsx.md",
-        "pdf-generation.md",
-        "pdf-parsing.md",
-        "pptx-generation.md"
-      ]
-    },
-    {
-      "id": "heymegabyte/claude-skills/19-mcp-authoring",
-      "name": "mcp-authoring",
-      "description": "When to author an MCP server, architecture overview (tools/resources/prompts), stdio vs HTTP+SSE transport tradeoffs, registration in .claude.json. Sub-modules: stdio-server-template.md (full TS code), http-server-on-workers.md (Hono + SSE on CF Workers), forge-mcp-from-openapi.md (extend forge script with --target=mcp-server). Fires when user asks to 'build an MCP server', 'expose X as an MCP tool', or 'add MCP to my Worker'.",
-      "categories": ["Development", "AI & ML"],
-      "author": "heymegabyte",
-      "repo": "heymegabyte/claude-skills",
-      "path": "19-mcp-authoring",
-      "commitHash": "e5992d7d81c7",
-      "files": [
-        "SKILL.md",
-        "forge-mcp-from-openapi.md",
-        "http-server-on-workers.md",
-        "stdio-server-template.md"
-      ]
     },
     {
       "id": "rijkvanzanten/rolling-wave-engineering/skills/debug",
