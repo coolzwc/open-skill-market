@@ -282,8 +282,11 @@ export function validateSkillQuality(parsed, body) {
     return { isValid: false, reason: "Missing or invalid name in frontmatter" };
   }
 
-  if (!/^[a-z0-9][a-z0-9-]*[a-z0-9]$|^[a-z0-9]$/.test(parsed.name)) {
-    return { isValid: false, reason: "Name must be lowercase with hyphens" };
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(parsed.name)) {
+    return {
+      isValid: false,
+      reason: "Name must use lowercase alphanumeric segments separated by single hyphens",
+    };
   }
 
   if (!parsed.description || parsed.description.length < 20) {
