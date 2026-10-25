@@ -1,0 +1,40 @@
+---
+import { ADSENSE_CLIENT } from "@/lib/adsense";
+
+interface Props {
+  /** AdSense 广告单元 slot id（在 AdSense 后台「广告单元」中获取） */
+  slot: string;
+  /** 广告格式：fluid / auto / rectangular 等，透传给 data-ad-format */
+  format?: string;
+  /** 是否使用响应式广告 */
+  responsive?: boolean;
+  /** 广告容器附加类名，用于不同页面的布局微调 */
+  class?: string;
+  /** 是否显示「广告」标注 */
+  label?: string;
+}
+
+const {
+  slot,
+  format = "fluid",
+  responsive = true,
+  class: className = "",
+  label
+} = Astro.props;
+---
+
+<div class:list={["ad-slot-wrap", className].filter(Boolean)}>
+  {label && <span class="ad-slot-label">{label}</span>}
+  <div class="ad-slot">
+    <ins
+      class="adsbygoogle"
+      style="display:block"
+      data-ad-client={ADSENSE_CLIENT}
+      data-ad-slot={slot}
+      data-ad-format={format}
+      data-full-width-responsive={responsive ? "true" : "false"}
+    ></ins>
+  </div>
+</div>
+
+<script is:inline>(adsbygoogle = window.adsbygoogle || []).push({});</script>

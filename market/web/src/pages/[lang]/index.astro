@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import SkillList from "@/components/SkillList.astro";
+import AdUnit from "@/components/AdUnit.astro";
+import { AD_SLOTS } from "@/lib/adsense";
 import { getLang, MESSAGES, type Lang } from "@/lib/i18n";
 import { loadMainMarketData, getTopStaticSkills, CDN_BASE_URL } from "@/lib/market-data";
 
@@ -132,6 +134,14 @@ const jsonLd = {
           <button class="mobile-cat-chip" data-category={category}>{category}</button>
         ))}
       </div>
+
+      <!-- AdSense：列表顶部横幅广告位 -->
+      <AdUnit
+        slot={AD_SLOTS.marketBanner}
+        format="horizontal"
+        class="ad-slot--market"
+        label={t.adLabel}
+      />
 
       <SkillList
         lang={lang}

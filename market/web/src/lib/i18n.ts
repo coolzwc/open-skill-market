@@ -114,6 +114,7 @@ type Messages = {
   qualityGood: string;
   qualityAverage: string;
   qualityFair: string;
+  adLabel: string;
 };
 
 export const MESSAGES: Record<Lang, Messages> = {
@@ -246,6 +247,7 @@ export const MESSAGES: Record<Lang, Messages> = {
     qualityGood: "Good",
     qualityAverage: "Average",
     qualityFair: "Fair",
+    adLabel: "Advertisement",
   },
   zh: {
     siteName: "Open Skill Market",
@@ -364,6 +366,7 @@ export const MESSAGES: Record<Lang, Messages> = {
     qualityGood: "良好",
     qualityAverage: "一般",
     qualityFair: "差",
+    adLabel: "广告",
   },
 };
 

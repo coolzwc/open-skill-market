@@ -1,5 +1,6 @@
 ---
 import type { Lang } from "@/lib/i18n";
+import { ADSENSE_CLIENT } from "@/lib/adsense";
 
 interface Props {
   lang: Lang;
@@ -22,6 +23,8 @@ const {
 const siteUrl = "https://skillmarket.cc";
 const canonicalUrl = `${siteUrl}${canonicalPath}`;
 const altUrl = `${siteUrl}${altPath}`;
+/** Google AdSense 发布商 ID（与 public/ads.txt 中的 pub 号保持一致） */
+const adsenseClient = ADSENSE_CLIENT;
 ---
 
 <!doctype html>
@@ -46,6 +49,16 @@ const altUrl = `${siteUrl}${altPath}`;
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- Google AdSense：is:inline + head:left 保证脚本原样输出在 <head> 内，不被打包 / 提升 -->
+    <script
+      is:inline
+      head:left
+      async
+      src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
+      data-ad-client={adsenseClient}
+      crossorigin="anonymous"
+    ></script>
+    <meta name="google-adsense-account" content={adsenseClient} />
   </head>
   <body>
     <slot />
@@ -1231,6 +1244,51 @@ const altUrl = `${siteUrl}${altPath}`;
 
   .mobile-cat-chip.active::before {
     opacity: 1;
+  }
+
+  /* ---- AdSense unit ---- */
+  .ad-slot {
+    position: relative;
+    width: 100%;
+    min-height: 90px;
+    margin: 0.75rem 0 1rem;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--bg-card);
+  }
+
+  .ad-slot ins.adsbygoogle {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .ad-slot-label {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 0.35rem;
+  }
+
+  .ad-slot--aside {
+    min-height: 250px;
+    margin: 0 0 0.75rem;
+  }
+
+  /* 列表页顶部横幅：窄屏不展示，避免挤占首屏列表空间 */
+  @media (max-width: 860px) {
+    .ad-slot--market {
+      display: none;
+    }
+  }
+
+  /* 详情页侧栏广告：窄屏下侧栏横向排列，广告独占一行 */
+  @media (max-width: 720px) {
+    .ad-slot--aside {
+      flex: 1 1 100%;
+    }
   }
 
   /* ---- Page enter animation ---- */

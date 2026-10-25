@@ -1,5 +1,7 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
+import AdUnit from "@/components/AdUnit.astro";
+import { ADSENSE_CLIENT, AD_SLOTS } from "@/lib/adsense";
 import { getLang, MESSAGES, type Lang } from "@/lib/i18n";
 import { CDN_BASE_URL } from "@/lib/market-data";
 
@@ -194,6 +196,14 @@ const altPath = `/${altLang}/skill/`;
                 <svg class="ext-icon" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
               </a>
             </div>
+            <!-- AdSense：详情页右侧栏矩形广告位 -->
+            <AdUnit
+              slot={AD_SLOTS.detailAside}
+              format="rectangle"
+              responsive={false}
+              class="ad-slot--aside"
+              label={t.adLabel}
+            />
             <div class="aside-card" id="aside-files-wrap" style="display:none;">
               <h3 class="aside-card-title">{t.files}</h3>
               <ul class="file-list" id="aside-files"></ul>
@@ -231,6 +241,21 @@ const altPath = `/${altLang}/skill/`;
               </div>
             </div>
           </aside>
+        </div>
+      </div>
+
+      <!-- AdSense：详情页正文底部横幅广告位（ins 占位，内容由客户端渲染完成后才展示） -->
+      <div class="detail-bottom-ad">
+        <span class="ad-slot-label">{t.adLabel}</span>
+        <div class="ad-slot">
+          <ins
+            class="adsbygoogle"
+            style="display:block"
+            data-ad-client={ADSENSE_CLIENT}
+            data-ad-slot={AD_SLOTS.detailBanner}
+            data-ad-format="horizontal"
+            data-full-width-responsive="true"
+          ></ins>
         </div>
       </div>
     </div>
@@ -493,6 +518,13 @@ const altPath = `/${altLang}/skill/`;
     showContent();
     renderSkill(skill);
 
+    // 详情内容渲染完成后，激活底部横幅广告
+    var bottomAd = document.querySelector(".detail-bottom-ad");
+    if (bottomAd) {
+      bottomAd.style.display = "block";
+      try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
+    }
+
     var tabs = document.querySelectorAll(".install-tab");
     var panels = document.querySelectorAll(".install-body[data-panel]");
     tabs.forEach(function (tab) {
@@ -671,6 +703,7 @@ const altPath = `/${altLang}/skill/`;
   .aside-quality-score-fill.quality-average { background: linear-gradient(90deg, #f59e0b, #fbbf24); }
   .aside-quality-score-fill.quality-fair { background: linear-gradient(90deg, #f87171, #ef4444); }
   .aside-score-value { font-family: "JetBrains Mono", monospace; font-size: 0.72rem; color: var(--text-soft); }
+  .detail-bottom-ad { display: none; margin-top: 1.5rem; }
   @media (max-width: 720px) {
     .detail-grid { grid-template-columns: 1fr; }
     .detail-aside { flex-direction: row; flex-wrap: wrap; }
