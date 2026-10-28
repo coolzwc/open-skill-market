@@ -1,0 +1,314 @@
+---
+import ContentLayout from "@/layouts/ContentLayout.astro";
+import { getLang, MESSAGES, type Lang } from "@/lib/i18n";
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  return [{ params: { lang: "en" } }, { params: { lang: "zh" } }];
+}
+
+const lang = getLang(Astro.params.lang) as Lang;
+const t = MESSAGES[lang];
+
+const features = [
+  {
+    icon: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>`,
+    title: t.aboutCardDiscover,
+    desc: t.aboutCardDiscoverDesc
+  },
+  {
+    icon: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>`,
+    title: t.aboutCardInstall,
+    desc: t.aboutCardInstallDesc
+  },
+  {
+    icon: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg>`,
+    title: t.aboutCardScan,
+    desc: t.aboutCardScanDesc
+  },
+  {
+    icon: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>`,
+    title: t.aboutCardUniversal,
+    desc: t.aboutCardUniversalDesc
+  }
+];
+---
+
+<ContentLayout
+  lang={lang}
+  slug="about"
+  title={`${t.aboutTitle} | ${t.siteName}`}
+  description={t.aboutDesc}
+>
+  <!-- Page title -->
+  <div class="page-hero animate-in">
+    <div class="page-hero-icon">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+    </div>
+    <h1>{t.aboutTitle}</h1>
+    <p class="page-intro">{t.aboutIntro}</p>
+  </div>
+
+  <!-- Mission -->
+  <section class="page-section animate-in delay-1">
+    <h2 class="page-section-title">{t.aboutMission}</h2>
+    <p class="page-text">{t.aboutMissionDesc}</p>
+  </section>
+
+  <!-- What we do -->
+  <section class="page-section animate-in delay-2">
+    <h2 class="page-section-title">{t.aboutWhatWeDo}</h2>
+    <p class="page-text">{t.aboutWhatWeDoDesc}</p>
+    <div class="feature-grid">
+      {features.map((f) => (
+        <div class="feature-card">
+          <div class="feature-icon" set:html={f.icon} />
+          <h3>{f.title}</h3>
+          <p>{f.desc}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="page-section animate-in delay-3">
+    <h2 class="page-section-title">{t.aboutHowItWorks}</h2>
+    <p class="page-text">{t.aboutHowItWorksDesc}</p>
+    <div class="steps">
+      <div class="step">
+        <span class="step-num">01</span>
+        <span class="step-text">{lang === "zh" ? "爬取公开仓库中的 SKILL.md" : "Crawl public repos for SKILL.md"}</span>
+      </div>
+      <div class="step">
+        <span class="step-num">02</span>
+        <span class="step-text">{lang === "zh" ? "解析清单并做安全与质量扫描" : "Parse manifests & run security/quality scans"}</span>
+      </div>
+      <div class="step">
+        <span class="step-num">03</span>
+        <span class="step-text">{lang === "zh" ? "发布为开放的 JSON 注册表" : "Publish an open JSON registry"}</span>
+      </div>
+      <div class="step">
+        <span class="step-num">04</span>
+        <span class="step-text">{lang === "zh" ? "网站与 CLI 读取同一份数据" : "Website & CLI read the same data"}</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Open source -->
+  <section class="page-section animate-in delay-4">
+    <h2 class="page-section-title">{t.aboutOpenSource}</h2>
+    <p class="page-text">{t.aboutOpenSourceDesc}</p>
+    <div class="cta-row">
+      <a class="cta-btn" href="https://github.com/coolzwc/open-skill-market" target="_blank" rel="noreferrer">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.694.825.576C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/></svg>
+        {t.aboutOpenSourceCta}
+      </a>
+      <a class="cta-btn ghost" href={`/${lang}/contact/`}>{t.navContact}</a>
+    </div>
+  </section>
+</ContentLayout>
+
+<style>
+  /* ---- Hero ---- */
+  .page-hero {
+    margin-bottom: 2.5rem;
+  }
+
+  .page-hero-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(110,231,183,0.12), rgba(103,232,249,0.08));
+    border: 1px solid rgba(110,231,183,0.15);
+    color: var(--accent);
+    margin-bottom: 1rem;
+  }
+
+  .page-hero h1 {
+    font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+    font-weight: 700;
+    line-height: 1.2;
+    background: linear-gradient(135deg, var(--accent), var(--cyan));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.75rem;
+  }
+
+  .page-intro {
+    color: var(--text-soft);
+    font-size: 1rem;
+    line-height: 1.7;
+    max-width: 60ch;
+  }
+
+  /* ---- Section ---- */
+  .page-section {
+    margin-bottom: 2.25rem;
+  }
+
+  .page-section-title {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+    margin-bottom: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .page-section-title::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 2px;
+    background: var(--accent);
+    border-radius: 1px;
+  }
+
+  .page-text {
+    color: var(--text-soft);
+    font-size: 0.92rem;
+    line-height: 1.65;
+  }
+
+  /* ---- Feature grid ---- */
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+
+  .feature-card {
+    padding: 1.1rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--bg-card);
+    transition: border-color 180ms ease, background 180ms ease, transform 180ms ease;
+  }
+
+  .feature-card:hover {
+    border-color: var(--line-bright);
+    background: var(--bg-card-hover);
+    transform: translateY(-2px);
+  }
+
+  .feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 9px;
+    background: rgba(110,231,183,0.08);
+    border: 1px solid rgba(110,231,183,0.12);
+    color: var(--accent);
+    margin-bottom: 0.65rem;
+  }
+
+  .feature-card h3 {
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 0.3rem;
+  }
+
+  .feature-card p {
+    font-size: 0.82rem;
+    color: var(--text-dim);
+    line-height: 1.55;
+  }
+
+  /* ---- Steps ---- */
+  .steps {
+    margin-top: 1rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--bg-card);
+    overflow: hidden;
+  }
+
+  .step {
+    display: flex;
+    align-items: baseline;
+    gap: 0.85rem;
+    padding: 0.7rem 1rem;
+    border-bottom: 1px solid var(--line);
+    transition: background 160ms ease;
+  }
+
+  .step:last-child {
+    border-bottom: none;
+  }
+
+  .step:hover {
+    background: rgba(110,231,183,0.02);
+  }
+
+  .step-num {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--cyan);
+    flex-shrink: 0;
+  }
+
+  .step-text {
+    font-size: 0.86rem;
+    color: var(--text-soft);
+    line-height: 1.5;
+  }
+
+  /* ---- CTA ---- */
+  .cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 1rem;
+  }
+
+  .cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.55rem 0.9rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--accent);
+    border: 1px solid rgba(110,231,183,0.25);
+    background: rgba(110,231,183,0.06);
+    transition: all 180ms ease;
+  }
+
+  .cta-btn:hover {
+    background: rgba(110,231,183,0.14);
+    border-color: rgba(110,231,183,0.45);
+    transform: translateY(-1px);
+  }
+
+  .cta-btn.ghost {
+    color: var(--text-soft);
+    border-color: var(--line-bright);
+    background: transparent;
+  }
+
+  .cta-btn.ghost:hover {
+    color: var(--text);
+    background: rgba(255,255,255,0.04);
+  }
+
+  @media (max-width: 600px) {
+    .feature-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

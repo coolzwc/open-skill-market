@@ -263,7 +263,16 @@ const flags = [
     </div>
 
     <footer class="site-footer">
-      &copy; {new Date().getFullYear()} <a href="https://github.com/coolzwc/open-skill-market" target="_blank" rel="noreferrer">Open Skill Market</a>. MIT License.
+      <div class="footer-links">
+        <a href={`/${lang}/about/`}>{t.navAbout}</a>
+        <span class="footer-sep">·</span>
+        <a href={`/${lang}/contact/`}>{t.navContact}</a>
+        <span class="footer-sep">·</span>
+        <a href={`/${lang}/guide/`}>{t.navGuide}</a>
+      </div>
+      <div>
+        &copy; {new Date().getFullYear()} <a href="https://github.com/coolzwc/open-skill-market" target="_blank" rel="noreferrer">Open Skill Market</a>. MIT License.
+      </div>
     </footer>
   </main>
 </BaseLayout>

@@ -6,7 +6,13 @@ export const GET: APIRoute = async () => {
   const siteUrl = "https://skillmarket.cc";
   const urls: string[] = [
     `${siteUrl}/en/`,
-    `${siteUrl}/zh/`
+    `${siteUrl}/zh/`,
+    `${siteUrl}/en/guide/`,
+    `${siteUrl}/zh/guide/`,
+    `${siteUrl}/en/about/`,
+    `${siteUrl}/zh/about/`,
+    `${siteUrl}/en/contact/`,
+    `${siteUrl}/zh/contact/`
   ];
 
   for (const skill of skills) {

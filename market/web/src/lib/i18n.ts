@@ -115,6 +115,39 @@ type Messages = {
   qualityAverage: string;
   qualityFair: string;
   adLabel: string;
+  navAbout: string;
+  navContact: string;
+  aboutTitle: string;
+  aboutDesc: string;
+  aboutIntro: string;
+  aboutMission: string;
+  aboutMissionDesc: string;
+  aboutWhatWeDo: string;
+  aboutWhatWeDoDesc: string;
+  aboutCardDiscover: string;
+  aboutCardDiscoverDesc: string;
+  aboutCardInstall: string;
+  aboutCardInstallDesc: string;
+  aboutCardScan: string;
+  aboutCardScanDesc: string;
+  aboutCardUniversal: string;
+  aboutCardUniversalDesc: string;
+  aboutHowItWorks: string;
+  aboutHowItWorksDesc: string;
+  aboutOpenSource: string;
+  aboutOpenSourceDesc: string;
+  aboutOpenSourceCta: string;
+  contactTitle: string;
+  contactDesc: string;
+  contactIntro: string;
+  contactEmail: string;
+  contactEmailDesc: string;
+  contactGithub: string;
+  contactGithubDesc: string;
+  contactIssues: string;
+  contactIssuesDesc: string;
+  contactResponse: string;
+  contactResponseDesc: string;
 };
 
 export const MESSAGES: Record<Lang, Messages> = {
@@ -227,6 +260,7 @@ export const MESSAGES: Record<Lang, Messages> = {
     guideSecurity: "Security & Quality Checks",
     guideSecurityDesc:
       "During installation, the CLI automatically scans skills for security risks (dangerous code, credential access) and quality metrics (documentation, structure). Use --force to skip prompts.",
+    guideToolPaths: "Tool Paths",
     guideToolPathsDesc:
       "Each tool has a default directory. You can override it with --dir.",
     downloadZip: "Download",
@@ -248,6 +282,53 @@ export const MESSAGES: Record<Lang, Messages> = {
     qualityAverage: "Average",
     qualityFair: "Fair",
     adLabel: "Advertisement",
+    navAbout: "About",
+    navContact: "Contact",
+    aboutTitle: "About Us",
+    aboutDesc:
+      "Learn about Open Skill Market — an open, community-driven registry of AI agent skills.",
+    aboutIntro:
+      "Open Skill Market is an open, community-driven registry of AI agent skills. We index SKILL.md packages published across GitHub and make them easy to discover, install, and manage for every major AI coding assistant.",
+    aboutMission: "Our Mission",
+    aboutMissionDesc:
+      "Skill definitions are scattered across thousands of repositories and locked into individual tools. We believe a good skill should be written once and work everywhere — so we built one open index that any tool can read from.",
+    aboutWhatWeDo: "What We Do",
+    aboutWhatWeDoDesc:
+      "We continuously crawl public repositories for SKILL.md files, validate and categorise each skill, then publish a single open registry.",
+    aboutCardDiscover: "Discover",
+    aboutCardDiscoverDesc:
+      "Search thousands of skills by name, description, author, or tag.",
+    aboutCardInstall: "Install",
+    aboutCardInstallDesc:
+      "Install any skill with a single npx command — no global setup required.",
+    aboutCardScan: "Scan",
+    aboutCardScanDesc:
+      "Every skill is checked for security risks and documentation quality.",
+    aboutCardUniversal: "Universal",
+    aboutCardUniversalDesc:
+      "One registry for Cursor, Claude Code, Codex CLI, GitHub Copilot, and more.",
+    aboutHowItWorks: "How It Works",
+    aboutHowItWorksDesc:
+      "A scheduled crawler scans public GitHub repositories for SKILL.md files, parses each manifest, and stores the results in an open JSON registry. The website and the CLI both read from that same registry, so what you see here is always in sync with what you can install.",
+    aboutOpenSource: "Open Source",
+    aboutOpenSourceDesc:
+      "Open Skill Market is MIT licensed and built in the open. New skills, contributions, and bug reports are all welcome.",
+    aboutOpenSourceCta: "Star us on GitHub",
+    contactTitle: "Contact Us",
+    contactDesc: "Get in touch with the Open Skill Market team.",
+    contactIntro:
+      "Questions, feedback, a skill you would like removed, or an idea for a new feature? We would love to hear from you.",
+    contactEmail: "Email",
+    contactEmailDesc: "The fastest way to reach us — we read every message.",
+    contactGithub: "GitHub",
+    contactGithubDesc:
+      "Open an issue for bugs, skill submissions, or feature requests.",
+    contactIssues: "Report an issue",
+    contactIssuesDesc:
+      "Found a broken skill, a security concern, or incorrect metadata? Open an issue and we will take a look.",
+    contactResponse: "Response Time",
+    contactResponseDesc:
+      "We usually reply within a few business days. For security reports, please say so in the subject so we can prioritise them.",
   },
   zh: {
     siteName: "Open Skill Market",
@@ -347,6 +428,7 @@ export const MESSAGES: Record<Lang, Messages> = {
     guideSecurity: "安全与质量检测",
     guideSecurityDesc:
       "安装过程中，CLI 会自动扫描技能的安全风险（危险代码、凭证访问）和质量指标（文档、结构）。使用 --force 可跳过提示。",
+    guideToolPaths: "工具路径",
     guideToolPathsDesc: "每个工具有默认目录，可通过 --dir 覆盖。",
     downloadZip: "下载",
     securityTitle: "安全信息",
@@ -367,6 +449,48 @@ export const MESSAGES: Record<Lang, Messages> = {
     qualityAverage: "一般",
     qualityFair: "差",
     adLabel: "广告",
+    navAbout: "关于我们",
+    navContact: "联系我们",
+    aboutTitle: "关于我们",
+    aboutDesc: "了解 Open Skill Market —— 一个开放、社区驱动的 AI 技能注册表。",
+    aboutIntro:
+      "Open Skill Market 是一个开放、社区驱动的 AI 技能注册表。我们收录散落在 GitHub 上的 SKILL.md 技能包，让你能轻松地发现、安装和管理适用于主流 AI 编程助手的技能。",
+    aboutMission: "我们的使命",
+    aboutMissionDesc:
+      "技能定义分散在成千上万个仓库里，并被各个工具锁定。我们相信，一个好的技能应该「编写一次，处处可用」——因此我们构建了一个任何工具都能读取的开放索引。",
+    aboutWhatWeDo: "我们做什么",
+    aboutWhatWeDoDesc:
+      "我们持续爬取公开仓库中的 SKILL.md 文件，对每项技能进行校验与分类，并发布为统一的开放注册表。",
+    aboutCardDiscover: "发现",
+    aboutCardDiscoverDesc: "按名称、描述、作者或标签搜索数千个技能。",
+    aboutCardInstall: "安装",
+    aboutCardInstallDesc: "一条 npx 命令即可安装任意技能，无需全局配置。",
+    aboutCardScan: "扫描",
+    aboutCardScanDesc: "每项技能都会经过安全风险与文档质量检查。",
+    aboutCardUniversal: "通用",
+    aboutCardUniversalDesc:
+      "一个注册表同时支持 Cursor、Claude Code、Codex CLI、GitHub Copilot 等。",
+    aboutHowItWorks: "运作方式",
+    aboutHowItWorksDesc:
+      "定时任务会扫描公开 GitHub 仓库中的 SKILL.md 文件，解析每份清单，并将结果存入开放的 JSON 注册表。网站与 CLI 都读取同一份注册表，因此你在这里看到的内容始终与可安装的内容保持同步。",
+    aboutOpenSource: "开源",
+    aboutOpenSourceDesc:
+      "Open Skill Market 采用 MIT 许可，完全开源共建。欢迎提交技能、贡献代码或反馈问题。",
+    aboutOpenSourceCta: "在 GitHub 上为我们点星",
+    contactTitle: "联系我们",
+    contactDesc: "与 Open Skill Market 团队取得联系。",
+    contactIntro:
+      "有问题、建议、希望下架某个技能，或有新功能的想法？欢迎随时与我们联系。",
+    contactEmail: "邮箱",
+    contactEmailDesc: "联系我们最快的方式，每一封邮件我们都会阅读。",
+    contactGithub: "GitHub",
+    contactGithubDesc: "提交 issue 反馈缺陷、推荐技能或提出功能需求。",
+    contactIssues: "提交问题",
+    contactIssuesDesc:
+      "发现失效的技能、安全隐患或元数据错误？提交 issue，我们会及时处理。",
+    contactResponse: "响应时间",
+    contactResponseDesc:
+      "我们通常在几个工作日内回复。若为安全问题，请在标题中注明，以便我们优先处理。",
   },
 };
 
