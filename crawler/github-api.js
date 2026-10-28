@@ -612,8 +612,10 @@ async function processRepoFromArchive(
  */
 export async function searchRepositoriesByTopic(workerPool, topic) {
   const repos = [];
+  const maxRetries = CONFIG.rateLimit.maxRetries || 3;
+  let page = 1;
 
-  for (let page = 1; page <= CONFIG.maxPages; page++) {
+  while (page <= CONFIG.maxPages) {
     if (shouldStopForTimeout()) {
       break;
     }
@@ -633,50 +635,84 @@ export async function searchRepositoriesByTopic(workerPool, topic) {
       }
     }
 
-    const client = workerPool.getSearchClient();
-    if (!client) {
-      // All search clients limited — shouldn't happen after the wait loop, but be safe
-      break;
-    }
-
-    try {
-      const starsQualifier =
-        CONFIG.minStarsTopicSearch > 0
-          ? ` stars:>=${CONFIG.minStarsTopicSearch}`
-          : "";
-      const response = await client.octokit.rest.search.repos({
-        q: `topic:${topic}${starsQualifier}`,
-        sort: "stars",
-        order: "desc",
-        per_page: CONFIG.perPage,
-        page,
-      });
-
-      workerPool.updateSearchRateLimit(client, response);
-      repos.push(...response.data.items);
-
-      console.log(
-        `    Page ${page}: Found ${response.data.items.length} repos (Total: ${repos.length})`,
-      );
-
-      if (response.data.items.length < CONFIG.perPage) {
+    // Retry the same page on rate-limit, but bound the retries so a persistent
+    // 403/secondary-limit (which may send no x-ratelimit-reset header) cannot
+    // spin forever — the previous `page--` cancelled out the for-loop's
+    // `page++`, trapping the loop on the same failing page indefinitely.
+    let retries = 0;
+    while (true) {
+      const client = workerPool.getSearchClient();
+      if (!client) {
+        // No client available — give up on this topic
+        page = CONFIG.maxPages + 1;
         break;
       }
 
-      await sleep(CONFIG.rateLimit.waitAfterSearch);
-    } catch (error) {
-      if (error.status === 403 || error.status === 429) {
-        const resetTime = error.response?.headers?.["x-ratelimit-reset"]
-          ? parseInt(error.response.headers["x-ratelimit-reset"], 10) * 1000
-          : null;
-        workerPool.markSearchLimited(client, resetTime);
-        // Retry this page with next available client
-        page--;
-      } else {
-        console.error(`  Error searching topic ${topic}: ${error.message}`);
-        break;
+      try {
+        const starsQualifier =
+          CONFIG.minStarsTopicSearch > 0
+            ? ` stars:>=${CONFIG.minStarsTopicSearch}`
+            : "";
+        const response = await client.octokit.rest.search.repos({
+          q: `topic:${topic}${starsQualifier}`,
+          sort: "stars",
+          order: "desc",
+          per_page: CONFIG.perPage,
+          page,
+        });
+
+        workerPool.updateSearchRateLimit(client, response);
+        repos.push(...response.data.items);
+
+        console.log(
+          `    Page ${page}: Found ${response.data.items.length} repos (Total: ${repos.length})`,
+        );
+
+        if (response.data.items.length < CONFIG.perPage) {
+          // No more pages for this topic
+          page = CONFIG.maxPages + 1;
+        } else {
+          await sleep(CONFIG.rateLimit.waitAfterSearch);
+        }
+        break; // success → leave retry loop
+      } catch (error) {
+        if (error.status === 403 || error.status === 429) {
+          retries++;
+          if (retries > maxRetries) {
+            console.error(
+              `  Rate limited on topic "${topic}" page ${page} after ${maxRetries} retries; skipping remaining pages.`,
+            );
+            page = CONFIG.maxPages + 1; // stop this topic
+            break;
+          }
+          const resetTime = error.response?.headers?.["x-ratelimit-reset"]
+            ? parseInt(error.response.headers["x-ratelimit-reset"], 10) * 1000
+            : null;
+          workerPool.markSearchLimited(client, resetTime);
+          // Wait for reset before retrying the same page (bounded by maxRetries)
+          while (workerPool.allSearchClientsLimited()) {
+            if (shouldStopForTimeout()) return repos;
+            const nextReset = workerPool.getNextSearchResetTime();
+            const waitTime = nextReset - Date.now();
+            if (waitTime > 0) {
+              logRateLimitWait(Math.ceil(waitTime / 1000));
+              await sleep(
+                Math.min(waitTime + 1000, CONFIG.rateLimit.maxWaitForReset),
+              );
+            } else {
+              await sleep(CONFIG.rateLimit.waitOnLimitedFallback);
+            }
+          }
+          // loop again to retry the same page
+        } else {
+          console.error(`  Error searching topic ${topic}: ${error.message}`);
+          page = CONFIG.maxPages + 1; // stop this topic on non-rate-limit error
+          break;
+        }
       }
     }
+
+    page++;
   }
 
   return repos;

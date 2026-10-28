@@ -29,6 +29,11 @@ on:
         required: false
         default: "false"
         type: boolean
+      rerun_count:
+        description: "Internal: automatic re-run counter (do not set manually)"
+        required: false
+        default: "0"
+        type: string
 
   # Also run on push to main when skills or crawler changes
   push:
@@ -204,13 +209,28 @@ jobs:
       # meta explicitly says incomplete (rateLimited/timedOut). zipTimedOut alone
       # is NOT a reason to re-trigger the full crawl — pending zips are handled
       # in resume mode on the next scheduled run, avoiding infinite dispatch loops.
+      # To prevent an infinite re-trigger loop (e.g. when the crawl is perpetually
+      # incomplete due to persistent rate limiting or a recurring crash), an
+      # automatic re-run counter (rerun_count) caps the chain. Once MAX_RERUNS is
+      # reached the workflow stops and waits for the next scheduled (daily) run.
       # Requires WORKFLOW_DISPATCH_TOKEN (PAT with "workflow" scope); GITHUB_TOKEN cannot trigger new runs.
       - name: Re-trigger workflow if incomplete
         if: failure() || (success() && steps.crawl_complete.outputs.complete == 'false')
         env:
           TOKEN: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
+          RERUN_COUNT: ${{ github.event.inputs.rerun_count || '0' }}
         run: |
           CRAWL_FAILED="${{ steps.run_crawler.outcome != 'success' }}"
+
+          # Cap automatic re-runs to avoid an infinite dispatch loop when the
+          # crawl keeps ending up incomplete (rate limit / timeout). The next
+          # scheduled daily run will pick it up again after quota resets.
+          MAX_RERUNS=8
+          if [ "${RERUN_COUNT:-0}" -ge "$MAX_RERUNS" ]; then
+            echo "Reached max automatic re-runs ($MAX_RERUNS); stopping to avoid infinite loop. The next scheduled run will retry."
+            exit 0
+          fi
+
           if [ "$CRAWL_FAILED" = "true" ]; then
             echo "Crawl step failed (e.g. timeout), will re-trigger so next run can resume."
             INCOMPLETE=yes
@@ -226,10 +246,11 @@ jobs:
             echo "Set a PAT with workflow scope to enable auto re-run until complete."
             exit 0
           fi
-          echo "Crawl incomplete (rate limit/timeout or step failed), triggering workflow again..."
+          NEXT_COUNT=$(( ${RERUN_COUNT:-0} + 1 ))
+          echo "Crawl incomplete (rate limit/timeout or step failed), triggering workflow again (re-run $NEXT_COUNT/$MAX_RERUNS)..."
           curl -sS -X POST \
             -H "Authorization: token $TOKEN" \
             -H "Accept: application/vnd.github.v3+json" \
             "https://api.github.com/repos/${{ github.repository }}/actions/workflows/crawl.yml/dispatches" \
-            -d '{"ref":"main"}'
+            -d "{\"ref\":\"main\",\"inputs\":{\"rerun_count\":\"$NEXT_COUNT\"}}"
           echo "Workflow re-triggered (queued by concurrency)."
