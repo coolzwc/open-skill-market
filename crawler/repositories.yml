@@ -7,6 +7,7 @@
 #     - anthropics/skills
 #     - github/awesome-copilot
 
+
 priority:
   - anthropics/skills
   - vercel-labs/agent-skills
@@ -14,3 +15,4 @@ priority:
   - agentskills/agentskills
   - vuejs-ai/skills
   - huggingface/skills
+  - aloow/lfs-video-face-swap
