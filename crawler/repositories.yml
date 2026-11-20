@@ -7,7 +7,6 @@
 #     - anthropics/skills
 #     - github/awesome-copilot
 
-
 priority:
   - anthropics/skills
   - vercel-labs/agent-skills
